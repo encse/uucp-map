@@ -1,0 +1,256 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ar.1
+: This archive created: Wed Jan  8 05:06:38 1992
+echo shar: extracting u.usa.ar.1
+cat << 'SHAR_EOF' > u.usa.ar.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Nov 17 13:30:46 MST 1991
+
+#N	actsn.fay.ar.us, actsn
+#F	ENGR.UARK.EDU
+#S	JDR AMI 386 25Mhz; Xenix System V/386 Release 2.3.2
+#O	All Church Technical Service
+#C	David Summers
+#E	david@actsn.fay.ar.us
+#T	+1 501 442 5558
+#P	1640 Rockwood Trail, Fayetteville, Arkansas 72701
+#L	36 04 10 N / 094 08 30 W
+#R	This was the first entry in Arkansas! (circa 1987)
+#U	uark
+#W	david@actsn.fay.ar.us (David Summers) ; 11/7/90 11:06:18
+
+actsn = actsn.fay.ar.us
+# Local sites
+actsn	uark(HOURLY*2), fbcfarm(DAILY), fbcnwa(DAILY), missions(DAILY)
+# Long distance sites
+actsn	romed(DAILY)
+
+
+#N	ark, ark.sbc.com
+#S	AT&T 3B4000 ; UNIX SVR3.1.1
+#O	Southwestern Bell Telephone Co.
+#C	Fred Knod
+#E	pelfpk@ark.sbc.com
+#T	+1 501-373-5330
+#P	1111 W. Capitol, Rm. 773
+#L	34 45 N / 92 17 W
+#R	news 2.11, smail 2.5
+#U	texbell
+#W	postmaster@sbc.com ; Mon, 18 Mar 91 07:00 CST
+#
+#
+ark = ark.sbc.com
+ark	arbud(DIRECT), arksv(DIRECT), arso01(DIRECT), lrdsma(DIRECT),
+	lrles1(DIRECT), npsar(DIRECT), oktext(DEMAND), rtpuxf(DEMAND),
+	sw1sed(DEDICATED), sw3a(DEDICATED), sw3j(DEDICATED), sw3ras(DIRECT),
+	swbatl(LOCAL), swcscan(DEMAND), swgate(DEDICATED), swuts(DEDICATED),
+	texbell(LOCAL), tnessd(LOCAL), dalcac(DEDICATED), cuuxb(DEMAND),
+	gonzo(DEDICATED), sw1a7(DEDICATED), tnessh(LOCAL), txss01(DEMAND),
+	1asc1(DEMAND), 2bsc3(DEMAND), dscc(DEMAND), kando(DEMAND),
+	slapes(DEMAND), sw1z(DEDICATED), noah(LOCAL), txss01(DEMAND),
+	shots(DEMAND), lrscc(DEMAND)
+
+
+
+#N	ddi1
+#S	Prime EXL320; Unix 5.3.2
+#O	Data Decisions, Inc.
+#C	Don Reaves
+#E	ddi1!don
+#T	+1 501 221 7220
+#P	650 S Shackleford Rd., 1 Financial Cen.,Suite 340, Little Rock,AR 72211
+#L	34 44 N / 92 17 W city
+#R
+#W	don@ddi1.UUCP (Don Reaves); Tue Nov  13 20:33:43 EDT 1990
+#U
+#
+ddi1	uunet(DEMAND),
+	lrark(DIRECT)
+
+
+#N    glsrk
+#S    att 3b1; Sys V UNIX
+#O    individual,private workstation - used as a message server for ForthNet
+#C    Gary Smith
+#E    glsrk!gars
+#T    +1 501 227 7817
+#P    409 Sunnymeade Dr, Little Rock, AR 72205
+#L    34 44 42 N /  92 16 37 W city
+#R    limited news from lrark
+#U    
+#W    glsrk!gars (Gary L. Smith); Sat Jan 12 20:14:12 MST 1991
+#
+glsrk lrark(DAILY)
+
+
+
+#N	lrark
+#S	Opti Systems Xenix 386
+#O	Little Rock Tech Users Group
+#C	Ricky Mobley
+#E	lrark!rick
+#T	+1 501 225 0628
+#P	1800 Sanford Drive #4, Little Rock, AR 72207
+#L	34 47 N / 92 23 W
+#R	Technical Programmers BBS, news 2.11, smail 2.5
+#R	argate - WD5B Arkansas packet gateway - Rich Duncan
+#R	ddi1   - Data Decisions, Inc. - Don Reaves 501 221-7220
+#R	glsrk  - GEnie Co-Sysop - Gary Smith - 501 227-7817
+#R	kc5jh  - KC5JH - Don Reaves 501 835-5614
+#U	ddi1
+#W	lrark!rick (Rick Mobley); Tue Sep 3 23:56:00 CST 1991
+#
+lrark   argate(DIRECT),
+	ddi1(DIRECT),
+ 	glsrk(DIRECT),
+ 	kc5jh(DIRECT)
+
+
+#N	ncatfyv
+#S	Intel 386; Unix System V/386 Release 3.2
+#O	National Center for Appropriate Technology - Fayetteville
+#C	Lee Clanton
+#E	ncatfyv!leec
+#T	+1 501 442 9824
+#P	1175 West Cleveland, Fayetteville, AR 72701
+#L	36 04 10 N / 094 08 30 W City
+#R	Appropriate Technology for Rural Areas (ATTRA)
+#U	uark
+#W	sci386!ecooley (Ed Cooley) ; Fri Sep  13 17:45:00 CDT 1991
+
+ncatfyv	sci386(DEMAND), uark(DEMAND)
+
+
+#N	noah
+#S	AT&T 7040 ; Pyramid OSx 5.0
+#O	Southwestern Bell Telephone Co.
+#C	Fred Knod
+#E	fk6508@noah.UUCP
+#T	+1 501-373-5330
+#P	1111 W. Capitol, Rm. 785
+#L	34 45 N / 92 17 W
+#R	news 2.11, smail 2.5
+#U	texbell
+#W	noah!root (Fred Knod) ; Wed Sep 19 09:20:11 CDT 1990
+#
+#
+noah = noah.swbt.com
+noah	texbell(LOCAL),
+	tnessd(DEMAND),
+	ark(LOCAL)
+
+
+
+#N	nwark, f1060.n391.z1.fidonet.org
+#F	engr.uark.edu
+#S	386 20 Mhz Cached; MS-Dos 5.0
+#O	private - FidoNet
+#C	Kenneth Whelan
+#E	nwark!postmaster
+#T	+1 501 443 3163
+#P	2755 Sierra Fayetteville, Ar  72703
+#L	36 04 10 N / 094 08 30 W city
+#U	uark
+#R	Fido 1:391/1060 running FREDGATE,
+#W	stjhmc!ddodell (David Dodell); Thu Oct 03 06:30:00 MST 1991
+#
+#	approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+nwark	.n391.z1.fidonet.org, f37.n19.z1.fidonet.org, f100.n330.z1.fidonet.org
+nwark=	nwark.fidonet.org, f1060.n391.z1.fidonet.org
+nwark	uark(EVENING)
+
+
+
+#N	sci386
+#S	Intel 386; Unix System V/386 Release 3.2
+#O	Strategic Concepts, Inc.
+#C	Ed Cooley
+#E	sci386!ecooley
+#T	+1 501 636 8152
+#P	132 Kelly Drive, Rogers, Arkansas 72756
+#L	36 22 20 N / 094 06 50 W
+#R
+#U	uafcseg
+#W	sci386!ecooley (Ed Cooley) ; Thu November 7 09:00:00 CDT 1991
+ 
+sci386	uark(DAILY/2), ncatfyv(DEMAND)
+
+
+
+#N	shinobi
+#S	Leading Technology 12/286MX; Coherent 3.1.0
+#O	private - two user workstation
+#C	James Ward
+#E	shinobi!shadow
+#T	+1 501 444 9670
+#P	2041 Easy Fayetteville, Ar  72703
+#L	36 04 10 N / 094 08 30 W city
+#U	uark
+#R	$99 operating system on a $999 computer - Unix Utopia!
+#W	shinobi!shadow (Only the Shadow Knows) ; 01/29/91 14:52:50
+
+# Local sites
+shinobi	uark(HOURLY)
+# Long distance sites
+shinobi	mwcbbs(DEMAND)
+
+
+
+#N	steph
+#S	Tandy 4000
+#O	Stephens Co.
+#C	James H. Fuller
+#E	steph!root
+#T	+1 501 377 2439
+#P	P.O. Box 91, Mabelvale, AR 72103
+#L	34 42 N / 92 17 W city
+#R	previously called intrepid
+#W	rick@uunet.UU.NET (Rick Adams); Mon Jul 25 10:55:25 EDT 1988
+#U
+#
+steph	uunet(DEMAND)
+
+
+#N	.uark.edu, uark
+#S	SUN SparcServer 490; SunOS 4.1.1
+#O	University of Arkansas, Fayetteville
+#C	Chris Corke
+#E	chrisc@uafhp.uark.edu
+#T	+1 501 575 2905
+#P	Admin. Services Building, MS ADSB 220, Fayetteville, Arkansas, 72701
+#L	36 04 10 N / 094 10 00 W
+#R	IP Address: 130.184.68.10 csegbbs1.uark.edu (The BBS machine)
+#R	IP Address: 130.184.64.233 engr.uark.edu  (The UUCP Mail gateway
+#R	   and NetNews NNTP machine)
+#R	IP Address: 130.184.7.103  uafhp.uark.edu   (The Domain Name Server)
+#R
+#R	Try out our BBS! 'telnet csegbbs1.uark.edu' and login as 'bbs'.
+#R	(or dial 1-501-575-7280, 300/1200/2400 baud MNP)
+#R
+#R	$Id: map.uark,v 1.3 1991/11/06 03:13:09 dws Exp $
+#R
+#U	University: All of our now very numerous machines that are able.
+#U	Local: actsn, nwark
+#U      Non-Local: news.ksu.ksu.edu sci386
+#W	dws@engr.uark.edu (David Summers) ; $Date: 1991/11/06 03:13:09 $
+
+#Domain info.
+uark	.uark.edu
+uark = .uark.edu
+uark = engr.uark.edu
+
+# Local UUCP connections.
+uark	actsn(DEMAND), dhobbs(POLLED), ncatfyv(POLLED), nwark(POLLED),
+	shinobi(POLLED)
+
+# Non-Local UUCP connections
+uark	sci386(POLLED), depot(DEMAND)
+
+# EOF for map file: u.usa.ar.1
+SHAR_EOF
+:	End of shell archive
+exit 0
+

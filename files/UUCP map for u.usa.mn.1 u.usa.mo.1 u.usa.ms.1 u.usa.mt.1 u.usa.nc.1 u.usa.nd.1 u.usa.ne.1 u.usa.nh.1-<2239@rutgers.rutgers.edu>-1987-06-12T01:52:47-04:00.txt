@@ -1,0 +1,2100 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mn.1
+:	u.usa.mo.1
+:	u.usa.ms.1
+:	u.usa.mt.1
+:	u.usa.nc.1
+:	u.usa.nd.1
+:	u.usa.ne.1
+:	u.usa.nh.1
+: This archive created: Fri Jun 12 01:52:40 1987
+echo shar: extracting u.usa.mn.1
+cat << 'SHAR_EOF' > u.usa.mn.1
+#N	agnes
+#S	VAX 11/780, BSD 4.2
+#O	St. Olaf College Academic Computer Center
+#C	Alex Elder
+#E	stolaf!agnes!elder
+#T	(507) 663-3407
+#P	Academic Computer Center, St. Olaf College, Northfield, MN  55057
+#L	44 28 N / 93 11 W
+#R	
+#W	stolaf!elder (Alex Elder);Wed Jan 8  00:00:00 CST 1986 
+agnes	stolaf(LOCAL), stophy(LOCAL), amber(DEMAND), cray(DEMAND+LOW)
+
+#N	alta
+#S	VAX-11/750; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	ihnp4!clyde!lily!alta!root
+#T	(612) 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121
+#L	44 52 N / 93 09 W
+#R
+#W	lily!det (Derek Terveer);Sun Feb 15 12:27:42 CST 1987
+#U
+#
+alta	herman(DIRECT+HIGH), lily(DIRECT+HIGH)
+
+#N	bthpyd
+#S	Pyramid, OSx
+#O	Bethel College
+#C	Glen J. Wiebe
+#E	ihnp4!bthpyd!wiebe,  wiebe@Bethel.Edu
+#T	+1 612 638 6106
+#P	3900 Bethel Drive, St. Paul, MN  55112
+#L	45 03 N / 093 15 W
+#R
+#W	bthpyd!wiebe (Glen J. Wiebe);Sun Jan 11 19:48:59 CST 1987
+#
+bthpyd	meccts(DIRECT), srcsip(DIRECT)
+
+#N	camax01
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Camax Systems Inc.
+#C	Rod Lacy
+#E	camax01!lacy
+#T	+1 612 831 0604
+#P	7225 Ohms Lane, Minneapolis, MN 55435
+#L	44 51 N / 093 26 W
+#R	
+#U	rosevax
+#W	camax01!lacy (Rod Lacy); Wed Jan  8 15:27:35 CST 1986
+#
+camax01	dicome(DAILY+4), rosevax(HOURLY)
+
+#N	cray
+#O	Cray Research, Inc.
+#S	VAX 11/750, Sys V.2
+#C	
+#E	cray!postmaster
+#T	
+#P	1333 Northland Drive, Mendota Heights, MN 55120
+#L	44 50 N / 093 5  W
+#U	umn-cs
+#W	umd-cs!steve (Steven M. Miller);Thu Jul 03 12:21:33 CDT 1986
+#
+cray    crayamid(DIRECT), umn-cs(DEMAND), agnes(DEMAND), stolaf(DEMAND)
+
+#N	crayamid
+#O	Cray Research, Inc.
+#S	Pyramid 90x, OSx 2.5
+#C	Jim Nordby, Peggy Gazzola
+#E	crayamid!jhn,crayamid!peggy
+#T	+1 612 681 3429, +1 612 681 3404
+#P	1333 Northland Drive, Mendota Heights, MN 55120
+#L	44 50 N / 093 5 W
+#U
+#W	pyramid!csg (Carl S. Gutekunst);Wed Mar 19 13:16:28 PST 1986
+#
+crayamid cray(10), pyramid(DEMAND)
+
+#N	dayton
+#S	NCR Tower/32; Unix V.2
+#O	Dayton Hudson Department Store Company
+#C	William T. Argyros
+#E	dayton!bill
+#T	+1 612 375-6651
+#P	700 On The Mall, Mpls. MN, 55402
+#L	45 03 N / 093 15 W  city
+#R
+#W	dayton!bill (William T. Argyros);Wed Feb 11 14:49:53 CST 1987
+#
+#	Major News Feed
+#U	rutgers rosevax ems meccts umn-cs mmm
+#
+#	The hourly link for rutgers IS correct in this entry.
+#
+dayton	aob(EVENING), ciprico(DIRECT), dicome(DIRECT),
+		ems(DIRECT), mecc(DIRECT), meccts(DIRECT),
+		mmm(DIRECT), quest(DIRECT), rosevax(DIRECT),
+		rutgers(DEMAND), umn-cs(DIRECT), viper(DIRECT)
+rutgers	dayton(HOURLY)
+
+#N	dicome
+#S	VAX 11/785 running Ultrix 1.1
+#O	DICOMED Corporation
+#C	john s salmi
+#E	john@umn-rei-uc.ARPA,  dicome!salmi
+#T	+1 612 625 7589 , +1 612 885 3092
+#P	12000 Portland Avenue South, Po Box 246, Minneapolis, MN  55440-0246
+#L	44 59 N / 93 13 W city
+#R	Latitude/longitude are approximate (city).
+#R	DICOMED manufactures high-performance graphics software/hardware
+#W	dicome!salmi (john salmi); Sat Nov 22 20:59:52 CDT 1986
+#U	meccts mmm mn-at1 quest 
+#
+dicome	aob(DIRECT), augsburg(DAILY), camax01(DIRECT+HOURLY), ciprico(DEAD), 
+	csugnat(EVENING/2), dayton(DIRECT), ihnp4(EVENING+4), mecc(DIRECT),
+	meccts(DIRECT), mmm(DIRECT), mn-at1(EVENING), ndsuvax(DEMAND),
+	noao(EVENING/2), quest(DIRECT), msi-a2 (DAILY), rosevax(DIRECT), 
+	stolaf(EVENING), tundra(DIRECT), umn-cs(DIRECT), umnd-cs(DEMAND),
+	uwvax(DEAD), wilder(DIRECT)
+#
+dicome = dicomed
+#N	docsplac
+#S	TRS-80 model 2 upgraded to 6000;XENIX 3.1
+#O	P. K. Zollinger, D.D.S.
+#C	Paul Zollinger
+#E	docspl!postmaster
+#T	+1 612 224 1122
+#P	1108 W. 7th Street, St. Paul, MN  55102
+#L	45 01 N / 93 30 W city
+#R	Latitude and Longitude are approximate
+#U
+#W	kksys!gk (Greg Kemnitz); Thu Feb 12 14:42:09 CST 1987
+#
+docsplac	kksys(DAILY)
+
+#N	fargovax
+#S	
+#O	Fargo Electronic Services Inc
+#C	
+#E	fargovax!root
+#T	+1 612 941-9470
+#P	7150 Shady Oak Rd, Eden Prairie, Mn 55344, USA
+#L	44 52 N / 93 27 W 
+#R	Lat and Long are approximate, plus/minus thirty seconds
+#W	rosevax!brianr (Brian Richter); Thu Nov  6 18:25:06 CST 1986
+#
+fargovax	umn-cs(DAILY)
+
+#N	gmcrx1
+#S	Concurrent Computer 3210;xelos R01.04
+#O	SPEED>S Corporation
+#C	Todd Koeckeritz
+#E	gmcrx1!zaz
+#T	+1 612 341 0920
+#P	430 First Avenue North, Minneapolis MN, 55401-1713
+#L	44 47 N / 93 15 W
+#R	Last Change: Initial Connect to meccts. Lat and Long are approx.
+#U	ems
+#W	gmcrx1!zaz (Todd Koeckeritz); Wed Mar 18 23:54:42 CST 1987
+#
+gmcrx1	meccts(DIRECT), ems(DIRECT)
+
+#N	herman
+#S	VAX-11/780; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	ihnp4!clyde!herman!root
+#T	(612) 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121
+#L	44 52 N / 93 09 W
+#R
+#W	lily!det (Derek Terveer);Tue May  5 22:20:43 CDT 1987
+#U
+#
+herman	bonnie(DEMAND), burl(DEMAND), clyde(DEMAND),
+	dodger(DEMAND), emspxnx(DEMAND), floyd(DEMAND), k0jfv(DEMAND),
+	lily(DIRECT+HIGH), meccts(DEMAND), moss(DEMAND), pwcs(DEMAND),
+	rose3(DEMAND), rosevax(DEMAND), sstat(DEMAND),
+	whuxh(DEMAND), whuts(DEMAND), xenix286(DIRECT+HIGH), xenixpc(DEMAND)
+
+#N	karau
+#S	Altos 2086; XENIX 3.3aQ2
+#O	Karau Assoc., Inc
+#C	steven m wilcoxon
+#E	ihnp4!meccts!karau!stevew
+#T	+1 612 933 6126
+#P	50 9th Avenue South, Hopkins, MN 55343
+#L	44 51 N / 093 26 W
+#U	nis
+#W	karau!stevew (steven m wilcoxon);Mon Apr 10 12:23:14 CDT 1987
+#
+karau	meccts(HOURLY*4), aob(DAILY), ldcchq(HOURLY*4), 
+	quest(DAILY), ems(DAILY), nis(DEMAND)
+
+#N	kksys
+#S	Stanford Systems AT clone;Microport System V.2 release 1.38beta5
+#O	K and K Systems
+#C	Greg Kemnitz
+#E	kksys!postmaster
+#T	+1 612 475 1527
+#P	P.O. Box 41804, Minneapolis, MN  55441-0804
+#L	45 01 N / 93 30 W city
+#R	Latitude and Longitude are approximate
+#U
+#W	kksys!gk (Greg Kemnitz); Thu Feb 12 14:39:59 CST 1987
+#
+kksys	aob(POLLED), docsplac(POLLED), meccts(POLLED), umn-cs(POLLED)
+
+#N	lily
+#S	VAX-11/780; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	ihnp4!clyde!lily!root
+#T	(612) 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121
+#L	44 52 N / 93 09 W
+#R
+#W	lily!det (Derek Terveer);Fri April  27 22:23:55 CDT 1987
+#U
+#
+lily	bonnie(DEMAND), burl(DEMAND), clyde(DEMAND),
+	dodger(DEMAND), emspxnx(DEMAND), floyd(DEMAND), herman(DIRECT+HIGH),
+	k0jfv(DEMAND), meccts(DEMAND), moss(DEMAND), rose3(DEMAND),
+	rosevax(DEMAND), sstat(DEMAND),
+	whuxh(DEMAND), whuts(DEMAND), xenix286(DIRECT+HIGH), xenixpc(DEMAND),
+
+#N	minnow
+#S	Sperry 5000/60; Unix System V.2
+#O	Sperry Corporation
+#C	Kevin J. Thomas
+#E	A60!postmaster
+#T	+1 612 635 6042
+#P	2276 Highcrest Road, Roseville, MN, 55113
+#L	45 02 N / 093 18 W  
+#R	Lat and Long are approximate
+#U	
+#W	minnow!kjt (Kevin J. Thomas); Mon Oct 6 23:55:00 CDT 1986
+#
+minnow	ems(DIRECT+HIGH)
+minnow = A60
+#N	mmm
+#S	VAX 11/780, running 4.2BSD
+#O	3M Company
+#C	Leon Schilmoeller
+#E	ihnp4!mmm!leon, ihnp4!mmm!postmaster
+#T	+1 612 733 2264, +1 612 736 9653
+#P	Bldg. 260-6A-08, 3M Center, St. Paul, MN 55144, USA
+#L	44 58 N / 93 07 W city
+#R	
+#U      umn-cs stolaf rosevax dicome srcsip
+#W	mmm!boone (David Boone); Tue Dec 17 11:40:59 CST 1985
+#
+mmm	umn-cs(DIRECT),
+	umn-ucc-us(DEAD),	
+	stolaf(DEMAND+LOW),	
+	ihnp4(DEMAND+HIGH),	
+	ciprico(DIRECT),	
+	quest(DIRECT),	
+	thunder(DAILY),	
+	rosevax(DIRECT),	
+	gambit(DIRECT),	
+	unison(DIRECT),	
+	srcsip(DIRECT),	
+	sunbird(DEMAND),	
+	tundra(DIRECT),
+	dicome(DIRECT)	
+# The name we would really like to be
+mmm = 3m
+#
+#These are small sites located inside of 3M reachable as
+# UUCP nodes. They will not be further listed
+#
+mmm	mmmamrs(DAILY),	
+	imgsys(DAILY),	
+	3m-sesd(DEAD),	
+	3m-epp1(DAILY)
+#
+#10 mb ethernet containing a real mix of operating systems
+# all sites listed have smtp up and running
+3M-INTERNET=@{mmm, osddmr, src780, cad780, src86a, 
+	spud, blarney, shamrock, leprechaun,
+	mmmfs1, mmms2, mmms3, mmms4, mmms5}(LOCAL)
+
+#N      mystery
+#S      AT&T UNIX PC7300
+#O      Univ. of Minnesota, Morris, CS Discipline
+#C      Frederick J. Bourgeois, III
+#E      ihnp4!mystery!fjb
+#T      (612) 589-2211 ext. 6322
+#P      Univ. of Minn., Morris, Div. of Sci & Math, Morris, MN 56267
+#L	45 12 N / 093 5 W
+#W      mystery!fjb (Frederick J. Bourgeois, III);Sun Mar 16, 11:07:12 1986
+#
+#R      ihnp4 is DEMAND+HIGH outgoing, but DEMAND+LOW incoming,
+#R      which may be due to the forty year old telephone switching
+#R      system they have in Morris.
+mystery     ihnp4(DEMAND), morris1(DEAD)
+#N	ncs-med
+#S	VAX 11/750; 4.2 bsd UNIX
+#O	National Computer Systems, Inc.
+#C	Bob Isch, Joe Marrone
+#E	ncs-med!bi, ncs-med!jjm
+#T	+1 612 893 8137, +1 612 893 8157
+#P	5700 Green Circle Drive, Minnetonka, MN 55434
+#L	44 56 N / 93 30 W city
+#R	
+#U	umn-cs sx7000 starfire
+#W	ncs-med!bi ( Bob Isch); Tue Dec 17 17:01:16 CST 1985
+ncs-med	umn-cs(DIRECT), starfire(DIRECT), sx7000(DIRECT)
+
+#N	nists
+#S	NCR Tower 32; Rel 1.03.00
+#O	National Information Systems, Inc., Minneapolis
+#C	Robert A. Monio
+#E	ihnp4!meccts!nis!nists!pnessutt, ihnp4!meccts!nis!nists!postmaster
+#T	+1 612 894 9494
+#P	11300 Rupp Drive, Burnsville MN, 55337
+#L	44 47 N / 93 15 W
+#R	Last change: Installation of NCR Tower 32
+#U	nis
+#W	nis!rjg (Robert J. Granvin); Wed Feb 19 08:47:20 CST 1987
+#
+nists	nis(DEDICATED)
+
+#N	quest
+#S	Altos 3068, System V.2
+#O	Quest Research Inc.
+#C	Scott S. Bertilson, Scott Bouman
+#E	quest!sheldon, quest!scott, quest!dave
+#T	+1 612 894 7752
+#P	214 North River Ridge Circle, Burnsville, MN 55337
+#L      44 54 N / 93 20 W
+#R
+#U	ems pwcs viper
+#W      quest!dave (David Messer); Thu Feb 26 01:29:57 CST 1987
+#
+quest	altos86(WEEKLY),
+	avnet(DEAD),
+	augsburg(DIRECT),
+	bthpyd(DIRECT),
+	ciprico(DIRECT),
+	cts(DIRECT),
+	dicome(DIRECT),
+	ems(DIRECT),
+	fargovax(DIRECT),
+	gms(WEEKLY),
+	ihnp4(WEEKLY),
+	itda(DIRECT),
+	mecc(DIRECT),
+	meccts(DIRECT),
+	mmm(DIRECT),
+	msi-a2(DIRECT),
+	pwcs(DIRECT),
+	rose3(DIRECT),
+	rosevax(DIRECT),
+	starfire(DIRECT),
+	umn-cme(DIRECT),
+	umn-cs(DIRECT),
+	viper(DIRECT),
+	wilder(DIRECT)
+
+#N	rebma
+#S	IBM PC/AT; Microport System V/AT
+#C	Bill O'Hanlon
+#E	rebma!usenet
+#T	+1 612 338 0242
+#P	1901 Minnehaha Ave S. #408, Minneapolis, MN 55404
+#L	45 31 N / 93 15 W city
+#U	mn-at1 css
+#W	rebma!wmo (Bill O'Hanlon); Wed Jan 14 21:30:16 CST 1987
+rebma	mn-at1(DIRECT), css(DIRECT), rei-ua(DIRECT)
+
+#N	simvax
+#S	DEC VAX-11/750; EUNICE 4.2
+#O	Facility for Simulation of Stochastic Population Models, U of MN, Mpls
+#C	David W. Meile
+#E	simvax!usenet
+#T	+1 612 625 3694
+#P	Box 511 UMHC, 420 Delaware, Minneapolis, MN  55455
+#L	44 58 N / 93 12 20 W
+#R	Biotechnology Resource funded by N.I.H. grant RR-01632
+#U	umn-cs
+#W	simvax!davidli (David W. Meile); Wed Dec 10 09:15 CST 1986
+#
+simvax	umn-cs(DIRECT)
+
+#N	srcsip
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Honeywell Inc. Systems & Research Center
+#C	Larry Linde
+#E	srcsip!usenet
+#T	+1 612 782 7589
+#P	3660 Technology Drive MPLS, MN 55418, USA
+#L	44 52 N / 093 27 W 
+#R	Lat and Long are approximate, plus/minus thirty seconds
+#U	mmm bthpyd scs1 scs2 mmsvax 
+#W	srcsip!linde (Larry Linde);  Fri Apr 5 00:00:00 CST 1986
+#
+srcsip	ihnp4(DEMAND), mmm(DIRECT), umn-cs(DIRECT), hi-tsc(DEAD), 
+	philabs(DEMAND+HIGH), HI-MULTICS(DEAD), bthpyd(DIRECT), 
+	hi-scs(LOCAL), isaunix(LOCAL), umnd-cs(DEMAND)
+#
+# SRCNET local ethernet 10MB 
+# systems only accessable through SRCSIP
+# systems frodo, fili, kili, bombur, aaragorn and bilbo are
+# symbolics lisp machines.
+#
+SRCNET-ETHER = @{srcsip, scs1, scs2, csvax, isaunix, frodo, fili, kili, bombur,
+		aaragorn, src-bilbo, mmsvax}(LOCAL)
+
+#N 	stag
+#S 	Symmetrics 375; BSD 4.2
+#O 	Mindtools ST Access Group
+#C 	Todd Burkey
+#E 	nis!trb
+#T 	+1 612 542 1027
+#P 	3546 Pilgrim Lane, Plymouth, MN 55441
+#L 	44 0 N/93 28 W
+#R 	bbs login at 612-542-8980;(lat/long are estimated)
+#U 	zeke
+#W 	stag!trb (Todd Burkey); Tues April 14 16:00:00 PDT 1987
+#
+stag 	nis(DAILY),zeke(DAILY),meccts(DAILY)
+
+#N      starfire
+#S      NSC32016, BSD 4.1 derivative
+#O      Starfire Consulting Services
+#C      John Lind
+#E      umn-cs!starfire!john
+#T      +1 612 378 0238
+#P      PO Box 13001, Minneapolis, MN  55414
+#L      44 59 N / 93 13 W city
+#R      Starfire is a small software and computer consulting company
+#W      starfire!john (John Lind);Tue Aug 26 00:00:00 CST 1986
+#       All sites with "+50" call starfire at that rate
+starfire        quest(DAILY/3), ncs-med(DAILY), umn-phy(DEAD),
+        rose3(DIRECT+50), umn-cs(DAILY/6+50)
+
+#N	stolaf
+#S	PDP 11/70, V7
+#O	St. Olaf College Academic Computer Center
+#C	Alex Elder
+#E	stolaf!elder
+#T	+1 507 663 3407
+#P	Academic Computer Center, St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R	
+#U	umn-cs 
+#W	stolaf!elder (Alex Elder);Tue Aug 26 00:00:00 CST 1986
+
+stolaf	agnes(LOCAL),
+	ihnp4(DAILY+HIGH),
+	mmm(DAILY+LOW),
+	umn-cs(DAILY+HIGH),
+	cray(DAILY),
+	ccnfld(DAILY+LOW),
+	ihps3(DEMAND),
+	harpo(DEMAND),
+	rosevax(DEMAND),
+	minn-ua(DEMAND),
+	cpt(DEMAND),
+	itda(DEMAND),
+	taiga(DEMAND),
+	decvax(DEMAND),
+	wilder(DEMAND),
+	wjh12(DEMAND),
+	floyd(DEMAND)
+
+#N	stophy
+#S	Intel 286/310, Xenix 3.0
+#O	St. Olaf College Physics Department
+#C	Duane Olson
+#E	stolaf!agnes!stophy!olsondn
+#T	+1 507 663 3120
+#P	St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R	
+#W	stolaf!elder (Alex Elder); Wed Jan  8 00:00:00 CST 1986
+stophy	agnes(LOCAL)
+
+#N	tundra
+#S	Sun-2, 4.2 BSD UNIX
+#O	Sun Microsystems - North Central District Sales
+#C	D. Boone
+#E	tundra!boone
+#T	+1 612 854-7224
+#P	Two Appletree Square, Suite 100, Bloomington, MN, 55420
+#L	44 52 N / 093 23 W
+#U	
+#W	umnd-cs!steve (Steven M. Miller); Thu Nov 6 15:54:47 CST 1986
+tundra  sun(DEMAND+HIGH), dicome(DIRECT), mmm(DIRECT), pwcs(DIRECT),
+	umn-cs(WEEKLY)
+
+#N	umn-cme
+#S	PDP-11/60  2.8BSD
+#O	University of Minnesota, Department of Civil & Mineral Engineering
+#C	Greg Sherar
+#E	umn-cme!greg umn-cme!scott
+#T	+1 612 373 3140
+#P	122 CME Building, 500 Pillsbury Dr. S.E., Minneapolis, MN 55455
+#L	44 59 N / 93 13 W city
+#R	
+#W	umn-cme!root (Greg Sherar);Mon Jan  7 00:00:00 CST 1985
+# Used primarily for numeric calculations.
+#
+umn-cme	umn-cs(DIRECT), quest(DIRECT)
+
+#N	umn-cs
+#S	VAX 11/780  4.3 bsd UNIX
+#O	University of Minnesota, Computer Science Department
+#C	Jim Albers
+#E	umn-cs!postmaster
+#T	+1 612 625 2068, +1 612 625 0876
+#P	207 Church Street SE, Minneapolis, MN 55455
+#L	44 58 28 N / 93 12 20 W  
+#R	
+#W	umn-cs!sundquis (Tom Sundquist); Mon Feb 16 07:41:41 CST 1987
+#
+umn-cs	cray(DIRECT),
+	dayton(DIRECT),
+	dicome(DIRECT),
+	ems(POLLED),
+	fargovax(DIRECT),
+	hyper(DIRECT),
+	ihnp4(DEMAND),
+	isucs1(DEMAND),
+	meccts(DIRECT),
+	mmm(DIRECT),
+	mtu(DEMAND),
+	ncs-med(DIRECT),
+	quest(DIRECT),
+	rose(DIRECT),
+	rosevax(DIRECT),
+	simvax(DIRECT),
+	srcsip(DIRECT),
+	starfire(DIRECT),
+	stolaf(DEMAND),
+	tundra(DIRECT),
+	umnd-cs(DEMAND),
+	watvlsi(DEMAND)
+
+#N	umnstat
+#S	VAX 11/750, 4.2 BSD
+#O	School of Statistics, U. of Minnesota
+#C	Luke Tierney, Gary Oehlert
+#E	ihnp4!umn-cs!umnstat!luke, ihnp4!umn-cs!umnstat!gary
+#T	+1 612 625 7843, +1 612 625 4758
+#P	270 Vincent Hall, U. of Minnesota, Minneapolis, Mn. 55455
+#L	44 58 / 093 12 W
+#W	umnstat!luke (Luke Tierney);Wed Jul  2 09:53:43 CDT 1986
+umnstat	umn-cs(HOURLY), umnd-cs(DAILY)
+
+#N	zeke
+#S	DEC uVAX2; ultrix 1.2
+#O	Zycad Corporation
+#C	Kevin Buchs
+#E	zeke!kevin
+#T	+1 612 779 5548
+#P	3500 Zycad Drive, Oakdale, MN 55109
+#L	092 56 05 W / 044 59 07 N
+#R	Zycad : Home of the Hardware Logic Simulation Accelerator
+#U
+#W	zeke!kevin (Kevin J. Buchs); Thu Feb 12 15:18:42 CST 1987
+zeke	meccts(DAILY)
+
+SHAR_EOF
+echo shar: extracting u.usa.mo.1
+cat << 'SHAR_EOF' > u.usa.mo.1
+#	Start of u.usa.mo.1: Fri Feb 27 14:23:01 CST 1987
+#	maintained by hokey@plus5.COM
+
+#N	abstl
+#O	Anheuser-Busch, Inc.
+#C	David Grossman
+#T	+1 314 577 3125
+#P	One Busch Place, Bldg. 202-4, St. Louis, MO 63118
+#E	abstl!dpg
+#L	38 38 N / 90 11 W city
+#R	
+#W	plus5!hokey; Tue Nov 18 11:55:15 CST 1986
+#U	wucs
+#S	3B20S; SVR2.3
+#
+abstl	plus5(HOURLY),
+	wucs(HOURLY),
+	wuphys(HOURLY),
+	we53(HOURLY),
+	solvnt(DAILY),
+	glmpc(DAILY)
+#
+abstl	busch(DIRECT)
+busch	abstl(DIRECT)
+
+#N	afinitc
+#S	Plexus P/60; Plexus' System III port
+#O	Affinitec, Corporation
+#C	Gerald L. Collins
+#T	+1 314 569 3450
+#E	afinitc!jlc
+#P	2252 Welsch Industrial Court, St. Louis MO 64146
+#L	38 48 N / 90 24 W
+#R	News feed is wucs. wucs acts as our mail gateway to ihnp4 also
+#W	plus5!hokey; Thu Nov 20 13:34:13 CST 1986
+#U	wucs
+#
+afinitc	wucs(EVENING), wudma(EVENING), plus5(EVENING)
+
+#N	beyei
+#O	Bethesda Eye Inst.
+#C	Jay Fleischman
+#T	+1 314 772 1486
+#P	3655 Vista, St. Louis, MO 63110
+#E	ihnp4!wuphys!slu70!beyei!jaf
+#L	38 38 N / 90 11 W city
+#R	
+#U
+#W	hokey@plus5.uucp; 04Jul86
+#S	
+#
+beyei	slu70(DIRECT)
+
+#N	galileo
+#S	Intel 310-17
+#O	none - privately owned
+#C	Michael Fehnel
+#E	galileo!mike
+#T	+1 314 839 2092
+#P	2445 Mockingbird Ln., Florissant, Mo. 63031
+#L	38 8 N / 90 3 W
+#R	System running XENIX 3.0, work # +1 314 895 6453 
+#U
+#W	plus5!hokey; Tue Nov 18 11:39:50 CST 1986
+galileo	wucs(DIRECT)
+
+#N	ghrtoy
+#S	symmetric 375; 4.2 BSD UNIX
+#C	George H. Robbert
+#E	ghrtoy!postmaster
+#T	+1 314 862 7234
+#P	15 S. Seminary Ter, Clayton Mo 63105
+#L	37 52 29 N / 122 13 44 W
+#U
+#W	wuccrc!ghr (George H. Robbert); Mon Jan 12 19:20:43 PST 1987
+#
+ghrtoy	wucs2(DEMAND),
+	wucs(DAILY),
+	wuccrc(DAILY)
+
+#N	glmpc
+#O	Gary Mann's Personal Computer
+#C	Gary Mann
+#T	
+#P	
+#E	glmpc!root
+#L	
+#R	
+#W	hokey@plus5.uucp; 04Jul86
+#U	
+#S	UNIX PC
+#
+glmpc	abstl(DEMAND)
+
+#N      hilco
+#S      HP 9000 Series 300 Model 20; HP-UX 05.17
+#O      Hilco Electric Co.
+#C      John Rustemeyer
+#E      hilco!johnr
+#T      +1 314 961 8156
+#P      3015 South Brentwood Blvd, St. Louis, MO 63144
+#L      38 37 N / 90 21 W
+#R      
+#W      hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U      hpuslma
+#
+hilco	hpuslma(DIRECT)
+
+#N      hpuslma
+#S      HP 9000 Series 500 Model 50; HP-UX 05.11
+#O      Hewlett Packard, St. Louis
+#C      Bill Nestor
+#E      hpuslma!wdn
+#T      +1 314 344 5194
+#P      13001 Hollenberg,St. Louis, MO 63044
+#L      38 46 N / 90 27 W
+#R      
+#W      hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U      wuphys hpu-wdn hilco mcair1 mdacrf
+#
+# old name: hp2610
+hpuslma-net = {hpuslma, hpuslmb, hpuslmc, hpuslmd, hpuslme}!(LOCAL)
+hpuslma wuphys(DIRECT),
+        hpfcse(EVENING),
+	hpu-wdn(DIRECT),
+	hilco(DIRECT),
+	mcair1(DIRECT),
+	mdacrf(DIRECT),
+        plus5(DEAD)
+
+#N      hpu-wdn
+#S      HP 9000 Series 300 Model 20; HP-UX 05.17
+#O      Hewlett Packard, St. Louis
+#C      Bill Nestor
+#E      hpu-wdn!wdn
+#T      +1 314 821 4744
+#P      142 Woodridge St. Louis, MO 63122
+#L      38 37 N / 90 23 W
+#R      
+#W      hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U      hpuslma
+#
+hpu-wdn	hpuslma(DIRECT)
+
+#N	m-cmc
+#S	Vax 750; 4.2BSD
+#O	Central Methodist College
+#C	Will Trillich
+#E	m-cmc!will
+#T	+1 816 248 3391 x211
+#P	Fayette, MO, 65248-1198
+#L
+#R
+#U
+#W	plus5!hokey; Wed Nov 19 14:08:20 CST 1986
+m-cmc	plus5(WEEKLY),
+	cars(WEEKLY)
+
+#N      mcair1
+#S      HP 9000 Series 500 Model 40; HP-UX 05.11
+#O      McDonnell Douglas Aircraft Corp.
+#C      Mike Warakomski
+#E      mcair1!root
+#T      +1 314 233 8902
+#P      P.O. Box 516, Bld 32, 6951 Hanly Rd, St. Louis, MO 63042
+#L      38 45 N / 90 21 W
+#R      
+#W      hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U      hpuslma
+#
+mcair1	hpuslma(DIRECT)
+
+#N      mdacrf
+#S      HP 9000 Series 500 Model 20; HP-UX 05.11
+#O      McDonnell Douglas Astronautics Corp.
+#C      Bill Coalson
+#E      mdacrf!coalson
+#T      +1 314 233 5876
+#P      P.O. Box 516, Bld 106, Lev 3, St. Louis, MO 63166-0516
+#L      38 45 14 N / 90 20 45 W
+#R      
+#W      mdacrf!coalson (Bill Coalson); Thu Feb 26 22:04:42 CST 1987
+#U      hpuslma
+#
+mdacrf	hpuslma(DIRECT)
+
+#N	slu70
+#O	St. Louis University, Earth and Atmospheric Science
+#C	Eric Haug
+#T	+1 314 658 3136
+#P	POB 8099, St. Louis, MO 63156
+#E	slu70!ejh
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U	wucs
+#W	plus5!hokey; Sat Feb 21 18:44:51 CST 1987
+#S	
+#
+slu70	wuphys(DIRECT),
+	sluatmos(DIRECT),
+	slustl(DIRECT),
+	beyei(DIRECT),
+	plus5(DIRECT),
+	mac(DEMAND)
+
+#N	sluatmos
+#O	St. Louis University, Earth and Atmospheric Science
+#C	James T. Moore
+#T	+1 314 658 3126
+#P	POB 8099, St. Louis, MO 63156
+#E	sluatmos!moore
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U
+#W	plus5!hokey; Sat Feb 21 18:43:56 CST 1987
+#S	
+#
+sluatmos	slu70(DIRECT)
+
+#N	slustl
+#O	St. Louis University, Earth and Atmospheric Science
+#C	Eric Haug
+#T	+1 314 658 3136
+#P	POB 8099, St. Louis, MO 63156
+#E	slu70!ejh
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U	
+#W	plus5!hokey; Sat Feb 21 18:43:22 CST 1987
+#S	
+#
+slustl sluatmos(DIRECT),
+	slu70(DIRECT)
+
+#N	solvnt
+#O	Solvent Systems, Inc.
+#C	Larry Ashe
+#T	+1 314 822 9958
+#P	13118 Maple Drive, St. Louis, MO 63127
+#E	solvnt!larry
+#L	
+#R	
+#W	hokey@plus5.uucp; 04Jul86
+#U	
+#S	3B2/400; SVR2.1
+#
+solvnt	abstl(DEMAND)
+
+#N	stlhcx
+#O	Harris Computer Systems Division
+#C	Mike Crumbliss
+#T	+1 314 645 2900
+#P	Suite 400, 7980 Clayton Rd, St. Louis, MO, 63117
+#E	stlhcx!mikec
+#L	38 38 20 N / 90 19 23 W
+#R	
+#W	plus5!hokey; Sat Feb 21 18:55:07 CST 1987
+#U	plus5
+#S	HCX-7; HCX/UX 2.2
+#
+stlhcx	plus5(DIRECT)
+
+#N	sw1a
+#O	Southwestern Bell
+#C	Lee Balduini
+#T	+1 314 247 2042
+#P	100 N. Broadway Room 1025, St. Louis, Missouri 63102
+#E	sw1a!lee
+#L	
+#R	
+#U
+#W	hokey@plus5.uucp; 04Jul86
+#S	DEC 11/45; UNIX System III
+#
+sw1a	wucs(HOURLY),
+	plus5(WEEKLY)
+
+#N	sw1a7
+#S	NCR Tower XP; UNIX Release 3.01.00 (Sys V, R2)
+#O	Southwestern Bell Telephone Co.
+#C	Lee Morehead, Ray Bretthauer (alt.)
+#E	lhm@sw1a7.UUCP, rcb@sw1a7.UUCP
+#T	+1 314 235 1804, +1 314 235 1826
+#P	One Bell Center, Rm 13-T-01, St. Louis, MO 63101-3099
+#L	38 37 41 N / 90 11 40 W
+#R	Unregistered domain .sw1a7.SWBT.COM
+#W	sw1a7!lhm (Lee Morehead); Thu Feb 26 11:51:18 CST 1987
+#
+sw1a7	sw1i(LOCAL), sw1z(LOCAL), sw1a8(LOCAL), sw1k(LOCAL), sw1g(LOCAL),
+	sw1bnc(LOCAL), sw1sed(LOCAL), sw1c(LOCAL), sw1d(LOCAL), sw1e(LOCAL),
+	slncm1(LOCAL), sw1m(LOCAL), oktext(DIRECT), teemok(DIRECT),
+	tness1(DIRECT), tness2(DIRECT), tness3(DIRECT), stlmeca(DIRECT),
+	momeca(DIRECT), swpyr1(LOCAL), swpyr2(LOCAL), sw1y(LOCAL),
+	slmds1(LOCAL), nears(DIRECT+LOW), lcuxa(DIRECT), lcuxb(DIRECT),
+	lcuxc(DIRECT), pyuxb(DIRECT), mruxa(DIRECT), mruxc(DIRECT),
+	mruxd(DIRECT), mruxe(DIRECT), nvuxa(DIRECT), nvuxb(DIRECT),
+	nvuxc(DIRECT), nvuxd(DIRECT), nvuxe(DIRECT), nvuxf(DIRECT),
+	nvuxg(DIRECT), nvuxh(DIRECT), nvuxj(DIRECT), nvuxr(DIRECT),
+	pyuxa(DIRECT), pyuxaa(DIRECT), pyuxc(DIRECT), pyuxd(DIRECT),
+	pyuxee(DIRECT), pyuxgg(DIRECT), pyuxh(DIRECT), pyuxii(DIRECT),
+	pyuxn(DIRECT), pyuxo(DIRECT), pyuxp(DIRECT), pyuxq(DIRECT),
+	pyuxrr(DIRECT), pyuxs(DIRECT), pyuxss(DIRECT), pyuxt(DIRECT),
+	pyuxv(DIRECT), pyuxvv(DIRECT), pyuxww(DIRECT), pyuxxx(DIRECT),
+	pyuxy(DIRECT), pyuxz(DIRECT), pyuxzz(DIRECT), rruxa(DIRECT),
+	rruxb(DIRECT), rruxc(DIRECT), rruxd(DIRECT), rruxf(DIRECT),
+	rruxff(DIRECT), rruxg(DIRECT), rruxhh(DIRECT), rruxjj(DIRECT),
+	rruxo(DIRECT), rruxp(DIRECT), rruxqq(DIRECT), rruxr(DIRECT),
+	rruxu(DIRECT), rruxw(DIRECT), rruxyy(DIRECT), nemo(DIRECT),
+	sanes2(DIRECT), swso03(DIRECT), ncrats(DIRECT), textware(DIRECT),
+	cuaepd(DIRECT), chinet(HOURLY*2), m-net(HOURLY*2), Exec2(HOURLY*2),
+	plus5(DIRECT)
+
+#N	tripos
+#S	Silicon Graphics IRIS 3030; Unix System V version 3.4
+#O	Tripos Associates
+#C	Gregory B. Smith
+#E	tripos!snort
+#T	+1 314 647 1099
+#P	6548 Clayton Road, St. Louis, MO   63117
+#L	38 38 N / 90 17 W city
+#R
+#U
+#W	plus5!hokey; Wed Nov 19 12:58:58 CST 1986
+tripos	wucs(HOURLY)
+
+#N	umree
+#O	University of Missouri, Rolla  Department of Electrical Engineering
+#C	Robert W. Little
+#T	
+#P	
+#E	umree!rwl
+#L	
+#R
+#U	wucs
+#W	hokey@plus5.uucp; 04Jul86
+#S	Vax 11/750; 4.2BSD
+#
+umree	wucs(EVENING)
+
+#N	wucs
+#O	Washington University, Dept. of Computer Science
+#C	Tom Patterson
+#T	+1 314 889 6305
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!tp
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	wudma slu70 wuphys abstl cuae2 ihnp4 seismo afinitc
+#W	plus5!hokey; Thu Dec 11 09:16:32 CST 1986
+#S	Vax 11/750; 4.2BSD
+#
+# Recent name changes: wuccsd --> wuccrc, wucec1 --> cec1, wucec2 --> cec2
+#	wuip --> wucs1 (old names still accepted)
+# Recent local additions: wucs2, wuibc2, dadent, ccrc1
+# Soon to occur:  wudma goes away forever
+#
+WUENG = {wucs,wudma,wuccrc,cec1,cec2,wucs1,wucs2,wuibc2,wucape,wucfua,ccrc1,
+	wuecs1,dadent}!(LOCAL)
+WURES = {wucs,wuphys}!(DEDICATED)
+wucs	WUENG, WURES, wuecs1!(LOCAL), wuibc!(DIRECT),
+	abstl!(EVENING), slu70!(DIRECT), sw1a!(DIRECT),
+	mrl1!(DIRECT), mrl2!(DIRECT),
+	mrl73!(DIRECT), plus5!(DIRECT), afinitc!(EVENING),
+	ihnp4!(EVENING+20), purdue!(DEAD), pyramid!(EVENING+50),
+	seismo!(EVENING+10), bellcore!(EVENING),
+	cbosgd!(DEMAND+50), magic!(EVENING+200), umree!(DAILY),
+	uiucdcs!(DEMAND+70), gatech!(DEMAND+10), allegra!(EVENING+100),
+	uiucuxc!(DEMAND+60), oasis!(HOURLY*2), we53!(DEAD)
+
+#N	wucs1
+#O	Washington University, Dept. of Computer Science
+#C	Tom Patterson
+#T	+1 314 889 6160
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!tp
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	cuae2 wucs2
+#W	plus5!hokey; Wed Dec 10 14:23:19 CST 1986
+#S	Microvax II; 4.3 BSD
+#
+wucs1	WUENG, cuae2!(DEMAND), wuibc!(DEMAND), seismo!(DEMAND+20),
+	ihnp4!(DEMAND+20)
+
+#N	wucs2
+#O	Washington University, Dept. of Computer Science
+#C	Tom Patterson
+#T	+1 314 889 6160
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!tp
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	wucs wucfua wucs1
+#W	plus5!hokey; Wed Dec 10 14:24:26 CST 1986
+#S	Microvax II; 4.3 BSD
+#
+wucs2	WUENG, adiron(DAILY/2), plus5!(DIRECT+HIGH)
+
+#N	wuibc
+#O	Washington University, Institute for Biomedical Computing
+#C	Ed Macke
+#T	+1 314 362 3120
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wuibc!ed
+#L	38 38 N / 90 17 W
+#R	the original WU VAX
+#U	wucs
+#W	plus5!hokey; Thu Dec 11 11:08:59 CST 1986
+#S	VAX 11/750; 4.2 BSD
+#
+WUIBC = {wuibc,wusbl,wuimm,wubcl,wucon,wuipaq,wumcp1,wumcp2,wumcp3}!(LOCAL)
+wuibc	WUIBC,
+	wucs(DIRECT),
+	wuoto(LOCAL),
+	wuuslab(LOCAL),
+	wupath(LOCAL),
+	plus5(DIRECT),
+	abstl(DIRECT),
+	wuccrc(DIRECT+1),
+	ihnp4(EVENING),
+	unc(EVENING)
+
+#N	wuphys
+#O	Washington University, Department of Physics 
+#C	Marty Olevitch, Mark Metzger
+#T	+1 314 889 6285
+#P	Campus Box 1105, St. Louis, MO 63130 
+#E	wuphys!marty, wuphys!mark
+#L	38 38 57 N / 90 18 18 W
+#R	
+#W	plus5!hokey; Wed Dec 10 15:07:42 CST 1986
+#U	wucs hpuslma
+#S	
+#
+WUPHYS = {wuphys, maxwell, cosray, norberg, ljtiii, dirac, pierre, iprobe}!(LOCAL)
+wuphys	WURES,
+	WUPHYS,
+	ihnp4(EVENING),
+	astrovax(EVENING),
+	abstl(DIRECT),
+	hpuslma(DIRECT),
+	slu70(DIRECT),
+	plus5(DIRECT)
+
+#N	yoyodyne
+#O
+#C	Eric Kiebler
+#T	+1 314 725 9492
+#P	765 Westwood, Clayton, MO 63105
+#E	plus5!eric, yoyodyne!eric
+#L
+#R	
+#W	hokey@plus5.uucp; 04Jul86
+#U
+#S	
+#
+yoyodyne	plus5(DIRECT)
+
+SHAR_EOF
+echo shar: extracting u.usa.ms.1
+cat << 'SHAR_EOF' > u.usa.ms.1
+# Doug McCallum <dougm@ico.ISC.COM>; Fri Feb 20 20:49:17 MST 1987
+
+#N	jsusie
+#S	ATT 3B5;  System V UNIX
+#O	Jackson State University
+#C	Henry Wong
+#E	jsusie!root
+#T	+1 601 968 2332
+#P	ARCC, JSU, 1400 John Lynch Street, Jackson, MS 39217
+#U	virgo
+#W	jsusie!pc (Peter Clitherow); Thu Oct 09 09:40:41 EDT 1986
+#
+jsusie	virgo(DAILY)
+
+
+SHAR_EOF
+echo shar: extracting u.usa.mt.1
+cat << 'SHAR_EOF' > u.usa.mt.1
+# Usa.mt
+# This map is maintained by Karen Summers-Horton (ksh@cbosgd.UUCP)
+
+#N	cs01
+#S	VAX 11/750
+#O	University of Montana
+#C	Scott Mulligan	 
+#E	ucbvax!ucdavis!umt!mulligan
+#T			   
+#P	University of Montana Computing Center, Missoula, MT 59812
+#L			       
+#R	
+#W	Fri Jun  6 19:28:58 EDT 1986, 860606 ksh
+#
+cs01	 umt(DEMAND)		     
+
+#N	mts-cs
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Computer Science Dept, Montana State University
+#C	Emery Newlon
+#E	mts-cs!usenet
+#T	+1 406 994 3931, +1 406 994 5959
+#P	Computer Science, MSU, Bozeman, MT 59717
+#L	111 00 00 W / 45 30 00 N
+#R	Computer Science Instructional Computer
+#U	utah-gr umt
+#W	mts-cs!monitor (E. Newlon); Fri Jun  6 19:23:02 EDT 1986, 860606 ksh
+#
+mts-cs	utah-gr(DAILY), umt(DAILY)
+
+#N	umt
+#S	VAX 11/785	 
+#O	University of Montana
+#C	Scott Mulligan	 
+#E	ucdavis!umt!mulligan
+#T			   
+#P	University of Montana Computing Center, Missoula, MT 59812
+#L			       
+#R	
+#W	Fri Jun  6 19:26:50 EDT 1986, 860606 ksh
+#
+umt	ucdavis(DAILY), cs01(DEMAND)
+SHAR_EOF
+echo shar: extracting u.usa.nc.1
+cat << 'SHAR_EOF' > u.usa.nc.1
+#MAP FILE: u.usa.nc.1	Fri May 29 13:33:17 EDT 1987	tgt@stargate.COM
+#
+#
+#N	amital
+#S	Altos 3068; Unix V.2
+#O	Amital Spinning Corp.
+#C	William G. Palmer
+#E	amital!root
+#T	+1 919 636 5300
+#P	Post Office Box 5407, New Bern, North Carolina 28561
+#L
+#R
+#U
+#W	flattop!rcm (Ron McDowell); Sun Feb  1 00:22:19 EST 1987
+#
+amital	flattop(DEMAND)
+
+#N	bakerst
+#S	AT&T UNIX PC 3B1; System V
+#O	It's A Mystery To Me
+#C	Kathy Vincent
+#E	bakerst!kathy
+#T	+1 919 725 6108, +1 919 727 3687
+#P	2212 Sherwood Drive, Winston-Salem NC 27103
+#L	36 06 N / 80 15 W 
+#R	unix-pc groups exchanged with
+#	ethos, gladys, kitty, mtune, and cgh
+#U	mtune kitty ethos gladys
+#W	bakerst!kathy (Kathy Vincent); Sat Jan 31 17:57:38 EST 1987
+#
+bakerst	gladys(DIRECT), ethos(EVENING), ihnp4(EVENING),
+	kitty(EVENING), mtune(EVENING), codas(WEEKLY),
+	ptsfa(WEEKLY), wruxh(DAILY), wruxi(DAILY),
+	maxepr(WEEKLY), skeeve(WEEKLY), cgh(WEEKLY),
+	killer(WEEKLY), safari(WEEKLY), shell1(WEEKLY)
+
+#N	bdrc
+#S	Sun 3/160; Sun UNIX 4.2 Release 3.0
+#O	Becton Dickinson Research Cntr
+#C	Joan Curry
+#E	bdrc!usenet
+#T	+1 919 549 8641
+#P	21 Davis Drive, Research Triangle Park, NC, 27709
+#L	35 53 30 N / 078 51 30 W
+#R	We do medical expert systems.
+#U	rti-sel
+#W	bdrc!jwc (Joan Curry); Mon Jan  5 07:34:26 EST 1987
+#
+bdrc	mcnc(HOURLY), rti-sel(EVENING)
+
+#N	dg_rtp
+#S	Data General Desktop model 45; Desktop/UX
+#O	Data General Corp.
+#C	Karl M. Owen, Wayne Throop
+#E	dg_rtp!postmaster
+#T	+1 919 248 6083, +1 919 248 6128
+#P	62 T.W. Alexander Drive, Research Triangle Park, NC 27709
+#L	78 46 W / 35 56 N city
+#R	
+#U	rti-sel
+#W	dg_rtp!owen (Karl M. Owen); Sun Feb  1 00:18:13 EST 1987
+#
+dg_rtp	rti-sel(DIRECT)
+#
+DG-LOCAL = {dg_rtp, rtp41, rtp46, rtp47}!(LOCAL)
+
+#N	ducall
+#S	Apollo DN 3000; DOMAIN/IX (Unix 4.2 & Sys5) and DOMAIN/AEGIS
+#O	Humanities Computing Facility
+#C	Donald C. Mullen, Jeffrey William Gillette, Chris Brooks
+#E	ducall!postmaster
+#T	+1 919 684 3637
+#P	104 Languages Building, Duke University, Durham NC 27706
+#L	35 59 N / 78 54 W city
+#R  
+#U	duke ethos
+#W	ducall!don (Donald C. Mullen); Mon Jan  5 07:35:42 EST 1987
+#   
+ducall	duke(DAILY/2), ethos(HOURLY)
+
+#N	duke
+#S	DEC VAX-11/780 (4.2 BSD UNIX)
+#O	Duke University, Computer Science Department
+#C	Stephen A. Shumway
+#E	duke!sas
+#T	(919) 684-3048
+#P	Durham, NC 27706
+#L	35 59 N / 78 54 W city
+#R	pathalias data commented out until update is received
+#U	adiron decavx dukgeri mcnc phs unc
+#W	duke!sas (Steve A. Shumway); Mon Aug 12 10:35:46 EDT 1985 
+#
+#duke	dukecdu(DEDICATED), dukgeri(DEDICATED), duknbsr(DEDICATED),
+#	dukvlsi(LOCAL), ecsvax(DIRECT), mcnc(DEDICATED),
+#	phs(DEDICATED), unc(DEDICATED)
+
+#N	dukeac
+#S	AT&T 3B5; System V Release 2.0.1 3B5 Version 2
+#O	Center for Academic Computing, Duke University
+#C	Bennett Todd
+#E	dukeac!usenet
+#T	+1 919 684 3695
+#P	Durham, North Carolina 27706-7756
+#L	35 59 N / 78 54 W city
+#R
+#U	ecsvax
+#W	dukeac!bet (Bennett Todd); Mon Mar 30 08:02:58 EST 1987
+#
+dukeac	ecsvax(DAILY), ethos(DAILY+LOW)
+
+#N	dukecdu
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Cardiac Diagnostic Unit, Duke University Medical Center
+#C	Edward V. Simpson, William M. Smith
+#E	dukecdu!postmaster, dukecdu!wms
+#T	+1 919 684 2753
+#P	Box 3140, Duke University Medical Center, Durham, NC, USA, 27710
+#L	078 56 W / 36 00 N
+#R	
+#U	
+#W	dukecdu!evs (Edward V. Simpson); Mon Jan  5 07:36:34 EST 1987
+#
+dukecdu	duke(DEDICATED), dukebar(HOURLY)
+
+#N	dukee
+#S	
+#O	Duke University, School of Engineering
+#C	Ben Rimer, Victor Sparrow
+#E	dukee!op
+#T	(919) 684-2123
+#P	Durham, NC 27706
+#L	
+#R	pathalias data commented out until update is received
+#U	mcnc
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#dukee	duke
+
+#N	dukempd
+#S	PDP-11/70, 2.9 bsd unix
+#O	Duke University
+#C	Cyrus Rahman
+#E	postmaster@dukempd.uucp
+#T	1-919-684-8226
+#P	Physics Dept., Duke University, Durham,N.C. 27706
+#L	36 00 14.28 N / 78 57 13.62 W
+#R	Connected to Duke's Physics department.
+#U	duke
+#W	cr@dukempd.uucp (Cyrus Rahman); Sun Nov 16 23:37:20 EST 1986
+#
+dukempd	duke(DEDICATED)
+
+#N	ece-csc
+#S	DEC VAX-11/785;	4.3 BSD UNIX
+#O	North Carolina State University
+#C	James L. Evans, Jr.
+#E	ece-csc!jle
+#T	+1 919 737 2336
+#P	ECE Department, P.O. Box 7911  Raleigh, NC 27695-7911
+#L
+#R
+#U	ncrcae msdc akgua sas lord
+#W	ece-csc!jle (Jamie Evans);Tue Nov 18 07:31:11 EST 1986
+#
+ece-csc	mcnc(DIRECT) 
+
+#N	ecsvax
+#S	
+#O	North Carolina Educational Computing Service
+#C	Byron Howes
+#E	ecsvax!bch
+#T	(919) 549-0671
+#P	P.O. Box 12035, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	mcnc
+#W	fluke!schuh (Mike Schuh); Thu Feb 27 18:48:45 PST 1986
+#
+ecsvax	mcnc(HOURLY), ulysses(DAILY/3), ecu(HOURLY), uncchem(DAILY/6),
+	bgsm(DAILY/4), godot(DAILY/4), duccpc(DAILY), punix(DAILY)
+
+#N	ecu
+#S	
+#O	East Carolnia University Computing & Information Systems
+#C	David L. Windsor
+#E	ecu!dlw
+#T	(919) 757-6401
+#P	Greenville, NC 27834
+#L	
+#R	pathalias data commented out until update is received
+#U	ecsvax
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#ecu	ecsvax, ecu2
+
+#N	ecu2
+#S	
+#O	East Carolnia University Computing & Information Systems
+#C	David L. Windsor
+#E	ecu!dlw
+#T	(919) 757-6401
+#P	Greenville, NC 27834
+#L	
+#R	pathalias data commented out until update is received
+#U	ecu
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#ecu2	ecu
+
+#N	ethos
+#S	AT&T 7300; System V
+#O	Humanities Forum 
+#C	Gary J. Smith        
+#E	ethos!gary
+#T	+1 919 493 9575 (voice), +1 919 489 6496 (data)
+#P	5802 Garrett Rd, Durham NC 27707
+#L	35 59 N / 78 54 W city
+#R	unix-pc groups exchanged with bakerst, balrog, baud,
+#		bilanc, chinet, chutepc, cuae2, cvpath,
+#		gizzmo, hrcca, ihop3, kitty, mtune, twitch,
+#		and unisec
+#U	rti-sel bakerst ducall
+#W	ethos!gary (Gary J. Smith); Wed Nov 12 09:29:02 EST 1986
+#
+ethos	bakerst(WEEKLY), balrog(WEEKLY), baud(WEEKLY), bilanc(DAILY),
+	burl(DAILY), burt(WEEKLY), cbosgd(WEEKLY), 
+	chinet(WEEKLY), chutepc(DAILY), cuae2(DAILY), cvpath(WEEKLY),
+	ducall(DEMAND), duccpc(DAILY), dukcds(DAILY), duke(DAILY), 
+	gizzmo(WEEKLY), gladys(WEEKLY), godot(WEEKLY), hrcca(WEEKLY),
+	ihnp4(DAILY), ihop3(DAILY), kitty(DAILY), mcnc(DIRECT), 
+	mtune(WEEKLY), rti-sel(DAILY), shell1(WEEKLY), twitch(WEEKLY),
+	unisec(WEEKLY)
+
+#N	flan
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	FiberLAN, Inc.
+#C	Richard Kelley
+#E	flan!rpk
+#T	+1 919 481 5161
+#P	P.O.Box 13111, Research Triangle Pk., NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	flan2 rti-sel
+#W	flan!rpk (Richard Kelley); Sat Jan  3 10:28:22 EST 1987
+#
+flan	rti-sel(DAILY), flan2(LOCAL)
+
+#N	genetics
+#S	AT&T 3B2/400; SVR3 UNIX
+#O	Department of Genetics, North Carolina State Univeristy
+#C	Ted H. Emigh
+#E	ncsugn!emigh
+#T	+1 919 737 2292
+#P	Box 7614, Raleigh NC  27695-7614  USA
+#L	35 44 N / 078 43 W
+#R
+#U
+#W	ncsugn!emigh (Ted H. Emigh); Tue Feb 10 17:50:27 EST 1987
+#
+genetics	ncsugn(DEDICATED)
+
+#N	gladys
+#S	AT&T 7300 Unix Sys V
+#O	David Dalton, Literary Consultant
+#C	David Dalton
+#E	gladys!david
+#T	(919) 924-5678
+#P	P.O. Box 256, Bethania, NC 27010
+#L	Lat 36 deg 08 min, Long 80 deg 15 min
+#R
+#U	bakerst kitty ethos
+#W	gladys!david (David Dalton); Sun Oct 12 12:52:42 EDT 1986
+#
+gladys	bakerst(DIRECT), bgsm(DIRECT), ethos(EVENING), ihnp4(EVENING),
+	kitty(EVENING), mtune(EVENING), shell1(EVENING), skeeve(EVENING)  
+
+#N	godot
+#S	VAX 11/750; 4.2 BSD UNIX
+#O	Radiation Oncology, North Carolina Memorial Hospital/UNC
+#C	George W. Sherouse
+#E	godot!sherouse
+#T	+1 919 966 1101
+#P	Chapel Hill, NC   27514
+#L	35 55 N / 79 04 W city
+#R	The world's first UNIX-based radiotherapy computer...
+#U      ecsvax unc ethos
+#W	godot!sherouse (George W. Sherouse); Fri Jul 18 16:26:22 EDT 1986
+#       
+godot	unc(DIRECT), mcnc(DIRECT)
+
+#N	ittral
+#S	
+#O	ITT Telecom, Business and Consumer Communications
+#C	Bernard Kenny, Robert Hornburg, Roger Denton
+#E	ittral!kenny, ittral!hornburg, ittral!denton
+#T	(919) 828-4441
+#P	2912 Wake Forest Rd., Raleigh, NC 27611
+#L	34 57 N / 78 39 W city
+#R	pathalias data commented out until update is received
+#U	ittvax
+#W	ittral!root (Name Unknown); Thu Jan  1 00:00:00 EST 1985 
+#
+#ittral	ecsvax(DIRECT), ittvax(DEMAND), laidbak(DEMAND),
+#	mcnc(DIRECT), ncsu(DIRECT)
+
+#N	ncsugn
+#S	AT&T 3B2/400; SVR3 UNIX
+#O	Department of Genetics, North Carolina State Univeristy
+#C	Ted H. Emigh
+#E	ncsugn!emigh
+#T	+1 919 737 2292
+#P	Box 7614, Raleigh NC  27695-7614  USA
+#L	35 44 N / 078 43 W
+#R
+#U
+#W	ncsugn!emigh (Ted H. Emigh); Tue Feb 10 17:50:27 EST 1987
+#
+ncsugn	ncsuvx(DIRECT), genetics(DEDICATED)
+
+#N	ncsuvx
+#S	DEC MicroVAX II; Ultrix 1.2A
+#O	North Carolina State University Computing Center
+#C	Dolores H. Leonard
+#E	ncsuvx!dhl
+#T	+1 919 737 2517
+#P	NCSU Computing Center, P.O. Box 7109, Raleigh, NC  27695-7109
+#L
+#R	We are in the process of becoming ncsu.edu on the internet.
+#R	Last update received Mon Apr  6 08:03:44 EDT 1987
+#U	ethos, mcnc, ece-csc
+#W	ncsuvx!abc (Alan Clegg); Mon Mar 30 10:19:28 EST 1987
+#
+#	NCSUVX is the mail server for the NCSU.EDU domain
+#	NCSU.EDU contains UUCP, TCP, and DECnet mail machines
+#	Ain't ULTRIX wonderful?
+#
+ncsuvx	.ncsu.edu
+#
+#	Major contacts outside .ncsu.edu
+#
+ncsuvx	ethos(DAILY), mcnc(DIRECT)
+
+#N	ncvet
+#S	
+#O	North Carolina School of Veterinary Medicine
+#C	Armistead Sapp
+#E	ncvet!aws
+#T	(919) 828-9645
+#P	
+#L	
+#R	pathalias data commented out until update is received
+#U	ikonas
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985
+#
+#ncvet	ikonas(DAILY)
+#  cost guessed by fluke!schuh
+
+#N	phs
+#S	DEC PDP-11/44; 2.8 BSD UNIX
+#O	Dept. of Physiology, Duke University Medical Center
+#C	J. Francis Heidlage
+#E	phs!jfh
+#T	+1 919 684 3754
+#P	Box 3709 DUMC, Durham, NC 27710
+#L	35 59 N / 78 54 W city
+#R
+#U	duke
+#W	duke!dbl (David B. Leonard); Sun Jan  4 12:33:18 EST 1987
+#
+phs	duke(DEDICATED), mcnc(DIRECT)
+
+#N	psyche
+#S	Callan Unistar 300 running Unix System V
+#O	Psychometric Lab, University of North Carolina @ Chapel Hill 
+#C	Ken Pauwels
+#E	ecsvax!kgp
+#T	+1 919 962 5038
+#P	013-A Davie Hall, University of North Carolina, Chapel Hill, NC  27514
+#L	35 55 N / 79 04 W city
+#R	
+#U
+#W	unc!edds (Tom Edds); Wed Nov 26 22:26:00 EST 1986
+#
+psyche	unc(WEEKLY)
+
+#N	punix
+#S	PC7300
+#O	North Carolina Educational Computing Service
+#C	Byron C. Howes
+#E	punix!bch
+#T	(919) 549-0671 x237
+#P	P.O. Box 12035, Research Triangle Park, NC  27709-2035
+#L	
+#R	pathalias data commented out until update is received
+#U	ecsvax
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:06:18 GMT 1985
+#	
+#punix	ecsvax(DAILY)
+
+#N	rti
+#S	DEC VAX 750; 4.2BSD
+#O	Research Triangle Institute
+#C	Mike Shaddock, Tom Truscott
+#E	rti-sel!shaddock, rti-sel!trt
+#T	+1 919 541 7414, +1 919 541 7005
+#P	Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	rti-sel
+#W	rti!shaddock (Mike Shaddock); Wed Jul 23 08:54:09 EDT 1986
+#
+rti	rti-sel(LOCAL),
+	mcnc(DEDICATED), unc(DEDICATED)
+
+#N	rti-sel
+#S	Gould 9050, 4.2BSD
+#O	Research Triangle Institute
+#C	Mike Shaddock, Tom Truscott
+#E	rti-sel!shaddock, rti-sel!trt
+#T	+1 919 541 7414, +1 919 541 7005
+#P	Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	rti, mcnc, dg_rtp, scirtp, tijc02, ethos, ge-rtp, sas, bdrc
+#W	rti-sel!shaddock (Mike Shaddock); Wed Jul 23 08:54:09 EDT 1986
+#
+rti-sel	rti(LOCAL),
+	duke(DEDICATED), mcnc(DEDICATED), unc(DEDICATED),
+	dukebar(DEMAND), dukgeri(DEMAND), ethos(DEMAND), flan(DEMAND),
+	ece-csc(DEMAND), scirtp(DEMAND),
+	sas(HOURLY), bdrc(HOURLY), dg_rtp(HOURLY), ge-rtp(HOURLY),
+	rtp47(DAILY), gould(DAILY), ndl(DAILY), tijc02(DAILY)
+
+#N	scirtp
+#S	SCI 1000
+#O	SCI System, Inc.
+#C	Maureen Chew, David Hinnant
+#E	scirtp!maureen, scirtp!dfh
+#T	(919)549-8334
+#P	P.O. Box 12557, Research Triangle Park, NC 27709
+#L	
+#R	This is the main network site for SCI Technology, Inc. in Research
+#	Triangle Park, NC.  We're the software development center for SCI
+#	Systems out of Huntsville Alabama.
+#R	pathalias data commented out until update is received
+#U	rti-sel
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:18:49 GMT 1985
+#	
+#scirtp	rti-sel(DEMAND), ittral(DEMAND)
+
+#N	suntri
+#S	Sun-3/160C; Sun 3.2 UNIX
+#O	Sun Microsystems North Carolina Sales Office
+#C	Keith DeJager
+#E	suntri!admin
+#T	+1 919 481 3959
+#P	117 Edinburgh S. #102, Cary, NC  27511
+#L	35 44 19 N / 78 48 08 W Cary
+#U	rti-sel, gorhino
+#W	suntri!vince (Vince Westin); Thu Oct 30 16:00:00 EDT 1986
+#
+suntri	= droid
+suntri	sunatl(DEMAND), sunesc(DEMAND+HIGH),
+	sundc(DEMAND), sunne(DEMAND+HIGH),
+	sunhunt(DEMAND), sun(DEMAND+HIGH),
+	texsun(DEMAND),
+	uncmath(DAILY), rti-sel(DIRECT+LOW),
+	gorhino(DIRECT+LOW)
+
+#N	unc
+#S	Vax 11/785 / 4.2 bsd UNIX
+#O	University of North Carolina, Dept. of Computer Science
+#C	John Menges
+#E	mcnc!unc!menges
+#T	(919)962-2059
+#P	Chapel Hill, NC 27514
+#L	35 54 43 N / 79 03 05 W
+#R	
+#U	mcnc
+#W	tgt@cbosgd.ATT.COM (Tim Thompson) ; Sun Feb  1 00:11:48 EST 1987
+#
+#	MCNC microwave network
+#
+MCNCNET = {mcnc, unc, duke, rti, rti-sel, ecsvax, unccvax}!(DEDICATED)
+unc	godot(DEMAND)
+
+#N	unccvax
+#S	
+#O	University of North Carolina at Charlotte (UNCC)
+#C	Dwayne Mcneil
+#E	unccvax!dbm
+#T	(704) 597-2302
+#P	EAD Dept., UNCC Station, Charlotte, NC 28223
+#L	35 14 N / 80 50 W city
+#R	pathalias data commented out until update is received
+#U	mcnc wgi70
+#W	fluke!schuh (Mike Schuh); Wed Oct 16 23:59:29 PDT 1985
+#
+#unccvax	mcnc(DIRECT), wgi70(DIRECT)
+
+#N	wgi70
+#S	PDP 11/70/UNIX V7
+#O	Washburn Graphics, Inc.
+#C	Fred Toth
+#E	wgi70!fpt
+#T	704-372-5270
+#P	P.O. Box 31517, Charlotte, NC, 28231
+#L	35 14 N / 80 50 W city
+#R	pathalias data commented out until update is received
+#U	unccvax
+#W	fluke!schuh (Mike Schuh); Thu Oct 17 00:02:59 PDT 1985
+#	connection guessed by fluke!schuh
+#wgi70	unccvax(DIRECT)
+
+SHAR_EOF
+echo shar: extracting u.usa.nd.1
+cat << 'SHAR_EOF' > u.usa.nd.1
+#MAP FILE: u.usa.nd.1	Fri May 29 13:33:21 EDT 1987	tgt@stargate.COM
+#
+#
+#N	ndsuhp
+#S	HP 9000 (HPUNIX)
+#O	North Dakota State University, Department of Mathematical Sciences
+#C	Phil Cain
+#E	ihnp4!dicome!ndsuvax!ndsuhp!cain
+#T	(701) 237-7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	
+#U
+#W	map per site administrator  1/22/87
+#
+ndsuhp	ndsuvax(DEMAND)
+
+#N	ndsuvax
+#S	VAX 11-780 (4.3bsd)
+#O	North Dakota State University, Department of Mathematical Sciences
+#C	Troy Bergstrand
+#E	ihnp4!dicome!ndsuvax!ncbergst
+#T	(701) 237-7786
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	
+#U
+#W	map per site administrator  1/22/87
+#
+ndsuvax	umn-cs(DAILY),dicome(DAILY),ndsuhp(DEMAND) 
+
+SHAR_EOF
+echo shar: extracting u.usa.ne.1
+cat << 'SHAR_EOF' > u.usa.ne.1
+# Doug McCallum <dougm@ico.ISC.COM>; Tue Jun  2 21:30:34 MDT 1987
+
+#N	dsndata
+#S	HP 9000/350; HP-UX 5.22B
+#O	Design Data Corp.
+#C	Dennis Page
+#E	denny@dsndata.UUCP
+#T	(402) 476-8278
+#P	1033 "O" street, suite 324, Lincoln, NE 68508-3621
+#L	40 48 N / 96 42 W city
+#W	denny, 870326
+#
+dsndata	hpfcla(DEMAND),		upba(DEMAND)
+
+
+
+#N	fergvax
+#S	DEC VAX-11/780; Ultrix-32
+#O	University of Nebraska
+#C	Dale Finkelson
+#E	fergvax!manager
+#T	+1 402 472 5032
+#P	213b Ferguson Hall, UNL, Lincoln,Ne 68588
+#L	40 49 06 N / 96 42 18 W
+#R
+#U
+#W	fergvax!manager (Dale Finkelson); Wed Apr 9 10:50:59 CST 1986
+#
+fergvax	okstate(DAILY), csvax(DAILY), isucs1(WEEKLY)
+
+
+#N	hdr
+#S	AT&T 3B15; System V Release 2.1.1
+#O	HDR Systems, Inc.
+#C	Eric J. Johnson
+#E	hdr!eric
+#T	+1 402 399 1400
+#P	8404 Indian Hills Drive, Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	This is the gateway to the all Unix machines at HDR Systems
+#W	hdr!eric (Eric J. Johnson) Thu May 28 21:38:33 CDT 1987
+#
+hdr	ihnp4(EVENING+HIGH), pbi(DIRECT)
+
+
+
+#N	nw4
+#S	3B20S; System V_R2
+#O	Northwestern Bell Telephone Company
+#C	Sue Humphrey
+#E	nw4!uucp
+#T	1-402-422-5411
+#P	100 South 19th Street,Room 1160 Douglas Building;Omaha,Nebraska,68102
+#L
+#R	Sorry I have no idea what our Longitude and latitude is!
+#U
+#W	Sue Humphrey; Mon Sep 23 15:35
+#
+
+
+#N	unebocs
+#S	PDP 11/44 Version 7m 2.1 (System V.2-when we finish the device drivers)
+#O	University of Nebraska at Omaha -- Math/Computer Science Dept 
+#C	Stanley Wileman 
+#E	unebocs!cs002
+#T	+1 402 554 2834
+#P	6001 Dodge Street, Omaha, Nebraska
+#L	41 15 30 N / 96 30 0 W
+unebocs	btni(DIRECT), csvax(EVENING/2), fergvax(DEMAND), ihnp4(EVENING/2)
+
+
+
+#N	upba
+#S	Sequent Balance 8000; DYNIX (BSD 4.2)
+#O	Phone Book Publisher
+#C	Damon Scaggs
+#E	damon@upba.UUCP
+#T	(402) 476-2200
+#P	Damon Scaggs, , Lincoln, NE  68510
+#L	40 48 N / 96 42 W city
+#R	
+#W	Damon Scaggs 2/28/86
+#U	
+upba	dsndata(DIRECT), pbi(DEAD), fergvax(DIRECT), ihnp4(DEMAND),
+	sequent(DEMAND)
+
+
+SHAR_EOF
+echo shar: extracting u.usa.nh.1
+cat << 'SHAR_EOF' > u.usa.nh.1
+#	start of u.usa.nh.1: Tue Jun  2 16:11:54 EDT 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	burlcoat
+#S	Altos 986; XENIX 3.0b
+#O	Burlington Coat Factory Warehouse
+#C	Andy Behrens
+#E	burlcoat!postmaster
+#T	+1 603 448 5000
+#P	P.O. Box 729, Lebanon, NH 03766
+#L	43 40 N / 72 14 W
+#R	
+#U	dartvax
+#W	burlcoat!andyb (Andy Behrens); Tue Aug 5 16:00:00 EDT 1986
+#
+burlcoat	dartvax(DIRECT)
+
+#N	center
+#S	Gould PN6080; UTX 2.0 (4.3BSD/NFS)
+#O	The Achievement Center, Inc.
+#C	David Hubbell
+#E	center!postmaster
+#T	+1 603 668-0033
+#P	689 Union St., Manchester NH 03104
+#L	43 01 N / 71 44 W city
+#R	
+#W	center!dhubbell (David Hubbell); Wed Feb 25 20:32:51 EST 1987
+#U
+#
+center	trixie(DIRECT),utxbos(DEMAND)
+
+#N	creare
+#S	Sun
+#O	Creare R & D
+#C	Gary Abbott
+#E	creare!gda
+#T
+#P	Great Hollow Road, Hanover, NH 03755
+#L	43 41 N / 72 14 W
+#R
+#W	gda@creare.uucp; Wed Aug 14 11:19:24 1985
+#U	dartvax
+#
+#creare	dartvax(DIRECT)
+
+#N	dartvax
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	Dartmouth College, Kiewit Computation Center
+#C	Stephen Campbell
+#E	dartvax!postmaster
+#T	+1 603 646 2643
+#P	HB 6028, Hanover, NH 03755
+#L	72 17 W / 43 42 N
+#W	dartvax!steve (Stephen Campbell) Thu Nov 20 10:00:00 EST 1986
+#U	decvax uvm-gen psc90 creare lscvax
+#R	dartvax is the gateway to all Dartmouth College hosts.
+dartvax = dartmouth, ".DARTMOUTH.EDU"
+#
+#	UUCP connectivity for dartvax
+#
+dartvax	decvax(EVENING), linus(EVENING), creare(POLLED), cornell(DAILY),
+	burlcoat(POLLED), dalcs(POLLED), true(POLLED), astrovax(EVENING), 
+	colby(DAILY), psc70(DAILY), uvm-gen(EVENING), ihnp4(EVENING),
+	research(EVENING), harvard(EVENING), lscvax(EVENING), uscga(EVENING),
+	achs15(DEMAND), brsug(DAILY), brspyr1(POLLED),
+	princeton(EVENING), psc90(DAILY)
+
+#N	decvax
+#S	Vax 11/750; Ultrix 32 V1.2
+#O	Digital Equipment Corp.
+#C	Larry Plamer
+#E	decvax!lp
+#T	
+#P	MK2-1/H10 Continental Blvd, Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	Jeff Schwab 4/16/86
+#U	bellcore cca cwruecmp dartvax decwrl genrad gsg harpo ichaya 
+#U	ittatc linus mcnc savax tektronix ucbvax vortex wivax yale
+#
+# This information is provided for directory use only.
+# It does not imply a commitment by Digital Equipment
+# Corporation and is subject to change without notice.
+#
+# local calls
+decvax	savax(DIRECT), shaman(DIRECT), sii(DIRECT), wanginst(DIRECT),
+	ichaya(DIRECT)
+#
+# frequent calls
+decvax	bellcore(HOURLY), cca(HOURLY), cwruecmp(HOURLY), deceds(HOURLY),
+	decuac(HOURLY), decwrl(HOURLY), genrad(HOURLY), granite(HOURLY),
+	ihnp4(HOURLY), ittatc(HOURLY), lafite(HOURLY), linus(HOURLY),
+	mcnc(HOURLY), mit-athena(HOURLY), netrix(HOURLY), seismo(HOURLY),
+	tektronix(HOURLY), ucbvax(HOURLY), vortex(HOURLY), wivax(HOURLY),
+	yale(HOURLY)
+#
+# non-prime time calls
+decvax	allegra(EVENING), astrovax(EVENING), bobo(EVENING), brunix(EVENING),
+	bunker(EVENING), cbosg(EVENING), cbosgd(EVENING), cincy(EVENING),
+	cithep(EVENING), cornell(EVENING), cray(EVENING), datagen(EVENING),
+	duke(EVENING), emory(EVENING), encore(EVENING), esquire(EVENING),
+	farance(EVENING), freeport(EVENING), gatech(EVENING), hcr(EVENING),
+	hermix(EVENING), hjuxa(EVENING), hplabs(EVENING), idis(EVENING),
+	ima(EVENING), ittvax(EVENING), masscomp(EVENING), mazama(EVENING),
+	microsoft(EVENING), mit-vax(EVENING), mtxinu(EVENING), netword(EVENING),
+	philabs(EVENING), pur-ee(EVENING), purdue(EVENING), randvax(EVENING),
+	research(EVENING), rochester(EVENING), sdchem(EVENING),
+	sdchema(EVENING), sdcsvax(EVENING), sickkids(EVENING),
+	sri-prmh(EVENING), std(EVENING), stolaf(EVENING), sun(EVENING),
+	trwrb(EVENING), tsc(EVENING), ucf-cs(EVENING), ulysses(EVENING),
+	usenix(EVENING), ut-sally(EVENING), utah-cs(EVENING),
+	utcs(EVENING), utcsri(EVENING), utzoo(EVENING), uw-beaver(EVENING),
+	vax135(EVENING), watmath(EVENING)
+#
+# very long distance calls
+decvax	mcvax(2*DAILY), mulga(DAILY)
+#
+# incoming calls
+decvax	abic(POLLED), arizona(POLLED), attunix(POLLED), bbncca(POLLED),
+	bbnccv(POLLED), brl-smoke(POLLED), cvbnet(POLLED),
+	dartvax(POLLED), decclt(POLLED), deccra(POLLED), eagle(POLLED),
+	epds01(POLLED), flkvax(POLLED), frog(POLLED), gsg(POLLED),
+	harpo(POLLED), humus(POLLED), icarus(POLLED), ichaya(POLLED),
+	ll-xn(POLLED), lsrhs(POLLED), mindcrft(POLLED), nicmad(POLLED),
+	noao(POLLED), nrl-css(POLLED), pernod(POLLED), pyrbos(POLLED),
+	qusavx(POLLED), scorplx(POLLED), stcvax(POLLED), sunybcs(POLLED),
+	sytek(POLLED), ubvax(POLLED), ulose(POLLED),
+	ultrix(POLLED), unh(POLLED), wang(POLLED)
+
+#N	dmcnh
+#S	Datamedia 932 (MC68010); System V.2 Uniplus+ 
+#O	Datamedia Corporation
+#C	Dave McCracken
+#E	dmcnh!dcm
+#T	+1 603 886 1570
+#P	11 Trafalgar Square, Nashua, New Hampshire 03063
+#L	42 44 N / 71 28 W city
+#R
+#U	sii sol
+#W	dmcnh!dcm (Dave McCracken); Thu Jun 26 08:29:19 EDT 1986
+#
+# These are local calls we will make any time
+dmcnh	sii(DIRECT), sol(DIRECT)
+#
+# We poll these sites
+sii	dmcnh(DAILY/5)
+sol	dmcnh(DAILY/2)
+
+#N	gsg
+#S	Pyramid 90X; 4.2BSD Unix
+#O	General Systems Group, Inc.
+#C	Stephen Mattin (site admin), Barbara M. Dillon (news)
+#E	gsg!sam, gsg!barbara
+#T	+1 603 893 1000
+#P	51 Main Street, Salem, NH 03079
+#L
+#R
+#W	barbara@gsg.UUCP (Barbara M. Dillon); Mon Dec 29 11:05:00 1986
+#U
+#
+gsg	decvax(DIRECT), harvard(DEMAND), pyrbos(DEMAND), pyrnj(DEAD)
+# Polling schedule
+decvax	gsg(DAILY/2)
+harvard	gsg(DAILY/2)
+pyrbos	gsg(DAILY/2)
+
+#N	guru
+#S	MicroVAX II, ULTRIX-32m v1.1
+#O	Digital Equipment Corporation
+#C	Jon A. Hall
+#E	guru!hall
+#T	(603) 884-5905
+#P	MS MK02-1/J17, Continental Blvd., Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	Jon Hall 5/14/85
+#
+#guru	decvax(LOCAL), shaman(DIRECT)
+
+#N	has70
+#S	PD- 11/70
+#O	Hastech Inc.
+#C	Rich Moren
+#E	has70!moren
+#T	(603) 623-3330
+#P	670 North Commercial St., Manchester, NH 03101
+#L	42 59 N / 71 28 W
+#W	Rich Moren, 12/5/84
+#U
+#
+#has70	sii(DAILY)
+#
+#has70 = hei44
+
+#N	osi3b2
+#S	AT&T 3b2-310; System V.2.0.4
+#O	Origin Systems Inc.
+#C	James R. Van Artsdalen
+#E	osi3b2!postmaster
+#T	+1 512 323 2675
+#P	340 Harvey Rd. Manchester NH 03103
+#L	76 21 W / 42 56 N city
+#W	osi3b2!james (James R. Van Artsdalen); Tue Dec 30 01:16:20 EST 1986
+#U	reality1
+#
+osi3b2	bigtex(DAILY)
+
+#N	psc70
+#S
+#O	Plymouth State College
+#C	T. O. Schlesinger
+#E	psc70!tos
+#T
+#P	Plymouth, NH
+#L
+#R
+#W
+#U	dartvax
+#
+psc70	dartvax(DAILY)
+
+#N	savax
+#S	DEC VAX-11/750; Ultrix 32 V1.2
+#O	Sanders Associates, Inc.
+#C	David A. Long
+#E	savax!long, savax!usenet
+#T	+1 603 885 9232
+#P	MER 24-1283, C.S. 2034, Nashua, NH 03061-2034
+#L	42 49 N / 71 29 W
+#R
+#W	savax!long (David A. Long); Wed Jun 25 10:25:00 EST 1986
+#U	sii elrond
+#
+savax	decvax(DIRECT), sii(DIRECT), elrond(DEDICATED), masscomp(DAILY),
+	thayer(DAILY), dspvax(DAILY), nhsqnt(WEEKLY)
+
+#N	shaman
+#S	PDP 11/34, ULTRIX-11 v2.0
+#O	Digital Equipment Corporation
+#C	Jon A. Hall
+#E	shaman!hall
+#T	(603) 884-5905
+#P	MS MK02-1/J17, Continental Blvd., Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	Jon Hall 3/22/85
+#U
+#
+#	local calls
+#shaman	decvax(DIRECT), guru(DIRECT)
+
+#N	sii
+#S	Onyx C8002; Version 7 Unix
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, David Dick
+#E	sii!meg, sii!drd
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#R	
+#U	savax dmcnh
+#W	sii!meg (Marta Greenberg); Thu Oct 30 21:01:12 EST 1986
+#
+sii	cfib(POLLED), cornell(POLLED), decvax(POLLED),
+	dmcnh(POLLED), ittatc(POLLED), savax(POLLED)
+
+#N	sol
+#S	DEC PDP-11/73; 2.0 ULTRIX-11
+#O	VIBRAC Corporation and IO Software, Inc.
+#C	Christopher M. Caldwell
+#E	sol!usenet,sol!chris
+#T	+1 603 882 6777
+#P	16 Columbia Drive, Amherst, NH 03031, USA
+#L	42 42 20 N / 71 34 40 W
+#R	Electro mechanical quality control testing and software development
+#U	dmcnh
+#W	sol!chris (Christopher M. Caldwell); Nov 5 15:25:20 EST 1986
+#
+sol	dmcnh(DAILY)
+
+#N	spark
+#S	IBM PC; PC-DOS 3.0
+#O	Spark Software, Inc.
+#C	Bob Hartman
+#E	spark!rch
+#T	+1 603 888 5433
+#P	24 Royal Crest Dr, #5, Nashua, NH 03060
+#L	42 45 N / 71 30 W
+#R	This machine runs as a Fido BBS, but can send and receive UNIX mail
+#R	through vaxine.  It also allows gatewaying of USENET articles into
+#R	the Fido network.  This expands the readership of USENET without
+#R	putting additional stress on the USENET hosts (other than vaxine).
+#U
+#W	spark!rch (Bob Hartman) ; Fri Sep 20 15:25:00 EDT 1985
+#
+#spark	vaxine(DAILY)
+
+#N	trixie
+#S	Gould PN6080; UTX 2.0 (4.3BSD/NFS)
+#O	Gould Inc., Computer Systems Division
+#C	Jonathan Fraser
+#E	trixie!postmaster
+#T	+1 603 881-4488 ; +1 603 625 4001
+#P	21 Stephanie Drive, Bedford NH 03102
+#L	42 56 N / 71 26 W city
+#R	This site is a skunkworks for Gould
+#W	trixie!fraser (Jon Fraser); Wed Oct	8 11:36:33 EDT 1986
+#U
+#
+# all mail goes out at least hourly
+trixie gould(DIRECT), polyof(HOURLY), 
+	sandbox(HOURLY), sii(DIRECT), usafa(HOURLY) 
+# the following are polled or can call us
+gould	trixie(HOURLY)
+polyof	trixie(DAILY)
+sandbox	trixie(DAILY)
+sii	trixie(DAILY/3)
+usafa	trixie(DAILY)
+
+#N	true
+#S	Onyx C8002; Unix 3.0.3
+#O	True Basic, Inc.
+#C	Chris Walker
+#E	true!chris
+#T	+1 603 643 3882
+#P	39 South Main St, Hanover, NH  03755
+#L	43 42 N / 72 17 W
+#R	
+#W	true!dave (David Pearson); Tue Nov 25 16:20:10 EST 1986
+#U	
+#
+true	dartvax(DAILY)
+
+#N	unh
+#S	Vax 11/780, 4.2BSD
+#O	University of New Hampshire
+#C	Nicholas H. Alter, Jr.
+#E	unh!nha
+#T	(603) 862-2323
+#P	Kingsbury Hall, Durham, NH 03824
+#L	70 56 11 W / 43 08 15 N
+#R	
+#W	Nicholas H. Alter, Jr.  6/3/85
+#
+#unh	decvax(DEMAND), psc70(DAILY), jaxlab(WEEKLY), unhcs(DEMAND)
+#
+#unhnet = {unh, unhcs, unhh, unha}:(LOCAL)
+
+#	end of u.usa.nh.1: Tue Jun  2 16:12:05 EDT 1987
+SHAR_EOF
+:	End of shell archive
+exit 0

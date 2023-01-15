@@ -1,0 +1,1006 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.fl.1
+#	d.usa.ga.1
+#	d.usa.ma.1
+#	d.usa.mn.1
+#	d.usa.ny.1
+#	u.usa.ca.6
+# This archive created: Mon Jul 27 22:52:39 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.fl.1
+cat << \SHAR_EOF > d.usa.fl.1
+#  Maintained by spaf@gatech.edu (Gene Spafford)
+#  Last updated Fri Jul 10 08:43:04 EDT 1987
+#
+#N	.ccur.com, peora
+#F	uxc.cso.uiuc.edu
+#O	Concurrent Computer Corporation
+#C	Steve Davies, Randy Hendry
+#E	postmaster@peora.ccur.com
+#T	+1 305 850 1040
+#P	2486 Sand Lake Road, Orlando, FL  32809-7642
+#L	28 26 57 N / 81 24 56 W
+#U	ucf-cs codas petsd(L1)
+#W	srd@peora.ccur.com (Steve Davies); Tue Apr 21 14:05:29 EDT 1987
+peora	.ccur.com
+peora=	peora.ccur.com
+peora	bsdpkh(DIRECT), codas(DIRECT), hoptoad(DEMAND+LOW),
+	pecnos(DEMAND+HIGH), pedsgd(DEMAND), petsd(DEAD), ucf-cs(DIRECT),
+	uiucuxc(DEMAND)
+pecnos	petsd(DEDICATED)
+
+#N	.ge.com, ge-dab, ge-rtp, edison
+#F	seismo.css.gov
+#O	General Electric Company
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4336, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#R	registered
+#R	This map entry contains those .ge.com sites that are functional
+#R	domain gateways.  Other .ge.com uucp hosts are still in the
+#R	u.usa.* maps, for now....
+#U	codas rti 
+#W	jso@edison.GE.COM (John S. Owens); Tue Mar 31 08:22:27 EST 1987
+#
+# Second and Third level domains and gateways:
+ge-dab	.ge.com, .dab.ge.com
+ge-rtp	.ge.com, .rtp.ge.com
+edison	.ge.com, .aco.ge.com
+# Hosts valid as third level domains:
+calma     =	calma.ge.com
+calmasd   =	calmasd.ge.com
+edison    =	edison.ge.com
+ge-dab    =	ge-dab.ge.com
+ge-rtp    =	ge-rtp.ge.com
+gecalma   =	gecalma.ge.com
+proteus   =	proteus.ge.com
+steinmetz =	steinmetz.ge.com
+#
+#	ge-dab
+#S	DEC VAX-11/780; Ultrix-32
+#O	General Electric Simulation and Control Systems Department
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4336, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#U	ge-rtp codas
+#  Our dedicated links
+ge-dab	ge-rtp(DEDICATED)
+#  Our polled connections
+ge-dab  codas(DEMAND), sunfla(DAILY),
+	edison(HOURLY*2), steinmetz(HOURLY*2)
+#
+#	ge-rtp
+#S	DEC Microvax-II; Ultrix-32m
+#O	General Electric Company, Semiconductor Division
+#C	Scott Baeder
+#E	postmaster@rtp.ge.com
+#T	+1 919 549 3663
+#P	P.O. Box 13049, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#U	rti ge-dab
+# direct connections
+ge-rtp	ge-dab(DEDICATED)
+# local calls
+ge-rtp	mcnc(DIRECT+HIGH), rti(DIRECT)
+# long distance GE sites
+ge-rtp	edison(DEMAND)
+# sites we poll
+mcnc	ge-rtp(DAILY/8)
+rti	ge-rtp(DAILY/6)
+#
+#	edison
+#S	DEC VAX-11/785; BRL VAX UNIX (4.2 BSD)
+#O	GEFanuc Automation Corporation, North America
+#C	Bruce Garland, Keith Chambers
+#E	postmaster@edison.ge.com
+#T	+1 804 978 5000
+#P	P.O. Box 8106; Charlottesville, VA 22906
+#L	38 09 N / 078 25 W
+#U	toylnd ge-rtp steinmetz
+# direct connections
+edison	proteus(DEDICATED)
+# local calls
+edison	uvaee(DIRECT), kesmai(DIRECT), toylnd(POLLED)
+# long distance GE sites
+edison	ge-rtp(EVENING), ge-dab(EVENING), steinmetz(DAILY),
+	gecalma(DAILY), calma(DAILY), calmasd(DAILY+LOW),
+	rvsd(EVENING)
+# other long distance sites
+edison	xanth(EVENING), vtiit1(DAILY), vtisr1(DAILY),
+	decuac(DAILY), brl-smoke(DAILY),
+	houxm(DAILY), unipress(DAILY),
+	hpfcla(DAILY), scgvaxd(DAILY)
+#
+# Sites we poll (ensure real and pathalias connectivity)
+kesmai		edison(DAILY)
+xanth		edison(DAILY)
+decuac		edison(DAILY)
+brl-smoke	edison(DAILY)
+scgvaxd		edison(DAILY)
+hpfcla		edison(WEEKLY/2)
+rvsd		edison(WEEKLY)
+gecalma		edison(WEEKLY)
+calma		edison(WEEKLY)
+calmasd		edison(WEEKLY)
+houxm		edison(WEEKLY)
+unipress	edison(WEEKLY)
+
+#N	.harris.com, hcx1
+#F	eddie.mit.edu
+#O	Harris Corp., Computer Systems Division
+#C	Dick Reynolds, Gilbert Pilz
+#E	Postmaster@harris.com
+#T	305-974-1700
+#P	2101 W Cypress Creek Rd.; Fort Lauderdale, FL 33309
+#L	80 09 W / 26 15 N 
+#U	novavax
+#R	applied
+#W	dick@hcx1.uucp (Dick Reynolds); Sat Mar  7 08:51:06 EST 1987
+#
+hcx1	.harris.com
+hcx1	harris.com
+hcx1=	ssd.harris.com
+hcx1	sec6(HOURLY), scmhcx(HOURLY), novavax(DIRECT), mit-eddie(POLLED)
+
+SHAR_EOF
+echo shar: extracting d.usa.ga.1
+cat << \SHAR_EOF > d.usa.ga.1
+#  Maintained by spaf@gatech.edu (Gene Spafford)
+#  Last updated Mon Jul 27 08:39:35 EDT 1987
+#
+#N	.gatech.edu, gatech
+#F	relay.cs.net
+#O	School of Information and Comp. Sci., Georgia Inst. of Technology
+#C	Jeff Lee
+#E	gatech!postmaster
+#T	+1 404 894 3658
+#P	School of ICS, Georgia Tech, Atlanta, GA, 30332-0280
+#L	33 46 31 N / 84 23 41 W
+#R	We're 128.61.1.1 on the Internet
+#U	bloom-beacon cbosgd dcatla dscatl emory gitpyr gt-cmmsr 
+#U	gt-eedsp gt-stratus gtoscar gtss hao hplabs hubcap itcatl 
+#U	itm linus louie mcnc msdc ncsuvx rebel rutgers seismo ugacs 
+#U	ukme ulysses 
+#W	gatech!spaf (Gene Spafford); Mon Jul 27 08:39:04 EDT 1987
+#
+gatech	.gatech.edu
+gatech=	ics.gatech.edu
+gatech=	gatech.gatech.edu
+gatech=	gatech.edu
+gatech=	gatech.csnet
+#
+#  Significant On-campus links
+#
+gatech	gtss(DEDICATED+15), gt-cmmsr(DEDICATED+15),
+	gt-eedsp(DEDICATED+15), gtoscar(DEDICATED), 
+	sti3b2(DIRECT), gt-ginko(DEDICATED+15),
+	snowhite(DEDICATED), strudl(POLLED), xenair(DIRECT), xenics(DEAD)
+#
+# Atlanta-area UUCP by phone
+#
+gatech	akgua(DIRECT+LOW), atlsqnt(DIRECT), atssc(DIRECT), auc(DIRECT),
+	cadeta(DIRECT), dcatla(DIRECT), dcc1(DIRECT), dcc2(DIRECT),
+	dscatl(DIRECT), emcard(DIRECT), emory(DIRECT),
+	emoryu1(DIRECT+HIGH), escatl(EVENING), holos0(EVENING),
+	hisata(DIRECT), itcatl(DIRECT+HIGH), itm(DIRECT+LOW),
+	galbp(DIRECT), mdc14(DIRECT), msdc(HOURLY), nasfc(EVENING),
+	ncsatl(DIRECT), pid(DIRECT+LOW), pyratl(DAILY/3), rdm(DIRECT),
+	rebel(DIRECT+LOW), sbmsg1(DIRECT+HIGH), sbmsg2(DIRECT),
+	sbmsg3(DIRECT), sbmsg4(DEAD), sbmsg5(DEAD),
+	scraps(DAILY/3), sdba(DIRECT),
+	skeeve(DIRECT+LOW), sortac(DIRECT), stiatl(EVENING),
+	sunatl(DIRECT), sysd(DIRECT), ugacs(HOURLY*4), vctvax(DIRECT)
+#
+# TCP/IP UUCP links
+#
+gatech	ames(DEMAND/2), astrovax(DEDICATED+LOW),
+	decvax(DEMAND/2), hao(DEDICATED),
+	harvard(DEDICATED+2*LOW), lll-lcc(DEMAND/2),
+	mcnc(DEDICATED),
+	mit-eddie(DEDICATED+LOW), princeton(DEDICATED+LOW),
+	psuvax1(DEDICATED+LOW),
+	pur-ee(DEDICATED+LOW), rutgers(DEDICATED+LOW),
+	sdcsvax(DEDICATED+LOW), seismo(DEDICATED+LOW),
+	uiucdcs(DEDICATED+LOW), ut-ngp(DEDICATED+LOW),
+	ut-sally(DEDICATED+LOW)
+#
+# Long Distance phone UUCP links
+#
+gatech  allegra(DEMAND+LOW), amd(DEMAND), amdcad(DEMAND), blnt1(DAILY/2),
+	bonnie(DEMAND+HIGH), cbosgd(DEMAND+HIGH), clyde(DEMAND+2*HIGH),
+	codas(POLLED+HIGH),
+	floyd(DEMAND+HIGH), hoptoad(EVENING), houston(EVENING),
+	hplabs(DEMAND), hubcap(DEMAND), ihnp4(POLLED), isieng(WEEKLY),
+	linus(DEMAND), mcdchg(DEMAND), masscomp(DEMAND),
+	meccts(EVENING), midlyd(EVENING), moss(DEMAND+HIGH),
+	petro(DEMAND), philabs(DEMAND), plus5(POLLED),
+	qantel(DEMAND+2*LOW), rayssd(DEMAND), research(DEMAND),
+	rlgvax(DEMAND), sequel(DEMAND+LOW), svo(WEEKLY),
+	tektronix(DEMAND+LOW), potc(POLLED), uf-cgrl(WEEKLY/2), unmvax(DEMAND),
+	ulysses(DEMAND), usfvax2(DAILY), wucs1(EVENING)
+
+SHAR_EOF
+echo shar: extracting d.usa.ma.1
+cat << \SHAR_EOF > d.usa.ma.1
+#	start of d.usa.ma.1: Mon Jul 20 09:11:19 EDT 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.adelie.com, adelie
+#F	harvard.edu
+#O	Adelie Corporation
+#C	Barry A. Burke, Jeff Moskow
+#E	barry@adelie.Adelie.COM, jeff@adelie.Adelie.COM, usenet@adelie.Adelie.COM
+#T	+1 617 354-0400
+#P	125 Cambridge Park Drive, Cambridge, MA  02140
+#L	42 23 40 N / 071 08 40 W
+#U	ll-xn axiom ora morgoth mirror munsell necntc infinet
+#R	
+#W	barry@adelie.UUCP (Barry A. Burke); Mon May 18 23:04:32 EDT 1987
+#
+# +HIGH signifies 2400 baud links
+#
+adelie	.adelie.com
+adelie=	adelie.com
+adelie  axiom(DIRECT), cdx39(DEAD), cfisun(DIRECT+HIGH), harvard(DIRECT+HIGH),
+	infinet(DEMAND+HIGH), iquery(DAILY/2), ll-xn(DIRECT+HIGH), 
+	mirror(DIRECT+HIGH), morgoth(DIRECT), munsell(HOURLY+HIGH), 
+	necntc(HOURLY+HIGH), ora(DIRECT+LOW)
+#
+# The inverse connections below exist, but are probably not in the map, yet
+mirror	adelie(DIRECT)
+cdx39	adelie(DEAD)
+infinet adelie(EVENING)
+
+#N      .alliant.com, alliant
+#F      eddie.mit.edu
+#O      Alliant Computer Systems Corporation
+#C      Roger Roles
+#E      rroles@Alliant.com, alliant!rroles
+#T      617-486-1211
+#P      One Monarch Drive, Littleton, MA 01460
+#L      42 31 05 N / 71 31 05 W
+#U      linus mrmarx palladium
+#R      registered 
+#W      alliant!rdr (Roger D. Roles); Fri Jul 24 19:32:35 EDT 1987
+# 
+alliant         .alliant.com
+alliant=        Alliant.com 
+alliant apollo(DEMAND), attunix(DEMAND), brl-smoke(DEMAND), linus(DEMAND+HIGH),
+        maynard(EVENING), mit-eddie(DEMAND), mrmarx(EVENING),
+        palladium(EVENING), sgi(EVENING), suneast(DEMAND), sunne(DEMAND)
+
+#N	.applicon.com, applicon
+#F	eddie.mit.edu
+#O	Applicon/Schlumberger
+#C	Peter Webb, Bob Kumlin
+#E	webb@applicon.com, kumlin@applicon.com
+#T	617-667-8850
+#P	Applicon/Schlumberger, 829 Middlesex Tpk, Billerica MA, 01821
+#L	42 30 N / 71 16 W
+#U	raybed2
+#R	registered
+#R	Applicon is our gateway to USENET for our other unix machines.
+#W	webb@applicon.com (Peter Webb) ; Thu May 14 11:00:10 EDT 1987
+#
+applicon .applicon.com
+applicon = applicon.com
+applicon raybed2(LOCAL), alphatech(POLLED), ima(HOURLY*4),
+	pbear(DAILY), hdsvx1(POLLED), ulowell(DEMAND), mit-eddie(HOURLY*4)
+
+#N	.bsw.com, maynard
+#F	harvard.harvard.edu
+#O	The Boston Software Works, Inc.
+#C	Larry Campbell
+#E	campbell@maynard.BSW.COM
+#T	+1 617 367 6846
+#P	73 Concord Street, Maynard, MA 01754
+#L	42 26 N / 71 27 W
+#W	maynard!campbell (Larry Campbell); Mon Jun 29 06:04:15 EDT 1987
+#U	puck
+#
+maynard	.bsw.com
+maynard	= maynard.bsw.com
+maynard	alliant(WEEKLY), drilex(DIRECT), husc6(DIRECT),
+	interlan(WEEKLY), mirror(DEAD),
+	okstate(WEEKLY), omen(WEEKLY), puck(WEEKLY),
+	spdcc(DIRECT), talcott(DIRECT), textware(DIRECT),
+	think(DIRECT), vcvax1(DIRECT), wjh12(DIRECT+LOW)
+# force polled even if no traffic
+alliant		maynard(WEEKLY)
+drilex		maynard(DAILY/8)
+husc6		maynard(DAILY/8)
+interlan	maynard(WEEKLY)
+minya		maynard(EVENING)
+mirror		maynard(DEAD)
+puck		maynard(WEEKLY)
+spdcc		maynard(DAILY/8)
+textware	maynard(DAILY/8)
+think		maynard(DAILY/8)
+vcvax1		maynard(DAILY/8)
+wjh12		maynard(DAILY/6)
+
+#N	.bu.edu, bu-cs
+#F	relay.cs.net
+#S	Sun 3/180S; Sun UNIX 4.2 Release 3.0
+#O	Boston University, CS Dept.
+#C	Barry Shein
+#E	bu-cs!postmaster
+#T	+1 617 353 2780
+#P	Academic Computing Center, 111 Cummington Street, Boston, MA  02215
+#L	42 22 N / 71 04 W
+#U	bloom-beacon husc6 mit-eddie polygen bucsb buengc bucasb bu-ma buchmd
+#R	trinary SUN (with bucsd, bucse) for faculty & staff
+#W	bu-cs!tower (Leonard H. Tower Jr.); Tue Jun 16 18:21:58 EDT 1987
+#
+bu-cs	.bu.edu
+bu-cs=	bu-cs.bu.edu, bu-cs.arpa, bucsa, bucsd, bucse
+#
+# Actually only the small sub-set of B.U. machines on USENET:
+#
+bu-net= { bucsb, bucsc, buengc, bucasb, bu-ma, buchmd }(LOCAL)
+bu-cs	bu-net
+#
+bu-cs	allegra(DAILY), ames(DIRECT), bloom-beacon(DIRECT), 
+		cdx39(POLLED*3), celtics(POLLED), ctk780(WEEKLY*2), 
+		m2c(POLLED), harvard(DIRECT), mit-eddie(DIRECT), 
+		ll-xn(DIRECT), paradigm(POLLED), polygen(POLLED)
+
+#N	.cfi.com, cfisun
+#F	harvard.harvard.EDU
+#O	The Consumer Financial Institute
+#C	Sheldon Laube, Rich Baughman
+#E	shel@cfisun.CFI.COM, rich@cfisun.CFI.COM
+#T	+1 617 899 6500
+#P	University Office Park, 51 Sawyer Road, Waltham, MA 02154
+#L	
+#U	ima absolu stellar
+#R	registered
+#W	shel@cfisun.CFI.COM (Sheldon Laube); Fri Jun 26 14:18:56 EDT 1987
+#
+cfisun	.cfi.COM
+cfisun = cfisun.CFI.COM
+cfisun	ima(DIRECT), sii(EVENING), usdottsc(DIRECT),
+	cataly(DIRECT), absolut(DAILY), wjh12(DIRECT),
+	textware(DAILY), masscomp(DEMAND), adelie(DIRECT), 
+	stellar(DAILY), harvard(DIRECT)
+
+#N	.ci.com, ci-dandelion
+#F	eddie.mit.edu
+#O	Cognition, Inc.
+#C	David Watson
+#E	david@ci-dandelion.CI.COM
+#T	+1 617 667 4800
+#P	900 Technology Park Drive, Billerica, MA  01821
+#L	42 20 N / 71 05 city
+#U	necntc ulowell bunny
+#R	registered
+#W	David Watson Tue Jul 7 15:18:22 EDT 1987
+#
+ci-dandelion	.ci.com
+ci-dandelion = ci-dandelion.ci.com
+#
+# ci-dandelion will soon change its hostname to dandelion
+#
+dandelion =	ci-dandelion.ci.com
+#
+ci-dandelion	bunny(HOURLY), frog(DAILY), gcc-milo(DAILY), 
+		lotus(HOURLY), mit-eddie(HOURLY), necntc(DEMAND), 
+		sesame(DAILY), talcott(HOURLY), ulowell(DEMAND), 
+		unisrc(DAILY), vaxine(DAILY)
+#
+# We force-poll everyone since we don't accept incoming calls
+bunny		ci-dandelion(HOURLY)
+frog		ci-dandelion(DAILY)
+gcc-milo	ci-dandelion(DAILY)
+lotus		ci-dandelion(HOURLY)
+mit-eddie	ci-dandelion(HOURLY)
+necntc		ci-dandelion(DEMAND)
+sesame		ci-dandelion(DAILY)
+talcott		ci-dandelion(HOURLY)
+ulowell		ci-dandelion(DEMAND)
+unisrc		ci-dandelion(DAILY)
+vaxine		ci-dandelion(DAILY)
+
+#N	.datacube.com, datacube
+#F	rutgers.edu
+#S	Pyramid 90x; OSx 3.1 (Unix 4.2bsd and Sys V.2)
+#O	Datacube Inc.
+#C	Bob Berger
+#C	Mark (Zok) Rodal
+#C	Shep Siegel
+#E	postmaster@DATACUBE.COM, zok@DATACUBE.COM, shep@DATACUBE.COM
+#T	617-535-6644
+#P	4 Dearborn Rd. Peabody, Ma. 01960
+#L	42 34 N / 70 58 W
+#U	mirror
+#R	registered
+#W	berger@DATACUBE.COM (Bob Berger); Fri Jun  5 00:17:07 EDT 1987
+#R	Signal and Image Processing Hardware Manufacturer
+#R	We are a notes user
+#
+datacube	.datacube.com
+datacube=	datacube.com
+datacube	abekas(DAILY*4), apple(DEAD), avsdS(DAILY*4), avsds(DAILY*4),
+		denning(DAILY), frame(DAILY*2), ihnp4(DAILY+HIGH),
+		mcrware(DEMAND), mirror(DEMAND), pyrbos(DEMAND),
+		pyrcorp(WEEKLY*2), pyrnj(DAILY*2), pyrtech(DAILY*2),
+		ulowell(DAILY), vslvax(DAILY), wjh12(DAILY), wslvax(DEAD)
+# Polling
+rutgers		datacube(HOURLY*4)
+
+#N	.inmet.com, inmet
+#F	inmet.inmet.com
+#O	Intermetrics, Inc.
+#C	Charles Ball
+#E	cball@inmet.inmet.com
+#T	+1 617 661 1840
+#P	733 Concord, Ave., Cambridge, MA 02138
+#L	42 34 N / 71 06 W
+#U	harpo ima ihnp4 mirror allegra necntc
+#
+inmet	.inmet.com
+inmet=	inmet.inmet.com
+inmet	allegra(HOURLY), harpo(HOURLY), ihnp4(HOURLY), ima(HOURLY),
+		mirror(HOURLY), necntc(HOURLY)
+
+#N	.mit.edu, mit-eddie
+#S	VAX 11/750
+#F	eddie.mit.edu
+#O	Massachusetts Institute of Technology
+#C	Jeff Siegal, Jeff Schiller, Ron Hoffmann
+#E	jbs@EDDIE.MIT.EDU, jis@ATHENA.MIT.EDU, hoffmann@ATHENA.MIT.EDU
+#T	617-253-2737, 617-253-1401, 617-253-0160
+#P	MIT EECS Deptartment, Room 38-394; Cambridge, MA 02139
+#L	42 21 40 N / 71 05 35 W
+#U	bloom-beacon cybvax0 gatech genrad husc6 rutgers think uw-beaver
+#W	jbs@EDDIE.MIT.EDU (Jeff Siegal); Tue Jun  9 02:58:00 EDT 1987
+#R	MIT.EDU is registered with the NIC
+#
+# GATEWAY INTO THE DOMAIN
+#
+mit-eddie .mit.edu
+mit-eddie = eddie.mit.edu
+#
+# EXTERNAL CONNECTIVITY DATA
+#
+mit-eddie	alliant(DAILY), apollo(HOURLY), banyan(EVENING),
+		blblbl(HOURLY+LOW), ccomp(DEAD), ci-dandelion(HOURLY),
+		clyde(DAILY/4), cullvax(HOURLY), cybvax0(HOURLY),
+		eplunix(DAILY/2), frog(HOURLY*4), genrad(HOURLY),
+		hcx1(DAILY/4), icot(DAILY/3), ihnp4(DAILY), interlan(EVENING),
+		lmi-angel(DEAD), mck-csc(DAILY/4), mdee(DAILY*3), medea(DEAD),
+		mirror(DEAD), musocs(DAILY), necntc(HOURLY), primerd(DAILY/4),
+		terrapin(HOURLY), umich(WEEKLY), xanth(EVENING), spock(DAILY),
+		cdx39(DAILY)
+#
+# uucp/tcp links
+#
+mit-eddie	gatech(DEDICATED+LOW), harvard(DEDICATED+LOW), 
+		seismo(DEDICATED+LOW+LOW), think(DEDICATED+LOW),
+		rutgers(DEDICATED+LOW), bu-cs(DEDICATED+LOW+LOW)
+#
+# INTERNAL CONNECTIVITY DATA
+#
+mit-eddie	lids(DIRECT), mit-ce(DIRECT), mit-ems(DIRECT),
+		mit-erl(DIRECT), whthd4(DEAD)
+#
+# tcp/uucp links
+# 
+mit-eddie	bloom-beacon(DEDICATED), dspvax(DEDICATED), ll-xn(DEDICATED),
+		mit-amt(DEDICATED), mit-athena(DEAD), mit-atrp(DEDICATED),
+		dspvax(DEDICATED), mit-hermes(DEDICATED), garp(DEDICATED),
+#
+# chaos/uucp links
+# The Chaosnet itself is fast, but chaos/uucp is pretty bad.
+# So, for now, these paths are penalized.
+# 
+mit-eddie	mit-cipg(DEDICATED+LOW+LOW), mit-prep(DEDICATED+LOW+LOW), 
+		deep-thought(DEDICATED+LOW+LOW), 
+		mit-vax(DEDICATED+LOW+LOW), mitccc(DEDICATED+LOW+LOW)
+#
+# OTHER SITES WITH UUCP-REGISTERED DOMAIN NAMES
+#
+#N	mit-athena
+#S	Microvax-II, Ultrix
+#O	MIT, Project Athena
+#C	Ron Hoffmann, Jon Rochlis, Jeff Schiller
+#E	mit-athena!postmaster
+#T	(617) 253-4101
+#P	E40-311, 77 Massachusetts Avenue, Cambridge, MA  02139
+#L	42 22 N / 71 06 W
+#R
+#W	mit-athena!hoffmann 5/11/87
+#
+mit-athena = athena.mit.edu
+mit-athena	mit-eddie(DIRECT)
+#
+#S	DEC DECSYSTEM-2065; TOPS-20 5.4MIT
+#O	MIT, EECS Deptartment Computer Facility
+#C	Jeff Siegal
+#E	mit-eddie!postmaster
+#W	mit-eddie!jbs (Jeff Siegal); Tue Feb 10 16:10:43 EST 1987
+#
+deep-thought = deep-thought.mit.edu
+deep-thought = dt.MIT.EDU
+deep-thought = mit-deep-thought.mit.edu
+#
+# uucp/chaos link
+#
+deep-thought	mit-eddie(LOCAL)
+#
+#N	garp
+#S	IBM RT PC running ACIS 4.2a
+#O	Massachusetts Institute of Technology
+#C	Henry Mensch
+#E	mit-eddie!garp!usenet, usenet@garp.mit.edu
+#T	+1 617 253 0131
+#P	E40-379 MIT; Cambridge, MA  02139
+#L	42 18 N /  71 06 W
+#U	mit-amt	
+#R	On the Internet as GARP.MIT.EDU [18.72.0.205]
+#W	Henry Mensch, on 4 June 1987
+#
+garp =	garp.mit.edu
+garp	mit-eddie(LOCAL), bloom-beacon(LOCAL), cca(DEDICATED),
+	harvard(DEDICATED), rochester(EVENING), ames(EVENING)
+#
+#N	bloom-beacon
+#S	DEC Microvax II; Ultrix 1.1
+#O	MIT Student Information Processing Board
+#C	Jean Marie Diaz, Henry Mensch, Andre DeHon
+#E	bloom-beacon!usenet, usenet@bloom-beacon.mit.edu
+#T	+1 617 253 7788
+#P	77 Massachusetts Avenue, Cambridge MA, 02139
+#L	42 22 N / 71 06 W city
+#R	bloom-beacon.mit.edu on the Internet; address is 18.80.0.17
+#W	mit-eddie!ambar (Jean Marie Diaz); Tue Jun 23 16:48:23: EDT 1987
+#U	mit-hermes mit-amt mit-vax think bu-cs 
+#
+bloom-beacon = "bloom-beacon.mit.edu"
+bloom-beacon = "news.mit.edu"
+bloom-beacon = "beacon.mit.edu"
+#
+bloom-beacon	mit-eddie(LOCAL), bu-cs(DEDICATED+LOW+LOW),
+		garp(LOCAL), husc6(DEDICATED)
+
+#N	.nec.com, necntc
+#S	DEC VAX-11/780; ULTRIX-32 V1.2
+#F	harvard.harvard.edu
+#O	NEC Electronics Inc.
+#C	Jeff Janock
+#E	necntc!usenet
+#T	+1 617 655 8833 x4227
+#P	One Natick Executive Park, Natick, MA 01760
+#L	42 18 N / 71 21 W
+#R	Registered
+#R	We are US gateway to .nec.junet -
+#W	necntc!jeff (Jeff Janock); Tue Jun 23 10:25:11 EDT 1987
+#U	adelie ames gordon banyan ci-dandelion cullvax custom encore m2c
+#U	husc6 necis necssd necam necsyl primerd linus mit-eddie rayssd ima
+#
+#
+necntc    .nec.com
+necspl    .nec.junet
+necntc  = necntc.nec.junet
+necntc  = necntc.nec.com
+#
+necntc  adelie(DIRECT), ames(DIRECT), aussjo(DEAD), 
+        auspyr(DAILY), banyan(DEMAND), gordon(DIRECT),
+        cataly(DIRECT), custom(DIRECT), ci-dandelion(HOURLY),
+        cullvax(DEMAND), decvax(DEMAND), drilex(DEMAND),
+        encore(HOURLY+HIGH), frog(DIRECT+HIGH), gt-eedsp(DAILY/4),
+        m2c(DEMAND), harvard(DIRECT), husc6(DIRECT), ima(HOURLY),
+        inmet(DEMAND), linus(DIRECT), ncoast(EVENING),
+        mirror(DIRECT), mit-eddie(DIRECT), necam(DEMAND),
+        necis(DIRECT), necssd(DEMAND), necspl(DEMAND+HIGH+HIGH),
+        necsyl(DAILY), primerd(DIRECT), pyramid(DEMAND),
+        rclex(DAILY), rayssd(DIRECT+HIGH), talcott(DEMAND+HIGH)
+#
+# NEC SITES
+#
+necsyl    necntc(DEMAND)
+necssd    necntc(DEMAND)
+necis    necntc(DEMAND)
+necam    necntc(DEMAND)
+#
+ci-dandelion    necntc(DEMAND)
+drilex    necntc(DEMAND)
+encore    necntc(HOURLY+HIGH)
+m2c   necntc(DEMAND)
+
+#N	.prime.com, primerd
+#F	eddie.mit.edu
+#S	Sun 2/120u; 4.2 BSD UNIX/3.0 Sun UNIX
+#O	Prime Computer Inc.
+#C	Douglas S. Rand
+#E	primerd!postmaster
+#T	+1 617 879 2960
+#P	500 Old Conn Path, Framingham, Ma 01701
+#L	42 18 N / 71 21 W
+#R	Registered .prime.com with the uucp project (3/87)
+#U	necntc
+#W	2/87 from primerd!doug
+#
+primerd	.prime.com
+primerd	= primerd.prime.com
+primerd	mit-eddie(DAILY/3), necntc(DAILY/3), allegra(DEMAND),
+	usenix(DAILY), wang(DEMAND), frog(DEMAND), semantic(DEMAND),
+	mirror(DAILY), stellar(DAILY), prmcad(POLLED)
+
+#N	.spdcc.com, spdcc
+#S	AT clone; SCO XENIX 286 v 2.1.3
+#F	harvard.harvard.edu
+#O	S.P. Dyer Computer Consulting
+#C	Stephen P. Dyer
+#E	dyer@spdcc.COM
+#T	+1 617 491 1648
+#P	27 Chauncy Street, Cambridge, MA 02138-2406
+#L	42 22 N / 71 07 W
+#U	harvard ihnp4 ima linus ewj bigbang m2c k1bc
+#R	registered
+#W	dyer@spdcc.COM (Steve Dyer); Tue Apr 14 02:53:53 EDT 1987
+#
+spdcc	.spdcc.com
+spdcc = spdcc.com
+spdcc   harvard(DEDICATED+HIGH), linus(DIRECT), bbn(DIRECT), ihnp4(DEMAND),
+	earvax(DIRECT), eplunix(DIRECT), ima(DIRECT), ewj(DIRECT),
+	bigbang(DAILY), m2c(DEMAND), gubba(DIRECT),
+	maynard(DIRECT), k1bc(DIRECT), ftp(EVENING), bunny(POLLED/2)
+
+#N	.tmc.com, mirror
+#S	Pyramid 90x; OSx4.0
+#F	seismo.css.gov
+#O	Times Mirror Corporation
+#C	Brian K. Moran, Fred Nesserella
+#E	postmaster@mirror.tmc.com
+#T	+1 617 661 0777
+#P	Mirror Systems; 2067 Massachusetts Avenue; Cambridge, MA 02140 
+#L	42 22 N / 71 06 W
+#U	adelie beldar cca datacube gabriel hpwalf ileaf ima otto rayssd xanth
+#R	registered
+#R	Former home of Rich $alz and mod.sources
+#W	mirror!rs (Rich $alz); Tue May 19 13:16:49 EDT 1987
+mirror	.tmc.com
+mirror=	mirror.tmc.com
+#	Most costs are slightly higher now...
+mirror	adelie(DEMAND), beldar(DAILY/2), cbosgd(DAILY+HIGH), cca(HOURLY),
+	crash(DAILY), cybvax0(DAILY/3), datacube(DAILY/6), hoptoad(DAILY),
+	howtek(WEEKLY), hpwalf(DAILY/3), ihnp4(DAILY+HIGH+HIGH), ileaf(DAILY/7),
+	ima(HOURLY+HIGH), inmet(DAILY/2), ishmael(HOURLY), linus(EVENING),
+	maynard(DAILY/5), mit-ccc(WEEKLY/2), mit-eddie(HOURLY),
+	mit-mgm(DAILY/6), mtxinu(WEEKLY), necntc(DIRECT), otto(DAILY/3),
+	primerd(DAILY/2), pyramid(DAILY+HIGH+HIGH), pyrbos(DAILY),
+	pyrnj(DAILY), rayssd(HOURLY), seismo(DAILY), toolbox(DAILY),
+	vcvax1(WEEKLY/2), wjh12(DAILY/4), xanth(DAILY/6)
+
+#	end of d.usa.ma.1: Mon Jul 20 09:11:32 EDT 1987
+SHAR_EOF
+echo shar: extracting d.usa.mn.1
+cat << \SHAR_EOF > d.usa.mn.1
+#N	.d.umn.edu, umnd-cs, umn-d-ub
+#F	cs-gw.d.umn.edu
+#O	University of Minnesota at Duluth, Computer Science
+#S	Sun 3/180, 4.2 BSD UNIX
+#C	Robert F. Healey
+#E	rhealey@cs-gw.D.UMN.EDU
+#T	218-726-7664
+#P	MG 330, Computer Science, UMD, 10 University Drive, Duluth, MN,  55812
+#L	46 48 N / 092 06 W city
+#R	registered
+#W	umnd-cs!rhealey (Rob Healey); Wed July 8 14:52:00 CDT 1987
+umnd-cs  .d.umn.edu
+umnd-cs = d.umn.edu
+umnd-cs = cs.d.umn.edu
+umnd-cs = cs-gw.d.umn.edu
+umnd-cs	= umn-duluth
+umnd-cs	= umd-cs
+umnd-cs rutgers(HOURLY),
+	umn-d-ub(DEDICATED), umn-cs(HOURLY) 
+
+#C	Daniel J. Burrows
+#E	umn-d-ub!Postmaster
+#T	218-726-6122
+#P	MWAH 155, Computer Services, UMD, 10 University Drive,  55812
+umn-d-ub .d.umn.edu
+umn-d-ub = ub.d.umn.edu
+umn-d-ub = umndub
+umndub   = umd-ua
+umn-d-ub   umnd-cs(LOCAL), umndcpe(LOCAL), umn-d-phys(LOCAL),
+	   encore(EVENING)
+
+
+#N	.eta.com, eta
+#F	uxc.cso.uiuc.edu
+#O	ETA Systems, Inc.
+#R	The New Force in Supercomputers
+#C	Charles E Nove, John P Hesterberg
+#E	eta!postmaster, eta!cnove, eta!jph
+#R	postmaster@ETA.COM, cnove@eta.ETA.COM, jph@eta.ETA.COM
+#T	+1 612 642 3533, +1 612 642 3534
+#P	ETA03J, 1450 Energy Park Dr, St Paul, MN  55108-5299
+#L	44 58 15 N / 093 09 30 W
+#U	ems
+#R	registered
+#W	eta!cnove (Charles E Nove); Mon Mar 23 17:57:28 GMT 1987
+#
+eta	.eta.com
+eta	eta.com
+eta=	eta.eta.com
+eta	ems!(EVENING+HIGH),
+	meccts!(DIRECT),
+	rosevax!(DIRECT+HIGH),
+	uiucuxc!(DEMAND+HIGH)
+
+#N	.mn.org, meccts
+#F	a.cs.uiuc.edu
+#O	Unix Users of Minnesota
+#C	Shane P. McCarron, Steve J. McDowall
+#E	ahby@MN.ORG, sjm@MN.ORG
+#T	612-224-9239, 612-427-5165
+#P	117 Mackubin St. #6  St. Paul, MN  55102
+#L	45 03 N / 93 15 W
+#U	cimcor dayton meccsd nis
+#R	registered
+#R	.aob.mn.org - jim@AOB.MN.ORG <Jim Anderson - +1 612 6362869>
+#R	.ciprico.mn.org - dad@Cipric.MN.ORG <Dan Dickey - +1 612 5592034>
+#R	.ems.mn.org - mark@EMS.MN.ORG <Mark Colburn - +1 612 8298200>
+#R	.fargo.mn.org - fred@Fargo.MN.ORG <Fred Potthoff - +1 612 9419470>
+#R	.hasler.mn.org - john@Hasler.MN.ORG <John Hasler>
+#R	.k.mn.org - alan@k.mn.org <Alan Klietz>
+#R	.lynx.mn.org - dave@Lynx.MN.ORG <Dave Messer>
+#R	.mecc.mn.org - ahby@MECC.MN.ORG <Shane P. McCarron - +1 612 4813589>
+#R	.nis.mn.org - rjg@nis.mn.org <Robert J. Granvin - +1 612 8949494>
+#R	.questar.mn.org - scott@Questar.MN.ORG <Scott Anderson - +1 612 6880089>
+#R	.scicom.mn.org - dave@SciCom.MN.ORG <Dave Schmidt - +1 612 9334200>
+#W	ahby@MN.ORG (Shane P. McCarron); Tue Jun  2 11:02:47 CDT 1987
+#	Domain member declarations
+aob	.aob.mn.org
+cipric	.ciprico.mn.org
+ems	.ems.mn.org
+fargovax	.fargo.mn.org
+foundln	.hasler.mn.org
+mn-at1	.k.mn.org
+sds	.scicom.mn.org
+viper	.lynx.mn.org
+meccts	.mn.org, mn.org
+meccts= mecc.mn.org
+meccts=	meccts.mecc.mn.org
+nis	.nis.mn.org
+questar	.questar.mn.org
+#	Connections of domain MN.ORG
+meccts	amdahl(HOURLY), 
+	aob(DIRECT),
+	bright(DIRECT),
+	bthpyd(DIRECT), 
+	cbosgd(HOURLY), 
+	cimcor(DIRECT),
+	cipric(DIRECT),
+	clyde(HOURLY), 
+	cpt(DAILY),
+	dayton(DIRECT+HIGH),
+	dicome(DIRECT), 
+	ems(DIRECT), 
+	eta(HOURLY*2), 
+	fargovax(DIRECT),
+	frog(WEEKLY), 
+	gatech(HOURLY), 
+	herman(HOURLY*2), 
+	hpda(HOURLY),
+	hpfcdc(HOURLY), 
+	ihnp4(HOURLY), 
+	karau(DIRECT),
+	kksys(DIRECT), 
+	lily(HOURLY*2), 
+	meccsd(DEDICATED), 
+	mn-at1(DAILY),
+	msi-a2(DIRECT),
+	ncrcce(DIRECT), 
+	nis(DIRECT), 
+	pwcs(DIRECT), 
+	quest(DIRECT),
+	questar(DIRECT),
+	rosevax(DIRECT), 
+	rutgers(HOURLY), 
+	srcsip(DIRECT), 
+	stag(DAILY),
+	stolaf(DEMAND),
+	tektronix(HOURLY), 
+	uiucdcs(HOURLY), 
+	umn-cs(DIRECT), 
+	viper(DIRECT),
+	wilder(DIRECT), 
+	zycad(DIRECT)
+sds	meccts(DAILY)
+foundln	meccts(DAILY)
+
+#N	.rosemount.com, rosevax, rose3
+#E	dave@rosevax.rosemount.com, gregg@rosevax.rosemount.com
+#T	612-828-3057, 612-828-3260
+#P	12001 Technology Drive, Eden Prairie, MN 55344
+#L	44 52 N / 93 27 W
+#U	dayton rose3 camax01 aob eta cipric sds uunet ems meccts hyper
+#R	registered
+#W	rosevax!dave (Dave Marquardt); Thu Jul  2 13:57:00 CDT 1987
+#
+rosevax	.rosemount.com
+rosevax=rosevax.rosemount.com
+rosevax aob(HOURLY), camax01(DIRECT), cipric(DIRECT), 
+	dayton(DIRECT),	dicome(DIRECT), ems(DIRECT), eta(HOURLY), 
+	herman(DIRECT), hyper(HOURLY), kksys(DIRECT), lily(DIRECT),
+	meccts(DIRECT), mmm(DIRECT), quest(DIRECT), pwcs(DIRECT),
+	rose3(DEDICATED), sds(HOURLY), sylvan(DIRECT),
+	uiucdcs(DEMAND+LOW), umn-cs(DIRECT), uunet(DEMAND+HIGH)
+
+#C	Dan Messinger
+#P	Rosemount Inc., 12265 Nicollet Avenue, Burnsville, MN   55337
+#T	612-885-2025
+#E	dan@rose3.rosemount.com
+rose3	.rosemount.com
+rose3 = rose3.rosemount.com
+rose3	quest(DIRECT), rosevax(DEDICATED), rose1(LOCAL), rose2(LOCAL),
+	rose4(LOCAL), starfire(DIRECT), herman(DEMAND+HIGH)
+
+#N	.stpaul.gov, pwcs
+#F	uxc.cso.uiuc.edu
+#O	City of St. Paul
+#C	Dave Glowacki
+#E	daveg@pwcs.StPaul.GOV
+#T	612-298-5569, 612-292-6009
+#P	702 City Hall Annex, 25 West 4th St., Saint Paul MN  55102-1660
+#L	44 46 41 N / 93 5 40 W
+#U	quest herman cdsdev questar
+#R	registered
+#W	daveg@pwcs.StPaul.GOV (Dave Glowacki); Tue Jun 16 23:56:10 CDT 1987
+#
+pwcs	.stpaul.gov
+pwcs	stpaul.gov
+pwcs=	pwcs.stpaul.gov
+pwcs    quest(DIRECT), meccts(DIRECT), tundra(DIRECT), herman(DIRECT),
+	lily(DIRECT), rosevax(DIRECT), cdsdev(EVENING), questar(POLLED)
+
+SHAR_EOF
+echo shar: extracting d.usa.ny.1
+cat << \SHAR_EOF > d.usa.ny.1
+#MAP FILE: d.usa.ny.1	Wed Jul 22 10:35:31 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.brs.com, brspyr1
+#F	rutgers.edu
+#O	BRS Information Technologies
+#C	Tim Northrup, Sam Baxter
+#E	tim@brspyr1.brs.com, sam@brspyr1.brs.com
+#T	518-783-1161
+#P	1200 Troy-Schenectady Road, Latham, NY  12110
+#L	42 45 N / 73 45 W
+#U	rpics3b nyfca1
+#R	registered with no gateway
+#W	rutgers!pleasant (Mel Pleasant); Tue Jun 16 18:08:15 EDT 1987
+#
+brspyr1	.brs.com
+brspyr1=brs.com
+#
+brspyr1	rpics3b(DAILY/6), nyfca1(DAILY/4), steinmetz(DAILY/4), uiucuxc(DAILY),
+	brsug(DEDICATED), brscci(DEDICATED), dartvax(DEMAND), pyrbos(WEEKLY)
+rutgers	brspyr1(HOURLY)
+
+#N	.columbia.edu, columbia
+#F	columbia.edu
+#O	Columbia University Department of Computer Science
+#C	Chris Maio
+#E	columbia!postmaster
+#T	(212) 280-5750 or (212) 280-2736
+#P	450 Computer Science, Columbia University, New York, NY 10027
+#L	40 43 N / 73 50 W city
+#R
+#U	seismo rutgers cucca
+#W	columbia!chris (Chris Maio); Tue Jun 30 21:27:41 EDT 1987
+#
+columbia .columbia.edu
+columbia = columbia.edu
+columbia amdahl(POLLED), seismo(DEDICATED), rutgers(DEDICATED),
+	cucard(DEMAND),	lamont(DEMAND), cucca(DEDICATED)
+
+#N	.cooper.edu, cooper
+#F	nyu.arpa
+#O	The Cooper Union for the Advancement of Science and Art
+#C	Christopher P. Lent, Craig Steinberger
+#E	chris@Cooper.Cooper.EDU, c.steinb@Cooper.Cooper.EDU
+#T	203-452-1522, 212-254-6300 ext. 238
+#P	Computer Center, 51 Astor Place; NY, NY 10003
+#L	40 43 50 N / 73 59 35 W 
+#R	applied
+#U	phri
+#W	chris@cooper.uucp (Christopher P. Lent) ; Sun Apr  5 19:50:36 EST 1987
+#
+cooper	.cooper.edu
+cooper=	cooper.cooper.edu
+cooper	phri(HOURLY), philon(DAILY)
+
+#N	.philips.com, philabs
+#F	seismo.CSS.GOV
+#O	North American Philips, NV Philips
+#C	William Robertson, Ken Nawyn
+#E	rob@philabs.Philips.Com, ken@philabs.Philips.Com
+#T	(914)  945-6300, (914)  945-6415
+#P	345 Scarborough Road, Briarcliff Manor, New York  10510
+#L	41 09 N / 73 50 W city
+#R	applied
+#U      aecom arnor cylixd cmcl2 gcm hhb lamont linus micomvax nbc1 nynex1 
+#U	polycatt prlb2 prls pwa-b sbcs sunrise  
+#U	ttidca westpt
+#W	Tue Jul 21 15:07:59 EDT 1987 by rob@philabs.philips.com
+#
+#	Site tg died and left the net 'cause alan greenspann left.
+#	polaris changed its name to arnor
+#
+philabs	.Philips.COM
+philabs=	philabs.Philips.COM
+philabs	aecom(POLLED), allegra(DEMAND), ames(DEMAND), arnor(POLLED), 
+	astrovax(DEMAND), bc-ccm(DEMAND), bunker(DEMAND), cbosgd(DEMAND), 
+	cadovax(EVENING), canuck(POLLED), ccnysci(DEMAND), cmcl2(DEMAND), 
+	cornell(DEMAND), cubsvax(DEMAND), cylixd(POLLED), decvax(DEMAND), 
+	delftcc(DEMAND), flkvax(DEMAND), floyd(DEMAND), fmsrl7(DEMAND), 
+	gatech(DEMAND),	gcm(POLLED), hhb(POLLED), ihnp4(DEMAND), lamont(POLLED),
+	linus(EVENING), masscomp(DEMAND), mcnc(DEMAND), mergvax(DEMAND),
+	micomvax(DEMAND), nbc1(POLLED), nyfca1(DEMAND), nyit(DEMAND),
+	nynex1(DEMAND), pacecs(DEAD), phri(DEMAND), pencom(POLLED),
+	physics(DEMAND), polycatt(POLLED), princeton(DEMAND), prlb2(WEEKLY), 
+	prls(DEMAND), puivax(DEMAND), pwa-b(POLLED), research(DEMAND), 
+	rna(DEMAND), sbcs(POLLED), sdcsvax(DEMAND), seismo(DEMAND), 
+	srcsip(DEMAND), steinmetz(DEMAND), sunrise(POLLED), textware(DEMAND), 
+	ttidca(POLLED), ubbs(DEAD), uiucdcs(DEMAND), utcsri(DEMAND), 
+	ut-ngp(DEMAND), vax135(DEMAND), westpt(POLLED), yale(DEMAND)
+
+#N	.usma.edu, westpt
+#F	rutgers.edu
+#O	United States Military Academy, West Point, NY
+#C	Cpt Bob Hernandez
+#E	bob@westpt.USMA.EDU
+#T	+1 914 938 3820
+#P	ACD, Office of the Dean, USMA, West Point, NY  10996
+#L	41 23 N / 073 57 W
+#R
+#U	philabs
+#W	bob@westpt.USMA.EDU (Bob Hernandez); Mon Jun  1 10:24:15 EDT 1987
+#
+westpt	.usma.edu
+westpt=	usma.edu
+westpt  philabs(DEMAND), phri(DEMAND+LOW), sunybcs(DEMAND+LOW),
+        rpics(DEMAND+LOW)
+
+#N	.yu.edu, aecom
+#F	uxc.cso.uiuc.edu
+#O	Albert Einstein College of Medicine
+#C	Robert N. Berlinger, Glen M. Marianko
+#E	naftoli@aecom.yu.edu, glen@aecom.yu.edu
+#T	212-430-3686
+#P	Scientific Computing Center, 1300 Morris Park Ave.; Bronx, NY 10461
+#L	40 49 N / 73 56 W city
+#R	applied
+#R	Gateway for Yeshiva University
+#U	aecom2 philabs
+#W	naftoli@aecom.yu.edu (Robert N. Berlinger); Wed Mar 11 12:44:27 EST 1987
+#
+aecom	.yu.edu
+aecom=	aecom.yu.edu
+aecom   cucard(DEMAND+LOW), rocky2(DIRECT+LOW), philabs(DEMAND),
+	aecom2(DEDICATED), uiucuxc(EVENING), nynex1(DEMAND)
+
+SHAR_EOF
+echo shar: extracting u.usa.ca.6
+cat << \SHAR_EOF > u.usa.ca.6
+#  This file has been intentionally left blank...
+#
+SHAR_EOF
+#	End of shell archive
+exit 0

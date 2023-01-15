@@ -1,0 +1,938 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.zaf.1
+: This archive created: Wed Jan  1 12:48:59 1992
+echo shar: extracting u.zaf.1
+cat << 'SHAR_EOF' > u.zaf.1
+# u.zaf.1 is maintained by Aris Stathakis (aris@tabbs.UUCP)
+# Please send updates to uucpmap@tabbs.UUCP or uunet!ddsw1!olsa99!tabbs!uucmap
+#  64 sites in u.zaf.1 as of Tue Dec 31 21:52:32 GMT 1991
+# 
+#N	africa
+#S	Intergraph IP220 ; Clipper UNIX V.3.1 r 5.0
+#O	Intertech Systems
+#C	Thorsten Staby
+#E	africa!ts
+#T	+27 11 313 1444
+#P	PO Box 574, Rivonia, 2128 South Africa
+#L	28 02 E / 26 10 S
+#R	Distributors for Intergraph equipment in Southern Africa
+#U	africa 
+#W	africa!ts (Thorsten Staby) ; Thu Oct  3 11:06:33 CDT 1991
+#
+africa	proxima(DAILY)
+
+#N	aim1
+#S	Intel 80386 / 33; SCO UNIX V.3.2.2
+#O	Aztec Information Management (Pty) Ltd.
+#C	Deon Botha
+#E	aim1!deon 
+#T	+27 21 419-2690
+#P	P.O. Box 6844, ROGGEBAAI, 8012
+#L	33 54 45 S / 18 25 40 E
+#U	kcms ucthpx
+#W	aim1!deon (Deon Botha); Thu Mar 28 20:44:25 GMT 1991
+#
+aim1	oct1(POLLED), kcms(DEMAND), shop1(POLLED), shop4(POLLED), 
+	cstat(POLLED), ucthpx(HOURLY*4), proxima(POLLED), 
+	uiscpt(POLLED), cside1(POLLED)
+
+#N	argmsd
+#S	HP 900/825 ; HP-UX 7.0
+#O	Argus Newspapers - Media Systems Development
+#C	Beverley Whitter
+#E	msd486!bevw
+#T	+ 27 11 633 2613
+#P	P O Box 1014, Johannesburg, 2001, South Africa
+#L	28 02 E / 26 10 S
+#R	IT Division of Argus Newspapers Ltd
+#U	msd486
+#W	olsa99!mje (Mark Elkins); Tue Dec  3 16:11:00 SAT 1991
+#
+argmsd	arg486(LOCAL), iosys(DEMAND)
+
+#N	bps01
+#S	LSX3020;X/OS 2.3
+#O	Bankorp Property Services
+#C	Bundy Smith
+#E	bps01!bundy
+#T	889 8623
+#P	P O Box 4568, Randburg, 2125, RSA
+#L	28 02 E / 26 10 S
+#R	Bankorp Property Management (The Rent Collectors! :-)
+#U	olsa99
+#W	bps01!bundy (Bundy Smith); Wed Jul 10 11:00:26 SAT 1991
+#
+bps01	olsa99(DIRECT)
+
+#S	PC/AT,Ufgate 
+#O	The Catalyst BBS, Port Elizabeth
+#C	Henk Wolsink
+#E	hwolsink@catpe.alt.za
+#T	+27 41 333730
+#P	Box 12325, Port Elizabeth, 6006, South Africa
+#L	33 59 22 S / 25 36 43 E 
+#U	quagga
+#W	hwolsink@catpe.alt.za (Henk Wolsink); Wed Sep 11 08:00:22 GMT+0200 1991
+#R	Fidonode 5:7104/2
+#
+catpe	= catpe.alt.za
+catpe	quagga(POLLED)
+
+#N	cecs1
+#S	AT Clones ; Xenix
+#O	Community Education Computer Society
+#C	Pramod Daya
+#E	cecs1!pramod
+#T	+27 21 6968450
+#P	Arnolds House, 45 Belgravia Rd, Athlone, South Africa
+#L	33 54 44 E / 18 25 39 S
+#U	oct1
+#W	cecs1!pramod (Pramod Daya); Tue Nov 27 1990
+#
+cecs1	oct1(DAILY/4)
+
+#N	cpnswing
+#S	PClone, FrontDoor (Fidonet)
+#O	Chris Albertyn
+#C	Chris Albertyn
+#E	cpnswing!chris_albertyn
+#T	+27 331 60401
+#P	P.O. Box 10468, Scottsville 3209, South Africa
+#L
+#R	saving the planet, environmental activism
+#U	frcs
+#W	chris_albertyn@cpnswing; Sat Aug 17 10:55:51 SAST 1991
+cpnswing	frcs(DAILY)
+
+#N	cside1
+#S	Intel 80386 / 25; UNIX V.3.2
+#O	Specialist Computing Services - Cside1
+#C	Kuyper Hoffman
+#E	cside1!kuyper
+#T	+27 21 689 1345
+#P	17 Oakdale, Albion Rd, Rondebosch, 7700, South Africa
+#L	33 54 45 S / 18 25 40 E
+#R	NONE
+#U	oct1
+#W	cside1!mike (Mike Morris); Thu Oct 24 09:06:17 SAT 1991
+#
+cside1	oct1(HOURLY*8),aim1(DAILY/3)
+
+#N	csstvl
+#S	Tatung 386 ; SCO Unix 3.2
+#O	C S Systems Tvl (Pty) Ltd
+#C	Abrie van Wyk
+#E	csstvl!abrie
+#T	+ 27 12 804 1400
+#P	P.O. Box 20023, Alkantrant, 0005, South Africa
+#L	28 12 E / 25 37 S
+#R	Unix based office automation systems
+#U	iosys
+#W	csstvl!abrie (Abrie van Wyk) ; Wed Oct  3 10:08:54 RSA 1990
+#
+csstvl	parst1(DAILY)
+
+#N	cstat
+#S	Intel 80386SX 20C; MS-DOS 5.0
+#O	Compustat (Pty) Ltd
+#C	Stephen Davies
+#E	cstat!steve
+#T	+27 21 531-8004
+#P	P.O. Box 261, Howard Place, 7450
+#L	33 54 45 S / 18 25 40 E
+#U	aim1
+#R	In the future a gateway to MHS
+#W	cstat!steve (Steve Davies); Tue Aug 27 12:00:00 SAST 1991
+#
+cstat	aim1(HOURLY*2)
+
+#N	dba1
+#S	Intel 386; Xenix
+#O	Dave Barrow and Associates
+#C	Arlene Bauman
+#E	dba1!root
+#T	+ 27 11 789 3816
+#P	P.O. Box 130665, Bryanston , 2021, South Africa
+#L	28 02 E / 26 10 S
+#R	Supporting Tetraplan Products
+#U	iosys
+#W	olsa99!mje (Mark J Elkins); Tue Dec 11 18:34:25 SAT 1990
+#
+dba1	iosys(DIRECT)
+
+#N	dms1
+#S	Informtech 386;SCO UNIX 3.2.2
+#O	Dawnlee Management Systems
+#C	clem
+#E	dms1!clem
+#T	882-3335
+#P	P.O. BOX 891043 Lyndhurst 2016
+#L	28 02 E / 26 10 S
+#R	Supplies Hardware and Software
+#U	olsa99
+#W	dms1!clem (clem); Thu Dec 05 03:20:49 SAST 1991
+#
+dms1	nampak(DIRECT), olsa99(DIRECT), ufrmsa1(DIRECT), j486bdm(DIRECT)
+
+#N	frcs
+#S	Intel 80386; Xenix/386 2.3.3
+#O	free range computer systems cc
+#C	Paul Nash
+#E	paul@frcs.Alt.ZA
+#T	+27 12 561 1879
+#P	P.O. Box 12475, Onderstepoort, 0110 South Africa
+#L	28 12 E / 25 37 S
+#R	specialist communications software skunk works
+#U	proxima olsa99 worknet
+#W	paul@frcs.Alt.ZA (Paul Nash); Thu Oct 24 09:58:25 SAST 1991
+frcs	proxima(DAILY), olsa99(DAILY), undeed(DAILY),
+	worknet(DAILY/2), cpnswing(DAILY/2),
+	tabbs(DAILY*2), phyrql(POLLED)
+frcs	= frcs.alt.za
+frcs	.frcs.alt.za
+#	reverse paths kludge
+undeed	frcs(DAILY)
+
+#N	gobble
+#S	386 XENIX; SCO XENIX 2.3.2
+#O	Private
+#C	Steven Wishart
+#E	snarf!steven
+#T	+ 27 11 892 4339
+#P	P.O. Box 11018, East Rand, 1460 South Africa
+#L	28 02E/26 11S
+#R	Gobble Systems Node
+#U	tubbs 
+#W	snarf!steven (Steven Wishart); Fri Mar  1 00:00:00 SAST 1990
+#
+gobble	snarf(DIRECT)
+
+#N	icl011
+#S	DRS 6000-50 : SVR4-2.12
+#O	I. C. L. Ltd.
+#C	Sean Strand
+#E	icl011!sean 
+#T	+27 11 881-5911/5600
+#P	Alace Lane, Sandton
+#L	28 02 E / 26 10 S
+#U	iosys 
+#W	tabbs!aris (Aris Stathakis); Sun Nov 18 11:37:41 GMT 1990
+#
+icl011	iosys(DAILY)
+
+#N	infinix
+#S	80386-16; SCO UNIX 3.2.2
+#O	Infinix cc (Software On-site Support cc)
+#C	Leon Schutte
+#E	infinix!postmaster
+#T	+ 27 31 29 8029, + 27 31 29 8020
+#P	P.O. Box 70166, Overport, 4067, South Africa
+#L	30 55 E / 29 55 S
+#R	Private UUCP node - Natal SANET node
+#U	olsa99 gistcp1
+#W	infinix!leon (Leon Schutte); Thu Mar 21 13:10:33 SAT 1991
+#
+infinix	olsa99(DAILY), gistcp1(DAILY)
+
+#N	iosys
+#S	Olivetti LSX 3020
+#O	Io Systems Corporation
+#C	Laurie Butgerit
+#E	iosys!laurie
+#L	26 10 S / 28 02 E
+#U	olsa99
+#W	tabbs!aris (Aris Stathakis); Thu Mar 28 20:44:25 GMT 1991
+#
+iosys	olsa99(DIRECT), utekza(POLLED)
+
+#N	j486bdm
+#S	i386;3.2 2
+#O	Nampak I.T. Clem Kruger
+#C	Clem Kruger
+#E	clem
+#T	726-3148
+#L	28 02 E / 26 10 S
+#R	Packaging
+#U	nampak
+#W	clem (Clem Kruger); Mon Oct 14 10:22:40 SAST 1991
+#
+j486bdm	nampak1(DEAD)
+
+#N	kcms
+#S	Unisys 6000/50 (iAPX386); CTIX Rel 3.00 Ver 11.14
+#O	Kuper Computer Management Systems (PTY) LTD
+#C	Sean Enraght-Moony
+#E	kcms!sean
+#T	+27 11 498 2200
+#P	P O Box 5541, Johannesburg  2000, Republic of South Africa
+#L	028 02 16 E / 26 12 09 S
+#R	Unix / Progress software developers, VARs
+#U	aim1 iosys nampak olsa99 pscnet tabbs the650 viking1
+#W	kcms!sean (Sean Enraght-Moony); Thu Jun 27 13:56:35 SAT 1991
+#
+kcms	aim1(DAILY/2), iosys(WEEKLY), nampak(DAILY), olsa99(DAILY/2),
+	pscnet(DEAD), tabbs(WEEKLY), the650(DEMAND), viking1(DEMAND),
+	ufrmsa1(DAILY)
+
+#N	lnknet1
+#S	Various PClones on a LAN; Various
+#O	The EFT Company
+#C	Willem van Biljon
+#E	lnknet1!postmaster
+#T	+27 21 7977708
+#P	P.O. Box 23316, Claremont, 7735, South Africa
+#L	33 54 45 E / 18 25 40 S
+#R	This site has only mail capabilities, not news
+#W	lnknet1!postmaster (Willem van Biljon); Thu Oct 4 10:30:16 GMT 1990
+#
+lnknet1	oct1(DAILY/4)
+
+#N	lynx13
+#S	Altos 486 System 1000; Altos Unix  System V 5.3.1 e
+#O	InfoWare (Pty) Ltd.
+#C	Theys Radmann
+#E	lynx13!theys
+#T	+27 11 803 7723
+#P	P.O. Box 2749, Rivonia 2128, South Africa
+#L	28 02 E / 26 10 S
+#R	Official Informix Distributor Southern Africa
+#U	iosys tabbs olsa99
+#W	lynx13!theys (Theys Radmann); Thu Jun 20 12:03:30 RSA 1991
+lynx13	olsa99(POLLED)
+
+#N	mc_lsx
+#S	LSX3020;X/OS 2.3
+#O	Maclove Computers
+#C	carol binks
+#E	mc_lsx!root
+#T	880 3550
+#P	-
+#L	28 02 E / 26 10 S
+#R	Sells MCBA Accounting Software
+#U	olsa99
+#W	mc_lsx!root (carol binks); Tue Jul  9 07:07:27 EDT 1991
+#
+#mc_lsx	olsa99(DIRECT)
+
+#N	michiru
+#S	ICL M75; SCO Unix System V/386
+#O	Harvard Institute for Internation Development - Malawi Tax Project
+#C	Eric Wickberg
+#E	michiru!postmaster
+#T	+265 623 063
+#P	P.O. Box 1247, Blantyre, Malawi, Africa
+#L	15 50 S / 35 00 E
+#W	michiru!wickberg (Eric Wickberg); Tue Sep 17 17:45:00 SAT 1991
+#
+michiru	olsa99(DAILY)
+
+#N	mis2
+#S	LSX3070;X/OS 2.1
+#O	Olivetti S&N Africa
+#C	Martin van Wyk
+#E	mis2!martin
+#T	+27 11 339 9290
+#P	P O Box 4158,Joburg,2001,Rep of SA
+#L	28 02 E / 26 10 S
+#R	MIS for Olivetti SA
+#U	olsa99
+#W	mis2!martin (Martin van Wyk); Wed Jun 12 10:22:57 SAT 1991
+#
+mis2	olsa99(LOCAL)
+
+#N	mje99
+#S	Olivetti 3B2-400; AT+T Sys V Rel 3.1
+#O	Private machine, but working for Olivetti Africa
+#C	Mark James Elkins
+#E	olsa99!postmaster
+#T	+ 27 11 475 2915
+#P	P.O. Box 1151, Honeydew, 2040, South Africa
+#L	28 02 E / 26 10 S
+#R	Whilst not at work - I'm here
+#U	olsa99
+#W	olsa99!mje (Mark J Elkins); Mon Sep 16 15:14:29 SAT 1991
+#
+mje99	olsa99(DIRECT)
+
+#N	moses-beach
+#S	PClone-286; Xenix V 2.2.3
+#O	Flagship Wide Area Networks
+#C	Jeremy Druker
+#E	moses-beach!jsd
+#T	+27 21 25 4850 x2703, +27 21 26 2728
+#P	PO Box 15180, Vlaeberg, Cape Town, South Africa
+#L	33 56 00 S / 18 22 15 E
+#R	A group of Communication Consultants
+#U	proxima
+#W	proxima!lucio (Lucio de Re); Tue Sep  4 10:52:31 SAST 1990
+#
+moses-beach	proxima(DIRECT)
+
+#N	msd486
+#S	HP 486;SCO 3.2.2
+#O	Argus Newspapers
+#C	Beverley Whitter
+#E	msd486!bevw
+#T	+27 11 633 2613
+#P	P O Box 1014, Joburg, 2001, RSA
+#L	28 02 E / 26 10 S
+#R	vision of Argus Newspapers Ltd
+#U	olsa99
+#W	olsa99!mje (Mark Elkins); Tue Dec  3 16:11:00 SAT 1991
+#
+msd486	olsa99(WEEKLY), argdbn(DEDICATED), argcpt1(DEDICATED), argmsd(LOCAL),
+	ufrmsa1(DIRECT), argho(DEDICATED), sowetan(DEDICATED)
+
+#N	nampak
+#S	i386;3.2 2
+#O	Nampak Ltd I.S. Dept
+#C	clem
+#E	nampak!clem
+#T	726-3148
+#P	P O BOX 7720 Johannesburg 2000
+#L	28 02 E / 26 10 S
+#R	All kind of Packaging
+#U	ufrmsa1
+#W	nampak!clem (clem); Tue Nov 05 17:41:26 SAST 1991
+#
+nampak	ufrmsa1(DIRECT), bdm(DEAD), prochart(DIRECT), olsa99(DIRECT),
+	kcms(DIRECT), j486bdm(DIRECT) ,dms1(DIRECT), npho(DIRECT)
+
+#N	nuustak
+#S	386sx; Intel Unix V.3.2
+#O	CSIR Centre for Advanced Computing and Decision Support
+#C	Paul Ducklin
+#E	postmaster@nuustak.csir.ac.za
+#T	+12 841 2676
+#P	Private Bag, Pretoria, 0001 South Africa (???)
+#L	28 20 S / 26 40 E 
+#U	quagga
+#W	frcs!paul (Paul Nash ) Wed Apr  3 17:27:57 SAT 1991
+#
+nuustak	= nuustak.csir.ac.za
+nuustak	.csir.ac.za(DEDICATED)
+nuustak	quagga(DEMAND), frcs(DAILY), proxima(DAILY)
+
+#N	oct1
+#S	OCT-386/33; Interactive UNIX v2.2.1 (V.3.2)
+#O	Open Computer Technology (Pty) Ltd
+#C	Tony Russell
+#E	oct1!news
+#T	+27 21 685 7790
+#P	23a Belmont Rd, 7700 Rondebosch, South Africa
+#L	19 00 E / 34 00 S
+#U	ucthpx cside1 aim1 shop1 proxima
+#W	oct1!tony (Tony Russell); Thu Aug 29 10:40:59 SAT 1991
+oct1	ucthpx(DEMAND), aim1(DEMAND), cside1(POLLED), shop1(POLLED),
+	proxima(POLLED)
+
+#N	olsa99
+#S	Olivetti LSX 3020 (68020); X/OS 2.3 (Olivetti's Unix=SysV+BSD+???)
+#O	Olivetti Systems and Networks - Africa (Pty) Ltd
+#C	Mark James Elkins
+#E	olsa99!postmaster
+#T	+ 27 11 456 3125
+#P	P.O. Box 4158, Johannesburg, 2000, South Africa
+#L	28 02 E / 26 10 S
+#R	Links to all other Olivetti subsidiaries
+#U	tabbs iosys spanner ddsw1 zeusa bps01 scol mje99 unisup1 
+#U	proxima frcs olnl1 olgb1 infinix rascal kcms ufrmsa1 undeed shannon
+#W	olsa99!mje (Mark J Elkins); Wed Dec 11 12:24:25 SAT 1991
+# My other names
+olsa99	.olive.co.za
+olsa99	= olive.co.za
+# My Connections..
+olsa99	= olsa99.olive.co.za
+olsa99	ufrmsa1(LOCAL), iosys(DIRECT), mje99(DIRECT), 
+	proxima(DAILY), bps01(DAILY), frcs(DAILY), infinix(DAILY), kcms(DAILY),
+	rascal(DAILY), spanner(DAILY), tabbs(DAILY), unisup1(DAILY),
+	zeusa(DAILY), undeed(DAILY), ddsw1(DAILY*2), m2xenix(DAILY*2),
+	multo(WEEKLY), aim1(DAILY), msd486(WEEKLY), olgb1(WEEKLY),
+	olnl1(WEEKLY), olsacts(WEEKLY), qmcs(WEEKLY), scol(WEEKLY),
+	sefho(WEEKLY), lynx13(WEEKLY), michiru(WEEKLY), pyrltd(WEEKLY)
+#	shannon(DEDICATED)
+# Simple back link for shannon @ Wits University
+#shannon	= shannon.ee.wits.ac.za
+#shannon	.ac.za .ac
+# Simple back link for Pyramid UK
+pyrltd	= pyra.co.uk
+pyrltd	.pyra.co.uk
+
+#N	parst1
+#S	80386 ; SCO UNIX 3.2v2.0
+#O	Paradigm Systems Technology (Pty) Ltd
+#C	Martin Walker
+#E	parst1!martin
+#T	+ 27 12 342 2835 x226
+#P	c/o 1st & Brooklyn, Menlo Park, Pretoria, South Africa
+#L	28 02 E / 26 10 S
+#R	Computer Technology Division of Paradigm
+#U	tibbs
+#W	parst1!martin (Martin Walker); Tue May 28 21:45:00 SAST 1991
+parst1	tibbs(DIRECT), tabbs(DIRECT), csstvl(DIRECT)
+
+#N	patter
+#S	PC/AT,Ufgate 
+#O	Rhodes University Computer Science Department
+#C	Pat Terry
+#E	patter!pterry
+#T	+27 461 22023
+#P	P.O. Box 94, Grahamstown, 6140, South Africa
+#L	33 18.5 S / 26 31.75 E 
+#U	quagga
+#W	quagga!ccfj (Jacot); Sun Mar 24 08:12:18 GMT+0200 1991
+#
+patter	quagga(DAILY)
+
+#N	persys
+#S	TSM 386/20; Interactive 386/ix
+#O	Perseus Computer Systems
+#C	Alan Stonebank
+#E	persys!postmaster
+#T	+27 21 315 3335
+#P	Private Bag X47 Halfway House 1685
+#L	28 07 35 E / 25 59 54 S
+#R	Data General computer products
+#U	ufrmsa1 iosys
+#W	persys!alans (Alan Stonebank); Wed Apr 10 17:52:05 SAT 1991
+persys	ufrmsa1(DAILY), iosys(DAILY)
+
+#N	phyrql
+#S	AT&T 3B1; UNIX V3.0INTL (Convergent Technologies)
+#O	Private
+#C	Lucio de Re
+#E	phyrql!lucio, phyrql!postmaster
+#T	+27 11 673 1776
+#P	PO Box 167, Westhoven 2142, Johannesburg, South Africa
+#L
+#R	Communication and Wide Area Networking Consultant
+#U	proxima
+#W	phyrql!lucio (Lucio de Re); Fri May 24 11:00:35 SAST 1991
+#
+phyrql	proxima(DIRECT), frcs(DAILY/2)
+
+#N	proftech
+#S	Intel 80386; Unix/386 V.3.2
+#O	ProfTech division of E.B.E
+#C	Paul Goodwin
+#E	proftech!postmaster
+#T	+27 12 803 7680
+#P	P.O. Box 
+#L	28 12 E / 25 37 S
+#R	Intel Systems Suppliers
+#U	iosys
+#W	frcs!paul (Paul Nash); Wed Sept 30 20:20:00 SAST 1990
+#
+proftech	proxima(DAILY), iosys(DAILY)
+
+#N	proxima
+#S	PClone-386; Xenix V/386 2.3.2
+#O	The People's Democratic Anarchy
+#C	Chris Old
+#E	proxima!postmaster
+#T	+27 11 889 1369
+#P	PO Box 12475, Onderstepoort, 0110 South Africa
+#U	phyrql frcs moses-beach olsa99 iosys undeed quagga
+#U	ptnsct ucteeu ucteev aim1 iba-cpt africa
+#W	paul@frcs.alt.za (Paul Nash); Thu Oct 24 10:00:10 SAST 1991
+proxima	phyrql(DIRECT), frcs(DAILY/2), moses-beach(DIRECT),
+	olsa99(DEMAND), ctk1(DEAD), iosys(POLLED), proftech(DEAD),
+	undeed(POLLED), quagga(DEMAND),
+	ptnsct(POLLED), ucteeu(POLLED), ucteev(POLLED),
+	aim1(POLLED), iba-cpt(DAILY), africa(POLLED)
+proxima	= proxima.alt.za
+proxima	.proxima.alt.za
+
+#N	ptnsct
+#S	DEC VAX3400; VMS V5.3
+#O	Professional Telematics Networking Services
+#C	Michael Cameron
+#E	ptnsct!postmaster
+#T	+27 21 683 2903
+#P	Box 23977 Claremont 7735 South Africa
+#L	19 00 E / 34 00 S
+#R	Running DECUS uucp V1.0 and ANU News 5.7
+#U	proxima
+#W	ptnsct!postmaster (Michael Cameron); Fri Mar 1 14:30:00 GMT 1991
+#
+ptnsct	proxima(DAILY)
+	
+#N	qmcs
+#S	HP 9000/825 ; HP-UX A.B3.10 B
+#O	Q Management Control Systems
+#C	Fiona Kathryn Louise Shardlow
+#E	qmcs!postmaster
+#T	+ 27 11 313 5251
+#P	c/o QMCS, Private Bag X48, Halfway House, 1685, South Africa
+#L	28 02 E / 26 10 S
+#R	Markets a management (and financial) control system for the
+#R	manufacturing industry
+#U	iosys
+#W	qmcs!fee (Fiona Shardlow); Tue Sept  4 14:06:25 RSA 1990
+#
+qmcs	olsa99(DEMAND), iosys(DEMAND)
+
+#N	quagga
+#S	386/20; SCO Xenix/386 2.3.3
+#O	Rhodes University Computing Centre
+#C	F.F. Jacot Guillarmod
+#E	postmaster@hippo.ru.ac.za
+#T	+27 461 22023
+#P	Struben Building, Artillery Road, Grahamstown, 6140, South Africa
+#L	33 18 30 S / 26 31 45 E 
+#U	m2xenix proxima catpe patter
+#W	quagga!ccfj (Jacot); Wed Sep 11 07:55:02 GMT+0200 1991
+#
+quagga	= quagga.ru.ac.za
+quagga	.ac.za(DEDICATED)
+quagga	m2xenix(DEMAND), patter(DAILY), settler(LOCAL), proxima(POLLED),
+	catpe(POLLED), zimbix(POLLED)
+
+#N	rascal
+#S	ACER 32/20; SCO OPEN DESKTOP (UNIX V3.2)
+#O	Rascal Systems Pty (Ltd)
+#C	chris, theo
+#E	rascal!chris, rascal!theo
+#T	+ 27 11 886 7667
+#P	P.O. Box 98392, Sloane Park, 2152, RSA
+#L	28 02 E / 26 10 S
+#R	C.J. Marshall
+#U	olsa99, tabbs, rasdev
+#W	rascal!chris (C.J. Marshall); Fri Jan 18 17:27:21 GMT 1991
+#
+rascal	olsa99(DAILY)
+
+#N	robes
+#S	Intel 80386; Unix/386 V.3.2
+#O	Perseus (Pty) Ltd
+#C	Robert Saunders
+#E	postmaster@robes
+#T	+27 11 315 3335 x218
+#P	Private Bag X47, Halfway House, 1685 South Africa
+#L	28 12 E / 25 37 S
+#U	tabbs
+#W	chris@proxima (Chris Old); Tue Feb 26 20:52:48 SAST 1991
+robes	tabbs(LOCAL)
+
+#N	settler
+#S	PC/AT
+#O	Settler City Fido
+#C	Dave Wilson
+#E	ccdw@hippo.ru.ac.za
+#T	+27 461 22023
+#P	Grahamstown, South Africa
+#L	33 18.5 S / 26 31.75 E 
+#W	quagga!ccfj (Jacot); Sun Mar 24 08:03:26 GMT+0200 1991
+#
+settler	quagga(DIRECT), .z5.fidonet.org(POLLED)
+
+#N	shop1
+#S	AT&T 3B3/400;SV3
+#O	Shoprite Holdings Ltd.
+#C	Gert Blij
+#E	shop1!gert
+#T	+27 (021) 931 8250
+#U	aim1
+#P	Cnr. Jan Smuts / Jan van Riebeeck, Parow, 7500
+#
+shop1	aim1(DAILY)
+
+#N	shop4
+#S	Intel i80386/33 - SCO System V/386
+#O	Shoprite Holdings Ltd.
+#C	Gert Blij
+#E	shop4!gert
+#T	+27 (021) 931 8250
+#U	aim1
+#P	Cnr. Jan Smuts / Jan van Riebeeck, Parow, 7500
+#
+shop4	aim1(DAILY)
+
+#N	snarf
+#S	386 UNIX; SCO UNIX 3.2.2
+#O	Snarf BBS (Private)
+#C	Steven Wishart
+#E	snarf!steven
+#T	+ 27 11 892 5359
+#P	P.O. Box 13424, Witfield, 1467 South Africa
+#L	28 02E/26 11S
+#R	Snarf Systems Node
+#U	tubbs 
+#W	snarf!steven (Steven Wishart); Fri Mar  1 00:00:00 SAST 1990
+#
+snarf	tubbs(DIRECT)
+
+#N	spanner
+#S	Olivetti LSX 3020 (68020); X/OS 2.2 (Olivetti's Unix=SysV+BSD+???)
+#O	Bloemfontein Padworks (Pty) Ltd
+#C	Piet le Roux
+#E	spanner!postmaster
+#T	+ 27 51 405 4652
+#P	P.O. Box 4158, Johannesburg, 2000, South Africa
+#L	28 02 E / 26 10 S
+#R	Will feed other nodes in Bloem.
+#U	olsa99
+#W	olsa99!mje (Mark J Elkins); Thu Jul 19 14:48:19 SAT 1990
+#
+spanner	olsa99(POLLED)
+
+#N	subbs
+#S	386 XENIX; SCO XENIX 2.3.2
+#O	Simply Unbeleivable System
+#C	Heiny Peck
+#E	subbs!heiny
+#T	+27 11 969 3135
+#P	Subbs System, Benoni, RSA
+#L	28 03 E / 26 10 S
+#R	Private UUCP Node
+#U	tubbs
+#W	subbs!heiny (Heiny Peck); Fri Feb  1  23:24:12 SAST 1991
+#
+subbs	tubbs(POLLED)
+
+#N	sysv
+#S	386 XENIX; SCO XENIX vers 2.3
+#O	System Five (Pty) Ltd
+#C	Erran Botha; Carreen Botha
+#E	sysv!erran; sysv!carreen
+#T	+27 11 444 1414
+#P	P O Box 46, Kelvin, 2054, South Africa
+#L 	28 02E/26 10S
+#U	tabbs
+#W	sysv!erran (Erran Botha); sysv!carreen (Carreen Botha)
+#
+sysv	tabbs(POLLED)
+
+#N	tabbs
+#S	80386 ; SCO XENIX 2.3.4
+#O	Totally Awesome BBS
+#C	Aris Stathakis
+#E	tabbs!aris
+#T	(H) +27 11 788 4197 ; (W) +27 11 887 4220 ; (FAX) +27 11 887 1141
+#P	P.O. BOX 1822, Parklands, JHB, 2121, South Africa
+#L	28 02 E / 26 10 S
+#R	Private UUCP node dedicated to distribution mail/news
+#U	olsa99 tubbs tibbs robes
+#W	tabbs!aris (Aris Stathakis); Mon Jun 24 21:43:05 GMT 1991
+#
+tabbs	olsa99(DIRECT), tubbs(POLLED), frcs(WEEKLY), pscnet(POLLED),
+	sysv(POLLED), robes(POLLED), unisup1(POLLED), ufrmsa1(WEEKLY)
+
+#N	tubbs
+#S	80386/25 ; SCO XENIX 2.3.3
+#O	The Ultimate System
+#C	Chris Moustakis
+#E	tubbs!chris
+#T	+ 27 11 425 1219
+#P	P.O. Box 13315, Witfield, 1467, South Africa
+#L	28 02 E / 26 10 S
+#R	Private UUCP site.
+#U	tabbs tibbs subbs
+#W	tabbs!aris (Aris Stathakis); Tue Mar  5 18:43:16 GMT 1991
+#
+tubbs	tabbs(DIRECT), snarf(POLLED)
+
+#N	ucteeu
+#S	386/25; ISC 386/ix v2.0.2
+#O	Department of Electrical Engineering, University of Cape Town
+#C	Tony Putman
+#E	ucteeu!postmaster
+#T	+27 21 650 3464
+#P	Private Bag, Rondebosch, 7700, South Africa
+#L	33 57 17 S / 18 27 40 E
+#W	ucteeu!tonyp (Tony Putman); Fri Aug 31 09:13:35 SAT 1990
+#
+ucteeu	proxima(LOCAL)
+
+#N	ufrmsa1
+#S	Mitac 386/25
+#O	Uniforum SA
+#C	Aris Stathakis
+#E	ufrmsa!aris tabbs!aris
+#T	+ 27 11 788 4197
+#P	P.O. Box 56412, Pinegowrie, 2123
+#L	28 02 E / 26 10 S
+#U	ufrmsa1
+#W	tabbs!aris (Aris Stathakis); Sat Mar 16 06:43:00 GMT 1991
+#
+ufrmsa1	tabbs(DAILY), olsa99(DIRECT), arg486(POLLED), nampak(POLLED)
+
+#N	uiscpt
+#S	SCO Unix System V
+#O	UIS (Pty) Ltd
+#C	Silja Wellens
+#E	uiscpt!sija
+#T	+27 21 419-4107
+#L	33 54 45 S / 18 25 40 E
+#U	aim1
+#W	uiscpt!silja (Silja Wellens); Thu Sep 05 12:44:29 SAST 1991
+#
+uiscpt	aim1(DAILY)
+
+#N	undeed
+#S	HP-9000/370 ; UNIX HP-UX 7.0
+#O	Department of Electronic Engineering, University of Natal
+#C	Alan Barrett
+#E	undeed!postmaster
+#T	+ 27 31 816 2758
+#P	King George V Avenue, Durban, 4001, South Africa
+#L	30 59 E / 29 51 S
+#R	
+#U	olsa99 proxima quagga ucthpx undcsd
+#W	undeed!barrett (Alan Barrett); Sat Oct 19 13:58:15 GMT 1991
+#
+undeed	= daisy.ee.und.ac.za
+# we don't really have dedicated links to all these, but letting us handle
+# mail for arbitrary subdomains below these domains is a good idea.
+undeed	.za(DEDICATED), .ac.za(DEDICATED), .alt.za(DEDICATED)
+# we really do have links to these places
+undeed	.und.ac.za(LOCAL), hpd.unp.ac.za(HOURLY)
+undeed	proxima(DAILY/4), frcs(DAILY), olsa99(DAILY/3), vironix(DAILY)
+undeed	<alt.za>(LOCAL), <nic.alt.za>(LOCAL)
+undeed	ucthpx(DEDICATED), quagga(DEDICATED)
+undeed	<undeeb>(LOCAL), <undcsd>(LOCAL), <undphp>(LOCAL)
+
+#N	unisup1
+#S	AST Premium 386C ; SCO XENIX 386GT Rel. 2.3.2
+#O	Uninet, a division of Lasernet (Pty) Ltd
+#C	Duncan Anderson
+#E	unisup1!duncan
+#T	+ 27 11 887 4220
+#P	P.O.Box 78446, Sandton, 2146, South Africa
+#L	28 02 E / 26 10 S
+#R	Software (SCO) and Hardware (AST) Distributors
+#U	olsa99
+#W	unisup1!duncan (Duncan Anderson); Wed May 23 20:00:00 SAST 1990
+#
+unisup1	olsa99(DAILY), tabbs(POLLED), utekza(POLLED), cstat(POLLED),
+	scol(WEEKLY)
+
+#N	unitron
+#S	80386-16SX; SCO UNIX 3.2.2
+#O	Unitron (Uniterm, HC Guthrie & Associates cc, Applix)
+#C	Hamish Guthrie
+#E	unitron!postmaster
+#T	+ 27 31 82 2833
+#P	P.O. Box 1418, Wandsbeck, 3631, South Africa
+#L	30 55 E / 29 55 S Give or take a few miles!
+#R	Private UUCP node
+#U	infinix
+#W	unitron!hamish (Hamish Guthrie); Wed Mar 27 10:25:33 SAT 1991
+#
+unitron	infinix(DAILY)
+
+#N	utekza
+#S	Intel 386-16; SCO Unix 3.2.2
+#O	Unique Technology
+#C	Kevin Gribble
+#E	kevin!utekza
+#T	027 11 315 2760
+#P	Momentum Buss. Park, Old Pretoria Rd., Midrand, 1685
+#U	none
+#W	kevin!utekza (Kevin Gribble); Tue July 17 17:22:00 sast 1990
+#
+utekza	iosys(POLLED)
+
+#N	viking1
+#S	IBM AT (80286); SCO XENIX 2.2.3
+#O	Viking BBS
+#C	Grant Smith
+#E	viking1!grant
+#T	+ 27 11 728 6311
+#P	7 Lauriston Court, 186 Louis Botha Ave, JHB, 2198, South Africa
+#L	28 02 E / 26 10 S
+#R	Private UUCP node
+#U	kcms
+#W	viking1!grant (Grant Smith); Mon Aug  27 22:48:51 SAST 1990
+#
+viking1	kcms(POLLED) 
+
+#N	vironix
+#S	Intel 80386/33 ; SCO SYSTEM V 3.2.2
+#O	Vironix Corporation cc
+#C	Kevin Meyer
+#E	vironix!postmaster
+#T	+ 27 31 86 3331
+#P	PO Box 20462, Durban North, 4051, South Africa
+#L	31 00 E / 30 00 S city
+#U	undeed
+#W	vironix!kevin (Kevin Meyer); Tue Dec 03 00:53:21 SAST 1991
+#
+vironix	undeed(DIRECT)
+
+#N	wiggles
+#S	IBM PC/AT Clone; SCO XENIX V2.2
+#O	Wiggles Inc
+#C	theo
+#E	wiggles!theo
+#T	011 792 4120
+#P	P.O. Box 4622, Randburg, 2125, RSA
+#L	28 02 E / 26 10 S
+#R	T. Kramer
+#U	tabbs
+#W	wiggles!theo (T. Kramer); Wed May 23 21:24:09 PDT 1990
+#
+wiggles	olsa99(DAILY)
+
+#N	woplan
+#S	IBM PC; UULINK (Under MSDOS3.30)
+#O	Private
+#C	Lucio de Re
+#E	phyrql!lucio, phyrql!postmaster
+#T	+27 11 673 1776
+#P	PO Box 167, Westhoven 2142, Johannesburg, South Africa
+#L
+#R	Communication and Wide Area Networking Consultant
+#U	phyrql
+#W	phyrql!lucio (Lucio de Re); Fri May 24 11:33:49 SAST 1991
+#
+woplan	phyrql(DEDICATED)
+
+#N	worknet
+#S	Intel 80386; Major BBS/Fidonet
+#O	WorkNet Information Association
+#C	Simone Shall
+#E	worknet!simone_shall
+#T	+27 11 333 0437
+#P	PO Box 157, Johannesburg, 2000 South Africa
+#L	28 03 E / 26 11 S
+#R	NGO support organization
+#U	frcs
+#W	simone_shall@worknet.alt.za; Wed Sep 11 16:59:25 SAST 1991
+worknet	frcs(DAILY/4)
+worknet	= worknet.alt.za
+worknet	.worknet.alt.za
+
+#N	zeusa
+#S	Intel 386; XENIX 2.3.3
+#O	ZEUS software
+#C	Hendrik F. Vermooten
+#E	zeusa!hendrik
+#T	+27 12 64 5507
+#P	PO Box 52051, Wierda Park 0149, R.S.A.
+#L	28 12 E / 25 45 S
+#R	None
+#U	olsa99 iosys
+#W	zeus!hendrik (Hendrik F. Vermooten); Mon Nov 27 18:30:00 GMT-2 1989
+#
+zeusa	olsa99(DAILY/2)
+
+#N	zimbix
+#S	386/20; Xenix
+#O	University of Zimbabwe Computer Centre
+#C	John Sheppard
+#E	postmaster@zimbix.uz.zw
+#T	+9263 4 303296
+#P	Computer Centre, University of Zimbabwe, Harare, Zimbabwe
+#L	17 50 S / 31 03 E city
+#W	johnux@zimbix.uz.zw (John Sheppard); Wed Oct 23 20:24:04 GMT+0200 1991
+#
+zimbix	= zimbix.uz.zw
+zimbix	.zw(DEDICATED)
+zimbix	quagga(DAILY)
+SHAR_EOF
+:	End of shell archive
+exit 0
+

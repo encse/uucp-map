@@ -1,0 +1,2119 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.on.3
+: This archive created: Wed Aug  5 02:56:50 1992
+echo shar: extracting u.can.on.3
+cat << 'SHAR_EOF' > u.can.on.3
+file {u.can.on.3}
+#	u.can.on.3 : last updated Tue Aug  4 22:39:50 1992
+#
+#	Corrections to the contents of this file should be sent to any one of:
+#		path@cs.toronto.edu, path@cs.utoronto.ca, utai!path
+#	Please edit the map entry suitably and remember to update the #W line.
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.ca) or want related information, please contact:
+#
+#		registry@cs.toronto.edu, registry@cs.utoronto.ca, utai!registry
+#	
+#	For information about registering under any of .edu, .com, .gov etc,
+#	please contact domain-request@uunet.uu.net or uunet!domain-request.
+#
+
+#N	isishq, f162.n163.z1.fidonet.org
+#S	AT clone; MS-DOS 3.3
+#O	ISIS - International Shared Information Service
+#C	Doug Thompson
+#E	isishq!postmaster
+#T	+1 613 722 4724
+#P	116 Carruthers Ave., #2, OTTAWA, Ontario, K1Y 1N5
+#L	42 25 N / 75 42 W city
+#R	FidoNode 1:163/162 running UFGATE.
+#U	uuisis
+#W	uuisis!doug (Doug Thompson); Wed Apr 23 10:22:00 EST 1992
+#
+# this is a FidoNet <-> UUCP/Internet gateway site serving Ottawa
+#
+isishq=	isishq.fidonet.org, f162.n163.z1.fidonet.org, isishq.isis.org
+isishq	uuisis(LOCAL), 			#primary link to planet
+	atronx(DAILY),
+	austran(DAILY+FAST),		#local private site
+	carecan(DIRECT),		#CARE Canada
+	cbim(DAILY),			#Canadian Baptist Int'l Ministries
+	ccacol(DAILY+FAST),		#CCA Colombo
+	ccadel(DAILY+FAST),		#CCA Delhi
+	ccajak(DAILY+FAST),		#CCA Jakarta
+	ccaman(DAILY+FAST),		#CCA Manila
+	ccaott(DIRECT),			#Canadian Cooperative Association Ottawa
+	ccasj(DAILY+FAST),		#CCA San Jose Costa Rica
+	cocamap(DAILY+FAST),		#Maputo, Mozambique
+	cocanam(DAILY+FAST),		#Nampula, Mozambique
+	cocaott(DIRECT+FAST),		#Cooperation Canada-Mozambique Ottawa
+	cusozw(DAILY+FAST),		#CUSO, Harare, Zimbabwe
+	ecsa(DAILY),			#CUSO, Ottawa
+	kesrith(DAILY+FAST),		#local private site
+	k-wymca(WEEKLY),		#Kitchener-Waterloo Y
+	latour(DIRECT+HIGH),		#alternate mail link
+	mafguel(DAILY),			#Mission Aviation Fellowship
+	micor(DIRECT+HIGH), 		#alternate mail link + news
+	paang(DAILY+FAST),		#Luanda, Angola
+	paott(DIRECT),			#Programme Angola, Ottawa
+	portone(DIRECT),		#CCA admin
+	skanadm(DIRECT+FAST),		#SKAN Communications Inc Admin
+	skanwat(DAILY),			#SKAN Waterloo office
+	skancds(DIRECT),		#SKAN CDS-ISIS distribution
+	testsys(DIRECT+FAST),		#SKAN test system
+	ushf(DAILY),			#United Steelworkers Humanity Fund
+	watmath(WEEKLY),		#former primary mail link
+	web(DEAD),
+	worldrel(DAILY)			#World Relief
+
+#N	ists
+#S	Sun 3/280; SunOS 4.0.3
+#O	Institute for Space and Terrestrial Science
+#C	Michael Roberts
+#E	ists!postmaster, postmaster@ists.ca
+#T	+1 416 665 3311
+#P	4850 Keele Street, North York Ontario, Canada, M3J 3K1
+#L	43 47 N / 79 30 W city
+#U	helios.physics.utoronto.ca nexus.yorku.ca watserv1.uwaterloo.ca
+#U	dyall optech sparrms yunccn
+#W	roberts@ists.ca (Michael Roberts); Thu Jan 23 08:54:44 EST 1992
+#
+#
+#	The Institute for Space and Terrestrial Science is an Ontario
+#	Centre of Excellence dedicated to Space and Atmospheric Research.
+#	ists is the mail and news hub for the Institute and gateway 
+#	to .ists.ca
+#
+#	Some well known subdomains within .ists.ca include:
+#
+#	apl		Atmospheric Physics Laboratory
+#	eol		Earth Observation Laboratory
+#	gkcl		Gas Kinetics Combustion Laboratory
+#	stpl		Solar Terrestrial Physics Laboratory
+#	sal		Space Astrophysics Laboratory
+#	sgl		Space Geodynamics Laboratory
+#	elopt   	Electro-Optics Laboratory
+#	itres		ITRES Research
+#	optech  	Optech Inc.
+#	sparrms 	SPAR Aerospace, Remote Manipulator Systems
+#	pi19		Pettawawa National Forrestry Institute
+#
+#	ists is known as ists.ists.ca [132.251.1.2] on the Internet.
+#
+ists = ists.ca
+ists	.ists.ca(LOCAL),
+	attcan(DIRECT),		# AT&T Canada Inc
+	dyall(DIRECT),		# Mike's personal machine
+	geac(DIRECT+FAST),	# Geac Computer Corporation
+	suntalk(POLLED)		# Sun Microsystems of Canada, Inc.
+
+#N	itcyyz, .ipsa.reuter.com
+#F	uunet.ca
+#S	Intel 302/386; System V 3.2
+#O	Reuters Information Services (Canada) Ltd.
+#C	Frank Mandarino
+#E	itcyyz!fam
+#T	+1 416 364 5361
+#P	2 First Canadian Pl., Suite 1900, Toronto, Ont., M5X 1E3, Canada
+#L	43 42 N / 79 25 W city
+#R
+#U	geac jtsv16 lsican tmsoft torag tsltor xrtll yrloc
+#W	itcyyz!fam (Frank A. Mandarino); Tue Mar 24 14:24:55 EST 1992
+#
+itcyyz = ipsa.reuter.com, itcyyz.ipsa.reuter.com
+itcyyz	.ipsa.reuter.com(LOCAL),
+	canstar(DIRECT+HIGH),	# mail
+        geac(DIRECT+HIGH),	# mail, upstream news
+	jtsv16(DIRECT+HIGH),	# mail, upstream news
+	lsican(DIRECT+HIGH),	# mail, downstream news
+	tmsoft(DIRECT+HIGH),	# mail, partial upstream news
+	torag(DIRECT+HIGH),	# mail, partial news exchange
+	tsltor(DIRECT),		# mail, downstream news
+	xrtll(DIRECT),		# mail, downstream news
+	yrloc(DIRECT+HIGH)	# mail, downstream news
+
+#N	jabba
+#S	Amiga 2500; Amiga DOS
+#O	not a organization
+#C	Palmer Johnson
+#E	jabba!pj
+#T	+1 519 977 0172
+#P	1408 Kildare Road, Windsor, Ontario, Canada N8Y 3J1
+#L	42 26 20 N / 83 4 24 W city
+#R	Personal news/mail/hacking/fun machine
+#U	schoenfinkel gyro carefree peeker baldy unque stagetwo horas csm-101
+#W	pjohnson@jabba.UUCP (Palmer Johnson); Wed Mar 25 22:15:33 EST 1992
+#
+#	Windsor First Public UseNet feed site...
+#	access is available to new sites...call Palmer Johnson at 519-977-0172
+
+jabba	schoenfinkel(DIRECT+FAST),	# 9600 baud; upstream feed
+	gyro(DEMAND),			# 9600 baud; partial downstream feed
+	carefree(DEMAND),		# 2400 baud; partial downstream feed
+	peeker(DEMAND),			# 2400 baud; partial downstream feed
+	baldy(DEMAND),			# 2400 baud; partial downstream feed
+	unqique(DEMAND),		# 2400 baud; partial downstream feed
+	stagetwo(DEMAND),		# 2400 baud; partial downstream feed
+	horas(DEMAND),			# 2400 baud; partial downstream feed
+	csm-101(DEMAND),		# 9600 baud; partial downstream feed
+	metshop(DEMAND),		# 9600 baud; partial downstream feed
+	strider(DEMAND),		# 9600 baud; partial downstream feed
+	dsij(DEMAND),			# 2400 baud; partial downstream feed
+	wizofhoz(DEMAND),		# 2400 baud; partial downstream feed
+	gasface(DEMAND),		# 2400 baud; partial downstream feed
+	vyper(DEMAND)			# 2400 baud; partial downstream feed
+
+#N	jacc, jacc.com
+#F	uunet.ca
+#S	PC; UUPC or Waffle
+#O	J.A. Carroll Consulting
+#C	Jim Carroll
+#E	carroll@dci2ja.das.net
+#T	+1 416 274 5605
+#P	33 Maple Avenue North, Mississauga, ON, L5H 2R9
+#L	43 33 N / 79 35 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Feb 10 15:29:37 EST 1992
+#
+jacc = jacc.com
+jacc	jacc.com(LOCAL), .jacc.com(LOCAL)
+jacc	uunet.ca(DIRECT)
+
+
+#N	jaysboxx
+#S	Sun 3/50; 4.1 Sunos
+#O	private site
+#C	Jay Rosser
+#E	jaysboxx!jay
+#T	+1 416 481 1068
+#P	1166 Avenue Road, Upper, Toronto, Ontario, Canada, M5N 2E8
+#L	43 39 21 N / 79 23 16 W
+#R
+#U	utdoe
+#W	jaysboxx!jay (Jay Rosser); Sat Jan  26 09:34:00 EST 1991
+#
+#
+jaysboxx        utdoe(DAILY)
+
+
+#N	jdpora
+#S	PC/AT clone; SCO Xenix 2.2.1
+#O	JDP Computer Systems Inc.
+#C	Jerry J. Deroo
+#E	jerry@jdpsys
+#T	+1 416 695 0538
+#P	908 The East Mall, Toronto, Ontario
+#L
+#R	physical location of machine is in Orangeville, Ont.
+#U	lethe
+#W	usenet@lethe (Usenet Admin); Mon Aug 13 07:59:21 EDT 1990
+#
+jdpora	lethe(DEMAND)
+
+#N	jdpsys
+#S	PC-386 clone; SCO Unix 3.2.0
+#O	JDP Computer Systems Inc.
+#C	Jerry J. Deroo
+#E	jerry@jdpsys
+#T	+1 416 695 0538
+#P	908 The East Mall, Toronto, Ontario
+#L
+#R	Unix consulting
+#U	lethe
+#W	usenet@lethe (Usenet Admin); Mon Aug 13 07:59:21 EDT 1990
+#
+jdpsys	parkridge(EVENING),
+	lethe(DEMAND),
+	jdpora(EVENING)
+
+#N	jetform, jetform.com
+#F	uunet.ca
+#S	IBM RS6000/320; AIX 3.1.5
+#O	Jetform Corp.
+#C	Rory Ward, Rob McDougall, Christopher Rath, Allan Phillips
+#E	jetform!root
+#T	+1 613 594 3026
+#P	560 Rochester St., Suite 400 Ottawa, ON, K1S 5K2
+#L	45 20 52 N / 75 40 44 W
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Feb 10 15:29:37 EST 1992
+#
+jetform = jetform.com
+jetform	jetform.com(LOCAL), .jetform.com(LOCAL)
+jetform	uunet.ca(DIRECT)
+
+
+#N	jetpen
+#S	Amiga 2500; AmigaOS 2.04
+#O	Jet Penguin Lavatories
+#C	Ben Eng
+#E	engb@gpu.utcs.utoronto.ca
+#T	+1 416 979 8761
+#P	150 Beverley St. Apt #1L, Toronto, ON, M5T 1Y6
+#L	43 39 30 N / 79 23 50 W
+#R	Personal machine
+#U
+#W	ben@jetpen.gts.org (Ben Eng); Sat Mar 28 02:15:00 EST 1992
+#
+jetpen = jetpen.gts.org
+jetpen	becker(DAILY), kink(DAILY)
+
+#N	jimbo
+#S	Steals (Fujikama) XT (12MHz NEC V20); MSDOS 5.00
+#O	JimboNET, A Personal At-Home Waffle/DOS UUCP/Usenet Node...
+#C	James G. Lien
+#E	jimbo!jim
+#T	+1 416 823 8914
+#P	1006-2150 Bromsgrove Road, Mississauga, Ontario, L5J 4B3, Canada
+#L	43 45 25 N / 79 42 42 W
+#R	Something other than TV to use up my time at home.
+#U	beaudin
+#W	jimbo!jim (Jim Lien); Sun May 17 18:35:00 EST 1992
+#
+jimbo	beaudin(DAILY)
+
+#N	joymrmn
+#S	SCO Xenix/386;
+#O	The Joymarmon Group Inc., Hamilton, Ontario, Canada
+#C	Marcel Mongeon
+#E	joymrmn!root
+#T	+1 416 385 4857
+#P	Suite 108, 400 East 42nd Street, Hamilton, Ontario, Canada L8T 3B1
+#L	43 14 N / 79 35 W city
+#R
+#W	joymrmn!root (Marcel Mongeon); Tue Mar 27 00:00:00 EST 1990
+
+joymrmn
+	maccs	(HOURLY+LOW),	# McMaster University
+
+#N	jrh, jrh.gts.org
+#S	IBM PS/2 Model 80-161 (8580-161); AIX 1.2
+#O	Private System, Toronto, Canada
+#C	James R. Hamilton
+#E	jrh!postmaster
+#T	+1 416 493 4162
+#P	4005 Don Mills Rd., Apt. 249, North York, Ontario, Canada, M2H 3J9
+#L	43 45 00 N / 79 30 00 W
+#R
+#U	hybrid torag
+#W	jrh!jrh (James R. Hamilton); Sat Apr 11 15:05:17 EDT 1992
+#
+jrh = jrh.gts.org
+jrh	hybrid(DIRECT), torag(DIRECT)
+
+
+#N	jtl
+#F	uunet.ca
+#S	SCO Unix; 5.2
+#O	James Lewis
+#C	James Lewis
+#E	james@jtl
+#T	+1 416 656 0695
+#P	336 Blackthorne Ave. Toronto, ON, M6N 3J3
+#L	52 04 05 N / 97 37 46 W
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Sun Dec  8 02:07:14 EST 1991
+#
+
+jtl	uunet.ca(DIRECT)
+
+
+#N	jtsv16, jts.com
+#F	nexus.york.ca, uunet.ca
+#S	ISI Optimum V16; 4.3BSD Unix
+#O	JTS Computer Systems Ltd.
+#C	G. Roderick Singleton
+#E	gerry@jts.com
+#T	+1 416 665 8910
+#P	5000 Dufferin Street, Unit G, Downsview, Ontario, Canada, M3H 5T5
+#L	43 46 00 N / 79 28 08 W
+#R	Home of Open Image(tm), world's best document/image management system
+#U	torsqnt dhnews geac hydroesm itcyyz cchtor
+#W	gerry@jts.com (G. Roderick Singleton); Thu Feb  6 00:32:28 EST 1992
+#
+#	Open Image(tm) is a turnkey system based on the Sun platform.   Version
+#	for Intel platforms is planned for the next release.  JTS also develops
+#	and markets Customized Turnkey Solutions for any application.
+#
+# Internet forwarders:
+uunet.ca	<.jts.com>(DIRECT), # by support@uunet.ca
+		<.jts.com>(DIRECT)
+#
+#nexus.yorku.ca	<.jts.com>(DIRECT), # by davecb@nexus.yorku.ca
+#		<.jts.com>(DIRECT)
+#
+jtsv16 = jts.com
+jtsv16 .jts.com(LOCAL)
+jtsv16	cchtor(DEMAND+FAST),		# news, email
+	dhnews(DEMAND+FAST),		# news, email
+	eclectic(DEMAND),		# email only (2400 baud)
+	emsag(POLLED),			# email only (2400 baud)
+	geac(DEMAND+FAST),		# news, email
+	hydroesm(WEEKLY),		# news, email
+	lethe(WEEKLY+LOW),		# email only
+	lsican(DEMAND+FAST),		# email
+	mator(WEEKLY+LOW),		# email only (2400 baud)
+	suntalk(DIRECT+HIGH+FAST),	# email only
+	torsqnt(DIRECT+HIGH+FAST),	# news, email
+	<lsuc>(POLLED),			# email only
+	itcyyz(DEMAND+FAST),		# news, email
+	sjhc(POLLED),			# email
+	thinker(POLLED),		# email only (2400 baud)
+	tsltor(POLLED),			# email
+	<uunet-ca>(DIRECT+HIGH+FAST),	# email only, now terminal
+	yunexus(DIRECT+HIGH+FAST)	# email only, soon to go away
+
+#N	juliao
+#S	AMIGA 1000; Kickstart 34.5. Workbench 34.20
+#O	Saul A. Juliao
+#C	Saul A. Juliao
+#E	juliao!saul
+#T	+1 416 279 3698
+#P	302 Fairview Road West, Mississauga, Ontario, Canada L5B-3G8
+#L	43 37 30 N / 79 45 00 W
+#U
+#W	juliao!saul (Saul A. Juliao); Fri Jul 21 18:50:00 EDT 1989
+#
+juliao	comspec(DEMAND),
+	becker(DEMAND)
+
+#N	kasoft
+#S	Everex 3000A (80386 based); MS-DOS 3.3
+#O	Ken Anderson Software Inc
+#C	Ken Anderson
+#E	kasoft!ken
+#T	+1 416 274 6244
+#P	1232 Stavebank Road, Mississauga, Ontario, Canada. L5G 2V2
+#L	43 40 N / 79 23 W city
+#R
+#U
+#W	kasoft!ken (Ken Anderson); Wed Jul 12 10:04:03 EDT 1989
+#
+kasotf	aimed(DIRECT)
+
+#N	kink, kink.phaedrav.on.ca, phaedrav.on.ca, .phaedrav.on.ca
+#S	Amiga 2500; AmigaOS 2.1
+#O	Phaedra V
+#C	Hugh D. Gamble
+#E	hugh@kink.UUCP, hugh@kink.PhaedraV.On.Ca
+#T	+1 416 267 6159
+#P	610 Birchmount Rd., Scarborough, Ont., Canada, M1K 1P9
+#L	43 42 50 N / 79 16 16 W
+#U	censor netxsys uunet.ca
+#W	hugh@kink.UUCP (Hugh D. Gamble); Sun Jul 19 18:05:00 EST 1992
+#
+#	WP - we poll, TP - they poll, BP - both poll
+#	LOW = 2400bps, FAST = v.32/v.32bis/PEP
+#
+kink = kink.phaedrav.on.ca, phaedrav.on.ca
+#
+kink
+	awbase(DIRECT+FAST),	# BP, mail.
+	becker(DIRECT+FAST),	# BP, mail.
+	censor(DIRECT+FAST),	# BP, mail and news.
+	cbmtor(DIRECT+FAST),	# BP, mail.
+	cgroup(DEMAND),		# TP, mail.
+	dciem(DIRECT),		# BP, mail.
+	geac(DIRECT+FAST),	# BP, mail.
+	idc(DIRECT+FAST),	# BP, mail.
+	<jetpen>(DEMAND+FAST),	# TP, mail.
+	lsuc(DIRECT+FAST),	# BP, mail.
+	<netxsys>(DEMAND),	# TP, mail, some news.
+	nsq(DIRECT+FAST),	# BP, mail.
+	<uunet.ca>(DIRECT+FAST) # BP, mail.
+
+#N	kirk
+#S	Hewlett Packard 9000 model 840; HP-UX 2.0
+#O	Northern Telecom, Ltd.
+#C	Barry Friedman
+#E	kirk!friedman
+#T	+1 613 765 4270
+#P	1400 Merivale Rd., Ottawa, Ontario, Canada
+#L	45 25 N / 75 42 W city
+#R	manufacturer of telecommunications equipment
+#U	chekov
+#W	kirk!hounsell (Rob Hounsell); Wed Sep 26 15:11:03 EDT 1990
+#
+kirk	chekov(DIRECT), nrcaer(HOURLY)
+
+#N	klg
+#S	Sun 4/60; SunOS 4.1
+#O	KL Group Inc.
+#C	Greg Kiessling
+#E	klg!greg
+#T	+1 416 594 1026
+#P	134 Adelaide St E, Suite# 204, Toronto Ontario, Canada M5C 1K9
+#L	43 39 N / 79 25 W city
+#R	_Open Systems_ Consulting & Software
+#U	c-art
+#W	c-art!jae (Yukon Kid); Tue Oct 16 01:41:56 EDT 1990
+#
+klg	c-art(HOURLY), suncan(HOURLY)
+
+#N	klnet
+#S	IPC 486; Coherent V3.2.0
+#O	Lugroid Enterprises
+#C	Keith Lovatt
+#E	klnet!postmaster
+#T	+1 416 293 0292, +1 416 467 2020 x3509
+#P	90 Wingarden Court, Unit 128, Scarborough, Ontario, Canada M1B 2K3
+#L	43 46 N / 79 09 W city
+#R	Hobby machine
+#U
+#W	klnet!klovatt (Keith Lovatt); Mon Aug  3 22:27:14 EDT 1992
+#
+klnet	amnet(HOURLY+HIGH),
+	utdoe(DAILY/4+HIGH)
+
+#N	kneller
+#S	AT&T 7300 (aka UNIX PC); System Vr2 Unix (CTIX 3.51)
+#O	There ain't no organization here.
+#C	Eric Siegerman
+#E	kneller!postmaster, becker!eric, ziebmef!eric
+#T	+1 416 760 7072
+#P	311 Indian Road Crescent, Toronto, Ontario, Canada M6P 2G8
+#L	43 39 49 N / 79 27 40 W
+#R	This is a personal Unix machine.
+#U
+#W	kneller!eks (Eric Siegerman); Mon Jun  8 06:46:12 EDT 1992
+#
+knelle=kneller
+kneller	becker(DIRECT+LOW),
+	lethe(DIRECT+LOW),
+	now(DIRECT+LOW),
+	noweh(DIRECT+LOW),
+	sabby(DAILY+LOW),
+	berner(DEAD),
+	glddsk(DEAD)
+
+#N	krcc
+#S	Tron 386-20; Interactive 386/ix 2.0
+#O	Ken Roberts Computer Consultants Inc.
+#C	Ken Roberts
+#E	krcc!klr
+#T	+1 519 672 8844
+#P	148 York Street, London, Ontario, Canada N6A 1A9
+#L	42 59 N / 81 14 W city
+#R	Computer Consulting Firm
+#U	avcocan
+#W	krcc!klr (Ken Roberts); Sat Feb 24 13:40:00 EST 1990
+#
+krcc	avcocan(DEMAND)	# mail 2400
+
+#N	lambton
+#S	Cadmus 9000; Cadmus Unix 3.8
+#O	Lambton College of Applied Arts and Technology
+#C	Dave Grant
+#E	lambton!david
+#T	+1 519 542 7751
+#P	Box 969, 1457 London Rd; Sarnia ON; N7T 7K4 CAN
+#L	42 58 N / 82 26 W city
+#R
+#W	lambton!david (Dave Grant); Wed Nov 15 08:37:12 EST 1989
+#
+lambton ria(DAILY)
+
+#N	lamis
+#S	PC/AT 386; SCO Xenix 2.3.1
+#O	Lamis Computer System
+#C	Steve Lam
+#E	lamis!sklam
+#T	+1 416 861 1944
+#P	40 Bay Street, P O Box 1283, Toronto, Ontario, Canada, M5W 1G7
+#L	43 39 10 N / 79 23 00 W city
+#W	lamis!sklam (Steve Lam); Tue Mar 2 16:33:03 EST 1989
+#
+lamis   moore(DIRECT),     aimed(DIRECT)
+
+#N	latour, .sandelman.ocunix.on.ca
+#S	Sun 3/60; SunOS 4.1
+#O	Sandelman Software Works
+#C	Michael Richardson
+#E	mcr@sandelman.ocunix.on.ca
+#T	+1 613 237 5629
+#P	303 Bell Street, Ottawa, ON, K1S 4J9
+#L	45 24 06 N / 75 42 19 W
+#R	Public access Unix site.
+#U	fts1 revcan micor atronx ecicrl
+#W	latour!mcr (Michael C. Richardson); Sun May 31 12:44:33 EDT 1992
+#
+# 
+latour 	fts1(POLLED),			# local news
+	atronx(DIRECT+LOW),		# partial news upfeed
+	micor(DIRECT+FAST),		# partial news upfeed
+	<ecicrl>(DIRECT),		# avoid routing to TO via Chris Lewis
+	alzabo(DIRECT),			# 
+	tigris(DIRECT+LOW),		# mail, biz.all
+	revcan(DIRECT+FAST),		# news feed
+	<quantum.on.ca>(DIRECT),	# ott and ont, Carleton MXs for them
+	.rct.ca(DIRECT),		# revcan is gateway.
+	.csi.on.ca(POLLED),		# I work there, why not?
+	.ocunix.on.ca(DEDICATED)	# latour acts as a
+					# gateway into ocunix.on.ca domain.
+latour = .sandelman.ocunix.on.ca
+latour = sandelman.ocunix.on.ca
+
+
+#N	lauzon
+#S	Atari 1040ST; MailTruk 1.1
+#O	Lauzon Ent.
+#C	Tom A. Lauzon
+#E	lauzon!Tom
+#T	+1 519 747 3555
+#P	490B Glenelm Cres., Waterloo, ON, Canada, N2L 5C8
+#L	43 28 N / 080 23 W city
+#U	electro
+#W	electro!carlo (Carlo Sgro); Sun Nov 19 13:00:00 EST 1989
+#
+lauzon	electro(DAILY)
+
+#N	ldc
+#S	Intel 386; SCO Xenix 2.3.2
+#O	Sheridan College
+#C	Doug Berry
+#E	ldc!usenet
+#T	+1 416 845 9430
+#P	Brampton, ON, Canada L6H 2L1
+#L	43 41 N / 79 46 W city
+#R	Computer Assisted Writing Centre
+#U	sis
+#W	sis!doug (Doug Berry); Thu Jun 21 15:47:25 EDT 1990
+#
+ldc	sis(DIRECT)
+
+#N	lemsys
+#S	CBM Amiga B2000 OS1.3 KSv.12r33.180 WBv1.3r34.27 UUCP v1.15D;
+#O	Private UUCP 'Twig' Node
+#C	Craig Lemon
+#E	lemsys!clemon
+#T	+1 519 578 7817
+#P	148 Westheights Drive, Kitchener, Ontario, Canada N2N 1J9
+#L	43 27 N / 80 29 W city
+#R	This is a home machine for limited news and mail purposes
+#U	xenitec u36
+#W	lemsys!clemon (Craig Lemon); Wed Nov 13 07:26:00 EST 1991
+#
+#       We receive about 30 groups and give feeds mainly to other Amiga Users
+#       or BBS systems.  We also give "starter" feeds to new sites until they
+#  can find a larger feed site if they wish.
+#
+lemsys  xenitec(DAILY/2),    # upstream mail and news (2400 bps)
+        wynnds(WEEKLY),      # upstream mail and testing (2400 bps)
+        draegon(DEAD),       # dead mail exchange (2400 bps)
+        turnip(DEAD),        # 2400 bps downstream mail link
+        provar(WEEKLY*2),
+        u36(WEEKLY)
+
+#N	lethe
+#S	386 clone; SCO Xenix 2.3.3
+#O	Systems Software
+#C	Drew Sullivan
+#E	lethe!postmaster
+#T	+1 416 225 1592
+#P	22 Irvington Cres, Willowdale, Ontario, Canada, M2N 2Z1
+#L	43 44 57 N / 79 22 08 W
+#R	Mailers, networks, and user interfaces
+#U	analsyn becker compus comspec jdpsys telly torsqnt tvcent yunccn
+#W	usenet@lethe (usenet@lethe); Wed Jul 15 20:00:15 EDT 1992
+#
+#	Toronto telebit mail connections welcome.
+#
+lethe = lethe.hades.gts.org
+lethe = lethe.gts.org
+
+lethe	<.hades.gts.org>(LOCAL),	# Domain routing
+	uunorth(DIRECT),	# PEP
+	analsyn(DIRECT),	# PEP	partial ihave/sendme news
+	becker(DIRECT),		# PEP	
+	cara(DIRECT),		# PEP
+	cdndir(DIRECT),
+	cdpseq(DIRECT),
+	cek(DEMAND+LOW),	# v.32
+	cherni(DIRECT),		# PEP
+	chmee(DEDICATED),	# vc
+	compus(DIRECT),		# PEP 	partial feed news
+	comspec(DIRECT+HIGH),	# PEP   ihave/sendme news
+	conngate(DIRECT),	# v.32
+	deft(DEMAND+LOW),	#
+	druid(DIRECT),		#
+	eclectic(POLLED),	#
+	ell1(DIRECT),		#
+	fci(POLLED),
+	geac(DIRECT+HIGH),	#	
+	gorry(DIRECT),
+	hades(LOCAL),		# <->	local machine
+	hybrid(DIRECT),		# PEP	ihave/sendme news
+	jdpsys(DIRECT+HIGH),	# PEP	partial feed
+	jtsv16(DIRECT+LOW),	# PEP
+	kneller(POLLED),	#
+	mdscan(DEMAND+LOW),	# 2400
+	microft(POLLED),	# 2400
+	moore(DEMAND+LOW),	#
+	murder(DEAD),		# vc
+	noweh(DEMAND),		# vc
+	<ontmoh>(DEAD),		#
+	osi(DEMAND+LOW),	# 2400
+	psican(DEMAND),		# 2400
+	royal(DEMAND),		# vc
+	styx(POLLED),		# <->	local machine
+	suntalk(DEMAND),	# PEP
+	telly(DIRECT),		# PEP	ihave/sendme news
+	torag(DIRECT),		# PEP	
+	torsqnt(DIRECT+HIGH),	# PEP	inbound news
+	torux1(DIRECT),
+	tvcent(DIRECT+HIGH),	# PEP	outbound news
+	utzoo(DIRECT+HIGH),	# PEP
+	web(DIRECT),		# PEP
+	whome(DIRECT+LOW),	# 2400
+	yunccn(DIRECT+LOW),	#       partial feed news
+	yunexus(DIRECT+HIGH),	# PEP	
+	ziebmef(DEAD)		# PEP
+
+#N	lfergus
+#S	Morrow Design's MD11; CP/M 3.1
+#O	personal use machine
+#C	Larry Moore
+#E	lfergus!larry
+#T	+1 519 843 7314
+#P	395 Forfar St East, Fergus, Ontario, Canada N1M 3H7
+#L	43 40 N / 80 25 W city
+#R
+#U
+#W	lfergus!larry (Larry Moore); Mon Oct 16 21:40:00 EDT 1989
+
+lfergus	dciem(POLLED)
+
+#N	lira, algorithmics.com, algorithmics, algorit
+#F	uunet.ca
+#S	Sun; UNIX
+#O	Algorithmics Inc.
+#C	John Free, Bill Mertens
+#E	john@algorithmics.com, bill@algorithmics.com
+#T	+1 416 944 0914
+#P	489 College Street Suite 301 Toronto, ON, M6G 1A5
+#L	43 42 N / 79 21 W city
+#R	Replaces algorithmics map of Fri May  8 14:01:23 EDT 1992
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Thu Jun 11 19:00:54 EDT 1992
+#
+# eventually algorithmics and algorit will fade away into memory
+lira = algorithmics.com
+lira = algorithmics
+lira = algorit
+lira	algorithmics.com(LOCAL), .algorithmics.com(LOCAL)
+lira	uunet.ca(DIRECT)
+
+
+#N	long
+#S	IBM RISC 6000 / AIX 3.1.5;
+#O	Long Manufacturing Ltd.
+#C	John Burgers
+#E	david@long
+#T	+1 416 845 1200 x3018
+#P	656 Kerr Street, Oakville, Ontario, L6K 3E4
+#L	43 24 N / 79 40 W city
+#R	Auto parts and heat exchanger manufacturing.
+#U	uunorth
+#W	uunorth!uunorth (Uunorth Administration); Wed Jul  1 13:18:31 EDT 1992
+#
+long	uunorth(DIRECT+HIGH)
+
+
+#N	lotus.ca, lotus.ca
+#F	uunet.ca
+#S	Sun SparcStation 2; SunOS 4.1.1
+#O	Lotus Development, Ltd.
+#C	Roman Sochan
+#E	root@lotus.ca
+#T	+1 416 979 8000
+#P	200 King St. West Suite 1712 Toronto, ON, M5H 3T4
+#L	43 39 N / 79 23 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Feb 10 15:29:37 EST 1992
+#
+lotus.ca	.lotus.ca(LOCAL)
+lotus.ca	uunet.ca(DIRECT)
+
+
+#N	low
+#S	WysePC 2108; MS-DOS 3.21
+#O	Rick Low at home
+#C	Richard A. Low
+#E	low!rick
+#T	+1 613 749 6788
+#P	2148 Bluejay Crescent, Gloucester, Ontario, Canada, K1J 6B1
+#L	45 27 N / 075 37 W city
+#R	personal mail and news feed
+#U	melair
+#W	low!rick (Rick Low); Mon May 14 20:16:00 EST 1990
+#
+low	melair(WEEKLY)
+
+#N	lrt
+#S	Olivetti LSX 3045; X/OS 2.2 (UNIX System V 3.2)
+#O	LeBlanc and Royle Telecom Inc.
+#C	Jim Douglas
+#E	lrt!jmd
+#T	+1 416 844 1242
+#P	514 Chartwell Road, P.O. Box 880, Oakville, Ontario Canada L6J 5C5
+#L	43 27 40 N / 79 40 28 W
+#R	Communication Towers - design, supply, install
+#U
+#W	norman@cherni (Norman Branitsky); Thu Dec 20 22:08:20 EST 1990
+#
+lrt	cherni(DEMAND+HIGH)
+
+#N	lselec
+#S	286/12; MS-DOS 3.30
+#O	LS Electronics
+#C	Francis Lyn
+#E	lselec!flyn
+#T	+1 416 745 0172
+#P	6415 Finch Av #70 Rexdale ONtario M9V 1T3
+#L	43 43 N / 79 35 W city
+#U	beltrix
+#W	beltrix!peters (Peter Sleggs); Thu Aug 22 11:24:00 EDT 1991
+#
+#
+#	HIGH=9.6/19.2K, LOW=1200, BP=both poll, WP=we poll, TP=they poll
+#
+
+lselec  beltrix(LOW)               # WP mail & news
+
+
+
+
+
+
+
+
+
+
+#N	lsican
+#S	Sun 3/240; SunOS 4.1.1 Export
+#O	LSI Logic Corporation of Canada, Inc.
+#C	Stephen Martin
+#E	smartin@lsican
+#T	+1 416 620 7400
+#P	Suite 1110, 401 The West Mall, Etobicoke, ON, M9C 5J5.
+#L	43 38 N / 79 37 W city
+#U	itcyyz beltrix blunile
+#W	lsican!smartin (Stephen Martin); Thu Jun 18 15:07:41 EST 1992
+#
+lsican = lsican.canada.lsil.com
+lsican .canada.lsil.com
+lsican	suntalk(DIRECT), jtsv16(DEAD), blunile(DEMAND), dvs(DIRECT),
+	mauxci(DEAD), itcyyz(DIRECT), beltrix(DEMAND), arista(DIRECT)
+
+#N	lsimages
+#S	80386 33Mhz PC; Unix SysVr3.2
+#O	L.S.images
+#C	Luis Lopes
+#E	lsimages!luis
+#T	+1 416 282 6520
+#P	22 Keeler Blvd, Toronto, Ontario, Canada, M1E 4K4
+#L	43 39 N / 79 23 W city
+#R	Custom Development System
+#U	cattnts druid tmsoft whome
+#W	lsimages!luis (Luis Lopes); Tue May 5 20:44:30 EDT 1992
+#
+# in the following: WP - we poll, TP - they poll, BP - bidirectional poll
+#		LOW=1200bps, HIGH=19200bps Telebit or V.32
+#
+lsimages	cattnts(DIRECT+HIGH),	# BP - mail, news
+		druid(DIRECT+HIGH),	# BP - mail, news
+		tmsoft(DIRECT+HIGH), 	# BP - mail, some news
+		whome(DIRECT+HIGH)	# BP - mail, news
+
+#N	lsuc, lsuc.on.ca
+#S	i386SX 20Mhz; Consensys System V R4
+#O	The Law Society of Upper Canada
+#C	Jim Mercer, David Sherman
+#E	lsuc!jim, lsuc!dave
+#T	+1 416 947 5258, +1 416 947 3466
+#P	Osgoode Hall, Toronto, Ont., Canada M5H 2N6
+#L	43 39 08 N / 79 23 07 W
+#R	CAI for Ontario's Bar Admission Course and lawyers
+#U	atha becker eci386 ontmoh uunet.ca utzoo
+#W	lsuc!jim (Jim Mercer); Tue Jul 14 09:53:58 EDT 1992
+#
+# We poll our DIRECT feeds hourly-ish; most of them call us regularly as well.
+# We're willing to take on new local connections at any time.
+#
+#                            Polling/Polled Only        Bi-Directional
+# Local:
+#    Telebit                 (DEMAND+FAST)              (DIRECT+FAST)
+#    2400                    (DEMAND)                   (DIRECT)
+#    1200                    (DEMAND+LOW)               (DIRECT+LOW)
+# Long Distance
+#    Telebit (or very far)   (DAILY/3)
+#    1200/2400               (DAILY)
+# Time Constrained
+#    Telebit                 (EVENING+FAST)
+#    2400                    (EVENING)
+#    1200                    (EVENING+LOW)
+#
+
+lsuc	aimed(DIRECT+FAST),	# Telebit
+	array(DIRECT),		# 2400
+	<atha>(DEAD),		# TCP/IP
+	<att>(DEAD),		# TCP/IP
+	attcan(DIRECT+FAST),	# Telebit
+	avcocan(DAILY),		# Telebit - long distance
+	becker(DIRECT+FAST),	# Telebit
+	canrem(HOURLY*3+FAST),	# Telebit - they call us
+	canstar(DIRECT+FAST),	# Telebit
+	censor(DIRECT+FAST),	# Telebit
+	cherni(DIRECT+FAST),	# Telebit
+	comspec(DEMAND+FAST),	# Telebit
+	ctmsd2(DIRECT+FAST),	# Telebit
+	dciem(DIRECT+FAST),	# Telebit
+	druid(DIRECT),		# 2400
+	<eastern>(DIRECT+FAST),	# Telebit
+	eci386(DEMAND+LOW),	# 2400, poll us only
+	empress(DEMAND+FAST),	# Telebit
+	feline(DEMAND+FAST),	# Telebit
+	forgen(DAILY),		# 2400, poll us only
+	gate(DIRECT+LOW),	# 1200
+	geac(DIRECT+FAST),	# Telebit
+	gpapone(DIRECT),	# 2400
+	graham(DEMAND+LOW),	# 1200, poll us only
+	isgtec(DIRECT+HIGH),	# Telebit
+	<jtsv16>(DIRECT+HIGH),	# Telebit
+	kink(DEMAND+LOW),	# 1200, poll us only
+	maccs(DEMAND),		# TCP/IP
+	mcshub(DAILY/3),		# Telebit
+	motto(DEMAND+LOW),	# poll us only
+	msitxt(DIRECT+LOW),	# 1200
+	<ncrcan>(DIRECT),	# 2400
+	noweh(DIRECT),		# 2400
+	<nrcaer>(DEAD),		# 2400 - long distance
+	ontmoh(DIRECT+FAST),	# Telebit
+	<parkridge>(DIRECT+FAST), # Telebit 
+	peoples(DEMAND),	# 2400, poll us only
+	revcan(DAILY/3),	# Telebit
+	robohack(DIRECT),	# 2400
+	rose(DIRECT+FAST),	# Telebit
+	ryelect(DEMAND+FAST),	# Telebit
+	ryesone(DEMAND+LOW),	# 1200, poll us only
+	scocan(DIRECT+FAST),	# Telebit
+	senecam(DEMAND),	# 2400, poll us only
+	<sickkids>(DEAD),	# 1200 - but have lost connectivity
+	snitor(DIRECT+FAST),	# Telebit
+	<sp90>(DEAD),		# 2400, poll us only, low-connectivity
+	sq(DIRECT+HIGH),	# Telebit
+	teecs(DIRECT+HIGH),	# Telebit
+	telly(DIRECT+HIGH),	# Telebit
+	tls(DIRECT),		# 2400
+	tmsoft(DIRECT+HIGH),	# Telebit
+	torsqnt(DEMAND+HIGH),	# Telebit
+	tndb(DIRECT+LOW),	# 1200, poll us only
+	utai(DIRECT+HIGH),	# TCP/IP
+	utdoe(DIRECT+HIGH),	# Telebit
+	utzoo(DIRECT+HIGH),	# TCP/IP
+	<uunet.ca>(DEDICATED),	# TCP/IP
+	xenitec(DIRECT),	# SMTP
+	yunexus(DEAD)		# TCP/IP
+
+
+
+
+#N	ltg
+#S	IBM PC/AT 80386 compatible; SCO Xenix 2.3.4
+#O	SwitchView - The Linton Technology Group
+#C	Vance Shipley
+#E	ltg!postmaster
+#T	+1 519 746 4460
+#P	180 Columbia Street West, Waterloo, Ontario, Canada N2L 3L3
+#L	43 25 N / 80 31 W city
+#R	Software development.  Network Management Telephone Applications
+#U
+#W	ltg!vances (Vance Shipley); Wed Oct 30 19:35:24 EST 1991
+#
+ltg 	xenitec(DAILY)
+
+#N	ltrnativ
+#S	386-16 Clone; FSUUCP 1.2 Release 4
+#O	The All Ter Nah Tiv Unh Der Groend
+#C	Adam Mottershead
+#E	ltrnativ!adammot
+#T	+1 416 454 8597
+#P	39 Havelock Drive, Brampton, Ontario, Canada L6W 4K8
+#L	43 40 N / 79 42 W city
+#R	This is a private site.
+#U	r-node
+#W	ltrnativ!adammot (Adam Mottershead); Fri May 29 20:33:18 EDT 1992
+#
+ltrnativ        r-node(DEMAND)
+
+#N	maccs, .dcss.mcmaster.ca
+#S	Sun 4/280; Sun OS 4.1.1
+#O	Dept. Computer Science and Systems, McMaster University
+#C	Dan Trottier or Chris Bryce
+#E	usenet@maccs.dcss.mcmaster.ca
+#T	+1 416 529 7070 x4614
+#P	1280 Main St. W, Hamilton, Ont., Canada, L8S 4K1
+#L	43 16 N / 79 55 W city
+#R
+#U	innovus dofasco joymrmn geac
+#W	dan@maccs.dcss.mcmaster.ca (Dan Trottier); Tue Jun  9 13:19:08 EDT 1992
+#
+dcss.mcmaster.ca = maccs, maccs.mcmaster.ca, maccs.dcss.mcmaster.ca
+
+maccs
+	boopsy(DAILY),		# mail link (Mike Borza -home-, Hamilton)
+	ccohs(HOURLY+LOW),	# mail link (Occupational Health & Safety, Ham)
+	dofasco(HOURLY+LOW),	# mail/news (Dofasco, Hamilton)
+	erewhon(HOURLY+LOW),	# mail link (Redeemer College, Ancaster)
+	fkhew(DAILY),		# mail link (Fulko Hew, Hamilton)
+	geac(HOURLY+LOW),	# mail link (GeAc Inc., Toronto)
+	innovus(HOURLY+HIGH),	# mail/news (Innovus Inc., Hamilton)
+	joymrmn(HOURLY),	# mail/news (The Joymrmn Group, Hamilton)
+	lsuc(HOURLY+HIGH),	# mail link (Law Society of Upper Canada, T.O.)
+	mcshub(DIRECT),		# mail link (Internal UUCP gateway)
+	muffy(DAILY),		# mail link (Dan McCrackin, faculty)
+	otter(DAILY),		# mail/news (Andrew Tyldesley, student)
+	scfp01(DAILY),		# mail/news (General Motors, St. Catherines )
+	sis(HOURLY+HIGH),	# mail link (Sheridan College, Toronto)
+	southam(DAILY),		# mail/news (Southam Corporation)
+	terran(DEAD),		# mail link (Terran Inc)
+	tronix(HOURLY)		# mail/news (Louis Bertran, Hamilton)
+#
+MacU-gw = { maccs.dcss.mcmaster.ca }(LOCAL)
+MacU-gw = .dcss.mcmaster.ca
+#
+# The official campus Postamster is postmaster@mcmaster.ca. If you can't
+# reach someone or need an email address send mail to this address.
+#
+
+#N	magicbb
+#S	Apple MacIntosh / AUX;
+#O	MacIntosh Awareness Group In Canada
+#C	Mark Windrum
+#E	magicbb!root
+#T	+1 416 513 5831
+#P	Box 83043, Westford Plaza RPO, 2131 Lawrence Av E, Scarboro, Ont M1R 5G4
+#L	43 40 N / 79 23 W city
+#R	Buletin Board System for the MAGIC group.
+#U
+#W	problem!taras (Taras Pryjma); Fri Jul 22 16:50:00 EDT 1992
+#
+#
+magicbb	problem(DIRECT+HIGH)
+
+
+
+#N	magsta
+#S	NCR Tower 32/600; Unix System V.2
+#O	Magstar Incorporated, Toronto
+#C	Wolfgang Thomeier
+#E	magsta!wolf
+#T	+1 416 429 7824
+#P	506 - 789 Don Mills Road, Don Mills, Ontario, Canada M3C 1T5
+#L	43 39 20 N / 79 23 15 W
+#R	System and Application Development
+#U	ncrcan ontmoh telly tmsoft
+#W	magsta!wolf (Wolfgang Thomeier); Fri Dec 15 09:48:24 EST 1989
+#
+magsta  ncrcan!(DIRECT), ontmoh!(DIRECT), telly!(DIRECT), tmsoft!(DIRECT)
+
+#N	marcel
+#S	Sun 2;
+#O	Art Metropole
+#C	Alex Maschas
+#E	marcel!alex
+#T	+1 416 977 1685
+#P	217 Richmond St. W, Toronto, Ontario - Canada
+#L	43 40 N / 79 24 W city
+#W	chp!rph (Pontus Hedman); Wed Nov 15 12:08:44 EST 1989
+marcel	chp(DAILY), sq(DAILY)
+
+#N	markland
+#S	IBM PC/AT; IBM OS/2 R1.2 / OS/2-UUPC
+#O	Mark Wilson
+#C	Mark Wilson
+#E	markland!mark
+#T	+1 416 731 7928, +1 416 731 7927
+#P	59 Green Bush Cr. Thornhill, ON L4J 3J2
+#L	32 19 N / 86 30 W city
+#R
+#U
+#W	markland!mark (Mark Wilson); Sun Jan 21 23:00:00 EST 1990
+#
+markland  moore(DAILY)
+
+#N	martech
+#S	ATT 3B2/300 UNIX SYSV R3.1.1;
+#O	STEP Inc.
+#C	Peter G. Marshall
+#E	peterm@martech, postmaster@martech, peterm@robohack
+#T	+1 416 483 8011
+#P	27 Le May Road; Toronto, Ontario; Canada, M4S 2X2
+#L	43 39 N / 79 23 W city
+#R	Step Inc. "Solutions through the management of change"
+#U	robohack megpc1
+#W	peterm@martech (Peter G. Marshall); Fri Feb 21 16:15:26 EST 1992
+#
+#
+#
+martech	eci386(POLLED),		#mail, news
+	robohack(POLLED),       #mail, news
+	megpc1(POLLED)		#mail
+
+#N	masnet, f404.n259.z1.fidonet.org
+#S	Everex 3000 386/16; PC-DOS 3.3
+#O	MaSNeT Software and Consulting - private development machine
+#C	Michael A. Shiels
+#E	masnet!postmaster
+#T	+1 416 823 1355
+#P	65-2380 Bromsgrove Dr., Mississauga, ON, Canada, L5J 4E6
+#L	43 32 46 N / 79 41 2 W city
+#R	Fido 1:259/404 running custom Binkley, custom Confmail, custom UUCP
+#U	tmsoft
+#W	stjhmc!ddodell (David Dodell); Mon Dec 09 22:00:00 MST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+masnet=	masnet.fidonet.org, f404.n259.z1.fidonet.org
+masnet	tmsoft(DAILY)
+
+#N	mator
+#S	M/A B386; SVR2
+#O	Tecumseh Educational Foundation
+#C	Peshewegunzh; Max Southall
+#E	mator!maxs
+#T	+1 705 326 3589
+#P	Box 27, Rama Indian Reserve, Ontario, Canada L0K 1T0
+#L	43 39 N / 79 23 W city
+#R	Tecumseh Educational Foundation's bulletin-board machine.
+#U	yunexus
+#W	mator!maxs (Max Southall); Mon Jun 1 09:37:00 YDT 1992
+#
+mator   yunexus(DEMAND), jtsv16(DEMAND), tvcent(DEMAND)
+
+#N	mdesk, marketdesk.com
+#F	uunet.ca
+#S	NeXT; MACH
+#O	MarketDesk Inc.
+#C	Michael Infuso
+#E	minfuso@marketdesk.com
+#T	+1 416 236 1288
+#P	897 Kipling Ave. Suite 200 Etobicoke, ON, M8Z 5H3
+#L	48 38 N / 79 30 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Thu Apr 16 13:58:03 EDT 1992
+#
+mdesk = marketdesk.com
+mdesk	marketdesk.com(LOCAL), .marketdesk.com(LOCAL)
+mdesk	uunet.ca(DIRECT)
+
+
+#N	mdms
+#S	Sequent Symmetry S81; DYNIX 3.0.17
+#O	Moore Data Management Services
+#C	Geoff Loker
+#E	mdms!uucpadm, mdms!geoff
+#T	+1 416 284 4111
+#P	801 Milner Avenue; Scarborough, Ontario; Canada; M1B 3C3
+#L	43 48 08 N / 79 11 52 W
+#R	Canadian home of Real-Trieve real estate office data management
+#U
+#W	mdms!geoff (Geoff Loker); Thu Jun 20 10:44:00 EDT 1991
+#
+#	and book production.
+#
+#   DIRECT means we call whenever necessary, and at least once per day
+#   HIGH means Telebit T2500, LOW means 2400 baud
+#
+#   Note: snitor is replacing nixtor, but we will maintain our old link
+#         to nixtor until snitor becomes better known.
+#
+mdms    .moore.com
+mdms    = mdms.moore.com
+mdms    torsqnt (DIRECT+HIGH),  # Sequent
+	moore (DIRECT+HIGH),    # our link to moore.com
+        hybrid (DIRECT+HIGH),
+        snitor (DIRECT+HIGH),
+	nixtor (DAILY),        # This will disappear when snitor becomes famous
+	<contact> (DAILY),
+	becker (DIRECT+HIGH),
+        mnetor (WEEKLY),       # DAILY gives this line too high a priority
+        osi (DAILY),           # These three sites poll us
+	bata (DAILY),
+	isesun (DAILY)
+
+
+#N	mdscan, torux1
+#S	IBM-PS-2/80; SCO Xenix 2.2.1
+#O	Mds Labitories
+#C	Drew Sullivan
+#E	lethe!postmaster
+#T	+1 416 675 4530 x2397
+#P	100 International Blvd, Etobicoke, Ontario, Canada, M2N 2Z1
+#L	43 38 N / 79 29 W city
+#R	Medical Lab
+#U
+#W	usenet@lethe (usenet@lethe); Wed Jul 15 20:00:17 EDT 1992
+#
+mdscan	lethe(DEMAND), torux1(LOCAL), jdpsys(DEMAND), cek(DEMAND)
+torux1	lethe(DIRECT), mdscan(LOCAL), jdpsys(DEMAND), cek(DEMAND)
+
+
+#N	meadow
+#S	Motorola 68030; System V/68 3V5
+#O	Amdahl Canada Limited - Unix workstation group
+#C	Peter Yeung
+#E	meadow!root
+#T	+1 416 542 6300
+#P	2000 Argentia Rd., Plaza 2, Suite 300, Mississauga, Ont., Canada L5N 1V8
+#L	43 32 46 N / 79 41 02 W city
+#R
+#U
+#W	meadow!py (Peter Yeung); Fri May 24 15:48:00 EDT 1991
+#
+meadow	becker(DIRECT), feline(DIRECT),
+ 	amdahl(DEMAND+EVENING), censor(DIRECT)
+
+
+#N	melair
+#S	HP 9000 Model 350; HP-UX 7.0
+#O	Lockheed Canada Inc., Iber Road Facility
+#C	Rob Judd
+#E	melair!judd, melair!postmaster
+#T	+1 613 836 6860
+#P	1 Iber Road, Stittsville, Ontario, Canada, K2S 1E6
+#L	45 17 N / 75 55 W city
+#R	electronic warfare systems and systems integrators
+#U	mitel low isaot dataco
+#W	melair!judd (Rob Judd); Thu Jul 2 16:10:00 EST 1992
+#
+melair mitel(HOURLY),low(WEEKLY),isaot(DIRECT),dataco(DIRECT)
+
+
+#N	mellor
+#S	386 clone; MS-DOS 5.0
+#O	JM Software
+#C	John Mellor
+#E	johnm@mks.com, mks!mellor!johnm
+#T	+1 519 745 0457
+#P	142 Markwood Drive, Kitchener, Ontario, N2M 2H6, CANADA
+#L	43 25 17 N / 80 32 39 W
+#R	Small personal system
+#U	mks
+#U	u36
+#W	mellor!johnm (John Mellor); Tue Jan 14 10:35:00 EST 1992
+#
+mellor		u36(DAILY), mks(DAILY)
+
+
+#N	mercer, wm-mercer.ca
+#F	uunet.ca
+#S	Dell 386; UNIX
+#O	William M. Mercer Limited
+#C	Jim Carroll, Paul Deneault
+#E	carroll@wm-mercer.ca, deneault@wm-mercer.ca
+#T	+1 416 868 7013
+#P	BCE Place 161 Bay Street MS 501 Toronto, ON, M5J 2S5
+#L	43 39 N / 79 23 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Jun  8 15:25:03 EDT 1992
+#
+mercer = wm-mercer.ca
+mercer	wm-mercer.ca(LOCAL), .wm-mercer.ca(LOCAL)
+mercer	uunet.ca(DIRECT)
+
+
+#N	mersys, merlin-systems.on.ca
+#F	uunet.ca
+#S	Everex 386/33; UNIX
+#O	Merlin Systems
+#C	Roy Pereira
+#E	roy.pereira@merlin-systems.on.ca
+#T	+1 613 722 0829
+#P	P.O. Box 3043 Station C Ottawa, ON, K1Y 4J3
+#L	42 25 N / 75 42 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Tue Jun  2 17:07:40 EDT 1992
+#
+mersys = merlin-systems.on.ca
+mersys	merlin-systems.on.ca(LOCAL), .merlin-systems.on.ca(LOCAL)
+mersys	uunet.ca(DIRECT)
+
+
+#N	messalina
+#S	386-33; xenix 2.3.1
+#O	Messalina public access xenix
+#C	Iain Calder
+#E	messalina!postmaster
+#T	+1 416 398 1562
+#P	66 Paulvale Crescent, Downsview, Ontario M3J-1K5, Canada.
+#L	43 45 37 N / 79 29 54 W
+#R	Happy to feed mail. We are in Toronto @ Finch & Keele.
+#U
+#W	messalina!iain (Iain Calder); Tue Mar 26 00:00:36 EST 1992
+#	    
+#	+1 416 398 9526 (2400bps 8N1), type `newuser'. Messalina was
+#	a Roman Emperess (and quite a character!) Died around 50 A.D.
+#
+# WP=we poll, TP=they poll, BP=both poll
+# Connection costs are conservative estimates. Hopefully we can achieve
+# connections to our neighbours a tad more frequently...
+#
+messalina = messalin, messali
+
+messalina	r-node(DAILY/3),	# BP exchange mail
+		zooid(DAILY/2),		# BP exchange mail
+		scholar(DEAD)		# TP feed them mail - Not up yet
+
+
+#N	mhrds
+#S	Convergent Technologies S/320; SYS V UNIX Version 3.2
+#O	Management Horizons Retail Data Systems
+#C	Don Laidlaw
+#E	don@mhrds.uucp
+#T	+1 519 672 0251
+#P	291 King St. 6th Floor, London, Ontario, Canada N6B 1R9
+#L	43 00 38 N / 81 16 12 W
+#R	This is the only outside interface to MHRDS. No usenet feeds
+#U	None at this time.
+#W	reggers@ria.ccs.uwo.ca (Reg Quinton); Tue Nov 21 10:13:22 EST 1989
+#	are currently in place.
+#
+mhrds	ria(DAILY)
+
+#N	micasa, micasa.guild.org
+#S	IBM PC/AT 286 compatible; MS-DOS 4.01, Waffle 1.65
+#O	The MIcasa Group, Scarborough, Ontario, Canada
+#C	Jack Z. Lupic
+#E	micasa!jzl
+#T	+1 416 431 0651
+#P	22 Ronway Crescent, Scarborough, Ontario, CANADA M1J 2S2
+#L	43 44 45 N / 79 13 45 W
+#R	Another Waffle UUCP site...
+#U	moore
+#W	micasa!uucpadm (Jack Z. Lupic); Fri Jul 24 01:52:39 EDT 1992
+#
+micasa = micasa.guild.org
+#
+micasa  aimed(DIRECT), becker(DIRECT), beltrix(DIRECT), moore(DIRECT),
+        telly(DIRECT), utzoo(DIRECT)
+
+
+
+#N	micor
+#S	Keen 386/25; SCO Xenix 2.3.2
+#O	M.B. Cormier INC.
+#C	Michel B. Cormier
+#E	mcormier@micor.ocunix.on.ca
+#T	+1 613 837 0484
+#P	1115 St-Jovite Ridge, Orleans ON K1C 1Y6
+#L	42 25 N / 75 42 W city
+#R	Public Access Unix in Ottawa
+#U	aficom esleng excalibur latour revcan uuisis
+#W	micor!mcormier (Michel B. Cormier); Thu Apr 30 21:27:40 EDT 1992
+#
+#
+micor = micor.ocunix.on.ca
+micor 	.ocunix.on.ca(DIRECT+FAST), 	
+	aficom(DIRECT),    		# mail/news connection
+	atronx(DIRECT),			# mail connection
+	esleng(DIRECT+HIGH),    # feed'em mail/news
+	excalibur(DIRECT+HIGH), # This is really esleng...changing name
+	fts1(DAILY),            # feed'em mail/some news
+	isishq(DIRECT+HIGH),    # feed'em mail/news
+	latour(DIRECT),    	    # feed'em news/feed me mail!
+	revcan(DIRECT),         # get news from revcan
+	uuisis(DIRECT),			# News/mail 
+	vicuna(DIRECT),			# Polled mail feed
+	<uunet.ca>(DIRECT)		# mail connection
+
+#N	microft
+#S	4.2BSD UNIX;
+#O	Mycroft
+#C	Don Biggar
+#E	microft!don
+#T	+1 416 484 9842
+#P	70 Dunfield Ave, Toronto, Ontario, Canada, M4S 3A4
+#L
+#U	tvcent
+#W	microft!don (Don Biggar); Wed Mar 21 17:26:29 EST 1990
+#
+microft	lethe(HOURLY*2), mnetor(HOURLY), mycroft(HOURLY/2), suncan(HOURLY),
+	tvcent(HOURLY)
+
+#N	minck
+#S	TATUNG TCS - 7000; SCO XENIX Version 2.2
+#O	Home Scomputer of Stan Zeldovich
+#C	Stan Zeldovich
+#E	minck!root
+#T	+1 416 775 4694
+#P	53 Turner Court, Bradford, Ontario, Canada, L3Z 2G7
+#L	43 47 N / 79 30 W city
+#R
+#U
+#W	minck!slava  (Stan Zeldovich); Sun Apr  2 17:01:17 EDT 1989
+#
+minck	becker(DAILY), yunccn(DAILY)
+
+#N	mindy
+#S
+#O	Mindemoya Computing and Design
+#C	Doug Eastick
+#E	mindy!root, mindy!eastick
+#T	+1 416 971 6410
+#P	565 Sherbourne St. #2605, Toronto, Ontario, Canada M4X 1W7
+#L	43 29 20 N / 79 23 15 W
+#R
+#U
+#W	utcs!pkern (Paul Kern); Mon Nov 19 17:56:42 EST 1990
+#
+#	May be known as mindemoya.on.ca, but don't use that
+#	until it's official.
+#
+mindy	utgpu(DEAD)
+
+#N	miracle
+#S	Sun 3/160C; SunOS 4.0.3
+#O	Miracle Food Mart
+#C	Richard Macey
+#E	miracle!richard
+#T	+1 416 747 3044
+#P	65 Rexdale Blvd., Rexdale, Ontario, Canada
+#L
+#R	MFM Advertising Department
+#U
+#W	c-art!jae (john eadie); Mon Nov 13 00:34:48 EST 1989
+#
+miracle c-art(HOURLY)
+
+#N	mitel
+#F	uunet.ca
+#S	Sun microsystems 3/160; SunOS 4.1.1
+#O	Mitel corporation
+#C	John Desrochers
+#E	postmaster@mitel.com
+#T	+1 613 592 2122
+#P	350, Legget drive. Kanata, Ontario, Canada. K2K 1X5
+#L	45 20 N / 75 54 W city
+#U	fultech melair revcan
+#W	john@software.mitel.com (John Desrochers); Thu Apr  9 12:39:20 EDT 1992
+#
+mitel = mitel.com
+mitel	.mitel.com(LOCAL)
+#
+mitel	<fultech>(HOURLY), <melair>(HOURLY), <tomqnx>(HOURLY),
+	revcan(HOURLY),
+	uunet.ca(HOURLY)
+
+
+#N	mitra, mitra.on.ca
+#F	uunet.ca
+#S	Mips M/120; RISCos 4.51
+#O	Mitra Imaging Corporation
+#C	postmaster
+#E	postmaster@mitra.com
+#T	+1 519 746 2900
+#P	115 Randall Dr. Waterloo, ON, N2V 1C5
+#L	43 28 N / 80 23 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Feb 10 15:29:37 EST 1992
+#
+mitra = mitra.on.ca
+mitra	mitra.on.ca(LOCAL), .mitra.on.ca(LOCAL)
+mitra	uunet.ca(DIRECT)
+
+
+#N	mks, .mks.com
+#F	watserv1.UWaterloo.CA
+#S	Solbourne Series5/602; OS/MP 4.1A.1
+#O	Mortice Kern Systems Inc.
+#C	Andy Toy, Alex White, Randall Howard
+#E	postmaster@mks.com, andy@mks.com, alex@mks.com, rand@mks.com
+#T	+1 519 884 2251
+#P	35 King Street North, Waterloo, Ontario, N2J 2W9, CANADA
+#L	43 27 57 N / 80 31 21 W
+#R	Makers of the MKS Toolkit, and InterOpen/POSIX products
+#U	dogmead tslwat u36
+#W	andy@mks.com (Andy Toy); Fri Jul  3 02:36:46 EDT 1992
+#
+mks =	mks.com
+mks	.mks.com
+mks	anansi(DAILY), atoy(DIRECT), decvax(WEEKLY), dogmead(DAILY),
+	elora(WEEKLY), express(DIRECT), golem(DAILY), jtsv16(DEAD),
+	mellor(DAILY), mkseast(DEAD), praeda(DEAD), <provar>(DIRECT),
+	rmotion(DAILY), speaker(WEEKLY), sq(DEAD), tnstfl(DAILY),
+	tslwat(DAILY), u36(DIRECT), utzoo(DEAD), walter(DAILY),
+	watserv1(DIRECT+HIGH), xenitec(DAILY/2)
+
+#N	mma
+#S	386/33; MS-DOS 5.0
+#O	Martin, McCubbin and Associates Limited
+#C	Al Steane
+#E	mma!postmaster
+#T	+1 416 821 9790
+#P	6790 Kitimat Road, Unit 3, Mississauga Ontario, Canada L5N 5L9
+#L	43 45 N / 79 40 W city
+#U	beltrix
+#W	mma!al (Al Steane); Tue Jul 14 10:31:00 EST 1992
+#
+mma = mma.guild.org
+
+mma     beltrix(EVENING)
+
+#N	mnemosyne
+#S	NCR Tower 32; ADDS MENTOR PICK version 2.4C
+#O	Artificial Intelligence in Medicine
+#C	Peter Brueckner
+#E	aimed!nick
+#T	+1 416 429 1085
+#P	10 Gateway Blvd, Suite 460, Don Mills, Ontario, Canada. M3C 3A1
+#L	43 40 N / 79 23 W city
+#R
+#U
+#W	aimed!nick (Nick Pemberton); Wed Mar 11 20:21:43 EST 1992
+#
+#	mnemosyne is AIM's primary development machine for medical
+#	software, under the PICK operating system.
+#
+#	mnemosyne is not currently connected to the net, but AIM has
+#	asked to retain the name until they recover, so the link below
+#	ends up sitting on aimed...
+#
+mnemosyne	aimed(DIRECT)
+
+#N	modtor
+#S	IBM PC/AT; ISC 2.2
+#O	MODULAR
+#C	Peter Ziobrzynski
+#E	modtor!peter
+#T	+1 416 625 1684
+#P	1850 Rathburn Rd. E #1410, Mississauga, Ontario, Canada, L4W 2X9
+#L	43 43 N / 079 21 W city
+#R
+#U	nixtdc snitor
+#W	modtor!peter (Peter Ziobrzynski); Thu Apr 11 01:05:09 EDT 1991
+#
+modtor	snitor(DIRECT+FAST),
+	nixtdc(DIRECT+FAST)
+
+
+
+#N	mongrel
+#S	AXIS 8631 (Intel 80386SX); SCO UNIX 386 3.2v2.0
+#O	A. Dunn Systems Corporation
+#C	Andrew M. Dunn
+#E	mongrel!postmaster
+#T	+1 519 240 1563
+#P	P.O. Box 665, Waterloo, Ontario, Canada N2J 4B8
+#L	43 25 N / 80 31 W city
+#R	Software and Hardware systems development and integration
+#U	xenitec moz shrdlu guinness
+#W	mongrel!amdunn (Andrew M. Dunn); Sat May 02 11:21:02 EDT 1992
+#
+mongrel	xenitec(DAILY/6+FAST), # upstream V.32 mail and news feed
+	swi(DEDICATED),           # downstream mail feed
+	wgen(DEDICATED),          # downstream mail feed
+	moz(DAILY/6+FAST),        # downstream V.32 mail feed, some news
+	shrdlu(DAILY/6),          # downstream mail feed, some news
+	guinness(DAILY+FAST)      # downstream V.32 mail feed, some news
+
+
+
+#N	moore
+#S	Sun SPARCserver 370; SunOS Release 4.1.1
+#O	Moore Corporation Limited
+#C	Paul Maclauchlan
+#E	moore!postmaster
+#T	+1 416 364 2600, +1 416 827 6152
+#P	1 First Canadian Place, P.O.Box 78, Toronto, Ontario, Canada, M5X 1G5
+#L	43 39 10 N / 79 23 00 W city
+#U	telly eastern bkj386 keeps1 courier bragtor mdms micasa
+#W	moore!paul (Paul Maclauchlan); Tue May  5 14:48:39 EDT 1992
+#
+moore	.moore.com
+moore	= moore.com
+moore	moorez(DEDICATED+FAST), <morris>(DEDICATED),	 mdms(DIRECT+FAST),
+	becker(DIRECT+FAST), 	 bkj386(DIRECT+FAST),	 binder(DIRECT),
+	bragtor(DIRECT),	 <courier>(DAILY),
+	<eastern>(DAILY),	 <firefall>(WEEKLY),	 <fricker>(DAILY),
+	gate(DAILY),		 <gompa>(DIRECT),	 graham(DAILY),
+	keeps1(DIRECT),		 <lamis>(DIRECT),	 lethe(DIRECT),
+	micasa(DIRECT),		 ontmoh(DEAD),		 <peelcol>(DAILY),
+	sclcig(DIRECT+FAST),	 scocan(DIRECT),	 swomob(DIRECT),
+	telly(DIRECT+FAST),	 tmsoft(HOURLY/2),	 <whizzo>(DAILY),
+
+#N	morris
+#S	Sun 3/470; SunOS Release 4.0.3_EXPORT
+#O	Moore Corporation Limited
+#C	Paul Maclauchlan
+#E	morris!postmaster
+#T	+1 416 364 2600, +1 416 827 6152
+#P	1 First Canadian Place, P.O.Box 78, Toronto, Ontario, Canada, M5X 1G5
+#L	43 39 10 N / 79 23 00 W city
+#W	morris!paul (Paul Maclauchlan); Tue Feb 27 12:44:42 EST 1990
+#
+morris	moore(DIRECT)
+
+#N	motley
+#S	AT&T 3B1; UNIX System V
+#O	Mutant Hackers at Large
+#C	John Cumming
+#E	motley!root
+#T	+1 416 338 6320
+#P	2176 Eighth Line, Oakville, Ontario, Canada L6H 4W3
+#L	43 30 N / 79 45 W city
+#R	For working at home, larn playing, and general UNIX hacking.
+#W	motley!johnc (John Cumming); Mon Nov 20 00:15:29 EST 1989
+#
+motley	sq(HOURLY)
+
+#N	motott
+#S	Motorola Delta Series; SYSTEM V/68
+#O	Motorola, Inc., Computer Group, Commercial Systems Division
+#C	Shawn Cohoon
+#E	motott!shawn
+#T	+1 613 725 1231
+#P	Ottawa, Ontario
+#L	45 25 N / 75 42 W city
+#R
+#U
+#W	brian@ca41.csd.mot.com (Brian Smithson); Tue Jul 30 14:53:07 PDT 1991
+#
+motott  .onte3.csd.mot.com, onte3.csd.mot.com
+motott= onte3.csd.mot.com, motott.onte3.csd.mot.com
+#
+motott  motcsd(EVENING+LOW)
+
+#N	motto
+#S	DEC MicroVAX II; Ultrix V2.0-1
+#O	Motorola Canada, Ltd.  Shared Systems Division, System Products Eng.
+#C	Steve O'Brien, Liza Kukovica, Murray S. Kucherawy
+#E	motto!postmaster, motto!steve, motto!liza, motto!murray
+#T	+1 416 499 1441 x3716
+#P	3125 Steeles Avenue East, North York, Ontario, M2H 2H6, Canada
+#L	43 46 00 N / 73 22 00 W
+#R	This site is Canadian corporate headquarters.
+#U	canstar mnetor skypod yunexus becker lsuc
+#W	motto!murray (Murray S. Kucherawy); Mon Aug 12 08:39:33 EDT 1991
+#
+#	motto!murray can also be reached at mskucherawy@watmath.UWaterloo.ca
+#
+motto = tor.comm.mot.com
+motto = motto.tor.comm.mot.com
+motto	.tor.comm.mot.com(LOCAL)
+#
+motto	lsuc(DIRECT),		# Law Society of Upper Canada; mail + news
+	canstar(DIRECT),	# Canstar; mail + news
+	becker(DIRECT),		# Bruce Becker's machine; mail + news
+	skypod(DIRECT),		# Skypod Communications; mail + news
+	telly(DIRECT),		# "telly.on.ca"; mail
+	yunexus(DIRECT),	# York University; mail + news
+	oisecacs(DEAD),		# U of Toronto OISE; disappeared!
+	# Motorola Connections
+	<mccdpe>(LOCAL),	# Motorola Canada Product Engineering; mail
+	<mccdto>(LOCAL),	# Motorola Canada Technical Operations; mail
+	mottor(DIRECT),		# Motorola Info Systems; mail
+	mnetor(DIRECT),		# Motorola New Enterprises; mail + news
+	mcdchg(DEAD),		# Motorola Corporate HQ; mail
+	mspcan(DEAD)		# Motorola Canada Semiconductors; mail (soon)
+
+#N	mottor
+#S	Motorola Delta Series; SYSTEM V/68
+#O	Motorola, Inc., Computer Group, Commercial Systems Division
+#C	Derek Singh
+#E	mottor!derek
+#T	+1 416 793 5700
+#P	Brampton, Ontario
+#L	79 43 N / 43 44 W city
+#R
+#U
+#W	brian@ca41.csd.mot.com (Brian Smithson); Thu Jul 18 16:14:09 PDT 1991
+#
+mottor	.onte.csd.mot.com, onte.csd.mot.com
+mottor= onte.csd.mot.com, mottor.onte.csd.mot.com
+#
+mottor	motcsd(EVENING)
+
+
+
+#N	moz
+#S	IBM AT-compatible (Intel 80386); MS-DOS 3.3 with Waffle 1.64
+#O	The Land of Moz  +1 519 741 1573
+#C	Mark Oosterveld
+#E	moz!postmaster
+#T	+1 519 741 9845
+#P	247 Waterloo St, Kitchener, Ontario, Canada N2J 3W2
+#L	43 25 N / 80 31 W city
+#R	Finally, a LEGAL way to rn!
+#U	mongrel guinness
+#W	mongrel!amdunn (Andrew M. Dunn); Sat May 02 11:21:02 EDT 1992
+#
+moz	mongrel(DAILY/6+FAST),	   # upstream V.32 mail feed, some news
+		guinness(DAILY/6+FAST)     # downstream V.32 mail feed
+
+
+#N	msitxt
+#S	Intersystems S100 Z8000; Xenix (v2.3?)
+#O	Microtext Systems Inc.
+#C	Rumi Khambata
+#E	msitxt!root
+#T	+1 416 238 1047
+#P	Microtext Systems Inc. 1110 Kamato Rd. Mississauga, Ontario, Canada
+#L	43 45 N / 79 25 W city
+#R	Typesetting under UNIX
+#W	msitxt!root (Rumi Khambata); Mon Nov 13 12:51:08 EST 1989
+#
+msitxt	yunexus(DAILY), trigraph(DAILY), lsuc(DAILY), cmpscr(DEMAND)
+
+#N	musecorp
+#S	NEXT;
+#O	Muse Corporation
+#C	Anton J Aylward
+#E	musecorp!postmaster
+#T	+1 416 239 0910
+#P	10 Leyland Ave, Toronto, ON M8Z 2X5
+#L	43 47 32 N / 79 22 31 W
+#R	NEXT Applications for the financial community
+#U	uunorth
+#W	uunorth!anton (Anton Aylward); Wed Jul  1 13:17:41 EDT 1992
+#
+
+musecorp	
+	uunorth(DIRECT)
+
+#N	nccnat
+#S	Packard Bell 80286; MS-DOS 3.20
+#O	York University Faculty of Environmental Studies
+#C	Paul Shields
+#E	nccnat!postmaster
+#T	+1 416 736 5287
+#P	4700 Keele Street, North York, Ontario, Canada, M3J 1P3
+#L	43 47 N / 79 30 W city
+#R	nccnat is currently suffering from connectivitis
+#W	nccnat!shields (Paul Shields); Fri Jan 20 18:11:52 EST 1989
+#
+nccnat	yunccn(DEAD)
+
+#N	ncrcan
+#S	NCR Tower 32/650; UNIX V.3
+#O	NCR Canada Ltd, MIS Department
+#C	Karen Stewart, Ernest Ruppenthal, Simon Sykes_Wright, David Stewart
+#E	uuadmin@ncrcan, admin@ncrcan, admin@ncrcan, dstewart@ncrcan
+#T	+1 416 819 4200, +1 416 819 4173, +1 416 819 4173, +1 416 819 4171
+#P	6865 Century Avenue, Mississauga, ON, Canada L5N 2E2
+#L	43 40 00 N / 79 37 52 W
+#R
+#U	attcan lsuc canstar scocan becker ncrwat cattnts
+#W	ncrcan!dstewart (David Stewart); Tue Apr 28 10:35:11 EDT 1992
+#
+#	ncrcan is the domain gateway for the NCR.CA domain
+#
+#	Also, ncrcan serves as a virtual machine for all the users in the 
+#	Canada domain. This means that any mail sent to:
+#
+#		   Firstname.Lastname@NCR.CA
+#
+#	will get forwarded to the addressed user on his/her local machine.
+#
+ncrcan	= ncr.ca
+ncrcan	<ncr.ca>(LOCAL), <.ncr.ca>(LOCAL)
+ncrcan	lsuc(DIRECT), ncrwat(DAILY), canstar(DIRECT),
+	scocan(DIRECT), becker(DIRECT+HIGH), aimed(DIRECT),
+	utai(DIRECT+HIGH), attcan(DIRECT), argenti(POLLED),
+	ncrcom(DAILY), cattnts(DIRECT), coutts(DEDICATED),
+	uunetca(DAILY)
+
+
+# UUCP forwarders:
+ncrcan  	<.ncr.ca>(LOCAL), # by David.Stewart@ncrcan.ncr.ca
+		<ncr.ca>(LOCAL)
+# Internet forwarders:
+mail.uunet.ca	<.ncr.ca>(LOCAL), # by support@uunet.ca
+		<ncr.ca>(LOCAL)
+# NetNorth forwarders:
+#	none
+# CDNNet forwarders:
+#	none
+
+#N	ncrwat
+#S	NCR Tower 32/600; AT&T Unix System V.3.1
+#O	E & M Waterloo, NCR Canada Ltd.
+#C	Douglas Lamb, Jerry Berlette
+#E	Douglas.Lamb@Waterloo.NCR.COM, postmaster@waterloo.ncr.com
+#T	+1 519 884 1710
+#P	580 Weber St. N., Waterloo, ON, Canada, N2J 4G5
+#L	43 29 40 N / 80 32 57 W
+#R
+#U	ncrcom ncrcan ncratl ncrcae ncrwic ncrws1 watmath est2 ld800
+#W	ncrwat!del (Doug Lamb); Fri May 22 07:53:39 EDT 1992
+#
+#	ncrwat is the gateway for the Waterloo.NCR.COM domain
+#
+#	First.Lastname mail addressing works here.
+#
+ncrwat	= ncrwat.waterloo.ncr.com
+ncrwat	= ncrwat.waterloo.ncr.ca
+ncrwat	.waterloo.ncr.com(LOCAL), waterloo.ncr.com(LOCAL)
+ncrwat	.waterloo.ncr.ca(LOCAL), waterloo.ncr.ca(LOCAL)
+#
+# NCR Sites
+#
+ncrwat	ncrcom(DAILY)		# Dayton.NCR.COM, NCR.COM
+ncrwat	ncrcan(DAILY)		# Toronto.NCR.COM
+ncrwat	ncrcae(DAILY)		# Columbia.NCR.COM
+ncrwat	ncratl(DAILY)		# Atlanta.NCR.COM
+ncrwat	ncrwic(DAILY)		# Wichita.NCR.COM
+ncrwat	ncrws1(DAILY)		# Peachtree.NCR.COM
+ncrwat	est2(DAILY)		# CETC, Wichita
+ncrwat	ld800(DAILY)		# Logistics Division, Dayton
+#
+# Other Sites
+#
+ncrwat	<plx>(DIRECT)		# Plexus Corp
+
+#N	ndigital
+#F	uunet.ca
+#S	IBM AT Clone; MS-DOS
+#O	Northern Digital Inc.
+#C	Terry Fisher
+#E	postmaster@ndigital.com
+#T	+1 519 884 5142
+#P	403 Albert St., Waterloo, Ontario, N2L 3V2
+#L	43 28 N / 80 23 W city
+#R	3-Dimensional Motion Analysis Systems.
+#W	terry@ndigital.com (Terry Fisher); Fri Jun 26 14:52:22 EDT 1992
+#
+# from	postmaster@uunet.ca (UUNET Canada Postmaster); Fri Jun 26 00:16:55 EDT 1992
+# from	terry@ndigital.com (Terry Fisher); Mon Jun 10 12:25:17 EDT 1991
+#
+ndigital = ndigital.com
+ndigital ndigital.com(LOCAL), .ndigital.com(LOCAL)
+ndigital uunet.ca(DIRECT)		# Mail feed
+
+#N	netxsys
+#S	Amiga 2000; AmigaDOS 2.04, Dillon's AmigaUUCP 1.16
+#O	NetX Systems Inc.
+#C	Krzysztof Adamski
+#E	netxsys!krzysztof
+#T	+1 416 890 9923
+#P	317 Assiniboine Trail, Mississauga Ontario, Canada L5R 2Y1
+#L	43 32 N / 79 40 W city
+#R	NetX Systems Inc. is available for contract work in C/UNIX
+#U	beltrix kink
+#W	netxsys!krzysztof (Krzysztof Adamski); Sun Jun 21 22:05:00 EDT 1992
+#
+#	HIGH=9.6/19.2K, LOW=1200, BP=both poll, WP=we poll, TP=they poll
+#
+netxsys	=	netxsys.guild.org
+
+netxsys	beltrix(DIRECT+HIGH),	# WP Mail + news
+	kink(DIRECT+HIGH),	# WP Mail + news
+	awbase(DIRECT+LOW)	# WP Mail
+
+
+#N	nirvana
+#S	AT&T 6386 WGS; System V 3.2.2
+#O	Nirvana Consulting Inc.
+#C	Bob Kyryliuk
+#E	nirvana!bob
+#T	+1 416 286 3970
+#P	8 Stanbridge Court, Scarborough, Ontario, Canada M1B 2S5
+#L	43 45 05 N / 79 21 41 W
+#R
+#W	nirvana!bob (Bob Kyryliuk); Sat Sep 15 18:57:36 EDT 1990
+#
+nirvana	attcan(DEAD)
+
+#N	nixtdc
+#S	Nixdorf Targon 35 (Pyramid); TOS32N R3.3.04
+#O	Siemens Nixdorf Information Systems Ltd.
+#C	Peter Ziobrzynski
+#E	postmaster@nixtdc
+#T	+1 416 496 8510
+#P	2235 Sheppard Avenue East, Suite 1800, Willowdale, Ontario, M2J 5B5
+#L	43 51 00 N / 79 22 20 W
+#R
+#U
+#W	peter@nixtor (Peter Ziobrzynski); Fri Sep 20 22:35:52 EDT 1991
+#
+nixtdc	nixtor(LOCAL),snitor(LOCAL)
+
+#N	nixter
+#S	AT&T 3B2/300 (2MB/127MB/8PORTS); Unix System V Release 3.1 Version 2
+#O	The Computing Center with a Sense of Humor!
+#C	Paul E. Dumais
+#E	postmaster@nixter, dumais@nixter, dumais@robohack
+#T	+1 416 940 0980, +1 416 474 9872
+#P	43 Karma Road; Unionville, Ontario; Canada; L3R 4S8
+#L	43 45 N / 79 25 W city
+#R	this is my "machine at home"
+#U	robohack
+#W	dumais@nixter (Paul E. Dumais); Tue Mar 20 23:42:59 EST 1990
+#
+#	For news feeds: i=input, o=output; when lowercase, only local
+#	postings (L3 flag in the C News sys file)
+#
+#	DIRECT means we call when necessary, and at least once per day
+#
+nixter		robohack(DIRECT+HIGH),		# mail,uucp,news(I/o)
+		gate(DIRECT+LOW),		# mail,uucp
+		petrie(DEDICATED+HIGH)		# mail,uucp
+
+#N	nixtor
+#S	Nixdorf Targon 35 (Pyramid); TOS32N R3.3.04
+#O	Siemens Nixdorf Information Systems Ltd.
+#C	Peter Ziobrzynski
+#E	postmaster@nixtor
+#T	+1 416 496 8510
+#P	2235 Sheppard Avenue East, Suite 1800, Willowdale, Ontario, M2J 5B5
+#L	43 51 00 N / 79 22 20 W
+#R
+#U
+#W	peter@nixtor (Peter Ziobrzynski); Sun Sep 15 23:24:53 EDT 1991
+#
+nixtor	nixtdc(LOCAL),snitor(LOCAL)
+
+
+
+#N	nmx, nanometrics.on.ca
+#F	uunet.ca
+#S	Sun IPC; SunOS 4.1.1
+#O	Nanometrics Inc.
+#C	Tim Hayman
+#E	tech@nanometrics.on.ca
+#T	+1 613 592 6776
+#P	250 Herzberg Road Kanata, ON, K2K 2A1
+#L	45 20 30 N / 75 54 00 W
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Wed Apr  1 15:55:25 EST 1992
+#
+nmx = nanometrics.on.ca
+nmx	nanometrics.on.ca(LOCAL), .nanometrics.on.ca(LOCAL)
+nmx	uunet.ca(DIRECT)
+
+
+#N	no-name
+#S	Intel 386/24 8M/320MB/4PORTS); 386/ix 2.02 Development
+#O	Louis Repasi
+#C	Louis Repasi
+#E	louis@no-name, louis@compus, root@no-name
+#T	+1 416 740 5483
+#P	2645 Kipling Ave, Etobicoke, Ont; M9V 3S6
+#L	43 45 N / 79 35 W city
+#R
+#U	compus
+#W	louis@no-name (Louis Repasi); Thu Aug 09 12:00:40 EDT 1990
+#
+no-name		compus(DIRECT+HIGH)	# mail,uucp,news.in
+
+#N	nomad
+#S	Portable UUCP Machine;
+#O	Yzrnur Consulting
+#C	Rene Lampe
+#E	yzrnur!rene, yzrnur!root, yzrnur!postmaster, nomad!rene
+#T	+1 416 737 7717
+#P	20 Baif Blvd, Apt 1009, Richmond Hill, Ontario, Canada, L4C-8T1
+#L	43 42 N / 79 46 W city
+#R	The Roaming UUCP Node
+#U
+#W	yzrnur!rene (Rene lampe); Sun Jun 21 14:59:46 EDT 1992
+#
+nomad	yzrnur(DIRECT)
+
+
+#N	normar
+#S	COMPAQ Portable III; QNX
+#O	Normar Consulting
+#C	Norman Branitsky
+#E	normar!norman
+#T	+1 416 886 3236
+#P	6 Kilbarry Court, Richmond Hill, Ontario Canada L4C 6M8
+#L	43 50 50 N / 79 24 26 W
+#R	Computer System Consultants
+#U
+#W	norman@normar (Norman Branitsky); Sun Sep  2 20:22:53 EDT 1990
+#
+normar	cherni(DIRECT+HIGH),
+	becker(DIRECT+HIGH),
+	thpsy(DIRECT+HIGH)
+
+#N	now
+#S	AST 80386 AT; SCO XENIX Version 2.2
+#O	Now Communications
+#C	Eric Siegerman, Paul Chvostek
+#E	now!erics, now!paulc
+#T	+1 416 461 0871
+#P	150 Danforth Ave, Toronto, Ontario, Canada, M4K 1N1
+#L	43 41 36 N / 79 21 28 W
+#R	Now publishes Toronto's progressive weekly, Now Magazine.
+#U
+#W	kneller!eks (Eric Siegerman); Tue May 26 22:40:37 EDT 1992
+#
+#	Despite the similarity of names, sites `now' and `noweh' are
+#	completely unrelated.
+#
+now	kneller(DIRECT),
+	becker(DIRECT),
+	druid(DIRECT),
+	noweh(DIRECT)
+
+
+#N	noweh
+#F	uunet.ca
+#S	Sun 4/260; SunOS 4.1.1
+#O	Noweh Software
+#C	Georg S. Nikodym
+#E	georgn@noweh.COM
+#T	+1 416 272 5198
+#P	1473 Adamson Street, Mississauga, Ontario, L5C 2Z4
+#L	43 34 10 N / 79 41 2 W city
+#U	comspec
+#W	georgn@noweh.COM (Georg S. Nikodym); Mon Jul 13 01:16:02 EDT 1992
+#
+noweh	= noweh.com
+noweh	caly(DEMAND),		# 2400
+	cattery(DEAD),		# PEP
+	comspec(DEMAND),	# PEP
+	druid(DEMAND),		# PEP
+	kneller(POLLED),	# 2400
+	lethe(DEMAND),		# PEP
+	lsuc(DEMAND),		# PEP
+	now(DEMAND),		# PEP
+	peelcol(DEMAND),	# PEP
+	pwrsft(DEMAND),		# PEP
+	robohack(DEMAND),	# PEP
+	suntalk(DAILY),		# PEP - long distance
+	<suntalk>(DEMAND),	# PEP - long distance
+	uunet.ca(DAILY)		# PEP
+
+#N	nrcaer
+#S	Concurrent Computer Corp 3230 running Xelos (System V Release 2);
+#O	Institute for Aerospace Research, National Research Council of Canada
+#C	Carl Swail
+#E	utzoo!dciem!nrcaer!carl
+#T	+1 613 998 5581
+#P	Building U-61, Montreal Rd., Ottawa, ON, Canada, K1A 0R6.
+#L	45 19 N / 75 40 W city
+#R
+#W	nrcaer!carl (Carl Swail); Mon Jul 20 08:15:00 EDT 1992
+#
+# Engaged in research in speech recognition.
+#
+nrcaer	= nrcaero
+
+nrcaer  dciem(DEMAND), csi2(DEMAND),
+	dccaps(DEMAND), grpthry(EVENING), bnr-vpa(POLLED),
+	dataco(EVENING), dgbt(DEMAND)
+
+#N	nrcctis
+#S	DEC VAX 11/780; VMS 4.3 with UNITY 5.2.3 Unix emulator
+#O	National Research Council, Institute for Information Technology
+#C	Stephen MacKay
+#E	mackay@iit.nrc.ca
+#T	+1 613 993 6553
+#P	IIT, Bldg M-50, National Research Council, Ottawa, ON Canada, K1A 0R6
+#L	45 27 N / 75 37 W city
+#R	This machine will be dead (hardware and software) by Dec 31 1990.
+#W	mackay@iit.nrc.ca (Stephen MacKay); Mon Dec 10 11:38:46 EST 1990
+#
+# Computing Technology Section (formerly Computer Graphics Section) Vax
+# replaced by network of Macintoshes running QuickMail - "nrcctis!user"
+# can be reached by Internet address "user@iit.nrc.ca".
+#
+# iit.nrc.ca = nrcctis
+nrcctis = nrccgs
+nrcctis = nrccti
+#
+nrcctis watcgl(DEAD), nrcaer(DEAD), onfcanim(DEAD), nrcitis(DEAD)
+
+
+
+#N	nsq
+#S	Amiga3000UX; System V Release 4, version 1.1
+#O	no organization
+#C	Saul A. Juliao
+#E	saul@nsq
+#T	+1 416 279 3698
+#P	302 Fairview RD. West, Mississauga Ontario Canada, L5B 3G8
+#L	43 40 N / 79 30 W city
+#R	private access
+#U	haberfellner cccan comspec juliao
+#W	saul@nsq (Saul A. Juliao); Thu Jun 6 21:35:34 EDT 1991
+#
+nsq	juliao(DEDICATED),
+	becker(DEMAND),
+	cbmtor(DEMAND),
+	defran(DEMAND),
+	comspec(DEMAND),
+	cccan(DEMAND),
+	haberfellner(DEMAND)
+
+
+#N	nttor
+#S	HP Vectra 25C 386; Xenix 2.2.3
+#O	Northern Telecom Toronto (Customer Applications)
+#C	Rasmus Lerdorf
+#E	nttor!uucp
+#T	+1 416 597 2090 x2505
+#P	522 University Avenue, 13th Floor, Toronto, Ont. M5G 1W7 Canada
+#L	43 39 30 N / 79 23 45 W
+#R
+#U
+#W	nttor!rasmus (Rasmus Lerdorf); Mon Nov 13 09:56:41 EST 1989
+#
+nttor	dciem(DAILY/12), <contact>(DAILY/4)
+
+#N	nyama
+#S	Fujikama 386/25, 64 cache, 8 meg ram; Interactive Unix 2.2.0
+#O	Nyama Nyama Inc
+#C	Jose Antonio Dias
+#E	nyama!jad
+#T	+1 416 782 6754
+#P	650 Eglinton Ave West #314, Toronto, Ont M5N-1C2, CAN
+#L	43 40 N / 079 23 W city
+#R	Private news/mail/dos machine
+#U	skypod problem epas torag ccct
+#W	nyama!jad (Jose Antonio Dias); Sun Feb 16 01:43:32 EST 1992
+#
+
+nyama	skypod(DIRECT),		# mail & local news (down)
+	problem(DIRECT),	# mail & local news (backup news)
+	epas(DIRECT),		# mail & news (smart host) (upstream)
+	<ccct>(DIRECT),		# mail & local news (down)
+	<torag>(DAILY)		# mail & news (backup news)
+
+
+#N	oaghp1
+#S	HP9000;
+#O	Office of The Auditor General
+#C	Fred Akers
+#E	oaghp1!akerf
+#T	+1 613 995 3766
+#P	240 Sparks, Ottawa, Ontario, Canada K1A 0G6
+#L	45 25 N / 75 42 W city
+#R
+#U	xicom
+#W	xicom!alex (Alex Laney); Wed Apr  4 12:11:18 EDT 1990
+#
+# commented out because xicom vanished in the May 1991 maps, and
+# fultech deleted their link to xicom in the Jul 1991 maps, isolating
+# this site.
+# oaghp1	xicom(DEAD)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

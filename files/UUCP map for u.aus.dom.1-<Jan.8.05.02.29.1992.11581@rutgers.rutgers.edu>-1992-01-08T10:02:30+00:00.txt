@@ -1,0 +1,47 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.aus.dom.1
+: This archive created: Wed Jan  8 05:02:28 1992
+echo shar: extracting u.aus.dom.1
+cat << 'SHAR_EOF' > u.aus.dom.1
+# last updated: Mon Dec 26 21:09:39 1988; by munnari!kre
+
+# Australia - notable hosts in the 'oz' domain
+
+# These are given so pathalias can produce routes using addresses
+# like "aaec!user" which tends to be what the news code likes
+# to produce.  Only a small subset of "oz" is listed here, being a
+# very subjectively chosen list of hosts that I think it likely
+# that people are likely to want to reach with uucp style addresses
+
+# the domains are purely local (only here to make the addresses right)
+
+private {.su, .trl, .ips, .dms, .dmt, .uq}
+
+.su = { archsci, physiol }
+.trl = { trlvlsi }
+.dms = { dmsadel, dmsmelb }
+.dmt = { aegir, mimir, hugin }
+.uq = { psych }
+.ips = { runx }
+
+.oz = {
+	.dms, .dmt, .ips, .su, .trl, .uq, aaec, anucsd, basser, bruce, cidam,
+	csadfa, effigy, elecvax, flinders, gucis, ipso, latcs1, metro,
+	moncskermit, monu1, monu3, mqcomp, mulga, munnari, murdu, natmlab,
+	nswitgould, nucs, pta, qfdts, siromath, sri, swanee, tasis, trlamct,
+	trlsasb, uqcspe, wacseffigy, wacsvax, wapsyvax
+      }
+
+.au = { .oz }
+
+#
+# bias links to prefer link to munnari if they are otherwise equal
+#
+munnari	.oz(DIRECT), .au(DIRECT)
+mulga	.oz(DIRECT+1), .au(DIRECT+1)
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,45 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.in.1
+# This archive created: Wed Dec  2 04:03:00 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.in.1
+cat << \SHAR_EOF > d.usa.in.1
+#MAP FILE: d.usa.in.1	Tue Dec  1 11:42:49 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.indiana.edu, iuvax
+#S	DEC VAX-8800; Ultrix T2.0-1
+#F	indiana.edu
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall, Bloomington In 47405
+#L	39 10 N / 86 32 W city
+#R	Looking for West Coast NNTP connection.
+#U	bsu-cs inuxc isrnix iucs ndmath rutgers silver
+#W	Steve Mosier <iuvax!mosier>; Fri Sep  4 10:02:37 EST 1987
+#
+iuvax = indiana, indiana.csnet, iuvax.cs.indiana.edu
+iuvax	.indiana.edu
+#
+iuvax	akgua(DEMAND), bsu-cs(DIRECT), cbosgd(DEMAND), hpuinda(DEMAND), 
+	ihnp4(DEMAND+LOW), inuxa(DIRECT), inuxb(DIRECT), inuxc(DIRECT), 
+	inuxd(DIRECT), inuxe(DIRECT), inuxg(DIRECT), inuxh(DIRECT), 
+	inuxj(DIRECT), inuxk(DIRECT), inuxl(DIRECT), inuxm(DIRECT),  
+	inuxn(DIRECT), inuxo(DIRECT), inuxp(DIRECT), isrnix(DIRECT), 
+	iucs(LOCAL), kangaro(DIRECT), ndmath(DIRECT), pyramid(1000), 
+	ssp(DIRECT), sabbagh(DIRECT), silver(DIRECT)
+# TCP uucp connections
+iuvax	mit-hermes(DEDICATED), mit-prep(DEDICATED), pur-ee(DEDICATED), 
+	purdue(DEDICATED), rutgers(DEDICATED), uiucdcs(DEDICATED)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

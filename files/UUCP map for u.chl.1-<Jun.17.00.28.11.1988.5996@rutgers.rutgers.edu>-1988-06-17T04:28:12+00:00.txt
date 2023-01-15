@@ -1,0 +1,148 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.chl.1
+: This archive created: Fri Jun 17 00:28:06 1988
+echo shar: extracting u.chl.1
+cat << 'SHAR_EOF' > u.chl.1
+#	u.chl.1: maintained by lfuentes@toqui.uchile.cl
+#	last changed: Thu Jun  9 15:55:21 CHT 1988
+ 
+#N	.eso.cl, esols1
+#S	IBM PC; MS-DOS 3.0
+#O	EUROPEAN SOUTHERN OBSERVATORY
+#C	Gaetano Andreoni
+#E	andreoni@esols1.eso.cl
+#T	+56 2 88 757
+#P	E.S.O. - La Silla, Casilla 567, La Serena, CHILE
+#L	29 54 S / 71 15 W city
+#R	UUPC site
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:08:50 CHT 1988
+#U
+#
+esols1	.eso.cl
+esols1 = esols1.eso.cl
+esols1	uchdcc(WEEKLY)
+
+#N	opta
+#S	IBM PC-XT; MS-DOS 3.0
+#O	OPTA Ltda.
+#C	Fernando Libedinsky
+#E	flibedin@opta.mic.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Las Violetas 2248, Providencia, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:09:31 CHT 1988
+#U	uchdcc
+#
+opta = opta.mic.cl
+opta   uchdcc(HOURLY)
+
+#N	.puc.cl, juncal
+#S	DEC VAX-11/750; ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C	Javier Pinto
+#E	jpinto@juncal.puc.cl, postmast@juncal.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 6177, Correo 82, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:16:29 CHT 1988
+#R
+#U 
+#
+juncal = puc.cl
+juncal = juncal.puc.cl
+#
+juncal	.puc.cl
+juncal	uchdcc(DAILY), llaima(LOCAL), 
+	luna(DEDICATED+LOW), trans(LOCAL), tacora(LOCAL)
+
+#N	.safp.cl, safp01
+#S	NCR Tower 32/600; Unix System V Release 2
+#O	Superintendencia de Administradoras de Fondos de Pensiones
+#C	Edgardo Krell G.
+#E	ekrell@safp01.safp.cl, postmaster@safp01.safp.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Teatinos 1273, Piso 10, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:32:41 CHT 1988
+#U
+#
+safp01   .safp.cl
+safp01 = safp.cl
+safp01 = safp01.safp.cl
+safp01   safp02(LOCAL), uchdcc(DAILY), usdii(DAILY)
+
+#N	.uchile.cl, uchdcc
+#F	uunet.uu.net
+#S	NCR Tower 32/600; Unix System V Release 2
+#O	University of Chile, Dept. of Computer Science
+#C	Lucho Fuentes
+#E	postmaster@uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#R	registered
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:37:58 CHT 1988
+#U	uunet, toqui, inti, safp01
+#
+uchdcc	.uchile.cl
+uchdcc = uchdcc.cl
+uchdcc = uchdcc.uchile.cl
+uchdcc = uchile.cl
+#
+#	This is the gateway into the Chilean UUCP Network
+uchdcc	.cl
+#
+#	Microcomputer domain
+uchdcc	.mic.cl
+uchdcc = mic.cl
+#
+#	Computers in the University of Chile.
+uchdcc  toqui(DEDICATED), inti(DEDICATED), cautin(EVENING), 
+	quilin(EVENING), machi(EVENING),
+	uchcecvm(DEDICATED+LOW+LOW)
+#
+#	Other computers in Chile
+uchdcc	esols1(WEEKLY), juncal(HOURLY*6), opta(DAILY), safp01(HOURLY*6),
+	utara(WEEKLY)
+#
+#	International links (Telebit Trailblazer)
+uchdcc  pyramid(EVENING), uunet(EVENING)
+
+#N	.usach.cl, usdii
+#S	NCR Tower XP; Unix System V Release 2
+#O	Universidad de Santiago de Chile
+#C	Horacio Melendez V.
+#E	hmelende@usdiivx.usach.cl, postmaster@usdii.usach.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Ingenieria Informatica, Ecuador 3769, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:43:12 CHT 1988
+#U
+#
+usdii   .usach.cl
+usdii = usach.cl
+usdii = usdii.usach.cl
+usdii   usdiivx(DEDICATED), safp01(DAILY)
+
+#N	.uta.cl, utara
+#S	MicroVax II; ULTRIX 32
+#O	Universidad de Tarapaca, Depto. de Computacion e Informatica
+#C	Hector Beck
+#E	hbeck@uta.cl
+#T	+56 080 42 600
+#P	Depto. de Comp. e Informatica, 18 de Septiembre 2222, Arica, CHILE.
+#L	18 28 S / 70 19 W city
+#W	lfuentes@toqui.uchile.cl (Lucho Fuentes); Thu Jun  9 14:48:59 CHT 1988
+#R
+#U
+#
+utara   .uta.cl
+utara = uta.cl
+utara = utara.uta.cl
+#
+utara   uchdcc(WEEKLY)
+SHAR_EOF
+:	End of shell archive
+exit 0

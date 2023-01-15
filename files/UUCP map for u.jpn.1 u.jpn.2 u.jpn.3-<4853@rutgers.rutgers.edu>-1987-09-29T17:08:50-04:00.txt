@@ -1,0 +1,328 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.jpn.1
+#	u.jpn.2
+#	u.jpn.3
+# This archive created: Tue Sep 29 17:08:42 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.jpn.1
+cat << \SHAR_EOF > u.jpn.1
+# uucpmap@kddlabs.jp
+# u.jpn.1   Registered GOV, COM Sites Only
+# Routing paths are verified 
+
+#N	Nappa.toshiba.jp
+#S	
+#O	Semiconductor Device Engineering Lab., Toshiba Corporation
+#C	
+#E	oka@Nappa.uucp
+#T	
+#P	1, Komukai-Toshiba-cho, Saiwai-ku, Kawasaki, 210, Japan
+#L
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+nappa=nappa.toshiba.jp, nappa.toshiba.jpn, nappa.toshiba.junet
+#
+
+#N	abc.asahi.jp
+#S	Exormacs SystemV rel1.0
+#O	Asahi Broadcasting Corp.
+#C	Keishi Kandori
+#E	kk@abc.asahi.junet
+#T	+81 6-458-5321 ext.2617
+#P	2 Oyodo-cho, Oyodo-ku, Osaka 560, Japan
+#L
+#R
+#U	ouics
+#W	kk@abc.asahi.junet 861225
+#
+abc = abc.asahi.jp, abc.asahi.jpn, abc.asahi.junet
+#
+.asahi.jp	abc(LOCAL)
+
+#N	ascgw.ascii.jp
+#S	
+#O	ASCII Corp.
+#C	H. Fukase
+#E	hiro-f@ascii.junet
+#T	+81 3 4867195
+#P	Sumitomo-Minami-Aoyama Bldg. 5-11-5 Minami Aoyama, Minato-ku Tokyo, 107, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	ascii, rshvax, titcca, necspl, digita, flab, cskvax
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ascgw= ascgw.ascii.jp, ascgw.ascii.jpn, ascgw.ascii.junet
+#
+.ascii.jp={ascgw, ascii, rshvax}(LOCAL)
+
+#N	ascii.ascii.jp
+#S	780, 4.2BSD
+#O	ASCII Corp.
+#C	H. Fukase
+#E	hiro-f@ascii.junet
+#T	+81 3 4867195
+#P	Sumitomo-Minami-Aoyama Bldg. 5-11-5 Minami Aoyama, Minato-ku Tokyo, 107, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	ascgw
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ascii= ascii.ascii.jp, ascii.ascii.jpn, ascii.ascii.junet
+
+#N	astecv.astec.jp
+#S	MicroVAX-II, ULTRIX-32m
+#O	ASTEC Inc., Tokyo
+#C	Shiu Sakashita
+#E	ss@astecv.astec.junet or titcca!astecv!ss
+#T	+81 3 4771541
+#P	Nagashima Daiichi Bldg. 1-22-12 Dogenzaka, Shibuya-ku Tokyo, 150, JAPAN
+#L	????/????
+#R	ASTEC Inc.
+#U	titcca, koccvax
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+astecv = astecv.astec.jp, astecv.astec.jpn, astecv.astec.junet
+#
+.astec.jp	astecv(LOCAL)
+
+#N	atr-la.atr.jp
+#S	VAX8600, ULTRIX-32
+#O	ATR International, Japan
+#C	Izuru Nogaito
+#E	noga@atr-la.atr.junet
+#T	+81 6 9491830
+#P	Twin21 Midtower, 2-1-61, Shiromi, Higashi-ku, Osaka 540, Japaan
+#L	
+#R	Institution for National Speech Understanding Project
+#U	kddlab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+atr-la = atr-la.atr.jp, atr-la.atr.jpn, atr-la.atr.junet
+#
+.atr.jp	atr-la(LOCAL)
+atr-la	.ntt.jp(DAILY)
+
+#N	canohp.canopus.jp
+#S	HP900-350 HP-UX 5.22
+#O	Kanohpus Electronics
+#C	Kazuyoshi Yokoyama
+#E	caz@canohp.canopus.jp
+#P	1-4-30 Nishioka, Higashinadaku, Kobe 658, Japan
+#T	+81 78 411 5292
+#L
+#R
+#U
+#W
+#
+canohp = canohp.canopus.jp,canohp.canopus.jpn,canohp.canopus.junet
+#
+.canopus.jp = {canohp}(LOCAL)
+
+#N	cans1.cis.canon.jp
+#S	NEWS-830; (4.2 BSD UNIX)
+#O	Canon Information Systems Laboratory
+#C	Hiroyuki YAMAMOTO
+#E	yumi@cans1.cis.canon.junet
+#P	2-9-4, Shimomaruko, Ohta-ku Tokyo, 146, Japan
+#T	+81 03 758 2101 ext 312
+#L	139 42 00 E / 35 33 00 N
+#R
+#U	cavax3
+#W	yumi@canon.junet: July 31st 14:00 1987
+#
+cans1 = cans1.cis.canon.jp,cans1.cis.canon.jpn,cans1.cis.canon.junet
+#
+
+#N	casun1.cis.canon.jp
+#S	sun 2/120; OS 3.0 (4.2 BSD UNIX)
+#O	Canon Information Systems Lab. (CIS)
+#C	Youichi Kawabata
+#E	postmaster@casun1.crc.canon.jp
+#T	+81 462 47 2111 ext 483
+#P	5-1 Morinosato-Wakamiya, Atsugi, Kanagawa, 243-1, Japan
+#L	139 19 11 E / 35 26 21 N
+#R	gateway for Canon Inc. and CIS
+#U	icot, cau1
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+casun1=casun1.crc.canon.jp, casun1.crc.canon.jpn, casun1.crc.canon.junet
+#
+.canon.jp .crc(LOCAL), .cis(LOCAL)
+.crc = {casun2, cau1}(LOCAL)
+.cis = {casun1, cans1, cavax3,casun3,cans1}(LOCAL)
+
+#N	casun2.crc.canon.jp
+#S	sun 2/50; 3.0 (4.2 BSD UNIX)
+#O	Canon Information Systems Lab. (CIS)
+#C	Youichi Kawabata
+#E	postmaster@casun2.crc.canon.jp
+#T	+81 462 47 2111 ext 483
+#P	5-1 Morinosato-Wakamiya, Atsugi, Kanagawa, 243-1, Japan
+#L	139 19 11 E / 35 26 21 N
+#R	
+#U	casun1
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+casun2=casun2.crc.canon.jp, casun2.crc.canon.jpn, casun2.crc.canon.junet
+#
+
+#N	casun3.cis.canon.junet
+#S	sun 3/260; OS 3.3 (4.2 BSD UNIX)
+#O	Canon Information Systems Laboratory (CIS)
+#C	Hiroyuki Yamamoto
+#E	yumi@casun3.cis.canon.junet
+#T	+81 03 758 2101 ext 312
+#P	2-9-4, Shimomaruko, Ohta-ku Tokyo, 146, Japan
+#L	139 42 00 E / 35 33 00 N
+#R	
+#U	cavax3
+#W	yumi@canon.junet: July 31st 14:00 1987
+#
+casun3 = casun3.cis.canon.jp,casun3.cis.canon.jpn,casun3.cis.canon.junet
+#
+
+#N	cavax3.cis.canon.jp
+#S	VAX8600; Ultrix 1.2 (4.2 BSD UNIX)
+#O	Canon Information Systems Laboratory
+#C	Youichi Kawabata
+#E	yumi@cavax3.cis.canon.junet
+#P	2-9-4, Shimomaruko, Ohta-ku Tokyo, 146, Japan
+#T	+81 03 758 2101 ext 330
+#L	139 42 00 E / 35 33 00 N
+#R	Gateway for Canon Inc.
+#U	cavax3
+#W	yumi@canon.junet: July 31st 14:00 1987
+#
+cavax3 = "cavax3.cis.canon.jp","cavax3.cis.canon.jpn","cavax3.cis.canon.junet"
+#
+
+#N	cau1.crc.canon.jp
+#S	vax 11/780; Ultrix 1.2 (4.2 BSD UNIX)
+#O	Canon Research Center (CRC)
+#C	Youichi Kawabata
+#E	postmaster@cau1.crc.canon.jp
+#T	+81 462 47 2111 ext 483
+#P	5-1 Morinosato-Wakamiya, Atsugi, Kanagawa, 243-1, Japan
+#L	139 19 11 E / 35 26 21 N
+#R	
+  #R	gataway for CRC
+#U	casun1
+#W	casun1!masegi (Koichi Masegi);Thu Oct 9 13:00:00 JST 1986
+#
+cau1=cau1.crc.canon.jp, cau1.crc.canon.jpn, cau1.crc.canon.junet
+
+#N	charlie.ricoh.jp
+#S	VAX-11/780, 4.2BSD
+#O	Software Research Center, Ricoh Co., Ltd.
+#C	Nobuhiro Ajitomi
+#E	aji@charlie.ricoh.junet
+#T	+81 3 8157261
+#P	Tomin-Nissei-Kasugacho-Bldg. 1-1-17, Koishikawa, Bunkyo-ku, Tokyo, 112
+#L	35 42 N / 139 46 E city
+#R
+#U	patty
+#W	asami@kddlab.kddlabs.jp; Tue May 19 16:33:17 1987
+#
+charlie.ricoh.jp=charlie.ricoh.jpn, charlie.ricoh.junet
+# 
+
+#N	csdvax.mri.jp
+#S	VAX-11/780
+#O	Mitsubishi Research Institute, Inc.
+#C	Hideyuki Takashima
+#E	hide@csdvax.mri.junet
+#T	+81 3 2709211
+#P	Time & Life Bldg. 2-3-6 Otemachi, Chiyoda-ku, Tokyo 100, Japan
+#L	35 40 N / 139 45 E city
+#R
+#U	srava
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+csdvax = csdvax.mri.jp, csdvax.mri.jpn, csdvax.mri.junet
+#
+.mri.jp = {csdvax, mrisun}(LOCAL)
+
+#N      cskvax.csk.jp
+#S      780-5, 4.2BSD
+#O      CSK Corp.
+#C      Kenji Toyooka
+#E      toyo@cskvax.csk.junet
+#T      +81 3 3426597
+#P      Shinjuku Sumitomo bldg. 11F, 2-6-1 Nishi-Shinjuku Shinjuku-ku, Tokyo Japan 163
+#R
+#U	titcca ascgw ginny
+#W	toyo@csk.junet; Wed Jan 14 16:18:21 JST 1987
+cskvax = cskvax.csk.jp, cskvax.csk.jpn, cskvax.csk.junet
+#
+.csk.jp	cskvax(LOCAL)
+
+#N	eltfuji.ricoh.jp
+#S	
+#O	Ricoh, Co., Ltd.
+#C	Nobuhiro Ajitomi
+#E	postmaster@ricoh.junet
+#T	+81 3 8157261
+#P	Tomin-Nissei-Kasugacho-Bldg. 1-1-17, Koishikawa, Bunkyo-ku, Tokyo, 112
+#L
+#R
+#U	eltpdp, hodaka
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+eltfuji = eltfuji.ricoh.jp, eltfuji.ricoh.jpn, eltfuji.ricoh.junet
+#
+
+#N	eltpdp.ricoh.jp
+#S	
+#O	Ricoh Co., Ltd.
+#C	Nobuhiro Ajitomi
+#E	postmaster@ricoh.junet
+#T	+81 3 8157261
+#P	Tomin-Nissei-Kasugacho-Bldg. 1-1-17, Koishikawa, Bunkyo-ku, Tokyo, 112
+#L
+#R
+#U	patty, rskvax, eltfuji
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+eltpdp = eltpdp.ricoh.jp, eltpdp.ricoh.jpn, eltpdp.ricoh.junet
+#
+
+#N	gct-vax.gctech.jp
+#S	VAX8600 UNIX4.3BSD
+#O	Graphics Communication Technologies
+#C	Shun'ichi Masada
+#E	postmaster@gct-vax.gctech.junet
+#T	+81 3 404 0831
+#P	2-20-4, Minami Aoyama, Minatoku, Tokyo 107, Japan
+#L
+#R
+#U	
+#W	
+gct-vax = gct-vax.gctech.jp, gct-vax.gctech.jpn, gct-vax.gctech.junet
+#
+.gctech.jp = {gct-vax}(LOCAL)
+
+#N	flab.flab.fujitsu.jp
+#S	DEC VAX11/780; 4.2BSD UNIX
+#O	Fujitsu Laboratories Ltd.
+#C	Hideyuki Aikawa (Information Processing Network Center)
+#E	postmaster@flab.flab.fujitsu.junet
+#T	+81 44 7771111	ext26414
+#P	1015 Kamikodanaka, Nakahara-ku, Kawasaki-shi, Kanagawa, 211, Japan
+#L	35 42 N / 139 46 E
+#R
+#U	ascgw, ku01, kei16, pfrad
+#W	cen121@flab.flab.fujitsu.junet; Nov  6 15:58:51 1986
+#
+flab=flab.flab.fujitsu.jp, flab.flab.fujitsu.jpn, flab.flab.fujitsu.junet
+
+.fujitsu.jp={.flab, .pf}(LOCAL)
+.flab flab(LOCAL)
+
+#N	flats.riken.jp
+#S	VAX 11/750, 4.2BSD
+#

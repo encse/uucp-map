@@ -1,0 +1,36 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.sd.1
+: This archive created: Mon Mar 28 03:14:44 1988
+echo shar: extracting u.usa.sd.1
+cat << 'SHAR_EOF' > u.usa.sd.1
+#MAP FILE: u.usa.sd.1	Sat Jan  2 14:27:15 EST 1988	tgt@stargate.COM
+#
+#
+#N	walldrug
+#S	pdp 11/45, v6 modified
+#O	Wall Drug Store
+#C	Ted Hustead jr.
+#E	walldrug!hustead
+#T	+1 605 279 2175
+#P	Wall Drug Store, Wall SD 57790
+#L	44 00 43 N / 102 19 59 W
+#R	Yep, a million people a year come to see our very own ice water
+#R	well, 6 foot jack rabbit, 5 cent coffee, church & 520 seat cafe!
+#U	namei glotz hoptoad kgbvax kremvax
+#W	walldrug!postmaster (Ted Hustead jr.); Fri Nov  6 08:43:09 MST 1987
+#
+#	upstream sites
+walldrug	glotz(HOURLY+LOW), namei(HOURLY+HIGH)
+#
+#	downstream sites
+walldrug	kgbvax(HOURLY), kremvax(HOURLY)
+#
+#	our alt.drugs feed
+walldrug	hoptoad(DAILY)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

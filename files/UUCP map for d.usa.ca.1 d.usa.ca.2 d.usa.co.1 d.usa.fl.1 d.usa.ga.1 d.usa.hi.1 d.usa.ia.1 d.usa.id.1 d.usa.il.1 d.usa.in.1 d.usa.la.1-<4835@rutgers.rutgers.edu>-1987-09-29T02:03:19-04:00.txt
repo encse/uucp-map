@@ -1,0 +1,1656 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.ca.1
+#	d.usa.ca.2
+#	d.usa.co.1
+#	d.usa.fl.1
+#	d.usa.ga.1
+#	d.usa.hi.1
+#	d.usa.ia.1
+#	d.usa.id.1
+#	d.usa.il.1
+#	d.usa.in.1
+#	d.usa.la.1
+# This archive created: Tue Sep 29 02:03:14 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.ca.1
+cat << \SHAR_EOF > d.usa.ca.1
+#N	.caltech.edu, cit-vax
+#F	csvax.caltech.edu
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	California Institute of Technology, Computer Science
+#C	Don Speck, Michael Lichter
+#E	cit-vax!usenet
+#T	+1 818 356 6246, +1 818 356 6767
+#P	Caltech 256-80, Pasadena CA  91125
+#L	34 08 17 N / 118 07 24 W
+#R	C.S. general-use machine and ARPAnet gateway; once known as citcsv
+#U	ll-xn ucla-cs elroy oberon mickey genghis amdahl
+#W	MRH from michael@vlsi.caltech.edu, 7/20/87
+#
+cit-vax = csvax.caltech.edu
+cit-vax .caltech.edu(LOCAL), bek-mc(LOCAL), elroy(LOCAL), cit-3b(DEDICATED),
+	genghis(DEDICATED), oberon(DEDICATED), ucla-cs(DEDICATED),
+	ll-xn(DEDICATED+LOW), rutgers(DEDICATED+LOW), ametek(DIRECT),
+	cwm-gmp(DIRECT), dstar(DIRECT), ghsvax(DIRECT), mickey(DIRECT),
+	plyman(DIRECT), jplpro(DEMAND), chla(DEMAND), oxy(HOURLY),
+	amdahl(DAILY/6), wiley(DAILY/6), engvax(DAILY/4), mocvax(EVENING),
+	muddcs(EVENING), scgvaxd(EVENING)
+
+#N	.cts.com, crash
+#F	uxc.cso.uiuc.edu
+#O	Crash TimeSharing
+#C	Bill Blue
+#E	bblue@crash.cts.com
+#T	+1 619 444 7004
+#P	1274 Vista Del Monte, El Cajon, CA  92020-6830
+#L	32 47 N / 116 56 W
+#U	ncr-sd telesoft (full)
+#U	cacilj sdsu vixie stag gryphon academ (partials)
+#R	registered
+#W	web 9/21/87
+#
+crash	.cts.com
+crash	cts.com
+crash=	crash.cts.com
+crash	calmasd(DEMAND), gryphon(DEMAND), ashtate(EVENING), palomar(WEEKLY),
+	cbosgd(EVENING), gould9(DIRECT+5), hp-sdd(DIRECT-5), sdsu(DIRECT),
+	ihnp4(EVENING), loral(DIRECT), man(DIRECT), telesoft(HOURLY),
+	ncr-sd(DEMAND), nosc(DIRECT-5), cacilj(DEMAND), udiego(DIRECT),
+	sdamos(EVENING), sdchem(DAILY), sdcsvax(DEMAND), uiucuxc(DAILY),
+	apache(EVENING), sdeggo(DEMAND), vixie(DEAD), mirror(EVENING),
+	wolf(DIRECT), winfree(EVENING), bang(DIRECT), portnoy(DEMAND),
+	pdsfac(DIRECT), pnet01(LOCAL), rutgers(EVENING), dhw68k(EVENING),
+	stag(EVENING), datel(DIRECT), turnkey(EVENING), berick(DAILY),
+	jungle(DIRECT), flkvax(DEMAND), kenobi(DAILY)
+
+#N	.itcorp.com, desint
+#F	seismo.css.gov
+#O	Interrupt Technology Corporation
+#C	Geoff Kuenning, Allyn Hall
+#E	geoff@ITcorp.COM, awh@ITcorp.COM
+#T	213-545-4413
+#P	329 20th Street, Manhattan Beach, CA  90266-4532
+#L	33 53 N / 118 25 W
+#U
+#R	registered
+#W	web per uucpmap/geoff 6/1/87
+#
+desint	.itcorp.com
+desint	itcorp.com
+desint= itcorp.com
+desint	trwrb(HOURLY), uunet(DEMAND)
+
+#N	.dsc.com, dscvax2
+#F	rutgers.edu
+#S	VAX-11/750 running 4.3BSD
+#O	Digital Sound Corporation
+#C	Steve Parker
+#E	postmaster@vax2.dsc.com, postmaster@dscvax2.uucp
+#T	+1 805-569-0700
+#P	2030 Alameda Padre Serra, Santa Barbara, CA 93103
+#L	34 26 N / 119 42 W city 
+#R	R&D Firm -- Electronic Voice Messaging System
+#W	web per uucpmap 9/18/87, sdp@dscvax2 2/2/87
+#U	ucsbcsl
+#
+dscvax2 .dsc.com
+dscvax2=	vax2.dsc.com
+dscvax2=	dsc.com
+dscvax2 ucsbcsl(DEMAND), cmcvax(HOURLY+LOW), normac(EVENING),
+	heurikon(EVENING), dscvax1(LOCAL), infovax(EVENING)
+
+#N	.sm.isc.com, .isc.com, ism780c
+#F	seismo.css.gov
+#O	Interactive Systems Corporation
+#C	Douglas J Leavitt
+#E	dougl@ism780c.isc.com
+#T	+1 213 453 8649
+#P	2401 Colorado Ave., Santa Monica, CA 90404
+#L	34 01 40 N / 118 28 13 W
+#U	sdcrdcf, logico, ism780
+#R	registered
+#W	web per ism780c!dougl 9/22/87
+#
+ism780c .isc.com
+ism780c .ism.isc.com
+ism780c =	ism780c.isc.com
+
+#N	.nma.com, nma
+#F	nrtc.arpa
+#O	Network Management Associates, Inc.
+#C	Einar Stefferud, Donna Stefferud
+#E	EStefferud@NRTC.ARPA, EStefferud@NMA.COM, DStefferud@NMA.COM
+#T	714-842-3711
+#P	17301 Drey Lane, Huntington Beach CA  92647
+#L	33 42 00 N / 118 00 00 W Huntington Beach, CA
+#U	(none)
+#R	applied
+#W	stef@nrtc.arpa (Einar Stefferud) Mon Feb 09 01:00:00 PST 1987
+#
+nma	.nma.com
+nma	nma.com
+nma=	nma.com
+nma	nrtc(DEMAND), ucivax(DAILY), cbosgd(DAILY)
+
+#N	.usc.edu, oberon
+#F	oberon.usc.edu
+#O	University Computing Services, U of Southern California
+#C	Mark A. Brown, Dennis R. Smith
+#E	usenet@oberon.usc.edu
+#T	213-743-2957
+#P	U. of Southern California, UCS, Los Angeles, CA	 90089-0251
+#L	34 01 N / 118 17 W
+#U	sdcrdcf, smeagol, uscvax, brand, bacall, cit-vax
+#R	applied
+#W	mcooper@oberon.usc.edu (Michael Cooper); Fri Jan  9 12:41:28 PST 1987
+#
+oberon		.usc.edu
+oberon =	oberon.usc.edu
+oberon =	usc.edu
+oberon		uscvax(DEMAND), bacall(DEMAND), cit-vax(DEMAND),
+		engvax(HOURLY), scgvaxd(HOURLY), sdcrdcf(DEMAND), 
+		smeagol(EVENING), stmvax(DEAD)
+#
+brand		trwspf(DAILY/4)
+
+#N	peregrine, .peregrine.com
+#F	uunet.uu.net
+#O	Peregrine Systems, Inc.
+#C	Dean Inada
+#E	usenet@peregrine.com
+#T	(714)855-3923
+#P	15530 Rockfield, Blvd, Building C, Irvine, CA 92718
+#L	33 41 N / 117 46 W
+#U	imt3b2, ccicpg, laxsqnt, uunet
+#R
+#W	web per wexler 8/22/87
+#
+peregrine	.peregrine.com
+peregrine = peregrine.com
+peregrine	ccicpg(DIRECT), laxsqnt(DIRECT), dhw68k(DEMAND),
+	uiucuxc(DEMAND), altnet(DEMAND), felix(DEMAND), imt3b2(EVENING),
+	uunet(DEMAND)
+
+#N	.quad.com, quad1
+#F	uxc.cso.uiuc.edu
+#O	Quadratron Systems Inc.
+#C	David Fox,  Larry Lipstone
+#E	usenet@quad.com, david@quad.com, lrl@quad.com
+#T	+1 818 789 8588
+#P	15260 Ventura Blvd, Sherman Oaks, CA 91403
+#L	34 10 N / 118 31 W
+#U	psivax
+#R	registered
+#W	quad1!david; Wed Mar  4 18:21:08 PST 1987
+#
+quad1	.quad.com
+quad1	quad.com
+quad1=	quad.com
+quad1	psivax(EVENING), gould(EVENING), uiucuxc(DAILY)
+
+#N	.rdl.com, rdlvax
+#F	rdlvax.rdl.com
+#S	DEC VAX 11/780, MORE/bsd 4.3 (mt Xinu)
+#O	Research Development Laboratories (RDL)
+#C	Isaac Salzman
+#E	salzman@rdlvax.rdl.com, hostadmin@rdlvax.rdl.com
+#T	+1 213 410 1244 x118
+#P	5721 W. Slauson Ave., Culver City, CA. 90230
+#L	34 01 N / 118 24 W
+#U	oberon.usc.edu via NNTP
+#R	applied
+#W	salzman@rdlvax.rdl.com (Isaac Salzman); Sun Sep 13 21:32:45 PDT 1987
+#
+rdlvax	.rdl.com
+rdlvax= rdl.com
+rdlvax= rdlvax.rdl.com
+rdlvax	psivax(DEMAND), csun (DEMAND), ttidca(DEMAND),
+	sdcrdcf(DEMAND), mtxinu(DEMAND)
+
+#N	.retix.com, retix
+#F	rutgers.edu
+#O	Retix
+#C	Erik Forsberg
+#E	erik@retix.com, root@retix.com
+#T	+1 213 3992200
+#P	2644 30th Street, Santa Monica CA 90405-3009
+#L	34 01 N / 118 27 W
+#U	cepu ttidca
+#R
+#W	retix!erik Fri Jun  5 12:33:17 1987
+#
+retix	.retix.com
+retix	retix.com
+retix = retix.com
+retix	cepu(DIRECT), ttidca(DIRECT), oliveb(DEMAND+LOW),
+	uop(DAILY), rutgers(DAILY)
+
+#N	.hac.com, scgvaxd
+#F	oberon.usc.edu
+#O	Hughes Aircraft Company, Space and Communications Group
+#C	Brian D. Zill, Michael K. Peterson
+#E	brian@hac.com, mkp@hac.com
+#T	213-647-9256, 213-615-7503
+#P	Hughes Aircraft Co., Box 92919, Bldg S40, M/S T342, Los Angeles, CA 90009
+#L	33 56 N / 118 23 W 
+#U	trwrb wlbr mss muddcs janus tsunami ashtate
+#R	registered
+#W	wep per uucpmap/mkp@hac.com (Michael K. Peterson) 8/22/87
+#
+scgvaxd .hac.com
+scgvaxd hac.com
+scgvaxd=scgvaxd.hac.com
+scgvaxd isi(DEMAND), allegra(DEMAND), ashtate(DEMAND), cadovax(DIRECT),
+	cbosgd(DEMAND), cit-vax(DEMAND), dcn0(DAILY), dcn1(DAILY), stb(DIRECT),
+	remsit(DEMAND), apcilax(DIRECT), iseesun(DIRECT), edison(DEMAND),
+	dssd1(DAILY), engvax(DEDICATED), gramps(DEMAND),
+	iegatp(DEMAND), ihnp4(DEMAND), intelca(DEMAND), mss(DEMAND),
+	muddcs(DEMAND), nbires(DEMAND), noao(DEMAND), psivax(DEMAND),
+	pelican(DIRECT), puffin(DIRECT), randvax(DIRECT), ampac1(DAILY),
+	laxsqnt(DAILY), rna(DEMAND), sdcarl(DAILY), sdcsvax(DEMAND),
+	sequent(DEMAND),
+	tcville(DEMAND), trwrb(DIRECT), ucla-cs(DIRECT),
+	uofm-cv(DEMAND), uscvax(DAILY), wlbr(DIRECT), tsunami(DIRECT),
+	felix(DIRECT), sfgum(DEMAND), stmvax(DIRECT),
+	pur-ee(DEMAND), group3(DIRECT), hacvlsi(DIRECT), uiucuxc(DEMAND),
+	oberon(DIRECT), ymir(DEMAND), scasl1(DEMAND), taqwa(DEMAND),
+	hajra(DEMAND)
+
+#N	.tti.com, ttidca
+#F	rutgers.edu
+#O	Citicorp /TTI
+#C	Michael Bloom, Egor Rubinstein
+#E	mab@TTI.COM, egor@TTI.COM
+#T	213-450-9111 x3097
+#P	3100 Ocean Park Blvd, Santa Monica, Ca., 90405
+#L	34 01 N / 118 27 W
+#U
+#W	mb@ttidcb.tti.com ; Tue Jun 16 18:25:45 PDT 1987
+#
+ttidca	.tti.com
+ttidca= ttidca.tti.com
+ttidca	csun(HOURLY*2), rdlvax(EVENING), mtxinu(DAILY),	 psivax(HOURLY*2),
+	retix(DAILY), trwrb(HOURLY*2), ttihwe(DEDICATED), ttiq2(HOURLY)
+
+#N	.cs.ucla.edu, ucla-cs
+#F	cs.ucla.edu
+#S	VAX 11/750 running LOCUS
+#O	UCLA Computer Science Department
+#C	Mark La Rouche, Dorab Patel
+#E	{sdcrdcf,ucbvax,ihnp4,rutgers}!ucla-cs!usenet, usenet@cs.ucla.edu
+#T	(213) 825-3194, (213) 825-7276
+#P	Comp. Science Dept., 3531 Boelter Hall, UCLA, Los Angeles, CA 90024
+#L	34 04 08 N / 118 26 31 W
+#R	actual usenet host is shemp.cs.ucla.edu -- local hosts via nntp
+#W	markl@cs.ucla.edu; Tue Aug 25 11:58 PDT 1987
+#U	sdcrdcf rutgers cit-vax zen
+#
+ucla-cs=cs.ucla.edu
+ucla-cs .cs.ucla.edu(LOCAL)
+# we call them
+ucla-cs cit-vax(DEDICATED), rutgers(DEDICATED), sdcrdcf(HOURLY*3),
+	ucbvax(DEDICATED)
+# we are polled by these sites on demand (when they have mail for us)
+ucla-cs beaune(POLLED), cepu(POLLED), gould9(POLLED), ihnp4(POLLED),
+	ism780(POLLED), lcc(POLLED), muddcs(POLLED), trwspp(DAILY), tax(POLLED)
+# these poll us on a regular basis, even if they have no mail for us
+ucla-cs ucla-an(WEEKLY), uclachem(DAILY), ucla-cime(DAILY/6), ucrmath(DAILY)
+
+#N	.eaton.com, wlbr
+#S	VAX 11/750 running UNIX System Vr2v2
+#O	Eaton Information Management Systems
+#C	James Macropol
+#E	wlbr!jm
+#T	+1 818 706 5000
+#P	31717 La Tienda Dr., Westlake Village, CA 91359
+#L	34 09 N / 118 49 W 
+#R
+#W	jm 08/19/87
+#U	scgvaxd voder jplgodo
+#
+wlbr	= wlbr.eaton.com
+wlbr	.eaton.com(LOCAL), ihnp4(DAILY), jplgodo(DIRECT), scgvaxd(DEMAND),
+	trwrb(DEMAND), voder(DEMAND), etn-rad(HOURLY), mystery(DAILY),
+	mutley(DEMAND)
+
+SHAR_EOF
+echo shar: extracting d.usa.ca.2
+cat << \SHAR_EOF > d.usa.ca.2
+#N	.3com.com, 3comvax
+#F	sun.com
+#O	3Com Corporation
+#C	Chris Olds, Marc Lavine
+#E	olds@3Com.COM, marcl@3Com.COM
+#T	+1 408 970 1821, +1 408 970 1857
+#P	3165 Kifer Road, Santa Clara, CA 95052, USA
+#L	37 21 N / 121 56 W city
+#U	oliveb cygnet
+#R	registered
+#W	marcl@3Com.COM (Marc Lavine); Tue Jun  9 22:15:31 PDT 1987
+#
+#	Users on our internal 3+ internetwork can be reached via a mail
+#	gateway.  For example, to reach Marc Lavine:HQ:3Com, use the
+#	address Marc_Lavine@HQ.3Com.COM.  If your mailer can't handle
+#	that, use {3comvax|sun|oliveb}!HQ.3Com.COM!Marc_Lavine.
+#
+3comvax  .3com.com
+3comvax = 3com.com
+3comvax acad(DEMAND), bnrmtv(WEEKLY), cygnet(DIRECT), mdc(POLLED/3),
+	microsoft(DEMAND), oliveb(DIRECT), sun(DIRECT)
+
+#N	.adobe.com, adobe
+#F	sun.com
+#O	Adobe Systems Incorporated
+#C	Andrew I. Shore
+#E	shore@ADOBE.COM
+#T	+1 415 852 0271
+#P	1870 Embarcadero Road;Palo Alto, CA  94303
+#L	37 27 22 N / 122 06 57 W
+#U	glacier
+#R	applied to registery; glacier is about to be decommissioned
+#W	shore@ADOBE.COM (Andrew I. Shore); Thu Oct 30 11:45:13 1986
+#
+adobe	.adobe.com
+adobe=	adobe.com
+adobe	apple(DEMAND), decwrl(DIRECT), eakins(DIRECT),
+	mejac(DIRECT), sgi(DIRECT), sun(DIRECT)
+
+#N	.ait.com, lewey
+#F	rutgers.edu
+#O	American Information Technology, Inc.
+#C	William J. Earl
+#E	wje@ait.com, postmaster@ait.com
+#T	+1 408 252 8713
+#P	10201 Torre Avenue, Suite 250, Cupertino, CA 95006
+#L
+#U	voder
+#R	registered
+#W	wje@lewey.ait.com; May 29 00:00:00 GMT 1987
+#
+lewey	.ait.com
+lewey =	lewey.ait.com
+lewey   voder(DIRECT), pyramid(DIRECT), hplabs(DIRECT)
+
+#N	.amd.com, amdcad, amd
+#F	sun.com
+#O	Advanced Micro Devices, Inc.
+#C	Jim Budler
+#E	jimb@AMD.COM
+#T	408-749-5806
+#P	AMD, 901 Thompson Place, P.O. Box 3452, MS#167, Sunnyvale, CA 84088
+#L	37 22 50 N / 121 59 12 W
+#U	amd, cae780, decwrl
+#R	registered
+#W	jimb@amd.com (Jim Budler); Mon Apr 20 10:35:45 PDT 1987
+#
+amdcad	.amd.com
+amdcad=	amdcad.amd.com
+amdcad=	amd.com
+#
+# Data Ranges over 8 days from 101 to 109 Julian; 31 hosts connected
+# Mean conn/day = 203, Median c/d = 256, Mean Absolute Deviation = 55
+
+amdcad	akgua(DEAD),allegra(DAILY/6), amd(HOURLY), amdahl(DAILY/9), 
+	ames(HOURLY), atari(WEEKLY/3), cae780(HOURLY),
+	cbosgd(WEEKLY), clyde(WEEKLY/4), cti(DEAD), decwrl(HOURLY), 
+	dgcad(DAILY/2), dual(WEEKLY/4), endot(WEEKLY/3), gatech(DAILY/2), 
+	hedon(DEAD), hoptoad(DAILY), hplabs(DAILY/3), ihnp4(DAILY/3), 
+	ima(DAILY), intelca(DAILY/6), kestrel(DEAD), lll-crg(HOURLY), 
+	lll-lcc(HOURLY), masscomp(DEAD), okstate(DEAD), pyramid(HOURLY), 
+	qubix(DEAD), qumix(DEAD), redwood(DAILY/2), research(DEAD), 
+	riacs(DAILY/3), saber(DEAD), sco(DAILY), sigvme(DEAD), sun(HOURLY), 
+	titnp(DEAD), turtlevax(DEAD), tymix(DAILY), ucbvax(DAILY/4), 
+	uiucdcs(DAILY/3), uport(DAILY/3), well(WEEKLY/4), zehntel(DEAD), 
+	zentec(DEAD) 
+#
+#C	Severn Ferdun
+#E	amd!usenet
+#T	+1 408 982 6556
+#L	37 22 50 N / 121 58 50 W
+#U	amdcad intelca 
+#W	amd!severn (Severn Ferdun); Mon Apr 20 12:00:00 PDT 1987
+#
+#	hourly local calls
+amd	amdcad(HOURLY), decwrl(HOURLY), delirun(HOURLY), light(HOURLY),
+	megatest(HOURLY), onyx(HOURLY), spar(HOURLY), sun(HOURLY) 
+#
+#	restricted local calls
+amd	amdahl(EVENING), cae780(EVENING), fortune(EVENING),
+	hplabs(EVENING), idi(EVENING), intelca(EVENING), lasa(EVENING),
+	qubix(EVENING), sco(EVENING), sritek(EVENING), turtlevax(EVENING),
+	ubvax(EVENING), varian(EVENING), vecpyr(EVENING),
+	zentec(EVENING)
+#
+#	hourly long distance calls
+amd	ghsvax(HOURLY), inmet(HOURLY)
+#
+#	restricted long distance calls
+amd	akgua(EVENING), allegra(EVENING), clyde(EVENING), floyd(EVENING),
+	gatech(EVENING), ihnp4(EVENING), masscomp(EVENING), nbires(EVENING),
+	noao(EVENING), rocksvax(EVENING), wjh12(EVENING)
+
+#N      .amdahl.com, amdahl
+#F	hplabs.com
+#   Our alternate ARPA forwarding site is sun.com
+#O	Amdahl Corporation, UTS Products Group
+#S	Amdahl 5890/300E; UTS/580 (System V with Berkeley extensions)
+#C      Gordon A. Moffett; Landon Curt Noll
+#E	amdahl!usenet
+#T      +1 408 746 8287; +1 408 746 6259
+#P      1250 E. Arques Ave., Mailstop 316, Sunnyvale, CA 94088-3470
+#L	37 22 33 N / 121 57 41 W
+#   full news feeds
+#U      ames bnrmtv cerebus drivax ems pyramid
+#U	sri-unix unixprt uunet
+#   local news feeds
+#U	altos amdcad apple cit-vax dlb namei hplabs nsc oliveb
+#U	ptsfa rtech sun
+#R	also known as amdahl.amdahl.com
+#R	Member of the Usenet backbone
+#W      amdahl!gam; 8/26/87 18:02:48
+#
+amdahl	.amdahl.com
+amdahl = amdahl.amdahl.com
+amdahl = amdahl.com
+#
+# DIRECT        is a local free call
+# DEMAND        is a local toll call
+# DEMAND+100    is a long distance toll call
+# POLLED 	not called by us at all
+#
+# HIGH is added to reliable/high traffic sites
+# LOW is added to less reliable sites or just to discourage traffic thru them
+#
+# principal and/or well known connections
+amdahl	ames(DEMAND+50), cbosgd(DEMAND+100+HIGH), decwrl(DEMAND+HIGH),
+	hplabs(DEMAND+LOW), ihnp4(DEMAND+100+LOW), mtune(DEMAND+100),
+	nsc(DIRECT+HIGH), pyramid(DIRECT+HIGH),
+	sun(DIRECT+HIGH+HIGH), usenix(DEMAND), uunet(DEMAND+75)
+#
+# et al., usw.
+amdahl	abcom(DEMAND+100), abfli(DEMAND+100), acfheb(DEMAND+100),
+	ackcu1(DEMAND+100), altos86(DIRECT+LOW), aluxa(DEMAND+100),
+	amd(EVENING), amdcad(DIRECT+LOW), apple(DIRECT), atteja(DEMAND+100),
+	attunix(DEMAND+100+HIGH), auspyr(DIRECT+HIGH), bnrmtv(DIRECT+HIGH),
+	c11ux(DEMAND+100), cerebus(DIRECT), cit-vax(DEMAND+100+HIGH),
+	clyde(DEMAND+100+HIGH+HIGH), columbia(DEMAND+100), cuuxb(DEMAND+100),
+	dlb(DEMAND+HIGH), drivax(DAILY+HIGH), namei(DIRECT+HIGH), ems(POLLED),
+	fai(DIRECT), hoptoad(DEMAND), imnet(DIRECT), laidbak(DEMAND+100),
+	mentat(EVENING), meccts(DEMAND+100+HIGH), normac(DEMAND+HIGH),
+	ntc(DIRECT), odutsa(DEMAND+100), oliveb(DIRECT+HIGH),
+	plus5(DEMAND+100), ptsfa(DEMAND+HIGH), ricnix(EVENING),
+	rtech(DEMAND+HIGH), sri-unix(EVENING), swamp(DEMAND+100),
+	twg-ap(DIRECT), unet(DEMAND), unisoft(DEMAND+LOW), unixprt(POLLED),
+	whuts(DEMAND+100), wnutsa(DEMAND+100)
+#
+# publically accessible internal sites
+amdahl	walt(DIRECT)
+
+#N	.atherton.com, athertn
+#F	sun.com
+#O	Atherton Technology
+#C	Eric Black, Yale Rosenblatt
+#E	ericb@atherton.com, yale@atherton.com
+#T	+1 408 734 9822
+#P	1333 Bordeaux Drive, Sunnyvale, CA  94089
+#L	
+#U	
+#R	registered
+#W	ericb@atherton.com (Eric Black); Mon Jun 29 20:01:02 PDT 1987
+#
+athertn	.atherton.com
+athertn=	atherton.com
+athertn	sunncal(HOURLY), cti(DAILY/2)
+
+#N	.convergent.com, ctnews
+#F	sun.com
+#O	Convergent Technologies
+#C	Bruce Schlobohm
+#E	bms@Convergent.COM
+#T	(408) 435-3792
+#P	2314 N. First Street, P.O. Box 6685, San Jose, CA 95150
+#L	121 55 W / 37 23 N
+#U	pyramid
+#R	forwarding ARPAnet host is sun.com
+#W	Bruce Schlobohm, February 27, 1987
+#
+ctnews .convergent.com
+ctnews= convergent.com
+ctnews pyramid(EVENING), sri-unix(EVENING)
+
+#N	.das.com, .das.net, dasnet
+#F	sun.com
+#O	DA Systems, Inc.
+#C	Russell Briggs, Anna Lange
+#E	sun!idi!daslink!dasnet!11!Russ, sun!idi!daslink!dasnet!11!AnnaB
+#T	(408) 559-7970, (408) 559-7434
+#P	1503 E. Campbell Ave., Campbell, CA   95008
+#L
+#U
+#R	submitted with no forwarder
+#W	10/26/86 MRH from daslink!dasnet!11!Russ
+#
+dasnet	.das.com
+dasnet	.das.net
+daslink  idi(EVENING/2),  uworld(EVENING/2), sun(EVENING/2), dasnet(DEDICATED)
+dasnet   daslink(DEDICATED)
+
+#N	.epi.com, epimass, epiwrl
+#F	uunet.uu.net
+#O	Entropic Processing, Inc.
+#C	Joe Buck, Alan Parker
+#E	jbuck@epimass.epi.com, parker@wrl.epi.com
+#T	1 408 973 9800, 1 202 547 1420
+#P	10011 N. Foothill Blvd., Cupertino, CA
+#L	37 19 N / 122 03 W
+#U	csi ucat oliveb
+#R	registered
+#W	jbuck@epimass.EPI.COM (Joe Buck); Fri Aug 14 13:01:50 1987
+#
+# epiwrl is in Washington DC and is our East Coast gateway.
+# epimass is in Silicon Valley and is our West Coast gateway.
+# #P and #L refer to epimass and corporate HQ.
+#
+epiwrl	.epi.com
+epimass	.epi.com
+epiwrl=	wrl.epi.com
+epimass=epimass.epi.com
+epimass	epicen(LOCAL), csi(DIRECT), oliveb(DIRECT), pyramid(DEMAND+LOW),
+	tymix(DIRECT), ucat(DIRECT), apple(DIRECT), epiwrl(EVENING),
+	frs(EVENING)
+epiwrl	epimass(EVENING), nrl-css(DEMAND), vrdxhq(DEMAND),
+	decvax(EVENING), ap150(EVENING), svc(DEMAND), chemo(EVENING),
+	boom(EVENING), uunet(HOURLY)
+# poll calls
+uunet	epiwrl(DAILY/2)
+
+#N	.esl.com, esl
+#F	lll-lcc.arpa
+#O	ESL Incorporated
+#C	Michael McNamara
+#E	mac@esl.ESL.COM
+#T	1+ (408) 738-2888 Extension 4588
+#P	ESL, MS 302, PO Box 3510, Sunnyvale, California 94088-3510
+#L      37 25 N / 122 01 W
+#U	leadsv
+#R	added CYDROME connection -- machine name ac1
+#W	mac@esl.ESL.COM Sun Mar 15 16:15:28 PST 1987
+#
+esl	.esl.com
+esl=	.esl.com
+esl     lll-lcc(DEMAND), leadsv(DEMAND), shasta(DAILY), vecpyr(DEMAND), 
+	nike(DEMAND), cheops(DIRECT), trwspp(DEMAND), ames(DEMAND), 
+	ac1(DEMAND), ac6(DEMAND)
+
+#N	.ide.com, ide
+#F	sun.com
+#O	Interactive Development Environments
+#C	David Shewmake, Peter Pircher
+#E	shewmake@ide.com, pircher@ide.com
+#T	+1 415 543 0900
+#P	150 4th Street, Suite 210; San Francisco, CA 94103
+#L	37.45 N / 122.27 W city
+#U	none
+#R	applied
+#W	shewmake@ide.com (David Shewmake); Thu Apr 30 15:08:09 PDT 1987
+#
+ide	.ide.com
+ide=	ide.com
+ide	sun(DAILY), ucsfmis(DIRECT), idene(POLLED)
+
+#N	.ig.com, ig
+#F	presto.ig.com
+#S	Sun 3/280; Sun Unix Release 3.2
+#O	Intelligenetics Inc.
+#C	Rob Liebschutz
+#E	usenet@presto.ig.com
+#T	+1 415 962 7328
+#P	700 East El Camino Real, Mountain View, Ca 94040
+#L	37 23 N / 122 3 W
+#U
+#R	This is also presto.ig.com [128.92.192.16] on the internet
+#W	rob@presto.ig.com (Rob Liebschutz); Wed Sep 23 16:34:07 PDT 1987
+#
+ig	.ig.com
+ig	= ig.com
+ig	= ig.ig.com
+ig	= presto.ig.com
+
+
+
+#N	.mips.com
+#F	ames.arpa
+#O	Mips Computer Systems, Inc.
+#C	Robert Knox, David Elliott
+#E	redbob@mips.COM, dce@mips.COM
+#T	+1 408 720 1700
+#P	930 Arques; Sunnyvale, CA 94086
+#L	35 04 05 N / 106 37 46 W city
+#U	prls
+#R	applied
+#W	redbob@mips.COM (Robert Knox); Fri May 15 07:23:26 PDT 1987
+#
+mips	.mips.com
+mips=	mips.mips.com
+mips	decwrl(DEMAND), sgi(DEMAND), nsc(WEEKLY), prls(DIRECT)
+
+#N	.nasa.gov, ames
+#F	ames.arpa
+#S	ISI/68020; 4.3BSD
+#O	NASA Ames Research Center
+#C	Jordan Hayes, Steve Schoch
+#E	ames!usenet
+#T	+1 415 694 4121
+#P	MS:233-18, Moffett Field, CA 94035
+#L	37 25 2 N / 122 3 27 W
+#U	acornrc amdahl amdcad aurora elan elroy hao hc
+#U	ll-xn lll-lcc lll-tis lognet2 nasa1 necntc oliveb ptsfa riacs rutgers
+#U	scubed sdcsvax sri-spam think ucbcad
+#R	Internet host ames.arpa -- 128.102.2.3
+#W	ames!schoch (Steve Schoch); Fri Sep 18 20:50:47 PDT 1987
+ames	= ames.arc.nasa.gov
+ames	= arc.nasa.gov
+ames	= ames.arpa
+ames	.nasa.gov
+ames	nasa.gov
+#
+ames	acornrc(DIRECT+HIGH), allegra(DEMAND+LOW), amdahl(DIRECT+HIGH),
+	amdcad(DIRECT+HIGH), amelia(LOCAL), atari(DIRECT),
+	aurora(LOCAL), bnrmtv(DIRECT), borealis(LOCAL+LOW),
+	bu-cs(DEDICATED), canisius(POLLED),
+	cbosgd(DEMAND+LOW), cmcl2(DEDICATED),
+	decwrl(POLLED), dual(EVENING),
+	eagle(LOCAL), elan(DIRECT), elroy(DEDICATED),
+	esl(DIRECT), ethz(POLLED),
+	garp(DEDICATED), gatech(DEMAND), gsssjo(DIRECT),
+	hao(EVENING+LOW), harvard(DEDICATED),
+	hc(DEDICATED), hplabs(DIRECT+HIGH), husc6(DEMAND),
+	ihnp4(EVENING+LOW), im4u(DEDICATED+LOW), infopro(EVENING),
+	isieng(EVENING), kccs(DIRECT+LOW),
+	ll-xn(DEDICATED), lll-crg(DEDICATED+HIGH), lll-tis(DEDICATED),
+	lll-lcc(DEDICATED+HIGH), lognet2(DEDICATED+HIGH),
+	mimsy(DEDICATED), mips(DIRECT),
+	nasa1(DEMAND), necntc(EVENING),
+	oliveb(DIRECT+HIGH), philabs(POLLED+LOW), ptsfa(EVENING),
+	pur-ee(DEDICATED), pyramid(DIRECT+HIGH), rencon(DEAD),
+	riacs(LOCAL), rochester(DEDICATED), rutgers(DEDICATED),
+	scampi(DIRECT), scubed(DEDICATED), scueng(EVENING),
+	scvcs(DIRECT), sdcsvax(DEDICATED+LOW),
+	sgi(DIRECT), spar(DIRECT), sri-spam(DEDICATED),
+	sunybcs(POLLED), tektronix(POLLED+LOW), teleop(DIRECT),
+	think(DEDICATED), ultra(DIRECT+LOW), ucbcad(DEDICATED),
+	unet(EVENING), usenix(DAILY),
+	ut-sally(DEDICATED), uw-beaver(DEDICATED), uwvax(DEDICATED),
+	xanth(POLLED), yquem(DEDICATED)
+
+#N	.nsc.com, nsc, nscpdc
+#F	sun.com
+#O	National Semiconductor Corp.
+#
+#C	Linda Lyon, Les Pembroke
+#E	linda@nsc.nsc.com, les@nsc.nsc.com
+#T	+1 408 721 8140, +1 408 721 8144
+#
+#P	1135 Kern Avenue,  M/S 7c266, Sunnyvale, CA  94086
+#
+#U	pyramid csi daisy oblio unixprt
+#R	registered
+#W	tron@nsc.NSC.COM; 5/21/87 15:43:22
+#
+#	regional subdomains are currently SC (Santa Clara/Sunnyvale)
+#	PO (Portland area) and TA (Tel-aviv).  These names are currently
+#	subject to change without notice.
+#
+#	Regional subdomains of .nsc.com are currently:
+#
+#		.sc.nsc.com	(Santa Clara/Sunnyvale area)
+#		.po.nsc.com	(Portland/Beaverton area)
+#		.ta.nsc.com	(Tel-Aviv/Israel)  -- Not fully operational
+#		.dv.nsc.com	(Denver/Anglewood area) --Not fully operational
+#
+nsc	.nsc.com
+nscpdc	.nsc.com
+#
+#	NSC is administered by tron@nsc.nsc.com
+#L	120 0 16 W / 37 23 18 N
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+nsc	ac1(HOURLY*4), amdahl(HOURLY*2+LOW+LOW), apple(HOURLY*4),
+	blit(WEEKLY), csi(WEEKLY), daisy(WEEKLY), decwrl(HOURLY*2+LOW),
+	harvax(DAILY*2), highrel(DAILY), hoptoad(HOURLY*6),
+	hpda(HOURLY*4), hplabs(HOURLY*2), ihnp4(WEEKLY), mips(WEEKLY),
+	nscpdc(HOURLY*4), oblio(WEEKLY), offbeat(DAILY),
+	opusys(HOURLY*3), pyramid(HOURLY*2+LOW+LOW), rencon(WEEKLY),
+	ridge(WEEKLY), sequent(DAILY*2), sfsvvse(WEEKLY),
+	sftig(WEEKLY), sun(HOURLY*2+LOW+LOW), tolerant(WEEKLY),
+	unixprt(HOURLY*4), verdix(DAILY), voder(HOURLY*2)
+#
+#	NSCPDC is administered by steve@nscpdc.nsc.com (503)629-4430
+#L	122 50 W / 45 32 N
+#S	DEC VAX-11/785; 4.2 BSD UNIX
+nscpdc	nsc(HOURLY), reed(DIRECT), sequent(DEMAND), univax(DEAD),
+	tsec(DEMAND), tektronix(DEMAND), arnav(DIRECT)
+
+#N	.octopus.com, octopus
+#F	sun.com
+#O	Octopus Enterprises
+#C	Peter Holzmann
+#E	octopus!postmaster, octopus!usenet
+#T	+1 408 996 7746
+#P	19611 La Mar Court, Cupertino, CA 95014
+#L	122 8 32 W / 37 25 33 N
+#U	pyramid harvax avsd
+#W	octopus!pete (Pete Holzmann); Tue Jul 21 10:00:00 PST 1987
+#R	Makers of useable Geographic Information Systems & other useful things
+#
+# we only use the link to stride when we need it.
+octopus	.octopus.com
+octopus	=octopus.com
+octopus	cwm-gmp(WEEKLY), stride1(DEAD), hpda(DIRECT), pyramid(DIRECT),
+	harvax(DIRECT), hoptoad(WEEKLY), avsd(DIRECT), rpx(DAILY)
+cit-vax	cwm-gmp(DIRECT)
+cwm-gmp	cit-vax(DAILY)
+
+#N	.olivetti.com, oliveb
+#F	sun.com
+#O	Olivetti Advanced Technology Center
+#C	Dennis Chen, Jerry Aguirre
+#E	dchen@ATC.OLIVETTI.COM, jerry@ATC.OLIVETTI.COM
+#T	+1 408 996 3867
+#P	Systems Administration; 20300 Stevens Creek Blvd.; Cupertino, CA 95014
+#L	37 19 N / 122 2 W
+#U	pyramid intelca tymix 3comvax cygnet peritus amiga
+#R	registered
+#W	oliveb!jerry (Jerry Aguirre); Sun Jun 21 21:28:58 EDT 1987
+#
+oliveb	.olivetti.com
+oliveb=	b.atc.olivetti.com
+oliveb  3comvax(DIRECT), acornrc(DEMAND), allegra(DAILY),
+	amdahl(DIRECT), ames(DIRECT), amiga(DAILY/4), bene(DIRECT),
+	convexw(DIRECT), cygnet(DIRECT), drusd(DAILY), druut(DAILY),
+	druxl(DAILY), epimass(DIRECT), edge(DIRECT), elandes(DAILY),
+	emulex(DEMAND), felix(DAILY), fortune(DEMAND), gsg(DAILY),
+	hplabs(DEMAND), iconet(DEDICATED), idi(DIRECT), ihnp4(DAILY),
+	intelca(DIRECT), microsoft(DAILY), mtunb(DAILY), olivea(LOCAL),
+	olivee(LOCAL), olivej(LOCAL), oliven(LOCAL), olivew(DEDICATED),
+	peritus(DIRECT), perivax(DIRECT), pmgmt(DAILY),
+	pyramid(DIRECT), retix(DAILY), sci(DIRECT), skesob(DAILY),
+	skesof(DAILY), sun(DIRECT), tolerant(DIRECT), ttrdc(DAILY),
+	tymix(DIRECT), unet(DEMAND), vlsvax1(DEMAND),
+	voder(DIRECT), zehntel(DEMAND), zilog(DIRECT)
+
+#N	.parcplace.com, parcplace, pplace
+#F	Sun.com
+#O	ParcPlace Systems, Inc. (The Smalltalk-80 People)
+#C	Stephen T. Pope, Allan Schiffman
+#E	stp@parcplace.com, ams@parcplace.com
+#T	+1 415 859 1000
+#P	2400 Geng Road, Palo Alto, CA, 94303
+#L
+#U	sun
+#R	registered
+#W	pplace!stp; 6/5/87
+#
+parcplace	.parcplace.com
+pplace=	pplace.parcplace.com
+pplace= parcplace.com
+parcplace	sun(HOURLY), parcvax(HOURLY)
+
+#N	.portal.com, .portal.net, portal
+#F	sun.com
+#O	Portal Communications Company
+#C	John Little
+#E	portal!postmaster
+#T	+1 408 973 9111
+#P	19720 Auburn Drive, Cupertino, CA 95014
+#L	122 02 W / 37 19 N city
+#R	Portal Communications Company gateway
+#U	
+#W	portal!jel (John Little); Sun Sep 13 21:10:41 PDT 1987
+#
+portal	.portal.com
+portal	.portal.net
+portal=	portal.portal.com, portal.com, portal.net
+portal	sun(EVENING), atari(EVENING), hoptoad(EVENING)
+
+#N	.pyramid.com, pyramid
+#F	sun.com
+#O	Pyramid Technology Corporation
+#S	Pyramid 98x; dualPort OSx 4.0
+#C	Rick Preston
+#E	postmaster@pyramid.com, usenet@pyramid.com
+#T	+1 415 965 7200
+#P	1295 Charleston Road, P.O. Box 7295, Mountain View, CA 94039-7295
+#L	37 25 45 N / 122 04 30 W
+#U	altera amdahl cromemco ctnews decwrl isieng octopus oliveb nsc ntc
+#U	prls ranhome thirdi tolerant triada voder ucat weitek
+#W	flp@pyramid.com (Rick Preston) Thu Sep  3 10:47:22 PDT 1987
+#R	Registered with forwarder
+#
+# Our USENET feeds are decwrl, oliveb, prls, and amdahl. The #U entry above
+# shows only full news links; many partial, local, and regional connections
+# also exist.
+#
+# Pyramid Technology Corporation in Mountain View has two sites on the net,
+# pyramid and pyrtech. Each is independently managed and sets up its own UUCP
+# connections for its own needs. pyramid (the R&D machine) is the primary
+# gateway; all users on all other machines are aliased from it.
+#
+#	user@pyramid.com
+# or
+#	user@pyrhost.pyramid.com
+#
+# should get you anywhere. (Thanks to Bill Nowicki for being our forwarder.)
+#
+# Pyramid is a mod.sources archive site; mail to pyramid!usenet for info.
+#
+# If you are running X.25 UUCP, or using the Telebit Trailblazer modem, we
+# would like to hear from you. International sites are welcome. Both 'x' and
+# 'f' protocols supported.
+#
+pyramid	 .pyramid.com
+pyramid = pyramid.com
+#
+# The costs below are generally scaled against what we have to pay for them.
+# Small bonuses are awarded for 2400bps or a Trailblazer. X.25 sites do *not*
+# get a bonus, since in these parts it's more expensive than the telephone.
+#
+# Pyramid's own field offices. Our internal (hidden) map makes these links much
+# cheaper, so we pay for our own mail as much as possible, but the world at
+# large gets the true values. pyrnj uses Trailblazer; pyrltd uses X.25; pta
+# polls using V.22bis.
+#
+pyramid	pta(DAILY/2), pyrbos (DEMAND+100), pyrchi(DEMAND+100),
+	pyrdc(DEMAND+75), pyrla(DEMAND+50), pyrnj(DEMAND+50), pyrltd(EVENING),
+	pyrtech(10)
+#
+# Local calls from Mountain View -- includes most of Silicon Valley. Ames is
+# artificially high because they list a lot of their Internet connections on
+# their UUCP map, which throws off our paths; they're actually one of the most
+# reliable sites in the Bay Area.
+#
+pyramid alameth(WEEKLY), altera(DIRECT+LOW), amdahl(DIRECT), amdcad(DIRECT),
+	ames(350), cae780(DIRECT), calma(DIRECT), icdp(DEMAND),chkpt(DIRECT),
+	cromemco(DIRECT), cti(DIRECT), ctnews(DAILY/7), decwrl(DIRECT-5),
+	garth(DIRECT), harvax(DIRECT), hplabs(DIRECT-10), infmx(DIRECT),
+	infopro(DAILY), isieng(DIRECT), kontron(DIRECT), lewey(DIRECT),
+	lparl(DIRECT), megatest(DIRECT), mips(DIRECT), mitsumi(DIRECT),
+	nsc(DIRECT), ntc(DIRECT), octopus(DIRECT), oliveb(DIRECT-5),
+	olympus(DIRECT), practic(DIRECT), prls(DIRECT-5), quintus(DAILY),
+	ranhome(DIRECT), sgi(DIRECT), shasta(DAILY), silicon(DIRECT),
+	sri-unix(DIRECT), sybase(DIRECT), sun(DIRECT-10), thirdi(DIRECT),
+	tolerant(DIRECT), triada(DIRECT), ubvax(DIRECT), ucat(DIRECT),
+	vecpyr(DIRECT), voder(DIRECT), weitek(DIRECT), wjvax(DIRECT)
+#
+# Within our service area, mostly San Francisco Bay Area. sable (an internal
+# machine at Measurex) is using a Trailblazer.
+#
+pyramid	abekas(DAILY/2), acad(DEMAND), amiga(DAILY/7), avsd(DAILY/3),
+	blia(DEMAND), cubi(DAILY/4), dual(DEMAND+20), hippo(DEMAND-10),
+	hoptoad(DEMAND-10), lll-crg(DEMAND), lll-lcc(DEMAND),
+	lll-winken(HOURLY*2), kccs(DEMAND-10), micropro(DEMAND),
+	opusys(DEMAND), oracle(DEMAND-10), ptsfa(DEMAND-10), rencon(DEMAND),
+	rtech(DEMAND), sable(DEMAND-10), titn(DEMAND), unisoft(DEMAND)
+#
+# California Band 1 WATS.
+#
+pyramid	gould9(DEMAND+50), jack(DEMAND+50), ncr-sd(DEMAND+25),
+	polyslo(EVENING), soft21(EVENING), ttidca(DEMAND+50),
+	ucsbcsl(DEMAND+50)
+#
+# Miscellaneous Long Distance, Band 5 WATS. Batcomputer is using a Trailblazer.
+# We poll isis and utzoo, since they're pennyless educational institutions. :-)
+#
+pyramid	abvax(DEMAND+100), allegra(DEMAND+100), andromeda(DEMAND+100),
+	batcomputer(DEMAND+50), boulder(DEMAND+100), cmcl2(DEMAND+100),
+	crayamid(DEMAND+100), fmsrl7(DEMAND+100), geops(DEMAND+100),
+	hhb(DEMAND+75), isis(DEMAND+100), iuvax(DEMAND+100),
+	marque(DEMAND+100), mdc(DAILY), mirror(DEMAND+75), mstar(DEMAND+100),
+	nbires(DEMAND+100), ncc(DEMAND+100), necntc(DAILY/2),
+	netxcom(DEMAND+100), nitrex(WEEKLY), osiris(DEMAND+100),
+	osu-eddie(DEMAND+100), osupyr(DEMAND+100), oxtrap(DAILY),
+	plus5(DEMAND+100), qtc(DEMAND+100), ritcv(DEMAND+100),
+	rama(DEMAND+100), rutgers(DEMAND+100), sbcs(DEMAND+100),
+	scdpyr(DEMAND+100), ssi(DEMAND+100), ttrdc(DEMAND+100),
+	tulane(DEMAND+100), uccba(DAILY/3), uiucdcs(DEMAND+50),
+	ut-sally(DEMAND), utzoo(DEMAND+150), verdix(DEMAND+100),
+	vcuac(DEMAND+100), wnwpyr(DEMAND+100), wucs1(DEMAND+50),
+	yale(DEMAND+100)
+#
+# International X.25 Connections. Generally the other site pays for these.
+#
+pyramid utai(DEMAND+50), iaoobel(DAILY), munnari(EVENING), tub(DAILY),
+	uchdcc(DAILY)
+
+#N	.sc-scicon.com, scampi
+#S	SUN 3/160S
+#F	ames.arc.nasa.gov
+#O	Systems Control
+#C	Kent S. Harris, Andrew Mangogna
+#E	postmaster@SC-Scicon.COM
+#T	415-494-1165 x1743
+#P	Embedded Systems Group, 1801 Page Mill Road; Palo Alto, CA 95014
+#L	37 27 N / 122 06 W  (city)
+#U	leadsv
+#R	applied
+#W	ksh@SC-Scicon.COM (Kent S. Harris) Mon Mar 16 16:26:09 PST 1987
+#
+scampi	.sc-scicon.com
+scampi=	scampi.sc-scicon.com
+scampi	leadsv(DEMAND+LOW), ihnp4(DEMAND+LOW), scvcs(DEMAND),
+	jandj(DEMAND), practic(DEMAND), hoptoad(DIRECT+LOW),
+	lll-lcc(DIRECT+LOW), ames(DEMAND+LOW)
+
+#N	.sco.com, sco
+#F	ucscc.UCSC.EDU
+#O	The Santa Cruz Operation, Inc.
+#C	Keith Reynolds, Steph Marr
+#E	keithr@sco.COM, stephm@sco.COM
+#T	+1 408 425 7222
+#P	PO Box 1900; Santa Cruz, CA; 95061
+#L	36 58 N / 122 3 W city
+#U	amd, uunet
+#R	registered
+#W	keithr@sco.COM (Keith Reynolds); Mon Sep 14 18:23:35 PDT 1987
+#
+sco	.sco.com
+sco=	sco.com
+sco	acermt(DAILY), altos86(DAILY), amd(DAILY), amdcad(DAILY),
+	cbosgd(DAILY), cdl(DAILY), cfg(DAILY), cit-vax(DAILY),
+	dswssw(DAILY), edsel(DAILY), elwood(DAILY), emerald(DAILY),
+	excelan(DAILY), felix(DAILY), ganglio(DAILY), hermix(DAILY),
+	hpsvla(DAILY), hpwcso(DAILY), idx(DAILY), ihnp4(DAILY),
+	itech1(DAILY), itech2(DAILY), jack(DAILY), jandj(DAILY),
+	jsb(DAILY), lalk(DAILY), microsoft(HOURLY), mindcrf(DAILY),
+	mitsu(DAILY), moe(DAILY), ncrpc8a(DAILY), nxsysf(DAILY),
+	oliveb(DAILY), omen(DAILY), paomail(DAILY), pbox(DAILY),
+	pn1(DAILY), qumix(DAILY), scol(HOURLY), sdcrdcf(DAILY),
+	spx30(DAILY), sq(DAILY), ssds(DAILY), sw1d(DAILY),
+	sw1e(DAILY), techops(DAILY), tixgrp(DAILY), trsvax(DAILY),
+	ubvax(DAILY), ucscc(HOURLY), unidot(DAILY), unisys(DAILY),
+	usrgrp(DAILY), uugte(DAILY), uunet(EVENING), wyse(DAILY),
+	zeldev(DAILY)
+
+#N	.scvcs.com, scvcs
+#S	ISI Optimum V, M68020, V3.07
+#F	ames.arc.nasa.gov
+#O	Santa Clara Valley Computer Sciences
+#C	Kent S. Harris, William L. English
+#E	postmaster@scvcs.COM
+#T	408-973-0771
+#P	20600 Valley Green Drive; Cupertino, CA 95014
+#L	37 19 N / 122 2 W (city)
+#U	practic
+#R	applied
+#W	ksh@scvcs.COM (Kent S. Harris) Mon Mar 16 16:26:09 PST 1987
+#
+scvcs	.scvcs.com
+scvcs=	scvcs.scvcs.com
+scvcs	polstra(DEAD), jandj(DIRECT), scampi(DEMAND), isi(DEAD),
+	practic(DIRECT), ames(DIRECT+LOW)
+
+#N	.sgi.com, sgi
+#F	sun.com
+#O	Silicon Graphics Incorporated
+#S	Silicon Graphics 3030; SGI 3.6-
+#C	Ian Clements
+#E	postmaster@sgi.com
+#T	+1 415 960 1980
+#P	2011 Stierlin Road; Mountain View, CA 94043
+#L	37 30 N / 122 02 W
+#U	ames wdl1
+#R	applied
+#W	vjs@sgi.com (Vernon Schryver); Sun Aug 30 12:47:04 PDT 1987
+#
+sgi	.sgi.com
+sgi=	sgi.sgi.com
+sgi=	sgi.com
+sgi	olympus(LOCAL), wdl1(DIRECT), ames(DIRECT), adobe(DIRECT),
+	allegra(DAILY*2), alien(DAILY), blia(HOURLY), decwrl(DIRECT+LOW),
+	mips(HOURLY+HIGH), mtxinu(HOURLY+HIGH), opusys(DAILY*2),
+	prmcad(DAILY*2), pyramid(DIRECT), research(DAILY*2), sun(DIRECT+LOW),
+	unisoft(HOURLY+HIGH), vertigo(DAILY), wavefront(DAILY)
+
+#N	.sun.com, sun
+#F	Sun.COM
+#S	Sun-3 / SunOS 3.2
+#O	Sun Microsystems Inc.
+#C	Bill Shannon,			Bill Nowicki
+#E	sun!shannon, shannon@Sun.COM,	sun!nowicki, nowicki@Sun.COM
+#T	(415) 960-1300
+#P	2550 Garcia Ave., Mountain View, CA 94043
+#L	37 25 44 N / 122 5 49 W
+#U	aeras amdcad decwrl imagen plx wdl1
+#
+#R	registered on Arpanet
+#W	shannon Tue Sep 22 17:07:04 PDT 1987
+#
+sun	.sun.com
+sun=	sun.com
+sun	3comvax(DIRECT), acad(DIRECT), adobe(DIRECT), aeras(DEMAND+HIGH+HIGH),
+	allegra(DEMAND), altos86(DIRECT+LOW), amd(DIRECT),
+	amdahl(DEMAND+HIGH+HIGH), amdcad(DEMAND+HIGH+HIGH), apple(DIRECT+LOW),
+	applicon(DEMAND), arete(DIRECT+LOW), astrovax(DEMAND+LOW),
+	atari(DIRECT), attunix(DEMAND), austsun(DEMAND+HIGH), bellcore(DEMAND),
+	bit(DEMAND), bliton(WEEKLY), bml(DEMAND), bridge2(DIRECT+LOW),
+	cadreri(DEMAND), calma(DIRECT), casetek(DIRECT), cbosgd(DEMAND+HIGH),
+	ccicpg(DEMAND), cdlnctr(DEMAND), centram(DEMAND+HIGH), convex(DEMAND),
+	coraki(WEEKLY), cti(DIRECT), cuvax(DEMAND+LOW+LOW), cv3000(DEMAND+LOW),
+	cvbnet(DEMAND+LOW), daslink(EVENING), dcs(DEMAND), decvax(DEMAND),
+	decwrl(DEMAND+LOW), delphi(WEEKLY), detsun(DEMAND+HIGH), dlb(DIRECT),
+	dual(DEMAND), edsel(WEEKLY), elecarts(DIRECT), elxsi(WEEKLY),
+	fluke(DEMAND), fmiapd(DIRECT), frame(DIRECT+LOW),
+	frametech(DIRECT+LOW), franz(DIRECT+LOW), gandhi(DIRECT),
+	ginny(DEMAND+HIGH), gizmo(WEEKLY), gould(DEMAND), gumbo(WEEKLY),
+	hoptoad(DEMAND), horizon(DEMAND+LOW), hottub(DIRECT),
+	housun(DEMAND+HIGH), hpda(DIRECT), hplabs(DEMAND+LOW), ide(WEEKLY),
+	idi(DEMAND+HIGH+HIGH), ihnp4(DEMAND+LOW), imagen(DEMAND+HIGH+HIGH+LOW),
+	inmet(DEMAND+LOW), intsc(DIRECT), island(DIRECT+LOW), laidbak(DEMAND),
+	lbl-csam(DEMAND+LOW), lbl-unix(WEEKLY), lbolt(WEEKLY),
+	liberty(DEMAND+HIGH), lll-crg(DEMAND+LOW), lll-lcc(DEMAND+LOW),
+	lorien(WEEKLY), lsil(DEMAND+HIGH), mandrill(DEMAND), mcrsun(WEEKLY),
+	mcrware(EVENING), megatest(DIRECT+LOW), metamarks(WEEKLY),
+	microsoft(DEMAND), midas(WEEKLY), mtxinu(DEMAND), nasadc(WEEKLY),
+	netword(DEMAND), nosun(DEMAND+HIGH), notavax(WEEKLY+LOW), nsc(DIRECT),
+	nynex1(DEMAND), oakhill(WEEKLY), ogcvax(DEMAND+LOW), okstate(EVENING),
+	oliveb(DEMAND+HIGH+HIGH), onager(DEMAND+HIGH), opusys(DIRECT),
+	parallax(WEEKLY), phri(DEMAND), pixar(DEMAND), plato(DIRECT),
+	plus5(DEMAND), plx(DEMAND+HIGH+HIGH), portal(DIRECT), pplace(DIRECT),
+	practic(DIRECT), prior(DEMAND), pta(DEMAND+HIGH), ptsfa(DIRECT),
+	pyramid(DIRECT), qubix(EVENING), quintus(WEEKLY), redwood(WEEKLY),
+	rencon(DIRECT), research(DEMAND+LOW), resonex(EVENING),
+	rice(DEMAND+LOW), rtech(DEMAND), ruff(WEEKLY), sara(DIRECT),
+	sdcarl(DEMAND), sdglist(DIRECT+LOW), sequent(DEMAND),
+	sertek(DEMAND+HIGH), sgi(DIRECT), shell(DEMAND), silicon(DIRECT),
+	silvlis(DIRECT), singapura(DEMAND+HIGH), sivax(WEEKLY), ska(DIRECT),
+	sky(DEMAND), skywest(DEMAND), sri-wraith(EVENING), stepper(DIRECT),
+	sunarch(DEMAND+HIGH), sunatl(DEMAND+HIGH), sunaus(DEMAND+HIGH),
+	sunbird(DEMAND+HIGH), sunbow(DEMAND+HIGH), sunburn(DEMAND+HIGH),
+	suncan(DEDICATED), sundc(DEDICATED), suneast(DEDICATED),
+	sunesc(DEDICATED), sunfla(DEMAND+HIGH), sunhunt(DEMAND+HIGH),
+	sunj(DEDICATED), sunjpn(DEDICATED), sunkist(DEMAND+HIGH),
+	sunlakes(DEMAND+HIGH), sunncal(DEMAND+HIGH), sunne(DEDICATED),
+	sunpeaks(DEMAND+HIGH), sunpitt(DEMAND+HIGH), sunport(DEMAND+HIGH),
+	sunrise(DEMAND+HIGH), sunrock(DEMAND+HIGH), suntan(DEMAND+HIGH),
+	suntri(DEMAND+HIGH), sunuk(DEDICATED), sunup(DEMAND+HIGH),
+	sunvcr(DEMAND+HIGH), sunvice(DEMAND+HIGH), tbit2(DEMAND+HIGH),
+	tekchips(DEMAND), texsun(DEDICATED), topo(DIRECT), trwspf(WEEKLY),
+	tsumama(DEDICATED), tsunami(DEDICATED), tundra(DEMAND+HIGH),
+	ucbvax(DEMAND+LOW), umn-cs(DEMAND+LOW), unisoft(DEMAND),
+	utastro(DEMAND+LOW), uworld(DIRECT), valid(WEEKLY), verdix(WEEKLY),
+	vortex(DEMAND+HIGH+HIGH), wdl1(DEMAND+HIGH+HIGH), wrs(DIRECT),
+	xanadu(WEEKLY), xanth(DEMAND), yabbie(WEEKLY), zehntel(DIRECT+LOW),
+	zps(DIRECT)
+
+#N	.ultra.com
+#F	Ames.ARPA
+#O	Ultra Corporation
+#C	Wayne Hathaway, Norm Finn
+#E	wayne@Ultra.COM, norm@Ultra.COM
+#T	+1 408 922 0100
+#P	2140 Bering Drive; San Jose, CA 95131
+#L	37 22 50 N / 121 55 0 W
+#U	ames
+#R	applied
+#W	wayne@Ultra.COM (Wayne Hathaway); Thu Apr  9 16:55:57 PDT 1987
+#
+ultra	.ultra.com
+ultra=	ultra.com
+ultra	ames(DIRECT)
+
+#N	.uop.edu, uop
+#F	ucdavis.ucdavis.edu
+#O	University of the Pacific
+#C	Bill Ford
+#E	billf@uop.edu
+#T	+1 209 946 3028
+#P	Dept of Computer Science, ; Stockton, CA, 95211
+#U	ucdavis cogent
+#R	applied
+#W	hex@uop.edu (Allyn Wade); Fri Jun 26 22:14:55 PDT 1987
+#
+uop	.uop.edu
+uop=	uop.edu
+uop=	uop.uop.edu
+uop	ucdavis(POLLED), retix(POLLED), cogent(DEMAND)
+
+SHAR_EOF
+echo shar: extracting d.usa.co.1
+cat << \SHAR_EOF > d.usa.co.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Sep 20 13:20:15 MDT 1987
+
+#N	.ucar.edu, hao
+#S	
+#O	High Altitude Observatory/NCAR
+#C	Greg Woods
+#E	hao!woods
+#T	(303) 497-1509
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	
+#W	woods 04/02/87
+#U	noao nbires ico oddjob scdpyr boulder ames gatech husc6
+#
+#    NCAR local Ethernet machines; not normally accessible from the outside
+#
+NCARNET = {hao, haovax, hao-hw, hao-is, asp-m, acdpyr, scdpyr, scdsw1,
+	scdsw2, acdurs, aap1, windom}!(LOCAL)
+
+#
+#    local calls; some have penalties due to limited accessiblity
+#
+hao	cires(DIRECT), nbires(DIRECT+4*HIGH),
+	stcvax(DIRECT), udenva(DIRECT), hicntry(DIRECT+4*LOW), 
+	sunpeaks(DIRECT+2*LOW), vianet(DIRECT+3*LOW), chernow(DIRECT+2*LOW),
+	ico(DIRECT), isis(DIRECT+LOW), ascvax(DIRECT+2*LOW),
+	apcieco(DIRECT+4*LOW), ntia(DIRECT), noaasel(DIRECT)
+#
+# special CISCO link to CU-Boulder
+#
+hao     boulder(DEDICATED)
+hao ".colorado.edu"(DEDICATED)
+#
+#    high frequency long distance calls 
+#
+hao noao(DEDICATED), hplabs(HOURLY), oddjob(DEDICATED),
+    gatech(DEDICATED), ames(DEDICATED), rutgers(DEDICATED), husc6(DEDICATED),
+    brl-smoke(DEDICATED)
+#
+#  We talk to the "wrong" solar (at Stanford, solar physics post office)
+# solar(DEDICATED)
+#
+#    other long distance
+#
+hao	menlo70(DAILY), handel(DAILY), 
+	ucsfcgl(DAILY*2), cepu(DAILY*2), uhifa(DAILY*2),
+	usenix(DEAD)
+#
+# we've been having much trouble contacting these sites. These links should
+# not be used unless no other path is available.
+#
+hao     ihnp4(DEAD), dolqci(DEAD)
+
+hao    ".ucar.edu"(LOCAL)
+hao = "hao.ucar.edu"
+hao = "ncar.csnet"
+hao ".csnet"(DEDICATED)
+hao ".arpa"(DEDICATED)
+
+
+
+#N	.isc.com, ico
+#F	seismo.css.gov
+#O	Interactive Systems Corporation
+#C	Doug McCallum
+#E	dougm@ico.isc.com
+#T	303 449-2870
+#P	2950 Wilderness Place, Suite B, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#U	ism780c nbires isis cadnetix
+#R	registered
+#W	dougm@ico.ISC.COM; Sun Apr 12 11:04:53 MST 1987
+#
+ico	.isc.com
+ico	isc.com
+ico =	ico.isc.com
+#
+#	Internal Sites
+ico     haddock(DEMAND), ism780c(DEDICATED), ism780b(DEDICATED)
+#	Local Connections
+ico	hao(DEMAND),
+	nbires(DEMAND), boulder(DEMAND), isis(DEMAND), mongor(DEMAND),
+	vianet(DEMAND), cadnetix(POLLED), raven(POLLED)
+#	Long Distance Connections
+ico	cbosgd(EVENING), interlan(EVENING), sys1(WEEKLY),
+	ut-sally(EVENING)
+
+
+#N	.nbi.com, nbires
+#F	seismo.css.gov
+#O	NBI Inc.
+#C	Brian Atkins
+#E	atkins@nbires.nbi.com, postmaster@nbires.nbi.com
+#T	303-444-5710
+#P	P.O. Box 9001, Boulder CO 80301
+#L	40 02 15 N / 105 14 22 W
+#U	bdaemon boulder cires fred hao ico isis nbisos stcvax vianet
+#R	registered
+#W	dale@nbires.UUCP (Dale Reed); Sun Apr 12 11:11:49 MST 1987
+#
+nbires	.nbi.com
+nbires	nbi.com
+nbires=	nbires.nbi.com
+nbires	allegra(EVENING+HIGH),	amd(EVENING+LOW),	attunix(EVENING+HIGH),
+	bdaemon(DIRECT),	boulder(DIRECT+LOW),	cadnetix(DIRECT),
+	akelei(DIRECT),		cbosgd(EVENING+HIGH),	cires(DIRECT),
+	cisden(DIRECT+LOW),	cornell(EVENING),	handel(DEMAND),
+	ctvax(EVENING),		fred(DIRECT),		galon(DIRECT+LOW),
+	gangue(DIRECT),		hao(DIRECT+LOW),	hicntry(POLLED),
+	ico(DIRECT),		isis(DIRECT),		lbl-csam(EVENING),
+	nbisos(DIRECT),		onecom(DIRECT),		princeton(WEEKLY),
+	pyramid(EVENING),	scgvaxd(EVENING),
+	stcvax(DIRECT+LOW),	ucbvax(EVENING+HIGH),	udenva(DIRECT),
+	unidot(DIRECT),		usenix(EVENING+HIGH),	apache(DIRECT),
+	utah-cs(EVENING+LOW),	ut-ngp(EVENING+LOW),	ut-sally(EVENING),
+	vianet(DIRECT)
+
+
+
+#N	.alphacdc.com
+#F	rutgers.edu
+#O	Alpha Communications Development Corp.
+#C	Cyro Lord, Andrea Lord, Mark Felton
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	2570 Sky Ranch Rd Box 63A, Aurora, Colo.  80011
+#L	39 45 15 N / 104 45 W city
+#U	isis apache embudo taos bigsky
+#R
+#W	08/07/87 scicom!cyrill
+#
+scicom = .alphacdc.com
+scicom = alphacdc.com
+scicom = scicom.alphacdc.com
+scicom  apache(DEMAND), boulder(DEMAND), hao(DIRECT),
+	galon(DEMAND), qetzal(DEMAND), isis(DIRECT),
+	milehi(DEMAND), taos(LOCAL), embudo(DIRECT),
+	bigsky(DAILY), medevac(DEMAND), reo(DEMAND),
+	bldr(DEMAND), peng(DAILY), bilanc(DEMAND)
+
+
+
+SHAR_EOF
+echo shar: extracting d.usa.fl.1
+cat << \SHAR_EOF > d.usa.fl.1
+#  Maintained by spaf@gatech.edu (Gene Spafford)
+#  Last updated Thu Sep 17 10:23:37 EST 1987
+#
+#N	.ccur.com, peora
+#F	uxc.cso.uiuc.edu
+#O	Concurrent Computer Corporation
+#C	Steve Davies, Randy Hendry
+#E	postmaster@peora.ccur.com
+#T	+1 305 850 1040
+#P	2486 Sand Lake Road, Orlando, FL  32809-7642
+#L	28 26 57 N / 81 24 56 W
+#U	ucf-cs codas petsd(L1)
+#W	randy@peora.ccur.com (Randy Hendry); Mon Jul 13 09:33:33 EDT 1987
+peora	.ccur.com
+peora=	peora.ccur.com
+peora	bsdpkh(DIRECT), codas(DIRECT), hoptoad(DEMAND+LOW),
+	pecnos(DEMAND+HIGH), pedsgd(DEMAND), petsd(DEAD), ucf-cs(DIRECT),
+	uiucuxc(DEMAND)
+codas	peora(DIRECT+HIGH+HIGH)
+pecnos	petsd(DEDICATED)
+
+#N	.ge.com, ge-dab, ge-rtp, edison
+#F	seismo.css.gov
+#O	General Electric Company
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4336, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#R	registered
+#R	This map entry contains those .ge.com sites that are functional
+#R	domain gateways.  Other .ge.com uucp hosts are still in the
+#R	u.usa.* maps, for now....
+#U	codas rti 
+#W	jso@edison.GE.COM (John S. Owens); Tue Mar 31 08:22:27 EST 1987
+#
+# Second and Third level domains and gateways:
+ge-dab	.ge.com, .dab.ge.com
+ge-rtp	.ge.com, .rtp.ge.com
+edison	.ge.com, .aco.ge.com
+# Hosts valid as third level domains:
+calma     =	calma.ge.com
+calmasd   =	calmasd.ge.com
+edison    =	edison.ge.com
+ge-dab    =	ge-dab.ge.com
+ge-rtp    =	ge-rtp.ge.com
+gecalma   =	gecalma.ge.com
+proteus   =	proteus.ge.com
+steinmetz =	steinmetz.ge.com
+#
+#	ge-dab
+#S	DEC VAX-11/780; Ultrix-32
+#O	General Electric Simulation and Control Systems Department
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4336, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#U	ge-rtp codas
+#  Our dedicated links
+ge-dab	ge-rtp(DEDICATED)
+#  Our polled connections
+ge-dab  codas(DEMAND), sunfla(DAILY),
+	edison(HOURLY*2), steinmetz(HOURLY*2)
+#
+#	ge-rtp
+#S	DEC Microvax-II; Ultrix-32m
+#O	General Electric Company, Semiconductor Division
+#C	Scott Baeder
+#E	postmaster@rtp.ge.com
+#T	+1 919 549 3663
+#P	P.O. Box 13049, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#U	rti ge-dab
+# direct connections
+ge-rtp	ge-dab(DEDICATED)
+# local calls
+ge-rtp	mcnc(DIRECT+HIGH), rti(DIRECT)
+# long distance GE sites
+ge-rtp	edison(DEMAND)
+# sites we poll
+mcnc	ge-rtp(DAILY/8)
+rti	ge-rtp(DAILY/6)
+#
+#	edison
+#S	DEC VAX-11/785; BRL VAX UNIX (4.2 BSD)
+#O	GEFanuc Automation Corporation, North America
+#C	Bruce Garland, Keith Chambers
+#E	postmaster@edison.ge.com
+#T	+1 804 978 5000
+#P	P.O. Box 8106; Charlottesville, VA 22906
+#L	38 09 N / 078 25 W
+#U	toylnd ge-rtp steinmetz
+# direct connections
+edison	proteus(DEDICATED)
+# local calls
+edison	uvaee(DIRECT), kesmai(DIRECT), toylnd(POLLED)
+# long distance GE sites
+edison	ge-rtp(EVENING), ge-dab(EVENING), steinmetz(DAILY),
+	gecalma(DAILY), calma(DAILY), calmasd(DAILY+LOW),
+	rvsd(EVENING)
+# other long distance sites
+edison	xanth(EVENING), vtiit1(DAILY), vtisr1(DAILY),
+	decuac(DAILY), brl-smoke(DAILY),
+	houxm(DAILY), unipress(DAILY),
+	hpfcla(DAILY), scgvaxd(DAILY)
+#
+# Sites we poll (ensure real and pathalias connectivity)
+kesmai		edison(DAILY)
+xanth		edison(DAILY)
+decuac		edison(DAILY)
+brl-smoke	edison(DAILY)
+scgvaxd		edison(DAILY)
+hpfcla		edison(WEEKLY/2)
+rvsd		edison(WEEKLY)
+gecalma		edison(WEEKLY)
+calma		edison(WEEKLY)
+calmasd		edison(WEEKLY)
+houxm		edison(WEEKLY)
+unipress	edison(WEEKLY)
+
+#N	.harris.com, mishcx
+#F	eddie.mit.edu
+#O	Harris Corp., Computer Systems Division
+#C	Dick Reynolds, Gilbert Pilz
+#E	Postmaster@harris.com
+#T	305-974-1700
+#P	2101 W Cypress Creek Rd.; Fort Lauderdale, FL 33309
+#L	80 09 W / 26 15 N 
+#U	novavax
+#R	registered
+#W	dick@ssd.harris.com (Dick Reynolds); Thu Aug 27 13:47:39 EDT 1987
+#
+mishcx=	.harris.com
+mishcx=	harris.com
+mishcx	hcx1(DIRECT)
+
+SHAR_EOF
+echo shar: extracting d.usa.ga.1
+cat << \SHAR_EOF > d.usa.ga.1
+#  Maintained by spaf@gatech.edu (Gene Spafford)
+#  Last updated Thu Sep 17 10:22:15 EST 1987
+#
+#N	.gatech.edu, gatech
+#F	relay.cs.net
+#O	School of Information and Comp. Sci., Georgia Inst. of Technology
+#C	Jeff Lee
+#E	gatech!postmaster
+#T	+1 404 894 3658
+#P	School of ICS, Georgia Tech, Atlanta, GA, 30332-0280
+#L	33 46 31 N / 84 23 41 W
+#R	We're 128.61.1.1 on the Internet
+#U	bloom-beacon cbosgd dcatla dscatl emory gitpyr gt-cmmsr 
+#U	gt-eedsp gt-stratus gtoscar gtss hao hplabs hubcap itcatl 
+#U	itm linus louie mcnc msdc ncsuvx rebel rutgers ugacs 
+#U	ukme ulysses 
+#W	purdue!spaf (Gene Spafford); Sun Sep  6 15:55:21 EDT 1987
+#
+gatech	.gatech.edu
+gatech=	ics.gatech.edu
+gatech=	gatech.gatech.edu
+gatech=	gatech.edu
+gatech=	gatech.csnet
+#
+#  Significant On-campus links
+#
+gatech	gtss(DEDICATED+15), gt-cmmsr(DEDICATED+15),
+	gt-eedsp(DEDICATED+15), gtoscar(DEDICATED), 
+	sti3b2(DIRECT), ginkgo(DEDICATED+15),
+	snowhite(DEDICATED), strudl(POLLED)
+#
+# Atlanta-area UUCP by phone
+#
+gatech	akgua(DIRECT), atlsqnt(DIRECT), atssc(DIRECT+LOW), auc(DIRECT),
+	cadeta(DIRECT), dcatla(DIRECT), dcc1(DIRECT), dcc2(DIRECT),
+	dscatl(DIRECT), emcard(DIRECT), emory(DIRECT),
+	emoryu1(DIRECT+HIGH), escatl(DEAD), holos0(EVENING),
+	hisata(DIRECT), itcatl(DIRECT+HIGH), itm(DIRECT+LOW),
+	galbp(DIRECT), mdc14(DEAD), msdc(HOURLY),
+	nasfc(EVENING), ncrats(DIRECT),
+	ncsatl(DIRECT), pid(DIRECT+LOW), pyratl(DAILY/3), rdm(DIRECT),
+	rebel(DIRECT+LOW), sbmsg1(DIRECT+HIGH), sbmsg2(DIRECT),
+	sbmsg3(DIRECT), sbmsg4(DEAD), sbmsg5(DEAD),
+	scraps(DAILY/3), sdba(DIRECT),
+	skeeve(DIRECT+LOW), sortac(DIRECT), stiatl(EVENING),
+	sunatl(DIRECT), sysd(DIRECT), ugacs(HOURLY*4), vctvax(DIRECT)
+#
+# TCP/IP UUCP links
+#
+gatech	ames(DEMAND/2), astrovax(DEDICATED+LOW),
+	decvax(DEMAND/2), hao(DEDICATED),
+	harvard(DEDICATED+2*LOW), lll-lcc(DEMAND/2),
+	mcnc(DEDICATED),
+	mit-eddie(DEDICATED+LOW), princeton(DEDICATED+LOW),
+	psuvax1(DEDICATED+LOW), purdue(DEDICATED+LOW),
+	pur-ee(DEDICATED+LOW), rutgers(DEDICATED+LOW),
+	sdcsvax(DEDICATED+LOW), 
+	uiucdcs(DEDICATED+LOW), ut-ngp(DEDICATED+LOW),
+	ut-sally(DEDICATED+LOW)
+#
+# Long Distance phone UUCP links
+#
+gatech  allegra(DEMAND+LOW), amd(DEMAND), amdcad(DEMAND), blnt1(DAILY/2),
+	bonnie(DEMAND+HIGH), cbosgd(DEMAND+HIGH), clyde(DEMAND+2*HIGH),
+	codas(DEMAND+LOW),
+	floyd(DEMAND+HIGH), hoptoad(EVENING), houston(EVENING),
+	hplabs(DEMAND), hubcap(DEMAND), ihnp4(POLLED), isieng(WEEKLY),
+	linus(DEMAND), mcdchg(DEMAND), masscomp(DEMAND),
+	meccts(EVENING), midlyd(EVENING), moss(DEMAND+HIGH),
+	petro(DEMAND), philabs(DEMAND), plus5(POLLED),
+	qantel(DEMAND+2*LOW), rayssd(DEMAND), research(DEMAND),
+	rlgvax(DEMAND), sequel(DEMAND+LOW), svo(WEEKLY),
+	tektronix(DEMAND+LOW), potc(POLLED), uf-cgrl(WEEKLY/2),
+	unmvax(DEMAND), ulysses(DEMAND), usfvax2(DAILY), wucs1(EVENING)
+
+SHAR_EOF
+echo shar: extracting d.usa.hi.1
+cat << \SHAR_EOF > d.usa.hi.1
+# d.usa.hi.1 - pleasant@rutgers.edu - Tue May 26 23:56:03 EDT 1987
+
+#N	.hawaii.edu, uhmanoa
+#F	rutgers.edu
+#O	University of Hawaii
+#C	Torben Nielsen
+#E	torben@uhmanoa.ICS.HAWAII.EDU
+#T	808-948-7420
+#P	Information & Computing Sciences, 2565 The Mall, Honolulu, HI 96822
+#L	21 19 N /157 52 W city
+#U	humu uhifa islenet uhpgvax aloha1 uhccux
+#R	This host gateways all domain based mail to and from UHM.
+#W	Torben N. Nielsen, torben@uhmanoa.ICS.HAWAII.EDU, May-11-87
+#
+# Gateway to the University of Hawaii domain.
+uhmanoa				.hawaii.edu
+uhmanoa=			hawaii.edu
+uhmanoa=			uhmanoa.ics.hawaii.edu
+# At the moment, this is the only viable link between HAWAII.EDU and the
+# external world.
+uhmanoa 		humu(DIRECT)
+SHAR_EOF
+echo shar: extracting d.usa.ia.1
+cat << \SHAR_EOF > d.usa.ia.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Sep 20 13:20:18 MDT 1987
+
+
+SHAR_EOF
+echo shar: extracting d.usa.id.1
+cat << \SHAR_EOF > d.usa.id.1
+
+#N	.inel.gov, egg-id
+#F	uxc.cso.uiuc.edu
+#O	Idaho National Engineering Laboratory
+#C	Linn Hower, Pat Rafferty
+#E	lh1@egg-id.uucp, pr1@egg-id.uucp
+#T	208-526-9353, 208-526-9228
+#P	EG&G Idaho, Inc., tsa e7, 1550 sawtelle, idaho falls, id  83402
+#L	112 04 W / 43 31 N
+#U	ucdavis
+#R	registered with no gateway, uiucuxc is domain mail forwarder
+#R	INEL is currently contracted to EG&G Idaho, Inc.
+#W	10/20/86 MRH from egg-id!lh1; Sat May 23 08:44:26 EDT 1987 ksh
+#
+egg-id	.inel.gov
+egg-id	ucdavis(HOURLY+LOW), ui3(HOURLY+LOW), uiucuxc(HOURLY+LOW)
+SHAR_EOF
+echo shar: extracting d.usa.il.1
+cat << \SHAR_EOF > d.usa.il.1
+#MAP FILE: d.usa.il.1	Sun Sep 27 21:50:56 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.icom.com, icom
+#F	a.cs.uiuc.edu
+#O	Icom Systems, Inc.
+#C	Andrew H. Marrinson
+#E	Icom.Com!andy
+#T	+1 312 506 1444
+#P	3415 N. Kennicott Rd., Arlington Heights, IL 60004
+#L	88 00 W / 42 10 N
+#R	WARNING - our sendmail.cf bites the big one
+#U	datamen ihnp4 zappo tellab5
+#W	Icom.Com!andy; Tue Mar 17 12:09:05 CST 1987
+icom	.icom.com
+icom	icom.com
+icom=	icom.com
+icom	ihnp4(DAILY+LOW), tellab5(DEMAND), datamen(DIRECT), tapa(DIRECT),
+	uiucdcs(EVENING), zappo(DAILY)
+
+#N	.kai.com, kailand
+#F	uxc.cso.uiuc.edu
+#O	Kuck and Associates, Inc.
+#C	Patrick Wolfe
+#E	postmaster@KAI.COM, kailand!postmaster
+#T	217-356-2288
+#P	1808 Woodfield Drive, Savoy, IL 61874
+#L	40 07 N / 88 12 W city
+#R	applied
+#U	uiucuxc
+#W	pat@KAI.COM (Patrick Wolfe); Tue Apr 14 11:13:47 CST 1987
+#
+kailand	.kai.com
+kailand=	kai.com
+kailand		uiucuxc(DAILY)
+
+#N	.nwu.edu, nucsrl
+#F	EECS.NWU.EDU
+#O	Northwestern University
+#C	Jacob Gore, Ernie Woodward
+#E 	gore@EECS.NWU.Edu, ernie@ACCuVAX.NWU.Edu
+#T	312-491-5248, 312-491-4078
+#P 	Northwestern Univ. CSRL, 2145 Sheridan Rd, Evanston, IL 60201
+#L	42 03 33 N / 87 40 32 W
+#R 	applied				-- shouldn't it be "registered" by now?
+#U	chinet
+#W	gore@EECS.NWU.Edu (Jacob Gore); Fri Sep 25 14:25:29 CDT 1987
+#
+nucsrl	.nwu.edu, .eecs.nwu.edu
+nucsrl	nwu.edu, eecs.nwu.edu
+nucsrl=	eecs.nwu.edu
+#
+numusic	.music.nwu.edu
+numusic	music.nwu.edu
+numusic=music.nwu.edu
+#
+nuearth	.earth.nwu.edu
+nuearth	earth.nwu.edu
+nuearth=earth.nwu.edu
+#
+molly	.math.nwu.edu
+molly	math.nwu.edu
+molly=	math.nwu.edu
+#
+#
+nucsrl	ihnp4(DIRECT), numusic(DIRECT-30), molly(DIRECT-30), nuearth(DIRECT-30),
+	chinet(DIRECT), gargoyle(DEDICATED), apcichi(POLLED), nuisp(DIRECT-30)
+#
+numusic ihnp4(DIRECT), nucsrl(DIRECT),  nuearth(DIRECT), molly(DIRECT),
+	nurr(DIRECT), nuisp(DIRECT), goldsho(DIRECT), laidbak(DIRECT),
+	fineart(DIRECT), pyrchi(DIRECT), sunbird(DIRECT)
+#
+molly	ihnp4(DIRECT), numusic(DIRECT), gargoyle(DIRECT), nuearth(DIRECT),
+	nucsrl(DIRECT), nuisp(DIRECT), kenlaw(DIRECT), jay(DIRECT),
+	iitcs(WEEKLY), cbm(POLLED), cbmvax(POLLED)
+#
+nuearth	numusic(DIRECT), ihnp4(DIRECT), molly(DIRECT), nucsrl(DIRECT),
+	nuisp(DIRECT), uicdogs(DIRECT), umix(HOURLY)
+
+SHAR_EOF
+echo shar: extracting d.usa.in.1
+cat << \SHAR_EOF > d.usa.in.1
+#MAP FILE: d.usa.in.1	Sun Sep 27 21:50:58 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.indiana.edu, iuvax
+#S	DEC VAX-8800; Ultrix T2.0-1
+#F	indiana.edu
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall, Bloomington In 47405
+#L	39 10 N / 86 32 W city
+#R	Looking for West Coast NNTP connection.
+#U	bsu-cs inuxc isrnix iucs ndmath rutgers silver
+#W	Steve Mosier <iuvax!mosier>; Fri Sep  4 10:02:37 EST 1987
+#
+iuvax = indiana, indiana.csnet, iuvax.cs.indiana.edu
+iuvax	.indiana.edu
+#
+iuvax	akgua(DEMAND), bsu-cs(DIRECT), cbosgd(DEMAND), hpuinda(DEMAND), 
+	ihnp4(DEMAND+LOW), inuxa(DIRECT), inuxb(DIRECT), inuxc(DIRECT), 
+	inuxd(DIRECT), inuxe(DIRECT), inuxg(DIRECT), inuxh(DIRECT), 
+	inuxj(DIRECT), inuxk(DIRECT), inuxl(DIRECT), inuxm(DIRECT),  
+	inuxn(DIRECT), inuxo(DIRECT), inuxp(DIRECT), isrnix(DIRECT), 
+	iucs(LOCAL), kangaro(DIRECT), ndmath(DIRECT), pyramid(1000), 
+	ssp(DIRECT), sabbagh(DIRECT), silver(DIRECT)
+# TCP uucp connections
+iuvax	mit-hermes(DEDICATED), mit-prep(DEDICATED), pur-ee(DEDICATED), 
+	purdue(DEDICATED), rutgers(DEDICATED), uiucdcs(DEDICATED)
+
+SHAR_EOF
+echo shar: extracting d.usa.la.1
+cat << \SHAR_EOF > d.usa.la.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Sep 20 13:20:20 MDT 1987
+
+
+SHAR_EOF
+#	End of shell archivehivehr: 

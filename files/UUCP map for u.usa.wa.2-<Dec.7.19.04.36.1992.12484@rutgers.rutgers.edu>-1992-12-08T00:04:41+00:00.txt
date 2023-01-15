@@ -1,0 +1,1519 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.wa.2
+: This archive created: Mon Dec  7 19:04:29 1992
+echo shar: extracting u.usa.wa.2
+cat << 'SHAR_EOF' > u.usa.wa.2
+file {u.usa.wa.2}
+# This map is maintained by David Schmidt (davids@isc-br.ISC-BR.COM).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# *PLEASE* follow directions in the README posting for all updates.
+#
+# I attempt to ship updates every two weeks or so, time permitting.
+#
+# Last updated: Fri Dec  4 14:25:39 PST 1992
+#############################################
+
+
+#N      halcyon, halcyon.com
+#S      DEC uVAX-II, ULTRIX 4.1, Waffle
+#O      The 23:00 News and Mail Service
+#C      Ralph Sims
+#E      postmaster@halcyon.com
+#T      +1 206 426 9298
+#P      P.O. Box 555, Grapeview, WA 98546-0555 USA
+#L      47 35 N / 122 20 W
+#R      halcyon.com is the gateway to the halcyon domain;
+#R      halcyon.halcyon.com is a subscription system, contact
+#R      info@remote.halcyon.com for information; login: bbs
+#R      +1 206 382 6245 (382-MAIL); 426 9898 (VOICE ONLY)
+#R      halcyon is directly on the Internet: IP 192.135.191.2
+#U      nwnexus remote
+#W      ralphs@halcyon.com (Ralph Sims); Fri Jul 24 00:01:00 PDT 1992
+halcyon= halcyon.com
+halcyon  .halcyon.com
+halcyon  nwnexus(LOCAL)
+
+#N	hermesa
+#S	386/33 clone; ISC Unix System V R4 v3.0
+#O	Hermes & Associates
+#C	Mark McWiggins
+#E	mark@hermesa
+#T	+1 206 455 2786
+#P	P. O. Box 40357 Bellevue WA 98004
+#L	47 36 N / 122 12 W
+#R
+#W	mark@hermesa (Mark McWiggins); Thu Jun 20 00:18:01 PDT 1991
+#U	amc-gw fnx mcgp1
+#
+hermesa	amc-gw(DIRECT+FAST), fnx(DIRECT), mcgp1(DIRECT)
+
+#N	hiwa61
+#S	IBM PC w/UULINK
+#C	Steve Farowich
+#E	hiwa61!root
+#T	+1 206 643 0162
+#P	3308 - 166th Pl. S.E.; Bellevue, WA  98008
+#L	47 35 N / 122 20 W city
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Wed Nov 25 09:37:39 PST 1992
+#
+hiwa61= hiwa61.com
+hiwa61 nwnexus(DEMAND)
+
+#N      horace
+#S      Macintosh - UUPC 3.0
+#O      What organization???
+#C      David Lee
+#E      horace!dlee
+#T      +1 206 746 6190
+#P      14572 SE 51 ST, Bellevue, WA 98006-3510
+#L      47 40 N / 122 10 W city
+#W      horace!dlee (David Lee); Fri May 29 10:05:00 PDT 1992
+#R      Mine, all mine...
+#
+horace  dsinet(DIRECT)
+
+#N	hplsla
+#S	Hewlett-Packard 9000/850; HP-UX A.B7.00 U
+#O	Hewlett-Packard Lake Stevens Instrument Division
+#C	Dave Tripp
+#E	hplsla!davet
+#T	+1 206 335 2262
+#P	8600 Soper Hill Rd, Everett, Wa. USA 98205-1298
+#L	48 02 N / 122 07 W
+#R	Optional contact - David Reed hplsla!davidr +1 206 335 2460
+#U
+#W	root@hplsla (Dave Tripp); Mon Nov 02 11:44:39 PST 1992
+#
+# Uucp connections:
+hplsla	fluke(DEAD), uw-beaver(DEAD)
+
+#N	hpspkla
+#S	Hewlett-Packard 9000/850; HP-UX A.B3.10 U
+#O	Hewlett-Packard Spokane Division
+#C	Ken Burden
+#E	hpspkla!postmaster
+#T	+1 509 922 4001 x3523
+#P	1620 Signal Drive, Spokane, WA 99220, USA
+#L	47 40 00 N / 117 5 00 W
+#R
+#U	hp-pcd
+#W	root at hpspkla; Sat Jun 17 01:45:03 PDT 1989
+#
+# 	Uucp connections:
+hpspkla	hp-pcd(DEMAND), hplabs(DEMAND), hpfcla(DEMAND),
+	hplsla(DEMAND), hp-sdd(DEMAND), wwc1(DEMAND)
+
+#N	hpubvwa
+#S	HP 9000/845; HP-UX A.08.00 U
+#O	Hewlett-Packard Bellevue Sales Office
+#C	Eldon R. Brown
+#E	hpubvwa!eldonb
+#T	+1 206 643 8822
+#P	P.O. Box C-156, Bellevue, WA 98009-0156
+#L	47 34 51 N / 122 07 76 W
+#R
+#U	mechp
+#W	hpubvwa!eldonb (Eldon R. Brown); Tue Dec  1 03:45:02 PST 1992
+#
+# System domain and aliases:
+hpubvwa = hpubvwa.hp.com
+hpubvwa = hpubvwa.nsr.hp.com
+hpubvwa = bellevue.hp.com
+hpubvwa = bellevue.nsr.hp.com
+#
+# Uucp connections:
+hpubvwa	b-mrda(EVENING), camco(DEMAND), carter(DEMAND),
+	dsinet(DEMAND), grlab(POLLED), hpbeld3(POLLED),
+	kitsapa(POLLED), mechp(POLLED), pacer(DEMAND),
+	pilchuck(DEMAND), pnl-geo(EVENING), scux01(DEMAND),
+	sherpa2(DEMAND), ssc(DEMAND), sseacc(DEMAND),
+	statsci(DEMAND), uw-beaver(DEMAND), vantage(POLLED),
+	wa0uwh(POLLED), weycord(EVENING)
+
+#N	hrsw1
+#S	MicroVAX II; Ultrix 3.1
+#O	Boeing Commercial Airplane
+#C	Tom Dee,Jeff Beck
+#E	ada3!postmaster
+#T	+1 206 237 2866,+1 206 237 2908
+#P	PO Box 3707 MS 96-07  Seattle, WA 98124
+#L	47 36 N / 122 20 W city
+#R	Avionics Software Engineering, New Airplane Development
+#U
+#W	ada3!postmaster (Tom Dee,Jeff Beck); Thurs Sept 28 08:40:59 PDT 1989
+#
+hrsw1	ada3(LOCAL)
+
+#N	hrsw2
+#S	MicroVAX II; VMS 5.1
+#O	Boeing Commercial Airplane
+#C	Tom Dee, Jeff Beck
+#E	ada3!postmaster
+#T	+1 206 237 2866,+1 206 237 2908
+#P	PO Box 3707 MS 96-07  Seattle, WA 98124
+#L	47 36 N / 122 20 W city
+#R	Avionics Software Engineering, New Airplane Development
+#U
+#W	ada3!postmaster (Tom Dee,Jeff Beck); Thurs Sept 28 08:40:59 PDT 1989
+#
+hrsw2	ada3(LOCAL)
+
+#N	.astrosoft.com, hubble
+#F	uunet.uu.net
+#S	DEC LSI-11/23+; 2.9 BSD UNIX
+#O	Astrosoft Corporation
+#C	Dave Jenner
+#E	hubble!postmaster
+#T	+1 206 527 2018
+#P	6920 Roosevelt Way N.E., Suite 365, Seattle, WA 98115
+#L	47 41 22 N / 122 17 30 W
+#U	quick
+#W	hubble!davej (Dave Jenner); Tue Nov  6 21:31:15 PST 1990
+#
+hubble	.astrosoft.com(LOCAL)
+hubble=	astrosoft.com
+hubble	coco(DIRECT), nwnexus(DIRECT), quick(DIRECT)
+
+#N	i-appix
+#S	Apple IIc;Appix v0.00
+#O	InEx Net
+#C	Carl Boernecke
+#E	inex!carlb
+#T	+1 206 672 7361
+#P	8804 220th St. SW, Edmonds, WA  98020
+#L	47 35 N / 122 20 W city
+#U	inex
+#R	System is down until further notice.  All e-mail will
+#R	automatically be re-routed to the correct destination.
+#W	inex!carlb (Carl Boernecke); Mon Nov 02 04:50:32 PST 1992
+#
+i-appix	inex(DEAD)
+
+#N	i-ckee
+#S	i286-16;Microport System V/AT 2.4
+#O	InEx Net and American Eagle Freight Forwarding, Inc.
+#C	Carl Boernecke
+#E	inex!carlb
+#T	+1 206 672 7361
+#P	8804 220th St. SW, Edmonds, WA  98020
+#L	47 35 N / 122 20 W city
+#U	inex
+#R	Connected via a LAN with inex.  Local access only, no incoming
+#R	or outgoing phone lines connected to this system.
+#W	inex!carlb (Carl Boernecke); Mon Nov 02 04:50:32 PST 1992
+#
+i-ckee	inex(LOCAL)
+
+#N	icxn, .icxn.com, icxn.com
+#F	uunet.uu.net
+#S	AST 386C; Interactive 386/ix
+#O	InterConnections, Inc.
+#C	Kevin J. Dunlap
+#E	kjd@icxn.icxn.com
+#T	+1 206 881 5773
+#P	14711 NE 29th Place, Suite 100, Bellevue, WA  98007
+#L	47 36 N / 122 58 W city
+#R
+#W	kjd@icxn.icxn.com (Kevin J. Dunlap); Mon Jun 10 12:57:12 PDT 1991
+#U	seaeast.wa.com
+#
+icxn	.icxn.com(LOCAL)
+icxn=	icxn.com
+icxn	uunet(DEMAND), neda(DIRECT)
+
+#N	iea, f10.n346.z1.fidonet.org
+#O	Inland Empire Archive
+#C	Jeff Albrecht
+#E	iea!postmaster
+#T	+1 509 624 6798
+#P	W. 1005 Ninth Ave. Suite 202, Spokane, WA 99204
+#L	47 40 20 N / 117 05 40 W
+#U	comtch
+#W	stjhmc!ddodell (David Dodell); Mon Apr 13 22:00:00 MST 1992
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+iea=	iea.fidonet.org, f10.n346.z1.fidonet.org
+iea	comtch(HOURLY)
+
+#N	iftccu
+#S	Sequent Symmetry S81; DYNIX 3.0.18
+#O	Boeing Computer Services - 747 Integrated Functional Test
+#C	Rick Bressler
+#E	iftccu!bressler
+#T	+1 206 342 1554
+#P	P.O. Box 3707, M/S 0P-37, Seattle, Washington  98124
+#L	47 59 N / 122 14 W city
+#W	bressler@iftccu.boeing.com (Rick Bressler); Thu Oct 10 18:15:14 PDT 1991
+#U	bcstec
+#
+iftccu=iftccu.ca.boeing.com
+iftccu	bcstec(LOCAL), iftprod(LOCAL), b-mrda(EVENING)
+
+#N	immunex
+#O	Immunex R & D Corporation
+#C	Theresa Farrah
+#E	immunex!root
+#T	+1 206 587-0430
+#P	51 University St.; Seattle, WA  98101
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 13:36:22 PDT 1992
+#
+immunex= immunex.wa.com
+immunex nwnexus(DEMAND)
+
+#N      inex
+#S      AT&T 3B2/310;AT&T UNIX System V Rel. 3.2
+#O      InEx Net
+#C      Carl Boernecke
+#E      inex!carlb
+#T      +1 206 672 7361
+#P      8804 220th St. SW, Edmonds, WA  98020
+#L      47 35 N / 122 20 W city
+#U      fnx
+#R      Public access BBS with e-mail and limited USENET feeds.
+#R      Looking for UUCP connections, write for more info.
+#W      inex!carlb (Carl Boernecke); Sat Nov 28 15:24:12 PST 1992
+#
+inex=	inex.wa.com
+inex    eskimo(DEMAND), fnx(DIRECT), i-ckee(LOCAL), nwnexus(DIRECT)
+
+#N	innova
+#S	NeXT
+#C	Jim Black
+#E	innova!jim
+#T	+1 206 324 3240
+#P	957 - 18th Ave. E.; Seattle, WA  98112
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Fri May 29 13:36:22 PDT 1992
+#
+innova= innova.wa.com
+innova	nwnexus(DEMAND)
+
+#N	.intek.com, intek.com, intek01
+#S	Sys Technology 386/20; AT&T Unix System V/386, v3.2.1
+#O	Intek (Integration Technologies, Inc.)
+#C	Mark McWiggins
+#E	mark@intek.com
+#T	+1 206 455 9935x107 (voice) +1 206 455 9934 (fax)
+#P	1400 112th Ave SE #202 Bellevue WA 98004 USA
+#L	47 36 N / 122 12 W
+#R
+#W	mark@intek.com (Mark McWiggins); Fri Mar  6 15:24:09 PST 1992
+#U
+#
+intek01		.intek.com
+intek01=	intek.com, intek01.intek.com
+intek01		amc-gw(DIRECT), esca(DIRECT), mcgp1(DEAD), quick(DAILY),
+			<uunet>(DIRECT+FAST), usnv1(DAILY/6), novatel(DEAD),
+			hermesa(DEAD)
+
+#N	.intermec.com, intermec
+#S	Sun 3/160; SunOS 4.1.1
+#O	Intermec Corporation
+#C	Jay Schlegel
+#E	intermec!jay
+#T	+1 206 348-2600x6878
+#P	6001 36th Avenue West, Everett, Wa. USA 98203
+#L	47 59 N / 122 14 W
+#R	registered
+#U	pilchuck fluke
+#W	intermec!jay (Jay Schlegel); Fri Jul 19 10:54:14 PDT 1991
+#
+intermec	.intermec.com(LOCAL)
+intermec=	intermec.com
+intermec	pilchuck(HOURLY), fluke(HOURLY), mdisea(HOURLY),
+		thebes(HOURLY), gtisqr(EVENING)
+
+#N      inw
+#S	486/Interactive V 3.2 2.2.1
+#O      Impression Northwest
+#C      Ray Johnson
+#E      ray@inw
+#T      +1 206 328 2770
+#P      2001 22nd Ave South, Seattle, WA 98144
+#L      47 35 N / 122 21 W
+#U
+#W      ray@inw (Ray Johnson); Thu Mar 01 08:00:00 PDT 1992
+#
+inw     scenic(HOURLY), scenices(HOURLY), ttech(DAILY)
+
+#N	ipc
+#S	DEC VAX 4000-300; VMS 5.4-2
+#O	IPC Pension Services Company, Inc.
+#C	William Shing
+#E	ipc!postmaster
+#T	+1 206 343 2333
+#P	P.O. Box 2389, Seattle, WA 98111
+#L	47 36 32 N / 122 20 12 W
+#R	Running DECUS uucp V1.2 (send mail for details) and ANU News 5.9C
+#U	thebes
+#W	ipc!william (William Shing); Tue May 14 10:30 PST 1991
+ipc	eskimo(DIRECT), ncm(DIRECT), thebes(DIRECT),
+	zlf(DIRECT)
+
+#N	iroc
+#S	Apollo
+#O	Boeing Commercial Airplane
+#C	Tom Dee,Jeff Beck
+#E	ada3!postmaster
+#T	+1 206 237 2866,+1 206 237 2908
+#P	PO Box 3707 MS 96-07  Seattle, WA 98124
+#L	47 36 N / 122 20 W city
+#R	Avionics Software Engineering, Central Division
+#U
+#W	ada3!postmaster (Tom Dee,Jeff Beck); Thurs Sept 28 08:40:59 PDT 1989
+#
+iroc	ada3(LOCAL)
+
+#N	.isc-br.com, isc-br
+#O	ISC-Bunker Ramo, An Olivetti Company
+#C	David Schmidt
+#E	postmaster@isc-br.isc-br.com
+#T	+1 509 927 5479
+#P	E. 22425 Appleway, Liberty Lake, WA 99019
+#L	47 40 20 N / 117 05 40 W
+#U	ewu tau-ceti bunker
+#R
+#W	davids@isc-br.isc-br.com (David Schmidt); Tue Jan 28 08:10:53 PST 1992
+#
+isc-br	.isc-br.com
+isc-br=	isc-br.isc-br.com
+#
+# 	These are OLD aliases, included only because people are still
+#	using them!
+#
+# 	Please do NOT use them.  Use isc-br.isc-br.com.
+#
+isc-br	.iscs.com
+isc-br=	iscuva.isc-br.com, isc-br.iscs.com, iscuva.iscs.com
+#
+isc-br	<uunet>(DEMAND), tau-ceti(LOCAL),
+	chronos(DEMAND), ewu(DEMAND), oliveb(DEMAND)
+
+#N	isipc
+#S	SCO Unix System V
+#O	Industrial Systems, Inc.
+#C	Alex Endzell
+#E	isipc!root
+#T	+1 206 481 6325
+#P	18720 142nd Avenue, NE, Woodinville, WA  98072
+#L	47 45 N / 122 09 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Fri Dec 15 08:42:18 EST 1989
+#U
+#
+isipc	uunet(DEMAND)
+
+#N	ist.wa.com
+#S	Solbourne
+#O	Information Systems Technologies
+#C	S. Gary Cotterill
+#E	ist.wa.com!root
+#T	+1 206 644-7441
+#P	13621 S.E. 19th St.; Bellevue, WA  98005
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 21 11:39:24 PDT 1992
+#
+ist.wa.com nwnexus(DEMAND)
+
+#N	itr
+#O	Information Technology Research
+#C	John Callahan
+#E	itr!root
+#T	+1 206 224-7410
+#P	P.O. Box 9892; Seattle, WA  98109-0892
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 13:36:22 PDT 1992
+#
+itr= itr.wa.com
+itr nwnexus(DEMAND)
+
+#N	jami
+#S	Amiga 2500; AmigaDos 1.3
+#O	Jim's Amiga
+#C	Jim Tollefson
+#E	jami!jimt
+#T	+1 206 234 7520
+#P	P.O. Box 24346, M/S 6M-49, Seattle, WA 98124
+#L	47 36 N / 122 7 W
+#R
+#U	voodoo
+#W	jami!jimt (Jim Tollefson); Mon Dec 18 08:22:29 PST 1989
+#
+jami	voodoo(DAILY/2), bcsfse(DAILY/2)
+
+#N      jazzie, .jazzie.wa.com
+#S      Generic 386/sx
+#O      Jazzie Systems
+#C      Sean Shapira
+#E      postmaster@jazzie.wa.com
+#T      +1 206 322 4742
+#P      1107 25th Ave E., Seattle, WA 98102
+#L      47 35 N / 122 20 W city
+#W      sds@jazzie.wa.com (Sean Shapira); Wed Jul 24 02:15:39 PDT 1991
+#
+jazzie  .jazzie.wa.com
+jazzie  =jazzie.wa.com
+jazzie  nwnexus(DAILY), mccs(HOURLY*4), polari(HOURLY*4)
+
+#N	jhgrud
+#S	Intel 386; Esix 5.3.2d
+#O	Ms. Electron, Inc, Seattle, WA
+#C	Norm Ahlquist
+#E	norm@mselectron.COM
+#T	+1 206 325 5740
+#P	2827 Boyer Avenue East, Seattle, Washington  98102
+#L	47 38 48N / 122 18 58W
+#U	gtenmc
+#R	registered
+#W	joe@gtetele.com (Joe Kelsey); Mon May 13 13:26:25 PDT 1991
+#
+jhgrud	.mselectron.com
+jhgrud=	mselectron.com
+jhgrud	gtenmc(DIRECT+FAST)
+
+#N	johnny5
+#S	Sun SparcStation 1+; SunOS 4.1.1
+#O	J5 Research
+#C	Joseph F. Garvey
+#E	johnny5!postmaster
+#T	+1 206 481 8023
+#P	17215 Gravenstein Rd., Suite B, Bothell, Wa., 98012-9132
+#L	47 48 N / 122 12 W
+#R
+#W	johnny5!garvey (Joseph F. Garvey); Thu Mar  5 22:04:25 PST 1992
+#U	dyndata mdisea quick ssc
+#
+johnny5	dsinet(DEAD),
+	dyndata(DIRECT),
+	mdisea(DIRECT+FAST),
+	ole(DEAD),
+	quick(DIRECT+FAST),
+	ssc(DIRECT+FAST)
+
+#N	julia
+#O	Connect Software
+#C	Alan Katz
+#E	julia!root
+#T	+1 206 451 4742
+#P	6742 - 185th Ave. N.E.; Suite A; Redmond, WA  98052
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Tue Aug 18 11:51:59 PDT 1992
+#
+julia= connect.wa.com
+julia nwnexus(DEMAND)
+
+#N	kimbro
+#S	AMI 386-16; SCO System V Release 3.2 v2
+#O	Home System of D. Brian Kimmel
+#C	D. Brian Kimmel
+#E	kimbro!postmaster
+#T	+1 206 937 5742
+#P	4100 SW Edmunds St #205,  Seattle, WA 98116
+#L	47 36 N / 122 19 W city
+#R	Home system
+#U	ars2, camco
+#W	kimbro!briank (D. Brian Kimmel); Tue Apr 26 19:00:00 PST 1992
+#
+kimbro	ars2(DIRECT+FAST),
+	camco(DIRECT+FAST),
+	polari(DAILY+FAST),
+	shambala(DAILY+FAST)
+
+#N	kolvir
+#S	Motorola 386; Xenix System V/386 2.3.2
+#O	Friends Of The Don-Buddah
+#C	Don Glover, the younger
+#E	kolvir!root
+#T	+1 206 286 8824
+#P	424 1/2 1st Ave W., Seattle,  WA 98119
+#L	47 37 N / 122 30 W city
+#R
+#U
+#W	kolvir!root (Don Glover, the younger) ; Sat Mar 14 19:00:00 PDT 1992
+#
+kolvir	polari(DAILY/5), eskimo(DAILY/5), borg(DEMAND), toy(DAILY)
+
+#N	kopachuk
+#S	AT&T 3B2-400  AT&T Unix 3.1
+#O	Tacoma Screw Products, Inc.
+#C	David Breneman
+#E	tacoma!dcb
+#T	+1 206 572 3444
+#P	2001 Center Street, Tacoma, WA 98409
+#L	47 14 05 N / 122 32 28 W
+#R	Dedicated to helping spread netnews in south Puget Sound
+#W	dcb@tacoma (David Breneman); Thu Aug 13 16:05:00 PST 1992
+#U	stephsf rosedale imsinc seanews
+#
+kopachuk	stephsf(EVENING),
+		tacoma(DEDICATED),
+		rosedale(DEMAND),
+		imsinc(DAILY+LOW),
+		seanews(DAILY+LOW),
+		riceroni(DEDICATED)
+
+#N	ktc832a
+#S	HP 9000/832; HPUX 8.0
+#O	Key Tronic Corporation
+#C	Jerry Allen
+#E	ktc832a!root
+#T	+1 509 927 5270
+#P	MS 148; P.O. Box 14687 Spokane, WA 99214-0687
+#L	47 39 N / 117 14 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Sep  1 10:02:47 EDT 1992
+#U
+#
+ktc832a	uunet(DEMAND)
+
+#N	l5comp
+#S	Stride Micro 440 (68010); UniStride 2.1
+#O	L5 Computing
+#C	Scott Turner
+#E	l5comp!scotty
+#T	+1 206 743 0781
+#P	12311 Maplewood Avenue; Edmonds, WA 98020 USA
+#L	47 53 13 N / 122 19 14 W
+#R	Uunet replaced stride & stride1 as this site's external contact points
+#W	l5comp!scotty (Scott Turner); Tue Oct 18 08:27:51 PDT 1988
+#U	uunet
+#
+l5comp	uunet(EVENING), dwpc(WEEKLY)
+
+#N	larch
+#S	Ultrix
+#O	Weyerhaeuser Corp.
+#C	Scott Davis
+#E	larch!root
+#T	+1 206 924 6999
+#P	Tacoma, WA
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Tue Jun  9 11:38:06 PDT 1992
+#
+larch= larch.wa.com
+larch nwnexus(DEMAND)
+
+#N      leahi
+#F	uunet.uu.net
+#O      Data I/O Coropration
+#S      SUN 3/60  Sun OS 4.1.1_U1
+#C      Jim Bachesta
+#E      uunet!pilchuck!leahi!bachesta,bachesta@data-io.com
+#T      +1 206 867 6813
+#P      10525 Willows Road N.E. Redmond WA 98073
+#L	47 40 N / 122 07 W city
+#U      pilchuck
+#W      bachesta@data-io.com (Jim Bachesta); Tue Apr  7 13:47:58 PDT 1992
+#R
+#
+leahi	pilchuck(DEMAND+FAST),
+	galileo(DEMAND+FAST)
+
+#N	lexsoft
+#S	IBM PC
+#O	LEX Software Systems, Inc.
+#C	Tom Chester
+#E	lexsoft!root
+#T	+1 206 522 2292
+#P	9665 N.E. Timberlane Ave.; Winslow, WA  98110
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 13:36:22 PDT 1992
+#
+lexsoft= lexsoft.wa.com
+lexsoft nwnexus(DEMAND)
+
+#N      lgis11, .seattle.gov
+#F      uunet.uu.net
+#O      City of Seattle
+#S      SUN 4/75; SUNOS 4.1.3
+#C      Rick Preston
+#E      lgis11!postmaster
+#T      +1 206 684 3857
+#P      1111/2360,1015 3rd Avenue, Seattle, WA 98104-1198
+#L      47 7 N / 122 5 W
+#U      neda
+#W      lgis11!flp (Rick Preston); Wed Oct  15 08:03:10 PDT 1992
+#
+# seattle.gov is a registered domain (not yet, djs)
+#lgis11  .seattle.gov
+#lgis11 = lgis11.seattle.gov
+#
+# principal and/or well known connections
+lgis11  uunet(EVENING), polari(DIRECT)
+
+#N      liebat
+#S      486/33 PC Clone; DOS 5.0 with UUPC/extended
+#O      Home system
+#C      Otto K. Liebat
+#E      liebat!otto
+#T      +1 206 944 1489
+#P      11301 NE 7th Street, GG-2, Vancouver, WA, 98684
+#L      46 38 N/ 122 29 W city
+#U      clark
+#W      liebat!otto (Otto K. Liebat); Mon Mar 30 20:13:00 PST 1992
+#
+liebat  clark(DAILY)
+
+#N	linqdev
+#S	GATEWAY 2000 486-25; SCO Xenix 386 2.3.1
+#O	INTERLINQ Software Corporation
+#C	Darren Selvage
+#E	linqdev!darren
+#T	+1 206 827 1112
+#P	10230 NE Points Dr., Ste 200, Kirkland, WA, 98033
+#L	42 33 00 N / 122 20 00 W
+#R	Restricted access site.  News & limited mail feed.
+#W	linqdev!darren (Darren Selvage); Tue Nov 13 16:57:52 PST 1990
+#U	ole
+#
+linqdev	ole(DEMAND)
+
+#N	lithos
+#O	Golder & Associates
+#C	Warren Jones
+#E	lithos!root
+#T	+1 206 883-0777
+#P	4104 - 148th Ave. N.E.; Redmond, WA  98052
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 13:36:22 PDT 1992
+#
+lithos= lithos.wa.com
+lithos nwnexus(DEMAND)
+
+#N      local
+#S      80386; COMPAQ DOS 3.31; Waffle
+#O      Local Gateway
+#C      Ralph Sims
+#E      postmaster@local.halcyon.com
+#T      +1 206 426 9298
+#P      E. 2520 Mason-Benson Rd, Grapeview, WA 98546 USA
+#L      47 20 00 N / 122 55 30 W
+#R      Private system - testbed for Waffle
+#U      halcyon
+#W      ralphs@halcyon.com (Ralph Sims); Fri July 24 01:00:00 PDT 1992
+local=  local.halcyon.com
+local   remote(DIRECT+FAST)
+
+#N      locus
+#S      80386; COMPAQ DOS 3.31; Waffle
+#O      The Center
+#C      Ralph Sims
+#E      postmaster@locus.halcyon.com
+#T      +1 206 426 9298
+#P      E. 2520 Mason-Benson Rd, Grapeview, WA 98546 USA
+#L      47 20 00 N / 122 55 30 W
+#R      Private system - future gateway
+#U      halcyon
+#W      ralphs@halcyon.com (Ralph Sims); Fri Jul 24 08:00:00 PDT 1992
+locus=  locus.halcyon.com
+locus   remote(DIRECT+FAST)
+
+#N	lorbit
+#S	Commodore-Amiga; AmigaDOS V1.3/AmigaUUCP V1.13D
+#O	LOW ORBIT: Science and Fiction
+#C	R'ykandar Korra'ti
+#E	lorbit!editor
+#T	+1 206 528 0948
+#P	5206 20th Ave NE, Seattle, WA 98105-3313
+#L	47 36 N / 122 20 W (city)
+#R	LOW ORBIT magazine and my personal system; Amiga running AmigaDOS.
+#U
+#W	lorbit!editor (R'ykandar Korra'ti); Mon Aug 5 17:58:52 PDT 1991
+#
+lorbit	polari(HOURLY)
+
+#N      lribob
+#S      IBM PC; MS-DOS 5.0
+#O      Lawson & Reay, Inc.
+#C      Mark Reay
+#E      lrisys!postmaster
+#T      +1 206 574 8266
+#P      2011 Grant, Vancouver, WA 98660
+#L      45 38 20 N / 122 40 15 W
+#U      lrisys
+#R      Robert Lawson's Personal System
+#W      lrisys!mark (Mark Reay); Wed Aug 21 13:00:00 PDT 1991
+#
+lribob	lrisys(DEMAND)
+
+#N	lrifido, f126.n105.z1.fidonet.org
+#S	IBM PC; MS-DOS 5.0
+#O	Lawson & Reay, Inc.
+#C	Mark Reay
+#E	lrisys!postmaster
+#T	+1 206 574 8266
+#P	1311 N.E. 134th Street, Suite B, Vancouver, WA 98685
+#L	45 43 32 N / 122 39 28 W
+#U	lrisys
+#R	Fidonet Gateway System - (1:105/126)
+#W	stjhmc!ddodell (David Dodell); Sun Oct 27 09:30:00 MST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+lrifido	= lri.fidonet.org, f126.n105.z1.fidonet.org
+lrifido	lrisys(LOCAL)
+
+#N      lrimark
+#S      IBM PC; MS-DOS 5.0
+#O      Lawson & Reay, Inc.
+#C      Mark Reay
+#E      lrisys!postmaster
+#T      +1 206 574 8266
+#P      11402 N.E. Conifer Drive, Vancouver, WA 98662
+#L      45 41 49 N / 122 33 02 W
+#U      lrisys
+#R      Mark Reay's Personal System
+#W      lrisys!mark (Mark Reay); Wed Aug 21 13:00:00 PDT 1991
+#
+lrimark	lrisys(DEMAND)
+
+#N	lrisys
+#S	IBM PC; MS-DOS 5.0
+#O	Lawson & Reay, Inc.
+#C	Mark Reay
+#E	lrisys!postmaster
+#T	+1 206 574 8266
+#P	1311 N.E. 134th Street, Suite B, Vancouver, WA 98685
+#L	45 43 32 N / 122 39 28 W
+#U	clark
+#R	Also Fidonet node 1:105/126 - BBS access (206) 574-8287
+#W	lrisys!mark (Mark Reay); Wed Aug 21 13:00:00 PDT 1991
+#
+lrisys	clark(WEEKLY), lrifido(DEMAND), lrimark(DEMAND), lribob(DEMAND)
+
+#N	lump
+#C	Larry Osterman
+#E	lump!root
+#T	+1 206 455-3505
+#P	Kirkland, WA  98033
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 14:36:22 PDT 1992
+#
+lump= lump.wa.com
+lump nwnexus(DEMAND)
+
+#N	mango
+#S	IBM 386OX; Dos 5.0
+#O	Individual
+#C	Jeffrey Collyer
+#E	mango!root
+#T	+1 206 767 2773
+#P	808 NE 5th St., North Bend, WA 98045
+#L	47 29 N / 121 47 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Jan  2 13:22:09 EST 1990
+#U
+#
+mango	uunet(DEMAND)
+
+#N	manutius
+#S	Sun 3/60; SunOS 4.0.3
+#O	Aldus Corp.
+#C	Richard Gordon
+#E	manutius!root
+#T	+1 206 343 7565
+#P	411 1st Ave. South, Seattle, WA 98104-2871
+#L	47 35 N / 122 20 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Sep  5 16:53:54 EDT 1991
+#U
+#
+manutius	uunet(DEMAND)
+
+#N	mccaw
+#F	nwnexus.wa.com
+#S	Sun SparcStation IPC
+#O	McCaw Cellular Communications, Inc.
+#C	Armoun Forghan
+#E	armoun@mccaw.com
+#T	+1 206 828 8017
+#P	5400 Carillon Point, Kirkland, WA, 98033, USA
+#L	47 39 18 N / 122 12 24 W
+#R	This map entry _replaces_ mcgp1.
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	nwnexus!edm (Ed Morin); Thu Aug 13 08:53:37 PDT 1992
+#U
+#
+mccaw	.mccaw.com
+mccaw	mccaw.com
+mccaw	nwnexus(DEMAND+FAST)
+
+#N	mccs
+#S	AT&T 3B1 (UNIX-PC 7300); System V 3.51m
+#O	MCCS Enterprises
+#C	James W. Van Horn
+#E	mccs!postmaster
+#T	+1 206 329 0961
+#P	1800 Boylston Ave.  Suite 402
+#L	47 37 20 N / 122 19 W
+#W	mccs!azar (Jim Van Horn); Tue Jul  9 20:55:01 PDT 1991
+#
+mccs	camco(DIRECT),
+	jazzie(HOURLY*4+LOW)
+
+#N	mcgp1
+#S	AT&T 3B2-600; UNIX System V Release 3.2.1
+#O	McCaw Cellular Communications, Inc.
+#C	Armoun Forghan
+#E	mcgp1!postmaster
+#T	+1 206 828 8017
+#P	5400 Carillon Point, Kirkland, WA, 98033, USA
+#L	47 39 18 N / 122 12 24 W
+#R	Map entry submitted by Northwest Nexus Inc.
+#R	This machine should be removed from the maps at some point.
+#W	nwnexus!edm (Ed Morin); Wed Aug 26 07:18:43 PDT 1992
+#U
+#
+#   POLLED means they call us
+#
+mcgp1	cell-one(DEAD), eskimo(DEAD), nwnexus(DEAD),
+	polari(DEAD), ssc(DEAD), sunup(DEAD), thebes(DEAD)
+
+#N	.mdd.comm.mot.com, .MDI.COM, mdisea
+#F	motgate.mot.com, uunet.uu.net
+#S	Sun 4/65; SunOS 4.1.1
+#O	Motorola Inc., Mobile Data Division
+#C	Tim Rosmus, Harrison Lau
+#E	tim@mdd.comm.mot.com, lau@mdd.comm.mot.com
+#T	+1 206 487 1234
+#P	19807 North Creek Parkway, Bothell, WA 98011
+#L	47 46 N / 122 10 W
+#U	mdivax1 uw-coco mcdchg nwnexus johnny5 pilchuck
+#W	tim@mdd.comm.mot.com (Tim Rosmus); Mon Oct  5 10:23:15 PDT 1992
+#
+# New Motorola Peer to Peer domain name
+mdisea  .mdd.comm.mot.com
+mdisea = mdd.comm.mot.com
+# Old uucp domain
+mdisea  .mdi.com
+mdisea = mdi.com
+#
+mdisea  uw-coco(DIRECT+FAST),   dyndata(DIRECT+FAST),   intermec(HOURLY+FAST),
+        johnny5(DIRECT+FAST),   mcdchg(DEMAND),         mdivax1(LOCAL),
+        neda(DIRECT+FAST),      pilchuck(DEMAND+FAST),  puget(DIRECT+FAST),
+        sima(POLLED),           sunup(DIRECT),          uunet(DAILY/4),
+        zircon(DIRECT+FAST)
+
+#N	microsoft
+#S	486/50 ; XENIX 3.0
+#O	Microsoft
+#C	Dave Pond
+#E	microsoft!davepo
+#T	+1 206 882 8080
+#P	One Microsoft Way, Box 97017, Redmond, WA 98052-6399
+#L	47 37 N / 122 12 W city
+#R
+#U
+#W	microsoft!davepo (Dave Pond); Thu Nov 04 14:52:07 PST 1992
+#
+microsoft	uw-beaver(DIRECT), decvax(DAILY), decwrl(DAILY),
+		elwood(DAILY), fluke(DAILY), scol(DAILY), apex(DAILY),
+		sco(DAILY), trsvax(DAILY), ubc-cs(DAILY), vortex(DAILY),
+		msdial(DAILY), sybase(DAILY), sun(DAILY), attunix(DAILY),
+		att(DAILY), uslunix(DAILY), usl(DAILY), phoenix(DAILY),
+		gssc(DAILY), gw3com(DAILY), retix(DAILY), fester(DAILY),
+		excelan(DAILY), oliveb(DAILY), intelca(DAILY), intelnw(DAILY),
+		wylbur(DAILY), paomail(DAILY), mfocus(DAILY),penta(DAILY),
+		beast(DAILY), nanosoft(DAILY), lwpi(DAILY), radley(DAILY),
+		cctb(DAILY), msmail(DAILY), msmail1(DAILY), mm30t(DAILY),
+		acme(DAILY), sensual(DAILY), spinnaker(DAILY), caladan(DAILY),
+		mips(DAILY), zds-ux(DAILY), spoon(DAILY), acropolis(DAILY),
+		gomer(DAILY), apple(DAILY), pitstop(DAILY), arcade(DAILY),
+		jazzie(DAILY), xopusw(DAILY), skibum(DAILY), lhpc(DAILY),
+		bollox(DAILY), slapgate(DAILY), macrohard(DAILY),
+		monotypo(DAILY), mrmagi(DAILY), storm(DAILY), pacvax(DAILY),
+		mcrafts(DAILY), wagged(DAILY), dtt(DAILY),
+
+#N      minos
+#S      Sun SLC; SunOS 4.1.1
+#O      JPM consulting
+#C      Jon Mandrell
+#E      minos!jon
+#T      +1 206 788 9754
+#P      17504 314th Avenue N.E., Duvall, WA 98019
+#L      47 46 0 N / 121 57 30 W
+#R      My personal system.
+#U
+#W      minos!jon (Jon Mandrell); Tue Nov  3 15:27:25 PST 1992
+#
+minos   amc-gw(HOURLY),
+	amc(HOURLY),
+	cobra(DAILY/2),
+	derfdom(DAILY/2),
+	picarefy(DAILY/2)
+
+#N	monowave
+#S	Sun 4/360, Sunos 4.1.1
+#O	Monowave Partner, L.P.
+#C	Elaine Tsiang
+#E	monowave!root
+#T	+1 206 285 8218
+#P	1818 Westlake Ave N Suite 330 Seattle, WA  98109
+#L	47 36 N 122 19 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Mon Sep 14 16:55:04 EDT 1992
+#U
+#
+monowave	uunet(DEMAND)
+
+#N	morpho
+#S	IBM PC RT; AIX 2.2.1
+#O	North American Morpho Systems, Inc.
+#C	Erik J.P. Vollemaere
+#E	morpho!usenet
+#T	+1 206 383 3617
+#P	1145 Broadway  Suite 1200  Tacoma, WA  98402
+#L	47 15 N / 122 27 W
+#R
+#U	amc-gw
+#W	erik!morpho (Erik Vollemaere); Tue Dec 17 09:38:06 PDT 1990
+#
+morpho	amc-gw(DAILY)
+
+#N	motsea
+#S	Motorola sys 11/31; unix sysV/68 r3v2
+#O	Motorola Semiconductor Products, Inc.
+#C	Mark Konopacky
+#E	motsea!mark
+#T	+1 206 454 4160
+#P	1750 112th Avenue NE Suite C228, Bellevue, WA 98004
+#L	122 8 W / 47 42 N
+#U
+#R
+#W	motsea!mark(Mark Konopacky); Fri Dec  4 09:18:30 PST 1987
+#
+motsea	motptd(DAILY), motsj1(DAILY), apple(DAILY),
+	oophost(DAILY)
+
+#N	mouthers
+#C	Douglas P. Kent
+#E	mouthers!root
+#T	+1 206 455-3505
+#P	Seattle, WA  98122
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 14:36:22 PDT 1992
+#
+mouthers= mouthers.wa.com
+mouthers nwnexus(DEMAND)
+
+#N      mtbaker
+#S      Cache Computers 386-40; System V rel 3.2
+#O      tfm associates
+#C      Stephen G. Diercouff
+#E      mtbaker!sgd
+#T      +1 206 733 5721
+#P      P.O. Box 5084, Bellingham, WA 98227-5084
+#L      48 46 15 N / 122 28 00 W
+#R
+#U      bigfoot nyssa seaeast tfm wobble
+#W      mtbaker!sgd(Stephen Diercouff); Wed Jul 22 23:17:57 PDT 1992
+#
+mtbaker bigfoot(LOCAL),
+	eskimo(WEEKLY),
+	novax(LOCAL),
+	nyssa(LOCAL),
+	seaeast(DAILY),
+	tfm(DIRECT),
+	wobble(LOCAL),
+	zfs(DAILY)
+
+#N	mtk
+#S	DEC VAX 8250; ULTRIX 3.0
+#O	Mannesmann Tally Corp.
+#C	Kerry Allman
+#E	mtk!postmaster
+#T	+1 206 251 5500
+#P	8301 South 180th Street, Kent, WA 98032
+#L	47 26 24 N / 122 13 40 W
+#R
+#W	mtk!kerry (Kerry Allman); Mon May  8 10:27:16 PDT 1989
+#U
+#
+mtk	thebes(DEMAND)
+
+#N	n0
+#S	Sun
+#O	Nintendo of America
+#C	Brian Meyer
+#E	n0!root
+#T	+1 206 861-2708
+#P	4820 - 150th Ave. N.E.; Redmond, WA  98052
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu May 28 14:56:11 PDT 1992
+#
+n0=	n0.noa.com, noa.com
+n0	.noa.com
+n0	nwnexus(DEMAND)
+
+#N	nanosoft
+#S	Generic 386 box; XENIX System V
+#O	David Perlin - UNIX/PC Consulting
+#C	David Perlin
+#E	nanosoft!davep
+#T	+1 206 634 0186
+#P	1902 N 44th St. Seattle, WA 98103
+#L	47 40 N / 122 07 W [city]
+#R
+#U
+#W	nanosoft!davep (David Perlin); Thu Aug  2 21:49:29 PDT 1990
+#
+nanosoft	microsoft(DEMAND), tera(DEMAND)
+
+#N	ncm
+#S	VAX 11/730, 4.3bsd
+#O	Northwest Computer Maintenance, Inc.
+#C	Stan Helewicz
+#E	ncm!postmaster
+#T	+1 206 646 6000
+#P	1331 118th Avenue SE, Bellevue, WA  98004
+#L	47 33 N / 122 10 W
+#U
+#R	everyone polls us for now
+#W	bossert@Thalatta.COM (John Bossert); Fri Mar 25 14:01:03 PST 1988
+#
+ncm	fluke(POLLED), thebes(POLLED)
+
+#N	.ncr.com, ncrsea, seattle.ncr.com
+#S	NCR Tower32/600; UNIX SYS V.3
+#O	NCR Corp., Western Washington District
+#C	Dennis M. Dooley
+#E	ncrsea!postmaster or postmaster@ncrsea.Seattle.NCR.COM
+#T	+1 206 643 4150
+#P	15400 S.E. 30Th Place, Bellevue, WA  98007
+#L	47 33 50 N / 122 7 30 W
+#R
+#U	thebes
+#W	ncrsea!dmdc(Dennis M. Dooley); Mon Nov  9 09:14:31 PST 1992
+#
+#
+#  ncrsea is a secondary gateway for the Seattle.NCR.COM domain.
+#
+ncrsea	= ncrsea.seattle.ncr.com
+ncrsea	.seattle.ncr.com, .ncr.com, seattle.ncr.com
+#
+#  Local sites include:
+#
+ncrsea	thebes(DEMAND), camco(DEMAND)
+ncrsea	us0774tb(DEMAND)	# NCR Seattle Primary Gateway
+#
+#  Non-local ncr sites include:
+#
+ncrsea	ncrcae(DAILY+HIGH)	# Columbia.NCR.COM gateway
+
+#N	nds
+#S	Everex 386/20; SCO unix System V
+#O	Northwest Digital Systems
+#C	Brian Dockter
+#E	nds!brian
+#T	+1 206 524 0014
+#P	P.O.Box 15288, Seattle, WA 98115
+#L	47 36 N / 122 19 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Jul  2 15:17:42 EDT 1990
+#U
+#
+nds	uunet(DEMAND)
+
+#N	neda
+#S	386 PC Interactive Unix 2.2
+#O	Tele-Voice
+#C	Mohsen Banan
+#E	neda!mohsen
+#T	+1 206 644 8026
+#P	17005 SE 31st Place, Bellevue, WA 98008
+#L	47 36 N / 122 11 W city
+#R
+#W	mohsen@neda.com (Mohsen Banan); Sun Aug 18 23:26:05 PDT 1991
+#U
+#
+neda    .neda.com
+neda=   neda.neda.com
+neda    uunet(DEMAND)
+
+#N	neopath
+#S	Sun 3/80
+#O	NeoPath
+#C	Doug Carlton
+#E	neopath!root
+#T	+1 206 455 5932
+#P	1750 - 112th Ave. B-101; Bellevue, WA  98004
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Fri Jul 24 13:18:28 PDT 1992
+#
+neopath= neopath.wa.com
+neopath nwnexus(DEMAND)
+
+#N	novax
+#S	AT&T 3b0 (No VAX here)
+#O	dlu UNIX Consulting
+#C	Douglas Urner
+#E	dlu@wobble
+#T	+1 206 676 5759
+#P	1613 Moore Street, Bellingham, WA  98226
+#L	48 45 00 N / 122 27 50 W
+#W	dlu@wobble (Doug Urner); Tue Apr  9 18:14:15 PDT 1991
+#U	mtbaker wobble
+#
+novax	wobble(DIRECT), mtbaker(LOCAL)
+
+#N	nsrvan
+#S	DEC MicroVAX 3100; VMS V5.5
+#O	National Systems & Research Co
+#C	Ethan VanMatre
+#E	nsrvan!postmaster
+#T	+1 206 693 1810
+#P	2119 se Columbia Way suite 280, Vancouver, WA 98661
+#L	45 38 N / 122 28 W city
+#R	Running DECUS uucp V1.x (send mail to jeh@dcs.simpact.com for details)
+#R	and ANU News 5.9C(soon)
+#U
+#W	sysevm@nsrvan.vanc.wa.us (Ethan VanMatre); Mon Apr 06 08:33:48 PDT 1992
+#F	clark.edu
+#
+nsrvan	.nsrvan.vanc.wa.us
+nsrvan	= ralph.nsrvan.vanc.wa.us
+nsrvan	= nsrvan.vanc.wa.us
+nsrvan	opo(DAILY), clark(DAILY)
+
+#N	nwfocus
+#F	nwnexus.wa.com
+#S	DEC VAX 3600; Ultrix 4.1
+#O	Northwest Nexus Inc.
+#C	Ed Morin
+#E	edm@nwnexus.wa.com
+#T	+1 206 455-3505
+#P	P.O. Box 94; Bothell, WA  98041-0094
+#L	47 35 N / 122 20 W city
+#R	Registered
+#R	We are a public access *Internet* site; inquiries welcome.
+#R	Our main dialin number is a Seattle prefix (621).
+#W	edm@nwnexus.wa.com (Ed Morin); Thu Sep 10 19:35:56 PDT 1992
+#
+nwfocus= nwfocus.wa.com
+nwfocus	nwnexus(LOCAL), nwpassage(LOCAL), halcyon(LOCAL)
+
+#N	nwnexus
+#F	nwnexus.wa.com
+#S	DEC VAX 3600; Ultrix 4.1
+#O	Northwest Nexus Inc.
+#C	Ed Morin
+#E	edm@nwnexus.wa.com
+#T	+1 206 455 3505
+#P	P.O. Box 94; Bothell, WA  98041-0094
+#L	47 35 N / 122 20 W city
+#R	Registered
+#R	We are a public access *Internet* site; inquiries welcome.
+#R	Our main dialin number is a Seattle prefix (621).
+#W	edm@nwnexus.wa.com (Ed Morin); Thu Dec  3 21:38:02 PST 1992
+#
+nwnexus= wa.com, nwnexus.wa.com
+nwnexus	.wa.com(LOCAL)
+nwnexus abwunx(DEMAND),
+	abyss.wa.com(DEMAND),
+	adonis(DEMAND),
+	<apex>(DEMAND),
+	apgeom(DEMAND),
+	beast.wa.com(DEMAND),
+	brat(DEMAND),
+	caladan(DEMAND),
+	calvin(DEMAND),
+	camano(DEMAND),
+	camco(DEMAND),
+	chernobog(DEMAND),
+	cjsysv(DEMAND),
+	curlew(DEMAND),
+	edsbel(DEMAND),
+	<eisley>(DEMAND),
+	enelyn(DEMAND),
+	esca(DEMAND),
+	fangio(DEMAND),
+	fantasy(DEMAND),
+	fylz(DEMAND),
+	gstream(DEMAND),
+	halcyon(LOCAL),
+	<hitech>(DEMAND),
+	hiwa61(DEMAND),
+	hubble(DEMAND),
+	ihs(DEMAND),
+	immunex(DEMAND),
+	inex(DEMAND),
+	innova(DEMAND),
+	ist.wa.com(DEMAND),
+	itr(DEMAND),
+	jazzie(DEMAND),
+	jhgrud(DEMAND),
+	julia(DEMAND),
+	larch(DEMAND),
+	lexsoft(DEMAND),
+	lithos(DEMAND),
+	lump(DEMAND),
+	mccaw(DEMAND),
+	monitor.wa.com(DEMAND),
+	mouthers(DEMAND),
+	n0(DEMAND),
+	neopath(DEMAND),
+	nwfocus(LOCAL),
+	nwpassage(LOCAL),
+	ole(DEMAND),
+	omar(DEMAND),
+	oneworld(DEMAND),
+	orpheus.wa.com(DEMAND),
+	ourbeach(DEMAND),
+	pacrim(DEMAND),
+	pinus(DEMAND),
+	pismo(DEMAND),
+	polstra(DEMAND),
+	prusik(DEMAND),
+	psds(DIRECT),
+	redaje(DEMAND),
+	reddog(DEMAND),
+	redfish(DEMAND),
+	remote(DEMAND),
+	sacs(DAILY*7),
+	saros(DEMAND),
+	scenic(DEMAND),
+	<seanews>(DEMAND),
+	seattle(DEMAND),
+	shalah(DEMAND),
+	sounds(DEMAND),
+	ssc(DEMAND),
+	storm(DEMAND),
+	teclogic(DEMAND),
+	tehanu(DEMAND),
+	thrall(DEMAND),
+	tidbits(DEMAND),
+	twiki(DEMAND),
+	uunet(DIRECT),
+	vantage(DEMAND),
+	vdem(DEMAND),
+	wor-mein(DEMAND),
+	zlf(DEMAND)
+
+#N	nwpassage
+#F	nwnexus.wa.com
+#O	Northwest Nexus Inc.
+#C	Ed Morin
+#E	edm@nwnexus.wa.com
+#T	+1 206 455-3505
+#P	P.O. Box 94; Bothell, WA  98041-0094
+#L	47 35 N / 122 20 W city
+#R	Registered
+#R	We are a public access *Internet* site; inquiries welcome.
+#R	Our main dialin number is a Seattle prefix (621).
+#W	edm@nwnexus.wa.com (Ed Morin); Thu Sep 10 19:38:12 PDT 1992
+#
+nwpassage= nwpassage.wa.com
+nwpassage nwnexus(LOCAL), nwfocus(LOCAL), halcyon(LOCAL)
+
+#N	nyssa
+#S	Sun 3/160; SunOS 4.1.1
+#O	WA7IPX
+#C	Bob Finch
+#E	nyssa!postmaster
+#T	+1 206 671 6214
+#P	1217 Toledo Street, Bellingham, WA  98226-2118
+#L	48 44 24 N / 122 25 45 W
+#R	ampr IP address 44.24.0.210
+#U	henson lingua7 mtbaker ve7apu
+#W	nyssa!bob (Bob Finch); Tue Aug 25 22:11:06 PDT 1992
+#
+nyssa	.wa7ipx.ampr.org
+nyssa	= nyssa.wa7ipx.ampr.org
+nyssa	adric(LOCAL), henson(HOURLY),
+	lingua7(EVENING), mtbaker(HOURLY), ve7apu(DIRECT),
+	vistar(DIRECT), wot(POLLED)
+
+#N	.cdac.com, ole
+#S	Sparcstation-2/GX; SunOS 4.1.1 Rev B
+#O	Cascade Design Automation Corporation
+#C	Bruce Yanagida, Larry Parsons, Scott Axworthy
+#E	postmaster@ole.cdac.com
+#T	+1 206 643 0200
+#P	3650 131st Ave SE, Suite 650, Bellevue, WA  98006
+#L	47 38 30 N / 122 16 40 W
+#U	nwnexus quick thebes linqdev ssc rwing renfield
+#W	yanagida@ole.cdac.com (Bruce Yanagida); Mon Jul 20 12:53:17 PDT 1992
+#
+ole	.cdac.com
+ole=	cdac.com
+ole	linqdev(DIRECT+LOW),
+	nwnexus(DIRECT+FAST),
+	picco(POLLED+FAST),
+	polari(DIRECT+FAST),
+	quick(DIRECT+FAST),
+	renfield(DIRECT+FAST),
+	rwing(DIRECT+FAST),
+	ssc(DIRECT+FAST),
+	thebes(DIRECT+FAST)
+
+#N	olympix
+#S	i386/33 AMI MB; Interactive UNIX 2.2
+#O	Olympix Software
+#C	Cal Crowley
+#E	olympix!postmaster
+#T	+1 206 352 5916
+#P	1921 Puget St. NE, Olympia, WA 98506
+#L	47 2 41 N / 122 54 20 W
+#R
+#U
+#W	olympix!postmaster (Cal Crowley); Wed Mar 20 11:57:31 PST 1991
+#
+olympix	carter(WEEKLY)
+
+#N	omar
+#S	NeXT
+#C	Jonathan Weeks
+#E	omar!root
+#P	Bellevue, WA
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Sat Jun 20 16:58:03 PDT 1992
+#
+omar= omar.wa.com
+omar nwnexus(DEMAND)
+
+#N	onager
+#S	AT386 Clone; Interacive UNIX 2.2
+#O	Onager Systems
+#C	Ray A. Jones
+#E	onager!ray
+#T	+1 206 885 3568
+#P	17530 NE 80th St., Suite 110, Redmond, WA 98052
+#L	47 38 N / 122 10 W
+#R
+#U
+#W	onager!ray (Ray A. Jones); Fri Jul 06 15:41:01 PDT 1990
+#
+onager	camco(DIRECT)
+
+#N	oneworld.wa.com, oneworld
+#S	NeXT 030' Cube; Mach OS2.1
+#O	Oneworld Computing Resources
+#C	Charles Cooper
+#E	oneworld!charles
+#T	+1 206 453 8766
+#P	1826 101st PL NE, Bellevuue, WA   98004
+#L	47 36 N /122 11 W city
+#R
+#U
+#W	charles@oneworld.wa.com(Charles Cooper); Wed Feb 5 20:06 PST 1992
+#
+oneworld   .oneworld.wa.com
+oneworld=  oneworld.wa.com
+oneworld  nwnexus(DIRECT+FAST)
+
+#N	oophost
+#S	Motorola VME/10; Unix System V
+#F	uxc.cso.uiuc.edu
+#O	OOPSTAD (SmallTalk Application Developer's Association)
+#C	Carl Nelson, Bob Campbell
+#E	oophost!chn, oophost!bobc
+#T	+1 206 252 6897, +1 206 486 4572
+#P	PO Box 1565, Everett, WA 98206-1565
+#L	47 59 N / 122 14 W city
+#U	motsea fluke sunup
+#R	This site is run by Carl Nelson & Associates Inc.
+#W	oophost!bobc (Bob Campbell); Thu Oct  8 13:16:45 PST 1987
+oophost	motsea(HOURLY), fluke(DEMAND), sunup(DEMAND+LOW+LOW)
+
+#N	openwx, networx.com
+#S	SUN 4; SunOS 4.1.1
+#O	NetWorx Inc.
+#C	Christopher A. Stewart
+#E	postmaster@networx.com
+#T	+1 206 646 1862
+#P	11911 NE 1st Street, Suite 302, Bellevue, Wa., 98005
+#L	47 36 41 N / 120 11 01 W
+#U	uupsi4
+#W	stewart@networx.com(Christopher A. Stewart); Thu Nov  5 10:41:46 PST 1992
+#
+openwx	networx.com
+openwx	= networx.com
+openwx	uupsi4(DIRECT),
+	eskimo(DIRECT)
+
+#N	opo
+#S	bits and pieces of micro vaxen using VMS 5.3-1
+#O	OuterPlane Observatory
+#C	Ethan VanMatre
+#E	opo!evm
+#T	+1 206 254 2310
+#P	17104 ne 35th cir vancouver wa 98682
+#L	44 39 N / 122 29 54 W
+#R	a small observatory for photoelectric photometry
+#W	evm@opo.vanc.wa.us (Ethan VanMatre); Mon Apr 06 08:34:58 PDT 1992
+#U
+#F	clark.edu
+#
+opo	.opo.vanc.wa.us
+opo	= luna.opo.vanc.wa.us
+opo	= opo.vanc.wa.us
+opo	nsrvan(DAILY), clark(DAILY)
+
+#N	orcas
+#S	AT&T 3B2 - 600
+#O	US WEST NewVector
+#C	Bruce Hanson
+#E	orcas!root
+#T	+1 206 644 4932
+#P	3350  161st Ave. SE, Bellevue, WA 98008
+#L	47 35 N / 122 20 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu Jan  07 17:05:27 EST 1988
+#U
+#
+orcas	uunet(DEMAND)
+
+#N	other
+#S	Next; Mcch 3.0
+#O	Otherwise
+#C	Bill Tschumy
+#E	other!bill
+#T	+1 206 647 9436
+#P	1501 Lowe Ave., Bellingham, WA 98226
+#L	48 45 N / 122 29 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Aug 31 14:22:28 EDT 1992
+#U
+#
+other	uunet(DEMAND)
+
+#N	ourbeach
+#S	Sun
+#O	M.B.G. Enterprises Inc.
+#C	Gene Hamilton
+#E	ourbeach!root
+#T	+1 206 787 1132
+#P	P.O. Box 2237; Lynnwood, WA  98036
+#L	47 35 N / 122 20 W city
+#R	Map entry submitted by Northwest Nexus Inc.
+#W	edm@nwnexus.wa.com (Ed Morin); Thu Oct 29 09:54:20 PST 1992
+#
+ourbeach= ourbeach.wa.com
+ourbeach nwnexus(DEMAND)
+
+#N	oz
+#S
+#O	Telematic Products
+#C	John Hansen
+#E	oz!johnh
+#T	(206) 882-5000
+#P	Kirkland, WA
+#L	47 41 N / 122 12 W city
+#R	Contact phone has been changed to +1 206 485 3400   djs
+#R	John Hansen is now at (609)866-1000
+#W	Date faked by davids@isc-br.isc-br.com; Thu Jan  1 00:00:00 PST 1987
+#
+oz	beesvax(DAILY)
+
+##### End of Map #####
+SHAR_EOF
+:	End of shell archive
+exit 0
+

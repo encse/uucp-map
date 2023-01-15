@@ -1,0 +1,721 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nh.2
+: This archive created: Wed Jul 15 16:52:17 1992
+echo shar: extracting u.usa.nh.2
+cat << 'SHAR_EOF' > u.usa.nh.2
+file {u.usa.nh.2}
+#	start of u.usa.nh.2: Wed Jul 15 11:14:44 EDT 1992
+#	maintained by nemap@harvard.edu
+#	Please send all updates/new-entries
+#	to: uucpmap@rutgers.{uucp,edu}
+
+#N	phunt
+#S	Macintosh IIci, MacOS 7.0.1
+#O	Howtek, Inc.
+#C	Phil Hunt
+#E	phunt!postmaster
+#T	+1 603 882-5200 x262
+#P	21 Park Ave., Hudson, NH 03051
+#L	42 26 N / 071 16 W city
+#U	decvax mv
+#R	Mac receiving and posting mail and news.
+#W	phunt!phil (Phil Hunt) ; Wed Jan 22 09:06:39 EST 1992
+#
+phunt = phunt.mv.com
+phunt  mv(DIRECT+FAST+DAILY/12)
+
+#N	poverty
+#S	Zenith SuperSport SX - DOS 5.0 - UUPC/Extended
+#O	Poverty Lane
+#C	Peter Schmitt
+#E	poverty!pete@dartmouth.edu
+#T	+1 603 646 2085
+#P	RR1 Box 629, Poverty Lane, West Lebanon, NH 03784-9501
+#L	72 17 W / 43 42 N
+#R
+#W	poverty!pete (Peter Schmitt); Mon Jul  6 11:50:10 EDT 1992
+#U	dartvax
+#
+poverty  dartvax(DIRECT)
+
+#N	prri
+#S	386/33 - SCO UNIX
+#O	Prostart Recruiting Resources Inc.
+#C	Ron Ulrich
+#E	prri!root
+#T	+1 603 893 7772
+#P	264 No. Broadway, Suite 205, Salem, NH  03079
+#L	42 43 N / 71 11 W
+#R	mail node
+#W	rmkhome!rmk (Rick Kelly); Tue Mar 10 23:08:52 1992
+#U	av8r
+#
+prri	av8r(HOURLY)
+
+#N	savax
+#S	DEC VAX-11/785; Ultrix 32 V3.0
+#O	Lockheed Sanders, Inc.
+#C	Steve Slater
+#E	savax!postmaster
+#T	+1 603 885 9298
+#P	MER 24-1548, C.S. 2034, Nashua, NH 03061-2034
+#L	42 49 N / 71 29 W
+#R	uunet dropped 8/9/91 - nemap@harvard
+#W	savax!slater (Steve Slater); Wed May 30 17:20:09 EDT 1990
+#U	sii
+#
+# Local network.
+savax   elrond(DEAD)
+#
+# Local calls.
+savax   decvax(HOURLY), sii(EVENING), siia(EVENING)
+#
+# Long distance calls.
+savax   tcpvms(DEMAND), dspvax(DAILY), leadsv(DAILY), ulowell(DAILY)
+
+#N	shannon
+#S	shannon 5000LC
+#O	Shannon Computer
+#C	Wilbur Harvey
+#E	shannon!root
+#T	+1 603 875 3800
+#P	RFD#1, Box 168B, Alton, NH 03809
+#L	43 27 N / 71 13 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Sep  4 16:53:40 EDT 1991
+#U
+#
+shannon	uunet(DEMAND)
+
+#N	shecora
+#S	Hyundai PC/AT; MS-DOS 3.3; EZ-E-Mail Mailbox
+#O	Shecora Assocates Inc.
+#C	Darryl Wagoner
+#E	darryl@lemuria.mv.com
+#T	+1 603-672-0736
+#P	P.O. Box 7604, Nashua, NH 03060
+#L	
+#U	lemuria
+#R	Company node for EZ-E-Mail
+#W	darryl@lemuria.mv.com (Darryl Wagoner); Thu Feb  8 22:26:12 EST 1990
+#
+shecora	lemuria(DIRECT)
+ 
+
+#N	sii
+#S	AT&T 7300; UNIX System V.3.2
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, David Dick
+#E	sii!meg, sii!drd
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#R	
+#U	
+#W	sii!meg (Marta Greenberg); Thu Jan 31 09:32:20 EST 1991
+#
+# sites at our office (serial links)
+sii	siia(LOCAL)
+#
+# incoming calls only
+sii	decvax(POLLED), savax(POLLED),
+	trixie(POLLED),wgc386(POLLED), zinn(DAILY)
+#
+sii	elrond(DEAD)
+elrond	sii(DEAD)
+
+#N	siia
+#S	Arete 1100; System 5 Unix
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, David Dick
+#E	siia!meg, siia!drd
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#R	member of .MV.COM
+#U	<mv> balrog
+#W	siia!meg (Marta Greenberg); Tue Apr 28 07:38:52 EDT 1992
+#
+# our domain address
+siia=	siia.mv.com
+#
+# sites at our office (serial links)
+siia	sii(LOCAL)
+#
+# sites we call
+siia	<ditka>(WEEKLY), lemuria(DIRECT), <mv>(DIRECT),
+	wgc386(DIRECT), zinn(DIRECT)
+#
+# incoming calls only
+siia	balrog(DAILY), munin(WEEKLY), pophyn(DAILY)
+#
+# corrections: broken connections
+siia	websta(DEAD)
+websta	siia(DEAD)
+#
+
+#N	siiupc
+#S	AT&T 7300; UNIX System V.3.2
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, David Dick
+#E	siiupc!root
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#U
+#W	siia!meg (Marta Greenberg); Thu Feb  1 13:14:51 EST 1990
+#
+siiupc	siia(DEAD)
+
+#N	skippy
+#S	DEC Professional 380; Venix V2.0
+#C	Bob Surtees
+#E	skippy!ras
+#T	(603)4244673
+#P	22 Ministerial Drive, Merrimack, NH 03054
+#L	42 51 N 71 25 W
+#R	
+#W	skippy!ras; Fri Mar 03 17:08:00 PM 1989	
+#U	decvax
+#
+# local calls
+skippy	decvax(EVENING)
+
+#N	spare
+#S	IBM-PC clone; MS-DOG V3.3 & Waffle 1.64
+#O	personal system
+#C	Ross Miller
+#E	spare!ross
+#T	+1 603 898 9210
+#P	11 Townsend Ave, Salem, NH 03079
+#L	42 47 N / 71 12 W city
+#R	
+#U
+#W	spare!ross	(Ross Miller); Fri Jan 25 00:30:00 EST 1991
+spare    fasfax(DAILY+EVENING)
+
+#N	srbci
+#S	AT&T 6386
+#O	SRB Consulting Inc.
+#C	Steven Berry
+#E	srbci!srb
+#T	+1 603 894 4500
+#P	1 Stiles Rd, P.O. Box 440, Salem, NH 03079
+#L	42 47 N / 71 12 W city
+#R
+#W	nemap@harvard.edu; Sun Jun  2 15:25:49 EDT 1991
+#U
+#
+srbci	siia(DEMAND)
+
+#N	staghome
+#F	
+#S	Amiga 500; AmigaDOS 1.3.2; AmigaUUCP 1.13
+#O	Private
+#C	Stephen Edsen
+#E	staghome!oskar
+#T	+1 603 588 3476
+#P	P. O. Box 315, Greenfield, NH 03047
+#U	hern
+#W	andre@hern.stonemarche.org (Andre Wood); Mon Dec 23 23:51:09 EST 1991
+#
+staghome = staghome.stonemarche.org
+staghome hern(DEMAND)
+
+#N	stauff
+#S	'386 PC ; MS-DOS Waffle
+#O	The Stauff Family
+#C	Edward L. Stauff
+#E	stauff!ed
+#T	+1 603 891 2262
+#P	18 Killian Drive, Nashua NH 03062
+#L	42 43 30 N / 71 29 15 W
+#R
+#U	gozer
+#W	stauff!ed (Ed Stauff); Mon Aug 12 14:22:09 EDT 1991
+#
+stauff	gozer(DAILY)
+
+#N	stile
+#F	decvax.dec.com
+#S	Amiga 2500; AmigaDOS 2.04; AmigaUUCP 1.15D
+#O	Stonemarche Network Co-op
+#C	Mark Eklof
+#E	stile!me
+#P	Brookline, NH 03033
+#L	42 44 N / 71 42 W
+#U	decvax bear hern
+#W	stile!me (Mark Eklof); Wed Apr 29 23:45:12 EST 1992
+#
+stile = stile.stonemarche.org
+# bi-directional links
+stile	hern(DEMAND), decvax(DEMAND), bear(DEMAND), thaedra(DEMAND)
+
+#N	summa4
+#S	Sun 4/330; SunOS 4.1.1
+#O	Summa Four Inc.
+#C	Scott Babb
+#E	admin@summa4.mv.com
+#T	+1 603 625 4050
+#P	25 Sundial Ave, Manchester, NH 03103
+#L	42 56 N / 71 26 W City
+#U	zinn
+#W	admin@summa4.mv.com (Scott Babb); Thu Aug 22 09:47:50 EDT 1991
+#
+# Domain address
+summa4 = summa4.mv.com
+#
+# We call
+summa4	zinn(DIRECT+FAST)
+
+#N	suntau
+#S	AT&T 3B1 - UNIX System V rel 3.51a
+#O	Suntau Computing
+#C	Forrest R. Aldrich, Jr.
+#E	suntau!forrie
+#T	+1 603 749 2600
+#P	PO Box 1798, Dover, NH  03820
+#L	43 15 N / 70 52 30 W
+#R	Polling methods to change soon. For now, unhtel is best to mail to. 
+#U	unhtel eci
+#W	suntau!forrie (Forrest Aldrich); Mon Jul 24 16:15:52 EST 1989
+#
+suntau	unhtel(DIRECT)
+
+#N	thaedra
+#S	Macintosh IIcx; System 7.0
+#O	Home of William Kubeck
+#C	William Kubeck
+#E	guillaume@thaedra
+#T	+1 603 889 4808
+#P	27 Peaslee Rd., Merrimack, NH 03054-4516
+#L	42 49 N / 71 31 W
+#R	Running UUPC
+#U	stile
+#W	andre@hern.stonemarche.org (Andre Wood); Mon Dec 23 23:20:00 EST 1991
+#
+thaedra	= thaedra.stonemarche.org
+thaedra	stile(DEMAND)
+
+#N	.tlogics.com, tlogics
+#F	mv.mv.com
+#S	DEC Micro-VAX 2; VMS V5.3
+#O	TerraLogics, Inc.
+#C	Matthew L. Goldworm
+#E	postmaster@tlogics.com
+#T	+1 603 889 1800
+#P	114 Daniel Webster Highway South, Nashua, NH 03060
+#L	42 44 05 N / 071 29 08 W
+#R	Running DECUS uucp V1.3A and ANU News 6.0
+#W	postmaster@tlogics.com (Matt Goldworm); Thu Feb 27 20:11:00 EST 1992
+#
+#	requests to info@tlogics.com for information.
+#
+tlogics	.tlogics.com(LOCAL)
+tlogics= tlogics.com, tlogics.tlogics.com, mlg100.tlogics.com
+#	
+tlogics	mv(DIRECT), decvax(DIRECT)
+
+#N	topdown
+#S	UNIX 4.3 BSD/SunOS
+#O	Topdown Design Solutions
+#C	Stephen Ives
+#E	topdown!root
+#T	+1 603 888 8811
+#P	71 Spit Brook Road, Suite 306, Nashua, NH 03060	
+#L	42 45 N / 71 28 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Mon Nov 11 09:43:20 EST 1991
+#U
+#
+topdown	uunet(DEMAND)
+
+#N	tosspot
+#S	Intel 80386 ; Waffle UUCP Ver. 1.65
+#O	Ludus Associates Incorporated
+#C	Lee Reynolds
+#E	lee@tosspot.uucp
+#T	+1 603 878 4077
+#P	Box #73B Granite Avenue, Greenville NH 03048
+#L	42 46 02 N / 71 48 46 W
+#R	Federal information databases.
+#U	wang
+#W	lee@tosspot.uucp (Lee Reynolds) Mon Feb 17 17:53:16 EDT 1992
+#
+tosspot wang(DAILY)
+
+#N	trashbin
+#S	Masscomp MC5500; RTU (UNIX) 3.1C
+#O	Background Processes
+#C	Alan Groupe
+#E	trashbin!alang
+#T	+1 603 672 9150
+#P	PO Box 6347, Nashua, NH 03062
+#L	42 49 N / 71 41 W
+#R	
+#W	trashbin!alang (Alan Groupe);Mon Jul 31 20:33:55 EDT 1989
+#U
+#
+trashbin	ubbs-nh(DIRECT)
+
+#N	trixie
+#S	Gould PN6080; UTX 2.1 (4.3BSD/NFS)
+#O	Gould Inc., Computer Systems Division
+#C	Jonathan Fraser
+#E	trixie!postmaster
+#T	+1 603 625 4001
+#P	21 Stephanie Drive, Bedford NH 03102
+#L	42 56 N / 71 26 W city
+#R	This site is a development shop for Gould
+#W	trixie!fraser (Jon Fraser); Sat Feb 11 14:29:04 EST 1989
+#R	ki dropped trixie, sii picked them up, 12/11/89 - nemap@harvard
+#U
+#
+# most mail goes out at least hourly
+trixie gould(DIRECT), sii(DAILY)
+
+#N	true
+#S	Bell Technologies MPE386, Unix V 3.0
+#O	True Basic, Inc.
+#C	Brig Elliott
+#E	true!chip
+#T	+1 603 298 8517
+#P	12 Commerce Ave., West Lebanon, NH 03784
+#L	43 42 N / 72 17 W
+#R	
+#W	true!dave (David Pearson); Thu Sep 22 13:14:08 EDT 1988
+#U	
+#
+true	dartvax(DAILY)
+
+#N	tutor
+#S	Altos 386 - Altos System V 5.3.1d
+#O	UV Communcations
+#C	Peter Schmitt
+#E	tutor!pete@dartmouth.edu
+#T	+1 603 646 2085
+#P	RR1 Box 629, Poverty Lane, West Lebanon, NH 03784-9501
+#L	72 17 W / 43 42 N
+#R	Future UV.COM for Upper Valley Public Access UNIX
+#W	tutor!pete (Peter Schmitt); Mon Jul  6 11:50:10 EDT 1992
+#U	dartvax
+#
+tutor    dartvax(DIRECT)
+
+#N	ubbs-nh
+#S	KLUDGE 386/25; SCO Xenix 386 Version 2.3.3 GT
+#O	RAM Technology
+#C	Noel B. Del More
+#E	noel@ubbs-nh.mv.com
+#T	+1  603 880 8120
+#P	Nashua, NH  03063
+#L	42 47 N / 71 31 W
+#R
+#U	critz decvax n8ino siia wa1omm wgc386 zinn
+#W	ubbs-nh!noel  (Noel B. Del More); Wed May  8 13:08:54 EDT 1991
+#
+# local connections
+ubbs-nh	critz(DIRECT+FAST), decvax(DIRECT+FAST),
+	lemuria(DIRECT+FAST), n8ino(DIRECT+FAST), trashbin(DIRECT+FAST),
+	wgc386(DIRECT+FAST), zinn(DIRECT+FAST)
+#
+# incoming calls
+ubbs-nh	dtseng(POLLED+FAST), pophyn(POLLED), satco(POLLED+FAST),
+	siia(POLLED+FAST), wa1omm(POLLED)
+
+#N	unhcs
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of New Hampshire
+#C	L. Michael Gray
+#E	unhcs!postmaster
+#T	+1 603 862 3778
+#P	Kingsbury Hall, Durham, NH 03824
+#L	43 08 15 N / 70 56 11 W
+#R
+#U	unh
+#W	unh!nha (Nicholas H. Alter, Jr.); Wed Apr 27 16:00:00 EST 1988
+#
+unhcs	unh(DEDICATED), nashua(DAILY)
+
+#N	unhd
+#S	VAX 8650; Ultrix 2.3
+#O	University Computing
+#C	Gina Ross
+#E	unhd!glr
+#T	+1 603 862 2323, ask for Gina Ross or Bob Kenney
+#P	Kingsbury Hall - UNH, Durham, NH, 03824
+#L	70 56 09.95 W / 43 08 01.8 N
+#R	'unhd' is an instructional/common access VAX in Durham, NH
+#R	We only download the regular groups, though(comp,sci,soc...).
+#W	unhd!rmk (Robert M. Kenney); Tue Jul  4 04:04:19 EDT 1989
+#
+unhd = unh
+#	Site(s) that we actually call
+unhd	<uunet>(DIRECT), decvax(EVENING)
+#	Sites that call us regularly
+unhd	dgdhm(POLLED), psc90(POLLED), unhtel(POLLED)
+
+#N	unhtel
+#S	AT&T 3B15 301; AT&T Unix System V.2
+#O	University of New Hampshire Telecommunications Office
+#C	Paul S. Sawyer
+#E	unhtel!postmaster
+#T	+1 603 862 3262
+#P	Telecommunications Center, Durham, NH  03824-3523
+#L	43 08 06.2 N / 70 56 07.54 W
+#R	We're The Phone Company! (for the University of N.H.)
+#U	unhd
+#W	unhtel!paul (Paul S. Sawyer); Tue Jan 29 14:32:34 EST 1991
+#
+unhtel= unhtel.unh.edu
+unhtel	unhd(DIRECT+FAST)
+
+#N	uscore
+#S	Turbotek 486; Interactive Systems UNIX; Telebit T3000
+#O	Underscore, Inc.
+#C	Joseph K. ("Jay") Martin, President
+#E	uscore!jkm
+#T	+1 603 882 4826
+#P	9 Jaqueline Drive, Hudson, NH  03051
+#L	42 42 45 N / 71 24 51 W
+#U	gozer
+#W	klm@gozer.mv.com (Kevin L. McBride) Fri Dec 27 15:58:34 EST 1991
+#R	
+#
+uscore	gozer(DIRECT+FAST)
+
+#N	verbal1
+#O	General Cognition Corporation
+#C	J. R. Siegel
+#E	jr@verbal1.mv.com
+#T	+1 603 437 1335
+#P	3 Baldwin Street, Windham NH; 03087
+#L	42 50 N / 70 20 W City
+#U	zinn decvax virgin
+#W	jr@verbal1.mv.com (J. R. Siegel); Wed Sept 26 02:07:19 EST 1990
+#
+verbal1= verbal1.mv.com
+#
+verbal1	zinn(DAILY*2), decvax(DAILY*2), virgin(DAILY*2)
+
+#N	virgin
+#S	SBA 386/33MHz; Unix System V.3.2
+#O	Virgin Software, Ltd.
+#C	Bruce Dawson
+#E	virgin!jbd
+#T	+1 603 679 1007
+#P	117 Exeter Road, Epping, NH 03042
+#L	42 44 N / 71 31 W city
+#U	uunet unhtel satco mv
+#W	virgin!jbd (Bruce Dawson); Tue Jun 16 08:11:46 EDT 1992
+#R	Map rev: $Revision: 1.17 $
+#R	registered
+#R
+# our primary news feed
+virgin	unhtel(DIRECT+FAST+HIGH)
+virgin	puck(WEEKLY+FAST),
+	uunet(EVENING+FAST),
+	satco(EVENING+FAST),
+	hern(EVENING+FAST),
+	ctown(EVENING),
+	vix2(LOCAL),
+	ronin(POLLED),
+	mv(EVENING+FAST)
+
+#N	vix2
+#S	Bell Technologies 386 MPE Blit; Unix System V.3
+#O	Virgin Software, Ltd.
+#C	Bruce Dawson
+#E	vix2!jbd
+#T	+1 603 679 1873
+#P	117 Exeter Road, Epping, NH 03042
+#U	virgin
+#W	vix2!jbd; Sat Jan 26 10:00:08 EST 1991
+#
+vix2	virgin(DEMAND+FAST)
+
+#N	wa1omm
+#S	Amiga 2000; AmigaDos 1.3.2
+#O	wa1omm
+#C	Paul MacDonald
+#E	wa1omm!paul
+#T	
+#P	P.O. Box 7068, Nashua, NH 03060
+#L	42 47 N / 71 31 W
+#R
+#U	ubbs-nh
+#W	wa1omm!paul (Paul MacDonald);  Sat Apr 21 15:00:00 EDT 1990
+#
+#   local conections
+wa1omm   ubbs-nh(POLLED)
+
+#N	warthog
+#S	Acer 1100; Microsoft MS-DOS 3.3
+#C	Jeffrey T. Berntsen
+#E	warthog!jeffb
+#T	+1 603 863 1756, +1 603 352 8400 x311
+#P	PO Box 6314, Keene, NH USA 03431
+#L	43 00 N / 72 15 W city
+#U	hern
+#W	warthog!jeffb (Jeffrey T. Berntsen); Mon Mar 5 16:35:00 EST 1990
+#
+warthog	hern(WEEKLY/3)
+
+#N	.calcomp.com, waynar
+#S	VAX 11/780; Ultrix 2.2
+#F	lockheed.com
+#O	CalComp Inc., A Lockheed Company
+#C	Doug Hunt
+#E	dchunt@waynar.CalComp.COM
+#T	+1 603 885 8018
+#P	PTP2-2D15, 65 River Road, Hudson, NH, 03051
+#L	42 47 N / 71 29 W
+#U	decvax
+#R	registered
+#W	dchunt@waynar.calcomp.com (Doug Hunt); Wed Nov 27 10:15:40 EST 1991
+#
+waynar  .calcomp.com(LOCAL)
+waynar= calcomp.com, waynar.calcomp.com
+waynar  decvax(DIRECT+HIGH), harvard(DEMAND),
+	siia(DIRECT), zinn(DIRECT), mips(DEMAND+HIGH)
+	
+
+#N	wgc386
+#S	AST 386; SCO Xenix SysV 2.3.3
+#O	New England Software Laboratories
+#C	William Gibbs
+#E	bill@wgc386.mv.com
+#T	+1 603 886 4243
+#P	42 Ayer Road, Nashua, NH  03060-1102
+#L	42 42 N / 71 27 W
+#R	
+#U	ki
+#W	wgc386!bill (William Gibbs); Tue Nov  5 21:57:25 EST 1991
+#
+#
+wgc386=	wgc386.mv.com
+#
+wgc386	eingedi(WEEKLY+FAST), ki(DEMAND), mv(DEMAND), siia(DIRECT),
+		sii(POLLED), ubbs-nh(DIRECT),
+
+#N	wjg
+#S	Commodore-AMIGA; Amiga-DOS V2.04 & Amiga-UUCP V1.16D
+#O
+#C	W. John Guineau
+#E	wjg!guineau
+#T	+1 603 888 6842
+#P	8 Sapling Cir, Apt 22, Nashua, NH 03062
+#L	42 44 N / 71 31 W city
+#R
+#U
+#W	robert@bear.stonemarche.org (Robert Gerber); Tue May 15 15:30:20 EDT 1992
+wjg	bear(HOURLY)
+
+#N	wksttec
+#S	Sun 3/60M-8
+#O	Workstation Technologies
+#C	Rick Quarantiello
+#E	wksttec!root
+#T	+1 603 890 6700
+#P	8A Industrial Way Salem, NH 03079
+#L	42 47 N / 71 12 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Sep  4 13:03:17 EDT 1990
+#U
+#
+wksttec	uunet(DEMAND)
+
+#N	worksta
+#S	Apollo; All OS
+#O	Workstation Solutions
+#C	Richard Giles
+#E	worksta!root
+#T	+1 603 880 0080
+#P	15 Trafalgar Square, Nashua, NH  03063
+#L	42 45 N / 71 28 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Dec 14 18:37:33 EST 1990
+#U
+#
+worksta	uunet(DEMAND)
+
+#N	wsimac
+#S	Apple Macintosh IIci; MacOS 7.0.1
+#O	Working Set, Inc.
+#C	David L. Diamond
+#E	dld@wsimac.mv.com
+#T	+1 603 595 8562
+#P	4 Franconia Drive, Nashua, NH 03063-2116
+#L	42 44 N / 71 28 W city
+#R	<anything>
+#U	mv
+#W	wsimac!dld (David L. Diamond); Tue Feb 25 00:53:27 EST 1992
+#
+wsimac = wsimac.mv.com
+wsimac	mv(POLLED)
+
+#N	wslack
+#S	Commodore Amiga 1000; AmigaDos 1.3, AmigaUUCP 1.13
+#O	W. R. Slack
+#C	William R. Slack
+#E	wslack!wrs
+#T	+1 603 882 3190
+#P	Five Farmers Trail, Nashua, NH  03062
+#L	42 44 24 N / 71 30 08 W
+#U	gozer
+#W	klm@gozer.mv.com (Kevin L. McBride); Fri Dec 27 14:56:49 EST 1991
+#R	(insert comments here)
+#
+wslack	gozer(DIRECT)
+
+#N	wtfm
+#S	386 clone; Interactive V/386 3.2
+#O
+#C	Suzanne M. Paquin
+#E	wtfm!paquin
+#T	+1 603 623 2968
+#P	683 Montgomery St., Manchester, NH 03102
+#L	43 00 N / 071 29 W
+#R	writing consultant
+#U
+#W	wtfm!paquin (Suzanne M. Paquin); Sun Apr 28 14:32:13 EST 1991
+#
+wtfm	= wtfm.mv.com
+wtfm	zinn(DIRECT)
+
+#N	zinn
+#F	harvard.harvard.edu
+#O	Zinn Computer Company
+#C	Mark E. Mallett
+#E	mem@zinn.MV.COM
+#T	603 645 5069
+#P	P.O. Box 4188, Manchester NH; 03103
+#L	42 56 N / 71 26 W City
+#U	mv
+#W	mem@mv.MV.COM (Mark E. Mallett); Fri Jan 31 21:07:42 EST 1992
+#
+# our primary news feed
+zinn	mv(DIRECT+HIGH)
+#
+# Other outgoing calls
+zinn	decvax(DIRECT), ditka(WEEKLY),
+	harvard(WEEKLY), interlan(WEEKLY),
+	mhis(DAILY), pwmag(DIRECT), royko(WEEKLY),
+	rr(WEEKLY/2), sii(POLLED), siia(POLLED),
+	waynar(DAILY)
+#
+# incoming calls
+zinn	magflds(DAILY*2), pophyn(POLLED)
+#
+harvard	<zinn>(EVENING)
+decvax	<zinn>(DIRECT+HIGH)
+
+
+#	end of u.usa.nh.2: Wed Jul 15 11:14:47 EDT 1992
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

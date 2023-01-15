@@ -1,0 +1,740 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ks.1
+: This archive created: Sun Aug 16 18:52:18 1992
+echo shar: extracting u.usa.ks.1
+cat << 'SHAR_EOF' > u.usa.ks.1
+file{u.usa.ks.1}
+#File maintained by Doug McCallum <dougm@cypress.west.sun.com>; Sun Aug 16 10:24:52 MDT 1992
+#Send updates to "uucpmap@rutgers.edu", cc: to me optionally
+#
+
+#N	abe
+#S	AT&T 3B1 Unix PC; System V (Unix PC Version 3.5)
+#O	ScripTek, Inc.
+#C	Daniel E. Doherty
+#E	abe!ded
+#T	+1 913 236 6839
+#P	5128 Clark Drive, Roeland Park, Kansas 66203
+#L	39 04 N / 94 38 W
+#U
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu 20 Sep 07:24:01 CDT 1990
+#
+abe	<cpsolv>(DIRECT), utilaw(EVENING)
+
+#N	bdsoft, bdsoft.com
+#F	uunet.uu.net
+#S	DTK Keen-2503; Xenix 386
+#O	BD Software
+#C	Leor Zolman
+#E	leor@bdsoft.com
+#T	+1 913 841 4777
+#P	1513 Alvamar Drive, Lawrence, KS 66047
+#L	38 58 N / 95 14 W city
+#R	Exclusive mail/news feed for system rdpub (R&D Publications)
+#W	leor@bdsoft.COM (Leor Zolman); Sun Jul 14 10:33:24 MDT 1991
+#U
+#
+bdsoft	.bdsoft.com(0)
+bdsoft=	bdsoft.com
+bdsoft	uunet(DEMAND), rdpub(DIRECT)
+
+
+
+#N	blspc
+#F	harris.cis.ksu.edu
+#S	DTK data 286 AT; MINIX 1.5 w/UUCP
+#O	BLS Computing
+#C	Bryan L. See    
+#E	bls@blspc.manhattan.ks.us
+#T	+1 913 537 0363 
+#P	1441 Laramie Apt.2 , Manhattan, KS 66506 
+#R      I can also be reached with the address bls@cis.ksu.edu 	
+#W	bls@cis.ksu.edu (Bryan See); Tue Oct 8 14:55:22 CDT 1991 
+#
+# My MX host is harris.cis.ksu.edu 
+# Mail is forwarded via harris.cis.ksu.edu  -> blspc
+blspc = blspc.manhattan.ks.us
+#
+blspc   harry(LOCAL)
+
+
+
+
+#N	bmskc
+#S	SUN 3/50; SunOS 4.1
+#O	PPG Inudstries, Inc. Biomedical Systems Division
+#C	Jim Sisul
+#E	postmaster@bmskc.PPG.COM
+#T	+1 913 894 7500 x7181
+#P	PO Box 15955, 16505 W 113 St., Lenexa, Kansas  66215
+#L	38 55 16 N / 94 46 38 W
+#U	genco
+#W	sisul@bmskc.PPG.COM (James P. Sisul); Wed July 17 15:00:00 CDT 1991
+#
+bmskc	uunet(DAILY), <genco>(DEAD)
+
+
+
+
+#N	brite
+#S      Intel 403; Sys V.3 HDBUUCP
+#O	Brite Voice Systems
+#C	Chris Rott
+#E	brite!chris.rott	
+#T	+1 316 652 6631
+#P	7309 E. 21st North, Wichita, KS 67206
+#L	37 41 N / 97 20 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Feb 20 10:17:47 EST 1992
+#U
+#
+brite	uunet(DEMAND)
+
+#N	cpsolv
+#S	AT&T 3B1; System V (Unix PC Version 3.51)
+#O	Computer Problem Solving
+#C	Richard H. Gumpertz
+#E	postmaster@CPS.COM
+#T	+1 913 642 1777
+#P	8905 Mohawk Lane, Leawood, Kansas 66206-1749
+#L	38 58 02 N / 94 37 38 W
+#U	amgraf
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu 16 Jul 13:59:32 CDT 1992
+#
+cpsolv = .cpsolv.cps.com, .cps.com	# Weird but legal and MKGLUE ignores it
+#
+cpsolv	<abe>(DIRECT+LOW), <amgraf>(DIRECT+LOW), <amdcad>(POLLED),
+	<composite>(WEEKLY), <desktech>(DIRECT+LOW),
+	<mouse>(POLLED), mumble(POLLED), <para>(POLLED), <pda>(POLLED),
+	shonet(POLLED), <spam>(DIRECT+LOW), <talgras>(DIRECT+LOW),
+	<x10siv>(POLLED),
+
+
+#N	deimos
+#S	ATT 3B15; ATT System V UNIX Rel 2.1.2
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Joseph F. Young
+#E	depot!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also deimos.cis.ksu.edu [129.130.10.3] on MidNet (NSFNet)
+#W	depot!jfy (Joseph Young); Wed Jul  8 14:51:24 CDT 1992
+#R	Serial number 6
+#
+deimos	= deimos.cis.ksu.edu
+#
+# Link to the outside world
+deimos ksuvax1(DEAD)
+deimos depot(DIRECT)
+deimos mccall(DIRECT)
+
+#N	depot
+#S	Solbourne 5/603;OS/SMP 4.1A.1
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Joseph F. Young
+#E	depot!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also depot.cis.ksu.edu [129.130.10.5] on MidNet (NSFNet)
+#W	depot!jfy (Joseph Young); Wed Jul  8 14:53:23 CDT 1992
+#R	Serial number 3 # Increment at every update
+#
+depot = depot.cis.ksu.edu
+#
+# Other hosts in the Dept.
+depot deimos(DIRECT), hack(DEAD), harry(DEAD)
+depot ksuvax1(DEAD), phobos.cis.ksu.edu(DIRECT)
+#
+# Non-KSU hosts via TCP/UUCP
+depot engr(DEDICATED), rutgers(DEDICATED+HIGH), widener(DEDICATED)
+depot mccall(DIRECT+HIGH)
+#
+# MX'ing for PC's
+#
+depot orac2(LOCAL),frainiac(LOCAL),blspc(LOCAL)
+
+#N	desktech
+#S	SPARCstation SLC; SunOS 4.1
+#O	Deskstation Technology, Incorporated
+#C	Richard H. Gumpertz
+#E	postmaster@CPS.COM
+#T	+1 913 599 1900
+#P	13256 West 98th Street, Lenexa, Kansas  66215
+#L	38 57 N / 94 44 W
+#U	cpsolv amgraf
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu  3 Oct 23:04:08 CDT 1991
+#
+desktech = .desktech.dti.com, .dti.com
+desktech = .desktech.dti.cps.com, .dti.cps.com	# temporary until we got dti.com
+#
+desktech .cps.com(DIRECT), cpsolv(DIRECT), umech(POLLED), <amgraf>(POLLED),
+	genco(DIRECT), amdcad(POLLED), mips(WEEKLY)
+
+
+
+
+#N	ediger
+#S	NCR Tower 32/850; System V Release 2 (01.03.02)
+#O	Prairie View, Inc.
+#C	Keith Neufeld
+#E	ediger!postmaster
+#T	+1 316 283 2400
+#P	1901 E. 1st, Newton, KS 67114
+#L	38 02 15 N / 98 19 75 W
+#R	Data Processing Department
+#U      menno, imrryr
+#W	bob@menno.bethelks.edu (Robert Schwartz); Thu Sep 26 13:27:43 CDT 1991
+#
+ediger 	menno(DIRECT)			# Bethel College
+ediger	imrryr(DAILY)
+
+
+
+
+#N	eecea
+#S	AT&T 3B15; SYS V R2.1.1
+#O	Dept. of Electrical and Computer Engineering, Kansas State University
+#C	Terry Hull
+#E	postmaster@eece.ksu.edu
+#T	+1 913 537 2202
+#P	Durland Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W [city]
+#R	Is also eecea.eece.ksu.edu [129.130.40.1] in MidNet (NSFNet)
+#W	terry@eece.ksu.edu (Terry Hull); Wed May 02 08:45:00 CDT 1991
+#U	ksuvax1 rottie
+#
+eecea	ksuvax1(HOURLY), rottie(DIRECT)
+
+
+
+#N	frainiac
+#S	Apple Macintosh SE/30; System Software 7.0
+#O	Jerry Frain (personal machine)
+#C	Jerry Frain
+#E	frainiac!postmaster
+#T	+1 913 776 6202
+#P	1836 Elaine Dr., Manhattan, KS 66502
+#L	39 11 N / 96 35 W city
+#R      I can also be reached with the address frain@cis.ksu.edu
+#U	
+#W	depot!frain (Jerry Frain); Thu May  7 00:00:36 CDT 1992
+#
+frainiac	= frainiac.manhattan.ks.us
+frainiac	depot(DIRECT)
+
+#N	hack
+#S	ATT 3B2/400; ATT System V UNIX Rel 3.1
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Joseph F. Young
+#E	depot!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also hack.cis.ksu.edu [129.130.10.19] on MidNet (NSFNet)
+#W	depot!jfy (Joseph Young); Wed Jul  8 14:54:49 CDT 1992
+#R	Serial number 5
+#
+# Hack is no longer an active UUCP site
+#
+#
+hack	= hack.cis.ksu.edu
+#
+# Link to the outside world
+hack ksuvax1(DEAD)
+hack depot(DEAD)
+
+
+#N	harry
+#S	Harris HCX-9; 4.3 BSD-RENO
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Harvard Townsend
+#E	depot!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also harris.cis.ksu.edu [129.130.10.2] on MidNet (NSFNet)
+#U
+#W	depot!jfy (Joseph Young); Wed Jul  8 14:55:55 CDT 1992
+#R	Serial number 6 # Increment at every update
+#
+# Harry has been retired and is no longer an active UUCP site
+#
+#
+harry = harris.cis.ksu.edu
+#
+# Link to the outside world
+harry	ksuvax1(DEAD)
+harry	depot(DEAD)
+#
+# Local MX hosts
+#
+harry	orac2(DEAD), frainiac(DEAD), blspc(DEAD)
+
+
+#N	imrryr
+#S	NCR TOWER 1632; UNIX Version 7, OS 1.02
+#O	Personal System
+#C	Keith Neufeld
+#E	imrryr!postmaster
+#T	+1 316 283 7142
+#P	Box 421, North Newton, KS 67117
+#L	38 04 05 N / 98 20 77 W
+#U      menno, ediger
+#W	bob@menno.bethelks.edu  (Robert Schwartz); Thu Sep 26 13:26:56 CDT 1991
+#
+imrryr	menno(DAILY)
+imrryr	ediger(DAILY)
+
+
+
+
+#N	kafka
+#S	HP 9000/360; HP/UX 7.0
+#O	Boeing Computer Services - Wichita
+#C	Doug Kratky, Dave Sears
+#E	kafka!postmaster
+#T	+1 316 526 9393, +1 316 526 9590
+#P	PO Box 7730, M/S K79-32, Wichita, Kansas 67277-7730
+#L	37 40 00 N / 97 16 00 W
+#U	bcstec
+#W	kafka!dgk3247 (Doug Kratky); Wed Apr 24 11:18:00 CST 1991
+#
+kafka	bcstec(LOCAL)
+
+
+
+#N	kodiakpc 
+#S	VIP 386sx; Norton DOS 6.01;  w/MUSH v5.7 (PC R5.3)
+#O	Kodiak Enterprises
+#C	Bryan D. Nehl
+#E	kodiak@kodiakpc.manhattan.ks.us
+#T	+1 913 776 0210
+#P	715 Colorado St., Manhattan, KS 66502 
+#R      I can also be reached at: kodiak@cis.ksu.edu & kodiak@ksuvm.BITNET
+#R		and kodiak@matt.ksu.ksu.edu and bdn@chepil.weru.ksu.edu
+#W	jfy@ksuvax1.cis.ksu.edu (Joseph F. Young); Sat, 08 Feb 92 17:28:08 CST
+#
+# My MX host is ksuvax1.cis.ksu.edu 
+# Mail is forwarded via ksuvax1.cis.ksu.edu -> phobos.cis.ksu.edu -> kodiakpc
+kodiakpc =	kodiakpc.manhattan.ks.us
+#
+kodiakpc	phobos.cis.ksu.edu(LOCAL)
+
+#N	ksuage
+#S	DEC MicroVAX II; DEC Ultrix 2.0
+#O	Kansas State University Dept. of Agricultural Engineering
+#C      A.R. El-Koubysi	
+#E	ksuage!postmaster
+#T	+1 913 532 5580
+#P	147 Seaton Hall, Manhattan, KS  66506-2906
+#L	39 11 N / 96 35 W
+#W	ar@ksuage.age.ksu.edu (A.R. El-Koubysi); Wed. Mar, 6, 1991
+#
+# Link to the outside world
+ksuage	ksuvax1(DEDICATED)
+
+
+
+
+#N	ksuvax1
+#S	DEC VAX-11/780; Mt. Xinu 4.3BSD w/NFS
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Harvard Townsend
+#E	ksuvax1!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also ksuvax1.cis.ksu.edu [129.130.10.1] on MidNet(NSFNet)
+#W	depot!jfy (Joseph Young); Tue Oct 29 13:50:57 CST 1991
+#R	Serial number 8 # Increment at every update
+#
+#
+# ksuvax1 has been pretty much retired and is no longer an active UUCP site
+#
+#
+ksuvax1	= ksuvax1.cis.ksu.edu
+#
+# Other hosts in the Dept.
+ksuvax1 deimos(DEAD), hack(DEAD), harry(DEAD)
+ksuvax1 phobos.cis.ksu.edu(DEAD), depot(DEAD)
+#
+# Other KSU hosts
+ksuvax1	eecea(DEAD), ksuage(DEAD), weru(DEAD)
+#
+# Non-KSU hosts via Ma Bell
+ksuvax1	hays(DEAD), mccall(DEAD)
+
+
+#N	.mccall.com, mccall
+#F	depot.cis.ksu.edu
+#S	DEC VAXstation 3100 model 76; VMS V5.5
+#O	The McCall Pattern Company
+#C	Terry Poot
+#E	mccall!tp, mccall!postmaster
+#T	+1 913 776 4041
+#P	615 McCall Road, Manhattan, KS 66502
+#L	39 11 25.05 N / 96 32 54.54 W
+#R	DECUS uucp/ANU news; Willing to provide mail/news feeds
+#U	deimos debisa
+#R      news to deimos via uucp link to depot
+#R	debisa polls us. HIGH links are 9600bps V.32
+#R	mail-based vmsnet news feeds: infopiz pbs(partial)
+#W	tp@mccall.com (Terry Poot); Wed Mar 25 14:53:00 CST 1992
+#
+#mccall	.mccall.com
+#mccall	= mccall.com
+mccall	deimos(DIRECT), depot(DIRECT+HIGH), debisa(POLLED+HIGH)
+# sites we poll
+deimos  mccall(DAILY)
+depot	mccall(HOURLY/2+HIGH)
+
+#N	menno, menno.bethelks.edu
+#S	IBM RISC System/6000 -- 320; AIX 3.1
+#O	Bethel College, North Newton, Kansas 
+#C	Robert Schwartz
+#E	postmaster@menno.bethelks.edu
+#T	+1 316 283 2500 x273
+#P	North Newton, KS 67117
+#L	38 04 15 N / 98 20 75 W
+#R	Computer Science Department
+#U      ncrwic, ediger, imrryr
+#W	bob@menno.bethelks.edu (Robert Schwartz); Thu Sep 26 13:26:26 CDT 1991
+#
+menno    = menno.bethelks.edu
+menno	 = bethelks.edu
+menno	.bethelks.edu, bethelks.edu
+menno	ncrwic(DAILY)			# NCR Corporation, Wichita
+menno	ediger(DIRECT)			# Praire View, Newton
+menno	imrryr(DAILY)			# Keith Neufeld, Newton
+
+
+
+
+#N	mouse
+#S	AT&T 3B1; System V (Unix PC Version 3.51)
+#O	University of Kansas Society for Fantasy and Science Fiction
+#C	Mark A. Wickersham
+#E	mouse!postmaster
+#T	+1 913 842-3004
+#P	3315 Glacier Drive, Lawrence, Kansas 66047
+#L	38 55 N / 95 18 W
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Tue 30 Jul 22:11:03 CDT 1991
+#
+mouse	cpsolv(WEEKLY/2)
+
+
+
+
+#N	mumble
+#S	Orchid Technology Superboard 486; MS-DOS 5.0
+#O	Computer Problem Solving
+#C	Richard H. Gumpertz
+#E	postmaster@CPS.COM
+#T	+1 913 642 1777
+#P	8905 Mohawk Lane, Leawood, Kansas 66206-1749
+#L	38 58 02 N / 94 37 38 W
+#U	cpsolv
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu 16 Jul 14:06:02 CDT 1992
+#
+mumble = .mumble.cps.com		# Weird but legal and MKGLUE ignores it
+#
+mumble	<cpsolv>(LOCAL)
+
+
+#N	ncrwic, wichitaks.ncr.com
+#S	NCR TOWER 32/600; System V, OS 3.00.02
+#O	NCR Corporation, Wichita, Kansas
+#C      Quentin P. Antrim
+#E	Quentin.Antrim@wichitaks.ncr.com
+#T	+1 316 636 8078
+#P	3718 North Rock Road, Wichita, KS 67226
+#L	37 45 00 N / 97 14 30 W
+#R	NCR PPD, NCR CETC and NCR CI/MEG CIM Center
+#U      ncrcom menno carla lru3b ncratl ncr-sd ncrlnk ncrcae ncrcam ncrstp ncrwat
+#W	ncrwic!qantrim (Quentin Antrim); Tue May 28 15:31:00 CDT 1991
+
+#
+# We are the gateway for the wichitaks.ncr.com domain. We also act as a 
+# virtual machine for all of the users in the domain. If you know the full
+# name of someone at a NCR Wichita site, mail sent to:
+#        FirstName.LastName@wichitaks.ncr.com
+# will get to them, no matter which machine and username they actually use.
+# PPD = Peripheral Products Division
+# CETC = Component Evaluation & Technology Center
+#
+ncrwic    = ncrwic.wichita.ncr.com, ncrwic.wichitaks.ncr.com
+ncrwic    wichita.ncr.com, wichitaks.ncr.com, .wichita.ncr.com, .wichitaks.ncr.com, .ncr.com
+#
+# Non-local NCR sites. These go over NCR private lines, so they are quite
+# cheap. We try to contact on a demand basis, but the lines are busy enough
+# during the day that we can't count on getting through.
+#
+ncrwic	carla(DEDICATED)		#NCR CETC Wichita
+ncrwic	lru3b(DEDICATED)		#AT&T Little Rock gateway
+ncrwic	ncratl(DEDICATED)		#Atlanta.ncr.com gateway
+ncrwic	ncr-sd(DEDICATED)		#SanDiego.ncr.com gateway
+ncrwic  ncrlnk(DEDICATED)		#Dayton.ncr.com news gateway
+ncrwic  ncrcae(DEDICATED)		#Columbia.ncr.com gateway
+ncrwic  ncrcam(DEDICATED)		#Cambridge.ncr.com gateway
+ncrwic  ncrcom(DEDICATED)		#NCRCOM.Dayton.ncr.com gateway & CSNet
+ncrwic	ncrstp(DEDICATED)		#StPaul.ncr.com gateway
+ncrwic	ncrwat(DEDICATED)		#Waterloo.ncr.com gateway
+#
+# Non-NCR sites.
+#
+ncrwic	menno(DAILY)			#Bethel College, N. Newton
+
+
+#N      orac2 
+#S      DTK Data 1000 XT; Minix 1.5.10
+#O      JFY Computing
+#C      Joseph F. Young 
+#E      jfy@orac2.manhattan.ks.us
+#T      +1 913 539 5904
+#P      1026 Sunset Ave #9, Manhattan, KS 66502
+#R      I can also be reached with the address jfy@cis.ksu.edu
+#W      depot!jfy (Joseph Young);Fri Nov  1 10:03:13 CST 1991
+#
+# My MX host is ksuvax1.cis.ksu.edu 
+orac2 = orac2.manhattan.ks.us
+#
+orac2	harry(LOCAL)
+
+
+
+#N	pda
+#S	Compudyne 16/386SX; MS-DOS 5.00
+#O	PDA, Inc.
+#C	Richard H. Gumpertz
+#E	postmaster@cps.com
+#T	+1 913 469 8700
+#P	Suite 100, 11600 College Boulevard, Overland Park, Kansas 66210
+#L	38 55 N / 94 43 W
+#U	cpsolv
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu 16 Jul 13:57:01 CDT 1992
+#
+pda = 	.pda.cps.com, .testy.pda.cps.com
+#
+pda	cpsolv(DEMAND)
+
+
+#N	phobos.cis.ksu.edu
+#S	ATT 3B15; ATT System V UNIX Rel 2.1.2
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Joseph F. Young
+#E	depot!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also phobos.cis.ksu.edu [129.130.10.4] on MidNet (NSFNet)
+#W	depot!jfy (Joseph Young); Wed Jul  8 14:58:38 CDT 1992
+#R	Serial number 6 # Increment at every update
+#
+# Link to the outside world
+phobos.cis.ksu.edu ksuvax1(DEAD)
+phobos.cis.ksu.edu depot(DIRECT)
+#
+# Local PCs that we do MXing for (via depot.cis.ksu.edu)
+phobos.cis.ksu.edu	 kodiakpc(LOCAL)
+
+
+#N	rdpub
+#F  uunet.uu.net	
+#S 	DTK Keen-2503; Xenix 386
+#O	R&D Publications
+#C	Leor Zolman
+#E	postmaster@rdpub.com
+#T	+1 913 841 1631
+#P	2601 S. Iowa, Lawrence KS 66046
+#L	38 58 N / 95 14 W city
+#R
+#W	leor@rdpub.COM (Leor Zolman); Sun Jul 14 10:33:10 MDT 1991
+#U
+#
+rdpub	.rdpub.com(0)
+rdpub=	rdpub.com
+rdpub	bdsoft(DIRECT)
+
+
+
+#N	rottie, rottie.manhattan.ks.us
+#F	ksuvax1.cis.ksu.edu
+#S	Sun 4/20 SunOS
+#O	Terry Hull (personal machine)
+#C	Terry Hull
+#E	rottie!postmaster
+#T	+1 913 539 3244
+#P	840 Church Avenue, Manhattan, KS  66502
+#L	39 11 N / 96 35 W [city]
+#R	TB+ connection available
+#W	rottie!terry (Terry Hull); Mon Sug 20 11:58 CDT 1990
+#U	eecea mccall
+#
+#   ksuvax1.cis.ksu.edu is my internet forwarder.  
+rottie = rottie.manhattan.ks.us
+
+rottie eecea(DIRECT), mccall(HOURLY)
+
+
+
+
+#N	sfrmc
+#S	386 Clone; SCO Unix 3.2r2
+#O	St. Francis Regional Medical Center
+#C	Brian L. Allen
+#E	sfrmc!ballen                                
+#T	+1 316 268 5091
+#P	929 N. St. Francis, Wichita, Ks 67214
+#L	37 44 05 N / 97 20 00 W
+#R	Department of Plannning, Running SCO Unix 3.2r2
+#U      sfrmc
+#W	sfrmc!ballen (Brian L. Allen); Thu Dec 05 13:33:00 CDT 1991
+#
+sfrmc		wsuiar(DIRECT), sys2boot(DIRECT)
+
+
+
+
+#N	shonet
+#S	AT&T 3B1; System V (Unix PC Version 3.51)
+#O	Computer Problem Solving
+#C	Richard H. Gumpertz
+#E	postmaster@CPS.COM
+#T	+1 913 642 1777
+#P	8905 Mohawk Lane, Leawood, Kansas 66206-1749
+#L	38 58 02 N / 94 37 38 W
+#U	cpsolv
+#W	rhg@CPS.COM (Richard H. Gumpertz);  Thu 16 Jul 14:07:01 CDT 1992
+#
+shonet = .shonet.cps.com		# Weird but legal and MKGLUE ignores it
+#
+shonet	<cpsolv>(LOCAL)
+
+#N	srwic
+#S	486/33; Unix System V.3.2
+#O	SRS
+#C	Steve Ralston
+#E	srwic!sralston
+#T	+1 316 686 2019
+#P	235 N Zelta, Wichita, KS 67206
+#L	37 41 30 N / 97 12 30 W
+#U      ncrwic rjmkc kgcwic
+#W	srwic!sralston (Steve Ralston); Wed Jan 08 05:30:00 CDT 1992
+#
+srwic	ncrwic(DIRECT)			#NCR Corporation, Wichita, KS
+srwic	rjmkc(DAILY+DEMAND+FAST)	#Tecnix, Inc., Lee's Summit, MO
+srwic	kgcwic(DAILY)			#Ken Chambers, Wichita, KS
+
+
+#N	swindn
+#S	NEC XL/32; ASTR-IX
+#O	SouthWind Software
+#C	Mark Mallonee
+#E	uunet!ncrlnk!ncrwic!swindn!mark
+#T	+1 316 636 5100
+#P	3500 N. Rock Road, Bldg. 200, Wichita, KS 67226
+#L	37 44 55 N / 97 14 30 W
+#U
+#W	ncrwic!jmatrow (John Matrow); Mon Nov 28 08:52:00 CDT 1988
+#
+swindn	ncrwic(DEMAND)			#NCR Corporation, Wichita
+
+
+
+
+#N	talgras
+#S	Compaq 386; SCO Xenix System V
+#O	Tallgrass Technologies, Inc.
+#C	David Hoopes
+#E	talgras!david
+#T	+1 913 492 6002 x323
+#P	11100 W. 82nd Street, Lenexa, KS 66214
+#L	38 59 N / 94 43 W
+#W	david@talgras.UUCP (David Hoopes);  Mon Jul  1 09:11:30 CDT 1991
+#
+talgras = tallgras, tallgrass
+#
+talgras	uunet(DAILY), <cpsolv>(DIRECT+LOW), <psp>(DAILY)
+
+
+
+#N	utilaw
+#S	AT&T 7300 Unix PC; System V R2 (Unix PC Version 3.5)
+#O	ScripTek, Inc.
+#C	Daniel E. Doherty
+#E	utilaw!ded
+#T	+1 913 624 3442 
+#P	KSWESA0107, 2330 Shawnee Mission Parkway, Westwood, Kansas 66205
+#L	39 04 N / 94 38 W
+#U
+#W	rhg@CPS.COM (Richard H. Gumpertz); Sat Mar 28 15:52:52 MST 1992
+#
+utilaw <abe>(DIRECT)
+
+#N	wbcs
+#S	Apollo; DOMAIN/IX
+#O	Boeing Computer Services
+#C	Doug Kratky
+#E	wbcs!kdk3247
+#T	+1 316 526 9393
+#P	Wichita, Kansas 67277
+#L	37 40 00 N / 97 16 00 W
+#U	ncrwic
+#W	ncrwic!jmatrow (John Matrow); Mon, 18 May 92 20:09:50 PDT
+#
+wbcs	ncrwic(DEMAND)			#NCR Corporation, Wichita
+
+
+#N	wdshare
+#S	386 ; XENIX V.2.3
+#O	Word Share
+#C	Lem Whitmer
+#E	lem@wdshare.uucp
+#T	+1 913 837 2888
+#P	901 South Doyle, Louisberg, KS 66053
+#L	38 37 28 / 094 41 10 W city
+#U	hptulsa
+#W	don@hptulsa.uucp (Don Pipkin); Sun Feb 25 9:34:20 CST 1990
+wdshare	hptulsa(WEEKLY)
+
+
+
+
+#N	weru
+#S	Sun 386i/25; SunOS 4.0.2
+#O	USDA-ARS Wind Erosion Research Unit
+#C	Larry E. Wagner
+#E	weru!postmaster
+#T	+1 913 532 6807
+#P	105B Waters Hall, Kansas State University, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#W	weru!wagner (Larry E. Wagner); Sun May 05 10:39:54 MDT 1991
+#
+# Link to the outside world
+weru ksuvax1(LOCAL)
+
+
+
+#N	wsuiar
+#S	DEC VAX 8650; VMS V5.3.1
+#O	The Wichita State University, Wichita, Kansas
+#C	Thomas W. Wallis
+#E	wsuiar!wallis                                
+#T	+1 316 689 3156
+#P	1845 N. Fairmount, Wichita, Ks 67208
+#L	37 44 06 N / 97 17 31 W
+#R	Aviation Research Inst., Running DECUS UUCP V1.1; News Connection
+#U      ncrwic
+#W	wsuiar!wallis (Thomas W. Wallis); Wed Sep 12 16:55:00 CDT 1990
+#
+wsuiar		ncrwic(DIRECT), sfrmc(DIRECT)
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

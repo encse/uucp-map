@@ -1,0 +1,129 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.fin.0
+: This archive created: Sun Mar  8 06:03:54 1992
+echo shar: extracting u.fin.0
+cat << 'SHAR_EOF' > u.fin.0
+#
+# u.fin.0 - EUnet Map for Finnish EUnet backbones
+#
+# Copyright 1989,1990,1991 by EurOpen.  All rights reserved
+# 
+# Permission to use and redistribute for routing purposes granted.
+# Permission is granted for non-commercial use.
+#
+# Changes: uucpmap@fuug.fi
+#
+# Last modified: Sat May 18 14:12:05 1991
+#
+
+#
+#	Finnish EUnet backbone
+#
+
+#N	fuug.fi fuug Finland.EU.net
+#S	DECSystem 5400; Ultrix 4.1
+#O	Finnish Unix Users' Group
+#C	Petri Ojala
+#E	postmaster@Finland.EU.net
+#T	+358 0 1393 0010, +358 0 400 2043
+#P	Perustie 23 A 11, SF-00330 Helsinki, Finland
+#L
+#W	ojala@fuug.fi; Wed Aug  1 20:56:47 1990
+#W	ojala@fuug.fi; Sat Apr 27 17:07:56 1991
+#
+#R	To contact FUUG in general, use address 'fuug@fuug.fi'
+#R
+#R	Current FUUG board 'fuug-board@fuug.fi':
+#R		Marko Katajisto CHAIRMAN	<jita@fuug.fi>
+#R		Marko Kaittola			<moa@funet.fi>
+#R		Kai Kein{nen			<kmk@cc.tut.fi>
+#R		Markku J{rvinen			<mta@cc.tut.fi>
+#R		Ikka Neva			<ineva@utu.fi>
+#R		Petri Ojala			<ojala@funet.fi>
+#R		Esa Pekkarinen			<pekkis@fuug.fi>
+#R
+#R              Petri Ojala EUNET               <Petri.Ojala@fuug.fi>
+#R
+#R      Office secretary (very, VERY important person....)
+#R              Outi Nyman			<fuug@fuug.fi>
+#
+#
+fuug.fi	=fuug
+fuug.fi	=finland.eu.net
+fuug.fi	.innopoli.fi
+fuug.fi	.pp.fi
+fuug.fi	.fuug.fi
+
+# National backbone connections
+fuug.fi	datanet.tele.fi(ARPA),	# National PTT / Datanet
+	funet.fi(ARPA),		# funet.fi
+
+# Other special connections
+fuug.fi	ioc(HOURLY),ioc.ew.su(HOURLY),			# Estonia
+	sys130(HOURLY),sys130.ew.su(HOURLY)		# University of Tartu
+	
+#
+#	FUNET backbone
+#
+
+#N	funet.fi funet
+#O	Finnish University and Research Network FUNET
+#C	Marko Kaittola
+#E	postmaster@funet.fi
+#T	+358 31 162 933
+#P	FUNET c/o TTKK, P.O. Box 527, SF-33101 Tampere, Finland
+#L	23 50 E / 61 26 N
+#W	ojala@fuug.fi; Wed Aug  1 20:56:59 1990
+#W	ojala@fuug.fi; Sat Apr 27 17:22:15 1991
+#
+#
+funet.fi	=funet
+funet.fi	=etana
+funet.fi	=etana.funet.fi
+funet.fi	.fi
+funet.fi	.funet.fi
+
+#
+#	National PTT (Datanet)
+#
+
+#N	datanet.tele.fi
+#S
+#O	Tele / Datanet
+#C	Juha Hein{nen
+#E	postmaster@datanet.tele.fi
+#T	
+#P
+#L
+#W	ojala@fuug.fi; Sat Apr 27 17:24:51 1991
+#
+#
+datanet.tele.fi	.datanet.tele.fi
+datanet.tele.fi	.tele.fi
+
+#
+#	Finnish University and Research Network
+#
+
+#N	nic.funet.fi funic.funet.fi funic
+#S	Sun SPARCServer 330; SunOS 4.1.1
+#O	Finnish University and Research Network FUNET
+#C	Matti Aarnio, Harri Salminen
+#E	postmaster@nic.funet.fi
+#T	+358 0 457 2288, +358 21 633 6516
+#P	FUNET, P.O. box 40, SF-02101 Espoo, Finland
+#L	24 50 E / 60 11 N
+#W	ojala@fuug.fi; Wed Feb 13 13:29:53 1991
+#
+#
+nic.funet.fi	=funic
+nic.funet.fi	=funic.funet.fi
+nic.funet.fi	=ftp.funet.fi
+nic.funet.fi	fuug.fi(LOCAL)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

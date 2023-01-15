@@ -1,0 +1,121 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.can.1
+: This archive created: Fri Jan 22 03:24:12 1988
+echo shar: extracting d.can.1
+cat << 'SHAR_EOF' > d.can.1
+# This file contains routing information for the Canadian .Ca subdomains.
+# Comments on the contents of this file should be sent to path@ai.toronto.edu
+
+# The purpose of this preamble is to shut up pathalias if the local host
+# does not declare any other links that should be used for this purpose.
+
+# IT IS STRONGLY RECOMMENDED that local gateways to NetNorth and CDNnet
+# are identified, and by their permission you should add lines like:
+#
+# nngw		netnorth-ca-gws(DEDICATED)
+# cdngw		cdnnet-ca-gws(DEDICATED)
+# inetgw	internet-ca-gws(DEDICATED)
+#
+# to the file you use to specify local patches to the posted data.
+
+# The UUCP gateways to the various networks for which there exist forwarders
+uucp-ca-meta-gws = { uunet, psuvax1, ubc-ean}(DEAD*2)
+
+# All NetNorth forwarders
+psuvax1	netnorth-ca-gws(DEAD)
+netnorth-ca-gws = { bnr.bitnet, carleton.bitnet, mcgill1.bitnet,
+		nrcvm01.bitnet, qucdn.bitnet, ryerson.bitnet, upei.bitnet,
+		uwocc1.bitnet, sfu.bitnet, ubcmtsg.bitnet, canada01.bitnet,
+		udem.bitnet
+		}(DEAD*2)
+
+# All CDNnet forwarders
+# (of limited utility in the absence of source routes in CDNNET)
+ubc-ean	cdnnet-ca-gws(DEAD*2)
+cdnnet-ca-gws = { sce.carleton.cdn, queens.cdn, uwo.cdn, lccr.sfu.cdn,
+		ean.ubc.cdn
+		}(DEAD*2)
+
+# All Internet forwarders
+uunet	internet-ca-gws(DEAD)
+internet-ca-gws = { cunyvm.cuny.edu, relay.ubc.ca, musocs.cs.mcgill.ca,
+		um.cc.umich.edu
+		}(DEAD*2)
+
+# All UUCP forwarders
+uunet	uucp-ca-gws(DEAD)
+uucp-ca-gws = { clan, musocs, mcgill-vision, qucis, julian, fornax,
+		ubc-vision
+		}(DEAD*2)
+
+#---------------------------------------------------------------------------
+# Registered CA Subdomains:
+
+# Bell-Northern Research
+bnr.bitnet				<.bnr.ca>(LOCAL)
+cunyvm.cuny.edu				<.bnr.ca>(DEDICATED)
+queens.cdn				<.bnr.ca>(DEDICATED)
+
+# Carleton University
+carleton.bitnet				<.carleton.ca>(LOCAL)
+relay.ubc.ca				<.carleton.ca>(DEDICATED)
+sce.carleton.cdn			<.carleton.ca>(LOCAL)
+clan					<.carleton.ca>(LOCAL)
+
+# McGill University
+mcgill1.bitnet				<.mcgill.ca>(LOCAL)
+musocs.cs.mcgill.ca			<.mcgill.ca>(LOCAL)
+queens.cdn				<.mcgill.ca>(DEDICATED)
+musocs					<.mcgill.ca>(LOCAL)
+mcgill-vision				<.mcgill.ca>(LOCAL)
+
+# National Research Council
+nrcvm01.bitnet				<.nrc.ca>(LOCAL)
+cunyvm.cuny.edu				<.nrc.ca>(DEDICATED)
+
+# Queen's University
+cunyvm.cuny.edu				<.queensu.ca>(DEDICATED)
+qucdn.bitnet				<.queensu.ca>(LOCAL)
+queens.cdn				<.queensu.ca>(LOCAL)
+qucis					<.queensu.ca>(LOCAL)
+
+# Ryerson Polytechnic Institute
+ryerson.bitnet				<.ryerson.ca>(LOCAL)
+cunyvm.cuny.edu				<.ryerson.ca>(DEDICATED)
+queens.cdn				<.ryerson.ca>(DEDICATED)
+
+# University of Prince Edward Island
+upei.bitnet				<.upei.ca>(LOCAL)
+cunyvm.cuny.edu				<.upei.ca>(DEDICATED)
+
+# University of Western Ontario
+uwocc1.bitnet				<.uwo.ca>(LOCAL)
+uwo.cdn					<.uwo.ca>(LOCAL)
+julian					<.uwo.ca>(LOCAL)
+cunyvm.cuny.edu				<.uwo.ca>(DEDICATED)
+
+# Simon Fraser University
+sfu.bitnet				<.sfu.ca>(LOCAL)
+lccr.sfu.cdn				<.sfu.ca>(LOCAL)
+fornax					<.sfu.ca>(LOCAL)
+um.cc.umich.edu				<.sfu.ca>(DEDICATED)
+
+# University of British Columbia
+relay.ubc.ca				<.ubc.ca>(LOCAL)
+ubcmtsg.bitnet				<.ubc.ca>(LOCAL)
+ean.ubc.cdn				<.ubc.ca>(LOCAL)
+ubc-vision				<.ubc.ca>(LOCAL)
+
+# The NetNorth Consortium
+cunyvm.cuny.edu				<.netnorth.ca>(DEDICATED)
+canada01.bitnet				<.netnorth.ca>(LOCAL)
+
+# Universite de Moncton
+udem.bitnet				<.umoncton.ca>(LOCAL)
+cunyvm.cuny.edu				<.umoncton.ca>(DEDICATED)
+queens.cdn				<.umoncton.ca>(DEDICATED)
+SHAR_EOF
+:	End of shell archive
+exit 0

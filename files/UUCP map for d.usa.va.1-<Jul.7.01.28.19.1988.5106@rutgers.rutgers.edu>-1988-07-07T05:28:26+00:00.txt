@@ -1,0 +1,427 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.va.1
+: This archive created: Thu Jul  7 01:28:05 1988
+echo shar: extracting d.usa.va.1
+cat << 'SHAR_EOF' > d.usa.va.1
+#	start of d.usa.va.1: Wed Jul  6 00:30:04 PDT 1988
+#	maintained by Nicholas/Nike Horton uumap@reed.uucp
+
+#N	.bdm.com, bdmrrr
+#F	rutgers.edu
+#S	Sun 2/120; 4.2 bsd unix
+#O	BDM Corporation
+#C	Joel Shprentz, Al Gates
+#E	shprentz@bdmrrr.bdm.com, gates@bdmrrr.bdm.com
+#T	+1 703 848 7305, +1 703 848 7268
+#P	7915 Jones Branch Drive, McLean, VA  22102
+#L	38 55 42 N / 77 13 12 W
+#U	vrdxhq psc
+#R	registered
+#W	bdmrrr!shprentz (Joel Shprentz); Sun Jul  3 19:38:41 EDT 1988
+#
+bdmrrr	.bdm.com
+bdmrrr=	bdmrrr.bdm.com
+bdmrrr=	bdm.com
+#
+# local calls
+bdmrrr  rlgvax(DIRECT), psc(DIRECT), sundc(DIRECT),
+	gawain(DIRECT), donut(DIRECT), vrdxhq(DIRECT)
+#
+# long distance calls -- we call every hour when we have traffic and
+# at least once every two hours no matter what
+#
+bdmrrr	rutgers(HOURLY)
+rutgers	bdmrrr(HOURLY*2)
+#
+# long distance calls on demand (polled at least four times per day)
+bdmrrr	afesc(DEMAND)
+afesc	bdmrrr(DAILY/4)
+
+
+#N	.cos.com, cos
+#F	uunet.uu.net
+#S	Sun 3/160; BSD 4.2, Sun 3.2
+#O	Corporation for Open Systems
+#C	Andrew Partan
+#E	cos!asp
+#T	+1 703 883 2796
+#P	1750 Old Meadow Road, Suite 400; McLean, VA 22102-4306
+#L	38 55 15 N / 77 12 48 W
+#R	registered
+#U	hadron
+#W	cos!asp (Andrew S. Partan); Wed Sep  2 15:03:09 EDT 1987
+#
+cos	.cos.com(LOCAL)
+cos =	cos.com
+cos	decuac(DIRECT), hadron(DIRECT+HIGH), hqda-ai(DIRECT+HIGH),
+	sundc(DIRECT+HIGH), uunet(DEMAND)
+
+
+#N	.grebyn.com, grebyn
+#F	umd5.umd.edu
+#O	Grebyn Corporation
+#C	Karl A. Nyberg
+#E	karl@grebyn.com
+#T	+1 703 281 2194
+#P	P. O. Box 1144, Vienna, VA  22180
+#L	38 52 N / 77 20 W
+#U	decuac inco macom1 men2a paisano pyrdc rriwro umd5 vrdxhq vsedev
+#R	Formally registered with NIC in the .COM domain... (thanks Mike!)
+#W	4/18/88 karl@grebyn.com
+#
+grebyn	.grebyn.com
+grebyn=	grebyn.com
+grebyn  ctvax(EVENING+HIGH), decuac(DIRECT+LOW), dolcqi(DIRECT), 
+	hadron(DIRECT), isavax(DIRECT+LOW), macom1(DIRECT+LOW), men1a(DIRECT),
+	men2a(DIRECT), nrl-css(DIRECT+LOW), paisano(DIRECT), pyrdc(DIRECT),
+	rriwro(DIRECT), umd5(DIRECT), vrdxhq(DIRECT+HIGH), vsedev(DIRECT), 
+	inco(DIRECT), netsys(DIRECT+LOW), hqda-ai(DIRECT)
+
+
+#N	.kesmai.com, kesmai
+#F	rutgers.edu
+#O	Kesmai Corporation
+#C	Kelton Flinn, John Taylor
+#E	kff@kesmai.uucp, jrt@kesmai.uucp
+#T	+1 804 973 1040
+#P	2780 Hydraulic Rd., suite 1, charlottesville, va. 22901
+#L	38 01 70 N / 78 30 39 W
+#U
+#R	registered with no gateway
+#W	kesmai!kff (Kelton Flinn); Wed May 27 15:06:33 EDT 1987
+#
+kesmai	.kesmai.com
+kesmai=	kesmai.com
+#
+# local calls
+kesmai  uvaee(DIRECT),	uvacs(DIRECT), edison(DIRECT), virginia(DIRECT)
+#
+# We poll these sites even if we don't have traffic for them
+uvaee	kesmai(DAILY)
+virginia	kesmai(DAILY)
+
+
+#N	.navsea.mil, celpa
+#F	seismo.css.gov
+#O	NAVAL SEA SYSTEMS COMMAND - US NAVY Dept.
+#C	Ron Flax (VSE), Greg Foltz (VSE), Robert Calogero (NAVSEA)
+#E	ron@vsedev.vse.com, greg@vsedev.vse.com, rc@celpa.navsea.mil
+#T	+1 703 769 2865, +1 703 769 2882, +1 202 692 8705
+#P	1235 S. Jefferson Davis Hwy., Suite 900, Arlington, VA. 22202 (navsea)
+#L
+#U
+#R	registered with no forwarder
+#R	run by VSE.com, navsea contact is administrative only.
+#W	10/20/86 MRH from vsedev!ron
+#
+celpa	.navsea.mil
+celpa=	celpa.navsea.mil
+celpa   vsedev(DIRECT)
+
+#N	.odu.edu, xanth
+#F	UUNET.UU.NET
+#O	Old Dominion University
+#C	Tad Guy <tadguy>, Jim Duncan <jim>, Mike Walker <mike>
+#E	postmaster@cs.odu.edu
+#T	+1 804 440 3915
+#P	Dept. of Computer Science; Norfolk, Virginia  23529-0162
+#L	36 53 7 N / 76 18 12 W
+#R	registered with UUNET
+#R	xanth.cs.odu.edu is the sole gateway and external mail forwarder.
+#R	xanth talks to Virginia Tech's machine popeye on demand, but since
+#R		AT&T has a machine by that name, it is not listed below.
+#U	mcnc bar virgil brooks uunet flux ames edison hoptoad
+#W	xanth!tadguy; Thu Jun 16 16:12:38 EDT 1988
+#
+# Also known as:
+#
+xanth 	.odu.edu
+xanth	= odu.edu
+xanth	= xanth.cs.odu.edu
+# Tidewater:
+xanth	amber(POLLED), bar(POLLED), brooks(POLLED), citadel(POLLED), 
+	cpwsys(POLLED),	csab(DEMAND), flux(POLLED), gwynedd(POLLED),
+	nirvana(DEMAND), ptvb(POLLED), rhema(POLLED), sunva(DIRECT), 
+	vinya(POLLED), virgil(DIRECT)
+# Virginia:
+xanth	edison(DEMAND+LOW), virginia(DEMAND+LOW)
+# Calls through PC Pursuit:
+xanth	ames(EVENING), chinet(EVENING), decuac(EVENING), harvard(EVENING+LOW),
+	hoptoad(EVENING), isis(EVENING), jetson(EVENING), linus(EVENING), 
+	mcnc(EVENING), mit-eddie(EVENING), sun(EVENING), umn-cs(EVENING),
+	uunet(EVENING+LOW)
+# Forced polls (EVENING > DAILY/3) :
+ames	xanth(DAILY/3)
+chinet	xanth(DAILY)
+csab	xanth(DAILY/2)
+decuac	xanth(DAILY)
+edison	xanth(EVENING)
+harvard	xanth(DAILY)
+hoptoad	xanth(EVENING)
+isis	xanth(DAILY)
+jetson	xanth(DAILY)
+linus	xanth(DAILY)
+mcnc	xanth(DAILY/3)
+mit-eddie xanth(DAILY/2)
+nirvana	xanth(DAILY/2)
+sun	xanth(DAILY/3)
+sunva	xanth(DIRECT)
+uunet	xanth(DAILY)
+umn-cs	xanth(DAILY/2)
+virgil	xanth(EVENING)
+virginia xanth(EVENING)
+
+
+#N	.ori-cal.com, men2a
+#F	.uunet.uu.net (uunet)
+#O	Calculon Corporation
+#C	Andrew Sibre, Jasbir Singh
+#E	andys@men1a.ori-cal.com, jazz@men1a.ori.cal.com
+#T	703-841-0102
+#P	Calculon Corporation, 1401 Wilson Blvd., Arlington Va., 22209
+#L	38 50 29 N / 77 03 30 W 
+#U	vsedev (vsedev.vse.com)   grebyn (grebyn.com)
+#R	NIC Registered
+#W      andys@men1a.ori-cal.com (Andrew Sibre); Mon Dec 7 06:52:00 EST 1987
+#
+men2a   .ori-cal.com
+men2a=  men2a.ori-cal.com, men2a
+men2a   uunet(DIRECT), vsedev(DIRECT), cal-uni(DIRECT), jando(DIRECT),
+	men1a(LOCAL), men3a(DIRECT), men4a(EVENING), askcs(DIRECT), 
+	aquin(DIRECT), grebyn(DIRECT), 3068(DIRECT), pokey(DIRECT)
+
+men1a	.men1a.ori-cal.com
+men1a=	men1a.ori-cal.com, men1a
+men1a	grebyn(DIRECT), vsedev(DIRECT), rlgvax(DIRECT), aquin(DIRECT),
+	jando(DIRECT), kultis(DIRECT), askcs(DIRECT), men3a(DIRECT),
+	men3a(DIRECT), men4a(DIRECT), 3068(DIRECT)
+
+aquin	.aquin.ori-cal.com
+aquin=	aquin.ori-cal.com, aquin
+aquin	vsedev(DIRECT), men1a(DIRECT), men2a(DIRECT), jando(DIRECT),
+	kultis(DIRECT), askcs(DIRECT), 1solaria(DIRECT), softdev(DIRECT)
+
+
+#N	.uu.net, uunet
+#F	uunet.uu.net
+#S	Sequent B21; Dynix 3.0.4
+#O	UUNET
+#C	Donnalyn Frey
+#E	uunet!postmaster
+#T	+1 703 764 9789
+#P	P.O. Box 2685, Fairfax, VA 22031
+#L	38 53 40.5 N / 77 04 34.5 W
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Fri Jun 17 15:18:58 EDT 1988
+#U	accur8 actnyc altnet amara amdahl apctrc asihub atina attcan axion
+#U	bambam bedroom beno brb brunix btni bywater cacilj cadnetix cbmvax
+#U	ccicpg censun1 cfg cheergiz cme-durer coherent convex cos crdnl cwi
+#U	daitc dalsqnt ddsia diogenes dowjone ednor edsews epicb eplrx7 etnibsd
+#U	fed fjcp60 fozzy ghsvax goldent graftel grand hadron harper helios
+#U	hi-csc hnsurg3 hodge hoptoad hsi iconsys idsnh imsl imspw6 inco
+#U	ingr intek01 intrepid iscuva island ism780c ispi jetson jupiter kaist
+#U	kddlab kitrain ksr l5comp littlei lll-winken longway lupine marque masscomp
+#U	mcl mcrware mcvax mfci milhow1 mimos mmlai mrklund mrmarx mtcs
+#U	munnari n3dmc nbires ncc ndsuvax nexus nfsun nih-csl nuchat nuchat-fake
+#U	nwnexus ocsmd onm3b2 oresoft parns pcrat pdn peregrine pi pjbell
+#U	polygon portal psivax pwcmrd pyrdc quick sco sdrc seismo simware
+#U	sli smsdpg spike ssgp32 ssi starnine steinmetz super swlabs sysadmin
+#U	tektronix uchdcc ukma umbc3 unh uniblab unisoft unisyn uport usna
+#U	ut-sally utoday uunet uvm-gen van-bc vsedev vsi vuwcomp w3vh wa3wbu
+#U	warble wash08 watmath wiley wor-mein wp3b01 wpg wucs1 wwwa wyse
+#U	xanth xinx xpiinc zorch
+#
+uunet .uu.net
+uunet = uunet.uu.net
+#
+uunet	4gen(DEMAND), accur8(DEMAND), actnyc(DEMAND), acw(DEMAND),
+	aimt(DEMAND), <aleytys>(DEMAND), algor1(DIRECT), algor2(DIRECT),
+	altnet(DEMAND+FAST), amara(DEMAND), amc(DEMAND), amdahl(DEMAND),
+	amdcad(DEMAND), amsdsg(DEMAND), antnet(DEMAND), aocgl(DEMAND),
+	apctrc(DEMAND), ardent(DEMAND), artcs1(DEMAND), asihub(DEMAND),
+	atc1(DEMAND), ateng(DEMAND), bally(DEMAND), bambam(DEMAND),
+	bartek1(DEMAND), baustin(DEMAND), bcsinc(DEMAND),
+	beast(DEAD), becam(DEMAND), bedroom(DEMAND), benn(DEMAND),
+	bgalli(DEMAND), bigmax(DEAD), bigtex(POLLED), brb(DIRECT),
+	brunix(DEMAND), bsadrc(DEMAND), bsu-cs(EVENING), btni(DEMAND),
+	bywater(DEMAND), cacilj(DEMAND), cadnetix(DEMAND), cadware(DEMAND),
+	capmkt(DEMAND), caug(DEMAND), cbmvax(DEMAND), ccicpg(DEMAND),
+	cec(DEMAND), censun1(DEMAND), centaure(DEMAND), cerebus(DEMAND),
+	cfg(DEMAND), cheergiz(DEMAND), cme-durer(DIRECT),
+	coherent(EVENING+FAST), convex(DEMAND), cooksys(DEAD), cos(DIRECT),
+	crdnl(DEMAND), crt(DEMAND), csdev(DEMAND), ctc2d(DEMAND), cwi(DEMAND),
+	cyan(DEMAND), cybvax0(DEMAND), daisy(DEMAND), dalsqnt(DEMAND),
+	dartvax(DEMAND), datapg(DEMAND), dbi(DEMAND), ddsia(DEMAND),
+	delta(DEMAND), desint(DEMAND), daitc(DIRECT), diogenes(DEMAND),
+	dmk3b1(DEMAND+FAST), dowjone(DEMAND), dpmizar(DEMAND), ednor(DEMAND),
+	edsews(DEMAND+FAST), elan(DEMAND), epicb(DEMAND), epiwrl(DIRECT),
+	eplrx7(DEMAND+FAST), elxsi(DEMAND), esquire(DEMAND), etnibsd(DEMAND),
+	etxaz(DEMAND), fed(DIRECT), fog(DEMAND), fozzy(DEMAND), fjcp60(DIRECT),
+	ghsvax(DEMAND), godfre(DEAD), goldent(DEMAND), gould(DEMAND),
+	graftel(DEMAND), grand(DEMAND), gwusun(DEMAND), hadron(DIRECT), 
+	harper(DEMAND), harrel(DEMAND), hcx1(DEMAND), helios(DEMAND),
+	hi-csc(DEMAND), hnsurg3(DEMAND), hodge(DEMAND), hombre(DEMAND),
+	<hoptoad>(DEMAND+FAST), hpda(DEMAND), hsi(DEMAND+FAST), icom(DEMAND),
+	iconsys(DEMAND), ide(DEMAND), idsnh(DEMAND), imsl(DEMAND),
+	imspw6(DIRECT), inco(DIRECT), infmx(DEMAND),
+	ingr(DEMAND), intek01(DEMAND), interfa(DEMAND), iscuva(DEMAND),
+	island(DEMAND), ism780c(DEMAND), ispi(DEMAND), intrepid(DEMAND),
+	ixtoday(DEMAND), utoday(DEMAND), janis(DEAD), janus(DEMAND),
+	jaxlab(DEMAND), <jetson>(HOURLY), jimadal(DEMAND), jjinc(DEMAND),
+	jupiter(DEMAND), kitrain(EVENING+FAST), kitty(DEMAND), ksr(EVENING),
+	l5comp(DEMAND), likewise(HOURLY), littlei(EVENING), lll-winken(DEMAND),
+	longway(DEMAND), lts(DIRECT), lupine(DEMAND), <lurnix>(DEMAND), 
+	marque(DEMAND), masscomp(DEMAND), maximo(DIRECT), mcad01(DEMAND),
+	mcl(EVENING), mcrware(DEMAND), medixb(DEMAND), men2a(DIRECT),
+	mentat(DEMAND), merk(DEMAND), metasoft(DEMAND), mfci(DEMAND),
+	microsoft(DEMAND), milhow1(DEMAND), mimsy(DIRECT), mldfs(DEMAND),
+	mltco(DEMAND), mmlai(DEMAND), mpusa(DEMAND), mrklund(DEMAND),
+	mrmarx(EVENING), mstan(DEMAND), mtcs(DEMAND), mtxinu(DEMAND),
+	n3dmc(DEMAND), nbires(DEMAND), <ncc>(HOURLY), ndsuvax(DEMAND),
+	netxcom(DIRECT), nexus(DIRECT), nfsun(DEMAND), nih-csl(DEMAND),
+	nmri(DEMAND), <nuchat>(DEMAND), nwnexus(DEMAND), nys7(DEMAND),
+	<ocsmd>(DEMAND), onm3b2(DEMAND), ora(DEMAND), oresoft(DEMAND),
+	<osf>(DEMAND), parallax(DEMAND), parns(DEMAND), patw(DEMAND),
+	pcrat(DEMAND), pdn(DEMAND), peregrine(DEMAND), philabs(DEMAND),
+	photon(DEMAND), pi(DEMAND), pilchuck(DEMAND), pipegate(DIRECT),
+	pixel(DEMAND), pjbell(DEMAND), plumhall(DEMAND), plus5(DEMAND),
+	polygon(DEMAND), portal(DEMAND), prcrs(DIRECT), prmtech(DEMAND), 
+	psivax(DEMAND), pwcmrd(DEMAND), pyramid(DEMAND+50), pyrdc(DIRECT),
+	qtny(DEMAND), qusavx(DEMAND), quick(DAILY), <research>(DEMAND),
+	rlgvax(DIRECT), rob(DEMAND), rosevax(DEMAND), rowell(DEMAND),
+	sbiny(DEMAND), sco(HOURLY), sdba(DEMAND), sdrc(DEMAND), seismo(LOCAL),
+	sequent(DEMAND+LOW), siia(DEMAND), simware(DEMAND), <sjsumcs>(DEMAND),
+	ska(DEMAND), skio(DEMAND), sli(DEMAND), smc1(DEMAND), smsdpg(DIRECT),
+	<smu>(DEMAND), spike(DEMAND), softix(DEMAND), snark(DEMAND),
+	spooky(DEAD), ssgp32(DEMAND), ssi(DEMAND), starnine(DEMAND),
+	statsci(DEMAND), steinmetz(DEMAND), stellar(DEMAND), stratix(DEAD),
+	sunriv(DEMAND), super(DEMAND), swlabs(DEMAND), sysadmin(DEMAND),
+	talos(DEMAND), techsupp(DEAD), tekbspa(DEMAND), tektronix(DEMAND),
+	telebit(DEMAND+FAST), texinst(DEMAND), theceg(DEMAND), tib(DEMAND),
+	turnkey(EVENING), ubvax(DEMAND), ucsd(DEMAND), uiucdcs(DEMAND),
+	uiucuxc(DEMAND), ukma(DEMAND), umbc3(DEMAND), umd5(DIRECT),
+	umix(DEMAND), unh(DEMAND), uniblab(DEMAND), unisoft(DEMAND),
+	unisyn(DEMAND), unsvax(DEMAND), uport(DEMAND), urban(DEMAND),
+	unrvax(DEMAND), usenix(DEMAND), usm3b2(DEMAND), usna(DEMAND),
+	ut-sally(DEMAND), uvm-gen(DEMAND), uworld(DEMAND), van-bc(DEMAND+LOW),
+	<vdelta>(EVENING), versatc(DEMAND), virgin(DEMAND), virginia(DEMAND),
+	<vixie>(DEMAND), vrdxhq(DIRECT), vsedev(DIRECT+FAST), vsi(DEMAND),
+	vuse(DEMAND), w3vh(DEMAND), <wa3wbu>(DEMAND), warble(EVENING),
+	wash08(DEMAND), wiley(DEMAND), willow(DEMAND), wizdom(DEMAND),
+	wor-mein(DEMAND), wp3b01(DEMAND), wpg(DEMAND), wwwa(DEMAND),
+	wucs1(DEMAND), wwd(DEMAND), wyomic(DEMAND), wyse(DEMAND),
+	xanth(EVENING), xilinx(DEMAND), xinx(DEMAND), xpiinc(DEMAND),
+	zorch(DEMAND)
+#
+# have not yet successfully connected, but have signed up
+#
+uunet	<colby>(DEAD), <kcwc>(DEAD), <orcas>(DEAD), <oxford>(DEAD),
+	<plato>(DEAD), <roxann>(DEAD), <siemens>(DEAD), <zeus>(DEAD)
+uunet	<anda>(DEAD), <aubsch>(DEAD), <dmsmvax2>(DEAD),
+	<kenco>(DEAD), <modcomp>(DEAD), <visenix>(DEAD), <wsi>(DEAD),
+	<xyvision>(DEAD), <nitrex>(DEAD), <htc-chi>(DEAD),
+	<comcorp1>(DEAD), <bts>(DEAD), <jsoft>(DEAD), <pantor>(DEAD),
+	<lotus>(DEAD), <mdc-astro>(DEAD), <timer1>(DEAD),
+	<mrosene>(DEAD), <sugar>(DEAD), <muddcs>(DEAD)
+#
+#	International X.25
+#
+uunet	ait(DEMAND-1), attcan(DEMAND+HIGH), atina(DEMAND-1), dalcs(DEMAND-1),
+	enea(DEMAND-1), garfield(DEMAND-1), halla(DEMAND-1), hkucs(DEMAND-1),
+	indogtw(DEMAND-1), <ircam>(DEMAND-1), kddlab(DEMAND-1),
+	mcvax(DEMAND+FAST), mimos(DEMAND-1), mnetor(DEMAND+HIGH),
+	munnari(DEMAND-1), prlb2(DEMAND-1), shakti(DEAD), stklabs(DEMAND),
+	ubc-cs(DEMAND-1), uchdcc(DEMAND-1), unido(DEMAND-1), uniscope(DEMAND),
+	utai(DEMAND-1), vuwcomp(DEMAND-1), watmath(DEMAND-1)
+#
+#	Arpanet sites we can reach via SMTP that are also uucp sites
+#	(This is legitimate if we treat it as a terminal node)
+#
+uunet	<ames>(DEDICATED), <bbn>(DEDICATED), <bellcore>(DEDICATED),
+	<brl-smoke>(DEDICATED), <cit-vax>(DEDICATED), <cmcl2>(DEDICATED),
+	<columbia>(DEDICATED), <decvax>(DEDICATED), <decwrl>(DEDICATED),
+	<fernwood>(DEDICATED), <garp>(DEDICATED), <gatech>(DEDICATED),
+	<harvard>(DEDICATED), <hc>(DEDICATED), <hplabs>(DEDICATED),
+	<iuvax>(DEDICATED), <lbl-csam>(DEDICATED), <ll-xn>(DEDICATED),
+	<lll-crg>(DEDICATED), <lll-lcc>(DEDICATED), <lll-tis>(DEDICATED),
+	<mcnc>(DEDICATED), <mordor>(DEDICATED), <ncar>(DEDICATED),
+	<noao>(DEDICATED), <nyser>(DEDICATED), <oberon>(DEDICATED),
+	<oddjob>(DEDICATED), <pur-ee>(DEDICATED), <purdue>(DEDICATED),
+	<rdlvax>(DEDICATED), <riacs>(DEDICATED), <rpics>(DEDICATED),
+	<rutgers>(DEDICATED), <sun>(DEDICATED), <ucbcad>(DEDICATED),
+	<ucbvax>(DEDICATED), <ucsfcgl>(DEDICATED), <utah-cs>(DEDICATED),
+	<uwvax>(DEDICATED)
+
+
+#N	.virginia.edu, virginia
+#S	AT&T 3B15; SysV Release 2
+#O	University of Virginia Academic Computing Center
+#C	Marc Rouleau
+#E	virginia!mer6g
+#T	+1 804 924 0631
+#P	Academic Computing Center, Gilmer Hall, UVa, Charlottesville, Va.  22901
+#L	38 01 70 N / 78 30 39 W
+#R	registered
+#U	uunet kesmai
+#W	mer6g@virginia.EDU (Marc Rouleau); Mon Dec  7 12:31:56 EST 1987
+#
+virginia	.virginia.edu
+virginia=	virginia.edu
+virginia	kesmai(DIRECT), uunet(DIRECT), mcnc(DEMAND),
+		nrao1(DIRECT), uvaee(DIRECT), rmcash(DEMAND), xanth(DEMAND)
+#polls
+mcnc	virginia(DAILY/4)
+uunet	virginia(EVENING)
+
+
+#N	.vse.com, vsedev
+#F	uunet.uu.net
+#O	VSE Corporation
+#C	Ron Flax
+#E	ron@vsedev.vse.com
+#T	+1 703 892-0002
+#P	2611 Jefferson Davis Highway, Suite 2002, Arlington, VA  22202
+#L	38 55 N / 77 05 W
+#U	vrdxhq, uunet, fmpmis, grebyn, men2a, prometheus, aquin
+#R	registered
+#W	10/20/86 MRH from vsedev!ron
+#
+vsedev	.vse.com
+vsedev=	vsedev.vse.com
+vsedev  fmpmis(DEMAND), alum(WEEKLY), aquin(DEMAND),
+	celpa(DEMAND), cvl(DEMAND), grebyn(DEMAND), jando(DEMAND),
+	men1a(DEMAND), men2a(DEMAND), nav4(DEMAND), prometheus(DEMAND), 
+	sea1(DEMAND), softdev(DEMAND+FAST), tlxprs(DEMAND+LOW), vrdxhq(DEMAND), 
+	vsepca(LOCAL), uunet(DEMAND+FAST), isgvax(LOCAL), vseatt(LOCAL)
+#
+softdev	.softdev.vse.com
+softdev=.softdev.vse.com, softdev
+softdev	vsedev(LOCAL), aquin(DEMAND+LOW), prometheus(DEMAND+LOW)
+#
+vsesun	.vsesun.vse.com
+vsesun=	vsesun.vse.com, vsesun
+vsesun	vsedev(LOCAL)
+#
+vsepca	.vsepca.vse.com
+vsepca=	vsepca.vse.com, vsepca
+vsepca	vsedev(LOCAL), isgvax(LOCAL), vseatt(LOCAL)
+#
+vseatt	.vseatt.vse.com
+vseatt=	vseatt.vse.com, vseatt
+vseatt	vsedev(LOCAL), isgvax(LOCAL), vsepca(LOCAL)
+#
+isgvax	.isgvax.vse.com
+isgvax=	isgvax.vse.com, isgvax
+isgvax	vsedev(LOCAL), vsepca(LOCAL), vseatt(LOCAL)
+#
+cedev	.cedev.vse.com
+cedev=	cedev.vse.com, cedev
+cedev	vsedev(DIRECT)
+
+
+#	end of d.usa.va.1: Wed Jul  6 00:30:08 PDT 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

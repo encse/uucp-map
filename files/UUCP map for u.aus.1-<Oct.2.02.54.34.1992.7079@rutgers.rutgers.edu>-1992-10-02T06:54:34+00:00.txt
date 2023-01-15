@@ -1,0 +1,110 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.aus.1
+: This archive created: Fri Oct  2 02:54:31 1992
+echo shar: extracting u.aus.1
+cat << 'SHAR_EOF' > u.aus.1
+file {u.aus.1} # Tue Sep 29 09:55:13 +1000 1992
+
+# updates to <Christopher.Vance@adfa.oz.au>, <cjsv@adfa.oz.au> or <ccadfa!cjsv>
+#
+# Australia - top-level network connectivity
+
+# The entries in all map files for Australia are grouped by
+# third-level domain (if any) and ordered alphabetically thereon, with
+# other level domains considered irrelevant, so
+#	cec.edu.au < carbon.chem.csiro.au < cocam.oz.au
+#	^                   ^               ^
+# would be the relevant order if these entries occurred in the same
+# map file.
+#
+# If several domains logically belong together they are grouped
+# together.  This is especially true where the preferred domain has
+# changed.  Many subdomains of csiro.au were previously in oz.au, as
+# were many universities now in edu.au.
+#
+# Similarly, a number of names of hosts directly in oz.au are historical
+# artifacts of ancient ACSnet software.  Such hosts are sometimes listed
+# with their short aliases, rather than their longer canonical names,
+# although this is changing.  Regardless, they are still grouped with the
+# related domains or hosts.
+#
+# Where there are a number of entries related to each other within a domain,
+# the entries may be bracketed by lines `# /' above and `# \' below.
+#
+# `Private networks', in the pathalias(8) sense, are used for
+# maintaining routing information.  All these have names beginning with
+# `aarnet-', `acsnet-', or `australia-'.  The distinction is that
+# members of `aarnet-' networks are known to be IP-connected,
+# `acsnet-' networks are reachable via ACSnet/MHSnet routing and include
+# non-AARNet members of .oz.au, while members of `australia-' networks
+# are presumed reachable by some other means, possibly including uucp.
+#
+# I attempt to keep the information in these maps consistent with
+#	the Internet DNS (Domain Name Service)
+#	routing tables for MHSnet (SunIV?) as seen at sserve.cc.adfa.oz.au
+#	routing tables for ACSnet (SunIII) as seen at munnari.oz.au
+
+#N	aarnet-all, acsnet-all, australia-all, .oz, .au
+#O	map coordinator, Australian UUCP maps
+#C	Christopher Vance
+#E	Christopher.Vance@adfa.oz.au; cjsv@adfa.oz.au; ccadfa!cjsv
+#T	+61 6 268 8051
+#W	cjsv@adfa.oz.au (Christopher Vance); Tue Sep 15 16:03:30 +1000 1992
+#
+private	{ aarnet-all, acsnet-all, australia-all }
+#
+aarnet-all = { munnari.oz.au,
+	clix.aarnet.edu.au, hermes.ucs.adelaide.edu.au,
+	ccadfa.cc.adfa.oz.au, sserve.cc.adfa.oz.au, csadfa.cs.adfa.oz.au,
+	adfa.oz.au,
+	mariner.amc.edu.au, peg.apc.org,
+	anu.anu.edu.au, manuel.anu.edu.au,
+	jabaru.cec.edu.au,
+	natmlab.dap.csiro.au,
+	csis.dit.csiro.au, shark.mel.dit.csiro.au,
+	aegir.adl.dmt.csiro.au, hugin.adl.dmt.csiro.au,
+	mimir.mlb.dmt.csiro.au,
+	spider.ento.csiro.au,
+	gucis.cit.gu.edu.au, kurango.cit.gu.edu.au,
+	ipso.ips.oz.au,
+	luga.latrobe.edu.au, lugb.latrobe.edu.au,
+	aurora.cc.monash.edu.au, monu1.cc.monash.edu.au,
+	monu6.cc.monash.edu.au, bruce.cs.monash.edu.au,
+	moncskermit.cs.monash.edu.au, vaxc.cc.monash.edu.au,
+	sunb.ocs.mq.edu.au,
+	pta.pyramid.com.au, yarra.pyramid.com.au,
+	minyos.xx.rmit.oz.au,
+	arnie.systems.sa.gov.au,
+	archsci.arch.su.oz.au, basser.cs.su.oz.au, cluster.cs.su.oz.au,
+	metro.ucc.su.oz.au,
+	trlamct.trl.oz.au, trlluna.trl.oz.au, trlsasb.trl.oz.au,
+	trlvlsi.trl.oz.au,
+	grivel.une.oz.au,
+	ariel.ucs.unimelb.edu.au, hermes.ucs.unimelb.edu.au,
+	levels.unisa.edu.au,
+	csdgwy.csd.unsw.edu.au, usage.csd.unsw.edu.au,
+	brolga.cc.uq.oz.au, bunyip.cc.uq.oz.au, uqcspe.cs.uq.oz.au,
+	cam.compserv.utas.edu.au, probitas.cs.utas.edu.au,
+	ultima.socs.uts.edu.au, utsmips.ccsd.uts.edu.au,
+	waratah.ccsd.uts.edu.au }(DEDICATED/2)
+#
+acsnet-all = {
+	bain3.bain.oz.au, dgaust.oz.dg.com, tmx.mhs.oz.au, qdpii.qdpi.oz.au,
+	runx.oz.au, smhea.sma.oz.au,
+	brimbank.pub.uu.oz.au, cloud.pub.uu.oz.au, eyrie.pub.uu.oz.au,
+	mana.pub.uu.oz.au, pos.pub.uu.oz.au, prolix.pub.uu.oz.au,
+	werple.pub.uu.oz.au,
+	.oz }
+#
+# .oz is not really a top-level domain, but a subdomain of .au, but some
+# people, however, used to use .oz as an alias for .oz.au, hence this hack
+#
+australia-all = { aarnet-all, acsnet-all, .au }
+
+# u.aus.1 - end
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,140 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nd.1
+: This archive created: Fri Nov  8 05:33:35 1991
+echo shar: extracting u.usa.nd.1
+cat << 'SHAR_EOF' > u.usa.nd.1
+# u.usa.nd.1 updated by brodie@fps.mcw.edu Tuesday Oct 1 10:37:58.82 CDT 1991
+# This map is maintained by Kent C. Brodie (Systems Mgr, Medical College of WI)
+# Send any updates to uucpmap@rutgers.edu, (rutgers!uucpmap)
+ 
+#N	design
+#S	HP 9000/319; HPUX 6.5
+#O	North Dakota State University, Department of Electrical and Electronics Engineering
+#C	Jeff Johnston
+#E	design!johnston
+#T	+1 701 237 7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#W	design!johnston (J. Johnston); Sat Sep 16 10:25:00 CDT 1991
+#
+#
+# Dialup
+design	plains(DIRECT)
+
+#N	gps
+#S	SCO Unix 3.2.2
+#O	Great Plains Software
+#C	Steve Anonsen
+#E	gps!root
+#T	+1 701 281 3326
+#P	1701 SW 38th Street, Fargo, ND 58103
+#L	46 52 N / 96 47 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Jun 19 08:38:16 EDT 1991
+#U
+#
+gps	uunet(DEMAND)
+#N	leagle
+#S	80386 AT-clone; SCO Xenix System V/386 Release 2.3.3
+#O	The Eaton Law Firm
+#C	Nevin Van de Streek
+#E	nevin@eaton.com
+#T	+1 701 852 4839
+#P	Suite 506, 123 First Street SW, Minot, North Dakota
+#L	48 14 04 N / 101 17 44 W
+#R	Trying to bring Xenix/Unix to the legal profession
+#U
+#W	leagle!nevin (Nevin Van de Streek); Mon Apr  1 13:48:49 CST 1991
+#
+leagle = eaton.com
+leagle	loft386(DAILY)
+#N	leids 	
+#S	NCR 32/600
+#O	Barrister Int. Inc. 
+#C	Theodore Rosebaum
+#E	leids!theodore 
+#T	+1 701 232 0052
+#P	902 30th Street N., Fargo, ND 58102
+#L	46 52 N / 96 47 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jun  8 16:25:09 EDT 1990
+#U
+#
+leids	uunet(DEMAND)
+
+#N	milo
+#S	Zenith 80386; Interactive 386/ix 2.0.2
+#O	North Dakota State University ACM Student Chapter
+#C	Dean Roehrich, Glen Overby, Scott Wilken
+#E	milo!root, plains!roehrich
+#T	+1 701 237 8415
+#P	NDSU-ACM SIGBBS, 300 Minard Hall, Fargo, ND  58105
+#L	46 52 N / 96 48 W city
+#R	This machine is a public-access Bulletin Board
+#U	plains
+#W	milo!rtfm (Glen Overby); Fri Feb 9 19:56:55 CST 1990
+#
+milo	ndsu.nodak.edu
+milo	= milo.ndsu.nodak.edu
+milo	plains(DEMAND)
+
+#N	ndsuhp
+#S	Hewlett-Packard 9030X; HP-UX 05.21 C
+#O	North Dakota State University, Computer Systems Institute
+#C	Jeff Johnston
+#E	ndsuhp!root
+#T	+1 701 237 7019
+#P	Fargo, ND  58105
+#L	46 53 40 N / 96 48 04 W
+#R	
+#U	
+#W	ndsuhp!tareski (Val Tareski); Sun Feb 18 19:35:01 CST 1990
+#
+ndsuhp	hp-lsd(DAILY), plains(DIRECT), kartoon(LOCAL) 
+
+#N	ndsuhpd
+#S	HP 9000/319; HPUX 6.5
+#O	North Dakota State University, Department of Electrical and Electronics Engineering
+#C	Jeff Johnston
+#E	ndsuhpd!johnston
+#T	+1 701 237 7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#W	ndsuhpd!johnston (J. Johnston); Sat Sep 16 10:25:00 CDT 1991
+#
+#
+# Dialup
+ndsuhpd	plains(DIRECT)
+
+#N	plains
+#S	Solbourne 5/820; OS/MP 4.0C
+#O	North Dakota State University, Department of Mathematical Sciences
+#C	Mark Tinguely
+#E	plains!tinguely
+#T	+1 701 237 7786
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	This is also plains.NoDak.edu [134.129.111.64] on the Internet
+#U	ndsuvm1 jcvax ogicse milton
+#W	plains!tinguely (M. Tinguely); Mon Sep 30 08:52:26 CDT 1991
+#
+plains		= ndsuvax
+plains		= plains.nodak.edu
+plains		.nodak.edu
+#
+#	TCP/IP
+plains	kartoon(DIRECT), ndmoon(DIRECT), ndvenus(DIRECT), ndmars(DIRECT),
+	ndsuvm1(DIRECT), ndsueee(DIRECT), ogicse(DIRECT), umn-cs(DIRECT),
+	uunet(DIRECT), design(DIRECT)
+#
+# Dialup
+plains	jcvax(DAILY), ndsuhp(DIRECT), ndsuext(DIRECT), fargo(DAILY),
+	gps(DAILY), milo(DAILY), cobber(DAILY), wind(DAILY)
+
+# u.usa.nd.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

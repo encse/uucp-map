@@ -1,0 +1,323 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.dc.1
+: This archive created: Sat Feb  6 16:41:23 1988
+echo shar: extracting u.usa.dc.1
+cat << 'SHAR_EOF' > u.usa.dc.1
+#	start of u.usa.dc.1: Wed Feb  3 21:42:45 PST 1988
+#	maintained by horton@reed
+
+#N	baskin
+#S	Gould PowerNode 6040; UTX/32 Release 1.2
+#O	Baskin Financial Corporation
+#C	Bill Kules
+#E	baskin!postmaster
+#T	+1 202 662 8900
+#P	1331 Pennsylvania Avenue, NW, Washington, DC 20004
+#L	38 53 N / 77 15 W
+#R
+#W	baskin!wmk (Bill Kules), Tue Dec  9 14:45:44 EST 1986
+#U	vrdxhq
+#
+#       Sites that we poll hourly or whenever there is traffic
+baskin	vrdxhq(DIRECT)
+
+#N	bjs
+#S	Arete 1200; UNIX Sys 5.2
+#O	Bureau of Justice Statistics
+#C	Marshall DeBerry
+#E	bjs!mdb
+#T	+1 202 724 7774
+#P	633 Indiana Ave, NW  Washington DC 20531
+#L	38 53 34 N / 77 1 0 W
+#R
+#U	yendor
+#W	bjs!mdb (Marshall DeBerry); Sat Jul 25 17:51:12 EDT 1987
+#
+bjs	yendor(DIRECT)
+
+
+#N	dolqci
+#S	Vax 11/750, ULTRIX 32 V2.0
+#O	US Dept of Labor, Employment Training Adm., UI
+#C	Diane Donaldson
+#E	dolqci!postmaster
+#T	+1 202 535 0639
+#P	200 Constitution Avenue, Room S-4015, Washington, DC  20210
+#L	38 53 14 N / 77 01 31 W
+#R	stupid system name, we pronounce it /DOL-key/
+#W	dolqci!andie (Diane Donaldson); Tue Oct  6 08:28:45 EDT 1987
+#U	decuac c3pe hao vrdxhq gmu90x obpa1 
+#
+dolqci	decuac(DIRECT), c3pe(DIRECT), vrdxhq(DIRECT), gmu90x(DIRECT),
+	hao(WEEKLY/2), irs3(DIRECT), rlgvax(DIRECT), 
+	obpa1(DEMAND), cvl(DIRECT)
+
+
+
+#N	eli
+#S	IBC Ensign II; UNIX System V Release 1
+#O	Electric Logic, Inc.
+#C	David P. Geller
+#E	eli!geller
+#T	+1 202 223 9115
+#P	2025 Eye Street, N.W., Suite 220, Washington, D.C. 20006
+#L
+#R	UNIX/C Consulting and Software Engineering Firm
+#U	sundc rlgvax
+#W	eli!geller (David P. Geller); Wed Jan 14 22:26:00 1987 EDT
+#
+eli	sundc(DAILY/2),	rlgvax(POLLED)
+
+#N	fed
+#S	Sun 3/140; SunOS 3.4
+#O	Board of Governors of the Federal Reserve System
+#C	Robert P. Drzyzgula
+#E	fed!m1rcd00, fed!postmaster
+#T	+1 202 452 3425
+#P	20th & Constitution, N.W., Washington DC 20551 USA
+#L	77 02 47 W / 38 53 35 N
+#R	Gateway to the Federal Reserve R&S Division's Sun Ethernet LAN
+#U	
+#W	fed!m1rcd00 (Robert P. Drzyzgula); Fri Nov  6 10:51:48 EST 1987
+#
+fed	smsdpg(DIRECT)
+
+
+#N	fjcp60
+#S	Plexus P60 w/ 68020
+#O	Federal Judical Center
+#C	Julie Becker-Berlin
+#E	fjcp60!julie
+#T	+1 202 633 6491
+#P	1100 17th St. NW, 2nd Floor, Washington, DC 20036
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue,  5 Jan 18:45:34 EST 1988
+#U	uunet
+#
+fjcp60	uunet(DEMAND)
+
+
+#N	frbeca
+#S	Sun 3; Sun 3.0 Unix
+#O	Federal Reserve Board
+#C	Gary Anderson
+#E	
+#T	+1 202 452 2479
+#P	Washington, DC
+#L
+#R	on in in november 1985
+#W
+#U
+#
+
+
+#N	hqda-ai
+#S	Sun Microsystems Sun-3/160M; SunOS 3.2 (4.2BSD Unix)
+#C	David S. Hayes
+#E	uunet!cos!hqda-ai!usenet
+#E	ai01@hios-pent.arpa
+#T	+1 202 694 6900
+#O	US Army Artificial Intelligence Center
+#P	HQDA Army Artificial Intelligence Center
+#P	Pentagon ATTN: DSCS-AI (Hayes)
+#P	Washington, DC 20310-0100
+#L	38 52 07 N / 077 03 17 W
+#
+#R	HQDA-AI takes anonymous UUCP connections.
+#R	We keep a small archive of useful sources for
+#R	people who can't do Internet FTP.  Our modem
+#R	number is 1-202-694-6911.  Login as "Uanon".
+#R	There is no password.  Fetch the file
+#R	"â€¾Uanon/Catalog" for a listing of archive
+#R	contents.  You may call at any time.
+#
+#R	My incoming feed:
+#U	sundc
+#
+#R	Nodes that I feed:
+#U	yendor, icus, logi-dc, chu, soft21, beardc
+#
+#W	David S. Hayes; Mon Jan 25 15:25:20 EST 1988
+#
+hqda-ai	sundc(DEMAND), yendor(DEMAND), cos(DEMAND),
+	accva1(HOURLY), mimsy(EVENING), tlog(HOURLY+LOW),
+	arlva1(DEMAND), grebyn(DEMAND), logi-dc(HOURLY),
+	chu(DEMAND), bear-dc(HOURLY)
+#
+tlog=	hios-pent.arpa
+# The following sites poll hqda-ai via PC-Pursuit
+hqda-ai	icus(EVENING), soft21(EVENING)
+
+
+#N	hqhomes
+#S	Intel 310; Xenix 286 Release 3
+#O	U.S. Army Corps of Engineers, HOMES Project
+#C	Angela Booker
+#E	hqhomes!postmaster
+#T	+1 202 272 0969
+#P	HQUSACE, 20 Massachusets Avenue, NW, Washington, D.C., 20314, DAEN-ZCH
+#L	31 51 45 N / 77 00 44 W
+#R	Gateway to other HOMES sites in D.C., Ga., Va. via uucp and Micnet.
+#W	hqhomes!glenn (D. Glenn Arthur Jr.) Thu Sep 18 16:08:51 EDT 1986
+#U
+#
+hqhomes	sherlok(DEDICATED), amchomes(DEAD), forscom(WEEKLY),
+	c3pe(DAILY/10), dolqci(DAILY/4), milliways(DAILY/6)
+
+#N	irs1
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service - Computer Services/National Office
+#C	Ron Renoud
+#E	irs1!renoud
+#T	+ 1 202 566-5577
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irs1!kbrown (Ken Brown); Mon May 25 14:41:04 EDT 1987
+#U	umd5 driwash
+#
+irs1	irs3(DEMAND), umd5(DAILY)
+
+
+#N	irs3
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service - Computer Services/National Office
+#C	Mark Mcgee
+#E	irs1!mcge
+#T	+ 1 202 566-3735
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irs1!kbrown (Ken Brown); Mon May 25 14:41:04 EDT 1987
+#U
+#
+irs3	dolqci(DEAD), irs1(DEMAND), topgun(DEMAND), scsnet(DEMAND),
+	wb6rqn(DEMAND),	cbk(DEMAND), mcgee2(DEMAND)
+
+
+#N	irsdcp
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service, D:C:P
+#C	Frank D. Peden
+#E	irsdcp!peden
+#T	+ 1 202 566 4161
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irsdcp!frank (Frank D. Peden); Tue, 7 Jan 85 
+#U	dolqci
+#
+#irsdcp	dolqci(DIRECT), scsnet(DIRECT)
+
+#N	jedi
+#S	SUN 3/160C; SUN UNIX 3.1 (4.2BSD)
+#O	Strategic Defense Initiative Organization/Battle Management
+#C	Kurt Zeilenga
+#E	usenet@jedi.UUCP
+#T	+1 505 277 1611
+#P	Pentagon, Washington,  District of Columbia 20301-7100
+#L	38 52 07 N / 77 03 17 W
+#R	Mail If I don't know the address, maybe HC will...
+#W	zeilenga@hc.dspo.gov (Kurt Zeilenga); Sun May  3 10:58:29 MDT 1987
+#U	hi sundc
+#
+jedi	hc(DEMAND), hi(DEMAND), sundc(HOURLY)
+
+
+#N	nav1, nav2, nav3, nav4, nav5, nav6
+#S	Tandy 6000; XENIX 3.0 (28)
+#O	Naval Sea Systems Command
+#C	Barry N. Chapman
+#E	nav1!barry
+#T	+1 202 692 7790
+#P	PMS407C2, NAVSEA, Navy Dept, Wash. DC 20362
+#L	38 51 N / 77 03 W
+#R
+#W	nav1!barry (Barry Chapman); Wed Nov 20 09:08:44 1985
+#U	dsi1
+#
+# NAVSEA = {nav1, nav2, nav3, nav4, nav5, nav6}!(DIRECT)
+#
+# nav1	dsi1(DIRECT)
+
+#N	nexus
+#S	NCR Tower 32
+#O	Nexus, Inc.
+#C	Mike Hickey
+#E	nexus!root
+#T	+1 202 337 4900
+#P	2135 Wisconsin Ave, Suite 300, Washington, DC 20007
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue,  5 Jan 20:58:15 EST 1988
+#U	uunet
+#
+nexus	uunet(DEMAND)
+
+
+#N	nrl-aic
+#S	Vax 11/780, 4.2BSD
+#O	Navy Center for Applied Research in Artificial Intelligence	
+#C	Dan Hoey
+#E	nrl-aic!postmaster
+#T	(202) 767-2882, 767-2876
+#P	Naval Research Lab--Code 7510, 4555 Overlook Ave SW, Washington, DC 20375-5000
+#L	38 55 N / 77 00 W
+#R
+#W	Dan Hoey 5/1/85
+#
+#nrl-aic = "nrl-aic.ARPA"
+#nrl-aic	dreacad(POLLED), mimsy(POLLED)
+
+#N	nrl-css
+#S	Vax 11/780, 4.1BSD
+#O	Naval Research Lab - Computer Science and Systems
+#C	Preston Mullen
+#E	nrl-css!mullen
+#T	202-767-3477
+#P	Code 7590, Naval Research Lab, Washington, DC 20375
+#L	38 55 N / 77 00 W
+#R	
+#W
+#U
+#
+nrl-css = "nrl-css.arpa"
+#
+nrl-css	mimsy(DAILY), linus(POLLED), decvax(DAILY), kei-vax(DAILY)
+
+#N	obpa1
+#S	Convergent Technologies Megaframe; CTIX 3.01
+#O	USDA Office of Budget and Program Analysis
+#C	Mike Mason
+#E	obpa1!mason
+#T	+1 202 382 1274
+#P	Rm 142-E, 14th St & Independence Ave SW, Washington, DC, 20250
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	obpa1!jbj (Jeff Johnson); Sat Jun 21 14:42:09 EDT 1986
+#U	umd5 dolqci
+obpa1	obpa2(LOCAL), umd5(DEMAND), dolqci(DIRECT), gaocp(DIRECT),
+	isrnix(EVENING), princeton(EVENING), iuvax(EVENING)
+
+#N	scsnet
+#S	Zilog 8000 Model 31, ZEUS V3.21
+#O	Internal Revenue Service, PM:PFR:D:NO
+#C	Mark E. Sunderlin
+#E	scsnet!sunder
+#T	+1 202 634 2529
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	Mark E. Sunderlin 01/07/86 
+#
+scsnet	irs3(DIRECT)
+
+
+#	end of u.usa.dc.1: Wed Feb  3 21:42:55 PST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

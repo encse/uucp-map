@@ -1,0 +1,1148 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.in.1
+: This archive created: Sat Feb 15 10:52:23 1992
+echo shar: extracting u.usa.in.1
+cat << 'SHAR_EOF' > u.usa.in.1
+# u.usa.in.1 created by uucpmap@trauma.rn.com on Sat Feb 15 08:37:35 EST 1992
+
+#N	acd4
+#S	Microvax II; Ultrix 23
+#O	Applied Computing Devices
+#C	Michael Bryan
+#E	acd4!root
+#T	+1 812 232 6051
+#P	100 N. Campus Dr., Aleph Park, Terre Haute, IN  47802
+#L	39 28 N / 87 24 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Mon Jun 19 12:44:43 EDT 1989
+#U
+#
+acd4		uunet(DEMAND)
+
+#N	aiehost
+#S	HP 9000/380; HP-UX 7.05
+#O	Delco Electronics Corp
+#C	Steve Lodin
+#E	aiehost!swlodin
+#T	+1 317 451 0639
+#P	MS E-103, 700 E Firmin St, Kokomo, IN 46904-9005
+#L	40 30 N / 86 08 W city
+#R	Advanced Instrumentation Engineering Department
+#R	Registered Delco host as 144.250.22.22 and 144.250.34.1
+#U
+#W	aiehost!swlodin; Wed Nov  6 09:07:31 EST 1991
+aiehost	= koiasvr01
+aiehost	deaes(DEDICATED)
+
+#N	andria
+#S	Gateway2000 386/25; DOS5.0, Waffle1.64
+#O	Rob Schultz, home system
+#C	Rob Schultz
+#E	andria!system
+#T	+1 219 262 2412, +1 219 262 7206
+#P	1915 N. Scarlet Maple Ln, Elkhart, IN  46514
+#L	41 40 N / 085 57 W city
+#R	Initial entry
+#U	miles
+#W	andria!rms (Rob Schultz) Thu Oct  3 10:37:48 EST 1991
+#
+andria	=andria.miles.com
+andria	miles(DAILY)
+
+#N	aquila
+#S	386 - SCO (3.2.2)
+#O	Private System
+#C	Brian Fahrlander   Linda Fahrlander
+#E	postmaster@aquila  mousey@aquila
+#T	+1 812 424-8387
+#P	1830 Alta Vista Drive, Evansville, IN 47712
+#L	38 N / 089 08 W
+#R	Registered.
+#R	E-Mail feeds available.
+#R	Home of the Unix learning center and Evansville UUG
+#U
+#W	kilroy@aquila.uucp (Brian Fahrlander); Fri Dec 06 05:34:01 CST 1991
+#
+aquila	egress(DAILY), lgnp1(DAILY)
+
+#N	awinc
+#S	AT&T 3B1; (UNIX Sys V Rel 2)
+#O	Arthur Winer, Inc.
+#C	Garry Winer
+#E	awinc!Postmaster
+#T	+1 219 949 7491
+#P	855 Taft St. Gary, IN 46404
+#L	41 55 N / 087 38 W (City)
+#R	
+#U	csdev
+#W	csdev!garry (Garry Winer); Fri Jan 27 21:00:00 CST 1989
+#
+awinc	csdev(DIRECT), cscom(DIRECT)
+
+#N	baugo
+#S	Gateway 2000, 33 MHz Intel 386; MS-D0S 4.01 & Coherent 3.1
+#O	Baugo Systems
+#C	Joseph Perry
+#E	baugo!jep
+#T	+1 219 262 7406, +1 219 256 3240
+#P	58075 Potawatomie Dr., Osceola, IN 46561-9638
+#L	41 39 05 N / 086 03 29 W
+#R	
+#U	miles
+#W	jep@baugo.Miles.COM (Joseph Perry); Tue Aug 13 20:40:00 EST 1991
+#
+baugo	= baugo.miles.com
+baugo	miles(DAILY)
+
+#N	bnet
+#S	IBM 286; PC-DOS 3.1; Waffle v1.62
+#F	valnet
+#O	Valley BBS Network node 2
+#C	Forrest Scott Gaston
+#E	bnet!system
+#T	+1 812 336 2264
+#P	2680 N. Mt. Gilead Rd, Bloomington, IN 47401
+#L	39 08 38 N / 86 31 37 W
+#R	Public Access to USENET
+#U	none
+#W	herrj@silver.ucs.indiana.edu; Sun 19 Aug 13:11:00 EST 1990
+#
+bnet valnet(POLLED)
+
+#N	bsu-cs
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	Department of Computer Science, Ball State University
+#C	Mary Meadows
+#E	bsu-cs!postmaster
+#T	+1 317 285 8643
+#P	Muncie, Indiana 47306
+#L	85 24 31 W / 40 12 16 N
+#R
+#U
+#W	bsu-cs!meadows (Mary Meadows); Mon Nov 12 14:42:40 EST 1990
+#
+bsu-cs	iuvax(DIRECT), bsu-ucs(DIRECT), pur-ee(EVENING), ndcheg(DAILY/2)
+
+#N	bsu-ucs
+#S	DEC VAX-Cluster; 5.3-1 VMS
+#O	University Computing Services, Ball State University
+#C	Mike White
+#E	bsu-ucs!postmaster
+#T	+1 317 285 1394
+#P	Muncie, Indiana 47306
+#L	85 24 31 W / 40 12 16 N
+#R	No registered domain address (yet)
+#U
+#W	bsu-ucs!00mewhite (Mike White); Mon Dec 17 09:00:00 EST 1990
+#
+bsu-ucs	bsu-cs(DIRECT), iuvax(DIRECT)
+
+#N      calumet
+#S      HP Vectra; MS-DOS 3.21
+#O      United Industrial and Demographic Consulting
+#C      Dr. William E. Mihalo
+#E      calumet!wem
+#T      219 659-8066
+#P      1421 Lake Avenue, Whiting, IN 46394
+#L      87.483W / 41.666N
+#R
+#U      chinet
+#W      calumet!wem (Dr. William E. Mihalo); Sun Aug 25 19:45:00 CST 1991
+#
+calumet chinet(DAILY)
+
+#N	cec1
+#S	Sun 4.0.1
+#O	Cummins Engines Co.
+#C	Dale Hutchinson
+#E	cec1!root
+#T	+1 812 377 6718
+#P	500 Jackson Street, Columbus, IN 47201
+#L	39 12 N / 85 55 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Aug  9 15:07:06 EDT 1990
+#U
+#
+cec1	uunet(DEMAND)
+
+#N	cica.indiana.edu, cica
+#S	DEC MICROVAX-3500; Ultrix-32 V3.0
+#F	indiana.edu
+#O	Indiana University, Center for Innovative Computing.
+#C	Greg Travis, Bob Cole
+#E	cica.indiana.edu!greg, cica.indiana.edu!cole
+#T	+1 812 855 6974, +1 812 855 6972
+#P	Bloomington In 47405
+#L	39 08 N / 86 31 W city
+#R	Backup news server for indiana.edu
+#U	gatech iuvax sol.ctr.columbia.edu tut.cis.ohio-state.edu
+#W	Steve Mosier <iuvax!mosier>; Thu Jun 22 13:33:42 EST 1989
+#
+cica = cica.indiana.edu
+cica	iuvax(DEDICATED)
+
+#N	cvltofs
+#S	Sun Sparc; SunOS 4.1.1
+#O	RR Donnelley & Sons
+#C	Glenn Dieckmann
+#E	cvltofs!root
+#T	+1 317 364 3956
+#P	Crawfordsville, DOS-SVC, State Rd. 32 West, Crawfordsville, IN 47933
+#L	40 02 N / 86 52 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Dec  9 10:27:57 EST 1991
+#U
+#
+cvltofs	uunet(DEMAND)
+
+#N	deaes
+#S	Sun 4/490; SunOS 4.1.1
+#O	Delco Electronics Corporation
+#C	Chris Cleary, Steve Lodin
+#E	deaes!c23cjc, deaes!swlodin, deaes!postmaster
+#T	+1 317 451 0639
+#P	MS CT-LL-M, One Corporate Center, Kokomo, IN 46904-9005
+#L	40 30 N / 86 08 W city
+#R	Not on the Internet yet
+#U	
+#W	deaes!c23cjc (Chris Cleary); Tue Nov  5 15:15:03 EST 1991
+#
+deaes	kocrsv01.delcoelect.com
+deaes	rphroy(DEMAND), iuvax(DEMAND)
+
+#N	delta, delta.memorial.org, .memorial.org
+#F
+#S	Altos 2086; Xenix 3.4b
+#O	Michiana Rehabilitation Institute, Memorial Hospital of South Bend
+#C	Donald K. Irmiger III
+#E	delta!postmaster
+#T	+1 219 284 7700
+#P	615 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	The MRI is a rehab facility within an acute care hospital
+#W	delta!don (Donald K. Irmiger) Thu Sep  5 22:42:43 EST 1991
+#
+delta = memorial.org
+delta	epsilon(DEMAND), plaza(DAILY/3)
+
+#N	devnull
+#S	Atari Mega4 ST; TOS 1.4 & UUCP5
+#O	
+#C	Holly Stowe
+#E	devnull!Holly, silver!stowe
+#T	+1 317 685 4365
+#P	799 West Michigan Street ET1030, Indianapolis, IN  46202
+#L	36 46 10 N / 86 09 45 W
+#R	Also devnull on the STadel network
+#U	iuvax
+#W	devnull!Holly (Holly Stowe); Fri Nov 09 21:00:00 EST 1990
+#
+devnull	iuvax(DIRECT), valnet(DIRECT)
+
+#N	edrsys
+#S	AST Premium 286 model 170
+#O	Diversified Electronics Systems
+#C	Eric Ronning
+#E	edrsys!eric
+#T	+1 219 485 8662
+#P	2901 Canterbury Blvd., Ft. Wayne, IN 46835
+#L	41 09 N 85 09 W
+#R
+#W	edrsys!eric (Eric Ronning) : WED Oct 12 19:17:31 EST 1988
+#U
+#
+edrsys	swlabs(EVENING)
+
+#N	ee16
+#S	Intergraph InterPro 6250; CLIX System V Release 3.1
+#O	Miles Inc., Diagnostics Division
+#C	Joseph Perry
+#E	ee16!jep	
+#T	+1 219 262 7406
+#P	1127 Myrtle St, Elkhart IN 46515
+#L	41 40 30 N / 085 57 16 W city
+#R	Instrument R & D Department
+#R	Revised to include Miles.COM domain address
+#U	
+#W	jep@Miles.COM (Joseph Perry); Tue Jan 21  8:31:00 EST 1992
+#
+ee16	= ee16.miles.com
+#
+# connections via LAN:
+ee16	miles(LOCAL)
+#
+# connections via modem: 
+ee16	nstar(DAILY/4)
+
+#N	epicb
+#S	Compaq Systempro;Interactive 386/ix 2.0.2
+#O	Truevision, Inc.
+#C	Dean Riddlebarger
+#E	epicb!postmaster
+#T	+1 317 841 0332 x7766
+#P	7340 Shadeland Station, Indianapolis, IN 46256
+#L	39 46 16 N/086 09 27 W Indianapolis
+#R
+#U
+#W	epicb!dean (Dean Riddlebarger);Fri Dec  7 22:27:36 EST 1990
+#
+epicb	truevision.com
+epicb	uunet(DEMAND)
+
+#N	epsilon, epsilon.memorial.org
+#S	Altos 1086; Xenix 3.4b
+#O	Rehab Technology Center-Indianapolis, Memorial Hospital of South Bend
+#C	Donald K. Irmiger III
+#E	delta!postmaster
+#T	+1 219 284 7700
+#P	6536 East 82nd Street, Suite 102, Indianapolis, IN  USA  46250
+#L	39 54 20 N / 86 03 22 W
+#R	The RTC aids the handicapped community through uses of rehab technology
+#W	delta!don (Donald K. Irmiger) Thu Sep  5 22:42:43 EST 1991
+#
+epsilon	delta(DEMAND)
+
+#N	er-trauma
+#S	Intel 386
+#O	Memorial Hospital - Emergency and Trauma Department
+#C	Larry Snyder
+#E	larry@nstar.rn.com
+#T	+1 219 232 5497
+#P	South Bend, IN
+#L	41 42 15 N / 85 14 00 W   
+#R   
+#U	nstar
+#W      Larry Snyder (larry@nstar.rn.com) ; Sun Oct 17 20:00:00 CDT 1991
+#
+er-trauma = er-trauma.rn.com
+er-trauma	nstar(DIRECT)
+
+#N	flaubert
+#S	NeXT Cube, NeXTOS 2.0
+#O	Lisa & Ingo's baby factory
+#C	Ingo Cyliax 
+#E	flaubert!cyliax, cyliax@flaubert.laf.in.US
+#T	+1 317 742 4173, +1 317 494 9523
+#P	1018 N. 9th St., Lafayette, IN 47904-1940
+#L	40 25 02 N / 86 55 02 W (CITY)
+#R	
+#W	cyliax@flaubert.laf.in.US (Ingo Cyliax); Fri Jul 26 19:20:04 EST 1991
+#
+flaubert	pur-ee(HOURLY)
+
+#N	grafted
+#S	80386/25; SysV
+#O	dialup BBS
+#C	Dave Julius  
+#E	grafted!dave
+#T	+1 317 888 3208
+#P	308 Elm Street, Indianapolis, IN 46260 USA
+#L	39 50 07 N / 85 53 08 W [city]
+#R	
+#U	towers
+#W      Larry Snyder (larry@trauma.rn.com) ; Thu Jan 16 1992
+#
+grafted	towers(DIRECT)
+
+#N	grrrrr
+#S	80386/25 MHz; Interactive UNIX 386/ix 2.0.2
+#O	MicroCalendar Development Center
+#C	Curtis Smith
+#E	grrrrr!cs
+#T	1 317 447 0593
+#P	P.O. Box 5753, Lafayette IN, 47903
+#L	40 27 N / 86 58 W
+#R
+#U
+#W	grrrrr!cs (Curtis Smith); Thu Jan 17 10:18:00 EST 1991
+#
+grrrrr	mdbs(HOURLY), sawmill(HOURLY)
+
+#N   harlan, harlan.com
+#S   Leading Edge D3/SX;  4DOS 4.0 / MS-DOS 5.0 & UUPC/Extended 1.11
+#O   Harlan Network
+#C   John B Harlan
+#E   harlan!jbh
+#T   +1 219 289 1096
+#P   125 W Marion St 530, South Bend, IN 46601-1096
+#L   41 40 54 N / 86 15 07 W
+#R   Registered as domain harlan.com with US DDN NIC since Dec 1990
+#U
+#W   harlan!jbh (John B Harlan);   Wed Oct 02 21:30:00 EST 1991
+#
+harlan = harlan.com
+harlan uunet(DEMAND)
+
+#N	healthl, healthl.memorial.org
+#S	Compaq Deskpro/386, SCO Xenix/386
+#O	Health and Lifestyle Center, Memorial Hospital of South Bend
+#C	Donald K. Irmiger III
+#E	healthl!jeff, healthl!frank, delta!postmaster
+#T	+1 219 284 7700
+#P	401 East Colfax Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	The Health and Lifestyle Center is part of Memorial Health Systems
+#W	delta!don (Donald K. Irmiger) Thu Sep  5 22:42:43 EST 1991
+#
+healthl	plaza(DAILY)
+
+#N	.inland.com, aviary.inland.com, inland
+#F	uunet.uu.net
+#S	DEC VAX 8820; VMS V5.4-2
+#O	Inland Steel Research Labs
+#C	Tom Allebrandi
+#E	inland!postmaster
+#T	+1 219 399 6306
+#P	3001 East Columbus Drive, East Chicago, IN 46312
+#L	41 55 N / 87 38 W (City)
+#R	Running DECUS UUCP for VAX/VMS
+#R	All hosts in the inland.com domain are reachable via inland using
+#R	host.inland.com format.
+#W	inland!postmaster (Tom Allebrandi); Sat Nov 30 16:50:06 CST 1991
+#
+inland	.inland.com
+inland = inland.com
+inland	uunet(DEMAND+FAST), <ipact>(DEMAND+FAST)
+
+#N	ipact
+#F	
+#S	DEC MicroVAX-II; VMS V5.4-2
+#O	Integrated Process Automation and Control Technologies
+#C	Tom Allebrandi
+#E	ipact!postmaster
+#T	+1 219 399 6306 (Postmaster) +1 219 464 7212 (Company)
+#P	260 South Campbell, Valparaiso, IN 46363
+#L	41 55 N / 87 04 W (City)
+#R	Running DECUS UUCP for VAX/VMS
+#W	ipact!postmaster (Tom Allebrandi); Sat Nov 30 16:50:06 CST 1991
+#
+ipact	inland(DEMAND+FAST)
+
+#N	cs.indiana.edu, iuvax
+#S	DEC VAX-8800; Ultrix-32 V3.0
+#F	indiana.edu
+#O	Indiana University Computer Science Dept.
+#C	Keenan Royle
+#E	iuvax!royle
+#T	+1 812 855 7729
+#P	Lindley Hall, Bloomington In 47405
+#L	39 08 38 N / 86 31 37 W
+#U      noose.ecn.purdue.edu ethome.et.iupui.edu att.att.com
+#U      cica bronze.ucs.indiana.edu iugate.ucs.indiana.edu
+#U      purdue rutgers uxc mailrus uceng bsu-cs news.nd.edu
+#U      cadence valnet dolmen maytag bionet
+#W      Larry Snyder (larry@nstar) ; Wed Jan 02 22:00:00 CDT 1991
+#
+iuvax = cs.indiana.edu,iuvax.cs.indiana.edu
+iuvax	.indiana.edu(LOCAL)
+#
+# UUCP connections  via dial-in.
+iuvax	bsu-cs(DIRECT),<cadence.bloomington.in.us>(POLLED),
+	hpuinda(DEMAND),indyva(DEMAND),valnet(POLLED),dolmen(POLLED),
+	inuxc(DIRECT+HIGH),<sabbagh>(POLLED)
+#  
+iuvax	purdue(DIRECT),
+        rutgers(DIRECT),
+        uxc(DIRECT),
+        mailrus(DIRECT),
+        uceng(DIRECT),
+	ndcheg(DIRECT),
+	nstar(DIRECT),
+        maytag(DIRECT)
+#
+# other network connections.  UUCP spoof via SMTP.  All local to IU.
+iuvax	cica(DEDICATED),
+	silver(DEDICATED),
+	iugate(DEDICATED)
+
+#N	maple, maple.com
+#S	Everex Tempo 386SX; MSDOS 4.01
+#O	MapleLeaf Computer Consulting
+#C	Tim S. Boshart
+#E	!maple!timsb
+#T	+1 219 533 2026
+#P	PO Box 581,  Goshen, IN  46526
+#L	41 31 N / 86 6 W (city)
+#R
+#U	romed
+#W	maple!timsb (Tim S. Boshart); Wed Sep 18 10:15:08 EST 1991
+#
+maple = maple.com
+maple	nstar(DIRECT)
+
+#N	mas-tech
+#S	
+#O	MAS Technology Corporation
+#C	Manuel Cordero
+#E	mas-tech!root
+#T	+1 219 233 3272
+#P	110 S. Hill Street, South Bend, IN, 46617
+#L	
+#R	
+#W	larry@nstar.rn.com; Sat Apr 13 17:13:22 EST 1991
+#U	
+#
+mas-tech	nstar(DIRECT)
+
+#N	mdbs
+#S	Sun 4/280; SUNOS 4.1
+#O	Micro Data Base Systems, Inc.
+#C	Curtis Smith
+#E	mdbs!cs
+#T	1 317 447 1122
+#P	P.O. Box 6089, 2 Executive Drive, Lafayette IN, 47903
+#L	40 27 N / 86 58 W
+#R
+#U	sawmill
+#W	mdbs!cs (Curtis Smith); Wed Aug 21 14:08:44 EST 1991
+#
+mdbs	sawmill(HOURLY), pur-ee(HOURLY), wintek(DAILY), prslnk(WEEKLY)
+
+#N	merlyn
+#S	Northgate 80386/25 Mhz; SCO UNIX 2.3
+#O	Micro Data Base Systems, Inc.
+#C	Curtis Smith
+#E	mdbs!cs
+#T	1 317 447 1122
+#P	P.O. Box 6089, 2 Executive Drive, Lafayette IN, 47903
+#L	40 27 N / 86 58 W
+#R
+#U
+#W	merlyn!cs (Curtis Smith); Tue Jan 14 13:23:21 EST 1992
+#
+merlyn	mdbs(HOURLY)
+
+#N	mgcind
+#S	Apollo DN3000; Domain/OS SR10.1
+#O	Mentor Graphics Indianapolis
+#C	Joe Hance
+#E	mgcind!joe
+#T	+1 317 843 2855
+#P	11405 N. Pennsylvania Ave, Suite 110, Carmel, IN 46032 USA
+#L	39 50 07 N / 85 53 08 W [city]
+#R
+#U	towers
+#W
+#
+mgcind	towers(DEMAND+FAST)
+
+#N	miles
+#S	Intergraph InterServe 3005; CLIX System V Release 3.1
+#O	Miles Inc., Diagnostics Division
+#C	Joseph Perry
+#E	miles!postmaster
+#T	+1 219 262 7406
+#P	1127 Myrtle St, Elkhart IN 46515
+#L	41 40 30 N / 085 57 16 W city
+#R	Instrument R & D Department
+#R	Gateway machine to the Miles Instrument R & D LAN
+#R	NIC registered domain is Miles.COM
+#U	andria baugo nstar
+#W	jep@Miles.COM (Joseph Perry); Tue Jan 21  8:30:00 EST 1992
+#
+miles	.miles.com(LOCAL)
+miles	= miles.com
+#
+# connections via LAN:
+miles	ee16(LOCAL), vax3(LOCAL)
+#
+# connections via modem: 
+miles	andria(DAILY), baugo(DAILY), nstar(DEMAND), oaklawn(DIRECT)
+
+#N	mwhhlaw
+#S	Fortune 32:16; FOR:PRO 2.1c (UNIX V7)
+#O	Martin, Wade, Hartley & Hollingsworth
+#C	Bob Hartley
+#E	mwhhlaw!bob
+#T	(317) 924-6700
+#P	3590 N. Meridian St., Indianapolis, IN  46208
+#L
+#R	Law Firm
+#U
+#W	mwhhlaw!bob (Bob Hartley); Sun Dec  9 12:26:17 EST 1990
+#
+mwhhlaw	uunet (DEMAND)
+
+#N	ndcheg
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	C Eng., Univ. of Notre Dame
+#C	Evan Bauman
+#E	ndcheg!evan
+#T	+1 219 239 5200
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R	Mail/News for all machines in engineering.
+#R	We are also ndcheg.cheg.nd.edu with IP 129.74.6.8
+#U	
+#W      Larry Snyder (larry@nstar.rn.com) ; Tue Jan 29 20:00:00 CDT 1991
+#
+ndcheg = ndcheg.cheg.nd.edu
+ndcheg	nstar(DIRECT), 
+	trc(DAILY), 
+	pur-ee(EVENING/4), 
+	uiucuxc(DIRECT)
+
+#N	netwrk
+#S	MVAX II; Ultrix 2.3
+#O	Magnovox
+#C	Al Marshall
+#E	netwrk!root
+#T	+1 219 429 8330
+#P	1313 Production Rd. 3-49, Fort Wayne, IN 46808
+#L	41 05 N / 85 08 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Sep 12 16:02:37 EDT 1991
+#U
+#
+netwrk	uunet(DEMAND)
+
+#N	npal, npal.rn.com, .npal.rn.com
+#S	MicroVax
+#O	Pal Network Services
+#C	Steven B. Brant
+#E	npal!postmaster
+#T	+1 317 872 3708
+#P	PO box 618 New Palestine, In 46163
+#L	42 00 00 N / 82 00 00 W	
+#R	Running DECUS uucp
+#U	nstar 
+#W	npal!postmaster (S.B. Brant) 30-JAN-1992
+#
+npal	.npal.rn.com
+thorii = thorii.npal.rn.com
+npal = .npal.rn.com
+npal = npal.rn.com
+#
+npal  
+     nstar(DAILY), 
+     thorii(DIRECT)
+
+#N	nstar, rn.com, .rn.com
+#S	486/50; Unix SVR4 3.01
+#O	Northern Star Communications
+#C	Larry Snyder
+#E	larry@trauma.rn.com
+#T	+1 219 232 4200 evenings 
+#P	Post Office Box 151, Notre Dame, IN 46556 USA
+#L	41 42 05 N / 86 14 30 W 
+#R
+#R	*** WE ARE WILLING TO PROVIDE MAIL & NEWS FEEDS VIA PEP/V.32/v.32bis
+#R	
+#R	a current backbone usenet newsfeed runs around 32.7 megabytes per day
+#R
+#R      NSTAR maintains the regional UUCP mapping database - updates
+#R	for IN and IL should be mailed to uucpmap@trauma.rn.com for
+#R	inclusion into the comp.mail.maps entry for u.usa.in and u.usa.il
+#R	
+#R	dialup BBS available on 219-289-0777 (10 lines / 4 different HS modems)
+#R	access to nstar is also available from 4 inbound Indianapolis
+#R	numbers (317-251-7391) - which are available via PC Pursuit 
+#R	and Galaxy Starlink
+#R
+#U 	ag9v amgraf caen crom2 ee16 inland ka3ovk mas-tech medsys miles nlbbs
+#U	pallas plaza jshark npal osu-mps sawmill sharkey syscon thelink 
+#U	bluemoon dplinc00 ipact romed sturgis towers zaphod.mps.ohio-state.edu
+#W      Larry Snyder (larry@nstar.rn.com) ; Sun Feb 2 1992
+#
+nstar	.rn.com
+#
+# all hosts in the rn.com domain are reachable using the
+# <hostname>.rn.com name - with nstar.rn.com serving as the 
+# primary gateway into the domain
+#
+ag9v = ag9v.ampr.org
+amikoj = amikoj.rn.com
+biltmore = biltmore.rn.com
+bluemoon = bluemoon.rn.com
+crom2 = crom2.rn.com
+dlpinc00 = dlpinc00.rn.com
+er-trauma = er-trauma.rn.com
+jshark = jshark.rn.com
+medsys = medsys.rn.com
+mas-tech = mas-tech.rn.com
+npal = npal.rn.com
+nstar = news.rn.com
+plaza = plaza.rn.com
+robot = robot.rn.com
+elf = elfwerks.rn.com
+elf = .elfwerks.rn.com
+sawmill = sawmill.rn.com
+sturgis = sturgis.rn.com
+syscon = syscon.rn.com
+thelink = thelink.rn.com
+towers = towers.rn.com
+trauma = trauma.rn.com
+viking = viking.rn.com
+#
+nstar	ag9v(DEMAND),	
+	amgraf(DIRECT),
+	amikoj(DIRECT),
+	biltmore(DIRECT),
+	bluemoon(DIRECT),
+	caen(DIRECT),
+	crom2(EVENING+FAST),
+	daver(EVENING+FAST),
+	dlpinc00(EVENING+FAST),
+	elf(DIRECT+FAST),
+	ee16(DIRECT+FAST),
+	er-trauma(DIRECT),
+	harlan(DIRECT),	
+	inland(EVENING),
+	ipact(DIRECT), 
+	iuvax(DIRECT),	
+	jshark(EVENING+FAST),
+	ka3ovk(HOURLY),
+	maple(DIRECT),
+	mas-tech(DIRECT),
+	medsys(DIRECT),
+	miles(DIRECT),
+	ndcheg(DEAD),
+	nlbbs(DIRECT),
+	npal(DIRECT),
+	osu-mps(HOURLY),
+	pallas(DIRECT),
+	plaza(DIRECT),
+	robot(DAILY),
+	romed(DIRECT),
+	samsung(HOURLY),
+	sawmill(DIRECT),
+	sbnnet(DIRECT),
+	sharkey(HOURLY),
+	sturgis(DIRECT),
+	syscon(DIRECT),
+	thelink(DIRECT),
+	towers(LOCAL),
+	viking(DIRECT),
+	zaphod.mps.ohio-state.edu(HOURLY)
+#
+# individual machines within the domain via ethernet gateway
+nstar = rn
+nstar = nurse
+nstar = feedsrus
+nstar = trauma
+nstar = floridarn
+nstar = news.rn.com
+nstar = bbs.rn.com
+
+#N	oriel
+#S	80 Data 386/33Mhz PC Compatable; SCO open Desktop 
+#O	Workstation Windows
+#C	Phillip Gardner
+#E	gardner@oriel.ww.com
+#T	+1 219 484 5886
+#P	3910 Newport Ave, Suite 13, Fort Wayne, IN  46805
+#L	41 05 N / 85 08 W city
+#R	X Window System and Motif consulting services
+#W	gardner@oriel.ww.com (Phillip E. Gardner); Sat Apr 13 09:55:57 EST 1991
+#U
+#
+oriel	uunet(DEMAND)
+
+#N	photix
+#S	80386/16 clone; sco unix SYSV release 3.2v2.0
+#O	K & S Services
+#C	Ken Mueller
+#E	photix!kam
+#T	+1 317 494 5382, +1 317 743 2630
+#P	345 West Oak Street, West Lafayette IN  47906-2605
+#L	40 25 53 N / 86 54 35 W
+#R
+#U	pur-ee wintek
+#W	photix!kam (Ken Mueller); Mon Apr 08 22:06:02 EST 1991
+#
+photix	pur-ee(EVENING), wintek(EVENING)
+
+#N	plaza, plaza.memorial.org
+#S	Compaq Deskpro/386; SCO Xenix 2.3.2
+#O	Plaza Pharmacy
+#C	Thomas C. Thompson
+#E	plaza!postmaster, delta!postmaster
+#T	+1 219 284 3253
+#P	707 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#W	delta!don (Donald K. Irmiger) Thu Sep  5 22:42:43 EST 1991
+#
+plaza	nstar(HOURLY), healthl(DAILY), delta(DIRECT)
+
+#N	prslnk
+#S	clone AMI 80386/33; AT&T SYSV 3.2.3
+#O	Proslink, Inc.
+#C	Jeff Buhrt
+#E	prslnk!postmaster
+#T	+1 812 275 0750
+#P	1009 14th St, Bedford, IN 47421
+#L	38 51 N / 86 30 W city
+#R	will consider local 9600 baud feeds
+#U	iuvax sawmill
+#W	prslnk!buhrt (Jeff Buhrt); Fri Jun 28 10:46:37 EST 1990
+#
+prslnk	iuvax(DAILY), sawmill(DAILY), bedrk1(DAILY), gmeeca(DEMAND)
+
+#N	pur-ee
+#S	DUAL VAX-11/780, 4.3BSD
+#O	Purdue University, Electrical Engineering Dept.
+#C	Sam Kimery
+#E	pur-ee!kimery
+#T	+1 317 494 3648
+#P	Electrical Engineering Building, W. Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R
+#W	purdue!jsmith ; Mon Feb 18 14:15:00 1991
+#
+pur-ee	gould(DAILY), isi(DAILY), lynxys(DAILY)
+
+#N	purdue
+#S	Sequent Symmetry, DYNIX 3.0
+#O	Purdue University, Dept. of Computer Science
+#C	Dan Trinkle
+#E	purdue!trinkle, trinkle@cs.purdue.edu
+#T	+1 317 494 7844
+#P	Computer Science Building, W. Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R
+#U	news.arc.nasa.gov nntp-xfer.bu.edu
+#U	mephisto.gatech.edu haven.umd.edu tyt.cis.ohio-state.edu
+#U	decwrl.dec.com hucs6.harvard.edu news.cs.indiana.edu
+#U	ccncsu.colostate.edu
+#W	jsmith@purdue ; Mon Feb 18 22:42:37 1991
+#
+purdue = purdue.edu,cs.purdue.edu,arthur.cs.purdue.edu
+purdue	.cs.purdue.edu(LOCAL)
+#
+purdue	decvax(DIRECT),
+	floyd(WEEKLY+LOW),
+	gatech(DIRECT),
+	iuvax(DIRECT),
+	mailrus(DIRECT),
+	msdc(WEEKLY+LOW),
+	psuvax1(DIRECT),
+	pur-ee(DEDICATED),
+	pur-phy(DEDICATED),
+	rutgers(DIRECT),
+	ucbvax(DIRECT)
+
+#N	.purdue.edu
+#O	Purdue University
+#C	Sam Kimery
+#E	pur-ee!kimery, kimery@ecn.purdue.edu
+#T	+1 317 494 3473
+#P	West Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R	This is the complete domain specification for Purdue University
+#W	pur-ee!jsmith; Mon Feb 18 14:15:00 1991
+#
+private		{ ee, arthur, gibbs }
+#--------------------------------
+# Subdomains of purdue.edu.
+#
+.purdue.edu	= { .cs, .ecn, .physics }
+#--------------------------------
+# Significant hosts in the subdomains.  Hosts listed here are externally
+# visible; others are reached via domain routing.
+#
+.cs		= { arthur }(LOCAL)
+.ecn		= { ee }(LOCAL)
+.physics	= { gibbs }(LOCAL)
+#--------------------------------
+# UUCP gateways to the domain.
+#
+purdue		.purdue.edu(DEDICATED)
+pur-ee		.purdue.edu(DEDICATED)
+pur-phy		.purdue.edu(DEDICATED)
+#--------------------------------
+# Better costs for subdomain gateways.
+#
+purdue		.cs.purdue.edu(LOCAL)
+pur-ee		.ecn.purdue.edu(LOCAL)
+pur-phy		.physics.purdue.edu(LOCAL)
+#--------------------------------
+#
+purdue		= arthur,arthur.cs.purdue.edu
+pur-ee		= dynamo,dynamo.ecn.purdue.edu
+pur-phy		= gibbs, gibbs.physics.purdue.edu
+private {}
+
+#N	robot, robot.rn.com
+#S	IBM PC/AT; MS-DOS 5.00 w/UUPC/extended software
+#O	Irmiger Household
+#C	Donald K. Irmiger III
+#E	robot!don
+#T	+1 219 288 4705
+#P	117 North Taylor Street, South Bend, Indiana  USA  46601-1418
+#L	41 40 35 N / 86 15 27 W
+#R	This is Don's home base
+#W	robot!don (Donald K. Irmiger) Thu Aug 29 21:23:55 EST 1991
+#
+robot	.robot.rn.com
+robot	delta(DEAD), nstar(HOURLY), plaza(DEAD)
+robot = robot.rn.com
+
+#N      royaljok
+#F      towers.rn.com
+#S      Mirage 386-33; MS-DOS 5.0
+#O      The Joker's Wild
+#C      Brad Baker
+#E      royaljok!brad
+#T      +1 317 843 1360
+#P      799 Lk Nora S Ct #D, Indianapolis IN 46240
+#L      39 55 00 N / 86 10 00 W
+#R      BBS +1 317 843 1371 (HST/V.32)
+#U      towers
+#W      royaljok!brad (Brad Baker); Sat Jan 18 20:57:00 EST 1992
+#
+#       Approved by ddodell@stjhmc.fidonet.org
+#       Administrator, fidonet.org domain
+#
+#       Gateway to Fidonet Region 11 (IL IN KY MI OH WI)
+#
+#       MX Sites: wsu-cs.cs.wayne.edu   [141.217.16.41]
+#                 vela.acs.oakland.edu  [141.210.10.2]
+#                 mailrus.cc.umich.edu  [35.1.1.26]
+#
+royaljok    .n11.z1.fidonet.org, .n108.z1.fidonet.org,
+            .n115.z1.fidonet.org, .n120.z1.fidonet.org,
+            .n121.z1.fidonet.org, .n154.z1.fidonet.org,
+            .n159.z1.fidonet.org, .n201.z1.fidonet.org,
+            .n227.z1.fidonet.org, .n228.z1.fidonet.org,
+            .n230.z1.fidonet.org, .n231.z1.fidonet.org,
+            .n232.z1.fidonet.org, .n236.z1.fidonet.org,
+            .n237.z1.fidonet.org, .n238.z1.fidonet.org,
+            .n239.z1.fidonet.org, .n2200.z1.fidonet.org,
+            .n2201.z1.fidonet.org, .n2202.z1.fidonet.org,
+            .n2210.z1.fidonet.org,
+            .n2220.z1.fidonet.org, .n2222.z1.fidonet.org,
+            .n2230.z1.fidonet.org, .n2240.z1.fidonet.org,
+            .n2250.z1.fidonet.org, .n2260.z1.fidonet.org,
+            .n2270.z1.fidonet.org, .n2280.z1.fidonet.org,
+            .n2290.z1.fidonet.org, .n2300.z1.fidonet.org,
+            .n2310.z1.fidonet.org, .n2320.z1.fidonet.org,
+            .n2330.z1.fidonet.org, .n2340.z1.fidonet.org
+royaljok=   royaljok.fidonet.org, f510.n231.z1.fidonet.org
+royaljok    angus(WEEKLY), mailrus(WEEKLY), mgcind(DIRECT+FAST),
+            n8max(POLLED), towers(DIRECT+FAST), ttardis(DEAD),
+            vela(WEEKLY), wsu-cs(DAILY)
+
+#N	sawmill
+#S	Sequent Symmetry; DYNIX v3
+#O	Grauel Enterprises
+#C	Richard Kuhns
+#E	sawmill!postmaster
+#T	+1 317 477 6000
+#P	PO Box 6249 (zip:47903), 100 Sawmill Road, Lafayette IN  47905
+#L	40 27 N / 86 55 W city
+#R	will consider 9600 baud local feeds
+#U	mdbs gibbs sequent uunet
+#W	sawmill!rjk (Rich Kuhns); Wed Jul  3 16:03:07 EST 1991
+#
+sawmill	bedrk1(DAILY), gmeeca(DEMAND), nstar(DIRECT), sequent(DAILY), uunet(DAILY)
+
+#N   sbnnet, sbnnet.com
+#S   Leading Edge D3/SX;  4DOS 4.0 / MS-DOS 5.0 & UUPC/Extended 1.11
+#O   SBNnet:  South Bend's human/e computing network
+#C   John B Harlan
+#E   sbnnet!jbh
+#T   +1 219 289 1096
+#P   125 W Marion St 530, South Bend, IN 46601-1096
+#L   41 40 54 N / 86 15 07 W
+#R   Registered as domain sbnnet.com with US DDN NIC since Oct 1991
+#U
+#W   harlan!jbh (John B Harlan);   Wed Oct 02 21:30:00 EST 1991
+#
+sbnnet = sbnnet.com
+sbnnet uunet(DEMAND)
+
+#N	silver, silver.ucs.indiana.edu
+#S	DEC VAX-8650; Ultrics 3.0
+#O	Indiana University, University Computing Services
+#C	Jeff Russ, Steve Mosier
+#E	silver!russ indiana.edu!mosier
+#T	+1 812 855 2733, +1 812 855 5187
+#P	750 N. SR 46, Bloomington, IN 47405-4801
+#L	39 10 03 N / 86 30 00 W
+#W	Steve Mosier <indiana.edu!mosier>; Tue Feb 6 10:48:38 EST 1990
+#U	iuvax cica
+#
+silver = silver.bacs.indiana.edu
+silver	iuvax(LOCAL)
+
+#N	sir-alan
+#S	BSI 486/25 SCO UNIX 3.2
+#O	Bloomington Public Access UNIX
+#C	Michael L. Squires
+#E	mikes@iuvax.cs.indiana.edu or sir-alan!mikes@uunet.uu.net
+#T	+1 812 333 6564
+#P	546 N. Park Ridge Rd., Bloomington, IN 47408
+#L	39 08 N / 86 31 W city
+#R	"sir-alan" is a public access/BBS/archive site.  Dial-up at
+#R	812 333-0450
+#U
+#W	Michael L. Squires ; Wed June 26 10:25:53 EST 1991
+#
+sir-alan	iuvax (DAILY/4), admiral (DAILY), aquila(DAILY), ispin(DAILY),
+		pitt(DAILY), uunet(DAILY), util20(DAILY), uncnsrd(WEEKLY)
+
+#N	spcc
+#S	DEC VAXCluster(tm); VAX/VMS V5.4
+#O	Shepard Poorman Communications Corporation
+#C	Mark Zander
+#E	spcc!zander
+#T	+1 317 293 1500 x255
+#P	7301 N. Woodland Drive, Indianapolis, IN, 46268
+#L	39 53 9.5 N / 86 15 55.8 W
+#R	
+#U
+#W	spcc!zander  (Mark Zander) 31-JAN-1992
+#
+spcc	npal(DIRECT)
+
+#N	syscon
+#S	Arix; AT&T SysV
+#O	Syscon International
+#C	
+#E	larry@trauma.rn.com
+#T	+1 219 232 3900
+#P	1108 South High Street, South Bend, IN 46618
+#L	41 42 15 N / 85 14 00 W   
+#R   
+#U	nstar
+#W      (larry@trauma.rn.com) ; Sat Jan 17 1992
+#
+syscon	nstar(DIRECT)
+
+#N	tcemail
+#S	Apollo DN3000; Sys 5.3
+#O	Thomsom Consumer Electronics
+#C	David Starling
+#E	tcemail!root
+#T	+1 317 267 5070
+#P	MS-6-258, 600 North Sherman, Indianapolis, IN 46201
+#L	39 45 N / 86 10 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Apr 30 17:35:58 EDT 1991
+#U
+#
+tcemail	uunet(DEMAND)
+
+#N	thelink
+#S	Intel 386; USG
+#O	thelink
+#C	Marlin Sheffield
+#E	marlin@thelink
+#T	+1 219 277 7278
+#P	Granger, IN
+#L	41 42 15 N / 85 14 00 W   
+#R   
+#U	nstar
+#W      Larry Snyder (larry@nstar.rn.com) ; Tue Jan 22 20:00:00 CDT 1991
+#
+thelink	nstar(DIRECT)
+
+#N	thorii
+#S	MicroVax
+#O	KA9FZM
+#C	Jon Yeager
+#E	thorii@jyeager
+#T	+1 317 7585649
+#P	Sheridan, In 46163
+#L		
+#R	UUCP
+#U	thorii
+#W	
+#
+thoii npal(DIRECT)
+
+#N	towers
+#S	80486; ISC SysV
+#O	Twin Towers 
+#C	Robert Hoquim 
+#E	towers!robert
+#T	+1 317 255 6807 
+#P	8500 North Meridian Street, Indianapolis, IN 46260 USA
+#L	39 50 07 N / 85 53 08 W [city]
+#R	
+#U	
+#W      Larry Snyder (larry@trauma.rn.com); Thu Jan 16 1992 
+#
+towers	nstar(LOCAL), royaljok(DAILY), mgcind(DIRECT), grafted(DIRECT)
+
+#N	trc
+#S	Sun SPARCServer1+ running SunOS4.1.1
+#O	Tellabs Research Center
+#C	John Whalen
+#E	trc!postmaster trc!whalen whalen@trc.tellabs.com
+#T	(219) 259-9818
+#P	3702 N. Main St., Building 2, Suite 101, Mishawaka, IN. 46545
+#L      41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#W	dpb@tellabs.tellabs.com (Darryl Baker); Wed Jun 12 13:53:59 CDT 1991
+#
+trc	= trc.tellabs.com
+trc	tellab5(DEMAND+FAST), ndcheg(DIRECT)
+
+#N	valnet
+#S	Protek Flytek ST-12; MS-DOS 4.01; Waffle v1.62
+#F	iuvax
+#O	Valley BBS Network
+#C	Jonathan R. Herr
+#E	valnet!system
+#T	+1 812 876 4407
+#P	5215 N. Union Valley Rd., Bloomington, IN 47404
+#L	39 08 38 N / 86 31 37 W
+#R	Public Access to USENET
+#U	bnet
+#W	herrj@silver.ucs.indiana.edu; Sun Aug 19 13:13:00 CST 1990
+#
+valnet	iuvax(POLLED), bnet(DAILY)
+
+#N	vax3
+#S	DEC MicroVAX 3800; VMS 5.1
+#O	Miles Inc., Diagnostics Division
+#C	Joseph Perry
+#E	vax3!jep
+#T	+1 219 262 7406
+#P	1127 Myrtle St, Elkhart IN 46515
+#L	41 40 30 N / 085 57 16 W city
+#R	Instrument R & D Department
+#R	Revised to include Miles.COM domain address
+#U	
+#W	jep@Miles.COM (Joseph Perry); Tue Jan 21  8:32:00 EST 1992
+#
+vax3	= vax3.miles.com
+#
+# connections via LAN:
+vax3	miles(LOCAL)
+
+#N	viking
+#S	ICS box; BSD 4.3
+#O      High Magick Order
+#C      Bartholomew Tilbury
+#E      viking!postmaster
+#T	+1 219 288 1972
+#P	PO Box 875, Notre Dame, IN 46556-0875
+#L      41 42 15 N / 85 14 00 W city
+#U	nstar
+#W      Larry Snyder (larry@trauma.rn.com) ; Sat Jan 18 1992
+#
+viking = viking.rn.com
+viking  nstar(DIRECT)
+
+#N	wintek
+#S	COMPAQ Deskpro 386; SCO Xenix 2.2.3
+#O	Wintek Corp.
+#C	Tim Stockman
+#E	wintek!usenet
+#T	+1 317 448 1903
+#P	1801 South Street, Lafayette IN  47904
+#L	40 25 01 N / 86 52 35 W
+#W	wintek!usenet (Tim Stockman); Tue Jan 15 10:37:24 EST 1991
+#U	pur-ee lynxys
+#
+wintek	pur-ee(EVENING), lynxys(LOCAL)
+
+# u.usa.in.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

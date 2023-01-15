@@ -1,0 +1,556 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.bc.1
+: This archive created: Tue Mar  1 01:50:35 1988
+echo shar: extracting u.can.bc.1
+cat << 'SHAR_EOF' > u.can.bc.1
+#	u.can.bc.1 : last updated Mon Feb 29 03:39:17 1988
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	If you wish a permanent record of your registration or update, please
+#	send it to cbosgd!uucpmap *only*.  Elsewise please send the update to
+#	the utai!path address *only*.  The only difference is that sending an
+#	update/registration through the cbosgd!uucpmap address will guarantee
+#	the existence of a centrally kept copy.  If you wish to register your
+#	site as a subdomain under the Canadian top-level domain (.Ca), please
+#	contact utai!registry (registry@ai.toronto.{edu,cdn}) for information.
+
+#N	attvcr
+#S	AT&T 3B2/310; Unix System V Release 3.1
+#O	AT&T Canada Inc.
+#C	John M. Roberts
+#E	attvcr!jroberts
+#T	+1 604 689 8911
+#P	Main Floor, 1111 Hastings St., Vancouver, BC, Canada, V6E 2J3
+#L	49 24 N / 123 4 W
+#R	Sales and service of AT&T Data and Communication products
+#U	ubc-vision mdivax1 tri-x van-bc
+#W	attvcr!jroberts (John Roberts); Mon Nov 23 09:49:00 PST 1987
+#
+attvcr	ubc-vision(DIRECT), cdl(DIRECT), mdivax1(EVENING), van-bc(DIRECT),
+	sagan(DIRECT), tri-x(EVENING), impdiv(DIRECT), ns3b2400(DEMAND),
+	auvax(DEMAND), desksid(DIRECT), tinker(DAILY)
+
+#N	bby-bc
+#S	PC/AT; Microport SystemV.2
+#C	John Chapman
+#E	ubc-vision!fornax!bby-bc!postmaster
+#T	+1 604 293 1995
+#P	7280 Curtis Ave., Burnaby, BC, Canada, V5A 1K3
+#L	49 15 N / 122 57 W
+#U	sfucmpt fornax
+#W	bby-bc!john (John Chapman); Thu Oct 15 11:38:07 EDT 1987
+#
+bby-bc	sfucmpt(HOURLY), fornax(HOURLY)
+
+#S	DEC VAX 11/780
+#O	Kwantlen College
+#C	Randy Bruce
+#E	casey!randy
+#T	+1 604 591 1111
+#P	P.O. Box 9030, Surrey, BC, Canada V3T 5H8
+#L	49 06 N / 122 49 W city
+#R	
+#W	utai!path (Path Database); Fri Feb 13 23:00:03 EST 1987
+#
+casey	ubc-vision
+
+#N	cdl
+#S	Sperry PC/IT; SCO XENIX System V Release 2.1
+#O	Clarendon Datex Ltd.
+#C	George E. Pajari
+#E	cdl!postmaster
+#T	+1 604 926 8649
+#P	2545 Queens Avenue, West Vancouver, BC, CANADA, V7V 2Y9
+#L	49 24 N / 123 5 W
+#R	UNIX consultants and software developers
+#U
+#W	cdl!pajari (George Pajari); Tue Jun 16 09:15:47 PDT 1987
+#
+cdl	attvcr(DIRECT+HIGH), nvanbc(DIRECT), pdl-serv1(DIRECT), 
+	sco(WEEKLY), spyvan(DIRECT), van-bc(DIRECT)
+
+#N	jspc
+#S	ACS ET 286 plus; MS-DOS 3.2 (using uupc)
+#O	J. E. Story Incorporated - Vancouver, BC
+#C	Jonathan Story
+#E	van-bc!jspc!jonathan
+#T	+1 604 980 2067	
+#P	204 - 150 E. 15th Street, North Vancouver, BC, V7L 2R1
+#L	49 17 N / 122 52 W
+#R	Private access to newsfeed and mail
+#W	van-bc!jspc!jonathan (Jonathan Story);  Wed Feb 03 00:00:00 PST 1988
+#U	van-bc
+#
+#jspc=story.wimsey.bc.ca
+#
+# local calls
+#
+jspc	van-bc(DAILY)      # Stuart Lynne, 937-7532
+
+#N	mprg
+#S	DEC uVAX I, Ultrix 1.2
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprg!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R	Mail/news gateway for Microtel Pacific Research
+#U	ubc-vision
+#W	waters!pronk (Frank Pronk); Thur May 14 11:00 PDT 1987
+#
+mprg	casey(HOURLY), dssmv0(DEDICATED), handel(DEDICATED), joplin(DEDICATED),
+	liszt(DEDICATED), mprc(DEDICATED), mprd(DEDICATED), mprott(HOURLY), 
+	ubc-vision(HOURLY), uw-vlsi(EVENING), van-bc(HOURLY), waters(DEDICATED)
+
+#N	mprvaxa
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprvaxa!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R
+#U
+#W	mprvaxa!pronk (Frank Pronk); Tue Jan 27 10:00 PST 1987
+#
+#mprvaxa=vaxa.mpr.can
+mprvaxa	casey(DEMAND), mprg(DEDICATED), mprvaxb(DEDICATED), ubc-vision(HOURLY),
+	uw-vlsi(EVENING/2)
+
+#N	mprvaxb
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprvaxa!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R		
+#W	mprvaxa!pronk (Frank Pronk); Tue Jan 27 10:00 PST 1987
+#
+#mprvaxb=vaxb.mpr.can
+mprvaxb	mprg(DEDICATED), mprvaxa(DEDICATED)
+
+#N	nvanbc
+#S	IBM PC/AT; XENIX 1.0
+#O	LH Computing
+#C	Lawrence Harris
+#E	nvanbc!lawrence
+#T	+1 604 985 4785
+#P	733 Sylvan Ave., North Vancouver, BC, Canada, V7R 2E8
+#L	49 20 N / 123 10 W city
+#R
+#U	van-bc
+#W	nvanbc!lawrence (Lawrence Harris); Sat Sep  6 11:35:00 PDT 1986
+#
+nvanbc	van-bc(DIRECT)
+
+#N	placer1
+#S	SUN 3/280; Sun OS Release 3.4
+#O	Placer Dome Inc
+#C	John A. Brunette
+#E	placer1!john
+#T	+1 604 682 7082
+#P	P.O. Box 49330 Vancouver B.C. Canada V7X 1P1
+#L	123 10 W / 49 18 N
+#R	Mining and mineral exploration company
+#U	van-bc
+#W	placer1!john (J Brunette) ; Thu Feb 18 16:25:00 1988
+#
+placer1	van-bc(DIRECT)
+
+#N	.molienergy.bc.ca, resrch
+#S	HP9000/550 HP-UX 5.21
+#O	Moli Energy Ltd.
+#C	Robbin W Johnson
+#E	postmaster@molienergy.bc.ca
+#T	+1 604 437 6927
+#P	3958 Myrtle St., Burnaby, BC. Canada, V5C 4G2
+#L	49 30 N / 122 55 W
+#R	This site was formerly known as molihp
+#U	van-bc
+#W	resrch!robbin (Robbin W. Johnson); Wed Feb 03 11:15:00 PST 1988
+#
+resrch	.molienergy.bc.ca
+resrch	= molihp, molienergy.bc.ca, resrch.molienergy.bc.ca
+resrch	van-bc(HOURLY), ubc-vision(EVENING)
+
+#N	sfucmpt
+#S	
+#O	Simon Fraser University, Computer Science Lab
+#C	Neil MacKenzie
+#E	lbl-csam!uw-beaver!ubc-vision!sfucmpt
+#T	+1 604 291-4430, +1 604 291-4277
+#P	Burnaby, BC, Canada v5a 1s6
+#L	49 15 N / 122 57 W city
+#R	
+#W	; Thu Jan  2 01:00:56 EST 1973
+#
+sfucmpt	ubc-vision(DAILY)
+
+#N	tri-x
+#S	Symmetric 375; 4.2 BSD UNIX
+#O	TRI-X Technologies Inc.  
+#C	Tim J. Snider, Mark A. Davis
+#E	tri-x!postmaster
+#T	+1 604 273 5580
+#P	Suite 200 - 10711 Cambie Road, Richmond, British Columbia,Canada
+#L	49 11 N / 123 05 W	
+#R	
+#W	tri-x!tjs (Tim Snider); Mon, Nov 2 12:00:00 PDT 1987	
+#U	attvcr
+#
+tri-x	attvcr(POLLED)
+
+#N	ubc-andrew
+#S	SMI 2/100U; SUN UNIX 1.4
+#O	The University of British Columbia, Computer Scinece
+#C	John Demco
+#E	ubc-ean!postmaster
+#T	+1 604 228 6537
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Distributed Systems Research Group X.25/X.400 development system
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 21 13:48 PDT 1987
+#
+#ubc-andrew =	andrew.ubc.can
+ubc-andrew	ubc-ean, ubc-cs, ubc-csfs1, ubc-csgrads, ubc-ean, ubc-vision
+
+#N	ubc-bdcvax
+#S	DEC VAX 11/750; UNIX 4.3BSD
+#O	University of British Columbia, Biosciences Data Center
+#C	Susan Ertis
+#E	ubc-bdcvax!postmaster
+#T	+1 604 228 6527
+#P	2204 Main Mall, Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#U	ubc-cryos vivarium
+#W	Susan Ertis (susan@ubc-bdcvax.uucp); Wed Sep 24 17:32:57 PDT 1986
+#
+#ubc-bdcvax =	ubc-bdc, bdcvax
+ubc-bdcvax	ubc-cryos(DIRECT), ubc-vision(HOURLY), vivarium(DIRECT)
+
+#N	ubc-cryos
+#S	DEC uVAX II; Ultrix 1.2
+#O	The University of British Columbia, Department of Physics
+#C	Rick Cline
+#E	ubc-cryos!postmaster
+#T	+1 604 228 2535
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#U
+#R	
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:50 PST 1987
+#
+ubc-cryos	ubc-bdcvax(DEMAND)
+
+#N	ubc-cs
+#S	DEC VAX 11/750; UNIX 4.3BSD
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science faculty and grad student host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:50 PST 1987
+#
+#ubc-cs =	cs.ubc.can
+ubc-cs		ubc-andrew, ubc-csfs1, ubc-csgrads, ubc-dsrg,
+		ubc-ean, ubc-vision
+
+#N	ubc-cs4
+#S	SMI 2/120FS SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-cs4		ubc-vision, ubc-ean, ubc-andrew, ubc-cs,
+		ubc-ugserver, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-csfs1
+#S	SMI 3/160; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science file server host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 14:08 PST 1987
+#
+#ubc-csfs1 =	csfs1.ubc.can
+ubc-csfs1	ubc-andrew, ubc-cs, ubc-csgrads, ubc-dsrg, ubc-ean, ubc-vision
+
+#N	ubc-csgrads
+#S	SMI 3/160; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science faculty and grad student host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 14:08 PST 1987
+#
+#ubc-csgrads =	csgrads.ubc.can
+ubc-csgrads	ubc-andrew, ubc-cs, ubc-csfs1, ubc-dsrg, ubc-ean, ubc-vision
+
+#N	ubc-dsrg
+#S	SMI 2/150FS; SUN UNIX 2.3
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:52 PST 1987
+#
+#ubc-dsrg =	dsrg.ubc.can
+ubc-dsrg	ubc-andrew, ubc-ean, ubc-cs, ubc-csfs1,
+		ubc-csgrads, ubc-vision
+
+#N	ubc-ean
+#S	DEC VAX 11/750; UNIX 4.2BSD
+#O	University of British Columbia, Dept. of Computer Science
+#C	John Demco
+#E	ubc-vision!ubc-ean!postmaster
+#T	+1 604 228 6537
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Distributed Systems Research Group X.25/X.400 development system
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:54 PST 1987
+#
+#ubc-ean =	ean.ubc.can
+ubc-ean		ubc-andrew, ubc-cs, ubc-csfs1, ubc-csgrads,
+		ubc-dsrg, ubc-vision
+
+#N	ubc-mts
+#S	Amdahl 5850; MTS
+#O	The University of British Columbia, Computing Centre
+#C	Michael Hayward
+#E	ubc-mts!postmaster
+#T	+1 604 228 4375
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Mon Jan 26 13:52 PST 1987
+#
+#ubc-mts =	mts.ubc.can
+ubc-mts		ubc-vision(DEMAND)
+
+#N	ubc-ug1
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug1		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ugserver, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug2
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug2		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ugserver, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug3
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug3		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ugserver, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug4
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug4		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ugserver,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug5
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug5		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ugserver, ubc-dsrg, ubc-rtec
+
+#N	ubc-ugserver
+#S	SMI 2/120FS SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Server host for diskless SUN workstations
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ugserver	ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-vision
+#S	DEC VAX 11/780; UNIX 4.2BSD
+#O	University of British Columbia, Laboratory for Computational Vision
+#C	Dan Razzell
+#E	ubc-vision!postmaster
+#T	+1 604 228 6794
+#P	6356 Agricultural Rd., Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	This machine is a usenet backbone host
+#U	ubc-bdcvax ubc-cs ubc-ean
+#U	alberta calgary casey fornax utai uvicctr uw-beaver watmath
+#U	attvcr van-bc
+#W	Dan Razzell (razzell@ubc-vision.uucp); Wed Sep  9 13:20:47 1987
+#
+# fix up truncated system names
+#
+ubc-vision	= ubc-vis, ubc-visi
+#
+ubc-vision	alberta(HOURLY), attvcr(HOURLY), calgary(HOURLY),
+		casey(DEMAND), fornax(HOURLY), ibx(WEEKLY), mdivax1(WEEKLY),
+		resrch(WEEKLY), mprg(WEEKLY),
+		munnari(HOURLY*2), sun(DAILY),
+		ubc-andrew(LOCAL), ubc-bdcvax(HOURLY), ubc-cs(LOCAL),
+		ubc-dsrg(LOCAL), ubc-ean(LOCAL), ubc-ugserver(LOCAL),
+		ubcg-mts(LOCAL*2), utai(HOURLY), uvicctr(DAILY),
+		uw-beaver(EVENING), van-bc(HOURLY),
+		watmath(HOURLY)
+
+#N	uvicctr
+#S	
+#O	University of Victoria
+#C	Trumpour
+#E	uw-beaver!uvicctr!trumpour
+#T	
+#P	Victoria, BC, Canada
+#L	48 25 N / 123 22 W city
+#R	
+#W	; Thu Jan  2 01:00:56 EST 1973
+#
+uvicctr	ssc-vax(DAILY), ubc-vision(DAILY), uvicar(DAILY), uw-beaver(DAILY)
+
+#N	van-bc
+#S	Callan Unistar 300; System V Uniplus+   4.2.2.L3
+#O	Wimsey Associates - Vancouver BC
+#C	Stuart Lynne
+#E	stuart.lynne@wimsey.bc.ca
+#T	+1 604-937-7532	
+#P	225B Evergreen Dr.,Port Moody,BC,V3H 1S1
+#L	49 17 N / 122 52 W
+#W	van-bc!sl (Stuart Lynne);  Mon Feb 16 00:00:00 PST 1988
+#U	ubc-vision uunet ubc-cs
+#
+#	Public access to newsfeed and mail for British Columbia
+#	Trailblazer:1+ 604-939-4782 login:nuucp password:nuucp
+#	uupc sources: ~/uupc/index
+#
+van-bc = wimsey.bc.ca
+van-bc .wimsey.bc.ca
+
+van-bc	uunet(DEMAND+LOW), ubc-vision(DIRECT), ubc-cs(DIRECT),
+	amami(DAILY), atami(DAILY), bapc(DAILY), bhami(DAILY), 
+	cdl(DIRECT), centaa(DIRECT), colcot(DAILY), daami(DAILY), 
+	desksid(WEEKLY), dfi(DIRECT), dhst(DAILY), gunnix(DAILY), 
+	horace(WEEKLY), ibx(WEEKLY), inetco(WEEKLY), jlami(DAILY), 
+	jmami(DAILY), jspc(DAILY), lpami(DAILY), mct(DIRECT), 
+	modatech(DIRECT), mprg(DEMAND+LOW), nvanbc(DIRECT), 
+	paragon(DIRECT), placer1(DAILY), resrch(DIRECT), rtst(DAILY), 
+	scpc(DAILY), seacbc(DIRECT), sklpc(DAILY), slrami(DAILY), 
+	stadia(DAILY), vertigo(WEEKLY), ve7apu(DAILY)
+
+#N	vivarium
+#S	DEC PDP 11/73; UNIX V7
+#O	University of British Columbia, Department of Zoology
+#C	Lee gass
+#E	vivarium!postmaster
+#T	+1 604 228 5844
+#P	2204 Main Mall, Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#W	Frank Pronk (pronk@ubc-vision.uucp); Tue Jan 27 20:32 PST 1987
+#
+vivarium =	ubc-vivarium, ubc-viv, vivariu
+vivarium	ubc-bdcvax(HOURLY)
+
+#N	zeus
+#S	MicroVAX II; 4.3 BSD
+#O	SGS Management Informations Services
+#C	Rob Rippengale
+#E	zeus!root
+#T	+1 604 253 2607
+#P	309 - 877 East Hastings St., Vancouver, BC, Canada V6A 3Y1
+#L	49 13 N / 123 06 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Fri Jan  8 13:39:52 EST 1988
+#U
+#
+zeus	uunet(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

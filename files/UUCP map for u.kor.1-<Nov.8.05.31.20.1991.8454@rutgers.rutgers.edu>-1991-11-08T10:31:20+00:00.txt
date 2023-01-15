@@ -1,0 +1,46 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.kor.1
+: This archive created: Fri Nov  8 05:31:19 1991
+echo shar: extracting u.kor.1
+cat << 'SHAR_EOF' > u.kor.1
+# u.kor.1 ; Map for System Development Network in Korea
+# Changes to Heesoo Byun (postmaster@sorak.kaist.ac.kr)
+# Last change : Wed Jan  9 13:28:55 KST 1991
+
+#N	halla, .dacom.co.kr, halla.dacom.co.kr
+#S	Tolerant Eternity; TX (4.2BSD UNIX modified)
+#O	Data Communications Corps. of Korea
+#C	Haesoon Cho
+#E	postmaster@halla.dacom.co.kr
+#T	+82 2 792 1332
+#P	Yongsan-ku, Hankang-ro 3ga
+#L	
+#R
+#U	
+#W	hscho@halla.dacom.co.kr (Haesoon Cho) ; Wed Jan  9 13:28:55 KST 1991
+#
+halla	.dacom.co.kr
+halla = halla.dacom.co.kr 	
+halla 	sorak(DEDICATED)
+
+#N	sorak, .kaist.ac.kr, sorak.kaist.ac.kr
+#S	VAX 11/750 ; 4.3 BSD UNIX
+#O	Korea Advanced Institute of Science and Technology
+#C	Heesoo Byun
+#E	postmaster@sorak.kaist.ac.kr
+#T	+82 2 962 3519
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	
+#R	
+#U	
+#W	hscho@halla.dacom.co.kr (Haesoon Cho) ; Wed Jan  9 13:28:55 KST 1991
+#
+sorak	.kaist.ac.kr
+sorak =	sorak.kaist.ac.kr
+sorak	halla(DIRECT), kum(DIRECT)
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,171 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.sc.1
+# This archive created: Thu Dec  3 04:09:34 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.sc.1
+cat << ¬•SHAR_EOF > u.usa.sc.1
+#N	cs44
+#S	
+#O	University of South Carolina, Dept. of Computer Science
+#C	Ken Sallenger, Ted Nolan
+#E	usceast!prog
+#T	(803) 777-4611, (803) 777-2840 (messages)
+#P	Columbia, SC 29208
+#L	34 00 N / 81 03 W city
+#R	
+#W	jett!bill 8/4/84
+#U	usceast
+#
+cs44	usceast
+
+#N	hubcap
+#S	DEC VAX-11/780; ULTRIX-32 1.2
+#O	Clemson University Computer Center
+#C	Mike Marshall, W. Gregg Stefancik
+#E	hubcap!postmaster
+#T	+1 803 656 3155, +1 803 656 6557
+#P	50 New Cherry Street, Clemson University, Clemson, SC 29634
+#L	34 41 N / 82 49 W
+#R	Our link with gatech is over SURAnet via a 56Kbd line
+#U	gatech ncrcae
+#W	hubcap!wstef (W. Gregg Stefancik); Tue Mar 17 13:44:32 EST 1987
+#
+hubcap	akgua(DEMAND), gatech(DEDICATED), midlyd(DEMAND), usceast(POLLED),
+	ncrcae(POLLED), dolqci(DEMAND)
+
+
+#N	midlyd
+#S	Tandy 6000; Xenix 03.01.02
+#O	Lydia Soybeans, Inc. 
+#C	Robert G. Pitts
+#E	midlyd!bob
+#T	+1 803 332 1513
+#P	Post Office Drawer A, Lydia, South Carolina 29079-0158
+#L	34 21 N / 80 05 W 
+#R	
+#U	
+#W	midlyd!bob (Robert G. Pitts);Mon Apr 13 18:57:32 EDT 1987
+#
+midlyd  petro(DEMAND), flattop(DEMAND), handicraft(DAILY), fbm(DEMAND),
+	ajg(DEMAND), radshack(DEMAND)
+
+
+#N	ajg
+#S	Tandy 6000; Xenix 03.01.01
+#O	Ammons & Johnson Grain Co., Inc.
+#C	Sam Johnson, Lisa Tedder
+#E	ajg!lisa
+#T	+1 803 332 0183
+#P	Rt 1  Box 90, Darlington South Carolina 29532
+#L	79 59 W / 34 22 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  2 16:00:00 EDT 1986
+#
+ajg	midlyd(DIRECT)
+
+
+#N	radshack
+#S	Tandy 6000; Xenix 03.01.01
+#O	Darlington Music Co. Inc.
+#C	William B. Parlin
+#E	radshack!britt
+#T	+1 803 393 1001
+#P	130 North Main Street, Darlington, South Carolina 29532-3104
+#L	79 51 W / 34 22 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  3 09:00:00 EDT 1986
+#
+radshack	midlyd(DIRECT), nofoe(DEMAND), flattop(DEMAND)
+
+
+#N	fbm
+#S	Tandy 6000; Xenix 03.01.01
+#O	South Carolina Farm Bureau Marketing Association
+#C	Butch DeCosta, Sherry Lemon
+#E	fbm!sherry
+#T	+1 803 747 0441
+#P	Post Office Box 5788, North Charleston, South Carolina 29406
+#L	79 27 W / 32 26 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  3 09:45:00 EDT 1986
+#
+fbm	midlyd(DEMAND)
+
+
+#N	usceast
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Department of Computer Science, University of South Carolina
+#C	Ken Sallenger
+#E	usceast!ken
+#T	+1 803 777 4611, +1 803 777 2840
+#P	216 LeConte College, USC, Columbia SC 29208
+#L	81 01 28 W / 34 59 54 N
+#R	When SC played So. Cal. the scoreboard said USC East/USC West
+#U	ncrcae
+#W	usceast!ken (Ken Sallenger); Fri Jan 23 08:12:30 EST 1987	
+#
+#	Pathalias info for usceast
+#	    allegra currently DEAD because of problems polling them
+#
+usceast	usccmi(DIRECT), ncrcae(DIRECT), akgua(DAILY), gmu90x(WEEKLY),
+	allegra(DEAD)
+
+#N	ncrcae
+#S	NCR Tower32; Rel 1.03 (SysVr2)
+#O	NCR Corp., E&M-Columbia
+#C	Michael C. Wescott
+#E	wescott@ncrcae.Columbia.NCR.COM, ncrcae!wescott
+#T	+1 803 796 9250
+#P	3325 Platt Springs Rd., West Columbia, SC 29169
+#L	33 57 26 N / 81 07 20 W
+#R
+#U	usceast sauron ece-csc ncr-sd ncrmud usccmi
+#W	ncrcae!wescott (Mike Wescott); Mon Jan  5 20:40:01 EST 1987
+#
+ncrcae	bbussc(DEAD)
+ncrcae	ece-csc(DEMAND)
+# until the ncsu map is deleted this alias applies
+ece-csc=ncsu
+ncrcae	ncr-sd(DEMAND)
+ncrcae	ncroem(DEMAND)
+ncrcae	ncrorl(DEMAND)
+ncrcae	ncrpcd(DEMAND)
+ncrcae	ncrsea(DEMAND)
+ncrcae	rd1632(DEMAND)
+ncrcae	sauron(DEMAND)
+ncrcae	usccmi(DEMAND)
+ncrcae	usceast(DEMAND)
+.columbia.ncr.com = { ncrcae, sauron }
+ncrcae	.columbia.ncr.com
+ncrcae = columbia.ncr.com, ncrcae.columbia.ncr.com, ncrcae.ncr.com
+
+#N	sauron
+#S	NCR Tower32; Rel 1.03 (SysVr2)
+#O	NCR Corp., E&M-Columbia
+#C	Michael C. Wescott
+#E	wescott@ncrcae.Columbia.NCR.COM, ncrcae!wescott
+#T	+1 803 796 9250
+#P	3325 Platt Springs Rd., West Columbia, SC 29169
+#L	33 57 26 N / 81 07 20 W
+#R
+#U	ncrcae
+#W	ncrcae!wescott (Mike Wescott); Mon Jan  5 20:40:01 EST 1987
+#
+sauron	bbussc(DEAD)
+sauron	ncrcae(DEMAND)
+sauron	ncr-sd(DEMAND)
+sauron	rd1632(DEMAND)
+sauron	dayton(EVENING)
+sauron = sauron.columbia.ncr.com
+SHAR_EOF
+#	End of shell archive
+exit 0

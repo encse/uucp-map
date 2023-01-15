@@ -1,0 +1,40 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.AProject
+# This archive created: Sun Jan  3 01:19:17 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.AProject
+cat << ¬•SHAR_EOF > d.AProject
+#  This is the UUCP Mapping Project's miscellaneous data file.  Here you'll
+#  find temporary patches which, because of this file's name, will become part
+#  of the input to pathalias.  In general, we will use this file to keep
+#  pathalias from generating known bad or unreliable paths.
+#
+# ---------- 
+#
+#  As far as can be determined, most of the links to osu-eddie were links to
+#  the old system.  A new system is now in place and we're given to believe
+#  that not all of the old links still exist.  To keep mail from being routed
+#  through these old links accidentally, this site and the real site name that
+#  osu-eddie is now an alias for are being declared dead.  As soon as this
+#  situation is cleared up, this declaration will be removed.
+#
+dead {osu-eddie}
+dead {tut.cis.ohio-state.edu}
+#
+# ----------
+#
+dead {munsell}			# 12.24.87 - 1.4.88
+dead {itivax!chinet} 		# awaiting map update
+dead {csdev!ihnp4}		# awaiting map update
+dead {gymble}			# awaiting word from the sysadmin
+#
+SHAR_EOF
+#	End of shell archive
+exit 0

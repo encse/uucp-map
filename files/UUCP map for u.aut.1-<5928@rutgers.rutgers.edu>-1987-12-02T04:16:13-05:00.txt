@@ -1,0 +1,337 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.aut.1
+# This archive created: Wed Dec  2 04:16:10 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.aut.1
+cat << \SHAR_EOF > u.aut.1
+# u.aut.1; changes to: uucpmap@tuvie.uucp
+
+#
+#N	acmis
+#S	3B2-400B / UNIX V.2.0.4
+#O	CMIS GmbH, Coordinierte Management Informations Systeme
+#C	Johannes Rupp
+#E	acmis!joe
+#T	+43 222 630851-0
+#P	Concordiaplatz 2, A-1013 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	vmars!schwabl 860729 
+#
+acmis	olia1(WEEKLY), dietvie(DAILY)
+
+#N	btx
+#S	MUPID C2A2/CEPT 2.2
+#O	PTT Austria, Post- und Telegraphendirektion
+#P	Baeckerstrasse 1, A-1010 Wien, Austria
+#C	N.N / Friedrich Plank
+#E	btx!100000000 / plank@tuvie.uucp
+#R	***********************************************************************
+#R	Experimental gateway to message service of interactive videotext (BTX).
+#R	BTX is a public telematic service provided by the PTT in Austria.
+#R	Access restricted to BTX users who are registered by netadm@tuvie.uucp
+#R	***********************************************************************
+#W	871103, schwabl@asupa.uucp
+
+btx	asupa(DAILY), tuvie(WEEKLY)
+
+#N	asupa, honey, vmars, vmars2
+#S	3B2-400 / System V Rel.2.4
+#O	Tech.Univ.Wien/Inst.f.Techn.Informatik/E182
+#C	Wolfgang Schwabl
+#E	schwabl@asupa.uucp
+#P	Treitlstr.3/182,A-1040 Wien,Austria
+#T	+43 222 58801/8174
+#L	48 21 N / 16 38 E
+#R	Academic Support UNIX Program - Austria
+#U
+#W	vmars!schwabl 870612
+#
+
+asupa	tuvie(HOURLY), odatc0(DEAD), olia1(DAILY), btx(DAILY)
+
+MAnet =	{vmars, honey, asupa, vmars2}!(LOCAL)
+
+#N	baxen1
+#S	Intel System 310 / XENIX 3.4
+#O      Fa Bacher Electronics
+#C	Gerald Ehritz
+#E	baxen1!bauuga
+#T	+43 222 835646-27
+#P	Rotenmuehlgasse 26, A-1120 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 870709
+#
+baxen1	tuvie(DAILY)
+
+#N	dietvie
+#S	3B2-400/System V.2 
+#O      Fa Dietmueller GmbH.
+#C	Gerald Young
+#E	dietvie!gy
+#T	+43 222 65????
+#P	Paulanergasse, A-1040 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	vmars!schwabl 870612
+#
+dietvie tuvie(DAILY)
+
+#N	fuckup
+#S	IBM-PC/AT3 / XENIX-5.2.2
+#O	Rupert Grafendorfer
+#C	Rupert Grafendorfer
+#E	fuckup!rup
+#T	+43 732 230911/94
+#P	Weilgunystrasse 2A, A-4040 Linz, Austria
+#L	48 27 N / 14 89 E
+#R
+#U
+#W	tuvie!plank 870424
+#
+fuckup	tuvie(WEEKLY), keba(LOCAL)
+
+#N	hpuviea
+#S	HP9000/HP-UX
+#O	Hewlett Packard GmbH Wien
+#C	Michael Haberler
+#E	hpuviea!mah
+#T	+43 222 2500/412
+#P	Lieblgasse 1, A-1222 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	
+#U
+#W	tuvie!plank 870902
+#
+hpuviea	hpbbse(DAILY/2), tuvie(DAILY/2)
+
+#N	iiasa, iiasa2
+#S	VAX 11-780 / BSD 4.2
+#O	International Institute for Applied Systems Analysis (IIASA)
+#C	Carolyn Fuhrmann 
+#E	iiasa!postman
+#T	+43 2236 715210-215
+#P	Schlossplatz 1, A-2361 Laxenburg, Austria
+#L	48 04 N / 16 21 E
+#R
+#U
+#W	tuvie!plank 861016
+#
+iiasa	 iiasa2(LOCAL), tuvie(DEMAND)
+
+iiasa = iiasava
+iiasa = iiasavax
+iiasa2 = iiasa2vax
+iiasa2 = iiasa2v
+
+#N	iinform
+#S	Altos 68000 / System III
+#O	Akademie der Wissenschaften, Institut f. Informationsverarbeitung
+#C	Gerhard Winkler
+#E	iinform!geha
+#T	+43 222 529681-317
+#P	Sonnenfelsgasse 19/2, A-1010 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+iinform	tuvie(DEDICATED)
+
+#N	imdgraz
+#S	Sperry PC-IT / Xenix
+#O	Forschg.Ges.Joanneum, Inst. f. Maschinelle Dokumentation
+#C	Monika Reiter
+#E	imdgraz!root
+#T	+43 316 74134
+#P	Steyrergasse 25a, A-8010 Graz
+#L
+#R
+#U
+#W	tuvie!plank 870105
+#
+imdgraz	tuvie(DAILY)
+
+#N	isetvie
+#S	3B2-400C / System V, Vers.2.0.4
+#O	Inst.f.Soziooekonomische Entwicklungsforschung und Technikbewertung
+#C	Rudolf Diewald
+#E	isetvie!dips
+#T	+43 222 5131145-13
+#P	Fleischmarkt 20, A-1010 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+isetvie	tuvie(DIRECT)
+
+#N	keba
+#S	HP-9000/550 / HP-UX
+#O	Fa. KEBA, Linz
+#C	Peter Scheer
+#E	keba!peter
+#T	+43 732 230911/191
+#P	Krippner & Kletzmaier, Gewerbehof Halle C, A-4040 Linz, Austria
+#L	48 27 N / 14 89 E
+#R
+#U
+#W	tuvie!plank 870413
+#
+keba	tuvie(HOURLY)
+
+keba = elbau
+
+#N	nogsys
+#S	NCR-Tower 32 / UNIX V
+#O	Fa. NOG Computer Systeme GmbH
+#C	Ing. Wolfgang Skabrond
+#E	nogsys!root
+#T	+43 222 248414
+#P	Untere Donaustrasse 17, A-1020 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!kunft 870612
+#
+nogsys	tuvie(DAILY)
+
+#N	ocg
+#S	Siemens PC-MX / SINIX
+#O	Oesterreichische Computer Gesellschaft
+#C	Mag. Bettina Hainschink
+#E	ocg!hain
+#T	+43 222 5120235
+#P	Wollzeile 1-3, A-1010 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!kunft 870812
+#
+ocg	tuvie(DAILY)
+
+#N	olia1
+#S	3B2-300 / System V.2
+#O	Austro-Olivetti GmbH
+#C	Friedrich Kofler
+#E	olia1!kofler
+#T	+43 222 734501-0
+#P	Rennweg 9, A-1030 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	3B hotline, mail requests to: olia1!asupa
+#U
+#W	vmars!schwabl 870612
+#
+olia1	acmis(WEEKLY), asupa(DAILY), olgb1(DAILY), odatc0(DAILY)
+
+#N	swevie
+#S	Fortune 32:16 SX / FOR:PRO
+#O	SWE - Softwareentw.GmbH
+#C	Georg John
+#E	swevie!root
+#T	+43 222 301636
+#P	Schenkendorfg. 80, A-1210 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 870928
+#
+swevie	tuvie(WEEKLY)
+
+#N	tugiig
+#S	Sperry PC-IT / Xenix
+#O	TU Graz, Institut f. Informationsverarbeitung
+#C	Peter Lipp
+#E	tugiig!root
+#T	+43 316 76588-13
+#P	Schiesstattg 4a, A-8010 Graz
+#L
+#R
+#U
+#W	tuvie!plank 870709
+#
+tugiig	tuvie(DAILY)
+
+#N	tuhold
+#S	VAX 11/750 / Ultrix-32
+#O	Inst.f.angew.Informatik,TU Wien
+#C	Harald Sattmann
+#E	tuhold!sattmann
+#T	+43 222 58801/6127
+#P	Paniglgasse 16, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+tuhold	tuvie(DEDICATED)
+
+#N	tunix
+#S	NSC ICM 3216 / UNIX V2.5
+#O	TU Wien, EDV-Zentrum, Hybridrechenanlage	
+#C	Friedrich Bloeser
+#E	tunix!fritz
+#T	+43 222 58801/3704
+#P	TU Wien, EDV-Zentrum/HRA, Gusshausstr.27-29, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	soon to be hooked up
+#U
+#W	tuvie!plank 870227
+#
+tunix	tuvie(DEAD)
+
+#N	tuvie, pro, egh780, egraph, tuvie1, eutest, evtest
+#S	micro vax II / ULTRIX-32m
+#O	TU Wien, EDV-Zentrum, Prozessrechenabteilung
+#C	Walter Kunft / Friedrich Plank
+#E	tuvie!kunft  / tuvie!plank
+#T	+43 222 58801/3608
+#P	TU Wien, EDV-Zentrum/PRA, Gusshausstr.27-29, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	EUnet backbone Austria
+#U
+#W	tuvie!plank 860729
+#
+
+####### European Backbone Connections
+tuvie   cernvax(ARPA), diku(ARPA),  enea(ARPA), inria(ARPA),
+	mcvax(ARPA-1), penet(DEAD), prlb2(ARPA), unido(ARPA),
+	ukc(ARPA)
+
+####### Austrian Sites
+tuvie	iinform(DAILY/6), imdgraz(DAILY), btx(WEEKLY),
+	isetvie(POLLED), tuhold(POLLED), viekar(DAILY/2), asupa(HOURLY),
+	iiasa(DAILY/3), vipvax(DAILY), tunix(DEAD), keba(DAILY),
+	fuckup(WEEKLY), nogsys(DAILY), dietvie(DAILY), baxen1(DAILY),
+	tugiig(DAILY), ocg(DAILY), hpuviea(DAILY/2), swevie(WEEKLY)
+
+####### Local stuff
+PRAnet = {tuvie1, tuvie, pro, egh780, egraph, eutest, evtest}!(LOCAL)
+
+
+#N	vipvax
+#S	MicroVAX II / Ultrix-32
+#O	Inst.f.prakt.Informatik	E180/2, TU Wien
+#C	M.Kolarik
+#E	vipvax!postmaster
+#T	+43 222 58801/4453
+#P	Argentinierstr.8, A-1040 Wien, Austria
+#L	48 21 N	/ 16 38 E
+#R	
+#U
+#W	tuvie!plank 861204
+#
+vipvax	tuvie(DAILY), viphp(LOCAL)
+SHAR_EOF
+#	End of shell archive
+exit 0

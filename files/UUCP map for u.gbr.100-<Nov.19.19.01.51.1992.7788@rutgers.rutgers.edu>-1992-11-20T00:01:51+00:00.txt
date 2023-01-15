@@ -1,0 +1,336 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.gbr.100
+: This archive created: Thu Nov 19 19:01:48 1992
+echo shar: extracting u.gbr.100
+cat << 'SHAR_EOF' > u.gbr.100
+# Copyright 1992 by UKnet. All rights reserved.
+# Permission to redistribute and use for routing purposes granted.
+#
+# u.gbr.100
+# UUCP map for the United Kingdom - non EUnet nodes
+# Changes to postmaster@uknet.ac.uk
+# Last changed: Fri Oct  9 16:55:51 BST 1992
+
+#N	aleph-1
+#S	Acorn R260; Acorn RISC iX 1.21
+#O	Aleph One Ltd
+#C	Nicko van Someren
+#E	postmaster@aleph1.co.u
+#T	+44 223 811679
+#P	The Old Courthouse, Bottisham, Cambridgeshire, CB5 9BA
+#L	00 15 53 E / 52 13 09 
+#W	postmaster@uknet.ac.uk; 92/11/06
+#
+aleph-1	mantis(DIALED)
+#
+aleph-1	.aleph1.co.uk
+aleph-1 = aleph1.co.uk
+
+#N	antipope
+#S	286 Laptop; Coherent Unix
+#O	Private System
+#C	Charles Stross
+#E	charlie@antipope.uucp
+#T	+44 (0)923 211576
+#P	304 Hagden Lane, Watford WD1 LH
+#
+antipope ibmpcug(DAILY)
+
+#N	cjg
+#S	Waffle 1.65 Generic PC.
+#O	CJG Consultants Ltd
+#C	Jeremy Gilmore
+#E	postmaster@cjg.uucp
+#T	+44 (0)81 877 9120
+#P	London House, 66-68 Upper Richmond Road, London, SW15 2RP
+#
+cjg	ibmpcug(DAILY/4)
+
+#N	darksun
+#S	Sun 3/50; SunOS 4.1.1_U1
+#O	ExNet Systems Ltd
+#C	Xavier Gallagher
+#E	s0xjg@exnet.co.uk
+#T	+44 81 755 0077
+#P	60 Sunningdale Avenue, Hanworth, Middlesex, TW13 5JT, UK
+#L	51 26 35 N / 00 23 00 W
+#R	This info @(#) darksun 1.17 UUCP_MAP 92/11/05.
+#R	Private node for Xavier.
+#U	exnet2
+#W	Damon Hart-Davis; 92/11/05 01:52:11.
+#
+darksun exnet2(WEEKLY)
+
+#N	exnet
+#F	ibmpcug.co.uk
+#S	Sun 3/60; SunOS 4.1
+#O	ExNet Systems Ltd
+#C	Damon Hart-Davis
+#E	postmaster@exnet.co.uk
+#T	+44 81 755 0077, +44 850 724032
+#P	60 Sunningdale Avenue, Hanworth, Middlesex, TW13 5JT, UK
+#L	51 26 35 N / 00 23 00 W
+#R	This info @(#) exnet 1.17 UUCP_MAP 92/11/05
+#R	Offering dialup news and mail facilities on UNIX (SunOS) #5+VAT per month.
+#R	Parallel and distributed processing specialists.
+#U	exnet2 ibmpcug jshark mark-one
+#W	Damon Hart-Davis; 92/11/05 01:52:11.
+#
+exnet	= exnet.co.uk
+exnet	= pgram
+exnet	.exnet2.exnet.co.uk(LOCAL)
+exnet	exnet2(LOCAL),
+	ibmpcug(POLLED),
+	jshark(DAILY),
+	mark-one(DAILY)
+
+#N	exnet2
+#S	Sun 3/50; SunOS 4.1.1_U1
+#O	ExNet Systems Ltd
+#C	Damon Hart-Davis
+#E	postmaster@exnet.co.uk
+#T	+44 (0)81 755 0077, +44 (0)850 724032
+#P	60 Sunningdale Avenue, Hanworth, Middlesex, TW13 5JT, UK
+#L	51 26 35 N / 00 23 00 W
+#R	This info @(#) exnet2 1.14 UUCP_MAP 92/11/05.
+#R      Offering dialup news and mail facilities on UNIX (SunOS) #5+VAT per month.
+#R	Parallel and distributed processing specialists.
+#R	exnet2 is the public access node.
+#U	darksun exnet jshark mark-one s0gtk
+#W	Damon Hart-Davis; 92/10/23 02:28:18.
+#
+exnet2	exnet(LOCAL),
+	darksun(WEEKLY),
+	jshark(WEEKLY),
+	mark-one(WEEKLY),
+	s0gtk(DAILY)
+
+#N	iemuk
+#S	HP 9000/340; HP-UX 8.00
+#O	IEM Europe
+#C	UNIX System Administrator
+#E	iem!postmaster
+#T	+44 608 645 000
+#P	Colorado House, Cromwell Park, Banbury Road, Chipping Norton, Oxfordshire OX7 5SR
+#U	iem
+#W	iem!larry (Larry Fenske); Mon Sep 28 14:33:16 MDT 1992
+iemuk	iem(WEEKLY)
+
+#N	iocgate
+#S	IBM RS6000
+#O	Intelligent Office Equipment Ltd.
+#C	Doug Rabson
+#E	postmaster@ioc.co.uk
+#T	+44 81 528 9864
+#P	Bechtel House, 245 Hammersmith Road, London, W6 8DP
+#
+iocgate   .ioc.co.uk(LOCAL)
+iocgate = ioc.co.uk
+iocgate   ibmpcug(DAILY/4)
+
+#N	jedinet
+#S	486/33; Interactive UNIX 386 v3
+#O	private system
+#C	Steve Kennedy
+#E	jedinet!postmaster
+#T	+44 71 483 1169
+#P	Flat 2, 43 Howitt Road, Belsize Pk, London, NW3 4LU
+#L	51 32 56 N / 00 10 05 W
+#W	jedinet!steve (Steve Kennedy) ; Mon Jun 22 18:10:00 GMT 1992
+#
+jedinet	cellnet(HOURLY)
+
+#N	jshark
+#S	Mylex 486/33; ISC 2.2.1
+#O	private system
+#C	Joseph Sharkey
+#E	joe@inet-uk.co.uk
+#T	+44 (0)71 629 5932 (day)
+#P	150 Hatfield Road, St Albans, Herts, AL1 4JA
+#L	51 45 03 N / 00 19 19 W
+#R
+#R	Mail and news feeds are available (v32/v32bis) -
+#R	ask for details.
+#R
+#U	exnet ibmpcug mark-one zebedee
+#W	postmaster@uknet.ac.uk 921029; joe@jshark.uucp 920908
+#
+jshark = inet-uk.co.uk, jshark.inet-uk.co.uk
+jshark   .inet-uk.co.uk(DIRECT)
+jshark   .jshark.inet-uk.co.uk(DIRECT)
+#
+jshark	exnet(DAILY), exnet2(WEEKLY), ibmpcug(DAILY/4),
+	mark-one(POLLED), spark(POLLED)
+# 
+ibmpcug	jshark(DAILY/2)
+
+#N	mantis
+#S	Compaq Deskpro; Novell Netware 3.1
+#O	Mantis Consultants
+#C	Mathew (tech) John Cox (admin)
+#E	postmaster@mantis.co.uk
+#T	+44 (0)223 421094
+#P	Unit 56, St. Johns Innovatiosn Centre, Cowley Road, Cambridge, CB4 4WS
+#L	00 09 64 E / 52 14 27 N
+#U	ibmpcug
+#
+mantis = mantis.co.uk
+mantis  .mantis.co.uk(LOCAL)
+mantis  ibmpcug(DAILY/4), aleph-1(DAILY/2), ltgroup(DAILY)
+#
+ltgroup	mantis(DAILY/2)
+
+#N	mark-one
+#S	ISA 486/50; Dell SVR4 V2.1
+#O	Mark-One Public Access UNIX (+44 942 273926)
+#C	Mark Powell
+#E	mark@mark-one.inet-uk.co.uk
+#T	+44 942 714317
+#P	1, Rosedale Avenue, Lowton, Warrington, Cheshire, WA3 2RW, UK.
+#L	53 28 20 N / 2 34 40 W
+#R	Unix BBS
+#R
+#R	Email and USENET news feeds available throughout the UK.
+#R	Please contact for further information.
+#R	v32/v32bis/HST with v42/v42bis
+#R
+#U	jshark exnet2 spark
+#W	mark@mark-one.inet-uk.co.uk (Mark Powell); Fri Oct  2 00:57:22 BST 1992
+mark-one	= mark-one.inet-uk.co.uk, m1.inet-uk.co.uk, m1, lowton, lowton.rn.com
+mark-one	jshark(DAILY), spark(DAILY), m1bbs(LOCAL), exnet2(DAILY),
+	.mark-one.inet-uk.co.uk(LOCAL), .m1.inet-uk.co.uk(LOCAL)
+
+#N	mcdd1
+#O	McDonnell Douglas (UK) Ltd
+#C	Nartin Dew-Hattens
+#E	mcd@mcdd1.uucp
+#T	+44 442 232424
+#P	Maylands Park (North), Boundry Way, Hemel Hempstead, Herts, HP2 7HU
+#L	00 26 00 W / 51 45 00 N
+#
+mcdd1	ibmpcug(DAILY/4)
+
+#N	msi
+#S	Sun Sparc 2; SunOS v4.1.2
+#O	Mobile Systems International
+#C	Mario Palencia
+#E	msi!postmaster
+#T	+44 71 971 8195
+#P	5th Floor, 1 Harbour Exchange Square, Docklands, London, E14 9GE
+#L	51 29 99 N / 00 09 24 W
+#W	cellnet!stevek (Steve Kennedy) ; Wed Jul 01 20:30:00 1992 GMT
+#
+msi	jedinet(DAILY)
+
+#N	pipex
+#O	Pipex (A division of Unipalm Ltd)
+#S	Sun 4; SunOS 4.1.2
+#C	Keith Mitchell
+#E	pipe@unipalm.co.uk
+#T	+44 223 424 616
+#P	216 Cambridge Science Park, Milton Road, Cambridge, UK
+#L	00 08 50 E / 52 14 05 N
+#W	postmaster@uknet.ac.uk 920514; ian@pipex.net 920923
+#
+pipex	pipex.net
+pipex=	relay.pipex.net
+pipex	demon(DEDICATED), dlbsys(DEDICATED), harlqn(DEDICATED),
+	ibmpcug(DEMAND), jet(DEDICATED), msicam(DEDICATED),
+	sast(DEDICATED), slxsys(DEDICATED), sworld(DEDICATED),
+	tadtec(DEDICATED), unipalm(LOCAL), uunet(DEDICATED),
+	xtech(LOCAL), xylint(DEDICATED)
+
+#N	sast
+#O	SAST Ltd
+#C	Peter Tilling
+#E	postmaster@sast.co.uk
+#T	+44 81 847 0565
+#P	Waterway House, Brentford, Middlesex TW8 8HQ
+#L	
+#
+# UK domain name
+sast	.sast.co.uk
+sast = sast.co.uk
+
+#N	sdp
+#S	MacMail
+#O	Sheffield Digital Productions Ltd.
+#C	Dave Chamberlain
+#E	DAVECHA@sdp.com
+#T	+44 (0)71 278 1387, +1 206 649 3322
+#P	12 Regents Wharf, All Saints Street, London, N1 9RL
+#
+sdp	.sdp.com
+sdp	= sdp.com
+sdp	ibmpcug(DAILY/4)
+
+#N	s0gtk
+#S	Generic PC with SCO UNIX.
+#O	ExNet Systems Ltd
+#C	Xavier Gallagher
+#E	sysadmin@exnet.co.uk
+#T	+44 81 755 0077
+#P	60 Sunningdale Avenue, Hanworth, Middlesex, TW13 5JT, UK
+#L	51 26 35 N / 00 23 00 W
+#R	This info @(#) s0gtk 1.17 UUCP_MAP 92/11/05.
+#R	Home node for s0gtk@exnet.co.uk (Glen T. Kondos).
+#U	exnet2
+#W	Damon Hart-Davis; 92/11/05 01:52:11.
+#
+s0gtk	exnet2(DAILY)
+
+#N	sricroy
+#S	UUGate
+#O	SRI International
+#C	Ashim Pal
+#E	ASHIM_PAL@qm.sri.com
+#T	+44 81 686 5555
+#P	4 Addiscombe Road, Croydon, CR0 5TT
+#
+ibmpcug	sricroy(DAILY/8)
+
+#N	tadtec
+#O	Tadpole Technology plc
+#C	Tim Steele, Mark Armitage
+#E	tjfs@tadtec.co.uk
+#T	+44 223 423030 x222
+#P	Science Park, Cambridge, CB4 4WQ
+#L	00 08 40 E / 52 14 00 N
+#
+# UK domain name
+tadtec	.tadtec.co.uk
+tadtec = tadtec.co.uk
+
+#N	ukncsun1
+#O	Ram Mobile Data, Inc.
+#S	Sun 4/490; SunOS 4.1.1 UNIX
+#C	Jonathan Trudel, Tony Clark
+#E	bugs!postmaster, ukncsun1!postmaster
+#T	+1 908 602 5500, +011 44 81 990 9090
+#P	Heathrow Boulevard, 280 Bath Road, West Drayton, Middlesex UK
+#L	00 27 38 W / 51 29 02 N
+#W	postmaster@uknet.ac.uk 920424, postmaster@uknet.ac.uk 920424
+#
+ukncsun1	bugs(DAILY/4)
+ukncsun1	.rmd.com
+
+#N	wthing
+#S	Intel 386; 386/BSD 0.1
+#O	private system; David and Jennifer Edmondson
+#C	Dave Edmondson
+#E	dme@doc.ic.ac.uk
+#T	+44 81 9547458
+#P	5 Fern House, Woodlands Drive, Stanmore, Middlesex, HA7 3PB
+#W	dme@doc.ic.ac.uk (Dave Edmondson); Tue Nov 17 16:13:48 GMT 1992
+#
+wthing	ibmpcug(EVENING), icdoc(WEEKLY)
+wthing	= uuwild
+
+wthing	.wild-things.com
+wthing	= wild-things.com
+SHAR_EOF
+:	End of shell archive
+exit 0
+

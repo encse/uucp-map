@@ -1,0 +1,136 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.pa.1
+: This archive created: Mon Aug  1 01:17:57 1988
+echo shar: extracting d.usa.pa.1
+cat << 'SHAR_EOF' > d.usa.pa.1
+# d.usa.pa.1 created by dpz@rutgers.edu on Sun Jul 31 17:58:48 EDT 1988
+
+#N	.bell-atl.com, bpa
+#F	rutgers.edu
+#O	Bell Atlantic Company
+#C	Bob Esposito, Lee Daley
+#E	espo@bpa.bell-atl.com, lee@bpa.bell-atl.com
+#T	(215) 466-6831, (215) 466-6828
+#P	Bell of Pennsylvania, 6th Floor, One Parkway, Philadelphia, PA  19102
+#L	39 57 N / 75 07 W city
+#R	registered
+#U	asi burdvax cbmvax cp1 sjuvax temvax
+#W	bpa!espo (Bob Esposito) ; Wed Jun  8 09:00:00 EDT 1988
+#
+bpa	.bell-atl.com
+bpa	bell-atl.com
+bpa=	bpa.bell-atl.com
+bpa	asi(DIRECT/2), bcr(DEMAND+HIGH), bellcore(DEMAND+HIGH), <bhc>(DIRECT/2),
+	burdvax(DIRECT/2), cbmvax(DEMAND+FAST), cbosgd(DEMAND+HIGH),
+	cdin-1(DIRECT/2), cp1(DEMAND+HIGH), discg1(DIRECT/2), drexel(DIRECT/2),
+	dsinc((DIRECT+FAST)/2), ihnp4(DEMAND), lehi3b15(DEMAND), ll1(DEMAND),
+	mpx1(DIRECT/2), pata(LOCAL), pyuxp(DEMAND+HIGH), pyuxv(DEMAND+HIGH),
+	rutgers(DEMAND+FAST), sbmsg1(DEMAND), sbmsg2(DEMAND), sbmsg3(DEMAND),
+	sbmsg4(DEMAND), scbhq(DEMAND), sjuvax(DIRECT/2), swatsun(DIRECT/2),
+	temvax(DIRECT/2), vaxmmg(DIRECT/2), vu-vlsi((DIRECT+FAST)/2)
+
+#N	.commodore.com, cbmvax
+#F	rutgers.edu
+#O	Commodore Business Machines; Engineering Support Group
+#C	George Robbins
+#E	grr@Commodore.COM
+#T	+1 215 431 9100 X9836
+#P	1200 Wilson Drive, West Chester, PA  19380
+#L	39 59 30 N / 75 35 00 W
+#R	registered
+#U	bpa rutgers hutch cbm vu-vlsi snark amiga
+#W	rutgers!dpz (David P. Zimmerman); Sun Jul 31 17:12:53 EDT 1988
+#
+#	Notice:		(subject to change and probably out of date)
+#
+#	This machine talks to Commodore Engineers, hovever it is NOT the
+#	correct place for most technical information and problems.
+#
+#		Amiga	-->	bix (official), plink, compuserve, ???
+#		C64/128	-->	allmost all consumer networks, qlink
+#
+#		Amiga Developer Support:
+#		Administrative ->	cbmvax!lauren
+#		Technical ->		cbmvax!{carolyn,bill,schein}
+#		Bug Reports ->		cbmvax!bugs
+#		
+#		C64/128 Developer Support:
+#		Technical ->		cbmvax!dan
+#
+#	Newfangled Domain Stuff
+#
+#	CBM.Commodore.COM	Commodore Business Machines, West Chester, PA
+#	Amiga.Commodore.COM	Commodore Amiga, Los Gatos, CA
+#	MOS.Commodore.COM	MOS Technology, Vally Forge, PA
+#	
+cbmvax	.commodore.com
+cbmvax=	cbmvax.cbm.commodore.com
+cbmvax=	cbm
+#
+#	uucp connections
+#
+cbmvax	cbm(DEDICATED), cbmbsw(DAILY), amiga(DEMAND), uunet(DEMAND),
+	allegra(DEMAND), rutgers(DEMAND), vu-vlsi(DEMAND),
+	temvax(DEMAND), ulowell(DAILY), udel(DEMAND), molly(DEMAND),
+	hutch(DAILY/4), bpa(DEMAND), liberty(DEMAND), swatsun(DEMAND),
+	burdvax(DEMAND), sinharat(DEMAND), gravina(DEMAND), mwc(DAILY),
+	cgh(DEMAND), mpx1(DEMAND), feith1(DEMAND), snark(DIRECT),
+	devon(DAILY)
+#
+#	Maildrops we poll regularly
+#
+uunet	cbmvax(HOURLY*6)
+allegra	cbmvax(HOURLY*6)
+rutgers	cbmvax(HOURLY*6)
+amiga	cbmvax(HOURLY*12)
+ulowell	cbmvax(DAILY)
+udel	cbmvax(DEAD)
+
+#N	insight, .n129.z1.ifna.org 
+#S	IBM PC; PC-DOS 3.2 
+#O	Insight BBS FidoNet<-->UUCP Gateway 
+#C	Rev. Brian H. Hughes 
+#E	insight!postmaster 
+#T	+1 412 486 4010 or +1 412 487 3709 evenings 
+#P	517 Sangree Rd., Pittsburgh, PA  15237 
+#L	40 26 N / 80 00 W city 
+#R	FidoNode 1:129/65 running UFGATE. 
+#U	darth  
+#W	idis!psuvax1!rutgers!dpz ; Tue Apr 19 10:44:08 EDT1988 
+# 
+#	Insight is a FidoNet BBS system running a UUCP program under 
+#	MS-DOS.  Mail and net.news can move in both directions 
+#	through the gateway with this FidoNet <-> UUCP/Internet  
+#	gateway site serving Western Pennsylvania. 
+# 
+insight	.n129.z1.ifna.org 
+insight=insight.ifna.org, f65.n129.z1.ifna.org 
+insight	darth(DIRECT), idis(DIRECT), hadron(DIRECT) 
+
+#N	.villanova.edu, vu-vlsi
+#F	(none)
+#S	Pyramid 90x; OSx 4.0
+#O	Villanova University, Dept. of Electrical Engineering
+#C	Rick Perry
+#E	vu-vlsi!uuadm
+#T	+1 215 645 4224
+#P	Villanova, PA  19085
+#L	40 02 N / 75 21 W
+#R	submitted with no forwarder
+#U	cbmvax cgh psuvax1 devon swatsun drexel ge-mc3i lehi3b15
+#W	vu-vlsi!perry (Rick Perry); Mon Dec 21 22:46:29 EST 1987
+#
+vu-vlsi	.villanova.edu
+vu-vlsi	villanova.edu
+vu-vlsi= vu-vlsi.villanova.edu
+vu-vlsi	bpa(DIRECT), cgh(DIRECT), cbmvax(DEMAND), devon(DEMAND), drexel(DIRECT),
+	dsinc(DEMAND), excalibur(DEDICATED), ge-mc3i(DEAD), hutch(DAILY),
+	hvrunix(DIRECT), lehi3b15(DEMAND), mpx1(DEMAND), psuvax1(DEMAND),
+	pyrnj(DEMAND), snark(DIRECT), swatsun(DIRECT), temvax(DIRECT)
+
+# d.usa.pa.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0

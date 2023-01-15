@@ -1,0 +1,64 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ar.1
+: This archive created: Mon Jul 11 01:17:53 1988
+echo shar: extracting u.usa.ar.1
+cat << 'SHAR_EOF' > u.usa.ar.1
+# Doug McCallum <dougm@ico.ISC.COM>; Thu Jul  7 14:14:09 MDT 1988
+
+#N	actsn
+#S	Tandy 3000 HD ; Xenix System V/286 Release 2
+#O	All Church Technical Service
+#C	David Summers
+#E	actsn!david
+#T	+1 501 442 5558
+#P	1640 Rockwood Trail, Fayetteville, Arkansas 72701
+#L	36 04 10 N / 094 08 30 W
+#R	This seems to be the first public entry in Arkansas!(?)
+#U	cseg fbcnwa
+#W	actsn!david (David Summers) ; Tue May 3 04:04:00 CDT 1988
+
+actsn	cseg(HOURLY*2),	fbcnwa(HOURLY/2)
+
+
+
+#N	cseg
+#S	AT&T 3B2/400 ; Unix System V Release 3.0 3B2
+#O	Computer Science Engineering Dept., University of Arkansas, Fayetteville
+#C	Dr. Carl Bowling
+#E	cseg!cdb
+#T	+1 501 575 6519
+#P	Dept. of Comp. Sci. Eng., MS EN309, Fayetteville, Arkanasas, 72701
+#L	36 04 10 N / 094 10 00 W
+#R	We have EtherNet connections to 7 3B2's, a 3B15, and a Harris Mini
+#U	University: b15 cheg cseg cveg dean eleg hcx mceg vmeb
+#U	Other: actsn ahecnw fbcnwa romed tcis
+#W	cseg!dws (David Summers) ; Tue Jun 30 15:00:00 CDT 1988
+
+# EtherNet connections and Domain info.
+engr-ether = { b15, cheg, cseg, cveg, dean, eleg, hcx, ineg, mceg }(LOCAL)
+cseg	engr-ether
+# UUCP connections
+cseg	actsn(POLLED), ahecnw(POLLED), fbcnwa(POLLED), romed(DAILY), tcis(DAILY)
+
+
+#N	intrepid
+#S	Tandy 4000
+#O	Stephens Co.
+#C	James H. Fuller
+#E	intrepid!root
+#T	+1 501 377 2439
+#P	P.O. Box 91, Mabelvale, AR 72103
+#L	34 42 N / 92 17 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue Mar  1 19:04:45 EST 1988
+#U
+#
+intrepid	uunet(DEMAND)
+
+
+# EOF for map file: u.usa.ar.1
+SHAR_EOF
+:	End of shell archive
+exit 0

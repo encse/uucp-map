@@ -1,0 +1,339 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.bc.2
+: This archive created: Wed Nov 20 06:48:06 1991
+echo shar: extracting u.can.bc.2
+cat << 'SHAR_EOF' > u.can.bc.2
+#	u.can.bc.2 : last updated Thu Oct 31 02:19:46 1991
+#
+#	Corrections to the contents of this file should be sent to any one of:
+#		path@cs.toronto.edu, path@cs.utoronto.ca, utai!path
+#	Please edit the map entry suitably and remember to update the #W line.
+#
+#	Some of the entries in this file have been generated from the .CA
+#	domain registration forms. (as indicated in the #R line) If you have
+#	any corrections for those, please send those to your .CA domain
+#	registrar.
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.ca) or want related information, please contact:
+#
+#		registry@cs.toronto.edu, registry@cs.utoronto.ca, utai!registry
+#	
+#	For information about registering under any of .edu, .com, .gov etc,
+#	please contact domain-request@uunet.uu.net or uunet!domain-request.
+#
+
+#N	twg
+#S	80386/33Mz; SCO XENIX V/386 2.3.2
+#O	TWG The Westrheim Group
+#C	Bill Irwin
+#E	twg!usenet
+#T	+1 604 431 9600
+#P	5696 Imperial Street, Burnaby, B.C. Canada V5J 1G2
+#L	49 17 N / 122 52 W city
+#R	Multitech 9600 MNP 5 or 2400 for non-Multitech
+#U	van-bc
+#W	twg!bill (Bill Irwin); Sat Jul 14 16:30:00 PDT 1990
+#       UNIX Systems Integration and Support Services
+twg	.twg.bc.ca(LOCAL)
+twg     van-bc(HOURLY)
+
+#N	ubc-cs
+#S	SMI 3/60; SunOS 4.0
+#O	University of British Columbia, Computer Scinece
+#C	Michael Sanderson
+#E	ubc-cs!postmaster
+#T	+1 604 228 4230
+#P	6356 Agricultural Rd, Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	This machine is a Usenet backbone host
+#U	alberta cs.sfu.ca fs1.ee.ubc.ca news-server.csri.utoronto.ca
+#U	merlin mprgate sol.uvic.ca uw-beaver van-bc
+#W	sanders@ubc-cs.uucp (Michael Sanderson); Mon Oct 28 10:16:27 PST 1991
+#
+ubc-cs	.ubc.ca(LOCAL), .sfu.ca(LOCAL), .uvic.ca(LOCAL)
+cs.ubc.ca = ubc-cs
+
+ubc-cs	alberta(DEMAND), attvcr(HOURLY/2), cdl(HOURLY), crayon(POLLED),
+	envy(DEAD), gummo(POLLED), merlin(HOURLY/2), microsoft(DAILY),
+	mprgate(DEMAND), resrch(EVENING), utai(DEMAND),
+ 	ubc-bdcvax(DEAD), uw-beaver(DEMAND), uunet(DEMAND), van-bc(DEMAND),
+	watmath(DEMAND), bcnet(LOCAL)
+
+bcnet = { brc.ubc.ca, cc.sfu.ca, cc.ubc.ca, chinook.ee.ubc.ca, corrie,
+	csoffice, csr, fornax, g2v, lawrence.ee.ubc.ca, mtsg.ubc.ca, salmon,
+	sfucmpt, sockeye.ee.ubc.ca, uvcw, uvvm, uvicctr, uvphys }
+
+
+
+#N	ubc-csgrads, grads.cs.ubc.ca
+#S	SMI 3/260; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk, Michael Sanderson
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	Computer Science grad student host
+#U
+#W	sanders@ubc-cs.uucp (Michael Sanderson); Mon Nov 27 11:08:00 PST 1989
+#
+grads.cs.ubc.ca =	ubc-csgrads
+grads.cs.ubc.ca	bcnet(LOCAL)
+
+#N	ubc-mts, mtsg.ubc.ca
+#S	Amdahl 5850; MTS
+#O	The University of British Columbia, Computing Centre
+#C	Dave Brent
+#E	mtsg.ubc.ca!postmaster
+#T	+1 604 228 4375
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R
+#U
+#W	pronk@ubc-cs.uucp (Frank Pronk); Tue Apr 26 15:16:00 PDT 1988
+#
+mtsg.ubc.ca =	ubc-mts
+mtsg.ubc.ca	bcnet(LOCAL)
+
+#N	ubc-relay, relay.cdnnet.ca
+#S	SMI 3/50; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	John Demco, Frank Pronk
+#E	ubc-relay!postmaster
+#T	+1 604 228 6537
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	CA domain root name server
+#U
+#W	demco@cdnnet.ca (John Demco); Mon Dec 11 09:26:37 PST 1989
+#
+relay.cdnnet.ca =	ubc-relay
+relay.cdnnet.ca	bcnet(LOCAL)
+
+#N	ubc-ugly, undergrad.cs.ubc.ca
+#S	Apollo 3500; Domain OS 10.1
+#O	The University of British Columbia, Computer Science
+#C	Michael Sanderson
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	Undergraduate student host, gateway to undergraduate lab
+#U	ubc-cs
+#W	sanders@ubc-cs.uucp (Michael Sanderson); Mon Nov 27 11:19:00 PST 1989
+#
+# undergrad.cs.ubc.ca = ubc-ugly
+ubc-ugly	bcnet(LOCAL)
+
+#N	ubc-vision
+#S	DEC VAX 11/780; UNIX 4.3BSD
+#O	University of British Columbia, Laboratory for Computational Vision
+#C	Dan Razzell
+#E	ubc-cs!postmaster
+#T	+1 604 228 6794
+#P	6356 Agricultural Rd., Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#W	razzell@ubc-cs.uucp (Dan Razzell); Mon Dec 11 18:56:02 PDT 1989
+#
+# This host no longer handles mail. In most cases, ubc-cs should be used
+# instead.
+#
+
+#N	.unifax.bc.ca
+#S	.CA Domain;
+#O	Unifax Communiations Inc.
+#C	Stuart Lynne
+#E	sl@unifax.bc.ca, sl@wimsey.bc.ca
+#T	+1 604 294 4300
+#P	492-6400 Roberts St, Burnaby, BC
+#L	49 17 N / 122 52 W city
+#R	Automatically generated from a .CA domain registration form
+#W	registry@cs.toronto.edu (UUCP Liaison); Tue Dec 25 23:40:42 -0500 1990
+#
+#	unifax.bc.ca is a For-Profit Corporation
+#
+#	Unifax Communications builds and sells facsimile software for
+#	Unix based computers.
+#
+#	received: Tue, 15 May 1990 20:00:00 -0400
+#	approved: Fri, 22 Jun 1990 20:00:00 -0400
+#
+# Internet forwarders:
+van-bc.wimsey.bc.ca <.unifax.bc.ca>(DIRECT), # by sl@van-bc.wimsey.bc.ca
+		<unifax.bc.ca>(DIRECT)
+# NetNorth forwarders:
+#	none
+# CDNnet forwarders:
+#	none
+# UUCP forwarders:
+van-bc  	<.unifax.bc.ca>(DIRECT), # by sl@van-bc.wimsey.bc.ca
+		<unifax.bc.ca>(DIRECT)
+
+#N	unifax
+#S	386 Clone; SCO Xenix 386
+#O	UniFax Software
+#C	Stuart Lynne
+#E	Stuart.Lynne@wimsey.bc.ca
+#T	+1 604 937 7532
+#P	225B Evergreen Dr., Port Moody, BC, V3H 1S1
+#L	49 17 N / 122 52 W city
+#R	R&D for UniFax
+#U	van-bc
+#W	van-bc!sl (Stuart Lynne);  Wed Apr  5 16:12:41 PST 1989
+#
+#
+unifax	van-bc(DIRECT)
+
+#N	van-bc
+#S	386; SCO UNIX 3.2.2
+#O	Public Access Unix - Vancouver BC
+#C	Stuart Lynne
+#E	van-bc!sl
+#T	+1 604 937 7532
+#P	225B Evergreen Dr., Port Moody, BC, V3H 1S1
+#L	49 17 N / 122 52 W city
+#R	Local backbone for newsfeed and mail for Vancouver area
+#U	cs.ubc.ca zaphod.mps.ohio-state.edu
+#W	sl@wimsey.bc.ca (Stuart Lynne); Fri Oct 25 13:24:23 PDT 1991
+#
+#	Trailblazer on 604-939-4782, login: nuucp, password: nuucp
+#	2400/1200 on 604-939-4756, login: nuucp, password: nuucp
+#	@(#): van-bc
+#	Permission granted to send advertising to above address
+#
+van-bc = van-bc.wimsey.bc.ca
+van-bc = wimsey.bc.ca
+van-bc	.wimsey.bc.ca(DIRECT)
+#
+van-bc	
+	cs.ubc.ca(LOCAL),	# internet link
+	advantg(DIRECT),
+	balliffe(DIRECT), 
+	bchspd(DIRECT), 
+	bbedford(DIRECT),
+	bhami(DIRECT),
+	bjm(DIRECT),
+	bmcdi(DIRECT),
+	bradcom(DIRECT),
+	centavx(DIRECT+LOW),
+	crisis(DEMAND),
+	cynic(DIRECT+HIGH),
+	deskside(DIRECT+LOW), 
+	dilltk(DIRECT+HIGH), 
+	dds4(DIRECT),
+	dorf(DIRECT+LOW),
+	dtm(DIRECT),
+	eosvcr(DIRECT), 
+	eslvcr(DIRECT), 
+	forward(DIRECT), 
+	genesys(DIRECT),
+	gsc-cor(DIRECT),
+	grassys(DIRECT),
+	gti(DIRECT),
+	heuvax(DEMAND), 
+	icecave(DEMAND), 
+	ilinx(DEMAND), 
+	jonh(DIRECT), 
+	jspc(DIRECT), 
+	keadb(DIRECT), 
+	mdavcr(DIRECT), 
+	mdivax1(DIRECT), 
+	merlin(DIRECT), 
+	mikejag(DIRECT), 
+	mobisysv(DIRECT),
+	mplex(DIRECT),
+	mtnsys(DIRECT),
+	narwal(DIRECT),	
+	netsoft(DEMAND), 
+	newcon(DEMAND), 
+	nvanbc(DIRECT),	
+	oneb(DAILY),
+	outbound(DIRECT),
+	panabod(DEMAND),
+	panam(DEMAND),
+	panics(DEMAND),
+	pebbles(DIRECT),
+	picard(DIRECT),
+	pjon(DIRECT),
+	placer1(DIRECT+HIGH), 
+	ppress(DIRECT),
+	questor(DIRECT), 
+	raal(DIRECT),
+	resbbs(DIRECT), 
+	resrch(DIRECT), 
+	rsoft(DEMAND), 
+	scheidt(DIRECT), 
+	seac(DIRECT+HIGH), 
+	sloth(DIRECT), 
+	spctra(DIRECT), 
+	spyvan(DEAD),
+	sqwest(DEMAND),
+	tacitus(DIRECT), 
+	tessera(DIRECT),
+	tgivan(DIRECT),
+	tradent(DIRECT),
+	tram(DIRECT),
+	troller(DIRECT),
+	tvbbs(DIRECT),
+	twg(DIRECT), 
+	unifax(DIRECT),
+	ve7apu(DIRECT), 
+	vital(DIRECT), 
+	westgro(DIRECT), 
+	wcraft(DIRECT), 
+	wolfe(DIRECT),
+	xenophon(DIRECT)
+
+#N	.wimsey.bc.ca
+#S	.CA Domain;
+#O	Wimsey Associates
+#C	Stuart Lynne
+#E	postmaster@wimsey.bc.ca
+#T	+1 604 937 7532
+#P	225B Evergreen Dr., Port Moody, BC, V3H 1S1
+#L	49 17 N / 122 52 W city
+#R	Automatically generated from a .CA domain registration form
+#W	registry@cs.toronto.edu (UUCP Liaison); Tue Jun 26 04:12:06 -0400 1990
+#
+#	wimsey.bc.ca is a For-Profit Partnership
+#
+#	Public UUCP Mail forwarder and Usenet feed for
+#	British Columbia.
+#
+#	received: Mon, 15 Feb 1988 19:00:00 -0500
+#	approved: Wed, 24 Feb 1988 19:00:00 -0500
+#	modified: Tue, 26 Dec 1989 19:00:00 -0500
+#
+# Internet forwarders:
+#	none: all hosts are on Internet
+# CDNnet forwarders:
+relay.cdnnet.ca <.wimsey.bc.ca>(DIRECT), # by demco@relay.cdnnet.ca
+		<wimsey.bc.ca>(DIRECT)
+# UUCP forwarders:
+#uunet   	<.wimsey.bc.ca>(DIRECT), # by rick@uunet.uu.net
+#		<wimsey.bc.ca>(DIRECT)
+van-bc  	<.wimsey.bc.ca>(LOCAL), # by sl@wimsey.bc.ca
+		<wimsey.bc.ca>(LOCAL)
+# NetNorth forwarders:
+utorugw.bitnet  <.wimsey.bc.ca>(DIRECT), # by molnar@ugw.utcs.utoronto.ca
+		<wimsey.bc.ca>(DIRECT)
+
+#N	wssvan
+#S	386; SCO Xenix
+#O	Western Software Solutions
+#C	Kalman Skulski
+#E	wssvan!kalman
+#T	+1 604 589 9066
+#P	Unit B, 15483 - 104 Avenue, Surrey, British Columbia V3R 1N9
+#L	49 50 N / 123 00 W city
+#R	Simple Mail Feed
+#W	wssvan!kalman (Kalman Skulski); Mon Dec 24 09:06:11 EST 1990
+wssvan	merlin(HOURLY)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

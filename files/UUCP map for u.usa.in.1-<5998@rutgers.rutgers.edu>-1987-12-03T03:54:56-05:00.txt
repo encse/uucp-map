@@ -1,0 +1,464 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.in.1
+# This archive created: Thu Dec  3 03:54:50 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.in.1
+cat << \SHAR_EOF > u.usa.in.1
+#MAP FILE: u.usa.in.1	Tue Dec  1 11:43:17 EDT 1987	tgt@stargate.COM
+#
+#
+#N	ack
+#S	Altos 986T/40; Xenix 3.0c (System III)
+#O	Computer Specialists, division of Audio Specialists, Inc.
+#C	J. Anderson Dustman
+#E	ack!andy, ack!root
+#T	+1 219 234 5001
+#P	401 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	Computer Specialists sells and supports single- and multi-user systems.
+#U
+#W	ack!andy (J. Anderson Dustman); Mon Jan  6 09:00:25 EST 1986
+#
+ack	alpha(EVENING)
+
+#N	alpha
+#S	Altos 986/40; Xenix Booster Pack (4.2 BSD UNIX)
+#O	Assistive Device Resource Center, Memorial Hospital of South Bend
+#C	Donald K. Irmiger III
+#E	alpha!don, alpha!root
+#T	+1 219 284 3015
+#P	615 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	The ADRC aids the handicapped community with assistive devices.
+#U
+#W	alpha!don (Donald K. Irmiger); Sat Jan 04 09:00:00 EST 1986
+#
+alpha	kangaro(HOURLY), pur-ee(DAILY/2), ack(HOURLY), isrnix(DAILY/2),
+	ihnp4(DAILY)
+
+#N	bsu-cs
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	Department of Computer Science, Ball State University
+#C	Rahul Dhesi
+#E	bsu-cs!postmaster
+#T	+1 317 285 8641
+#P	Muncie, Indiana 47306
+#L	85 24 31 W / 40 12 16 N
+#R	No registered domain address (yet)
+#U	rb442 zoo-hq
+#W	bsu-cs!dhesi (Rahul Dhesi); Thu Jul  9 12:06:25 EDT 1987
+#
+bsu-cs	iuvax(DIRECT), pur-ee(EVENING), rb442(DIRECT), zoo-hq(DIRECT)
+
+#N	callisto
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	Dep't of Elec. Eng., Univ. of Notre Dame
+#C	Craig Lent
+#E	callisto!lent
+#T	+1 219 239 6992
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#U
+#W	Evan Bauman <ndcheg!evan>; Fri Oct 12 21:00:00 EST 1987
+#
+callisto	ndsun(LOCAL), ndcheg(LOCAL)
+
+#N	diane
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Dep't of Chem. Eng., Univ. of Notre Dame
+#C	Jeffrey Kantor
+#E	ndcheg!Postmaster
+#T	+1 219 239 5580
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#U
+#W	diane!jeff (Jeffrey Kantor); Thu Jul 2 11:31:00 EST 1987
+#
+diane	ndcheg-ether
+
+#N	duncan
+#S	Fortune 32:16, 4.1 BSD
+#O	Duncan Communications Bulletin Board System
+#C	Malcolm Duncan
+#E	duncan!root
+#T	(317) 567-2220
+#P	RR #1 Box 98E, Battle Ground, IN 47920
+#L	40 32 42 N / 86 46 15 W
+#R	Public Access Bulletin Board System, news, PD software
+#R	pathalias data commented out until update is received
+#U	duncan
+#W	duncan!root (Malcolm Duncan); Sun Mar 19 22:00:00 EST 1985 
+#
+#duncan	pur-phy(DAILY), kran(DAILY/6), mrstve(DAILY)
+
+#N	hpuinda
+#S	HP9000/500; HPUX
+#O	Hewlett-Packard Indianapolis Office
+#C	Jerry Shurr
+#E	hpuinda!jerrys
+#T	+1 317 844 4100
+#P	11911 N. Meridian, Carmel,IN 46032
+#L	39 46 N / 86 09 W city
+#R
+#U
+#W	iuvax!mosier (Steve Mosier); Mon Jul 14 11:32:50 EST 1986
+# 
+hpuinda	iuvax(DIRECT), ritron(DAILY), hpfcse(DAILY)
+
+#N	isrnix
+#S	DEC PDP-11/44 2.9BSD
+#O	Indiana University, Institute for Social Research
+#C	Greg Travis
+#E	isrnix!greg
+#T	+1 812 335 0886
+#P	E. 3rd St., Bloomington, IN 47401
+#L	39 10 N / 86 32 W city
+#R	
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:48:38 EST 1987
+#
+isrnix	inuxc(DEMAND), iuvax(LOCAL), pur-ee(DEMAND), pur-phy(DEMAND),
+	qusavx(WEEKLY)
+
+#N	iucs
+#S	VAX 11-780; Ultrix 1.2
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall 021C Bloomington, In 47405
+#L	39 10 N / 86 32 W city
+#R	iucs.cs.indiana.edu on Internet
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:48:38 EST 1987
+#
+iucs = "iucs.cs.indiana.edu"
+iucs	iuvax(LOCAL)
+
+#N	jeffrey
+#S	SUN 3/75; 4.2 BSD UNIX
+#O	Dep't of Chem. Eng., Univ. of Notre Dame
+#C	Jeffrey Kantor
+#E	ndcheg!Postmaster
+#T	+1 219 239 5580
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#U
+#W	jeffrey!jeff (Jeffrey Kantor); Thu Jul 2 11:31:00 EST 1987
+#
+jeffrey	ndcheg-ether
+
+#N	kangaro
+#S	Altos 586/40; Xenix Booster Pack (System III port with BSD file system)
+#O	Kangaroo Koncepts, Inc.  (The Connection)
+#C	Greg Corson
+#E	kangaro!milo
+#T	+1 219 277 5306 
+#P	19141 Summers Drive, South Bend, Indiana  USA  46637
+#L	41 43 08 N / 86 14 17 W
+#R	We operate a public-access bulletin board service & act as consultants
+#R	pathalias data commented out until update is received
+#U
+#W	kangaro!milo (Greg Corson); Fri Nov  1 15:45:00 EST 1985 
+#
+#kangaro	alpha(HOURLY), pur-ee(DAILY/3), isrnix(DAILY/4)
+
+#N	kran
+#S	NCR Tower XP, System 5.2
+#O	Purdue University, Krannert Graduate School of Management
+#C	Malcolm Duncan
+#E	kran!wmd
+#T	(317) 494-7700
+#P	Krannert Executive Education Programs, W. Lafayette, IN, 47907
+#L	40 27 N / 86 55 W      
+#R	Purdue University, Krannert Executive Education Programs
+#U	kran
+#W	kran!wmd (Malcolm Duncan); Sun Mar 19 22:00:00 EST 1986
+#
+kran	pur-phy(DAILY/6), duncan(DAILY/6)
+
+#N	louise
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	Dep't of Chem. Eng., Univ. of Notre Dame
+#C	David Leighton, Jeffrey Smart
+#E	ndcheg!Postmaster
+#T	+1 219 239 5580
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#U
+#W	louise!dtl (David Leighton); Thu Jul 2 11:31:00 EST 1987
+#
+louise	ndcheg-ether
+
+#N	mdbs
+#S	VAX 11/780; Ultrix 1.0
+#O	Micro Data Base Systems, Inc.
+#C	Joseph E. Greer
+#E	mdbs!joe
+#T	1 317 447 1122
+#P	660 N 36th Street, Lafayette IN, 47905
+#L	40 27 N / 86 58 W
+#R
+#U	mrstve
+#W	Joseph E. Greer; Wed Oct 28 10:47:47 EST 1987
+#
+mdbs	mrstve(DAILY), pur-ee(DAILY)
+
+#N	mwhhlaw
+#S	Fortune 32:16
+#O	Martin, Wade, Hartley & Hollingsworth
+#C	Bob Hartley
+#E	mwhhlaw!bob
+#T	(317) 924-6700
+#P	3590 N. Meridian Street, Indianapolis, IN 46208
+#L
+#R
+#U	inuxc
+#W	mwhhlaw!bob (Bob Hartley); Sat Feb 22 15:40:43 EST 1986
+#
+mwhhlaw	inuxc(DEMAND)
+
+#N	ndcheg
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	Dep't of Chem. Eng., Univ. of Notre Dame
+#C	Jeffrey Kantor, Evan Bauman
+#E	ndcheg!Postmaster
+#T	+1 219 239 5580
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R	We hope to be a domain site soon
+#U	ndmath ndccunix
+#W	ndcheg!evan (Evan G. Bauman); Fri Aug 28 15:05:00 EST 1987
+#
+ndcheg  ndmath(DIRECT), ndccunix(DIRECT)
+#
+#       LAN addressed host!user
+#
+ndcheg-ether = {ndcheg, louise, diane, jeffrey}!(LOCAL)
+
+#N	ndmath
+#S	SUN 2/120; 4.2BSD
+#O	Notre Dame University, Math Dept.
+#C	Ken Grant, Dean Alvis
+#E	ndmath!klg, ndmath!dean
+#T	+1 219 239 7694, +1 219 239 7583
+#P	Math. Dept., Univ. of Notre Dame, Notre Dame IN, 46556
+#L	41 42 15 N / 86 14 00 W
+#R	map update
+#U	iuvax	ndcheg	iubugs	thelink
+#W	ndmath!dean (Dean Alvis); Thu Oct 2 11:33:00 EST 1987
+# 
+ndmath	iuvax(DIRECT), ndcheg(DIRECT), iubugs(DAILY), kangaro(HOURLY),
+	thelink(DAILY), ack(DEAD), alpha(DEAD)
+
+#N	ndsun
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Dep't of Elec. Eng., Univ. of Notre Dame
+#C	Mark Herro
+#E	ndsun!mark
+#T	+1 219 239 7244
+#P	Notre Dame, Indiana, 46556
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R
+#U
+#W	Evan Bauman <ndcheg!evan>; Fri Oct 12 21:00:00 EST 1987
+#
+ndsun	ndcheg(LOCAL), callisto(LOCAL), pur-ee(DAILY/4)
+
+#N	pur-ee
+#S	DUAL VAX 11/780, 4.3BSD
+#O	Purdue University, Electrical Engineering Dept.
+#C	Dave Curry
+#E	pur-ee!davy
+#T	(317) 494-3648
+#P	Electrical Engineering, Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R	This is ECN's administrative machine, and the only true uucp machine.
+#U	inuxc cs-mordred ecn-pc
+#W	pur-ee!davy (Dave Curry); Sun Mar  1 13:02:52 1987 EST
+# We have TCP/IP over Ethernet to these things, but sendmail is smart enough
+# to decode the uucp-ish addresses into what they should be, so just use that
+# mail format.
+ECN    = {ecn-aa,ecn-ab,ecn-ca,ecn-cb,ecn-ec,ecn-ed,ecn-ee,ecn-ef,ecn-eg,
+	  ecn-ei,ecn-ej,ecn-ga,ecn-gb,ecn-ka,ecn-ma,ecn-mb,ecn-pa,ecn-pb,
+	  ecn-pc}!(LOCAL)
+# We talk to all the PUCC and CS machines via Ethernet or Berknet.  I'm 
+# sticking them here just cause it's easier to read and work on.
+TOCS   = {cs-arthur,cs-merlin,cs-mordred,purdue}!(LOCAL)
+TOPUCC = {pucc-c,pucc-d,pucc-e,pucc-h,pucc-i,pucc-j,pucc-k,pucc-n}!(LOCAL)
+pur-ee = ecn-ee
+pur-ee	 ECN, TOCS, TOPUCC,
+	 alpha(DIRECT), ames(DAILY/3+HIGH), cbosgd(DAILY), decvax(DAILY), 
+	 glc2ff1(HOURLY), gould(DAILY), icalqa(DAILY), intelca(DAILY), 
+	 inuxc(HOURLY), isi(DAILY), isrnix(DAILY/3), iuvax(DIRECT), 
+	 kangaro(DIRECT), keep(DAILY/3), lynxys(LOCAL), masscomp(DAILY), 
+	 pur-phy(LOCAL), purdue(LOCAL), spar(DAILY), ucbvax(DAILY)
+
+#N	pur-phy
+#S	DEC PDP-11/44; 2.8 BSD UNIX
+#O	Purdue University Physics Dept.
+#C	Charles R. LaBrec
+#E	pur-phy!news
+#T
+#P	Physics Dept., Purdue Univ., W. Lafayette, IN 47906
+#L
+#R
+#U	pucc-h kran mrstve
+#W	pur-phy!news (C. LaBrec) ; Sun Jan  4 12:30:44 EST 1987
+#
+pur-phy	kran(DEMAND), mrstve(DEMAND), duncan(DEMAND), pur-ee(DEMAND)
+
+#N	purdue
+#S	VAX 8600, Mt. Xinu 4.3BSD with NFS
+#O	Purdue University, Dept. of Computer Science
+#C	Dan Trinkle
+#E	purdue!trinkle
+#T	+1 317 494 7844
+#P	West Lafayette, IN 47907
+#L	40 30 N / 86 55 W
+#R
+#U	
+#W	purdue!trinkle (Dan Trinkle) ; Fri Aug 28 15:18:26 EST 1987
+#
+purdue  .arthur.cs.purdue.edu
+purdue	allegra(DAILY), convex(POLLED), decvax(DEMAND), decwrl(POLLED),
+	floyd(POLLED), gatech(DEMAND), ihnp4(HOURLY), iuvax(DEMAND),
+	msdc(POLLED), psuvax1(DEMAND), pur-ee(DEMAND), pur-phy(DEMAND),
+	tektronix(POLLED), ucbvax(DEMAND), rutgers(DEMAND)
+
+#N	c.cc.purdue.edu, d.cc.purdue.edu, e.cc.purdue.edu
+#S	DEC PDP-11/70, 2.9BSD
+#O	Purdue University Computer Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	k.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+c.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+d.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+e.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	h.cc.purdue.edu, i.cc.purdue.edu, j.cc.purdue.edu, k.cc.purdue.edu
+#S	DEC Dual VAX-11/780, 4.3BSD
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	j.cc.purdue.edu n.cc.purdue.edu s.cc.purdue.edu t.cc.purdue.edu pur-phy
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+h.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+i.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+j.cc.purdue.edu	c.cc.purdue.edu(LOCAL), d.cc.purdue.edu(LOCAL),
+	e.cc.purdue.edu(LOCAL), h.cc.purdue.edu(LOCAL), i.cc.purdue.edu(LOCAL),
+	k.cc.purdue.edu(LOCAL), l.cc.purdue.edu(LOCAL), n.cc.purdue.edu(LOCAL),
+	s.cc.purdue.edu(LOCAL), t.cc.purdue.edu(LOCAL), pur-ee(DEDICATED)
+k.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	l.cc.purdue.edu
+#S	DEC VAX-11/780, 4.3BSD
+#O	Purdue University Statistics Department
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	k.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+l.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	n.cc.purdue.edu
+#S	DEC Dual VAX-11/780, 4.3BSD
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	h.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+n.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	s.cc.purdue.edu, t.cc.purdue.edu
+#S	Sequent Balance 21000, Dynix 2.1
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	h.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+s.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+t.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	que
+#S	IBM PC AT/XENIX 3.0
+#O	Que Corporation
+#C	Chris DeVoney
+#E	que!chris
+#T	+1 317 842 7162
+#P	7999 Knue Road, Indianapolis, IN 46250 USA
+#L	39 52 N / 86 09 W
+#R	Que Corp. is a publisher specializing in microcomputer books and mags.
+#R	pathalias data commented out until update is received
+#U	inuxc
+#W	que!chris (Chris DeVoney); Sat Aug 10 16:55:00 EST 1985 
+#       
+#que	inuxc(DIRECT)
+
+#N	silver
+#S	DEC VAX-8650; Ultrics 1.2
+#O	Indiana University, Bloomington Academic Computing Service
+#C	Jeff Russ
+#E	silver!russ
+#T	+1 812 335 2733
+#P	750 N. SR 46, Bloomington, IN 47405-4801
+#L	39 10 N / 86 32 W city
+#R	silver.bacs.indiana.edu on Internet  [192.12.206.2]
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Tue Jun  2 14:14:59 EDT 1987
+#
+silver = silver.bacs.indiana.edu
+silver	iuvax(LOCAL)
+
+#N	uextrjs
+#S	PDP-11/34A version7 UNIX
+#O	Unix-System Research Lab, Dept. of Computer Science, Univ. of Evansville
+#C	Hal N. Fuquay
+#E	uextrjs!hal
+#T	812-479-2662
+#P	P.O. Box 329 Evansville, IN 47702
+#L	39 10 N / 86 32 W city
+#R	pathalias data commented out until update is received	
+#U	isrnix inuxc chinet
+#W	uextrjs!root (Name Unknown); Thu Jan  1 00:00:00 EST 1985
+#	
+#uextrjs	isrnix(DAILY), chinet(WEEKLY), inuxc(DEMAND)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

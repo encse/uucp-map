@@ -1,0 +1,60 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.pa.1
+# This archive created: Wed Dec  2 04:06:15 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.pa.1
+cat << \SHAR_EOF > d.usa.pa.1
+#MAP FILE: d.usa.pa.1	Tue Dec  1 11:42:56 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.bell-atl.com, bpa
+#F	rutgers.edu
+#O	Bell Atlantic Company
+#C	Bob Esposito, Lee Daley
+#E	espo@bell-atl.com, lee@bell-atl.com
+#T	(215) 466-6831, (215) 466-6828
+#P	Bell of Pennsylvania, 6th Floor, One Parkway, Philadelphia, PA  19102
+#L	39 57 N / 75 07 W city
+#R	registered
+#U	temvax cbmvax vaxmmg sjuvax asi
+#W	bpa!espo (Bob Esposito) ; Mon Nov 23 11:28:15 EDT 1987
+#
+bpa	.bell-atl.com
+bpa	bell-atl.com
+bpa=	bpa.bell-atl.com
+bpa	burdvax(DIRECT), cp1(DIRECT+HIGH), ll1(DIRECT), sjuvax(DEDICATED+HIGH),
+	cbmvax(DIRECT), temvax(DEDICATED+HIGH), pyuxv(DIRECT), bellcore(DIRECT),
+	cbosgd(DIRECT+HIGH), mpx1(DEDICATED+HIGH), ihnp4(DIRECT),
+	vu-vlsi(DEDICATED), cdin-1(DEDICATED), rutgers(DIRECT+HIGH),
+	asi(DEDICATED+HIGH), vaxmmg(DEDICATED+HIGH)
+
+#N	.villanova.edu, vu-vlsi
+#F	relay.cs.net
+#S	Pyramid 90x; OSx 4.0
+#O	Villanova University, Dept. of Electrical Engineering
+#C	Rick Perry
+#E	vu-vlsi!uuadm
+#T	+1 215 645 4224
+#P	Villanova, PA  19085
+#L	40 02 N / 75 21 W
+#R	submitted with no forwarder
+#U	cbmvax cgh psuvax1 devon swatsun drexel ge-mc3i lehi3b15
+#W	vu-vlsi!perry (Rick Perry); Sat Oct 24 08:31:38 EDT 1987
+#
+vu-vlsi	.villanova.edu
+vu-vlsi	villanova.edu
+vu-vlsi= vu-vlsi.villanova.edu
+vu-vlsi	bpa(DIRECT), cgh(DIRECT), cbmvax(DEMAND), devon(DEMAND), drexel(DIRECT),
+	excalibur(DIRECT), ge-mc3i(DAILY), hutch(DAILY), hvrunix(DIRECT),
+	lehi3b15(DEMAND), mpx1(DEMAND), psuvax1(DEMAND), pyrnj(DEMAND),
+	snark(DIRECT), swatsun(DIRECT), temvax(DIRECT)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

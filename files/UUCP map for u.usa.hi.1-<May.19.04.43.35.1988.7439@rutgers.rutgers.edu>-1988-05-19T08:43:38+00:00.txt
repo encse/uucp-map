@@ -1,0 +1,55 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.hi.1
+: This archive created: Thu May 19 04:43:16 1988
+echo shar: extracting u.usa.hi.1
+cat << 'SHAR_EOF' > u.usa.hi.1
+#	complete, revised u.usa.hi.1 file
+#	Mel Pleasant (pleasant@rutgers.edu) Wed May 20 20:42:13 EDT 1987
+#	most systems absorbed into subdomains of HAWAII.EDU
+
+#N     	hig
+#S	Harris H800, VOS & VUE operating systems
+#O	Hawaii Institute of Geophysics, University of Hawaii
+#C	Bob Cunningham
+#E	uhmanoa!bob
+#T	+1 808 948 8711
+#P	2525 Correa Road Honolulu HI 96822
+#L	21 18 N /157 49 W
+#R	new site active on or before 31 December 1986
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:01:00 HST 1986
+#
+hig	uhmanoa(DIRECT)
+
+#N	humu
+#S	VAX-11/750; 4.3 BSD
+#O	Naval Ocean Systems Center, Hawaii Laboratory
+#C	Ron Broersma
+#E	nosc!ron
+#T
+#P	P.O. Box 997, Kailua, HI 96734-0997
+#L	21 27 N / 157 56 W
+#R
+#U	nosc islenet uhmanoa uhccux
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:52:00 HST 1986
+#
+humu	nosc(DEMAND),islenet(DEMAND),uhmanoa(DEMAND),uhccux(DEMAND)
+
+#N	islenet
+#S	Dual 83/80; System V UniPlus+
+#O	Islenet Inc.
+#C	Richard Foulk
+#E	islenet!richard
+#T	+1 808 735 5013
+#P	P.O. Box 90155, Honolulu, HI 96835
+#L	21 19 N /157 52 W city
+#R
+#U	humu bigtuna uhmanoa
+#W	islenet!bob (Bob Cunningham); Mon Oct 13 12:12:00 HST 1986
+#       
+islenet	aloha1(DAILY), bigtuna(DIRECT), dual(DAILY), uhccux(DAILY),
+	humu(DEMAND), ihnp4(DAILY), uhmanoa(DIRECT), vortex(WEEKLY)
+SHAR_EOF
+:	End of shell archive
+exit 0

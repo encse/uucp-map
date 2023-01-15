@@ -1,0 +1,477 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ct.1
+: This archive created: Mon Mar 28 02:39:14 1988
+echo shar: extracting u.usa.ct.1
+cat << 'SHAR_EOF' > u.usa.ct.1
+#	start of u.usa.ct.1: Tue Mar 15 20:00:00 EST 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	aati
+#S	MASSCOMP 5500; RTU 3.0 (based on 4.2bsd and System V.2)
+#O	Embedded Computer Systems Group, Analysis & Technology, Inc.
+#C	David L. Luce, William G. Fish
+#E	aati!postmaster, aati!luce
+#T	+1 203 444 7722 x437
+#P	153 Williams Street, New London, CT 06320
+#L	42 21 N / 072 05 W 
+#W	aati!luce (Dave Luce); Wed Dec 30 11:56:00 EST 1987
+#
+aati	hsi(DAILY), rayssd(DAILY)
+
+#N	bronson
+#S	GR 2720 (68000); Uniplus System V
+#O	Microvation Consultants
+#C	Tan Bronson
+#E	bronson!tan
+#T	+1 203 421 5061
+#P	20 Sperry Road, Madison, Ct 06443
+#L	41 18 N / 72 25 W (?)
+#R	We have limited disk space and recieve limited news groups
+#W	bronson!tan (Tan Bronson); Tue Jan 13 20:21:06 EST 1987
+#U	yale
+#
+bronson	yale(POLLED), teddy(WEEKLY), condor(WEEKLY), vecsun(WEEKLY)
+
+#N	bunker
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Bunker Ramo / Olivetti
+#C	Mike Romaniw, Mike Tso
+#E	bunker!msr, bunker!mtso
+#T	+1 203 337 1200
+#P	2 Enterprise Drive, Shelton, CT 06484
+#L	41 14 N / 73 9 W
+#R	
+#W	bunker!wtm (Bill McGarry); Fri Mar 11 05:24:59 EST 1988
+#U	yale stpstn fairfield
+#
+bunker	clunker(DEDICATED), decvax(DEMAND+LOW), fairfield(DEMAND),
+	fortune(DEMAND+LOW), hcap(POLLED), oliveb(HOURLY), philabs(DEMAND),
+	stpstn(POLLED), swlabs(EVENING), yale(DEMAND)
+
+
+#N	cjsa
+#S	AT&T 3B1 (7300); System V  (Ver. 3.5)
+#O	C. Jeffery Small and Associates
+#C	C. Jeffery Small
+#E	cjsa!usenet
+#T	+1 203 776 2000
+#P	123 York Street, New Haven, CT  06511
+#L	41 18 N / 72 55 W
+#R
+#W	cjsa!jeff (Jeffery Small); Wed Jun 17 14:29:23 EDT 1987
+#U	hsi
+#
+cjsa	hsi(DIRECT), pwa-b(EVENING), mtune(EVENING*2)
+
+#N	clunker
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Bunker Ramo / Olivetti
+#C	Mike Romaniw, Mike Tso
+#E	bunker!msr, bunker!mtso
+#T	+1 203 337 1200
+#P	2 Enterprise Drive, Shelton, CT 06484
+#L	41 14 N / 73 9 W
+#R	
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#U
+#
+clunker oak(DEDICATED), bunker(DEDICATED)
+
+#N	dmk3b1
+#S	AT&T Unix PC 3B1; System V UNIX
+#O	David Keaton (individual)
+#C	David M. Keaton
+#E	dmk3b1!dmk
+#T	+1 203 481 9778
+#P	119 Foxbridge Village Road, Branford, CT 06405
+#L	41 19 N / 72 51 W
+#R	internet address dmk%dmk3b1@uunet.uu.net
+#U	mfci uunet
+#W	dmk3b1!dmk (David Keaton); Sun Sep 13 22:10:00 EDT 1987
+#
+dmk3b1	mfci(DIRECT), uunet(DEMAND)
+
+#N	dora
+#S	DEC MicroVAX II; Ultrix 32m 1.2
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	'Dorable Dora; Operating Systems Research
+#U
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via Internet
+dora	funvax(DEAD), home(DEAD), haven(DEAD)
+#
+# Etherhosts we talk to via DECnet
+dora	stiggy(DEAD), pequot(DEAD)
+
+#N	funvax
+#S	DEC MicroVAX II; Ultrix 32m 1.2
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	Gateway machine for Fairfield University LAN
+#U	bunker
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via Internet
+funvax	dora(DEAD), home(DEAD), haven(DEAD)
+#
+# Etherhosts we talk to via DECnet
+funvax	stiggy(DEAD), pequot(DEAD)
+#
+funvax	bunker(DEAD)
+# Frequency that other sites poll us
+bunker	funvax(DEAD)
+
+#N	gaboon
+#S	IBM AT; XENIX
+#O	A. STANLEY VOKET (individual)
+#C	A. STANLEY VOKET
+#E	gaboon!postmaster, gaboon!asv
+#T	+1 203 746 4489
+#P	29 Linda Lane, New Fairfield, CT 06812
+#L	41 32 N / 73 28 W
+#R
+#U
+#W	gaboon!asv (A. Stanley Voket); Fri Feb 2 11:00:00 EST 1988
+gaboon	rel(DAILY), nucleus(DEAD), crpmks(DAILY), uniblab(DAILY)
+
+
+#N	gcm
+#S	Sun 3/180; 4.2 BSD Unix (Sun Version 3.2)
+#O	Greenwich Capital Markets
+#C	Dan Lorenzini
+#E	gcm!dal
+#T	+1 203 625 2740
+#P	600 Steamboat Road, Greenwich, CT 06830
+#U	philabs
+#W	gcm!dal (Dan Lorenzini); Fri Apr 10 17:00:13 EDT 1987
+#
+gcm	philabs(DAILY)
+
+#N	gstsw1
+#S	HP 9000 Series 500; HP-UX 5.01
+#O	Gerber Systems Technology, Inc.
+#C	Galen Brooks
+#E	gstsw1!postmaster
+#T	+1 203 644 2581 x4528
+#P	40 Gerber Road East; South Windsor, Connecticut 06074
+#L	72 30 00 W / 41 49 24 N
+#R	Visible system at GST
+#W	gstsw1!brooks (Galen Brooks); Fri Jan  3 15:51:38 EST 1986
+#
+gstsw1	hpfcla(DAILY), axiom(DAILY), hpuwcta(DAILY), masscomp(DAILY)
+
+#N	haven
+#S	DEC MicroVAX II; Ultrix 32m 1.2
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	Any port in a storm.  Yet another academic computing host
+#U
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via Internet
+haven	dora(DEAD), home(DEAD), funvax(DEAD)
+#
+# Etherhosts we talk to via DECnet
+haven	stiggy(DEAD), pequot(DEAD)
+
+#N	hcap
+#S	Fortune 32:16; Aladdin 4.1
+#O	Handicap Digest
+#C	Bill McGarry
+#E	bunker!wtm, hcap!wtm
+#T	+1 203 337 1518
+#P	c/o Bunker Ramo, 2 Enterprise Drive, Shelton, CT 06484
+#L	41 14 N / 73 9 W
+#R	This machine handles the Handicap Digest mailing list
+#U	
+#W	bunker!wtm (Bill McGarry) ; Wed Jun 17 15:26:32 EDT 1987
+#
+hcap	bunker(DEDICATED), clunker(DEDICATED)
+
+#N	hgcsc
+#S	SUN 3/180 ; 4.2 BSD UNIX ver. 3.4
+#O	Hartford Graduate Center
+#C	Afshin Goodarzi ; Marissa Padilla ; Gary Trail 
+#E	hgcsc!postmaster
+#T	+1 203 548 2408
+#P	275 Windsor Street,  Hartford, CT  06120
+#L	41 46 N / 72 41 W  city
+#R	all mail to/from hgcsc passes through rpics: rpics!hgcsc!user 
+#U  
+#W	hgcsc!marissa (Marissa Padilla); Mon Nov 2 14:20:56 EST 1987
+# 
+hgcsc	rpics(DIRECT)
+
+#N	home
+#S	DEC MicroVAX II; Ultrix 32m 1.2
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	Our home away from home...
+#U
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via Internet
+home	dora(DEAD), funvax(DEAD), haven(DEAD)
+#
+# Etherhosts we talk to via DECnet
+home	stiggy(DEAD), pequot(DEAD)
+
+#N	hsi
+#S	Vax 11/785; 4.3BSD
+#O	Health Systems International
+#C	Richard Stevens, Tom McGuire, Jim Hogue
+#E	hsi!stevens, hsi!mcguire, hsi!hogue
+#T	+1 203 562 2101
+#P	100 Broadway, New Haven, CT 06511
+#L	41 18 N / 72 55 W
+#R	
+#U	uunet cjsa mfci aati
+#W	hsi!stevens (Richard Stevens); Fri Mar 11 09:32:59 EST 1988
+#
+hsi	aati(EVENING), cjsa(DIRECT), ihnp4(DEMAND), kohala(DAILY),
+	mfci(DIRECT), noao(EVENING), osiris(EVENING), uunet(DEMAND),
+	yale(DIRECT)
+
+
+#N	kohala
+#S	AT&T 3b1; System V 3.51
+#O
+#C	Richard Stevens
+#E	kohala!stevens
+#T	+1 203 488 0599
+#P	31 Pepperwood Lane, Branford, CT 06405
+#L	41 15 N / 72 45 W
+#R
+#W	kohala!stevens (Richard Stevens); Mon Feb 22 14:36:10 EST 1988
+#U	hsi
+#
+kohala	hsi(DAILY)
+
+
+#N	mmintl
+#S	DEC VAX-11/785; 4.1 BSD UNIX
+#O	Multimate International
+#C	Kevin Piette
+#E	mmintl!postmaster
+#T	+1 203 522 2116
+#P	52 Oakland Avenue, East Hartford, CT 06108
+#L	41 47 30 N / 72 40 30 W
+#R
+#W	mmintl!kevinp (Kevin Piette); Wed Apr  2 02:13:24 EST 1986
+#U	pwa-b
+#
+mmintl	pwa-b(DIRECT), pdc750(DEMAND)
+#
+pwa-b	mmintl(DAILY/2)
+pdc750	mmintl(DAILY)
+
+#N	patw
+#S	System V
+#O	Pitney Bowes
+#C	Patrick Wong
+#E	patw!root
+#T	+1 203 972 2923
+#P	161 Cherry St., New Canaen, CT 06484
+#L	41 03 N / 73 32 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu,  7 Jan 88  17:10:18 EST
+#U
+#
+patw	uunet(DEMAND)
+
+#N	pequot
+#S	DEC MicroVAX II; Micro VMS 4.4
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	Graphics Research
+#U
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via DECnet
+pequot	funvax(DEAD), stiggy(DEAD), dora(DEAD), home(DEAD), haven(DEAD)
+
+#N	pwa-b
+#S	Vax 11/780; 4.2BSD
+#O	Pratt and Whitney Aircraft
+#C	Bob Miorelli
+#E	pwa-b!miorelli
+#T	+1 203 565 1687, +1 203 565 7120
+#P	400 Main St., M.S. 161-05, E. Hartford, CT 06108
+#L	41 44 35 N / 72 37 37 W
+#R
+#W	pwa-b!miorelli (Bob Miorelli); Fri Aug 07 08:10:00 EDT 1987
+#U	philabs utah-gr mmintl
+#
+pwa-b	utah-gr(DEMAND), philabs(DEMAND), mmintl(DIRECT), cjsa(DEMAND)
+#
+philabs	pwa-b(EVENING/2)
+mmintl	pwa-b(DIRECT/2)
+utah-gr pwa-b(EVENING/2)
+cjsa	pwa-b(EVENING/2)
+
+
+#N	sat-bc
+#S
+#O	SAT Business Communications
+#C	Dick Tusia
+#E	sat-bc!dat
+#T	+1 203 767 2601
+#P	22 Main St., Centerbrook, CT. 06409
+#L
+#R
+#W	dat@sat-bc.UUCP (Dick Tusia); 10 Jan 86 16:28:07 GMT
+#U	yale
+#
+sat-bc	yale(DIRECT)
+
+#N	slb-sdr
+#S	SUN 2/180; 4.2 SUN BSD
+#O	Schlumberger-Doll Research
+#C	Jeff Shulman, Ray Kocian, Terry Killpack
+#E	slb-sdr!usenet
+#T	+1 203 431 5000
+#P	Old Quarry Road, Ridgefield, CT 06877-4108
+#L	73 30 N / 41 17 W
+#R
+#U	yale
+#W	slb-sdr!shulman (Jeffrey S. Shulman); Tue May  5 10:32:04 EDT 1987
+#
+slb-sdr	yale(EVENING+HIGH)
+
+#N	spock
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Choate Rosemary Hall
+#C	Paul Parry
+#E	spock!usenet
+#T	+1 203 269 7722 x514, +1 203 284 5514
+#P	P.O. Box 788, Wallingford, Connecticut  06492
+#L	41 27 N / 72 50 W
+#R	a student-run high school computer center
+#U	yale
+#W	spock!paul (Paul-Henry Parry); Tue Oct 6 13:05:22 EST 1987
+#
+spock	yale(DIRECT), mejac(EVENING), mit-eddie(EVENING), decwrl(EVENING)
+
+#N	stiggy
+#S	DEC VAX 8600; VMS 4.1
+#O	Fairfield University
+#C	Dave Douglas
+#E	funvax!postmaster, funvax!dora!douglass
+#T	+1 203 254 4000 x2555
+#P	129 Bannow, Fairfield University, Fairfield, CT  06430
+#L
+#R	Primary Academic Computer
+#U
+#W	bunker!wtm (Bill McGarry); Mon Jan  4 23:19:49 EST 1988
+#
+# Etherhosts we talk to via DECnet
+stiggy	funvax(DEAD), pequot(DEAD), dora(DEAD), home(DEAD), haven(DEAD)
+
+#N	stpstn
+#S	4.2 BSD
+#O	The Stepstone Corporation
+#C	Mike Goda
+#E	stpstn!mikeg
+#T	+1 203 426 1875
+#P	75 Glen Road, Sandy Hook, CT 06482
+#L	
+#R	This used to be "ppi"
+#W	bunker!wtm (Bill McGarry); Mon Mar  7 23:27:50 EST 1988
+#U	bunker
+#
+stpstn	bunker(DEMAND)
+
+
+#N	swlabs
+#S	IBM PC/AT; Venix System V Release 2.3
+#O	Software Labs, Ltd.
+#C	Jack Bonn
+#E	swlabs!jack
+#T	+1 203 452 1819
+#P	272 N. Park Ave., Easton, CT 06612
+#L	41 16 N / 73 18 W
+#R
+#U
+#W	swlabs!jack (Jack Bonn); Thu Jan 28 16:52:21 EST 1988
+swlabs	ateng(DAILY), atstar(EVENING), bunker(EVENING),
+	ddsw1(EVENING), fmsrl7(EVENING), godfre(EVENING), gryphon(EVENING), 
+	magpie(EVENING), mancol(EVENING), marque(EVENING), necntc(WEEKLY), 
+	omen(EVENING), patw(DAILY), qetzal(EVENING), teemc(EVENING), 
+	uunet(EVENING)
+
+#N	uhtfd
+#S	
+#O	University of Hartford
+#C	
+#E	uhtfd!root
+#T	
+#P	Hartford, CT
+#L	41 46 N / 72 40 W
+#R
+#W	
+#U
+#
+uhtfd	yale(DAILY)
+
+#N	.cs.yale.edu, yale
+#S	IBM PC/RT; ACIS 4.2BSD
+#O	Yale University, Dept of Computer Science
+#C	H. Morrow Long
+#E	yale!postmaster, yale!usenet
+#T	+1 203 432 1254
+#P	51 Prospect Street, 2158 Yale Station, New Haven, CT 06520
+#L	41 18 N / 72 25 W
+#R	This is also CS.YALE.EDU [128.36.0.3] on the internet
+#W	yale!Long-Morrow (H. Morrow Long); Tue Jan 12 15:34:29 EST 1988
+#U	bunker cmcl2 decvax husc6 mfci slb-sdr spock 
+#
+# a.k.a
+yale   .cs.yale.edu
+yale = cs.yale.edu, yale.edu, yale.arpa, yalecs
+#
+# Yale uucp
+yale	grundoo(DIRECT), grundoon(DIRECT)
+#
+# local calls
+yale	bronson(DIRECT), hsi(DIRECT), mfci(DIRECT), nhu(DIRECT), 
+	sat-bc(DIRECT), sca-sun(DIRECT), spock(DIRECT)
+#
+# UUCP over TCP/IP
+yale	cmcl2(DIRECT), harvard(DIRECT)
+#
+# News traffic on a regular basis ensures a daily mail flow
+yale	bunker(DAILY), decvax(DAILY), slb-sdr(DAILY)
+#
+# long distance - they call us
+yale	apollo(POLLED), decvax(POLLED), harvard(POLLED),
+	philabs(POLLED), ima(POLLED), intelisc(POLLED)
+
+#	end of u.usa.ct.1: Tue Mar 15 20:00:28 EST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

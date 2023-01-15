@@ -1,0 +1,426 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.deu.100
+: This archive created: Tue Sep  8 18:57:31 1992
+echo shar: extracting u.deu.100
+cat << 'SHAR_EOF' > u.deu.100
+# u.deu.100
+#
+# last change: Mon,  7 Sep 1992 05:12:12 MET
+# from:        maps@methan.chemie.fu-berlin.de
+# changes to:  maps@methan.chemie.fu-berlin.de (maps@fub.uucp)
+#
+# file one of three:
+# u.deu.100  - German non-EUnet backbones
+# u.deu.101  - German non-EUnet sites
+# u.deu.102  - German non-EUnet sites without link
+
+# Copyright 1992 by Individual Network.
+# Copyright 1992 by open.de.
+# Copyright 1992 by Verein zur Foerderung der privat betriebenen
+#                   Datenkommunikation e.V.
+# Copyright 1992 by the individual copyright holders (see below).
+# All rights reserved.
+# Permission is granted for non-commercial use.
+
+#
+# Backbone for the domain han.de
+#
+
+#N	agsc,agsc.han.de,agsc.sub.org
+#C	Andreas Godzina
+#E	ag@agsc.han.de
+#P	Ginsterweg 14, 3014 Laatzen 1, Germany
+#T	+49 511 824333
+#L	52 24 N / 09 45 E city
+#W	maps@methan.chemie.fu-berlin.de; Thu,  4 Jun 1992 00:43:43 MET
+#
+agsc	ruhr.de(DAILY)
+agsc	hiss(DAILY),
+	ichthys(DAILY),
+	krokus(DAILY),
+	paule(DAILY),
+	rischwa(DAILY),
+	usdbs(DAILY)
+
+#
+# Backbone for the domain zer.de
+#
+
+#N	bi-link,bi-link.owl.de,bi-link.zer.de
+#S	DOS 5.0, ZERBERUS 5.0
+#O	private
+#C	Martin Husemann
+#E	m.husemann@bi-link.zer.de
+#T	+49 521 85020 (voice)
+#T	+49 5202 88888 (Modem, HST Dual Standard: HST/V32bis)
+#P	Goethestrasse 32, D-4817 Leopoldshoehe
+#L	52 02 N / 08 32 E
+#W	m.husemann@bi-link.zer.de; Mon Jul 27 17:42:11 1992
+#
+bi-link	fub(DAILY),bionic(DAILY)
+
+#
+# Backbone for the domain swb.de
+#
+
+#N	brewak,brewak.swb.de,brewak.swb.sub.org
+#S	Amiga 2000/30; Amiga-OS 1.33/2.04
+#O	The Software Brewery (ECG028)
+#C	Andrew Kopp
+#E	postmaster@swb.de
+#T	+49 2302 79655 (06.00 - 22.00 CET voice)
+#P	Zu den Tannen 13, D-W5810 Witten 3, FRG
+#L	51 24 N / 07 17 E city
+#W	charly@brewak (Andrew Kopp); Fri May 22 19:15:00 CEDT 1992
+#
+brewak	ruhr.de(DAILY)
+brewak	brewas(DAILY), brewhq(DAILY), brewhr(DAILY), drages4(DAILY),
+	atkins(DAILY), befido(DAILY), mailmak(DAILY), thorin(DAILY),
+	macam(DAILY), jwd(DAILY), foozle(DAILY), sailor(DAILY),
+	thoschibo(DAILY), workbench(DAILY)
+
+#
+# Backbone for the domain in-berlin.de
+#
+
+#N	in-berlin.de
+#O	Individual Network - Berlin
+#C	Heiko Schlichting, Vera Heinau
+#E	postmaster@in-berlin.de
+#T	+49 30 838-2677
+#P	Takustr. 3, D-1000 Berlin 33, Germany
+#L	52 31 N / 13 24 E city
+#W	maps@methan.chemie.fu-berlin.de; Tue, 18 Aug 1992 15:10:00 MET
+#R	this is an entry for a pseudo-site
+#
+fub		in-berlin.de(LOCAL)
+#
+in-berlin.de	fub(LOCAL)
+in-berlin.de	aball(DAILY),
+		abraxas(DAILY),
+		akb(DAILY),
+		buchonia(DAILY),
+		cicero(DAILY),
+		cj(DAILY),
+		classic(DAILY),
+		cloud9(DAILY),
+		demian(DAILY),
+		desert(DAILY),
+		dosaball(DAILY),
+		escape(DAILY),
+		fulmin(DAILY),
+		gataball(DAILY),
+		geminix(DAILY),
+		gfxbase(DAILY),
+		gurke(DAILY),
+		heaven7(DAILY),
+		ibb(DAILY),
+		ish(DAILY),
+		lbcmbx(DAILY),
+		lime.in-berlin.de(DAILY),
+		link-b61(DAILY),
+		macavity(DAILY),
+		midips(DAILY),
+		nextcube(DAILY),
+		novaball(DAILY),
+		obh(DAILY),
+		purple(DAILY),
+		rhoen(DAILY),
+		robots(DAILY),
+		sauveur(DAILY),
+		schwarz(DAILY),
+		scuzzy.in-berlin.de(DAILY),
+		soho(DAILY),
+		synapsys(DAILY),
+		tbx(DAILY),
+		unlimat(DAILY),
+		unlisys(DAILY),
+		uropax(DAILY),
+		winaball(DAILY),
+		zikzak(DAILY)
+
+#
+# Backbone for the domains incom.de and in.sub.org
+#
+
+#N	incom,in.rhein-main.de,incom.in.sub.org
+#S	80386 / UNIX V 3.2
+#O	INCOM, Interessengemeinschaft Computer
+#C	Winfried Koenig
+#E	win@in.rhein-main.de
+#T	+49 69 868707
+#P	Arendsstrasse 12, D-W-6050 Offenbach, Germany
+#L	50 07 21 N / 08 47 09 E
+#W	win@in.rhein-main.de; Sun Aug  9 11:26:57 GMT 1992
+#
+incom	aeolus(DAILY), arlac(DAILY),   chaos1(DAILY), ciao(DAILY),
+	dksoft(DAILY), drsch(DAILY),   eurom(DAILY),  eurom1(DAILY),
+	ghia(DAILY),   hurzffm(DAILY), jrix(DAILY),   lisa(DAILY),
+	mbsys(DAILY),  odbffm(DAILY),  odie(DAILY),   packer(DAILY),
+	qb(DAILY),     thserv(DAILY),  wobl(DAILY),   wrkof(LOCAL)
+
+#
+# Backbone for the domain ish.de
+#
+
+#N	ish,ish.com,ish.de,ish.sub.org,relay1.ish.de
+#S	80386, SCO XENIX Sys V
+#O	ISH, Informations-Service-Huelsmann, Kempen, FRG
+#C	Jan Richert, Ralf Huelsmann
+#E	postmaster@ish.de
+#T	+49 2151 313124 or +49 2152 6935
+#P	Bartzheide 78, 4152 Kempen 1, FRG
+#L	51 23 20 N / 06 29 45 E
+#R	Port 1:  +49 2152 6711 [9600-8N1 V.32/MNP 5]
+#R	Port 2:  +49 2152 7030 [300/1200/2400-8N1]
+#R	FAX:     +49 2152 6354 [G3]
+#R	Anonymous uucp: login "nuucp", no password
+#R	Member of Individual Network (IN) on Internet/InterEuNet
+#R	This is relay #1 of ish.de (relay1.ish.de)
+#W	postmaster@ish.de; Sat, 11 Jul 1992 16:51:11 MET
+#
+ish	in-berlin.de(DAILY)
+ish	darktow(DAILY),
+	krefcom(DAILY),
+	miramar(DAILY),
+	shadow.ish.de(DAILY)
+
+#
+# Backbone for the domain north.de
+#
+
+#N	olis,olis.north.de
+#S	SCO Xenix 2.3.2
+#O	Oldenburger Informationssystem (private, public access)
+#C	Ulrich Tiemann
+#E	lord@olis.north.de
+#T	+49 441 84326
+#P	Ackerstrasse 6, D-2900 Oldenburg
+#L	53 10 N / 8 10 E city
+#R	Public Access Mailbox, gast login 0441 8859796 8859797
+#W	maps@methan.chemie.fu-berlin.de; Thu,  6 Feb 1992 17:03:21 MET
+#
+olis	uniol(DAILY)
+olis	cccp(DAILY),jelal(DAILY),maushb(DAILY),olis(DAILY),wvoel0(DAILY)
+
+#
+# Backbone for the domains ruhr.de and open.de
+#
+
+#N	ruhr.de
+#O	Public UUCP-Server / Privat Access Unix
+#C	Andreas Frackowiak
+#E	zok@horga.ruhr.de
+#L	51 33 N / 07 25 E city
+#T	Data  : +49 2305 25812  (2400-19200 bps, PEP,V.32,MNP5,V.42,V42bis)
+#T	Voice : +49 2305 25433
+#P	Katharinenstrasse 37, D-W4620 Castrop-Rauxel, Germany
+#W	maps@methan.chemie.fu-berlin.de; Sat, 18 Jul 1992 04:27:34 MET
+#
+ruhr.de	unido(DAILY)
+ruhr.de	agsc(DAILY),
+	brewak(DAILY),
+	deceiver(DAILY),
+	eddie(DAILY),
+	erni(DAILY),
+	freeside(DAILY),
+	germal(DAILY),
+	joker(DAILY),
+	larry.ms.open.de(DAILY),
+	mechti(DAILY),
+	muenster(DAILY),
+	reswi(DAILY),
+	smallo(DAILY),
+	ubik(DAILY),
+	weller(DAILY),
+	wits(DAILY),
+	yedik(DAILY)
+#
+# to avoid a DEAD link
+#
+unido	ruhr.de(DAILY)
+
+#
+# Backbone for the domain sub.org
+#
+
+#N	smurf.sub.org
+#C	Matthias Urlichs
+#E	urlichs@smurf.sub.org
+#T	+49-721-621127 (voice; 19200 Baud 0000-0700)
+#L	49 03 N / 08 25 E city
+#P	Humboldtstrasse 7, 7500 Karlsruhe 1
+#R	This map entry is incomplete because of routing restrictions
+#R	and Internet <-> UUCP issues.
+#W	maps@methan.chemie.fu-berlin.de; Wed,  2 Sep 1992 18:43:53 MET
+#
+smurf.sub.org	decwrl(DEAD)
+smurf.sub.org	aahz(DAILY),
+		amiux(DAILY),
+		amylnd(DAILY),
+		ariane(DAILY),
+		asbach(DAILY),
+		babylon(DAILY),
+		blues(DAILY),
+		bofe(DAILY),
+		bonni(DAILY),
+		brumuc(DAILY),
+		bude(DAILY),
+		busybit(DAILY),
+		castle.erh.sub.org(DAILY),
+		ccdhost(DAILY),
+		chumly(DAILY),
+		complx(DAILY),
+		crest4(DAILY),
+		cutie(DAILY),
+		danubix(DAILY),
+		delos(DAILY),
+		degro(DAILY),
+		diffusor(DAILY),
+		dimi(DAILY),
+		dnet(DAILY),
+		eprombx(DAILY),
+		esfra(DAILY),
+		fasel(DAILY),
+		fiction(DAILY),
+		flatlin(DAILY),
+		flinx(DAILY),
+		forge(DAILY),
+		genius(DAILY),
+		gentle(DAILY),
+		germany(DAILY),
+		gkminix(DAILY),
+		haggis(DAILY),
+		hahn(DAILY),
+		harp(DAILY),
+		hegsys(DAILY),
+		holgie(DAILY),
+		hotb(DAILY),
+		huedv(DAILY),
+		hugis(DAILY),
+		hurz(DAILY),
+		iceland(DAILY),
+		influx(DAILY),
+		jat(DAILY),
+		jatmbx(DAILY),
+		jattmp(DAILY),
+		keep(DAILY),
+		kern(DAILY),
+		kiel(DAILY),
+		kostis(DAILY),
+		kostis2(DAILY),
+		kuli(DAILY),
+		lmsys(DAILY),
+		lyxys(DAILY),
+		magumbe(DAILY),
+		mailbox(DAILY),
+		mkrara(DAILY),
+		mrz(DAILY),
+		mubo(DAILY),
+		nostromo(DAILY),
+		novalis(DAILY),
+		nymph(DAILY),
+		oberon(DAILY),
+		olorin(DAILY),
+		open(DAILY),
+		paragraf(DAILY),
+		pfm(DAILY),
+		pilhuhn(DAILY),
+		ppcger(DAILY),
+		ppcnet(DAILY),
+		ptavv(DAILY),
+		public(DAILY),
+		rbesws(DAILY),
+		r2d2(DAILY),
+		redmbx(DAILY),
+		rednet(DAILY),
+		senga(DAILY),
+		soonix(DAILY),
+		spirits(DAILY),
+		stasys.sta.sub.org(DAILY),
+		straylight(DAILY),
+		swabsib(DAILY),
+		toby(DAILY),
+		vino(DAILY),
+		waterman(DAILY)
+
+#
+# Backbone for the domains ccc.de and maus.de
+#
+
+#N	sol.ccc.de
+#O	Solar System (CCC Ls 441), Oldenburg, Germany, Europe, Earth
+#C	Frank Simon
+#E	terra@sol.ccc.de
+#T	+49 441 76206
+#P	Ammerlaendeer Heerstr. 389, D-2900 Oldenburg
+#L	53 10 N / 08 10 E
+#W	maps@methan.chemie.fu-berlin.de; Sun,  1 Dec 1991 18:01:48 MET
+#
+sol.ccc.de	uniol(DAILY)
+
+#
+# Backbone for the domain Germany.Sun.COM
+#
+
+#N	sungy,sungy.Germany.Sun.COM
+#S	Sun Microsystems 4/490, SunOS 4.1.1
+#O	SUN Microsystems GmbH, Deutschland
+#C	Frank Kaefer
+#E	frank.kaefer@Germany.Sun.COM
+#T	+49 89 46008264
+#P	Bretonischer Ring 3, D-W-8011 Grasbrunn 1, Germany
+#L	48 08 N / 11 34 E city
+#W	frank.kaefer@Germany.Sun.COM; Sun Apr 12 08:00:00 MET DST 1992
+#
+sungy	sun(DAILY)
+
+#
+# Backbone for the domain toppoint.de
+#
+
+#N	tpki,tpki.toppoint.de
+#S	AT 386, ISC
+#O	Toppoint Mailbox e.V.
+#C	G.Hoermann  / O.Schlueter / K.Koehntopp
+#E	verein@tpki.toppoint.de / postmaster@tpki.toppoint.de
+#P	c/o G.Hoermann, Massmannstr. 10, D-W-2300 Kiel 1, Germany
+#T	+49 431 676689
+#L	54 19 11 N / 10 09 03 E
+#W	postmaster@tpki.toppoint.de; Wed Apr 12 18:55:59 MET 1991
+#
+tpki	uniol(DAILY)
+tpki	tbuki(DAILY)
+
+#
+# the following (pseudo) links are automatically set to avoid DEAD links
+#
+fub	bi-link(DAILY)
+easix	channelz(DAILY)
+mcshh	encap(DAILY)
+unidui	flyer(DAILY)
+mcshh	frmxqnx(DAILY)
+mcshh	gauhh(DAILY)
+mcshh	hactar.hanse.de(DAILY)
+mcshh	isys-hh(DAILY)
+mcshh	janhh(DAILY)
+mcshh	jwminhh(DAILY)
+mcshh	malihh(DAILY)
+mcshh	mqssys(DAILY)
+mcshh	mwhh(DAILY)
+uniol	olis(DAILY)
+easix	quax(DAILY)
+stoll	sephh(DAILY)
+uniol	tornado(DAILY)
+mcshh	winsch(DAILY)
+mcshh	wolfhh(DAILY)
+#
+# end of pseudo links
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

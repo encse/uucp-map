@@ -1,0 +1,393 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nh.1
+: This archive created: Fri Jan 22 04:18:52 1988
+echo shar: extracting u.usa.nh.1
+cat << 'SHAR_EOF' > u.usa.nh.1
+#	start of u.usa.nh.1: Wed Jan 20 21:05:24 EST 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	burlcoat
+#S	Altos 986; XENIX 3.0b
+#O	Burlington Coat Factory Warehouse
+#C	Andy Behrens
+#E	burlcoat!postmaster
+#T	+1 603 448 5000
+#P	P.O. Box 729, Lebanon, NH 03766
+#L	43 40 N / 72 14 W
+#R	
+#U	dartvax
+#W	burlcoat!andyb (Andy Behrens); Tue Aug 5 16:00:00 EDT 1986
+#
+burlcoat	dartvax(DIRECT)
+
+#N	center
+#S	Gould PN6080; UTX 2.0 (4.3BSD/NFS)
+#O	The Achievement Center, Inc.
+#C	David Hubbell
+#E	center!postmaster
+#T	+1 603 668-0033
+#P	689 Union St., Manchester NH 03104
+#L	43 01 N / 71 44 W city
+#R	
+#W	center!dhubbell (David Hubbell); Wed Feb 25 20:32:51 EST 1987
+#U
+#
+center	trixie(DIRECT),utxbos(DEMAND)
+
+#N	creare
+#S	Alliant FX/8; Concentrix 3.0
+#O	Creare Inc.
+#C	Wayne A. Smith
+#E	creare!postmaster
+#T	+1 603 643 3800
+#P	P.O. Box 71, Hanover, NH 03755
+#L	43 41 06 N / 72 14 00 W
+#U	dartvax
+#W	creare!was (Wayne A. Smith); Thu Sep 10 14:27:41 EDT 1987
+#
+creare	dartvax(DAILY)
+
+#N	decvax, decvax.dec.com
+#S	Vax 8300; Ultrix 32 V2.2
+#O	Digital Equipment Corp.
+#C	Larry Palmer
+#E	decvax!lp
+#T	(603)8848385
+#P	MK2-1/H10 Continental Blvd, Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	
+#U	bellcore cca mandrill dartvax decwrl genrad gsg harpo ichaya 
+#U	linus mcnc savax tektronix ucbvax vortex yale
+#R	decvax has moved to a new location - an update is expected soon... -jj
+#
+# local calls
+decvax	bu-tyng(DIRECT), ichaya(DIRECT), savax(DIRECT), sequitor(DIRECT), 
+	shaman(DIRECT), sii(DIRECT), skippy(DIRECT), stellar(DIRECT)
+# Internet
+decvax  decwrl(DEDICATED), ucbvax(DEDICATED)
+#
+# frequent calls
+decvax	bellcore(HOURLY), cca(HOURLY), cg-atla(HOURLY), mandrill(HOURLY), 
+	deceds(HOURLY), decuac(HOURLY), genrad(HOURLY), granite(HOURLY), 
+	hanauma(HOURLY), ihnp4(HOURLY), lafite(HOURLY), 
+	linus(HOURLY), mcnc(HOURLY), mit-athena(HOURLY), netrix(HOURLY), 
+	tektronix(HOURLY), vortex(HOURLY), yale(HOURLY)
+#
+# non-prime time calls
+decvax	allegra(EVENING), astrovax(EVENING), bobo(EVENING), brunix(EVENING),
+	bunker(EVENING), cbosg(EVENING), cbosgd(EVENING), cincy(EVENING),
+	cornell(EVENING), cray(EVENING), duke(EVENING), emory(EVENING), 
+	encore(EVENING), esquire(EVENING), farance(EVENING), freeport(EVENING),
+	gatech(EVENING), hcr(EVENING), hermix(EVENING), hjuxa(EVENING), 
+	hplabs(EVENING), idis(EVENING), ima(EVENING),
+	masscomp(EVENING), microsoft(EVENING), mit-vax(EVENING), 
+	mtxinu(EVENING), netword(EVENING), philabs(EVENING), pur-ee(EVENING), 
+	purdue(EVENING), randvax(EVENING), research(EVENING), 
+	rochester(EVENING), sdcsvax(EVENING), sickkids(EVENING), std(EVENING), 
+	stolaf(EVENING), sun(EVENING), trwrb(EVENING), ucf-cs(EVENING), 
+	ulysses(EVENING), usenix(EVENING), utah-cs(EVENING), utzoo(EVENING), 
+	uw-beaver(EVENING), vax135(EVENING), watmath(EVENING)
+#
+# very long distance calls
+decvax	mulga(DAILY)
+#
+# incoming calls
+decvax	apollo(POLLED), attunix(POLLED), bbn(POLLED), bhjat(POLLED), 
+	brl-smoke(POLLED), chaos(POLLED), cvbnet(POLLED), dartvax(POLLED),
+	elrond(POLLED), epiwrl(POLLED), flkvax(POLLED), 
+	frog(POLLED), gsg(POLLED), harpo(POLLED), howtek(POLLED), 
+	humus(POLLED), jaxlab(POLLED), ll-xn(POLLED), mindcrft(POLLED), 
+	mkunix(POLLED), necntc(POLLED), nicmad(POLLED), noao(POLLED), 
+	nrl-css(POLLED), plato(POLLED), raster(POLLED), stcvax(POLLED), 
+	sunybcs(POLLED), tifsie(POLLED), unh(POLLED), virgin(POLLED), 
+	wang(POLLED)
+
+#N	dmcnh
+#S	Datamedia 932 (MC68010); System V.2 Uniplus+ 
+#O	Datamedia Corporation
+#C	Dave McCracken
+#E	dmcnh!dcm
+#T	+1 603 886 1570
+#P	11 Trafalgar Square, Nashua, New Hampshire 03063
+#L	42 44 N / 71 28 W city
+#R
+#U	sii sol
+#W	dmcnh!dcm (Dave McCracken); Thu Jun 26 08:29:19 EDT 1986
+#
+# These are local calls we will make any time
+dmcnh	sii(DIRECT), sol(DIRECT)
+#
+# We poll these sites
+sii	dmcnh(DAILY/5)
+sol	dmcnh(DAILY/2)
+
+#N	gsg
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	General Systems Group, Inc.
+#C	Stephen Mattin (site admin), Barbara M. Dillon (news)
+#E	gsg!sam, gsg!barbara
+#T	+1 603 893 1000
+#P	5 Manor Parkway, Salem, NH 03079
+#L
+#R
+#W	barbara@gsg.UUCP (Barbara M. Dillon); Mon Oct 26 17:51:37 EST 1987
+#U
+#
+gsg	decvax(DIRECT), harvard(DEMAND), pyrbos(DEMAND), pyrnj(DEAD)
+#Polling schedule
+decvax	gsg(DAILY/2)
+harvard	gsg(DAILY/2)
+pyrbos	gsg(DAILY/2)
+
+#N	guru
+#S	MicroVAX II, ULTRIX-32m v1.1
+#O	Digital Equipment Corporation
+#C	Jon A. Hall
+#E	guru!hall
+#T	(603) 884-5905
+#P	MS MK02-1/J17, Continental Blvd., Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	Jon Hall 5/14/85
+#
+#guru	decvax(LOCAL), shaman(DIRECT)
+
+#N	has70
+#S	PD- 11/70
+#O	Hastech Inc.
+#C	Rich Moren
+#E	has70!moren
+#T	(603) 623-3330
+#P	670 North Commercial St., Manchester, NH 03101
+#L	42 59 N / 71 28 W
+#W	Rich Moren, 12/5/84
+#U
+#
+#has70	sii(DAILY)
+#
+#has70 = hei44
+
+#N	osi3b2
+#S	AT&T 3b2-310; System V.2.0.4
+#O	Origin Systems Inc.
+#C	James R. Van Artsdalen
+#E	osi3b2!postmaster
+#T	+1 512 323 2675
+#P	340 Harvey Rd. Manchester NH 03103
+#L	76 21 W / 42 56 N city
+#W	osi3b2!james (James R. Van Artsdalen); Tue Dec 30 01:16:20 EST 1986
+#U	reality1
+#
+osi3b2	bigtex(DAILY)
+
+#N	psc70
+#S	PDP11/70
+#O	Plymouth State College
+#C	Michael M.L. Pearson
+#E	psc90!usenet
+#T	+1 603 536 5000 x2344
+#P	Hyde Hall 334, PSC, Plymouth, NH 03264
+#R	
+#L	43 45 N / 71 41 W city
+#W	psc90!pearson (Michael M.L. Pearson); Tue Aug  4 16:27:34 EDT 1987
+#
+psc70	psc90(DEDICATED), dartvax(DAILY)
+
+#N	psc90
+#S	Pyramid 98x; OSx 3.1
+#O	Plymouth State College
+#C	Michael M.L. Pearson
+#E	psc90!usenet
+#T	+1 603 536 5000 x2344
+#P	Hyde Hall 334, PSC, Plymouth, NH 03264
+#R	we receive news from unh
+#L	43 45 N / 71 41 W city
+#W	psc90!pearson (Michael M.L. Pearson); Tue Aug  4 16:27:34 EDT 1987
+#
+psc90	psc70(DEDICATED), unh(DEDICATED), dartvax(DAILY)
+
+#N	savax
+#S	DEC VAX-11/750; Ultrix 32 V2.0
+#O	Sanders Associates, Inc.
+#C	David A. Long
+#E	savax!long, savax!usenet
+#T	+1 603 885 9232
+#P	MER 24-1283, C.S. 2034, Nashua, NH 03061-2034
+#L	42 49 N / 71 29 W
+#R
+#W	savax!long (David A. Long); Wed Jan  6 15:30:00 EST 1988
+#U	sii elrond
+#
+savax	decvax(DIRECT), sii(DIRECT), elrond(LOCAL), sol(EVENING),
+	dspvax(EVENING), thayer(DAILY), masscomp(DAILY), nhsqnt(WEEKLY)
+
+#N	shaman
+#S	PDP 11/34, ULTRIX-11 v2.0
+#O	Digital Equipment Corporation
+#C	Jon A. Hall
+#E	shaman!hall
+#T	(603) 884-5905
+#P	MS MK02-1/J17, Continental Blvd., Merrimack, NH 03054
+#L	42 49 N / 71 31 W
+#R	
+#W	Jon Hall 3/22/85
+#U
+#
+#	local calls
+#shaman	decvax(DIRECT), guru(DIRECT)
+
+#N	sii
+#S	Onyx C8002; Version 7 Unix
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, Bill Ezell, David Dick
+#E	sii!meg, sii!wje, sii!drd
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#R	
+#U	sol dmcnh
+#W	sii!meg (Marta Greenberg); Tue Dec  1 08:40:06 EST 1987
+#
+sii	decvax(DAILY), sol(DAILY), dmcnh(DAILY), savax(DAILY),
+	zinn(DAILY), cls(WEEKLY), siia(LOCAL), websta(WEEKLY)
+
+#N	siia
+#S	Arete 1100; System 5 Unix
+#O	Software Innovations, Inc.
+#C	Marta Greenberg, Bill Ezell, David Dick
+#E	siia!meg, siia!wje, siia!drd
+#T	+1 603 883 9300
+#P	410 Amherst Street, Suite 325, Nashua, NH USA 03063
+#L	42 47 N / 71 31 W
+#R	
+#U
+#W	sii!meg (Marta Greenberg); Tue Dec  1 08:46:08 EST 1987
+#
+siia	zinn(DAILY), dmcnh(DAILY), cls(WEEKLY), sii(LOCAL), uunet(WEEKLY)
+
+#N	sol
+#S	DEC PDP-11/73; 2.0 ULTRIX-11
+#O	VIBRAC Corporation and IO Software, Inc.
+#C	Christopher M. Caldwell
+#E	sol!usenet,sol!chris
+#T	+1 603 882 6777
+#P	16 Columbia Drive, Amherst, NH 03031, USA
+#L	42 42 20 N / 71 34 40 W
+#R	Electro mechanical quality control testing and software development
+#U	dmcnh
+#W	sol!chris (Christopher M. Caldwell); Nov 5 15:25:20 EST 1986
+#
+sol	dmcnh(DAILY)
+
+#N	spark
+#S	IBM PC; PC-DOS 3.0
+#O	Spark Software, Inc.
+#C	Bob Hartman
+#E	spark!rch
+#T	+1 603 888 5433
+#P	24 Royal Crest Dr, #5, Nashua, NH 03060
+#L	42 45 N / 71 30 W
+#R	This machine runs as a Fido BBS, but can send and receive UNIX mail
+#R	through vaxine.  It also allows gatewaying of USENET articles into
+#R	the Fido network.  This expands the readership of USENET without
+#R	putting additional stress on the USENET hosts (other than vaxine).
+#U
+#W	spark!rch (Bob Hartman) ; Fri Sep 20 15:25:00 EDT 1985
+#
+#spark	vaxine(DAILY)
+
+#N	trixie
+#S	Gould PN6080; UTX 2.0 (4.3BSD/NFS)
+#O	Gould Inc., Computer Systems Division
+#C	Jonathan Fraser
+#E	trixie!postmaster
+#T	+1 603 881-4488 ; +1 603 625 4001
+#P	21 Stephanie Drive, Bedford NH 03102
+#L	42 56 N / 71 26 W city
+#R	This site is a skunkworks for Gould
+#W	trixie!fraser (Jon Fraser); Wed Oct	8 11:36:33 EDT 1986
+#U
+#
+# all mail goes out at least hourly
+trixie gould(DIRECT), polyof(HOURLY), 
+	sandbox(HOURLY), sii(DIRECT), usafa(HOURLY) 
+# the following are polled or can call us
+gould	trixie(HOURLY)
+polyof	trixie(DAILY)
+sandbox	trixie(DAILY)
+sii	trixie(DAILY/3)
+usafa	trixie(DAILY)
+
+#N	true
+#S	Onyx C8002; Unix 3.0.3
+#O	True Basic, Inc.
+#C	Chris Walker
+#E	true!chris
+#T	+1 603 643 3882
+#P	39 South Main St, Hanover, NH  03755
+#L	43 42 N / 72 17 W
+#R	
+#W	true!dave (David Pearson); Tue Nov 25 16:20:10 EST 1986
+#U	
+#
+true	dartvax(DAILY)
+
+#N	unh
+#S	DEC VAX 8650; Ultrix 2.0
+#O	University of New Hampshire
+#C	Nicholas H. Alter, Jr.
+#E	unh!postmaster
+#T	+1 603 862 2323
+#P	Kingsbury Hall, Durham, NH 03824
+#L	43 08 15 N / 70 56 11 W
+#R
+#U	uunet psc90
+#W	unh!nha (Nicholas H. Alter, Jr.); Tue Sep 08 10:30:00 EDT 1987
+#
+unh	uunet(EVENING), psc90(DEDICATED), unhtel(LOCAL), decvax(EVENING),
+	unhcs(DEDICATED)
+
+#N	unhtel
+#S	AT&T 3B5 300; AT&T Unix System V.2
+#O	University of New Hampshire Telecommunications Office
+#C	Paul S. Sawyer
+#E	unhtel!postmaster
+#T	+1 603 862 3262
+#P	Telecommunications Center, Durham, NH  03824-3523
+#L	43 08 17 N / 70 56 11 W
+#R	A (non-academic) Department of U.N.H.
+#U	
+#W	unhtel!paul (Paul S. Sawyer); Mon Aug 24 08:50:14 EDT 1987
+#
+unhtel	unh(DIRECT)
+
+#N	zinn
+#S	IMS PC/AT compatible; Microport System V/AT v 2.2
+#O	Zinn Computer Company
+#C	Mark E. Mallett
+#E	zinn!mem, zinn!uucp
+#T	+1 603 645 5069
+#P	P.O. Box 4188, Manchester, NH 03103, USA
+#L	42 56 N / 71 26 W City
+#R
+#U
+#W	zinn!mem (Mark E. Mallett); Mon Dec  7 21:20:08 EST 1987
+#
+# our news feed (we poll)
+zinn	virgin(DIRECT)
+#
+# outgoing calls
+zinn	byte(DAILY), interlan(WEEKLY), sii(DIRECT), siia(DIRECT),
+	formtek(WEEKLY), ditka(WEEKLY)
+#
+# incoming calls
+zinn	elrond(DIRECT)
+
+#	end of u.usa.nh.1: Wed Jan 20 21:05:49 EST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

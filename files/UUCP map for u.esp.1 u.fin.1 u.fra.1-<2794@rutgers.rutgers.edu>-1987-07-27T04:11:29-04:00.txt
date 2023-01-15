@@ -1,0 +1,1966 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.esp.1
+#	u.fin.1
+#	u.fra.1
+# This archive created: Mon Jul 27 04:11:18 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.esp.1
+cat << \SHAR_EOF > u.esp.1
+# u.esp.1; changes to: uucpmap@mcvax.uucp
+# Last change: Wed Nov 26 16:01:20 MET 1986
+
+
+#N	goya
+#S
+#O	Universidad Politecnica de Madrid, ETSI de Telecomunicacion, Dpto. Comunicacion de Datos
+#C	Juan B. Riera Garcia
+#E	goya!uucpadm
+#T      +34 1 4495700 ext 365
+#P	Ciudad Universitaria S/N, SP-28040, Madrid, Spain
+#L	3 41 W / 40 24 N city
+#R	Spanish backbone site; links are being set up
+#U
+#W	mcvax!piet 861126
+#
+
+goya	mcvax(ARPA-1)
+
+goya	bosco(DEAD), dali(DAILY), greco(DEAD), gris(DAILY),
+	miro(DAILY), murillo(DEAD), picasso(DEAD), ribera(DEAD),
+	romero(DEAD), tapies(DEAD), zobel(DEAD)
+
+SHAR_EOF
+echo shar: extracting u.fin.1
+cat << \SHAR_EOF > u.fin.1
+# u.fin.1; changes to: postmaster@tut.fi
+
+#N	davasun
+#S	sun-2 / 4.2BSD
+#O	Oy DAVA Ab
+#C	Simo Salanne
+#E	davasun!Postmaster
+#T	+358 0 1241
+#P	P.O.Box 458, SF-00101 Helsinki, Finland
+#L	24 45 E / 59 50 N
+#R	
+#U	santra
+#W	tut!hmj 870113
+#
+davasun	santra(DAILY/5), davajte(DAILY/5)
+
+#N	davajte
+#S
+#O	Oy DAVA Ab
+#C	Simo Salanne
+#E	davajte!Postmaster
+#T	+358 0 1241
+#P	P.O.Box 458, SF-00101 Helsinki, Finland
+#L	24 46 E / 60 10 N
+#R	
+#W	penet!dag 861024
+#
+davajte	davasun(DAILY/5)
+
+
+#N	hpuhela
+#S	HP9000 ser.550/HP-UX
+#O	Hewlett-Packard Finland, HP-UX Support
+#C	Par Andler
+#E	hpuhela!pivi
+#T	+358 0 4550211
+#P	Revontulentie 7, SF-02100 ESPOO, FINLAND
+#L	24 48 E / 60 10 N
+#R 
+#W	penet!lauri 860729
+#
+hpuhela hpbbse(DEMAND), hut(DAILY), penet(DAILY), huber1(DAILY/2)
+
+#N	insta
+#S	Motorola 1131, Unix System V
+#O	Instrumentointi Oy
+#C	Juha Havulinna
+#E	juuso@insta.uucp
+#T	+358 31 659111
+#P	Sarankulmankatu 20 33900 Tampere Finland
+#L	23 45 9 E / 61 27 41 N
+#R	
+#U	
+#W	vjk@tut.fi  870617
+#
+insta	tut(DAILY)
+ 
+#N	intrin sibelius topelius
+#S	HP9000s540 HP-UX 5.05
+#O	Intrinsic Oy
+#C	Petri Launiainen
+#E	intrin!pl
+#T	+358 31 132800
+#P	Aleksis Kiven katu 11 C, 33100 Tampere, FINLAND
+#L	23 45 50 E / 61 29 53 N
+#R	
+#U	tut
+#W	intrin!pl 860812
+#
+intrin	.intrin.fi
+intrin=	intrin.fi
+intrin=	topelius
+intrNET= {topelius, sibelius}(LOCAL)
+intrin	tut(DAILY), dycom(DAILY)
+
+#N	jytko
+#S	VAX750 / 4.2BSD
+#O	University of Jyv{skyl{, Department of Computer Science
+#C	Markku Sakkinen
+#E	jytko!markku
+#T	+358 41 292189
+#P	Seminaarinkatu 15, SF-40100 Jyv{skyl{, Finland
+#L	25 44 E / 62 13 N
+#R	
+#U	tut
+#W	tut!hmj 870113
+#
+jytko	tut(DAILY/2)
+
+#N	penet
+#S	AT&T 3B2/400
+#O	Oy Penetron Ab
+#C	Johan Helsingius
+#E	penet!postmaster
+#T	+358 0 427632
+#P	P.O.Box 21, SF-02171 Espoo, Finland
+#L	24 46 E / 60 10 N
+#U	santra
+#W	penet!julf 870111
+#R	The frequencies given below do not reflect the actual situation,
+#R	they just reflect our current routing policy
+#
+penet	.penet.fi
+penet=	penet.fi
+penet	enea(DAILY), santra(DAILY),
+	hpuhela(DAILY), davasun(DAILY), cjn(DAILY), fntr(DAILY), 
+	olisf0(DAILY), me-ncr(DAILY), tekla1(DAILY), finptt(DAILY),
+	eke(DAILY), etlahp(DAILY), fgould(DAILY), hanken(DAILY),
+	nesterc(DAILY), oulu(DAILY)
+
+#N	utacs
+#S	Sun Microsystems Sun-3/160; BSD4.2 Release 3.0
+#O	University of Tampere, Department of Computer Science
+#C	Aki Bergius
+#E	utacs!postmaster
+#T	+ 358 31 156058
+#P	P.O.Box 607, SF-33101 Tampere, Finland
+#L	23 46 38 E / 61 29 50 N
+#R	
+#U	tut
+#W	utacs!ab (Aki Bergius); 860220
+#
+utacs	.uta.fi
+utacs=	utacs.uta.fi
+utacs	tut(DEDICATED), utacc(LOCAL)
+	
+#N	utacc
+#S	Sun Microsystems Sun-3/160; BSD4.2 Release 3.2
+#O	University of Tampere, Computer Centre
+#C	Minna Manninen
+#E	utacc!postmaster
+#T	+ 358 31 156320
+#P	P.O.Box 607, SF-33101 Tampere, Finland
+#L	23 46 38 E / 61 29 48 N
+#R	
+#U	tut
+#W	utacc!minnam (Minna Manninen);
+#
+utacc=	utacc.uta.fi
+utacc	utacs(LOCAL)
+
+#N	tut
+#S	Sun-3/160 / SunOs 3.2
+#O	Tampere University of Technology, Computer Systems Laboratory
+#C	Hannu-Matti Jarvinen
+#E	tut!hmj
+#T	+358 31 162702
+#P	P.O.Box 527, SF-33101 Tampere, Finland
+#L	23 50 E / 61 26 N
+#R	
+#U	intrin, oulu, tucos, valmet, santra, ujocs, utacs
+#W	tut!vjk 870223
+#
+tut	.fi
+tut	.tut.fi
+tut=	tut.fi
+tut	enea(ARPA), mcvax(ARPA-1), unido(ARPA), diku (ARPA),
+	tucos(DAILY/2),	tutor(LOCAL),  tutlab(DIRECT),
+	santra(ARPA),
+	itumic(DAILY/2), siistaus(DAILY/3), oulu(DAILY/2),
+	ujocs(DAILY/2), jytko(DAILY/2), intrin(DAILY),  utacs(DEDICATED)
+tutlab	tintti(DIRECT), tut(DIRECT)
+tintti=	tintti.tut.fi
+tintti	tutlab(DIRECT)
+
+#N	tutor
+#S	micro-vax II / Ultrix 32m v 1.2
+#O	Tampere University of Technology, Computing Centre
+#C	Kimmo Lehtonen
+#E	tutor!kipa
+#T	+358 31 162391
+#P	P.O.Box 527, SF-33101 Tampere, Finland
+#L	23 50' 40" E / 61 27' 02" N
+#R	
+#W	tutor!kipa 870218
+#
+tutor	tut(LOCAL), tutctl(HOURLY), tutp70(HOURLY)
+
+#N	tutp70
+#S	PDP 11/70 BSD 2.9
+#O	Tampere University of Technology, Computing Centre
+#C	Kimmo Lehtonen
+#E	tutp70!kipa
+#T	+358 31 162391
+#P	P.O.Box 527, SF-33101 Tampere, Finland
+#L	23 50' 40" E / 61 27' 02" N
+#R	
+#W	tutor!kipa 870218
+#
+tutp70=	tutp70.tut.fi
+tutp70	tutor(HOURLY)
+
+#N	tutctl
+#S	HP9000/550 /HP-UX
+#O	Tampere University of Technology, Control Engineering Laboratory
+#C	Jarmo Sorvari
+#E	tutctl!jarmo
+#T	+358 31 162666
+#P	P.O. Box 527, SF-33101 Tampere, Finland
+#L	23 50 E / 61 26 N
+#R
+#W	tut!hmj 850920
+#
+tutctl	tutor(DAILY/4)
+
+#N	ujocs
+#S	VAX-750 / 4.2BSD
+#O	University of Joensuu, Dept. of Computer Science
+#C	Jorma Sajaniemi
+#E	ujocs!saja
+#T	+358 73 28311
+#P	P.O. Box 111, SF-80101 Joensuu, Finland
+#L	29 46 E / 62 36 N
+#R
+#U	tut
+#W	penet!julf 850712
+#
+ujocs	tut(DAILY/2), taycs(DEAD), jytko(DEAD)
+
+#N	itumic
+#S	Momentum 32/E / SIII
+#O	Itumic OY
+#C	Dick Mihalovsky
+#E	itumic!dm
+#T	+358 41 263022
+#P	Tahvontie 2, SF-40450 Jyvaskyla, Finland
+#L	25 44 E / 62 13 N
+#R	
+#W	tut!hmj 870113
+#
+itumic	itusys(DEMAND), cadmic(HOURLY), tut(DAILY/2)
+
+#N	cjn
+#S	Altos ACS68000-14, SIII
+#O	CJN Oy & Jauhiainen-Nuuttila, Architects
+#C	Jorma Toivonen
+#E	penet!cjn!jt
+#T	+358 0 460033
+#P	Tiet{j{ntie 4, SF-02130 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R	
+#W	penet!julf 850712
+#
+cjn		penet(DAILY/2)
+
+#N	fntr
+#S	Intel SYS310-41, XENIX 286 R3
+#O	Oy Fintronic Ab
+#C	Asko Kassinen
+#E	(penet!)fntr!aak
+#T	+358 0 6926022
+#P	Melkonkatu 24 A, SF-00210 Helsinki, Finland
+#L	24 50 E / 60 10 N helsinki
+#R	
+#W	penet!julf 850712
+#
+fntr    penet(DAILY/2)
+
+#N	dycom yttm28
+#S	AT&T 3B2/400, Unix System V	
+#O	Dycom
+#C	Yrj| Toiviainen	
+#E	dycom!ytt
+#T	+358 0 5653533
+#P	Takomotie 3 C SF-00380 Helsinki, Finland
+#L	24 50 E / 60 10 N
+#R
+#U	santra
+#W	tut!hmj 870113
+#
+dycom	.dycom.fi
+dycomNET= {dycom, yttm28}!(LOCAL)
+dycom	santra(DAILY/2), olisf0(DAILY/1), intrin(DAILY/1), pth1(DAILY)
+
+#N	valmet
+#S	Motorola VME120 System V/68
+#O	Valmet Prosessiautomaatio, J{rjestelm{divisioona
+#C	Jarmo Py|rny
+#E	valmet!jarmo
+#T	+358 31 650522
+#P	P.O Box 237, SF-33101 Tampere, Finland
+#L
+#U	tut
+#W	tut!ks 850827
+#
+valmet	.valmet.fi
+valmet	.vpa.valmet.fi
+valmet	tut(DAILY)
+
+#N	eke
+#S	Zilog S8000-32, ZEUS 3.21
+#O	EKE-Elektroniikka
+#C	Haapala Kari
+#E	eke!kha
+#T	+358 0 42031
+#P	Westendintie 1, SF-02160 Espoo
+#L	
+#R	
+#W	tut!hmj 870113
+#
+eke	santra(DAILY/4)
+
+
+#N	tekla1	
+#S	HP9000/540, HP-UX 5.01	
+#O	Tekla Oy	
+#C	Kenneth Ramstedt	
+#E	tekla1!rama	
+#T	+358 0 8037722	
+#P	Koronakatu 1, 02210 Espoo, Finland	
+#L	24 44 E / 60 10 N
+#R
+#W	tekla1!rama 851126	
+#
+tekla1  santra(DAILY/2)
+
+#N	oulu
+#S	SUN 2/130, BSD 4.2
+#O	Oulun Yliopisto, Institute of Information Processing Science
+#C	Heikki Putkonen
+#E	oulu!putko
+#T	+358 81 352599
+#P	Linnanmaa, SF-90570 OULU, FINLAND
+#L	24 45 E / 65 02 N
+#R	
+#U	tut
+#W	tut!hmj 870113
+#
+oulu	.oulu.fi
+oulu	oulu.fi
+oulu	tut(DAILY/2),jytko(DAILY/2),amac(DAILY/2),vttoulu(DAILY/2),
+	oudee
+
+#N	oudee
+#S	
+#O	University of Oulu, Department of electrical engineering
+#C	
+#E	
+#T	
+#P	
+#L	
+#R	
+#U	
+#W	
+#
+oudee	oulu
+
+#N	vttoulu
+#S			machine type & operating system 
+#O			organization 
+#C	Rauno Hannola
+#E	rha@vttoulu.uucp (jvi@vttoulu.uucp)
+#T	+385 81 346488
+#P	PL 181, SF-90101 Oulu, Finland
+#L			longitude/latitude [52.22N 4.54E]
+#R			remarks
+#U			sites with whom netnews is interchanged
+#W	vjk@tut.fi 25.5.87
+#
+vttoulu	oulu(DAILY/2)
+
+#N	nesterc
+#S	HP 9000 Model 310, HP-UX 5.0	
+#O	Neste Oy  Research Centre	
+#C	Pekka Keskiivari
+#E	nesterc!peke
+#T	+358 15 693449
+#P	06850 Kulloo, Finland
+#R	
+#U	santra
+#W	tut!hmj 870113
+#
+nesterc	santra(DAILY/2)
+
+#N	vtttik
+#S	iNTEL 286/310, XENIX R3.0
+#O	Tech Res Centre of Finland,Lab for Information Processing
+#C	Merja Nousiainen
+#E	vtttik!mxn
+#T	+358 0 4561
+#P	Lehtisaarentie 2 A, SF-00340 Helsinki, Finland
+#L	24 51 E / 60 10 48 N
+#R	
+#W	tut!hmj 870113
+#
+vtttik	santra(DAILY/2)
+
+#N	atomsf
+#S	Zilog S8000-11, ZEUS 3.21
+#O	Oy Atomica Ab
+#C	Kim Swanljung
+#E	atomsf!kim
+#T	+358 0 420033
+#P	P.O.Box 22, SF-02171 Espoo, Finland
+#L	24 46 E / 60 10 N
+#R	
+#W	tut!hmj 870113
+#
+atomsf	santra(DEMAND)
+
+#N	tucos
+#S	MicroVAX-II / Ultrix-32m 1.2
+#O	University of Turku, Department of Computer Science
+#C	Matti Jokinen,  Antti Euranto
+#E	tucos!postmaster
+#T	+358 21 645156,  +358 21 645633
+#P	SF-20500 Turku, Finland
+#L	22 17 E / 60 27 N
+#R	
+#U	tut
+#
+tucos	.utu.fi
+tucos=	cs.utu.fi
+tucos	tut(DAILY/8)
+
+#N	abosun
+#S		machine type & operating system [VAX750/4.2BSD]
+#O		organization [Centrum voor Wiskunde en Informatica (CWI)]
+#C	John Aspn{s, Mats Aspn{s
+#E	john@abosun.uucp, mats@abosun.uucp
+#T	358-21-654541
+#P	Fanriksgatan 3 B
+#L		longitude/latitude [52.22N 4.54E]
+#R		remarks []
+#U		sites with whom netnews is interchanged [ukc, enea]
+#W	vjk@tut.fi 25.5.87
+#
+abosun	.aka.fi
+abosun	tut(DAILY/2)
+
+#N	me-ncr
+#S	Tower 32, Tower O.S. 1.00.00
+#O	Oy Mercantile Ab
+#C	Ari Kyhala
+#E	me-ncr!ajk
+#T	+358 0 34501
+#P	P.O.Box 129, SF-00701 Helsinki, Finland
+#L	24 50 E / 60 10 N
+#R	
+#U	penet
+#W	me-ncr!ajk 860210
+#
+me-ncr	penet(DAILY/2)
+
+#N	atk-jtj
+#S	HP1000 A900; RTE-A/VC+
+#R	mail files are exchanged using Kermit
+#O	Technical Research Centre of Finland (VTT)
+#O	Computing Services / Videotex Group
+#C	Tor Lillqvist
+#E	mcvax!hut!santra!atk-jtj!tml
+#T	+358 0 4566132
+#P	Lehtisaarentie 2, SF-00340 HELSINKI, FINLAND
+#L	24 50 E / 60 10 N
+#R
+#W	santra!tml 860205
+#U	santra
+#
+atk-jtj	santra(POLLED)
+
+#N	amac
+#S	Motorola 6350, SYSTEM V.2
+#O	AMApalvelu ky (name change in progress, new name probably AMAcon)
+#C	Hannu Vuori
+#E	amac!hv
+#T	+358 83 51459
+#P	Hakakuja 8, SF-86600 HAAPAVESI, FINLAND
+#L	25 21 E / 64 09 N
+#R
+#W	amac!hv 860408
+#
+amac	oulu(DAILY/2)
+
+#N	fintric
+#S	
+#O	FinnMetric Oy
+#C	
+#E	fintric!root
+#T	
+#P	
+#L	
+#R	
+#W	tut!hmj 870113
+#
+fintric	santra(DAILY/2)
+
+#N	finptt
+#S	AT&T 3B2/400, System V.2 Release 2.0.4
+#O	Post and Telecommunications, Data Processing Centre
+#C	Ari Ahonen
+#E	finptt!aa
+#T	+358 0 7042940
+#P	P.O.Box 37, SF-00511 Helsinki, Finland
+#L	24 50 E / 60 10 N
+#R	
+#W	finptt!aa 860416
+#
+finptt	penet(DAILY/2)
+
+#N	olisf0
+#S	AT&T 3B2/400, System V.2 Release 2.0.4
+#O	Olivetti Finland
+#C	Timo Hirvonen
+#E	olisf0!root
+#T	
+#P
+#L	
+#R	
+#W	penet!mikko 860508
+#
+olisf0	penet(DAILY/2)
+
+#N	huber1
+#S	HP 9000/??
+#O	HUBER AB
+#C	Reijo Nieminen
+#T	+358 0 821311
+#P	Takamaantie 1, Vantaa, Finland
+#L	
+#R	
+#W	penet!julf 860511
+#
+huber1	hpuhela(DAILY/2), huber2(DAILY)
+
+#N	huber2
+#S	
+#O	
+#C	
+#T	
+#P	Tampere
+#L	
+#R	
+#W	penet!julf 860511
+#
+huber2	huber1(DAILY)
+
+#N	fgould
+#S	
+#O	Gould Electronics
+#C	Olli Ovaska
+#E	fgould!root
+#T	+358 0 5624212
+#P	Hopeatie 1 B, 00440 Helsinki
+#L	
+#R	
+#W	tut!hmj 870113
+#
+fgould	santra(DAILY)
+
+#N	siistaus
+#S	Micro-Vax II / Ultrix 32m 1.1
+#O	Nokia Paperi
+#C	Heikki Mustaniemi
+#E	siistaus!hsm
+#T	+358 31 408111
+#P	P.O.Box 1, SF-37101 Nokia, Finland
+#L	23 50 E / 61 26 N
+#R	
+#W	tut!hmj 860529
+#
+siistaus	tut(DAILY)
+
+#N	clinet
+#S	Motorola 8400; System V/68 3.0
+#O	City Lines Oy
+#C	Teemu O. Torma
+#E	clinet!postmaster
+#T	+358 0 694 1056
+#P	Porkkalankatu 1, 00180 Helsinki, Finland
+#L	60 10 N / 24 50 E
+#R
+#W	clinet!tot (Teemu O. Torma); Mon Apr  6 06:45:23 EET 1987
+#U	santra thwil
+#
+clinet	.clinet.fi
+clinet	santra(DAILY), thwil(DEMAND)
+
+#N	uhecs
+#S	Olivetti AT&T 3B2/400, System V Rel 2
+#O	University of Helsinki, Department of Computer Science
+#C	Petri Kutvonen, Ismo Turunen
+#E	uhecs!kutvonen, uhecs!turunen
+#T	+358 0 410566
+#P	Tukholmankatu 2, SF-00250 Helsinki, Finland
+#L	24 55 E / 60 12 N
+#R	
+#W	uhecs!kutvonen 860818
+#
+uhecs	.helsinki.fi
+uhecs=	cs.helsinki.fi
+uhecs	santra(DAILY/4)
+
+#N 	hanken
+#S	HP 9000/540 HP-UX 05.05 (System V.2)
+#O	Svenska handelsh|gskolan/ Institutionen f|r allm{n f|retagsekonomi
+#C	Kari Latvala
+#E	hanken!kari
+#T	+358 0 440291
+#P	Arkadiagatan 22, SF-00100 Helsingfors, Finland
+#L	24 53 40 E / 60 10 15 N
+#R	Swedish school of economics and business adm./ Department of finance
+#W	tut!hmj 870113
+#
+hanken  santra(DAILY/2)
+
+#N	santra
+#S	VAX 11/750, UNIX 4.3 BSD
+#O	Helsinki University of Technology, Computing Center
+#C	Jukka Virtanen
+#E	santra!postmaster
+#T	+358 0 451 2624
+#P	Otakaari 1, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R	In case of uucp linkage failure to santra, contact tut!postmaster
+#U	tut, davasun, dycom, me-ncr, clinet
+#R
+#W	santra!jtv
+#
+santra	.hut.fi
+santra=	fingate
+santra=	hut.fi
+santra= santra.hut.fi
+santra	tut(DEDICATED),   aku(DEMAND),      kolvi(DEMAND),    hutcs(DEMAND),
+	hila(DEMAND),     hupu(DEMAND),     atk-jtj(DAILY/4), clinet(DAILY/4),
+	fntr(DAILY/4),    davasun(DAILY/4), hpuhela(DAILY/4), penet(DAILY/4),
+	dycom(DAILY/4),   vtttik(DAILY/4),  me-ncr(DAILY/2),  uhecs(DAILY/4),
+	davajte(DAILY/4), nesterc(POLLED),  taavi(DEMAND),    roke(DAILY/4),
+	hutmc(DAILY)
+
+#N	hutcs
+#S	VAX-11/750 4.3bsd
+#O	Helsinki University of Technology, Lab. of Comp. Sci.
+#C	Antti Louko
+#E	hutcs!postmaster
+#T	+358 0 4512487
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#W	santra!postmaster
+#
+hutcs=	hut
+hutcs	santra(DEMAND)
+
+#N	hila
+#S	MicroVAX II / Ultrix-32m V1.2
+#O	Helsinki University of Technology / Computing Centre
+#C	Jukka Virtanen
+#E	hila!postmaster
+#T	+358 0 4512624
+#P	Otakaari 1 A, SF-02150  ESPOO, FINLAND
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+#
+hila	santra(DEMAND)
+
+#N	hutds
+#S	MicroVAX II / Ultrix-32m V1.2
+#O	Helsinki University of Technology / Digital Systems Lab
+#C	Raimo Kujansuu
+#E	hutds!postmaster
+#T	+358 0 4512294
+#P	Otakaari 5 A, SF-02150  ESPOO, FINLAND
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+#
+hutds	kolvi(DAILY/24)
+
+#N      kolvi
+#S      Micro-VAX II UNIX 4.3 BSD
+#O      Helsinki University of Technology, Dept. El. Eng.
+#C      Juha Takala
+#E      kolvi!jta
+#T      +358 0 451 2413
+#P      Otakaari 5, SF-02150 Espoo, Finland
+#L      24 50 E / 60 10 N
+#R
+#W      santra!postmaster
+kolvi   santra(DEMAND), hutds(DEMAND)
+
+#N	hupu
+#S	ALTOS 3068 System-V
+#O	Helsinki University of Technology, Nixula
+#C	Pekka Nikander, Sakari Jalovaara
+#E	hupu!pnr, hupu!sja
+#T	+358 0 4512232
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+hupu	santra(DEMAND), tupu(DEMAND), lupu(DEMAND)
+
+#N	tupu
+#S	ALTOS 3068 System-V
+#O	Helsinki University of Technology, Nixula
+#C	Pekka Nikander, Sakari Jalovaara
+#E	hupu!pnr, hupu!sja
+#T	+358 0 4512232
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+tupu	hupu(DEMAND), lupu(DEMAND)
+
+#N	lupu
+#S	ALTOS 3068 System-V
+#O	Helsinki University of Technology, Nixula
+#C	Pekka Nikander, Sakari Jalovaara
+#E	hupu!pnr, hupu!sja
+#T	+358 0 4512232
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+lupu	hupu(DEMAND), tupu(DEMAND)
+
+#N	aku
+#S	ALTOS 3068 System-V
+#O	Helsinki University of Technology, Computing Centre
+#C	Jukka Virtanen
+#E	aku!postmaster
+#T	+358 0 4512232
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+aku	santra(DEMAND)
+
+#N	taavi
+#S	Olivetti 3B2/400, System-V
+#O	Helsinki University of Technology, Comp. Sci. Lab.
+#C	Juha Kuusela
+#E	taavi!jhtk
+#T	+358 0 4512516
+#P	Otakaari 1A, SF-02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R
+#W	santra!postmaster
+taavi	santra(DEMAND)
+
+
+#N	etlahp
+#S	HP9000/540/HP-UX
+#O	THE RESEARCH INSTITUTE OF THE FINNISH ECONOMY
+#C	Mari Harni
+#E	etlahp!mh
+#T	358 0 601322
+#P	Lonnrotinkatu 4B, 00120 Helsinki 12, Finland
+#L
+#R
+#U
+#W	etlahp!mh 870421
+#
+etlahp penet(DAILY)
+
+#N	metsa metsa1 metroi
+#S	SUN-2/4.2 BSD
+#O	National Board of Forestry (MH)
+#C	Juha Makelainen
+#E	juha@metsa
+#T	90-6163341
+#P	PL 233, 00121 Helsinki
+#L	
+#R	
+#U	
+#W	vjk@tut.fi 5.5.1987
+#
+metsa	santra(DAILY/2)
+metsaNET=	{metsa, metsa1, metroi}(LOCAL)
+
+#N	roke thwil
+#S	Honeywell UX-2/UNIX SYS V rel. 2
+#O	Nokia corporation, Research center
+#C	Riku Kalinen
+#E	riku@roke
+#T	+358 0 4375 509
+#P	Tekniikantie 17 E, 02150 Espoo, Finland
+#L	24 50 E / 60 10 N
+#R	Internet: .roke.RC.Nokia.FI
+#U
+#W	riku@roke.RC.Nokia.FI 870527
+#
+roke	.nokia.fi
+roke	santra(DAILY/2)
+NNET=	{roke, thwil}!(LOCAL)
+
+
+SHAR_EOF
+echo shar: extracting u.fra.1
+cat << \SHAR_EOF > u.fra.1
+# u.fra.1; changes to: uucpmap@inria.uucp
+
+inria	.fr
+chorus	.chorus.fr
+bdblues	.altair.fr
+ftc	.ftc.fr
+gipsy	.gipsi.fr
+inria	.inria.fr
+ilog	.ilog.fr
+lri	.lri.fr
+emu	.aristote
+emu	.cnes.fr
+emu	.cea.fr
+crin	.crin.fr
+
+#N	acroe
+#S	Vax 11/750, Unix BSD4.2
+#O	Association pour la Creation et la Recherche sur les Outils d'Expression
+#	Institut d'informatique et de Mathematiques Appliques de Grenoble
+#C	(?)
+#E	acroe!root
+#T	+33 76 514630
+#P	ACROE - IMAG  B.P.68, 38402 St. Martin D'Heres, France
+#L	5 46 E / 45 12 N
+#R	
+#W	inria!devill 860903
+#U	
+#
+acroe	lifia(DAILY)
+
+
+
+#N	adiris
+#S	
+#O	INRIA, Passerelles internationales
+#C	Yves Devillers
+#E	adiris!postmaster, root@france.csnet inria!postmaster
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#R	Formerly known as Agence de l'Informatique, 
+#	with JL-Bernard (adiris!bernard), at Tour FIAT, La defense, Paris
+#	gateway between french research network (aristote) and csnet.
+#	soon to be integrated (ie: no longer visible) within inria's gateways
+#W	inria!devill 860303
+#	
+adiris	inria(LOCAL)
+
+#N	afuu
+#S	SM90 - MPIX
+#O	Association Francaise des Utilisateurs d'Unix
+#C	Jean-Christophe Petithory
+#E	afuu!petithory
+#T	+33 1 60191013
+#P	c/o SUPELEC, Plateau de Moulon, F-91190, Gif sur Yvette, FRANCE
+#L	2 11 E / 48 43 N
+#R	
+#W	philip@axis 861008
+#U      
+#
+
+
+#N	apricot
+#S	Apricot Xen (80286) , Xenix System V Version 2
+#O	Apricot S.A.
+#C	Eric Pouyoul , Olivier Pouher
+#E	apricot!eric , apricot!olivier
+#T	+33 (1) 40 38 93 00
+#P	11 rue de Cambrai, Batiment 34, F-75019 Paris, FRANCE.
+#L	02 15 E / 48 50 N (city)
+#R	
+#W
+#U	
+apricot	diox(DAILY), timpit0(DAILY), uparis8(DAILY)
+
+#N	archi
+#S	TELMAT SM90; Version 7 UNIX
+#O	TIM3-IMAG/INPG Computer Architecture Group
+#C	Gilles BERGER SABBATEL
+#E	archi!root
+#T	+33 76479855 x606
+#P	46 Avenue Feix Viallet, 38031 GRENOBLE CEDEX - FRANCE
+#L	5 43 07 E / 45 11 51 N
+#R		
+#W	archi!berger 851228
+#U		
+#
+archi	imag(DIRECT)
+
+
+#N	axis
+#S	VAX 11/751 - System 5.2.2
+#O	Axis Digital
+#C	Philip Peake
+#E	postmaster@axis.fr
+#T	+33 1 46033775
+#P	135, Rue d'Aguesseau, F-92100 Boulogne, France.
+#L	02 15 E / 48 50 N (city)
+#R	remarks
+#W	philip@axis.fr 870405
+#U      matra
+#
+axis	ace(WEEKLY), inria(DEMAND), ircam(DAILY), inset(WEEKLY), afuu(DEMAND),
+        matra(DAILY/2), polyeur(DEMAND)
+
+#N	bdblues
+#S	Sun3-280
+#O	GIP Altair (Base de donne'es avanc'es)
+#C	Olivier Gremont
+#E	inria!bdblues!olivier inria!gremont
+#T	+33 1 39635415
+#P	c/o INRIA, Domaine de Voluceau, BP 105, F-78153 Le Chesnay CEDEX, France.
+#L	2 07 E / 48 50 N (city)
+#R	is "bdblues.altair.fr", .altair.fr subdomain administrator
+#W	inria!devill 870603
+#
+bdblues = bdblues.altair.fr
+bdblues	inria(LOCAL)
+
+#N	ccr-p6
+#S	PN9050, Gould Power Node 9050, UTX-32 ( 4.2BSD)
+#O	Centre Calcul et de Recherche.
+#	Universite Pierre et Marie Curie ( Paris VI)
+#C	Jacques Thibault
+#E	ccr-p6!jt
+#T	
+#P	Tour 45-55, 2 Pl. Jussieu, F-75251 Paris CEDEX 05, France
+#L	2 21 E / 48 52 N (city)
+#R	
+#W	vmucnam!humberto 860430, inria!devill 860903
+#
+ccr-p6	gouldfr(DEAD), litp(DAILY)
+
+#N	cerci2
+#S	
+#O	CERCI
+#C	J.P. FRADET
+#E	cerci2!fradet
+#T	+33 1 48761220
+#P	56, Rue Salengro, 94120 Fontenay sous Bois
+#L	2 29 E / 48 51 N (city)
+#R	
+#W	vmucnam!humberto 851027, inria!devill 860903
+#U
+#	
+cerci2	vmucnam(DAILY)
+
+#N	cerisi
+#S	
+#O	CERICS, DESS/ISI
+#C	Jean-Louis Faraut
+#E	pastpe!cerisi!jlf
+#P	Sophia-Antipolis F-06560 Valbonne, France.
+#L	7 07 E / 43 35 N (city Antibes)
+#R	provisiore, provisional
+#W	inria!devill 870319
+#
+
+#N	chorus
+#S	Sun 3/52 - Sun OS 3.3 (almost 4.3BSD)
+#O	Chorus Systemes
+#C	Sylvain Langlois
+#E	chorus!sylvain sylvain@chorus.chorus.fr
+#T	+33 (1) 30570022
+#P	6 Av Gustave Eiffel, F-78180 Montigny Le Bretonneux, France
+#L	2 03 E / 48 47 N (city)
+#R	site chix is now at chorus
+#R	
+#W	sylvain@chorus 870520
+#
+chorus = chorus.chorus.fr
+chorus	inria(DEMAND)
+
+#N	clbull
+#S	Mini6
+#O	Bull SA
+#	Bull systeme centre des Clayes.
+#C	Norbert Alcocel
+#E	clbull!alcocel
+#T	????
+#P	Bull Sa, Rue Jean Jaures, 78340 Les Clayes sous Bois. FRANCE
+#L	1 59 E / 48 49 N (city)
+#R
+#W	inria!devill 860903
+#
+clbull	rtbull(DAILY/4)
+
+
+#N	cmirh
+#S	MicroVax II ULTRIX 1.1
+#O	Centre Mondial de l'Informatique
+#C	Jean Daniel Fekete
+#E	cmirh!jdf
+#T	+33 1 42 68 11 00
+#P	22 Avenue Matignon, 75008 Paris, France
+#L	2 19 E / 48 52 06 N
+#R	
+#W	cmirh!jdf 860514
+#	
+cmirh	inria(DAILY),ra(LOCAL),cordou(LOCAL)
+sole  = ra
+inca  = ra
+aztec = ra
+corfou= cordou
+	
+#N	cmtspp
+#S	VAX751,4.2BSD
+#O	MATRA ESPACE
+#C	Frederic Pasquier
+#E	cmtspp!pasquier
+#T	+33 61 39 67 96 +33 61 39 61 39  +33 61 39 67 20
+#P	31 Rue des Cosmonautes, ZI du Palays, F-31077 Toulouse CEDEX, France
+#L
+#R
+#W	cmtspp!pasquier 870109
+#U
+cmtspp	tls-cs(DAILY)
+
+#N	cncaltu
+#S	VAX 11/780 - 4.2 BSD - X25/X29 internal (TWICE)
+#O	Caisse Nationale du Credit Agricole
+#C	Philippe Coudray
+#E	cncaltu!root
+#T	+33 1 30447275
+#P	
+#L	2 03 E / 48 47 N (city)
+#R	
+#W	vmucnam!humberto 851013, inria!devill 860903
+#
+cncaltu	vmucnam(DAILY)
+
+#N	cnetlu
+#S	IBM 3083 UNIX V (amdahl UTS V (v 1.0)
+#O	Centre National d'Etude des Telecommunications, Centre lannion A, Division ITP, Departement GMI
+#C	Henri Prigent
+#E	timpit0!cnetlu!prigenth
+#T	+33 96052978
+#P	CNET LANNION itp/gmi, route de tregastel, F-22300 LANNION, FRANCE
+#L	3 27 30 W / 48 44 00 N
+#R
+#W	inria!devill 860521
+#U
+#
+cnetlu   timpit0(DAILY), laaslc0(HOURLY), inria(WEEKLY)
+
+#N	corton
+#S	Pyramid 98x
+#O	INRIA Rocquencourt, bat8.
+#C	Yves Devillers, Francis Dupont
+#E	corton!postmaster, corton!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	pseudo-site to test/bench network softwares
+#W	
+#
+corton = corton.inria.fr
+corton	inria(HOURLY)
+
+#N	crcge1
+#S	
+#O	Laboratoires de Marcoussis, Centre de recherches de la Compagnie general
+#	d'electricite, Division Informatique
+#C	Eugen Neidl
+#E	crcge1!neidl
+#T	+33 1 64491484
+#P	Route de Nozay, F-91460 Marcoussis, France
+#L	2 14 E / 48 39 N (city)
+#R	
+#W	inria!devill 870108
+#U	geocub, litp, lri
+#
+crcge1	crcge2(DAILY), prlb2(DAILY)
+
+#N	crin
+#S	DEC VAX 11/785 - UNIX 4.2 Bsd
+#O	Centre de Recherche en Informatique de Nancy
+#C	Jean-Claude Junqua, Gabrielle Feltin, Karl Tombre
+#E	crin!jcj   crin!gfeltin   crin!tombre
+#T	+33 83 91 20 00
+#P	B.P. 239, F-54506 Vandoeuvre CEDEX, France.
+#L	6 12 E / 48 41 N (city Nancy)
+#W	inria!devill 870302 inria!ehrlich 870720
+#U	
+#R	
+#
+crin = crin.crin.fr
+crin	inria(DAILY/4), geocub(DAILY/4), lri(DEMAND), litp(DAILY/4),
+	prlb2(DAILY/4)
+
+#N	csinn
+#S	
+#O	Cap Sogeti Innovation
+#C	Thomas Grossi
+#E	csinn!grossi
+#T	+33 76 908040
+#P	Chemin du Vieux Chene -- Zirst, F-38240 Meylan France
+#L	5 41 E / 45 14 N (city Sainte-Egreve)
+#R	
+#W	vmucnam!humberto 850620, inria!devill 860903
+#	
+csinn	imag(DAILY)
+
+
+
+#N	diox
+#S	Apricot Xen (80286) , Xenix System V Version 2
+#O	Microprest
+#C	Eric Pouyoul , Herve Schauer , Jean-Christophe Hugly
+#E	inria!diox!eric , inria!diox!itecom!schauer , inria!diox!hugly
+#T	+33 (1) 47 26 85 91
+#P	61, Avenue de Paris, F-94800 Villejuif, FRANCE
+#L	
+#R	L'administrateur principal, Eric Pouyoul, est contactable aux heures
+#	de travail au : +33 (1) 40 38 93 00
+#W
+#U	
+diox	inria(WEEKLY), timpit0(WEEKLY)
+
+#N	echbull
+#S	SM90 / SMIX
+#O	Bull Sems Echirolles
+#C	Yvon Klein
+#E	echbull!klein
+#T	+33 76 098055 [319]
+#P	Bull Sems, BP208, F-38432 Echirolles CEDEX, France
+#L	5 41 E / 45 14 N (city Sainte-Egreve)
+#R	
+#W	inria!devill 860903
+#U	tlp,tse
+#
+echbull	lvbull(DAILY), vmucnam(DAILY), inria(DAILY/4)
+
+echbull-net = { echbull, tlp, tse }!(DEMAND)
+
+#N	edfder1
+#S	sps7/50 spix v20(UNIX S.V.2)
+#O	EDF-Direction des Etudes et Recherches
+#C	Alain Tardieu
+#E	edfder1!tardieu
+#T	+33 1 47653462
+#P	1, Avenue du general De Gaulle, F-92141 Clamart CEDEX, FRANCE 
+#L	2 16 E / 48 48 N (city)
+#R	
+#W	edfder1!tardieu 860224, inria!devill 860903
+#
+edfder1	inria(DAILY)
+
+#N	egfsmt
+#S	vax780/VMS4.4/Unity5.2
+#O	EDF-GDF, service de medecine du travail
+#C	Patrice Rioux, Frederic Germain
+#E	egfsmt!rioux, egfsmt!germain
+#T	+33 1 47647439
+#P	22-30, Avenue de Wagram, F-75382 Paris CEDEX 08, France
+#L
+#R	experimental, will be T-bone for news
+#W	inria!devill 870605
+#U
+#
+egfsmt	inria(DAILY)
+
+#N	emu
+#S	SPS7 SPIX 5
+#O	GIP systemes informatique
+#C	Bernard Laborie
+#E	emu!x400boy gipsy!laborie
+#T	+33 1 39635442
+#P	Domaine de Voluceau, BP 105, Rocquencourt
+#	F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	gateway to aristote, french X400 research network.
+#W	inria!devill 870218
+#U
+#
+emu = emu.inria.fr
+emu	inria(LOCAL)
+
+#N	emsesmc
+#S	sm90	smxV.1 (unix V)
+#O	Ecole des Mines de Saint Etienne
+#C	Paul Andre Pays
+#E	emsesmc!pays
+#T	+33 77420174
+#P	158, Cours Fauriel, F-42023 Saint-Etienne CEDEX 2, France
+#L	4 22 E / 45 26 N
+#R	
+#W	emsesmc!pays 860520 inria!devill 860930
+#	
+
+# Local network (operational : July '86)
+emsether	=	{emsesmc, emsesm0, emseapl, emsx400, emsevc }!(DEMAND)
+
+#N	enst
+#S	VAX11/785 / UNITY (5.2.3)/VMS 4.5
+#O	Ecole Nationale Superieure de Telecommunications
+#C	Philippe Dax, Guillaume Gerard
+#E	enst!dax enst!gege
+#T	+33 1 45817648
+#P	46, Rue Barrault, 75634 Paris Cedex 13
+#L	2 21 24 E / 48 52 01 N (city)
+#R	UNITY under VMS. enst was enstvax before new version of UNITY. ARGH!
+#W	enst!dax 870319
+#U	
+#	
+enst = enstvax
+enst	inria(DAILY/4)
+
+#N	ens
+#S	VAX11/785 Ultrix
+#O	Ecole Normale Superieure, Labo D'informatique
+#C	Robert Ehrlich
+#E	ens!ehrlich
+#T
+#P	45 Rue d'Ulm, F-75005 Paris
+#L	2 21 24 E / 48 52 01 (city)
+#R
+#W	inria!devill 860903
+#U
+#
+ens	inria(WEEKLY)
+
+
+#N	esegif
+#S	
+#O	SUPELEC, Ecole Superieure d'Electricite
+#C	Daniel Clar
+#E	esegif!dc
+#T	+33 1 39418040
+#P	SUPELEC, Plateau du Moulon, F-91190 Gif sur Yvettes, France
+#L	2 11 E / 48 43 N
+#R	
+#W	vmucnam!humberto 850519, inria!devill 860903
+#	
+esegif	inria(DAILY)
+
+#N	esemetz
+#S	SPS9-60 ROS
+#O	Ecole Superieure d'Electricite Etablissement de Metz
+#C	Patrick Mercier, Philippe Depalle
+#E	esemetz!mercier, esemetz!phd
+#T	+33 87 74 43 33
+#P	2 rue Edouard Belin, Technopole de Metz, F-57078 Metz CEDEX 3, France
+#L
+#R
+#W	esemetz!mercier 870517
+#U
+
+#N	estelle
+#S	bull sps7, spix21
+#O	Projet CEDOS
+#C	Vijaya Chari 
+#E	lvbull!vijaya
+#T	+33 1 39024628
+#P	c/o BULL Dept RCG/ARS LV59A18, 68 Route de Versaille,
+#	F-78430 Louveciennes, France
+#L	
+#R	esprit research project on estelle langage
+#W	inria!devill 870224
+#
+
+
+#N	ftc
+#S	Compaq286 Venix
+#O	Framentec
+#C	Remi Saccoman, Nhuan Do Duc
+#E	ftc!remi, ftc!ndoduc
+#T	+33 1 45 37 68 00
+#P	La Boursidiere, R.N. 186
+#	F-92357 Le Plessis-Robinson, France
+#L	
+#R	Developpement en intelligence artificielle (systemes experts)
+#W	ftc!root 870218
+#U	
+ftc = ftc.ftc.fr
+ftc	inria(HOURLY)
+
+ftcnet = {ftc, ftcvax, ftcsun3}!(LOCAL)
+
+#N	ftcvax
+#S	VAX11/780 / VMS4.3 + EUNICE
+#O	Framentec
+#C	Nhuan Doduc
+#E	ftcvax!ndoduc
+#T	+33 1 46302474
+#P	RN 186, La Boursidiere, F-92350 Le Plessis Robinson, France
+#L	2 15 E / 48 46 N (city)
+#R	
+#W	vmucnam!humberto 850920, inria!devill 860903
+#
+
+#N	geocub
+#S	
+#O	Universite de Bordeaux 1, Greco de Programmation de CNRS
+#C	Patrick Henry
+#E	geocub!henry
+#T	+33 56 807382
+#P	351 cours de la liberation, F-33405 Talence CEDEX, France
+#L	0 34 W / 44 50 N (city Bordeaux)
+#R	
+#W	inria!devill 860903
+#U
+#
+geocub	crcge1(DAILY), inria(DAILY), ircam(DAILY), leg(DAILY), litp(DAILY),
+	ogesml0(DAILY), vmucnam(DAILY)
+
+#N	gipsy
+#S	VAX 11/750 4.2BSD
+#O	Institut National de Recherche en Informatique et Automatique
+#C	Philippe Sermage
+#E	gipsy!sermage
+#T	+33 1 39635697
+#P	Domaine de Voluceau, BP 105, Rocquencourt
+#	F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#U
+#
+gipsy = gipsy.gipsi.fr
+gipsy	inria(LOCAL)
+
+
+#N	gouldfr
+#S	Gould Power Node 6080 UTX-32 2.0 (4.3 BSD + SV + NFS)
+#O	Gould Informatique S.A.
+#C	Humberto Caria Lucas
+#E	gouldfr!humberto
+#T	+33 1 34606101
+#P	Rue Michael Faraday, F-78390 Bois d'Arcy, France
+#L	2 01 E / 48 48 N (city)
+#R	
+#W	vmucnam!humberto 851019
+#U
+#
+gouldfr	ccr-p6(DAILY), afuu(DEMAND)
+
+gouldfr = gld_fr
+
+#N	ilog
+#S	Sun 3/260
+#O	Intelligence Logicielle
+#C	Jerome Chailloux, Matthieu Devin
+#E	ilog!chailloux, ilog!devin
+#T	to be announced
+#P	9 rue Royale, F-75008 Paris, France.
+#L	2 21 24 E / 48 52 01 N (city)
+#R	Does not yet exist, temporarily handled by inria
+#W	inria!devill 870424
+#U
+#
+ilog	inria(DEAD)
+ilog = ilog.fr
+
+#N	imag
+#S	Vax 11/780, Unix BSD4.2
+#O	Institut d'informatique et de Mathematiques Appliques de Grenoble
+#C	Pierre Laforgue
+#E	imag!pierre
+#T	+33 76 514630  (sec. 514632 )
+#P	Institut IMAG  B.P.68, F-38402 St. Martin D'Heres, France
+#L	5 46 E / 45 12 N
+#R	
+#W	pierre@imag 860513
+#U
+#
+imag	csinn(DEMAND), inria(DEMAND), lvbull(DAILY/2), prlb2(DAILY),
+	grbulls(DIRECT), lifia(DIRECT), archi(HOURLY),
+	geocub(DAILY)
+
+#N	inria
+#S	VAX11/785 UNIX 4.2BSD
+#O	Institut National de Recherche en Informatique et Automatique
+#C	Yves Devillers
+#E	inria!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#U	mcvax, axis, crcge1, crin, echbull, poly, 
+#U	gipsy, gouldfr, imag, ircam, lvbull, timpit0,
+#U	tls-cs, vmucnam
+#
+inria = inria.inria.fr
+inria	axis(DEMAND), adiris(DEMAND), bdblues(LOCAL), cerci2(DEMAND),
+	chorus(DAILY/4), cmep(DEMAND),
+	cncaltu(DEMAND), crcge1(DEMAND), crin(DEMAND),
+	dabull(DEMAND), echbull(DEMAND), ecrcvax(DEMAND), edfder1(DEAD),
+	egfsmt(DAILY), emu(LOCAL), enst(DEMAND), 
+	esegif(DEMAND), esemetz(DEMAND), emsesmc(DEMAND),poly(DEMAND),
+	geocub(DEMAND), gipsy(LOCAL),
+	gouldfr(DEMAND), imag(DEMAND), ircam(DEMAND),iris(DEMAND),
+	irisa(DEMAND),
+	laaslc0(DEAD), lasso(DEMAND), litp(EVENING), lln-cs(DEAD),
+	lri(DEMAND), lvbull(DEMAND), masbull(DEMAND),
+	ogesml0(DEMAND), orion1(DEMAND), pastpe(DEMAND),
+	robotpe(DEDICATED), rtbull(DAILY), speedy(DEAD), 
+	timpit0(DEMAND), telic7(DEAD),
+	tls-cs(DEMAND), trtmv0(DEMAND), uparis8(DEMAND), vmucnam(DEMAND)
+
+# European inter-backbone links
+inria	mcvax(ARPA-1), cernvax(ARPA), enea(HOURLY), unido(ARPA), ukc(ARPA),
+	prlb2(ARPA), tuvie(ARPA), 
+	diku(ARPA), i2unix(DEAD), penet(DEAD), tut(DEAD), goya(DEAD)
+
+
+# Other International, non backbones links
+inria	icot(DAILY)
+
+# inria is a (good) gateway to .fr domain
+inria	.fr
+
+#N	ipgetg
+#S	CONVEX C1 4.2 BSD
+#O	Institut de Physique du Globe - Equipe de Tomographie Geophysique
+#C	Jean Remy
+#E	ipetg!jean
+#T	+33 1 43362525 [4880]
+#P	Tour 14 4e etage, 4 place Jussieu, F-75005 Paris, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R
+#W	inria!ehrlich 870424
+#U
+ipgetg	inria(DAILY/2)
+
+#N	ircam
+#S	VAX 750 4.2 BSD
+#O	Institut de Recherche et Coordination Acoustique/Musique
+#C	Michel Fingerhut
+#E	ircam!mf
+#T	+33 1 42771233 [4853]
+#P	31 rue Saint-Merri, F-75004 Paris, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	ircam!mf 860513, inria!devill 860903
+#U
+#
+ircam	axis(DAILY), cernvax(DAILY), cmirh(DAILY), crcge1(DAILY),
+	diku(DAILY), enea(DAILY), inria(DAILY/4), litp(DAILY),
+	lri(DAILY),  ogesml0(DAILY), seismo(DAILY/2),
+	sunfra(DAILY), udsab(DAILY), ukc(DAILY), unido(DAILY),
+	vmucnam(DAILY)
+
+#N	iris
+#S	SM90 SMX5.2
+#O	Ecole des Mines de Saint Etienne, messagerie
+#C	Jean-Francois Chambon, Paul Andre' Pays
+#E	iris!chambon, emsesmc!pays
+#T	+33 77420180
+#P	158 Cours Fauriel, F-42023 Saint-Etienne CEDEX, France.
+#L	4 22 E / 45 26 N
+#R	messagerie de la recherche accessible par minitel, a l'ADI jusqu'en 87
+#R	research mail-system through minitel, formerly at ADI until Dec 86.
+#W	inria!devill 870408
+#
+iris	inria(DEMAND)
+
+#N	irisa
+#S	SM90 SMX 
+#O	Institut de Recherche en Informatique et Systemes Aleatoires.
+#	INRIA Centre de Rennes. LA CNRS 227.
+#C	Raymond Trepos
+#E	irisa!trepos
+#T	+33 99 362000
+#P	Avenue du General Leclerc, F-35042 RENNES Cedex, France
+#L	1 41 W / 48 05 N(city)
+#R	
+#W	inria!devill 860903
+#	
+irisa	inria(DAILY/2), vmucnam(DAILY)
+
+
+#N	isemvax
+#S	Vax 750 BSD4.2
+#O	Laboratoire ISEM de l'Universite Paris-Sud/Orsay
+#C	Gilbert Harrus
+#E	isemvax!gh
+#T	+33 (1) 69-41-65-79
+#P	Laboratoire ISEM. Bat 490. Universite Paris-Sud. F-91405 Orsay CEDEX.
+#L	2 10 E / 48 42 N (city)
+#R	
+#W	inria!devill 860903
+#U	
+#
+isemvax	lri(HOURLY)
+
+
+#N	isys
+#S	THOMSON MICROMEGA 32 (V7)
+#O	Informatique Systemes Isys
+#C	Patrick Chevalier, Herve Schauer
+#E	isys!pat, isys!herve
+#T	+33 1 47 74 94 34
+#P	8 Square Leon Blum, F-92800 Puteaux, France.
+#L	48 53 N / 2 14 E (city)
+#R	
+#W	isys!pat 870223
+#U	
+isys	diox(DAILY), itecom(WEEKLY), uparis8(WEEKLY)
+
+#N	itecom
+#S	Apricot Xen Xenix
+#O	Informatique et Techniques de Communication
+#C	Herve Schauer
+#E	itecom!schauer, itecom!hugly
+#T	+33 (1) 42 61 41 34
+#P	5bis, Boulevard des Italiens
+#	75002 Paris, France
+#L	2 21 E / 48 52 N (city)
+#R	
+#W	itecom!schauer 870225
+#U	
+itecom	diox(DAILY),	geocub(DAILY),	isys(WEEKLY)
+
+#N	laaslc0
+#S	SM90
+#O	CNET, laNNION CENTRE a, sTRUCTURES ET lOGICIEL POUR LA cOMMUTATION
+#C	J. J. Adam
+#E	laaslc0!jja
+#T	+33 96052978
+#P	CNET LANNION, Route de Tregastel, F-22300 Lannion, France
+#L	3 27 30 W / 48 44 00 N
+#R	
+#W	inria!devill 860903
+#U	timpit0
+#
+laaslc0	timpit0(DAILY/2), vmucnam(DAILY)
+
+#N	lasso
+#S	
+#O	LAAS - Laboratoire d'Automatique et d'Analyse des Systemes du CNRS
+#C	Ralph P. Sobek
+#E	lasso!ralph
+#T	+33 61 252147 [317]
+#P	7, avenue du Colonel-Roche,F-31077 Toulouse CEDEX,FRANCE
+#L	1 26 E / 43 36 N (city)
+#R	
+#W	inria!devill 860903
+#
+lasso	inria(DAILY/2)
+
+#N	lifia
+#S	Vax 11/750, Unix BSD4.2
+#O	Laboratoire d'Informatique Fondamentale et d'Intelligence Artificielle 
+#	Institut d'informatique et de Mathematiques Appliques de Grenoble
+#C	Henri SAYA
+#E	lifia!saya
+#T	+33 76 514600 [5143] 
+#P	LIFIA - IMAG  B.P.68, F-38402 St. Martin D'Heres, France
+#L	05 46 E / 45 12 N
+#R	
+#W	lifia!saya 860619
+#U	imag	
+#
+lifia	imag(DIRECT), acroe(DIRECT)
+
+#N	litp
+#S	VAX11/780 UNIX 4.2 BSD
+#O	Laboratoire d'Informatique Theoretique et Pratique, Universites de Paris VI/VII
+#C	Yves Legrandgerard
+#E	litp!ylg
+#T	+33 1 43362525 [5422]
+#P	Tour 55-56, 2 Pl. Jussieu, F-75251 Paris CEDEX 05, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	inria!devill 860903
+#U
+#
+litp	lvbull(DAILY), inria(DAILY), geocub(DAILY), ircam(DAILY), lri(DAILY),
+	crcge1(DAILY), crin(DAILY)
+
+#N	lri
+#S	
+#O	Universite Paris-Sud, Laboratoire de Recherche en Informatique
+#C	Roland Dirlewanger
+#E	lri!rd
+#T	+33 1 69416629
+#P	LRI Bat 490, F-91405 Orsay CEDEX, France
+#L	2 10 E / 48 42 N (city)
+#R	
+#W	vmucnam!daniel 860312, inria!devill 860903
+#U
+#
+lri	geocub(DAILY), inria(DAILY), ircam(DAILY), prlb2(DAILY)
+
+#N	lvbull
+#S	Mini6, V7 + 4.2BSD extensions
+#O	Bull
+#C	Christain Remy
+#E	lvbull!cr
+#T	+33 1 39024188
+#P	Poste Courrier 33/05, 68 Route de Versailles, F-78430 Louveciennes.
+#L	2 07 E / 48 52 N (city)
+#R	
+#W	lvbull!jim 860530, inria!devill 860903
+#U
+#
+lvbull	hrc63(DAILY/2), emsesmc(HOURLY), echbull(DAILY),
+	vmucnam(HOURLY), inria(DEMAND), timpit0(DEAD), imag(DAILY),
+	ecrcvax(DAILY/2)
+
+LVBnet = {lvbull}!(LOCAL)
+
+lvnet = {lvbull, bullsm, emer0, adkms1}!(DAILY/2)
+
+#N	masbull
+#S	VAX 780 4.2 BSD, 4.3 BSD janvier 87
+#O	BULL TRANSAC, BULL MTS au 1er Janvier 87
+#C	Marc QUIPOURT, Jacques DAVY
+#E	masbull!quipourt, masbull!davy
+#T	+33 (1) 64 47 95 55, +33 (1) 64 47 68 57
+#P	7, rue Ampere 91343 Massy Cedex
+#L	2 17 E / 48 49 N (approx)
+#R
+#W	861207 inria!devill
+#U
+masbull	echbull(WEEKLY)
+
+#N	matra
+#S	Sun3
+#O	Matra Data Systemes
+#C	Jim Loveluck, Mark Opperman
+#E	matra!postmaster
+#T	+33 1 30589800
+#P	1, Avenue Niepce, F-78180 Montigny le Bretonneux, FRANCE.
+#L	2 03 E / 48 47 N (city of St Quentin)
+#R
+#W	inria!devill 860917
+#
+matra inria(DEMAND)
+	
+#N	metradt
+#S	microvax2 / ultrix 1.2
+#O	Sema-metra, direction technique recherche et developpement
+#C	Charles Abecassis
+#E	metradt!charles
+#T	+33 1 46571300 X:2107
+#P	16-18, rue Barbes, F-92126 Montrouge, France
+#L	
+#R	provisoire, temporary
+#W	inria!devill 870127
+#
+metradt	inria(DAILY/4)
+
+#N	nsl
+#S	orion-1 / bsd4.2
+#O	Non Standard Logics
+#C	Said Kharrazen, Alain Deutsch
+#E	nsl!said, nsl!ald
+#T	+33 1 43365978
+#P	57-59, Rue Lhomond, F-75005 Paris, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R
+#W	nsl!ad	870614
+#
+nsl	lri(HOURLY)
+
+
+#N	ogesml0
+#S	
+#O	Centre National d'Etudes de Telecommunications, Centre PARIS-A (PAA),
+#	Division Outils de gestion de l'exploitation (OGE), Departements
+#	Systemes Microprocesseurs et Logiciels
+#C	Uli Finger
+#E	ogesml0!uli
+#T	+33 1 46384168
+#P	38-40 rue du General Leclerc, F-92131 Issy de Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	timpit0
+#
+ogesml0	timpit0(DAILY/2), geocub(DAILY), inria(DAILY), ircam(DAILY),
+	vmucnam(DAILY/2)
+
+#N	pastpe
+#S	PERKIN ELMER 3254 UNIX SV.2
+#O	Centre de Sophia-Antipolis,
+#	Institut National de Recherche en Informatique et Automatique
+#C	Patrice Cipiere
+#E	pastpe!pc pastpe!postmaster
+#T	+33 93 657865
+#P	INRIA, Centre de Sophia Antipolis, Route des Lucioles,
+#	F-06560 Valbonne, France
+#L	7 07 E / 43 35 N (city Antibes)
+#R	
+#W	pastpe!pc 860527, inria!devill 860903
+#
+pastpe 	inria(DAILY/4), cmape(DAILY), cerisi(DAILY/4)
+
+#N	poly
+#S	VAX 8600 ULTRIX32
+#O	Ecole Polytechnique - Centre Informatique
+#C	???
+#E	poly!postmaster
+#T	+33 69418200 ext 2880
+#P	Ecole Polytechnique, Centre Informatique, F-91128 Palaiseau CEDEX
+#L	2 15 E / 48 43 N (city)
+#R	is also FRPOLY11.BITNET, was frpoly.uucp
+#W	inria!devill 870602
+#U
+#
+poly = frpoly
+
+
+#N	polyeur
+#S	Vax Station II ULTRIX 2.0
+#O	POLYGEN Europe Limited
+#C	Brigitte Carrabin
+#E	polyeur!brigitte
+#T	+33 1 45458364
+#P	35 boulevard brune 75680 PARIS CEDEX 14
+#L	2 21 24 E / 48 52 01 N (city)
+#R
+#W	polyeur!brigitte 870625
+#U
+
+#N	pommard
+#S	VAX11/785 UNIX 4.2BSD
+#O	Institut National de Recherche en Informatique et Automatique
+#C	Yves Devillers
+#E	inria!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	virtual site:
+#R	Mail backbone will switch to (several) SPS7 called "inria"
+#R	Vax785, formerly known as "inria" will be known as "pommard"
+#W	inria!devill 870430
+#U	inria
+#
+pommard = pommard.inria.fr
+pommard	inria(LOCAL)
+
+#N	rtbull
+#S	SM90, SMX4.2
+#O	BULL SA, centre de recherche technologie
+#C	Pascal Delamotte
+#E	rtbull!delamott
+#T	+33 1 34627485
+#P	Bull SA, Rue Jean Jaures, F-78340 Les Clayes sous Bois, France
+#L	1 59 E / 48 49 N (city)
+#R
+#W	inria!devill 860903
+#
+
+#N	speedy
+#S	Bull SPS9/Ridge ROS 3.3
+#O	equipe CROAP
+#	INRIA, centre de Sophia Antipolis
+#E	speedy!fm, speedy!kahn
+#T	+33 93 65 78 06	
+#P	INRIA-SOPHIA Avenue Emile Hugues
+#	F-06565 Valbonne CEDEX, France
+#L	7 07 E / 43 35 N (city Antibes)
+#R	
+#U	
+#W	inria!devill 861015
+#
+
+#N	telic7	
+#S	HP 9000 SERIE 500 HP-UX
+#O	La Telephonie Industrielle et Commerciale
+#	TELIC ALCATEL - Unite de recherche
+#C	Armand Marchesin, Jean-Pierre Aubert
+#E	telic7!reseau
+#T	+33 88 79 44 18 ext 7223 or ext 7025	
+#P	15,17 Rue du Marechal Lefebvre, F-67100 Strasbourg, France
+#L	7 47 00 E /48 33 00 N
+#R	
+#W	inria!devill 860908
+#U	
+#
+telic7  inria(DAILY)
+
+#N	thcgr
+#S	M68K, Unix SVR2
+#O	Thomson CGR.
+#C	Hakam Shapour
+#E	thcgr!shapour
+#T	+33 1 45-54-92-22 ext 733
+#P	48, rue Camille Desmoulin, F-92130 Issy les Moulineaux, France.
+#L	2 17 E / 48 49 N (city)
+#R	experimental
+#W	inria!devill 860903
+#U
+#
+thcgr	inria(DAILY)
+
+#N	timatl1
+#S	SM90, Unix V7
+#O	Centre National d'Etudes de Telecommunication, Centre Paris-A (PAA),
+#	Division:    Telematique Informatique Mathematique (TIM),
+#	Departement: Assistance  Technique et Logicielle   (ATL).
+#C	Christian Bac
+#E	timpit0!timatl1!chris
+#T	+33 1 45294965
+#P	38-40 Rue du General Leclerc, F-92131 Issy les Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	
+#
+timatl1	timpit0(DAILY),	chix(DAILY), ogesml0(DEMAND)
+
+#N	timpit0
+#S	SM90, Unix V7
+#O	Centre National d'Etudes de Telecommunication, Centre Paris-A (PAA),
+#	Division:    Telematique Informatique Mathematique (TIM),
+#	Departement: Assistance  Technique et Logicielle   (ATL).
+#C	Christian Bac
+#E	timpit0!chris
+#T	+33 1 45294965
+#P	38-40 Rue du General Leclerc, F-92131 Issy les Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	ogesml0,ogetdt0,laaslc0
+#
+timpit0	lvbull(DAILY), ogesml0(DAILY), ogetdt0(DAILY), laaslc0(DAILY),
+	chix(DAILY), cnetlu(DAILY), timatl1(DAILY)
+
+#N	tls-cs
+#S	VAX 11/750 / UNIX 4.2 BSD
+#O	Cert-Deri Toulouse
+#C	Patrice Cros
+#E	tls-cs!cros
+#T	+33 61557061
+#P	2 Avenue Edouard Belin, F-31055 Toulouse Cedex, France
+#L	1 26 E / 43 36 N (city)
+#R	
+#W	tls-cs!cros 860513, inria!devill 860903
+#U
+#
+tls-cs	vmucnam(DAILY), inria(HOURLY), lln-cs(DAILY), prlb2(DAILY),
+	csinn(EVENING), cselt(DEMAND)
+
+#N	trtmv0
+#S	Microvax II  /  Ultrix 32m v1.1
+#O	TRT Service Central Logiciel
+#C	Francois GAUFRETEAU
+#E	trtmv0!fg
+#T	+33 1 46302323 [043]
+#P	5, Avenue Reaumur F-92350 Le Plessis Robinson, France.
+#L	2 15 E / 48 46 N (city)
+#R	
+#W	inria!devill 860903
+#U	cerci2, prlb2
+#
+trtmv0	cerci2(DAILY), prlb2(DAILY)
+
+#N	unicflin
+#S	Sun 3/50 
+#O	Universite Clermont-Ferrand
+#C	
+#E	unicslin!lee
+#T	+33 16 73915444
+#P	Labo linguistique 34 av. Carnot 63037 Clermont-Ferrand
+#L	
+#R	temporaire
+#W	inria!ehrlich 870708
+#U	
+unicflin inria(DAILY/4)
+
+#N	univorl
+#S	SM90 Bull SMX version 5.1
+#O	Universite d'Orleans, Departement Mathematiques et Informatique
+#C	Luc Bouge
+#E	inria!univorl!bouge, inria!ens!bouge
+#T	+33 38 41 71 71 [7626]
+#P	Departement Informatique, UFR Science
+#	Rue de Chartes, BP 6759, F45067 ORLEANS Cedex 02, FRANCE
+#L	
+#R	Was diorl between 870126 and 870213. diorl is no longer recognised
+#W	univorl!bouge 870217
+#U	
+univorl	inria(DAILY/4)
+
+#N	uparis8
+#S	SM90/SPIX5.1
+#O	Universite Paris 8 (Vincennes a Saint Denis),
+#	Dept Informatique, groupe systeme et reseau
+#C	Jean-Christophe Petithory 
+#E	uparis8!jcp
+#T	???
+#P	2 rue de la Liberte, 93231 Saint-Denis CEDEX
+#L	2 12 E / 48 56 N (city)
+#R
+#W	inria!devill 870106
+#
+uparis8 = vincennes
+
+#N	vmscnam
+#S	VAX780/VMS3.5/EUNICE3.1
+#O	CNAM - Laboratoire d'Informatique
+#C	Jean-Christophe Hanout
+#E	vmscnam!hanout
+#T	+33 1 42712414 [438]
+#P	292 Rue Saint Martin, F-75141 Paris CEDEX 03, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	vmucnam!humberto 850827, inria!devill 860903
+#U	vmucnam
+#
+vmscnam	vmucnam(DAILY)
+
+cnam-decnet = { vmscnam, iier, iiel }!(DEMAND)
+
+#N	vmucnam
+#S	VAX11/750 / UNIX 4.2BSD
+#O	CNAM - Laboratoire d'Informatique
+#C	Bernard Martin
+#E	vmucnam!bernard vmucnam!daniel
+#T	+33 1 42712414 [438]
+#P	292 Rue Saint Martin, F-75141 Paris CEDEX 03, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	inria!devill 860929
+#U
+#
+vmucnam	adiris(DAILY), cerci2(DAILY),cncaltu(DAILY),
+	crcge1(DAILY), crin(DAILY), echbull(DAILY),edfder1(DAILY),
+	geocub(DAILY), gipsy(DAILY), gouldfr(DAILY),
+	imag(DAILY), inria(DAILY), ircam(DAILY), irisa(DAILY),
+	laaslc0(DAILY), lasso(DAILY), litp(DAILY), lln-cs(DAILY),
+	lri(DAILY), lvbull(DAILY),
+	ogesml0(DAILY), timpit0(DAILY),
+	telic7(DAILY), trtmv0(DAILY), tls-cs(DAILY), vmscnam(DAILY) 
+
+cnam-net = { vmucnam, lsicnam, sm0cnam }!(DEMAND)
+SHAR_EOF
+#	End of shell archive
+exit 0

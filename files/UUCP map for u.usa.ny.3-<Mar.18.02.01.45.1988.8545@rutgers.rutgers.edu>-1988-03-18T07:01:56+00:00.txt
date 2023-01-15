@@ -1,0 +1,305 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ny.3
+: This archive created: Fri Mar 18 02:01:19 1988
+echo shar: extracting u.usa.ny.3
+cat << 'SHAR_EOF' > u.usa.ny.3
+#MAP FILE: u.usa.ny.3   Tue Mar 15 00:10:25 EST 1988   rob@philabs.philips.com
+#
+#
+
+#N	step
+#S	Sun-3/180; 4.2 BSD UNIX
+#O	Dean Witter Reynolds Inc.
+#C	Robert Perlberg
+#E	step!perl
+#T	+1 212 392 4945
+#P	2 World Trade Center, New York, NY 10048
+#L	longitude / latitude
+#R	
+#U	philabs
+#W	step!perl (Robert Perlberg); Wed Jan 13 17:27:44 EST 1988
+#
+step	philabs(EVENING)
+
+#N	sunlamp
+#S	Sun 3
+#O	Sun Microsystems Consulting Services, Rochester NY
+#C	Tom Kessler
+#E	sun!tomk
+#T	(716)-385-3055
+#P	Sun Microsystems, 345 Woodcliff Drive, Fairport, NY
+#L	43 06 N / 77 27 W
+#R	
+#W	tomk ; 11/2/87
+#
+sunlamp	 sunrock(LOCAL), tropix(DAILY)
+
+#N	sunrock
+#S	Sun-3/180; 4.2 BSD UNIX
+#O	Sun Microsystems, Inc.	(Western New York Regional Office)
+#C	Brian Wilson
+#E	sunrock!brian
+#T	(716) 385-3055
+#P	345 Woodcliff Drive, Fairport, NY
+#W	Tom Kessler ; 12/7/87 
+#L	43 01 N / 77 36 W 
+sunrock sun(DAILY+HIGH), sunrise(DAILY), sunpitt(HOURLY), sunlakes(HOURLY),
+	suneast(DAILY), sunne(DAILY), sunbow(HOURLY), texsun(DAILY),
+	elmgate(DIRECT), kodak(DIRECT), rochester(WEEKLY),sunlamp(LOCAL)
+
+#N	sunybcs
+#S	VAX11/785; 4.3BSD
+#O	State University of New York at Buffalo, Computer Science Department
+#C	Ken Smith or Devon Bowen
+#E	sunybcs!usenet
+#T	+1 716 636 3190
+#P	320 Bell Hall, Amherst, NY 14260
+#L	78 47 43 W / 43 00 05 N 
+#R	SUNY/Buffalo CS gateway - sunybcs.bitnet, buffalo.csnet, cs.buffalo.edu
+#U	cald80 canisius daemen fredonia kitty moogvax oswego
+#U	boulder rutgers ur-tut
+#W	sunybcs!bowen (Devon E Bowen); Tue Mar	8 02:39:41 PM EST 1988
+#
+# Users on all machines at SUNY/Buffalo CS can receive mail on our local
+# relay machine (cs.Buffalo.EDU) - it gets forwarded to their mail host.
+# For that reason, no additional internal connection info for CS is given.
+#
+sunybcs .buffalo.edu
+sunybcs = "buffalo.csnet"
+sunybcs = "sunybcs.bitnet"
+sunybcs = "cs.buffalo.edu"
+sunybcs boulder(DEDICATED), rutgers(DEDICATED), ames(DEDICATED),
+	ur-tut(DEDICATED), decvax(DEDICATED), allegra(EVENING),
+	rocksanne(EVENING), watmath(EVENING), sbcs(DEDICATED),
+	fredonia(DEDICATED), oswego(DEDICATED), bingvaxu(DEDICATED),
+	alpha(LOCAL), burdvax(EVENING), cald80(DIRECT), torah(DAILY),
+	canisius(DIRECT), daemon(DIRECT), kitty(DIRECT), leow(DAILY),
+	moogvax(HOURLY), codas(DAILY), trotter(DAILY)
+
+#N	svax
+#S	DEC Micro Vax II; 4.3 BSD UNIX
+#O	Cornell University, Computer Science Dept.
+#C	Dean Kraftt
+#E	svax!adm, svax!dean
+#T	+1 607 255 9214, +1 607 255 9184
+#P	4119 Upson Hall, Ithaca, NY 14853-7501
+#L	042 27 N / 076 30 W city
+#R	MAIL ONLY! This machine is on the ARPANET:  svax.cs.cornell.edu
+#U	cornell, gvax
+#W	cornell!parmelee (Larry Parmelee); Tue Mar 10 11:23:53 EST 1987
+#
+svax	cornell(LOCAL)
+
+#N	taliesin
+#S	IBM AT Clone; SCO Xenix 286 System V Rev 2.2.1
+#O	
+#C	Thomas R. Luce
+#E	parcvax!luce.wbst
+#T	+1 716 427 8421
+#P	Rochester NY.	14623
+#L	43 10 N / 77 36 W city
+#R	NONE
+#U		
+#W	parcvax!luce.wbst (Thomas R. Luce); 12-Jan-88 09:03:12
+#
+taliesin	tokugowa(DAILY)
+
+#N	tesla
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Cornell University, Electrical Engineering Dept.
+#C	Chris Pottle
+#E	tesla!pottle
+#T	+1 607 255 9192
+#P	410 Phillips Hall, Ithaca NY, 14853
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPANET:	 tesla.ee.cornell.edu
+#U	
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:58:58 EST 1988
+#
+tesla	cornell(LOCAL), allegra(POLLED)
+
+#N	trintex
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Trintex
+#C	Ed Ravin
+#E	trintex!postmaster
+#T	+1 914 993 4737
+#P	445 Hamilton Avenue, White Plains, NY 10601
+#L	41 04 N / 73 43 W
+#R  
+#W	trintex!elr (Ed Ravin) ; Fri Feb 26 10:53:27 EST 1988
+#U
+trintex philabs(DEMAND)
+
+#N	tropix
+#S	Motorola 68020 Local Workdstation/Tropix
+#O	G.C.A. Corporation, Tropel Division
+#C	Michael J. Lutz
+#E	tropix!mjl
+#T	(716) 377-3200 x153
+#P	60 O'Connor Road, Fairport, NY 14450
+#L	43 06 N / 77 27 W city
+#R	
+#U
+#W	mjl ; 10/16/86
+#
+tropix	allegra(EVENING), ritcv(DEMAND), rochester(DEMAND), sunlamp(DEMAND),
+	ihnp4(EVENING), masscomp(EVENING), moscom(DEMAND)
+
+#N	ubbs
+#S	Tandy 6000; Xenix 3.1
+#O	SuperBlock Software, LTD
+#C	Bruce D. Boardman
+#E	ubbs!bruce
+#T	+1 914 942 1848
+#P	123 Washburn,  Stony Point NY 10980-0211
+#L
+#R	Home of the Un*x BBS, a Public Unix System!
+#U	gastr32 holmes ncoast nyesac ckanr chinet jack
+#W	ubbs!bruce (Bruce D. Boardman); Sat Jan 4 23:00:16 EST 1986
+#
+#	ubbs appears to be dead in the water.  
+#
+#
+ubbs	gastr32(POLLED), holmes(POLLED),
+	nyesac(DAILY), ckanr(POLLED), chinet(WEEKLY), jack(POLLED)
+
+#N	unioncs
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Union College, Computer Science Department
+#C	Lance Spallholz
+#E	unioncs!postmaster
+#T	+1 518 370 6270
+#P	Dept EE/CS, Union College, Schenectady, New York 12309, USA
+#L	73 56 W / 43 49 N
+#R	 
+#U	gecrd1 albanycs
+#W	unioncs!postmaster (Lance Spallholz); Wed Feb 19 11:33:36 EST 1986
+#
+unioncs		gecrd1(HOURLY*2), albanycs(HOURLY*2)
+#
+# We call overnight on demand
+#
+unioncs		brunix(DAILY+DEMAND)
+
+#N	ur-valhalla
+#S	VAX-11/750, 4.3BSD Unix
+#O	University of Rochester, Dept. of Electrical Engineering
+#C	Badri Lokanathan
+#E	rochester!ur-valhalla!badri
+#T	+1 (716) 275-3870
+#P	Rochester, NY 14627  USA
+#L	43 01 40 N / 77 37 49 W
+#R	Also on internet: 128.151.160.11 valhalla.ee.rochester.edu
+#U
+#W	ur-valhalla!badri (Badri Lokanathan) ; 2/7/88
+#
+ur-valhalla	rochester(DEDICATED), ur-tut(DEDICATED), micropen(POLLED),
+		moscom(POLLED)
+
+#N	viascan
+#S	Intel 310/311 development system; XENIX 3.4
+#O	Recognition Research Corp.
+#C	Larry Lippman
+#E	viascan!larry
+#T	+1 716 688 1231, +1 716 741 3900
+#P	5655 Newhouse Road, East Amherst, NY 14051
+#L	78 40 W / 43 00 N
+#R	Primary development and support machine for Viascan Project
+#U	kitty
+#W	viascan!larry (Larry Lippman); Sat Nov 14 11:00:18 EST 1987
+#
+viascan kitty(DEDICATED), vscan(LOCAL), vscan1(LOCAL), vscan2(LOCAL),
+	vscan3(LOCAL), vscan4(LOCAL), vscan5(LOCAL)
+
+#N	walden
+#S	CCI Power 5/32 ; 4.2BSD Unix
+#O	AWCS   (personal machine)
+#C	John Grana
+#E	walden!jjg
+#T	+1 716 334 1503
+#P	120 Heatherdale Cir., Henrietta NY, 14467
+#L	42 20 N / 71 05 W
+#R	
+#U	cci632
+#W	walden!jjg (John Grana) ; Sun Oct 11 16:59:42 EDT 1987
+
+walden	cci632(DAILY), rochester(WEEKLY/3), wingman(DAILY), swssys(DAILY)
+
+#N	wealth
+#S	DEC MicroVAX II; ULTRIX
+#O	Winston Capital Systems, Inc.
+#C	Ken Winston
+#E	wealth!ken
+#T	+1 212 496 5438
+#P	250 West 75th Street, Suite 3A, New York, New York  10023
+#L	40 43 N / 74 01 W
+#R
+#U
+#W	got this w/o a date rob@philabs.philips.com ; Wed Jan 6 10:28:46 EST 1988
+#
+wealth	cmcl2(EVENING), cubsvax(EVENING), rna(EVENING)
+
+#N	wjelny
+#S	ATT UNIX PC/3B1; UNIX System V 3.5
+#O	New York University Medical Center
+#C	Warren R. Jelinek
+#E	wjelny!postmaster, wjelny!wjel
+#T	+1 212 340 5951, +1 212 340 5937
+#P	Biochemistry, N.Y.U. Med. Ctr., 550 First Ave., N.Y., N.Y. 10016
+#L	73 59 W / 40 45 N city
+#R
+#U
+#W	wjelny!wjel (Warren R. Jelinek); Sun Jul 12 13:47:52 EDT 1987
+#
+wjelny	phri(DIRECT), rocky2(DAILY)
+
+#N	wp3b01
+#S
+#O	
+#C	Susan Manassa
+#E	wp3b01!root
+#T	+1 914 397 4123
+#P	Rm 11B5, 1 North Lexington, Ave, White Plains, NY
+#L	41 02 N / 73 46 W city
+#R
+#U	uunet
+#W	seismo!rick; Wed Jun  3 12:44:45 EDT 1987
+#
+wp3b01	uunet(DAILY)
+
+#N	wwd
+#S
+#O	World Wide Data Corp
+#C	Ron Benvenisti
+#E	wwd!ron
+#T	+1 718 438 2807
+#P	133 60th St, Brooklyn, NY 11219
+#L
+#R
+#U
+#W	usenix!madeline (Madeleine McCall); Mon Feb  1 12:38:40 PST 1988
+#
+wwd	uunet
+
+#N	xrx3b
+#S	AT&T 3B2/400, Unix System V
+#O	Xerox Corporation
+#C	Chris Midgley
+#E	xrx3b!cgm
+#T	+1 (716) 422-1927
+#P	800 Phillips Road 311-08J; Webster, NY	14580
+#L	43 13 16 N / 77 25 03 W
+#R	We sometimes exchange mail and news with other machines that the world
+#R	does not know about (either small machines internal to Xerox [oscdcf],
+#R	or machines internal to AT&T)
+#U	rocksvax
+#W	xrx3b!cgm ; 09/18/87
+#
+xrx3b	rocksvax(DIRECT), oscdcf(DIRECT), kitty(DEMAND)
+SHAR_EOF
+:	End of shell archive
+exit 0

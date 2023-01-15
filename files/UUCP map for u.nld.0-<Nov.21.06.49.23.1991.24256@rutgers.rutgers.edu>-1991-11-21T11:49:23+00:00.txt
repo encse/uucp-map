@@ -1,0 +1,160 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.nld.0
+: This archive created: Thu Nov 21 06:49:21 1991
+echo shar: extracting u.nld.0
+cat << 'SHAR_EOF' > u.nld.0
+# u.nld.0 of 0,1,2,3,4,100; changes to: hp4nl!uucpmap
+# Copyright 1989-1991 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# #W lines show 2 dates: date of introduction and date of last change.
+# Last change: Mon Nov 18 15:20:57 MET 1991
+
+#N	hp4nl, .nluug.nl, nluug.nl, hp4nl.nluug.nl, netherlands.eu.net
+#S
+#O	NLUUG Dutch Unix User Group
+#C	Martijn Roos Lindgreen
+#E	postmaster@hp4nl.nluug.nl
+#T	+31 20 5926040
+#P	c/o CWI, Kruislaan 413, NL-1098 SJ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	Dutch backbone site
+#U	
+#W	piet@cwi.nl 880623, martijn@nluug.nl 911118
+#
+hp4nl	.nluug.nl, nluug.nl
+hp4nl = hp4nl.nluug.nl
+# Link to new backbone
+hp4nl	sun4nl(LOCAL)
+# National uucp links
+hp4nl	ace(DEMAND), afa(DEMAND),  agp(DEMAND), ahds(DEMAND), 
+	aie(DEMAND), akam(DEMAND), allneth(DEMAND), amsqnt(DEMAND), 
+	anwb(DEMAND), asml(DEMAND), audnl(DEMAND), baan(DEMAND), 
+	baby(DEMAND), bebux(DEMAND), bimbv(DEMAND), boseis(DEMAND), 
+	bsiao(DEMAND), bsovax(DEMAND), bssi(DEMAND), cadlab1(DEMAND), 
+	camus(DEMAND), capints(DEMAND), cbmnlux(DEMAND), cc1nl(DEMAND), 
+	cgpub(DEMAND), ptt-iat(DEMAND), cmgit(DEMAND), cmihp1(DEMAND), 
+	coeur(DEMAND), coi(DEMAND), comtec(DEMAND), corenl(DEMAND), 
+	crione(DEMAND), ctisbv(DEMAND), cvitoa(DEMAND), dascnl(DEMAND), 
+	datelca(DEMAND), delgeo(DEMAND), dgnl(DEMAND), dnlunx(DEMAND), 
+	disnet(DEMAND), domino(DEMAND), dri500(DEMAND), dupaco(DEMAND), 
+	echelon(DEMAND), epd74hp(DEMAND), erhs40(DEMAND), esatst(DEMAND), 
+	ezres(DEMAND), fmneth(DEMAND), fousupp(DEMAND),geveke(DEMAND), 
+	glieur(DEMAND), gringo(DEMAND), halka(DEMAND), harrnl(DEMAND),
+	hascvx(DEMAND), hbg-dca(DEMAND), hcscg(DEMAND), hcsrnd(DEMAND),
+	hcsvt(DEMAND), hein(DEMAND), hgatenl(DEMAND), hhinsi(DEMAND),
+	hiogron(DEMAND), hku(DEMAND), hlniob(DEMAND), honhio(DEMAND),
+	hpuamsa(DEMAND), hsacsd(DEMAND), htsa(DEMAND), hueiefg(DEMAND),
+	ibmacis(DEMAND), icenl(DEMAND), icgned(DEMAND), icim12(DEMAND),
+	iclnl(DEMAND), ictser(DEMAND), ideta-x(DEMAND), iekey(DEMAND),
+	iheedua(DEMAND), inducom(DEMAND), ingreur(DEMAND), integow(DEMAND),
+	ipstech(DEMAND), iscnl(DEMAND), ita(DEMAND), kaag(DEMAND), 
+	kema(DEMAND), khserv(DEMAND), koha(DEMAND), koncon(DEMAND), 
+	kpn(DEMAND), ktibv(DEMAND), kubix(DEMAND), kyber(DEMAND), 
+	leafesc(DEMAND), ltb(DEMAND), mart(DEMAND), media03(DEMAND),
+	meikonl(DEMAND), mhres(DEMAND), motnl(DEMAND), motom(DEMAND),
+	ncm-01(DEMAND), ncrt800(DEMAND), ncsat(DEMAND), ncsbv(DEMAND),
+	nh20(DEMAND), nibr(DEMAND), nlbb-e(DEMAND), nlbull(DEMAND),
+	nlcvx(DEMAND), nlksla(DEMAND), nlsca(DEMAND), olnl1(DEMAND),
+	oosten(DEMAND), openi(DEMAND), orcenl(DEMAND), oswc(DEMAND),
+	owoc70(DEMAND), pact(DEMAND), pecoaix(DEMAND), phcisa(DEMAND),
+	philapd(DEMAND), picocme(DEMAND), posi(DEMAND), prcmuu(DEMAND), 
+	propell(DEMAND), pttdis(DEMAND), pttrtl(DEMAND), radixbv(DEMAND), 
+	raet-sh(DEMAND), raetdo(DEMAND), ratufa(DEMAND), riditl(DEMAND), 
+	riksnl(DEMAND), rivm(DEMAND), rlim(DEMAND), rnzll3(DEMAND), 
+	rolls(DEMAND), rtmrd1(DEMAND), rwzl10(DEMAND), sabern(DEMAND), 
+	sagante(DEMAND), scos(DEMAND), semanl(DEMAND), serc(DEMAND), 
+	sgihol(DEMAND), shapetc(DEMAND), simac(DEMAND), skferc(DEMAND), 
+	source(DEMAND), spcc386(DEMAND), stout(DEMAND), sunatb(DEMAND), 
+	sunnl(DEMAND), syllogi(DEMAND), tamtam(DEMAND), targon(DEMAND), 
+	taski(DEMAND), techno(DEMAND), tekeur(DEMAND), telmail(DEMAND), 
+	thtel(DEMAND), tic1(DEMAND), tmu(DEMAND), tnofel(DEMAND), 
+	tnosoes(DEMAND), troll(DEMAND), troy(DEMAND), tunex(DEMAND), 
+	uniface(DEMAND), unit4(DEMAND), uugignl(DEMAND), voy-ams(DEMAND), 
+	vsr(DEMAND), wangnl(DEMAND), westc(DEMAND), wmt(DEMAND), 
+	xcomsys(DEMAND), xelion(DEMAND), xirion(DEMAND), xtecwn(DEMAND)
+# National smtp links
+hp4nl	amolf.amolf.nl(DEMAND), canb.can.nl(DEMAND),
+	charon.cwi.nl(DEMAND), gouldnl.encore.nl(DEMAND),
+	cvx.eur.nl(DEMAND), kubix.kub.nl(DEMAND),
+	wn1.sci.kun.nl(DEMAND), nikhapo.nikhef.nl(DEMAND),
+	nikhefh.nikhef.nl(DEMAND), nikhefk.nikhef.nl(DEMAND),
+	vaxh.nki.nl(DEMAND), venlo.oce.nl(DEMAND),
+	phcoms.seri.philips.nl(DEMAND), phigate.cnps.philips.nl(DEMAND),
+	rug4.cs.rug.nl(DEMAND), gufalet.let.rug.nl(DEMAND),
+	accucx.cc.ruu.nl(DEMAND), ruuinf.cs.ruu.nl(DEMAND),
+	vax1.sara.nl(DEMAND), hearnvax.nic.surfnet.nl(DEMAND),
+	surver.surfnet.nl(DEMAND), dutrun.tudelft.nl(DEMAND),
+	tuegate.tue.nl(DEMAND), utrcu1.civ.utwente.nl(DEMAND),
+	carol.fwi.uva.nl(DEMAND), slice.ooc.uva.nl(DEMAND),
+	swi.psy.uva.nl(DEMAND), star.cs.vu.nl(DEMAND),
+	hermes.bouw.tno.nl(DEMAND)
+# National domains
+hp4nl	.leidenuniv.nl, leidenuniv.nl
+# X.400 gateway
+surver.surfnet.nl	.400net.nl, .ibmx400.nl
+# Indirect links
+INDIRECT = {hp4nl,
+	agphk, agpmb,
+	apcihld,
+	atcmpe,
+	bebux, tedux, hadux, spar, iep, den,
+	bsolt, dlt1,
+	cadlab2,
+	ccsom, uvalri,
+	ccspdp,
+	cogpsi,
+	dri500, dri400, dri6000,
+	dutinfd, dutinfa,
+	duteca, duticai, duticg, dutinhea, dutinfd, dutio, dutirt1,
+	dutirt2, dutlru1, dutnak0, dutnak2, dutnak3, dutncp, dutnsi1,
+	dutnsi2, dutrex, dutrps, dutrun, duttnph, lrfs1,
+	duvel, postel, sundts, sundts1, sundts2, sundts3, sundts4,
+	epdsun1,
+	felfs,
+	gouldnl,
+	gu73cdb, gu73exa, gu73pbd, guicce, guspace,
+	hpuamsa, apcihld,
+	media00, media01, media02,
+	nh20, nh19, nh21, nh22, nh23, nh24, nh25, nh26, nh27,
+	nlbb-a,
+	nlgvax,
+	ores,
+	phcoms,
+	phigate, natlab, cnps,
+	philce,
+	philmds,
+	philtis,
+	prle,
+	ruujif,
+	sab10, sab20,
+	spct386,
+	telmail, neabbs,
+	thehp1,
+	tic2, tic4,
+	tmu, 3ba, 3bc, ata, atb, btm, ibmate, ibmath,
+	tnoibbc,
+	uisrtb,
+	ux53}!(DEMAND*2)
+
+#N	sun4nl, sun4nl.nluug.nl
+#S
+#O	NLUUG Dutch Unix User Group
+#C	Martijn Roos Lindgreen
+#E	postmaster@hp4nl.nluug.nl
+#T	+31 20 5926040
+#P	c/o CWI, Kruislaan 413, NL-1098 SJ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	New Dutch backbone site
+#U	
+#W	piet@cwi.nl 911114, piet@nluug.nl 911114
+#
+sun4nl = sun4nl.nluug.nl
+# Link to old backbone
+sun4nl	hp4nl(LOCAL)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

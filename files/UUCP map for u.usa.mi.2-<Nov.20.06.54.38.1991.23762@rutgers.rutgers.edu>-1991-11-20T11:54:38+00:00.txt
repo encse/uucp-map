@@ -1,0 +1,1496 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mi.2
+: This archive created: Wed Nov 20 06:54:36 1991
+echo shar: extracting u.usa.mi.2
+cat << 'SHAR_EOF' > u.usa.mi.2
+# This map is maintained by Bob Leffler  (uucpmap@vela.acs.oakland.edu)
+# Mail updates to uucpmap@vela.acs.oakland.edu or uucpmap@rutgers.edu
+# u.usa.mi.2 last updated: Mon Nov 11 22:22:13 EST 1991
+
+#N	gang
+#S	Altos; Altos OS System V
+#O	MSE
+#C	sheldon Hamburger
+#E	gang!sheldon
+#T	+1 313 855 4220
+#P	Northwestern HWY, Farmington Hills, MI
+#L	42 30 N / 83 27 W city
+#W	ttardis!rlw  ; Wed Apr 19 11:50:27 EDT 1989
+#
+gang	ttardis(WEEKLY)
+
+#N     ganglion
+#F     sharkey.umich.edu
+#S     TMC 486/25 running AT&T Unix System V/386 R3.2.1
+#O     D.J. Services
+#C     David Hwang
+#E     david@ganglion.ann-arbor.mi.us
+#T     +1 313 663 5557
+#P     1050 Wall Street, Suite 10C,  Ann Arbor, Michigan 48105
+#L     42 18 N / 83 45 W city
+#R     Medical Office Automation and Medical Office Billing Software
+#U     sharkey.cc.umich.edu mudos.ann-arbor.mi.us
+#W     david@ganglion.ann-arbor.mi.us (David Hwang); Mon Jul  1 16:50:00
+#
+ganglion     mudos(DIRECT+FAST), sharkey(DIRECT+FAST)
+
+#N      gdls
+#S      Sun 3/260; SunOS 4.1.1
+#O      General Dynamics Corporation, Data Systems Division @ Land Systems
+#C      Robin Handelman
+#E      handelma@gdls.uucp
+#T      +1 313 825 8522
+#P      6000 East Seventeen Mile Road; MZ 435-02-33; Sterling Heights, MI 48078
+#L
+#R      News/Mail host
+#U      teemc
+#W      handelma@gdls.uucp (Robin Handelman); Tue Sep 24 09:16:51 EDT 1991
+#
+gdls    teemc(DEMAND+FAST)
+
+#N      genias
+#S      Generic 80386 Machine;  Waffle UUCP
+#O      Generic Instruments And Systems
+#C      Russ Heibel
+#E      genias!russ
+#T      +1 616 897 5252
+#P      Lowell, MI  49331
+#U      wybbs
+#W      Russ Heibel; Wed Sept 11 21:05:00 EST 1991
+#
+genias  wybbs(DAILY)
+
+#N	glc
+#S	AT&T 3B2-300; System V 3.1
+#O	George L. Chisa
+#C	George L. Chisa
+#E	glc!postmaster
+#T	+1 313 651 6206
+#P	617 Spartan Drive, Rochester Hills, MI 48309
+#L	42 30 N / 83 15 W
+#R
+#U	uunet
+#W	glc!gc (George L Chisa); Sun Aug 20 09:58:06 EST 1989
+#
+glc	uunet(WEEKLY), teemc(DAILY)
+
+#N      gmcpc1
+#S      AT&T 3B1; UNIX System V 3.5
+#O      Chevrolet-Pontiac-GM of Canada, General Motors
+#C      John R. Williams
+#E      gmcpc1!jrw
+#T      +1 313 947-5683
+#P      30001 Van Dyke, Rm. 258-25, Warren, Michigan 48090-9020
+#L      42 30 30 N / 83 01 36 W city
+#R      Polls out twice per day
+#U      
+#W      gmcpc1!jrw (John R Williams); Tue Jan 30 12:01:23 EST 1990
+#
+gmcpc1  rphroy(DAILY/2)
+
+#N	gmeeca
+#S	IBM AT; VENIX System V Rel. 2.2
+#O	General Motors Electrical Engineering Center (EMC-40)
+#C	Dr. Bradley W. Smith
+#E	gmeeca!sb
+#T	+1 313 685 5265
+#P	GM Proving Ground Bldg 40, Milford, Mi 48042-2001
+#L	83 40 15 W / 42 34 26 N
+#R	
+#U
+#W	bob@rel.eds.com; Tue Feb 21 20:45:00 EST 1989
+#
+gmeeca	lll-tis(DEMAND), hela(DEMAND), hse001(DEMAND), tis3b1(DEMAND),
+	dora(DEMAND)
+
+#N	gomidas, gomidas.mi.org
+#F	sharkey.cc.umich.edu
+#S	NeXTcube; 4.3 BSD UNIX (Mach) NeXT Release 2.0
+#O	ArTel
+#C	Roland Telfeyan
+#E	gomidas!root
+#T	+1 313 761 6547
+#P	1685 Broadway 202, Ann Arbor, MI 48105-1861, USA
+#L	42 18 N / 83 45 W city
+#W	gomidas!roland (Roland Telfeyan); Thu Sep 19 09:35:12 EDT 1991
+#
+gomidas=	gomidas.mi.org
+gomidas	sharkey(DIRECT+HIGH)
+
+#N	grendl
+#S	AT&T 7300 aka UNIXPC; UNIX SysV release 3.51m
+#O	<N/A>
+#C	Robert Haar
+#E	grendl!rhaar
+#T	+1 313 986 1412
+#P	Rochester Hills, MI 48309
+#L	42 40 N / 83 10 W
+#R	Bob Haar's Home System
+#U
+#W	 grendl!rhaar (Robert Haar); Wed Nov 14 00:00:00 EST 1990
+#
+grendl	rphroy(POLLED) 
+
+#N	grex
+#S	Sun-2/170, SunOS 3.2
+#O	Cyberspace Communications, Inc.
+#C	Marc Unangst
+#E	grex!Postmaster
+#T	+1 313 665 7870
+#P	Marc Unangst, 3659 Middleton Dr., Ann Arbor, MI 48105
+#L	42 18 N / 83 45 W city
+#R	Grex is a public-access system offering Unix shell accounts,
+#R	computer conferencing, and Usenet news to the general public.
+#R	The phone number is (313)761-3000, 3/12/2400bps, 7E1.
+#U	mudos
+#W	grex!mju (Marc Unangst); Wed Oct 30 22:58:14 EST 1991
+#
+# Updates of this map entry should be sent to Bob Leffler,
+# uucpmap@vela.acs.oakland.edu.
+#
+grex	mudos(HOURLY),
+	kitenet(HOURLY),
+	sno-1(POLLED),
+	netmeg(POLLED),
+	hamjudo(POLLED),
+	ohriman(POLLED),
+	iunet(POLLED),
+	ganglion(POLLED),
+	tccbbs(POLLED),
+	acorus(DAILY)
+
+#N    grid
+#S    Altos 68020; UNIX System III
+#O    M-Net Computer Communications Inc.
+#C    Michael J. Myers
+#E    grid!postmaster
+#T    +1 313 994 5255
+#P    1050 Wall Street, Ann Arbor, MI 48105
+#L    42 18 N / 83 45 W city
+#R    Public Access UNIX system with computer conferencing, news, and mail.
+#U    b-tech
+#W    grid!mike (Michael J. Myers); Tue Mar 20 14:15:16 EDT 1990
+#
+grid        b-tech(DAILY)
+
+#N	gumby
+#S	DEC MicroVAX II; ULTRIX 3.1
+#O	Western Michigan University
+#C	Leonard J. Peirce
+#E	gumby!postmaster
+#T	+1 616 387 5430
+#P	Academic Computer Center, 3327 Rood Hall, Kalamazoo, MI  49008
+#L	42 17 00 N / 85 37 14 W Kalamazoo
+#R	This is also GUMBY.CC.WMICH.EDU on the Internet
+#U	umich.edu, cs.wmich.edu, gw.wmich.edu
+#W	gumby!peirce (Leonard J. Peirce); Thu Jan 18 13:14:45 EST 1990
+#
+gumby	.cc.wmich.edu(LOCAL)
+gumby=	gumby.cc.wmich.edu
+gumby	wmichgw(LOCAL), wmu-cs(LOCAL), umich(POLLED)
+
+#N	hamjudo
+#S	AT&T 3B1 ; UNIX 3.51m
+#O	Not organized
+#C	Paul Haas
+#E	hamjudo!paulh
+#T	+1 313 426 5836, +1 313 HAM JUDO
+#P	3600 N Zeeb Rd, Dexter, MI 48130
+#L	42 20 N / 83 55 W city
+#R	Home machine used for mail
+#U
+#W	hamjudo!paulh (Paul Haas) ; Wed Aug 21 12:01:32 EDT 1991
+#
+hamjudo = hamjudo.mi.org
+hamjudo	heifetz(DAILY)
+
+#N	hamton, hamton.michigan.com
+#S      Sun 3/150, SunOS 4.1
+#O      Detroit Direct Marketing, Inc.  
+#C      John Palmer
+#E      hamton!root
+#T      +1 313 881 8568
+#P      4626 Bedford St., Detroit, MI  48224-3625
+#L      42 18 N / 83 45 W city
+#U	tygra
+#W      tygra!root (Charlie Root); Mon Apr  8 05:01:58 EST 1991
+#R 	One of six SUN 3's used for our UUCP/NEWSFEED customers
+#
+hamton	    = hamton.michigan.com
+hamton       tygra(LOCAL)
+
+#N	haze
+#S	AT&T 3B1; UNIX System Vr2 (release 3.51)
+#O	[this is a personal system]
+#C	Michael J. George
+#E	haze!miche
+#T	+1 517 593 2336
+#P	601 S. Jones Rd., Pewamo, MI  48873; USA
+#R	School address (Sept. through May):
+#R	436E Wadsworth, 1701 Townsend Drive, Houghton, MI  49931; USA
+#R	School phone: +1 906 487 0957
+#U
+#W	haze!miche (Michael George); Thu Jan 18 19:56:13 EST 1990
+#
+haze	sharkey(DEMAND), mtu(DEMAND)
+
+#N	heifetz, heifetz.msen.com
+#S      Sun 3/50; SunOS 4.1
+#O      MSEN, Inc.
+#C      Owen Scott Medd, Edward Vielmetti
+#E      heifetz!postmaster
+#T      +1 313 741-1120
+#P      628 Brooks Street, Ann Arbor, MI 48103
+#L      42 18 N / 083 43 W city
+#U	ox.com tbomb agog amara samsung bgalli macbw rotag
+#R	Also registered in the .US domain
+#W      heifetz!osm (Owen Scott Medd) ; Wed Nov  6 05:09:39 EST 1991
+#
+heifetz = heifetz.ann-arbor.mi.us
+heifetz	= msen.com
+heifetz	.msen.com(LOCAL)
+#
+heifetz agog(DIRECT), amara(DIRECT), bgalli(DIRECT), hamjudo(DIRECT),
+	hela(DIRECT), lokkur(DEMAND), macbw(DIRECT), msdog(DIRECT),
+	ox.com(DIRECT+HIGH), pbsinc(DIRECT), rotag(DIRECT), rphroy(DIRECT),
+	<samsung>(DIRECT), sharkey(DEMAND), south(DIRECT), tbomb(DIRECT),
+	wagner(DIRECT)
+
+#N	hela
+#S	DEC 5810 Ultrix
+#O	The Industrial Technology Institute
+#C	Steve Simmons, Steve Brophy
+#E	hela!postmaster
+#T	+1 313 769 4086
+#T	+1 313 769 4091
+#P	2901 N. Hubbard, Ann Arbor, MI 48106
+#W	hela!postmaster ; Tue Jul  2 15:09:54 EDT 1991
+#L	83 42 48 W / 42 17 23 N
+#R	Production machine/outside communications
+#R	Master node for iti.org
+#R	[35.195.48.9]
+#R	One of the central nodes for mi.us, name server for mi.org.  Write
+#R	mimp@iti.org for details.
+#U	lokkur clif umeecs mirc00 widener ox.com
+#
+#  Our very own domain.
+hela = hela.iti.org
+hela = iti.org
+#
+#  As gateway to it...
+#
+hela	.iti.org(LOCAL)
+#
+#  Our small circle of friends
+#
+hela	abaa(DEMAND), abdul(DAILY), acorus(DAILY),
+	amara(DAILY), anet(DAILY),
+	applga(DAILY), aps(DAILY/2), b-tech(DAILY), bulley(DAILY),
+	clif(DEMAND), clmqt(DAILY), dale1(DAILY),
+	dgsi(DAILY/4), dpd(DAILY), emunix(DAILY), eurynome(HOURLY),
+	fmsrl7(DAILY), frigg(DIRECT), gmeeca(DAILY), heifetz(WEEKLY),
+	hela(LOCAL), huron(DAILY/2), inquiry(DEMAND),
+	izzy(DAILY), libove(DAILY), lokkur(DIRECT+FAST),
+	mbsun(WEEKLY), m-net(WEEKLY), mirc00(DAILY),
+	mudos(DAILY), raycon(DAILY),
+	rel(DAILY), resai1(DAILY), samsoma(DAILY),
+	sevihc(DAILY), supyrior(DAILY), teemc(WEEKLY),
+	wcg(DAILY), wraith(DAILY)
+#
+# TCP/uucp connections
+#
+hela	caen(DIRECT),
+	citi(DIRECT),
+	sharkey(DIRECT),
+	umich(DIRECT),
+	umeecs(DIRECT),
+	widener(DIRECT)
+
+#N          herstal
+#F          wsu-cs.cs.wayne.edu
+#S          HP 9000 Model 825; HP-UX 7.0
+#O          Herstal Automation Limited
+#C          Brad Baker
+#E          brad@herstal.com, brad@royaljok.fidonet.org
+#T          +1 313 548 1999
+#P          3171 W 12 Mile Rd, Berkley MI 48072
+#L          42 31 N / 83 10 W city
+#R          Integrators of high tech SCSI mass storage devices and
+#R          library units for HP-UX and other HP computer systems.
+#U          wsu-cs
+#W          brad@herstal.com (Brad Baker); Mon Jan 14 19:53:15 EST 1991
+#
+herstal     .herstal.com
+herstal=    herstal.com
+herstal     wsu-cs(DAILY), royaljok(DAILY)
+
+#N	hfhrv 
+#S	DEC VAX-11/750; Ultrix 2.2 (4.2 BSD UNIX) 
+#O	Henry Ford Hospital, Department of Radiology	
+#C	Brian Wolfe 
+#E	hfhrv!brian, brian@hfh.edu
+#T	+1 313 876 7461
+#P	2799 West Grand Blvd. Detroit MI 48202
+#L	42 22 N / 83 04 W  
+#R	Mail/Usenet gateway for Henry Ford Health Care Corp. 
+#R	mibte removed; uucpmap@rel.mi.org
+#U	sharkey mibte 
+#W	brian@hfh.edu ; Wed Sep 6 10:15:25 EST 1989
+#
+hfhrv	sharkey(DIRECT)
+
+#N	hotlips
+#S	AT&T 3B2/400; System V.3.2
+#O      TSM Computing Group
+#C	Linda J. Gamnes
+#E	hotlips!news
+#T	+1 313 930 7610 
+#P	1968 Green Road, P.O. Box 301, Ann Arbor, MI  48106
+#L	42 18 N / 083 43 W city
+#U	leebai
+#R	mail machine for TSM Computing Group, Inc.
+#W	hotlips!lgamnes (Linda J. Gamnes) ; Thu Apr 12 16:00:00 EDT 1990
+#
+hotlips	heifetz(EVENING), sharkey(DIRECT), leebai(DIRECT)
+
+#N	hoxcon
+#S	AT&T 3B1 unix-pc 7300; UNIX System V v.3.51
+#O
+#C	R. David Hoxie
+#E	hoxcon!usenet
+#T	+1 616 281 3517 or +1 616 957 8212
+#P	1011 Silverleaf, Kentwood, MI   49508
+#L	42 51 30 N  /  85 38 10 W
+#R	This is a private machine.
+#W	hoxcon!dhoxie (R. David Hoxie); Thu Sep 28 06:31:32 EST 1989
+#U
+#
+hoxcon	wybbs(DAILY)
+
+#N	huey
+#S	Convergent S/640 (AT&T 3B2)
+#O	Convergent Technologies
+#C	Mike Bahr
+#E	Huey!mic
+#T	+1 313 489-0050
+#P	34405 West 12 Mile Road, Suite 315, Farmington Hills, MI  48331
+#L
+#U	aablue
+#W	aablue!kevin; Tue Feb 21 15:17:40 EST 1989
+#
+huey	aablue(WEEKLY)
+
+#N	huron, huron.ann-arbor.mi.us
+#F	hela.iti.org
+#S	386; Xenix
+#O	Huron Systems
+#C	Brian D Renaud
+#E	huron!postmaster
+#T	+1 313 662 1120
+#P	555 South Forest, Ann Arbor, MI  48104
+#L	42 18 N / 83 45 W city
+#R	Registered in the .US domain
+#U
+#W	huron!bdr (Brian D. Renaud); Mon Jul  1 09:42:03 EDT 1991
+#
+huron = huron.ann-arbor.mi.us
+#
+huron	hela(DAILY/3), neti4(DAILY)
+
+#N	hurriv
+#S	ITT XT/PC ; MS-DOS
+#O	Huron River Consulting
+#C	Ron Dalton
+#E	hela!red
+#T	+1 313 482 0177
+#P	P. O. Box 3298, Ann Arbor, MI. 48106
+#W	hela!red ; Mon Nov 19 12:20:24 EST 1990
+#R	Someday to become hurriv.ypsi.mi.us
+#
+hurriv	lokkur(DEMAND)
+
+#N	inquiry, inquiry.org
+#F	umich.edu, iti.org
+#O	Inquiry Research
+#C	Bruce Howard
+#E	inquiry!postmaster, postmaster@inquiry.org
+#T	+1 313 747 6781
+#P	913 Huron 5c, Ann Arbor, Mi 48104
+#L	42 18 N / 83 45 W city
+#W	Howard; Tue Oct 30 04:06:23 EST 1990
+#
+inquiry ames(DIRECT), anet(DIRECT), caen(DIRECT), citi(DIRECT), clif(DIRECT),
+	dartvax(DIRECT), decvax(DIRECT), eckbox(DIRECT), gatech(DIRECT),
+	heifetz(DIRECT), hela(DIRECT), kitenet(DIRECT), leebai(DIRECT),
+	lokkur(DIRECT), mailrus(DIRECT), m-net(DIRECT),
+	shadow(DIRECT), sharkey(DIRECT), umich(DIRECT), utai(DIRECT),
+	yale(DIRECT)
+# these links down pending availability of dedicated dialin line
+inquiry	<b-tech>(DEAD), <emunix>(DEAD), <netmeg>(DEAD), <rsi>(DEAD), 
+	<upose>(DEAD)
+
+#N      instem
+#S      Amiga 2000; Amiga-DOS v1.3, Amiga-UUCP v1.13D, C-Usenet v0.46
+#O      Armadillo Engineering
+#C      George Fradl
+#E      instem!gfradl
+#T      +1 313 949 0317
+#P      49200 Paul Dr., Mt. Clemens, MI  48045
+#L      42 35' 50" N / 82 52' 41" W
+#R      Running C-Net Amiga BBS software with C-Usenet shell
+#U         vela sycom
+#W      instem!gfradl (George Fradl); Mon Sep 22 00:20:32 EDT 1991
+#
+instem  vela(DAILY), sycom(DIRECT), tcedge(POLLED)
+
+#N      ionic
+#S      Amiga 1000 / OS 1.3
+#O      Simulation Technologies
+#C      Greg Miller
+#E      ionic!gm
+#T      +1 517 627 4275
+#P      9575 Royston Road, Grand Ledge, MI  48837
+#L      42 41 41 N / 84 42 55 W
+#U      sharkey
+#W      ionic!gm (Greg Miller) ; Thu Aug 10 12:56:36 EDT 1989
+#
+ionic           frith(DAILY), sharkey(DAILY)
+
+#N	ipecac
+#S	Dale Comp. Corp. 386SX; SCO XENIX 2.3.2
+#O	None, personal, active mail machine
+#C	John H. Lawitzke
+#E	ipecac!jhl
+#T	+1 517 393 1642
+#P	6200 Cooper Rd., Lansing, MI, 48909
+#L	42 43 50 N / 84 28 54 W
+#U
+#W	ipecac!jhl (John H. Lawitzke); Mon Nov 13 12:57:27 EST 1989
+#
+ipecac	frith(DIRECT)
+
+#N	irie
+#F	
+#S	IBM RT; AOS4
+#O	University of Michigan Computing Club
+#C	Jon Zeeff
+#E	jon@ais.org
+#T	+1 313 995 1271 
+#P 	2607 Patricia Ct  Ann Arbor, MI 48103
+#L	42 18 N / 83 45 W city
+#U	 
+#R	
+#W	jon@ais.org; Sat Aug 24 15:02:22 EDT 1991
+#
+irie	b-tech(DIRECT)
+
+#N	itg
+#S	Sun Sparcstation; SunOs 4.0.3
+#O	Electronic Data Systems
+#C	John Kaitschuck
+#E	itg!root
+#T	+1 313 265 6995
+#P	800 Tower Drive, Troy, MI 48007
+#L	42 36 N / 83 09 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Sep 18 09:14:40 EDT 1990
+#U
+#
+itg	uunet(DEMAND)
+
+#N	iunet
+#S	IC386-25MHZ ; SCO-UNIX 3.2 w MMDF
+#O	Innovative Concepts, INC
+#C	Ivars Upatnieks 
+#E	iunet!root
+#T	+1 313 663 9598
+#P	2662 Valley Drive, Ann Arbor, MI 48103
+#L	42 03 00 N / 83 56 30 W 
+#R	Public Access Unix System at 313-994-9393
+#U	m-net
+#W	iunet!root (Ivars Upatnieks) ; Mon May 6 10:00:00 EST 1991
+#
+iunet = iunet.ann-arbor.mi.us
+iunet m-net(DAILY), mudos(DAILY), entity(DAILY), emunix(DAILY)
+
+#N	iwblsys
+#S	Intel 486/520 System; UNIX V/386 R3.2
+#O	Intel Corp., West Bloomfield, Michigan Sales Office
+#C	Mickey Smith
+#E	iwblsys!postmaster
+#T	+1 313 851 8096
+#P	7071 Orchard Lake Rd., West Bloomfield, MI 48322
+#L	42 33 N / 83 27 W city
+#W	iwblsys!smith (Mickey Smith); Fri Sep 13 08:45:00 EDT 1991
+#U	cfctech idayton
+#
+#  Domain definitions
+#
+iwblsys=iwblsys.field.intel.com
+#
+#  External gateway connections
+#
+iwblsys	cfctech(HOURLY+HIGH), intelhf(DEMAND+HIGH),
+	fmsrlx(DEMAND),	ttardis(DIRECT+HIGH), idayton(DEMAND+HIGH),
+	foobar(DEAD), rel(DEAD)
+
+#N	izzy
+#S	Plexus / Sys V.2
+#O	Isthmus Corp.
+#C	Ken Cook
+#E	izzy!kpc
+#T	+1 313 973 2100
+#W	scs@iti.org ; Mon Nov 19 12:20:49 EST 1990
+#
+izzy	hela(DAILY)
+
+#N	jafus, jafus.mi.org
+#F	sharkey.cc.umich.edu
+#S	IBM PC/RT; AIX 2.2.1
+#O	personal system
+#C	Eddy J. Gurney
+#E	postmaster@jafus.mi.org
+#T	+1 313 478 0259
+#P	18712 Westbrook Drive, Livonia, MI  48152-2840
+#L	42 43 N / 84 28 W
+#W	eddy@jafus.mi.org; Tue May 29 12:59:03 EDT 1990
+#
+jafus	= jafus.mi.org
+jafus	sharkey(HOURLY)
+
+#N	jdbbs, jdbbs.mi.org
+#F	sharkey.cc.umich.edu
+#S	20 Mhz Mylex 80386; Interactive UNIX Version 2.2.1
+#O	JD's Connection
+#C	Jon Diekema
+#E	jdbbs!postmaster
+#T	+1 616 669 6413
+#P	7719 Park Lane, Jenison, Mi 49428
+#L	43 08 N / 85 51 W
+#R	This is a private system.
+#U	esseye mcgoo muondev wybbs 
+#W	jdbbs!diekema (Jon Diekema); Sat Oct 26 09:39:43 EDT 1991
+#
+jdbbs	= 	jdbbs.mi.org
+jdbbs		esseye(DAILY),
+		mcgoo(DAILY),
+		muondev(DAILY),
+		seaeye(LOCAL),
+		wybbs(DEMAND)
+
+#N	jester
+#S	Commodore-AMIGA 2000; Amiga-DOS V1.3 & AmigaUUCP v1.03D
+#O	Peace though superior fire power
+#C	Mike Pfeiffle
+#E	jester!jester
+#T	+1 313 677 3007
+#P	P.O. Box 2325, Ann Arbor, MI 48106
+#L      42 18 N / 83 45 W city
+#U	rjf001
+#W	jester!jester  (Mike Pfeiffle);  Fri Jul 06 14:23:40 EDT 1990
+#
+jester	m-net(HOURLY*2)
+
+#N	jwprod
+#S 	Commodore Amiga; V1.2/1.3 & AmigaUUCP 1.06D
+#O	JW Productions
+#C	Jeff Wheelhouse
+#E      jwprod!root
+#T      +1 616 676 2471
+#P      6540 Ada Drive SE
+#L	
+#R      Soon to be Public Access AmigaDOS
+#U      wybbs
+#W      wybbs!wulfgar (Jeff Wheelhouse); Sun Oct 28 02:00:00 EST 1990
+#
+jwprod	wybbs(DAILY/6)
+
+#N	kitenet
+#F	sharkey.cc.umich.edu
+#S	Altos 68000; Unix System III
+#O	M-net Usenet Machine
+#C	Dave Parks
+#E	kitenet!postmaster
+#T	+1 313 663 3275 
+#P 	1439 Kirtland  Ann Arbor, MI 48103
+#L	42 18 N / 83 45 W city
+#U	b-tech leebai
+#W	m-net!stealth; Thu Dec  6 23:15:09 EST 1990
+#
+kitenet = kitenet.ann-arbor.mi.us
+kitenet	b-tech(DIRECT), inquiry(HOURLY+FAST), iunet(DAILY),
+	leebai(POLLED+FAST), m-net(LOCAL), mudos(DAILY),
+	sharkey(POLLED+FAST), shadow(POLLED)
+
+#N	kitten 
+#S	Intel 386-25 based, Interactive Unix 386 Sys V.3.2
+#C	Alex Beylin
+#E	kitten!alexb, cfctech!alexb, cfctech!postmaster
+#T	+1 313 665 8996
+#P	565 Landings Blvd, Ann Arbor, MI 48103       
+#L	42 18 N / 83 43 W city
+#U	cfctech              
+#W	cfctech!alexb (Alex Beylin); Fri Jan 19 12:32:16 EST 1990
+#
+kitten  cfctech(DIRECT)
+
+#N	kmart	
+#S	SCO Unix V/386 3.2.2 Ps/2
+#O	K Mart
+#C	John G. Stevens
+#E	kmart!root
+#T	+1 313 643 2742
+#P	3100 West Big Beaver, Troy, MI 48084
+#L	42 36 N / 83 09 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Oct 19 15:17:37 EDT 1990
+#U
+#
+kmart	uunet(DEMAND)
+
+#N	kyzyl, kyzyl.mi.org
+#F	sharkey.cc.umich.edu
+#O	Tom Tkacik's Home System
+#S	AT&T 7300 aka UNIXPC; UNIX SYSV.?  ver3.51
+#C	Tom Tkacik
+#E	kyzyl!tet
+#T	+1 313 986 1442
+#P	Royal Oak, Michigan 48067
+#L	42 30 N / 83 07 W
+#W	kyzyl!tkacik (Tom Tkacik); Fri Jun  1 08:34:43 EDT 1990
+#
+kyzyl=	kyzyl.mi.org
+kyzyl	tetnix(DEAD), rphroy(EVENING), teemc(EVENING)
+
+#N      landis
+#S      AT&T Unix PC (7300) ; UNIX 3.51
+#O      Boundary Software
+#C      David E. Landis
+#E      landis!postmaster
+#T      +1 313 698 9206
+#P      480 Oxbow Lake Road; Union Lake, MI
+#L      42 34 N / 83 27 W
+#R      UNIX training, administration, and consulting services
+#U      sharkey
+#W      landis!davel (David Landis) ; Fri Aug  2 09:20:00 EDT 1990
+#
+landis  sharkey(DAILY)
+
+#N	leebai, leebai.aa.ox.com
+#S	Sun 3/50; SunOS 4.1
+#O	OTA Limited Partnership
+#C	Owen Scott Medd
+#E	leebai!postmaster
+#T	+1 313 930-1888
+#P	101 North Main, Suite 410, Ann Arbor, MI  48104
+#L	42 18 N / 083 43 W city
+#U	fmsrl7 heifetz caen umich yale ox.com hela dsinc
+#R	leebai is being returned to its rightful owner,
+#R	dialup uucp access is removed.
+#W	leebai!osm (Owen Scott Medd) ; Fri Nov  8 05:09:39 EDT 1991
+#
+ox.com	leebai(LOCAL), heifetz(LOCAL), drprof(WEEKLY)
+ox.com	.ox.com(LOCAL)
+#
+leebai = leebai.aa.ox.com
+leebai  b-tech(POLLED), caen(DEDICATED), fmsrl7(POLLED), heifetz(DEDICATED),
+	hela(DEDICATED), mailrus(DEDICATED), ox.com(LOCAL),
+	widener(DEDICATED)
+
+#N	libove
+#S	Generic 386SX clone; SCO Unix 3.2.1
+#O	Kitty & Panther, Inc.
+#C	Jay Vassos-Libove
+#E	libove!root
+#T	+1 313 747-7454, +1 313 553-1745
+#P	403 Village Green Blvd, Apt #203, Ann Arbor MI 48105
+#L	42 18 N / 83 45 W city
+#W	libove!root; Thu Nov 29 11:24:00 EDT 1990
+#
+libove = libove.ann-arbor.mi.us
+libove	m-net(HOURLY+HIGH), hela(HOURLY)
+
+#N	linx
+#S	Amiga 2000; AmigaDOS 2.0
+#O	Not An Organization
+#C	Dale A Schlott
+#E	postmaster@linx.uucp, dschlott@linx.uucp
+#T	+1 313 338 1498
+#P	412 West Huron, Pontiac, MI 48053
+#L	42 38 09 N / 83 18 33 W
+#R	Home System
+#U	w8rre
+#W	jbertoia@medar.com (Jeffrey A. Bertoia); Mon Apr 29 18:20:54 EDT 1991
+#
+linx	medar(DEMAND), w8rre(DEMAND)
+
+#N	lokkur
+#S	Sun 3/50; SunOS 4.1
+#O	Inland Sea
+#C	Steve Simmons
+#E	lokkur!postmaster
+#T	+1 313 426 8981
+#P	9353 Hidden Lake Circle
+#L	42 20 N / 83 55 W
+#R	UNIX training, administration, and consulting services
+#R	Mailing list keeper for Mi. USEN*X and Sun Local user group,
+#R	--- semislug-request@lokkur.dexter.mi.us
+#U	leebai amara hela
+#W	lokkur!scs (Steve Simmons) ; Mon Nov 19 19:01:34 EST 1990
+#
+lokkur = lokkur.dexter.mi.us
+lokkur
+	<applga>(DIRECT), <amara>(DIRECT), clif(WEEKLY),
+	dorsai(DIRECT), grid(WEEKLY), <heifetz>(DIRECT),
+	hela(DIRECT-1), inquiry(DAILY), <leebai>(DIRECT),
+	<sharkey>(DIRECT)
+
+#N	lopez
+#S	Compaq Deskpro 286; SCO XENIX/286 v2.2
+#O	Great White North UPLink
+#C	Gary Bourgois
+#E	lopez!flash
+#T	+1 906 228 3275
+#P	429 Spring Street, Marquette, MI 49855
+#L	46 35 N / 87 26 W
+#U	clmqt
+#W	clmqt!scott (Scott Reynolds); Fri Aug 25 21:32:47 EDT 1989
+#
+lopez	clmqt(DIRECT), sharkey(HOURLY)
+
+#N	lppl
+#S	Amga 2000; UUCP V1.13
+#O	Les's Place Productions Ltd.
+#C	Les Jenkins
+#E	lppl!les
+#T	+1 313 391 0273
+#P	3905 Westlyn, Orion, MI 48359
+#L
+#R
+#U
+#W	Les Jenkins; Sun Nov 3 21:56:56 EDT 1991
+#
+lppl	vela(HOURLY)
+
+
+#N      lrsux
+#S      Commmodore Amiga 2000; Amiga-DOS v1.3.2 & Amiga-UUCP v1.13D
+#O      None
+#C      Jeff Colley
+#E      lrsux!postmaster
+#T      +1 313 585 7511
+#P      1402 Genesee, Royal Oak, MI  48073
+#L      42 31 N / 83 08 W city
+#R      Home machine used for mail and news
+#U	sycom 
+#W      sycom!rkushner (Ronald Kushner); Mon Apr 16 13:23:12 EDT 1991
+#
+lrsux	sycom(DIRECT)
+
+#N	lunapark
+#S	Northgate 486/25; SCO-UNIX 3.2
+#O	Lunapark Systems
+#C	Larry Shields
+#E	lunapark!larry
+#T	+1 517 487-4574
+#P	P. O. Box 6159, E. Lansing, MI 48826
+#L	42 43 N / 084 28 W city
+#R	BBS (517) 487-3356  1200/2400 (8-1-N) 24 hrs
+#W	lunapark!larry (Larry Shields); Tue Jun 12 18:46:05 EDT 1990
+#
+lunapark        frith(DIRECT)
+
+#N      m-net
+#F      
+#S      Altos 68020; Unix System III
+#O      M-Net Public Access Conferencing
+#C      Dave Parks
+#E      m-net!kite
+#T      +1 313 665 2425
+#P      1439 Kirtland Drive, Ann Arbor, MI  48103
+#L      42 15 45 N / 83 47 10 W
+#R      Public access Unix and Conferencing at +1 313 994 6333
+#W      m-net!kite; Sun Apr 14 20:06:15 EDT 1991
+#
+m-net   <aat>(DAILY),
+	anet(DAILY),
+	<apple>(DAILY),
+	b-tech(DAILY),
+	<comnet>(DAILY),
+	<dtlewis>(DAILY),
+	kitenet(LOCAL),
+	libove(HOURLY),
+	netmeg(DIRECT),
+	ohriman(DAILY),
+	<rsi>(HOURLY*2),
+	shadow(HOURLY),
+	<sno-1>(HOURLY),
+	sw1a7(HOURLY*2)
+
+#N	macinac
+#S	Macintosh IIsi, MacOS 7.0
+#O	Schemes and Things, Ltd.
+#C	Brian Barr
+#E	macinac!postmaster
+#T	+1 313 646 1567
+#P	2281 West Lincoln, Birmingham, MI 48009
+#L	42 30 N / 83 01 W city
+#R	News/Mail Feed
+#W	macinac!b_barr (Brian Barr) ; Wed Sept 18 08:00:00 EDT 1991
+#
+macinac vela(DAILY)
+
+#N	mailrus
+#S	Sun 3/180, SunOS 3.4
+#O	Computing Center, The University of Michigan
+#C	Zoe Gurevich
+#E	mailrus!uucp, uucp@mailrus.cc.umich.edu
+#T	+1 313 936 2654
+#P	Argus Building, 535 W. William, Ann Arbor, MI 48109
+#L	42 17 N / 83 42 W city
+#R	[35.1.1.26]
+#U	ames b-tech bbn iuvax purdue
+#U	hellgate uwm.edu eecae uflorida umich sharkey
+#U	ncar ukma tut.cis.ohio-state.edu jarvis.csri.toronto.edu
+#U	wuarchive usenet.ins.cwru.edu uunet ulowell
+#U	bcm cs.utexas.edu
+#W	zoe@mailrus.cc.umich.edu; Tue Oct 22 10:35:39 EDT 1991
+#
+mailrus = mailrus.cc.umich.edu
+#
+#	U of M Sites
+#
+mailrus umix(LOCAL), sharkey(LOCAL), terminator(LOCAL),
+        <citi>(LOCAL+10), <dwon>(LOCAL+25)
+#
+mailrus b-tech(EVENING)
+#
+mailrus bbn(HOURLY),
+	bcm(HOURLY),
+	caen(DIRECT),
+	erwyn(EVENING),
+	cetus(HOURLY),
+        cmcl2(HOURLY),
+        usenet.ins.cwru.edu(DIRECT),
+	frith(DEDICATED),
+	gumby(DEDICATED),
+	gatech(DIRECT),
+	hellgate.utah.edu(DIRECT),
+	inquiry(POLLED),
+        iuvax(DIRECT), 
+	leebai(DEDICATED),
+	monitor(DAILY/3),
+	fog(DAILY/3),
+	mousetrap(DAILY/3), 
+	samsung(DEDICATED),
+	vela(DEMAND),
+	virgo(DIRECT),
+	ncar(DIRECT),
+	<purdue>(HOURLY),
+	royaljok(POLLED),
+        rutgers(DIRECT+LOW), 
+	uflorida(DIRECT),
+	ukma(DEMAND),
+        ulowell(WEEKLY), 
+	umeecs(DIRECT),
+	uunet(DEDICATED),
+	utai(DIRECT),
+	uwm(DIRECT),
+	wuarchive(DIRECT),
+	wsu-cs(DEDICATED)
+
+#N	marae
+#S	AT&T 3B2-300; System V Rel 3.1
+#O	Marae Groupware, Inc.
+#C	James W. Howe
+#E	marae!jwh
+#T	+1 313 995 1700
+#P	1565 Eastover Place, Ann Arbor, MI  48104
+#L	42 18 N / 83 45 W city
+#R
+#U
+#W	sharkey!steve; Thu Nov 30 16:28:54 EST 1989
+#
+marae	neti2(DEAD), umix(DEAD)
+
+#N	mbsun
+#S 	AT-386; unix System 5 Release 4
+#O	Mico
+#C	Mike Bernson 
+#E	mbsun!mike
+#T	+1 313 572 9250
+#P	3617 Oak Drive
+#L	42 20 N / 83 55 W
+#R	
+#U	
+#W	mbsun!mike (Mike Bernson) ; Tue Aug 30 9:01:34 EST 1991
+#
+mbsun = mbsun.ann-arbor.mi.us
+mbsun	hela(DAILY), raycon(DAILY), irie(DAILY), micomi(DAILY)
+
+#N	mcf
+#S	DEC VAX-11/750; 4.3 BSD UNIX+NFS (Mt.Xinu)
+#O	Michigan Cancer Foundation
+#C	Sharan Kalwani and Vinay Gandra
+#E	mcf!postmaster, mcf!shan, mcf!usenet, mcf!news
+#E	mcf!vinay
+#T	+1 313 833 0716 x411
+#P	110 East Warren Avenue, Detroit, MI 48201
+#L	42 20 N/ 83 03 W (city)
+#R	dead sites removed; uucpmap@rel.mi.org
+#R	mibte removed; uucpmap@rel.mi.org
+#W	mcf!shan (Sharan Kalwani); Tue Sep 19 11:26:34 EST 1988
+#
+mcf	sharkey(DEMAND/3)
+
+#N	mcloon, mcloon.michigan.com
+#S      Sun 3/150, SunOS 4.1
+#O      Detroit Direct Marketing, Inc.  
+#C      John Palmer
+#E      mcloon!root
+#T      +1 313 881 8568
+#P      4626 Bedford St., Detroit, MI  48224-3625
+#L      42 18 N / 83 45 W city
+#U	tygra
+#W      tygra!root (Charlie Root); Mon Apr  8 05:01:58 EST 1991
+#R 	One of six SUN 3's used for our UUCP/NEWSFEED customers
+#
+mcloon	    = mcloon.michigan.com
+mcloon       tygra(LOCAL)
+
+#N	mcmac
+#S	Macintosh II; A/UX
+#O	McClary Associates
+#C	Michael McClary
+#E	node!postmaster
+#T	+1 313 973 8787
+#P	2091 Chalmers Dr.  Ann Arbor, MI 48104
+#L	42 15 23 N / 083 40 39 W
+#R	"mcmac" is Ann Arbor branch's machine.
+#U	
+#W	node!michael (Michael McClary); Sat Oct 21 17:57:59 PDT 1989
+#
+# Contact postmaster@node.uucp for faster response.
+#
+# mcmac is currently not active.  I'm keeping the registration alive
+# to prevent mail misrouting when it's reactivated.  -michael
+#
+mcmac	node(DEAD), clif(DEAD)
+
+#N	mcnnet
+#S	IBM PS2M80; SCO XENIX 2.3
+#O	MCN Computer Service INC
+#C	Steven J Corso
+#E	mcnnet!steve
+#T	+1 313 337 4805
+#P	5225 Auto Club Drive, Dearborn, MI 48126
+#L	42 57 N / 86 40 W city
+#U      sharkey
+#W	mcnnet!steve (Steven J. Corso); TUE OCT 15 21:45:00 EST 1991
+#
+mcnnet	ccd700(DAILY), sharkey(DAILY)
+
+
+#N	medar
+#F	uunet.uu.net
+#S	ALR PowerCache 4e; SCO UNIX SYSV 3.2v2
+#O	Medar, Inc. of Farmington Hills MI
+#C	Jeffrey A. Bertoia
+#E	postmaster@medar.com, jbertoia@medar.com
+#T	+1 313 477 3900 x362
+#P	38700 Grand River Avenue, Farmington Hills, MI 48335-1563
+#L	42 28 30 N / 83 25 50 W
+#R	Industrial controls, Custom systems & Special engineering
+#U	linx, rmsun, cozmo, slalom
+#W	jbertoia@medar.com (Jeffrey A. Bertoia); Fri Aug 09 14:32:42 EDT 1991
+#
+medar	.medar.com(LOCAL)
+medar= 	medar.com
+medar	uunet(DEMAND), linx(DEMAND), rmsun(DEMAND), cozmo(DEMAND),
+	sco(DAILY+HIGH), slalom(DEMAND)
+
+#N	megatron
+#S	Apollo DN4000; Domain/IX 9.7
+#O	Computer Science Department, General Motors Research Laboratories
+#C	Tom Tkacik
+#E	megatron!tkacik , rphroy!tkacik
+#T	+1 313 986 1442
+#P	Warren, Michigan 48090-9055
+#L	42 30 30 N / 83 01 36 W
+#W	megatron!tkacik (Tom Tkacik); Mon Jan  8 15:56:47 EST 1990
+#
+megatron rphroy(LOCAL),rcsuna(LOCAL)
+
+#N	mehost
+#S	Hewlett-Packard 9000/370; HP-UX 6.5
+#O	Ford Motor Company, EFHD Ypsilanti Plant
+#C	Bruce Moore
+#E	fypsi!root fypsi!bam
+#T	+1 313 484 8161
+#P	128 Factory St., Room 201, Ypsilanti, MI 48197-0158
+#L	42 15 N / 83 37 W
+#R	Quality & Technical Services Technical Systems CAD Host
+#U	pmsmam
+#W	pmsmam!wwm (Bill Meahan); Thu Oct 11 07:29:44 EDT 1990
+#
+mehost	pmsmam(LOCAL), fypsi(LOCAL), plws(LOCAL)
+
+#N	meros
+#S	Convergent SPC-100; UNIX V.3
+#O	Meros Management
+#C	Ken Lord
+#E	meros!ken
+#T	+1 906 485 4696
+#P	424 S. Pine Street, Ishpeming, MI  49849
+#L	40 29 N / 87 40 W
+#U	clmqt
+#W	clmqt!scott (Scott Reynolds); Tue Sep 18 02:45:08 EDT 1990
+#
+# Local calls
+#
+meros	clmqt(DAILY)
+
+#N	metapyr
+#S	Pyramid 98x; OSx 5.0
+#O	Meta LBMS
+#C	Brent L. Robertson	
+#E	metapyr!brent, metapyr!postmaster
+#T	+1 313 663 6027
+#P	315 E. Eisenhower Parkway, Suite 200; Ann Arbor, Michigan 48108
+#L	42 18 N / 83 45 W city
+#U	sharkey leebai polo
+#W	metapyr!brent (Brent L. Robertson); Thu Aug 02 11:55:12 EST 1990
+#
+metapyr sharkey(DIRECT+FAST), leebai(DIRECT+FAST)
+
+#N	mich-ns
+#S      SCO Xenix System V/386 2.3.2
+#O      Michigan Network Systems, Inc. 
+#E      mich-ns!root
+#T      +1 800 736 5984
+#L      42 18 N / 83 45 W city
+#W      tygra!root (Charlie Root); Wed Jan  9 06:00:46 EST 1991
+#
+mich-ns   tygra(POLLED)
+
+#N	mico
+#S 	AT-386; unix System 5 Release 4
+#O	Mico
+#C	Mike Bernson 
+#E	mbsun!mike
+#T	+1 313 572 9250
+#P	3617 Oak Drive
+#L	42 20 N / 83 55 W
+#R	
+#U	
+#W	mbsun!mike (Mike Bernson) ; Tue Aug 30 9:01:34 EST 1991
+#
+mico	micomi(DAILY)
+
+#N	micomi
+#S 	AT-386; unix System 5 Release 4
+#O	Mico
+#C	Mike Bernson 
+#E	mbsun!mike
+#T	+1 313 572 9250
+#P	3617 Oak Drive
+#L	42 20 N / 83 55 W
+#R	
+#U	
+#W	mbsun!mike (Mike Bernson) ; Tue Aug 30 9:01:34 EST 1991
+#
+micomi	mico(DAILY), mbsun(DAILY)
+
+#N	middlec
+#S	CONVEX C120, ConvexOS V7.1 (4.2BSD+)
+#O	Convex Computer Corporation
+#C	Tim Barney
+#E	convex!postmaster
+#T	+1 313 462 1090
+#P	Suite 435, 38705 Seven Mile Rd, Livonia, MI 48152
+#L	42 27 N / 83 26 W
+#R	
+#W	middlec!barn; Fri Feb 02 10:00:00 EST 1990
+#
+middlec	convex(DEDICATED)
+
+#N	mika
+#S	Intel 80386; Sys V rel 3.2 UNIX
+#O	Mika Systems
+#C	Mike Hammond
+#E	mika!postmaster
+#T	+1 313 937 2176
+#P	PO Box 1919, Troy, MI 48299
+#L	42 23 33 N / 83 17 52 W
+#R	Mika Systems is a one-man Consulting/Software development shop
+#U	stratsft mzketto trilby
+#W	stratsft!dwayne (Dwayne A. Bailey); Wed Jun 26 21:20:39 EDT 1991
+#
+mika	stratsft(DIRECT), mzketto(DAILY), trilby(DEMAND), cmc1736(DEMAND)
+
+#N	mok
+#S	AT&T 3B1; UNIX System V Rel 3.51
+#O	RTI
+#C	Jeff Vogt, Ron Wilson
+#E	mok!root
+#T	+1 313 350 8358
+#P	27565 Franklin Rd Southfield MI 48034
+#L	42 29 N / 83 17 W city
+#R	
+#U	ttardis
+#W	mok!lfm  ; Wed Aug 23 16:00:00 EDT 1989
+#
+mok 	ttardis(HOURLY)
+
+#N	monitor, monitor.plymouth.mi.us
+#F	mailrus.cc.umich.edu
+#S	NeXT; NeXT-2.0
+#O	The Monitor
+#C	Mark Harris
+#E	postmaster@monitor.plymouth.mi.us
+#T	+1 517 347 6735
+#P	P.O. Box 4424, East Lansing, MI  48826-4424
+#L	42 22 N / 83 26 W
+#U	umich
+#W	mark@monitor.plymouth.mi.us (Mark Harris); Sat Jul 13 20:00:00 EDT 1991
+monitor=	monitor.plymouth.mi.us
+monitor	mailrus(HOURLY)
+
+#N	moose
+#S	AT&T Unix PC; System V 3.51
+#C	Carl Erickson
+#E	moose!carl
+#T	+1 616 243 3880
+#P	1417 Franklin SE, Grand Rapids, MI 49506
+#L	42 57 30 N / 084 37 00 W
+#R	eurynome removed; uucpmap@rel.mi.org
+#W	moose!carl (Carl Erickson); Thu Nov 30 12:27:22 EST 1989
+#
+moose	frith(HOURLY), wybbs(DAILY)
+
+#N	mousetrap, mousetrap.canton.mi.us
+#F	mailrus.cc.umich.edu
+#O	personal system
+#C	William S. Johnston
+#E	bill@mousetrap.canton.mi.us
+#T	+1 313 453 8679
+#P	357 Farmer St, Plymouth, MI  48170
+#L	42 22 N / 83 26 W
+#U	umich
+#W	brian@fog.ann-arbor.mi.us ; Thu Aug 15 00:00:00 EDT 1991
+#
+mousetrap=	mousetrap.canton.mi.us
+mousetrap	mailrus(HOURLY)
+
+#N	mpk020
+#S	Logic Process MPulse 20; sysV68 D.5 (System V.1 sort of)
+#O	microConsulting
+#C	Marvin P. Kraska
+#E	mpk020!kraska, mpk020!adm, mpk020!postmaster
+#T	+1 313 562 1915
+#P	1725 N. Waverly, Dearborn, MI 48128-1253
+#L	42 19 N / 83 11 W city
+#R	$Id: mpk020.map,v 1.2 91/04/12 16:08:39 kraska Exp $
+#W	fmsrl5!mpk020!kraska (Marvin Kraska); Fri Apr 12 16:06:03 EDT 1991
+#U	fmsrl5 fmsrl7 teemc
+#
+mpk020	fmsrl5(DIRECT), fmsrl7(DIRECT), teemc(WEEKLY), umich(DAILY)
+
+#N	msdog
+#S      ALR-386; MSDOS 4.01/Waffle
+#O      Chelsea MSL, Inc.
+#C      Donald H. Locker
+#E      msdog!postmaster
+#T      +1 313 476-7076
+#P      P.O. Box 299, Chelsea, MI  48118
+#L      42 18 N / 083 43 W city
+#U	heifetz
+#W      heifetz!osm (Owen Scott Medd) ; Tue Oct 22 05:09:39 EDT 1991
+#
+msdog	heifetz(DIRECT)
+
+#N	mudos, mudos.ann-arbor.mi.us
+#F	sharkey.cc.umich.edu
+#S	386SX/20 PC clone, SCO Unix 3.2v2.0
+#O	Obfuscated Consulting
+#C	Marc Unangst
+#E	mudos!Postmaster
+#T	+1 313 665 7870
+#P	Marc Unangst, 3659 Middleton Dr., Ann Arbor, MI 48105
+#L	42 18 N / 83 45 W city
+#R	V.32 and PEP newsfeeds are available, contact me for more info.
+#U	sharkey, hela, heifetz, entity, ganglion, rjf001
+#W	mudos!mju (Marc Unangst); Mon Sep 23 19:02:54 EDT 1991
+#
+mudos=	mudos.ann-arbor.mi.us
+mudos	hela(HOURLY+FAST),
+	sharkey(HOURLY+FAST),
+	ohriman(POLLED),
+	entity(DAILY),
+	m-net(DAILY),
+	qflag(POLLED),
+	acorus(POLLED),
+	iunet(DAILY),
+	ganglion(DAILY),
+	grex(DIRECT),
+	mlmb(DAILY)
+
+#N      muondev
+#F      sharkey.cc.umich.edu
+#S      Apple Macintosh IIci; A/UX 2.0.1
+#O      Micro Unlimited
+#C      Doug Gosciak
+#E      muondev!postmaster
+#T      +1 616 534 0274
+#P      3321 Wyoming Southwest, Wyoming, MI 49509-3243
+#L      42 57 N / 86 40 W city
+#R      This is a private system
+#U      jdbbs
+#W      muondev!gosciak (Doug Gosciak); Sun Nov 3 15:30:00 EST 1991
+#
+muondev =       muondev.mi.org
+muondev jdbbs(DAILY/4)
+
+#N    myamiga
+#S    Commodore Amiga 2000/A2088 XT BridgeBoard; AmigaDos/MS-Dos 3.30
+#O    The Siberian Amiga: Currently Lacking Organization
+#C    Steve Palm
+#E    myamiga!postmaster
+#T    +1 906 635 1724
+#P    1000 E. Easterday Ave, Apt. 2, Sault Ste. Marie, MI 49783 
+#L    46 28 47 N / 84 22 5 W city 
+#U    fps 
+#R    Fido 1:11/16: UFGATE, Maximus, Binkley.  (AMIGA) AmigaUUCP 1.06D
+#W    myamiga!postmaster (Steve Palm) ; Tue Dec 04 18:52:00 EST 1990 
+#
+myamiga       stjhmc(DAILY*3), fps(DAILY)
+
+#N      mystic, mystic.mi.org
+#S      386 Clone; UUPC/extended 1.09c
+#O      Mystic Communications Company
+#C      Mark Levine
+#E      mystic!postmaster, mystic!markl
+#T      +1 313 350 2527
+#P      24215 Woodland Dr., Southfield, MI 48034
+#L      42 30 N / 083 01 W city
+#R      BBS (313) 355-0550  300/1200/2400
+#U      cfctech ttardis
+#F      sharkey.cc.umich.edu
+#W      mystic!markl (Mark Levine); Tue Nov 27 11:30:00 EDT 1990
+#
+mystic= mystic.mi.org
+mystic  cfctech(HOURLY/2), ttardis(HOURLY), shadow(DEAD), m-net(DEAD)
+
+#N	mzketto
+#S	Intel 80386; Sys V rel 3.2 UNIX
+#O	MZKetto Software
+#C	Mark Z. Kumler
+#E	mzketto!postmaster
+#T	+1 313 383 1184
+#P	67 W Woodward, Ecorse, MI 48229-1563
+#L	42 19 48 N / 83 02 57 W (city)
+#R	MZKetto Software is a one-man Consulting/Software development shop
+#U	mika
+#W	stratsft!dwayne (Dwayne A. Bailey); Sun Jul 21 12:55:24 EDT 1991
+#
+mzketto	mika(DAILY), stratsft(DEAD)
+
+#N	n8mdy
+#S	WYSEpc386 - Model 3216; XENIX
+#O	Willie Peloquin
+#C	Willie Peloquin
+#E	n8mdy!postmaster
+#T	+1 313 477 3900 x334
+#P	9341 Harbor Cove Circle #332, Whitmore Lake MI 48189-9517
+#L	42 25 N / 83 44 W
+#R	none
+#U	medar
+#W	n8mdy!wpeloqui (Willie Peloquin); Fri Oct  4 07:48:23 EDT 1991
+#
+n8mdy	medar(DEMAND)
+
+#N	neti4
+#S	CompuADD/386; Xenix 2.3.1
+#O	Network Technologies International, Inc.
+#C	M. Wilens
+#E	neti4!postmaster
+#T	+1 313 994-4030
+#P	150 S Fifth Ave, Suite B, Ann Arbor, MI 48104
+#L	42 18 N / 083 43 W city
+#U	leebai sharkey south
+#W	neti4!mew (Michael Wilens) ; Fri Apr 20 11:12:34 EDT 1990
+#
+neti4	leebai(DAILY/3), sharkey(DAILY), south(DAILY)
+
+#N	netmeg
+#C	Meg Geddes
+#E	netmeg!meg
+#T	+1 313-662-0417
+#P	1982 Traver Rd  #105, Ann Arbor, MI  48105
+#l	42 18 N / 83 45 W city
+#W	Geddes; Thu Nov 08 19:08:45 EST 1990
+netmeg	sharkey(DIRECT), m-net(DIRECT), chinet(POLLED),       
+	igloo(POLLED)
+
+#N	noip
+#S	IBM PC/RT-6512; BSD 4.3 UNIX
+#O	UofM Student Employees
+#C	David Snearline
+#E	caen!davids
+#T	+1 313 741 4487
+#P	2222 Fuller Rd, Ann Arbor, MI  48105
+#L	42 17 01 N / 83 45 01 W
+#W	caen!davids; Tue Jul 30 19:30:24 EDT 1991
+#
+noip	caen(DIRECT)
+
+#N	nthstone
+#F	sharkey.cc.umich.edu
+#S	Zenith 241; DR-DOS 5.0 & UUPC/extended or Waffle
+#O	System Nth Stone from The Sun
+#C	Tony Audas
+#E	taudas@ais.org
+#T	+1 313 761 7432
+#P	Box 4516, Ann Arbor, MI 48106
+#L	42 17 30 N 83 44 45 W
+#W	taudas@ais.org (Tony Audas); Sat May 25 13:35:16 EST 1991
+#
+nthstone=	nthstone.mi.org
+nthstone	irie(POLLED)
+
+#N	nucleus.mi.org, nucleus
+#S	AMI 80386; ESIX System 5.3.2
+#F	sharkey.cc.umich.edu
+#O	The Nucleus
+#C	Jeff Marraccini
+#E	postmaster@nucleus.mi.org
+#T	+1 313 623 7351
+#P	5582 Dvorak St.; Clarkston, MI 48346
+#L	42 44 08 N / 83 82 07 W
+#R	Eliminate connections only used for source archive access
+#U	cetus fmsrl7 mother smaczne vela
+#W	jeff@nucleus.mi.org (Jeff Marraccini); Mon Jul 22 22:53:20 EDT 1991
+#
+nucleus= nucleus.mi.org
+nucleus	cetus(POLLED),
+	eds1(POLLED),
+	egrunix(DEMAND),
+	fmsrl7(EVENING),
+	gmi(POLLED),
+	mother(POLLED),
+	reachco(POLLED),
+	sharkey(DIRECT),
+	smaczne(POLLED),
+	stss(POLLED),
+	vela(DIRECT)
+
+#N	odyssey, odyssey.mi.org 
+#F	sharkey.cc.umich.edu
+#S      Sun 3/50; SunOS 4.1
+#C      Brian R. VanVoorst
+#E      orage!odyssey!Postmaster
+#T      +1 906 482 7805
+#P      1121 Ruby Avenue, Houghton, MI, 49931, USA
+#L      47 30 10 N / 088 37 00 W
+#U      orage 
+#W      odyssey!bvv (Brian VanVoorst); Thu Jun 20 16:46:12 EDT 1991
+#
+odyssey = odyssey.mi.org
+odyssey   orage(DAILY/12)
+
+#N	ohenry
+#S	IBM AT; SCO Xenix 286 2.2.3
+#O	Douglas Bros., Inc.
+#C	Richard H. Douglas
+#E	ohenry!rdouglas
+#T	+1 616 459 9157
+#P	PO Box 1786; Grand Rapids, MI  49501-1786
+#L	N 43 / W 85.75
+#R	None
+#U	wybbs
+#W	ohenry!rdouglas (Richard H. Douglas); Fri Sep 15 17:30:00 EST 1989
+#
+ohenry	wybbs(DAILY)
+
+#N	ohriman, ohriman.mi.org
+#F	sharkey.cc.umich.edu
+#S	Clone Parts 386/20; SCO Xenix 2.3.4
+#O	personal system
+#C	John Ellis Perry, Jr.
+#E	ohriman!postmaster
+#T	+1 313 971 1210
+#P	2611 International Place #1304A; Ypsilanti, MI 48197
+#L	42 15 N / 83 36 E (city)
+#U	m-net grex entity mudos
+#W	ohriman!jep (John Ellis Perry, Jr.); Tue Aug 17 12:00 EDT 1991
+#
+ohriman	= ohriman.mi.org
+ohriman	m-net(HOURLY), grex(HOURLY), entity(DAILY), mudos(DAILY)
+
+#N	ombrage, ombrage.mi.org
+#F	sharkey.cc.umich.edu
+#S	Sun 4/110, SunOS 4.1
+#O	Ripley Computing/Consulting Services
+#C	Stephen W. Barber
+#E	ombrage!steveb
+#T	+1 906 482 0320
+#P	321 Quincy St. Apt. 3W, Hancock, MI, 49930, USA
+#L	47 07 40 N / 088 33 30 W
+#U	shade orage
+#W	ombrage!steveb (Steve Barber); Sat Nov  3 01:44:30 EST 1990
+#
+ombrage = ombrage.mi.org
+ombrage	sharkey(DEMAND), shade(DEMAND), orage(LOCAL)
+
+#N	opusnet
+#S	DTK 286/10; Minix 1.5.10
+#O	The Connection Group
+#C	Rory Savageau
+#E	opusnet!postmaster, opusnet!root
+#T	+1 313 545 0767
+#P	23036 Oak Crest, Oak Park, MI  48237
+#L	42 20 36 N / 083 10 54 W city
+#R	hopefully opusnet.mi.org becomes a reality
+#U	mystic
+#W	opusnet!postmaster (Rory Savageau); MON JAN 28 10:00:00 EDT 1991
+#
+opusnet=	opusnet.mi.org
+opusnet	mystic(DEMAND), ttardis(DEMAND)
+
+#N      orage, orage.mi.org
+#F      sharkey.cc.umich.edu
+#S      Sun 3/50; SunOS 4.1
+#O      Ripley Computing/Consulting Services
+#C      David D. Hale
+#E      orage!ddh
+#T      +1 906 482 0320
+#P      321 Quincy St. Apt. 3W, Hancock, MI, 49930, USA
+#L      47 07 40 N / 088 33 30 W
+#U      sharkey ombrage
+#W      orage!ddh (David Hale); Thu Jan 17 18:40:00 EST 1991
+#
+orage = orage.mi.org
+orage   sharkey(DEMAND), shade(DEMAND), ombrage(LOCAL)
+
+
+#N	orstan
+#S	Compaq 386/20, SCO Xenix 2.3.4
+#O	Sweet Software Co.
+#C	Robert B. Sweet
+#E	orstan!sweet
+#T	+1 517 663 6644
+#P	423 Minerva St, Eaton Rapids, MI 48827
+#L	42 31 N / 84 39 W
+#R	Sweet Software Corporation is a software consulting firm specialising
+#R	in C programming for Unix, DOS, MS Windows and OS/2
+#W	orstan!sweet (Robert B. Sweet); Fri Aug 30 00:00:00 EDT 1991
+#
+orstan	theclub(DEMAND)
+
+# End of Michigan Map File u.usa.mi.2
+SHAR_EOF
+:	End of shell archive
+exit 0
+

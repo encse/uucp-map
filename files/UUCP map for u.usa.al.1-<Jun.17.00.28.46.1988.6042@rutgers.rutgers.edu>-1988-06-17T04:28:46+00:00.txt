@@ -1,0 +1,173 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.al.1
+: This archive created: Fri Jun 17 00:28:41 1988
+echo shar: extracting u.usa.al.1
+cat << 'SHAR_EOF' > u.usa.al.1
+# u.usa.al.1 created by dpz@rutgers.edu on Thu Jun 16 11:48:03 EDT 1988
+
+#N	blnt1
+#S	AT&T 3B2/400; SysV R3.0
+#O	Blount Brothers Corp.
+#C	John Tamplin, David Bryant
+#E	blnt1!usenet
+#T	+1 205 244 6231, +1 205 244 6234
+#P	2511 Fairlane Dr.  Montgomery, AL  36116
+#L	32 19 N / 86 30 W
+#R
+#U	uahcs1
+#W	blnt1!jat (John Tamplin); Thu Jul 16 11:23:13 CDT 1987
+#
+# We call the following on demand, but gatech is polled twice a day and
+# uahcs1 is polled once per day to pick up incoming mail.
+#
+blnt1	madhat(DEMAND), gatech(DEMAND), uahcs1(DEMAND)
+
+#N	bschp
+#S	HP 9000 Series 550; HP-UX 5.2
+#O	Birmingham-Southern College
+#C	Steve Skidmore, Brad Turner
+#E	bschp!postmaster
+#T	+1 205 226 3033
+#P	P.O. Box A-24, Birmingham, AL 35254
+#L	86 49 17 N / 33 30 35 W
+#R	Administered by Office of Academic Computing
+#W	bschp!brad (Brad Turner); Tue Oct  6 10:07:04 CDT 1987
+#U	scbhq bscvax
+#
+bschp	scbhq(DIRECT), bscvax(DEDICATED)
+
+#N	bscvax
+#S	VAX 11/750; Ultrix 2.0
+#O	Birmingham-Southern College
+#C	Steve Skidmore, Brad Turner
+#E	bschp!postmaster
+#T	+1 205 226 3033
+#P	P.O. Box A-24, Birmingham, AL 35254
+#L	86 49 17 N / 33 30 35 W
+#R	Administered by Office of Academic Computing
+#W	bschp!brad (Brad Turner); Tue Oct  6 10:07:04 CDT 1987
+#U	bschp
+#
+bscvax	bschp(DEDICATED)
+
+#N	hsvpmi
+#S	IMS-286 (Intelligent Microsystems); Microport System V.2
+#O	Phoenix microsystems, inc.
+#C	Tom Reynolds
+#E	hsvpmi!usenet
+#T	+1 205 721 1200 x303
+#P	991 Discovery Drive, Huntsville, AL 35806
+#L	34 42 45 N / 86 41 15 W
+#U	ingr
+#W	ingr!linwood (Linwood Varney); Wed Mar 23 12:58:24 CST 1988
+#
+hsvpmi	ingr(POLLED)
+
+#N	ingr
+#S	Clipper System V.3
+#O	Intergraph Corp.
+#C	Linwood Varney
+#E	{ihnp4,uunet}!ingr!linwood
+#T	(205) 772-6163
+#P	1 Madison Industrial Park, Mail Stop cr1104, Huntsville, AL 35807
+#L	34 44 N / 86 35 W city
+#R	Intergraph Mail/News Gateway
+#U	uunet uahcs1 jett zaiaz hsvpmi
+#W	ingr!linwood (Linwood Varney); Wed Mar 23 12:58:24 CST 1988 
+#
+ingr	jett(DAILY), zaiaz(HOURLY), uahcs1(DAILY/4), uunet(DIRECT),
+	hsvpmi(DAILY), ihnp4(DEMAND)
+
+#N	jett
+#S	DEC PDP 11/34;  HCR Unity (System III)
+#O	Jett Unix System
+#C	Linwood Varney
+#E	ihnp4!ingr!jett!linwood
+#T	(205) 772-6163
+#P	1312 Brookmeade Street   Huntsville, AL.  35816
+#L	34 44 N / 86 35 W city
+#R	Community Unix system
+#U	ingr
+#W	ingr!linwood (Linwood Varney); Wed Mar 23 12:58:24 CST 1988
+#
+jett	zaiaz(DAILY/4), ingr(DAILY/4)
+
+#N	madhat
+#S	Heurikon HK68; Unisoft Uniplus+ System V
+#O	DataVision
+#C	Phillip L. Harbison
+#E	madhat!alvitar
+#T	1 205 881 4317
+#P	3409 Grassfort Drive, Huntsville, AL 35805
+#L	34 44 N / 86 35 W city
+#R	we archive {mod,net}.sources
+#U	akgua uahcs1
+#W	zaiaz!curtis; 11-27-85
+#
+madhat	akgua(DEMAND), blnt1(DAILY), clyde(DEMAND), jett(DIRECT),
+	mtx5b(DEMAND), ronald(DAILY), uahcs1(DIRECT)
+
+#N	scbhq
+#S	ATT 3B20S, 5.2.1.0V3
+#O	South Central Bell
+#C	Jere Sandidge
+#E	gatech!sbmsg1!scbhq!jts
+#T	+1 205 988-1102
+#P	Rm. S-204, 1876 Data Dr., Birmingham, AL 35244
+#L	33 31 N / 086 49 W city
+#R	
+#U	sbmsg1 bschp uahcs1
+#W	rutgers!dpz (David P. Zimmerman); Tue Apr  5 19:37:33 EDT 1988
+#
+scbhq	sbmsg1(DEDICATED), uahcs1(DAILY), ihnp4(DEMAND), bschp(DEMAND)
+
+#N	uab-cs
+#S	
+#O	University of Alabama, Computer Science
+#C	Robert M. Montgomery, Jr.
+#E	uab-cs!monty
+#T	(205) 934-2213
+#P	115A Campbell Hall, 1300 University Blvd., Birmingham, AL 35294
+#L	
+#R	They call themselves the illegal name uab_cs.
+#U	scbhq
+#W	last edited 6-6-85 zaiaz!kim
+#
+uab-cs	scbhq
+
+#N	uahcs1
+#S	Sperry 7000; 4.2 BSD
+#O	University Of Alabama In Huntsville
+#C	Dr. James D. Johannes, Phillip L. Harbison
+#E	uahcs1!johannes,  madhat!alvitar
+#T	1 205 895 6255,  1 205 881 4317
+#P	Computer Science Department, Huntsville, AL 35899
+#L	34 44 N / 86 35 W city
+#R
+#U	akgua madhat scbhq uab zaiaz
+#W	zaiaz!curtis; 11-27-85
+#
+uahcs1	akgua(DAILY), madhat(DIRECT), scbhq(DAILY/2), uab(DAILY),
+	zaiaz(DIRECT), ingr(HOURLY)
+
+#N	zaiaz
+#S	GRC Python; System V
+#O	Zaiaz Communications, Inc.
+#C	Bill Welch
+#E	{ihnp4,akgua}!zaiaz!bill
+#T	(205) 881-2200
+#P	2225 Drake Ave. Suite 17,  Huntsville, AL.  35805
+#L	34 42 N / 86 35 W city
+#R
+#W	ingr!linwood; 5/9/87
+#U	ingr
+#
+zaiaz	jett(DEMAND), akgua(DEMAND), ihnp4(DEMAND), madhat(DIRECT),
+	ingr(HOURLY)
+
+# u.usa.al.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0

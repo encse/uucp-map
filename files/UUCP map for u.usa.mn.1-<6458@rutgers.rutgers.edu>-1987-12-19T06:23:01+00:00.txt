@@ -1,0 +1,729 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.mn.1
+# This archive created: Sat Dec 19 01:22:54 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.mn.1
+cat << \SHAR_EOF > u.usa.mn.1
+#Map File u.usa.mn.1 Fri Dec 18 12:00:52 CST 1987 brianr@rosevax.rosemount.com  
+#N	agnes
+#S	VAX 11/780;  4.3BSD
+#O	St. Olaf College Academic Computer Center
+#C	Alex Elder, Computer Systems Manager
+#E	stolaf!elder
+#T	+1 507 663 3047
+#P	Academic Computer Center, St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R
+#U	stolaf(LOCAL)
+#W	stolaf!cdr (Craig D. Rice); Thu Jul  9 16:06:45 CDT 1987
+#
+agnes	stolaf(LOCAL), helga(LOCAL), soren(LOCAL), stophy(LOCAL), troilus(LOCAL)
+
+#N	alta
+#S	VAX-11/750; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	ihnp4!clyde!lily!alta!root
+#T	(612) 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121
+#L	44 52 N / 93 09 W
+#R
+#W	lily!det (Derek Terveer);Sun Feb 15 12:27:42 CST 1987
+#U
+#
+alta	herman(DIRECT+HIGH), lily(DIRECT+HIGH)
+
+#N	bright
+#S	Zenith Z-241; Microport System V/AT 2.2L
+#O	Bright Computing Services
+#C	David A. Bright
+#E	bright!dab
+#T	+1 612 642 9482
+#P	1131 N Hamline Ave., #35, St. Paul, MN 55108 USA
+#L	44 46 N / 93 5 W
+#R	Lat and Long are appr.
+#U
+#W	bright!dab (David A. Bright) ; Sun Aug 16 18:11:17 EDT 1987
+#
+bright	ems(DIRECT), meccts(DIRECT)
+
+#N	bthpyd
+#S	Pyramid, OSx
+#O	Bethel College
+#C	Glen J. Wiebe
+#E	ihnp4!bthpyd!wiebe,  wiebe@Bethel.Edu
+#T	+1 612 638 6106
+#P	3900 Bethel Drive, St. Paul, MN  55112
+#L	45 03 N / 093 15 W
+#R
+#W	bthpyd!wiebe (Glen J. Wiebe);Sun Jan 11 19:48:59 CST 1987
+#
+bthpyd	meccts(DIRECT), srcsip(DIRECT)
+
+#N	camax01
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Camax Systems Inc.
+#C	Rod Lacy
+#E	camax01!lacy
+#T	+1 612 831 0604
+#P	7225 Ohms Lane, Minneapolis, MN 55435
+#L	44 51 N / 093 26 W
+#R	
+#U	rosevax
+#W	camax01!lacy (Rod Lacy); Wed Jan  8 15:27:35 CST 1986
+#
+camax01	dicome(DAILY+4), rosevax(HOURLY)
+
+#N	cimcor
+#S	AT clone; Microport System V/AT 286   V2.2U
+#O	Grenier family and friends
+#C	Michael Grenier
+#E	ihnp4!meccts!cimcor!mike
+#T	+1 612 464 7382
+#P	5090 Scandia Trail, Forest Lake, MN 55025
+#L	92 59 W / 45 15 N
+#W	cimcor!mike (Michael Grenier);Tue Jul  7 08:05:01 CDT 1987 
+cimcor  meccts(DIRECT), lily(DIRECT), herman(DIRECT), sylvan(DIRECT),
+        k0jfv(DAILY)
+
+#N	cray
+#O	Cray Research, Inc.
+#S	VAX 11/750, Sys V.2
+#C	
+#E	cray!postmaster
+#T	
+#P	1333 Northland Drive, Mendota Heights, MN 55120
+#L	44 50 N / 093 5  W
+#U	umn-cs
+#W	umd-cs!steve (Steven M. Miller);Thu Jul 03 12:21:33 CDT 1986
+#
+cray    crayamid(DIRECT), umn-cs(DEMAND), agnes(DEMAND), stolaf(DEMAND)
+
+#N	crayamid
+#O	Cray Research, Inc.
+#S	Pyramid 90x, OSx 2.5
+#C	Jim Nordby, Peggy Gazzola
+#E	crayamid!jhn,crayamid!peggy
+#T	+1 612 681 3429, +1 612 681 3404
+#P	1333 Northland Drive, Mendota Heights, MN 55120
+#L	44 50 N / 093 5 W
+#U
+#W	pyramid!csg (Carl S. Gutekunst);Wed Mar 19 13:16:28 PST 1986
+#
+crayamid cray(10), pyramid(DEMAND)
+
+#N	csimom
+#S	Texas Instruments S1500; TI System V
+#O	ComputoSERVICE, Inc.
+#C	Scott Thomson
+#E	csimom!usenet,csimom!sat
+#T	+1 507 625 1691
+#P	1315 Stadium Road, Mankato, MN 56001
+#L	44 09 N / 094 00 W city
+#R
+#W	csimom!sat (Scott Thomson); Mon Aug 10 15:59:24 CDT 1987
+#U	stolaf
+#
+csimom	stolaf(DEMAND)
+
+#N	dayton
+#S	NCR Tower/32; Unix V.2
+#O	Dayton Hudson Department Store Company
+#C	William T. Argyros
+#E	dayton!bill
+#T	+1 612 375-6651
+#P	700 On The Mall, Mpls. MN, 55402
+#L	45 03 N / 093 15 W  city
+#R
+#W	dayton!bill (William T. Argyros);Wed Feb 11 14:49:53 CST 1987
+#
+#	Major News Feed
+#U	rutgers rosevax ems meccts umn-cs mmm
+#
+#	The hourly link for rutgers IS correct in this entry.
+#
+dayton	aob(EVENING), ciprico(DIRECT), dicome(DIRECT),
+		ems(DIRECT), mecc(DIRECT), meccts(DIRECT),
+		mmm(DIRECT), quest(DIRECT), rosevax(DIRECT),
+		rutgers(DEMAND), umn-cs(DIRECT), viper(DIRECT)
+rutgers	dayton(HOURLY)
+
+#N	dicome
+#S	VAX 11/785 running Ultrix 1.1
+#O	DICOMED Corporation
+#C	john s salmi
+#E	john@umn-rei-uc.ARPA,  dicome!salmi
+#T	+1 612 625 7589 , +1 612 885 3092
+#P	12000 Portland Avenue South, Po Box 246, Minneapolis, MN  55440-0246
+#L	44 59 N / 93 13 W city
+#R	Latitude/longitude are approximate (city).
+#R	DICOMED manufactures high-performance graphics software/hardware
+#W	dicome!salmi (john salmi); Sat Nov 22 20:59:52 CDT 1986
+#U	meccts mmm mn-at1 quest 
+#
+dicome	aob(DIRECT), augsburg(DAILY), camax01(DIRECT+HOURLY), ciprico(DEAD), 
+	csugnat(EVENING/2), dayton(DIRECT), ihnp4(EVENING+4), mecc(DIRECT),
+	meccts(DIRECT), mmm(DIRECT), mn-at1(EVENING), ndsuvax(DEMAND),
+	noao(EVENING/2), quest(DIRECT), msi-a2 (DAILY), rosevax(DIRECT), 
+	stolaf(EVENING), tundra(DIRECT), umn-cs(DIRECT), umnd-cs(DEMAND),
+	uwvax(DEAD), wilder(DIRECT)
+#
+dicome = dicomed
+#N	docsplac
+#S	TRS-80 model 2 upgraded to 6000;XENIX 3.1
+#O	P. K. Zollinger, D.D.S.
+#C	Paul Zollinger
+#E	docspl!postmaster
+#T	+1 612 224 1122
+#P	1108 W. 7th Street, St. Paul, MN  55102
+#L	45 01 N / 93 30 W city
+#R	Latitude and Longitude are approximate
+#U
+#W	kksys!gk (Greg Kemnitz); Thu Feb 12 14:42:09 CST 1987
+#
+docsplac	kksys(DAILY)
+
+#N      elric
+#S      Unisys 5000/40 68010; System V R51
+#O      Unisys Coporation
+#C      Derek Terveer
+#E      lily!root
+#T      +1 612 681-6986
+#P      3140 Neil Armstrong Boulevard, Eagan, MN 55121, USA
+#L      44 52 N / 93 09 W
+#R	slated to become a branch site of the twin cities unisys internal
+#R	mail/news site: alice; 3Mbytes maxmem, 1M maxprog
+#U	lily herman sstat rosevax sx1100
+#W      lily!det (Derek Terveer); Thu Oct 29 17:46:37 CST 1987
+#
+elric	cimcor(DIRECT), herman(DIRECT), lily(DIRECT), meccts(DIRECT),
+	minnow(DIRECT),
+        pwcs(DIRECT), rose3(DIRECT), rosevax(DIRECT), sstat(DIRECT),
+	sx1100(DAILY/5)
+#N	gmcrx1
+#S	Concurrent Computer 3210;xelos R01.04
+#O	SPEED>S Corporation
+#C	Todd Koeckeritz
+#E	gmcrx1!zaz
+#T	+1 612 341 0920
+#P	430 First Avenue North, Minneapolis MN, 55401-1713
+#L	44 47 N / 93 15 W
+#R	Last Change: Initial Connect to meccts. Lat and Long are approx.
+#U	ems
+#W	gmcrx1!zaz (Todd Koeckeritz); Wed Mar 18 23:54:42 CST 1987
+#
+gmcrx1	meccts(DIRECT), ems(DIRECT)
+
+#N	hall
+#S	Sun 3/280; Sun OS 3.2
+#O	Cray Research, Inc.
+#C	Brian Reitz, Scott Bolte
+#E	hall!postmaster
+#T	+1 612 452 6650
+#P	1440 Northland Drive, Mendota Heights, MN 55120
+#L	44 50 N / 093 5 W
+#U	umn-cs
+#W	hall!abh (Andrew Hastings); Wed Jul 29 17:16:10 CDT 1987
+#
+hall	cray(LOCAL), crayamid(LOCAL), tundra(DAILY/2), umn-cs(DAILY/2)
+
+#N	helga
+#S	PDP 11/84; 2.10BSD
+#O	St. Olaf College Academic Computer Center
+#C	Alex Elder, Computer Systems Manager
+#E	stolaf!elder
+#T	+1 507 663 3047
+#P	Academic Computer Center, St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R
+#U	agnes(LOCAL)
+#W	stolaf!cdr (Craig D. Rice); Thu Jul  9 16:06:45 CDT 1987
+#
+helga	agnes(LOCAL)
+
+
+#N	herman
+#S	VAX-11/780; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	lily!root
+#T	+1 612 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121, USA
+#L	44 52 N / 93 09 W
+#R
+#U	elric
+#W	lily!det (Derek Terveer); Wed Oct 21 22:48:49 CDT 1987
+#
+herman	bonnie(DEMAND), burl(DEMAND), cimcor(DIRECT), clyde(DEMAND),
+	dodger(DEMAND), elric(DEDICATED),
+	floyd(DEMAND), lily(DEDICATED), meccts(DIRECT), minnow(DEMAND),
+	moss(DEMAND), pwcs(DIRECT), rose3(DIRECT), rosevax(DIRECT),
+	sstat(DIRECT), sx1100(DAILY), whuxf(DEMAND), whuts(DEMAND)
+
+#N	hi-csc
+#O	Honeywell Corporate Systems Development Division
+#C	Timothy R. Giebelhaus
+#E	hi-csc!postmaster
+#T	+1 612 541 6852
+#P	1000 Boone Av. N., Golden Valley, MN 55427
+#L	44 37 N / 93 17 W 
+#R
+#U
+#W	hi-csc!giebelhaus (Timothy R. Giebelhaus); Thu Jul 23 11:35:53 CDT 1987
+#
+hi-csc	umn-cs(DIRECT), resqoh(DIRECT), srcsip(DEAD), apcimsp(DIRECT)
+
+#N	kksys
+#S	IBM PC/AT clone;Microport UNIX System 5.2.2
+#O	K and K Systems
+#C	Greg Kemnitz
+#E	kksys!postmaster
+#T	+1 612 475 1527
+#P	P.O. Box 41804, Plymouth, MN  55441
+#L	45 01 N / 93 30 W city
+#R	Latitude and Longitude are approximate
+#U
+#W	kksys!gk (Greg Kemnitz); Sat Aug 15 06:10:02 CDT 1987
+#
+kksys	docspl(DEMAND), meccts(DEMAND), rosevax(DEMAND), umn-cs(DEMAND),
+	aob(DEMAND), cipric(DEMAND)
+
+#N	ldcx25
+#S	Lee Data Model 81 (IBM AT clone); Microport V.2/286
+#O	Lee Data Corporation
+#C	David A. Lease
+#E	ldcx25!dal
+#T	+1 612 828 0585
+#P	7075 Flying cloud Drive, Eden Prarie, Mn 55344
+#L	44 52 N / 93 27 W
+#R	
+#U	rosevax csiris
+#W	ldcx25!dal (David A. Lease); Thu Dec  3 08:07:06 CST 1987
+#
+ldcx25	rosevax(DAILY/6), csiris(DAILY/2)
+#N	lily
+#S	VAX-11/780; UNIX System V/2.0
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	lily!root
+#T	+1 612 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121, USA
+#L	44 52 N / 93 09 W
+#R
+#U
+#W	lily!det (Derek Terveer); Wed Oct 28 19:03:24 CST 1987
+#
+lily	bonnie(DEMAND), burl(DEMAND), cimcor(DIRECT), clyde(DEMAND),
+	dodger(DEMAND), elric(DEDICATED), floyd(DEMAND), herman(DEDICATED),
+	meccts(DIRECT), minnow(DEMAND),
+	moss(DEMAND), pwcs(DIRECT), rose3(DIRECT), rosevax(DIRECT),
+	sstat(DIRECT), sx1100(DAILY/5)
+
+#N      mca
+#S      AT&T Unix PC/3B1 Unix V.2 Rel 3.51
+#O      McDowall Computer Associates, Ltd.
+#C      Steven J. McDowall
+#E      mca!sjm
+#T      +1 612 427-5165
+#P      11958 El Dorado St. N.W., Coon Rapids, Mn 55433
+#L      45 03 N / 093 15 W  city
+#R
+#W      mca!sjm (Steven J. McDowall); Sun Aug 23 13:38:54 CDT 1987
+#
+mca	dayton(HOURLY), meccts(HOURLY), ems(HOURLY)
+
+#N	minnow
+#S	Sperry 5000/60; Unix System V.2
+#O	Sperry Corporation
+#C	Kevin J. Thomas
+#E	A60!postmaster
+#T	+1 612 635 6042
+#P	2276 Highcrest Road, Roseville, MN, 55113
+#L	45 02 N / 093 18 W  
+#R	Lat and Long are approximate
+#U	
+#W	minnow!kjt (Kevin J. Thomas); Mon Oct 6 23:55:00 CDT 1986
+#
+minnow	ems(DIRECT+HIGH)
+
+#N	mmm
+#S	VAX 11/780, running 4.2BSD
+#O	3M Company
+#C	Leon Schilmoeller
+#E	ihnp4!mmm!leon, ihnp4!mmm!postmaster
+#T	+1 612 733 2264, +1 612 736 9653
+#P	Bldg. 260-6A-08, 3M Center, St. Paul, MN 55144, USA
+#L	44 58 N / 93 07 W city
+#R	
+#U      umn-cs stolaf rosevax dicome srcsip
+#W	mmm!boone (David Boone); Tue Dec 17 11:40:59 CST 1985
+#
+mmm	umn-cs(DIRECT),
+	umn-ucc-us(DEAD),	
+	stolaf(DEMAND+LOW),	
+	ihnp4(DEMAND+HIGH),	
+	ciprico(DIRECT),	
+	quest(DIRECT),	
+	thunder(DAILY),	
+	rosevax(DIRECT),	
+	gambit(DIRECT),	
+	unison(DIRECT),	
+	srcsip(DIRECT),	
+	sunbird(DEMAND),	
+	tundra(DIRECT),
+	dicome(DIRECT)	
+# The name we would really like to be
+mmm = 3m
+#
+#These are small sites located inside of 3M reachable as
+# UUCP nodes. They will not be further listed
+#
+mmm	mmmamrs(DAILY),	
+	imgsys(DAILY),	
+	3m-sesd(DEAD),	
+	3m-epp1(DAILY)
+#
+#10 mb ethernet containing a real mix of operating systems
+# all sites listed have smtp up and running
+mmm-internet= {mmm, osddmr, src780, cad780, src86a, 
+	spud, blarney, shamrock, leprechaun,
+	mmmfs1, mmms2, mmms3, mmms4, mmms5}(LOCAL)
+
+#N	ncs-med
+#S	VAX 11/750; 4.2 bsd UNIX
+#O	National Computer Systems, Inc.
+#C	Bob Isch, Joe Marrone
+#E	ncs-med!bi, ncs-med!jjm
+#T	+1 612 893 8137, +1 612 893 8157
+#P	5700 Green Circle Drive, Minnetonka, MN 55434
+#L	44 56 N / 93 30 W city
+#R	
+#U	umn-cs sx7000 starfire
+#W	ncs-med!bi ( Bob Isch); Tue Dec 17 17:01:16 CST 1985
+ncs-med	umn-cs(DIRECT), starfire(DIRECT), sx7000(DIRECT)
+
+#N	ntmtka
+#S	Northern Telecom DV-1; DVIX 5.2	
+#O	Northern Telecom, Inc.
+#C	Rob Nielsen
+#E	ntmtka!rob
+#T	+1 612 932 8086
+#P	MS S100, 9701 Data Park, Minnetonka, MN   55440
+#L	44 53 30 N / 93 24 10 W
+#R	UNIX development group
+#W	ntmtka!rob (Rob Nielsen); Mon Oct  5 15:22:36 CDT 1987
+#U	srcsip
+#
+ntmtka	srcsip(DAILY)
+#N	pell 
+#S	Atari 1040ST, Gemdos 
+#O	STadel Development System
+#C	David Parsons 
+#E	stag!pell!orc 
+#T	+1 612 377 9105 
+#P	2624 Bryant Ave S, Minneapolis Minn 55408 
+#L	44 0 N/93 28 W 
+#R	Latitude/Longitude are estimated. 
+#U	stag 
+#W	pell!orc (David Parsons); 25 Aug 87  11:10:00 CST 
+#
+pell	stag(DAILY)
+
+#N	quest
+#S	Altos 3068, System V.2
+#O	Quest Research Inc.
+#C	Scott S. Bertilson, Scott Bouman
+#E	quest!sheldon, quest!scott, quest!dave
+#T	+1 612 894 7752
+#P	214 North River Ridge Circle, Burnsville, MN 55337
+#L      44 54 N / 93 20 W
+#R
+#U	ems cnt pwcs viper
+#W      quest!dave (David Messer); Thu Feb 26 01:29:57 CST 1987
+#
+quest	altos86(WEEKLY),
+	augsburg(DEAD),
+	bthpyd(DIRECT),
+	ciprico(DIRECT),
+	cipric(DIRECT),
+	cnt(DIRECT),
+	cts(DIRECT),
+	dicome(DIRECT),
+	ems(DIRECT),
+	fargovax(DIRECT),
+	gms(WEEKLY),
+	ihnp4(WEEKLY),
+	itda(DIRECT),
+	mecc(DEAD),
+	meccts(DIRECT),
+	mmm(DIRECT),
+	msi-a2(DIRECT),
+	pwcs(DIRECT),
+	rose3(DIRECT),
+	rosevax(DIRECT),
+	starfire(DIRECT),
+	umn-cme(DIRECT),
+	umn-cs(DIRECT),
+	viper(DIRECT),
+	wilder(DIRECT),
+	zeno(DIRECT)
+
+#N	rebma
+#S	IBM PC/AT; Microport System V/AT
+#C	Bill O'Hanlon
+#E	rebma!usenet
+#T	+1 612 338 0242
+#P	1901 Minnehaha Ave S. #408, Minneapolis, MN 55404
+#L	45 31 N / 93 15 W city
+#U	mn-at1 css
+#W	rebma!wmo (Bill O'Hanlon); Wed Jan 14 21:30:16 CST 1987
+rebma	mn-at1(DIRECT), css(DIRECT), rei-ua(DIRECT)
+
+#N	shamash
+#S	Sun Microsystems 3/160; 4.2BSD
+#O	Control Data Corporation
+#C	Jeff Wabik
+#E	shamash!jwabik
+#T	+1 612 853 6811
+#P	8100 34th Avenue South, Bloomington, MN  55420
+#L	44 52 20 N / 93 12 32 W city
+#W	shamash!jwabik (Jeff Wabik);  Thu Oct 29 09:37:59 CST 1987
+shamash umn-cs!(DIRECT),rosevax!(DIRECT),ems!(DIRECT),meccts!(DIRECT)
+
+#N	simvax
+#S	DEC VAX-11/750; EUNICE 4.2
+#O	Facility for Simulation of Stochastic Population Models, U of MN, Mpls
+#C	David W. Meile
+#E	simvax!usenet
+#T	+1 612 625 3694
+#P	Box 511 UMHC, 420 Delaware, Minneapolis, MN  55455
+#L	44 58 N / 93 12 20 W
+#R	Biotechnology Resource funded by N.I.H. grant RR-01632
+#U	umn-cs
+#W	simvax!davidli (David W. Meile); Wed Dec 10 09:15 CST 1986
+#
+simvax	umn-cs(DIRECT)
+
+#N	srcsip
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Honeywell Inc. Systems & Research Center
+#C	Larry Linde
+#E	srcsip!usenet
+#T	+1 612 782 7589
+#P	3660 Technology Drive MPLS, MN 55418, USA
+#L	44 52 N / 093 27 W 
+#R	Lat and Long are approximate, plus/minus thirty seconds
+#U	mmm bthpyd scs1 scs2 mmsvax 
+#W	srcsip!linde (Larry Linde);  Fri Apr 5 00:00:00 CST 1986
+#
+srcsip	ihnp4(DEMAND), mmm(DIRECT), umn-cs(DIRECT), hi-tsc(DEAD), 
+	philabs(DEMAND+HIGH), bthpyd(DIRECT), 
+	hi-scs(LOCAL), isaunix(LOCAL), umnd-cs(DEMAND)
+#
+# SRCNET local ethernet 10MB 
+# systems only accessable through SRCSIP
+# systems frodo, fili, kili, bombur, aaragorn and bilbo are
+# symbolics lisp machines.
+#
+srcnet-ether = {srcsip, scs1, scs2, csvax, isaunix, frodo, fili, kili, bombur,
+		aaragorn, src-bilbo, mmsvax}(LOCAL)
+
+#N	sstat
+#S	DEC MicroVAX II; Ultrix 1.2
+#O	Unisys - DS - Software, Systems, Tools and Technology
+#C	Dale Bennett
+#E	sstat!postmaster
+#T	1 612 456 7326
+#P	MS Y41A6, PO Box 64525, St. Paul, MN 55164-0525
+#L	44 48 N / 093 11 E 
+#R
+#U	herman mscunx
+#W	sstat!bennett (Dale Bennett); Wed Jul 29 10:00:00 CDT 1987
+#
+sstat herman(DAILY), lily(DIRECT), mscunx(DIRECT)
+
+#N	stag
+#S	Symmetric 375; BSD 4.2
+#O	Mindtools ST Access Group
+#C	Todd Burkey
+#E	nis!stag!trb
+#T	+1 612 542 1027
+#P	3546 Pilgrim Lane, Plymouth, MN 55441
+#L	44 0 N/93 28 W
+#R	pell & syntel are Atari ST's connected via CITADEL<->UUCP (mail only),
+#R	crash is main feed for Symmetric User Group news. (lat/long are estimated)
+#U	nis
+#W	stag!trb (Todd Burkey); Tues April 14 16:00:00 PDT 1987
+#
+stag	nis(DAILY),zycad(DAILY),meccts(DAILY),crash(DAILY),vixie(DAILY),
+	pell(DAILY),syntel(DAILY)
+
+#N      starfire
+#S      NSC32016, BSD 4.1 derivative
+#O      Starfire Consulting Services
+#C      John Lind
+#E      starfire!john
+#T      +1 612 379 2150
+#P      PO Box 13001, Minneapolis, MN  55414
+#L      44 59 N / 93 13 W city
+#R      Starfire is a small software and computer consulting company
+#W      starfire!john (John Lind); Fri Oct 23 22:14:12 CDT 1987
+#       All sites with "+50" call starfire at that rate
+starfire        cipric(DAILY/8), quest(DAILY/3), rose3(DIRECT+50),
+		umn-cs(DAILY/12)
+
+#N	stolaf
+#S	PDP 11/70, V7
+#O	St. Olaf College Academic Computer Center
+#C	Alex Elder, Computer Systems Manager
+#E	stolaf!elder
+#T	+1 507 663 3047
+#P	Academic Computer Center, St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R	This machine is called "sven" locally
+#U	agnes(LOCAL)
+#W	stolaf!cdr (Craig D. Rice); Thu Jul  9 16:06:45 CDT 1987
+#
+stolaf	agnes(LOCAL), helga(LOCAL), ccnfld(LOCAL), cray(DEMAND),
+	dicome(DEMAND), ihnp4(DEMAND), meccts(DEMAND), mmm(DEMAND),
+	umn-cs(DEMAND)
+
+#N	stophy
+#S	Intel 286/310, Xenix 3.0
+#O	St. Olaf College Physics Department
+#C	Duane Olson
+#E	stolaf!agnes!stophy!olsondn
+#T	+1 507 663 3120
+#P	St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R	
+#W	stolaf!elder (Alex Elder); Wed Jan  8 00:00:00 CST 1986
+stophy	agnes(LOCAL)
+
+#N	sylvan
+#S	Unisys PC/IT; SCO XENIX System V/R?
+#O	Unisys Coporation
+#C	Derek Terveer
+#E	lily!root
+#T	+1 612 681-6986
+#P	3140 Neil Armstrong Boulevard, Eagan, MN 55121, USA
+#L	44 52 N / 93 09 W
+#R	the stock uucp on this machine is *very* unreliable
+#U
+#W	lily!det (Derek Terveer); Fri Aug 28 22:19:19 CDT 1987
+#
+sylvan	cimcor(WEEKLY*6), conexch(DEAD), elric(DIRECT), emspxnx(DEAD),
+	herman(DIRECT), lily(DIRECT), k0jfv(DEAD), meccts(DEAD),
+	pwcs(DIRECT), rose3(DEAD), rosevax(DIRECT), sstat(DEAD),
+	xenixpc(WEEKLY*13)
+
+#N	troilus
+#S	Sun 3/160; SunOS 3.4
+#O	St. Olaf College Math Department
+#C	Craig D. Rice, Computer Systems Manager
+#E	troilus!cdr
+#T	+1 507 663 3096
+#P	Math Department, St. Olaf College, Northfield, MN  55057
+#L	44 28 N  93 11 W
+#R
+#U	agnes(LOCAL)
+#W	stolaf!cdr (Craig D. Rice); Thu Jul  9 16:06:45 CDT 1987
+#
+troilus	agnes(LOCAL)
+
+#N	tundra
+#S	Sun-2, 4.2 BSD UNIX
+#O	Sun Microsystems - North Central District Sales
+#C	D. Boone
+#E	tundra!boone
+#T	+1 612 854-7224
+#P	Two Appletree Square, Suite 100, Bloomington, MN, 55420
+#L	44 52 N / 093 23 W
+#U	
+#W	umnd-cs!steve (Steven M. Miller); Thu Nov 6 15:54:47 CST 1986
+tundra  sun(DEMAND+HIGH), dicome(DIRECT), mmm(DIRECT), pwcs(DIRECT),
+	umn-cs(WEEKLY)
+
+#N	umn-cme
+#S	PDP-11/60  2.8BSD
+#O	University of Minnesota, Department of Civil & Mineral Engineering
+#C	Greg Sherar
+#E	umn-cme!greg umn-cme!scott
+#T	+1 612 373 3140
+#P	122 CME Building, 500 Pillsbury Dr. S.E., Minneapolis, MN 55455
+#L	44 59 N / 93 13 W city
+#R	
+#W	umn-cme!root (Greg Sherar);Mon Jan  7 00:00:00 CST 1985
+# Used primarily for numeric calculations.
+#
+umn-cme	umn-cs(DIRECT), quest(DIRECT)
+
+#N	umn-cs
+#S	VAX 11/780  4.3 bsd UNIX
+#O	University of Minnesota, Computer Science Department
+#C	Jim Albers
+#E	umn-cs!postmaster
+#T	1 612 625 2068, 1 612 625 0876
+#P	207 Church Street SE, Minneapolis, MN 55455
+#L	44 58 28 N / 93 12 20 W  
+#R	Domain name: umn-cs.cs.umn.edu
+#W	umn-cs!sundquis (Tom Sundquist); Mon Jun 29 08:41:31 CDT 1987
+#
+umn-cs	ciprico(DIRECT),
+	cray(DIRECT),
+	dayton(DIRECT),
+	dicome(DIRECT),
+	ems(EVENING),
+	fargovax(DEMAND),
+	hi-csc(DIRECT),
+	hyper(DIRECT),
+	ihnp4(DEMAND),
+	isucs1(DEMAND),
+	meccts(DIRECT),
+	mmm(DIRECT),
+	ncs-med(DIRECT),
+	quest(DIRECT),
+	rosevax(DIRECT),
+	srcsip(DIRECT),
+	starfire(DIRECT),
+	stolaf(DEMAND),
+	tundra(DEMAND),
+	umnd-cs(DIRECT),
+	watvlsi(EVENING),
+	xanth(EVENING)
+
+#N	umnstat
+#S	VAX 11/750, 4.3 BSD
+#O	School of Statistics, U. of Minnesota
+#C	Luke Tierney, Gary Oehlert
+#E	umn-cs!umnstat!luke, umn-cs!umnstat!gary
+#T	+1 612 625 7843, +1 612 625 4758
+#P	270 Vincent Hall, U. of Minnesota, Minneapolis, Mn. 55455
+#L	44 58 / 093 12 W
+#R	domain name:  umnstat.stat.umn.edu
+#W	umnstat!luke (Luke Tierney);Tue Oct  27 10:08:43 CST 1987
+umnstat	umn-cs(HOURLY)
+
+#N	zycad
+#S	SUN II; BSD4.2
+#O	Zycad Corporation
+#C	Kevin Buchs
+#E	zycad!kjb
+#T	+1 612 779 5548
+#P	3500 Zycad Drive, Oakdale, MN 55109
+#L	092 56 05 W / 044 59 07 N
+#R	Zycad : Home of the Hardware Logic Simulation Accelerator
+#U
+#W	zycad!kjb (Kevin J. Buchs); Sun Jun  7 10:28:48 CDT 1987
+zycad	meccts(DAILY),nis(DAILY)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

@@ -1,0 +1,499 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.sun.4
+: This archive created: Mon Jun 22 20:55:17 1992
+echo shar: extracting u.sun.4
+cat << 'SHAR_EOF' > u.sun.4
+# u.sun.4 of 0,1,2,3,4,100; changes to: uucpmap@ussr.eu.net
+# Copyright 1990, 1991 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+#
+# Last change: Fri Aug 16 19:19:17 MSD 1991 
+
+#N	iias.spb.su gsp.iias.spb.su
+#S	IBM-PC/AT; SCO XENIX System V rel 2.3.2
+#O	Leningrad Institute for Informatics and Automation, the USSR Academy of Sciences
+#C	Dmitry Burkov
+#E	dburk@iias.spb.su
+#T	+7 812 218 4069
+#P	39, 14th Liniya, SU-199178 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	any@hq.demos.su 910727, any@hq.demos.su 910727
+
+#N	iiii.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	International Institute of Interphase Interactions
+#C	Michael P. Krutikov
+#E	krutikov@iiii.spb.su
+#T	+7 812 278 8865
+#P	177, Obvodnyi can., SU-198103 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9101, any@hq.demos.su 910727
+
+#N	ila.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	JV Interlacs
+#C	Klaus Peter Meyer
+#E	meyer@ila.spb.su
+#T	+7 812 272 5204
+#P	43, Chajkovskogo ul., SU-191194 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9012, any@hq.demos.su 910727
+
+#N	imi.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	International Mathematical Institute (Euler's Institute)
+#C	Igor A. Vasiliev
+#T	+7 812 310 4558
+#E	iav@imi.spb.su
+#P	27, Fontanka, SU-191011 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9012, any@hq.demos.su 910727
+
+#N	infopro.spb.su
+#S	BESTA; Unix V 3.1
+#O	Novinteh-Infopro, Ltd.
+#C	Lev A. Assinovsky
+#E	leo@infopro.spb.su
+#T	+7 812 311 4153
+#P	104, Nevsky pr., SU-191025 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 910612, any@hq.demos.su 910727
+
+#N	ipa.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Applied Astronomy Institute
+#C	Alexandr Salnikov
+#E	salnikov@ipa.spb.su
+#T	+7 812 230 7419
+#P	8 Zhdanovskaja street, SU-197042 Leningrad, USSR
+#L	29 40 E / 59 55 N city
+#W	chech@kaija.spb.su 901116, dvv@hq.demos.su 901210
+
+#N	jvherm.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Hermitage JV
+#C	Vladimir Sheinin
+#E	postmaster@herm.spb.su
+#T
+#P
+#L	30 15 E / 59 55 N city
+#W	tim@kaija.spb.su
+
+#N	kaija spb.su kaija.spb.su .kaija.spb.su
+#S	IBM-PC/AT; XENIX rel 2.3.2
+#O	Independent Affiliate "KAIJA" / Software Department
+#C	Igor E. Chechik
+#E	chech@kaija.spb.su
+#T	+7 812 294 1103
+#P	44-2-33 Sredneohtinskiy prospekt, SU-195160 Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#R	St. Peterburg regional RELCOM node
+#W	chech@kaija.spb.su 901115, avg@hq.demos.su 910715
+
+#N	lcse.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Commodity and Stock Exchange "Sankt Petersbourg"
+#C	Anatoly G. Kartashov
+#E	agk@lcse.spb.su
+#T	+7 812 217 5903
+#P	15, 26th Liniya, SU-199026 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9104, any@hq.demos.su 910727
+
+#N	lea.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Jewish Association
+#C	Gennady Farber
+#E	postmaster@lea.spb.su
+#T	+7 812 272 4173
+#P	29-31 Rileeva st, SU-191123 Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#W	chech@kaija.spb.su 910508, korotay@hq.demos.su 910710
+
+#N	lento.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	JV Lento
+#C	Gregory L. Milman
+#E	glm@lento.spb.su
+#T	+7 812 166 7995
+#P	6, Srednya ul., SU-192159 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 910610, any@hq.demos.su 910727
+
+#N	lgu.spb.su hq.lgu.spb.su .lgu.spb.su
+#S	IBM-PC/AT; SCO XENIX System V rel 2.3.2
+#O	Leningrad State University
+#C	Alexey G. Nilov
+#E	nilov@lgu.spb.su
+#T	+7 812 218 9701
+#P	7/9, Universitetskaja embankment, SU-199034 Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#R	RELCOM gate to Leningrad State University
+#W	chech@kaija.spb.su 910117, any@hq.demos.su 910727
+
+#N	math.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad University, Mathematics & Mechanics Fac.
+#C	Joseph Vladimirovich Romanovsky
+#E	postmaster@math.lgu.spb.su
+#T	+7 812 315 4374
+#P	2, Bibliotechnaja sq., Petrodvoretz, Leningrad, USSR
+#L	29 50 E / 59 55 N city
+#W	nilov@lgu.spb.su 910619, any@hq.demos.su 910727
+
+#N	or.math.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Operational Research Lab.,  Math. Leningrad University
+#C	Joseph Vladimirovich Romanovsky
+#E	postmaster@or.math.lgu.spb.su
+#T	+7 812 315 4374
+#P	2, Bibliotechnaja sq., Petrodvoretz, Leningrad, USSR
+#L	29 50 E / 59 55 N city
+#W	nilov@lgu.spb.su 910619, any@hq.demos.su 910727
+
+#N	niif.phys.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad University, Physics Institute
+#C	Alexey G. Nilov
+#E	postmaster@lgu.spb.su
+#T	+7 812 218 9701
+#P	1/1, Uljanovskaja st., Petrodvoretz, Leningrad, USSR
+#L	29 50 E / 59 55 N city
+#W	nilov@lgu.spb.su 910625, any@hq.demos.su 910727
+
+#N	phys.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad University, Physics Department
+#C	Alexey G. Nilov
+#E	nilov@lgu.spb.su
+#T	+7 812 218 9701
+#P	1/1, Uljanovskaja st., Petrodvoretz, Leningrad, USSR
+#L	29 50 E / 59 55 N city
+#W	nilov@lgu.spb.su 910602, any@hq.demos.su 910727
+
+#N	surf.phys.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad University, Physics Department, Solid Surface Electronics
+#C	Peter M. Artamonov
+#E	postmaster@surf.phys.lgu.spb.su
+#T	+7 812 356 1350
+#P	1/1, Uljanovskaja st., Petrodvoretz, Leningrad, USSR
+#L	29 50 E / 59 55 N city
+#W	nilov@lgu.spb.su 910605, any@hq.demos.su 910727
+
+#N	spfac.lgu.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad University, Personal Retraining Dept.
+#C	Paul Petrovich Stcherbakov
+#E	postmaster@spfac.lgu.spb.su
+#T	+7 812 213 6351
+#P	29, 14th line, SU-199178 Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#W	nilov@lgu.spb.su 910617, any@hq.demos.su 910727
+
+#N	limi.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad International Management Institute
+#C	Sergei N. Melnichenko
+#E	postmaster@limi.spb.su
+#T	+7 812 567 9804
+#P	P.O. BOX 450, SU-199034 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 910523, any@hq.demos.su 910727
+
+#N	lnpi.spb.su
+#S	IBM-PC/AT;  Xenix rel 2.3.2
+#O	Leningrad Nuclear Physics Institute
+#C	Konstantin I. Yursha
+#E	yursha@lnpi.spb.su
+#T	+7 812 71 46197
+#P	Leningrad Nuclear Physics Institute, SU-188350 Gatchina, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9101, any@hq.demos.su 910727
+
+#N	loizmiran.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Branch of Institute of Terrestrial Magnetism, Ionosphere an Radio Wave Propagation, the USSR Academy of Sciences
+#C	Sergei N. Domaratsky
+#E	sedom@loizmiran.spb.su
+#T	+7 812 252 6989
+#P	23, 2 Liniya, SU-199053 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9002, any@hq.demos.su 910727
+
+#N	lomi.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Branch of Mathematical Institute, the USSR Academy of Sciences
+#C	Baer Budaev
+#E	budaev@lomi.spb.su
+#T	+7 812 311 3209
+#P	27, Fontanka, SU-191011 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9012, any@hq.demos.su 910727
+
+#N	niiefa.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	NPO "Electrophysica"
+#C	Igor Rozhkov
+#E	rozhkov@niiefa.spb.su
+#T	+7 812 265 7894
+#P	Metallostroy, box 42, SU-189631, Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#W	rozhkov@niiefa.spb.su 910218, dvv@hq.demos.su 910312
+
+#N	nit.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Leningrad Department of New Technologies Institute
+#C	Leonid V. Yakovlev
+#E	postmaster@nit.spb.su
+#T	+7 812 234 4852
+#P	15/17, Prof. Popova, SU-?????? Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9103, any@hq.demos.su 910727
+
+#N	cc.pti.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Computer Center of Physical Technical Institute
+#C	Ivan G. Vsesvetsky
+#E	vig@cc.pti.spb.su
+#T	+7 812 247 9305
+#P	26, Politechnicheskaya, SU-194021 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9102, any@hq.demos.su 910727
+
+#N	ri.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	V.G.Khlopin Radium Institute
+#C	Nikolay K. Lastochkin
+#E	postmaster@ri.spb.su
+#T	+7 812 247 5722
+#P	28, pr. Shwernika, SU-194??? Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 910623, any@hq.demos.su 910727
+
+#N	ric.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Research Institute of Cardiology
+#C	Sergei Yu. Varshavsky
+#E	postmaster@ric.spb.su
+#T	+7 812 235 0027
+#P	15, pr. Parkhomenko, SU-194018 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 910522, any@hq.demos.su
+
+#N	soi.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	State Optical Institute
+#C	Alexey G. Skepko
+#E	skepko@soi.spb.su
+#T	+7 812 218 2208
+#P	12, Birzevaja Liniya, SU-199034 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9102, any@hq.demos.su 910727
+
+#N	sovex.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	JV Sovex
+#C	Alexey Nechaev
+#E	postmaster@sovex.spb.su
+#T	+7 812 234 5280
+#P	10-A Kamennoostrovskiy pr., Leningrad, USSR
+#L	30 15 E / 59 55 N city
+#W	tim@kaija.spb.su, fox@kiae.su 910614
+
+#N	sph.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Center "Superphysica", the USSR Physical Society
+#C	Wojciech Rizhy
+#E	wojciech@sph.spb.su
+#T	+7 812  213 6351
+#P	36-27, Majorova, SU-190068 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9102, any@hq.demos.su 910727
+
+#N	sti.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Simulation Technology Institute
+#C	Daniyar Tohtabaev
+#E	dan@sti.spb.su
+#T	+7 812 292 6470
+#P	18/12, Egorova, SU-198052 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9103, any@hq.demos.su 910727
+
+#N	post.stu.spb.su
+#S	IBM-PC/AT; Xenix 2.3.2
+#O	Leningrad State Technical University
+#C	Evgeny V. Smirnoff
+#E	smirnoff@post.stu.spb.su
+#T	+7 812 552 6438
+#P	29, Politechnicheskaya, SU-194064 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9105, any@hq.demos.su 910727
+
+#N	tor.spb.su
+#S	IBM-PC/AT; MSDOS
+#O	Cooperative Enterprise Tor
+#C	Oscar Batouner
+#E	oscar@tor.spb.su
+#T	+7 812 292 7210
+#P	6, Uglovoj per., SU-198052 Leningrad, USSR
+#L	27 50 E / 59 55 N
+#W	dburk@iias.spb.su 9012, any@hq.demos.su 910727
+
+#N	sao.stavropol.su
+#S	IBM-PC/AT; MSDOS - Xenix
+#O	Special Astrophisical Observatory
+#C	Vetkovskij
+#E	postmaster@sao.stavropol.su
+#T	+7 86578 9 2501
+#P	SAO, Down Archiz, Stavropolski krai, USSR
+#L
+#W	alex@kiae.su 910611, korotay@hq.demos.su 910705
+
+#N	ecoc.tashkent.su
+#S	IBM-PC/AT; MSDOS
+#O	EKOTEK Centre
+#C	Vladimir Kondratskij
+#E	postmaster@ecoc.tashkent.su
+#T	+7 3712 68 7953, +7 3712 64 7502
+#P	42, Lunacharskogo ul., Taskent, Uzbeckistan, USSR
+#L	
+#W	maria@kiae.su 910626, fox@kiae.su 910726
+
+#N	fondfm.tashkent.su
+#S	IBM-PC/AT; MSDOS
+#O	FOND Firm
+#C	Rashid Makhmudovich Sabitov
+#E	postmaster@fondfm.tashkent.su
+#T	+7 3712 39 4589, +7 3712 41 4054
+#P	2, Alleya Paradov, SU-700029 Tashkent, Uzbeckistan, USSR
+#L	
+#W	maria@kiae.su 910718, fox@kiae.su 910725
+
+#N	ispms.tomsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Institute for Strength Physics&Material Structure SD AS USSR
+#C	Sergej Ivanovich Negresku
+#E	postmaster@ispms.tomsk.su
+#T	+7 3822 25 8881
+#P	8, Akademicheskij pr., SU-634048 Tomsk, USSR
+#L
+#W	maria@kiae 910611, korotay@hq.demos.su 910705
+
+#N	tcse.tomsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Tomsk Commodity Stock Exchange
+#C	Igor Davidovich Blatt
+#E	postmaster@tcse.tomsk.su
+#T	+7 3822 49 6446
+#P	47, Vershinina ul., SU-634004 Tomsk, USSR
+#L	
+#W	maria@kiae.su 910724, fox@kiae.su 910725
+
+#N	tsinph.tomsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Scientific Institute for Nuclear Physics
+#C	Aleksandr Yurievich Basai
+#E	postmaster@tsinph.tomsk.su
+#T	+7 3822 44 0378
+#P	2A, pr.Lenina, SU-634050 Tomsk, USSR
+#L	
+#W	maria@kiae.su 910718, fox@kiae.su 910725
+
+#N	inr.troitsk.su
+#S	SM 1700; DEMOS 32
+#O	Institute of Nuclear Research USSR Academy of Sciences (Troitsk)
+#C	Timur Daniyarhodzhaev
+#E	postmaster@inr.troitsk.su
+#T	+7 095 334 0181
+#P	7a, pr. 60-let. Oktyabrya, SU-117312 Troitsk, Moscow obl., USSR
+#L
+#W	avg@kiae.su 910326, korotay@hq.demos.su 910705
+
+#N	icc.tsaritsyn.su
+#S	IBM-PC/AT; MSDOS
+#O	Volgograd Branch of the International Computer Club
+#C	Andrei Viktorovich Merzlikin
+#E	postmaster@icc.tsaritsyn.su
+#T	+7 8442 36 4729
+#P	1a, Mira ul., SU-400066 Volgograd, USSR
+#L
+#W	korotay@hq.demos.su 9107095, korotay@hq.demos.su 9107095
+
+#N	gts.tula.su
+#S	IBM-PC/AT; XENIX
+#O	Tula Politechnical Institute, Tula City Phone Exchange
+#C	Ilia Suchkov
+#E	postmaster@gts.tula.su
+#T	+7 0872 31 0570
+#P	34, Moskovskaja ul., Tula, USSR
+#L
+#W	dvv@kiae.uucp 901212, fox@kiae.su 910705
+
+#N	spsel.tver.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint Venture Seliger
+#C	S. Ju. Sergeev
+#E	sjus@spsel.tver.su
+#T	+7 08222 3 9086, +7 08222 2 2513
+#P
+#L
+#W	maria@kiae.su 910305, fox@kiae.su 910705
+
+#N	tvegu.tver.su
+#S	IBM-PC/AT; MSDOS
+#O	Tver State University
+#C	Elmir Khaphizovich Musikaev
+#E	postmaster@tvegu.tver.su
+#T	+7 08222 6 0522
+#P	33, Jelyabova ul., SU-170013 Tver, USSR
+#L
+#W	korotay@hq.demos.su 910605, fox@kiae.su 910721
+
+#N	jvsat.vologda.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint Venture SOVAVSTRALTECHNIKA
+#C	Aleksandr Vinokhodov
+#E	postmaster@jvsat.vologda.su
+#T	+7 8172 22 2210
+#P	12, Batiyskova, SU-160001 Vologda, USSR
+#L	
+#W	maria@kiae.su 910711, fox@kiae.su 910726
+
+#N	botik.yaroslavl.su
+#S	IBM-PC/AT; MSDOS
+#O	Program Systems Institute
+#C	Aleksey Vadimovich Bocharov
+#E	postmaster@botik.yaroslavl.su
+#T	+7 0853 59 8246
+#P	Program Systems Institute, Pereslavl-Zalesski, USSR
+#L
+#W	alex@kiae.su 910117, korotay@hq.demos.su 910705
+
+#N	iptrm.zgrad.su
+#S	IBM-PC/AT; MSDOS
+#O	National Scientific and Research Institute for Physical-technical and Radio-technical Measurements
+#C	Evgenij S. Timofeew
+#E	postmaster@iptrm.zgrad.su
+#T	+7 095 530 1001
+#P
+#L	37 35 E / 55 45 N city
+#W	dvv@kiae.su 901225, korotay@hq.demos.su 910705
+
+#N	zelax.zgrad.su
+#S	IBM-PC/AT; MSDOS
+#O	Zelenograd Center of Scientific and Tecnological Services "Zelax"
+#C	Evgenij S. Timofeew
+#E	postmaster@zelax.zgrad.su
+#T	+7 095 530 1001
+#P	korp. 928, Zelenograd, SU-103575 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	fox@kiae.su 910504, korotay@hq.demos.su 910705
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

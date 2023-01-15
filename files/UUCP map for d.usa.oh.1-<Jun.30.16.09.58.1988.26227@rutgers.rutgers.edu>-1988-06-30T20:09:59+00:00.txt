@@ -1,0 +1,957 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.oh.1
+: This archive created: Thu Jun 30 16:09:54 1988
+echo shar: extracting d.usa.oh.1
+cat << 'SHAR_EOF' > d.usa.oh.1
+#MAP FILE: d.usa.oh.1	Tue Jun 21 18:12:31 EDT 1988	tgt@cube.stargate.COM
+#
+#
+#N	.att.com, att
+#F	arpa.att.com
+#O	AT&T
+#C	Mark Horton, Tim Thompson, Doug Price, Jonathan Clark
+#E	mark@cblpf.att.com,tgt@cblpf.att.com,dhp@ihlpa.att.com,jhc@mtune.att.com
+#T	614-860-4276, 614-860-7026, 312-979-3664, 201-957-2586
+#P	Rm 1D-119, 6200 E. Broad, Columbus, OH 43213
+#L	39 58 54 N / 82 50 15 W
+#R	registered
+#R	also on ARPANET and CSNET
+#U	alberta chinet clyde gargoyle icus laidbak
+#U	osu-cis oucsace pacbell petsd rutgers ulysses
+#W	tgt@att.att.com (Tim Thompson) ; Wed Jun 15 14:30:05 EDT 1988
+#
+# Formal gateways being instituted for the whole of .ATT.COM
+# Further changes will follow throughout the next year.
+#
+att	.att.com
+att=	att.att.com
+#
+#
+#
+# This list of externally connected machines will be very volatile over
+# the next couple of months as AT&T gets out of the 3rd-party e-mail business.
+#
+#
+att	alberta(HOURLY),	amdahl(HOURLY), 	bellcore(HOURLY),
+	bpa(HOURLY), 		chinet(HOURLY),		gargoyle(HOURLY),
+	hal(HOURLY), 		ico(HOURLY), 		icus(HOURLY),
+	killer(HOURLY),		laidbak(HOURLY),	looking(HOURLY),
+	mandrill(HOURLY), 	mcdchg(HOURLY),		mirror(HOURLY),
+	mstar(HOURLY), 		musky2(HOURLY),		ncr-sd(HOURLY),
+	ncsc1(HOURLY), 		osu-cis(HOURLY), 	oucs(HOURLY),
+	oucsace(HOURLY), 	pacbell(HOURLY),	petsd(HOURLY),
+	philabs(HOURLY), 	princeton(HOURLY),	rayssd(HOURLY),
+	rutgers(HOURLY), 	sdcrdcf(HOURLY), 	snark(HOURLY),
+	ssbn(HOURLY), 		starcube(HOURLY),	stargate(HOURLY),
+	tektronix(HOURLY), 	tellab5(HOURLY),	uniq(HOURLY),
+	utah-cs(HOURLY), 	utgpu(HOURLY), 		vfrot(HOURLY),
+	westmark(HOURLY), 	xanth(HOURLY)
+#
+#
+#
+# The following pathalias data is for sites that are internal to AT&T.
+# This list comes from AT&T Network Action Central.  This data falls into
+# three categories:
+#
+#	1. internal sites which can be reached from the gateway
+#
+#	2. internal sites which cannot currently be reached from the gateway.
+#	   These sites will be reported back to Network Action Central
+#	   for further testing.
+#
+#	3. internal sites which have been reached by the gateway, but did not
+#	   successfully communicate with because they have not yet installed
+#	   the proper Systems/L.sys entries. These sites will be reported
+#	   back to Network Action Central so that the SA can be contacted
+#	   and asked to install the most recent Systems/L.sys data.
+#
+# Sites which fall into category 2 and 3 above were tested a minimum of
+# fourteen (14) times over a two week period. As SAs fix their Systems/L.sys
+# files, and connection data is updated with Network Action Central, sites
+# in these two categories will be removed from their current category and
+# placed in category number 1 above.
+#
+# Even though some sites listed here cannot currently be reached, the
+# reason for listing them anyways is so that names which we have reserved
+# are not inadvertently given away to another site simply because they
+# don't currently appear on the map.
+#
+#
+#
+# CATEGORY NUMBER 1
+#	internal sites which can be reached from the gateway
+#
+#
+att	abcom(DEDICATED),	abfli(DEDICATED),	abflr(DEDICATED),
+	abflx(DEDICATED),	abfly(DEDICATED),	achilles(DEDICATED),
+	acpfs(DEDICATED),	addcrc(DEDICATED),	ae3b5(DEDICATED),
+	ak-2ts(DEDICATED),	akgua(DEDICATED),	akguc(DEDICATED),
+	alan(DEDICATED),	alcmkm(DEDICATED),	alice(DEDICATED),
+	allegra(DEDICATED),	allwise(DEDICATED),	aloft(DEDICATED),
+	aloha(DEDICATED),	aloof(DEDICATED),	alpcn(DEDICATED),
+	alupr(DEDICATED),	alux1(DEDICATED),	alux2(DEDICATED),
+	alux3(DEDICATED),	alux4(DEDICATED),	alux5(DEDICATED),
+	aluxe(DEDICATED),	aluxp(DEDICATED),	aluxs(DEDICATED),
+	aluxz(DEDICATED),	alvis(DEDICATED),	amc1(DEDICATED),
+	andante(DEDICATED),	api(DEDICATED),		arachne(DEDICATED),
+	arch3(DEDICATED),	arend(DEDICATED),	ariel(DEDICATED),
+	ark1(DEDICATED),	ark2(DEDICATED),	ark3b(DEDICATED),
+	arpa(DEDICATED),	arrow(DEDICATED),	artsys(DEDICATED),
+	asp3(DEDICATED),	asp4(DEDICATED),	aspen(DEDICATED),
+	asr1(DEDICATED),	asr2(DEDICATED),	athq03(DEDICATED),
+	athq07(DEDICATED),	atlas(DEDICATED),	atomic(DEDICATED),
+	atrm01(DEDICATED),	atssc(DEDICATED),	att-cb(DEDICATED),
+	att-ih(DEDICATED),	att-mt(DEDICATED),	attbl(DEDICATED),
+	attibr(DEDICATED),	attnts(DEDICATED),	attsa(DEDICATED),
+	attsat(DEDICATED),	attunix(DEDICATED),	avalon(DEDICATED),
+	azalea(DEDICATED),	bacon(DEDICATED),	bacyn(DEDICATED),
+	bakerst(DEDICATED),	balin(DEDICATED),	barkeep(DEDICATED),
+	bashful(DEDICATED),	bass(DEDICATED),	batavier(DEDICATED),
+	bearcat(DEDICATED),	bed3c(DEDICATED),	bedspg(DEDICATED),
+	beehive(DEDICATED),	bengi(DEDICATED),	bentley(DEDICATED),
+	bifur(DEDICATED),	bkuxa(DEDICATED),	bkuxb(DEDICATED),
+	bkuxc(DEDICATED),	bkuxd(DEDICATED),	bkuxf(DEDICATED),
+	bkuxg(DEDICATED),	bkuxh(DEDICATED),	bkuxi(DEDICATED),
+	bkuxm(DEDICATED),	bkuxn(DEDICATED),	bkuxo(DEDICATED),
+	bkuxt(DEDICATED),	bkuxu(DEDICATED),	bobpc(DEDICATED),
+	bocar(DEDICATED),	bonasa(DEDICATED),	bonnie(DEDICATED),
+	booboo(DEDICATED),	boojum(DEDICATED),	boole(DEDICATED),
+	bowell(DEDICATED),	brandy(DEDICATED),	brpr01(DEDICATED),
+	brpr02(DEDICATED),	brpr03(DEDICATED),	brpr04(DEDICATED),
+	brpr05(DEDICATED),	brts01(DEDICATED),	brts02(DEDICATED),
+	bu3b15(DEDICATED),	bubba(DEDICATED),	bugatti(DEDICATED),
+	bugsp3(DEDICATED),	bw15a(DEDICATED),	bw15b(DEDICATED),
+	bw15c(DEDICATED),	bw15h(DEDICATED),	bwmail(DEDICATED),
+	byron(DEDICATED),	c53ux(DEDICATED),	cadman(DEDICATED),
+	caelum(DEDICATED),	caiac(DEDICATED),	candi(DEDICATED),
+	capek(DEDICATED),	carm1(DEDICATED),	cbami(DEDICATED),
+	cbbca(DEDICATED),	cbcams(DEDICATED),	cbcp1(DEDICATED),
+	cbcp2(DEDICATED),	cbcsta(DEDICATED),	cbdev(DEDICATED),
+	cbdkc1(DEDICATED),	cbdkc3(DEDICATED),	cbdms(DEDICATED),
+	cbdsn(DEDICATED),	cbema(DEDICATED),	cbemb(DEDICATED),
+	cbemc(DEDICATED),	cbhercules(DEDICATED),	cblpe(DEDICATED),
+	cblpf(DEDICATED),	cblph(DEDICATED),	cblpn(DEDICATED),
+	cbmis(DEDICATED),	cbndb(DEDICATED),	cbnds(DEDICATED),
+	cbnea(DEDICATED),	cbneb(DEDICATED),	cbnews(DEDICATED),
+	cbnm(DEDICATED),	cbnmva(DEDICATED),	cbnscs(DEDICATED),
+	cbosgd(DEDICATED),	cbpine(DEDICATED),	cbqaa(DEDICATED),
+	cbrma(DEDICATED),	cbrmb(DEDICATED),	cbrme(DEDICATED),
+	cbrms1(DEDICATED), 	cbrust(DEDICATED),	cbs3b3(DEDICATED),
+	cbsck(DEDICATED), 	cbsds(DEDICATED),	cbsec1(DEDICATED),
+	cbsnsz(DEDICATED), 	cbspt2(DEDICATED),	cbspt3(DEDICATED),
+	cbstr1(DEDICATED), 	cbtaurus(DEDICATED),	cbtern(DEDICATED),
+	cbtsps(DEDICATED), 	cbusa2(DEDICATED),	cbzeus(DEDICATED),
+	centaur(DEDICATED), 	cesupt(DEDICATED),	ceuxa(DEDICATED),
+	ceuxb(DEDICATED), 	charm(DEDICATED),	chim(DEDICATED),
+	chopin(DEDICATED), 	chris(DEDICATED),	chts02(DEDICATED),
+	circe(DEDICATED), 	cisco(DEDICATED),	ciss(DEDICATED),
+	clab3b(DEDICATED), 	clark(DEDICATED),	clockwise(DEDICATED),
+	clyde(DEDICATED), 	codas(DEDICATED),	cogito(DEDICATED),
+	coke(DEDICATED), 	colssc(DEDICATED),	coma(DEDICATED),
+	conceps(DEDICATED), 	cope(DEDICATED),	cord(DEDICATED),
+	corvair(DEDICATED), 	corvette(DEDICATED),	cpsc55(DEDICATED),
+	cpsc6a(DEDICATED), 	crab(DEDICATED),	crfax(DEDICATED),
+	crisis3(DEDICATED), 	crnog01(DEDICATED),	crrtm(DEDICATED),
+	cusla(DEDICATED), 	cuslb(DEDICATED),	cuuxc(DEDICATED),
+	cuuxd(DEDICATED), 	cuuxe(DEDICATED),	cuuxf(DEDICATED),
+	cuuxh(DEDICATED), 	cuuxk(DEDICATED),	cyclone(DEDICATED),
+	daimler(DEDICATED), 	darrel(DEDICATED),	dc013b(DEDICATED),
+	dc023b(DEDICATED),
+	dc033b(DEDICATED),	diomedes(DEDICATED),	djuucp(DEDICATED),
+	dmert(DEDICATED),	doug(DEDICATED),	dptg(DEDICATED),
+	dr44a(DEDICATED),	dr44b(DEDICATED),	dr44d(DEDICATED),
+	dr44f(DEDICATED),	drml1(DEDICATED),	druco(DEDICATED),
+	druid(DEDICATED),	druin(DEDICATED),	druks(DEDICATED),
+	drumn(DEDICATED),	drund(DEDICATED),	drune(DEDICATED),
+	drutx(DEDICATED),	drux2(DEDICATED),	druxk(DEDICATED),
+	druxm(DEDICATED),	druxn(DEDICATED),	druxq(DEDICATED),
+	druxv(DEDICATED),	ds1(DEDICATED),		dsg3b2(DEDICATED),
+	durika(DEDICATED),	dutoit(DEDICATED),	dwarfb(DEDICATED),
+	dwx3bn(DEDICATED),	dwx3bs(DEDICATED),	dxis(DEDICATED),
+	dxppc(DEDICATED),	ea0115(DEDICATED),	ea013b(DEDICATED),
+	ea023b(DEDICATED),	ea0315(DEDICATED),	ea033b(DEDICATED),
+	ea0415(DEDICATED),	ea043b(DEDICATED),	ea053b(DEDICATED),
+	ea063b(DEDICATED),	eagle(DEDICATED),	ean2hh1(DEDICATED),
+	eapr01(DEDICATED),	eapr02(DEDICATED),	eapr03(DEDICATED),
+	edam(DEDICATED),	edsel(DEDICATED),	eeyore(DEDICATED),
+	emdbl1(DEDICATED),	encke(DEDICATED),	erc3ba(DEDICATED),
+	erc3bb(DEDICATED),	erc780(DEDICATED),	ercdora(DEDICATED),
+	esmst1(DEDICATED),	esmst2(DEDICATED),	europa(DEDICATED),
+	eve(DEDICATED),		everest(DEDICATED),	exer(DEDICATED),
+	fd012b(DEDICATED),	feathers(DEDICATED),	fenian(DEDICATED),
+	fermat(DEDICATED),	fiber(DEDICATED),	ficit(DEDICATED),
+	fipt(DEDICATED),	floyd(DEDICATED),	fmg4a(DEDICATED),
+	fopcwa(DEDICATED),	galerkin(DEDICATED),	garage(DEDICATED),
+	gauss(DEDICATED),	gc3ba(DEDICATED),	gcuxa(DEDICATED),
+	gcuxb(DEDICATED),	gcuxc(DEDICATED),	gcuxd(DEDICATED),
+	gcuxe(DEDICATED),	gcuxf(DEDICATED),	gcuxg(DEDICATED),
+	gcuxh(DEDICATED),	gcuxi(DEDICATED),	gcuxj(DEDICATED),
+	gcuxk(DEDICATED),	gcuxl(DEDICATED),	gcuxn(DEDICATED),
+	genesis(DEDICATED),	giacobini(DEDICATED),
+	gimli(DEDICATED),	gittler(DEDICATED),	glc2ee1(DEDICATED),
+	gldedn(DEDICATED),	gmlr(DEDICATED),	gordo(DEDICATED),
+	graff(DEDICATED),	granjon(DEDICATED),	grimace(DEDICATED),
+	groucho(DEDICATED),	gtfalls(DEDICATED),	gummo(DEDICATED),
+	gwspc(DEDICATED),	hank(DEDICATED),	happy(DEDICATED),
+	harpo(DEDICATED),	hbginst(DEDICATED),	hector(DEDICATED),
+	hekla(DEDICATED),	herbjr(DEDICATED),	hl3b5a(DEDICATED),
+	hlwpb(DEDICATED),	hlwpc(DEDICATED),	hlwpd(DEDICATED),
+	hlwpf(DEDICATED),	hlwpg(DEDICATED),	hlwph(DEDICATED),
+	hlwpi(DEDICATED),	hlwpj(DEDICATED),	hlwpk(DEDICATED),
+	hlwpl(DEDICATED),	hlwpm(DEDICATED),	hlwpn(DEDICATED),
+	ho-lar(DEDICATED),	ho2cad(DEDICATED),	ho4cad(DEDICATED),
+	ho5cad(DEDICATED),	ho7cad(DEDICATED),	ho95b(DEDICATED),
+	ho95c(DEDICATED),	ho95e(DEDICATED),	hobcms(DEDICATED),
+	hobisb(DEDICATED),	hobnob(DEDICATED),	hocad(DEDICATED),
+	hocasa(DEDICATED),	hocms2(DEDICATED),	hocoer(DEDICATED),
+	hocpa(DEDICATED),	hocpb(DEDICATED),	hodrw(DEDICATED),
+	hoeick(DEDICATED),	hofred(DEDICATED),	hogasp(DEDICATED),
+	hoh-1(DEDICATED),	hoh-2(DEDICATED),	hohaa(DEDICATED),
+	hohum(DEDICATED),	holin(DEDICATED),	holite(DEDICATED),
+	homac(DEDICATED),	homwl(DEDICATED),	homxa(DEDICATED),
+	homxb(DEDICATED),	homxc(DEDICATED),	honasa(DEDICATED),
+	hopat(DEDICATED),	hopd4(DEDICATED),
+	hopdb(DEDICATED),	hopsn(DEDICATED),	hoqaa(DEDICATED),
+	hoqam(DEDICATED),	hoqax(DEDICATED),	hoqua(DEDICATED),
+	hoqub(DEDICATED),	hornet(DEDICATED),	hoshn(DEDICATED),
+	hostc1(DEDICATED),	hostc5(DEDICATED),	hotel(DEDICATED),
+	hotlc(DEDICATED),	hotld(DEDICATED),	hotle(DEDICATED),
+	hotlf(DEDICATED),	hotlg(DEDICATED),	hotlk(DEDICATED),
+	hotlv(DEDICATED),	hotlx(DEDICATED),	hotly(DEDICATED),
+	hotlz(DEDICATED),	hotps(DEDICATED),	hou2c(DEDICATED),
+	hou2d(DEDICATED),	hou2e(DEDICATED),	hou2h(DEDICATED),
+	hou3b(DEDICATED),	houdi(DEDICATED),	houem(DEDICATED),
+	hound(DEDICATED),	hounx(DEDICATED),	houpo(DEDICATED),
+	houtz(DEDICATED),	houxa(DEDICATED),	houxh(DEDICATED),
+	houxj(DEDICATED),	houxk(DEDICATED),	houxl(DEDICATED),
+	houxs(DEDICATED),	houxu(DEDICATED),	houxv(DEDICATED),
+	howard(DEDICATED),	howdy(DEDICATED),	hr1top(DEDICATED),
+	hr2top(DEDICATED),	hr3ar(DEDICATED),	hr4ar(DEDICATED),
+	hr8top(DEDICATED),	hracms(DEDICATED),	hrals(DEDICATED),
+	hrb5c(DEDICATED),	hrcms1(DEDICATED),	hropus(DEDICATED),
+	hrram(DEDICATED),	hru3b(DEDICATED),	hru3d(DEDICATED),
+	hrwhi(DEDICATED),	htcea(DEDICATED),	htuxa(DEDICATED),
+	hulk(DEDICATED),	hunny(DEDICATED),	ibd(DEDICATED),
+	icarus(DEDICATED),	iceland(DEDICATED),	iexist(DEDICATED),
+	iexplode(DEDICATED),	iextinct(DEDICATED),	ignatz(DEDICATED),
+	ih222(DEDICATED),	ih3b1(DEDICATED),	ih452(DEDICATED),
+	ih4ehw(DEDICATED),	ih4ep(DEDICATED),	ih6l3(DEDICATED),
+	ihac1(DEDICATED),	iham1(DEDICATED),	iham2(DEDICATED),
+	iham3(DEDICATED),	ihaxa(DEDICATED),	ihbhwk(DEDICATED),
+	ihchk(DEDICATED),	ihcms(DEDICATED),	ihcup(DEDICATED),
+	ihddo1(DEDICATED),	ihdepads(DEDICATED),	ihdes3(DEDICATED),
+	ihdes5(DEDICATED),	ihdev(DEDICATED),	ihdld(DEDICATED),
+	ihdsn(DEDICATED),	ihe5a(DEDICATED),	ihe5h(DEDICATED),
+	ihe5j(DEDICATED),	ihe5o(DEDICATED),	ihe5r(DEDICATED),
+	ihe5s(DEDICATED),	ihe5u(DEDICATED),	ihe5w(DEDICATED),
+	ihell(DEDICATED),	ihero(DEDICATED),	ihesa(DEDICATED),
+	ihexp(DEDICATED),	ihfaa(DEDICATED),	ihi52(DEDICATED),
+	ihiadm(DEDICATED),	ihivs(DEDICATED),	ihjhh(DEDICATED),
+	ihlcd(DEDICATED),	ihlpa(DEDICATED),	ihlpe(DEDICATED),
+	ihlpf(DEDICATED),	ihlpg(DEDICATED),	ihlph(DEDICATED),
+	ihlpj(DEDICATED),	ihlpl(DEDICATED),	ihlpm(DEDICATED),
+	ihlpr(DEDICATED),	ihlps(DEDICATED),	ihlpx(DEDICATED),
+	ihlts(DEDICATED),	ihlumpy(DEDICATED),	ihmcs84(DEDICATED),
+	ihn5d(DEDICATED),	ihn5l(DEDICATED),	ihn5s(DEDICATED),
+	ihn5t(DEDICATED),	ihnet(DEDICATED),	ihnms(DEDICATED),
+	ihnp4(DEDICATED),	ihnp6(DEDICATED),	ihop3(DEDICATED),
+	ihopa(DEDICATED),	ihopb(DEDICATED),	ihorde(DEDICATED),
+	ihowl(DEDICATED),	ihpad(DEDICATED),	ihprod(DEDICATED),
+	ihps1(DEDICATED),	ihps2(DEDICATED),	ihreg(DEDICATED),
+	ihrjb(DEDICATED),	ihrmv(DEDICATED),	ihs1k(DEDICATED),
+	ihsa2(DEDICATED),	ihsgs(DEDICATED),	ihss1(DEDICATED),
+	ihss2(DEDICATED),	ihss3(DEDICATED),	ihss4(DEDICATED),
+	ihss5(DEDICATED),	ihssd(DEDICATED),	ihsybil(DEDICATED),
+	ihtfs(DEDICATED),	ihtlt(DEDICATED),	ihtp2(DEDICATED),
+	ihtp3(DEDICATED),	ihu1g(DEDICATED),	ihu1h(DEDICATED),
+	ihu1m(DEDICATED),	ihuge(DEDICATED),	ihumm(DEDICATED),
+	ihump(DEDICATED),	ihuxa(DEDICATED),	ihuxv(DEDICATED),
+	ihuxy(DEDICATED),	ihuxz(DEDICATED),	ihwld(DEDICATED),
+	ihwpa(DEDICATED),	ihwpb(DEDICATED),	ihwpc(DEDICATED),
+	ihwpe(DEDICATED),	ihwpf(DEDICATED),	ihwpg(DEDICATED),
+	ihwph(DEDICATED),	ihwpt(DEDICATED),	inuxa(DEDICATED),
+	inuxb(DEDICATED),	inuxc(DEDICATED),	inuxd(DEDICATED),
+	inuxe(DEDICATED),	inuxf(DEDICATED),	inuxg(DEDICATED),
+	inuxh(DEDICATED),	inuxi(DEDICATED),	inuxj(DEDICATED),
+	inuxm(DEDICATED),	io(DEDICATED),		iota(DEDICATED),
+	isndbw(DEDICATED),	iw4512(DEDICATED),	iw4os(DEDICATED),
+	iwabf(DEDICATED),	iwanb(DEDICATED),	iwantosi(DEDICATED),
+	iwaoa(DEDICATED),	iwap10(DEDICATED),	iwddo1(DEDICATED),
+	iwfap(DEDICATED),	iwfgm(DEDICATED),	iwfox(DEDICATED),
+	iwjsb(DEDICATED),	iwlc2(DEDICATED),	iwlc4(DEDICATED),
+	iwlc5(DEDICATED),	iwlc8(DEDICATED),	iwlca(DEDICATED),
+	iwlcs(DEDICATED),	iwrke1(DEDICATED),	iwsag(DEDICATED),
+	iwsah(DEDICATED),	iwsak(DEDICATED),	iwsam(DEDICATED),
+	iwsan(DEDICATED),	iwsar(DEDICATED),	iwsas(DEDICATED),
+	iwsl6(DEDICATED),	iwsl7(DEDICATED),	iwsl8(DEDICATED),
+	iwsla(DEDICATED),	iwslb(DEDICATED),	iwslc(DEDICATED),
+	iwsld(DEDICATED),	iwsle(DEDICATED),	iwslr(DEDICATED),
+	iwslu(DEDICATED),	iwtbb(DEDICATED),	iwtbr(DEDICATED),
+	iwtbw(DEDICATED),	iwtbx(DEDICATED),	iwtby(DEDICATED),
+	iwtbz(DEDICATED),	iwtcy(DEDICATED),	iwtcz(DEDICATED),
+	iwtdo(DEDICATED),	iwtfw(DEDICATED),	iwtmc1(DEDICATED),
+	iwtnb(DEDICATED),	iwtng(DEDICATED),	iwtnw(DEDICATED),
+	iwtoy(DEDICATED),	iwtpm(DEDICATED),	iwtsa(DEDICATED),
+	iwu1c(DEDICATED),	iwu1d(DEDICATED),	iwvae(DEDICATED),
+	iwvim(DEDICATED),	ix-wwj(DEDICATED),	ixajb(DEDICATED),
+	ixasb(DEDICATED),	ixcae(DEDICATED),	ixcpe(DEDICATED),
+	ixe5e(DEDICATED),	ixe5m(DEDICATED),	ixe5n(DEDICATED),
+	ixe5p(DEDICATED),	ixe5q(DEDICATED),	ixhp1(DEDICATED),
+	ixhte(DEDICATED),	ixlpc(DEDICATED),	ixlpi(DEDICATED),
+	ixlpn(DEDICATED),	ixlpo(DEDICATED),	ixlpq(DEDICATED),
+	ixlpt(DEDICATED),	ixn5c(DEDICATED),	ixn5p(DEDICATED),
+	ixn5q(DEDICATED),	ixn5r(DEDICATED),	ixn5u(DEDICATED),
+	ixprg(DEDICATED),	ixws1(DEDICATED),	jaguar(DEDICATED),
+	jcvlssc(DEDICATED),	jetta(DEDICATED),	jo7300(DEDICATED),
+	joey(DEDICATED),	jones(DEDICATED),	joplin(DEDICATED),
+	jorel(DEDICATED),	kaiser(DEDICATED),	kanga(DEDICATED),
+	kcncm(DEDICATED),	keats(DEDICATED),	kpsl05(DEDICATED),
+	kubla(DEDICATED),	kwee(DEDICATED),	kwho(DEDICATED),
+	ky2d(DEDICATED),	lancia(DEDICATED),	large(DEDICATED),
+	lc15a(DEDICATED),	lc20a(DEDICATED),	lc20d(DEDICATED),
+	lccras(DEDICATED),	lclmos(DEDICATED),	lcostc(DEDICATED),
+	lcuxla(DEDICATED),	lcuxlc(DEDICATED),	lcuxld(DEDICATED),
+	lcuxlf(DEDICATED),	lcuxlg(DEDICATED),	lcuxli(DEDICATED),
+	lcuxlj(DEDICATED),	lcuxlk(DEDICATED),	lcuxlm(DEDICATED),
+	lcuxlo(DEDICATED),	lcuxlq(DEDICATED),	left(DEDICATED),
+	likewise(DEDICATED),	lk3b1(DEDICATED),	lk7300(DEDICATED),
+	ll1(DEDICATED),		ll1a(DEDICATED),	llatdd(DEDICATED),
+	llpyak(DEDICATED),	looney(DEDICATED),	lorinda(DEDICATED),
+	ltuxa(DEDICATED),	luddo1(DEDICATED),	luong(DEDICATED),
+	lvuxg(DEDICATED),	lz3b5(DEDICATED),	lzaz(DEDICATED),
+	lzfmd(DEDICATED),	lzfme(DEDICATED),	lzma(DEDICATED),
+	lzmi(DEDICATED),	lznv(DEDICATED),	lzsc(DEDICATED),
+	m10ux(DEDICATED),	m16ux(DEDICATED),	m21ux(DEDICATED),
+	m3ux(DEDICATED),	m54ux(DEDICATED),	majic(DEDICATED),
+	marvin(DEDICATED),	max(DEDICATED),		md3b2a(DEDICATED),
+	md3b2d(DEDICATED),	md3b2f(DEDICATED),	md3b2g(DEDICATED),
+	mdunix(DEDICATED),	mduxa(DEDICATED),	mduxb(DEDICATED),
+	mduxc(DEDICATED),	mduxd(DEDICATED),	mduxe(DEDICATED),
+	mduxf(DEDICATED),	mduxg(DEDICATED),	mgmpcs(DEDICATED),
+	mgnetp(DEDICATED),	mgweed(DEDICATED),	mgwess(DEDICATED),
+	mhgba(DEDICATED),	mhltx(DEDICATED),	mhscotty(DEDICATED),
+	mhuhk(DEDICATED),	mhuxa(DEDICATED),	mhuxd(DEDICATED),
+	mhuxh(DEDICATED),	mhuxi(DEDICATED),	mhuxm(DEDICATED),
+	mhuxo(DEDICATED),	mhuxt(DEDICATED),	mhuxu(DEDICATED),
+	mhwpa(DEDICATED),	mhwpb(DEDICATED),	mhwpc(DEDICATED),
+	mhwpd(DEDICATED),	mhwpe(DEDICATED),	mhwpf(DEDICATED),
+	mhwpg(DEDICATED),	mhwph(DEDICATED),	minuet(DEDICATED),
+	miranda(DEDICATED),	moidas(DEDICATED),	monrov(DEDICATED),
+	moss(DEDICATED),	most(DEDICATED),	mozart(DEDICATED),
+	mp3b5b(DEDICATED),	mspeech(DEDICATED),	mtdca(DEDICATED),
+	mtexc(DEDICATED),	mtfmc(DEDICATED),	mtfmi(DEDICATED),
+	mtgzd(DEDICATED),	mtgzf(DEDICATED),	mtgzg(DEDICATED),
+	mtgzi(DEDICATED),	mtgzk(DEDICATED),	mtgzm(DEDICATED),
+	mtgzn(DEDICATED),	mtgzp(DEDICATED),	mtgzq(DEDICATED),
+	mtgzt(DEDICATED),	mtgzy(DEDICATED),	mtgzz(DEDICATED),
+	mtlan(DEDICATED),	mtmer(DEDICATED),	mtsba(DEDICATED),
+	mtsbb(DEDICATED),	mtsbc(DEDICATED),	mtsnow(DEDICATED),
+	mtuna(DEDICATED),	mtunb(DEDICATED),	mtunc(DEDICATED),
+	mtund(DEDICATED),	mtune(DEDICATED),	mtunf(DEDICATED),
+	mtung(DEDICATED),	mtunh(DEDICATED),	mtuni(DEDICATED),
+	mtunj(DEDICATED),	mtunk(DEDICATED),	mtunn(DEDICATED),
+	mtunx(DEDICATED),	mtuxj(DEDICATED),	mtuxo(DEDICATED),
+	mv-bt(DEDICATED),	mvd5a(DEDICATED),	mvd5b(DEDICATED),
+	mvgpb(DEDICATED),	mvgpf(DEDICATED),	mvgpg(DEDICATED),
+	mvgpi(DEDICATED),	mvgpk(DEDICATED),	mvntd(DEDICATED),
+	mvpmi(DEDICATED),	mvtpa(DEDICATED),	mvtr2(DEDICATED),
+	mvuft(DEDICATED),	mvunt(DEDICATED),	mvups(DEDICATED),
+	mvura(DEDICATED),	mvuxb(DEDICATED),	mvuxc(DEDICATED),
+	mvuxd(DEDICATED),	mvuxk(DEDICATED),	mvuxs(DEDICATED),
+	mvuxz(DEDICATED),	mynix(DEDICATED),	narya(DEDICATED),
+	ncsc5(DEDICATED),	ncsc6(DEDICATED),	neade1(DEDICATED),
+	nebula(DEDICATED),	nesac2(DEDICATED),	nestor(DEDICATED),
+	netman(DEDICATED),	neural(DEDICATED),	neuxb(DEDICATED),
+	neuxd(DEDICATED),	neuxg(DEDICATED),	neuxh(DEDICATED),
+	nitro(DEDICATED),	njuxa(DEDICATED),	njuxc(DEDICATED),
+	nomad(DEDICATED),	nrgua(DEDICATED),	nssc00(DEDICATED),
+	ntmgb1(DEDICATED),	ntmwest(DEDICATED),	nvgua(DEDICATED),
+	nw4ep(DEDICATED),	nwbcp(DEDICATED),	nwgpa(DEDICATED),
+	nwgpb(DEDICATED),	nwpla(DEDICATED),	nwspda(DEDICATED),
+	nwutb(DEDICATED),	nwuxa(DEDICATED),	nwuxf(DEDICATED),
+	nwuxg(DEDICATED),	nyfas0(DEDICATED),	nyfas1(DEDICATED),
+	nyfast(DEDICATED),	occrsh(DEDICATED),	ocdfct(DEDICATED),
+	ochaf(DEDICATED),	ockrr1(DEDICATED),	ocoda0(DEDICATED),
+	ocsmb(DEDICATED),	odyssey(DEDICATED),	ohgua(DEDICATED),
+	ohm(DEDICATED),		ok3b1b(DEDICATED),	okc3b(DEDICATED),
+	okc3bb(DEDICATED),	okcedu(DEDICATED),	olorin(DEDICATED),
+	optix(DEDICATED),	opus(DEDICATED),	opus1(DEDICATED),
+	opus2(DEDICATED),	orgate(DEDICATED),	packard(DEDICATED),
+	pancho(DEDICATED),	panther(DEDICATED),	pc015b(DEDICATED),
+	pc016b(DEDICATED),	pc023b(DEDICATED),	pc025b(DEDICATED),
+	pc033b(DEDICATED),	pc035b(DEDICATED),	pc053b(DEDICATED),
+	pc073b(DEDICATED),	pcpr01(DEDICATED),	pcpr02(DEDICATED),
+	pegasus(DEDICATED),	pepsi(DEDICATED),	phoenix(DEDICATED),
+	physics(DEDICATED),	picuxa(DEDICATED),	pierce(DEDICATED),
+	pipe(DEDICATED),	pirate(DEDICATED),	pissa(DEDICATED),
+	pixels(DEDICATED),	pochs(DEDICATED),	polymer(DEDICATED),
+	poseidon(DEDICATED),	prhsr(DEDICATED),	prosta(DEDICATED),
+	prostb(DEDICATED),	prsch(DEDICATED),	pruxa(DEDICATED),
+	pruxc(DEDICATED),	pruxd(DEDICATED),	pruxe(DEDICATED),
+	pruxf(DEDICATED),	pruxg(DEDICATED),	pueblo(DEDICATED),
+	punx(DEDICATED),	qaplus(DEDICATED),	r51ux(DEDICATED),
+	r70(DEDICATED),		ra7300(DEDICATED),	rdtdas(DEDICATED),
+	rduxa(DEDICATED),	rduxm(DEDICATED),	research(DEDICATED),
+	rg2b(DEDICATED),	rick(DEDICATED),	rmuxb(DEDICATED),
+	robert(DEDICATED),	robin(DEDICATED),	rogue(DEDICATED),
+	rtc01sr(DEDICATED),	rwmpc(DEDICATED),	sapir(DEDICATED),
+	sarts(DEDICATED),	scans(DEDICATED),	scobee(DEDICATED),
+	scrtc(DEDICATED),	seki(DEDICATED),	sescent(DEDICATED),
+	sfbat(DEDICATED),	sfgum(DEDICATED),	sfjec(DEDICATED),
+	sfrod(DEDICATED),	shadow(DEDICATED),	shannon(DEDICATED),
+	shlepper(DEDICATED),	sid(DEDICATED),		siriusb(DEDICATED),
+	sjae5(DEDICATED),	skep2(DEDICATED),	sn(DEDICATED),
+	so013b(DEDICATED),	sodrso(DEDICATED),	sogud(DEDICATED),
+	sola(DEDICATED),	spdlm(DEDICATED),	speedy(DEDICATED),
+	spit(DEDICATED),	store(DEDICATED),	stpe(DEDICATED),
+	stutz(DEDICATED),	sundes1(DEDICATED),	sweet(DEDICATED),
+	swift(DEDICATED),	syscad(DEDICATED),	szuxa(DEDICATED),
+	szuxb(DEDICATED),	szuxc(DEDICATED),	szuxd(DEDICATED),
+	szuxe(DEDICATED),	szuxf(DEDICATED),	szuxh(DEDICATED),
+	szuxi(DEDICATED),	szuxj(DEDICATED),	szuxk(DEDICATED),
+	szuxn(DEDICATED),	szuxo(DEDICATED),	szuxp(DEDICATED),
+	szuxq(DEDICATED),	terminus(DEDICATED),	thorin(DEDICATED),
+	tibet(DEDICATED),	tis3b2a(DEDICATED),	ttbcad(DEDICATED),
+	ttmcsa(DEDICATED),	ttrda(DEDICATED),	ttrdc(DEDICATED),
+	ttrdd(DEDICATED),	ttrde(DEDICATED),	ttrdg(DEDICATED),
+	tug(DEDICATED),		twitch(DEDICATED),	uhuru(DEDICATED),
+	ulysses(DEDICATED),	uranus(DEDICATED),	vague(DEDICATED),
+	vax135(DEDICATED),	vaxlrf(DEDICATED),	video(DEDICATED),
+	vilya(DEDICATED),	violin(DEDICATED),	we16(DEDICATED),
+	west(DEDICATED),	westbud(DEDICATED),	westphal(DEDICATED),
+	weupa(DEDICATED),	wh-izz(DEDICATED),	wham(DEDICATED),
+	whcad1(DEDICATED),	whcad7(DEDICATED),	whgsd(DEDICATED),
+	whplrfh(DEDICATED),	whprn(DEDICATED),	whuts(DEDICATED),
+	whutt(DEDICATED),	whuxc(DEDICATED),	whuxr(DEDICATED),
+	whvxb(DEDICATED),	whvxf(DEDICATED),	wild(DEDICATED),
+	wlgpi(DEDICATED),	wpns02(DEDICATED),	wruxc(DEDICATED),
+	wukung(DEDICATED),	zeppo(DEDICATED),	zonker(DEDICATED)
+#
+#
+#
+# CATEGORY NUMBER 2
+#	sites which cannot currently be reached from the gateway.
+#
+#
+att	acc2(DEAD/2),		acc3(DEAD/2),		acpy01(DEAD/2),
+	adupa(DEAD/2),		alfer(DEAD/2),		alfoc(DEAD/2),
+	altuxc(DEAD/2),		altuxd(DEAD/2),		aluxb(DEAD/2),
+	argo(DEAD/2),		ariela(DEAD/2),		artvesdm(DEAD/2),
+	atleng1(DEAD/2),	attihk(DEAD/2),		attitw(DEAD/2),
+	attmor(DEAD/2),		attoak(DEAD/2),		attsb(DEAD/2),
+	attsc(DEAD/2),		atux01(DEAD/2),		bamadeus(DEAD/2),
+	base73(DEAD/2),		bbach(DEAD/2),		bchopin(DEAD/2),
+	bdh6386(DEAD/2),	bear(DEAD/2),		bif(DEAD/2),
+	bigbux(DEAD/2),		bkuxe(DEAD/2),		bkuxj(DEAD/2),
+	bkuxk(DEAD/2),		bkuxl(DEAD/2),		blafc(DEAD/2),
+	bobbi(DEAD/2),		bofer(DEAD/2),		books3b2(DEAD/2),
+	borax(DEAD/2),		boston(DEAD/2),		brahms(DEAD/2),
+	brts03(DEAD/2),		bu750(DEAD/2),		bw15d(DEAD/2),
+	cac386(DEAD/2),		cadrc1(DEAD/2),		carm2(DEAD/2),
+	cbatm2(DEAD/2),		cbatm3(DEAD/2),		cbgmv(DEAD/2),
+	cbrmd(DEAD/2),		cbstr2(DEAD/2),		ce033b(DEAD/2),
+	ce043b(DEAD/2),		censs(DEAD/2),		centi(DEAD/2),
+	champ(DEAD/2),		chcg1a(DEAD/2),		cheshire(DEAD/2),
+	chgp02(DEAD/2),		chicago(DEAD/2),	chinook(DEAD/2),
+	codfis(DEAD/2),		col400(DEAD/2),		cpfin(DEAD/2),
+	cpsc2a(DEAD/2),		cpsc53(DEAD/2),		cpscla(DEAD/2),
+	cquxb(DEAD/2),		cquxc(DEAD/2),		cquxh(DEAD/2),
+	crds37(DEAD/2),		cses400(DEAD/2),	cuuxb(DEAD/2),
+	cuuxg(DEAD/2),		dalssc(DEAD/2),		daypc(DEAD/2),
+	dc003b(DEAD/2),		dc043b(DEAD/2),		dencsc(DEAD/2),
+	devlp2(DEAD/2),		dhrua(DEAD/2),		dildoc(DEAD/2),
+	doc(DEAD/2),		dr44c(DEAD/2),		drearth(DEAD/2),
+	drddo1(DEAD/2),		druhi(DEAD/2),		drums(DEAD/2),
+	drupa(DEAD/2),		drux3(DEAD/2),		drux4(DEAD/2),
+	druxh(DEAD/2),		druxl(DEAD/2),		druxt(DEAD/2),
+	druxu(DEAD/2),		ds2(DEAD/2),		dso15(DEAD/2),
+	dsoxa(DEAD/2),		dufjx(DEAD/2),		dwk01(DEAD/2),
+	dwk02(DEAD/2),		dwk04(DEAD/2),		dwmax(DEAD/2),
+	ea025b(DEAD/2),		ea0515(DEAD/2),		ea055b(DEAD/2),
+	eddpc(DEAD/2),		edith(DEAD/2),		ee013b(DEAD/2),
+	efp2(DEAD/2),		efudd(DEAD/2),		ela0(DEAD/2),
+	enigma(DEAD/2),		erie(DEAD/2),		fjeej(DEAD/2),
+	fjmail(DEAD/2),		fmc3b2d(DEAD/2),	gaea(DEAD/2),
+	galley(DEAD/2),		gboasa(DEAD/2),		gclpaa(DEAD/2),
+	gcuxm(DEAD/2),		geode(DEAD/2),		gipper(DEAD/2),
+	glc2ii4(DEAD/2),	glmicc1(DEAD/2),	glmid11(DEAD/2),
+	godzilla(DEAD/2),	gomez(DEAD/2),		gorgo(DEAD/2),
+	grover(DEAD/2),		gshum(DEAD/2),		gunn(DEAD/2),
+	hacker(DEAD/2),		hawkeye(DEAD/2),	haydn(DEAD/2),
+	hermes(DEAD/2),		hlppm(DEAD/2),		ho-lwc(DEAD/2),
+	ho-mrb(DEAD/2),		hocml(DEAD/2),		hocms(DEAD/2),
+	hocus(DEAD/2),		honcs(DEAD/2),		hoppm(DEAD/2),
+	hougo(DEAD/2),		houke(DEAD/2),		hozeus(DEAD/2),
+	hrcca(DEAD/2),		hrostc(DEAD/2),		htco(DEAD/2),
+	htuxb(DEAD/2),		ieapl(DEAD/2),		iecp0(DEAD/2),
+	iecp1(DEAD/2),		iecp2(DEAD/2),		iecp3(DEAD/2),
+	iecp4(DEAD/2),		iecp5(DEAD/2),		iecp6(DEAD/2),
+	iecp7(DEAD/2),		iecp8(DEAD/2),		iecp9(DEAD/2),
+	iecpa(DEAD/2),		iecpb(DEAD/2),		iecpc(DEAD/2),
+	iecpd(DEAD/2),		iecpe(DEAD/2),		iecpf(DEAD/2),
+	ih1aq(DEAD/2),		ih41b(DEAD/2),		ih4ed(DEAD/2),
+	ih554(DEAD/2),		ih5et(DEAD/2),		ihai1(DEAD/2),
+	ihawk(DEAD/2),		ihbrc(DEAD/2),		ihcf2(DEAD/2),
+	ihcf4(DEAD/2),		ihdes1(DEAD/2),		ihe5k(DEAD/2),
+	ihfme(DEAD/2),		ihfoa(DEAD/2),		ihi4(DEAD/2),
+	ihipcr(DEAD/2),		ihjpw(DEAD/2),		ihjreid(DEAD/2),
+	ihlfl(DEAD/2),		ihmail(DEAD/2),		ihn5w(DEAD/2),
+	ihnews(DEAD/2),		ihnp0(DEAD/2),		ihonk(DEAD/2),
+	ihose(DEAD/2),		ihpeg(DEAD/2),		ihpsb(DEAD/2),
+	ihptzk(DEAD/2),		ihrfs(DEAD/2),		ihrjn(DEAD/2),
+	ihsa1(DEAD/2),		ihshih(DEAD/2),		ihtenn(DEAD/2),
+	ihtga(DEAD/2),		ihtgh1(DEAD/2),		ihtnt(DEAD/2),
+	ihusk(DEAD/2),		ihusx(DEAD/2),		imsa(DEAD/2),
+	indus(DEAD/2),		indycic(DEAD/2),	intl3b2(DEAD/2),
+	iot(DEAD/2),		iw1pw(DEAD/2),		iw1res(DEAD/2),
+	iwfao(DEAD/2),		iwlcu(DEAD/2),		iwli2(DEAD/2),
+	iwmfd(DEAD/2),		iwpsf(DEAD/2),		iwtat(DEAD/2),
+	iwtcad(DEAD/2),		iwtf1(DEAD/2),		iwtf2(DEAD/2),
+	iwtf3(DEAD/2),		iwtf4(DEAD/2),		iwtf5(DEAD/2),
+	iwtf6(DEAD/2),		iwtfg(DEAD/2),		iwvaf(DEAD/2),
+	ix3b2(DEAD/2),		ixeds(DEAD/2),		ixfoa3(DEAD/2),
+	ixfoa4(DEAD/2),		ixnez(DEAD/2),		ixpgd(DEAD/2),
+	ixslm(DEAD/2),		jasper(DEAD/2),		kalypso(DEAD/2),
+	kandu(DEAD/2),		kcda(DEAD/2),		kcec(DEAD/2),
+	kennel(DEAD/2),		kepler(DEAD/2),		ketch(DEAD/2),
+	kiger(DEAD/2),		kypwr(DEAD/2),		lc20b(DEAD/2),
+	lcalf(DEAD/2),		lcuxle(DEAD/2),		lcuxlh(DEAD/2),
+	lcuxll(DEAD/2),		lcuxln(DEAD/2),		lcuxlp(DEAD/2),
+	lcuxlr(DEAD/2),		lcuxls(DEAD/2),		ll7(DEAD/2),
+	llaos(DEAD/2),		lldsd(DEAD/2),		lldst(DEAD/2),
+	llemh(DEAD/2),		llhfe(DEAD/2),		llmsg1(DEAD/2),
+	llmsg2(DEAD/2),		llnss70(DEAD/2),	llpr1a(DEAD/2),
+	llss01(DEAD/2),		llss04(DEAD/2),		lmos45(DEAD/2),
+	lru3b(DEAD/2),		ls013b(DEAD/2),		lzla(DEAD/2),
+	lznh(DEAD/2),		lztn(DEAD/2),		market(DEAD/2),
+	markspc(DEAD/2),	mbux1(DEAD/2),		mcad1(DEAD/2),
+	mcad2(DEAD/2),		md3b2c(DEAD/2),		md3b2l(DEAD/2),
+	methods1(DEAD/2),	mhcray(DEAD/2),		mhdes1(DEAD/2),
+	mhspd(DEAD/2),		milw(DEAD/2),		ml3b2a(DEAD/2),
+	mondial(DEAD/2),	mongrel(DEAD/2),	mp15c(DEAD/2),
+	mrstwn(DEAD/2),		mtdcb(DEAD/2),		mtdcc(DEAD/2),
+	mtge(DEAD/2),		mtid3(DEAD/2),		mttac(DEAD/2),
+	mtunl(DEAD/2),		mtunm(DEAD/2),		mtuno(DEAD/2),
+	mtx5b(DEAD/2),		mtx5d(DEAD/2),		mtx5e(DEAD/2),
+	mtx5t(DEAD/2),		mtx5z(DEAD/2),		muldoon(DEAD/2),
+	mv3j4(DEAD/2),		mvgpa(DEAD/2),		mvgpc(DEAD/2),
+	mvgpd(DEAD/2),		mvgpe(DEAD/2),		mvgph(DEAD/2),
+	mvgpj(DEAD/2),		mvgpl(DEAD/2),		mvgpm(DEAD/2),
+	mvp30(DEAD/2),		mvuaa(DEAD/2),		mvuan(DEAD/2),
+	mvuao(DEAD/2),		mvuba(DEAD/2),		mvubi(DEAD/2),
+	mvubs(DEAD/2),		mvucn(DEAD/2),		mvuco(DEAD/2),
+	mvucy(DEAD/2),		mvufi(DEAD/2),		mvuhi(DEAD/2),
+	mvuhu(DEAD/2),		mvuja(DEAD/2),		mvume(DEAD/2),
+	mvumi(DEAD/2),		mvunu(DEAD/2),		mvuou(DEAD/2),
+	mvupx(DEAD/2),		mvuro(DEAD/2),		mvusa(DEAD/2),
+	mvute(DEAD/2),		mvuti(DEAD/2),		mvuut(DEAD/2),
+	mvuwi(DEAD/2),		mvuxf(DEAD/2),		mvuxi(DEAD/2),
+	mvuxj(DEAD/2),		mvuxn(DEAD/2),		mvuxq(DEAD/2),
+	mvuxr(DEAD/2),		mvuxt(DEAD/2),		mvuxv(DEAD/2),
+	mvuxw(DEAD/2),		namu(DEAD/2),		naples(DEAD/2),
+	ncpj(DEAD/2),		ncpk(DEAD/2),		ncsc2(DEAD/2),
+	ne1(DEAD/2),		ne2ade(DEAD/2),		neat(DEAD/2),
+	neeng0(DEAD/2),		neeng1(DEAD/2),		neeng3(DEAD/2),
+	neeng4(DEAD/2),		neeng5(DEAD/2),		neeng6(DEAD/2),
+	neoas1(DEAD/2),		neuxa(DEAD/2),		neuxc(DEAD/2),
+	neuxe(DEAD/2),		neuxf(DEAD/2),		neuxi(DEAD/2),
+	neuxm(DEAD/2),		neuxn(DEAD/2),		newpc1(DEAD/2),
+	nicola(DEAD/2),		nssc(DEAD/2),		nwacpd1(DEAD/2),
+	nwlsb(DEAD/2),		nwlsc(DEAD/2),		nwpel(DEAD/2),
+	nwprd(DEAD/2),		nwpur(DEAD/2),		nwwpa(DEAD/2),
+	nwwpb(DEAD/2),		nypenn(DEAD/2),		nyt1(DEAD/2),
+	oac(DEAD/2),		oblivion(DEAD/2),	obone(DEAD/2),
+	ocemc(DEAD/2),		ocrje(DEAD/2),		ocsda(DEAD/2),
+	odutsa(DEAD/2),		oecsys(DEAD/2),		ohguc(DEAD/2),
+	ohgud(DEAD/2),		okcvax(DEAD/2),		oktnnsa(DEAD/2),
+	oktnrtma(DEAD/2),	omaha(DEAD/2),		opal(DEAD/2),
+	oscar(DEAD/2),		otuxa(DEAD/2),		paradox(DEAD/2),
+	pc3b1(DEAD/2),		pdev(DEAD/2),		pearl(DEAD/2),
+	pedw(DEAD/2),		peewee(DEAD/2),		percs(DEAD/2),
+	phuxa(DEAD/2),		piccolo(DEAD/2),	piscf(DEAD/2),
+	pisci(DEAD/2),		pisck(DEAD/2),		pltnnsa(DEAD/2),
+	pn-1(DEAD/2),		popeye(DEAD/2),		prayf(DEAD/2),
+	prop3b(DEAD/2),		proud(DEAD/2),		psycho(DEAD/2),
+	putas(DEAD/2),		pwbcb3(DEAD/2),		qacss(DEAD/2),
+	qagff(DEAD/2),		qajim(DEAD/2),		qsdpg(DEAD/2),
+	qss2(DEAD/2),		rddes1(DEAD/2),		rduea(DEAD/2),
+	rfs999(DEAD/2),		rfsc4(DEAD/2),		rfsc6b(DEAD/2),
+	rg15a(DEAD/2),		rg20a(DEAD/2),		rmuxa(DEAD/2),
+	rockdale(DEAD/2),	rolls(DEAD/2),		rpk3b2(DEAD/2),
+	rrdd(DEAD/2),		rtaos(DEAD/2),		ryenyl(DEAD/2),
+	rz3b2a(DEAD/2),		rz3ba(DEAD/2),		rz3bb(DEAD/2),
+	samwise(DEAD/2),	sbip0(DEAD/2),		scarea(DEAD/2),
+	scba(DEAD/2),		scmadm(DEAD/2),		sculptor(DEAD/2),
+	sdedal(DEAD/2),		sdenyc(DEAD/2),		sdfso2(DEAD/2),
+	server(DEAD/2),		sfbai(DEAD/2),		sfbam(DEAD/2),
+	sfbc(DEAD/2),		sfbug(DEAD/2),		sfmag(DEAD/2),
+	sfmin(DEAD/2),		sfroc(DEAD/2),		sfsup(DEAD/2),
+	sftig(DEAD/2),		sftor(DEAD/2),		sfyog(DEAD/2),
+	sge(DEAD/2),		shaw(DEAD/2),		si1(DEAD/2),
+	sjdemo1(DEAD/2),	skaosb(DEAD/2),		skesoa(DEAD/2),
+	skier1(DEAD/2),		skunx2(DEAD/2),		slhp1(DEAD/2),
+	slopok(DEAD/2),		snell(DEAD/2),		snert(DEAD/2),
+	snookie(DEAD/2),	snrmdm(DEAD/2),		so023b(DEAD/2),
+	so1see(DEAD/2),		sobham(DEAD/2),		socus(DEAD/2),
+	somapc(DEAD/2),		soporo(DEAD/2),		sorsac(DEAD/2),
+	sortac(DEAD/2),		sosalad(DEAD/2),	sousa(DEAD/2),
+	sp3ba(DEAD/2),		spleen(DEAD/2),		spock(DEAD/2),
+	spuxa(DEAD/2),		spuxb(DEAD/2),		spuxe(DEAD/2),
+	spuxll(DEAD/2),		srw3b2(DEAD/2),		ssdenver(DEAD/2),
+	star1(DEAD/2),		stcub(DEAD/2),		steve(DEAD/2),
+	stpb(DEAD/2),		stpc(DEAD/2),		stpd(DEAD/2),
+	stpf(DEAD/2),		stpj(DEAD/2),		subcap(DEAD/2),
+	svmsg(DEAD/2),		sw013b(DEAD/2),		sw1(DEAD/2),
+	swdc01(DEAD/2),		swen01(DEAD/2),		swso01(DEAD/2),
+	swso02(DEAD/2),		swso03(DEAD/2),		swso04(DEAD/2),
+	sxso01(DEAD/2),		syadnj(DEAD/2),		szuxg(DEAD/2),
+	szuxl(DEAD/2),		szuxm(DEAD/2),		taipei(DEAD/2),
+	tarpon(DEAD/2),		tc3b1(DEAD/2),		tinker(DEAD/2),
+	toad(DEAD/2),		tomspc(DEAD/2),		toyota(DEAD/2),
+	troll(DEAD/2),		ttrdf(DEAD/2),		ttrdti(DEAD/2),
+	ttvrdti(DEAD/2),	unixpc(DEAD/2),		unx23a1(DEAD/2),
+	unx23a2(DEAD/2),	uxcmb(DEAD/2),		uxtrl(DEAD/2),
+	valha1(DEAD/2),		vblsm1(DEAD/2),		vette(DEAD/2),
+	vgorda(DEAD/2),		vtracs(DEAD/2),		vydev(DEAD/2),
+	vyhub(DEAD/2),		w51(DEAD/2),		wa012b(DEAD/2),
+	wa015b(DEAD/2),		walter(DEAD/2),		warrior(DEAD/2),
+	we22a(DEAD/2),		we22b(DEAD/2),		we22d(DEAD/2),
+	we53(DEAD/2),		webpkk1(DEAD/2),	webpkk2(DEAD/2),
+	webpkk3(DEAD/2),	wh-imp(DEAD/2),		wh11(DEAD/2),
+	whamp(DEAD/2),		whcad4(DEAD/2),		whpo1(DEAD/2),
+	wittless(DEAD/2),	wlaph(DEAD/2),		wlapm(DEAD/2),
+	wlgpf(DEAD/2),		wlgpg(DEAD/2),		wlgpj(DEAD/2),
+	wlgpk(DEAD/2),		wlgpl(DEAD/2),		wlgpn(DEAD/2),
+	wlgpr(DEAD/2),		woodchip(DEAD/2),	woody(DEAD/2),
+	wp3b01(DEAD/2),		wp3b02(DEAD/2),		wr3b2(DEAD/2),
+	wruxa(DEAD/2),		wruxd(DEAD/2),		wruxe(DEAD/2),
+	wruxf(DEAD/2),		wruxg(DEAD/2),		wruxh(DEAD/2),
+	wruxi(DEAD/2),		wruxj(DEAD/2),		wruxk(DEAD/2),
+	yawl(DEAD/2),		yien(DEAD/2),		zpcp51(DEAD/2),
+	zpcp53(DEAD/2)
+#
+#
+#
+# CATEGORY NUMBER 3
+#	internal sites which have been reached by the gateway, but did not
+#	successfully communicate with because they have not yet installed
+#	the proper Systems/L.sys entries.
+#
+#
+att	ablnc(DEAD/2),		acc1(DEAD/2),		ackcu1(DEAD/2),
+	adam(DEAD/2),		agate(DEAD/2),		altuxb(DEAD/2),
+	aluxa(DEAD/2),		andy(DEAD/2),		arch1(DEAD/2),
+	arch2(DEAD/2),		arso01(DEAD/2),		asap(DEAD/2),
+	asmodeus(DEAD/2),	aspen1(DEAD/2),		assert(DEAD/2),
+	athq08(DEAD/2),		atl3b2(DEAD/2),		atlcpe(DEAD/2),
+	atoim(DEAD/2),		attbash(DEAD/2),	atti01(DEAD/2),
+	bigmax(DEAD/2),		bromo(DEAD/2),		brpr06(DEAD/2),
+	burl(DEAD/2),		burt(DEAD/2),		buuxa(DEAD/2),
+	buuxb(DEAD/2),		c11ux(DEAD/2),		camino1(DEAD/2),
+	carina(DEAD/2),		cbatm1(DEAD/2),		cbatm4(DEAD/2),
+	cbatm5(DEAD/2),		cbatm6(DEAD/2),		cbatm7(DEAD/2),
+	cbmbos(DEAD/2),		cbnetdir(DEAD/2),
+	cbsnas(DEAD/2),		cbstar(DEAD/2),		ce013b(DEAD/2),
+	ce023b(DEAD/2),		cello(DEAD/2),		cepnt(DEAD/2),
+	chi3b2(DEAD/2),		collie(DEAD/2),		corona(DEAD/2),
+	cquxa(DEAD/2),		csc(DEAD/2),		cssnjb(DEAD/2),
+	ctsmain(DEAD/2),	cuae2(DEAD/2),		cuuxa(DEAD/2),
+	d111wp(DEAD/2),		daneel(DEAD/2),		dbrc1(DEAD/2),
+	dc103b(DEAD/2),		diamond(DEAD/2),	dlr(DEAD/2),
+	dopsa(DEAD/2),		drast1(DEAD/2),		dsohqnj(DEAD/2),
+	dwk03(DEAD/2),		ea0215(DEAD/2),		ea402b(DEAD/2),
+	eadasprt(DEAD/2),	eag1(DEAD/2),		einos(DEAD/2),
+	eis(DEAD/2),		ela1(DEAD/2),		elsner(DEAD/2),
+	ercpat(DEAD/2),		errtc(DEAD/2),		esmc1(DEAD/2),
+	esta5(DEAD/2),		fae3b(DEAD/2),		falc1(DEAD/2),
+	feds01(DEAD/2),		fldcl(DEAD/2),		fsvs(DEAD/2),
+	garamond(DEAD/2),	gbwebgtt(DEAD/2),	gcdons(DEAD/2),
+	glrnet(DEAD/2),		gmwi1(DEAD/2),		golfer(DEAD/2),
+	gslabs(DEAD/2),		hlwpo(DEAD/2),		hoaspen(DEAD/2),
+	hoax(DEAD/2),		hocsr(DEAD/2),		hoh-4(DEAD/2),
+	hokum(DEAD/2),		hosdi(DEAD/2),		hounison(DEAD/2),
+	houpi(DEAD/2),		hrcad(DEAD/2),		hrelic(DEAD/2),
+	hrimms(DEAD/2),		hrmsd(DEAD/2),		hru3a(DEAD/2),
+	hru3c(DEAD/2),		htssc(DEAD/2),		husker(DEAD/2),
+	iceman(DEAD/2),		icsmmp(DEAD/2),		iguana(DEAD/2),
+	ih1aa(DEAD/2),		ih1ab(DEAD/2),		ih1am(DEAD/2),
+	ih1ap(DEAD/2),		ih1b15(DEAD/2),		ih1b5(DEAD/2),
+	ih231(DEAD/2),		ih234(DEAD/2),		ih3b2a(DEAD/2),
+	ih3brc(DEAD/2),		ih4ee(DEAD/2),		ihactr(DEAD/2),
+	ihcae(DEAD/2),		ihcf3(DEAD/2),		ihdes2(DEAD/2),
+	ihdes6(DEAD/2),		ihe5x(DEAD/2),		iheds(DEAD/2),
+	ihese1(DEAD/2),		ihese2(DEAD/2),		ihghs(DEAD/2),
+	ihhlt(DEAD/2),		ihl5t(DEAD/2),		ihlsa(DEAD/2),
+	ihmax(DEAD/2),		ihmdo(DEAD/2),		ihmlab(DEAD/2),
+	ihn5b(DEAD/2),		ihot(DEAD/2),		ihrnd(DEAD/2),
+	ihsam(DEAD/2),		ihtexas(DEAD/2),	ihuxj(DEAD/2),
+	itch(DEAD/2),		iwabe(DEAD/2),		iwdisk(DEAD/2),
+	iwexp(DEAD/2),		iwphydes(DEAD/2),	iwrbg1(DEAD/2),
+	iwsfmd(DEAD/2),		iwsvg(DEAD/2),		iwtbn(DEAD/2),
+	iwtbt(DEAD/2),		iwtda(DEAD/2),		iwtdb(DEAD/2),
+	iwtdc(DEAD/2),		iwtest(DEAD/2),		iwtio(DEAD/2),
+	iwtjj(DEAD/2),		iwtjp(DEAD/2),		iwtmf(DEAD/2),
+	iwtmg(DEAD/2),		iwtpr(DEAD/2),		iwtse(DEAD/2),
+	iwtsf(DEAD/2),		iwtsg(DEAD/2),		iwtwar(DEAD/2),
+	iwval(DEAD/2),		ixadp1(DEAD/2),		ixadp2(DEAD/2),
+	ixadp3(DEAD/2),		ixadp4(DEAD/2),		ixadp5(DEAD/2),
+	ixadp6(DEAD/2),		ixexport(DEAD/2),	ixfts(DEAD/2),
+	ixllb(DEAD/2),		ixpcg(DEAD/2),		ixsa1(DEAD/2),
+	jesse(DEAD/2),		jill(DEAD/2),		journey(DEAD/2),
+	kaso01(DEAD/2),		kcnc(DEAD/2),		kcnd(DEAD/2),
+	kphpux(DEAD/2),		labsms(DEAD/2),		lanet(DEAD/2),
+	lc20c(DEAD/2),		linc(DEAD/2),		luddo2(DEAD/2),
+	ludwig(DEAD/2),		lzhi(DEAD/2),		melmac(DEAD/2),
+	mhcms(DEAD/2),		mhgap(DEAD/2),		mhpat(DEAD/2),
+	mhpatl(DEAD/2),		mhplus(DEAD/2),		mms(DEAD/2),
+	mp3bs(DEAD/2),		mtx5a(DEAD/2),		mtx5c(DEAD/2),
+	mtx5y(DEAD/2),		muse(DEAD/2),		mwood(DEAD/2),
+	n5pt(DEAD/2),		ncpe(DEAD/2),		ncpf(DEAD/2),
+	ncpg(DEAD/2),		ncph(DEAD/2),		ncpm(DEAD/2),
+	ncpx(DEAD/2),		ncrtc(DEAD/2),		nears(DEAD/2),
+	nedso(DEAD/2),		nis1(DEAD/2),		nkcgbs(DEAD/2),
+	norway(DEAD/2),		nto(DEAD/2),		nwacp3(DEAD/2),
+	nwuld1(DEAD/2),		nwuxd(DEAD/2),		oak0(DEAD/2),
+	oak1(DEAD/2),		occim4(DEAD/2),		ocdhg(DEAD/2),
+	ocetca(DEAD/2),		ocfda(DEAD/2),		ocfpa(DEAD/2),
+	ocgw1(DEAD/2),		ocgw2(DEAD/2),		ocljp(DEAD/2),
+	ocw(DEAD/2),		ocwqe1(DEAD/2),		ohgub(DEAD/2),
+	okc3b2(DEAD/2),		okc3ba(DEAD/2),		okc5b(DEAD/2),
+	okclr1(DEAD/2),		okcprs(DEAD/2),		orly(DEAD/2),
+	pc013b(DEAD/2),		pc043b(DEAD/2),		phooey(DEAD/2),
+	prince(DEAD/2),		qajgg(DEAD/2),		quartz(DEAD/2),
+	quixote(DEAD/2),	rg15b(DEAD/2),		rmuxd(DEAD/2),
+	ruby(DEAD/2),		searsnat(DEAD/2),	sfois(DEAD/2),
+	shuxd(DEAD/2),		skaosa(DEAD/2),		skaosh(DEAD/2),
+	slc1(DEAD/2),		sos(DEAD/2),		sprite(DEAD/2),
+	stph(DEAD/2),		stpk(DEAD/2),		stuxa(DEAD/2),
+	stuxc(DEAD/2),		swpt01(DEAD/2),		sz3b5(DEAD/2),
+	tpe3b15(DEAD/2),	tracer(DEAD/2),		tuba(DEAD/2),
+	uhclem(DEAD/2),		wayback(DEAD/2),	wedn1(DEAD/2),
+	westbelt(DEAD/2),	wham2(DEAD/2),		wham3(DEAD/2),
+	whamm(DEAD/2),		whamr(DEAD/2),		whams(DEAD/2),
+	whamx(DEAD/2),		whcad6(DEAD/2),		winken(DEAD/2),
+	wnuxa(DEAD/2),		wnuxb(DEAD/2),		zorro(DEAD/2),
+	zpint(DEAD/2)
+#N	.cwru.edu, mandrill
+#F	relay.cs.net
+#O	Case Western Reserve Univ.  Comp. Eng. Dept.
+#C	Ed Rynes
+#E	mandrill!postmaster
+#T	+1 216 368 6471
+#P	10900 Euclid, Cleveland, OH 44106
+#L	081 36 35 W / 41 30 15 N
+#R	Used to be cwruecmp
+#U	cbosgd decvax hal neoucom endot zhmti abvax nitrex cheetah musky2
+#W	mandrill!rynes (Ed Rynes) ; Tue Aug 25 11:08:22 EDT 1987
+#
+mandrill .cwru.edu
+mandrill  cwru.edu
+mandrill= cwru.edu
+mandrill .ces.cwru.edu
+mandrill  ces.cwru.edu
+mandrill= ces.cwru.edu
+mandrill abvax(DAILY/6), auphys(DAILY), boron(DAILY), 
+	cbosgd(DAILY/6), cwcais(DIRECT), cwmlab(DIRECT),
+	cwru-gw(DIRECT), cwru-20(DIRECT), cheetah(DEDICATED),
+	cwsys3(DAILY/4), decvax(DAILY/6), endot(DAILY/4),
+	eyelab(DAILY), hal(HOURLY), musky2(DAILY), ncoast(DAILY/4),
+	neoucom(DAILY), nitrex(DAILY/6), oc-cms(DAILY*2),
+	siemens(DAILY), sun(DAILY/6), zhmti(DAILY/6)
+
+#N	.muskingum.edu, musky2
+#F	RELAY.CS.NET
+#O	Muskingum College
+#C	Roger Terrell
+#E	terrell@musky2.muskingum.edu 
+#T	614-826-8151 (Voice only)
+#P	Muskingum College, New Concord, OH  43762
+#U	mandrill
+#R	registered
+#W	terrell@musky2.muskingum.edu (Roger Terrell); Sat Jun 11 13:23:16 EDT 1987
+#
+musky2	.muskingum.edu
+musky2=	musky2.muskingum.edu
+musky2	osu-cis(EVENING), ncoast(EVENING), mandrill(EVENING/2)
+
+#N	.ohio-state.edu, osu-cis
+#F	tut.cis.ohio-state.edu
+#O	The Ohio State University
+#C	Karl Kleinpaste, Bob Sutterfield
+#E	karl@cis.ohio-state.edu, bob@cis.ohio-state.edu
+#T	614-292-7347, 614-292-7348
+#P	Dept of Computer and Information Science; 2036 Neil Avenue Mall; 
+#P	Columbus, OH 43210-1277
+#L	39 59 N / 83 03 W
+#R	registered
+#R	UUCP domain registration to match existing Internet domain
+#U	accelerator.eng.ohio-state.edu alix andy.bgsu.edu apr
+#U	att.att.com bcd-dyn bloom-beacon.mit.edu chemabs dsacg1
+#U	e.ms.uky.edu hardy.cgrg.ohio-state.edu husc6.harvard.edu
+#U	im4u.cs.utexas.edu loquat.cis.ohio-state.edu
+#U	mailrus.cc.umich.edu mandrill.ces.cwru.edu motcoh mstar n8emr
+#U	osupyr.mast.ohio-state.edu rutgers.edu sppy00
+#U	tut.cis.ohio-state.edu uccba.uc.edu
+#W	bob@cis.ohio-state.edu (Bob Sutterfield); Fri May 13 16:21:31 EDT 1988
+#
+osu-cis	.ohio-state.edu
+tut.cis.ohio-state.edu=	cis.ohio-state.edu
+osuecn=	.econ.ohio-state.edu
+bodo=	.snd-synth.ohio-state.edu
+osu-cte=	.cte.ohio-state.edu
+#
+osu-cis	alix(DIRECT), apr(DIRECT), att(DIRECT),
+	bcd-dyn(DIRECT), bgsuvax(DAILY/4), bodo(DIRECT),
+	cbosgd(DIRECT), cbstr1(DIRECT), chemabs(DIRECT),
+	chisqnt(WEEKLY), colsun(DIRECT), datta(DIRECT), david(DIRECT),
+	devel(DIRECT), dsacg1(DIRECT), fraikus(DEAD), hpuwoha(WEEKLY),
+	jazz(DIRECT), knl(POLLED), loquat.cis.ohio-state.edu(DIRECT),
+	mcmi(WEEKLY), mcorp(DEAD), motcoh(DIRECT), mstar(DIRECT),
+	musky2(WEEKLY), n8emr(DIRECT), ogg(DEAD), osu-cte(DAILY/4),
+	osuecn(DIRECT), osupyr(DIRECT),
+	pdp7.cis.ohio-state.edu(DIRECT), pyramid(DAILY/4),
+	pyrchi(WEEKLY), pyrtech(DAILY/4), rls(WEEKLY), sppy00(DIRECT),
+	stargate(DIRECT), telmatic(POLLED),
+	tut.cis.ohio-state.edu(LOCAL), wright(WEEKLY), ysumax(DAILY)
+
+#N	.ohiou.edu, oucs
+#F	uxc.cso.uiuc.edu
+#O	Ohio University
+#C	Klaus E. Eldridge
+#E	postmaster@pdp.cs.OHIOU.EDU
+#T	614-593-1242
+#P	Computer Science Dept., 423 Morton Hall, Athens OH 45701-2979
+#L	082 05 49 W / 39 19 27 N
+#R	registered
+#U	crta
+#W	Klaus E. Eldridge  Mon Jan 26 11:45:03 EST 1987
+#
+oucs	.ohiou.edu
+oucs	ohiou.edu
+oucs	.cs.ohiou.edu
+oucs	cs.ohiou.edu
+oucs=	pdp.cs.ohiou.edu
+oucs	wright(DEMAND), cbosgd(DEMAND), cbdkc1(HOURLY),
+	cbrms1(DEMAND), cuuxb(DEMAND)
+#
+#O	Ohio University Accelerator Laboratory
+#C	Donald E. Carter, John E. O'Donnell
+#E	carter@oual.phy.ohiou.edu, odonnell@oual.phy.ohiou.edu
+#W	oual!carter (Don Carter); Thu Feb 12 11:15:00 EST 1987
+#
+oual	.phy.ohiou.edu
+oual	phy.ohiou.edu
+oual=	oual.phy.ohiou.edu
+oual	oucs(HOURLY), ouhtc(HOURLY)
+
+#N	.stargate.com, stargate, starbase, starcube
+#F	a.cs.uiuc.edu
+#O	Stargate Information Service
+#C	Mark R. Horton, Lauren Weinstein
+#E	mark@cblpf.att.com, lauren@vortex.uucp
+#T	614-860-4276, 213-390-3920
+#P	2843 Valcour Ct., Reynoldsburg, OH 43068
+#L	39 55 28 N / 82 49 16 W
+#U
+#R	registered
+#W	tgt@stargate.com (Tim Thompson) ; Fri Mar  4 07:44:12 EST 1988
+#
+stargate	.stargate.com
+stargate	stargate.com
+stargate=	stargate.com
+stargate=	registry
+stargate        starbase(DEMAND), cbosgd(DIRECT), starcube(DEMAND)
+starbase	.stargate.com
+starbase	stargate.com
+starbase=	base.stargate.com
+starbase=	starbase.stargate.com
+starbase	stargate(WEEKLY)
+starcube	.stargate.com
+starcube	stargate.com
+starcube=	cube.stargate.com
+starcube=	starcube.stargate.com
+starcube	stargate(DEMAND)
+#N	.uc.edu, uccba
+#F	eddie.mit.edu
+#O	University of Cincinnati, College of Business Administration
+#C	Steve Howard or Bryan Beck
+#E	showard@UC.EDU, bbeck@UC.EDU
+#T	+1 513 475 7140
+#P	mail loc 130, Cincinnati, OH  45221
+#L 	39 07 N / 84 31 W
+#R	registered
+#U 	hal ucece1 uceng crta spca6
+#W	uccba!bbeck(Bryan Beck); Mon Apr 11 00:05:35 EDT 1988
+#
+uccba	.uc.edu
+uccba=	uc.edu, uccba.uc.edu
+uccba	aebg01(DAILY), cesbws(DIRECT), com05(DEMAND), crta(DEMAND),
+	decuac(EVENING/2), hal(EVENING/3), mit-eddie(EVENING/3),
+	ncoast(EVENING/2), phri(EVENING), pyramid(EVENING/3),
+	spca6(DIRECT), ucbeh(DEDICATED), ucchem(DEMAND),
+	ucece1(LOCAL), uceng(LOCAL), ucgccd(DEDICATED), uclin(DEDICATED),
+	ucphy(DEDICATED), ucqais(LOCAL)
+#
+#
+z550mie	uciair(DEMAND), ucsdrl(DEMAND), uceng(DEMAND)
+
+#N	.wright.edu, wright
+#F	RELAY.CS.NET
+#O	Wright State University, Department of Computer Science and Engineering
+#C	John Sloan, Sheila Hollenbaugh
+#E	postmaster@Wright.Edu
+#T	+1 513 259 1384
+#P	WSU Research Building, 3171 Research Blvd., Kettering, OH 45420
+#L	39 47 N / 84 03 W
+#R	registered
+#R	Wright is our mail gateway for UUCP (wright), CSNET (wright.edu),
+#R	local DECnet and TCP/IP. Our computer center VAX is on BITNET (wsu).
+#U	ncrpcd crdnl owlmnt descg1 mmse
+#W	jsloan@SPOTS.Wright.Edu (John Sloan); Tue Jun  7 15:16:00 EDT 1988
+#
+wright		.wright.edu
+wright=		wright.edu, wright.csnet, spots.wright.edu
+#
+WRIGHT-TCPIP =	{
+		mayberry.wright.edu,
+		auntbea.wright.edu,
+		poly.wright.edu,
+		reality.wright.edu,
+		odin.wright.edu,
+		thor.wright.edu
+		}
+#
+WRIGHT-DECNET =	{
+		matrix.wright.edu,
+		wsu.wright.edu,
+		colsa.wright.edu,
+		colsb.wright.edu
+		}
+#
+WRIGHT-UUCP =	{
+		babel.wright.edu,
+		ivory.wright.edu,
+		watson.wright.edu,
+		opus.wright.edu
+		}
+#
+wright		WRIGHT-TCPIP(LOCAL),
+		WRIGHT-DECNET(LOCAL),
+		WRIGHT-UUCP(DEDICATED),
+		crdnl(DIRECT),
+		ncrpcd(DIRECT),
+		oucs(DEMAND),
+		owlmnt(DIRECT),
+		udcps3(DIRECT),
+		bgsuvax(DEMAND),
+		osu-cis(DEMAND),
+		mmse(DIRECT)
+
+#
+# End of map file d.usa.oh.1
+#
+SHAR_EOF
+:	End of shell archive
+exit 0

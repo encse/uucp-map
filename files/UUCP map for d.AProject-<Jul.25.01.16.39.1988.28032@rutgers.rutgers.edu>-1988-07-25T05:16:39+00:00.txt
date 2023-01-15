@@ -1,0 +1,40 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.AProject
+: This archive created: Mon Jul 25 01:16:35 1988
+echo shar: extracting d.AProject
+cat << 'SHAR_EOF' > d.AProject
+# d.AProject - pleasant@rutgers.edu - Sun Jul 24 16:33:05 EDT 1988
+#
+#  This is the UUCP Mapping Project's miscellaneous data file.  Here you'll
+#  find temporary patches which, because of this file's name, will become part
+#  of the input to pathalias.  In general, we will use this file to keep
+#  pathalias from generating known bad or unreliable paths.
+#
+# ---------- 
+#
+dead {unirot}			# awaiting word from the sysadmin
+#
+ntvax	george(DEAD)
+#
+# The current AT&T map entry claims links to the outside world.
+# Unfortunately, only AT&T internal sites are allowed to take advantage of
+# these links.  The UUCP Project is in the process of having AT&T remove
+# these links from its distributed map entry.  Until that time, all AT&T
+# external links are declared DEAD here to keep the rest of us from
+# attempting to use these links.....
+#
+dead {att!alberta, att!amdahl, att!bellcore, att!bpa, att!chinet}
+dead {att!gargoyle, att!hal, att!ico, att!icus, att!killer, att!laidbak}
+dead {att!looking, att!mandrill, att!mcdchg, att!mirror, att!mstar}
+dead {att!musky2, att!ncr-sd, att!ncsc1, att!osu-cis, att!oucs, att!oucsace}
+dead {att!pacbell, att!petsd, att!philabs, att!princeton, att!rayssd}
+dead {att!rutgers, att!sdcrdcf, att!snark, att!ssbn, att!starcube}
+dead {att!stargate, att!tektronix, att!tellab5, att!uniq, att!utah-cs}
+dead {att!utgpu, att!vfrot, att!westmark, att!xanth}
+#
+# end d.AProject
+SHAR_EOF
+:	End of shell archive
+exit 0

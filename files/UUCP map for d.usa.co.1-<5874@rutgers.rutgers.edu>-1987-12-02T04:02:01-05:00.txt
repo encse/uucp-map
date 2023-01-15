@@ -1,0 +1,153 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.co.1
+# This archive created: Wed Dec  2 04:02:00 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.co.1
+cat << ¬•SHAR_EOF > d.usa.co.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Nov 22 16:24:25 MST 1987
+
+#N	.ucar.edu, hao
+#S	
+#O	High Altitude Observatory/NCAR
+#C	Greg Woods
+#E	hao!woods
+#T	(303) 497-1509
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	
+#W	woods 04/02/87
+#U	noao ames boulder gatech husc6 scdpyr oddjob umigw gaia inlmv3
+#
+#    NCAR local Ethernet machines; not normally accessible from the outside
+#
+UCARNET = {hao, haovax, hao-hw, hao-is, ics-m, acdpyr, scdpyr, windom}(LOCAL)
+#
+#
+#    local calls; some have penalties due to limited accessiblity
+#
+hao	cires(DIRECT), nbires(DIRECT+4*HIGH), inlmv3(DIRECT),
+	stcvax(DIRECT), udenva(DEAD), hicntry(DIRECT+4*LOW), 
+	sunpeaks(DIRECT+2*LOW), vianet(DIRECT+3*LOW), chernow(DIRECT+2*LOW),
+	ico(DIRECT), isis(DIRECT+LOW), ascvax(DIRECT+2*LOW),
+	apcieco(DIRECT+4*LOW), ntia(DIRECT), noaasel(DIRECT), scicom(DIRECT),
+	dunike(DEDICATED)
+#
+# special CISCO link to CU-Boulder
+#
+hao     boulder(DEDICATED)
+hao ".colorado.edu"
+#
+#    high frequency long distance calls 
+#
+hao noao(DEDICATED), hplabs(HOURLY), oddjob(DEDICATED),
+    gatech(DEDICATED), ames(DEDICATED), rutgers(DEDICATED), husc6(DEDICATED),
+    brl-smoke(DEMAND), umigw(DEDICATED)
+#
+#  We talk to the "wrong" solar (at Stanford, solar physics post office)
+# solar(DEDICATED)
+#
+#    other long distance
+#
+hao	menlo70(DAILY), handel(DAILY), 
+	ucsfcgl(DAILY*2), cepu(DAILY*2), uhifa(DAILY*2),
+	usenix(DEAD)
+#
+# we've been having much trouble contacting these sites. These links should
+# not be used unless no other path is available. dolqci link no longer exists.
+#
+hao     ihnp4(DEAD), dolqci(DEAD)
+
+hao    ".ucar.edu"(LOCAL)
+hao = "hao.ucar.edu"
+hao = "ncar.csnet"
+
+
+#N	.isc.com, ico
+#F	sally.utexas.edu
+#O	Interactive Systems Corporation
+#C	Doug McCallum
+#E	dougm@ico.isc.com
+#T	303 449-2870
+#P	2950 Wilderness Place, Suite B, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#U	ism780c nbires isis cadnetix
+#R	registered
+#W	dougm@ico.ISC.COM; Sun Apr 12 11:04:53 MST 1987
+#
+ico	.isc.com
+ico	isc.com
+ico =	ico.isc.com
+#
+#	Internal Sites
+ico     haddock(DEMAND), ism780c(DEDICATED), ism780b(DEDICATED)
+#	Local Connections
+ico	hao(DEMAND),
+	nbires(DEMAND), boulder(DEMAND), isis(DEMAND), mongor(DEMAND),
+	vianet(DEMAND), cadnetix(POLLED), raven(POLLED)
+#	Long Distance Connections
+ico	cbosgd(EVENING), interlan(EVENING), sys1(WEEKLY),
+	ut-sally(EVENING)
+
+
+#N	.nbi.com, nbires
+#O	NBI Inc.
+#C	Dale Reed
+#E	dcr@nbires.UUCP, postmaster@nbires.UUCP
+#T	303-444-5710
+#P	P.O. Box 9001, Boulder CO 80301
+#L	40 02 15 N / 105 14 22 W
+#U	bdaemon boulder cires hao ico isis nbisos ntia rips stcvax vianet
+#R	registered
+#W	dcr@nbires.nbi.com (Dale Reed); Fri Nov 13 11:10:35 MST 1987
+#
+nbires	.nbi.com
+nbires	nbi.com
+nbires=	nbires.nbi.com
+nbires	allegra(EVENING+HIGH),	amd(EVENING+LOW),	apache(DIRECT),
+	bdaemon(DIRECT),	boulder(DIRECT+LOW),	cadnetix(DIRECT),
+	calay(DIRECT),		cbosgd(EVENING+HIGH),	cires(DIRECT),
+	cornell(EVENING),	csu-cs(DEMAND),		ctvax(EVENING),
+	fred(DEAD),		galon(DIRECT+LOW),	gangue(DIRECT),
+	hao(DIRECT+LOW),	hicntry(POLLED),	ico(DIRECT),
+	isieng(DIRECT),		isis(DIRECT),		lbl-csam(EVENING),
+	nbisos(DIRECT),		ntia(DIRECT),		onecom(DIRECT),
+	princeton(WEEKLY),	pyramid(EVENING),	rips(DIRECT),
+	scgvaxd(EVENING),	stcvax(DIRECT+LOW),	ucbvax(EVENING+HIGH),
+	udenva(DIRECT),		unidot(DIRECT),		usenix(EVENING+HIGH),
+	ut-sally(EVENING),	utah-cs(EVENING+LOW),	uunet(EVENING),
+	vianet(DIRECT)
+
+
+
+#N	.alphacdc.com
+#F	rutgers.edu
+#O	Alpha Communications Development Corp.
+#C	Cyro Lord, Andrea Lord, Mark Felton
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	2570 Sky Ranch Rd Box 63A, Aurora, Colo.  80011
+#L	39 45 15 N / 104 45 W city
+#U	isis apache embudo taos bigsky
+#R
+#W	08/07/87 scicom!cyrill
+#
+scicom = .alphacdc.com
+scicom = alphacdc.com
+scicom = scicom.alphacdc.com
+scicom  apache(DEMAND), boulder(DEMAND), hao(DIRECT),
+	galon(DEMAND), qetzal(DEMAND), isis(DIRECT),
+	milehi(DEMAND), taos(LOCAL), embudo(DIRECT),
+	bigsky(DAILY), medevac(DEMAND), reo(DEMAND),
+	bldr(DEMAND), peng(DAILY), bilanc(DEMAND)
+
+
+
+SHAR_EOF
+#	End of shell archive
+exit 0

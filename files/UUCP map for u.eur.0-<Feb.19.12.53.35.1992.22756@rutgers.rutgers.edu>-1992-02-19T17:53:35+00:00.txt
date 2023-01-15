@@ -1,0 +1,226 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.eur.0
+: This archive created: Wed Feb 19 12:53:32 1992
+echo shar: extracting u.eur.0
+cat << 'SHAR_EOF' > u.eur.0
+# u.eur.0 of 0; changes to: uucpmap@nic.eu.net
+# Copyright 1989-1992 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# #W lines show 2 dates: date of introduction and date of last change.
+# Last change:  Tue Feb 18 20:53:13 MET 1992
+
+#N	mcsun, .eu.net, eu.net, mcsun.eu.net, relay.eu.net, nic.eu.net
+#S
+#O	European Forum for Open Systems (EurOpen)
+#C	Piet Beertema
+#E	piet@mcsun.eu.net
+#T	+31 20 5924112
+#P	c/o CWI, Kruislaan 413, NL-1098 SJ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	EUnet central backbone site
+#U	ariadne, cernvax, chsun, corton, danbo, dkuug, fuug, goya,
+#U	i2unix, ieunet, inesc, isgate, nuug, seunet, sun4nl, sztaki,
+#U	tuvie, ub4b, uknet, unido, uunet
+#W	piet@mcsun.eu.net 890809, piet@mcsun.eu.net 920218
+#
+mcsun	.eu.net, eu.net
+mcsun=	mcsun.eu.net
+mcsun=	relay.eu.net
+mcsun=	nic.eu.net
+mcsun=	ftp.eu.net
+mcsun=	ns.eu.net
+# Intercontinental links
+mcsun	estinet(DEMAND+2), kddlab(DEMAND+2), lkmor(DEMAND+2),
+	mimos(DEMAND+2), munnari(ARPA-2), uunet(ARPA-2)
+# Backbone links
+mcsun	alyssa(ARPA), ariadne(ARPA), cernvax(ARPA), chsun(ARPA),
+	corton(ARPA), danbo(ARPA), demos(DEAD), dkuug(ARPA),
+	fuug(ARPA), goya(ARPA), i2unix(ARPA), ieunet(ARPA),
+	inesc(ARPA), isgate(ARPA), ninurta(ARPA), nuug(ARPA),
+	seunet(ARPA), sun4nl(ARPA), sztaki(ARPA), tuvie(ARPA),
+	ub4b(ARPA), uknet(ARPA), uniba(DEMAND), unido(ARPA)
+# Associated links
+mcsun	crpculu(ARPA), poltra(DEMAND+2)
+# Other links
+mcsun	fidoeu(DEMAND+2)
+
+# Only at EUUG conferences
+mcsun	europen-conf(ARPA)
+
+
+# All European inter-backbone links
+
+# Austria
+tuvie	.at
+tuvie	austria.eu.net
+tuvie	mcsun(ARPA-1)
+tuvie   corton(ARPA), goya(ARPA), seunet(ARPA), uniba(ARPA),
+	unido(ARPA)
+
+# Belgium
+ub4b	.be
+ub4b	belgium.eu.net
+ub4b	mcsun(ARPA-1)
+
+# Bulgaria
+danbo	.bg
+danbo	bulgaria.eu.net
+danbo	mcsun(ARPA-1)
+danbo   ariadne(ARPA)
+
+# CERN
+cernvax .cern.ch
+cernvax .cern.fr
+cernvax mcsun(ARPA-1)
+cernvax	corton(ARPA), dkuug(ARPA), goya(ARPA), inesc(ARPA),
+	nuug(ARPA), seunet(ARPA), uknet(ARPA), unido(ARPA)
+
+# Czechoslovakia
+uniba	.cs
+uniba	czechoslovakia.eu.net
+uniba	czecho-slovakia.eu.net
+uniba	mcsun(ARPA-1)
+
+# Denmark
+dkuug	.dk
+dkuug	denmark.eu.net
+dkuug	mcsun(ARPA-1)
+dkuug	cernvax(ARPA), i2unix(ARPA), nuug(ARPA), seunet(ARPA),
+	sun4nl(ARPA), unido(ARPA)
+
+# Finland
+fuug	.fi
+fuug	finland.eu.net
+fuug	mcsun(ARPA-1), munnari(ARPA-2), uunet(ARPA-2)
+fuug	ariadne(ARPA), cernvax(ARPA), corton(ARPA), demos(ARPA),
+	dkuug(ARPA), goya(ARPA), i2unix(ARPA), isgate(ARPA),
+	nuug(ARPA), seunet(ARPA), sun4nl(ARPA), tuvie(ARPA),
+	uknet(ARPA), unido(ARPA)
+
+# France
+corton	.fr
+corton	france.eu.net
+corton	mcsun(ARPA-1), uunet(ARPA-2)
+corton	ariadne(ARPA), cernvax(ARPA), dkuug(ARPA), fuug(ARPA),
+	goya(ARPA), i2unix(ARPA), inesc(ARPA), nuug(ARPA),
+	seunet(ARPA), sun4nl(ARPA), tuvie(ARPA), unido(ARPA),
+	uknet(ARPA)
+
+# Germany
+unido	.de
+unido	germany.eu.net
+unido	mcsun(ARPA-1)
+unido	ariadne(ARPA), cernvax(ARPA), corton(ARPA), dkuug(ARPA),
+	fuug(ARPA), goya(ARPA), i2unix(ARPA), ieunet(ARPA),
+	inesc(ARPA), nuug(ARPA), seunet(ARPA), tuvie(ARPA),
+	uknet(ARPA)
+
+# Great-Britain
+uknet	.uk
+uknet	britain.eu.net
+uknet	united-kingdom.eu.net
+uknet	mcsun(ARPA-1), icot(DEAD), kddlab(DAILY), uunet(ARPA-2)
+uknet	ariadne(ARPA), cernvax(ARPA), corton(ARPA), dkuug(ARPA),
+	fuug(ARPA), i2unix(ARPA), ieunet(ARPA), isgate(ARPA),
+	nuug(ARPA), seunet(ARPA), sun4nl(ARPA), tuvie(ARPA),
+	unido(ARPA)
+
+# Greece
+ariadne	.gr
+ariadne	greece.eu.net
+ariadne	mcsun(ARPA-1)
+ariadne	corton(ARPA), danbo(ARPA), goya(ARPA), seunet(ARPA),
+	tuvie(ARPA), uknet(ARPA), unido(ARPA)
+
+# Hungary
+sztaki	.hu
+sztaki	hungary.eu.net
+sztaki	mcsun(ARPA-1)
+
+# Iceland
+isgate .is
+isgate	iceland.eu.net
+isgate	mcsun(ARPA-1)
+isgate	seunet(ARPA)
+
+# Ireland
+ieunet	.ie
+ieunet	ireland.eu.net
+ieunet	mcsun(ARPA-1)
+ieunet	uknet(ARPA)
+
+# Italy
+i2unix	.it
+i2unix	italy.eu.net
+i2unix	mcsun(ARPA-1)
+i2unix	corton(ARPA), dkuug(ARPA), seunet(ARPA), unido(ARPA)
+
+# Luxemburg
+crpculu	mcsun(ARPA-1)
+
+# Netherlands
+sun4nl	.nl
+sun4nl	netherlands.eu.net
+sun4nl	mcsun(ARPA-1)
+sun4nl	corton(ARPA), dkuug(ARPA), fuug(ARPA), seunet(ARPA),
+	uknet(ARPA), unido(ARPA)
+
+# Norway
+nuug	.no
+nuug	norway.eu.net
+nuug	mcsun(ARPA-1)
+nuug	corton(ARPA), cernvax(ARPA), dkuug(ARPA), fuug(ARPA),
+	seunet(ARPA), uknet(ARPA), unido(ARPA)
+
+# Poland
+poltra	mcsun(DEMAND+2)
+
+# Portugal
+inesc	.pt
+inesc	portugal.eu.net
+inesc	mcsun(ARPA-1)
+inesc	goya(ARPA), unido(ARPA)
+
+# Spain
+goya	.es
+goya	spain.eu.net
+goya	mcsun(ARPA-1)
+goya	ariadne(ARPA), cernvax(ARPA), corton(ARPA), inesc(ARPA),
+	seunet(ARPA), tuvie(ARPA), unido(ARPA)
+
+# Sweden
+seunet	.se
+seunet	sweden.eu.net
+seunet	mcsun(ARPA-1)
+seunet	ariadne(ARPA), cernvax(ARPA), corton(ARPA), dkuug(ARPA),
+	fuug(ARPA), goya(ARPA), i2unix(ARPA), inesc(ARPA),
+	isgate(ARPA), nuug(ARPA), sun4nl(ARPA), tuvie(ARPA),
+	uknet(ARPA), unido(ARPA)
+
+# Switzerland
+chsun	.ch
+chsun	switzerland.eu.net
+chsun	mcsun(ARPA-1)
+
+# Tunisia
+alyssa	.tn
+alyssa	tunisia.eu.net
+alyssa	mcsun(ARPA-1)
+
+# USSR
+demos	.su
+demos	ussr.eu.net
+demos	soviet-union.eu.net
+demos	fuug(ARPA)
+
+# Yugoslavia
+ninurta	.yu
+ninurta	yugoslavia.eu.net
+ninurta	mcsun(ARPA-1)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,438 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mi.1
+: This archive created: Sat Apr  2 01:47:38 1988
+echo shar: extracting u.usa.mi.1
+cat << 'SHAR_EOF' > u.usa.mi.1
+# This map is maintained by Bob Leffler  (bob@rel.eds.com).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# Maps may also be posted to the newsgroup mi.newsite.
+# Last updated: Thu Mar 31 21:33:59 EST 1988
+
+#N	aat
+#S	
+#O	Ann Arbor Terminals
+#C	Steven McGeady/Michael Sleator
+#E	aat!mcg / aat!sleat
+#T	(313) 663-8000
+#P	6175 Jackson Rd.; Ann Arbor, MI  48104
+#L	42 18 N / 83 45 W city
+#R	
+#U
+#W	oxtrap!rich (K. Richard Magill) ; Sun Sep  6 21:55:31 EDT 1987
+#
+aat	psu-cs(HOURLY*3), cbosgd(DAILY/5), m-net(DAILY),
+	umich(DIRECT)
+
+#N	amara
+#S	Sun 3/140 ; SunOS 3.5
+#O	Applied Dynamics International
+#C	Dave Steinhoff
+#E	amara!des
+#T	+1 313 973 1300
+#P	3800 Stone School Rd, Ann Arbor, MI. 48108
+#R	Simulation and realtime computing
+#W	lokkur!scs (Steve Simmons) ; Tue Mar  1 23:22:59 EST 1988
+#
+amara	lokkur(DEMAND), umix(DIRECT)
+
+#N	anet
+#S	Altos 68000; System III UNIX
+#O	Arbornet, Community-access UNIX
+#C	Stephen W. Barber
+#E	anet!postmaster
+#T	+1 313 665 0884, +1 906 487 0555
+#P	1354 Jewett, Ann Arbor, MI 48104
+#L	083 43 15 W / 42 15 05 N
+#U
+#W	anet!postmaster (Stephen W. Barber); Fri Jul 24 03:02:00 EST 1987
+#
+anet	b-tech(POLLED), clif(POLLED), fmsrl7(POLLED), oxtrap(POLLED),
+	itivax(POLLED), emucsc(POLLED), aerie(POLLED)
+
+#N	applga
+#S	Sun 2/140 ; SunOS 3.2 (BSD 4.[23])
+#O	Schlumberger CAD/CAM Divisions
+#C	Steve Simmons
+#E	applga!postmaster
+#T	+1 313 995 6000
+#P	P. O. Box 986, Ann Arbor, MI. 48106
+#R	Dedicated news/mail machine for Ann Arbor plant
+#W	applga!simmons (Steve Simmons) ; Sun Feb 21 15:49:22 EST 1988
+#
+applga	lokkur(DAILY), umix(DIRECT)
+
+#N	aps
+#S	NCR Tower 32/400; System 5, release 2  Unix
+#O	Applied Processing Systems, Inc.
+#C	Lee Pearson
+#E	aps!lee
+#T	+1 313 761 9138
+#P	2355 E. Stadium Blvd., Ann Arbor, MI 48104
+#L	42 18 N / 83 45 W city
+#R	
+#U	
+#W	umich!lee (Lee Pearson) ; Tue Aug 25 12:00:00 EDT 1987
+#
+aps	itivax(DAILY), umich(HOURLY*6), umix(HOURLY)
+
+#N	arbortext
+#S	Sun 3/260M; SMI 3.5 UNIX
+#O	ArborText, Inc.
+#C	Patrick M. Sherry
+#E	arbortext!postmaster, postmaster@arbortext.com
+#T	+1 313 996 3566
+#P	535 West William  Suite 300, Ann Arbor, MI 48103
+#L	42 18 N / 83 45 W city
+#R	[35.1.160.2]
+#U	umix
+#W	arbortext!pms (Pat Sherry); Mon Mar 14 09:25:41 EST 1988
+#
+arbortext=	arbortext.com
+arbortext	umix(HOURLY), umich(HOURLY), dwon(DAILY)
+
+#N	arcadia
+#S	Amiga 1000; DOS 1.2 and UUPC
+#O	Smalltown Writers
+#C	Kip DeGraaf
+#E	arcadia!newsadmin
+#T	+1 616 349 5887
+#P	614 Reed Street  Apartment 1, Kalamazoo, MI 49001
+#L	42 17 26 N / 85 35 05 W Kalamazoo
+#R
+#U	wybbs
+#W	arcadia!kip (Kip DeGraaf); Mon Feb 15 18:35:13 EDT 1988
+#
+arcadia	wybbs(DAILY)
+
+#N	b-tech
+#S	'386; Unix Sys V.3 
+#O	Branch Technology
+#C	Jon Zeeff
+#E	b-tech!postmaster
+#T	+1 313 995 8783
+#P	436 Kellogg, Ann Arbor, MI 48105
+#L	42 18 N / 83 45 W city
+#R	umix, metavax, m2-net
+#U	
+#W	b-tech!zeeff (Jon Zeeff); Mon Feb 25 14:28:41 EST 1988
+#
+b-tech	umich(DAILY*2), umix(EVENING/2), metavax(DAILY), m-net(DAILY),
+	anet(DAILY*2), emucsc(DAILY), aix(DAILY), m2-net(DAILY),
+	oxtrap(DAILY*3)
+
+#N	bgalli
+#S	
+#O
+#C	Billy G. Allie
+#E	bgalli!bga
+#T	+1 313 582 1540
+#P	7436 Hartwell, Dearborn, MI 48126
+#L	42 18 N / 83 14 W city
+#R
+#W	mcf!shan (Sharan Kalwani) ;Thu Mar 17 18:56:54 EST 1988
+#U	mcf
+#
+bgalli	uunet(DEMAND), mcf(DIRECT)
+
+#N	bio-image
+#S	Sun 3/260; SunOS 3.4
+#O	Bio Image, A Kodak company
+#C	Mike Bernson
+#E	mike@bio-image.UUCP
+#T	+1 313 971 7500
+#P	1460 Place, Ann Arbor, MI 48108
+#L	42 18 n / 83 45  w city
+#U	eecae
+#W	Mike Bernson; Wed Mar 02 12:00:00 EST 1988
+#R	Entry corrected, bob@rel.eds.com; Sat Mar 12 09:44:00 EST 1988
+#
+bio-image	m-net(EVENING), itivax(DEMAND), crlt(DEMAND), eecae(DEMAND)
+
+#N	caen
+#S	Apollo net; DomainI/X 9.6
+#O	Univ. of Mich. College of Engineering Computer Aided Engineering 
+#C	Woody Kellum
+#E	lwk@caen, netnews@caen
+#T	+1 313 763 3247
+#P	2121 Bonisteel Blvd., Ann Arbor, Michigan 48109
+#L	42 17 29 N / 83 42 32 W
+#R	250+ staff & student Apollos. Alliant & Sun connected via rrn
+#U	
+#W	lwk.caen.engin.umich (Woody Kellum); Thu Sep 10 14:48:42 EDT 1987
+caen    umix(DAILY)
+
+#N	ccd700
+#S	fortune 32:16 
+#O	Ford Climate Control
+#C	Jim Sitek, Ron Tribble
+#E	ccd700!jim, ccd700!ron
+#T 	+1 313 323 6909, +1 313 390 1325
+#P	Divers. Prod. Tech. Center, 17000 Rotunda, Dearborn, MI 48121
+#L	42 20 N / 83 03 W city
+#R
+#U	
+#W	ccd700!ron (ron tribble); Sat Mar 26 08:53:00 EST 1988
+#R	ccd700!jim (jim sitek);
+ccd700	mibte(DAILY*3)
+
+#N	citi
+#S	Sun 3/280; SMI 3.4 UNIX
+#O	Center for Information Technology Integration, The Univ. of Michigan
+#C	Peter Honeyman
+#E	dwon!honey, honey@citi.umich.edu
+#T	+1 313 764 7479
+#P	2901 Hubbard Rd., Pod G, Ann Arbor, MI 48105
+#L	42 18 N / 83 45 W city
+#R	[35.1.128.16]
+#W	Honeyman Thu Oct  8 22:08:59 EDT 1987
+#
+citi	dwon(LOCAL),
+	princeton(DEDICATED),
+	uiucdcs(DEDICATED),
+	yquem(DEDICATED),
+	rutgers(DEDICATED),
+	umix(LOCAL+25),
+	umich(LOCAL+25),
+	bellcore(DEDICATED+25),
+	acal(LOCAL+25),
+	harvard(DEDICATED)
+citi = citi.umich.edu
+citi	.citi.umich.edu(LOCAL)	# gateway to local domain
+
+#N	clif
+#S	Tandy M16; Xenix 1.03.05
+#O	clif flynt
+#C	clif Flynt
+#E	clif!clif
+#T	+1 313 429 1265
+#P	6564 E. Michigan Ave, #7, Saline, MI  48176
+#L
+#R	Personal Machine, Clif Flynt, consultant
+#U
+#W	clif!clif; Mon Jan  4 19:52:33 CST 1988
+#
+clif    ihnp4(WEEKLY), chinet(DAILY/2), m-net(WEEKLY), anet(WEEKLY)
+
+#N	clip
+#S	Sun 3/160; Sun OS 3.5
+#O	University of Michigan Hospital, Division of Cardiology
+#C	Ed Anselmo
+#E	clip!ed
+#T	+1 313 936-5570
+#P	University Hospital, Room B1F245 Box 0022, Ann Arbor MI 48109-0022
+#L	42 18 N / 83 45 W city
+#R	
+#U	
+#W	clip!ed; Wed Mar 30 17:33:34 EST 1988
+#
+clip	lokkur(DEMAND), m-net(DAILY), rsi(DAILY), umix(DIRECT), emucsa(DAILY)
+
+#N	clmqt
+#S	ComputerLand BC-286; IBM PC XENIX 2.00.3
+#O	The USS Enterprise Bulletin Board System
+#C	Scott Reynolds
+#E	clmqt!scott
+#T	+1 906 228 8515 (VOICE), +1 906 228 9460 (DATA)
+#P	P.O. Box 878 / 2373 U.S. 41 West, Marquette, MI 49855
+#L	46 35 N / 87 27 W
+#W	clmqt!scott (Scott Reynolds); Mon Mar 28 19:46:00 EST 1988
+#R	killer removed bob@rel.eds.com; Thu Mar 31 21:18:00 EST 1988
+#
+clmqt	umix(HOURLY), alphacm(WEEKLY), pallas(DEAD)
+
+#N	crlt
+#S	Codata CTW-3300; Version 7 Unisoft Unisis
+#O	Univ. of Michigan - Center for Research on Learning and Teaching (CRLT)
+#C	Karl Zinn
+#E	forum3!karlzinn
+#T	+1 313 763 4410
+#P	109 E. Madison; Ann Arbor, MI 48109
+#L	42 18 N / 83 45 W city
+#R
+#U
+#W	netisun!mdw (Marcus Watts); Sun Jan  5 08:04:50 EST 1986
+#
+crlt	m-net(DEAD)
+
+#N	dri1
+#S	Convergent Technologies MiniFrame; CTIX v3.2 (UNIX System V.2) 
+#O	Dynamic Results, Inc.
+#C	Ronald C. Colcernian
+#E	dri1!rcc
+#T	+1 313 642 1890
+#P   	3089 St. Jude, Drayton Plains, Michigan 48020
+#L	42 42 N / 83 26 W city
+#R
+#W	dri1!rcc  (Ronald C. Colcernian); Sun Mar 27 13:36:46 EST 1988
+#U	dri2
+#
+dri1	dri2(HOURLY*6)
+
+#N	dri2
+#S	Convergent Technologies MiniFrame Plus; CTIX v3.2 (UNIX System V.2) 
+#O	Dynamic Results, Inc.
+#C	Ronald C. Colcernian
+#E	dri2!rcc
+#T	+1 313 642 1890
+#P     	219 Elm Street, Birmingham, Michigan 48008
+#L	42 34 N / 83 25 W city
+#R
+#W	dri2!rcc  (Ronald C. Colcernian); Sun Mar 27 13:36:46 EST 1988
+#U	dri1
+#
+dri2	mibte(DIRECT), dri1(HOURLY*6)
+
+#N	dsacng1
+#S	Gould Powernode 9050; UTX/32 2.0 (4.3 BSD/sV issue 2)
+#O	Defense Systems Automation Center North - Battle Creek
+#C	Frank Cook, Howard Carson, Kathy DeGraaf
+#E	dsacng1!fcook, ddsacng1!hcarson, dsacng1!kdegraaf
+#T	(616)961-5115, +1(616)961-5089 ,+1(616)961-5117
+#P	P.O. Box 1978 Battle Creek, MI 49016-1978
+#L	142 19 N / 85 15 W 
+#R	remarks: Design & development site for DSAC
+#U
+#W	dsacng1!fcook (Frank Cook); Thu Mar 31 21:22:00 EST 1988
+#
+dsacng1	eecae(DAILY/14), dsacg1(DAILY)
+
+#N	dwon
+#S	ATT 3B2/300; SVR3 UNIX
+#O	Center for Information Technology Integration, The Univ. of Michigan
+#C	Peter Honeyman
+#E	dwon!honey, honey@citi.umich.edu
+#T	+1 313 764 7479
+#P	2901 Hubbard Rd., Pod G, Ann Arbor, MI 48105
+#L	42 18 N / 83 45 W city
+#R	[35.1.128.48]
+#W	Honeyman Thu Oct  8 22:08:59 EDT 1987
+#
+dwon	umix(LOCAL+25),
+	umich(LOCAL+25),
+	princeton(DEMAND+2*LOW),
+	citi(LOCAL),
+	medea(DIRECT),
+	arbortext(DIRECT),
+	crim(DIRECT),
+	wsu-cs(DEMAND),
+	m-net(DAILY),
+	lokkur(DIRECT),
+	oxtrap(DIRECT),
+	telebit(DAILY),
+	edsews(DEMAND),
+	tbomb(DIRECT)
+
+#N	eecae
+#S	DEC VAX 8600; Ultrix 1.2
+#O	Mich. State Univ., Elec. Eng. CAE Facility
+#C	John H. Lawitzke
+#E	...ihnp4!upba!eecae!lawitzke   or lawitzke@eecae.ee.msu.edu
+#T	(517) 355-3769
+#P	260 Engineering Bldg, MSU, E. Lansing, MI, 48823
+#L	42 43 50.108 N / 84 28 54.481 W
+#R
+#R	eecae wil provide uucp feed and newfeed to anyone willing
+#R	to call us and feed at least one other site.
+#R 	eecae also talks to several smaller
+#R	machines around the MSU campus which are not listed here.
+#R	Please contact Postmaster@eecae.ee.msu.edu for more info
+#R
+#U	nancy super fmsrl7 upba crlt
+#W	eecae!lawitzke (John H. Lawitzke) ; Wed Jul 29 18:40:04 EDT 1987
+
+eecae	=	eecae.ee.msu.edu	# eecae is an internet site
+eecae	cpswh(LOCAL), cpsvax(LOCAL), upba(HOURLY), 
+	fmsrl7(HOURLY), crlt(HOURLY), bio-image(EVENING), super(LOCAL)
+
+#N	emptys
+#S	Sun 3/160; SMI 3.3 UNIX
+#O	Computer Center, The University of Michigan
+#C	Mike Stolarchuk
+#E	umix!mts, mts@emptys.cc.umich.edu
+#T	+1 313 763 4891
+#P	1075 Beal Ave. , Ann Arbor, MI 48109
+#L	42 17 20 N / 83 42 52 W
+#R	[35.1.1.8]
+#U
+#W	mts@emptys; Tue Mar 15 17:46:00 EST 1988
+#
+emptys = emptys.cc.umich.edu
+emptys	umix(DEDICATED)
+
+#N	emucsc
+#S	DEC Micro VAX I ; ULTRIX-1.1
+#O	Eastern Michigan University
+#C	Keith Alan Rodwell, John Remmers
+#E	emucsc!kr, emucsc!remmers
+#T	+1 313 487 1063
+#P	Rm 620 Pray Harold, Eastern Michigan University, Ypsilanti, MI 48103
+#L	083 36 E / 42 15 N
+#R	We don't currently have any dialout modems, but will later.
+#U	crlt
+#W	emucsc!kr (Keith Alan Rodwell); Mon Jan  6 21:18:19 EST 1986
+#R	deleted tforum1 per neti2!bdr; bob@rel.eds.com
+#R	Wed Nov 25 21:35:00 EST 1987
+emucsc	itivax(DIRECT)
+
+#N	epds01
+#S	Fortune 32:16, For:Pro 1.8
+#O	Ford Motor Company
+#C	Ray Browder
+#E	epds01!uucp
+#T	+1 313 594 2655
+#P	20000 Rotunda, Dearborn Mi
+#L	42 20 N / 83 03 W city
+#R
+#U
+#W	epds01!browder (Ray Browder); Wed Jul 29 15:57:40 EDT 1987
+#
+epds01	fmsrl7(DIRECT)
+
+#N	fmsrl7
+#S	Masscomp 5400; RTU 3.1
+#O	Ford Motor Company, Scientific Research Labs
+#C	Michael R. Wayne
+#E	fmsrl7!usenet, fmsrl7!wayne
+#T	+1 313 322 3986
+#P	Room E-2174, 20000 Rotunda Drive, Dearborn, MI 48121
+#L	42 18 N / 83 16 W
+#R	killer removed bob@rel.eds.com; Thu Mar 31 21:25:00 EST 1988
+#U	fmsrl4 fmsrl5 fires1 mibte motdet nucleus oxtrap swlabs teemc
+#W	fmsrl7!wayne (Michael R. Wayne); Wed Mar 16 21:23:40 EST 1988
+#
+fmsrl7	fmsrl5(DEDICATED),
+	fires1(DIRECT+HIGH), mpk020(DIRECT+HIGH), teemc(DIRECT+HIGH),
+	ccd650(DIRECT), epds01(DIRECT), mcf(DIRECT),
+	mibte(DIRECT), 
+	philabs(DEMAND+HIGH), pyramid(DEMAND+HIGH), 
+	nucleus(DEMAND), oxtrap(DEMAND),
+	umix(DEMAND), netsys(DEMAND),
+	eecae(DEMAND*2), metavax(DEMAND+LOW), reel(DEMAND+LOW),
+	fmsrl1(DIRECT*2),
+	anet(DEMAND*2), rjf001(DEMAND*2),
+	fmsrl4(EVENING), kmbc1(EVENING+HIGH), swlabs(EVENING+HIGH),
+	edstb(DAILY), mpuls1(DAILY), msudoc(DAILY), ttardis(DAILY),
+	rel(POLLED),
+	chinet(WEEKLY+HIGH), m-net(WEEKLY),
+	fmeed1(WEEKLY*2), ninja(WEEKLY*2)
+
+#N	gdsb
+#S	Plexus P/25; Unix III 1.2
+#O	Greator Detroit Society For The Blind
+#C	Mary Beth Kullen
+#E	gdsb!sysadm
+#T	+1 313 272 3900
+#P	16625 Grand River, Detroit, Michigan 48227
+#L
+#R      (EVENING) added by bob@rel.eds.com, map submitted without frequency
+#U	unicare itivax	
+#W	gdsb!sysadm (Mary Beth Kullen) ; Fri May 29 09:00:42 EDT 1987
+#
+gdsb	unicare(EVENING), itivax(EVENING)
+
+#N	gmeeca
+#S	IBM AT; VENIX System V Rel. 2.2
+#O	General Motors Electrical Engi

@@ -1,0 +1,102 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.mi.1
+: This archive created: Sat Apr  2 01:44:32 1988
+echo shar: extracting d.usa.mi.1
+cat << 'SHAR_EOF' > d.usa.mi.1
+# This map is maintained by Bob Leffler  (bob@rel.eds.com).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# Maps may also be posted to the newsgroup mi.newsite.
+# Last updated: Thu Mar 31 21:31:04 EST 1988
+
+#N      .eds.com rel edsews
+#F      uunet.uu.net
+#O      Electronic Data Systems
+#C      Bob Leffler
+#E      postmaster@eds.com
+#T      +1 313 456-5375
+#P      Box 7019, 5555 New King St., Troy, MI 48007-7019    
+#L      
+#U      edsdrd rel edsews umix wybbs gaboon 
+#R      sun.com is our alternate fowarder
+#W      bob@rel.eds.com; Sat Mar 27 11:20:00 EST 1988    
+#
+rel=    .eds.com
+rel=    eds.com
+rel=    rel.eds.com
+rel	edsdrd(WEEKLY),
+	edsews(DIRECT),
+	edstb(POLLED),
+	fmsrl7(EVENING),
+	gaboon(POLLED),
+	iwblsys(DEMAND),
+	mcf(WEEKLY),
+	teemc(WEEKLY),
+	rutgers(WEEKLY),
+	umich(WEEKLY),
+	umix(DIRECT),
+	wybbs(POLLED)
+edstb=  edstb.eds.com
+edstb	edsdrd(EVENING),
+	edsews(EVENING),
+	nucleus(EVENING),
+	rel(EVENING)
+#
+#C      William Bejcek
+#E      web@edsdrd.uucp
+#T      +1 313 696 5451
+#P      2107 Crooks, Troy, MI. 48007
+#L
+#U      rel mibte
+edsdrd= edsdrd.eds.com
+edsdrd  mibte(EVENING), edstb(EVENING), rel(EVENING)
+#
+eds1=   eds1.eds.com
+eds1    conexch(EVENING), edstb(DEAD), nucleus(EVENING)
+#
+#C      Ted Roberts
+#E      roberts@edsews.eds.com
+#T      +1 313 645 4896
+#P      1400 N. Woodward, Bloomfield Hills, MI 48013
+#L
+#U      rel sun32 uunet
+edsews= edsews.eds.com
+edsews  dwon(DAILY),
+	edstb(DAILY),
+	rel(DIRECT),
+	satinfo(DAILY),
+	sun32(DAILY),
+	uunet(DIRECT)
+# 
+#C      Jimmy Niemann
+#E      jcn@edsr.uucp
+#T      +1 214 661 6052
+#P      7223 Forest Lane, Dallas, TX 75230
+#L      32 57 20 N / 96 48 45 W
+#
+edsr=   edsr.eds.com
+edsr    texsun(HOURLY), valhalla(DAILY)
+#
+#C      Bill Dodd
+#E      bill@saturn.eds.com
+#T      +1 313 524 6579
+#P      434 W 12 Mile, Madison Hgts, MI 48071
+#
+satinfo=        saturn.eds.com
+satinfo=        satinfo.eds.com
+satinfo=        satinfo.saturn.eds.com
+satinfo edsews(DIRECT), rhea(DIRECT), tethys(DIRECT)
+#
+rhea=   rhea.saturn.eds.com
+rhea=   rhea.eds.com
+rhea    satinfo(DIRECT), tethys(DIRECT)
+#
+tethys= tethys.saturn.eds.com
+tethys= tethys.eds.com
+tethys  satinfo(DIRECT), rhea(DIRECT)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

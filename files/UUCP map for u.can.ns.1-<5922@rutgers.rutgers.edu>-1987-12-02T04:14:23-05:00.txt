@@ -1,0 +1,203 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.can.ns.1
+# This archive created: Wed Dec  2 04:14:20 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.can.ns.1
+cat << \SHAR_EOF > u.can.ns.1
+#	u.can.ns.1 : last updated Fri Sep 18 22:07:21 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	amigpx
+#S	DEC VaxStation II/GPX; Ultrix-32m 1.2
+#O	Applied Microelectronics Institute, Technical University of Nova Scotia
+#C	Allan Jost
+#E	amigpx!jost
+#T	+1 902 429 8300
+#P	PO Box 1000, Halifax, Nova Scotia, Canada B3J 2X4
+#L	63 36 W/ 44 39 N city
+#R	No news. Gateway to DECNET of VMS machines at T.U.N.S.
+#U
+#W	tunscs!jost; Wed Jan 14 12:15:00 ADT 1987
+#
+#	Supports VLSI research. Gateway to DECNET of VMS machines at T.U.N.S.
+#	Currently these machines are:
+#	AMI::     Applied Microelectronics Institute VAX-11/8200
+#	TUN785::  Dept of Computer Services VAX-11/785
+#	TUN780::  Dept of Computer Services VAX-11/780
+#
+#	DECNET users are reachable with addresses like:  amigpx!ami::username
+#
+amigpx	tunscs(HOURLY), dalcs(DEMAND)
+#	Reverse link from dalcs is DEMAND.  This line here in case they
+#	didn't do it yet.
+dalcs	amigpx(DEMAND)
+#
+
+#N	aucs
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Acadia University School of Computer Science
+#C	Bill Wilder
+#E	aucs!wdw
+#T	+1 902 542 2201 x213
+#P	Wolfville, Nova Scotia, CANADA B0P 1X0
+#L
+#R
+#W	aucs!wdw (Bill Wilder); Sun Jan 18 04:20:35 AST 1987
+#U	dalcs
+#
+aucs	dalcs(HOURLY)
+
+#N	biomel
+#S	WICAT S160; Uniplus V 2.0
+#O	Marine Ecology Lab., Bedford Inst. of Oceanography
+#C	Bill Silvert
+#E	utai!dalcs!biomel!root
+#T	+1 902 426 1577
+#P	Dartmouth, NS Canada  B2Y 4A2
+#L	44 39 N / 63 36 W city
+#R	
+#U
+#W	biomel!root; Wed Jan  7 12:00:00 AST 1987
+#
+biomel	dalcs(DIRECT)
+
+#N	dalcs
+#S	DEC VAX 11/785; 4.3 BSD UNIX
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	David Trueman, Michael Thompson
+#E	dalcs!david, dalcs!thompson, dalcs!{usenet,root,postmaster}
+#T	+1 902 424 6501, +1 902 424 2572
+#P	Chase Bldg, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	We feed from mnetor, and to dalcsug, aucs, force10, garfield, iisat
+#R	local postings are forwarded watmath.
+#U	garfield, dalcsug, aucs, force10, iisat, mnetor, uunet, watmath
+#W	dalcs!thompson (Michael Thompson); Fri Sep  4 14:09:39 ADT 1987
+#
+#	Note: we've marked our uunet connection as DEMAND*2 not because of
+#	a lack of quality, but because it costs us almost 6 times as much to
+#	transmit stuff through there, as it does to transmit stuff to our
+#	other DEMAND connections.
+#	
+#	All DEMAND connections are through the X25 network datapac.
+#
+dalcs	= "cs.dal.cdn"
+dalcs	.dal.cdn
+dalcs	.cdn
+
+dalcs	amigpx(DIRECT), aucs(HOURLY/2), biomel(DIRECT),
+	dalcsug(DIRECT), dalstat(DEAD), force10(DIRECT),
+	garfield(DEMAND), iisat(HOURLY/2), stars(DIRECT),
+	tunscs(DAILY/2), utai(DEMAND), uunet(DEMAND*2), watmath(DEMAND)
+
+#N	dalcsug
+#S	DEC VAX 11/750; 4.2 BSD UNIX
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	Bruce Hudson
+#E	dalcsug!hudson, dalcsug!usenet
+#T	+1 902 424 3472
+#P	Killam Library, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#U	dalcs
+#W	dalcs!thomspon (Michael Thompson); Thu Dec 25 21:49:07 AST 1986
+#
+dalcsug	dalcs(DIRECT)
+
+#N	dalstat
+#S	WICAT S160  Uniplus 2.4
+#O	Dalhousie University, Statistics Group
+#C	David Trueman
+#E	dalcs!david, dalstat!usenet
+#T	+1 902 424 6501, +1 902 424 2572
+#P	Chase Bldg, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#W	dalcs!thomspon (Michael Thompson); Thu Dec 25 21:49:07 AST 1986
+#
+dalstat	dalcs(DEDICATED)
+
+#N	force10
+#S	IBM PC/AT; Xenix V ver 2.1.3
+#O	ForceTen Enterprises Incorporated.
+#C	Neil Erskine
+#E	force10!erskine
+#T	+1 902 453 0040 x340
+#P	3845 Dutch Village Road, Halifax, Nova Scotia Canada B3L 4H9
+#L	63 36 W / 44 / 39 N city
+#R	No direct news yet, but soon I hope through dalcs
+#U
+#W	force10!erskine (Neil Erskine); Wed Aug 20 14:18:38 ADT 1986
+#
+#	This machine is the window onto the world of the Development
+# team for the Health Care Products department of ForceTen. Your dentist
+# may be using one of our packages (Safeguard Practice Perfect). We are
+# using four PC/ATs with varying amounts of hard-disk storage and memory.
+#
+force10		dalcs(DAILY/2)
+
+#N	iisat
+#S	Tandy 3000; Tandy Xenix 1.1.0
+#O	International Information Service (IIS)
+#C	Kevin Davies, Trent MacDougall
+#E	iisat!kevin, iisat!trent, iisat!usenet
+#T	+1 902 466 5764, +1 902 861 2837
+#P	75 Boland Road, Dartmouth, Nova Scotia, Canada B3A 3G8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#U	dalcs
+#W	iisat!kevin (Kevin Davies); Sun Jul 26 15:37:20 ADT 1987
+#
+iisat	dalcs(HOURLY)
+
+#N      stars
+#S      DEC MicroVax II; Ultrix-32m 1.2
+#O      Dalhousie University, School of Business Administration
+#C      Eric Rountree
+#E      stars!rountree
+#T      +1 902 424 7080 ext 159
+#P      6152 Coburg Rd, Halifax, N.S., B3H 1Z5
+#L      63 34 30 W / 44 38 54 N city
+#R      No news. Gateway to DECNET of VMS machines at Dalhousie
+#U
+#W      stars!rountree; Thu Jan 22 13:19:59 AST 1987
+#
+#       Gateway to DECNET of VMS machines at Dalhousie
+#       Currently these machines are:
+#       EARTH::   School of Business Administration
+#       MOON::    School of Business Administration
+#
+#       DECNET users are reachable with addresses like:  stars!earth::username
+#
+stars   dalcs(DIRECT)
+
+#N	tunscs
+#S	DEC VaxStation II/GPX; Ultrix-32m 1.2
+#O	School of Computer Science, Technical University of Nova Scotia
+#C	Allan Jost
+#E	tunscs!jost
+#T	+1 902 429 8300
+#P	PO Box 1000, Halifax, Nova Scotia, Canada B3J 2X4
+#L	63 36 W/ 44 39 N city
+#R	No news.
+#U
+#W	tunscs!jost (Allan Jost); Wed Jan 14 12:16:00 ADT 1987
+#
+#	Supports VLSI research, particularly CAD.
+#
+tunscs	dalcs(DEMAND), garfield(DEMAND), amigpx(DEMAND)
+#	We poll the following sites:
+dalcs	tunscs(HOURLY*2)
+garfield	tunscs(DAILY/2)
+amigpx	tunscs(HOURLY)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

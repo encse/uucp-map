@@ -1,0 +1,222 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.fin.5
+: This archive created: Mon Jun 22 20:51:45 1992
+echo shar: extracting u.fin.5
+cat << 'SHAR_EOF' > u.fin.5
+#
+# u.fin.5 - EUnet Map for other sites
+#
+# Copyright 1989,1990,1991 by EurOpen.  All rights reserved
+# 
+# Permission to use and redistribute for routing purposes granted.
+# Permission is granted for non-commercial use.
+#
+# Changes: uucpmap@fuug.fi
+#
+# Last modified: Tue Aug 20 15:07:10 1991
+#
+
+#
+# Sites in alphabetical order (by domain):
+#
+
+#N	insta
+#S	Motorola 1131; Unix System V
+#O	Instrumentointi Oy
+#C	Juha Havulinna
+#E	juuso@insta.uucp
+#T	+358 31 659111
+#P	Sarankulmankatu 20, SF-33900 Tampere, Finland
+#L	23 45 9 E / 61 27 41 N
+#W	pnr@fuug.fi; Thu Oct 12 17:16:11 1989
+#
+#
+insta	fuug.fi(HOURLY)
+
+#N	intrin.fi intrin sibelius topelius
+#S	HP 9000/540; HP-UX 6.2
+#O	Intrinsic Ltd
+#C	Petri Launiainen
+#E	pl@intrin.fi
+#T	+358 31 132800
+#P	Kauppakatu 3 A, SF-33200 Tampere, Finland
+#L	23 45 50 E / 61 29 53 N
+#W	pl@intrin.fi; Sun Sep 08 00:00:00 1988
+#
+#
+intrin.fi	=intrin
+intrin.fi	.intrin.fi
+intrin.fi	fuug.fi(HOURLY)
+
+#N	mserla.fi metser
+#S
+#O	Mets{-Serla Oy
+#C	Erkki Pyh{lt|
+#E	ekp@mserla.fi
+#T	+358 31 513635
+#P	PL 208, SF-33101 Tampere, Finland
+#L
+#W	ojala@fuug.fi; Mon Sep 17 11:54:03 1990
+#W	ojala@fuug.fi; Sat Feb  9 21:18:29 1991
+#
+#
+mserla.fi	=metser
+mserla.fi	.mserla.fi
+mserla.fi	fuug.fi(HOURLY)
+
+#N	nopap
+#S	Micro-VAX II; Ultrix 32m 2.0
+#O	Nokia Paperi Oy
+#C	Timo Varkoi
+#E	postmaster@nopap.uucp
+#T	+358 31 408111
+#P	PL 1, SF-37101 Nokia, Finland
+#L	23 50 E / 61 26 N
+#W	vjk@tut.fi; Fri Nov 13 00:00:00 1987
+#W	ojala@fuug.fi; Fri Aug 10 21:36:29 1990
+#
+#
+nopap	fuug.fi(HOURLY)
+
+#N	sg.modul.fi modul.fi sgroup
+#S	IBM 6150 RT; AIX 2.1.2
+#O	Soft Group Oy
+#C	Jyrki Yli-Nokari
+#E	jty@sg.modul.fi
+#T	+358 31 147700
+#P	Kuninkaankatu 21, SF-33210 Tampere, Finland
+#L
+#W	jty@sg.modul.fi; Thu Aug 11 00:00:00 1988
+#
+#
+sgroup	.modul.fi
+sgroup	fuug.fi(HOURLY)
+
+#N	sjakk.fi
+#S
+#O	Sein{joen Aikuiskoulutuskeskus
+#C	Antti Lehtim{ki
+#E	akal@sjoki.uta.fi
+#T	+358 64 184 555
+#P	PL 172, SF-60101 Sein{joki, Finland
+#L
+#W	ojala@fuug.fi; Fri Apr 12 11:54:54 1991
+#
+#
+sjakk.fi	.sjakk.fi
+sjakk.fi	fuug.fi(DEDICATED)
+
+#N	tac.fi
+#S
+#O	Tampereen Kaupunki; Tietotekniikan osasto
+#C	Juha Koivisto
+#E	tiok_jk@tac.fi
+#T	+358 31 196111
+#P	PL 87, SF-33211 Tampere, Finland
+#L
+#W	ojala@fuug.fi; Mon Apr 22 13:42:22 1991
+#
+#
+tac.fi	.tac.fi
+tac.fi	fuug.fi(DEDICATED)
+
+#N	tietoraitti.fi
+#S
+#O	Sein{joen Tietoraitti Oy
+#C	Kari Virtanen
+#E	kari@sjoki.uta.fi
+#T	+358 64 177200
+#P	PL 128, SF-60101 Sein{joki, Finland
+#L
+#W	ojala@fuug.fi; Wed Apr 24 21:33:24 1991
+#
+#
+tietoraitti.fi	.tietoraitti.fi
+tietoraitti.fi	=tietoraitti.fi
+tietoraitti.fi	fuug.fi(DEDICATED)
+
+#N	ltnet.fi vertex
+#O	Lujuustekniikka Oy
+#C	Henri Helev{
+#E	vertex@vertex.ltnet.fi
+#T	+358 31 531567
+#P	Tammelan Puistokatu 14-16 A, SF-33100 Tampere, Finland
+#L
+#W	pnr@fuug.fi; Mon Oct 30 17:11:42 1989
+#
+#
+vertex	.ltnet.fi
+vertex	fuug.fi(HOURLY)
+
+#N	incastms
+#O	Inca Systems Oy
+#C	Hannu Lehikoinen
+#E	inca@tolsun.oulu.fi
+#T	+358 81 228 056
+#P	Kirkkokatu 5 B, SF-90100 Oulu, Finland
+#L
+#
+#
+incastms	fuug.fi(HOURLY)
+
+#N	ratol.fi ratol
+#O	Raahen Tietokonealan Oppilaitos
+#C	Jarkko Karppelin
+#E	
+#T	+358 82 31551/419
+#P	PL 82, SF-92101 Raahe, Finland
+#L
+#W	ojala@fuug.fi; Sat Apr 28 19:25:32 EET DST 1990
+#W	ojala@fuug.fi; Sun Nov  4 16:00:12 1990
+#
+#
+ratol	.ratol.fi
+ratol	fuug.fi(HOURLY)
+
+#N	vtold.vtol.fi vtol vtol.fi
+#O	Vaasan Teknillinen Oppilaitos
+#C	Timo Pitk{ranta
+#E	tp@vtold.vtol.fi
+#T	+358 61 263 313
+#P	Wolffintie 30, SF-65200 Vaasa, Finland
+#L
+#W	ojala@fuug.fi; Sun Dec 23 12:50:48 1990
+#
+#
+vtol	.vtol.fi
+vtol	fuug.fi(DEDICATED)
+
+#N	noknic.nokia.fi nokia.fi
+#S	Sun 4/60; SunOS 4.1
+#O	Nokia Head Office
+#C	Kari M{kel{, Isto Behm, Jukka Suikkanen
+#E	postmaster@nokia.fi
+#T	+358 0 5671, +358 49 445577
+#P	PO BOX 117, SF-00211 Helsinki, Finland
+#L
+#W	ojala@fuug.fi; Wed Jan  9 19:27:59 1991
+#
+#
+noknic.nokia.fi	fuug.fi(DEDICATED)
+
+#N	pepper rc.nokia.fi
+#S	Sun 3
+#O	Nokia Research Center
+#C	Pasi Perttula
+#E	perttula@rc.nokia.fi
+#T	+358 0 5673160
+#P	PL 780, SF-00101 Helsinki, Finland
+#L	25 00 E / 60 08 N
+#W	rossi@pepper.rc.nokia.fi; Wed Aug 10 00:00:00 1988
+#W	ojala@fuug.fi; Sat Nov  3 23:19:43 1990
+#
+#
+pepper	.rc.nokia.fi
+pepper	fuug.fi(DEDICATED)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

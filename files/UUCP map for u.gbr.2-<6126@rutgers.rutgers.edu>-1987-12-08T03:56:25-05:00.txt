@@ -1,0 +1,2400 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.gbr.2
+# This archive created: Tue Dec  8 03:56:14 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.gbr.2
+cat << \SHAR_EOF > u.gbr.2
+# u.gbr.2: changes to uknet@ukc.ac.uk
+# UUCP map for the United Kingdom - section [l-z]
+
+#N	latlog
+#S	Whitechapel MG-1; 42nix 2.0 (#7) {4.2BSD derivative}
+#O	Lattice Logic Ltd
+#C	Ian Young
+#E	postmaster@latlog.co.uk
+#T	+44 31 225 3434
+#P	9 Wemyss Place, Edinburgh, EH3 6DH
+#L	03 12 22 W / 55 57 12 N
+#R	A local network is hidden behind the main "latlog" machine.
+#R	This is invisible under normal circumstances but relaying
+#R	can be performed if necessary, either explicitly or by using
+#R	subdomains like uk.co.latlog.bet
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:54:10
+#
+latlog	edee(DAILY/3)
+
+#N	lena
+#S	DEC VAX 11/780; NUXI System V
+#O	Dept of Elec Engineering, Leeds University
+#C	Mike O'Carroll
+#E	postmaster@lena.uucp
+#T	+44 532 431751 x338
+#P	Leeds, LS2 9JT
+#L	01 33 30 W / 53 48 30 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:54:22
+#
+lena	ukc(DAILY/3), kernel(EVENING)
+
+#N	lexhw
+#S	HP500; HPUX 05.11 B
+#O	Lex Logisticon Ltd
+#C	Chris Gallagher
+#E	chris@lexhw.uucp
+#T	+44 494 450401
+#P	Free Press House, Castle Street, High wycombe, Bucks HP13 6RN
+#L	00 55 00 W / 51 37 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:54:39
+#
+lexhw	ukc(DAILY)
+
+#N	lfcs
+#S	SUN 3/50; SUNOS 3.2
+#O	Laboratory for the Foundations of Computer Science, Edinburgh Uni.
+#C	Keith Farvis, Scott Larnach, George Cleland
+#E	keith@itspna.ed.ac.uk, scott@itspna.ed.ac.uk, glc@lfcs.ed.ac.uk
+#T	+44 31 667 1081 x2661, +44 31 667 1081 x2629, +44 31 667 1081 x2987
+#P	King's Buildings, Mayfield Road, Edinburgh, U.K.
+#L	03 10 W / 55 55 N city
+#R	Direct JANET connection (DTE 000015000036).
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:55:08
+#
+lfcs	itspna(DEMAND), ukc(HOURLY)
+# UK domain name
+lfcs = "lfcs.ed.ac.uk"
+
+#N	liv-cs
+#S	CTL Megaframe; CT15X 5.0
+#O	Dept of Computer Science, University of Liverpool
+#C	Martin Beer
+#E	sqmbeer@csvax.liv.ac.uk
+#T	+44 51 709 6022 ext 2967
+#P	P.O.Box 147, Liverpool, L69 3BX
+#L	03 00 00 W / 53 25 00 N
+#R	
+#U	mupsy
+#W	ukc!uknet (Network Administration); 87/12/03 18:55:40
+#
+liv-cs	ukc(HOURLY)
+# UK domain name
+liv-cs = "csvax.liv.ac.uk"
+
+#N	lloydreg
+#S	
+#O	Lloyds Register for Shipping
+#C	Dr Justin Newland
+#E	lloydreg@lloydreg.uucp
+#T	+44 1 709 9166 x2839
+#P	71 Fenchurch St, London EC3
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:56:06
+#
+lloydreg	inset(DAILY/3)
+
+#N	logcam
+#S	High Level Hardware Orion; 4.2 BSD UNIX
+#O	Logica Cambridge Ltd.
+#C	Tim Hoverd
+#E	timh@logcam.uucp
+#T	+44 223 66343 x4807
+#P	Betjeman House, 104 Hills Road, Cambridge, CB2 1LQ
+#L	00 08 00 E / 52 11 00 N
+#R	PSS access only required
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:56:31
+#
+logcam	ukc(EVENING)
+
+#N	logitek
+#S	Altos 3068; Unix 5.2
+#O	Logitek plc.
+#C	Paul Vickers
+#E	paulv@logitek.uucp
+#T	+44 257 426644
+#P	Bradley Lane, Standish, Wigan, Lancashire, WN6 0XQ
+#L	
+#R	
+#U	mucs
+#W	ukc!uknet (Network Administration); 87/12/03 18:57:01
+#
+logitek	inset(DAILY), imtec(DAILY), mucs(DAILY/3), qtlon(DAILY)
+# UK domain name
+logitek = "logitek.co.uk"
+
+#N	lonsqnt
+#S	Sequent Balance 8000
+#O	Sequent Europe Ltd.
+#C	Steve Wanless, David McLeman
+#E	stevew@lonsqnt.uucp
+#T	+44 1 570 2066
+#P	1 Martindale Road, Hounslow, Middlesex, TW4 7EW
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:57:37
+#
+lonsqnt	root44(DAILY), sequent(DEAD)
+
+#N	lse-pims
+#S	SUN3
+#O	Department of  Social Psychology, London School of Economics
+#C	Gerald Leong, Patrick Humphreys, Andy Wells
+#E	pims@lse-pims.uucp, root@lse-pims.uucp
+#T	+44 1 405 7686 x 2752, +44 1 405 7686 x 2699
+#P	Houghton Street, London WC2A 2AE
+#L	
+#R	JNT Camtec ring pads
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:58:07
+#
+lse-pims	qmc-cs(HOURLY)
+lse-pims = phoebus
+
+#N	lsply
+#S	PR1ME 9955 II PRIMOS Rev 20
+#O	Leeds Polytechnic
+#C	Nigel R. Armfield, Jim Jackson
+#E	nigel@leeds-poly.ac.uk, csusjim@leeds-poly.ac.uk
+#T	+44 532 744122
+#P	The Grange,Beckett Park,Leeds LS6 3QS
+#L	
+#R	lsply is a global mail server/relay for Leeds Polytechnic
+#R	211 runs greybook over JANET, no uucp.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:58:29
+#
+lsply	ukc(HOURLY)
+# UK domain name
+lsply = "leeds-poly.ac.uk"
+
+#N	lucifer
+#S	Pyramid 98xe; 4.2BSD UNIX & 5
+#O	Lucas Micos Ltd
+#C	Elaine Burrow
+#E	elaine@lucifer.uucp
+#T	+44 285 67981
+#P	Phoenix Way, Cirencester, Gloucestershire, GL7 1QG
+#L	01 58 00 W / 51 42 30 N
+#R	
+#U	pyrltd
+#W	ukc!uknet (Network Administration); 87/12/03 18:58:42
+#
+lucifer	pyrltd(DAILY)
+
+#N	lut
+#S	Honeywell DPS8-70M; Multics 
+#O	Computer Centre, Loughborough University of Technology
+#C	Rob Thirlby
+#E	rthirlby@multics.lut.ac.uk
+#T	+44 509 222305
+#P	Ashby Road, Loughborough, Leicestershire, LE11 3TU
+#L	01 13 00 W / 52 46 00 N 
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:58:59
+#
+lut	ukc(HOURLY)
+# UK domain name
+lut = "multics.lut.ac.uk"
+
+#N	lutchi
+#S	GEC 4090
+#O	LUTCHI Research Centre, Dept. of Comp. Studies,Loughborough University of Technology
+#C	Steve Guest
+#E	S.Guest@hcirug.lut.ac.uk
+#T	+44 509 222692
+#P	Ashby Road, Loughborough, Leicestershire, LE11 3TU
+#L	01 13 00 W / 52 46 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:59:10
+#
+lutchi	ukc(HOURLY)
+# UK domain name
+lutchi = "hcirug.lut.ac.uk"
+
+#N	m42
+#S	HLH Orion; 4.2BSD UNIX
+#O	School of Mathematics, University of Bath
+#C	Professor John Fitch
+#E	jpff@bond.uucp
+#T	+44 225 626971
+#P	Claverton Down, Bath, Avon, BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:59:24
+#
+m42	bond(DIRECT), xenakis(DIRECT), minerva(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), watt(DIRECT), telford(DIRECT), newcombe(DIRECT)
+	
+
+#N	mara
+#S	HLH orion; 4.2 BSD UNIX
+#O	MARA Ltd
+#C	Robert Hamilton,Chris Miller
+#E	postmaster@mara.uucp, chris@cs.hw.ac.uk
+#T	+44 31 6641032
+#P	284 Gilmerton Road, Edinburgh
+#L	03 11 30 W / 55 56 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:59:36
+#
+mara	hwcs(DAILY/3), hci(DAILY)
+
+#N	mari
+#S	HLH Orion; 4.1BSD UNIX
+#O	Mari Advanced Microelectronics Ltd.
+#C	John.A.Law
+#E	jal@mari.uucp
+#T	+44 091 2722522
+#P	32 Grainger Park Rd., Newcastle upon Tyne, NE4 8RY
+#L	01 36 00 W / 55 00 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:59:54
+#
+mari	sysdes(HOURLY), ukc(DAILY)
+
+#N	matr-a
+#S	Tandem PCAT; UNIX 5.2 from microport
+#O	Matrix Software Development
+#C	Ken Farnen
+#E	ken@matr-a.uucp
+#T	+44 51 737 1915
+#P	50 Chelwood Avenue, Childwall, Liverpool, Liverpool L16 3NW
+#L	
+#R	
+#U	mupsy
+#W	ukc!uknet (Network Administration); 3/12/87
+#
+matr-a	mupsy(DAILY/4)
+
+#N	mcs-2
+#S	Armstrong DSX8; Uniplus+ V.2
+#O	Morton Computer Services
+#C	Les Morton
+#E	les@mcs-2.uucp
+#T	+44 723 376291
+#P	4 Belgrave Crescent, Scarborough, North Yorkshire, YO11 1UB
+#L	00 23 00 W / 54 17 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:00:36
+#
+mcs-2	xisl(WEEKLY/2)
+
+#N	memex
+#S	Gould PowerNode 6040; UTX/32 2.0N
+#O	Memex Information Engines Ltd.
+#C	Scott Williamson
+#E	scott@memex.uucp
+#T	+44 3552 33804
+#P	16 Albion Way, Kelvin Industrial Estate, East Kilbride, G75 0YN.
+#L	04 10 01 W / 55 44 35 N 
+#R	
+#U	glasgow 
+#W	ukc!uknet (Network Administration); 87/12/03 19:00:48
+#
+memex	glasgow(DAILY+HIGH), hwcs(DAILY+LOW)
+# UK domain name
+memex = "memex.co.uk"
+
+#N	mfmail
+#S	Fortune 32:16 ; FOR:PRO 1.7
+#O	Micro Focus Ltd
+#C	Gordon Scott
+#E	gas@mfmail.uucp
+#T	+44 635 32646 x202
+#P	26 West Street, Newbury, Berks, RG13 1JT
+#L	01 19 24 W / 51 24 14 N
+#R	Mail-only front end ; forwards incoming mail automatically
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:01:12
+#
+mfmail	reading(EVENING)
+
+#N	micas
+#S	Sun-3; 4.2BSD UNIX
+#O	Nodecrest Ltd.
+#C	Mr. Jo. Stockley.
+#E	jvs@micas.uucp
+#T	+44 09323 40555
+#P	Unit A, Sprint Industrial Estate, Chertsey Road, Byfleet,Surrey KT14 7BD
+#L	00 33 30 W / 51 20 56 N
+#R	
+#U	ist
+#W	ukc!uknet (Network Administration); 87/12/03 19:01:50
+#
+micas	ist(HOURLY)
+
+#N	miduet
+#S	DEC VAX 11/750; 4.3BSD UNIX
+#O	ATE Div., Marconi Instruments Ltd.
+#C	Steve Lademann
+#E	system_manager@miduet.uucp
+#T	+44 727 59292 x326
+#P	Longacres, St. Albans, Herts, AL4 0JN
+#L	00 19 00 W / 51 45 00 N
+#R	There is a large Ethernet based LAN at this site running TCP/IP and
+#R	DECnet protocols, miduet being the uucp gateway. Actual machines
+#R	on Ethernet vary daily. Can only guarantee miduet!
+#U	root44
+#W	ukc!uknet (Network Administration); 87/12/03 19:02:17
+#
+miduet	hrc63(DEMAND), root44(DEMAND) 
+
+#N	minerva
+#S	HP Bobcat (68020) UX-HP
+#O	School of Mathematics, University of Bath
+#C	Julian Padget
+#E	jap@bond.uucp
+#T	+44 225 826971
+#P	Claverton Down, Bath, Avon BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:02:31
+#
+minerva	bond(DIRECT), xenakis(DIRECT), m42(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), watt(DIRECT), telford(DIRECT), newcombe(DIRECT)
+
+#N	minim
+#S	DEC VAX 11/750; 4.2BSD UNIX
+#O	Computation Department, UMIST.
+#C	Dr Ritchings
+#E	rtr@va.co.umist.ac.uk
+#T	+44 61 236 3311 x2179
+#P	Sackville St, Manchester, M60 1QD
+#L	2 14 00 W / 53 28 00 N 
+#R	All mail is relayed by umist.cn.pa. There should
+#R	really be a umist.co site.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:02:52
+#
+minim	ukc(DAILY)
+# UK domain name
+minim = "va.co.umist.ac.uk"
+
+#N	minster
+#S	DEC VAX-11/780; Yorvics 1986 (7th Edition UNIX+Streams)
+#O	Department of Computer Science, University of York
+#C	C H Forsyth
+#E	forsyth@minster.york.ac.uk, usenet@minster.york.ac.uk
+#T	+44 904 430000 x5598
+#P	Heslington, York, YO1 5DD
+#L	1 03 00 W / 53 56 50 N
+#R	
+#U	reading 
+#W	ukc!uknet (Network Administration); 87/12/03 19:03:05
+#
+minster	sysdes(DEAD), reading(DAILY*2) 
+# UK domain name
+minster = "minster.york.ac.uk"
+
+#N	moncam
+#S	DEC PDP 11/44; v7
+#O	Monotype International ADG
+#C	Dave Allen, Harry Fearnhamm, Paul Hudson, Lewis Tsao
+#E	dave@moncam.uucp
+#T	+44 223 64018
+#P	Science Park, Milton Road, Cambridge, CB4 4FQ
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 3/12/87
+#
+moncam	acorn(HOURLY*3)
+
+#N	moses
+#S	Pyramid 90XE; OSx(3.1) System V and Berkeley 4.2
+#O	DHL Business Systems Division (UK) Ltd.
+#C	Dennis Callaghan, Mike Gallagher
+#E	dcallagh@moses.uucp
+#T	+44 1 890 7700 x214
+#P	Orbital Park, 178-188 Gt South West Road, Hounslow, Middlesex, TW4 6JS
+#L	00 26 00 E / 51 27 00 N
+#R	
+#U	pyrltd
+#W	ukc!uknet (Network Administration); 87/12/03 19:03:31
+#
+moses	pyrltd(DAILY/5)
+
+#N	mrc-apu
+#S	SUN 3/160; SunOS 3.2
+#O	MRC Applied Psychology Unit
+#C	Steve Platt
+#E	postmaster@mrc-apu.cam.ac.uk
+#T	+44 223 355294 x114
+#P	15 Chaucer Road, Cambridge CB2 2EF
+#L	00 07 15 E / 52 11 32 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:03:47
+#
+mrc-apu	ukc(HOURLY)
+# UK domain name
+mrc-apu = "mrc-apu.cam.ac.uk"
+
+#N	mrca
+#S	GEC 4190; OS4000 Release 4.13
+#O	GEC Research, Marconi Research Centre
+#C	Trevor Wright
+#E	postmaster@a.gec-mrc.co.uk, yc23@a.gec-mrc.co.uk
+#T	+44 245 73331 x3224
+#P	West Hanningfield Road, Great Baddow, Chelmsford, Essex CM2 8HN
+#L	000 30 E / 51 42 N
+#R	Gateway mail machine.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:04:06
+#
+mrca	ukc(HOURLY)
+# UK domain name
+mrca = "a.gec-mrc.co.uk"
+
+#N	mrcvax
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Clinical & Population Cytogenetics Unit, Medical Research Council
+#C	John Ireland
+#E	ireland@mrcvax.ed.ac.uk
+#T	+44 31 332 2471
+#P	Western General Hospital, Crewe Road, Edinburgh
+#L	03 13 W / 55 57 N city
+#R	Directly connected to JANET DTE 000015000037
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:04:28
+#
+mrcvax	ukc(HOURLY)
+# UK domain name
+mrcvax = "mrcvax.ed.ac.uk"
+
+#N	mucgu
+#S	Vax 11/750; VMS 4.4
+#O	Computer Graphics Unit, Dept Computer Science, Manchester University
+#C	Terry Hewitt
+#E	hewitt@cgu.cs.man.ac.uk
+#T	+44 61 273 7121 Ext 5404
+#P	Oxford Road, Manchester M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	Mail for general people in Computer Science should be sent to
+#R	uk.ac.man.cs.ux which will forward as necessary, only sent
+#R	mail to man.cs.cgu if you know that the recipient lives on 
+#R	that machine.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:04:43
+#
+mucgu	mucs(HOURLY), ukc(HOURLY)
+# UK domain name
+mucgu = "cgu.cs.man.ac.uk"
+
+#N	mucs
+#S	DEC VAX-8600 VAX-11/750; 4.3BSD UNIX
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	root@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Oxford Road, Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	mupsy
+#W	ukc!uknet (Network Administration); 87/12/03 19:05:12
+#
+mucs	anduk(HOURLY), logitek(DAILY/3), mucgu(HOURLY), mupsy(HOURLY),
+	ukc(HOURLY)
+# UK domain name
+mucs = "ux.cs.man.ac.uk"
+
+#N	muee
+#S	DEC VAX 11/750; VMS 4.2
+#O	Department of Electrical Engineering, University of Manchester.
+#C	Ernie Hill
+#E	CADMAN@v1.ee.man.ac.uk
+#T	+44 61 273 7121 x5121
+#P	Manchester, M13 9PL.
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:05:50
+#
+muee	ukc(HOURLY)
+# UK domain name
+muee = "v1.ee.man.ac.uk"
+
+#N	mupsy
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Department of Psychology, University of Manchester
+#C	Nick Hidden
+#E	nick@mupsy.uucp
+#T	+44 61 273 7121 x5529
+#P	Oxford Road, Manchester M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	liv-cs matr-a mucs ukc
+#W	ukc!uknet (Network Administration); 87/12/03 19:06:19
+#
+mupsy	edcaad(WEEKLY/5), matr-a(DAILY/4), mucs(HOURLY), newi(DAILY/4),
+	ukc(HOURLY)
+# UK domain name
+mupsy = "psy.man.ac.uk"
+
+#N	mur1
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:06:43
+#
+mur1	mur2(LOCAL), mur3(LOCAL), mur4(LOCAL), mur5(LOCAL), mur6(LOCAL), ukc(HOURLY)
+# UK domain name
+mur1 = "r1.cs.man.ac.uk"
+
+#N	mur2
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:07:07
+#
+mur2	ukc(HOURLY), mur1(LOCAL)
+# UK domain name
+mur2 = "r2.cs.man.ac.uk"
+
+#N	mur3
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:07:22
+#
+mur3	ukc(HOURLY), mur1(LOCAL)
+# UK domain name
+mur3 = "r3.cs.man.ac.uk"
+
+#N	mur4
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:07:42
+#
+mur4	ukc(HOURLY), mur1(LOCAL)
+# UK domain name
+mur4 = "r4.cs.man.ac.uk"
+
+#N	mur5
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:07:56
+#
+mur5	ukc(HOURLY), mur1(LOCAL)
+# UK domain name
+mur5 = "r5.cs.man.ac.uk"
+
+#N	mur6
+#S	Sun 3 ; Sun OS 3.2 / BSD4.2
+#O	Dept of Computer Science, University of Manchester
+#C	Aidan Loyns
+#E	aloyns@ux.cs.man.ac.uk
+#T	+44 61 273 7121 x5546
+#P	Manchester, M13 9PL
+#L	02 14 00 W / 53 29 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 19:08:13
+#
+mur6	ukc(HOURLY), mur1(LOCAL)
+# UK domain name
+mur6 = "r6.cs.man.ac.uk"
+
+#N	newcombe
+#S	SUN 3; 4.2 BSD UNIX
+#O	School of Mathematics, University of Bath
+#C	Professor James Davenport
+#E	jhd@bond.uucp
+#T	+44 225 826181
+#P	Claverton Down, Bath, Avon BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:11:05
+#
+newcombe	bond(DIRECT), xenakis(DIRECT), m42(DIRECT), minerva(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), watt(DIRECT), telford(DIRECT)
+
+#N	newi
+#S	PCS-Cadmus 9230V; MUNIX V.2/03
+#O	North East Wales Institute of Higher Education
+#C	Kim Birkhead
+#E	kim@newi.uucp
+#T	+44 978 290390 x325
+#P	Cartrefle College, Cefn Road, Wrexham, Clwyd, LL13 9NL
+#L	02 58 00 W / 53 03 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:11:56
+#
+newi	mupsy(DAILY/2)
+
+#N	norsk
+#S	
+#O	Norsk Data Ltd
+#C	Mike Bayliss, Aarron Gull(8/6/87)
+#E	postmaster@norsk.uucp
+#T	+44 635 35544
+#P	Benham Valence, Newbury, Berkshire RG16 8LU
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:12:17
+#
+norsk	inset(DAILY/3)
+
+#N	nott-cs
+#S	DEC VAX11-750, DEC PDP11;4.2BSD UNIX, V7 UNIX
+#O	Computer Science, Nottingham University
+#C	William Armitage
+#E	wja@cs.nott.ac.uk
+#T	+44 602 506101 x3648
+#P	University Park, Nottingham NG7 2RD
+#L	01 11 00 W / 52 56 00 N
+#R	
+#U	dcl-cs ucl-cs
+#W	ukc!uknet (Network Administration); 87/12/03 18:12:45
+#
+nott-cs	ukc(DAILY), trent-doc(DAILY/2), smb(DAILY)
+# UK domain name
+nott-cs = "cs.nott.ac.uk"
+
+#N	nplcsu
+#S	Tadpole Leonardo ; Uniplus+ Sys V.0
+#O	Computing Services Unit, NPL
+#C	Martin Kiff
+#E	mgk@nplcsu.uucp
+#T	+44 1 943 6501, +44 1 977 3222
+#P	Division of Information Technology and Computing,Teddington, Middx TW11 0LW
+#L	00 20 00 W / 51 25 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:13:15
+#
+nplcsu	nplpsg(LOCAL), nplseg(LOCAL)
+
+#N	nplpsg
+#S	SUN 3/160m; Sun UNIX 4.2BSD 3.0
+#O	Protocol Standards Group, NPL
+#C	John Pavel, Adrian McKie
+#E	jrp@psg.npl.co.uk, aam@psg.npl.co.uk
+#T	+44 1 943 7035, +44 1 943 7032
+#P	Division of Information Technology and Computing,Teddington, Middx TW11 0LW
+#L	00 20 00 W / 51 25 00 N
+#R	
+#U	icdoc
+#W	ukc!uknet (Network Administration); 87/12/03 18:13:39
+#
+nplpsg	icdoc(HOURLY/2), nplcsu(LOCAL), nplseg(LOCAL), ukc(DEMAND)
+# UK domain name
+nplpsg = "psg.npl.co.uk"
+
+#N	nplseg
+#S	Sun 3; UNIX 4.2BSD
+#O	Software Engineering Group, NPL
+#C	Graeme Parkin, Nick North
+#E	pppvs@nplseg.uucp
+#T	+44 1 943 7006, +44 1 943 6494, +44 1 977 3222
+#P	Division of Information Technology and Computing,Teddington, Middlesex TW11 0LW
+#L	00 20 00 W / 51 25 00
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:14:08
+#
+nplseg	nplpsg(LOCAL), nplcsu(LOCAL)
+
+#N	olgb1
+#S	Olivetti/AT&T 3b2/400; SVR3.1
+#O	AT&T Computer Division, British Olivetti Ltd.
+#C	Tony Walton
+#E	olapw@olgb1.uucp
+#T	+44 1 789 6699
+#P	Wellington House, 154-160 Upper Richmond Road, London, SW15 2FN
+#L	00 12 00 W / 51 27 30 N
+#R	Gateway into the U.K. Sales/Support operation for 3b's.
+#R	LINKS TO FOREIGN REGISTERED UUCP SITES:
+#R	=======================================
+#R	ambush	Denmark		Ambrasoft
+#R	cuuxb	Illinois,USA	ATT Information Systems
+#R	iconet	Italy		I.C. Olivetti
+#R	ltuxa	Illinois,USA	ATT Lisle (LT)
+#R	nwuxd	Illinois,USA	ATT Network Software Centre
+#R	olcha	Switzerland	Olivetti
+#R	oldk1	Denmark		Olivetti
+#R	olhqma	Italy		Olivetti HQ Marketting
+#R	olnl1	Netherlands	Olivetti
+#U	ist uel
+#W	ukc!uknet (Network Administration); 87/12/03 18:14:25
+#
+olgb1	ambush(DAILY), cuuxb(DEAD), iconet(DAILY), ist(DAILY), ltuxa(DEAD),
+	nwuxd(DEAD), olcha(DAILY), oldk1(DAILY), olhqma(DAILY),
+	olnl1(DAILY), riddle(DAILY/2), uel(DEMAND)
+
+#N	ouacs
+#S	DEC VAX Cluster (2*8800,11/785); VMS V4.5
+#O	Academic Computing Service, Open University
+#C	Ian Macdonald
+#E	postmaster@vax.acs.open.ac.uk
+#T	+44 908 653684
+#P	Walton Hall, Milton Keynes, MK7 6AA
+#L	00 42 35 W / 52 01 30 N
+#R	ukc used as Grey Book Mailer to/from UUCP gateway
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:14:50
+#
+ouacs	ukc(HOURLY)
+# UK domain name
+ouacs = "acsvax.ou.ac.uk"
+
+#N	ox-prg
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Programming Research Group, Oxford University Computing Laboratory
+#C	Jonathan Bowen, Malcolm Harper
+#E	bowen@prg.ox.ac.uk, mkh@prg.ox.ac.uk
+#T	+44 865 54141
+#P	8-11 Keble Road, Oxford OX1 3QD
+#L	01 15 26 W / 51 45 32 N
+#R	Direct JANET connection (DTE 000050250300).
+#U	icdoc 
+#W	ukc!uknet (Network Administration); 87/12/03 18:15:23
+#
+ox-prg	oxcnvx(LOCAL), ukc(HOURLY)
+ox-prg = prgv
+# UK domain name
+ox-prg = "prg.oxford.ac.uk"
+
+#N	oxcnvx
+#S	Convex XP2; Convex unix 6 (4.2-based)
+#O	Computing Service, Oxford University
+#C	Charles Curran, Dave Rischmiller
+#E	postmaster@oxcnvx.uucp, charles@oxcnvx.uucp
+#T	+44 865 273269
+#P	13 Banbury Road, OXFORD, OX2 6NN
+#L	01 15 W / 51 45 N  city 
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:15:54
+#
+oxcnvx	ox-prg(LOCAL)
+
+#N	oxphv1
+#S	VAX 8700, VMS 4.5
+#O	Nuclear Physics Laboratory
+#C	John Macallister
+#E	macallstr@v1.ph.ox.ac.uk
+#T	+44-865-273388
+#P	Keble Road, Oxford OX1 3RH
+#L	01 15 40 W / 51 45 40 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/04 15:50:27
+#
+oxphv1	ukc(HOURLY)
+# UK domain name
+oxphv1 = "v1.ph.ox.ac.uk"
+
+#N	paisley
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Maths and Computing Dept, Paisley College of Technology
+#C	Robert Hamilton
+#E	root@cs.paisley.ac.uk
+#T	+44 41 887 1241 x219
+#P	High Street, Paisley, Scotland
+#L	
+#R	JANET only site (NO UUCP)
+#U	its63b strath-cs
+#W	ukc!uknet (Network Administration); 87/12/03 18:16:12
+#
+paisley	ukc(HOURLY)
+# UK domain name
+paisley = "cs.paisley.ac.uk"
+
+#N	pcl-badger
+#S	VAX 11/750; BSD UNIX 4.3
+#O	Computer Services, The Polytechnic of Central London
+#C	Chris Maslen
+#E	chrism@stoat.pcl.ac.uk
+#T	+44 1 486 5811 x6404
+#P	115 New Cavendish St, London, W1M 8JS
+#L	00 08 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:16:27
+#
+pcl-badger	ukc(HOURLY)
+# UK domain name
+pcl-badger = "badger.pcl.ac.uk"
+
+#N	pcl-lynx
+#S	SUN 3/160-8; SUN UNIX 4.2
+#O	Computer Services, The Polytechnic of Central London
+#C	Ben Anrep
+#E	ben@lynx.pcl.ac.uk
+#T	+44 1 486 5811 x6404
+#P	115 New Cavendish St, London, W1M 8JS
+#L	00 08 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:16:39
+#
+pcl-lynx	ukc(HOURLY)
+# UK domain name
+pcl-lynx = "lynx.pcl.ac.uk"
+
+#N	pcl-mole
+#S	VAX 8600; VMS 4.5
+#O	Computer Services, The Polytechnic of Central London
+#C	Chris Maslen
+#E	chrism@stoat.pcl.ac.uk
+#T	+44 1 486 5811 x6404
+#P	115 New Cavendish St, London, W1M 8JS
+#L	00 08 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:16:57
+#
+pcl-mole	ukc(HOURLY)
+# UK domain name
+pcl-mole = "mole.pcl.ac.uk"
+
+#N	pcl-otter
+#S	MICROVAX II; 4.4 VMS
+#O	Computer Services, The Polytechnic of Central London
+#C	Chris Maslen
+#E	chrism@stoat.pcl.ac.uk
+#T	+44 1 486 5811 x6404
+#P	115 New Cavendish St, London, W1M 8JS
+#L	00 08 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:17:17
+#
+pcl-otter	ukc(HOURLY)
+# UK domain name
+pcl-otter = "otter.pcl.ac.uk"
+
+#N	pcl-stoat
+#S	MICROVAX II; 4.4 VMS
+#O	Computer Services, The Polytechnic of Central London
+#C	Chris Maslen
+#E	chrism@stoat.pcl.ac.uk
+#T	+44 1 486 5811 x6404
+#P	115 New Cavendish St, London, W1M 8JS
+#L	00 08 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:17:37
+#
+pcl-stoat	ukc(HOURLY)
+# UK domain name
+pcl-stoat = "stoat.pcl.ac.uk"
+
+#N	phcomp
+#S	Torch XXX; System V UniPlus+
+#O	Parliament Hill Computers
+#C	Alain Williams
+#E	addw@phcomp.uucp
+#T	+44 1 435 0200
+#P	3 Parliament Court, Parliament Hill, London NW3 2TS
+#L	00 09 15 W / 51 33 13 N
+#R	Connectivity depends entirely an me being there to start it,
+#R	ie if I am away a week -no connection all week.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:17:58
+#
+phcomp	root44(DAILY), inset(DAILY), xisl(WEEKLY)
+
+#N	pmllab
+#S	PLESSEY 68/190; UniPlus+ System V
+#O	Plessey Microsystems Ltd.
+#C	Peter Cameron
+#E	pjc@pml.plessey.co.uk
+#T	+44 327 50312 x2227
+#P	Water Lane, Towcester, Northants, NN12 7JN
+#L	00 59 00 W / 52 08 00 N
+#R	
+#U	root44
+#W	ukc!uknet (Network Administration); 87/12/03 18:18:15
+#
+pmllab	root44(DAILY)
+
+#N	pmlmdb
+#S	PLESSEY Mantra 200; UniPlus+ System V
+#O	Plessey Microsystems Ltd.
+#C	Carol Cameron
+#E	carol@pmlmdb.plessey.co.uk
+#T	+44 327 50312 x2272
+#P	Water Lane, Towcester, Northants, NN12 7JN
+#L	00 59 00 W / 52 08 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:18:49
+#
+pmlmdb	pmllab(HOURLY)
+
+#N	por-ee
+#S	VAX 11/750
+#O	Dept of Electrical & Electronic Engineering, Portsmouth Poly
+#C	Prof Jan P. Stuart
+#E	stuartjp@cv.port.ac.uk
+#T	+44 705 751741
+#P	Anglesey Road, Portsmouth, P01 3DJ
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:19:13
+#
+por-ee	ukc(HOURLY)
+# UK domain name
+por-ee = "cv.port.ac.uk"
+
+#N	praxis
+#S	DEC MicroVax II; Ultrix-32m 1.2
+#O	Praxis Systems plc
+#C	Tim Rylance
+#E	tkr@praxis.uucp
+#T	+44 225 335855
+#P	20 Manvers Street, BATH, BA1 1PX
+#L	02 21 15 W / 51 22 40 N
+#R	
+#U	stc 
+#W	ukc!uknet (Network Administration); 87/12/03 18:19:44
+#
+praxis	iclman(DAILY), aber-cs(DAILY), stc(DAILY) 
+
+#N	prlhp1
+#S	HP 9000 model 350; HPUX
+#O	Philips Research Laboratories
+#C	Dr David Spencer
+#E	spencer@hp1.prl.philips.co.uk
+#T	+44 293 785544
+#P	Redhill, RH1 5HA
+#L	00 10 00 W / 51 11 00 N
+#R	
+#U	ukc
+#W	ukc!uknet (Network Administration); 87/12/03 18:20:09
+#
+prlhp1	ukc(DAILY)
+# UK domain name
+prlhp1 = "hp1.prl.philips.co.uk"
+
+#N	prlvax4
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Philips Research Laboratories
+#C	Dr David Spencer
+#E	spencer@hp1.prl.philips.co.uk
+#T	+44 293 785544
+#P	Redhill, RH1 5HA
+#L	00 10 00 W / 51 11 00 N
+#R	
+#U	ukc
+#W	ukc!uknet (Network Administration); 87/12/03 18:20:32
+#
+prlvax4	ukc(DAILY), prlb2(DEAD), phifo(DEAD) 
+# UK domain name
+prlvax4 = "vax4.prl.philips.co.uk"
+
+#N	pyrltd
+#S	Pyramid90x; 4.2BSD/System V UNIX
+#O	Pyramid Techology Ltd
+#C	Brian Clark, Richard Morgan
+#E	bejc@pyrltd.uucp, rpm@pyrltd.uucp
+#T	+44 252 373035
+#P	Concept 2000, 250 Farnborough Road, Farnborough,Hants,GU147NA
+#L	
+#R	
+#U	datcon logica lucifer moses ttl ukc
+#W	ukc!uknet (Network Administration); 87/12/03 18:21:09
+#
+pyrltd	datcon(DAILY/4), ist(DAILY/2), lucifer(DAILY), moses(DAILY/4),
+	scol(DAILY/4), slxsys(DAILY/4), ttl(DAILY/4), uguk(DAILY/4),
+	ukc(DAILY/4)
+pyrltd = pyritd
+
+#N	qmc-cs
+#S	Sequent Balance 21000, DEC VAX-11/750; 4.2BSD UNIX.
+#O	Computer Science Dept, Queen Mary College, University of London
+#C	Martin Jones
+#E	martin@cs.qmc.ac.uk
+#T	+44 1 980 4811 x3950
+#P	Mile End Road, London E1 4NS
+#L	00 00 01 W / 51 31 31 N
+#R	
+#U	icdoc qmc-ee
+#W	ukc!uknet (Network Administration); 87/12/03 17:15:01
+#
+qmc-cs	lse-pims(HOURLY), qmc-ee(HOURLY), qmc-ms(HOURLY), ukc(HOURLY),
+	wcwvax(DAILY/2)
+# UK domain name
+qmc-cs = "cs.qmc.ac.uk"
+
+#N	qmc-ee
+#S	Sun-2
+#O	Dept. of Electrical Engineering, Queen Mary College
+#C	Flash Sheridan, Dominic Pang
+#E	postmaster@qmc-ee.uucp
+#T	+44 1 980 4811 ext 4340
+#P	Mile End Road, LONDON, E1 4NS
+#L	00 00 02 W / 51 31 30 N
+#R	
+#U	qmc-cs
+#W	ukc!uknet (Network Administration); 87/12/03 17:16:20
+#
+qmc-ee	qmc-cs (HOURLY)
+
+#N	qmc-ms
+#S	High Level Hardware Orion; BSD4.2 Unix (OTS 2.1)
+#O	School of Mathematical Sciences, Queen Mary College
+#C	Malcolm MacCallum, Francis Wright, Andrew Tworkowski
+#E	postmaster@maths.qmc.ac.uk
+#T	+44 1 980 4811
+#P	Mile End Road, LONDON, E1 4NS
+#L	00 00 02 W / 51 31 30 N
+#R	bond is not the only machine with a Professor as manager.
+#R	We have a local ethernet but subdomains are transparent to mail
+#R	from outside, i.e. we run as a multi-host site
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:17:00
+#
+qmc-ms	bond(DAILY/4), hlh(DAILY/4), kcl-cs(DAILY/4), qmc-cs(HOURLY),
+	sot-maori(HOURLY)
+qmc-ms = qmc-ori
+# UK domain name
+qmc-ms = "maths.qmc.ac.uk"
+
+#N	qtlon
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Quantime Ltd.
+#C	Brian Atkinson
+#E	brian@qtlon.uucp
+#T	+44 1 637 7061
+#P	17 Bedford Square, London, WC1B 3JA
+#L	
+#R	
+#U	ist wcwvax
+#W	ukc!uknet (Network Administration); 87/12/03 17:17:34
+#
+qtlon	ist(WEEKLY), ukc(HOURLY), wcwvax(EVENING)
+# UK domain name
+qtlon = "quantime.co.uk"
+
+#N	reading
+#S	DEC PDP-11/44; Unix v7, DEC PDP-11/45; Unix v7, DEC VAX-11/750; 4.2BSD  UNIX, Amdahl V7; CMS + UTS v2.4 + UTS/V
+#O	University of Reading
+#C	Elaine Charlson
+#E	E.M.Charlson@reading.ac.uk
+#T	+44 734 875123 x7879, +44 734 755862
+#P	Dept. of Computer Science, Whiteknights, Reading, RG6 2AX
+#L	
+#R	Access to local machines may now be achieved by the use of fullnames
+#R	(name@reading) although not all Amdahl users are registered as yet
+#R	and so the Amdahl must still be explicitly specified.
+#U	brueer cf-cm cybavax hatfield minster riddle ukc
+#W	ukc!uknet (Network Administration); 87/12/03 17:19:16
+#
+reading	brueer(DAILY/6), calibre(DAILY), cybavax(DEMAND), hatfield(DAILY/6),
+	iclbra(DAILY/2), mfmail(EVENING), minster(DAILY), riddle(DAILY/2),
+	siesoft(HOURLY*4), trevan(DAILY*4), ukc(DAILY/6), uoseev(HOURLY)
+# UK domain name
+reading = "reading.ac.uk"
+
+#N	rgoa
+#S	VAX 11/750 ; VMS 4.5
+#O	Royal Greenwich Observatory
+#C	Ralph Martin
+#E	system@ro-greenwich.ac.uk
+#T	+44 323 833171
+#P	Herstmonceux, East Sussex BN27 1RP
+#L	00 20 30 E / 50 52 20 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:20:32
+#
+rgoa	ukc(HOURLY)
+# UK domain name
+rgoa = "ro-greenwich.ac.uk"
+
+#N	rgos
+#S	VAX 11/780; VMS 4.5
+#O	Royal Greenwich Observatory
+#C	Chris Benn, Ralph Martin
+#E	crb@starlink.ro-greenwich.ac.uk, SYSTEM@starlink.ro-greenwich.ac.uk
+#T	+44 323 833 171
+#P	Herstmonceux, East Sussex BN27 1RP
+#L	00 20 30 E /50 52 20 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:21:34
+#
+rgos	ukc(HOURLY)
+# UK domain name
+rgos = "starlink.ro-greenwich.ac.uk"
+
+#N	riddle
+#S	Olivetti/AT&T 3B2/400; UNIX 5.2.0.4
+#O	Sphinx Ltd. (Maidenhead)
+#C	Jonathan Leffler, Dominic Dunlop
+#E	jonathanl@sphinx.co.uk, domo@sphinx.co.uk
+#T	+44 628 75343
+#P	43-53 Moorbridge Road, Maidenhead, BERKS, SL6 8PL
+#L	00 42 45 W / 51 31 15 N
+#R	There is a LAN at this site, but it's hidden from the outside world
+#R	Name does not match NRS-Name, as the name sphinx has been taken by
+#R	University of Chicago
+#U	reading
+#W	ukc!uknet (Network Administration); 87/12/03 17:22:11
+#
+riddle	reading(DAILY/2), olgb1(DAILY/2), inset(DAILY)
+# UK domain name
+riddle = "sphinx.co.uk"
+
+#N	rigg
+#S	Aspect Microvax II; operating system release
+#O	Computing Laboratory, The University
+#C	Jim Wight
+#E	ann@cushat.ncl.ac.uk, jkw@cushat.ncl.ac.uk
+#T	+44 91 232 9233 x290, Ann(x288)
+#P	Newcastle upon Tyne, NE1 7RU
+#L	available from 1:50000 OS map
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:22:46
+#
+rigg	ukc(HOURLY)
+# UK domain name
+rigg = "rigg.ncl.ac.uk"
+
+#N	ritd
+#S	SUN 2; Sun UNIX 4.2BSD
+#O	RACAL IMAGING SYSTEMS Ltd
+#C	Neil Pike, Martin Reed
+#E	np@ritd.uucp, mr@ritd.uucp, root@ritd.uucp
+#T	+44 252 622144 x305
+#P	Richmond Court, 309 Fleet Road, Fleet, Hants, GU13 8BU
+#L	00 50 00 W / 51 17 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:23:23
+#
+ritd	sysdes(DAILY/2)
+
+#N	rlde
+#S	DEC VAX 8600; VMS 4.5
+#O	Neutron Division, Rutherford Appleton Laboratory
+#C	W. C. A. Pulford
+#E	comms@dec-e.rutherford.ac.uk
+#T	+44 235 21900 x6544
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	JANET connected site
+#R	DO NOT USE SHORT FORM NRS AS MAIL TO ".de" WILL BE SENT TO GERMANY !
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:23:50
+#
+rlde	ukc(HOURLY)
+# UK domain name
+rlde = "dec-e.rutherford.ac.uk"
+
+#N	rlgb
+#S	GEC 4090; operating-system release		<-*****
+#O	Rutherford Appleton Laboratory
+#C	Shirley Wood, Jim Craigie
+#E	NTIN36@gb.rl.ac.uk
+#T	+44 235 44 6389
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 15 00 W / 51 35 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:24:34
+#
+rlgb	ukc(HOURLY)
+# UK domain name
+rlgb = "gb.rl.ac.uk"
+
+#N	rlgm
+#S	GEC 4190; OS400+Rlix Release 4.1
+#O	Rutherford Appleton Laboratory
+#C	Shirley Wood
+#E	postmaster@gm.rl.ac.uk
+#T	+44 235 44 6389
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 15 00 W / 51 35 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:25:34
+#
+rlgm	ukc(HOURLY), rlvd(DEMAND)
+# UK domain name
+rlgm = "gm.rl.ac.uk"
+
+#N	rlibmb
+#S	IBM 3081K; 4.14 VM/SP CMS
+#O	RARE (c/o JNT at Rutherford Appleton Laboratory)
+#C	James Hutton
+#E	jsh@ib.rl.ac.uk
+#T	+44 235 44 6324
+#P	c/o JNT, Rutherford Appleton Laboratory, Didcot, Oxfordshire OX11 0QX
+#L	01 15 00 W / 51 35 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:26:29
+#
+rlibmb	ukc(HOURLY)
+# UK domain name
+rlibmb = "ib.rl.ac.uk"
+
+#N	rlpooh
+#S	DEC VAX 11/750; ULTRIX-32 1.2
+#O	Rutherford Appleton Laboratory
+#C	Eric Thomas
+#E	ret@ib.rl.ac.uk
+#T	+44 235 21900
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:27:15
+#
+rlpooh	rlvd(DIRECT)
+
+#N	rlpyr-a
+#S	Pyramid 98x OSx 4.0 (4.2BSD/SV)
+#O	Rutherford Appleton Laboratory
+#C	Ines Vollmer
+#E	ines@vd.rl.ac.uk
+#T	+44 235 446190
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:27:54
+#
+rlpyr-a	rlvd(DIRECT)
+# UK domain name
+rlpyr-a = "pyr-a.rl.ac.uk"
+
+#N	rlvc
+#S	DEC VAX 11/750; 4.2BSD UNIX
+#O	Rutherford Appleton Laboratory
+#C	Ines Vollmer
+#E	ines@vd.rl.ac.uk
+#T	+44 235 446190
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:28:29
+#
+rlvc	rlvd(DIRECT)
+# UK domain name
+rlvc = "vc.rl.ac.uk"
+
+#N	rlvd
+#S	Systime VAX 8750; 4.2BSD UNIX
+#O	Rutherford Appleton Laboratory
+#C	Ines Vollmer
+#E	ines@vd.rl.ac.uk
+#T	+44 235 446190
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	
+#U	warwick
+#W	ukc!uknet (Network Administration); 87/12/03 17:29:31
+#
+rlvd	warwick(DEMAND), hplb(DAILY), icdoc(DEMAND), rlvc(DIRECT),
+	rlpyr-a(DIRECT), rlvf(DIRECT), rlpooh(DIRECT), ukc(HOURLY)
+# UK domain name
+rlvd = "vd.rl.ac.uk"
+
+#N	rlvf
+#S	Systime VAX 8750; 4.2BSD UNIX
+#O	Rutherford Appleton Laboratory
+#C	Eric Thomas
+#E	ret@ib.rl.ac.uk
+#T	+44 235 446555
+#P	Didcot, Oxfordshire, OX11 0QX
+#L	01 17 00 W / 51 41 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:30:46
+#
+rlvf	rlvd(DIRECT)
+# UK domain name
+rlvf = "vf.rl.ac.uk"
+
+#N	root44
+#S	Sequent Balance 21000; 4.2BSD
+#O	ROOT Computers Ltd.
+#C	Nigel Horne
+#E	njh@root.co.uk
+#T	+44 1 606 7799
+#P	3 Hayne Street, London, EC1A 9HH
+#L	
+#R	
+#R	jusoft		Japan		jusoft.junet
+#R	unimuc		W. Germany	unimuc.de
+#R	unisoft		USA		unisoft.uucp
+#R	hrc63		UK		gec-rl-hrc.co.uk
+#U	hrc63 miduet pmllab stc
+#W	ukc!uknet (Network Administration); 87/12/03 17:31:43
+#
+root44	auslon(DAILY/2), chaser(DAILY), edai(DAILY), glasgow(DAILY),
+	hrc63(DAILY), ist(DAILY), jusoft(DAILY/2), lonsqnt(DAILY),
+	miduet(DEMAND), phcomp(DAILY), pmllab(DAILY), qmc-cs(DAILY),
+	sequent(DAILY), stc(DEMAND), uel(DAILY), ukc(DEMAND),
+	unimuc(DEMAND), unisoft(DAILY/2), xisl(DAILY)
+# UK domain name
+root44 = "root.co.uk"
+
+#N	scicon
+#S	
+#O	Scicon Ltd.
+#C	Philip Rooke
+#E	phil@scicon.uucp
+#T	+44 1 580 5599 x2720
+#P	49 Berners Street, London, W1P 4AQ
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 3/12/87
+#
+scicon	ukc(DAILY/4)
+
+#N	scol
+#S	Wyse 286/AT, SCO XENIX System V, Release 2.2.1
+#O	The Santa Cruz Operation Limited
+#C	Richard Hughes-Rowlands, Michael Stephen
+#E	richard@scol.uucp, michaels@scol.uucp
+#T	+44 1 439 2911
+#P	PO Box 4YN, 18 Noel Street, London W1A 4YN
+#L	
+#R	Front end for network of XEXIX 286/386 machines.
+#U	pyrltd
+#W	ukc!uknet (Network Administration); 87/12/03 17:34:30
+#
+scol	jsb(DAILY/7), pyrltd(DAILY/4), slxsys(DAILY/2)
+
+#N	sdos
+#S	Altos 80286; Xenix 3.4
+#O	Systems Designers (Office Systems)
+#C	Jane Timmis, Gavin Saunders
+#E	postmaster@sdos.uucp
+#T	+44 252 544444
+#P	Ferneburga House, Alexandra Road, Farnborough, Hants, GU14 6DQ
+#L	00 44 50 W / 51 16 40 N
+#R	
+#U	inset
+#W	ukc!uknet (Network Administration); 87/12/03 17:35:39
+#
+sdos	sysdes(HOURLY), inset(EVENING)
+
+#N	selon
+#S	VAX 11/750  System V (NUXI)
+#O	The International Stock Exchange
+#C	Robert Bernard
+#E	reb@selon.uucp
+#T	+44 1 588 2355 x26769
+#P	Management Services Dept., London, EC2N 1HP
+#L	
+#R	
+#U	ist
+#W	ukc!uknet (Network Administration); 87/12/03 17:36:47
+#
+selon	inset(DAILY), ist(EVENING)
+
+#N	service
+#S	High Level Hardware ORION 1/05; OTS 2.1b (4.2 BSD) UNIX
+#O	High Level Hardware Limited
+#C	Steve Thomas
+#E	steve@hlh.uucp
+#T	+44 865 750494
+#P	PO Box 170, Oxford, OX3 7BN
+#L	01 13 00 W / 51 45 00 N
+#R	
+#U	ukc
+#W	ukc!uknet (Network Administration); 87/12/03 17:37:41
+#
+service	hlh(DEMAND)
+
+#N	ses6x
+#S	DEC VAX 11/750 ; Ultrix 1.2
+#O	British Telecom
+#C	Simon Garrett
+#E	sg@ses6x.bt.co.uk
+#T	+ 44 473 224523
+#P	St Vincent House, Cutler St, Ipswich, Suffolk
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:37:58
+#
+ses6x	axion(LOCAL)
+# UK domain name
+ses6x = "ses6x.bt.co.uk"
+
+#N	shandon
+#S	Mostek Matrix (68000): System III UNIX
+#O	Shandon Southern Products
+#C	Martin Sullivan
+#E	marra@shandon.uucp
+#T	+44 9285 66611 x281
+#P	Chadwick Rd, Astmoor, Runcorn, Cheshire, WA7 1PR
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:38:21
+#
+shandon	ukc(DAILY)
+
+#N	siesoft
+#S	Siemens PC-MX2 ; SINIX V2.0B (Siemens UNIX)
+#O	Siemens Systems Development Group
+#C	David Keeffe
+#E	dk@siesoft.uucp
+#T	+44 734 691994
+#P	Woodley House, 65-73 Crockhamwell Road, Woodley, Reading
+#L	00 54 30 W / 51 27 00 N
+#R	NRS name is not actually registered, but is recognised by sysdes
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:38:45
+#
+siesoft	iclbra(HOURLY), sysdes(HOURLY), reading(HOURLY*4), ukc(HOURLY)
+
+#N	slxsys
+#S	Dell 386; Unix V.3/386
+#O	Specialix Systems Limited
+#C	John Pettitt, Gary Maguire
+#E	jpp@slxsys.uucp, gary@slxsys.uucp
+#T	+44 1 398 9422
+#P	Roseneath House, Giggs Hill Road, Thames Ditton, Surrey, KT7 0TR
+#L	
+#R	slxsys is the front end of a net (slxtec, slxwps, slxrad)
+#R	but  this  should  be hidden.   Specialix  are the  master
+#R	distributor  for  the  Chase  AT8 intelligent  serial  I/O
+#R	controller    for   IBM/AT   systems   under   Unix/Xenix.
+#U	datlog
+#W	ukc!uknet (Network Administration); 87/12/03 17:39:09
+#
+slxsys	chaser(EVENING), cix(EVENING), datlog(EVENING), pyrltd(DAILY/4),
+	riddle(DEAD), scol(DEAD)
+
+#N	smb
+#S	Olivetti 3B2-400; UNIX V.2
+#O	SMB Business Software, THORN EMI Datasolve
+#C	Dave Settle
+#E	dave@smb.co.uk 
+#T	+44 623 651651
+#P	High St, Mansfield, Nottingham, NG18 1ES
+#L	01 13 00 W / 53 08 00 N
+#R	Software house producing accounting and payroll software
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:39:40
+#
+smb	nott-cs(EVENING)
+
+#N	sot-cm
+#S	Masscomp 5600; RTU 3.0
+#O	Dept of Electronics and Computer Sciences, Southampton University
+#C	David Barron, David De'Roure
+#E	dwb@cm.soton.ac.uk, postmaster@cm.soton.ac.uk
+#T	+44 703 559122 x2386
+#P	Highfield, Southampton  SO9 5NH
+#L	01 23 40 W / 50 56 10 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:40:16
+#
+sot-cm	sot-maori(DIRECT)
+# UK domain name
+sot-cm = "cm.soton.ac.uk"
+
+#N	sot-maori
+#S	High Level Hardware Orion; 4.2 BSD
+#O	Faculty of Mathematical Studies, University of Southampton
+#C	Ray d'Inverno, Ewan Kirk, David De'Roure
+#E	ray@maori.soton.ac.uk, postmaster@maori.soton.ac.uk
+#T	+44 703 559122 x3672
+#P	Highfield, Southampton  SO9 5NH
+#L	01 23 50 W / 50 56 10 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:40:52
+#
+sot-maori	cheviot(DEMAND), qmc-ms(HOURLY), sot-cm(DIRECT)
+# UK domain name
+sot-maori = "maori.soton.ac.uk"
+
+#N	spider
+#S	68000; Uniplus+ System 5
+#O	Spider Systems Ltd.
+#C	Andy Davis, Larry Cable
+#E	andy@spider.uucp
+#T	+44 31 554 9197
+#P	65 Bonnington Road, Edinburgh, EH6 5JQ
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:41:34
+#
+spider	hwcs(DAILY)
+
+#N	ssl
+#S	Bleasdale 68010; UNIX 5.0
+#O	System Simulation Ltd.
+#C	Mile Selway, Bryan Dongray
+#E	system@ssl.uucp
+#T	+44 1 838 7406
+#P	250M Bedford Chambers, Covent Garden Piazza, London WC2E 8HA
+#L	00 07 00 W / 51 31 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:42:10
+#
+ssl	ucl-cs(DAILY)
+
+#N	ssl-farn
+#S	DEC VAX-11/750; VMS 4.3
+#O	Software Sciences Limited
+#C	Tim Lyons
+#E	postmaster@ssl-farn.co.uk
+#T	+44 252 544 321
+#P	Meudon Avenue , Farnborough , Hampshire , GU14 7NB
+#L	00 45 00 W / 51 17 00 N
+#R	Software Sciences can also be contacted at UK.CO.SSL-MACC 
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:42:36
+#
+ssl-farn	sslvax(DAILY/4)
+
+#N	sslvax
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Software Sciences (Macclesfield)
+#C	Ray Saxton
+#E	ray@sslvax.uucp
+#T	+44 625 29241
+#P	L&M House, Park Street, Macclesfield, Cheshire
+#L	
+#R	
+#U	dcl-cs 
+#W	ukc!uknet (Network Administration); 87/12/03 17:42:54
+#
+sslvax	dcl-cs(EVENING), ssl-farn(DAILY/4)
+# UK domain name
+sslvax = "ssl-macc.co.uk"
+
+#N	stc
+#S	VAX11/750; Ultrix 1.2
+#O	STC Telecommunications
+#C	Michael Hopkins, Bruce Munro
+#E	mrh@tcom.stc.co.uk, bruce@tcom.stc.co.uk
+#T	+44 1 368 1234 x3185, +44 1 368 1234 x2019
+#P	Oakleigh Road South, New Southgate, London, N11 1HB
+#L	00 04 04 W / 51 37 25 N
+#R	
+#U	datlog iclbra idec imtec inset praxis root44 stl ukc
+#W	ukc!uknet (Network Administration); 87/12/03 17:43:21
+#
+stc	ail(DAILY/2), btnix(WEEKLY/6), cctal(DAILY/2), concurrent(DAILY/7),
+	datlog(EVENING/5), heuristix(WEEKLY), iclbra(DAILY/3),
+	iclkid(DAILY/10), idec(LOCAL), imtec(DAILY/3), inset(EVENING),
+	isieuro(DAILY), ist(EVENING), praxis(DAILY), root44(EVENING),
+	stl(LOCAL), ukc(DAILY/6), wessex(DAILY)
+# UK domain name
+stc = "tcom.stc.co.uk"
+
+#N	stircs
+#S	DEC PDP-11/70; UNIX V7
+#O	Dept of Computing Science, University of Stirling
+#C	Sam Nelson
+#E	postmaster@cs.stir.ac.uk
+#T	+44 786 73171 x2771
+#P	Stirling, FK9 4LA
+#L	03 55 29 W / 56 08 59 N
+#R	No point specifying local net topology - it changes too often.
+#R	We endeavour to keep mail delivery as current as possible based
+#R	on some local messing-about.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:43:53
+#
+stircs	ukc(HOURLY)
+# UK domain name
+stircs = "cs.stir.ac.uk"
+
+#N	stl
+#S	DEC VAX-11/780; 4.2BSD UNIX
+#O	STC Technology Ltd
+#C	Melvin Steele
+#E	postmaster@stl.stc.co.uk
+#T	+44 279 29531 x2664
+#P	London Road, Harlow, Essex CM17 9NA
+#L	00 07 30 E / 51 46 00 N
+#R	This machine fronts a large local net, of which only machines salix 
+#R	and ash should ever be visible externally
+#U	stc idec 
+#W	ukc!uknet (Network Administration); 87/12/03 17:44:26
+#
+stl	cam-cl(DAILY/5), concurrent(DAILY), datlog(DAILY/2), edcaad(DAILY),
+	hwcs(DEAD), iclquas(DAILY), idec(WEEKLY/5), stc(HOURLY),
+	stlnw(HOURLY), ukc(DAILY/5)
+# UK domain name
+stl = "stl.stc.co.uk"
+
+#N	stlnw
+#S	SUN 3/160S; BSD 4.2 UNIX
+#O	STC Technology Ltd.
+#C	Howard Pelling
+#E	postmaster@nw.stl.stc.co.uk
+#T	+44 782 662212 x235
+#P	Copthall House, Nelson Place, Newcastle-under-Lyme, ST5 1EZ
+#L	02 13 20 W / 53 00 45 N 
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:44:55
+#
+stlnw	iclbra(DEMAND), idec(DEMAND), praxis(DEMAND), stl(DEMAND),
+	ukc(DEMAND)
+# UK domain name
+stlnw = "nw.stl.stc.co.uk"
+
+#N	strath-cs
+#S	
+#O	Computer Science, Strathclyde University
+#C	Jim Reid
+#E	jim@cs.strath.ac.uk
+#T	+44 41 552 4400 x3319
+#P	Richmond Street, Glasgow, G1 1XH
+#L	
+#R	
+#U	dcl-cs paisley its63b
+#W	ukc!uknet (Network Administration); 87/12/03 17:45:25
+#
+strath-cs	ukc(DAILY)
+# UK domain name
+strath-cs = "cs.strath.ac.uk"
+
+#N	sx
+#S	TOPS-10
+#O	Computer Service, University of Essex
+#C	Rick Blake 
+#E	postmaster@sx.ac.uk
+#T	+44 206 863613
+#P	Wivenhoe Park, Colchester, Essex, CO4 3SQ
+#L	00 58 00 E / 51 52 40N 
+#R	JANET site only
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:45:52
+#
+sx	ukc(HOURLY)
+# UK domain name
+sx = "sx.ac.uk"
+
+#N	sx-cs
+#S	ULTRIX 1.1
+#O	Dept. of Computer Science, University of Essex
+#C	Miles Welsh
+#E	postmaster@cscvax.sx.ac.uk
+#T	+44 206 862286 x 2311
+#P	Wivenhoe Park, Colchester, Essex, CO4 3SQ
+#L	00 58 00 E / 51 52 40 N
+#R	JANET site only
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:46:21
+#
+sx-cs	ukc(HOURLY) 
+# UK domain name
+sx-cs = "cscvax.sx.ac.uk"
+
+#N	sx-et
+#S	ULTRIX 1.1
+#O	Dept. of Language & Linguistics, University of Essex
+#C	Andy Holyer
+#E	postmaster@et.sx.ac.uk
+#T	+44 206 862286 x 2134
+#P	Wivenhoe Park, Colchester, Essex, CO4 3SQ
+#L	00 58 00 E / 51 52 40 N
+#R	JANET site only
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:46:55
+#
+sx-et	ukc(HOURLY) 
+# UK domain name
+sx-et = "eurotra.essex.ac.uk"
+
+#N	sysdes
+#S	DEC VAX-11/750; System V rls 2 ver 2
+#O	Systems Designers Scientific
+#C	Alyn Hockey
+#E	ash@sysdes.uucp
+#T	+44 276 686200 x212
+#P	Pembroke House, Pembroke Broadway, Camberley, Surrey
+#L	0 44 30 W / 51 20 00 N
+#R	
+#U	minster
+#W	ukc!uknet (Network Administration); 87/12/03 17:47:27
+#
+sysdes	mari(HOURLY), minster(DEMAND), ritd(DAILY/2), sdos(HOURLY),
+	siesoft(HOURLY), ukc(HOURLY)
+
+#N	telford
+#S	SUN 3; 4.2 BSD UNIX
+#O	School of Mathematics, University of Bath
+#C	Professor James Davenport
+#E	jhd@bond.uucp
+#T	+44 225 826181
+#P	Claverton Down, Bath, Avon BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:48:01
+#
+telford	bond(DIRECT), xenakis(DIRECT), m42(DIRECT), minerva(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), watt(DIRECT), newcombe(DIRECT)
+
+#N	tesun2
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	THORN EMI Central Research Laboratories
+#C	Stephen McCabe
+#E	postmaster@tesun2.uucp
+#T	+44 1 848 6518
+#P	Dawley Road, Hayes, Middlesex, UB3 1HH
+#L	00 26 00 W / 51 30 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:48:36
+#
+tesun2	ucl-cs(DAILY/6)
+
+#N	tivax
+#S	
+#O	The Turing Institute
+#C	Colin Lindsay
+#E	colin@tivax.uucp
+#T	+44 41 552 6400
+#P	George House, 36 North Hanover Street, Glasgow, G1 2AD
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:49:12
+#
+tivax	edcaad(DAILY)
+
+#N	torch
+#S	TORCH Triple X; V5.2 UNIX
+#O	Torch Computers
+#C	Mark Howells
+#E	root@torch.co.uk
+#T	+44 223 841000 x309
+#P	Abberley House, Great Shelford, Cambridge CB2 5LQ
+#L	00 08 00 E / 52 08 00 N
+#R	
+#U	datlog
+#W	ukc!uknet (Network Administration); 87/12/03 17:49:53
+#
+torch	datlog(DAILY)
+# UK domain name
+torch = "torch.co.uk"
+
+#N	tp-pa
+#S	Prime 9755; PRIMOS rev 21.0
+#O	Teesside Polytechnic
+#C	Paul Lambert, Project Manager (Systems), Computer Centre
+#E	postmaster@pa.tp.ac.uk
+#T	+44 642 218121 x4269
+#P	Borough Road, Middlesbrough TS1 3BA
+#L	01 14 15 W / 54 34 14 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:50:27
+#
+tp-pa	ukc (DAILY)
+# UK domain name
+tp-pa = "pa.tp.ac.uk"
+
+#N	trent-doc
+#S	DEC PDP-11/44; UNIX v7
+#O	Department of Computing, Trent Polytechnic
+#C	Eric Rundle
+#E	ejr@doc.trent.ac.uk
+#T	+44 602 418248 x2047, +44 602 418248 x2051
+#P	Newton Building, Burton Street, Nottingham, NG1 4BU
+#L	1 08 09 W / 52 57 02 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:51:01
+#
+trent-doc	nott-cs(DAILY/4)
+# UK domain name
+trent-doc = "doc.trent.ac.uk"
+
+#N	trevan
+#S	Micronix IBM AT compatable; Microports System V/AT release 2
+#O	Trevan Designs Limited
+#C	Trevor Harris
+#E	trevor@trevan.uucp
+#T	+44 252 315929
+#P	5 Blackwater Close, Ash, Aldershot, Hants, GU12 6JS
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:51:33
+#
+trevan	reading(DAILY*4)
+
+#N	ttaprl
+#S	Tadpole Titan 10; 68010 Uniplus+ 5.0
+#O	Applied Property Research Ltd.
+#C	Bevis King
+#E	bevis@aprl.uucp
+#T	+44 1 251 5654 x15
+#P	Albion Courtyard, Greenhill Rents, London, EC1M 6BN
+#L	
+#R	We are a commercial research organisation specialising in 
+#R	information on the Central London office market. using UNIFY rdbms.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:52:08
+#
+ttaprl	aprl(DAILY)
+
+#N	ttl
+#S	Pyramid, AT&T System V; 4.2BSD UNIX
+#O	Trading Technology Ltd
+#C	John Woodgate
+#E	root@ttl.uucp
+#T	+44 1 626 1544 x1366
+#P	Chetwynd House, 24 St Swithins Lane, London, EC4N 8AT
+#L	
+#R	
+#U	pyrltd
+#W	ukc!uknet (Network Administration); 87/12/03 17:52:34
+#
+ttl	pyrltd(DAILY/4)
+
+#N	ubradcs
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Schools of Computing, University of Bradford
+#C	Geoff Bell
+#E	geoff@computing.bradford.ac.uk
+#T	+44 274 733466 x8526
+#P	Richmond Road, Bradford, West Yorkshire, BD7 1DP
+#L	01 46 00 W / 53 47 30 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:53:00
+#
+ubradcs	inset(DAILY), ukc(DAILY)
+# UK domain name
+ubradcs = "computing.bradford.ac.uk"
+
+#N	ucl-cs
+#S	
+#O	Department of Computer Science, University College London
+#C	Bruce Wilford, Irene Hassel
+#E	liaison@ucl-cs.uucp
+#T	+44 1 387 7050 x3691, x7290
+#P	Gower Street, London, WC1E 6BT
+#L	
+#R	News feed over JNT Mail.  NRS Name "UK.AC.UCL.CS"
+#U	nott-cs
+#W	ukc!uknet (Network Administration); 87/12/03 17:53:29
+#
+ucl-cs	wcwvax(DAILY/4), inset(DAILY/4), cri(DAILY), ssl(DAILY), tesun2(DAILY/6)
+# UK domain name
+ucl-cs = "cs.ucl.ac.uk"
+
+#N	udi
+#S	HP9000s500; HPUX
+#O	Udi Group Ltd
+#C	Hamish Butler
+#E	hamish@udi.uucp
+#T	+44 224 703551
+#P	Bridge of Don, Aberdeen, AB2 8JW
+#L	02 05 26 W / 57 11 59 N
+#R	Sent postal pack, Gold Box ABD066 (network identity 83)
+#R	Network address guest C * 2342-224-80106 can login as a guest 
+#R	from tues 08/04/86
+#R	add to posting List when up. (dan@udi.uucp)
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:54:05
+#
+udi	hwcs(DAILY)
+
+#N	uea-sys
+#S	Sun 3; 4.2 BSD UNIX
+#O	School of Information Systems, University of East Anglia
+#C	Rupert Lorrimer
+#E	ral@sys.uea.ac.uk
+#T	+44 603 56161 x2612
+#P	Norwich, Norfolk, NR4 7TJ
+#L	
+#R	Hides a network of Suns and one HLH Orion
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:54:36
+#
+uea-sys	ukc(HOURLY)
+uea-sys = uea-dsp
+# UK domain name
+uea-sys = "sys.uea.ac.uk"
+
+#N	uel
+#S	AT&T 3B2/400; System V R3.1 UNIX
+#O	AT&T UNIX Europe Ltd.
+#C	Andrew Josey
+#E	andrew@uel.uucp
+#T	+44 1 567 7711
+#P	International House, Ealing Broadway, London, W5 5DB
+#L	00 12 00 W / 51 27 30 N
+#R	AT&T UNIX Europe Ltd promotes markets and 
+#R	sells the UNIX System V operating system source code, and 
+#R	other UNIX related software packages in Europe.
+#U	ist olgb1
+#W	ukc!uknet (Network Administration); 87/12/03 17:55:13
+#
+uel	axion(DAILY), inset(DAILY), ist(EVENING), istel(DAILY), 
+	olgb1(DEMAND), root44(DAILY), ukc(DAILY/2)
+
+#N	uguk
+#S	
+#O	/usr/group/UK
+#C	Alison Duke
+#E	alison@uguk.uucp
+#T	+44 727 36003
+#P	5 Holywell Hill, St. Albans, Herts AL1 1ET.
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:55:56
+#
+uguk	pyrltd(DAILY/4)
+
+#N	ukc
+#S	HLH Orion; 4.2BSD UNIX
+#O	Computing Laboratory, University of Kent
+#C	Peter Collinson, Peter Houlder
+#E	uknet@ukc.ac.uk, pc@ukc.ac.uk
+#T	+44 227 764000 x7619
+#P	Canterbury, Kent, CT2 7NF
+#L	01 05 00 E / 51 18 00 N
+#R	ukc is the UK uucp backbone.
+#R	foreign mail links:
+#R	===================
+#R	cernvax		Switzerland	Swiss Backbone
+#R	cfg		Pasadena,Ca,USA	Caine Farber & Gordon
+#R	enea		Sweden		Swedish Backbone
+#R	iclitc		Eire		Irish Backbone
+#R	inria		France		French Backbone
+#R	ircam		France		Institut de Recherche et
+#R	coordination Acoustique/Musique
+#R	kddlab		Japan		Japanese Backbone
+#R	prlb2		Belgium		Belgium Backbone
+#R	mcvax		Netherlands	Dutch and European Backbone
+#R	tcdcs		Eire		Trinity College, Dublin
+#R	unido		West Germany	West German Backbone
+#U	cam-cl cheviot dcl-cs hlh icdoc iclitc its63b mcvax mupsy prlvax4
+#U	pyrltd reading stc warwick
+#W	ukc!uknet (Network Administration); 87/12/04 13:06:15
+#
+ukc	abdn-cs(HOURLY), aber-cs(HOURLY), aberdeen(HOURLY), acorn(DAILY/4),
+	aigr(HOURLY), aiva(HOURLY), aivru(HOURLY), alvey(HOURLY),
+	aprl(DAILY), aston(HOURLY), astona(HOURLY), astonb(HOURLY),
+	astonc(HOURLY), astonk(HOURLY), astonm(HOURLY), astons(HOURLY),
+	bath63(HOURLY), bbk-cs(HOURLY), bhamcs(HOURLY), bprcsitu(DAILY),
+	bru-cc(HOURLY), bru-me(HOURLY), brueer(HOURLY), cam-cl(HOURLY),
+	cam-orl(DIRECT), cctal(DAILY), cernvax(ARPA), cf-cm(HOURLY),
+	cf-cmg(HOURLY), cfg(WEEKLY), cheviot(DAILY), csbstan(HOURLY),
+	cstvax(HOURLY), cushat(HOURLY), datcon(DAILY/4), dcl-cs(HOURLY),
+	ed(HOURLY), edai(HOURLY), edcaad(HOURLY), edecsvax(HOURLY),
+	edee(HOURLY), educ-isis(HOURLY), egh-qc(DAILY), enea(ARPA),
+	epistemi(HOURLY), epvax(HOURLY), esgr(HOURLY), eusip(HOURLY),
+	expya(DIRECT), gec-erc(HOURLY), gecepl(HOURLY), glasgow(HOURLY),
+	hatfield(HOURLY), hlh(DAILY), hplb(DAILY), hrc63(EVENING),
+	hu-isd(DAILY), hwcs(HOURLY), icdoc(HOURLY), iclitc(DAILY),
+	icot(DEAD), inria(ARPA), inset(DAILY/3), insignia(HOURLY),
+	ircam(DAILY), ist(WEEKLY), its63a(HOURLY), its63b(HOURLY),
+	itspna(HOURLY), kcl-cs(HOURLY), kddlab(DAILY), lena(DAILY/2),
+	lexhw(DAILY), lfcs(HOURLY), liv-cs(HOURLY), logcam(EVENING),
+	lsply(HOURLY), lut(HOURLY), lutchi(HOURLY), mari(DAILY),
+	mcvax(ARPA-1), minim(DAILY), mrc-apu(HOURLY), mrca(HOURLY),
+	mrcvax(HOURLY), mucgu(HOURLY), mucs(HOURLY), muee(HOURLY),
+	munnari(DAILY), mupsy(HOURLY), mur1(HOURLY), mur2(HOURLY),
+	mur3(HOURLY), mur4(HOURLY), mur5(HOURLY), mur6(HOURLY),
+	nott-cs(HOURLY), nplpsg(HOURLY), ouacs(HOURLY), ox-prg(HOURLY),
+	paisley(HOURLY), pcl-badger(HOURLY), pcl-lynx(HOURLY),
+	pcl-mole(HOURLY), pcl-otter(HOURLY), pcl-stoat(HOURLY),
+	por-ee(HOURLY), prlb2(ARPA), prlhp1(DAILY), prlvax4(DAILY),
+	pyrltd(DAILY/4), qmc-cs(HOURLY), qtlon(DAILY/4), reading(DAILY/6),
+	rgoa(HOURLY), rgos(HOURLY), rigg(HOURLY), rlde(HOURLY),
+	rlgb(HOURLY), rlgm(HOURLY), rlibmb(HOURLY), rlvd(DAILY),
+	root44(EVENING), scicon(DAILY/4), shandon(DAILY), siesoft(HOURLY),
+	stc(DEMAND), stircs(HOURLY), stl(EVENING), stlnw(DAILY/2),
+	strath-cs(DAILY), sx(HOURLY), sx-cs(HOURLY), sx-et(HOURLY),
+	sysdes(HOURLY), tcdcs(DAILY), tp-pa(DAILY), ubradcs(DAILY),
+	ucl-cs(HOURLY), uea-dsp(HOURLY), uea-sys(HOURLY), uel(DAILY/2),
+	ulai(HOURLY), ulcbl(HOURLY), ulcs(HOURLY), umpa(HOURLY),
+	umpb(HOURLY), unido(ARPA), uujmvx(DAILY/4), warwick(HOURLY),
+	wpc(DAILY)
+# UK domain name
+ukc = "ukc.ac.uk"
+
+#N	ulai
+#S	DEC VAX-11/750; Ultrix V1.2
+#O	AI Research Computing Facility, University of Leeds
+#C	Roger Boyle
+#E	postmaster@ai.leeds.ac.uk
+#T	+44 532 431751 x6307
+#P	Leeds, LS2 9JT
+#L	01 33 00 W / 53 48 50 N 
+#R	Direct JANET connection (DTE 12004000)
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:57:35
+#
+ulai	ukc(HOURLY), ulcbl(LOCAL), ulcs(LOCAL)
+# UK domain name
+ulai = "ai.leeds.ac.uk"
+
+#N	ulcbl
+#S	SUN 3/160; Sun UNIX 4.2 Release 3.4
+#O	Computer Based Learning Unit, University of Leeds
+#C	Roger Boyle
+#E	postmaster@cbl.leeds.ac.uk
+#T	+44 532 431751 x7249
+#P	Leeds, LS2 9JT
+#L	01 33 00 W / 53 48 18 N 
+#R	JANET relay for this machine is ai.leeds.ac.uk 
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:58:03
+#
+ulcbl	ukc(HOURLY), ulai(LOCAL), ulcs(LOCAL)
+# UK domain name
+ulcbl = "cbl.leeds.ac.uk"
+
+#N	ulcs
+#S	DEC VAX-11/780; Ultrix V1.2
+#O	Department of Computer Studies, University of Leeds
+#C	Roger Boyle
+#E	postmaster@dcs.leeds.ac.uk
+#T	+44 532 431751 x6307
+#P	Leeds, LS2 9JT
+#L	01 33 00 W / 53 48 50 N 
+#R	JANET relay for this machine is ai.leeds.ac.uk 
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:58:38
+#
+ulcs	ukc(HOURLY), ulai(LOCAL), ulcbl(LOCAL)
+# UK domain name
+ulcs = "dcs.leeds.ac.uk"
+
+#N	umpa
+#S	Prime 9955; SERC PRIMOS 19.4
+#O	SERC/ECF at UMIST
+#C	Ian Pallfreeman
+#E	ian@umist.ac.uk
+#T	+44 61 228 2397
+#P	Control Systems Centre, UMIST, Sackville St., Manchester.
+#L	02 14 00 W / 53 28 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:59:11
+#
+umpa	ukc(HOURLY)
+# UK domain name
+umpa = "prime-a.central-services.umist.ac.uk"
+
+#N	umpb
+#S	Prime 2250; SERC PRIMOS 19.4
+#O	SERC/ECF at UMIST
+#C	Ian Pallfreeman
+#E	ian@umist.ac.uk
+#T	+44 61 228 2397
+#P	Control Systems Centre, UMIST, Sackville St., Manchester.
+#L	02 14 00 W / 53 28 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 17:59:47
+#
+umpb	ukc(HOURLY)
+# UK domain name
+umpb = "prime-b.central-services.umist.ac.uk"
+
+#N	uniplex
+#S	Zilog S8000-12; Zeus 3.21b
+#O	Redwood International Ltd.
+#C	Stuart Hillston
+#E	stuart@uniplex.uucp
+#T	+44 727 40601
+#P	8 Chequer Street, St. Albans, Herts., AL1 3XZ
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:00:17
+#
+uniplex	logitek(DAILY)
+
+#N	unx1
+#S	
+#O	Cognitive Studies Programme, U of Sussex
+#C	Andy Clews
+#E	postmaster@cvaxa.sussex.ac.uk
+#T	+44 273 603272
+#P	Falmer, Sussex, BN1 9QN
+#L	0 5 W / 50 52 N
+#R	
+#U	bpoly1 cvaxa
+#W	ukc!uknet (Network Administration); 87/12/03 18:00:51
+#
+unx1	bpoly1(HOURLY), cvaxa(HOURLY)
+# UK domain name
+unx1 = "unx1.sussex.ac.uk"
+
+#N	uoseev
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Department of Electronic and Electrical Engineering, Surrey University
+#C	Graham Carpenter
+#E	graham@ee.surrey.ac.uk
+#T	+44 483 571281 x2273
+#P	Guildford, GU2 5XH
+#L	00 35 00 W / 51 14 30 N
+#R	No direct connection to ukc; this site polls reading only.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:01:18
+#
+uoseev	reading(HOURLY) 
+# UK domain name
+uoseev = "ee.surrey.ac.uk"
+
+#N	upper
+#S	Sun 3 Network
+#O	Imperial Software Technology (Cambridge Office)
+#C	Neil Todd/Mark Parmenter (London), Karam Ashoo (Cambridge)
+#E	neil@ist.co.uk, mdp@ist.co.uk, ka@upper.ist.co.uk
+#T	+44 233 462 400 (Cambridge) +44 1 581 8155 (London)
+#P	IST, 3 Glisson Rd, Cambridge, CB1 2HA 
+#L	
+#R	Gateway machine to IST Cambridge lan. Has kilostream link up to
+#R	ist in London. The local net is made up of hosts kingdom, isambard, 
+#R	porthos, athos, aramis, harpo, chico.
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:02:04
+#
+upper	ist(DIRECT)
+# UK domain name
+upper = "upper.ist.co.uk"
+
+#N	uujmvx
+#S	DEC MicroVAX 11; Ultrix-32M V1.2
+#O	Institute of Informatics, University of Ulster
+#C	Tom Garland
+#E	cbar23@upvax.ulst.ac.uk
+#T	+44 232 365131 x2473
+#P	Shore Road, Newtonabbey BT37 0QB, County Antrim, Northern Ireland. 
+#L	06 06 00 W / 54 60 00 N
+#R	We have yet set up uucp on our machine. Having difficulties with
+#R	uucp versions and hardware. Will forward further information when
+#R	these problems have been sorted out. In the meantime is it possible
+#R	to keep us in contact with with USENET by mailing us any interesting
+#R	articles etc. over Janet to cbar23@uk.ac.ulst.upvax ?
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:02:43
+#
+uujmvx	ukc(DAILY/4)
+
+#N	warwick
+#S	several systems hide behind this name
+#O	Warwick University
+#C	Kay Dekker, Jeff Smith
+#E	jeff@warwick.uucp, kay@warwick.uucp
+#T	+44 203 523485
+#P	Computer Science, Warwick University, Coventry CV4 7AL
+#L	01 33 00 W / 52 23 00 N
+#R	uucp addresses of the form warwick!warwickNETname!person will work.
+#R	Only warwick and flame are visible names outside the local net.
+#R	JNT (Grey book) mail and Blue book FTP are not supported.
+#R	heur* and xisl poll warwick, but warwick doesn't poll them
+#U	covpoly cvaxa expya kcl-cs rlvd ukc
+#W	ukc!uknet (Network Administration); 87/12/03 18:03:16
+#
+warwick	anduk(DAILY), covpoly(EVENING), cvaxa(DEMAND), flame(HOURLY),
+	rlvd(DEMAND), ukc(DEMAND)
+# UK domain name
+warwick = "uu.warwick.ac.uk"
+
+#N	watt
+#S	SUN 3; 4.2 BSD UNIX
+#O	School of Mathematics, University of Bath
+#C	Professor James Davenport
+#E	jhd@bond.uucp
+#T	+44 225 826181
+#P	Claverton Down, Bath, Avon BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:03:58
+#
+watt	bond(DIRECT), xenakis(DIRECT), m42(DIRECT), minerva(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), telford(DIRECT), newcombe(DIRECT)
+
+#N	wcwvax
+#S	DEC VAX-11/750; 4.2BSD UNIX
+#O	Whitechapel Workstations (Snaprun) Ltd.
+#C	Chris Dearman
+#E	chris@wcwvax.uucp
+#T	+44 1 377 8680
+#P	75 Whitechapel Road, London, E1 1DU
+#L	
+#R	
+#U	qtlon
+#W	ukc!uknet (Network Administration); 87/12/03 18:04:37
+#
+wcwvax	ucl-cs(DAILY/4), qtlon(EVENING), qmc-cs(DAILY/3)
+
+#N	wessex
+#S	VAX 8600 ; Ultrix 1.2 going to 2.0 soon
+#O	European Ultrix Engineering Group, Digital Equipment Corp.
+#C	Laurence Cable, Andy Gadsby 
+#E	larry@wessex.uucp, cable@decvax.uucp, gadsby@wessex.uucp
+#T	+44 734 856149, +44 734 868711
+#P	Imperal Way, Reading, Berkshire, RG2 0TE
+#L	00 58 30 / 51 25 00 N
+#R	Please dont send any Ultrix bugs to us ... 
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:05:19
+#
+wessex	inset(DEMAND), mfmail(WEEKLY), stc(DAILY)
+
+#N	westf
+#S	
+#O	Computer Unit, Westfield College London
+#C	Colin Bridgeman
+#E	colin@kcl-cs.uucp
+#T	+44 1 435 7141 x636
+#P	Kidderpore Avenue, Hampstead, London, NW3 7ST
+#L	
+#R	
+#U	kcl-cs
+#W	ukc!uknet (Network Administration); 87/12/03 18:05:50
+#
+westf	kcl-cs(LOCAL)
+
+#N	wpc
+#S	Altos 586-40; Xenix 2.3
+#O	Warren Point International Limited
+#C	Graham C. Evans
+#E	graham@wpc.uucp
+#T	+44 438 316311
+#P	Babbage Road, Stevenage, Herts, SG1 2EQ
+#L	00 14 00 E / 51 55 00 N
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:06:18
+#
+wpc	cottage(DEMAND), ukc(DAILY)
+
+#N	xenakis
+#S	HLH Orion; 4.2BSD UNIX
+#O	School of Mathematics, University of Bath
+#C	Professor John Fitch
+#E	jpff@bond.uucp
+#T	+44 225 826820
+#P	Claverton Down, Bath, Avon BA2 7AY
+#L	02 19 25 W / 51 22 45 N
+#R	Same as bond
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:06:40
+#
+xenakis	bond(DIRECT), m42(DIRECT), minerva(DIRECT), chroma(DIRECT),
+	bath63(DIRECT), watt(DIRECT), telford(DIRECT), newcombe(DIRECT)
+
+#N	xisl
+#S	68010 Q-Bus; UNIX System III-V Plus wierd JMC hacks.
+#O	Xi Software Ltd
+#C	John Collins
+#E	jmc@xisl.uucp
+#T	+44 727 57267 or +44 836 274603 (mobile)
+#P	47 Cedarwood Drive, St Albans, Herts AL4 0DN
+#L	00 18 00 W / 51 45 15 N
+#R	Amended entry, different mail sites
+#R	ukc will add cae1(DAILY/2) when signed forms and test message received
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:07:07
+#
+xisl	acorn(DAILY), mcs-2(DAILY*2), phcomp(WEEKLY)
+
+#N	xopen
+#S	DEC uVAX; vmNUXI
+#O	The X/OPEN Company Ltd
+#C	Joe Richards, Jim R Oldroyd
+#E	joseph@inset.co.uk, jr@inset.co.uk
+#T	+44 1 251 2128
+#P	City House, 190 City Road, London EC1V 2QH
+#L	
+#R	
+#U	
+#W	ukc!uknet (Network Administration); 87/12/03 18:07:40
+#
+xopen	inset(DEMAND)
+
+#N	zen
+#S	HP9040, HP-UX 05.05
+#O	Zengrange Limited
+#C	Julian Perry, Frank Wales
+#E	jules@zen.co.uk
+#T	+44 532 489048 x 217
+#P	Greenfield Road, Leeds LS9 8DB
+#L	01 31 22 W / 53 47 42 N
+#R	
+#U	hwcs
+#W	ukc!uknet (Network Administration); 87/12/03 18:08:10
+#
+zen	hwcs(DAILY)
+# UK domain name
+zen = "zen.co.uk"
+SHAR_EOF
+#	End of shell archive
+exit 0

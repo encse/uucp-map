@@ -1,0 +1,292 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.hi.1
+: This archive created: Sun Nov  8 06:14:42 1992
+echo shar: extracting u.usa.hi.1
+cat << 'SHAR_EOF' > u.usa.hi.1
+file {u.usa.hi.1}
+#N      bohtsg
+#S      NCR Tower 32/650; NCR OS 3.00.02
+#O      Bank of Hawaii Tech Support
+#C      Art Neilson
+#E      art@bohtsg.pegasus.com
+#T      +1 808 848 5358
+#P      909 Dillingham Blvd., Honolulu, HI, 96817
+#L	21 22 N / 157 49 W
+#R	Primary feed (UUCP and Usenet) is pegasus
+#U	pegasus       
+#W      art@bohtsg.pegasus.com (Art Neilson); Mon Nov 25 15:00:00 HST 1991
+#
+bohtsg= bohtsg.pegasus.com
+bohtsg pegasus(DIRECT), pilikia(DIRECT)
+
+#N	eps
+#S	Hayes Ultra 9600
+#O	Electronic Publishing Services
+#C	Steven Kornreich
+#E	eps!root
+#T	+1 808-871-6224
+#P	333 Dairy Rd. #104A Kahului, HI  96732
+#L	20 53 N 156 28 W
+#R
+#W	ziegast@uunet.UU.NET (Eric Ziegast); Thu Aug 27 22:48:36 EDT 1992
+#U
+#
+eps	uunet(DEMAND)
+
+#N	humu
+#S	Sun-4/360 SunOS 4.1
+#O	Naval Ocean Systems Center, Hawaii Laboratory
+#C	Ron Broersma
+#E	ron@nosc.mil
+#T	+1 619 553 2293
+#P	Code 914 (B), San Diego, CA 92152
+#L	21 28 N / 157 47 W
+#R	Primary feed (UUCP and Usenet) is nosc
+#W	ron 5/15/91
+#U	nosc nctams1 pegasus pilikia veritoo
+#
+humu =	humu.nosc.mil
+humu	nosc(DEDICATED), pegasus(DIRECT+FAST), manapua(DIRECT+FAST),
+	omicron(DAILY), nctams1(DIRECT+FAST), pilikia(DIRECT+FAST),
+	veritoo(DIRECT), uofn(POLLED), verifone(DIRECT)
+
+#N      hyper
+#S      AT&T 3B1; Unix
+#O      Hyperbaric Treatment Center
+#C      Richard Foulk
+#E      pegasus!postmaster
+#T      +1 808 735 5013
+#P      P.O. Box 10J, Honolulu, HI, 96816
+#L      21 19 N /157 52 W city
+#R
+#W	richard@pegasus.com (Richard Foulk); Sat Nov 17 10:07:30 HST 1990
+#U
+hyper	pegasus(DIRECT), bigtuna(DIRECT)
+hyper=	hyper.pegasus.com
+
+#N      isle
+#F	pegasus.com
+#S      Sun 4/110; Sun OS 4.1.1 UNIX
+#O      Paradise Isle Computing Services
+#C      Bud Carlson
+#E      bud@isle.pegasus.com, isle!usenet
+#T      +1 808 965 6190
+#P      P.O. Box 1006, Hilo, HI 96721
+#L      19 30 N / 154 50 W
+#R      Computing Environment Specialists on The Big Island of Hawaii
+#W      bud@isle.pegasus.com (Bud Carlson); Thu May 28 12:25:22 HST 1992
+#
+isle =  isle.pegasus.com, paradise.pegasus.com
+#
+isle	pegasus(DEMAND+FAST), manapua(DEAD)
+
+#N      kumu
+#S	Gateway 2000 386/33 running UULINK
+#O
+#C      Todd Ogasawara
+#E      todd@kumu.pegasus.com
+#T      +1 808 545-4905
+#P      Honolulu HI 96822
+#L      21 18 N /157 49 W
+#R
+#W	todd@protege.pegasus.com (Todd Ogasawara); Mon Jul 15 19:00:35 HST 1991
+#
+kumu	pegasus(DAILY)
+kumu= kumu.pegasus.com
+
+#N	.pubnet.com, pubnet.com, manapua.pubnet.com, manapua
+#F	humu.nosc.mil
+#S	Intel 386DX; SCO XENIX 2.3.4
+#O	PUBNET Communications Services
+#C	Paul Telles
+#E	manapua!postmaster, postmaster@pubnet.com
+#T	+1 808 833 0028
+#P	3161 Ala Ilima St., Apt. 2210, Honolulu, HI 96818-3055
+#L	21 21 17 N / 157 54 32 W
+#R	Public Access UNIX; inquiries welcome.
+#U	humu pilikia
+#W	paul@pubnet.com (Paul Telles); Fri Sep 11 23:14:05 HST 1992
+#
+manapua	.pubnet.com
+manapua	= pubnet.com
+manapua	= manapua.pubnet.com
+manapua	humu(DIRECT+FAST), pilikia(DIRECT+FAST), pegasus(DIRECT+FAST),
+	slopoke(POLLED), musubi(POLLED)
+
+#N      medix
+#S      Apollo DN3000; 4.2 BSD UNIX
+#O      Martin Information Systems, Ltd.
+#C      Brian K. Martin, M.D.
+#E      medix!martin
+#T      +1 808 733 2003
+#P      1103 9th Avenue, Suite 203, Honolulu, Hawai`i, 96816-2403
+#L      21 17 36 N / 157 48 12 W
+#R      Medical Informatics Research & Development firm; mail only
+#U      pegasus
+#W	martin@medix.pegasus.com (Brian K. Martin, M.D.)
+#
+medix pegasus(DAILY), bigtuna(DAILY)
+medix= medix.pegasus.com
+
+#N	musubi.pubnet.com, musubi
+#F	manapua.pubnet.com
+#S	Intel 386DX; ISC UNIX 2.0.2
+#O
+#C	Peter Li
+#E	musubi!peter, peter@musubi.pubnet.com
+#T	+1 808 523 3741
+#P	1301 Liliha St., Apt. 102, Honolulu, HI 96817
+#L	21 18 25 N / 157 51 30 W city
+#R
+#W	paul@pubnet.com (Paul Telles); Sat Sep 12 15:14:35 HST 1992
+#U	pilikia
+#
+musubi	= musubi.pubnet.com
+musubi	manapua(DAILY), pilikia(DIRECT)
+
+#N      nctams1
+#S      Datel 386 2.3.2 SCO XENIX
+#O      Naval Computer and Telecommunications Station EASTERN PACIFIC
+#C      Thomas W. Jenkins
+#E      tomj@nctams1.cts.com
+#T      +1 808 668 3066
+#P      Commanding Officer, NCTAMS, Wahiawa, HI 96786 Attn: N92
+#L      158 15 W / 21 25 N Lualualei
+#U      humu baron crash
+#W      tomj@nctams1.com (Tom Jenkins); Tue Mar 19 08:41:42 HST 1991
+#
+nctams1 humu(HOURLY), baron(EVENING), crash(WEEKLY)
+nctams1= nctams1.cts.com
+
+#N	omicron
+#S	Osborne 1; CP/M 2.2
+#O
+#C	Earl Bethke
+#E	omicron!earl
+#T	+1 808 956 6910
+#P	Honolulu, HI  96818
+#L	21 22 N / 157 56 W
+#U                                                                             
+#W	omicron!earl (Earl Bethke); Mon Aug 9 17:00:18 HST 1992
+#
+omicron humu(DAILY)
+
+#N	pafsc3
+#F	server.af.mil
+#S	AT&T 3B2/600G SVR3.2.2
+#O	15TH Air Base Wing, Pacific Air Forces
+#C	Gary Nakamura
+#E	scwgsn@pafsc3.af.mil
+#T	+1 808 449 8145
+#P	15TH Air Base Wing (PACAF/SCW), Hickam AFB, HI 
+#L	21 19 N / 157 52 W city
+#R
+#U	humu
+#W	jjb@jagware.acco.com (Jack Bailey) ; Thu Apr 30 13:46:05 PDT 1992
+#
+pafsc3 = pafsc3.af.mil
+pafsc3	humu(DIRECT),
+	pafsc1(LOCAL), pafsc2(LOCAL), pafsc4(LOCAL), 
+	pafsc5(LOCAL), pafsc6(LOCAL),
+	15sc1(LOCAL), 15sc2(LOCAL), 15sc3(LOCAL)
+
+#N      pegasus
+#S      Custom; ISC UNIX
+#O      Pegasus Information Systems
+#C      Richard Foulk
+#E      richard@pegasus.com
+#T      +1 808 735 5013
+#P      P.O. Box 10J, Honolulu, HI, 96816
+#L      21 23 N /157 57 W
+#R	Public Access Unix, Usenet feeds available.
+#W	pegasus@richard.com (Richard Foulk); Thu May 30 10:42:27 HST 1991
+#U      humu pilikia bohtsg
+#
+pegasus bohtsg(DEMAND), humu(DIRECT+FAST), hyper(DIRECT), kumu(DEMAND), 
+	manapua(DAILY), musubi(DAILY), pilikia(DIRECT+FAST),
+	ssi-h(DIRECT+FAST)
+pegasus .pegasus.com
+pegasus= pegasus.com
+pegasus= pegasus.pegasus.com
+
+#N      pilikia
+#S      Cache 486/33; ISC UNIX 2.2
+#C      Art Neilson
+#E      art@pilikia.pegasus.com
+#T      +1 808 735 3846
+#P      2137 Alaeloa Pl., Honolulu, HI, 96821
+#L	21 19 N / 157 46 W
+#R	Primary feed (UUCP and Usenet) is humu
+#U	humu manapua musubi veritoo
+#W      art@pilikia.pegasus.com (Art Neilson); Tue Dec 9 12:24:08 HST 1991
+#
+pilikia = pilikia.pegasus.com
+pilikia   humu(DIRECT+FAST), pegasus(DIRECT+FAST), manapua(DIRECT+FAST),
+	  musubi(DIRECT), bohtsg(DIRECT), veritoo(DIRECT)
+
+#N	protege
+#S	Everex Step 486/33; ISC UNIX 3.0
+#O	Hawaii Medical Service Association
+#C	Todd Ogasawara
+#E	todd@protege.pegasus.com
+#T	+1 808 944 2308
+#P	Honolulu HI 96808-0860
+#L	21 22 N / 157 56 W
+#U	pegasus
+#W	todd@protege.pegasus.com (Todd Ogasawara); Mon Aug 10 08:20:58 HST 1992
+#
+protege	pegasus(DIRECT)
+protege= protege.pegasus.com
+
+#N	slopoke.pubnet.com, slopoke
+#F	manapua.pubnet.com
+#S	Intel 386SX; SCO XENIX 2.3.4
+#O	The Workstation Group
+#C	G. Eric Roudabush
+#E	slopoke!ger, ger@slopoke.pubnet.com
+#T	+1 808 486 8649
+#P	1142 Auahi St., Suite 2525, Honolulu, HI 96814
+#L	21 18 25 N / 157 51 30 W city
+#R
+#U
+#W	paul@pubnet.com (Paul Telles); Fri Sep 11 23:49:30 HST 1992
+#
+slopoke	= slopoke.pubnet.com
+slopoke	manapua(DAILY)
+
+#N      ssi-h
+#S      Sun 4/60; SunOS4.0.3
+#O	Seafloor Surveys International
+#C      Donna Okazaki
+#E      postmaster@ssi-h.pegasus.com
+#T	+1 808 537 9561
+#P
+#L	21 17 N / 157 51 W
+#R	lat/long re WGS 84
+#W	richard@pegasus.com (Richard Foulk); Wed Nov 21 10:19:33 HST 1990
+#U       
+#
+ssi-h pegasus(DIRECT+FAST)
+ssi-h=	ssi-h.pegasus.com
+
+#N	veritoo
+#S	Dell 310; Intel 386DX/20MHz; SCO UNIX 3.2
+#O	Verifone, Inc.
+#C	James A. Hinds
+#E	jim_h1@verifone.com
+#T	+1 808 623 2911
+#T	+1 916 888 4631
+#P	Verifone, Inc., 100 Kahelu Ave., Mililani, HI  96789
+#L	21 07 N / 157 59 W
+#R	Software Tools Group
+#W	jim_h1@verifone.com (James A. Hinds); Mon Aug 10 13:28:22 HST 1992
+#
+veritoo = veritoo.verifone.com
+veritoo	pilikia(DIRECT), humu(DIRECT)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

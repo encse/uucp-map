@@ -1,0 +1,2443 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ma.3
+: This archive created: Sun Nov  8 06:15:26 1992
+echo shar: extracting u.usa.ma.3
+cat << 'SHAR_EOF' > u.usa.ma.3
+file {u.usa.ma.3}
+#	start of u.usa.ma.3: Sat Sep 26 13:38:35 EDT 1992
+#	maintained by nemap@harvard.edu
+#	Please send all updates/new-entries
+#	to: uucpmap@rutgers.{uucp,edu}
+
+#N	jfwhome
+#F	eddie.mit.edu
+#S	CRDS Universe-68 / UNOS operating system
+#O	Funhouse Consultants
+#C	John Woods
+#E	jfwhome.funhouse.com!jfw
+#T	+1 617 776 4481
+#P	21 Mt. Vernon St. #1, Somerville MA 02145
+#L	42 23.4 N / 71 6.6 W
+#R	This is my home system; funhouse.com is a registered domain
+#W	jfwhome!jfw (John F. Woods); Sun Mar  8 14:38:24 EST 1992
+#U	spdcc
+#
+jfwhome	.funhouse.com(DIRECT)
+jfwhome=jfwhome.funhouse.com
+#
+jfwhome	mit-eddie(HOURLY/2), spdcc(HOURLY), frog(DAILY+HIGH)
+
+#N	jjmhome
+#S	Intel 386/33; System V.3.2
+#O	
+#C	Jim Murray
+#E	jjmhome!postmaster
+#T	+1 508 366 2813
+#P	2 Mohawk Circle, Westboro, MA. 01581
+#L	42 16 33 N / 71 38 07 W
+#R
+#U	alden applix brad chansw crackers cscs jalhome junkyard
+#U	m2c micro-ix mv nyqrn smds schunix transfer wonky
+#W	jjmhome!jjm (Jim Murray); Sat Aug 15 14:56:53 EDT 1992
+#
+# systems we will call
+jjmhome	brad(HOURLY+FAST), cpoint(DAILY+LOW), crackers(HOURLY+FAST),
+	contek(WEEKLY+FAST), hoptoad(DAILY+FAST), jalhome(HOURLY+FAST),
+	lectroid(DEMAND+FAST), m2c(HOURLY+FAST), riva(DAILY+FAST),
+	transfer(DEMAND+FAST)
+#
+# systems that call us
+jjmhome	acestes(DAILY), alden(HOURLY+FAST), applix(DAILY+FAST),
+	bdragon(DAILY), beeline(DAILY), betster(DAILY), cavu(DAILY*2),
+	chansw(HOURLY+FAST), cocktrice(DAILY*2), cscs(DAILY+FAST),
+	junkyard(HOURLY+FAST), kaboop(DAILY), micro-ix(EVENING+FAST),
+	minya(DAILY+FAST), mv(DAILY+FAST), nyqrn(DAILY+FAST),
+	schunix(DAILY+FAST), smds(DAILY+FAST), voyager(DAILY), wonky(DAILY)
+
+#N	jti
+#S	Jupiter Technology System 1000
+#O	Jupiter Technology
+#C	Gregory P. Heidelberger
+#E	jti!root
+#T	+1 617 890 4555
+#P	78 4th Avenue, Waltham, MA  02154
+#L	42 23 N / 71 14 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Tue May 30 08:13:33 EDT 1989
+#U
+#
+jti		uunet(DEMAND)
+
+#N	junkyard
+#S	Generic 386; System V ver. 3.2
+#O
+#C	David Granz
+#E	junkyard!postmaster
+#T	+1 508 777 3375
+#P	88 Maple Street, Wenham, MA 01984
+#L	42 36 01 N / 70 55 01 W
+#R	
+#U	jjmhome ka1as premise think
+#W	jjmhome!jjm (Jim Murray); Sun Feb  3 19:27:38 EST 1991
+#
+junkyard	deg(LOCAL), jjmhome(DAILY), ka1as(DAILY),
+		premise(DAILY), think(DEMAND)
+
+#N	justice
+#S	SUN 386i; SunOS 4.0.2
+#O	Mark Towfiq Consulting
+#C	Mark Towfiq
+#E	justice!postmaster
+#T	+1 617 488 2818
+#P	51 Harvard Avenue, West Medford, MA, 02155
+#L	42 25 N / 71 07 W city
+#R	
+#U	eingedi
+#W	justice!towfiq (Mark Towfiq); Sat Sep 19 18:11:10 EDT 1992
+#
+justice	eingedi(DIRECT+HOURLY*2)
+
+#N	k12net
+#S	IBM AT MS-DOS 3.2
+#F	eddie.mit.edu
+#O	K12Net - The International Education Network
+#C	Rob Reilly
+#E	k12net!postmaster
+#T	+1 413 443 0027
+#P	188 Summer Street, Lanesborough, MA 01237 USA
+#L	42 26 53 N / 73 15 14 W city
+#W	postmaster@k12net.org (Rob Reilly); Sat Apr 20 13:00:00 EST 1991
+#
+k12net   .k12net.org
+k12net = k12net.org
+k12net   alliant(DAILY), school(DIRECT)
+
+#N	k1bc
+#S	ATT 7300; Unix 3.51
+#F	bbn.com
+#O	K1BC Amateur Packet Radio
+#C	Bob Clements
+#E	bbn!clements
+#T	+1 617 873 3612
+#P	4 Paul Revere Road, Lexington, MA 02173
+#L	42 26 53 N / 71 15 17 W
+#R	registered
+#U
+#W	bbn!clements (Robert C Clements); Wed Jun  7 14:10:00 EST 1989
+#
+k1bc = k1bc.lex.ma.us
+#
+k1bc bbn(EVENING), spdcc(EVENING)
+
+#N	ka1as
+#S	80386/20; ESIX System 5.3.2 Rev.D
+#O	KA1AS - Reading, Mass.
+#C	Al Bolduc
+#E	ka1as!postmaster
+#T	+1 617 944 8757
+#P	37 Catherine Ave. Reading, MA 01867
+#L	42 32 28 N / 71 10 47 W
+#R	This is also ka1as.ampr.org [44.56.4.56]
+#U	junkyard
+#W	jjmhome!jjm (Jim Murray); Fri Jan 25 19:38:08 EST 1991
+#
+ka1as	junkyard(DAILY)
+
+#N	kendra
+#S	Epson Equity III+; MS-DOS 3.30
+#O	Kendra Electronic Wonderworks
+#C	Drew Derbyshire
+#E	postmaster@kendra.kew.com
+#T	+1 617 641 3739
+#P	108 Decatur St, Apt 9 / Arlington, MA 02174
+#L	44 24 N / 71 09 W [city]
+#R	Development system for UUPC/extended
+#U	urartu
+#W	ahd@kendra.kew.com (Drew Derbyshire); Sat Oct 27 08:09 EDT 1990
+#
+# Connection information.
+#
+kendra	.kew.com
+kendra	= kendra.kew.com
+kendra	mit-eddie(HOURLY*4), urartu(DAILY), scubadvr(WEEKLY)
+
+#N	kimbal
+#S	AT&T UNIX PC; UNIX System V 3.51
+#O	Personal News Site
+#C	Rick Kimball
+#E	rick@kimbal.lynn.ma.us
+#T	+1 617 599-8864 
+#P	28 Dearborn Ave, Lynn, MA 01905-1940
+#L	42 27 N / 71 00 W
+#R
+#U	spdcc spt
+#W	rick@kimbal (Rick Kimball); Sun Oct 28 13:53:33 EST 1990
+#
+kimbal .kimbal.lynn.ma.us
+kimbal = kimbal.lynn.ma.us
+kimbal spdcc(DIRECT), spt(DIRECT)
+
+#N	kjc386
+#S	i386 PC running DOS or LINUX and UUCP
+#O	What me, organized?
+#C	Kevin Cummings
+#E	postmaster@kjc386.framingham.ma.us
+#T	+1 508 872 3164
+#P	20 Briarwood Road, Framingham, Ma 01701
+#L	42 18 N / 71 29 W
+#R
+#U	primerd
+#W	cummings@primerd.prime.com (Kevin J. Cummings); Fri Apr 10 15:52:36 EDT 1992
+#
+kjc386 .kjc386.framingham.ma.us
+kjc386 = kjc386.framingham.ma.us
+kjc386 primerd(DAILY)
+
+#N	knightsb
+#S	Sun Sparc 1
+#O	Knights Technology
+#C	Darwin Kuan 
+#E	knightsb!root
+#T	+1 617 493 8929
+#P	6 Soldier Field, Pk #512, Boston, MA 02163
+#L	42 21 N / 71 03 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Tue Feb 13 13:54:54 EST 1990
+#U
+#
+knightsb	uunet(DEMAND)
+
+#N	know
+#S	Sun-3/80C; SunOS 4.1.1
+#F	slug.pws.bull.com
+#O	Bull Worldwide Information Systems, Inc.
+#C	Warren J. Lavallee
+#E	warren@pws.ma02.bull.com
+#T	+1 508 294-6173
+#P	300 Concord Rd, Billerica, MA 01821
+#L	42 30 N / 71 16 W city
+#R	Gateway to internal R&D network
+#W	warren@pws.ma30.bull.com (Warren Lavallee); Mon Jul 29 09:53:45 EDT 1991
+#U	cass.ma02.bull.com nc-17.ma02.bull.com zion
+know	= pws.bull.com
+know	= pws.ma30.bull.com
+know	= slug.pws.bull.com
+know	= slug.pws.ma30.bull.com
+#
+know	spdcc(POLLED), zion(HOURLY+HIGH)
+
+#N	ksgbbs
+#S	UNISYS PW2 MODEL 500 (AT CLONE); SCO Xenix 286 v. 2.1.1
+#O	Kennedy School of Government/Harvard University
+#C	Scott Samenfeld
+#E	ksgbbs!jazz
+#T	+1 617 495 0449
+#P	79 JFK St., Cambridge, MA 02138
+#L	42 24 N / 71 7 W
+#W	ksgbbs!jazz (Scott Samenfeld); Tue Aug 16 14:56:29 EDT 1988
+#
+ksgbbs	talcott(HOURLY), wjh12(DEMAND), stech(DEMAND), gnosys(DEMAND)
+
+#N	.ksr.com, ksr
+#F	uunet.uu.net
+#S	Sun 3; 4.2BSD
+#O	Kendall Square Research Corporation
+#C	Guy Hillyer
+#E	ksr!guy
+#T	+1 617 895 9400
+#P	170 Tracer Lane, Waltham MA 02154
+#L	42 25 30 N / 071 15 45 W
+#R
+#W	ksr!guy (Guy Hillyer); Mon March 27 14:11:58 EST 1989
+#U	harvard
+#
+ksr	.ksr.com
+ksr	= ksr.com
+ksr	harvard(DEMAND)
+harvard	ksr(HOURLY)
+
+#N	ktaadn
+#S	Sun Sparc SunOS 4.1.2
+#O	KTAADN, Inc.
+#C	Steve King
+#E	ktaadn!root
+#T	+1 617 527 0054
+#P	1340 Centre St., #202, Newton, MA 02159
+#L	42 19 N / 71 12 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Jan  2 13:22:09 EST 1990
+#U
+#
+ktaadn	uunet(DEMAND)
+
+#N	kurz-ai
+#F	talcott.harvard.edu
+#S	Masscomp MC-5500; 4.0 ATT UNIX
+#O	Kurzweil Applied Intelligence
+#C	Edmund R. MacKenty
+#E	kurz-ai!postmaster
+#T	+1 617 893 5151
+#P	411 Waverly Oaks Road, Waltham, Mass. 02154 USA
+#L	42 23 N / 71 09 W
+#W	kurz-ai!mack (Edmund R. MacKenty); Fri Nov 10 13:47:42 1989
+#R	User names are the user's first name, usually with the initial
+#	of the last name to disambiguate them.  Mine is the exception.
+#
+kurz-ai	.kurz-ai.com
+#
+kurz-ai	bbn(DIRECT), talcott(DIRECT)
+
+#N	lab-frog
+#S	Sun IPC
+#O	Vicorp Interactive Systems
+#C	Lee Benson
+#E	lab-frog!root
+#T	+1 617 542 9233
+#P	540 Tremont Street, Boston, MA 02116
+#L	42 21 N / 71 03 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon May  6 18:40:43 EDT 1991
+#U
+#
+lab-frog	uunet(DEMAND)
+
+#N	labtech
+#S	Apollo 3500; 4.2 BSD
+#O	Laboratory Technologies	
+#C	Bill Moline
+#E	labtech!bill
+#T	+1 508 657 5400
+#P	400 Research Drive, Wilmington, MA  01887
+#L	 42 38 N / 71 19 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Wed Apr 12 12:09:51 EDT 1989
+#U
+#
+labtech		uunet(DEMAND)
+
+#N	lanart
+#S	SparcStation IPC; SunOS 4.1.1 4/40
+#O	Lanart Corporation
+#C	Brian Yablon
+#E	lanart!root
+#T	+1 617 444 1994
+#P	145 Rosemary St. Suite D-1 Needham, MA  02194
+#L	42 17 N 71 14 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Wed Sep  9 10:23:48 EDT 1992
+#U
+#
+lanart	uunet(DEMAND)
+
+#N	.ileaf.com, leafusa
+#F	uunet.uu.net
+#S	Sun 3/160; SunOS 4.1
+#O	Interleaf, Inc.
+#C	Stuart Freedman; Rob Taylor
+#E	leafusa!postmaster
+#T	+1 617 290 0710
+#P	Prospect Place, 9 Hillside Ave., Waltham, MA 02154
+#L	42 23 N / 71 20 W
+#R	registered
+#R	Also known as HQ.Ileaf.COM.  This site is the primary
+#R	domain gateway for Interleaf (talks to all field offices).
+#R 	With a few exceptions, you can send mail to any user inside
+#R	Interleaf by sending to flastname@HQ.Ileaf.COM, where "f" is
+#R	the first initial and "lastname" is the last name of the user.
+#U	uunet bbn
+#W	stuart@ileaf.com (Stuart Freedman); Thu Dec 12 20:10:20 EST 1991
+#
+leafusa .ileaf.com
+leafusa= ileaf
+leafusa= ileaf.com, hq.ileaf.com, leafusa.hq.ileaf.com
+leafusa	uunet(DAILY/10)
+# old ileaf connections
+leafusa	mit-eddie(HOURLY*3), bbn(DAILY), sunne(HOURLY*4),
+	ima(DAILY/3), umb(HOURLY*4)
+
+#N	leap
+#S	Sun 3/80; SunOS Release 4.1.1
+#O	Leap Technology, Inc.
+#C	George Economou
+#E	leap!postmaster
+#T	+1 617 272 6867
+#P	20 B Street, Burlington, MA 01803
+#L	42 30 N / 071 11 W city
+#W	leap!george (George Economou); Mon Jun 29 08:55:59 EDT 1992
+#
+leap	urartu(DEMAND+HOURLY)
+
+#N	lectroid
+#S	Sun 3/480S SunOS 4.1.1
+#O	Stratus Computer, Inc.
+#C	Jim Murray
+#E	transfer!postmaster
+#T	+1 508 490 6864
+#P	55 Fairbanks Blvd., Marlboro, MA 01752
+#L	42 21 30 N / 71 31 35 W
+#R
+#U	
+#W	lectroid!jjm; Sat Feb 08 19:32:28 EST 1992
+#
+#
+lectroid= lectroid.sw.stratus.com
+#
+#
+# Systems that we will call
+lectroid	transfer(LOCAL), uunet(DAILY+FAST)
+#
+# Systems that poll us
+lectroid	jalhome(WEEKLY+FAST), jjmhome(HOURLY+FAST), mcigate(DAILY+FAST)
+
+#N	lemming
+#S	SUN 2/120 4.2 BSD UNIX
+#O	
+#C	Clifford Spencer
+#E	lemming!postmaster
+#T	+1 617 641 1822
+#P	197 Waverley Street Arlington, MA 02174
+#L	42 22 30 N / 71 13 30 W
+#R	
+#U	spdcc
+#W	lemming!cspencer; Mon Aug 14 07:43:21 EDT 1989
+#
+lemming	spdcc(DIRECT)
+
+#N	les386
+#S	386 clone; Xenix
+#O	Individual
+#C	Leroy Simpson
+#E	les386!root
+#T	+1 617 721 0374
+#P	2 Olde Lyme Road, Winchester, MA 01890
+#L	42 27 N / 71 08 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Feb  6 10:05:50 EST 1992
+#U
+#
+les386	uunet(DEMAND)
+
+#N	level10
+#S	Commodore-Amiga 3000; AmigaDOS V2.0 & Amiga-UUCP 1.15D
+#O	Personal Machine
+#C	David Fisk
+#E	level10!dfisk
+#T	+1 508 668 9377
+#P	14 Towle Road, Walpole, MA 02081
+#L	42 07 N / 71 15 W
+#R	Personal Machine
+#U	merk
+#W	level10!dfisk (David Fisk); Wed Feb 05 14:09:00 EST 1992
+#
+level10	merk(DIRECT)
+
+#N	lexicon
+#S	Sun SPARCstation 2; SunOS 4.1.1B
+#O	Lexicon, Inc.
+#C	Robert A. Kukura
+#E	postmaster@lexicon.com
+#T	+1 617 736 0300
+#P	100 Beaver St., Waltham, MA 02154-8425
+#L	42 22 30 N / 71 13 30 W
+#U	theep
+#W	rk@lexicon.com (Robert A. Kukura); Tue Jan  7 14:56:36 EST 1992
+#
+lexicon	= lexicon.com
+lexicon	spdcc(DIRECT), theep(DIRECT)
+
+#N	lhs-usa
+#S	IBM 286/386 Compatible
+#O	Lernout & Hauspie Speech Products
+#C	Sasan Koochek
+#E	lhs-usa!root
+#T	+1 617 932 4118
+#P	800 West Cummings Park, Suite 3900, Woburn, MA 01801
+#L	42 28 N / 71 09 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Jan 14 16:39:06 EST 1992
+#U
+#
+lhs-usa	uunet(DEMAND)
+
+#N	liepert
+#S	Next 68030; 4.3 BDS
+#O	Individual
+#C	Tony Liepert
+#E	liepert!root
+#T	+1 617 629 2579
+#P	303 Alewife Brook Pkwy, Somerville, MA 02144
+#L	42 23 N / 71 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Apr 27 16:16:41 EDT 1992
+#U
+#
+liepert	uunet(DEMAND)
+
+#N	linus
+#S	SUN 3/180, SUNOS 4.0.3
+#O	The MITRE Corporation
+#P	Burlington Road, Bedford, MA 01730
+#C	John L. Kordash
+#E	linus!postmaster linus!kordash kordash@linus.mitre.org
+#L	42 28 N / 71 17 W
+#T	+1 617 271 3145
+#R	linus is the MITRE UUCP/news gateway
+#R	nntp/telebit feeds on request
+#U	think alliant progress zone nixbur philabs 
+#U	intrbas snorkelwacker cvbnet gildea
+#W	linus!kordash (John L. Kordash); Mon Aug 31 18:57:07 EDT 1992
+#
+linus	mitre.org
+linus = linus.mitre.org
+#
+linus	alliant(DIRECT+FAST), zone(DIRECT), gildea(DEMAND+FAST),
+	harvard(DIRECT), mirror(DIRECT+FAST), necntc(DIRECT),
+	spdcc(DIRECT+FAST), sunne(DIRECT+FAST), xait(DIRECT+FAST),
+	att(DEMAND+FAST), dartvax(DEMAND), gatech(DEMAND),
+	philabs(HOURLY+FAST), rassd(DEMAND+FAST), uw-beaver(DEMAND),
+	watmath(DEMAND), raybed2(EVENING), cvbnet2(HOURLY+FAST),
+	cvbnet(HOURLY+FAST), nixbur(DIRECT+FAST), progress(DIRECT+FAST),
+	intrbas(EVENING+FAST), think(DIRECT+FAST), barnyard(EVENING+FAST),
+	zoll(DEMAND)
+
+#N	ll-xn
+#S	SUN 3/60; 4.0.3 SunOS UNIX
+#O	MIT Lincoln Laboratory
+#C	Kathryn Smith
+#E	postmaster@xn.ll.mit.edu
+#T	+1 617 981 2060
+#P	244 Wood Street, Lexington, MA  02173-0073
+#L	42 27 34.3 N / 71 15 25.6 W
+#R	Gateway to LL-MI-NET (129.55.1.*) and LL-MI-CHAOS
+#W	Kathryn Smith <kathy@xn.ll.mit.edu>; Wed Apr  3 12:21:04 EST 1991
+#U	ames mit-eddie
+#
+ll-xn = "xn.ll.mit.edu"
+#
+# Internet Network Links
+ll-xn	ames(DEAD), bbn(DEAD), bu-cs(DEAD), bu(DEAD), cmcl2(DEAD),
+	harvard(DEAD), mit-eddie(DEAD), rochester(DEAD), ucsd(DEAD),
+	uwvax(DEAD), usc(DEAD)
+
+#N	lmrc
+#S	DEC VAX 11/750; VMS V5.1-1
+#O	Liberty Mutual Research Center
+#C	Bob Hassinger
+#E	lmrc!postmaster
+#T	+1 508 435 9061
+#P	71 Frankland Road, Hopkinton, MA 01748
+#L	42 14 N / 71 30 W city
+#R	Running DECUS uucp V1.1 and ANU News 5.7
+#U	
+#W	lmrc!postmaster (Bob Hassinger); Fri, Sep 22 14:00 EDT 1989
+#
+lmrc	<frog>(DIRECT)
+
+#N	.lotus.com, lotus
+#F	ns.uu.net
+#O	Lotus Development
+#C	Bob Frankston, Frank Moss
+#E	bobf@Lotus.com, rweissberg@ldbvax.Lotus.com
+#T	617-225-1824, 617-577-8500
+#P	55 Cambridge Parkway; Cambridge MA 02142
+#L	42 22 N / 71 06 W Cambridge
+#R	Registered
+#W	lotus!bobf (Bob Frankston); Fri Sep 29 09:11:41 EDT 1989
+#
+lotus	.lotus.com
+lotus=  lotus.com
+lotus	<uunet>(DEMAND), ima(DEMAND)
+
+#N	lownlab
+#S	Integrated Solutions Optimum 5/10 (68010 CPU); 4.2BSD UNIX
+#O	Lown Cardiovascular Laboratory, Harvard School of Public Health
+#C	James P. Kiely
+#E	lownlab!postmaster
+#T	+1 617 732 1307
+#P	665 Huntington Avenue, Boston, MA 02115-9915, USA
+#L	42 20 N / 71 05 W
+#W	lownlab!kiely (James P. Kiely); Wed Mar 30 14:28:25 EST 1988
+#
+# aliases
+lownlab	= lownlab.harvard.edu, lown.harvard.edu
+#
+#
+# local calls
+lownlab	harvard(DIRECT)
+lownlab	g73(LOCAL)
+#
+# long distance calls
+#
+# we poll these sites even if we have no traffic for them
+harvard	lownlab(HOURLY)
+g73	lownlab(EVENING)
+
+#N	lpi
+#F	uunet.uu.net
+#S	Sun 3/480; 4.2 BSD UNIX
+#O	Liant Software Corporation	
+#C	Greg Bean
+#E	lpi!greg
+#T	+1 508 626 0006 x229 
+#P	959 Concord St., Framingham, MA 01701-4613
+#L	42 18 N / 71 21 W
+#R	gateway for miscellaneous Unix systems at Liant,
+#R	plus  Liant, Austin TX (rmc) via 56 KBS leased line.
+#U	uunet
+#W	lpi!greg (Greg Bean); Mon Jun 15 15:16:25 EDT 1992
+#
+lpi		.liant.com(LOCAL)
+lpi		= lpi.liant.com
+liant 		= lpi.liant.com 
+rmc		= rmc.liant.com
+lpi     rmc(DEDICATED),bostek1(DIRECT),intelcs(DIRECT),
+	uunet(HOURLY*2),drilex(DAILY/2),bu.edu(DAILY/2), 
+	sco(DAILY),tgs(DIRECT),ncr-sd(DAILY)
+
+#N	lpoint
+#S	HP 9000/400; HP-UX 7.03
+#F	
+#O	Laserpoint Software Systems Inc.
+#C	Barry J. Roskuski
+#E	lpoint!postmaster
+#T	+1 413 589 0800 
+#P	Westover Rd.; Ludlow, MA 01056 
+#L	42 10 30 N / 72 31 30 W
+#U	
+#R	
+#W	lpoint!roskuski (Barry J. Roskuski); Thu Jan 30 14:09:57 EST 1992
+#
+#
+lpoint mirror(DAILY), urartu(DAILY)
+
+#N	lsilwm
+#S	Apollo DN4500; 4.3BSD; SR10.1 
+#O	LSI Logic Corporation
+#C	Howard Moftich
+#E	lsilwm!howardm
+#T	1-617-890-0180
+#P	1601 Trapelo Road, Waltham, MA 02154
+#L	42 6 1 N / 71 3 42 W
+#R	
+#W	lsilwm!howardm; Mon Sep 17 8:00:00 EDT 1990
+#U	
+#
+lsilwm	 uunet(DIRECT)
+
+#N	lsrhs
+#S	DEC VAX 11/780; Ultrix V3.1
+#O	Lincoln-Sudbury Regional High School
+#C	Seth Weiss
+#E	lsrhs!postmaster
+#T	508-443-5576
+#P	Lincoln Road, Sudbury, MA  01776
+#L	42 23 N / 71 23 W
+#R
+#W	lsrhs!weiss; Sun Mar 24 10:16:47 EST 1991
+#U	
+#
+lsrhs	xait(EVENING+HIGH)
+	
+
+#N	lti
+#S	Sun-3/280; SunOS 4.03
+#O	Language Technology, Inc.
+#C	Mike Magee
+#E	lti!magee
+#T	+1 508 741 1507
+#P	27 Congress St., Salem, MA 01970
+#L	42 31 N 70 55 W
+#R	LTI builds CASE tools for the MIS field.
+#W	lti!magee (Mike Magee); Thu 18 Oct 10:02:34 EST 1990
+#
+lti	.lti.com
+lti	bu.edu(DAILY/4), bbn(DAILY/4), luvthang(DEAD)
+
+#N	ltx
+#S	Hp Dnxxx; BSD 4.3
+#O	LTX Corporation
+#C	Walter Perry
+#E	ltx!root
+#T	+1 617 461 1000
+#P	LTX PArk At University Avenue, Westwood, MA 02090
+#L	42 12 N / 71 13 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Mar 17 10:15:07 EST 1992
+#U
+#
+ltx	uunet(DEMAND)
+
+#N	lynxinc
+#S	Intel 486; SysVR3
+#O	Lynx, Inc.
+#C	Rich Brennan
+#E	merk!postmaster
+#T	+1 617 648-5050
+#P	Waltham, Ma.
+#W	merk!brennan (Rich Brennan); Tue Oct 15 12:28:51 EDT 1991
+#U	merk
+#
+lynxinc	.lynxinc.com
+lynxinc= lynxinc.com
+lynxinc	merk(DEMAND)
+
+#N	m2c
+#S	DEC VAX 3600; Ultrix v3.1
+#O	Massachusettes Microelectronics Center
+#C	Jim Hautala, John Sutter
+#E	m2c!postmaster 
+#T	+1 508 870 0312
+#P	75 North Drive, Westboro, MA 01581
+#L	42 16 11 N / 71 36 7 W
+#R	
+#U	necntc frog spdcc risky hsdndev ulowell jjmhome
+#U	maxx wpi seqp4 crackers viewlog 
+#W	jjmhome!jjm (Jim Murray); Mon Sep 09 18:58:48 EDT 1991
+#
+m2c = m2c.m2c.org
+m2c	ulowell(DEDICATED), spdcc(DAILY), applix(DAILY),
+	jjmhome(DAILY), seqp4(DAILY), chansw(DAILY),
+	necntc(DAILY), harvard(DEDICATED), dg-pag(DIRECT),
+	frog(DIRECT), matlab(DAILY), maxx(DAILY), orgella(DAILY)
+#
+harvard	m2c(DEDICATED)
+
+#N	magdalen
+#S	Next
+#C	William H. Southworth
+#E	whs@magdalen.dmc.com
+#T	+1 508 772 4568
+#P	91 Ann Lee Rd., Harvard, Ma. 01451
+#W	postmaster@dmc.com; Tue Sep 01 17:30:00 EDT 1992
+#
+magdalen	  = magdalen.dmc.com
+magdalen	  thehulk(DEMAND)
+
+#N	magrathea
+#F	bu.edu
+#S	IBM-PC/XT; Minix 1.4 (and DOS 3.2)
+#O	Ultimate Answer Computer Consulting
+#C	Philip Budne
+#E	budd@bu-it.bu.edu
+#P	Boston University; 111 Cummington St; Boston, Ma 02215
+#T	+1 617 353 2780
+#L	42 24 N / 71 10 W
+#W	budd@bu-it.bu.edu; Tue Oct 31 19:11:56 EST 1989
+magrathea .ultimate.com
+magrathea bu.edu(WEEKLY)
+
+#N	mak
+#S	386 PC/AT; SCO Unix V3.2
+#O	Amnet, Inc.
+#C	Richard Mak
+#E	mak!root
+#T	+1 508 879 0306
+#P	1881 Worchester Road, Framingham, MA  01701
+#L	42 16 N / 71 25 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Jul 30 12:15:58 EDT 1991
+#U
+#
+mak 	uunet(DEMAND)
+
+#N	masscomp
+#O	Concurrent Computer Corporation
+#C	Vinny Carney
+#E	vinny@masscomp, postmaster@masscomp
+#T	1 508 692 6200
+#P	1 Technology Way, Westford, MA  01886
+#L	42 31 05 N / 71 31 05 W
+#R	connected to Nearnet under domain ccur.com
+#U 
+#W	tsdiag!johnd (John Decatur) ;Oct 24 09:30:00 EST 1991
+#
+masscomp .ccur.com, .westford.ccur.com
+#
+masscomp	uunet(EVENING), peora(DAILY), ocpt(DAILY), tinton(DAILY)
+
+#N	matlab
+#S	Sun 386i; BSD 4.2 UNIX
+#O	The MathWorks, Inc.
+#C	Jeff deRienzo
+#E	matlab!postmaster
+#T	+1 508 653 1415
+#P	21 Eliot St., South Natick, MA 01760
+#L	42 18 N / 71 21 W
+#R	Developer of engineering and scientific numerical analysis software
+#U	m2c
+#W	matlab!jeff (Jeff deRienzo); Mon Jun 26 11:37:03 EDT 1989
+#
+matlab	abhg(DAILY), mathworks(DAILY), ulowell(DAILY),
+	m2c(DAILY/4), necntc(DAILY/4)
+
+#N	mbyte
+#S	Apollo DN3000; 4.2 BSD UNIX
+#S	Apollo DN3000; Apollo AEGIS
+#O	MetraByte Corporation
+#C	William Duffy
+#E	mbyte!postmaster
+#T	+1 617 880 3000
+#P	440 Myles Standish Blvd., Taunton, MA 02780
+#L	41 58 30 N / 71 10 30 W
+#R	We make Data Aquisition Products, Dial-out modem only
+#U	apollo
+#W	mbyte!duffy (William Duffy); Tue May 19 11:01:35 EST 1987
+#
+mbyte	apollo(HOURLY)
+#N	mcdbos
+#S	Motorola VME Delta 3600 (MC68030); SVR3
+#O	Motorola, Microcomputer Division
+#C	Rex Melton
+#E	mcdbos!rexm
+#T	+1 617 932 1195
+#P	Baldwin Park II, 7 Alfred Street, Woburn, MA 01801
+#L
+#U	motbos mcdhup
+#W	mcdbos!rexm (Rex Melton); Mon Sep 17 13:30:00 EDT 1990
+#
+mcdbos=	bos.mcd.mot.com
+mcdbos	.bos.mcd.mot.com(LOCAL)
+#
+mcdbos	motbos(DEMAND),	mcdapps(DEMAND), mcdham(DEMAND),
+	mcdrhr(DEMAND),	mcdphl(DEMAND), mcdrv1(DEMAND),
+	mcdhup(DEMAND),	mcdclv(DEMAND)
+
+#N	mcinc
+#S	DecStation 3100; Ultrix 4.1
+#O	McIntyre Consulting
+#C	Jerry Donahue
+#E	mcinc!jerry
+#T	+1 508 371 1935
+#P	43 Bradford Street, Concord, MA  01742
+#L	42 27 N / 71 20 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Jul 30 11:50:53 EDT 1991
+#U
+#
+mcinc	uunet(DEMAND)
+
+#N	mck-csc
+#S	HP9000 series 500; running HP-UX 5.0
+#O	McKinsey and Company, Cambridge Systems Center
+#n	Bernard Gunther
+#E	mck-csc!postmaster
+#T	+1 617 225 2727
+#P	One Memorial Drive, Cambridge, MA  02142
+#L	42 22 N / 71 06 W         
+#R	
+#U	think
+#W	mck-csc!bmg (Bernard Gunther); Wed, 10 Feb 88 15:23:40 EST
+#
+mck-csc mit-eddie(DIRECT), think(DIRECT)
+
+#N	mdtv
+#S	DEC uVAX II; VMS 5.4-2
+#O	Matra Datavision, Inc.
+#C	Andy Brewster
+#E	mdtv!postmaster, mdtv!usenet
+#T	+1 508 640 0940
+#P	2 Highwood Drive, Tewksbury MA 01876
+#L	42 39 00 N / 71 19 20 W
+#R	Running DECUS UUCP v 1.2 and ANU News 5.9
+#R	HIGH signifies a 2400 baud connection
+#R	Gateway to internal DECNET
+#R	users may be reached by mdtv!firstinitial_lastname
+#R	e.g. mdtv!a_brewster
+#U	wang decvax
+#W	mdtv!a_brewster (Andy Brewster); Mon, Nov 11 18:00:00 EDT 1991
+#
+mdtv    wang(DIRECT+HIGH),decvax(DEMAND+HIGH)
+
+#N	mercomp
+#S	Apollo DN3000
+#O	Mercury Computer Systems
+#C	Charles J. Knox
+#E	mercomp!root
+#T	+1 508 458 3100
+#P	600 Suffolk Street, Lowell, MA  01854
+#L	42 38 N / 71 19 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Mon May 22 11:37:14 EDT 1989
+#U
+#
+mercomp 	uunet(DEMAND)
+
+#N	.merk.com, merk
+#S	Intel 486; Interactive Unix SVR3
+#F	merk.merk.com
+#O	Darkside Systems
+#C	Rich Brennan
+#E	postmaster@merk.com
+#T	+1 617 648 5050
+#P	Boston, Ma.
+#L	42 24 N / 71 8 W
+#R	Have TB+, will UUCP. Email/call if you need a connection.
+#W	merk!brennan (Rich Brennan); Wed Sep 16 19:07:09 EDT 1992
+#U	alliant spdcc epochsys works ecosoft sundial mesa esplanade
+#U	uvmark gripl liable level10 lynxinc usinset metasoft roscom
+#U	fcshome harvee
+#
+merk	.merk.com
+merk=	merk.com
+merk	alliant(DIRECT+FAST), spdcc(DIRECT+FAST),
+	<epochsys>(POLLED+FAST), <xylogics>(DEMAND), millipore(DEAD),
+	cogsys(DEAD), works(POLLED), rachael(DAILY), <gripl>(DEMAND),
+	<uvmark>(DEMAND), <kmm>(DAILY), <usinset>(HOURLY*2), <harvee>(DEMAND),
+	<cyrano>(POLLED), <liable>(DAILY), fabulon(DIRECT), <fcshome>(DEMAND),
+	<level10>(POLLED), <esplanade>(POLLED), lynxinc(DIRECT),
+	<ecosoft>(POLLED), sundial(POLLED+FAST), <metasoft>(POLLED+FAST),
+	<miracle>(DEMAND), <mesa>(DEMAND), <roscom>(POLLED)
+
+#N	.metasoft.com, metasoft
+#S	Sun 3/160
+#O	Meta Software Corp.
+#C	Alan Epstein
+#E	postmaster@metasoft.com
+#T	+1 617 576 6920
+#P	125 CambridgePark Dr., Cambridge, MA 02140  USA
+#L	42 22 N / 71 06 W city
+#R	email through uunet & bbn, news through merk.
+#W	metasoft!alan (Alan Epstein); Mon,  9 Dec 15:00:00 EST 1991
+#U	merk
+#
+metasoft	.metasoft.com
+metasoft=	metasoft.com
+metasoft	bbn(HOURLY), uunet(HOURLY), merk(HOURLY)
+
+#N	metrplx
+#S	Sun 4/280
+#O	Metriplex Inc.
+#C	J. Mark Miller
+#E	metrplx!jmm
+#T	+1 617 494 9393
+#P	25 First Street, Cambridge, MA 02141
+#L
+#R
+#W	metrplx!jmm; Fri Aug  9 14:21:52 EDT 1991
+#
+metrplx mit-eddie(DAILY)
+
+#N      mgh-sad
+#S      Hewlett/Packard 9000 model 350; HP-UX
+#O      Masschusetts General Hospital; Psychiatry Dept; Biostatistics
+#C      David M. Shera
+#E      mgh-sad!postmaster, harvard!harvarda!shera
+#T      +1 617 726 1733
+#P      Warren 702; MGH; Boston MA 02114
+#L      71 04 48 N / 042 20 06 W
+#R      Biostatistics at MGH
+#U
+#W      horton@harvard; Mon May 18 11:11:19 EDT 1987
+mgh-sad harvard(DAILY/4)
+#N	.bix.com, mhis
+#F	eddie.mit.edu
+#S	PYRAMID 9835; OSx4.4
+#O	BIX - General Videotex Corporation
+#C	Gary Kendall
+#E	gdk@mhis.bix.com
+#T	+1 508 777 3890
+#P	1030 Mass. Ave., Cambridge, MA 02139
+#L
+#R	This is also mhis.mhis.mgh.com
+#W	gdk@mhis.bix.com (Gary Kendall); Sat Feb  1 20:33:04 EST 1992
+#U
+#
+# domain gateway
+mhis	      bix.com(LOCAL)
+bix.com	   .bix.com(LOCAL)
+.bix.com	  = {.bix, .mhis, .mhbill, .mhbxdv}(LOCAL)
+# host equivalencies
+bix.com	   = bix.bix.com
+mhis	      = mhis.bix.com, mhis.mhis.mgh.com
+# connectivity info
+mhis	      drilex(DEMAND), mit-eddie(DEMAND), ccomp(POLLED)
+
+#N	micro-ix
+#S	Micro/ix 350; ESIX
+#O	MICRO/ix
+#C	Karen Kessler
+#E	micro-ix!karen
+#T	+1 508 460-0960
+#P	547 Boston Post Road, Marlboro MA. 01752
+#L	42 21 N / 71 31 W city
+#R
+#U	jjmhome
+#W	jjmhome!jjm (Jim Murray); Sat Jun 30 13:47:12 EDT 1990
+#
+micro-ix    jjmhome(DAILY)
+
+#N	microway
+#S	80486 Based PC/AT; ISC Unix V.3.2
+#O	MicroWay, Inc.
+#C	Mark Barrenechea
+#E	microway!root
+#T	+1 508 746 7341
+#P	Bldg 20, Cordage Park, Plymouth, MA  02360
+#L	41 57 N / 70 40 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Nov 26 17:53:46 EST 1990
+#U
+#
+microway	uunet(DEMAND)
+
+#N	midnight
+#S	Sitek PC/AT 80286 Clone; Microport System V/AT Release 2.4
+#O	Roger's Nighttime Mistress
+#C	Roger M. Levasseur
+#E	rml@midnight
+#T	+1 508 957 4087
+#P	420 Skyline Drive #16, Dracut, Massachusetts  01826
+#L	42 40 N / 71 19 W city
+#R	home machine for email
+#U	
+#W	rml@midnight.mv.com (Roger M. Levasseur); Sat Aug 31 11:52:22 EDT 1991
+#
+midnight	= midnight.mv.com
+midnight	mv(DEMAND+HIGH), cocktrice(DAILY*2), esprit(DEAD)
+
+#N	millidc
+#S	DEC MicroVAX II, ULTRIX V3.1
+#O	Millipore Corporation
+#C	Rudy Rumohr Jr.
+#E	millidc!rumohr
+#T	+1 617 275 9200 x2590
+#P	80 Ashby Rd., M/S D13A, Bedford, MA. 01730
+#L	42 43 N / 71 11 W
+#R	Gateway machine to the Millipore R & D LAN
+#W	millidc!rumohr (Rudy Rumohr Jr.); Thu Dec 25 23:46:00 EST 1990 
+#U	
+#
+#
+millidc	uunet(EVENING+FAST), millipore(LOCAL)
+
+#N	millipore
+#S	SUN 386i SUNOS 4.0.2
+#O	Millipore Corporation
+#C	Brian Utterback
+#E	millipore!blu
+#T	+1 617 275 9200 x8245
+#P	75G Wiggins Ave. Bedford, MA. 01730
+#L	42 31 N / 71 16 W
+#R	Gateway machine to the Millipore R & D LAN
+#W	millipore!blu (Brian Utterback); Tue Apr 3 17:19:00 EDT 1990 
+#U	cg-atla merk bu-tyng
+#
+#
+millipore	cg-atla(DEMAND+FAST), merk(DEMAND+FAST), bu-tyng(DEMAND+FAST),
+	wang(DEMAND+FAST), millidc(LOCAL)
+
+#N	minya
+#S	ESIX (386/ix) Sys 5.3 Unix
+#O	John Chambers' living room
+#C	John Chambers
+#E	minya!postmaster
+#T	+1 617 484 6393
+#P	178 Trapelo Road, Belmont MA 02178
+#L	71 11 W / 42 23 N
+#R	
+#U	adelie ima
+#W	minya!jc (John Chambers); Sun May 19 11:19:40 EDT 1991
+#	
+minya	bu.edu(DAILY), harvard(DAILY*2), ima(DAILY),
+	mit-eddie(DAILY), ora(DAILY)
+
+#N	.tmc.com, mirror
+#S	Pyramid 9820; OSx5.0
+#F	eddie.mit.edu 
+#O	Times Mirror Corporation
+#C	Phil Madsen
+#E	postmaster@mirror.TMC.COM
+#T	+1 617 661 0777 
+#P	Mirror Systems; 2067 Massachusetts Avenue; Cambridge, MA 02140 
+#L	42 23 20 N / 71 07 10 W
+#U	bu.edu frog g73 ima necntc premise rayssd ssi3b1 urartu xait
+#R	registered with the UUCP project.
+#R	mirror to zone1.com - see zone1.com entry for additional information
+#R	or mail requests to zone1-info@mirror.TMC.COM
+#W	roskuski@mirror.TMC.COM (Barry J. Roskuski); Thu Nov 15 14:28:28 EST 1990
+#
+mirror	.tmc.com
+mirror=mirror.tmc.com
+#
+# Prism is no longer an active machine. Make all mail go to Mirror
+# for now
+#
+mirror=prism.tmc.com
+#
+mirror	att(EVENING+FAST), bu.edu(HOURLY+FAST), centaur(WEEKLY), 
+        ctron(POLLED), cybvax0(DAILY), emoryu1(WEEKLY), edinc(DAILY), 
+        frog(DAILY/2), g73(POLLED), galaxia(WEEKLY), howtek(WEEKLY), 
+        hpwala(WEEKLY), ima(HOURLY), linus(DAILY/3), lpoint(DAILY),
+	mit-eddie(DEMAND), necntc(HOURLY), otto(DAILY), premise(DEMAND+FAST), 
+        pyramid(EVENING+FAST), pyrbos(DEAD), pyrnj(EVENING+FAST), 
+        rayssd(EVENING+FAST), redsox(HOURLY), spdcc(HOURLY), ssi3b1(HOURLY), 
+        urartu(HOURLY), vcvax1(WEEKLY/4), wjh12(DEMAND), xait(HOURLY)
+
+#N	missy
+#S	Sun 3/50
+#O	Marine Imaging Systems
+#C	Tom Campbell
+#E	missy!tc
+#T	+1 508 564 5122
+#P	4 Barlows Landing Road, Pocasset, MA  02559
+#L	41 42 N / 70 37 W city
+#R
+#W	donnalyn@uunet.UU.NET (Donnalyn Frey); Tue Oct 25 11:01:26 EDT 1988
+#U
+#
+missy	uunet(DEMAND)
+
+#N	mit-eddie
+#S	DEC VAXstation-3200
+#F	eddie.mit.edu
+#O	Massachusetts Institute of Technology
+#C	Alan Wu
+#E	uucp@eddie.mit.edu
+#T	617-253-2737
+#P	MIT EECS Department, Room 38-394; Cambridge, MA 02139
+#L	42 21 40 N / 71 05 35 W
+#U	genrad micro-heart-of-gold.mit.edu
+#W	uucp@eddie.mit.edu (Automatic map generator); Tue Oct 29 15:45:02 EST 1991
+#R	MIT.EDU is registered with the NIC
+#
+# NO LONGER THE GATEWAY INTO THE DOMAIN
+#
+#mit-eddie .mit.edu
+mit-eddie = eddie.mit.edu
+#
+# NAMES RESERVED IN THE UUCP NAMESPACE (FOR FUTURE CONNECTED MACHINES)
+#
+# gaffa = gaffa.mit.edu
+# uhog = uhog.mit.edu
+# wonko = wonko.mit.edu
+# fenchurch = fenchurch.mit.edu
+#
+# TCP/UUCP links
+#
+mit-eddie	 bbn (DEDICATED),
+	 bloom-beacon (DEDICATED),
+	 bu.edu (DEDICATED),
+	 gatech (DEDICATED),
+	 harvard (DEDICATED),
+	 mit-athena (DEDICATED),
+	 rutgers (DEDICATED),
+	 think (DEDICATED),
+#
+# dialup links
+#
+mit-eddie	 allegra (HOURLY),
+	 andante (HOURLY),
+	 genrad (HOURLY),
+	 mirror (HOURLY),
+	 frog (HOURLY),
+	 jfwhome (HOURLY),
+	 eplunix (HOURLY),
+	 mck-csc (HOURLY),
+	 icot34 (HOURLY),
+	 alliant (HOURLY),
+	 apollo (HOURLY),
+	 ccomp (HOURLY),
+	 spt (HOURLY),
+	 minya (HOURLY),
+	 leafusa (HOURLY),
+	 premise (DEAD),
+	 saddle (HOURLY),
+	 paradigm (HOURLY),
+	 dandelion (HOURLY),
+	 romed (DEAD),
+	 difrel (HOURLY),
+	 smersh (HOURLY),
+	 progress (HOURLY),
+	 metrplx (HOURLY),
+	 kendra (HOURLY),
+	 congrunt (DEAD),
+	 winter (HOURLY),
+	 digrev (HOURLY),
+	 bcs-mac (HOURLY),
+#
+#N	bloom-beacon
+#S	DEC MicroVAX II; Unix BSD 4.3+NFS (Wisconsin)
+#O	MIT Student Information Processing Board
+#C	Jean Marie Diaz, Ted Ts'o, Henry Mensch
+#E	bloom-beacon!usenet, usenet@bloom-beacon.mit.edu
+#T	+1 617 253 7788
+#P	84 Massachusetts Avenue, Cambridge MA, 02139
+#L	42 22 N / 71 06 W city
+#R	bloom-beacon.mit.edu on the Internet; address is 18.70.0.223
+#W	ambar@bloom-beacon.mit.edu (Jean Marie Diaz); Tue Feb  6 23:23:00 EST 1990
+#U	mit-eddie snorkelwacker mintaka mcgill-vision nuhub eru
+#U	cambridge.apple.com bu.edu gatech ftp primerd ucbvax shelby
+#
+bloom-beacon = "bloom-beacon.mit.edu"
+bloom-beacon = "news.mit.edu"
+bloom-beacon = "beacon.mit.edu"
+#
+#
+bloom-beacon	mit-eddie(LOCAL), mintaka(LOCAL),
+	mit-athena(LOCAL),
+	bu.edu(DEDICATED), think(DEDICATED+LOW),
+	spt(HOURLY), alphalpha(DAILY/2)
+#
+#N	mit-amt
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	MIT Media Lab
+#C	Henry Holtzman
+#E	mit-amt!usenet
+#T	+1 617 253 0319
+#P	20 Ames Street, Cambridge, MA 02139
+#L	42 21 40 N / 71 04 35 W
+#R	This is also media-lab.media.mit.edu [18.85.0.2] on the internet
+#U	mit-eddie bloom-beacon mit-caf
+#W	mit-amt!holtzman (Henry N. Holtzman); Tue Aug  4 18:16:56 EDT 1987
+#
+mit-amt = "mit-amt.media.mit.edu"
+mit-amt = "media-lab.media.mit.edu"
+mit-amt	mit-eddie(DEDICATED), mit-ems(DEDICATED), mit-caf(DEDICATED)
+#
+#N	mit-arctic
+#S	DEC Micro VAX-II; ULTRIX-11 V1
+#O	MIT Underwater Acoustics Research Lab
+#C	Bill Huang
+#E	mit-arctic!postmaster
+#T	+1 617 253 2105
+#P	MIT Room 5-007, Cambridge MA 02139
+#L	42 21 17 N / 71 05 36 W
+#R
+#W	mit-erl!gildea (Stephen Gildea); 18 Apr 86
+#U
+#
+#mit-arctic mit-erl(HOURLY)
+#
+#N	mit-astron
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	MIT
+#C	Richard G. French, Edward W. Dunham
+#E	mit-astron!su
+#T	+1 617 253 7795
+#P	Building 54 Room 419 MIT Cambridge, MA 02139 USA
+#L	71 03 W / 42 13 N
+#W	mit-astron!rgf (Richard G. French); 17 March 1986
+#
+#mit-astron	mit-erl(DAILY/4)
+#
+#N	mit-athena
+#S	DEC MicroVAX-II; Ultrix
+#O	MIT, Project Athena
+#C	Ron Hoffmann, Jon Rochlis, Jeff Schiller
+#E	mit-athena!postmaster
+#T	(617) 253-4101
+#P	E40-311, 77 Massachusetts Avenue, Cambridge, MA  02139
+#L	42 22 N / 71 06 W
+#R
+#W	jbs@EDDIE.MIT.EDU (Jeff Siegal); Sat Apr  2 02:19:59 EST 1988
+#
+mit-athena = athena.mit.edu
+mit-athena	bloom-beacon(DIRECT)
+#
+#N	mit-atrp
+#S	DEC VAX 11/785; 4.3 BSD UNIX
+#O	MIT Advanced Television Research Program
+#C	Peter Monta
+#E	mit-atrp!postmaster
+#T	+1 617 253 4171
+#P	MIT 36-663, 50 Vassar Street, Cambridge MA 02139
+#L	42 22 N / 71 06 W city
+#R
+#W	davinci!rlv (Ralph L. Vinciguerra); Fri May 3 13:00:00 EDT 1991
+#
+mit-atrp	  dspvax(LOCAL), mit-caf(LOCAL), mit-eddie(LOCAL),
+	          mit-ems(DIRECT), mit-erl(DIRECT)
+#
+#N	mit-caf
+#S	DEC VAX 11/785; 4.3 BSD UNIX
+#O	MIT Microsystem Tecnology Lab.
+#C	Mike Shanzer
+#E	mit-caf!shanzer
+#T	+1 617 253 0930
+#P	39-311, 60 Vassar St., Cambridge, Ma 02139, USA
+#L	42 22 N / 71 06 w city 
+#R	CAF is both on the Internet and the MIT chaos net. 
+#W	mit-caf!shanzer; Thu Dec 10 16:17:12 1987
+#U	lsrhs
+#
+#mit-caf = mit-caf.mit.edu
+#mit-caf = caf.mit.edu
+#mit-caf	mit-amt(LOCAL), mit-atrp(LOCAL), mit-eddie(LOCAL),
+#	lsrhs(DEMAND), mit-vax(LOCAL+LOW)
+#
+#N	mit-cipg
+#S
+#O	MIT Cognitive Information Processing Group
+#C	Stephen Corteselli
+#E	mit-cipg!cortesel
+#T	(617) 253-8135
+#P	Cambridge, MA
+#L	42 22 N / 71 06 W
+#R
+#W	mit-erl!gildea, 6/13/85
+#U
+#
+#mit-cipg	mit-eddie(DIRECT), mit-ems(DIRECT)
+#
+#N	mit-ems
+#S	Vax 11/750, 4.2BSD
+#O	MIT Experimental Music Studio
+#C	Steven Haflich
+#E	mit-ems!smh
+#T	(617) 253-7441
+#P	Rm. E15-488, MIT, Cambridge MA 02139
+#L	42 22 N / 71 06 W
+#R
+#W	Steve Haflich 5/21/85
+#
+#mit-ems mit-eddie(DIRECT), mit-vax(DIRECT), mit-amt(DIRECT), mit-atrp(DIRECT),
+#	mit-ccc(LOCAL), mit-cipg(LOCAL), dspvax(LOCAL), ima(DIRECT),
+#	sdcarl(EVENING), ircam(WEEKLY), bc-ccm(EVENING), numusic(EVENING),
+#	sunybcs(EVENING), tektronix(EVENING)
+#
+#N	mit-erl
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	MIT Earth Resources Lab
+#C	Stephen Gildea
+#E	mit-erl!postmaster
+#T	+1 617 253 7866
+#P	42 Carleton Street, Cambridge MA 02142
+#L	42 21 42 N / 71 05 11 W
+#R	also have Comtal One/20, Adage 3010
+#W	mit-erl!gildea (Stephen Gildea); 14 Jul 87
+#U	
+#
+# free calls
+#
+#mit-erl	mit-eddie(DIRECT), dspvax(DIRECT), mit-atrp(DIRECT),
+#	mit-astron(DIRECT), mit-space(DIRECT),
+#	mit-arctic(DIRECT), mit-kermit(DIRECT), mit-condmat(DIRECT),
+#	harvard(DIRECT), aqua(DIRECT), whoi-polar(DIRECT)
+#
+# local calls
+#
+#mit-erl	think(DEMAND), beldar(DAILY)
+#
+# long distance calls
+#
+#mit-erl	mosaic(DAILY), apollo(EVENING)
+#
+# polled sites
+#
+#dspvax		mit-erl(HOURLY)
+#mit-astron	mit-erl(HOURLY)
+#mit-kermit	mit-erl(HOURLY)
+#mit-arctic	mit-erl(HOURLY)
+#whoi-polar	mit-erl(HOURLY)
+##
+# the local network
+#ERL-CHAOS = {mit-duke, mit-earl, mit-ice, mit-marquis, mit-shale,
+#		mit-limestone}!(LOCAL)
+#mit-erl = mit-duke
+#mit-erl = erl
+#mit-earl	ERL-CHAOS
+#mit-ice		ERL-CHAOS
+#mit-marquis	ERL-CHAOS
+#mit-shale	ERL-CHAOS
+#mit-limestone	ERL-CHAOS
+#
+#
+#N	mit-vax
+#S	Vax 11/780, 4.2BSD
+#O	MIT Laboratory for Computer Science
+#C	Jon Seiber
+#E	mit-vax!jon
+#T	(617) 253-2737
+#P	Cambridge MA
+#L	42 22 N / 71 06 W
+#R
+#W	mit-erl!gildea 6/28/85
+#U
+#
+#mit-vax	allegra(DAILY*2), biomed(DAILY/6), csu-cs(WEEKLY),
+#	frog(DAILY/6), harvard(WEEKLY), mit-eddie(DIRECT)
+
+#N	.mitech.com, mitech
+#S	VAXSTATION-2000; VMS V4.7, DECUS UUCP
+#F	uunet.uu.net
+#O	Mitech Corporation
+#C	George J. Carrette
+#E	mitech!postmaster
+#T	508 371 2002
+#P	77 Junction Square, Concord, MA 01742
+#L	42 28 N / 71 24 W CITY
+#R	M/POWER, software for Process Control and Management.
+#W	mitech!postmaster (George J. Carrette); Thu Mar 12 10:00:00 EST 1992
+#
+mitech   .mitech.com
+mitech = mitech.mitech.com
+mitech = mitech.com
+mitech   eileen(DAILY), uunet(DAILY), paradigm(DEMAND+HIGH+HIGH)
+
+#N	mjs486
+#S	486-25 AT Clone; Esix System V/386 3.2D
+#O	Schedlbauer Consulting
+#C	Martin Schedlbauer
+#E	mjs486!martin
+#T	+1 508 670 2169
+#P	8 Gilman rd., Billerica MA 01862
+#L	42 27 N / 71 19 W
+#R
+#U	wang
+#W	fitz@wang.com (Tom Fitzgerald); Tue Jan 08 13:10:40 EST 1991
+#
+mjs486	wang(DEMAND)
+
+#N	modicon
+#S	Encore PowerNode 9080; UTX/32.2Ou06
+#O	Modicon, Inc.
+#C	Rudy Belliardi
+#E	modicon!rbelliar
+#T	+1 508 975 9771
+#P	1 High St., North Andover, MA 01845
+#L	42 41 N / 71 08 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Nov 18 09:34:28 EST 1991
+#U
+#
+modicon	uunet(DEMAND)
+
+#N	moresys
+#S	Sun Sparcstation 2; SunOS 4.1.1
+#O	MORE Systems, Inc.
+#C	Robert Morrison
+#E	moresys!root
+#T	+1 617 270 6663
+#P	1 Mountain Rd., Burlington, MA 01803
+#L	42 08 N / 71 15 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Dec 10 17:08:42 EST 1991
+#U
+#
+moresys	uunet(DEMAND)
+
+#N	mosaic
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Mosaic Technologies, Incorporated
+#C	Bob Handsaker, Roger Riggs
+#E	mosaic!postmaster
+#T	+1 617 667 2383
+#P	47 Manning Road, Billerica, Massachusetts, USA  01821-3970
+#L	42 32 N / 71 16 W 
+#R	
+#W	mosaic!handsake (Bob Handsaker); Fri Jan 10 17:14:19 EST 1986
+#U	
+#
+mosaic	mit-erl(DAILY)
+
+#N	motbos
+#S	Motorola SYS1131UY341; System V R3V4
+#O	Motorola SPS 
+#C	Art Parmet
+#E	motbos!postmaster
+#T	+1 617 932 9700
+#P	300 Unicorn Park Drive, Woburn, MA, 01801
+#L	42 28 N / 71 09 W
+#R	Motorola Sales and Applications Field Office
+#W	motbos!artp (Art Parmet); Wed Apr 17 09:30:00 EDT 1991
+#U	mcdbos
+#
+#
+motbos	inmet(DEMAND),   mcdbos(DIRECT),  decwrl(EVENING),
+ 	mcdchg(DEMAND),  mcdham(DEMAND),  mcdhup(DEMAND), 
+	mnetor(DEMAND),  dg(POLLED),      motatl(DEMAND),
+	motaus(DEMAND),  mcdcup(DEMAND),  decvax(EVENING),
+	oakhill(DEMAND), mcdden(DEMAND)  
+
+#N	mrmarx
+#S	Masscomp/Concurrent 5700; RTU 4.0A
+#O	MainStream Software Corporation
+#C	Steven Magnell
+#E	mrmarx!postmaster
+#T	+1 617 894 3399
+#P	411 Waverly Oaks Road, Waltham, MA 02154-8414
+#L	42 22 N / 71 14 W city
+#R	new address, new domain
+#W	mrmarx!sam (Steve Magnell); Tue Jan 22 11:41:02 EST 1991
+#U	uunet
+#
+#mrmarx	.msc.com
+#mrmarx	= mrmarx.msc.com
+#mrmarx	abvax(DEMAND)
+
+#N	mrob
+#S	Apple Macintosh IIsi; UUPC 2.1x
+#O	Macintosh free software
+#C	Robert P. Munafo
+#E	mrob!rpm
+#T	+1 617 738 0650
+#P	239 Clinton Road, Brookline, MA 02146
+#L	42 20 N / 71 05 W city
+#W	rpm@mrob.UUCP ; Thu Jul 25 02:46:51 EDT 1991
+#
+mrob    spdcc(DAILY)
+
+#N	mrst
+#S	Sun 3/180(x2); Sun 3/{140,110,60,50} 4.2 BSD UNIX (version 3.5)
+#O	MRS Technology, Inc.
+#C	Eric Rose
+#E	mrst!esr
+#T	+1 508 250-0450
+#P	10 Elizabeth Drive, Chelmsford, MA, 01824
+#L	42 31 N / 71 25 W
+#R	Flat Panel Display Manufacturing Hardware
+#R	We have a Telebit Trailblazer+
+#R	deleted genrad link - 9/2/90; nemap@harvard
+#W	mrst!esr (Eric Rose); Fri Sep 9 09:45:00 EST 1988
+#
+mrst	necis(DIRECT), apollo(DIRECT), necntc(DEMAND),
+	mit-eddie(EVENING), wrs(WEEKLY)
+
+#N	mta
+#S	Sun Sparc; SunOS
+#O	Lewis, Trachtenberg & Assoc.
+#C	David Lewis
+#E	mta!root
+#T	+1 617 621 7173
+#P	1 Kendall Sq., Cambridge  MA 02139
+#L	42 21 N / 71 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Oct 10 14:18:48 EDT 1991
+#U
+#
+mta	uunet(DEMAND)
+
+#N	munsell
+#O	Advanced Electronic Systems of EPPS
+#C	Philip Hammar
+#E	munsell!jackal,munsell!usenet
+#T	+! 617 276 7249
+#P	32 Wiggins Ave., Bedford, Massachusetts, 01730, USA
+#L	42 31 N / 71 16 W
+#W	munsell!jackal (Phil Hammar); Wed Feb 22 08:52:31 EST 1989
+#U	infinet
+#
+munsell	infinet(HOURLY*2), ima(HOURLY*2)
+
+#N	mvarc
+#F
+#S	AT&T 3b1/Unix System V (unixpc 3.51m)
+#O	Merrimack Valley Amateur Radio Club
+#C	Andrew Gaunt
+#E	mvarc!postmaster
+#T	+1 603 382 6012
+#P	1600 Osgood Street, North Andover, Mass. 01845
+#L	42 39 N / 71 8 W
+#R	1200 bps telephone access. Also running KA9Q Net TCP/IP Software
+#R	IP address 44.56.4.183/w1fw.ampr.org; 145.51 Mhz
+#W	mvarc!ka1ylg (Andrew W. Gaunt); Wed Feb 05 09:00:00 EST 1992
+#U
+#
+# 1200 Baud connections
+#
+mvarc	inforail(DIRECT)
+
+#N	n1mnb
+#S	Macintosh LC--MacOS 7.0.0 (Tuned 1.1.1)
+#C	Brad Ackerman
+#E	postmaster%n1mnb.uucp@vicstoy.uucp
+#T	+1.508.475.0744
+#P	6 Penacook Place, Andover, MA 01810-4737, U.S.A.
+#L	42 29 N / 71 26 W
+#W	brad%n1mnb.uucp@vicstoy.uucp (Brad Ackerman); Wed Aug 1 14:20:00 1992
+#
+#n1mnb	           vicstoy(DAILY)
+
+#N	n73a
+#S	PDP 11/73, 2.9BSD
+#O	Dept. of Neurobiology, Harvard Medical School
+#C	James P. Kiely
+#E	n73a!postmaster
+#T	+1 617 732 1772
+#P	25 Shattuck St, Boston, MA 02115
+#L	42 20 N / 71 10 W
+#R	
+#W	n73a!kiely (James P. Kiely); Wed Mar 30 15:06:53 EST 1988
+#U
+#
+n73a	wjh12(HOURLY*2), g73(POLLED)
+
+#N	.natural.com, natural
+#S	SUN SPARC IPX, SUN OS 4.1.1
+#O	Natural Intelligence, Inc.
+#C	David Spiegelman
+#E	natural!postmaster
+#T	+1 617 876 4876
+#P	2067 Massachusetts Avenue, Cambridge, MA  02140
+#L	42 20 N / 71 5 W city
+#U	bostrauma
+#R	natural.com is a SUN receiving and posting mail and news.
+#W	natural!dspiegel (David Spiegelman) ; Wed March 18 13:45:00 EST 1992
+#
+natural	.natural.com
+natural	= natural.natural.com
+natural	bostrauma(HOURLY), iecc(HOURLY), spdcc(HOURLY)
+
+#N	necis
+#S	NEC Astra XL/32; ASTR-IX (Sys V.2)
+#O	NEC Information Systems
+#C	Serge Laferriere
+#E	necis!sjl
+#T	+1 508 635 6000
+#P	1300 Massachusetts Ave, Boxborough, MA 01719-2203
+#L	42 30 N / 71 25 W
+#W	necis!sjl; Thu May  4 13:23:44 EDT 1989
+#
+necis = necis.ma.nec.com
+necis = necis.nec.junet
+necis	mrst(DEMAND+FAST), necntc(DEMAND+FAST), puck(DEMAND+FAST), 
+	transfer(DEMAND+FAST)
+#
+necntc 	necis(DEMAND)
+
+#N	necntc
+#S	DEC VAX-11/780; ULTRIX-32 V1.2
+#F	harvard.edu
+#O	NEC Electronics Inc.
+#C	Michael Andersen,Dave Davidian
+#E	usenet@necntc.ma.nec.com
+#T	+1 508 655 8833 x4217,4262
+#P	One Natick Executive Park, Natick, MA 01760
+#L	42 18 N / 71 21 W
+#R
+#W	necntc!mike (Michael Andersen) ; Tue Mar 12 15:45:10 EDT 1991
+#U	necis gordon mirror
+#
+necntc= necntc.ma.nec.com
+#
+necntc  ames(DIRECT+HIGH), decuac(DIRECT+HIGH), 
+	frog(DIRECT), gordon(DIRECT+LOW), harvard(DIRECT+HIGH+HIGH),
+	ima(DIRECT+HIGH), inmet(DIRECT), <linus>(DIRECT),
+	lpi(DIRECT), mirror(DIRECT+HIGH), mit-eddie(DIRECT),
+	m2c(DIRECT), mrst(DAILY), ncoast(EVENING), nec(DEMAND), nec-gw(DEMAND),
+	necis(DIRECT+FAST), necspl(DEMAND+LOW+LOW), necssd(DEMAND+LOW),
+	primerd(DIRECT/2), puck(DAILY), rayssd(DEMAND+FAST)
+#
+harvard	necntc(DIRECT+HIGH)
+
+#N	nedie
+#S	Sun IPC/SunOS 4.1.1
+#O	New England Die Cutting Inc.
+#C	Andrew Gaunt
+#E	nedie!postmaster
+#T	+1 603 382 6012
+#P	415 River Street, Haverhill, MA 01832
+#L	42 39 N / 71 8 W
+#R	Telebit T2500 19.2K PEP
+#W	nedie!awg (Andrew W. Gaunt); Wed Feb 05 09:00:00 EST 1992
+#U	wizvax
+#
+# T2500 connections 19.2K PEP
+#
+nedie	wizvax(DIRECT+FAST)
+#
+# 2400 Baud connections
+#
+nedie	inforail(DIRECT)
+
+#N	neprac
+#S	Vax 11/730, Ultrix 2.0
+#O	National Electron Probe Resource for the Analysis of Cells
+#C	Mohamed el Lozy
+#E	hscfvax!postmaster
+#T	+1 617 732 0762
+#P	665 Huntington Avenue, Boston, MA 02115-9915, USA
+#L	42 20 N / 71 05 W
+#R	
+#W	popvax!mohamed (Mohamed el Lozy); Thu Jul 14 16:02:56 EDT 1988
+# local calls
+neprac hscfvax(HOURLY)
+#
+# long distance calls
+#
+# poll these sites
+hscfvax neprac(HOURLY)
+#
+# end of entry for ``neprac''
+
+#N	newmedia
+#S	Sun-3/60; SunOS 4.1
+#O	New Media Graphics, Inc.
+#C	Jim Beveridge
+#E	jim@newmedia.UUCP
+#T	+1 508 663 0666 x122
+#P	780 Boston Rd, Billerica, MA. 01821
+#L	42 30 N / 71 16 W city
+#R	Gateway to internal R&D network
+#W	fitz@wang.com (Tom Fitzgerald); Mon Jul 08 17:31:22 EDT 1991
+#U	wang
+#
+newmedia	wang(DEMAND+FAST)
+
+#N	nika
+#S	Nextstation
+#O	Nika Software
+#C	Ken Pelletier
+#E	nika!ken
+#T	+1 617 643 3868
+#P	14 Wellington Street, Arlington, MA 02174
+#L	42 24 N / 71 08 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Mar 31 15:10:08 EST 1992
+#U
+#
+nika	uunet(DEMAND)
+
+#N	nixbur
+#S	Targon 35;SysV.3
+#O	Nixdorf Computer Engineering Co.
+#C	Thomas Bechard 
+#E	nixbur!bechard
+#T	+1 617 864 0066
+#P	4 Cambridge Center 8th Floor, Cambridge, MA 02142
+#L	42 21 N / 71 06 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Thu Feb  8 11:09:38 EST 1990
+#U
+#
+nixbur	uunet(DEMAND)
+
+#N	noblent
+#S	Sun 386i; SunOs 4.0.3
+#O	Noblent, Inc.
+#C	Steven Lemmo
+#E	noblent!root
+#T	+1 508 655 2438
+#P	12 Braemore Road, Natick, MA 01760
+#L	42 17 N / 71 21 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Dec  6 14:51:23 EST 1991
+#U
+#
+noblent	uunet(DEMAND)
+
+#N	northstar.dmc.com, northstar
+#F	dmc.com
+#S	Macintosh PowerBook 170;System 7.0.1
+#O	Doyle Munroe Consultants, Inc.
+#C	Dick Munroe
+#E	thehulk!postmaster
+#T	+1 508 568 1618
+#P	267 Cox St., Hudson, MA 01749
+#L	42 23 N / 71 34 W [city]
+#R	Running uAccess V1.5V3
+#W	thehulk!postmaster (Dick Munroe); Sat Feb 15 06:00:00 EDT 1992
+#
+northstar		= northstar.dmc.com
+northstar		thehulk(DAILY)
+
+#N	notework
+#S	PC; Novell-MHS
+#O	Notework Corporation
+#C	Christopher Pisley
+#E	notework!crisley
+#T	+1 617 734 4317
+#P	72 Kent Street, Brookline, MA 02146
+#L	42 19 N / 71 07 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon May 13 18:09:27 EDT 1991
+#U
+#
+notework	uunet(DEMAND)
+
+#N	nt1l
+#S	Intel 386; System V
+#O	Koch Research
+#C	Donald Koch
+#E	nt1l!usenet
+#T	+1 508 620 1096
+#P	173 Newbury St., Framingham, Ma 01701
+#L	42 18 38 N / 71 23 35 W
+#R	
+#U	primerd.prime.com
+#W	aardvark@primerd.prime.com (Don Koch); Sat Sep 10 20:22:27 EDT 1990
+#
+nt1l	primerd(HOURLY)
+
+#N	nubian
+#S	Cadmus 9000; Cadmus Unix v3.9
+#O	Home machine, Kenneth R. Crudup
+#C	Kenny Crudup
+#E	nubian!postmaster
+#T	+1 617 524 5929
+#P	16 Plainfield St, Jamaica Plain, MA 02130
+#L	42 20 N / 71 05 W city
+#R	Other feeds welcomed, going to 9.6k soon
+#U
+#W 	nubian!kenny (Kenny Crudup); Mon Sep 24 22:54:00 EDT 1990
+#
+nubian	ima(DIRECT), world(DAILY/4)
+
+#N	nyqrn
+#S	IBM PS2 P70; DOS
+#O	
+#C	Hugh Sider
+#E	nyqrn!postmaster
+#T	+1 508 366 6365 x 300
+#P	1900 West Park Drive, Westboro MA. 01581
+#L	42 17 N / 71 34 W city
+#R
+#U	jjmhome
+#W	jjmhome!jjm (Jim Murray); Sat Feb 08 20:43:45 EST 1992
+#
+nyqrn	jjmhome(DAILY)
+
+#N	oaktree
+#S	Dell 433-TE ;  MS-DOS 3.30
+#O	Oak Tree Software, Inc.
+#C	Robert A. Duff
+#E	oaktree!bobduff
+#T	+1 617 665 4780
+#P	1053 Main St., Melrose MA 02176
+#L	42 28 N / 71 04 W
+#U
+#R
+#W	oaktree!bobduff (Bob Duff) ; Sat Jul 13 08:14:32 EDT 1991
+#
+# UUCP connects
+#
+oaktree sli(DAILY)
+
+#N	obsolete
+#S	Apollo DN3000; Domain/IX SR10.1
+#O
+#C	Kee Hinckley
+#E	nazgul@obsolete.uucp
+#T	+1 617 641 3805
+#P	102 Gloucester St., Arlington, MA  02174
+#L	42 25 N / 71 11 W
+#R	Soon to serve as a ProLine gateway to pro-angmar.
+#W	nazgul@osf.org (Kee Hinckley); Mon Nov 28 11:50:09 EST 1988
+#
+obsolete	bu.edu(DIRECT)
+
+#N	october
+#S	generic XT ; IBM PC-DOS 3.20
+#O	personal
+#C	Mahatma Kane-Jeeves
+#E	october!postmaster
+#T	+1 617 (unlisted)
+#P	(private residence) Westwood, MA 02090
+#L	42 26 N / 71 13 W city
+#R	none
+#U	none
+#W	october!mkj (Mahatma Kane-Jeeves) ; Wed Nov 06 15:23:00 EST 1991
+#
+october	alphalpha(DAILY)
+
+#N	odi
+#S	Sun 3-160 
+#O	Object Design, Inc.
+#C	Keith Stone
+#E	odi!keith
+#T	+1 617 270 9797
+#P	1 New England Executive Park, Burlington, MA  01803
+#L	42 20 N / 71 05 W city
+#R
+#W	keith@odi.com (Keith Stone); Sat Jan  4 07:44:01 EST 1992
+#U
+#
+odi	.odi.com(LOCAL), uunet(DEMAND), jalhome(DEMAND)
+
+#N	on
+#S	SUN 4/110; SunOS 4.0
+#O	On Technology, Inc.
+#C	Chris Small
+#E	on!postmaster
+#T	+1 617 225 2545
+#P	1 Cambridge Center, Cambridge, MA 02142
+#L	44 22 00 N / 71 07 02 W
+#R	Main USENET Host.
+#U	icad
+#W	icad!jcollas (Juan J. Collas); Mon Feb  6 17:35:57 EDT 1989
+#
+#on	.on.COM
+on =	ontech
+on	icad(DAILY/4)
+
+#N	onsett
+#S	ccmail -uucp link running on Compaq 286
+#O	Onsett International
+#C	Allen Falcon
+#E	onsett!root
+#T	+1 617 270 0660
+#P	25 Burlington Mall Rd., #300, Burlington, MA 01803
+#L	42 30 N / 71 11 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Jun 10 12:47:52 EDT 1992
+#U
+#
+onsett	uunet(DEMAND)
+
+#N	optron
+#S	HP900/350; HP-UX
+#O	Optron Systems, Inc.
+#C	Todd N. Tsakiris
+#E	optron!root
+#T	+1 617 275 3100
+#P	3 Preston Court, Bedford, MA  02172
+#L	42 24 N / 71 80 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Fri May 19 16:35:22 EDT 1989
+#U
+#
+optron   	uunet(DEMAND)
+
+#N	opustel
+#S	AT&T Unix System V 3.2.2
+#O	Opus Telecom, Inc.
+#C	Jay Gainsboro
+#E	opustel!root
+#T	+1 508 875 4444	
+#P	119 Herbert Street, Framingham, MA 01701
+#L	42 16 N / 71 25 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Mar 26 10:53:52 EST 1992
+#U
+#
+opustel	uunet(DEMAND)
+
+#N	ora
+#F	ora.com
+#S	Zenith 386; ISC Sys V Rel 3.2 
+#O	O'Reilly & Associates, Inc.
+#C	Bill Love
+#E	love@ora.com
+#T	+1 617 354 5800
+#P	90 Sherman Street, Cambridge MA  02140
+#L	42 22 N / 071 06 W city
+#R	Technical writing and publishing.
+#U	NNTP: bloom-beacon.mit.com  cca.camb.com
+#W	love@ora.com (Bill Love); Wed Jan 22 11:55:45 EST 1992
+#
+ora	iecc(DEAD), minya(DEAD), wtd(DEAD), uunet(DEAD)
+#
+
+#N	orgella
+#S	DEC VAX 6210; VMS V5.4
+#O	Allegro MicroSystems, Inc.
+#C	Wayne R. Sundstrom
+#E	orgella!postmaster
+#T	+1 508 853 5000 x283
+#P	115 Northeast Cutoff, Box 15036, Worcester, MA 01615
+#L	42 18 N / 71 46 W
+#R	Running DECUS uucp V1.3 (send mail to jeh@dcs.simpact.com for details) 
+#W	orgella!sundstrom_w (Wayne R. Sundstrom); Tue Feb 04 09:52:00 EST 1992
+#
+orgella m2c(HOURLY)
+
+#N	osf
+#F	osf.org
+#S	DECsystem 5000/200; Ultrix 4.1
+#O	Open Software Foundation
+#C	John Rousseau
+#E	osf.org!rousseau
+#T	+1 617 621 8719
+#P	11 Cambridge Center, Cambridge, MA 02142
+#L	
+#W	osf!rousseau (John Rousseau); Mon Aug 12 13:42:36 EDT 1991
+#U	uunet
+#
+osf=	osf.org
+osf	uunet(HOURLY)
+
+#N	oswald
+#S	DEC Professional 380; VENIX 2.0
+#O	home of Jim Olsen
+#C	Jim Olsen
+#E	oswald!jim
+#T	+1 617 981 2705
+#P	MIT Lincoln Lab, P.O. Box 73, Lexington, MA 02173
+#L	42 26 N / 71 24 W
+#U	ll-xn
+#W	olsen@xn.ll.mit.edu (Jim Olsen); Mon Jun  5 08:45:41 EDT 1989
+#R	temporarily down pending hardware fixes
+#
+oswald	ll-xn(DEAD)
+
+#N	owl-lsg
+#S	NeXT Station, Unix Mach
+#O	MIT
+#C	Shuguang Li
+#E	Li@Maya.MIT.Edu
+#T	+1 617 494 5364
+#P	60 Wadsworth St. 24E, Cambridge, MA 02142, USA
+#L	42 22 N / 71 06 W city
+#R
+#U
+#W	owl-lsg!Li (Shuguang Li); Thu Jul 11 14:28:32 EDT 1991
+#
+owl-lsg	smersh(HOURLY)
+
+#N	oxford
+#S	Sun 3/60
+#O	Oxford Systems, Inc.
+#C	W. Olin Sibert
+#E	sibert@dockmaster.ARPA
+#T	+1 617 646 8619
+#P	32 Oldham Road, Arlington, MA 02174
+#L
+#R
+#U
+#W	usenix!madeline (Madeleine McCall); Mon Feb  1 12:38:40 PST 1988
+#
+oxford	uunet
+#N	pacvax
+#S	Microvax II; Ultrix
+#O	Pacer Software
+#C	Johanna Johnston
+#E	pacvax!root
+#T	+1 508 898 3300
+#P	1900 West Park Drive, Suite 280, Westborough, MA  01581
+#L	42 17 N / 71 48 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Fri Feb  3 12:22:20 EST 1989
+#U
+#
+pacvax		uunet(DEMAND)
+
+#N	panagora
+#S	IBM RS/6000 Model 320H
+#O	PanAgora Asset Management
+#C	David Beckedorff
+#E	panagora!root
+#T	+1 617 439 6373
+#P	260 Franklin Street #2200, Boston, MA  02110
+#L	42 21 N / 71 03 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed May  1 18:51:06 EDT 1991
+#U
+#
+panagora	uunet(DEMAND)
+
+#N	paradigm
+#S	VAXSTATION-II; VMS 4.5, DECUS UUCP
+#F	eddie.mit.edu
+#O	Paradigm Associates Inc.
+#C	Leo Harten
+#E	paradigm!postmaster
+#T	+1 617 492 6079
+#P	29 Putnam Avenue, Suite 6, Cambridge MA, 02138, USA
+#L	042 23 N / 71 05 W
+#R	support for DOE-MACSYMA
+#W	mitech!gjc (George Carrette); Thu Mar 12 10:00:00 EST 1992
+#
+paradigm	mit-eddie(DAILY), itek(POLLED), mitech(DEMAND+HIGH+HIGH+HIGH),
+	          world(DEMAND), impediment(POLLED)
+
+#N	paragon
+#F	bu.edu
+#S	Sun 4/260; SunOS 4.0
+#O	Paragon Imaging
+#C	Linda Wu
+#E	linda@paragon.com
+#T	+1 508 441 2112
+#P	171 Lincoln Street, Lowell, MA 01852
+#L	42 38 N / 71 19 W city
+#R
+#U
+#W	paragon!linda (Linda Wu); Thu Sep  6 20:48:51 1990
+paragon.com     .paragon.com
+paragon.com     = paragon
+paragon bu.edu(DAILY)
+
+#N	pcad
+#S	Sun 386i; Sun OS 4.0.1
+#O	Personal CAD Systems
+#C	John E. Grow
+#E	pcad!root
+#T	+1 617 938 0605
+#P	600 Unicorn Park Drive, Woburn, MA  01801
+#L	42 28 N / 71 09 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Mon Jul 10 10:52:13 EDT 1989
+#U
+#
+pcad	uunet(DEMAND)
+
+#N	peanut
+#S	CompuAdd 333T MSDOS 4.01
+#O	Daniel Senie Consulting
+#C	Daniel Senie
+#E	peanut!postmaster
+#T	+1 508 365 5352
+#P	48 Elm Street, Clinton, MA 01510
+#L	42 25 00 N / 71 41 00 W city
+#R
+#U	peanut
+#W	peanut!dts; Sat Feb 2 10:45:33 EST 1991
+#
+peanut	lectroid(DAILY)
+
+#N	pentica
+#S	PC/MS-DOS/Vortex uulanis
+#O	Pentica Systems, Inc.
+#C	Bob Salitsky
+#E	pentica!root
+#T	+1 617 275 4419
+#P	19A Crosby Dr. Bedford, MA  01730
+#L	42 29 N 71 16 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Thu Sep 24 16:39:34 EDT 1992
+#U
+#
+pentica	uunet(DEMAND)
+
+#N	penware
+#S	Amiga 1000; AmigaDOS 1.3
+#O	Pentucket Software
+#C	Ron Currier
+#E	penware!currier
+#T	+1 508 373 7815
+#P	450 Kingsbury Ave., Bradford, MA 01835
+#L	42 20 N / 71 05 W
+#R
+#W	penware!currier (Ron Currier); Sat Jan 29 11:04:16 EDT 1990
+#U	wang
+#
+penware	wang(EVENING)
+
+#N	pharlap
+#S	SUN 4/65;  SunOS 4.1
+#O	Phar Lap Software, Inc.
+#C	Rob Adams
+#E	postmaster@pharlap.com
+#T	+1 617 661 1510
+#P	60 Aberdeen Ave., Cambridge, MA 02138
+#L	42 23 58 N / 071 07 37 W
+#R	
+#W	rob@pharlap.com (Rob Adams); Sat Jan  4 09:07:42 EST 1992
+#U
+#
+pharlap	.pharlap.com
+pharlap	uunet(HOURLY), a-k(DIRECT)
+
+#N	phavl
+#S	Mongrel 386; SVR3.2
+#O	Rob 
+#C	Robt. Ransbottom
+#E	phavl!usenet
+#T	+1 508 999 6257
+#P	My House's St., New Bedford, MA  02745
+#L	70 56 W / 41 40 N
+#R	gateway to gsmi
+#U
+#W	nemap@harvard.edu; Sun Mar 24 09:24:10 EST 1991
+#
+phavl	gsmi(DEMAND), <anomaly>(WEEKLY)
+
+#N	.pictel.com, pictel
+#S	Sun 4/50; SunOs 4.1.1
+#O	PictureTel Corporation
+#C	Dustin Clampitt
+#E	dustin@pictel.com
+#T	+1 508 977 9500 x555
+#P	One Corporation Way, Peabody, MA 01960
+#L	42 34 N / 70 58 W42 34 N / 70 58 W
+#W	dustin@pictel.com (Dustin Clampitt);Fri Sep 20 19:00:00 EDT 1991
+#
+pictel	    .pictel.com(LOCAL)
+pictel	    =pictel.com
+#pictel	    =picturetel.com
+pictel	    relay1.uu.net(DEDICATED), relay2.uu.net(DEDICATED)
+
+#N	picus
+#S	generic 80386; Coherent 3.1.0
+#O	Private Node
+#C	D. David Kaufman
+#E	picus!dill
+#T	+1 508 544 5424
+#P	397 Walnut Hill Road, Orange, MA 01364
+#L	43 00 N / 73 00 W
+#U	hern
+#W	picus!dill (D. David Kaufman); Sat Mar 9 01:45:00 EST 1991
+#
+picus	= picus.stonemarche.org
+picus	hern(DAILY)
+
+#N	pilgrim
+#S	IBM PC; PC DOS with Waffle UUCP
+#O	Carlisle Public School
+#C	John P. Walsh
+#E	pilgrim!postmaster
+#T	+1 508 371 0497
+#P	Computer Science Dept, 199 South Street, Carlisle, MA 01741 USA
+#L	71 19 26 W / 42 39 08 N
+#R	K - 12 School
+#U	ulowell
+#W	ulowell!oneill (Brian O'Neill); Thu May 21 10:26:17 EDT 1992
+#
+pilgrim		ulowell(DIRECT)
+
+#N	plauger
+#S	Compaq SLT/286
+#O	
+#C	P.J. Plauger
+#E	plauger!root
+#T	+1 508 369 8489
+#P	398 Main St., Concord, MA 01742
+#L	42 27 N / 71 20 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jan 12 09:33:28 EST 1990
+#U
+#
+plauger	uunet(DEMAND)
+
+#N	polaris1
+#S	Sun 3/60; SunOS 4.1.1
+#O	Polaris Service 
+#C	Luis Vallejo
+#E	polaris1!root
+#T	+1 508 562 2495
+#P	399 River Road, Hudson, MA 01749
+#L	42 23 N / 71 34 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Jul  3 08:55:56 EDT 1991
+#U
+#
+polaris1	uunet(DEMAND)
+
+#N	.polygen.com, polygen
+#S	Sun 3/160; Sun OS 3.5
+#F	bu.edu
+#O	Polygen Corporation
+#C	Paul Bush, Jim Bogart
+#E	polygen!usenet
+#T	+1 617 890 2888
+#P	200 Fifth Avenue, Waltham, MA 02254
+#L	42 23 18 N / 71 15 15 W
+#U	bu.edu
+#R	registered
+#W	polygen!pbush (Paul Bush); Wed Jan 10 09:20:07 EST 1990
+#
+polygen	  .polygen.com
+polygen = polygen.com
+polygen	bu.edu(DIRECT+FAST), princeton(DIRECT+FAST),
+	mit-eddie(DIRECT), stellar(DIRECT), sunne(DIRECT)
+
+#N	poorhse
+#S	Macintosh IIcx; MacOS 7.0
+#O	Poor Associates
+#C	E. Ward Poor
+#E	poorhse!wpoor
+#T	+1 617 861 1215
+#P	41 Munroe Rd, Lexington, Massachusetts 02173-7823
+#L	42 25 39 N / 71 14 46 W
+#R	Internet domain address: wpoor@Poorhouse.Lexington.MA.US
+#U	uupsi
+#W	poorhse!wpoor (Ward Poor); Fri Aug 30 13:30:00 EDT 1991
+#
+poorhse .poorhouse.lexington.ma.us
+poorhse uupsi(DAILY/3)
+
+#N	popvax
+#S	Vax 11/780, 4.2BSD
+#O	Harvard University, School of Public Health
+#C	Mohamed el Lozy
+#E	popvax!postmaster
+#T	+1 617 732 0762
+#P	665 Huntington Avenue, Boston, MA 02115-9915, USA
+#L	42 20 N / 71 05 W
+#R	
+#W	popvax!mohamed (Mohamed el Lozy); Thu Jul 14 16:02:56 EDT 1988
+#U
+#
+# alias
+popvax = popvax.harvard.edu, hsphub, hsphub.harvard.edu
+#
+# local nets
+popvax	hsph-net
+#
+# local calls
+popvax	harvard(LOCAL), wjh12(LOCAL), husc6(LOCAL)
+#
+# long distance calls
+
+#N	praxsys
+#S	Sun SparcStation; IPC
+#O	Praxsys Technologies, Inc.
+#C	Bob Vandette
+#E	praxsys!root
+#T	+1 617 255 9600
+#P	725 Canton St., Norwood, MA 02062
+#L	42 11 N / 71 12 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Jan  8 14:25:24 EST 1992
+#U
+#
+praxsys	uunet(DEMAND)
+
+#N	.priapus.boston.ma.us, priapus
+#F	ursa-major.spdcc.com
+#S	random 386 box running xenix
+#O	
+#C	??
+#E	??
+#T	+1 617 253 0131
+#P	P. O. Box 1303 Kendall Sq Station; Cambridge, MA  02142-0010
+#L	42 18 N /  71 06 W
+#U	
+#W	nemap@harvard; Sat May 18 13:32:49 EDT 1991
+#
+priapus =	priapus.boston.ma.us
+priapus		.priapus.boston.ma.us
+priapus 	spdcc(DEMAND)
+
+#N	primerd
+#F	JvNC.NET
+#S	Sun 3/280; SunOS 4.1
+#O	PrimeService, a Computervision Company
+#C	Jason R. Pascucci
+#E	postmaster@primerd.prime.com
+#T	+1 508 620 2800
+#P	500 Old Connecticut Path, Framingham, MA 01701
+#L	42 18 55 N / 71 23 37 W
+#R	primerd.prime.com is 129.122.132.150 on the Internet
+#U	jvnc.net, nt1l, kjc386, compres, warpdrive
+#W	peterson@primerd.prime.com (David Peterson); Wed Sep  9 10:35:30 EDT 1992
+#
+primerd	.prime.com
+primerd	= primerd.prime.com
+primerd	necntc(DAILY), nt1l(HOURLY), fcshome(WEEKLY), compres(DAILY),
+	kjc386(DAILY), contek(POLLED), sli(POLLED), avs(POLLED),
+	warpdrive(POLLED)
+
+#N	products
+#S	SunOs 4.1.1
+#O	UNIXWORLD Magazine
+#C	Alan Southerton
+#E	products!alans
+#T	+1 508 921 4458
+#P	234 Cabot St., Beverly, MA 01915
+#L	42 33 N / 70 52 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Apr  9 15:28:54 EDT 1992
+#U
+#
+products	uunet(DEMAND)
+
+#N	proforma
+#S	Next; NeXT Mach 2.0
+#O	Pro Forma
+#C	Jack Gregory
+#E	proforma!jgg
+#T	+1 508 460 0123
+#P	27 Maddox Rd, Marlboro, MA  01752
+#L	42 20 N / 71 33 W city
+#R
+#W	proforma!jgg (Jack G. Gregory); Mon Mar 25 21:03:29 EST 1991
+#U
+#
+proforma	uunet(DEMAND)
+
+#N	progress
+#S	Sun Sparcstation SLC; SunOS 4.1
+#O	Progress Software Corporation
+#C	Eric R. Feigenson
+#E	progress!erf
+#T	+1 617 275 4500
+#P	5 Oak Park, Bedford, MA  01730
+#L	42 31 N / 71 15 W
+#U	linus
+#R	linus feeds us news and mail, mit-eddie just mail
+#W	progress!erf (Eric R. Feigenson); Tue Apr 30 11:52:52 EDT 1991
+#
+progress = dlcdev
+progress	linus(HOURLY), mit-eddie(HOURLY)
+
+#N	psc3bb
+#S	AT&T 3B2 600
+#O	Phase II Software Corporation
+#C	Mark M. Smith
+#E	psc3bb!mark
+#T	+1 617 354 8771
+#P	238 Broadway, Cambridge, MA  02139
+#L	42 22 N / 71 07 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Wed Oct 25 09:46:23 EDT 1989
+#U
+#
+psc3bb		uunet(DEMAND)
+
+#N	psdi
+#S	386; MS-Dos w/uucp
+#O	Project Software & Development, Inc.
+#C	Mitch Trachtenberg
+#E	psdi!root
+#T	+1 617 661 1444 (ext. 4335)
+#P	14 Story Street, Cambridge, MA   02138
+#L	42 22 N / 71 06 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Wed Feb 22 13:28:22 EST 1989
+#U
+#
+psdi		uunet(DEMAND)
+
+#N	psocg
+#S	NCR Tower 32/600
+#O	Seybold Office Computing Group
+#C	Tom Portante
+#E	psocg!root
+#T	+1 617 742 5200
+#P	148 State Street, Suite 5-20, Boston, MA  02109
+#L	42 20 N / 71 05 W city
+#R
+#W	donnalyn@uunet.UU.NET (Donnalyn Frey); Fri Nov 18 16:50:25 EST 1988
+#U
+#
+psocg		uunet(DEMAND)
+
+#N	ptech
+#S	Mac II A/UX
+#O	Data General Corporation
+#C	Donald Lewine
+#E	ptech!root
+#T	+1 508 870 9008
+#P	4400 Computer Dr., Westboro, MA 01580
+#L	42 16 N / 71 37 W city
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Wed Apr 25 18:09:08 EDT 1990
+#U
+#
+ptech	uunet(DEMAND)
+
+#N	puck
+#S	PC Limited AT; Microport V/AT
+#O	Moonlight Systems
+#C	Andrew S. Puchrik
+#E	puck!asp
+#T	+1 508 369 7210
+#P	164 Belknap St, Concord, MA  01742
+#L	42 31 N / 71 25 W
+#W	harvard!nemap; Tue Jan 16 11:24:07 EST 1990
+#
+puck	necis(DIRECT), redsox(WEEKLY), necntc(EVENING), virgin(WEEKLY),
+	charis(EVENING+FAST)
+
+#N	pundits
+#S	Sun Sparcstation IPC; Solars 2.0
+#O	Software Pundits
+#C	Hari Rao
+#E	pundits!root
+#T	+1 617 270 0639
+#P	25 Burlington Mall Rd., Suite 300, Burlington, MA 01803
+#L	42 30 N / 71 11 w city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Apr 10 08:58:01 EDT 1992
+#U
+#
+pundits	uunet(DEMAND)
+
+
+#	end of u.usa.ma.3: Sat Sep 26 13:38:45 EDT 1992
+SHAR_EOF
+:	End of shell archive
+exit 0
+

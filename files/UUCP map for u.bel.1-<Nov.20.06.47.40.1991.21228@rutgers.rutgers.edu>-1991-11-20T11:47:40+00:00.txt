@@ -1,0 +1,1080 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.bel.1
+: This archive created: Wed Nov 20 06:47:36 1991
+echo shar: extracting u.bel.1
+cat << 'SHAR_EOF' > u.bel.1
+# u.bel.1; changes to: uucpmap@ub4b.uucp
+# Thu Jun 13 16:45:52 MET DST 1991
+#
+# Copyright 1989,1991 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+
+#N	abcomp
+#S	Sun SPARCstation 1; SunOS 4.1
+#O	AB Computers
+#C	Dany De Vleeschhauwer
+#E	ddvl@abcomp.be
+#T	+32 2 3703911
+#P	Neerstalsesteenweg 40-42, B-1190 Brussels, Belgium
+#L	004 38 12 E / 50 50 20 N
+#R	
+#U	
+#W	stephan@Belgium.EU.net 910614 abcomp!ddvl 910614
+abcomp	ub4b(DAILY)
+abcomp	.abcomp.be
+
+#N	alcbel
+#S	SUN 4/490 4.03 BSD UNIX
+#O	Alcatel-Bell
+#C	Gratien D'Haese, Marc Masure
+#E	postmaster@alcbel.be
+#T	+32 3 2409451,  2407858
+#P	F. Wellensplein 1, B-2018 Antwerpen, Belgium
+#L	04 24 21 E / 51 10 16 N
+#R	
+#U	
+#W	mmas@sh.alcbel.be (Marc Masure) 910227
+alcbel	ub4b(HOURLY)
+alcbel	.alcbel.be
+
+#N	atcmpbe
+#S	Sony
+#O	AT Computing n.v.
+#C	Marc Lampo
+#E	marc@atcmp.be
+#T	+32 2 2664983
+#P	De Tyraslaan 75, B-1120 Brussels, Belgium
+#L	
+#R
+#U	
+#W	jean@ub4b.buug.be 910107 stephan@Belgium.EU.net 910611
+atcmpbe	.atcmp.be
+atcmpbe	ub4b(DAILY)
+
+#N	atmos
+#S	HP9000/825; HP-UX 7.0
+#O	Belgian Institute for Space Aeronomy (BISA=IASB=BIRA)
+#C	Carlos Lippens, Dennis Nevejans
+#E	carlos@atmos.oma.be, dennis@atmos.oma.be
+#T	+32 2 3748121
+#P	Ringlaan 3, B-1180 Brussels, Belgium
+#L	004 21 29 E / 50 47 55 N
+#R
+#U	
+#W	atmos!carlos (Carlos Lippens) 880726 stephan@Belgium.EU.net 910611
+atmos	.oma.be
+atmos	ub4b(HOURLY)
+
+#N	attdsg
+#S	3B2/1000 model 80 ; UNIX SYSTEM V release 3.2.3 with EUUG uucp
+#O	AT&T-EUROPE Computer Systems Organization ( AT&T-CSO )
+#C	Patrick Herman
+#E	phe@attdsg.att.be attdsg!phe 
+#T	+32 2 6728181
+#P	Chaussee de Wavre, 1945 B-1160 Brussels, Belgium
+#L
+#R
+#U
+#W	??? ???  stephan@Belgium.EU.net 910611
+#
+attdsg = attdsg.att.be
+attdsg	.att.be
+attdsg	lln-cs(HOURLY), ub4b(HOURLY)
+
+#N	azvub
+#S	Compaq 386 ; SCO UNIX
+#O	AZ VUB
+#C	Eric Pattyn
+#E	epat@az.vub.ac.be
+#T	+32 2 4776988
+#P	Laarbeeklaan 101, B-1090 Brussels, Belgium
+#L
+#R
+#U
+#W	stephan@Belgium.EU.net 911015
+#
+azvub	.az.vub.ac.be
+azvub	ub4b(DAILY)
+
+#N	barcogr
+#S	Celerity
+#O	Barco Graphics
+#C	Dirk Verwee
+#E	postmaster@barcogr
+#T	+32 91 263309
+#P	Nieuwe Vaart 153, B-9000 Gent, Belgium
+#L	
+#R
+#U
+#W	jean@ub4b ( Jean Huens )  900529
+#
+barcogr	ub4b(HOURLY)
+
+#N	bbl
+#S	SUN 386i; SunOS 4.0.1
+#O	Bank Brussel Lambert
+#C	Patrick Reniers
+#E	postmaster@bbl.be
+#T	+32 2 7383329
+#P	Sint-Michielswarande 60, B-1040 Brussels, Belgium
+#L	004 20 47 E / 50 51 53 N
+#R
+#U
+#W	vmj@agt.bbl.be ( Van Mengsel Johan ) 900907
+#
+bbl	.bbl.be
+bbl     sunbim(DAILY+DEMAND),ub4b(HOURLY+DEMAND),uiag(DAILY+DEMAND)
+
+#N	bbri
+#S	Sun SPARC station SunOs 4.1
+#O	Belgian Building Research Institute
+#C	Jean-Pierre Mommens
+#E	mommens@bbri.be
+#T	+32 2 653 88 01
+#P	Av. Pierre Holoffe, 21 B-1342 Limelette, Belgium
+#L	4 31 12 E / 50 41 27 N
+#R	
+#U	ub4b
+#W	mommens@bbri.be 901203
+#
+bbri	.bbri.be
+bbri	ub4b(DAILY/4)
+
+#N	bel2x
+#S	Toshiba T5200/100, SCO XENIX System V Release 2.3.4
+#O	MM Pharmacies Brussels
+#C	Peter Caeldries
+#E	postmaster@bel2x
+#T	+32 2 522 5690 x314
+#P	602 Chaussee de Mons, B-1070, Brussels, Belgium
+#L	51 10 21 N / 4 06 50 E
+#R	This is the contacts home system
+#U	
+#W	bel2x!ptr 910911 stephan@Belgium.EU.net 910827
+#	alternate #E	100010.606@compuserve.com
+#	alternate #T	+32 3 777 4679
+#
+bel2x		ub4b(DEMAND)
+
+
+#N	binfg1
+#S	Decstation 2000, Ultrix 4.0
+#O	Janssen Research Foundation
+#C	Ludo De Bie
+#E	postmaster@binfg1
+#T	+32 14 603159
+#P	Turnhoutse weg 30, B-2340 Beerse, Belgium
+#L	004 40 47 E / 51 23 53 N
+#R
+#U
+#W	debie@jrf.be 910903 debie@jrf.be 911009
+#
+binfg1 = binfg1.jrf.be
+binfg1	.jrf.be
+binfg1	ub4b(DAILY)
+
+#N	camme
+#S	SUN 3/50; 4.2 BSD UNIX
+#O	Management Unit of the Mathematical Models of the North Sea
+#C	Serge Scory
+#E	cammess@camme.ac.be
+#T	+32 2 7732133
+#P	MUMM, Gulledelle 100, B-1200 Brussels, Belgium
+#L	004 25 37 E / 50 51 25 N
+#R
+#U
+#W	camme!cammess (Serge Scory) 900227
+#
+camme	.camme.ac.be
+camme	ub4b(HOURLY)
+
+#N	capgsb
+#S	NCR Tower 32/650 - Unix V.2
+#O	Cap Gemini Sesa Belgium
+#C	Benoit della Faille
+#E	postmaster@capgsb.be
+#T	+32 2 770 00 53
+#P	Woluwelaan 2, B-1150 Brussels, Belgium
+#L
+#R
+#U	
+#W	capgsb!lb (Luc Bomans) 900228
+#
+capgsb = capgsb.be
+capgsb	.capgsb.be
+capgsb  ub4b(HOURLY)
+
+#N	cgib
+#S	SUN4/330; SunOs 4.01
+#O	Computer General Belgium
+#C	De Laere Kurt
+#E	postmaster@cgib
+#T	+32 3 830 28 00
+#P	Boomsesteenweg 690, B-2610 Wilrijk
+#L
+#R
+#U	
+#W	hansk@ub4b.buug.be 911021
+#
+cgib	ub4b(DAILY)
+
+#N	csinnb
+#S	Sun SPARCstation; SunOS 4.1
+#O	Cap Gemini Innovation Belgium
+#C	Pierre De Swert
+#E	Pierre@brc.csinn.be
+#T	+32 2 770 09 43
+#P	Woluwelaan 2, B-1150 Brussels, Belgium
+#L	4 27 E / 50 49 N
+#R
+#U	
+#W	csinnb!Pierre (Pierre De Swert) 910522
+#
+csinnb = csinn.be
+csinnb	.csinn.be
+csinnb  ub4b(HOURLY)
+
+#N	crpculu
+#S	SUN 4 - 280 S, SUN OS 4.0.3
+#O	Centre de Recherche Public - Centre Universitaire
+#C	Mr. Guy Hilbert, Mr. Thierry Conrad
+#E	postmaster@crpculu.uucp, tc@crpculu.uucp
+#T	+352 44 01 95, +352 47 02 61
+#P	162 A, Avenue de la Faiencerie, L-1511 Luxembourg
+#L	49 37 N / 6 9 E Luxembourg
+#R
+#W	jean@ub4b, 910227 ; hansk@ub4b, 911118
+#
+crpculu ub4b(DAILY/2)
+
+#N	cstb
+#S
+#O	MBLE; Philips Centre for Software Technology Brussels
+#C	Danny Kuppens
+#E	postmaster@cstb
+#T	+32 2 5257130
+#P	Tweestationsstraat 82 , B-1070 Brussels , Belgium
+#L	4 22 E / 50 46 N
+#R
+#U
+#W	cstb!kuppens 871028
+cstb =	cstb.philips.be
+cstb	.cstb.philips.be
+cstb	prlbcom(DEDICATED)
+
+#N	dg13
+#S	Nixdorf Targon /35 TOS 3.2 (V.2 and BSD4.2 mix)
+#O	Commission of European Communities - DG XIII
+#C	Pramod Mistry
+#E	postmaster@dg13.cec.be
+#T	+32 2 2360082
+#P	Jozef II straat, 70   B-1049 Brussels, Belgium
+#L
+#R
+#U	
+#W	dg13!pmi, 891025
+#
+dg13 = dg13.cec.be
+dg13 = j70
+dg13	.dg13.cec.be
+dg13	ub4b(HOURLY)
+
+#N	distri
+#S	M28 olivetti; sco Xenix V 
+#O	Distrigaz dept: Controle Comptage
+#C	Jean-Luc De Schutter
+#E	postmaster@distri.be
+#T	+32 2 2377304
+#P	Avenue des Arts 31, B-1040 Brussels, Belgium
+#L
+#R
+#U 
+#W	distri!jld 900314
+#
+distri = distri.be
+distri	.distri.be
+distri	ub4b(DAILY)
+
+#N	dvd
+#S	
+#O	
+#C	Dominique Van Doren
+#E	domi@dvd.be
+#T	+32 16
+#P	Stokstraat 1, B-3020 Winksele, Belgium
+#L
+#R
+#U 
+#W	jean@ub4b.buug.be 910114
+#
+dvd = dvd.be
+dvd	.dvd.be
+dvd	ub4b(DAILY)
+
+
+#N	e2s
+#S	SUN 3/50; UNIX 4.2BSD
+#O	Expert Software Systems (E2S)
+#C	Filip Verlinden
+#E	fvl@e2s.be, postmaster@e2s.be
+#T	+32 91 210383
+#P	Moutstraat 100, B-9000 Gent, Belgium
+#L	
+#R
+#U
+#W	e2s!fvl (Filip Verlinden) 900302
+#
+e2s =	e2s.be
+e2s	.e2s.be
+e2s	ub4b(DAILY)
+
+
+
+#N	elem4
+#S	NCR TOWER 32/650; UNIX System V Release 3
+#O	ULB-VUB, Inter-University Institute for High Energies
+#C	Frederic ALEXANDRE
+#E	postmaster@iihe.ac.be
+#T	+32 2 6400015 (x5705)
+#P	Bd. du Triomphe, CP230, B-1050 Brussels, Belgium
+#L	004 21 E / 50 50 N city
+#R
+#U
+#W	elem4!alex 900228
+#
+elem4 = iihe.ac.be
+elem4	.iihe.ac.be
+elem4	ub4b(HOURLY)
+
+iihe-uucp-net = { elem4, elem5 }(LOCAL)
+
+
+#N	flitser
+#S	SUN386i; SunOS 4.0.1
+#O	Agfa-Gevaert N.V., Electronic Prepress Systems
+#C	Luc Colijn
+#E	postmaster@eps.agfa.be
+#T	+32 3 4447608
+#P	Grote Steenweg 224, B-2600 Berchem, Belgium
+#L
+#R
+#U
+#W	flitser!colijn (Luc Colijn) 891006
+#
+flitser	= eps.agfa.be
+flitser	.agfa.be
+flitser	ub4b(DAILY/4)
+
+#N	frankli
+#S	SUN3/260; SunOS 4.1
+#O	Agfa-Gevaert N.V., R&O Apparaten, Mortsel
+#C	Dirk Somers
+#E	postmaster@roam.agfa.be
+#T	+32 3 4446203
+#P	Mechelse Steenweg 430, B-2650 Edegem, Belgium
+#L
+#R
+#U
+#W	d_somers@frankli.roam.agfa.be (Dirk Somers) 910405
+#
+frankli	.roam.agfa.be
+frankli	ub4b(DAILY/4)
+
+#N	fun-cs
+#S	DEC VAX 11/750; 4.3 BSD
+#O	Facultes Universitaires de Namur; Institut d'Informatique
+#C	Bernard Detrembleur
+#E	bdt@info.fundp.ac.be
+#T	+32 81 724991
+#P	21, rue Grandgagnage, B-5000 Namur, Belgium
+#L
+#R
+#U
+#W	vmarlair@prlb.philips.be ??? stephan@Belgium.EU.net 910611
+#
+fun-cs = info.fundp.ac.be
+fun-cs	.info.fundp.ac.be
+fun-cs	ub4b(DAILY)
+
+#N	hpubrua
+#S	Hewlett-Packard 9000/835; HP-UX A.B7.00 U
+#O	Hewlett-Packard Belgium NV/SA
+#C	Peter Gilis
+#E	hpubrua!peter
+#T	+32 2 7613111
+#P	Woluwedal 100 Bd de la Woluwe, B-1200 Brussels, Belgium
+#L	50 13 N / 4 30 E city
+#R	
+#U	
+#W	hpubrua!root; 901011
+#
+# Uucp connections: 
+hpubrua	hpbele01(LOCAL), ub4b(HOURLY+HIGH), bru-ro(DEMAND)
+
+
+#N	imec
+#S	DEC VAX-11/780; ULTRIX-32  V2.0-1
+#O	Interuniversity MicroElectronics Center (IMEC)
+#C	Robert Severyns, Jan Sevens
+#E	severyns@imec.be, sevens@imec.be, postmaster@imec.be
+#T	+32 16 281243, +32 16 281206
+#P	Kapeldreef 75, B-3030 Leuven, Belgium
+#L	004 40 47 E / 50 51 53 N
+#R
+#U	
+#W	imec!severyns (R. Severyns) 871228
+#
+#imec	= imec.be
+#imec	.imec.be
+imec	kulesat(DEDICATED)
+
+#N	imx
+#S	HP Vectra RS25C; ISC SystemV 3.2
+#O	I.M.X. N.V./S.A.
+#C	Luc Dierckx
+#E	postmaster@imx.be
+#T	+32 2 7254950
+#P	Imperiastraat 10, B-1930 Zaventem, Belgium
+#L
+#R
+#U
+#W	luc@imx.be ??????
+imx	.imx.be
+imx	ub4b(DAILY/4)
+
+#N	intecsi
+#S	SUN-2/150; 4.2 R3.0 BSD UNIX
+#O	Rigel Engineering s.a./n.v.
+#C	Yves URBAIN
+#E	postmaster@rigel.be
+#T	+32 2 7355571
+#P	Avenue Rogier 385, B-1030 Brussels, Belgium
+#L
+#R
+#U
+#W	intecsi!urbain (Urbain Yves) 891122
+#
+intecsi = intecsi.be
+intecsi	.intecsi.be
+intecsi	.rigel.be
+intecsi	ub4b(HOURLY)
+
+#N	itwmml
+#S	SUN-Sparc, SUNOS 4.0
+#O	Information Technologies
+#C	Mike Aerts
+#E	postmaster@inftec.be
+#T	+32 2 460 46 11
+#P	E. Van Elewijckstraat 9, B-1780 Brussels, Belgium
+#L
+#R
+#U
+#W	stephan@Belgium.EU.net 910614
+#
+itwmml	.inftec.be
+itwmml	ub4b(DAILY)
+
+#N	klee, magritte
+#S	SUN3/280 SUN-OS 3.2
+#O	Plant Genetic Systems labs
+#C	Pierre Lens
+#E	plens@pgsgent.be
+#T	+32 91 358404
+#P	Plant Genetic Systems N.V., Plateaustraat 22, B-9000 Gent
+#L
+#R
+#U
+#W	rubens!berthet 890526 stephan@Belgium.EU.net 910603
+#
+klee = magritte
+klee = pgsgent.be
+klee	.pgsgent.be
+klee	rubens(DEDICATED), ub4b(DAILY)
+
+#N	kone1
+#S	HP
+#O	Kone Belgium s.a.
+#C	Esko Pohjanpalo
+#E	postmaster@kone.be
+#T	+32 41 638950
+#P	Rue de bruxelles,174, B-4341 Awans, Belgium
+#L	005 27 00 E / 50 39 0 N
+#R
+#U	
+#W	jean@Belgium.EU.net 900528
+#
+kone1 = kone7
+kone1	.kone.be
+kone1	hpubrua(DAILY),ub4b(DAILY)
+
+#N	kulcs
+#S	DEC VAX 11/750; 4.3 BSD UNIX
+#O	Katholieke Universiteit Leuven, Department of Computer Science
+#C	Jean Huens
+#E	postmaster@cs.kuleuven.ac.be
+#T	+32 16 201015 x3561
+#P	Celestijnenlaan 200A, B-3030 Leuven-Heverlee, Belgium
+#L	004 40 47 E / 50 51 53 N
+#R
+#U	kulesat
+#W	kulcs!jean 890106 ; stephan@Belgium.EU.net 910613
+#
+#kulcs = cs.kuleuven.ac.be
+#kulcs	.kuleuven.ac.be
+kulcs	vub(HOURLY), fun-cs(HOURLY), rubens(HOURLY),
+	ub4b(DEDICATED)
+
+
+#N	kulesat
+#S	VAXstation II/GPX, Ultrix
+#O	Katholieke Universiteit Leuven, Department Electrical Engineering - ESAT
+#C	Patrick Wambacq
+#E	postmaster@kulesat
+#T	+32 16 220931
+#P	Kardinaal Mercierlaan 94, B-3030 Leuven-Heverlee, Belgium
+#L	
+#R
+#U	kulcs kulagrv1 kulmech kuliks kulagrv1
+#W	kulesat!elsen 890220
+#
+kulesat	ub4b(DEDICATED), imec(DEDICATED)
+kulesat	.esat.kuleuven.ac.be
+
+vms-kulug-net = { kulesat, kulagrv1, kulmech, 
+		 kuliks }(LOCAL)
+
+#N	kulet
+#S	Sun 2/120; 4.2 BSD UNIX
+#O	KUL-Eurotra
+#C	Jan Dings
+#E	postmaster@et.kuleuven.ac.be
+#T	+32 16 285087
+#P	Maria-Theresiastraat 21, B-3000 Leuven, Belgium
+#L	50 50 N / 4 40 E
+#R
+#U
+#W	kulet!tony (Tony Raw) 871211 stephan@Belgium.EU.net 911007
+#
+kulet = et.kuleuven.ac.be
+kulet	ub4b(HOURLY)
+
+#N	kulmtm
+#S	Sun 
+#O	KULeuven metaalkunde
+#C	Marc Van Coille
+#E	postmaster@mtm.kuleuven.ac.be
+#T	+32 16 220931
+#P	De Croylaan 2, B-3001 Leuven, Belgium
+#L	50 50 N / 4 40 E
+#R
+#U
+#W	ub4b!stephan (Stephan Biesbroeck)  910221
+kulmtm = mtm.kuleuven.ac.be
+kulmtm	ub4b(HOURLY)
+
+#N	kulqc1
+#S	HP9000/835; HP-UX 3.01
+#O	Katholieke Universiteit Leuven, Quantumchemistry
+#C	Johan Buelens
+#E	johan@kulqc1
+#T	+32 16 200656 x 3595
+#P	Celestijnenlaan 200F, B-3030 Leuven-Heverlee
+#L	004 40 47 E / 50 51 53 N Leuven
+#R
+#U
+#W	kulqc1!johan (Johan Buelens) 890330
+#
+#kulqc1	kulcs(DAILY)
+
+#N	labux1
+#S	DECstation 3100; ULTRIX-32 Version 3.1
+#O	LABORELEC, Mathemathics & Data Processing Division
+#C	Etienne Burniat
+#E	postmaster@labux1
+#T	+32 2 3820656 
+#P	Rodestraat 125, B-1630 Linkebeek, Belgium
+#L	004 21 00 E / 50 45 30 N
+#R
+#U	
+#W	labux1!eb9explo 891106
+#
+labux1 = labux1.be
+labux1	ub4b(HOURLY)
+
+#N	lbo
+#S	SGI 340 ; IRIX System V 3.3.2
+#O	Little Big One
+#C	Mr P-F Fontigny, Mrs Aude Salmon
+#E	postmaster@lbo
+#T	+32 2 7734866
+#P	Avenue Ariane 12, 1200 Brussels, Belgium
+#L	4 21 E / 50 51 N
+#W	lbo!postmaster (P-F Fontigny); 911002
+#
+lbo	.lbo.be
+lbo	ub4b(DAILY/2)
+
+#N	lhsbru
+#S	Sun
+#O	Lernout & Hauspie, Speech Products, n.v.
+#C	Patrick Nillens
+#E	postmaster@lhsbru
+#T	+32 2 4603397
+#P	Koning Albert 1 laan, 64, 1780 Wemmel, Belgium
+#L	
+#R
+#U	
+#W	jean@ub4b 910131
+#
+lhsbru	ub4b(HOURLY)
+lhsbru	.brussels.lhs.be
+
+#N	lhsiep
+#S	Sun SPARCstation 2; SunOS 4.1.1
+#O	Lernout & Hauspie, Speech Products, n.v.
+#C	Wim Den Haese
+#E	postmaster@lhsiep
+#T	+32 57 219500
+#P	Rozendaalstr 14, 8900 Ieper, Belgium
+#L	002 51 E / 50 52 N
+#R
+#U	
+#W	jean@ub4b 910801; wdh@lhsiep (Wim Den Haese) 911002
+#
+lhsiep	ub4b(DAILY)
+lhsiep	.lhs.be
+
+#N	lln-cs
+#S	uVAXII, MT XINU BSD 4.3 + NFS
+#O	Universite Catholique de Louvain, Unite d'Informatique
+#C	Elie Milgrom, Hubert Broze
+#E	em@info.ucl.ac.be, hb@info.ucl.ac.be
+#T	+32 10 473151 ,+32 10 473396 ,+32 10 473150 (secr.)
+#P	2, Place Ste-Barbe, B-1348 Louvain-la-Neuve, Belgium
+#L
+#R
+#U	ub4b
+#W	hb@info.ucl.ac.be 900301
+#
+#lln-cs = info.ucl.ac.be
+#lln-cs	.ucl.ac.be
+lln-cs	fun-cs(HOURLY), 
+	sunbim(HOURLY), vub(HOURLY),
+	staff(HOURLY), attdsg(HOURLY), 
+	ub4b(HOURLY)
+#	, inria(HOURLY+ARPA), tls-cs(HOURLY)
+
+#N	lsd
+#S	PC
+#O	Lucky Software Development
+#C	Luc De Vos
+#E	lucky@lsd.uucp
+#T	+32 91 798269
+#P	22, Stee, B-9988 Watervliet
+#L	3 37 30 E / 51 16 30 N
+#R
+#U	
+#W	jean@ub4b.buug.be 901207
+#
+lsd	ub4b(DAILY)
+	
+#N	mblecom
+# next line is special for DECUS UUCP: forwarder of messages is ub4b
+# F	ub4b.buug.be
+#S	microVAX II;VMS 5.4
+#O	M.B.L.E. nv/sa
+#C	P. Goovaerts
+#E	goovaerts@mble.philips.be
+#T	+32 2 5256311
+#P	Twee stationsstraat, 82, B-1070 Brussel
+#L	
+#R
+#U	
+#W	jean@Belgium.EU.net 910910
+mblecom	ub4b(DAILY)
+mblecom	.mble.philips.be
+
+#N	nrb
+# next line is special for DECUS UUCP: forwarder of messages is ub4b
+# F	ub4b.buug.be
+#S	VAX 4000-300;VMS 5.4-2
+#O	Network Research Belgium
+#C	Mr. Alain Vanstraelen
+#E	vanstraelen@nrb.be
+#T	+32 41 40 72 55
+#F	+32 41 48 11 70
+#P	Parc Industriel des Hauts-Sarts, B-4040 HERSTAL, Belgium
+#L	
+#R
+#U	
+#W	vyncke@nrb.be 901122 hansk@ub4b.buug.be 911113
+nrb	ub4b(DAILY/3+DEMAND)
+nrb=	nrb.be
+nrb	.nrb.be
+
+#N	oscb
+#S	U6000 Series; System V 5.3 Unix
+#O	Unisys Belgium S.A.
+#C	Mr. Mortier
+#E	postmaster@oscb
+#T	+32 2 7280948
+#P	Avenue du Bourget 20, B-1130 Brussels, Belgium
+#L	
+#R
+#U	
+#W	stephan@Belgium.EU.net 910628 ; postmaster@oscb (Michel Mortier) 910701
+#
+oscb	ub4b(DAILY)
+oscb	.unisys.be
+
+#N	pepben
+#S	SUN sparcstation
+#O	PEP Modular Computers Benelux
+#C	Jean Dubois
+#E	jean@pepbenelux.be, jean@pepben
+#T	+32 2 4783416
+#P	PEP Modular Computers, Palfijnlaan 34, B-1020 Brussels, Belgium
+#L
+#R
+#U
+#W	jean@ub4b.buug.be, 910528
+#
+pepben	.pepbenelux.be
+pepben	ub4b(DAILY)
+
+#N	prlbcom
+#S	SUN 3/140, SUN OS 4.0.3
+#O	NV Track One s.a.
+#C	Marc Vauclair, Michel Dekesel
+#E	vauclair@track-one.be, dekesel@track-one.be
+#T	+32 10 47 06 83, +32 10 47 06 24
+#P	Av. Albert Einstein, 4, B-1348 Louvain-la-Neuve, Belgium
+#L
+#R
+#U	ub4b
+#W	vmarlair@prlb.philips.be 900918; stephan@Belgium.EU.net 911007
+#
+prlbcom	.track-one.be
+prlbcom	ub4b(HOURLY), cstb(LOCAL)
+
+#N	 rc1
+#S	 Sun 4/280; SunOS 4.0.3 UNIX
+#O	 Brussels Free University
+#C	 Eric Luyten
+#E	 postmaster@vub.ac.be
+#T	 +32 2 650 3738
+#P	 Rekencentrum V.U.B., Pleinlaan 2, B-1050 Brussels, Belgium
+#L	 (sorry, geen atlas bij de hand)
+#R
+#U
+#W	dirkv@ub4b.buug.be 910403
+#
+rc1	.vub.ac.be
+rc1	ub4b(HOURLY)
+
+#N	rubens
+#S	CONVEX C1/XP; CONVEX UNIX 7.1
+#O	Plant Genetic Systems Brussels/Unite de Conformation des Macromolecules Biologique.
+#C	Philippe Berthet
+#E	berthet@rubens.be, Postmaster@rubens.be
+#T	+32 2 6485200
+#P	Plant Genetic Systems ULB/UCMB CP160, Av. P. Heger batiment P2, B-1050 Brussels
+#L
+#R
+#U	
+#W	rubens!berthet 870830
+#
+rubens	.rubens.be
+rubens	sunbim(HOURLY), kulcs(HOURLY), magritte(DAILY), 
+	ub4b(HOURLY)
+
+#N	semabru
+#S	SUN 3/150; SunOS 4.0 (UNIX)
+#O	Sema Group Belgium - DTRDB
+#C	Thierry Bingen
+#E	postmaster@sema.be
+#T	+32 2 5085444
+#P	place du Champ de Mars 5  (Bte 40), B-1050 Brussels, Belgium
+#L	004 22 E / 50 50 37 N
+#R
+#U
+#W	semabru!bingen (Thierry Bingen) 900305
+#
+semabru	.sema.be
+semabru	ub4b(DAILY/4)
+
+#N	snibru, siebru
+#S	SIEMENS MX2; SINIX V2.1
+#O	Siemens Nixdorf Information Systems, D923 - UNIX Systems Consulting
+#C	Patrick Vrancken
+#E	patrick@d92.cb.sni.be
+#T	+32 2 7394932
+#P	Colonel Bourgstraat 105, B-1040 Brussels, Belgium
+#L
+#R
+#U
+#W	postmaster@sni.be 900227
+#
+snibru = sni.be
+snibru	.sni.be
+snibru	.siemens.be
+snibru  ub4b(HOURLY), siebru(DAILY)
+
+#N	spaceb
+#S	SUN.3, SUNOS 4.03
+#O	Spacebel informatique s.a.
+#C	Patrick Assis-Arantes, Patrick Vanderdonckt
+#E	patrickv postmaster@spacebel.be
+#T	+32 2 6750423
+#P	Chee de la Hulpe 177, 1170 Bruxelles, Belgium
+#L
+#R
+#U
+#W	hansk@ub4b.buug.be 911021
+#
+spaceb	ub4b(DAILY)
+spaceb	.spacebel.be
+
+#N	staff
+#S	APOLLO WORKSTATION DN3500; UNIX 4.2 BSD ( DOMAIN/IX 9.5 )
+#O	STAFF S.A. Medical Software Engineering
+#C	Pascal BRAHY
+#E	pb@staff.be, postmaster@staff.be
+#T	+32 10 453311
+#P	6, Rue des Wallons, B-1348 Louvain-la-Neuve, BELGIUM
+#L
+#R
+#U
+#W	staff!pb (Pascal BRAHY) 890509
+#
+staff	lln-cs(DAILY), ub4b(HOURLY)
+staff	.staff.be
+
+#N	sunbe
+#S	Sun
+#O	Sun microsystems Belgium
+#C	Peter Strickx
+#E	postmaster@sun.be
+#T	+32 2 7303811
+#P	Colonel Bourgstraat 127-129, B-1140 Brussels, Belgium
+#L
+#R
+#U
+#W	jean@ub4b.buug.be 910529
+#
+sunbe	.sun.be
+sunbe	ub4b(DAILY)
+
+#N	sunbim
+#S	Convex C1; CONVEX UNIX RELEASE V6.1
+#O	B.I.M. S.A./N.V. - Everberg
+#C	Stephan Allemon
+#E	sa@sunbim.be
+#T	+32 2 7595925
+#P	Kwikstraat, 4	,	B-3078 Everberg, Belgium
+#L
+#R
+#U
+#W	sunbim!sa 851003
+#
+sunbim = sunbim.be
+sunbim	.sunbim.be
+sunbim	lln-cs(HOURLY), fun-cs(HOURLY),
+	bbl(DAILY), rubens(WEEKLY), vub(WEEKLY),ub4b(HOURLY)
+
+#N	sydes
+#S	HP 9000/825; HP-UX Release 7.0
+#O	Sydes Software Development
+#C	Lien Ackermans
+#E	la@sydes.be
+#T	+32 15 422272
+#P	Laarstraat 14, 2610 Wilrijk (Antwerpen)
+#L	004 30 00 E / 51 02 00 N
+#R
+#U
+#W	sydes!ka 900227
+#
+sydes = sydes.be
+sydes	.sydes.be
+sydes	ub4b(DAILY)
+
+#N	systmc
+#S	M24; MS-DOS 3.20; UUPC
+#O	Systeam Computers BVBA
+#C	Ivo Van Hoovels
+#E	ivo@systmc.be
+#T	+32 16 262243
+#P	Pr. Daensstraat 19, B-3200 Leuven, Belgium
+#L
+#R
+#U
+#W	systmc!ivo (Ivo Van Hoovels) 890330
+#
+systmc = systmc.be
+systmc	.systmc.be
+systmc	ub4b(DAILY)
+
+#N	tbl1
+#S	Sun sparcstation 1, SunOS 4.0
+#O	Tractebel sa, Division Energy Engineering
+#C	N. Argani
+#E	argani@tractebel.be
+#T	+32 2 7738056
+#P	7,, Avenue Ariane, B-1200 Brussels, Belgium
+#L	
+#R
+#U
+#W	ub4b!jean (Jean Huens) 900511
+tbl1	ub4b(DAILY)
+tbl1	.tractebel.be
+
+#N	telinfo, telindus
+#S	HP9000/370
+#O	Telindus Networks; division of TELINFO NV/SA
+#C	Messemaekers Guido
+#E	
+#T	+32 16 382 486
+#P	Geldenaaksebaan 335, B-3001 Heverlee, Belgium
+#L	004 40 47 E / 50 51 51 N
+#R	Running DECUS uucp V1.1 (send mail for details) and ANU News 5.7
+#U
+#W	ub4b!stephan 910603; hansk@ub4b.buug.be 911001;
+telinfo	ub4b(DAILY)
+telinfo	.telindus.be
+
+#N	ub4b
+#S	DEC Vaxstation 3200 ; Ultrix-32 V3.1
+#O	BUUG : Belgian Unix User Group
+#C	Stephan Biesbroeck
+#E	postmaster@Belgium.eu.net
+#T	+32 16 200656
+#P	Celestijnenlaan 200A, B-3030 Leuven-Heverlee, Belgium
+#L	004 40 47 E / 50 51 53 N
+#R
+#U	mcsun, kulcs, vub, lln-cs
+#W	ub4b!stephan (Stephan Biesbroeck) 900206; hansk@ub4b.buug.be 911021
+ub4b	kulcs(HOURLY), prlbcom(HOURLY), kuluz(HOURLY), lln-cs(HOURLY),
+	e2s(DAILY), bbl(HOURLY), snibru(HOURLY), flitser(DAILY),
+	vub(HOURLY), hpubrua(DAILY), tbl1(DAILY), sydes(DAILY),
+	kulet(HOURLY), capgsb(HOURLY), distri(HOURLY),
+	rubens(HOURLY), sunbim(HOURLY), semabru(DAILY), elem4(HOURLY),
+	fun-cs(HOURLY), uiag(HOURLY), intecsi(HOURLY), camme(HOURLY),
+	dg13(HOURLY), atmos(HOURLY), attdsg(HOURLY),
+	labux1(HOURLY), kone1(HOURLY),
+	systmc(DAILY), barcogr(DAILY),  awhome(DAILY),
+	staff(HOURLY), imx(DAILY), nrb(DAILY), kulesat(HOURLY),
+	lsd(DAILY), rc1(HOURLY), atcmpbe(DAILY), dvd(DAILY), 
+	abcomp(DAILY), lhsbru(DAILY), alcbel(DAILY), kulmtm(DAILY),
+	crpculu(HOURLY), telinfo(DAILY), frankli(DAILY),oscb(DAILY),
+	csinnb(DAILY), pepben(DAILY), sunbe(DAILY), klee(DAILY),
+	itwmml(DAILY), binfg1(DAILY), bbri(DAILY), lhsiep(DAILY),
+	bel2x(DAILY), lbo(DAILY), spaceb(DAILY), azvub(DAILY), cgib(DAILY),
+	trucha(DAILY)
+#	mcsun(ARPA-1)
+#ub4b =	belgium.eu.net
+ub4b = 	ub4b.buug.be
+ub4b	.buug.be
+#ub4b	.be
+
+#N	uiag
+#S	Gould Powernode 6031-X, UTX/32 release 2.0 (with EUUG-UUCP)
+#O	Universitaire Instelling Antwerpen, Rekencentrum
+#C	P. Rypens, P. Donche
+#E	rypens@ccv.uia.ac.be, donche@ccu.uia.ac.be
+#T	+32 3 8202201 , +32 3 8202202
+#P	Universiteitsplein 1, B-2610 Wilrijk, Belgium
+#L	04 24 21 E / 51 10 16 N
+#R
+#U
+#W	stephan@ub4b 900327
+#
+uiag	ub4b(HOURLY)
+
+#N	vub
+#S	VAX-11/785, 4.3BSD
+#O	Vrije Universiteit Brussel, Medische Informatica
+#C	Erik Blockeel
+#E	erik@minf.vub.ac.be
+#T	+32 2 4774438
+#P	Laarbeeklaan 103, B-1090 Brussels, Belgium
+#L
+#U	
+#R	gateway machine to VUB LAN
+#W	vub!erik 880701
+#
+vub = minf.vub.ac.be
+vub	kulcs(DAILY), sunbim(DAILY), lln-cs(DAILY),
+	ub4b(DAILY)
+
+#VUBNET=	{vub,  minf1, cyto1, fysp1, primis,
+#	klzs1, info1, info2, info3,
+#	imec1, elec1, elec2, etro1, etro2, etro3,
+#	arti1, arti3, arti5, arti6,
+#	fgts1, prog1, prog2, orgc1, tinf1, tinf2,
+#	tena1, tena2, zone1, zone2, elem1, elem2, elem3,
+#	bcms1}(LOCAL)
+
+# Domain entry points
+#
+#	Sites with bitnet access should enable lines starting with
+#	 #BIT_
+#	by removing #BIT_ and should comment out the line above it.
+#
+#	bitnet
+#
+#
+#kulcs	.earn-ulg.ac.be
+#BIT_BLIULG11.bitnet	.earn-ulg.ac.be
+#kulcs	.ulg.ac.be
+#BIT_BLIULG11.bitnet	.ulg.ac.be
+#kulcs	.fnrs-nfwo.ac.be
+#BIT_BEARN.bitnet	.fnrs-nfwo.ac.be
+#kulcs	.rug.ac.be
+#BIT_BGERUG51.bitnet	.rug.ac.be
+#kulcs	.scf.fundp.ac.be
+#BIT_BNANDP11.bitnet	.scf.fundp.ac.be
+#kulcs	.cc.fundp.ac.be
+#BIT_BNANDP11.bitnet	.cc.fundp.ac.be
+#kulcs	.sckmol.ac.be
+#BIT_BMLSCK11.bitnet	.sckmol.ac.be
+#kulcs	.ufsia.ac.be
+#BIT_BANUFS11.bitnet	.ufsia.ac.be
+#kulcs	.umh.ac.be
+#BIT_BMSUEM11.bitnet	.umh.ac.be
+#kulcs	.uia.ac.be
+#BIT_BANUIA51.bitnet	.uia.ac.be
+
+#
+#	Sites with bitnet access can give the preference to bitnet
+#	to access other sites that are also on both networks. This can be
+#	done by removing the domain entry point declaration for those sites
+#	above in the map, and by removing #BIT_ in the lines below.
+#
+#
+#BIT_kulcs		.cs.kuleuven.ac.be
+#BIT_BLEKUL11.bitnet	.kuleuven.ac.be
+#lln-cs		.info.ucl.ac.be
+#BIT_BUCLLN11.bitnet	.ucl.ac.be
+
+#	Top level domain entry points
+#
+#
+# This allows other sites to send mail to newly added sites before
+# their map is updated.
+#
+#ub4b	.be
+#kulcs		.ac.be
+#BIT_BEARN.bitnet	.ac.be
+# The following line allows to route to fun-cs (UUCP-X400 gateway),
+# addresses in `.rtt.be'.
+#
+fun-cs		.rtt.be
+#
+# end of u.bel.1
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

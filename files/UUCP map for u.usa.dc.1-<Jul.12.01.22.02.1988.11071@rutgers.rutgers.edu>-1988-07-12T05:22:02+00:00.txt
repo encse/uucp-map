@@ -1,0 +1,352 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.dc.1
+: This archive created: Tue Jul 12 01:22:00 1988
+echo shar: extracting u.usa.dc.1
+cat << 'SHAR_EOF' > u.usa.dc.1
+#	start of u.usa.dc.1: Sun Jul 10 13:32:05 PDT 1988
+#	maintained by Nicholas/Nike Horton uumap@reed.uucp
+
+#N	artcs1
+#S	Sun 3/160; SunOS 3.5
+#O	Board of Governors of the Federal Reserve System
+#C	Robert P. Drzyzgula
+#E	artcs1!m1rcd00, artcs1!postmaster
+#T	+1 202 452 3425
+#P	20th & Constitution, N.W., Washington DC 20551 USA
+#L	77 02 47 W / 38 53 36 N
+#R	FRB maintains two connections to uunet: fed & artcs1. fed should be
+#R	used for all official communications; artcs1 lets us download without
+#R	interrupting email & news traffic.
+#U	uunet
+#W	fed!m1rcd00 (Robert P. Drzyzgula); Tue May 17 13:43:20 EDT 1988
+#
+artcs1	uunet(DAILY), fed(LOCAL)
+
+
+#N	baskin
+#S	Gould PowerNode 6040; UTX/32 Release 1.2
+#O	Baskin Financial Corporation
+#C	Bill Kules
+#E	baskin!postmaster
+#T	+1 202 662 8900
+#P	1331 Pennsylvania Avenue, NW, Washington, DC 20004
+#L	38 53 N / 77 15 W
+#R
+#W	baskin!wmk (Bill Kules), Tue Dec  9 14:45:44 EST 1986
+#U	vrdxhq
+#
+#       Sites that we poll hourly or whenever there is traffic
+#baskin	vrdxhq(DIRECT)
+
+
+#N	bjs
+#S	Arete 1200; UNIX Sys 5.2
+#O	Bureau of Justice Statistics
+#C	Marshall DeBerry
+#E	bjs!mdb
+#T	+1 202 724 7774
+#P	633 Indiana Ave, NW  Washington DC 20531
+#L	38 53 34 N / 77 1 0 W
+#R
+#U	yendor
+#W	bjs!mdb (Marshall DeBerry); Sat Jul 25 17:51:12 EDT 1987
+#
+bjs	yendor(DIRECT)
+
+
+#N	dolqci
+#S	Vax 11/750, ULTRIX 32 V2.0
+#O	US Dept of Labor, Employment Training Adm., UI
+#C	Diane Donaldson
+#E	dolqci!postmaster
+#T	+1 202 535 0639
+#P	200 Constitution Avenue, Room S-4015, Washington, DC  20210
+#L	38 53 14 N / 77 01 31 W
+#R	stupid system name, we pronounce it /DOL-key/
+#W	dolqci!andie (Diane Donaldson); Tue Oct  6 08:28:45 EDT 1987
+#U	decuac c3pe ncar vrdxhq gmu90x obpa1 
+#
+dolqci	decuac(DIRECT), c3pe(DIRECT), vrdxhq(DIRECT), gmu90x(DIRECT),
+	ncar(WEEKLY/2), irs3(DIRECT), rlgvax(DIRECT), 
+	obpa1(DEMAND), cvl(DIRECT)
+
+
+
+#N	fed
+#S	Sun 3/140; SunOS 3.5
+#O	Board of Governors of the Federal Reserve System
+#C	Robert P. Drzyzgula
+#E	fed!m1rcd00, fed!postmaster, fed!usenet
+#T	+1 202 452 3425
+#P	20th & Constitution, N.W., Washington DC 20551 USA
+#L	77 02 47 W / 38 53 35 N
+#R	Gateway to the Federal Reserve R&S/MA Divisions' Sun Ethernet LAN
+#U	uunet smsdpg sundc keats
+#W	fed!m1rcd00 (Robert P. Drzyzgula); Tue May 17 13:43:51 EDT 1988
+#
+fed	uunet(DIRECT), smsdpg(HOURLY), sundc(HOURLY), keats(HOURLY),
+	artcs1(LOCAL)
+
+
+
+#N	fjcp60
+#S	Plexus P60 w/ 68020
+#O	Federal Judical Center
+#C	Julie Becker-Berlin
+#E	fjcp60!julie
+#T	+1 202 633 6491
+#P	1100 17th St. NW, 2nd Floor, Washington, DC 20036
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue,  5 Jan 18:45:34 EST 1988
+#U	uunet
+#
+fjcp60	uunet(DEMAND)
+
+
+
+#N	gwusun
+#S	Sun 3/180; SunOS 3.4
+#O	SEAS-CF (George Washington University)
+#C	Don Preuss
+#E	gwusun!donp
+#T	+1 202 994 6853
+#P	725 23rd St., Washington, DC 20052
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue Mar  8 15:02:43 EST 1988
+#U
+#
+gwusun	uunet(DEMAND)
+
+
+#N	hqda-ai
+#S	Sun Microsystems Sun-3/160M; SunOS 3.2 (4.2BSD Unix)
+#C	David S. Hayes
+#E	uunet!cos!hqda-ai!usenet
+#E	ai01@hios-pent.arpa
+#T	+1 202 694 6900
+#O	US Army Artificial Intelligence Center
+#P	HQDA Army Artificial Intelligence Center
+#P	Pentagon ATTN: DSCS-AI (Hayes)
+#P	Washington, DC 20310-0100
+#L	38 52 07 N / 077 03 17 W
+#
+#R	HQDA-AI takes anonymous UUCP connections.
+#R	We keep a small archive of useful sources for
+#R	people who can't do Internet FTP.  Our modem
+#R	number is 1-202-694-6911.  Login as "Uanon".
+#R	There is no password.  Fetch the file
+#R	"~Uanon/Catalog" for a listing of archive
+#R	contents.  You may call at any time.
+#
+#R	My incoming feed:
+#U	sundc
+#
+#R	Nodes that I feed:
+#U	yendor, icus, logi-dc, chu, soft21, beardc
+#
+#W	David S. Hayes; Mon Jan 25 15:25:20 EST 1988
+#
+hqda-ai	sundc(DEMAND), yendor(DEMAND), cos(DEMAND),
+	accva1(HOURLY), mimsy(EVENING), tlog(HOURLY+LOW),
+	arlva1(DEMAND), grebyn(DEMAND), logi-dc(HOURLY),
+	chu(DEMAND), bear-dc(HOURLY)
+#
+tlog=	hios-pent.arpa
+# The following sites poll hqda-ai via PC-Pursuit
+hqda-ai	icus(EVENING), soft21(EVENING)
+
+
+#N	hqhomes
+#S	Intel 310; Xenix 286 Release 3
+#O	U.S. Army Corps of Engineers, HOMES Project
+#C	Angela Booker
+#E	hqhomes!postmaster
+#T	+1 202 272 0969
+#P	HQUSACE, 20 Massachusets Avenue, NW, Washington, D.C., 20314, DAEN-ZCH
+#L	31 51 45 N / 77 00 44 W
+#R	Gateway to other HOMES sites in D.C., Ga., Va. via uucp and Micnet.
+#W	hqhomes!glenn (D. Glenn Arthur Jr.) Thu Sep 18 16:08:51 EDT 1986
+#U
+#
+#hqhomes	sherlok(DEDICATED), amchomes(DEAD), forscom(WEEKLY),
+#    c3pe(DAILY/10), dolqci(DAILY/4), milliways(DAILY/6)
+
+#N	irs1
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service - Computer Services/National Office
+#C	Ron Renoud
+#E	irs1!renoud
+#T	+ 1 202 566-5577
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irs1!kbrown (Ken Brown); Mon May 25 14:41:04 EDT 1987
+#U	umd5 driwash
+#
+irs1	irs3(DEMAND), umd5(DAILY)
+
+
+#N	irs3
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service - Computer Services/National Office
+#C	Mark Mcgee
+#E	irs3!mcgee
+#T	+ 1 202 566-3735
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irs3!kbrown (Ken Brown); Tue Jun 21 14:12:22 EDT 1988
+#U	spl1, wb3ffv, umd5
+#
+#	FAST   - Indicates a 9600 baud or greater link ! (Trailblazer Plus)
+#
+irs3 wb3ffv(HOURLY+FAST), topgun(DEMAND), scsnet(DEMAND), umd5(DAILY),
+	wb6rqn(DEMAND),	cbk(DEMAND), mcgee2(DEMAND), spl1(POLLED/12)
+#	At the moment this connection is not working, if it gets fixed
+#	I will change this.
+irs3	dolqci(DEAD)
+
+
+#N	irsdcp
+#S	Zilog 8000 Model 31, ZEUS V3.2
+#O	Internal Revenue Service, D:C:P
+#C	Frank D. Peden
+#E	irsdcp!peden
+#T	+ 1 202 566 4161
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	irsdcp!frank (Frank D. Peden); Tue, 7 Jan 85 
+#U	dolqci
+#
+#irsdcp	dolqci(DIRECT), scsnet(DIRECT)
+
+#N	jedi
+#S	SUN 3/160C; SUN UNIX 3.1 (4.2BSD)
+#O	Strategic Defense Initiative Organization/Battle Management
+#C	Kurt Zeilenga
+#E	usenet@jedi.UUCP
+#T	+1 505 277 1611
+#P	Pentagon, Washington,  District of Columbia 20301-7100
+#L	38 52 07 N / 77 03 17 W
+#R	Mail If I don't know the address, maybe HC will...
+#W	zeilenga@hc.dspo.gov (Kurt Zeilenga); Sun May  3 10:58:29 MDT 1987
+#U	hi sundc
+#
+jedi	hc(DEMAND), hi(DEMAND), sundc(HOURLY)
+
+
+#N	kenco
+#S	AT&T 3B1; System V 3.0
+#O	Kendrick & Co.
+#C	David Smith
+#E	kenco!root
+#T	+1 202 638 7627
+#P	800 18th Street NW, Suite 500, Washington, DC 20006
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu Apr  7 15:12:54 EDT 1988
+#U
+#
+kenco	uunet(DEMAND)
+
+
+#N	nav4
+#F	vsedev.vse.com
+#O	NAVAL SEA SYSTEMS COMMAND, NAVSEA
+#C	Carl Costanzo
+#E	carl@nav4, ron@vsedev.vse.com
+#T	+1 202 692-8535
+#P	National Center 2 DC
+#L	38 55 N / 77 05 W
+#U	
+#R	not registered
+#W	Tue Feb  9 23:38:32 EST 1988 ron@vsedev.vse.com
+#
+nav4	vsedev(DEMAND), sea1(DEMAND)
+
+
+#N	nexus
+#S	NCR Tower 32
+#O	Nexus, Inc.
+#C	Mike Hickey
+#E	nexus!root
+#T	+1 202 337 4900
+#P	2135 Wisconsin Ave, Suite 300, Washington, DC 20007
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue,  5 Jan 20:58:15 EST 1988
+#U	uunet
+#
+nexus	uunet(DEMAND)
+
+
+#N	nrl-css
+#S	Gould Powernode 9005; UTX 2.0
+#O	Naval Research Lab - Information Technology Division
+#C	James W. Williams
+#E	nrl-css!postmaster
+#T	+1 202 767 9035
+#P	Code 5505, Naval Research Lab, Washington, DC 20375-5000
+#L	38 55 N / 77 00 W
+#R	This is also NRL-CSS.ARPA on the DDN Internet
+#U
+#W	nrl-css!williams (James W. Williams); Tue Feb  8 00:53:00 EST 1988
+#
+nrl-css	= "nrl-css.arpa"
+#
+nrl-css	calgary(DAILY), epiwrl(POLLED), grebyn(DIRECT), uvicctr(WEEKLY), 
+	vax-populi(WEEKLY)
+
+
+#N	obpa1
+#S	Convergent Technologies Megaframe; CTIX 3.31
+#O	USDA Office of Budget and Program Analysis
+#C	Michael Mason
+#E	obpa1!mason
+#T	+1 202 382 1274
+#P	Rm 142-E Admin Bldg, 14th & Independence Ave SW, Washington D.C. 20250
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	obpa1!mason (Mike Mason); Thu Feb 19 14:42:09 EDT 1988
+#U	umd5 dolqci netsys
+obpa1	obpa2(LOCAL), umd5(DAILY), dolqci(DAILY), gaocp(DAILY),
+	isrnix(WEEKLY), princeton(DEAD), iuvax(WEEKLY)
+
+#N	scsnet
+#S	Zilog 8000 Model 31, ZEUS V3.21
+#O	Internal Revenue Service, PM:PFR:D:NO
+#C	Mark E. Sunderlin
+#E	scsnet!sunder
+#T	+1 202 634 2529
+#P	1111 Constitution Ave., Washington, D.C. 20224
+#L	38 53 30 N / 77 01 00 W
+#R
+#W	Mark E. Sunderlin 01/07/86 
+#
+#scsnet	irs3(DIRECT)
+
+
+#N	wash08
+#S	NCR Tower; System V
+#O	American Chemical Society
+#C	Tim Reed
+#E	wash08!root
+#T	+1 202 872 6029
+#P	1155 16th St., NE, Washington, DC 20036
+#L	38 55 N / 77 00 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu Mar 24 12:46:27 EST 1988
+#U
+#
+wash08	uunet(DEMAND)
+
+
+#	end of u.usa.dc.1: Sun Jul 10 13:32:12 PDT 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

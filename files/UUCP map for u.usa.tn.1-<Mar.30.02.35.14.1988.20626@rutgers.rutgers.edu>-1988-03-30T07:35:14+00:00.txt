@@ -1,0 +1,133 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.tn.1
+: This archive created: Wed Mar 30 02:35:09 1988
+echo shar: extracting u.usa.tn.1
+cat << 'SHAR_EOF' > u.usa.tn.1
+# u.usa.tn.1 created by dpz@rutgers.edu on Tue Mar  1 15:03:24 EST 1988
+
+#N	cylixb
+#S	DEC VAX-11/785; 4.1 BSD UNIX
+#O	RCA Globcom, DTS
+#C	Wayne T. Steinmetz
+#E	cylixd!wayne
+#T	+1 901 761 1177
+#P	800 Ridge Lake Blvd., Memphis, Tn. 38119
+#L	37 52 29 N / 122 13 44 W
+#R	NONE
+#U	cylixd
+#W	cylixd!wayne (Wayne T. Steinmetz); Wed Jul 30 14:00:00 CDT 1986
+#
+cylixb	cylixd(DEDICATED/4)
+
+#N	cylixd
+#S	DEC VAX-11/785; AT&T UNIX SysV.2.2
+#O	RCA Globcom, DTS
+#C	Wayne T. Steinmetz
+#E	cylixd!wayne
+#T	+1 901 761 1177
+#P	800 Ridge Lake Blvd., Memphis, Tn. 38119
+#L	90 N / 30 W (city)
+#R	NONE
+#U	cylixb fedeva
+#W	fedeva!wrd3156 (Bill Daniels); Wed Sep 30 03:45:00 CDT 1987
+#
+cylixd	cylixb(DEDICATED/4), fedeva(HOURLY)
+
+#N   ethos
+#S   AT&T 7300; System V
+#O   Humanities Forum 
+#C   Gary J. Smith
+#E   ethos!gary
+#T   +1 615 926 3112 (voice - ask for Dr. Gary Smith, family
+#                     practice), +1 615 477 4394 (data)
+#P   P.O. Box 8005, Gray, TN 37615
+#L   36 29 N / 82 30 W 
+#R   unix-pc groups exchanged with bakerst, balrog, baud,
+#    bilanc, cbatt, chinet, chutepc, cuae2, dukeac, dukempd,
+#    hrcca, ihtlt, kitty, ltuxa, mcdchg, mtune, olnl1, pcid
+#U   rti bakerst
+#W   ethos!gary (Gary J. Smith); Wed Jan 20 15:44:56 EST 1988
+#
+ethos	amanue(WEEKLY), bakerst(WEEKLY), bacchus(DAILY), balrog(WEEKLY), 
+	baud(WEEKLY), bilanc(DAILY), cbosgd(WEEKLY), chinet(DAILY), 
+	cbatt(WEEKLY), chutepc(DAILY), duccpc(DAILY), dukeac(DAILY), 
+	duke(DAILY), gizzmo(WEEKLY), gladys(WEEKLY), godot(WEEKLY), 
+	hrcca(WEEKLY), ihnp4(DAILY), ihtlt(DAILY), kitty(DAILY), 
+	mcnc(DIRECT), mcdchg(DAILY), mtune(WEEKLY), olnl1(DAILY), 
+	rti(DAILY), unisec(WEEKLY)
+
+#N	fedeva
+#S	Concurrent (Perkin-Elmer) 3210; XELOS (SYS V 2.2)
+#O	Federal Express Corp.
+#C	Bill Daniels
+#E	fedeva!wrd3156
+#T	+1 901 922 5836
+#P	Box 727-2620, Memphis, TN 38194-2620
+#L	35 03 N / 089 58 W
+#R	NONE
+#U	cylixd csun emcard
+#W	fedeva!wrd3156 (Bill Daniels); Wed Sep 30 03:45:00 CDT 1987
+#
+fedeva	cylixd(HOURLY), csun(HOURLY), emcard(HOURLY * 3)
+
+#N	potc
+#S	Masscomp 5600; Sys V/4.2 BSD
+#O	Tennessee Valley Authority
+#C	Thomas Holshouser
+#E	potc!hols
+#T	1 (615) 874-1436
+#P	PO Box 2000, Soddy-Daisy TN 37379
+#L
+#R
+#U
+#W	gatech!jeff (Jeff Lee); Tue Jul 27 09:36:37 EDT 1987
+#
+potc	gatech(DEMAND)
+
+#N	tijc02 
+#S	DEC VAX 8600; AT&T UNIX V Release 2 Version 2.0
+#O	Texas Instruments Industrial Systems Division
+#C	Scott Bemis
+#E	tijc02!root
+#T	+1 615 461 2959
+#P	P. O. Drawer 1255  M/S 3517, Johnson City, Tenn. 37605-1255
+#L	36 16 N / 82 19 W
+#R
+#U	
+#W	tijc02!root (Scott Bemis); Thu Oct 22 12:36:32 EDT 1987
+#
+tijc02	rti(EVENING) 
+
+#N	totc
+#S	Masscomp 5600; Sys V/4.2 BSD
+#O	Tennessee Valley Authority
+#C	Thomas Holshouser
+#E	totc!uucp
+#T	1 (615) 874-1436
+#P	PO Box 2000, Soddy-Daisy TN 37379
+#L
+#R
+#U
+#W	gatech!jeff (Jeff Lee); Tue Jul 21 11:25:37 EDT 1987
+#
+totc	gatech(DEMAND)
+
+#N	vuse
+#S	SUN 3/160; SUNOS 3.2 (BSD4.2+)
+#O	Vanderbilt University School of Engineering
+#C	David R. Linn
+#E	vuse!usenet
+#T	+1 615 322 7924
+#P	P. O. Box 1824, Station B, Nashville, TN, 37235
+#L	36 8 N / 86 48 W city
+#R
+#U	uunet
+#W	vuse!drl (David R. Linn); Sat Sep 12 16:45:00 CDT 1987
+#
+vuse	uunet(EVENING)
+SHAR_EOF
+:	End of shell archive
+exit 0

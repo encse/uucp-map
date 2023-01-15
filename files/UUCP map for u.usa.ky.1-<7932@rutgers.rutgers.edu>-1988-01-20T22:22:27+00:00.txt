@@ -1,0 +1,164 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ky.1
+: This archive created: Wed Jan 20 17:22:05 1988
+echo shar: extracting u.usa.ky.1
+cat << 'SHAR_EOF' > u.usa.ky.1
+# u.usa.ky.1 -- David Herron <david@ms.uky.edu>; Wed Nov  4 15:05:53 EST 1987
+#
+# Send submissions to uu-map@ms.uky.edu.
+
+#N	apalcp
+#S	AT&T Unix PC
+#O	Appalachian College Program
+#C	Ken Kubota
+#E	ukma!ken
+#T
+#P
+#L	37 N / 83 W city
+#U	ukma
+#W	last edited, ukma!david, 30-Dec-87
+#
+apalcp	ukma(HOURLY)
+
+#N	arccampb
+#S	AT&T Unix PC
+#O	Campbellsvile Community College (Appalachian <something> Computing)
+#C	Frank Cheatham
+#E	ukma!arccampb!(frank?)
+#T	+1 (502) 465-8158
+#P	Campbellsville College; 200 College St. W; Campellsville Ky,  42718
+#L
+#U
+#W	last edited, ukma!david, 18-Jan-88
+#
+arccampb	ukma(DAILY)
+
+#N	coplex
+#S	Plexus P/75; System V.2 UNIX
+#O	Copper Electronics, Inc.
+#C	Dean A. Brooks, Chuck Sites
+#E	coplex!postmaster
+#T	+1 502 968 1338
+#P	4200 Produce Road, Louisville, KY 40218
+#L	38 12 N / 85 30 W city
+#R	Private unix system serving serval local machines
+#U	bloom-beacon
+#W	coplex!chuck (Chuck Sites); Tues Dec 8 12:36:00 EDT 1987
+#
+coplex	bloom-beacon(DAILY/2), pct(LOCAL), laffu(LOCAL)
+
+#N	davids
+#S	AT&T Unix PC
+#O	David's personal 3b1
+#C	David Herron
+#E	ukma!david
+#T	+1 606 255 2881
+#P	University Station; PO Box 780; Lexington, KY  40506
+#L	37 N / 83 W city
+#U
+#W	last edited, ukma!david, 30-Dec-87
+#
+davids	ukma(HOURLY)
+
+#N	pbc
+#S	Masscomp MC-500
+#O	Pennfield BioMechanics, Inc.
+#C	Sean Casey
+#E	ukma!pbc!sean
+#T	+1 606 252 4033
+#P
+#L	37 N / 83 W city
+#U
+#W	last edited, ukma!david, 30-Dec-87
+#
+pbc	ukma(HOURLY)
+
+
+#N	ukecc, .engr.uky.edu
+#S	AT&T 3B20S, System 5 Version 2 Release 2 UNIX
+#O	University of Kentucky, Engineering Computing Center
+#C	Alan Holt, Edward Bennett
+#E	alan@ecc.engr.uky.edu, edward@ecc.engr.uky.edu
+#T	(606) 257-175
+#P	Lexington, KY 40506
+#L	37 N / 83 W city
+#R	computing services for the University of Kentucky College of Engineering
+#U	ukma ukee dvt
+#W	Last edited, david@ms.uky.edu, 8-Oct-87
+#
+ukecc	.ecc.engr.uky.edu, .engr.uky.edu
+ukecc	ukma(HOURLY), ukee(DIRECT)
+
+#N	ukee
+#S	PDP-11/44, 2.9BSD
+#O	Univ. of Kentucky, Dept. of Electrical Engineering
+#C	Edward C. Bennett
+#E	edward@ecc.engr.uky.edu
+#T
+#P	Lexington, KY 40506
+#L	37 N / 83 W city
+#U
+#W	Last edited david@ms.uky.edu, 8-Nov-87
+ukee  ukecc(DIRECT), ukma(HOURLY)
+
+
+#N	ukma, .ms.uky.edu
+#S	uVaxII, 4.3 BSD.
+#O	Univ. of Kentucky, Dept. of Computer Science
+#C	David Herron, Ken Kubota
+#E	david@ms.uky.edu, ken@ms.uky.edu
+#T	(606) 257-1429, (606) 257-3641
+#P	Patterson Office Tower, Rm. 915, Lexington, KY  40506-0027
+#L	37 N / 83 W city
+#W 	last edited by david@ms.uky.edu, 5-Nov-87
+#U	cbosgd uunet psuvm.bitnet ukecc ulkyvx apalcp
+#U	gatech rutgers rayssd spca6 nrl-cmf husc6 ucsvf
+#R	This machine corresponds to "g.ms.uky.edu" ([128.163.128.7])
+#R	which is our communications front end.
+#
+#	The ".csnet" entries are for backwards compatability and will be
+#	dropped eventually.
+ukma	.ms.uky.edu, .uky.edu
+ukma	.ms.uky.csnet, .uky.csnet
+ukma=	ukma.bitnet
+# Local machines
+ukma 	ukee(HOURLY), ukecc(HOURLY), pbc(HOURLY), davids(HOURLY)
+# Appilachian Community Colleges machines
+ukma	apalcp(HOURLY), arccampb(DAILY)
+# Local unregistered machines
+ukma	dsrich(HOURLY), edward(HOURLY), plai1(HOURLY)
+# Out-of-town
+#
+# hasmed hasn't called us in over 6 months, yet we still occasionally
+# get mail for hasmed!bob ... I'm trying to find something out.
+#
+# rutgers and nrl-cmf are over the internet.  "nrl-cmf" doesn't
+# have its' own map entry anywhere -- it corresponds to nrl-cmf.arpa
+# and is part of the National Research Lab.
+#
+ukma 	hasmed(DEAD), cbosgd(DAILY), anlams(WEEKLY/2), uunet(DEMAND),
+	rutgers(DIRECT), rayssd(DEMAND), nrl-cmf(DIRECT), spca6(DAILY)
+# anlams is also known as anl-mcs.arpa ... does oddjob still have this same
+# alias but in the wrong format?  They're a very irregular site.
+anlams = anl-mcs.arpa
+
+#N	ukpa
+#S	Ridge/32
+#O	University of Kentucky, Physics and Astrophysics
+#C	Dr. George Pepper
+#E	ukma!ukpa!root, root@pa.uky.edu
+#T
+#P	Chemistry Physics Building, Room 239, Lexington, KY 40506
+#L	37 N / 83 W city
+#R
+#U
+#W	Last edited by david@ms.uky.csnet, 6-Nov-86
+#
+# ukpa	.pa.uky.edu
+# ukpa	ukma(EVENING)
+SHAR_EOF
+:	End of shell archive
+exit 0

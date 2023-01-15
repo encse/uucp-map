@@ -1,0 +1,1294 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.pa.3
+: This archive created: Sun Nov  8 06:17:39 1992
+echo shar: extracting u.usa.pa.3
+cat << 'SHAR_EOF' > u.usa.pa.3
+file {u.usa.pa.3}
+#	start of u.usa.pa.3: Sat Sep 26 12:49:47 EDT 1992
+#	maintained by nemap@harvard.edu
+#	Please send all updates/new-entries
+#	to: uucpmap@rutgers.{uucp,edu}
+
+#N	rabbit
+#S	3B2/400 ; System V Rel 2.0.4 (HoneyDanber uucp)
+#O	Rabbit Software Corporation
+#C	Joyce Wertz
+#E	rabbit!usenet , rabbit!postmaster
+#T	+1 215 647 0440
+#P	7 Great Valley Parkway East, Malvern, PA 19355
+#L	40 03 57 N / 75 31 51 W
+#R	Rabbit Software's netnews machine
+#U	hutch
+#W	hutch!joyce (Joyce Wertz); Fri May 17 10:34:15 EDT 1991
+#
+rabbit		hutch(DEDICATED)
+
+#N	radbill
+#S	Macintosh IIci 5/80 7.0.1; uupc 3.0
+#0	Shane Finkel
+#C	Ed Watkeys
+#E	caligula!edw
+#T	+1 215 387 9731
+#P	3301 Race Street Rm 114B, Philadelphia, PA 19104
+#L	39 57 N / 75 09 W city
+#W	caligula!edw (Ed Watkeys); Mon Feb 17 17:47:00 EST 1992
+#U	caligula
+#
+radbill=radbill.cts.com
+radbill caligula(DIRECT)
+
+#N	reality
+#S	SunsparcStation 2
+#O	Reality Technologies
+#C	Richard Genzer
+#E	reality!root
+#T	+1 215 387 6055
+#P	3624 Market Street, Philadelphia, PA 19104
+#L	40 00 N / 75 10 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Apr 30 17:35:58 EDT 1991
+#U
+#
+reality	uunet(DEMAND)
+
+#N	rehab1
+#F
+#S	Altos 3086; Unix 3.2
+#O	Reading Rehabilitation Hospital
+#C	Dan Schein
+#E	rehab1!uucp
+#T	+1 215 775 8352
+#P	RD1 Box250, Reading, PA 19607
+#L	40 20 N / 75 55 W
+#R	UUCP/news gateway for the hospital & Reading area. As
+#R	such all users at the hospital are located on rehab2
+#R	only (rehab1!rehab2!users_name).
+#U	cbmvax rehab2 amisys skpgfics misseye heimat
+#W	rehab1!uucp (Dan Schein); Wed Nov 14 8:39:00 EST 1991
+#
+rehab1	cbmvax(DAILY+FAST),
+	heimat(DAILY),
+	amisys(DAILY),
+	misseye(DAILY),
+	skpgfics(DAILY),
+	rehab2(LOCAL)
+
+#N	rehab2
+#S	Altos 5000; Unix 3.2
+#O	Reading Rehabilitation Hospital
+#C	Dan Schein
+#E	rehab2!dans
+#T	+1 215 775 8352
+#P	RD1 Box250, Reading, PA 19607
+#L	40 20 N / 75 55 W
+#R	Check the "rehab1" entry for details
+#U	rehab1
+#W	rehab2!dans (Dan Schein); Wed Nov 14 08:41:00 EST 1991
+#
+rehab2	rehab1(LOCAL)
+
+#N	rescon
+#S	AT&T 3B2/300; System V r3.2 UNIX
+#O	Resurrection Connection B. B. S.
+#C	Alexander J. Batyi
+#E	rescon!postmaster
+#T	+1 215 785 6644
+#P	P.O. Box 531, Bristol, PA 19007-0531
+#L	40 05 21 N / 074 54 20 W
+#W	alba2l!bud (Alex Batyi); Thu Feb 20 11:34:57 EST 1992
+rescon	alba2l(DEDICATED), logsysv(POLLED), pacs(DEAD), wrangler(WEEKLY)
+
+#N	rinc
+#S	CT Megaframe; System V Release 2
+#O	Cybersoft
+#C	Pete Radatti
+#L	74 00 00 W / 40 00 00 N city
+#E	rinc!root
+#T	+1 215 829 4566
+#P	210 West 12th Avenue, Conshohocken PA 19428
+#R	Mail connections available to anybody who asks nicely.
+#W	snark!eric (Eric S. Raymond); Tue Dec 27 12:19:30 EST 1988
+rinc	hutch(DAILY), adapro2(WEEKLY)
+
+#N	roark
+#S	Macintosh LC; uupc 3.0
+#0	Mark Gardner
+#C	Ed Watkeys
+#E	caligula!edw
+#T	+1 215 387 9731
+#P	3301 Race Street Rm 139A, Philadelphia, PA 19104
+#L	39 57 N / 75 09 W city
+#W	caligula!edw (Ed Watkeys); Tue Feb 18 21:20:00 EST 1992
+#U	caligula
+#
+roark=roark.cts.com
+roark caligula(DIRECT)
+
+#N	robechq
+#S	WYSE WY3216 386 ; XENIX sysV 386
+#O	Robec, Inc. ;  National Headquarters
+#C	Al Kramer, Eli Levine, Eric Neulight
+#E	robechq!root
+#T	+1 215 675 9300
+#P	425 Privet Road ; Horsham, PA ; 19044 ; USA
+#L	40 10 N / 075 15 W
+#R
+#U
+#W	robechq!eli (Eli B. Levine);  Fri Jul 29 10:00:00 EST 1988
+robechq	burdvax(DIRECT), temvax(DIRECT)
+
+#N	rodin33
+#S	Decstation 5000/200; ulbrix 4.2
+#O	Kulicke & Soffa Industries, Inc.
+#C	David Shinton
+#E	rodin33!shinton
+#T	+1 215 784 6967
+#P	2101 Blair Mill Road, Willow Grove, PA 19090
+#L	40 08 N / 75 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Apr 29 16:08:48 EDT 1992
+#U
+#
+rodin33	uunet(DEMAND)
+
+#N	rsquare
+#F	kbvan.com
+#S	Gateway2000 i486 SCO Unix V5 3.2
+#O	Rsquared Consultants, Inc.
+#C	Robert T. Repko
+#E	kbvan!rsquare!rtr
+#T	+1 215 253 2849
+#P	26 Russet Drive, Easton PA 18042
+#L	40 45 05 N / 75 12 35 W
+#W	rsquare!rtr (Robert T. Repko); Mon Feb 25 15:00:04 EST 1991
+#U	kbvan 
+#
+rsquare	kbvan(DEMAND+FAST)
+
+#N	saicar
+#S	IBM RS6000
+#O	Stoner Associates, Inc.
+#C	Chris Kiefer
+#E	saicar!root
+#T	+1 717 243 1900
+#P	P.O. Box 86, Carlisle, PA 17013
+#L	40 12 N / 77 11 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Oct 17 12:04:39 EDT 1991
+#U
+#
+saicar	uunet(DEMAND)
+
+#N	santiago
+#S	AT&T 3b2/300;  System V
+#O	University of Pittsburgh, Hispanic Languages Department
+#C	Bruce Stiehm
+#E	santiago!bgs
+#T	+1 412 624 6726
+#P	1309 Cathedral of Learning, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Fri Aug 18 15:35:53 EDT 1989
+#
+santiago	pitt(DIRECT)
+
+#N	satalink
+#F	dsinc.dsi.com
+#S	486-33 MS-DOS/UUPCB
+#O	Datamax/Satalink Connection
+#C	Ron Brandt
+#E	postmaster@satalink.com
+#T	+1 215 957-4060
+#P	Voicenet; Attn: DSC/Ron Brandt; 17 Ivyland Road; Ivyland, PA 18974
+#L	40 13 14 N / 75 03 04 W
+#U	dsinc
+#W	Ron.Brandt@satalink.com (Ron Brandt); Sun Aug 23 21:06:19 EDT 1992
+#
+satalink	.satalink.com(0)
+satalink=	satalink.com
+satalink 	dsinc(DIRECT+FAST)
+
+#N	sei
+#S	MicroVAX II; 4.3BSD-Tahoe Unix
+#O	Carnegie-Mellon University - Software Engineering Institute
+#C	Tod Pike
+#E	tgp@SEI.CMU.EDU
+#T	+1 412 268 6814
+#P	4500 Fifth Avenue, Pittsburgh, PA  15213
+#L	40 26 N / 80 00 W city
+#R	This is really Internet host HOBBES.CERT.SEI.CMU.EDU.  All
+#	links are mail only, and incoming - this machine can't dial out.
+#U
+#W	orac!pat (Pat Barron); Mon Jun 11 01:38:00 EST 1990
+#
+sei	=hobbes.cert.sei.cmu.edu
+sei	darth(DEMAND),orac(DEMAND),apexepa(DEMAND),
+	willett(DEMAND)
+
+#N	setech
+#S	Intergraph CLIX 6000; UNIX System V R3.1
+#O	SE Technologies, Inc.
+#C	Henry C. Schmitt
+#E	setech!henry
+#T	+1 412 221 1100 x287
+#P	98 Vanadium Road, Bridgeville, PA 15017
+#L	40 26 N / 80 00 W city
+#R	
+#W	setech!henry (Henry C. Schmitt); Tue May  7 14:00:40 EDT 1991
+#
+setech	pitt(DAILY)
+
+#N	shpu1
+#S	MIPS M120/5; RISC/OS 4.0
+#O	Shippensburg University
+#C	Charles (Bud)  E. Miller
+#E	shpu1!usenet
+#T	+1 717 532 1540, +1 717 532 1431
+#P	Math and Comp Sci, Shippensburg, PA 17257
+#L	40 3 41 N / 77 31 20 W
+#W	shpu1!cem (C. E. Miller); Thu Mar 28 08:03:58 EST 1991
+#R	shpu1 is run by Math-Comp Sci Department
+#R	second phone number is department office.
+#
+shpu1	edinboro(DEMAND), eds1(DAILY), mccoy(DEMAND)
+
+#N	sinharat
+#S	Exxon 8421; Zeus 3.2
+#O	George's Pet Unix System
+#C	George Robbins
+#E	sinharat!usenet
+#T	+1 215 932 5118
+#P	Village & Elkdale Road, Lincon University, PA  19352
+#L
+#R	Dial 1 215 932 5568, login guest, to leave messages (rmail).
+#U
+#W	rutgers!dpz (David P. Zimmerman); Sun Jul 31 17:12:53 EDT 1988
+#
+sinharat
+	cbm(DEMAND), cbmvax(DEMAND), tapa(WEEKLY), bartek1(DAILY)
+
+#N	sjuphil
+#S	Sun MicroSystems 4/490; Sun OS 4.1.1
+#O	Saint Joseph's University, Academic Computing
+#C	Jeffrey J. Bachovchin
+#E	sjuphil!bachovch,bachovch@sju.edu
+#T	+1 215 660 1524
+#P	5600 City Avenue, Philadelphia, PA 19131
+#L	39 57 N / 75 07 W city
+#R	Also reachable via csnet as sju.edu or sjuphil.sju.edu
+#W	sjuphil!bachovch (Jeff Bachovchin); Thu Jan 31 15:35:00 EDT 1991
+#U	    
+#
+sjuphil	.sju.edu
+#
+sjuphil	bagate(DIRECT+HIGH), princeton(DAILY+HIGH),
+	liberty(DIRECT+HIGH), widener(DAILY)
+
+#N	skpgfics
+#S	Commodore Amiga A3000/030; AmigaDOS v2.0 & AmigaUUCP v1.13D
+#O	None
+#C	Skip Dyrda
+#E	skpgfics!skipper
+#T	+1 215 775 8884
+#P	779 Grove Ave.,Mohnton,PA 19540
+#L	40 20 N / 75 55 W
+#R	personal machine
+#U	rehab1
+#W	skpgfics!skipper (Skip Dyrda); Tues Oct 29 20:24:00 EST 1991
+#
+skpgfics rehab1(DAILY)
+
+#N	smw002
+#S	Sun 4; SunOS 4.0.3
+#O	Independence Blue Cross
+#C	Steven Giuliano
+#E	smw002!steve
+#T	+1 215 241 2496
+#P	1901 Market Street, Philadelphia, PA 19103
+#L	40 00 N / 75 10 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb  6 19:37:45 EST 1991
+#U
+#
+smw002	uunet(DEMAND)
+
+#N	snark
+#S	80386 (AT&T 6386WGS-E) ; (SVr3) (UNIX SVr3)
+#O	Thyrsus Enterprises
+#C	Eric S. Raymond
+#E	postmaster@thyrsus.com
+#T	+1 215 296 5718
+#P	22 South Warren Avenue
+#L	40 02 08 N / 75 30 54 W 
+#R	Home site of TMN-netnews and the Jargon File
+#U	beyonet  
+#W	Eric S. Raymond; Tue Sep 24 17:27:55 EDT 1991
+#
+snark	beyonet(DIRECT), cbmvax(DIRECT)
+
+#N	snurk
+#S	Amiga 3000 running AmigaDOS 2.0, latest AmigaUUCP software with mods.
+#O	Sirius Software
+#C	Michael Stilson
+#E	snurk!POSTMASTER
+#T	+1 412 793-5765
+#P	1312 Universal Rd.  Penn Hills, PA  USA  15235-3936
+#L	41 02 N / 78 57 35 West / 41 02 North
+#W	snurk!root (Mike 'Sirius' Stilson); Thursday 24-Jan-91 18:55:27
+#
+snurk  floopy(POLLED)
+#N	sojurn
+#F	hobbes.cert.sei.cmu.edu
+#S	ALR BusinessVEISA; 386/33MHZ; SCO UNIX 3.2.2
+#O	Personal System
+#C	Mike Sangrey
+#E	postmaster@sojurn.lns.pa.us
+#T	+1 717 396 9897
+#P	2129 Old Philadelphia Pike, Lancaster, PA,  17602
+#L	40 02 N / 76 14 W city
+#R	Registered in the US domain
+#U	devon
+#W	mike@sojurn.lns.pa.us (Mike Sangrey); Mon Dec 09 07:15:21 EST 1991
+#
+sojurn	.sojurn.lns.pa.us
+sojurn=	sojurn.lns.pa.us
+#
+#sojurn	devon(DAILY+FAST), cai-usd(DAILY), <silmaril>(EVENING+HIGH) 
+sojurn	devon(DAILY+FAST), cai-usd(DAILY), sonata(DAILY)
+
+#N	sonata
+#S	Compaq Deskpro 386/33; 386ix 2.0.1
+#O	Personal System
+#C	Brian R. Eckert
+#E	postmaster@sonata
+#T	+1 215 377 2624
+#P	302 S. 2nd St., Lehighton, PA, 18235-2108
+#L	40 49 N / 75 42 W city
+#U	cai-usd devon sojurn
+#W	sonata!brian (Brian R. Eckert); Sun Aug  9 19:47:07 EDT 1992
+#
+sonata	devon(DAILY+HIGH), sojurn(DAILY+HIGH), cai-usd(DAILY+HIGH),
+	m-5(DAILY+HIGH)
+
+#N	spao01
+#S
+#O	St Agnes Church
+#C	Ed Miller
+#E	spao01!ed
+#T	+1 215 692 2990
+#P	; West Chester, PA
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+spao01	cdin-1(DAILY)
+
+#N	spgh01
+#S	IBM-AT; SCO 2.2
+#O	Church of the Holy Sepulchre
+#C
+#E	ki4pv!postmaster
+#T	+1 412 586 7610
+#P	Road 6, Glade Mills; Butler, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+spgh01	cdin-1(DAILY), spgh02(DIRECT)
+
+#N	spgh02
+#S	mylex 386 ; SCO 2.2
+#O	St Raphael Church
+#C	Fr. Joseph Kurutz
+#E	spgh02!jk
+#T	+1 412 661 3100
+#P	1118 Chislett St.; Pittsburgh, PA   15206.
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+spgh02	ki4pv(DAILY), cdin-1(DAILY),
+	spgh01(DAILY)
+
+#N	sphl01
+#S	 ; SCO 2.2
+#O	Holmesburg Baptist Church
+#C	Ruth
+#E	sphl01!ruth
+#T	+1 215 338 1776
+#P	7927 Frankford Ave; Phila, PA   19136.
+#L
+#U	cdin-1 sphl02 sphl03 sphl04
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+sphl01	cdin-1(DIRECT),
+	sphl02(DIRECT), sphl03(DIRECT), sphl04(DIRECT)
+
+#N	sphl02
+#S	CDI-386; SCO 2.3.1
+#O	St Cecilia RC Church
+#C	Joanne Linus
+#E	sphl02!joanne
+#T	+1 215 725 1240
+#P	535 Hrawn St; Phila, PA   19114.
+#L
+#U	cdin-1 sphl01 sphl03 sphl04
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+sphl02	cdin-1(DIRECT),
+	sphl01(DIRECT), sphl02(DIRECT), sphl04(DIRECT)
+
+#N	sphl03
+#S	CDI-386; SCO 2.3.2
+#O	Queen of Peace Church
+#C	Rev. Daniel J. Kearns
+#E	sphl03!dan
+#T	+1 215 887 1838
+#P	820 North Hills Ave, Ardsley, Pa. 19038
+#L
+#U	cdin-1 sphl01 sphl02 sphl03 sphl04
+#W	cdin-1!lin (Lin Chen) ; Thu Nov 09 11:22:33 EST 1989
+sphl03	cdin-1(DIRECT),
+	sphl01(DIRECT), sphl02(DIRECT), sphl04(DIRECT)
+
+#N	sphl04
+#S	CDI-386; SCO 2.3.2
+#O	St. Albert The Great Church
+#C	Rev. Curran
+#E	sphl04!curran
+#T	+1 215 947 3500
+#P	212 Welsh Rd.; Huntingdon Valley, PA   19006.
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+sphl04	cdin-1(DIRECT),
+	sphl01(DIRECT), sphl02(DIRECT), sphl03(DIRECT)
+
+#N	spike1
+#S	IBM-AT clone; SCO 2.2
+#O	CompuData North
+#C	Matt Dressen
+#E	spike1!matt
+#T	+1 215 824 3000
+#P	10501 Drummond Rd.; Phila, PA   19154
+#U
+#R	really in FRG, but don't have address yet
+#W	ki4pv!tanner (Dr. T. Andrews) ; Thu Nov 09 11:22:33 EST 1989
+spike1	cdin-1(WEEKLY)
+
+#N	srea01
+#S	iAEC-386 clone; SCO Xenix 2.3
+#O	N.D. of Bethlehem
+#C	Fr. Fred Loeper
+#E	srea01!nd
+#T	+1 215 866 4371
+#P	1861 Catasauqua Rd; Bethlehem, PA   18018
+#L
+#U	ki4pv
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea01	ki4pv(DAILY), cdin-1(DAILY+LOW), sbuf01(DAILY),
+	srea02(DAILY), srea03(DAILY), srea04(DAILY),
+	srea05(DAILY), srea06(DEAD), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea02
+#S
+#O	St. John the Baptist
+#C	Fr. Frank Zavodny
+#E	srea02!frfrank
+#T	+1 215 432 0034
+#P	; Allentown, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea02	srea01(DAILY), srea03(DAILY), srea04(DAILY),
+	srea05(DAILY), srea06(DEAD), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea03
+#S
+#O	St. Catharine of Siena
+#C	Fern Lauter
+#E	srea03!fern
+#T	+1 215 779 4005
+#P	; Reading, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea03	srea01(DAILY), srea02(DAILY), srea04(DAILY),
+	srea05(DAILY), srea06(DEAD), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea04
+#S
+#O	St. Jane Fances Dechantel
+#C	Cheryl Shurz
+#E	srea01!cheryl
+#T	+1 215 253 3553
+#P	; Easton, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea04	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea05(DAILY), srea06(DEAD), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea05
+#S
+#O	Our Lady of Mt Carmel
+#C	Chuck Loschiavo
+#E	srea05!sysmgr
+#T	+1 215 348 4190
+#P	; Doylestown, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea05	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea04(DAILY), srea06(DEAD), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea06
+#S
+#O	St. Joseph the Worker
+#C
+#E	ki4pv!postmaster
+#T	+1 215 395 2876
+#P	; Orefield, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea06	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea04(DAILY), srea05(DAILY), srea07(DAILY), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea07
+#S
+#O	St. Anthony of Padua
+#C	Fr Bender
+#E	srea07!frbender
+#T	+1 215 253 7188
+#P	; Easton, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea07	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea04(DAILY), srea05(DAILY), srea06(DEAD), srea08(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea08
+#S
+#O	St. Thomas More
+#C	Fran Smith
+#E	srea08!fran
+#T	+1 215 433 7413
+#P	; Allentown, PA.
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea08	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea04(DAILY), srea05(DAILY), srea06(DEAD), srea07(DAILY),
+	srea09(DAILY), srea10(DAILY)
+
+#N	srea09
+#S	Epson Equity-3 ; SCO 2.2
+#O	Immaculate Conception
+#C	Paul Kochanasz
+#E	srea09!paul
+#T	+1 215 433 4404
+#P	501 Ridge Ave.; Allentown, PA  18102.
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srea09	srea01(DAILY), srea02(DAILY), srea03(DAILY),
+	srea04(DAILY), srea05(DAILY), srea06(DEAD), srea07(DAILY),
+	srea08(DAILY), srea10(DAILY)
+
+#N	srea10
+#S
+#O	St. Columbkill Parish
+#C	Mary Lou Heisler
+#E	srea10!heisler
+#T	+1 215 367 2371
+#P	; Boyertown, PA.
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Tue Oct 11 12:01:02 EDT 1988
+srea10	srea01(DAILY)
+
+#N	starsend
+#S	386 PC/AT; MSDOS 3.3
+#O	Woodward McCoach, Inc.
+#C	Floyd Miller
+#E	starsend!floyd
+#T	+1 215 296 8718
+#P	116 Treaty Drive, Wayne, PA 19087
+#L	40 02 N / 75 29 W city
+#R	T, P and L reflect site of computer, not the organization
+#U	widener
+#W	starsend!floyd (Floyd Miller); Tue Jun 30 21:14:12 EST 1992
+#
+starsend = starsend.chbrk.pa.us
+starsend widener(DAILY)
+
+#N	sunutil
+#S	Sun 386i/250
+#O	Utilities Engineering, GE Erie, PA
+#C	Barry Capell, voice phone (814) 875-5658
+#E	util20!barry
+#P	GE Co., 2901 East Lake Road, Bldg. 4-1, Erie, PA 16531
+#L	41 37 N / 80 08 W
+#U
+#W	M.L. Squires/B.H. Capell ;  Thu Nov 16 13:07:00 EST 1989
+#
+sunutil	util20(DIRECT)
+
+#N	swyn01
+#S
+#O	St. David Episcopal Church
+#C	Albert Mowrer
+#E	swyn01!aom
+#T	+1 215 688 7947
+#P	; Wayne, PA
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+swyn01	cdin-1(DIRECT), swyn02(DIRECT)
+
+#N	swyn02
+#S
+#O	Visitation BVM RC Church
+#C
+#E	ki4pv!postmaster
+#T
+#P	; Norristown, PA
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+swyn02	swyn01(DIRECT), cdin-1(DIRECT)
+
+#N	.tba.com, tba
+#F	dsinc.dsi.com
+#S	Sun SparcStation 2, SunOS 4.1.3
+#O	Timothy Brown and Associates
+#C	Tim Brown
+#E	postmaster@tba.com
+#T	+1 215 436 5767
+#P	334 West Union St, West Chester, PA 19382
+#L	39 57 N / 75 36 W city
+#R
+#W	syd@dsi.com (Syd Weinstein); Sun Aug 30 20:17:28 EDT 1992
+#U	dsinc
+#
+tba	.tba.com(0)
+tba=	tba.com
+tba	dsinc(DEMAND+FAST)
+
+#N	technico
+#S	MVME 147; Sys V R3.6
+#O	Advanced Control Technology, Inc.
+#C	Charles Acker
+#E	technico!root
+#T	+1 215 957 9071
+#P	One Ivybrook Blvd., Suite 180, Ivyland, PA 18974
+#L	40 12 N / 75 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Feb 25 10:27:02 EST 1992
+#U
+#
+technico	uunet(DEMAND)
+
+#N	telerama
+#S	IBM 6150
+#O	Luce Mcquillin Telerama
+#C	Douglas Luce
+#E	doug@telerama.pgh.pa.us
+#T	412/621-5640
+#P	P.O. Box 19026, Pittsburgh PA, 15213
+#L	80 00 W / 40 25 N city
+#U
+#W	doug@telerama.pgh.pa.us; Sat Nov 30 09:59:53 EST 1991
+#
+telerama= telerama.pgh.pa.us
+#
+telerama pitt(DEMAND)
+
+#N	telesis
+#S	Sun 4/380; SunOs 4.1.1
+#O	Telesis Computer Corporation
+#C	Steve Leapline
+#E	telesis!steve
+#T	+1 412 963 8844
+#P	207 Sigma Drive, R.I.D.C. Park, Pittsburgh, PA 15238
+#L	40 26 N / 79 59 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Apr  3 12:04:05 EST 1992
+#U
+#
+telesis	uunet(DEMAND)
+
+#N	temvax
+#S	VAX 11/750 ; Ultrix-32 V2.3
+#O	Institute for Survey Research, TEMPLE UNIVERSITY
+#C	Dr. A. Walters
+#E	temvax!usenet,temvax!walters
+#T	+1 215 787 4439
+#P	Room 502, Fifth floor, 1601 N.Broad St. , Philadelphia PA 19122.
+#L	39 57 N / 75 07 W
+#R
+#U	bpa
+#W	temvax!walters (Allan T. Walters) ; Mon Aug 14 12:30:00 EST 1989
+#
+temvax	bpa(DIRECT), cbmvax(DEMAND),
+	vu-vlsi(DEMAND), robechq(DEMAND)
+
+#N	ten-fwd
+#S	IBM PC clone ; MS-DOS v3.2 and WAFFLE
+#O	Personal machine
+#C	Jeff McQuillen
+#E	ten-fwd!picard
+#T	+1 814 867-8654
+#P	4303 Nittany Apartments; State College, PA 16801
+#L	40 48 N / 77 52 W CITY
+#U	hogbbs
+#W	hogbbs!wcf (Bill Fenner); Thu Aug 23 20:03:53 EDT 1990
+ten-fwd	hogbbs(DAILY)
+
+#N	timer1
+#S	Sequent Balance 8000; Dynix 3.0
+#O	Rightime Econometrics, Inc.
+#C	Francis T. Concannon
+#E	timer1!root
+#T	+1 215 572 7288
+#P	Benson East Office Park, Jenkintown, PA 19046
+#L	40 06 N / 75 08 W city
+#R
+#W	donnalyn@uunet.UU.NET (Donnalyn Frey); Tue Jun 14 16:50:15 EDT 1988
+#U
+#
+timer1	uunet(DEMAND)
+
+#N	tl-vaxa
+#S	VAX 780;  4.3bsd
+#O	Tartan Laboratories, Inc.
+#C	Brian Mondics
+#E	tl-vaxa!mondics || mondics@tl-20b.arpa
+#T	+1 412 621 2210
+#P	461 Melwood Avenue, Pittsburgh, PA 15213
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	darth!dehart (Ed DeHart); Fri May 27 22:38:48 EDT 1988
+#
+tl-vaxa	pitt(DIRECT), darth(DIRECT)
+
+#N	topsail
+#S	Mongrel 386/33; ESIX V.4 Rev. A
+#O	The Topsail Group
+#C	Chuck Murcko
+#E	topsail!postmaster
+#T	+1 215 635 1891
+#P	538 E. Church Rd., Elkins Park, PA 19117
+#L	40 05 N / 75 08 W
+#R	Domain gateway for Topsail.ORG
+#U	gvlv2
+#W	topsail!cmurcko (Chuck Murcko); Tue Feb 25 11:43:05 EST 1992
+#
+topsail	.topsail.org
+topsail	= topsail.topsail.org
+topsail	= topsail.org
+topsail	gvls1(DIRECT),logsysv(DIRECT),astbrk(DIRECT)
+
+#N	.ueci.com, trac2000
+#F	uunet.uu.net
+#S	Motorola 3650; SV68 R3V5
+#O	United Engineers & Constructors - Catalytic  (TRAC Department)
+#C	John Wilwert
+#E	postmaster@trac2000.ueci.com
+#T	+1 215 422 4134
+#P	30 South 17th Street, Philadelphia, PA, 19101
+#L	39 56 N / 075 10 W city
+#R	Registered
+#R	Engineering, Contracting, and Consulting Services
+#U	cbmvax uunet
+#
+trac2000	.ueci.com
+trac2000 =	ueci.com
+trac2000 =	trac2000.ueci.com
+#
+trac2000	<cbmvax>(DEMAND+FAST),
+		enkil(EVENING), phila(DIRECT), <rayssd>(EVENING),
+		<uunet>(DEMAND+FAST)
+
+#N	tredysvr
+#S	Unisys PW2; Unix System V Release 3.1
+#O	Unisys Corporation, Tredyffrin
+#C	Mike Marciniszyn
+#E	tredysvr!postmaster
+#T	+1 215 648 4394
+#P	2476 Swedesford Rd, Paoli PA 19301
+#L	40 02 N / 75 29 W
+#R	gateway for Tredydev.Unisys.COM, Daeng.Unisys.COM, OSIL.Unisys.COM
+#U	gvlv2 dvnspc1 cellar undr
+#W	tredysvr!mike (Mike Marciniszyn); Fri May  8 16:05:27 EDT 1992
+#
+#
+tredysvr =		tredysvr.tredydev.unisys.com
+tredysvr =		tredydev.unisys.com
+tredysvr		.tredydev.unisys.com(LOCAL)
+tredysvr 		osil.unisys.com(LOCAL),
+			daeng.unisys.com(LOCAL),
+			dvnspc1(DIRECT+FAST),
+			ubbpc(DIRECT+FAST),
+			gvls1(DEDICATED),
+			cbmvax(DIRECT),
+			nzkites(DIRECT),
+			cellar(HOURLY+FAST),
+			undr(HOURLY+FAST)
+osil.unisys.com			.osil.unisys.com(LOCAL)
+daeng.unisys.com		.daeng.unisys.com(LOCAL)
+
+#N	trib1
+#S	PC Clone; Coherent 3.2
+#O	Private UN*X System
+#C	John Goldsworthy
+#E	trib1!postmaster
+#T	+1 412 423 3329
+#P	R.D. #1 Box 227, Acme PA 15610
+#L	40 11 N / 79 28 W City
+#U	This site currently exchanges no news, only mail.
+#W	trib1!johng; Sat May 30 09:49:32 EDT 1992
+#
+trib1 pitt(HOURLY), melmac(DAILY)
+
+#N	tycho
+#S	V20 PC/XT; MSDOS 3.3
+#O	Woodward McCoach, Inc.
+#C	Joel Coltoff
+#E	tycho!coltoff
+#T	+1 215 692 9526
+#P	1240 West Chester Pike, Suite 214, West Chester, PA 19382
+#L	39 59 N / 75 32 W
+#R	
+#U	burdvax
+#W	tycho!coltoff (Joel Coltoff); Mon Oct 31 14:05:00 EDT 1989
+#
+tycho	burdvax(DAILY)
+
+#N	ubbpc
+#S	Unisys 6000/80; UNIX Sys. V Rel 5.3
+#O	UNIX Portation Center, Unisys Corporation
+#C	William Hutchison
+#E	ubbpc!usenet
+#T	1+ 215 986 6129
+#P	M.S. B121, P.O. Box 500, Blue Bell, PA 19424, USA
+#L	40 10 N / 75 17 W 
+#R
+#U	tredysvr
+#W	ubbpc!wgh (William Hutchison) ; Fri Apr 10 09:57:51 1992
+#
+ubbpc	tredysvr(DEMAND), eidolon(EVENING)
+
+#N	.undr.org, undr
+#F	gvl.unisys.com
+#S	DEC VAX-6310; VMS V5.2
+#O	The Underground
+#C	Sean R. Petty
+#E	undr!root
+#T	+1 215 269 2866
+#P	82 May Apple Drive, Downingtown, PA 19335-3426
+#L	39 58 75 N / 75 39 91 W
+#R	Registered
+#U	tredysvr
+#W	undr!root; Fri Dec 13 14:13:01 EDT 1991
+#
+undr    .undr.org
+undr	undr.org
+undr=	undr.org
+#
+#
+undr    tredysvr(DIRECT+FAST)
+
+#N	unicorn
+#S	Macintosh SE
+#O	Philip E. Nickerson, Jr.  (Personal Hacking Machine)
+#C	Phil Nickerson
+#E	formtek!pen
+#T	+1 412 371 6354
+#P	326 Woodside Rd., Pittsburgh PA 15221
+#L	40 26 N / 80 00 W city
+#U	
+#W	formtek!pen (Philip E. Nickerson, Jr.); Tue Jun 21 13:57:20 EDT 1988
+#R	Mail, No news (yet!)
+#
+unicorn ditka(DAILY)
+
+#N	upphys
+#S	AT&T 3b2/300;  System V
+#O	University of Pittsburgh, Dept. of Physics and Astronomy
+#C	Robert Carlitz
+#E	upphys!bob
+#T	+1 412 624 9027
+#P	310 Allen Hall, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Fri Aug 18 15:35:53 EDT 1989
+#
+upphys	.phyast.pitt.edu
+upphys	=upphys.phyast.pitt.edu
+upphys	pitt(DIRECT)
+
+#N	util20
+#S	Tandy 4000LX XENIX 386
+#O	Utilities Engineering, GE Erie, PA
+#C	Barry Capell, voice phone (814) 875-2444
+#E	util20!barry
+#T	(814) 875-6429
+#P	GE Co., 2901 East Lake Road, Bldg. 4-1, Erie, PA 16531
+#L	41 37 N / 80 08 W
+#U
+#W	M.L. Squires/B.H. Capell ;  Mon Aug 27 10:31:37 EST 1989
+#
+util20	=peng
+#
+util20	devon(DAILY), ncoast(DAILY), homer(POLLED), sir-alan(POLLED),
+	util4(POLLED)
+
+#N	util4
+#S	Tandy 4000 XENIX 386
+#O	Utilities Engineering, GE Erie, PA
+#C	Barry Capell, voice phone (814) 875-2444
+#E	util4!barry
+#T	(814) 875-2452
+#P	GE Co., 2901 East Lake Road, Bldg. 4-1, Erie, PA 16531
+#L	41 37 N / 80 08 W
+#U
+#W	M.L. Squires/B.H. Capell ;  Mon Aug 25 16:24:37 EST 1989
+#
+#
+util4	util20(POLLED)
+
+#N	uucsbb
+#S	Computer Consoles Incorp. (CCI); System V
+#O	Unisys Corporation
+#C	Patricia Martz
+#E	!uucsbb!usenet
+#T	+1 215 542 3795
+#P	P.O. Box 500, M.S. B140, Blue Bell, PA 19424
+#L	40 07 N / 75 15 W
+#R	Unix 800 number support services
+#U	burdvax
+#W	uucsbb!prm (Patricia Martz); Mon Apr 11 15:15:35 EST 1988
+#
+uucsbb	burdvax(EVENING)
+
+#N	vanth
+#S	Amiga 3000-16/50; AmigaDOS 2.04; Dillon's AmigaUUCP 1.08R2
+#O	personal node
+#C	James M. Shaffer Jr.
+#E	vanth!jms
+#T	+1 717 547 2602
+#P	37 Brook Street, Montgomery, PA  17752
+#L	41 10 N / 76 52 W
+#R
+#U	cbmvax
+#W	vanth!jms (Jim Shaffer Jr.); Thu Oct 03 00:24:45 EDT 1991
+#
+vanth	cbmvax(DAILY)
+
+#N	vgreen
+#S	Vax 3300; Ultrix 4.0
+#O	Fischer and Porter Co.
+#C	Adrian Port
+#E	vgreen!root
+#T	+1 215 233 8910
+#P	100/711 Valley Green Rd, Fort Washington, PA 19034
+#L	40 08 N / 75 12 W city
+#R	
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Oct 29 20:06:08 EST 1990
+#U
+#
+vgreen	uunet(DEMAND)
+
+#N	vhdl
+#S	Apollo 4.3BSD
+#O	VHDL Consulting Group
+#C	William D. Billonitch
+#E	vhdl!root
+#T	+1 215 266 9791
+#P	974 Marcon Blvd, Suite 260, Allentown, PA 18103
+#L	40 36 N / 75 28 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb 27 18:34:57 EST 1991
+#U
+#
+vhdl	uunet(DEMAND)
+
+#N	vu-vlsi
+#S	Sun 4/330; SunOS 4.1.1
+#O	Villanova University, Dept. of Electrical Engineering
+#C	Rick Perry
+#E	perry@vu-vlsi.vill.edu
+#T	+1 215 645 4224
+#P	Villanova, PA  19085
+#L	40 02 N / 75 21 W
+#R	vu-vlsi.vill.edu is [192.82.109.20] on the Internet
+#U	dsinc
+#W	perry@vu-vlsi.vill.edu (Rick Perry); Fri Oct 11 11:56:30 EDT 1991
+#
+vu-vlsi=vu-vlsi.vill.edu
+vu-vlsi	cbmvax(DEMAND), das13(DIRECT), pyrnj(DEMAND)
+
+#N	wa3wbu
+#S	UNISYS 850/16 - Microport V/386, version 3.0Ue
+#O	John Gayman's personal system
+#C	John Gayman
+#E	wa3wbu!john
+#T	+1 717 957 3224
+#P	John Gayman, 1869 Valley Rd., Marysville, PA 17053
+#L	40 05 N / 077 00 W
+#R
+#U	ka3adu gt5000 uunet k3glk eds1
+#W	wa3wbu!john (John Gayman); Sat Feb 10 09:00:00 EST 1990
+#
+wa3wbu	<wb3ffv>(DAILY), uunet(EVENING+FAST), ka3adu(DIRECT),
+	<w3vh>(EVENING+LOW), <n3dmc>(EVENING+HIGH), <wa3pxx>(EVENING+LOW),
+	<thumper>(EVENING), gt5000(DIRECT), fas(DIRECT), k3glk(DIRECT),
+	<eds1>(DIRECT)
+
+#N	wcfpc
+#S	IBM PC clone ; MS-DOS v3.2 and WAFFLE
+#O	Personal machine
+#C	William C. Fenner
+#E	wcfpc!wcf
+#T	+1 814 238 4228
+#P	Calder Square P.O. Box 10425; State College, PA 16805-0425
+#L	40 48 N / 77 52 W CITY
+#U	hogbbs
+#W	hogbbs!wcf (Bill Fenner); Mon Apr 30 23:03:53 EDT 1990
+wcfpc = wcfpc.scol.pa.us
+wcfpc	hogbbs(DAILY), hiway(DAILY)
+
+#N	wehfoer
+#S	DEC Micro-PDP 11/73; UNIX BSD 2.9
+#O	Wills Eye Hospital, Foerderer Center
+#C	Mike Fendick, O.D., Ph.D.
+#E	!wehfoer!mgf
+#T	+1 215 928 3475
+#P	9th & Walnut Streets, Philadelphia, PA  19107
+#L	75 09 21 W / 39 56 58 N
+#R	Eye movement, vision, and pediatric ophthalmology research center
+#U
+#W	wehfoer!mgf (Mike Fendick); Tue Jun 13 14:23:21 EDT 1989
+#
+wehfoer	bpa(DIRECT)
+
+#N	weitech
+#S	Intel 486/33; Coherent 3.2
+#O	Personal Computer
+#C	Stephen E. Weiss
+#E	weitech!seweiss
+#T	+1 215 868 8594
+#P	3421 Searfoss St, Bethlehem, PA 18017
+#L	40 42 30 N / 75 18 30 W
+#R	
+#U	
+#W	weitech!seweiss (Stephen E. Weiss); Tue Apr 28 19:41:03 EDT 1992
+#
+weitech	lehi3b15(DAILY)
+
+#N	wells
+#S	HEI 386, 16MHz with instruction cache, SCO Xenix V
+#O	Wells Computer Systems Corporation
+#C	Edward E. Wells Jr., President
+#E	wells!edw
+#T	(215)-943-6061
+#P	P.O. Box 343, Levittown, Penna. 19058-0343
+#L	40 10 N / 74 48 W
+#R	Unix/Xenix System/Application development, specializing in AT&T 3B's
+#R	and AT&T's VME 3B systems (WE321SB) and 80386 systems.
+#U	dsinc francis rescon bcccix n2lqh
+#W	wells!edw (Edward E. Wells Jr.); Sat Mar 14 21:11:38 EST 1992
+wells	wellsvme(DEDICATED+FAST), dsinc(DIRECT+FAST), francis(DIRECT+HIGH),
+	rescon(DIRECT+HIGH), n2lqh(POLLED), cdin-1(DIRECT+FAST),
+	gmac(DIRECT+HIGH), g10030(DIRECT+HIGH),
+	gaul1(DIRECT+FAST), bcccix(DIRECT+FAST), logsysv(DIRECT+HIGH)
+wells	.wells.com(0)
+wells=	wells.wells.com
+wells=	wells.com
+
+#N	wellsvme
+#S	MicroProject VME/3B (WE321SB) computer.
+#O	Wells Computer Systems Corporation
+#C	Edward E. Wells Jr., President
+#E	wells!edw
+#T	(215)-943-6061
+#P	P.O. Box 343, Levittown, Penna. 19058-0343
+#L	40 10 N / 74 48 W
+#R	Unix/Xenix System/Application development, specializing in AT&T 3B's
+#R	and AT&T's VME 3B systems (WE321SB) and 80386 systems.
+#U	wells
+#W	wellsvme!wells!edw (Edward E. Wells Jr.); Sat Mar 14 21:11:44 EST 1992
+wellsvme	wells(DEDICATED+FAST)
+wellsvme=	wellsvme.wells.com
+
+#N	wharf
+#S	IBM PC/XT; Swan XT10
+#O	Fisherman's Wharf BBS
+#C	Bob Fischer
+#E	wharf!ben
+#T	+1 215 383 5547
+#P	4 Bunker lane, Thorndale PA 19372
+#L	40 00 N / 075 45 W
+#U	lock60
+#W	lock60!mhw (Mark H. Weber) Fri Aug 17 00:03:11 EST 1990
+#
+wharf	lock60(DAILY)
+
+#N	whatoh
+#S	80386 pc system
+#O	Home of the OUTLAND bbs.
+#C	Mitchel Ludwig
+#E	whatoh!postmaster
+#T	+1 215 861 8189
+#P	426 Birkel Ave, Bethlehem, PA 18015
+#L	40 36 30 N / 75 22 30 W
+#R	
+#U	lehi3b15
+#W	whatoh!ludwig (Mitchel Ludwig); Mon Nov 26 16:29:14 EST 1990
+#
+whatoh	lehi3b15(DIRECT)
+
+#N	widener
+#F	cs.widener.edu
+#S	Sun SparcStation; SunOS Unix
+#O	Widener University Computer Science Department
+#C	Sun Network Manager
+#E	postmaster@cs.widener.edu, widener!postmaster
+#T	+1 215 499 4528
+#P	Widener University, Science, One University Place, Chester, PA 19013
+#L	39 50 58 N / 75 21 22 W
+#R	UUCP host widener is cs.widener.edu ([147.31.254.130]) on the Internet.
+#R	We're willing to give dialup email feeds to whomever wishes to poll us.
+#R	We can accept connections from Worldblazers down to 2400s.  Newsfeeds
+#R	available, with limited ones at 2400.  (No fees; donations accepted.)
+#R	We encourage (and assist in) using the pa.us domain; abolish .UUCP!
+#U	bu.edu batman.moravian.edu cmcl2 dartvax dsinc eff hela psuecl pitt
+#U	gvlf3.gvl.unisys.com iggy.gw.vitalink.com netnews.upenn.edu
+#U	nyu.edu umn.edu ukma
+#U	beyonet cassini logsysv noyles phlpa starsend wpllabs
+#W	widener!brendan (Brendan Kehoe); Sun Jul 12 12:30:39 EDT 1992
+#
+widener	= cs.widener.edu
+widener	.cs.widener.edu(0)
+#
+# Links marked `DEDICATED' are TCP/IP-based UUCP running on the Internet.
+#
+widener	beyonet(DAILY/2+FAST), cassini(DAILY), clout(DEDICATED),
+	cmcl2(DEDICATED), depot(DEDICATED), dvr-phl(EVENING), emory(DEDICATED),
+	gatech(DEDICATED), gvls1(DEDICATED), heifetz(DEDICATED),
+	hela(DEDICATED), kenputer(DAILY), jabber(HOURLY+FAST),
+	lafcol(DEDICATED), logsys(HOURLY), logsysv(HOURLY), marksys(HOURLY/3),
+	mgi(DAILY/2+FAST), mimsy(DEDICATED), phlpa(DIRECT), sjuphil(DAILY),
+	starsend(DAILY), sugaree(DAILY), tycho(DAILY), wpllabs(DEMAND)
+
+#N	willett
+#S	IBM-PC/AT Clone; UULINK uucp software
+#O
+#C	Doug Philips
+#E	willett!uucp
+#T	+1 412 884-3648
+#P	3021 Willett Ave, Pittsburgh, PA  15227
+#L	40 26 N / 80 00 W city
+#R	mail only from sei, pitt
+#U
+#W	willett!dwp (Doug Philips); Tue May 21 22:06:16 EDT 1991
+#
+willett	=willett.pgh.pa.us
+willett sei(DEMAND), pitt(DEMAND)
+
+#N	wings
+#S	DEC VAXStation 2000; VMS V5.4
+#O	INTEGRATED SOLUTIONS
+#C	Steve Lipshutz
+#E	wings!postmaster
+#T	+1 215 668 8543
+#P	508 Anthwyn Road, Merion PA
+#L	32 49 10 N / 117 07 30 W
+#R	Running DECUS uucp V1.2 (send mail to jeh@dcs.simpact.com for details)
+#U	xmws
+#W	wings!lipshutz_sb (Steve Lipshutz); Wed January 16 12:15:00 EST 1991
+#
+wings xmws(DEMAND)
+
+#N	wizzy
+#S	Iris Indigo/IRIX 4.0.1
+#O	WZI
+#C	Andy Rabagliati
+#E	wizzy!postmaster
+#T	+1 717 746 7780
+#P	RR1 Box 33, Wyalusing, PA 18853-9704
+#L	41 41 42 N / 76 14 W
+#R
+#W	wizzy!andyr (Andy Rabagliati); Mon Sep  7 18:26:46 EDT 1992
+#U
+#
+wizzy   uunet(DAILY+HIGH), hope(WEEKLY)
+
+#N	wpllabs
+#S	Amiga 2500/20; AmigaDOS 2.04; AmigaUUCP 1.15D
+#O	WPL Laboratories, Inc.
+#C	William Loftus
+#E	wpllabs!loftus
+#T	+1 215 668 3661
+#P	P.O. Box 111; 216 Wynne Lane; Penn Valley, PA 19072
+#L	40 00 N / 75 15 W
+#U	widener
+#W	wpllabs!loftus (William Loftus); Thu Jan 9 12:02:24 EDT 1992
+#
+wpllabs = wpllabs.penn-valley.pa.us
+wpllabs	widener(DEMAND)
+
+#N	xmws
+#S	DEC VAXStation 3100; VMS V5.3-1
+#O	XMWS Associates
+#C	Lincoln A. Baxter
+#E	xmws!postmaster
+#T	+1 215 935 2711
+#P	149 Silver Springs Rd Phoenixville, PA 19460
+#L	40 8 30 N / 75 33 00 W
+#R	Running DECUS uucp V1.2 (send mail to jeh@dcs.simpact.com for details)
+#R	and ANU News 5.9C
+#U	cbmvax
+#W	xmws!baxter (Lincoln Baxter) Thurs; September 27 02:45:00 EDT 1990
+#
+xmws cbmvax(DEMAND+FAST), wings(DIRECT), lock60(DIRECT)
+
+#N	yantar
+#S	IBM PC; MS-DOS 3.30
+#O	PROTOOL BBS at CSE Corporation
+#C	Greg Kochaniak
+#E	yantar!postmaster
+#T	+1 412 856 9200
+#P	600 Seco Road, Monroeville, PA 15146
+#L	40 26 N / 79 45 W city
+#U	darth
+#R	This is Fidonet node 1:129/128
+#W	stjhmc!ddodell (David Dodell); Wed Jan 16 01:15:00 MST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	administrator, fidonet.org domain
+#
+yantar=	yantar.fidonet.org, f128.n129.z1.fidonet.org
+yantar	darth(DAILY/4), eklekt(DAILY/2)
+
+#N	yoda
+#S	Amiga 2500UX; System V Release 4 (Amiga version Beta3j)
+#O	Omnicron Data Systems
+#C	Mike "Ford" Ditto
+#E	yoda!ford
+#T	+1 215 344 9421
+#P	248 Canterbury Drive  West Chester, PA  19380
+#L	40 00 40 N / 75 35 30 W
+#R	Masquerades as kenobi for kenobi's uucp connections
+#U	amix
+#W	yoda!ford (Ford); Tue Nov 13 09:16:04 EST 1990
+#
+yoda = yoda.commodore.com
+yoda	kenobi(DEDICATED)
+yoda	amix(DIRECT)
+
+
+#	end of u.usa.pa.3: Sat Sep 26 12:49:51 EDT 1992
+SHAR_EOF
+:	End of shell archive
+exit 0
+

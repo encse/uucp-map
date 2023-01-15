@@ -1,0 +1,1427 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.oh.2
+: This archive created: Sat Nov 30 06:49:10 1991
+echo shar: extracting u.usa.oh.2
+cat << 'SHAR_EOF' > u.usa.oh.2
+#MAP FILE: u.usa.oh.2	Mon Nov 25 10:36:33 EST 1991	tim.g.thompson@att.com
+#     Revisions/New maps should be sent to: usa-oh@rutgers.edu
+#
+#
+
+#N	n8emr
+#S	AMI 386-25, ISC 2.2
+#O	HBBS (Ham Bulletin Board System)
+#C	Gary W. Sanders
+#E	n8emr!postmaster,n8emr!gws
+#T	+1 614 895 2552
+#P	3584 Karikal Ct, Westerville, Ohio 43081
+#L	40 05 30 N / 82 55 W
+#R	BBS supporting Ham, SWL and Scanner activitys,
+#R	Ham BBS, 614-895-2553 (1200/2400/9600(v.32)/PEP with MNP L5
+#R	Also know on n8emr.ampr.org, but only within the Ohio 
+#R	amateur packet network.. 44.70.0.1
+#U	osu-mps,uncle,bluemoon,colnet,ka8lvz,mcinix
+#W	n8emr!gws(Gary Sanders); Sun Oct 27 18:42:03 EST 1991
+#
+#	Running XBBS BBS software by (alphcm!sandy),
+#
+# Full news and mail access
+n8emr	osu-mps(DIRECT+FAST), uncle(DIRECT+FAST), bluemoon(DIRECT+FAST),
+	colnet(DIRECT+FAST)
+#
+# Partial news feeds
+n8emr	mcinix(DEMAND),ka8lvz(DIRECT+FAST)
+#
+# Other toys I have laying around, news/mail feeds.
+n8emr	yaub(DIRECT), moub(DIRECT), gwspc(DIRECT)
+#
+# Links to mail only sites
+n8emr	febpc(DEMAND), swspc2(DEMAND), osu-cis(DEMAND), 
+	att(DEMAND), nz8r(DEMAND), chemabs(DEMAND), oink(DEMAND), 
+	kd8wk(DEMAND), elektro(DEMAND), equicom(DEMAND), 
+	lithum(DEMAND), k8nu(DEMAND), vlink01(DEMAND), 
+	wd8rlb(DEMAND), colhealth(DEMAND)
+#
+# Fidonet to usenet gateway node.. 
+n8emr	cmhgate(DIRECT)
+n8emr	cmhgate.n226.z1.fidonet.org(DIRECT)
+n8emr	n226.z1.fidonet.org(DIRECT)
+#
+# Packet radio feeds. (limted use, moderated mail)
+n8emr	n8jyv(DAILY)
+
+#N      n8hsp
+#S
+#O      Cleveland TCP/IP Amateur Radio
+#C      Terry Bell 
+#E      n8hsp!tbell, ab617@cleveland.freenet.edu
+#T      +1 216 431 3109
+#P      3747 Euclid Ave. Cleveland, OH 44115
+#L      41 30 N / 81 30 W 
+#R
+#U
+#W      n8hsp!tbell (Terry Bell); Sun Dec 23 12:20:00 EST 1990
+#
+n8hsp   ncoast(DAILY)
+
+#N	ncoast, NCoast.ORG
+#S	Micro 1 386; SCO Xenix 2.3.3
+#O	North Coast Public Access Un*x
+#C	Richard H. Garrett; Brandon S. Allbery
+#E	ncoast!postmaster
+#T	+1 216 237 1855
+#P	Box 293, Hinckley, OH 44233
+#L	81 41 W / 43 30 N
+#R	Also known as NCoast.ORG on the Internet
+#R	Public access:  +1 216 582 2460 login as 'makeuser' or 'bbs'
+#R	Telebit Access on +1 216 237-5486
+#R	Sites wanting uucp connection send email from 
+#R 	your site to ncoast!postmaster to establish login
+#U	comm10 devon fmsrl7 fmsystm hal9000 nshore nudata ohiont sgtech
+#U	sidrat sir-alan skybridge tdi3 telotec tricom usenet.ins.cwru.edu 
+#U	util20 wfhami prism1 tricom
+#W	ncoast!rhg (Richard H. Garrett); Mon Dec 17 6:28:05 EDT 1990
+#
+ncoast = ncoast.org
+ncoast	.ncoast.org
+#
+# Normal subscriber connections (18)
+#
+ncoast	comm10(WEEKLY+LOW), devon(WEEKLY), fmsrl7(WEEKLY), fmsystm(HOURLY),
+	hal9000(DEMAND), ohionet(DAILY), nshore(HOURLY+HIGH), nudata(DAILY),
+	sgtect(DAILY), sidrat(DAILY), sir-alan(WEEKLY), skybridge(EVENING), 
+	tdi3(EVENING), telotec(EVENING), tricom(EVENING),
+        usenet.ins.cwru.edu(DIRECT+HIGH), util20(DAILY), wfhami(DAILY)
+#
+# Subscriber sites with infrequent and irregular connections (14)
+#
+ncoast	alf(DEAD), calvin(DEAD), cdinc(DEAD), comm10(DEAD), csubio(DEAD),
+	fmsys(DEAD), hal(DEAD), harco3(DEAD), icus(DEAD),
+	margo(DEAD), railnet(DEAD), uccba(DEAD), ushiva(DEAD)
+
+#N	ncrcom, ncr.com
+#S	NCR Tower 32/700; AT&T System V
+#O	NCR Corporation, Dayton, Ohio, USA
+#C	Lee Lane
+#E	postmaster@ncr.com
+#T	+1 513 445 2298
+#P	1700 S. Patterson Blvd., Dayton, Ohio 45479
+#L	39 44 02 N / 84 11 35 W
+#R	Domain Gateway for the NCR.COM and Dayton.NCR.COM domains
+#U	ncr-sd ncratl ncrcae ncrcam ncrith ncrorl ncrwat ncrwic ncrws1
+#U	ncraus uunet
+#W	ncrcom!postmaster;  - Mon May 13 16:03:24 EDT 1991
+#
+# This site is the primary domain gateway for the NCR.COM domain. It is
+# also a domain gateway for the Dayton.NCR.COM domain.  Within NCR.COM
+# the third level domain name acts as a virtual machine that encompasses
+# all of the users in the domain.  In other words, if you know the full name
+# of someone at a NCR Dayton site, mail sent to:
+#
+# Firstname.Lastname@Dayton.NCR.COM
+#
+# will get to them, no matter which machine they actually use.
+#
+# Non NCR connections:
+#
+ncrcom	uunet(DEMAND+FAST)
+#
+#
+# NCR sites with which we communicate over private lines:
+#
+ncrcom	ncr-sd(DEDICATED)	# SanDiegoCA.NCR.COM
+ncr-sd  ncrcom(DEDICATED)
+ncrcom	ncratl(DEDICATED)	# AtlantaGA.NCR.COM
+ncratl  ncrcom(DEDICATED)
+ncrcom	ncrcae(DEDICATED)	# ColumbiaSC.NCR.COM
+ncrcae  ncrcom(DEDICATED)
+ncrcom	ncrcam(DEDICATED)	# CambridgeOH.NCR.COM
+ncrcam  ncrcom(DEDICATED)
+ncrcom	ncrclm(DEDICATED)	# ClemsonSC.NCR.COM
+ncrclm  ncrcom(DEDICATED)
+ncrcom	ncrith(DEDICATED)	# IthacaNY.NCR.COM
+ncrith  ncrcom(DEDICATED)
+ncrcom	ncrorl(DEDICATED)	# OrlandoFL.NCR.COM
+ncrorl  ncrcom(DEDICATED)
+ncrcom	ncrwat(DEDICATED)	# Waterloo.NCR.COM  (Canada)
+ncrwat  ncrcom(DEDICATED)
+ncrcom	ncrwic(DEDICATED)	# WichitaKS.NCR.COM
+ncrwic  ncrcom(DEDICATED)
+ncrcom	ncrws1(DEDICATED)	# PeachtreeCityGA.NCR.COM
+ncrws1  ncrcom(DEDICATED)
+ncraus	ncrcom(DEDICATED)	# AustinTX.NCR.COM     (MCC, Texas)
+
+#N	neologic
+#S	AT&T 6386WGS
+#O	Neologic Inc.
+#C	Roland A. Wilcher
+#E	neologic!postmaster
+#T 	+1 216 881-8129
+#P	29100 Aurora R.D. Solon Oh.
+#L	081 41 W / 41 30 N city
+#R	Interim map before name change.
+#U 	ushiva hal
+#W 	neologic!raw (Roland A. Wilcher);Sat Aug 11 16:47:42 EDT 1990
+#
+neologic	hal(DEMAND),ushiva(DEMAND)
+
+#N	neoucom.edu, neoucom
+#F	uhura.neoucom.edu
+#S	Hewlett-Packard 9000/835; HP-UX 7.0 B
+#O	Northeastern Ohio Universities College of Medicine
+#C	Bill Dorsey, Bill Mayhew, Sean Temple
+#E	wfd@neoucom.edu, wtm@neoucom.edu, sean@neoucom.edu
+#T	+1 216 325-2511
+#P	POB 95, Rootstown, OH 44272
+#L	41 06 N / 81 15 W city
+#R	An OARnet - UUCP Relay site
+#U	aablue impulse mcs.kent.edu redpoll ssci
+#U	usenet.ins.cwru.edu vax1.cc.uakron.edu yfn.ysu.edu
+#W	red@neoucom.edu (Richard E. Depew); Mon Oct 21 11:06:26 EDT 1991
+#
+neoucom.edu	.neoucom.edu, oarnet-relay
+neoucom.edu=	uhura.neoucom.edu, neoucom
+neoucom.edu	aablue(DIRECT), blit(POLLED), cwru.edu(DIRECT), impulse(DIRECT),
+		lll-winken(DEMAND), redpoll(DIRECT), ssci(POLLED), pitt(DEMAND)
+
+#N	nieland
+#S	Amiga 2000HD; Workbench 1.3; AmigaUUCP v1.03D
+#O	private system
+#C	M. Edward (Ted) Nieland
+#E	nieland!tnieland
+#T	+1 513 426 3235
+#P	4498 Stonecastle Drive #207, Beavercreek, Ohio 45440
+#L	39 43 30 N / 084 03 00 W city
+#R	Running AmigaUUCP v1.03D
+#U	
+#W	nieland!postmaster (Ted Nieland); Wed Apr 18 14:34:40 EDT 1990
+#
+nieland = nieland.dayton.oh.us
+nieland		dayvb(DAILY)
+
+#N	nimbus3
+#S	Wyse 3216; SCO Xenix 2.3
+#O	AGS Information Services, Midwest Regional Development Center
+#C	Edward Thompson, Pat Murphy
+#E	nimbus3!usenet, nimbus3!edt, nimbus3!pem
+#T	+1 614 793 1313
+#P	5500 Frantz Rd., Suite 166, Dublin OH 43017
+#L	40 05 N / 83 05 W
+#R	Consulting, Contract Programming
+#U	osu-cis
+#W	nimbus3!pem (Patrick E. Murphy); Tue Nov 21 17:59:05 EST 1989
+#
+nimbus3	osu-cis(HOURLY), apr(DIRECT)
+
+#N	nitrex
+#S	Motorola/Convergent Series 6600 Megaframe; UNIX SYS V
+#O	The Standard Oil Co.
+#C	Mark S. Holtman
+#E	nitrex!msh
+#T	216-581-5375
+#P	4440 Warrensville Center Road, Cleveland, Ohio 44128
+#L	41 30 N / 81 41 W City 
+#R	nitrex orphaned on 2-sept-88 with removal of mandrill link - tgt
+#U	
+#W	nitrex!msh (Mark S. Holtman); Mon Jan 26 21:44:09 EST 1987
+#
+
+#N	nshore, .nshore.ncoast.org
+#S	Micro 1 486; SCO Xenix 2.3.4
+#O	Nshore Salvage and Hacking
+#C	Stephen J. Walick
+#E	nshore!postmaster
+#T	+1 216 942 7504
+#P	37950 Euclid Avenue, Willoughby, Ohio  44094-5910
+#L	41 39 55 N / 81 25 03 W
+#R	+1 216 942 1118
+#U	dwerger fmsystm ncoast nudata pavnet 
+#U	railnet redpoll sacder tricom wariat
+#W	nshore!steve (Stephen J. Walick); Wed Sep 25 23:07:35 EDT 1991
+#
+nshore	= nshore.ncoast.org
+nshore	.nshore.ncoast.org
+#
+nshore	dwerger(EVENING+FAST), fmsystm(POLLED+FAST), ncoast(DEDICATED+FAST),
+	nudata(WEEKLY), pavnet(POLLED), railnet(DEDICATED+FAST),
+	redpoll(WEEKLY+FAST), sacder(EVENING+FAST), tricom(POLLED),
+	wariat(DEDICATED+FAST)
+
+#N	oarnet-relay
+#O	Ohio Academic Resources Network - UUCP Relay
+#C	OARnet  - Henry Clark, UUCP - Richard E. Depew
+#E	henryc@oar.net, red@redpoll.neoucom.edu
+#T	+1 614 292-6483, +1 216 325-2511 x 289
+#P	Ohio Supercomputer Center, 1224 Kinnear Rd., Columbus, OH 43212
+#L	39 59 N / 83 03 W
+#W	red@redpoll.neoucom.edu (Richard E. Depew), Tue Mar 19 17:43:15 EST 1991
+#R	Debut list, restricted to ".edu" sites
+#
+#	These relay services are available to all who abide by the
+#	acceptable use policies of OARnet.
+#
+#	This map entry is provided as a service to the UUCP and OARnet
+#	communities by the good folks from BGSU, CWRU and NEOUCOM:
+#	Kenneth J. Kutz <kutz@andy.bgsu.edu>, 
+#	Chet Ramey <chet@usenet.INS.CWRU.Edu>, and
+#	Bill Dorsey <wfd@uhura.neoucom.EDU>.
+#
+#	For information about OARnet, contact henryc@oar.net
+#
+#	For questions about this map entry, contact
+#	red@redpoll.neoucom.edu
+#
+#	Charter OARnet-relay sites:
+#
+andy.bgsu.edu		oarnet-relay
+uhura.neoucom.edu	oarnet-relay
+usenet.ins.cwru.edu	oarnet-relay
+#
+#  Define oarnet-relay as a server for the following domains/sites.
+#
+oarnet-relay    .bgsu.edu, .central.edu, .csuohio.edu, .cwru.edu,
+        .denison.edu, .franklin.edu, .heidelberg.edu, .hiram.edu,
+        .jcu.edu, .kent.edu, .kenyon.edu, .malone.edu, .mco.edu,
+        .muohio.edu, .muskingum.edu, .neoucom.edu, .oar.net, oar.net,
+        .oberlin.edu, .ohio-state.edu, .ohiou.edu, .onet.edu, .onu.edu,
+        .osc.edu, osc.edu, .osu.edu, .shawnee.edu, .sinclair.edu,
+        .uakron.edu, .uc.edu, .udayton.edu, .utoledo.edu,
+        .wilberforce.edu, .wittenberg.edu, .wooster.edu, .wright.edu,
+        .ysu.edu
+
+#N	oberlin
+#S	DEC VAX-11/750;	ULTRIX 1.2
+#O	Oberlin College Computer Science
+#C	Ken Baer
+#E	oberlin!usenet
+#T	+1 216 775 8424
+#P	Math Department, Oberlin OH 44074
+#L	41 17 30 N / 82 12 32 W city
+#R	Our machine is also on CSNET as oberlin.edu
+#U	
+#W	oberlin!baer (Ken Baer); Fri May 29 09:06:46 EDT 1987
+#
+oberlin = "oberlin.edu"
+#
+oberlin	terminus(DAILY/2)
+
+#N	ohcfo1
+#S	IBM PC/XT; PC-Mail
+#O	None - Cuyahoga Falls, Ohio
+#C	Todd Smith
+#E	ohcfo1!todd
+#T	+1 216 929-9568
+#P	Todd Smith 3422 Board Dr.  Cuyahoga Falls, Ohio  44223
+#L
+#R
+#U	aablue 
+#W	aablue!kevin (Kevin Benton) ; Tue Jan 10 09:02:25 EST 1989
+#
+ohcfo1	aablue(DIRECT)
+
+#N	ohcfo2
+#S	IBM PC/XT; PC-Mail
+#O	None - Cuyahoga Falls, Ohio
+#C	Don Wakefield
+#E	ohcfo2!don
+#T	+1 216 920-1751
+#P	Don Wakefield 2275 Winter Park Way #218 Cuyahoga Falls, Ohio  44221
+#L
+#R
+#U	aablue
+#W	aablue!kevin (Kevin Benton) ; Tue Jan 10 09:02:25 EST 1989
+#
+ohcfo2	aablue(DIRECT)
+
+#N	.ohio-state.edu, tut.cis.ohio-state.edu
+#F	tut.cis.ohio-state.edu
+#O	The Ohio State University
+#C	Bryan Dunlap
+#E	bcd@cis.ohio-state.edu
+#T	614-292-6350
+#P	Dept of Computer and Information Science; 2036 Neil Avenue Mall; 
+#P	Columbus, OH 43210-1277
+#L	39 59 N / 83 03 W
+#R	registered
+#U
+#W	bcd@cis.ohio-state.edu (Bryan Dunlap); Fri Apr 26 15:25:49 1991
+#
+osu-cis=	tut.cis.ohio-state.edu
+tut.cis.ohio-state.edu= cis.ohio-state.edu
+osupyr=	osupyr.mps.ohio-state.edu
+#
+osu-cis	acadch(DAILY), alix(DIRECT), <att>(DEMAND),
+	bgsuvax(DEDICATED),
+	chemabs(DIRECT), colsun(DIRECT), compuserve(DAILY),
+	datta(DIRECT), david(DIRECT), devel(DIRECT), dsacg1(DIRECT),
+	galaxia(DAILY),
+	hpuwoha(WEEKLY),
+	mcorp(DAILY), motcoh(DIRECT), mstar(DIRECT),
+	n8emr(DIRECT), nimbus3(DAILY),
+	osupyr(DIRECT),
+	pro-tcc(WEEKLY), <pyramid>(DAILY/4),
+	rls(WEEKLY),
+	sppy00(DIRECT), stargate(DIRECT),
+	tol-ed(DAILY),
+	watzman(DAILY), westfort(DIRECT), wright(WEEKLY),
+	ysumax(DAILY)
+
+#N	ohiont, .n157.z1.fidonet.org
+#S	IBM AT-compatible; PC-DOS 3.1
+#O	private - FidoNet
+#C	David Chatfield
+#E	ohiont!postmaster
+#T	+1 216 566 9543
+#P	1701 E. 12th #9KW, Cleveland, OH 44114
+#L	44 34 N / 123 16 W city
+#R	FidoNode 1:157/512 running UFGATE. Cleveland Opus/Usenet gateway.
+#U	ncoast
+#W	castle!fidohost (Lee Damon) ; Tue Jul 26 11:32:04 PDT 1988
+#
+# This is the Fidonet <-> Usenet gateway for Cleveland, OH and can accept
+# traffic for Fidonet Region 11.
+#
+ohiont	.n157.z1.fidonet.org
+ohiont=	ohiont.fidonet.org, f512.n157.z1.fidonet.org
+ohiont	ncoast(DAILY/4)
+
+#N	oucsboss, .ohiou.edu
+#S	AT&T 3b2/500; Sys V 3.2.1
+#F	boss.cs.ohiou.edu
+#O	Computer Science Department, Ohio University
+#C	John E. Tysko
+#E	postmaster@boss.cs.ohiou.edu, tysko@boss.cs.ohiou.edu
+#T	+1 614 593 1242
+#P	Computer Science Dept., 423 Morton Hall, Athens OH 45701-2979
+#L	082 05 49 W / 39 19 27 N
+#R	registered
+#R	News/mail redistribution machine within/without the University.
+#U	oucsace fuzzytop sunpower
+#W	tysko@boss.cs.ohiou.edu (John E. Tysko) ; Wed Nov 28 08:51:26 EST 1990
+#
+oucsboss	.ohiou.edu
+oucsboss	.cs.ohiou.edu
+oucsboss	= boss.cs.ohiou.edu
+oucsboss	oucsace(DEDICATED), oual(LOCAL), oual1(LOCAL), dayvb(DAILY),
+		fuzzytop(DAILY), uiucuxc(DAILY), sunpower(DAILY), 
+		wright(DEAD), crta(DEAD), ouecevax(DEAD)
+
+#N	oucsace
+#S	VAX 11/780; BSD 4.3
+#F	oucsace.cs.ohiou.edu
+#O	Computer Science Department, Ohio University
+#C	John E. Tysko
+#E	postmaster@boss.cs.ohiou.edu, tysko@boss.cs.ohiou.edu
+#T	+1 614 593 1242
+#P	Computer Science Dept., 423 Morton Hall, Athens OH 45701-2979
+#L	082 05 49 W / 39 19 27 N
+#R	registered
+#R	UUCP mail/news machine for the CS Dept. and friends.
+#U	att oucsboss
+#W	tysko@boss.cs.ohiou.edu (John E. Tysko) ;  Wed Nov 28 08:47:57 EST 1990
+#
+oucsace	= oucsace.cs.ohiou.edu
+oucsace	oucsboss(DEDICATED)
+
+#N	oink
+#S	AT&T UNIX-PC; 3.5 UNIX
+#O	Random Prime Research Institute
+#C	James E. Prior
+#E	oink!jep,oink!postmaster
+#T	+1 614 274 5428
+#P	3523 Wilson Woods Drive, Columbus, Ohio, USA 43204
+#L	39 58 N / 83 06 W
+#R	nice toy, wastes time doing fractals or big primes
+#U	n8emr
+#W	n8emr!gws(Gary Sanders); Mon Dec 18 22:47:35 EST 1989
+#
+#
+oink	n8emr(DAILY), uncle(DAILY), count0(DAILY), docwrk(DAILY), 
+	schoen(DAILY), nz8r(DAILY), pute(DAILY)
+
+#N	onetouch
+#S	LEX 386; SCO Unix Sys. V/386 3.2
+#O	Management Computer Services
+#C	Philip Turner
+#E	onetouch!root
+#T	+1 614 272 0202
+#P	2790 Fisher Rd., Columbus, OH 43202-3581
+#L	39 57 N / 82 59 W city
+#R
+#U
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Oct  2 10:47:30 EDT 1991
+#
+onetouch	uunet(DEMAND)
+
+#N	owlmnt
+#S	Onyx C6810; Unix System 5.0
+#O	Owl Mountain Inc.
+#C	Jim McCool
+#E	owlmnt!jim
+#T	+1 513 845 1409
+#P	515 Whaley Road New Carlisle Ohio 45344
+#L	
+#R
+#U	wright sloop
+#W	owlmnt!jim (Jim McCool); Wed Dec 23 22:40:36 1987
+#
+owlmnt	wright(DIRECT), sloop(DIRECT)
+
+#N	ozland
+#S	Amiga 3000; AmigaDOS 2.04; AmigaUUCP v1.15D
+#O	private system
+#C	Mark A. Osbourne
+#E	ozland!mark
+#T	+1 513 436 0880
+#P	143 Goldengate Drive, Centerville, Ohio 45459
+#L	39 43 30 N / 084 03 00 W city
+#R	Running AmigaUUCP v1.15D
+#U	
+#W	ozland!mark (Mark Osbourne); Thu Nov  7 08:14:10 EST 1991
+#
+ozland  = ozland.dayton.oh.us
+ozland	dayvb(DAILY)
+
+#N	pavnet
+#S	VICTOR VPCII, Waffle BBS
+#O	Pavnet
+#C      Phil Pavarini Jr
+#E	pavnet!postmaster
+#T	+1 216 891 1122
+#P	P.O. Box 360302, Cleveland, OH  44136
+#L	41 29 58 N / 81 41 54 W city 
+#R	at present, dialout system only
+#U	nshore railnet
+#W      pavnet!pep (Phil Pavarini Jr); Wed Aug 21 19:03:42 EDT 1991
+#
+pavnet = pavnet.nshore.ncoast.org
+#
+pavnet	nshore(DIRECT), railnet(WEEKLY)
+
+#N	picker
+#S	80386 AT&T; Unix Sys V 3.2.2
+#O	Picker International, Inc.
+#C	Jay Gaeta
+#E	picker!gaeta
+#T	+1 216 473 2441
+#P	595 Miner Road, Highland Heights, OH 44143
+#L	41 33 N / 81 28 W city
+#R
+#U
+#W	jane@uunet.UU.NET (Jane Roop); Mon Jul  2 12:48:08 EDT 1990
+#
+picker	uunet(DEMAND)
+
+#N	probiz
+#S	DEC MicroVAX II; VMS V5.99
+#O	Projects Unlimited Incorporated
+#C	David L. Wyse
+#E	probiz!wyse
+#T	+1 513 890 1918
+#P	3680 Wyse Road, Dayton, OH 45414-2539
+#L
+#R	Just starting networking!
+#U	dayvb
+#W	probiz!jason (Jason Wyse); Mon Dec 31 10:45:00 EDT 1990
+#
+probiz	dayvb(DIRECT)
+
+#N	psicho
+#S	NEC Powermate 386/20; Interactive UNIX
+#O	Scientific Columbus, Inc.
+#C	James E. Prior
+#E	psicho!jep,psicho!postmast
+#T	+1 614 279 1828
+#P	4121 Arlingate Plaza, Columbus, Ohio, USA 43204
+#L	39 59 15 N / 83 07 00 W
+#R	boring fileserver
+#U	oink
+#W	n8emr!gws(Gary Sanders); Tue Oct 25 22:15:06 EDT 1988
+#
+psicho	oink(DAILY)
+
+#N	psmsd
+#S	Sirex 386-20; Xenix/386 v2.3.3
+#O	PSM Software Development
+#C	Paul Martin
+#E	psmsd!pmartin
+#T	+1 513 752-6694
+#P	901-A Ohio Pike, Cincinnati, Ohio  45245
+#L	039 00 W / 084 20 N 
+#R	Hardware and Software Consultants
+#U	uceng cccbbs
+#W	psmsd!pmartin (Paul Martin); Sun Oct 07 10:08:39 EDT 1990
+#
+psmsd	uceng(DAILY/4), cccbbs(DAILY)
+
+#N	pute
+#S	AT&T UNIX-PC; 3.5 UNIX
+#O	Ohio Bell's 7300 users group	
+#C	John H. Walpole	
+#E	pute!jwalp,pute!postmaster
+#T	+1 614 761 1300
+#P	8406 Waco Lane, Powell,Ohio, USA 43065
+#L	
+#R	This system will feed 18 other AT&T UNIX-PC owened by Ohio Bell 
+#R	employees
+#U	oink
+#W	n8emr!gws(Gary Sanders); Mon Dec 18 22:47:35 EST 1989
+#
+#
+pute	dmunix(DIRECT), mlunix(DIRECT), obetrs(DIRECT), 
+	obesac(DIRECT), tmunix(DIRECT), djunix(DIRECT)
+
+#N	qusavx
+#S	Vax 11/750; 4.3BSD
+#O	Quantime Corp.
+#C	Sharon L. Jordan
+#E	qusavx!sharon
+#T	+1 513 563 8800
+#P	4010 Executive Park Drive, Suite 226, Cincinnati, OH 45241
+#L	39 10 N / 84 30 W city
+#R
+#U
+#W	rick@uunet.UU.NET (Rick Adams); Wed Apr 27 15:41:09 EDT 1988
+#
+qusavx	uunet(DEMAND)
+
+#N	railnet
+#S	homebuilt 8088 PC clone; MS-DOS 3.3
+#O	Railnet BBS
+#C	Richard A. DeMattia
+#E	railnet!system
+#T	+1 216 341 0318
+#P	P.O. Box 5587, Cleveland, Ohio 44101
+#L	41 29 58 N / 81 41 54 W Cleveland
+#R	WAFFLE bbs software, general-interest and railroad-hobbyist infor-
+#R	mation and files, 'Telebit' PEP, 300-2400 bps access at +1 216 883 6298
+#R	provide mail and limited news. Gateway into a private network.
+#U      nshore ncoast pavnet
+#W      railnet!rad (Rick DeMattia); Sat Nov 2 18:00:00 EDT 1991
+#
+railnet	= railnet.nshore.ncoast.org
+#
+railnet nshore(DIRECT+FAST), ncoast(DAILY*2), pavnet(DEAD)
+
+#N	rcwgwy
+#S	Microvax II; Ultrix V4.0
+#O	BP America - Research
+#C	Robert Shout
+#E	rcwgwy!shout
+#T	+1 216 581 5226
+#P	4440 Warrensville Ctr. Rd, Cleveland, OH 44128
+#L	41 28 N / 81 41 W city
+#R
+#U
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Nov 20 19:13:55 EST 1990
+#
+rcwgwy	uunet(DEMAND)
+
+#N	redpoll.neoucom.edu, redpoll
+#F	uhura.neoucom.edu
+#S	Hyundai Super-386c; AT&T Unix System V/386 Rel. 3.2.1
+#O	Bug & DNA Labs Annex (aka Home)
+#C	Richard E. Depew
+#E	redpoll!postmaster, redpoll!red
+#T	+1 216 325 2511 x 289 , +1 216 686 0401
+#P	168 Lake Terrace Dr., Munroe Falls, OH 44262-1026
+#L	41 09 N / 81 26 45 W
+#R	Accepting UUCP requests.  Telebit T1000 (PEP).
+#U	aablue aldhfn fmsystm mrsmouse neoucom nshore
+#W	red@redpoll.neoucom.edu (Richard E. Depew); Tue Oct  8 20:48:58 EDT 1991
+#
+redpoll=	redpoll.neoucom.edu
+redpoll	aablue(DIRECT), akfire-1(DIRECT), aldhfn(EVENING), dwerger(EVENING),
+	fmsystm(EVENING), hspirit(DEAD), impulse(DIRECT), legend(DIRECT),
+	mrsmouse(DIRECT), neoucom(DIRECT), nshore(WEEKLY), teleng(HOURLY)
+
+#N	.resource.com, resource, resource.resource.com
+#F	saqqara.cis.ohio-state.edu
+#S	AST 386C - 20; SCO System V
+#O	Resource Systems
+#C	Bryan Beck
+#E	bryan@RESOURCE.COM
+#T	+1 614 764 7800
+#P	Suite 390, 2545 Farmers Drive, Columbus Ohio, 43235
+#L	83 10 W / 40 00 W      
+#R	registered
+#U	mstar
+#W	resource!bryan (Bryan Beck); 25 Feb 88 11:33:55 EDT               
+#
+resource 	.resource.com
+resource=	resource.com, resource.resource.com
+fossil=	fossil.resource.com
+resource	fossil(DEDICATED), mstar(EVENING), osu-cis(DIRECT)
+
+#N	rexago8	
+#S	AT&T 3B2/1000 Model 80
+#O	Summit Information Systems
+#C	Beirne Konarski
+#E	rexago8!root
+#T	+1 216 384 1717
+#P	1077 Gorge Blvd, Akron, OH  44310
+#L	41 04 N / 81 31 W city
+#R
+#U
+#W	lorelei@uunet.UU.NET (Lorelei Horner);Thu Apr  4 16:33:49 EST 1991
+#
+rexago8	uunet(DEMAND)
+
+#N	rodent
+#S	Standard Computer (formerly CPU) 386-25MHz; SCO Xenix 2.3.2
+#O
+#C	Steve Hall
+#E	rodent!sgh
+#T	+1 216 494 5658
+#P
+#L	40 47 51 N / 81 22 35 W
+#R
+#U	bmhalh
+#W	bmhalh!bruce (Bruce Himebaugh); Wed Mar 13 22:40:32 EST 1991
+#
+rodent	bmhalh(DIRECT), actcon(DIRECT)
+
+#N	sacder, .sacder.nshore.ncoast.org
+#S	Logos ACT-386; MS-DOS 5.00
+#O	The UnderGround Network
+#C	Michael G. Jones
+#E	sacder!postmaster
+#T	+1 216 650 0803
+#P	2677 Ellsworth Hill Dr., Hudson, OH 44236
+#L	41 14 31 N / 81 26 29 W  City
+#R	Multi-User Site running Waffle BBS v1.64
+#U	nshore tleilax
+#W	sacder!mgjones (Michael G. Jones); Sat Jul 27 15:00:00 EDT 1991
+#
+sacder	= sacder.nshore.ncoast.org
+sacder	.sacder.nshore.ncoast.org
+#
+sacder	nshore(EVENING+FAST), tleilax(DIRECT)
+
+#N	sbs386
+#S	SCO Unix
+#O	S.B. Stone & Company
+#C	Dave Prusak
+#E	sbs386!root
+#T	+1 216 524 9055
+#P	5000 Rockside Road, Suite 500, CLeveland, OH 44131
+#L	41 30 N / 81 41 W city
+#R
+#U
+#W	jane@uunet.UU.NET (Jane Roop); Thu Jul 11 08:39:06 EDT 1991
+#
+sbs386	uunet(DEMAND)
+
+#N	sch
+#S	Everex 386.20 Esix 3.2
+#O	Software Clearing House
+#C	Paul Landers
+#E	sch!pl
+#T	+1 513 579 0455
+#P	Three Centenial Plaza 895 Central Ave. Cincinnati, OH 45202
+#L	39 06 N / 84 31 W
+#R
+#U
+#W	jane@uunet.UU.NET (Jane Roop); Mon Nov  4 15:05:31 EST 1991
+#
+sch	uunet(DEMAND)
+
+#N	schwambach
+#S	DEC VAX 8530; VMS V5.2
+#O	Edison State College, Piqua Ohio
+#C	Linda Schwambach
+#E	schwambach!linda
+#T	+1 513 773 8271
+#P	103 Clifton Drive, Piqua, Ohio 45356
+#L	40 09 00 N / 084 14 00 W
+#R	Running DECUS uucp V1.1
+#U
+#W	schwambach!linda (Linda Schwambach); Fri Feb 02 19:37:00 EST 1990
+#
+schwambach	dayvb(DAILY)
+
+#N	sdrc, .sdrc.com, sdrc.com
+#F	uunet.uu.net
+#S	Sun 4/490; SunOS 4.1.1
+#O	Structural Dynamics Research Corporation
+#C	Ken Shackelford
+#E	news@sdrc.com
+#T	+1 513 576 2400
+#P	2000 Eastman Dr., Milford, OH 45150
+#L	39 4 6 N / 84 10 18 W
+#R	registered gateway for the .SDRC.COM domain
+#U	uunet cinnet 
+#W	crken@sdrc.com (Ken Shackelford); Mon Feb 18 09:25:00 EDT 1991
+#
+sdrc	.sdrc.com
+sdrc	sdrc.sdrc.com
+sdrc	= sdrc.com, sdrc.sdrc.com
+#
+sdrc	uunet(DEMAND), cinnet(DIRECT)
+
+#N	sea
+#S	Silicon Graphics Iris 4D/70G; System V  3.2
+#O	S.E.A.
+#C	Christopher S. Iams
+#E	osu-cis!sea!iams
+#T	+1 614 888 4160
+#P	7349 Worthington-Galena Rd, Columbus Ohio 43085
+#L	40 04.8 N / 083 04.4 W
+#R	
+#U	osu-cis
+#W	Christopher S. Iams; Tue Nov 11 13:00:00 PDT 1988
+#
+
+#N	serenity
+#S	NCR Tower 32/600; Unix System V3.2 (NCR Release 3.00.02)	
+#O	Serenity, Inc.
+#C	Paul D. Selig, Jr.
+#E	postmaster@serenity.serenity.org
+#T	+1 513 449-8249
+#P	837 Riverview Terrace Suite 2, Dayton, Ohio, 45402
+#L	39 42 10 N / 84 05 20 W
+#R
+#U	udcps3 gwm
+#W	selig@serenity (Paul D. Selig, Jr.); Thu Sep  5 23:47:57 EDT 1991
+#
+serenity	serenity.org(DEMAND), .serenity.org(DEMAND), udcps3(DEMAND),
+		gwm(DEMAND)
+
+#N	sgtech
+#S	Intel 386; Xenix 2.3.1
+#O	Star Gate Technologies, Inc.
+#C	Adnan Yaqub
+#E	sgtech!postmaster
+#T	+1 216 349 1860 x608
+#P	29300 Aurora Rd., Bentley Park South, Solon, Ohio 44139 USA
+#L	41 23 N / 81 26 W city
+#R	
+#U	ncoast
+#W	sgtech!adnan (Adnan Yaqub); Tue Feb 27 08:50:15 EST 1990
+#
+sgtech	abvax(DIRECT+HIGH), ism780c(DEMAND), ncoast(DIRECT+FAST),
+	mstar(DEMAND+FAST), sco(DEMAND+HIGH)
+
+#N	soft1
+#S	SCO Xenix System V
+#O	Software One, Inc.
+#C	Jeff Rosen
+#E    	soft1!root
+#T	+1 614 451 2540
+#P	4900 Reed Road, Suite 331, Columbus, OH 43220
+#L	39 57 N / 82 59 W city
+#R	
+#U
+#W	jane@uunet.UU.NET (Jane Roop); Tue Jul 24 09:10:05 EDT 1990
+#
+soft1	uunet(DEMAND)
+
+#N	softl
+#S	IBM PC/XT; PC-Mail
+#O	None - Akron, Ohio
+#C	Kumar Sivignanam
+#E	softl!kumar
+#T	+1 216 745-9355
+#P	Kumar Sivagnanam 669 Carnegie Ave.  Akron, Ohio  44314
+#L
+#R
+#U	aablue
+#W	aablue!kevin (Kevin Benton) ; Tue Jan 10 09:02:25 EST 1989
+#
+softl	aablue(DIRECT)
+
+#N	spca6
+#S	Unisys 5000/80 (aka Arete 1200); Unix System V.2
+#O	U.S. Court of Appeals for the Sixth Circuit
+#C	Ray Price
+#E	spca6!news
+#T	+1 513 684 2987
+#P	United States Post Office & Courthouse Building; Cincinnati, OH 45202
+#L	39 06 08 N / 84 30 23 W
+#R      We are willing to feed news to anyone in the Cincinnati area
+#U	uccba ukma cinnet sadie madman
+#W	spca6!news (Ray Price); Fri Feb  5 09:31:58 EST 1988
+#W	yun@cinnet.uucp (Yun-seng Chao); Sat Jun 17 16:29:55 EDT 1989
+#
+spca6	uccba(DIRECT), ukma(DEMAND), cinnet(DIRECT), 
+        yoda73(DIRECT), sadie(DIRECT), madman(DIRECT)
+
+#N	sporty
+#S	AMI 386; SCO XENIX 2.3.2
+#O	J. A. Anderson & Company, Columbus, OH
+#C	Jeff Anderson
+#E	sporty!jeff
+#T	+1 614 252 7563
+#P	1156 East Whittier St. Columbus, OH  43206-3269
+#L	83 01 17 W / 39 59 46 N
+#R	MS-DOS, Unix computer consulting & training
+#U	uncle
+#W	sporty!jeff (Jeff Anderson); Mon May  6 13:26:02 EDT 1991
+#
+sporty	uncle(DIRECT)
+
+#N      sppy00
+#S      Pyramid 98x; OSx 3.1; 4.2/SysV Unix
+#O      Online Computer Library Center
+#C      Rick Smith
+#E      sppy00!uucp
+#T      +1 614 764 6311
+#P      6565 Frantz Road, Dublin, OH, 43017
+#L      83 01 17 W / 39 59 46 N
+#R      the OCLC development environment
+#U      osu-cis
+#W      sppy00!jrs (Rick Smith); Thu Feb  9 09:04:11 EST 1989
+#
+sppy00  osu-cis(DIRECT)
+
+#N	squared
+#F	tut.cis.ohio-state.edu,slopoke.mlb.semi.harris.com
+#S	DEC MicroVAX II GPX; VMS V5.4-2
+#O	Square-D Crisp Automation
+#C	Stanley F. Quayle
+#E	squared!quayle
+#T	+1 614 764 4212
+#P	5160 Blazer Parkway, Dublin, Ohio 43017
+#L	40 00 00 N / 83 00 00 W
+#R	Running DECUS UUCP V1.3
+#U
+#W	squared!quayle (Stan Quayle); Tue May 07 12:51:00 EST 1991
+#
+squared	osu-cis(HOURLY)
+squared	.square-d.com
+squared = gpx1.square-d.com
+squared = square-d.com
+
+#N      ssci
+#S      PC/AT Clone
+#O      Sunrise Software Co., Inc.
+#C      Kevin Benton
+#E      ssci!postmaster
+#T      +216 923-5597 (Data Only)
+#P      P O Box 4855, Akron, Ohio, 44310
+#L
+#R      Running UFGate and aka 1:157/516.0@fidonet.org
+#U      neoucom
+#W      ssci!s1kevin (Kevin Benton) ; Fri Mar 16 13:39:10 EDT 1990
+#
+ssci    neoucom(DIRECT)
+
+#N	.stargate.com, stargate
+#F	cis.ohio-state.edu
+#O	Stargate Information Service
+#C	Mark R. Horton, Lauren Weinstein
+#E	mark@stargate.com, lauren@vortex.uucp
+#T	614-860-4276, 213-390-3920
+#P	2843 Valcour Ct., Reynoldsburg, OH 43068
+#L	39 55 28 N / 82 49 16 W
+#R	registered
+#U
+#W	mark@stargate.com (Mark Horton) ; Mon Feb 19 08:50:27 EST 1990
+#
+stargate	.stargate.com
+stargate=	stargate.com
+stargate=	registry
+stargate	<att>(HOURLY),
+		<osu-cis>(HOURLY), <rutgers>(DAILY)
+
+#N	strlna
+#S	Sperry 5000/90; 3.1 unix
+#O	Sterling Software
+#C	John B. Milton
+#E	strlna!usenet
+#T	+1 614 459 7644
+#P	1691 North West Professional Plaza, Columbus, OH  43220
+#L	40 04 N / 83 04 W
+#R	COBOL developement, no news feed yet
+#U
+#W	strlna!john (John B. Milton); Tue Dec 08 19:40:00 EDT 1987
+#
+strlna	uncle(DAILY)
+
+#N	sydney.columbus.oh.us
+#S	IBM-PC/XT; MS-DOS v3.2
+#O	The Computer Den of the Pritchett's Own Home
+#C	Norman Pritchett
+#E	pritch@tut.cis.ohio-state.edu
+#T	+1 614 890 2116, +1 614 292 0885
+#P	P.O. Box 3393, Columbus, Ohio 43210
+#L	40 06 N / 83 00 W city
+#R
+#U	osu-cis
+#W	pritch@sydney.columbus.oh.us (Norm Pritchett); Tue Sep 20 09:21:34 EDT 1988
+#
+sydney.columbus.oh.us	osu-cis(DAILY)
+
+#N	syrano
+#S	DEC LSI 11/23
+#O	Univ. of Cincinnati, Dep't. of Anatomy & Cell Biology
+#C	Steve Kleene
+#E	syrano!steve; BITNET WANARCG@NOSECITY
+#T	(513) 872-6027
+#P	Univ. of Cinci., ML 521, Cincinnati, OH 45267-0521
+#L	39 06 N / 84 31 W city
+#R
+#U	none (mail only)
+#W	syrano!steve (Steve Kleene); Sun Jan  4 17:02:35 EST 1987
+#
+
+#N	telotech
+#S	Altos 386 Series 1000 (1470T/33); Altos System V v5.3bT2
+#O	telotech, inc.
+#C	Brandon S. Allbery
+#E	telotech!postmaster
+#T	+1 216 591 0240
+#P	Courtyard Center, 23775 Commerce Park Blvd., Beachwood, OH 44122
+#L	081 41 W / 41 30 N city
+#R	not a public system, and subject to disappearance.
+#U	ncoast
+#W	telotech!bsa (Brandon S. Allbery); Sat Sep 30 19:35:10 EDT 1989
+#
+telotech	ncoast(DAILY/4+FAST)
+
+#N	telxon
+#S	Pyramid 9820
+#O	Telxon Corporation
+#C	Michael Molnar
+#E	telxon!root
+#T	+1 216 666 4300
+#P	91 Springside Drive, Akron, OH  44313
+#L	41 04 N / 81 31 W city
+#R
+#U
+#W	donnalyn@uunet.UU.NET (Donnalyn Frey); Mon Nov  7 16:23:05 EST 1988
+#
+telxon		uunet(DEMAND)
+
+#N	thor
+#S	Intel 386; ISC 386/IX 2.0.2
+#O	Structural Dynamics Research Corp., Engineering Services
+#C	Lawrence J. Jones
+#E	thor!postmaster
+#T	+1 513 576 2070
+#P	2000 Eastman Drive, Milford, Ohio  45150-2789
+#L	39 4 9 N / 84 10 15 W
+#R	Hopefully, we'll be THOR.SDRC.COM some day.
+#U	sdrc
+#W	thor!scjones (Larry Jones); Mon Jul  2 11:56:20 EDT 1990
+#
+thor	sdrc(LOCAL)
+
+#N	tiny
+#S	Digital One 386sx, DOS 5.0, Fubar Systems FSUUCP
+#O	The Tiny Software Company, Cleveland, OH
+#C	Steven J. Sobol
+#E	tiny!postmaster
+#T	+1 216 691-1169  
+#P	23707 Glenhill Drive, Cleveland, OH 44122
+#L	41 39 55 N / 81 25 03 W city
+#R	Unable to provide feeds at this time.
+#U
+#W	tiny!sjsobol (Steven J. Sobol) ; Fri Nov 1 07:06:00 EST 1991
+#
+tiny=	tiny.wariat.nshore.ncoast.org
+#
+tiny	wariat(POLLED)
+
+#N      tleilax
+#S      CBM Amiga 2000; AmigaDOS 1.3; AmigaUUCP 1.13
+#O      The UnderGround Network
+#C      Cesidio DiBenedetto Jr.
+#E      tleilax!postmaster
+#T      +1 216 951 1677
+#P      36348 South Riverview Dr., Eastlake, OH 44095
+#L      41 38 N / 81 26 W
+#R      tleilax is a single-user site, terminal connection status
+#U      sacder
+#W      tleilax!cdibenedetto (Cesidio DiBenedetto Jr.); Sat Jul 27 14:45:00 EDT 1991
+#
+tleilax <sacder>(DIRECT)
+
+#N	tndr1
+#S	PC-386 (MS-DOS); PC-Mail
+#O	ThunderSoft
+#C	John B. Scalia
+#E	tndr1!jb, aablue!jb
+#T	+1 216 794-8355
+#P	John B. Scalia 2757 Gilchrist Rd. Akron, Ohio  44305
+#L
+#R
+#U	aablue
+#W	aablue!kevin (Kevin Benton) ; Tue Feb 21 09:54:53 EST 1989
+#
+tndr1	aablue(DIRECT)
+
+#N	tol-ed
+#F	saqqara.cis.ohio-state.edu
+#S	DEC VAX 6310; VMS 5.3-1
+#O	Toledo Edison Co.
+#C	Rick Sharpe
+#E	tol-ed!sharpe
+#T	+1 419 321 7470
+#P	M/S 3180, 300 Madison Ave., Toledo, OH 43652
+#L	41 35 48 N / 83 05 26 W
+#R	Running DECUS uucp v1.2
+#U	aablue
+#W	tol-ed!sharpe (Rick Sharpe); Wed Oct  3 14:22:07 EDT 1990
+#
+tol-ed	.tol-ed.com
+tol-ed=	rtvax.tol-ed.com
+tol-ed=	tol-ed.com
+#
+tol-ed	aablue(DEMAND), osu-cis(DEMAND)
+
+#N	topcat
+#S	AT&T unix-pc; 3.5 unix
+#O	personal computer
+#C	David Summerville
+#E	topcat!postmaster,topcat!david
+#T	+1 614 299 6800
+#P	33 East 17th Ave, Columbus Ohio 43201
+#L	39 57 N / 83 00 w
+#R	personal computer
+#U	n8emr 
+#W	n8emr!gws (Gary W. Sanders);Sat Nov 21 16:58:50 EST 1987
+#
+topcat	n8emr(EVENING)
+
+#N	tsca02
+#F	uunet.uu.net
+#S	Apollo DN3000; Domain/OS (Unix SysV) SR10.2
+#O	Electronic Data Systems Corp., Ohio Technical Support Center
+#C	Steve Snyder
+#E	uunet!tsca02!snyde_sl, snyde_sl@otsc.eds.com
+#T	+1 513 455 2228
+#P	4100 Springboro Pike, Loc. 48, P.O. Box 24593, Dayton, OH 45424-0593
+#L	39 45 24 N / 84 11 42 W
+#R	
+#U	
+#W	snyde_sl@otsc.eds.com (Steve Snyder); Tue Jul 16 11:34:44 EDT 1991
+#
+tsca02	.otsc.eds.com(LOCAL)
+tsca02=	otsc.eds.com
+tsca02	uunet(DEMAND+FAST), edsews(DEAD)
+
+#N	tti
+#S	NeXT
+#O	Threaded Technologies Inc.
+#C	Dennis P.Glatting
+#E	tti!root
+#T	+1 513 677 2106
+#P	339 Witsee Avenue, Loveland, OH  45140
+#L	39 14 N / 84 17 W city
+#R
+#U
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Nov  5 18:59:04 EST 1990
+#
+tti	uunet(DEMAND)
+
+#N	ucqais, ucqais.uc.edu
+#S	AT&T 3B2/400; System V
+#O	University of Cincinnati, College of Business Administration
+#C	Steven Kilby 
+#E	skilby@ucqais.uc.edu
+#T	+1 513 556 7159
+#P	mail loc 020, Cincinnati, OH  45221
+#L 	39 07 N / 84 31 W
+#R
+#U 	syrano icc cinnet
+#W	ucqais!skilby(Steve Kilby); Tue Nov 12 19:20:00 EDT 1991
+#
+ucqais	.uc.edu(LOCAL)
+ucqais=	uc.edu, ucqais.uc.edu
+ucqais	cinnet(DAILY), icc(DIRECT), syrano(DIRECT)
+
+#N	.udayton.edu, udcps3
+#S	NCR Tower 32/600; NCR System V3.2 (NCR Release 3.00.02)
+#O	University of Dayton Computer Science Department
+#C	Paul D. Selig, Jr.
+#E	postmaster@cps.udayton.edu
+#T	+1 513 229 3858
+#P	300 College Park, Dayton, Ohio 45469
+#L	39 44 27 N / 84 10 43 W
+#R	Registered as [131.238.17.3] on the Internet
+#U	udecc dayvb almira ddhome ag9v serenity
+#W	selig@cps.udayton.edu (Paul Selig, Jr.); Thu Sep  5 23:45:54 EDT 1991
+#
+udcps3=	udayton.edu
+udcps3=	udcps3.cps.udayton.edu
+udcps3	.cps.udayton.edu(LOCAL), cps.udayton.edu(LOCAL), .udayton.edu(LOCAL)
+udcps3	udecc(DEDICATED), cs-col(DEMAND), ncrcae(WEEKLY), almira(DEMAND),
+	dayvb(DEMAND), ddhome(DEMAND), ag9v(DEMAND), serenity(DEMAND),
+	gwm(DEMAND)
+
+#N	uncle
+#S	AT&T unix-pc; 3.51m unix
+#O	U.N.C.L.E.
+#C	John B. Milton IV
+#E	uncle!postmaster,uncle!jbm
+#T	+1 614 252 8544
+#P	2906 1/2 #B East Fifth Avenue Apt. C, Columbus, OH 43219-2802
+#L	39 59 N / 82 55 W
+#R	Don't FLAME, inform!
+#R	Designer of the UNIXpc HD2 upgrade
+#U	n8emr
+#W	uncle!jbm (John B. Milton); Sun Aug  4 18:20:42 EDT 1991
+#	work: +1 614 846 9000; N8KSN, AMPR: 44.70.0.52
+uncle	aicorp(DIRECT), basho(DIRECT), celebr(DIRECT), cnqst2(DIRECT),
+	copi3b2(DIRECT), jcnpc(DIRECT), n8emr(DIRECT), none(DIRECT), 
+	nz8r(DIRECT), oink(DIRECT), schoen(DIRECT), strlna(DIRECT), 
+	roggen(DIRECT), sporty(DIRECT)
+
+#N	ushiva
+#S	Advanced logic research 386/2 ; System V.3 UNIX
+#O	Accusoft.
+#C	Roland A. Wilcher
+#E	ushiva!postmaster
+#T 	+1 216 881-8129
+#P	6207 Luther St, Cleveland Oh 44103
+#L	081 41 W / 41 30 N city
+#R
+#U 	bellhow neologic ncoast 
+#W 	ushiva!raw (Roland A. Wilcher);Wed Mar  6 23:41:14 EST 1991
+#
+ushiva	ncoast(DIRECT+HIGH), bellhow(DIRECT+HIGH), neologic(DEDICATED)
+
+#N	valinor
+#F	dayton.saic.com
+#S	PC Brand 386/25C; MS-DOS 5.0; WAFFLE v1.64
+#O	Mythical Computing Systems
+#C	Stuart L Labovitz
+#E	valinor!postmaster
+#T	+1 513 439 2072
+#P	1802 Woodbriar Drive, Kettering Ohio 45440
+#L	39 40 24 N / 084 08 18 W
+#R	Running WAFFLE v1.64 for uucp mail and USENET news
+#R	Using an Intel 9600EX V.32/V.42/V.42bis modem
+#U	dayvb
+#W	stu@valinor.mythical.com (Stu Labovitz);  Tue Jul 16 18:10:45 EDT 1991
+#
+valinor=	valinor.mythical.com
+valinor		.mythical.com(LOCAL+HIGH)
+valinor		dayvb(DIRECT)
+
+#N	.vlink.com, vlink01
+#S	AMI 386/25; SCO UNIX 3.2.2 
+#O	V-Link Organization, Powell
+#C	Steven E. Frazier
+#E	postmaster@vlink01.vlink.com, sfrazier@vlink01.vlink.com
+#T	+1 614 365 3056
+#P	1828 Darrow Drive, Powell, OH 43017
+#L	40 05 N / 83 06 W city 
+#R
+#U	n8emr
+#W	sfrazier@vlink01 (Steven E. Frazier); Sat Jul 06 16:59:50 EDT 1991
+#
+vlink01	.vlink.com(LOCAL)
+vlink01=	vlink01.vlink.com
+vlink01	mcinix(DAILY), n8emr(WEEKLY), osu-cis(WEEKLY), rdb1(WEEKLY)
+
+#N	vlink01
+#S	AMI 386/25;SCO UNIX 3.2.2 
+#O	V-Link 
+#C	Steven E. Frazier
+#E	postmaster@vlink01,sfrazier@vlink01
+#T	+1 614 761 6612
+#P	1828 Darrow Drive, Powell, OH 43017
+#L	40 05 N / 83 06 W city 
+#R
+#U	n8emr
+#W	steve@mcinix (Steven E. Frazier); Sun Feb 3 9:12:32: EST 1990
+#
+vlink01	mcinix(DEMAND)
+#N	w8grt, f1.n234.z1.fidonet.org
+#F	asuvax.eas.asu.edu
+#S	Tandy 1200HD, MS-DOS 3.2, FrontDoor, TosScan(q), and Waffle 1.63
+#O	QRV de W8GRT
+#C	Jim Grubs
+#E	w8grt!jim.grubs
+#T	+1 419 882-2697
+#P	6817 Maplewood Avenue, Syvania, OH 43560-1956
+#L	46 43 2 N / 83 42 32 W
+#R	This is FidoNode 1:234/1.0
+#U	stjhmc
+#W	stjhmc!ddodell (David Dodell); Wed Mar 27 20:00:00 MST 1991
+#
+w8grt	f1.n234.z1.fidonet.org
+w8grt=	w8grt.fidonet.org, f1.n234.z1.fidonet.org
+w8grt	stjhmc(DIRECT)
+
+#N	wariat
+#S	Tricom 486; Interactive UNIX rel V 3.2.2
+#O	Akademia Pana Kleksa - Public Access UNI*
+#C	Zbigniew J. Tyrlik
+#E	wariat!postmaster
+#T	+1 216 932 8544
+#P	1672 Eddington Rd #3, Cleveland, Ohio 44118
+#L	41 39 55 N / 81 25 03 W city
+#R	+1 216 932 3708
+#R	Mail feeds, shell accounts available.
+#R	Send e-mail to wariat!zbig
+#U	nshore ncoast tiny
+#W	wariat!zbig (Zbigniew J. Tyrlik); Sat Nov 02 09:30:00 EDT 1991
+#
+wariat=	wariat.nshore.ncoast.org
+wariat	.wariat.nshore.ncoast.org
+#
+wariat	nshore(DIRECT+FAST), ncoast(WEEKLY), tiny(WEEKLY)
+
+#N	westfort
+#S	Mitac Tower 40
+#O	The Institute for Very Large Numbers 
+#C	Douglas Luce
+#E	postmaster@westfort.UUCP
+#T	+1 614 873 8167
+#P	343 West Main Street, Plain City, Ohio 43064-0343
+#L	40 06 N / 83 16 W
+#R	icnews version 1.01
+#U	osu-cis
+#W	dougl@westfort.UUCP (Douglas Luce) ; Tue Aug 30 21:08:09 EDT 1988
+#
+westfort	osu-cis(DAILY)
+
+#N	wfhami
+#S	Amiga 3000; AmigaDos 2.02
+#O	None
+#C	Bill Hogsett
+#E	wfhami!bill
+#T	+1 216 295 1624
+#P	20876 Almar Drive, Shaker Heights, OH 44122
+#L	41 30 00 N / 81 41 00 W 
+#R	The Amiga is a great computer!  Amiga Unix is here.
+#U	ncoast
+#W	wfhami!bill (Bill Hogsett) Sun Jan 20 15:18:16 EST 1991
+#
+wfhami	ncoast(DAILY)
+
+#N	whizbang
+#S	Dell 325P; MS-DOS 5.0
+#O	The Software Sweatshop
+#C	Mark W. Schumann
+#E	whizbang!postmaster, ncoast!catfood
+#T	+1 216 351 1153
+#P	3111 Mapledale Avenue, Cleveland, OH 44109-2447 USA
+#L	41 27 16 N / 081 41 47 W
+#R	Accepting low-volume mail feeds; no news received here.
+#U	ncoast
+#W	whizbang!mark (Mark W. Schumann); Sun Oct 20 19:40:11 EDT 1991
+#
+whizbang	ncoast(EVENING)
+
+#N      wpdis01
+#S      Pyramid MIServer 4/2; Osx 5.0d
+#O      HQ AFLC LMSC/SXSN
+#C      Kenneth Phelps
+#E      wpdis01!phelps
+#T      +1 513 257 4499; DSN 767 4499
+#P      Wright-Patterson AFB, Ohio 45433
+#L      84 W / 40 N
+#R      We're 192.12.64.3 on the Internet
+#U      logdis1.ag.aflc.af.mil wrdis01
+#W      wpdis01!phelps  (Kenneth E. Phelps); Mon Mar 27 10:35:15 EST 1991
+#
+wpdis01= logdis1.hq.aflc.af.mil
+wpdis01=        wpdis01.af.mil
+#
+wpdis01 wrdis01(DEDICATED)
+
+#N	.wright.edu, valhalla.cs.wright.edu
+#F	valhalla.cs.wright.edu
+#O	Wright State University
+#C	Sheila Hollenbaugh
+#E	shollen@cs.wright.edu
+#T	+1 513 259 1384
+#P	Department of Computer Science and Engineering
+#P	WSU Research Center, 3171 Research Blvd., Kettering, OH 45420
+#L	39 47 N / 84 03 W
+#R	registered
+#U
+#W	shollen@cs.wright.edu (Sheila Hollenbaugh); Wed Apr  3 09:41:23 EST 1991
+#
+wright= valhalla.cs.wright.edu
+valhalla.cs.wright.edu= cs.wright.edu
+#
+wright	descg1(DIRECT), ncrlnk(DIRECT), wsuopus.wright.edu(DIRECT),
+	caia.wright.edu(DIRECT), sdwsys(DIRECT), udcps3(DEAD)
+
+#N	wvcc
+#S	DEC VAXstation 2000; VMS V5.3-1
+#O
+#C	Bill Valentine-Cooper
+#E	wvcc!postmaster
+#T	+1 614 481 0705
+#P	2653 Northwest Blvd, Upper Arlington, OH 43221
+#L	40 00 N / 83 04 W
+#R	Local UUCP feeds via USR Courier V.42 available, limited news
+#R	too as soon as I get a reliable source.
+#U
+#W	wvcc!wvc (Bill Valentine-Cooper);  Oct 27 1991
+#
+wvcc	osu-cis(DIRECT+HOURLY), mecsys(DIRECT+HOURLY)
+
+#N	wwoh
+#S	PC
+#O	Winston and Winston Inc.
+#C	Martin Winston
+#E	wwoh!root
+#T	+1 216 338 8400
+#P	15155 Hill Drive, Russell, OH  44113
+#L	41 29 N / 81 41 W city
+#R
+#U
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Apr  5 19:52:13 EST 1991
+#
+wwoh	uunet(DEMAND)
+
+#N	yaub
+#S	AT&T unix-pc; 3.5 unix 
+#O	Yet Another Unix Box (YAUB)
+#C	Gary W. Sanders
+#E	n8emr!postmaster,n8emr!gws
+#T	+1 614 895 2552
+#P	3584 Karikal Ct, Westerville, Ohio 43085
+#L	40 05 30 N / 82 55 W
+#R	my toy...
+#U	
+#W	n8emr!gws(Gary Sanders); Fri Feb 01 22:36:08 EST 1991
+#
+# pass mail and news...
+yaub	n8emr(DIRECT)
+
+#N	zhmti
+#S	SUN 2/160C; 4.2 BSD UNIX
+#O	Zebb-Hoff Machine Tool, Inc.
+#C	Dieter H. Zebbedies
+#E	zhmti!usenet
+#T	+1 216 631 6100
+#P	9535 Clinton Road, Brooklyn, OH 44144
+#L	81 41 W / 41 30 N 
+#R	host for AMP (Automated Manfacturing Project), using CAE/CIM 
+#U	telxon auphys inez unie ppi zippysun endot
+#W	zhmti!dietz (Dieter H. Zebbedies); Wed Jun  3 08:46:45 EDT 1987
+#
+zhmti	telxon(DAILY), auphys(DAILY), inez(WEEKLY),
+	unie(WEEKLY), ppi(DAILY), zippysun(DEAD), endot(DEAD)
+
+#N	zip
+#S	AT&T 3B1; System V 3.51
+#O
+#C	Karl F. Fox
+#E	zip!karl, mstar!karl
+#T	+1 614 237 6948
+#P	1395 Severn Road, Columbus, OH 43209
+#L	82 55 25 W / 39 56 29 N
+#R
+#U
+#W	mstar!karl (Karl F. Fox); Fri Jan 29 08:48:25 EST 1988
+#
+zip	crappie(DIRECT+FAST)
+
+#
+# End of map file u.usa.oh.2
+#
+SHAR_EOF
+:	End of shell archive
+exit 0
+

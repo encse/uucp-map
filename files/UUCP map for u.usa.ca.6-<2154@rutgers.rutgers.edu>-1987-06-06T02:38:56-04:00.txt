@@ -1,0 +1,1042 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ca.6
+: This archive created: Sat Jun  6 02:38:51 1987
+echo shar: extracting u.usa.ca.6
+cat << 'SHAR_EOF' > u.usa.ca.6
+#N	ucbvax
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	University of California at Berkeley, Computer Science Division
+#C	Robert W. Henry
+#E	ucbvax!usenet, ucbvax!postmaster
+#T	+1 415 642 1024
+#P	573 Evans Hall, Berkeley, CA 94720
+#L	37 52 28 N / 122 15 23 W
+#R	
+#U	decvax decwrl ibmpa ucsfcgl ucbcad ucbjade ucdavis usenix nike
+#W	hplabs!fowler (Greg Fowler); Mon Jul 21 15:20:57 PDT 1986
+#
+# UUCP Connectivity for ucbvax (generated from 2 weeks of LOGFILE)
+#
+ucbvax	bellcore(HOURLY), calma(HOURLY), decvax(HOURLY),
+	hplabs(HOURLY), lbl-csam(HOURLY), pixar(HOURLY),
+	poincar(HOURLY), ucdavis(HOURLY), usenix(HOURLY),
+	sdcsvax(DAILY/9), ucsbcsl(DAILY/9), dual(DAILY/8),
+	ulysses(DAILY/8), ucscc(DAILY/6), unisoft(DAILY/6),
+	molbio(DAILY/5), trwrb(DAILY/5), ucivax(DAILY/5),
+	vax135(DAILY/5), ibmpa(DAILY/4), tolerant(DAILY/4),
+	ucbcad(DAILY/4), zehntel(DAILY/4), allegra(DAILY/3),
+	decwrl(DAILY/3), floyd(DAILY/3), ihnp4(DAILY/3),
+	mtxinu(DAILY/3), voder(DAILY/3), alice(DAILY/2), atd(DAILY/2),
+	nbires(DAILY/2), olympus(DAILY/2), research(DAILY/2),
+	sftig(DAILY/2), sun(DAILY/2), tektronix(DAILY/2),
+	unmvax(DAILY/2), amdcad(DAILY), arizona(DAILY), attunix(DAILY),
+	cbosgd(DAILY), cithep(DAILY), eagle(DAILY), harpo(DAILY),
+	hpda(DAILY), ucsfcgl(DAILY), ucsfmis(DAILY), pur-ee(WEEKLY/7),
+	menlo70(WEEKLY/5), ssyx(WEEKLY/4), ucla-cs(WEEKLY/4),
+	imagen(WEEKLY/3), sdcarl(WEEKLY/3), twg(WEEKLY/3),
+	zilog(WEEKLY/3), cad(WEEKLY/2), kentvax(WEEKLY/2),
+	anlams(WEEKLY), mseonyx(WEEKLY), watcgl(WEEKLY), Padova(DEAD),
+	Shasta(DEAD), cbosg(DEAD), commem(DEAD), craylab(DEAD),
+	dssovax(DEAD), dssoxnx(DEAD), ecovax(DEAD), geoff(DEAD),
+	ho3e2(DEAD), iiasa70(DEAD), kentmth(DEAD), kim(DEAD),
+	lime(DEAD), purdue(DEAD), pwbd(DEAD), sii(DEAD),
+	srivisi(DEAD), uw(DEAD), uwvax(DEAD), wheps(DEAD),
+	whuxle(DEAD), whuxlj(DEAD), xprin(DEAD)
+#
+################################################################################
+#
+#	Ye Olde BerkNet (A 9600 baud rs-232c serial network)
+#
+brahms.berkeley.edu	=	ucbmathstat
+#
+UCB-BERKNET = { ucbare, ucbcontrols, ucbeuler, ucbmathstat, ucbmote,
+	ucbnewton, ucbonyx, ucbvax }:(DEDICATED)
+#
+################################################################################
+#
+#	UCB Ethernet
+#
+# UCB-ETHER is ARPA INTERNET Class B network 128.32
+# with lotsa invisible subnets
+#
+achilles.berkeley.edu	=	ucbachilles
+agamemnon.berkeley.edu	=	ucbagamemnon
+agate.berkeley.edu	=	ucbagate
+alberto.berkeley.edu	=	ucbalberto
+allspice.berkeley.edu	=	ucballspice
+aluminum.berkeley.edu	=	ucbaluminum
+amber.berkeley.edu	=	ucbamber
+anger.berkeley.edu	=	ucbanger
+anise.berkeley.edu	=	ucbanise
+apollo.berkeley.edu	=	ucbapollo
+aramis.berkeley.edu	=	ucbaramis
+aristotle.berkeley.edu	=	ucbaristotle
+armstrong.berkeley.edu	=	ucbarmstrong
+asahi.berkeley.edu	=	ucbasahi
+ash.berkeley.edu	=	ucbash
+athos.berkeley.edu	=	ucbathos
+atlantis.berkeley.edu	=	ucbatlantis
+azalea.berkeley.edu	=	ucbazalea
+bach.berkeley.edu	=	ucbbach
+badger.berkeley.edu	=	ucbbadger
+bansai.berkeley.edu	=	ucbbansai
+baobab.berkeley.edu	=	ucbbaobab
+bashful.berkeley.edu	=	ucbbashful
+basil.berkeley.edu	=	ucbbasil
+bass.berkeley.edu	=	ucbbass
+bay.berkeley.edu	=	ucbbay
+beeblebrox.berkeley.edu	=	ucbbeeblebrox
+bell.berkeley.edu	=	ucbbell
+beryl.berkeley.edu	=	ucbberyl
+beryllium.berkeley.edu	=	ucbberyllium
+bfly.berkeley.edu	=	ucbbfly
+biko.berkeley.edu	=	ucbbiko
+birch.berkeley.edu	=	ucbbirch
+bison.berkeley.edu	=	ucbbison
+bizet.berkeley.edu	=	ucbbizet
+bob.berkeley.edu	=	ucbbob
+booze.berkeley.edu	=	ucbbooze
+boron.berkeley.edu	=	ucbboron
+brahms.berkeley.edu	=	ucbbrahms
+bromeliad.berkeley.edu	=	ucbbromeliad
+bud.berkeley.edu	=	ucbbud
+buddy.berkeley.edu	=	ucbbuddy
+bugs.berkeley.edu	=	ucbbugs
+bunny.berkeley.edu	=	ucbbunny
+cad.berkeley.edu	=	ucbcad
+calder.berkeley.edu	=	ucbcalder
+carbon.berkeley.edu	=	ucbcarbon
+cardamom.berkeley.edu	=	ucbcardamom
+carol.berkeley.edu	=	ucbcarol
+cartan.berkeley.edu	=	ucbcartan
+cayenne.berkeley.edu	=	ucbcayenne
+cevax.berkeley.edu	=	ucbcevax
+challenger.berkeley.edu	=	ucbchallenger
+charming.berkeley.edu	=	ucbcharming
+chilli.berkeley.edu	=	ucbchilli
+chip.berkeley.edu	=	ucbchip
+cinnamon.berkeley.edu	=	ucbcinnamon
+clark.berkeley.edu	=	ucbclark
+clove.berkeley.edu	=	ucbclove
+cmsa.berkeley.edu	=	ucbcmsa
+cogsci.berkeley.edu	=	ucbcogsci
+columbia.berkeley.edu	=	ucbcolumbia
+columbine.berkeley.edu	=	ucbcolumbine
+coors.berkeley.edu	=	ucbcoors
+copihue.berkeley.edu	=	ucbcopihue
+coral.berkeley.edu	=	ucbcoral
+corona.berkeley.edu	=	ucbcorona
+corriander.berkeley.edu	=	ucbcorriander
+cory.berkeley.edu	=	ucbcory
+craig.berkeley.edu	=	ucbcraig
+crow.berkeley.edu	=	ucbcrow
+cypress.berkeley.edu	=	ucbcypress
+dab.berkeley.edu	=	ucbdab
+daisy.berkeley.edu	=	ucbdaisy
+dali.berkeley.edu	=	ucbdali
+dandelion.berkeley.edu	=	ucbdandelion
+dartagnan.berkeley.edu	=	ucbdartagnan
+davinci.berkeley.edu	=	ucbdavinci
+dean.berkeley.edu	=	ucbdean
+decadence.berkeley.edu	=	ucbdecadence
+deforest.berkeley.edu	=	ucbdeforest
+degas.berkeley.edu	=	ucbdegas
+dent.berkeley.edu	=	ucbdent
+dikdik.berkeley.edu	=	ucbdikdik
+dill.berkeley.edu	=	ucbdill
+dim.berkeley.edu	=	ucbdim
+discovery.berkeley.edu	=	ucbdiscovery
+disney.berkeley.edu	=	ucbdisney
+doc.berkeley.edu	=	ucbdoc
+dopey.berkeley.edu	=	ucbdopey
+dorothy.berkeley.edu	=	ucbdorothy
+dougfir.berkeley.edu	=	ucbdougfir
+dvorak.berkeley.edu	=	ucbdvorak
+ear.berkeley.edu	=	ucbear
+earth.berkeley.edu	=	ucbearth
+east.berkeley.edu	=	ucbeast
+edison.berkeley.edu	=	ucbedison
+elm.berkeley.edu	=	ucbelm
+enterprise.berkeley.edu	=	ucbenterprise
+envy.berkeley.edu	=	ucbenvy
+eris.berkeley.edu	=	ucberis
+ernie.berkeley.edu	=	ucbernie
+eros.berkeley.edu	=	ucberos
+esvax.berkeley.edu	=	ucbesvax
+euca.berkeley.edu	=	ucbeuca
+euler.berkeley.edu	=	ucbeuler
+explorer.berkeley.edu	=	ucbexplorer
+fennel.berkeley.edu	=	ucbfennel
+fern.berkeley.edu	=	ucbfern
+fezzik.berkeley.edu	=	ucbfezzik
+fir.berkeley.edu	=	ucbfir
+fleur-de-lis.berkeley.edu	=	ucbfleur-de-lis
+fluorine.berkeley.edu	=	ucbfluorine
+fourier.berkeley.edu	=	ucbfourier
+franklin.berkeley.edu	=	ucbfranklin
+franny.berkeley.edu	=	ucbfranny
+freesia.berkeley.edu	=	ucbfreesia
+fritz.berkeley.edu	=	ucbfritz
+fuchsia.berkeley.edu	=	ucbfuchsia
+gardenia.berkeley.edu	=	ucbgardenia
+garlic.berkeley.edu	=	ucbgarlic
+garnet.berkeley.edu	=	ucbgarnet
+genie.berkeley.edu	=	ucbgenie
+genziana.berkeley.edu	=	ucbgenziana
+geppetto.berkeley.edu	=	ucbgeppetto
+geranium.berkeley.edu	=	ucbgeranium
+gerry.berkeley.edu	=	ucbgerry
+gin.berkeley.edu	=	ucbgin
+ginger.berkeley.edu	=	ucbginger
+ginko.berkeley.edu	=	ucbginko
+glinda.berkeley.edu	=	ucbglinda
+greed.berkeley.edu	=	ucbgreed
+grendel.berkeley.edu	=	ucbgrendel
+grumpy.berkeley.edu	=	ucbgrumpy
+happy.berkeley.edu	=	ucbhappy
+harry.berkeley.edu	=	ucbharry
+heart.berkeley.edu	=	ucbheart
+hector.berkeley.edu	=	ucbhector
+hecuba.berkeley.edu	=	ucbhecuba
+heine.berkeley.edu	=	ucbheine
+helen.berkeley.edu	=	ucbhelen
+helium.berkeley.edu	=	ucbhelium
+hodges.berkeley.edu	=	ucbhodges
+holden.berkeley.edu	=	ucbholden
+homer.berkeley.edu	=	ucbhomer
+huffman.berkeley.edu	=	ucbhuffman
+hydrogen.berkeley.edu	=	ucbhydrogen
+hyper.berkeley.edu	=	ucbhyper
+ic.berkeley.edu		=	ucbic
+icw.berkeley.edu	=	ucbicw
+iiris.berkeley.edu	=	ucbiiris
+image.berkeley.edu	=	ucbimage
+ingres.berkeley.edu	=	ucbingres
+io.berkeley.edu		=	ucbio
+iris.berkeley.edu	=	ucbiris
+ivory.berkeley.edu	=	ucbivory
+jade.berkeley.edu	=	ucbjade
+jan.berkeley.edu	=	ucbjan
+jason.berkeley.edu	=	ucbjason
+jasper.berkeley.edu	=	ucbjasper
+ji.berkeley.edu		=	ucbji
+joule.berkeley.edu	=	ucbjoule
+julia.berkeley.edu	=	ucbjulia
+jupiter.berkeley.edu	=	ucbjupiter
+kelly.berkeley.edu	=	ucbkelly
+kepler.berkeley.edu	=	ucbkepler
+kim.berkeley.edu	=	ucbkim
+kuhimagen.berkeley.edu	=	ucbkuhimagen
+kuhn.berkeley.edu	=	ucbkuhn
+lagrange.berkeley.edu	=	ucblagrange
+lapis.berkeley.edu	=	ucblapis
+larch.berkeley.edu	=	ucblarch
+lassen.berkeley.edu	=	ucblassen
+layout.berkeley.edu	=	ucblayout
+lewis.berkeley.edu	=	ucblewis
+light.berkeley.edu	=	ucblight
+lilac.berkeley.edu	=	ucblilac
+lilly.berkeley.edu	=	ucblilly
+lion.berkeley.edu	=	ucblion
+lithium.berkeley.edu	=	ucblithium
+liveoak.berkeley.edu	=	ucbliveoak
+lotus.berkeley.edu	=	ucblotus
+lupine.berkeley.edu	=	ucblupine
+lust.berkeley.edu	=	ucblust
+lust20.berkeley.edu	=	ucblust20
+madrone.berkeley.edu	=	ucbmadrone
+magnesium.berkeley.edu	=	ucbmagnesium
+magnolia.berkeley.edu	=	ucbmagnolia
+mahogany.berkeley.edu	=	ucbmahogany
+manzanita.berkeley.edu	=	ucbmanzanita
+maple.berkeley.edu	=	ucbmaple
+marconi.berkeley.edu	=	ucbmarconi
+marigold.berkeley.edu	=	ucbmarigold
+mariner.berkeley.edu	=	ucbmariner
+mars.berkeley.edu	=	ucbmars
+matisse.berkeley.edu	=	ucbmatisse
+maxwell.berkeley.edu	=	ucbmaxwell
+medea.berkeley.edu	=	ucbmedea
+menelaus.berkeley.edu	=	ucbmenelaus
+mercury.berkeley.edu	=	ucbmercury
+merlin.berkeley.edu	=	ucbmerlin
+mike.berkeley.edu	=	ucbmike
+mimosa.berkeley.edu	=	ucbmimosa
+miro.berkeley.edu	=	ucbmiro
+misc.berkeley.edu	=	ucbmisc
+mistletoe.berkeley.edu	=	ucbmistletoe
+mole.berkeley.edu	=	ucbmole
+molson.berkeley.edu	=	ucbmolson
+monet.berkeley.edu	=	ucbmonet
+morgan.berkeley.edu	=	ucbmorgan
+mote.berkeley.edu	=	ucbmote
+mum.berkeley.edu	=	ucbmum
+murder.berkeley.edu	=	ucbmurder
+mustapha.berkeley.edu	=	ucbmustapha
+mustard.berkeley.edu	=	ucbmustard
+mv1.berkeley.edu	=	ucbmv1
+mv2.berkeley.edu	=	ucbmv2
+nat.berkeley.edu	=	ucbnat
+neon.berkeley.edu	=	ucbneon
+neptune.berkeley.edu	=	ucbneptune
+newton.berkeley.edu	=	ucbnewton
+nitrogen.berkeley.edu	=	ucbnitrogen
+nutmeg.berkeley.edu	=	ucbnutmeg
+nyquist.berkeley.edu	=	ucbnyquist
+oak.berkeley.edu	=	ucboak
+odysseus.berkeley.edu	=	ucbodysseus
+okeeffe.berkeley.edu	=	ucbokeeffe
+opal.berkeley.edu	=	ucbopal
+orchid.berkeley.edu	=	ucborchid
+oregano.berkeley.edu	=	ucboregano
+oxygen.berkeley.edu	=	ucboxygen
+oz.berkeley.edu		=	ucboz
+palm.berkeley.edu	=	ucbpalm
+paprika.berkeley.edu	=	ucbpaprika
+paris.berkeley.edu	=	ucbparis
+parsley.berkeley.edu	=	ucbparsley
+pawlonia.berkeley.edu	=	ucbpawlonia
+pearl.berkeley.edu	=	ucbpearl
+pepper.berkeley.edu	=	ucbpepper
+phoenix.berkeley.edu	=	ucbphoenix
+phosphorus.berkeley.edu	=	ucbphosphorus
+piglet.berkeley.edu	=	ucbpiglet
+pine.berkeley.edu	=	ucbpine
+pinocchio.berkeley.edu	=	ucbpinocchio
+pioneer.berkeley.edu	=	ucbpioneer
+plato.berkeley.edu	=	ucbplato
+pluto.berkeley.edu	=	ucbpluto
+poppy.berkeley.edu	=	ucbpoppy
+populi.berkeley.edu	=	ucbpopuli
+porthos.berkeley.edu	=	ucbporthos
+prefect.berkeley.edu	=	ucbprefect
+priam.berkeley.edu	=	ucbpriam
+pride.berkeley.edu	=	ucbpride
+primrose.berkeley.edu	=	ucbprimrose
+quark.berkeley.edu	=	ucbquark
+ranger.berkeley.edu	=	ucbranger
+redwood.berkeley.edu	=	ucbredwood
+renoir.berkeley.edu	=	ucbrenoir
+rich.berkeley.edu	=	ucbrich
+rip.berkeley.edu	=	ucbrip
+ripple.berkeley.edu	=	ucbripple
+rkneff1.berkeley.edu	=	ucbrkneff1
+rkneff2.berkeley.edu	=	ucbrkneff2
+rob.berkeley.edu	=	ucbrob
+robert.berkeley.edu	=	ucbrobert
+rose.berkeley.edu	=	ucbrose
+rosemary.berkeley.edu	=	ucbrosemary
+ruby.berkeley.edu	=	ucbruby
+saffron.berkeley.edu	=	ucbsaffron
+sage.berkeley.edu	=	ucbsage
+salt.berkeley.edu	=	ucbsalt
+samantha.berkeley.edu	=	ucbsamantha
+sarsaparilla.berkeley.edu	=	ucbsarsaparilla
+sassafrass.berkeley.edu	=	ucbsassafrass
+saturn.berkeley.edu	=	ucbsaturn
+sequoia.berkeley.edu	=	ucbsequoia
+sesame.berkeley.edu	=	ucbsesame
+setosa.berkeley.edu	=	ucbsetosa
+seymour.berkeley.edu	=	ucbseymour
+shadow.berkeley.edu	=	ucbshadow
+shangri-la.berkeley.edu	=	ucbshangri-la
+shannon.berkeley.edu	=	ucbshannon
+silicon.berkeley.edu	=	ucbsilicon
+silvia.berkeley.edu	=	ucbsilvia
+sim.berkeley.edu	=	ucbsim
+sleepy.berkeley.edu	=	ucbsleepy
+sloth.berkeley.edu	=	ucbsloth
+snapdragon.berkeley.edu	=	ucbsnapdragon
+sneezy.berkeley.edu	=	ucbsneezy
+snow.berkeley.edu	=	ucbsnow
+sodium.berkeley.edu	=	ucbsodium
+sonja.berkeley.edu	=	ucbsonja
+squish.berkeley.edu	=	ucbsquish
+stun.berkeley.edu	=	ucbstun
+sulfur.berkeley.edu	=	ucbsulfur
+sunflower.berkeley.edu	=	ucbsunflower
+suntory.berkeley.edu	=	ucbsuntory
+tanoak.berkeley.edu	=	ucbtanoak
+tarragon.berkeley.edu	=	ucbtarragon
+teak.berkeley.edu	=	ucbteak
+temp.berkeley.edu	=	ucbtemp
+tequila.berkeley.edu	=	ucbtequila
+tern.berkeley.edu	=	ucbtern
+tesla.berkeley.edu	=	ucbtesla
+thyme.berkeley.edu	=	ucbthyme
+tigger.berkeley.edu	=	ucbtigger
+tinman.berkeley.edu	=	ucbtinman
+toad.berkeley.edu	=	ucbtoad
+topaz.berkeley.edu	=	ucbtopaz
+toto.berkeley.edu	=	ucbtoto
+trillian.berkeley.edu	=	ucbtrillian
+tuborg.berkeley.edu	=	ucbtuborg
+tucker.berkeley.edu	=	ucbtucker
+tulip.berkeley.edu	=	ucbtulip
+tully.berkeley.edu	=	ucbtully
+tumeric.berkeley.edu	=	ucbtumeric
+twolf.berkeley.edu	=	ucbtwolf
+uranus.berkeley.edu	=	ucburanus
+vangogh.berkeley.edu	=	ucbvangogh
+venus.berkeley.edu	=	ucbvenus
+veronica.berkeley.edu	=	ucbveronica
+viking.berkeley.edu	=	ucbviking
+violet.berkeley.edu	=	ucbviolet
+vogon.berkeley.edu	=	ucbvogon
+voyager.berkeley.edu	=	ucbvoyager
+walnut.berkeley.edu	=	ucbwalnut
+warthog.berkeley.edu	=	ucbwarthog
+washoe.berkeley.edu	=	ucbwashoe
+weyl.berkeley.edu	=	ucbweyl
+wisteria.berkeley.edu	=	ucbwisteria
+witch.berkeley.edu	=	ucbwitch
+wizard.berkeley.edu	=	ucbwizard
+xcssun.berkeley.edu	=	ucbxcssun
+xearth.berkeley.edu	=	ucbxearth
+yaakov.berkeley.edu	=	ucbyaakov
+yew.berkeley.edu	=	ucbyew
+zero.berkeley.edu	=	ucbzero
+zeus.berkeley.edu	=	ucbzeus
+zircon.berkeley.edu	=	ucbzircon
+zooey.berkeley.edu	=	ucbzooey
+zworykin.berkeley.edu	=	ucbzworykin
+#
+# These two are the only ones on network 10 (the ARPANET)
+# They're also the only two which kept their `ucb' prefix.
+#
+ucbarpa.berkeley.edu	=	ucbarpa, ucb-arpa, ucb-arpa.arpa
+ucbvax			=	ucbvax.berkeley.edu, ucb-vax.arpa,
+				berkeley.edu, berkeley.arpa
+#
+# This is domain BERKELEY.EDU, with ucbvax and ucbarpa as gateways and
+# domain servers.
+#
+BERKELEY.EDU = { ucbvax, ucbarpa,
+	ucbachilles, ucbagamemnon, ucbagate, ucbalberto, ucballspice,
+	ucbaluminum, ucbamber, ucbanger, ucbanise, ucbapollo,
+	ucbaramis, ucbaristotle, ucbarmstrong, ucbasahi, ucbash,
+	ucbathos, ucbatlantis, ucbazalea, ucbbach, ucbbadger,
+	ucbbansai, ucbbaobab, ucbbashful, ucbbasil, ucbbass, ucbbay,
+	ucbbeeblebrox, ucbbell, ucbberyl, ucbberyllium, ucbbfly,
+	ucbbiko, ucbbirch, ucbbison, ucbbizet, ucbbob, ucbbooze,
+	ucbboron, ucbbrahms, ucbbromeliad, ucbbud, ucbbuddy, ucbbugs,
+	ucbbunny, ucbcad, ucbcalder, ucbcarbon, ucbcardamom, ucbcarol,
+	ucbcartan, ucbcayenne, ucbcevax, ucbchallenger, ucbcharming,
+	ucbchilli, ucbchip, ucbcinnamon, ucbclark, ucbclove, ucbcmsa,
+	ucbcogsci, ucbcolumbia, ucbcolumbine, ucbcoors, ucbcopihue,
+	ucbcoral, ucbcorona, ucbcorriander, ucbcory, ucbcraig, ucbcrow,
+	ucbcypress, ucbdab, ucbdaisy, ucbdali, ucbdandelion,
+	ucbdartagnan, ucbdavinci, ucbdean, ucbdecadence, ucbdeforest,
+	ucbdegas, ucbdent, ucbdikdik, ucbdill, ucbdim, ucbdiscovery,
+	ucbdisney, ucbdoc, ucbdopey, ucbdorothy, ucbdougfir, ucbdvorak,
+	ucbear, ucbearth, ucbeast, ucbedison, ucbelm, ucbenterprise,
+	ucbenvy, ucberis, ucbernie, ucberos, ucbesvax, ucbeuca,
+	ucbeuler, ucbexplorer, ucbfennel, ucbfern, ucbfezzik, ucbfir,
+	ucbfleur-de-lis, ucbfluorine, ucbfourier, ucbfranklin,
+	ucbfranny, ucbfreesia, ucbfritz, ucbfuchsia, ucbgardenia,
+	ucbgarlic, ucbgarnet, ucbgenie, ucbgenziana, ucbgeppetto,
+	ucbgeranium, ucbgerry, ucbgin, ucbginger, ucbginko, ucbglinda,
+	ucbgreed, ucbgrendel, ucbgrumpy, ucbhappy, ucbharry, ucbheart,
+	ucbhector, ucbhecuba, ucbheine, ucbhelen, ucbhelium, ucbhodges,
+	ucbholden, ucbhomer, ucbhuffman, ucbhydrogen, ucbhyper, ucbic,
+	ucbicw, ucbiiris, ucbimage, ucbingres, ucbio, ucbiris,
+	ucbivory, ucbjade, ucbjan, ucbjason, ucbjasper, ucbji,
+	ucbjoule, ucbjulia, ucbjupiter, ucbkelly, ucbkepler, ucbkim,
+	ucbkuhimagen, ucbkuhn, ucblagrange, ucblapis, ucblarch,
+	ucblassen, ucblayout, ucblewis, ucblight, ucblilac, ucblilly,
+	ucblion, ucblithium, ucbliveoak, ucblotus, ucblupine, ucblust,
+	ucblust20, ucbmadrone, ucbmagnesium, ucbmagnolia, ucbmahogany,
+	ucbmanzanita, ucbmaple, ucbmarconi, ucbmarigold, ucbmariner,
+	ucbmars, ucbmatisse, ucbmaxwell, ucbmedea, ucbmenelaus,
+	ucbmercury, ucbmerlin, ucbmike, ucbmimosa, ucbmiro, ucbmisc,
+	ucbmistletoe, ucbmole, ucbmolson, ucbmonet, ucbmorgan, ucbmote,
+	ucbmum, ucbmurder, ucbmustapha, ucbmustard, ucbmv1, ucbmv2,
+	ucbnat, ucbneon, ucbneptune, ucbnewton, ucbnitrogen, ucbnutmeg,
+	ucbnyquist, ucboak, ucbodysseus, ucbokeeffe, ucbopal,
+	ucborchid, ucboregano, ucboxygen, ucboz, ucbpalm, ucbpaprika,
+	ucbparis, ucbparsley, ucbpawlonia, ucbpearl, ucbpepper,
+	ucbphoenix, ucbphosphorus, ucbpiglet, ucbpine, ucbpinocchio,
+	ucbpioneer, ucbplato, ucbpluto, ucbpoppy, ucbpopuli,
+	ucbporthos, ucbprefect, ucbpriam, ucbpride, ucbprimrose,
+	ucbquark, ucbranger, ucbredwood, ucbrenoir, ucbrich, ucbrip,
+	ucbripple, ucbrkneff1, ucbrkneff2, ucbrob, ucbrobert, ucbrose,
+	ucbrosemary, ucbruby, ucbsaffron, ucbsage, ucbsalt,
+	ucbsamantha, ucbsarsaparilla, ucbsassafrass, ucbsaturn,
+	ucbsequoia, ucbsesame, ucbsetosa, ucbseymour, ucbshadow,
+	ucbshangri-la, ucbshannon, ucbsilicon, ucbsilvia, ucbsim,
+	ucbsleepy, ucbsloth, ucbsnapdragon, ucbsneezy, ucbsnow,
+	ucbsodium, ucbsonja, ucbsquish, ucbstun, ucbsulfur,
+	ucbsunflower, ucbsuntory, ucbtanoak, ucbtarragon, ucbteak,
+	ucbtemp, ucbtequila, ucbtern, ucbtesla, ucbthyme, ucbtigger,
+	ucbtinman, ucbtoad, ucbtopaz, ucbtoto, ucbtrillian, ucbtuborg,
+	ucbtucker, ucbtulip, ucbtully, ucbtumeric, ucbtwolf, ucburanus,
+	ucbvangogh, ucbvenus, ucbveronica, ucbviking, ucbviolet,
+	ucbvogon, ucbvoyager, ucbwalnut, ucbwarthog, ucbwashoe,
+	ucbweyl, ucbwisteria, ucbwitch, ucbwizard, ucbxcssun,
+	ucbxearth, ucbyaakov, ucbyew, ucbzero, ucbzeus, ucbzircon,
+	ucbzooey, ucbzworykin }!(LOCAL)
+#
+################################################################################
+
+#N	ucdavis
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	University of California at Davis
+#C	Dan Dorough
+#E	ucdavis!usenet
+#T	+1 916 752 3420
+#P	UC Davis Computer Center, Davis CA, 95616
+#L	121 45 10 W / 38 32 28 N
+#R	
+#U	ucbvax lll-lcc umt egg-id ucdrgf uop-wirth ucrmath infopro
+#W	ucdavis!ccdan (Dan Dorough); Mon Nov 17 11:00:00 PST 1986
+#
+ucdavis ucbvax(DEDICATED), ucdrgf(DAILY), ucdncoh(DAILY), ucdamh(DAILY),
+	ludwig(DEAD), claudio(DAILY), ucrmath(DAILY/2), ucscc(DAILY/2),
+	sdcsvax(DAILY), umt(DAILY), pai(WEEKLY), disc(WEEKLY), bking(WEEKLY),
+	egg-id(DAILY/2), gvgcca(WEEKLY/4), gvgpsa(WEEKLY/2), lll-crg(DAILY/2),
+	lll-lcc(DAILY/2), uop-wirth(DAILY), csusac(DAILY/2), samira(WEEKLY/3),
+	tts(WEEKLY), analog(DAILY), reilly(WEEKLY/3), search(WEEKLY),
+	infopro(DAILY)
+#
+#		The following machines are strictly local -- they reside
+#		on the UC Davis campus; they are purposely commented
+#		out to prevent any confusion with other machines.  At
+#		some future time these names will be invisible outside
+#		of the campus.
+#
+#ucdavis	chico(LOCAL), clover(LOCAL), deneb(LOCAL), groucho(LOCAL),
+#		harpo(LOCAL), minnie(LOCAL), vega(LOCAL), zeppo(LOCAL)
+
+#N	ucdncoh
+#S	DEC LSI-11/73; 2.9 BSD UNIX W/LOCAL MODS
+#O	Northern California Occupational Health Unit
+#C	Matt Jacob
+#E	ucbvax!dual!matt
+#T	+1 415 549 3854
+#P	University of California Davis, Davis CA 95616
+#L	121 13 44 W / 37 55 29 N
+#R	This is a novice's system I am nominally managing.
+#R	I set their system up, and help out occasionally when they
+#R	have any trouble. I now work for Dual Systems in Berkeley.
+#U	ucdavis dual
+#W	dual!matt (Matt Jacob); Sat Feb  1 02:58:39 PST 1986
+#
+ucdncoh	ucdavis(POLLED), dual(POLLED)
+
+#N	ucscc
+#S	VAX 780 4.2BSD
+#O	Computer Center, University of California, Santa Cruz
+#C	Jim Haynes
+#E	ucbvax!ucscc!root
+#T	408 429 2434
+#P	Computer Center, University of California, Santa Cruz CA  95064
+#L	
+#R	
+#W	Jim Haynes 4/1/84
+#
+ucscc qubix(EVENING), ucbvax(DIRECT), cepu(EVENING), ucscx(DEMAND), CAE780(EVENING)
+# talks to ucsc[abstv] with berknet
+# talks to ucscx with uucp
+# talks to ucsc[defgh] with ethernet
+
+#N	ucsccis
+#S	
+#O	
+#C	
+#E	
+#T	
+#P	
+#L	
+#R	
+#W	
+#
+ucsccis	sdcsvax(DAILY), ucbvax(DAILY)
+
+#N	ucsfcgl
+#S	vax750, 4.3bsd
+#O	University of California, San Francisco, Computer Graphics Lab.
+#C	Thomas Ferrin
+#E	ucsfcgl!tef
+#T	(415) 476-1100
+#P	Computer Graphics Lab, School of Pharmacy,
+#L	37deg 45.8' North x 122deg 27.4' West
+#R	
+#W	
+#
+ucsfcgl	ucbvax(DIRECT), harpo(EVENING), genie(EVENING), hao(EVENING),
+	randvax(EVENING), unc(EVENING), ucsfpgs(EVENING)
+# ucsf-net = @{ucsfcgl, mis, bcl, cca, cope}(LOCAL)
+# note: ucsf-net is a DARPA class C network, internet addr 192.5.49
+
+#N	ucsfmis
+#S	VAX 11/750, 4.2BSD UNIX
+#O	U. of California San Francisco, Medical Information Science
+#C	Anthony I. Wasserman
+#E	ucsfmis!waserman
+#T	415-666-2951
+#P	Rm. A-16, San Francisco, CA 94143
+#L	
+#R	
+#W	ksh per paper form 7/2/84
+#
+ucsfmis	ucbvax(HOURLY), ucivax(POLLED), ucsfcgl(DEMAND), pthya(DAILY)
+
+#N	ucsfssu
+#S	PDP 11/45, UNIX 2.9BSD
+#O	University of California, San Francisco
+#C	Scooter Morris
+#E	ucbvax!ucsfmis!ucsfssu!scooter
+#T	(415) 666-5133
+#P	Room U471, San Francisco, CA 94143
+#L	
+#R	
+#W	cbosgd!ksh 4/4/84 (1/30/84 paper form)
+#
+ucsfssu	ucsfmis(DEMAND), ucsfcgl(DEMAND)
+
+#N	umunhum
+#S	VAX 11/750, 4.2BSD
+#O	Stanford University Computer Systems Lab
+#C	Hans Mulder
+#E	umunhum!postmaster
+#T	(415) 497-0377
+#P	ERL 408, Stanford Univ., Stanford CA 94306
+#L	
+#R	This machine is on the Arpanet
+#W	Brian Reid, 1/10/85
+#
+umunhum	glacier(POLLED), csl-vax(POLLED)
+
+#N	unet
+#S	Plexus P60, System V
+#O	Network Equipment Technologies
+#C	Bill Putney
+#E	unet!billp,
+#T	+1 415 366 4400
+#P	400 Penobscot Drive, Redwood City, CA 94063
+#L	122 13 40 W / 37 30 00
+#R	unet is the mail/news gateway for N.E.T.  unet will move
+#R	to a VAX750 running ULTRIX in a few weeks and will be LAN'd
+#R	with the P60, a number of Sun work stn's and two more VAXs.
+#U	oliveb
+#W	unet!billp (Bill Putney); Thu Jun 19 16:52:40 PDT 1986
+#
+unet	oliveb(HOURLY*2), tymix(DEMAND)
+
+#N	unisoft
+#S	4.1 BSD
+#O	Unisoft
+#C	Phil Ronzone
+#E	ucbvax!unisoft!unisoft unisoft!phil
+#T	(415) 644-1230
+#P	UniSoft Systems, 739 Allston Way, Berkeley CA 94710
+#L	
+#R	
+#W	Phil 5/1/84
+#
+unisoft	ucbvax(EVENING), pertec(DAILY), ucbtopaz(DAILY),
+	dual(DAILY), heurikon(DAILY), mtxinu(EVENING),
+	sequent(DAILY), callan(DAILY), dataio(DAILY)
+
+#N	unison
+#S	
+#O	Unison World Inc.
+#C	Saul Wold, Nat Stitt
+#E	dual!unison!sgw, dual!unison!nat
+#T	
+#P	2150 Shattuck, #902, Berkeley, CA 94704
+#L	
+#R	
+#W	ksh per unison!sgw, 8/4/84
+#
+unison	dual
+
+#N	uop
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	University of the Pacific
+#C	Bill Ford
+#E	uop!postmaster
+#T	+1 209 946 2198
+#P	UOP Computer Science Lab, Stockton CA 95211
+#L
+#R
+#U	ucdavis
+#W	uop!hex (Allyn Wade); Sat Feb 21 15:01:03 PST 1987
+#
+uop	ucdavis(POLLED)
+
+#N	uport
+#S	PC/AT; Microport System V/AT 2.2U
+#O	Microport Systems, Inc.
+#C	John M. Sully
+#E	uport!usenet
+#T	+1 408 438 8649
+#P	10 Victor Square, Scotts Valley CA 95066
+#L	36 50 N / 122 33 W (city)
+#R 
+#U	admin
+#W	uport!jmsully (John M. Sully); Tue Mar 31 11:01:37 PST 1987
+#
+uport	amdcad(DEMAND), admin(LOCAL), ucscc(DIRECT)
+
+#N	usenix
+#S	DEC VAX-11/730; 4.2 BSD UNIX
+#O	USENIX Association
+#C	Erik E. Fair
+#E	usenix!postmaster
+#T	+1 415 528 8649
+#P	P. O. Box 7, El Cerrito, CA 94530
+#L	37 53 N / 121 17 W city
+#U	ucbvax
+#R	Thank you DEC, Able Computer, and Mt. Xinu
+#W	Erik E. Fair <usenix!fair>; Mon Nov 25 13:54:46 PST 1985
+#
+# solar(DEMAND+LOW)	- there are two of these:
+#				AT&T IS, Holmdel, NJ
+#				Stanford University, CA
+#
+usenix	amd(DEAD), amdahl(DAILY), astrovax(DEAD), attunix(DEAD),
+	bang(DEAD), bellcore(DAILY/4), boulder(DAILY), btlunix(DAILY),
+	cadre(DEAD), cbosgd(DAILY/2), clyde(DEAD), compcon(DEMAND),
+	cucard(DAILY), decvax(EVENING*2), gatech(DAILY), gummo(EVENING*2),
+	hao(DAILY), harpo(DEAD), hcr(DAILY), hplabs(EVENING*2),
+	ico(DAILY), idi(DAILY), ihnp4(DAILY/2), infoswx(EVENING*2),
+	jett(DEAD), lbl-csam(DEMAND), lbl-ux4(DEAD), mcvax(DEAD),
+	metron(DAILY/2), msdc(DAILY/2), mtxinu(DAILY/2), nbires(DAILY/2),
+	primerd(DAILY), research(EVENING*2), rochester(DEAD),
+	seismo(DAILY/2), ucbvax(DEMAND), ucsfcgl(DEMAND),
+	ulysses(DEAD), unisoft(DEAD), usr_grp(EVENING*2), vortex(EVENING*2),
+	wjh12(DAILY/2)
+
+#N	uworld
+#S
+#O
+#C
+#E
+#T
+#P
+#L
+#R
+#W	Greg Fowler 2/15/85 from Kiessig
+#
+uworld	idi(DEMAND)
+
+#N	varian
+#S	DEC PDP 11/70; UNIX 2.9BSD
+#O	Varian Instruments
+#C	David Brown
+#E	varian!david
+#T	(415) 945-2199
+#P	2700 Mitchell Dr., Walnut Creek, CA 94598
+#U	zehntel, vaxwaller, madvax
+#W	David Brown, 11/27/85
+#L	
+#R	
+#
+varian	zehntel(EVENING), fortune(EVENING), amd(EVENING), paid_r1(EVENING),
+	sra1(EVENING), vaxwaller(DIRECT), madvax(DIRECT), dual(EVENING),
+	lll-crg(EVENING), rtech(EVENING)
+
+#N	vaxwaller
+#S	DEC VAX 11/780; UNIX 4.1BSD
+#O	Varian Instruments
+#C	David Brown
+#E	varian!david
+#T	(415) 945-2199
+#P	2700 Mitchell Dr., Walnut Creek, CA 94598
+#U	varian
+#W	David Brown, 11/27/85
+#L	
+#R	
+#
+vaxwaller	varian(DIRECT), madvax(DIRECT)
+
+#N	vecpyr
+#S	Pyramid, 90sx
+#O	Visual Engineering
+#C	Saul G. Wold
+#E	lll-crg!vecpyr!sgw
+#T	+1 408 945 9055
+#P	2680 North First St, Suite 200, San Jose, Ca, 95134
+#L	37 24 00 N / 121 54 00 W  N. San Jose
+#U	lll-lcc altos86 esl amd atari
+#	Saul G. Wold 	Mon Feb 17 20:42:51 PST 1986
+#W	hplabs!fowler (Greg Fowler); Tue Nov 11 18:59:02 PST 1986
+#
+# Local UUCP neighbours -- it's free to call them
+#
+vecpyr	amd(DIRECT+HIGH), altos86(DIRECT), 
+	amdcad(DIRECT), atari(DIRECT),
+#
+# Bay area sites we talk to whenever we have traffic.
+#
+vecpyr	dual(DEMAND), well(DEMAND+LOW), 
+	pyrcorp(DEMAND+LOW), hoptoad(DEMAND+LOW)
+#
+# These Sites call us with lots of news and mail.
+#
+vecpyr	lll-crg(POLLED+HIGH), lll-lcc(POLLED+HIGH)
+
+#N	vine
+#S	Arete 1100; System V Release 2 (Manuf. name: Arix 2.5)
+#O	Grapevine Communications, Inc.
+#C	James Cleverdon
+#E	vine!uucp
+#T	+1 415 379 9980
+#P	501 Seaport Court, Suite 108, Redwood City, CA 94063
+#L	122 12 40 W / 37 30 17 N
+#R	This machine provides a dialup timesharing service
+#W	grape!james (James Cleverdon); Fri Aug  8 13:16:30 PDT 1986
+#
+vine	grape(DEDICATED), ranhome(DAILY/4)
+
+#N	virus
+#S	
+#O	University of California, Berkeley
+#C	Sharlene Weatherwax
+#E	ucbvax!molbio!virus!sharlene
+#T	+1 415 642-7359
+#P	Dept. of Molecular Biology, UC Berkeley, Berkeley, CA 94720
+#L	37deg 52' 28" North x 122deg 15' 44" West
+#R	UC Berkeley internal UUCP site
+#W	W.C. Wells (ucbvax!ucbjade!netinfo) Sun Oct 13 21:27:46 PDT 1985
+#	From data supplied by Sharlene Weatherwax
+#	   (ucbvax!molbio!virus!sharlene) 17 Jul 85
+#
+virus	molbio(POLLED), menlo70(DEMAND)
+
+#N	vision
+#S	Dual Systems 83/80+80 running Version 7 UNIX
+#O	Vision Computers
+#C	Les Kent
+#E	vision!les, proper!les
+#T	+1 415 530 2390
+#P	2235 Melvin Road, Oakland CA 94602
+#L	122 14 15 W / 37 49 11 N
+#R	Sales/support of multiuser and network systems; Consulting 
+#U	proper
+#W	vision!les (Les Kent); Sun Feb  2 01:34:04 PST 1986
+#
+vision	proper(DIRECT), kent(DIRECT)
+
+#N	vixie
+#S	Symmetric 375; BSD 4.2 UNIX
+#O	Vixie Enterprises
+#C	Paul Vixie
+#E	vixie!paul
+#T	+1 415 550 0160
+#P	329 Noe Street, San Francisco, CA 94114
+#L	37 47 N / 122 27 W
+#R	#L guessed as offset from hoptoad; qantel recently rm'ed
+#U	ptsfa
+#W	vixie!paul (Paul Vixie); Fri Jan 16 09:38:26 PST 1987
+#
+vixie	ptsfa(DIRECT), winfree(DEMAND), crash(DEMAND)
+
+#N	vlad
+#S	Arete 1600; ARIX 3.1 (UNIX 5.2)
+#O	Arete Systems, Inc.
+#C	David Stone
+#E	vlad!stone
+#T	+1 408 263 9711
+#P	2040 Hartog Drive, San Jose, CA 95131
+#L	121 55 W / 37 23 30 N
+#U	dlb
+#W	vlad!stone (David Stone); Thu Jul 10 15:20:18 PDT 1986
+#
+vlad	arete(DEDICATED+HIGH), foxy(DIRECT+HIGH), calma(DIRECT),
+	thirdi(WEEKLY), dlb(DIRECT+HIGH)
+
+#N	vlsvax1
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Voelker-Lehman Systems, Inc
+#C	Gene W. Garbutt
+#E	vlsvax1!gwg
+#T	+1 415 490 3555
+#P	44000 Old Warm Springs Blvd, Fremont, CA 94538
+#U	qantel zehntel
+#W	vlsvax1!gwg (Gene W. Garbutt) ; Wed Oct 23 20:24:01 PDT 1985
+#
+vlsvax1       qantel(EVENING), zehntel(EVENING)
+
+#N	voder
+#S	VAX 11/780; 4.3 BSD
+#O	National Semiconductor, Semiconductor Division
+#C	Jeff Gilliam
+#E	voder!postmaster
+#T	+1 408 721 3801
+#P	M/S C2303, 2900 Semiconductor Dr., Santa Clara, CA 95051
+#L	
+#R	
+#U	pyramid, apple, blia, kontron, lewey, nsc
+#W	voder!jeff (Jeff Gilliam); Mon Mar 16 23:25:09 PST 1987
+#
+voder	apple(DIRECT), blia(DIRECT), dymsj(DEMAND), kontron(DIRECT),
+	lewey(DIRECT), mas1(DIRECT), nsc(DIRECT), nscad(DEDICATED),
+	polyslo(DEMAND), pyramid(DEMAND), sda(DIRECT), ucbcad(DEMAND),
+	ucbvax(DEMAND), unisoft(DEMAND), wlbr(DEMAND)
+
+#N	waldo
+#S	IBM PC/AT; Microsoft XENIX v3.0
+#O	R.W.E. Enterprises
+#C	Ken Nishimura, Jonathan C. Broome
+#E	waldo!kennish, waldo!broome
+#T	+1 415 849 1909
+#P	2437 Warring Street, Suite G, Berkeley, California 94704
+#L	122 13 40 W / 37 51 49 N
+#R	This is a personally-owned and -run machine
+#U	
+#W	waldo!broome (Jonathan C. Broome);  Wed Dec 18 10:13:19 PST 1985
+#
+waldo	dual(DAILY)
+
+#N	wdl1
+#S	
+#O	Ford Aerospace & Comm. Corp, WDL Division
+#C	Dr. Stephen M. Lazarus, SPO, MS:X-20
+#E	fortune!sml
+#T	(415) 852-4203
+#P	3939 Fabian Wy., Palo Alto, CA 94303-9981
+#L	
+#R	
+#W	
+#
+wdl1	fortune(DEMAND)
+
+#N	weitek
+#S	VAX 11/750, 4.2BSD
+#O	WEITEK Corporation
+#C	Robert Plamondon
+#E	weitek!robert
+#T	(408) 738-8400
+#P	1060 E. Arques Avenue, Sunnyvale, CA 94086
+#L	 37 12 N / 122 10 W Sunnyvale
+#R	
+#W	weitek!robert (Robert Plamondon); Tue Jan 13 09:19:00 PST 1987
+#U	sci cae780 turtlevax
+weitek	turtlevax(DEMAND), cae780(DIRECT), sci(DIRECT), resonex(EVENING+LOW),
+	pyramid(DIRECT+HIGH), apple(DIRECT+LOW), ubvax(DIRECT), ghsvax(DAILY),
+	applicon(DAILY)
+
+#N	well
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Whole Earth Lectronic Link
+#C	E.M. Richards and A.S.Beals
+#E	well!usenet
+#T	+1 415 332 4335
+#P	27 Gate Five Road, Sausalito, CA 94965
+#L	122 29 15 W / 37 51 15 N city
+#R	
+#U	ptsfa micropro lll-lcc apple glacier hplabs
+#W	well!booter (Elaine Richards); Mon Mar 30 16:02:33 PST 1987
+#
+well	apple(DAILY), cpro(WEEKLY), dual(HOURLY*4), eakins(DAILY),
+	glacier(HOURLY*4), hoptoad(HOURLY*4), hplabs(HOURLY*4), island(DAILY),
+	lll-crg(HOURLY), lll-lcc(HOURLY), micropro(HOURLY), 
+	portal(DAILY), proper(DAILY), ptsfa(HOURLY*2), triton1(DAILY), 
+	unicom(DAILY), vecpyr(DAILY)
+
+#N	whitney
+#S	VAX 11/780, 4.2BSD
+#O	Stanford University Computer Science/Robotics Project
+#C	Sathya Narayanan
+#E	whitney!postmaster
+#T	(415) 497-0030
+#P	Cedar Hall B-12, Stanford Univ., Stanford CA 94305
+#L	
+#R	This machine is on the Arpanet
+#W	Brian Reid, 1/10/85
+#
+whitney	glacier(POLLED), diablo(POLLED)
+
+#N	wjvax
+#S	DEC VAX 11/750; UNIX 4.2 BSD
+#O	Watkins Johnson, Co.
+#C	Paul Summers, Brett Galloway, Bob Friday
+#E	wjvax!newsmgr
+#T	+1 408 435 1400
+#P	2525 North First Street; San Jose, CA 95131
+#L
+#R	
+#U	
+#W	ucbvax!nca-maps (Erik E. Fair); Thu May 28 04:25:30 1987
+#
+wjvax	certes(DIRECT), tymix(DIRECT), isieng(DIRECT), turtlevax(DEMAND),
+	qubix(DIRECT), vecpyr(DIRECT), bene(DEMAND), ads(DEMAND),
+	fai(HOURLY), gsl(DIRECT)
+
+#N	wyse
+#S	Wyse PC 286; XENIX System V 2.1.3
+#O	Wyse Technology
+#C	Greg Renda
+#E	wyse!postmaster
+#T	+1 408 433 1000
+#P	3571 North First Street, San Jose, CA 95134
+#L	37 24 00 N / 121 54 00 W  N. San Jose
+#R
+#U	weitek
+#W	wyse!greg (Greg Renda); Wed Jan 21 10:55:05 PST 1987
+#
+wyse	cae780(DIRECT), sco(DAILY), weitek(DIRECT)
+
+#N	zehntel
+#S	SUN 2/170; 4.2 BSD UNIX
+#O	Zehntel, Inc.
+#C	Diana Berry
+#E	zehntel!diana, zehntel!postmaster
+#T	+1 415 932 6900 x360
+#P	2625 Shadelands Drive, Walnut Creek, CA  94598
+#L	37 48 30 N / 122 10 00 W city
+#U	normac varian vlsvax1 
+#R	additional systems on Zehntel LAN:   pinot, alpha, zps	
+#W	zehntel!diana (Diana L. Berry); Thu Jan  8 11:03:25 PST 1987
+#
+zehntel	varian(DEMAND), dual(WEEKLY), ucbvax(DEMAND+10), ihnp4(DEMAND),
+	normac(DEMAND), hplabs(DEMAND+10), zinfandel(LOCAL), varian(DEMAND),
+	sra2(DEMAND), oliveb(DEMAND), bales(LOCAL), sun(DEMAND)
+
+#N	ziggie
+#S	Plexus P/75; UNIX System V release 1.5
+#O	Benetics Corporation
+#C	Steven List
+#E	bene!steven
+#T	(415) 940-6312 (voice mailbox 312)
+#P	325 E. Middlefield Rd, Mt. View, CA  94043
+#R	site includes one node (bene) and three local leaves (ziggie,greg,luke)
+#W	bene!ziggie!itkin (Steven M. List); Tue Dec 11 14:56:51 PDT 1986
+#
+ziggie	bene(HOURLY)
+
+#N	zilog
+#S	
+#O	
+#C	
+#E	
+#T	
+#P	
+#L	
+#R	
+#W	
+#
+zilog	ucbvax(DAILY)
+
+#N	zinfandel
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Zehntel, Inc.
+#C	Diana Berry
+#E	zehntel!diana, zehntel!postmaster
+#T	+1 415 932 6900 x360
+#P	2625 Shadelands Drive, Walnut Creek, CA  94598
+#L	37 48 30 N / 122 10 00 W city
+#U	
+#R	additional systems on Zehntel LAN:   pinot, alpha, zps	
+#W	zehntel!diana (Diana L. Berry); Thu Jan  8 11:03:25 PST 1987
+#
+zinfandel	princeton(EVENING), rtech(DEMAND), normac(DEMAND),
+		lll-crg(DEMAND), zehntel(LOCAL), sun(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exi0 A.

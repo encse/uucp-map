@@ -1,0 +1,455 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.che.100
+: This archive created: Fri Oct 23 03:02:31 1992
+echo shar: extracting u.che.100
+cat << 'SHAR_EOF' > u.che.100
+# last changed Tue Oct 13 11:08:57 MET 1992
+# changes to uucpmap@chsun.uucp
+#
+# Non-EUnet sites.
+#
+#N    alphanet
+#S    Amiga B2000; AmigaOS 2.04, AmigaUUCP1.16Dalphanet
+#O    ALPHANET Network Main node - ALPHANET 1.0 Development Site.
+#C    Marc Schaefer
+#E    sysop@alphanet.imp.com
+#L    Apprx. 47o North, 7o east.
+#R    Public UUCP possible, BBS in developpment, network in developpment.
+#U    impch guano nuga albireo
+#W    sysop@alphanet.imp.com ; Thu May 28 21:05:10 GMT+2 1992
+#
+alphanet = alphanet.imp.com
+alphanet      guano.imp.com(POLLED), nuga.imp.com(POLLED), albireo.imp.com(POLLED), impch(POLLED)
+
+#N      dwest
+#S      ACER S32/20; SCO UNIX 3.2
+#O      Distance West SA
+#C      Alexandre Casanova
+#E      alex@dwest
+#T      +41 22 44 85 50
+#P      75 rue de Lyon, CH-1203 Geneva
+#L      06 06 E / 46 14 N
+#U
+#W      magnolia!poole ; Sat Mar  9 14:47:33 MET 1991
+#
+dwest	chvax(DEMAND)
+
+#N	fatcat
+#O	Autodesk AG
+#P	Zurlindenstr. 29, CH-4133 Pratteln, Schweiz
+#C	Sacha Gloor
+#E	mis@acadch.uucp
+#T	+41 821 20 20
+#U	acadch
+#W	etienne@adeskch.acadch.com ; Tue Apr 23 16:14:22 MET DST 1991
+#
+fatcat  acadch(LOCAL)
+
+#N	ixgch
+#S	PC-AT-386-Clone, SCO XENIX System V/386 Release 2.3.3
+#O	Ixgate Switzerland / XGP Switzerland (XGP-CH)
+#C	Chris Eckert (eckert@xgc.imp.com)
+#E	postmaster@xgc.imp.com
+#T	+41-61 8115635 (MEST)
+#P	Chris Eckert, Violaweg 71, CH-4303 Kaiseraugst, Switzerland
+#L	47 32.5 N / 07 40.5 E
+#R	Public Access Unix System (PAUS/NIXPUB)
+#R	UUCP feeds for Internet Mail and Usenet news available!
+#R	Int. modem dialup: +41-61 8115492 (USR-DS:V.32bis/V.42bis)
+#R	Anonymous UUCP allowed (~uucp-down-/upload): login=nuucp, no PW
+#R	Info: Send mail to service@xgc.imp.com (Subject: help).
+#U	thumb impch cultnet icech uska amigch acch stpm stefan unix33
+#W	System Administrator (adm@xgc.imp.com), Mon Aug 10 22:32:00 MEST 1992
+#
+# Link data:
+ixgch	impch(EVENING+HIGH+FAST), cultnet(POLLED), icech(POLLED), uska(POLLED),
+	acch(POLLED), stpm(POLLED), stefan(POLLED), unix33(POLLED)
+#
+# Alias data:
+ixgch = ixgch.imp.com
+ixgch = ixgch.xgc.imp.com
+ixgch = xgc.imp.com
+ixgch = .xgc.imp.com
+
+#N      kknet
+#S      
+#O      K+K Computertraining AG, Sekretariat UNIX Interessengemeinschaft Schweiz
+#C      Jean-Pierre Kousz
+#E      jpk@kknet.uucp
+#T      +41 1 830 70 47
+#P      Haldenstrasse 21, Postfach 353, CH-8304 Wallisellen
+#L      08 11 20 E / 47 07 10 E
+#R      
+#U      
+#W      chx400!Sn 27916
+#
+kknet   chvax(DEMAND)
+
+
+#N      mediatex
+#S      microVAX II; VMS 5.4
+#O      MEDIAtex AG, CH-8807 Freienbach
+#C      Peter J. Neff
+#E      mediatex!peter
+#T      +41 55 485666
+#P      Gehrenstrasse 10-12, CH-8807 Freienbach/SZ
+#L      47 25 00 N / 8 50 00 E
+#R
+#U      elias
+#W      mediatex!peter (Peter J. Neff) ; Thu Jun 13 10:15 CET 1991
+#
+mediatex        elias(EVENING)
+mediatex  =  mediatex.ch
+
+#N	stpm
+#S	Macintosh SE, MAC-OS 6.0
+#O	Stranger Than Paradise
+#C	Espen H. Koht
+#E	postmaster@stpm.xgc.imp.com
+#T	+41-22 7742816
+#P	114 Chemin des Mollies, CH-1293 Bellevue GE
+#L	06 30 E / 48 15 N
+#W	eckert@xgc.imp.com; Tue Mar  3 13:10:12 MET 1992
+#
+stpm    ixgch(DEAD)
+
+#N	tutis
+#S	AT-286, UNIX V.2
+#O	Funktion+Struktur
+#C	Pedram Buergin
+#E	tutis!postmaster
+#T	+41 1 3124976
+#P	Viktoriastr. 19, CH-8003 Zurich, Switzerland
+#L	08 33 E / 47 22 N
+#U
+#W	chsun!poole; Tue Mar 24 09:19:55 MET 1992
+#
+tutis   fustch(POLLED), as360(DEMAND)
+
+#N      wopr
+#S      Atari Mega ST 4 / OS-9/68k
+#O
+#C      Marc Balmer
+#E      marc@wopr
+#T      +4161 22 27 19
+#P      Byfangweg 36, CH-4051 Basel
+#L
+#R
+#U
+#W      cernvax!dietrich 890330
+#
+wopr    norad(DEMAND)
+
+#N	zhmicro
+#S	DEC MicroVAX II; VMS V5.1
+#O	Micrognosis
+#C	Ed Klavins
+#E	zhmicro!eklavins
+#T	+41 1 295 63 63
+#P	Militaerstrasse 36, Zurich 8004, Switzerland
+#L	47 23 N / 8 32 E city
+#R	Running DECUS uucp V1.1
+#U	
+#W	zhmicro!eklavins (Ed Klavins); Wed Aug 1 17:21:00 MET 1990
+#
+zhmicro	chvax(DEMAND)
+
+#N	adeskch
+#O	Autodesk AG
+#P	Zurlindenstr. 29, CH-4133 Pratteln, Schweiz
+#C	Marco Stoffel
+#E	mis@acadch.uucp
+#T	+41-61-8212020
+#U	fatcat impch chx400
+#W	chsun!poole ; Wed May 27 16:38:58 MET DST 1992
+#R  Domain 'acadch.com' registred with SRI-NIC.
+#
+adeskch = acadch
+#
+ACADCH-ETHER = {adeskch, mephisto, fatcat, nadeskch}!(LOCAL)
+#
+ACAD-NET = {adeskch,acadch,acada,acadd,acadf,acadi,acadsp,acadsw,acaduk,ehq}!(HOURLY)
+
+#N      chx400
+#S      Sun 4/490, SunOS
+#O      SWITCH
+#C      Marcel Schneider
+#E      postmaster@chx400.uucp
+#T      Ph: +41 1 262 31 41 / +41 1 256 54 54, Fx: +41 1 262 31 51
+#P      Geschaeftsstelle SWITCH, ETH Zentrum, CH-8092 Zuerich
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+#
+# aliases
+#
+chx400 = chx400.switch.ch
+chx400 = switch
+#
+# SWITCH links
+#
+chx400          adeskch(DEMAND),
+                elias(DEMAND),
+                innosoft(DEMAND),
+                itag(DEMAND),
+                metoch(DEMAND),
+                orbitro(DEMAND),
+                othrys(DEMAND),
+                slf-kowj(DEMAND)
+
+#N      cui
+#S      HP 9000/835, HP-UX 7.0
+#O      Centre Universitaire d'Informatique
+#C      Nicolas Mayencourt
+#E      postmaster@cui.unige.ch, nicolas@cui, nicolas@cui.unige.ch
+#T      +41 22 7876580
+#P      rue du Lac 12, CH-1207 Geneva, Switzerland
+#L      06 06 E / 46 14 N
+#R      This is also cui.unige.ch on the MHS world.
+#R      The prefered mail address is postmaster@cui.unige.ch.
+#U
+#W      chsun!eschle, Fri Jul  5 08:45:39 MET DST 1991
+#
+cui     mailun2a(DIRECT)
+CUETHER = {cui}
+
+#N      dsag
+#S      Sun SparcStation 1+; SUNOS 4.1
+#O      DS DIAGONAL SYSTEMS AG
+#C      Stephan Duetsch
+#E      postmaster@dsag.uucp
+#T      Ph: +41 1 810 91 11, Fx: +41 1 810 98 58
+#P      Kanalstrasse 11, CH-8152 GLATTBRUGG
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+
+#N      ecofin
+#S      DECstation 5000 running Ultrix 4.1
+#O      ECOFIN Forschungs- & Beratungs-AG
+#C      John Buehrer
+#E      ecofin!jdb
+#T      Ph +41 1 201 68 33, Fx +41 1 202 89 47
+#P      Lavaterstrasse 45, CH-8002 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U      chx400
+#W      chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+ecofin  =  ecofin.ch
+
+#N      elias
+#S      DEC VAX-11/785; VMS V5.2
+#O      DECUS (Switzerland)
+#C      Peter J. Neff
+#E      elias@decus.ch
+#T      +41 55 48 56 66
+#P      MEDIAtex AG, Gehrenstrasse 10-12, 8807 Freienbach, Switzerland
+#L      47 25 00 N / 8 33 16 E
+#R      Running DECUS uucp V1.0 (send mail for details) and ANU News 5.7
+#U      chx400 simba mediatex
+#W      elias@decus.ch (Peter J. Neff); Thu Jun 13 10:30:00 CET 1991
+#
+elias   chx400(DEMAND),  mediatex(EVENING)
+elias  =  elias.ch
+
+
+#N      ethz
+#S      VAX 11/785, Ultrix3.1
+#O      Kommunikationssysteme, ETH Zuerich
+#C      Andy Karrer
+#E      ethz!karrer
+#T      +41 1 256 4163
+#P      Gloriastr. 35, ETH Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      chsun!poole ; Wed May 27 16:32:42 MET DST 1992
+#
+ethz    iis(LOCAL), liskamm(LOCAL), badile(LOCAL), igpho(DIRECT), komsys(DIRECT), 
+	ethz-inf(DIRECT), biophys(DIRECT), aquilo(DIRECT), auster(DIRECT), iqe(DIRECT), 
+	lavi(DIRECT)
+#
+ethz = bernina
+
+#N      iis
+#S      uVaxII, Ultrix2.2
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Christoph Wicki
+#E      iis!wicki
+#T      +41 1 256 4163
+#P      Gloriastr. 35, ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      chsun!poole ; Wed May 27 16:32:42 MET DST 1992
+#R	This machine is going away
+#
+iis     ethz(LOCAL),sunch(DEMAND),sunswis(DEMAND)
+
+#N      innosoft
+#S      NeXT cube; Mach 2.12
+#O      Roth INNOsoft
+#C      Roman Roth
+#E      innosoft!worldmail
+#T      +41 1 273 05 37
+#P      Klingenstrasse 21, CH-8005 Zuerich
+#L      8 33 E / 47 26 N
+#R      
+#U      
+#W      Roman Roth, 29.7.91
+#
+innosoft  chx400(DEMAND)
+
+#N      itag
+#S      Sun SparcStation 1+; SUNOS 4.1
+#O      ITAG Information Technology AG
+#C      Bendicht Haeberli, 
+#E      postmaster@itag.ch
+#T      Ph +41 31 52 81 44, Fx +41 31 52 27 92
+#P      Thunstrasse 160, CH-3074 Muri
+#L      
+#R
+#U
+#W      Sn 5918; Mon Aug 5 16:00 MEDT
+itag    chx400(DEMAND)
+itag	.itag.ch
+itag	= itag.ch
+
+#N	metoch
+#S	Apollo DN 3500 SR 10.2 SYS 5.3
+#O	Mettler-Toledo AG
+#C	Felix Brunner FE-AI, Systemgruppe
+#E	metoch!brunner
+#T	+41 1 944 31 20
+#P	Im Langacher, CH-8606 Greifensee
+#L	08 40 54 E / 47 22 42 N
+#R
+#U
+#W	chx400!lengge 900611
+#
+metoch	chx400(DEMAND)
+metoch = metoch.ch
+metoch	.metoch.ch
+
+#N orbitro
+#S fibre200, 386/33 MHz; Interactive 2.2
+#O Orbitronics S.A.
+#C Marcel Corminboeuf
+#E postmaster@orbitro.uucp
+#T +41 22 782 50 01
+#P 38, chemin du Grand-Puits, 1217 Meyrin/Geneve
+#L 
+#R 
+#U 
+#W Sn 23919
+#
+orbitro	chx400(DEMAND)
+
+#N      othrys
+#S      MODEL=PC-AT386;OS=SCO UNIX SYSV 3.2 Ver. 2.0
+#O      Private
+#C      Claudio Mugnai
+#E      cmugnai@othrys.UUCP
+#T      +41 56 42 37 94
+#P      Hummelstrasse 2, CH-5200 Brugg
+#L      47 29'N 8 12'E
+#R
+#U      chx400.switch.ch
+#W	chx400!poole,	Mon Apr 15 11:27:01 MET DST 1991
+#
+othrys	chx400(DEMAND)
+
+#N      sbcch
+#S      Sparcstation 2, SunOS 4.1.1
+#O      SWISS BANK CORPORATION (SBV), Basel, Switzerland
+#C      Mr. Funk
+#E      postmaster@sbcch.ch  or sbcch!funk
+#T      +41 61 288 48 98, Fax +41 61 2883633
+#P      SBC, Informatikentwicklung Finanz, Gartenstrasse 9, 4002 Basel
+#L      longitude / latitude  :  I don't know
+#R      
+#U      
+#W      chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+#N    sdz01
+#S    IBM RS 6000 / AIX 3.1.1
+#O    Sandoz, Methods & Models
+#C    Dr. F. Reuter
+#E    sdz01!frt
+#T    061 324 30 44
+#P    Sandoz, Methods & Models, Dr. F. Reuter, Bau 210.735, 4002 Basel
+#L    07 36 E / 47 33 N
+#W    chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+#N      sgba
+#S      IRIS 4D/85, O/S 3.3.2
+#O      Silicon Graphics AG
+#C      Kamran Sokhanvari
+#E      root@sgzh.uu.ch
+#T      01/821-0777
+#P      Erlenstrasschen 65, 4125 Riehen
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W
+
+
+#N	sgls
+#S	IRIS 4D/80, O/S 3.3
+#O	Silicon Graphics, Lausanne office
+#C	ZIZZARI Paride
+#E	root@sgls.uu.ch
+#T	+41 21 259412
+#P	Centre Administratif - Vidy, Route de Chavannes 31, 1007 Lasanne, CH
+#U
+#W	chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+#N      sgzh
+#S      IRIS 4D/70, O/S 3.3.3
+#O      Silicon Graphics AG
+#C      Kamran Sokhanvari
+#E      root@sgzh.uu.ch
+#T      01/821-0777
+#P      Stettbachstrasse 10, CH-8600 Dubendorf
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W	chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+#N	speed
+#S
+#O	FELA Speed S.A.
+#C	Daniel Sigg
+#E      sigg@speed.uucp
+#T	Ph +41 38 25 77 55, Fx +41 38 24 62 36
+#P	Puits-Godet 16, CH-2005 Neuchatel, Switzerland
+#L
+#R
+#U
+#W	chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+#N      swssai
+#S      SUN 3/60
+#O      Rentenanstalt
+#C      Hr. Reimer, IA, Leiter F&E-Gruppe
+#E      reimer@switch.arcom.ch
+#T      +4101 284 33 11 (Reception), +4101 284 40 61 (Hr. Reimer)
+#P      General-Guisan-Quai 40, CH-8022 Zurich
+#L
+#R
+#U
+#W      chsun!poole ; Wed May 27 17:23:11 MET DST 1992
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

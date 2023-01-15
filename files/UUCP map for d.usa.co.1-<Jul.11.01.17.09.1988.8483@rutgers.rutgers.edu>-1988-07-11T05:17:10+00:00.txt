@@ -1,0 +1,157 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.co.1
+: This archive created: Mon Jul 11 01:17:06 1988
+echo shar: extracting d.usa.co.1
+cat << 'SHAR_EOF' > d.usa.co.1
+# Doug McCallum <dougm@ico.ISC.COM>; Thu Jul  7 14:16:01 MDT 1988
+
+#N      .cadnetix.com, cadnetix
+#F      uunet.UU.NET
+#O      Cadnetix Corporation
+#C      Gordon Durand, Jim Traeber
+#E      postmaster@cadnetix.COM
+#T      303-444-8075
+#P      5775 Flatiron Parkway; Boulder, CO 80301
+#L      40 02 N / 105 14 W city
+#U      uunet
+#R      registered
+#W      gad@cadnetix.COM (Gordon Durand); Mon Jan 25 13:57:21 MST 1988
+#
+cadnetix        .cadnetix.com
+cadnetix        cadnetix.com
+cadnetix        = cadnetix.com
+cadnetix        uunet(DAILY/3+FAST),ico(DAILY/4), sunpeaks(DAILY/4),
+                boulder(DAILY/4), nbires(DAILY/4) 
+
+
+#N	.isc.com, ico
+#F	ncar.ucar.edu
+#O	Interactive Systems Corporation
+#C	Doug McCallum
+#E	dougm@ico.isc.com
+#T	303 449-2870
+#P	2950 Wilderness Place, Suite B, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#U	ism780c nbires isis cadnetix
+#R	registered
+#W	dougm@ico.ISC.COM; Sun Apr 12 11:04:53 MST 1987
+#
+ico	.isc.com
+ico	isc.com
+ico =	ico.isc.com
+#
+#	Internal Sites
+ico     haddock(DEDICATED), ism780c(DEDICATED), ism780b(DEDICATED)
+#	Local Connections
+ico	ncar(DEMAND),
+	nbires(DEMAND), boulder(DEMAND), isis(DEMAND), mongor(DEMAND),
+	vianet(DEMAND), cadnetix(POLLED), raven(POLLED), stcvax(DEMAND),
+	auto-trol(DEMAND)
+#	Long Distance Connections
+ico	interlan(EVENING), sys1(WEEKLY),
+	ut-sally(EVENING+HIGH)
+
+
+#N	.nbi.com, nbires
+#O	NBI Inc.
+#C	Dale Reed
+#E	dcr@nbires.UUCP, postmaster@nbires.UUCP
+#T	303-444-5710
+#P	P.O. Box 9001, Boulder CO 80301
+#L	40 02 15 N / 105 14 22 W
+#U	bdaemon boulder cires ico isis nbisos ntia rips stcvax vianet
+#R	registered
+#W	dcr@nbires.nbi.com (Dale Reed); Fri Nov 13 11:10:35 MST 1987
+#
+nbires	.nbi.com
+nbires	nbi.com
+nbires=	nbires.nbi.com
+nbires	allegra(EVENING+HIGH),	amd(EVENING+LOW),
+	bdaemon(DIRECT),	boulder(DIRECT+LOW),	cadnetix(DIRECT),
+	calay(DIRECT),		cires(DIRECT),
+	cornell(EVENING),	csu-cs(DEMAND),		ctvax(EVENING),
+	fred(DEAD),		galon(DIRECT+LOW),	gangue(DIRECT),
+	ncar(DEMAND),	hicntry(POLLED),	ico(DIRECT),
+	isieng(DIRECT),		isis(DIRECT),		lbl-csam(EVENING),
+	nbisos(DIRECT),		ntia(DIRECT),		onecom(DIRECT),
+	princeton(WEEKLY),	pyramid(EVENING),	rips(DIRECT),
+	scgvaxd(EVENING),	stcvax(DIRECT+LOW),	ucbvax(EVENING+HIGH),
+	udenva(DIRECT),		unidot(DIRECT),		usenix(EVENING+HIGH),
+	ut-sally(EVENING),	utah-cs(EVENING+LOW),	uunet(EVENING),
+	vianet(DIRECT)
+
+
+
+#N	.ucar.edu, ncar
+#S	
+#O	Scientific Computing Division/NCAR
+#C	Greg Woods
+#E	ncar!woods
+#T	(303) 497-1295
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	Internet host handies.ucar.edu 128.117.64.4
+#W	woods 03/15/88
+#U	noao ames boulder gatech oddjob umigw dinl gaia
+#
+#    NCAR local Ethernet machines; not normally accessible from the outside
+#
+UCARNET = {hao, haovax, hao-hw, hao-is, ics-m, acdpyr, scdpyr, windom, cgdra, 
+	   yoda, bierstadt, ncar, scdsw1}!(LOCAL)
+#
+# special CISCO link to CU-Boulder
+#
+ncar     boulder(DEDICATED)
+#
+#    NSFnet/WESTnet links
+#
+ncar	noao(DEDICATED), oddjob(DEDICATED), udenva(DEDICATED+4*LOW),
+	gatech(DEDICATED), ames(DEDICATED), rutgers(DEDICATED), husc6(DEDICATED),
+	umigw(DEDICATED), handel(DEDICATED), dunike(DEDICATED)
+#
+#    local phone calls
+#
+ncar	chernow(DIRECT), noaasel(DIRECT), dinl(DIRECT), gaia(DIRECT), 
+	toadwar(DIRECT), ico(DIRECT), nbires(DIRECT), sunpeaks(DIRECT),
+	ntia(DIRECT), stcvax(DIRECT), scicom(DIRECT)
+
+
+#
+# Domains and aliases
+#
+ncar    ".ucar.edu"(LOCAL)
+ncar = "ncar.ucar.edu"
+ncar = "handies.ucar.edu"
+ncar = "ncar.csnet"
+
+
+#N	.alphacdc.com, scicom
+#F	rutgers.edu
+#O	Alpha Communications Development Corp.
+#C	Cyro Lord, Andrea Lord, Mark Felton
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	2570 Sky Ranch Rd Box 63A, Aurora, Colo.  80011
+#L	39 45 15 N / 104 45 W city
+#U	isis embudo taos bigsky
+#R
+#W	03/28/88 scicom!cyrill
+#
+scicom = .alphacdc.com
+scicom = alphacdc.com
+scicom = scicom.alphacdc.com
+scicom  boulder(DIRECT), ncar(DIRECT), isis(DIRECT),
+	embudo(DIRECT), nbires(DIRECT), bilanc(DEMAND),
+	taos(LOCAL), qetzal(DEMAND), galon(DEMAND),
+	bigsky(DAILY), reo(DEMAND), bldr(DEMAND),
+	peng(DAILY), medevac(DEMAND), milehi(DAILY),
+	crash(DAILY)
+taos	scicom(LOCAL)
+
+
+# EOF for map file: d.usa.co.1
+SHAR_EOF
+:	End of shell archive
+exit 0

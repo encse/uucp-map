@@ -1,0 +1,580 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.che.1
+: This archive created: Tue Jul  5 01:24:50 1988
+echo shar: extracting u.che.1
+cat << 'SHAR_EOF' > u.che.1
+# u.che.1; changes to: uucpmap@cernvax.uucp
+#       Last change: 880622
+#
+#N      acadch
+#S      SUN 3/260
+#O      Autodesk AG
+#C      Rudolf Kuenzli
+#E      acadh!rudolf
+#T      +4161 35 77 11
+#P      Dornacherstrasse 10, CH-4053 Basel
+#L      47 34 N / 7 37 E
+#R
+#U
+#W      cernvax!dietrich 880226
+#
+acadch  cernvax(HOURLY), acad(DEAD), curano(DIRECT)
+#
+#N      ascom
+#S      SUN 3/50 - Sun OS
+#O      Ascom AG
+#C      Georges Schild
+#E      gs@ascom
+#T      +4165 24 30 29
+#P      Ziegelmattstr. 1-15, CH-4503 Solothurn
+#L      07 31 25 E / 47 12 50 N
+#R
+#U
+#W      cernvax!dietrich 880325
+#
+ascom   cernvax(DEMAND)
+#
+#N      apcigva
+#S      Apollo DN3000 AEGIS
+#O      Apollo Computer SA
+#C      Yves Mathys
+#E      apcigva!mathys_y
+#T      +4122 98 57 88
+#P      108 Avenue Louis Casai, CH-1215 Geneve
+#L      06 06 E / 46 14 N
+#R
+#U
+#W      cernvax!dietrich 880114
+#
+apcigva cernvax(DEMAND)
+
+#N      aquilo
+#S      CONVEX C-1, 4.2BSD
+#O      ZIR, ETH Zuerich
+#C      Mike Allen
+#E      ethz!allen
+#T      +41 1 256 53 45
+#P      ETZ-J81, ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R
+#U      ethz
+#W      cernvax!dietrich 880309
+#
+aquilo  ethz(DEMAND)
+
+#N      aratar
+#S      DEC Vaxstation 2000, Ultrix
+#O      Adasoft AG
+#C      Dr. Charles Clanton
+#E      aratar!chac
+#T      +41 65 42.47.47
+#P      Emmenhofstrasse 4, 4552 Derendingen
+#L      07 34 E / 47 13 N
+#R
+#U
+#W      cernvax!dietrich 871008
+#
+aratar     pan(DEMAND), paninfo(DEMAND), adasof(DEMAND), hslrswi(DEMAND)
+
+#N      badile
+#S      Sequent Balance 2100
+#O      Federal Institute of Technology Zurich (ETHZ), Institute for Integrated Systems
+#C      Peter Beadle
+#E      peter@eiger.uucp
+#T      +41 1 256 52 34
+#P      Gloriastr. 32, ETH Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      cernvax!dietrich 871002
+#
+badile  ethz(DIRECT)
+
+#N      biophys
+#S      Sun 3/260C
+#O      Institut fuer Molekularbiologie und Biophysik
+#C      Ruedi Baumann
+#E      postmaster@biophys.uucp
+#T      +41 1 377 3397
+#P      HPM G6, ETH Honeberg, CH-8093 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      cernvax!dietrich 880229
+#
+biophys ethz(DIRECT)
+#
+#N      cernvax
+#S      VAX-11/780, 4.2BSD
+#O      CERN European Laboratory for Particle Physics
+#C	D. Wiegandt /DD
+#E      dietrich@cernvax
+#T	+41 22 834940
+#P	CH-1211 Geneva 23, Switzerland
+#L      06 06 E / 46 14 N
+#R	
+#U      mcvax unizh hslrswi cgch cui paninfo apcigva
+#W      cernvax!dietrich 851120
+#
+# Backbone connections
+cernvax mcvax(ARPA-1), inria(ARPA), unido(ARPA), enea(ARPA),
+	prlb2(ARPA), ukc(ARPA), tuvie(ARPA), ndosl(ARPA)
+#
+# Swiss connections
+cernvax unizh(DEMAND), cui(DEMAND), ethz(DEMAND), hslrswi(DEMAND),
+	iis(DEMAND), mdtch(DEMAND), pan(DEMAND), paninfo(DEMAND),
+	cgch(DEMAND), apcigva(DEMAND), itrpe(DAILY), gfaich(DEAD),
+	acadch(DAILY), qswiss(DEMAND), ascom(DEMAND)
+#
+# Other connections
+cernvax delphi(DEAD), uclfynu(DEMAND), irst(DEAD)
+#
+# Internal connections
+EAN = {cernvax, mint, priam, uxcoms, vxdel1, vscom1, uxlbi0, vxaluw, vxcrna, vxcrnb, vxdefb, vxdev, vxgift, vxmerl, vxomeg}!(LOCAL)
+EARN = {cernvax, cearn, cernadp, cernvm, cernvme, cernemu1, crvxp173, cruxnhd, cruxnmc, cruxnmcd, cruxnmce, gen}!(LOCAL)
+ETHER = {cernvax, cernapo, lepxs, sun1}!(LOCAL)
+#
+
+#N      cgch
+#S      Sun 3/160; SunOS 3.4 (4.2 BSD UNIX)
+#O      CIBA-GEIGY AG, Scientific Computing Department (WRZ)
+#C      Wolfgang Wetz
+#E      cgch!postmaster, cgch!usenet
+#T      (+41)  61 697 54 25
+#P      R-1045.3.30, Postfach, CH-4002 Basel
+#L      47 34 N / 7 37 E
+#R      local net sites not listed
+#W      cgch!whna (Heinz Naef); Wed Jun 8 09:00:00 CET 1988
+#
+cgch    cernvax(DIALED)
+cgch = cgcha
+
+#N      cui
+#S      VAX-11/780, 4.2BSD
+#O      Centre Universitaire d'Informatique
+#C      Nicolas Mayencourt
+#E      nicolas@cui
+#T      +41 22 876580
+#P      rue du Lac 12, CH-1207 Geneva, Switzerland
+#L      06 06 E / 46 14 N
+#R
+#U
+#W      cernvax!dietrich 860904
+#
+cui     cernvax(DEMAND)
+CUETHER = {cui, cuisun1, cuisun2, cuisun3, cuisun4, cuisun5, cuisun6,
+	 cuisun7, cuisun8, cuisun9, cuisun10, cuisuna}!(LOCAL)
+
+
+#N	eiger
+#S	VAX-11/785, AT&T unix V8 
+#O	Federal Institute of Technology Zurich (ETHZ), ZIR
+#C	Andreas T. Gautschi
+#E	eiger!gautschi
+#T	+41 1 3772934 or +41 1 3773272
+#P	Gloriastr. 35, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W	eiger!gautschi 851219
+#
+eiger   iis(DIRECT)
+
+#N      ethz
+#S      VAX 11/785 with ULTRIX V1.0
+#O      Federal Institute of Technology Zurich (ETHZ), Institut fuer Informatik
+#C      Peter Beadle
+#E      ethz!peter
+#T      +41 1 2565234
+#P      Clausiusstr. 59, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      cernvax!dietrich 851203
+#
+ethz    cernvax(DAILY/3), unizh(DAILY/3), jungfrau(DIRECT),
+	igpho(DIRECT), igpvax(DIRECT), komsys(DIRECT), solaris(DIRECT),
+	owf(DAILY), iis(DIRECT), forty2(DEMAND),
+	biophys(DIRECT), aquilo(DEMAND), iqe(DEMAND), lavi(DIRECT)
+#
+ethz = bernina
+
+
+#N      forty2
+#S      Alliant FX/8, Concentrix(4.2BSD)
+#O      University of Zuerich, Physics Institute
+#C      Simon Poole
+#E      forty2!poole or K538915@CZHRZU1A.BITNET
+#T      +41 1 257 29 32
+#P      CH-8057 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R
+#U      ethz
+#W      cernvax!dietrich 871002
+#
+forty2  ethz(DEMAND)
+
+#N      gfaich
+#S      NCR Tower, System V
+#O      Gruppe fuer Angewandte Informatik AG
+#C      Pierre Guenzburger
+#E      gfaich!pierre
+#T      +41 31 232221
+#P      Mettlenwaldweg 17, CH-3037 Herrenschwanden
+#L      07 25 12 E / 56 58 18 N
+#R      being connected
+#U
+#W      cernvax!dietrich 880613
+#
+gfaich  cernvax(DEAD)
+
+#N      hslrswi
+#S      DEC MicroVAX II / UNIX 4.3BSD
+#O      Hasler AG
+#C      Robert Owen
+#E      hslrswi!owen
+#T      +41 31 633920
+#P      Belpstrasse 23, CH-3000 Berne 14, Switzerland
+#L      07 26 37 E / 46 56 44 N
+#R
+#U
+#W      hslrswi!owen; Wed Jun 22 11:24:35 MET DST 1988
+#
+hslrswi aratar(DEMAND), aut(DEMAND), burke(DEMAND),
+	cernvax(HOURLY), eua4(DEMAND), pan(DEMAND),
+	softlab(DAILY)
+
+#N      igpho
+#S      SUN 3/280
+#O      Institut fuer Geodaesie und Photogrammetrie, ETH Zuerich
+#C      Beat Rueedin, Joel Daehler
+#E      igpho!beat, igpho!joel
+#T      +41 1 377 36 02
+#P      ETH-Hoenggerberg,CH-8093 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+igpho   ethz(DIRECT)
+
+#N      igpvax
+#S      uVaxII
+#O      Institut fuer Geodaesie und Photogrammetrie, ETH Zuerich
+#C      Benoit Studemann
+#E      ethz!igp, ethz!igpvax!benoit
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+igpvax  ethz(DIRECT)
+
+#N      iis
+#S      uVaxII
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Prof. Wolfgang Fichtner
+#E      ethz!eiger!fw
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+iis     cernvax(DEMAND), eiger(DIRECT), ethz(DEMAND), liskamm(DIRECT), pilatus(DIRECT)
+iis = rigi
+
+#N      iqe
+#S      Sun-3/238, SunOS 3.4
+#O      Institut fuer Quantenelektronik, ETH Zuerich
+#C      Joerg Wieland, Mike Allen
+#E      iqe!wieland, ethz!allen
+#T      +41 1 377 2135, +41 1 256 4163
+#P      HPT G6, ETH Hoenggerberg, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!allen 880518
+#
+iqe     ethz(DEMAND)
+
+#N      itrpe
+#S      Perkin Elmer 3230, XELOS 1.4 (SYSV.2)
+#O      Interkantonales Technikum Rapperswil ITR
+#C      Joseph Gaehwiler
+#E      itrpe!jgaehwil
+#T      +4155 219141
+#P      Oberseestrasse 10, CH-8640 Rapperswil, Switzerland
+#L      08 81 E / 47 23 N
+#U
+#W      itrpe!gaehwil 8880317
+#
+itrpe   cernvax(DAILY/8)
+
+igpvax  ethz(DIRECT)
+#N	jungfrau
+#S	VAX-11/785, ULTRIX V1.1
+#O	Federal Institute of Technology Zurich (ETHZ), ZIR
+#C	Andreas T. Gautschi
+#E	eiger!gautschi
+#T	+41 1 3772934 or +41 1 3773272
+#P	Gloriastr. 35, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W	eiger!gautschi 851219
+#
+jungfrau        ethz(DIRECT), matterhorn(DIRECT), pilatus(DIRECT), iis(DIRECT)
+
+
+#N      komsys
+#S
+#O      Institut fuer Informatik, ETH Zuerich
+#C      Prof. B. Plattner
+#E      ethz!plattner
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860528
+#
+komsys  ethz(DIRECT)
+
+#N      lavi
+#S      SunIII
+#O      Institut fuer Informatik, ETH Zuerich
+#C      Mitch Wyle
+#E      wyle@ethz.uucp
+#T      +41 1 256 5237
+#P      ETH-Zentrum/SOT, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!solaris!wyle 870519
+#
+lavi    ethz(DIRECT)
+
+#N      liskamm
+#S      Alliant FX/8, Concentrix(4.2BSD)
+#O      Federal Institute of Technology Zurich (ETHZ), Institute for Integrated Systems
+#C      Peter Beadle
+#E      peter@eiger.uucp
+#T      +41 1 256 52 34
+#P      Gloriastr. 32, ETH Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      cernvax!dietrich 871002
+#
+liskamm ethz(DEMAND), eiger(DEMAND), iis(DIRECT), pilatus(DEMAND), jungfrau(DEMAND)
+
+#N      matterhorn
+#S      Bull SPS9
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Lucas Heusler
+#E      ethz!jungfrau!heusler
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+matterhorn      jungfrau(DIRECT)
+
+#N      mdtch
+#S	Plexus Sys. 5.2
+#O      Modulator SA
+#C      P. Deruaz
+#E      mdtch!deruaz
+#T      +41 31 260313, +41 31 592222
+#P      Koenizstrasse 194, CH-3097 Liebefeld-Bern, Switzerland
+#L      07 26 E / 46 56 N
+#U	
+#R	
+#W      cernvax!dietrich 860124
+#
+mdtch  unizh(DEMAND), hslrswi(DEMAND), cernvax(DAILY), mebazf, olcha,
+       sunuk(WEEKLY), plexuk(WEEKLY)
+
+#N	mebazf
+#S	DEC VAX750 / UNIX 4.2BSD
+#O	Mettler Instrumente AG, Central Research
+#C      Herbert Kay
+#E      mebazf!bert
+#T	+41 1 9412241
+#P	Im Langacher, CH-8304 Greifensee, Switzerland
+#L      08 11 20 E / 47 07 10 E
+#R
+#U
+#W      cernvax!dietrich 850224
+#
+mebazf  unizh, mdtch, itrpe, tkswiss
+
+#N      olsen
+#S      Sun 3 Server, Model 180S-4, Sun Unix (4.2 BSD) Version 3.0
+#O      Olsen & Associates Research Institute For Applied Economics
+#C      William Kelley
+#E      olsen!bllklly
+#T      +41 1 55 22 24
+#P      Seefeld Str 233, CH-8008 Zuerich, Switzerland
+#L      08 35 E / 47 23 N
+#U      none, currently
+#R      olsen is the entry node for a multi-machine domain; we use sendmail.
+#W      cernvax!dietrich 861027
+#       We call unizh every hour, we have no dial-up lines, dial-out only.
+olsen	unizh(HOURLY)
+
+#N	owf
+#S	SUN 2/120; SUN UNIX 2.0
+#O	Oce Wissenschaftliches Forschungsinstitut AG
+#C	Beat Frey
+#E	owf!postmaster,owf!bf
+#T	+41 1 55 00 24
+#P	Asylstrasse 125, 8032 Zurich, Switzerland
+#L	47 22 46 N / 8 33 04 E
+#
+owf	ethz(DAILY)
+
+#N	pan
+#S	IBM RT/PC (6150/125), AIX 2.1.2
+#O	Adasoft AG, Emmenhofstrasse 4, 4552 Derendingen, Switzerland
+#C	James A. Watson
+#E	pan!jw
+#T	+41 65 41.47.47 / +41 31 54.35.70
+#P	Nesslerenweg 104, 3084 Wabern, Switzerland
+#L      07 26 E / 46 56 N
+#R
+#W      cernvax!dietrich 880406
+#U
+pan     adasof(POLLED), aratar(DEMAND), cernvax(DEMAND), sunuk(DEMAND), unigs(DEMAND)
+
+#N      paninfo
+#S      Opus 32.32-2, Unix System V.2.2
+#O      Paninfo AG
+#C      Christian Knoepfel
+#E      paninfo!kno
+#T      +41 1 8252544
+#P      Ringstrasse 7, CH-8603 Schwerzenbach
+#L
+#R
+#U
+#W      cernvax!dietrich 860904
+#
+paninfo pan(DEMAND), cernvax(DEMAND), cgch(DEMAND), hslrswi(DEMAND),
+paninfo=pi0
+paninfo=pi1
+paninfo=pi2
+paninfo=pi4
+#
+
+#N      pilatus
+#S      uVaxII
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Prof. Wolfgang Fichtner
+#E      ethz!eiger!fw
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+pilatus iis(DIRECT)
+
+#N      qswiss
+#S      AT&T 3B2/400; UNIX V.2
+#O      Quadratron AG
+#C      Michael Hirsch
+#E      qswiss!mike
+#T      +41 71 208550
+#P      Rathaus, CH-9000 St. Gallen, Switzerland
+#L      09 23 E / 47 26 N
+#R
+#U
+#W      cernvax!dietrich 880307
+#
+qswiss  cernvax
+
+#N      solaris
+#S      SunIII
+#O      Institut fuer Informatik, ETH Zuerich
+#C      Mitch Wyle
+#E      wyle@ethz.uucp
+#T      +41 1 256 5237
+#P      ETH-Zentrum/SOT, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!solaris!wyle 870519
+#
+solaris ethz(DIRECT)
+
+#N	tkswiss
+#S	IBM PC/AT, VENIX 286 (System V.2)
+#O	TELEKURS AG, Abteilung EDED
+#C      Adrian Eberle
+#E      tkswiss!adi
+#T	+41 1 275 27 74 (Zentrale: 275 21 11)
+#P	TELEKURS AG, A.Eberle (EDED),Neue Hard 11, 8005 Zuerich
+#L      08 33 04 E / 47 22 40 N
+#R	SVR2 und 4.2BSD Sourcelizenz auf VAX750 (nicht am Usenet angeschlossen)
+#U
+#W      cernvax!dietrich 861006
+#
+tkswiss mebazf(DAILY)
+
+#N      ubszh
+#S      Sun  3/50 / UNIX BSD4.2 V3.2
+#O      Union Bank of Switzerland
+#C      Philipp Wieland
+#E      ubszh!wad
+#T      +4101 236 48 84
+#P      UBS OABE/OASY, P.O.Box, CH-8021 Zurich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R      cernvax!dietrich 870708
+#U
+#W      Philipp Wieland
+#
+ubszh   unigs 
+
+#N      unigs
+#S      DEC Professional 350/Pro-VENIX
+#O      UNIX Interessengemeinschaft Schweiz
+#C      Jean-Pierre Kousz
+#E      jpk@mebazf jpk@unigs
+#T      +41 1 9412241
+#P      Mettler Instrumente AG, CH-8606 Greifensee, Switzerland
+#L      08 11 20 E / 47 07 10 E
+#R
+#U
+#W      cernvax!dietrich 850123
+#
+unigs   unizh(DAILY), pan(DAILY)
+
+#N      unizh
+#S      Onyx C8000 with IS/1
+#O      University of Zuerich, Institut fuer Informatik
+#C      R. Stadler, R. Adamov, E. Meier
+#E      unizh!netadm
+#T      +41 1 2574311
+#P      Winterthurer Str.190, CH-8057 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R      unizh is entry node for the multi-machine domain unizh; we use sendmail.
+#U      cernvax
+#W      cernvax!dietrich 850123
+#
+unizh   cernvax(DAILY/6), ethz(DAILY/3), mebazf(DAILY/3), mdtch2(DAILY/3),
+	olsen(DAILY), zedv(DAILY/3), unigs(DEMAND)
+
+
+#N      zedv
+#S      Plexus
+#O      Zentralstelle fuer EDV, Zuerich
+#C
+#E
+#T
+#P
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      cernvax!dietrich 850204
+#
+zedv    unizh
+
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,87 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.aus.1
+: This archive created: Sat Aug 22 03:06:25 1992
+echo shar: extracting u.aus.1
+cat << 'SHAR_EOF' > u.aus.1
+file {u.aus.1} # Wed Aug 19 11:27:01 +1000 1992
+
+# updates to <Christopher.Vance@adfa.oz.au>, <cjsv@adfa.oz.au> or <ccadfa!cjsv>
+#
+# Australia - top-level network connectivity
+
+# The entries in all map files for Australia are grouped by
+# third-level domain (if any) and ordered alphabetically thereon, with
+# other level domains considered irrelevant, so
+#	cec.edu.au < carbon.chem.csiro.au < cocam.oz.au
+#	^                   ^               ^
+# would be the relevant order if these entries occurred in the same
+# map file.
+#
+# If several domains logically belong together they are grouped
+# together.  This is especially true where the preferred domain has
+# changed.  Many subdomains of csiro.au were previously in oz.au, as
+# were many universities now in edu.au.
+#
+# Similarly, a number of names of hosts directly in oz.au are historical
+# artifacts of ancient ACSnet software.  Such hosts are sometimes listed
+# with their short aliases, rather than their longer canonical names,
+# although this is changing.  Regardless, they are still grouped with the
+# related domains or hosts.
+#
+# Where there are a number of entries related to each other within a domain,
+# the entries may be bracketed by lines `# /' above and `# \' below.
+#
+# `Private networks', in the pathalias(8) sense, are used for
+# maintaining routing information.  All these have names beginning with
+# `aarnet-', `acsnet-', or `australia-'.  The distinction is that
+# members of `aarnet-' networks are known to be IP-connected,
+# `acsnet-' networks are reachable via ACSnet/MHSnet routing and include
+# non-AARNet members of .oz.au, while members of `australia-' networks
+# are presumed reachable by some other means, possibly including uucp.
+#
+# I attempt to keep the information in these maps consistent with
+#	the Internet DNS (Domain Name Service)
+#	routing tables for MHSnet (SunIV?) as seen at sserve.cc.adfa.oz.au
+#	routing tables for ACSnet (SunIII) as seen at munnari.oz.au
+
+#N	aarnet-all, acsnet-all, australia-all, .oz, .au
+#O	map coordinator, Australian UUCP maps
+#C	Christopher Vance
+#E	Christopher.Vance@adfa.oz.au; cjsv@adfa.oz.au; ccadfa!cjsv
+#T	+61 6 268 8051
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Aug 19 11:26:19 +1000 1992
+#
+private	{ aarnet-all, acsnet-all, australia-all }
+#
+aarnet-all = {
+	clix.aarnet.edu.au, hermes.ucs.adelaide.edu.au, aarnet-adfa,
+	mariner.amc.edu.au, aarnet-anu,
+	cujo.curtin.edu.au, jabaru.cec.edu.au,
+	natmlab.dap.csiro.au, aarnet-dit, aarnet-dms, aarnet-dmt,
+	fang.dsto.oz.au, spider.ento.csiro.au, aarnet-gu,
+	ipso.ips.oz.au, aarnet-latrobe,
+	aarnet-monash, sunb.ocs.mq.edu.au, aarnet-mu, munnari.oz.au,
+	aarnet-pyramid, aarnet-rmit,
+	arnie.systems.sa.gov.au, sri.org.au, aarnet-su,
+	aarnet-trl,
+	sheoak.ucnv.edu.au, grivel.une.oz.au, levels.unisa.edu.au,
+	aarnet-unsw, aarnet-uq, aarnet-utas, aarnet-uts,
+	aarnet-uwa }(DEDICATED/2)
+#
+acsnet-all = {
+	acsnet-acus, hakea.adept.oz.au,
+	bain3.bain.oz.au, cerberus.bhpese.oz.au,
+	citec.oz.au, acsnet-cx,
+	dgaust.dg.oz.au, dialix.oz.au,
+	tmx.mhs.oz.au, qdpii.qdpi.oz.au, runx.oz.au, smhea.sma.oz.au,
+	.oz }
+#
+australia-all = { aarnet-all, acsnet-all, .au }
+
+# u.aus.1 - end
+SHAR_EOF
+:	End of shell archive
+exit 0
+

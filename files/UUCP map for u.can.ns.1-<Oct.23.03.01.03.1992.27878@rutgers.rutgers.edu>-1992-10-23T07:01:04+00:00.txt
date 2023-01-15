@@ -1,0 +1,292 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.ns.1
+: This archive created: Fri Oct 23 03:00:59 1992
+echo shar: extracting u.can.ns.1
+cat << 'SHAR_EOF' > u.can.ns.1
+file {u.can.ns.1}
+#	u.can.ns.1 : last updated Tue Oct 20 01:13:55 1992
+#
+#	Corrections to the contents of this file should be sent to any one of:
+#		path@cs.toronto.edu, path@cs.utoronto.ca, utai!path
+#	Please edit the map entry suitably and remember to update the #W line.
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.ca) or want related information, please contact:
+#
+#		registry@cs.toronto.edu, registry@cs.utoronto.ca, utai!registry
+#	
+#	For information about registering under any of .edu, .com, .gov etc,
+#	please contact domain-request@uunet.uu.net or uunet!domain-request.
+#
+
+#N	agc
+#S	386 Dell 310; Unix V3.2
+#O	Atlantic Geoscience Centre
+#C	Bob Courtney
+#E	agc!courtney, agc!root, agc!postmaster
+#T	+1 902 426 5062
+#P	Box 1006, Dartmouth Nova Scotia
+#L	44 38 54 N / 63 34 30 W city
+#R	Willing to connect to other Telebit sites
+#U	dalcs
+#W	agc!courtney (Bob Courtney); Wed Jan 24 14:38:23 ADT 1989
+#
+agc	dalcs(HOURLY)
+
+#N	aucs
+#S	Sun 4/280; Sun-OS 4.0.3
+#O	Acadia University School of Computer Science
+#C	Bill Wilder
+#E	aucs!wdw
+#T	+1 902 542 2201 x213
+#P	Wolfville, Nova Scotia, CANADA B0P 1X0
+#L
+#R
+#U	dalcs
+#W	aucs!wdw (Bill Wilder); Tue Nov 14 10:33:35 AST 1989
+#
+aucs	dalcs(HOURLY)
+
+#N	biome
+#S	SGI Personal Iris 4D/25; Irix 3.3.2
+#O	Habitat Ecology Division, Bedford Inst. of Oceanography
+#C	Bill Silvert
+#E	utai!dalcs!biome!sysop
+#T	+1 902 426 1577
+#P	Dartmouth, NS Canada B2Y 4A2
+#L	44 40 N / 63 35 W city
+#R	Primarily for ecological modelling.
+#U	dalcs
+#W	biome!sysop (Bill Silvert); Sat Aug 31 21:01:52 ADT 1991
+#
+biomel	dalcs(DIRECT)
+
+#N	biomel
+#S	WICAT S160; Uniplus V 2.0
+#O	Habitat Ecology Division, Bedford Inst. of Oceanography
+#C	Bill Silvert
+#E	utai!dalcs!biome!biomel!root
+#T	+1 902 426 1577
+#P	Dartmouth, NS Canada B2Y 4A2
+#L	44 40 N / 63 35 W city
+#R	Due to be retired soon and replaced by biome.
+#U	dalcs
+#W	biomel!root (Bill Silvert); Sat Aug 31 21:01:52 ADT 1991
+#
+biome	dalcs(DIRECT)
+
+#N	blueberry, blueberry.guild.org
+#S	386 Clone; Waffle 1.64
+#O	Roy I. Logan, Q.C.
+#C	Roy I. Logan (admin), Scott I. Logan (technical)
+#E	blueberry!roy, torag!logan
+#T	+1 902 447 3144
+#P	P.O. Box 139, Oxford, Nova Scotia, Canada B0M 1P0
+#L	45 44 02 N / 63 52 15 W
+#R	Private Leaf Node for Mail
+#U	torag
+#W	torag!logan (Scott I. Logan); Sat Apr 20 21:16:17 EDT 1991
+#
+#	Technical contact number: +1 416 696 2327
+#
+#	Located in Oxford, N.S., Blueberry Capitol of the World.
+#	This is a long haul connection to Toronto, because it's cheaper
+#	than paying for a UUCP connection in Nova Scotia... so far.
+#
+blueberry =	blueberry.guild.org
+blueberry	torag(WEEKLY)
+
+#N	dalcs
+#S	SUN 4/490; SUNOS 4.1
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	David Trueman, Trent MacDougall
+#E	dalcs!david, dalcs!trent
+#T	+1 902 494 6501, +1 902 494 2572
+#P	Chase Bldg, Dalhousie University, Halifax, Nova Scotia, Canada B3H 3J5
+#L	44 38 54 N / 63 34 30 W city
+#R	We feed from nstn.ns.ca
+#U	banke1 iisat nstn.ns.ca
+#W	dalcs!david (David Trueman); Thu Aug  1 14:38:52 ADT 1991
+#
+#	We feed to banke1, iisat, nstn.ns.ca
+#
+dalcs	.dal.ca
+dalcs	= cs.dal.ca
+
+dalcs	banke1(DIRECT), biome(DIRECT), biomel(DEAD),
+	dalcsug(LOCAL), iisat(DIRECT), tmpor(DIRECT)
+
+#N	dalcsug
+#S	SUN SPARCserver 2; SUNOS 4.1.1
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	Bruce Hudson
+#E	dalcsug!hudson, dalcsug!usenet
+#T	+1 902 424 3472
+#P	Killam Library, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	44 38 54 N / 63 34 30 W city
+#R
+#W	dalcs!trent (Trent MacDougall); Fri Jul 26 08:17:54 ADT 1991
+#
+dalcsug = ug.cs.dal.ca
+
+dalcsug	dalcs(LOCAL)
+
+#N	duncan
+#S	386 clone; COHERENT 3.2.03k
+#O	Duncan Computer Centre and Home Brewery
+#C	David Murdoch
+#E	duncan!david, duncan!root, duncan!postmaster, duncan!djm
+#T	+1 902 422 2110
+#P	6162 Duncan Street, Halifax, Nova Scotia, Canada, B3L 1K2
+#L	44 38 57 N / 63 35 45 W city
+#R	Feed is from both iisat and banke1
+#U	iisat
+#W	duncan!root (David John Murdoch); Sat May 2 10:07:19 GMT 1992
+#
+duncan 	iisat(DIRECT), banke1(DIRECT), 
+	mwcbbs(DEAD),trystro(DEAD)
+
+
+
+#N	iisat
+#S	Samsung S800; SCO Xenix/386 2.3.3
+#O	Public Access UNIX
+#C	Kevin Davies
+#E	iisat!kevin, iisat!postmaster, iisat!root
+#T	+1 902 466 5764
+#P	75 Boland Road, Dartmouth, Nova Scotia, Canada B3A 3G8
+#L	44 38 54 N / 63 34 30 W city
+#R
+#U	dalcs
+#W	iisat!kevin (Kevin Davies); Fri Jul 17 18:54:12 ADT 1992
+#
+# SuperPEP/PEP/V.32bis/V.32 connections indicated by FAST
+
+iisat = iisat.alt.ns.ca
+
+iisat	dalcs(DEMAND+FAST), mkseast(DEMAND+FAST),
+	tmpor(DEMAND+FAST),
+	duncan(POLLED), lining(POLLED), ve1ei(POLLED),
+	torag(WEEKLY/2+FAST), ulowell(WEEKLY+FAST)
+
+#N	iotek, iotek.ns.ca
+#F	uunet.ca
+#S	SUN 4/40 IPC; SUNOS 4.1.1
+#O	Iotek Inc.
+#C	Michael Thompson, Howard Hart, Rick Grace
+#E	uucp-tech@iotek.uucp, uucp-emergency@iotek.uucp
+#T	+1 902 420 1890
+#P	1127 Barrington St. Halifax, NS, B3H 2P8
+#L	44 38 N / 63 34 W city
+#R
+#U	uunet.ca
+#W	postmaster@uunet.ca (The Postmaster); Mon Feb 10 16:52:10 EST 1992
+#
+iotek = iotek.ns.ca
+iotek	iotek.ns.ca(LOCAL), .iotek.ns.ca(LOCAL)
+iotek	uunet.ca(EVENING)
+
+
+#N	lining
+#S	NCR Tower 32/600; Unix System V
+#O	Silver Lining
+#C	Gary Langthorne
+#E	lining!gary, lining!root
+#T	+1 902 860 3164
+#P	P.O. Box 31086, 3045 Robie St, Halifax, N.S., Canada B3K 5T9
+#L	44 52 N / 63 36 W city
+#R
+#U	iisat
+#W	iisat!kevin (Kevin Davies); Sat Feb 15 11:11:04 AST 1992
+#
+
+lining	iisat(POLLED)
+
+#N	mkseast
+#S	DAK 386/25; SCO XENIX 2.3.4
+#O	Mortice Kern Systems, Atlantic Canada Branch
+#C	Dale Gass
+#E	mkseast!dale, mkseast!postmaster, mkseast!root
+#T	+1 902 475 1620
+#P	P.O. Box 19, Site 21, R.R. #6, Armdale, Nova Scotia, B3L-4P4
+#L	44 29 00 N / 66 37 30 W
+#R	Private system, for non-commercial use only
+#U	iisat
+#W	mkseast!dale (Dale Gass); Thu Aug 06 12:51:44 ADT 1992
+#
+#	For MKS business related mail, please use east.mks.com
+#	For personal mail, use mkseast.uucp
+#
+#	The mks(DEAD) is really a nightly call for business related mail
+#
+mkseast = mkseast.alt.ns.ca
+
+mkseast	iisat(DIRECT+FAST), mks(DEAD)
+
+#N	swamp, swamp.ctdl.bbs.org
+#S	Amiga 1000; AmigaDOS 1.3
+#O	The Moose's Swamp BBS
+#C	Michael Dinn
+#E	swamp!root, swamp!moose, swamp!dinn
+#T	+1 902 463 0483
+#P	40 Overdale Lane, Dartmouth, N.S., Canada. B3A 3V3
+#L	44 38 54 N / 63 34 30 W city
+#R	We feed from banke1
+#U	banke1
+#W	dalcsug!dinn (Michael 'Moose' Dinn); Sun Dec  8 10:51:18 AST 1991
+#
+swamp =		swamp.ctdl.bbs.org
+swamp 		banke1(DIRECT)
+
+#N	tmpor
+#S	AT&T 3b1; Unix System V 3.51
+#O
+#C	Trent MacDougall
+#E	tmpor!trent, tmpor!postmaster, tmpor!root
+#T	+1 902 860 0357
+#P	6 Mill Lane, Grand Lake, Nova Scotia, Canada B0N 1N0
+#L	44 52 N / 63 36 W city
+#R
+#U
+#W	tmpor!trent (Trent MacDougall); Sat Mar  9 22:27:24 AST 1991
+#
+#
+tmpor	dalcs(DEMAND+FAST), iisat(DEMAND+FAST)
+
+#N	tunscs
+#S	DEC VaxStation II/GPX; Ultrix-32 2.2
+#O	School of Computer Science, Technical University of Nova Scotia
+#C	Allan Jost
+#E	tunscs!jost
+#T	+1 902 420 7777
+#P	PO Box 1000, Halifax, Nova Scotia, Canada B3J 2X4
+#L	44 39 N / 63 36 W city
+#R	No news.
+#U
+#W	tunscs!jost (Allan Jost); Tue Nov 14 10:50:16 AST 1989
+#
+#	Supports VLSI research, particularly CAD.
+#
+tunscs	dalcs(DEMAND), garfield(DAILY)
+
+#N	ve1ei
+#S	Jemini PC-XT/Quad386XT; Waffle 1.63
+#O	VE1EI Amateur radio station and BBS
+#C	Dave Oldridge
+#E	ve1ei!dave, ve1ei!system, ve1ei!root
+#T	+1 902 868 2993
+#P	Box 16 Site 11 RR5, Armdale, Halifax, Co. NS, Canada B3L 4J5
+#L	44 24 00 N / 63 36 00 W
+#R	Telebit only available on request
+#U	iisat
+#W	ve1ei!dave (Dave Oldridge); Sun Jun  9 11:45:18 ADT 1991
+#
+# No Telebit+ connections except on prior request.
+ve1ei   iisat(DIRECT)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

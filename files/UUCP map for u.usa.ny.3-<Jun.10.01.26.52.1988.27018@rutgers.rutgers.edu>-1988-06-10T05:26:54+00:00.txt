@@ -1,0 +1,915 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ny.3
+: This archive created: Fri Jun 10 01:26:43 1988
+echo shar: extracting u.usa.ny.3
+cat << 'SHAR_EOF' > u.usa.ny.3
+#MAP FILE: u.usa.ny.3   Tue May 31 08:49:57 EDT 1988   rob@philabs.philips.com
+#
+#
+
+#N	pcid
+#S	AT&T 3b1, 4MB/80MB, Unix-PC version 3.51
+#O	Eastman Kodak Company
+#C	James M. Hilliard
+#E	pcid!mark
+#T	1-716-588-2077
+#P	2400 Mount Read BLVD. BLD 205 3rd fl. Rochester, Ny. 14650
+#L	43 04 N / 77 39 W
+#R	Commercial multi-user system used for development
+#R 
+#U	gizzmo ureka goober kodak ethos
+#W	pcid!mark (Mark Hilliard); Mon Apr 18 14:21:10 EST 1988
+#
+pcid	kodak(DEDICATED), ethos(DEMAND), gizzmo(DIRECT),
+	ureka(DIRECT), goober(DEAD), shop(DEMAND)
+
+#N	pencom
+#S	Fortune 32:16 XP; FOR:PRO 1.8
+#O	Pencom Systems, Inc.
+#C	Ellick Quach
+#E	pencom!ellick
+#T	+1 212 513 7777
+#P	150 Broadway, New York, NY 10038
+#L	74 00 W / 40 40 N
+#R	Technical Search & Recruiting Firm
+#U	bc-cis
+#W	pencom!ellick(Ellick Quach); Tue Jul 14 13:34:42 EDT 1987
+#
+#	removed cubsvax, rob@philabs.philips.com ; Thu Apr 28 14:52:17 EDT 1988
+#
+pencom	philabs(EVENING),  bc-cis(DIRECT)
+
+#N	philon
+#S	AT&T 3B2/300 ; UNIX System V, Release 2 
+#O	Philon, Inc.
+#C	Dave Brand
+#E	philon!postmaster
+#T	1 212 807 0303
+#P	641 Avenue of the Americas, New York, NY  10011
+#L	40 44 30 / 73 59 56
+#R	Philon is dedicated to doing nothing but mail
+#U	None (any volunteers?)
+#W	philon!postmaster (Dave Brand) ; Thu Jul  9 12:25:59 EDT 1987
+#
+#	We are phasing out the name "orville" in favor of "philon" which
+#	is both more informative and more professional-sounding.
+#	The names "orville" and "dvm" will continue to be recognized in
+#	the meantime.
+#	Note that in the interim, "phri" will interpret all three names
+#	(ie dvm, orville, and philon) as equivalent.
+#
+philon	= orville
+#
+philon	phri(DIRECT), cooper(DAILY), dvm(DEDICATED)
+
+#N	phri
+#S	DEC Vax-11/750; MtXinu 4.3bsd/NFS Unix
+#O	Public Health Research Institute
+#C	Roy Smith
+#E	phri!postmaster
+#T	+1 212 578 0822
+#P	455 First Avenue, New York, New York, 10016
+#L	73 58 40 W / 40 44 21 N
+#U	cmcl2 dolphy cooper bc-cis delftcc manhat
+#W	phri!roy (Roy Smith); Sat Mar 19 18:41:28 EST 1988
+#
+# PHRI (pronounced "P-H-R-I", not "free" or "fry") is the uucp gateway to our
+# ethernet; send mail to phri!person and we'll route it internally.  We regret
+# that (baring exceptional circumstances) we are no longer able to provide
+# additional uucp links.  We usually make exceptions for educational sites.
+#
+# phri = phrivax
+# phri-ether = @{phrivax, wombat, goober, clone, molecule, adenine, cytosine,
+# guanine, thymine, uracil, inosine, alanine, arginine, asparagine, cysteine,
+# glutamine, histidine, glycine}(LOCAL)
+#
+phri	acheron(EVENING), aecom(DIRECT), allegra(DEMAND), andante(DEMAND),
+	andromeda(DEMAND+LOW), bc-cis(DIRECT), bse(DIRECT), ccnysci(DIRECT),
+	citibank(DEAD), cjmmjr(DAILY), cmcl2(DIRECT), columbia(DEMAND+LOW),
+	cooper(DAILY/4), crsoft(DAILY/4), cubsun(DIRECT), cucard(DIRECT),
+	cuctr(DIRECT), dasys1(DIRECT), delftcc(EVENING), dolphy(DIRECT),
+	french(DIRECT), gor(DIRECT), hcgeo(DIRECT), hombre(EVENING),
+	mabsys(EVENING), mancol(DIRECT), manhat(DIRECT), montz-sv(DAILY),
+	mstan(DIRECT), nucmed1(DIRECT), philabs(DEMAND), philon(DEAD),
+	pluto(DIRECT), princeton(DEMAND), rna(DIRECT), rutgers(DEMAND),
+	sun(DEMAND+LOW), tmmnet(DEAD), trotter(DEMAND), uccba(DAILY),
+	wjelny(DIRECT)
+
+#N	pjbell
+#S	AT&T PC; UNIX
+#O	
+#C	Paul J. Bell
+#E	pjbell!pjb
+#T	+1 212 247 1011
+#P	30 West 63rd St., New York, NY 10023
+#L	40 45 N / 73 45 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu,  7 Jan 88	17:18:46 EST
+#U	uunet
+#
+pjbell	uunet(DEMAND)
+
+#N	pluto
+#S	Pyramid 90x; OSx 2.3.1
+#O	Industrial Automation Systems
+#C	Warren Burstein
+#E	pluto!postmaster
+#T	+1 212 662 0888
+#P	2875 Broadway, New York, NY 10025
+#L	72 00 W / 40 42 N
+#R
+#U
+#W	pluto!warren; Fri Feb 27 01:25:10 EST 1987
+#
+pluto	pyrnj(DAILY), phri(DAILY), mabsys(WEEKLY)
+
+#N	polycatt
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Polytechnic University of NY
+#C	Avi Moschowits
+#E	polycatt!avi
+#T	+1 718 260 3378
+#P	333 Jay Street,CATT DEP., Brooklyn, NY 11201
+#L
+#R	It's the Center of Advance Technology in Telecom. (CATT)
+#U	polyof
+#W	polycatt!avi (Avi Moschowits); Fri Apr 15 11:50:00 EDT 1988
+#
+polycatt	.poly.edu
+polycatt	charm, cmcl2, cumc, philabs, polyof
+
+#N	proexam
+#S	DEC VAX-11/751; 4.3 BSD UNIX
+#O	Professional Examination Service
+#C	Glen L. Brydon
+#E	proexam!usenet
+#T	+1 212 870 2262
+#P	475 Riverside Drive, New York, NY 10015
+#L	40 48 N / 73 59 W
+#R	
+#U	cucard
+#W	proexam!eric (Eric G. Fifer); Tue Jan 20 19:43:52 EST 1987
+#
+proexam cucard(DAILY)
+
+#N	puppy
+#S	VME-bus development system; UniPlus+ UNIX System V
+#O	Recognition Research Corp.
+#C	Larry Lippman
+#E	puppy!larry
+#T	+1 716 688 1231, +1 716 741 3900
+#P	5655 Newhouse Road, East Amherst, NY 14051
+#L	78 40 W / 43 00 N
+#R	Development of industrial process control applications
+#U	kitty
+#W	puppy!larry (Larry Lippman); Sat Nov 14 11:00:18 EST 1987
+#
+puppy	kitty(DEDICATED)
+
+#N	pwcmrd
+#S	Sun 3/260; 4.2 BSD UNIX
+#O	PaineWebber Capital Markets Research and Development
+#C	Skip Gilbrech
+#E	pwcmrd!postmaster
+#T	+1 212 713 3659
+#P	1285 Avenue of the Americas, New York, NY 10019
+#L	40 46 N / 73 59 W
+#R
+#U	skipnyc
+#W	pwcmrd!skip (Skip Gilbrech); Tue Oct 27 00:26:47 EST 1987
+#
+pwcmrd	uunet(DEMAND), skipnyc(DIRECT)
+
+#N	qtny
+#S	DEC VAX 11/750
+#O	Quantime Systems, Inc.
+#C	Phil Bennis
+#E	qtny!phil
+#T	+1 212 420 0954
+#P	24 East 23rd Street, New York, New York USA 10010
+#L
+#R
+#U
+#W	rick@uunet.uu.net (Rick Adams); Thu May 26 23:12:38 EDT 1988
+#
+qtny	uunet(DAILY/4)
+
+#N	quincy
+#S	AT&T 3B2/310, System V, Rel. 3.1
+#O	American LP Systems, Inc.
+#C	Leonard B. Tropiano,   Dennis W. Koncelik
+#E	quincy!lenny,	       quincy!dennis,		quincy!postmaster
+#T	+1 (516) 582-5525
+#P	1777-18 Veterans Memorial Hwy, Islandia, NY 11722
+#L	40 degrees, 49' N / 73 degrees, 11' W
+#R	AT&T VAR - Development System for "The Centurion Fuel-Oil/LP Gas System"
+#R	Contact:   Lenny Tropiano for UUCP/Mail/News links.
+#U	icus 
+#W	quincy!lenny (Leonard B. Tropiano) ; Thu Apr 21 16:21:53 EDT 1988
+#
+quincy	bogie(DEDICATED),  sweetp(DEDICATED),  icus(DEMAND),	  
+	mtune(POLLED),	   limbic(DEMAND),     godfre(WEEKLY*2),
+	alps(DEAD)
+#
+# System calls us too.
+#
+mtune	quincy(DEMAND)
+
+#N	rama
+#S	Accell SCX-20; Uniplus+ System V.2
+#O	Harris Scientific Calculations Inc., Engineering Center.
+#C	William R. Lear
+#E	rama!bill
+#T	+1 716 924 9303
+#P	7796 Victor-Mendon Road, P.O Box H, Fishers, New York, 14453
+#L	77 24 48 W / 42 57 30 N
+#R	The SCICARDS People
+#U	hcx1 tropix ritcsh
+#W	rama!bill (William R. Lear); Thu Jan 21 10:47:34 EST 1988
+#
+rama	.sc.harris.com
+rama	sc.harris.com
+rama=	sc.harris.com
+rama	tropix(DIRECT), entire(HOURLY), ritcsh(DAILY), rochester(DAILY),
+	hcx1(WEEKLY), pyramid(DEAD)
+
+#N	raspi
+#S	AT&T 3B5; 2.0 System V UNIX
+#O	Systems Strategies, Inc.
+#C	Edward Ravin
+#E	raspi!postmaster
+#T	+1 212 279 8400
+#P	225 West 34th Street, Suite 500, New York, NY, 10001
+#L	40 45 00 N / 73 59 33 W
+#R
+#U
+#W	raspi!edward (Edward Ravin); Fri May 29 12:49:35 EDT 1987
+#
+raspi	attunix(DEMAND)
+
+#N	reason
+#F	cmcl2.nyu.edu
+#S	AT&T 3B2/400; UNIX System V Release 3.0
+#O	Technetics Corporation
+#C	Lee C. Chen
+#E	reason!lee
+#T	+1 212 549 8078
+#P	5800 Arlington Avenue, Riverdale, NY 10471
+#L	40 55 30 N / 73 54 15 W
+#R	TC-Net/Ether connections to ozark, hazard, and tcunix
+#R	removed ankh(LOCAL) due to conflict in florida -rob@philabs
+#U	hazard ozark tcunix netsys ankh
+#W	reason!lee (Lee Chen); Mon Jan 11 02:24:26 EST 1988
+#
+#	The link from our world to yours...  technetix.
+#
+reason	.tcnet.com
+reason = reason.tcnet.com
+reason	hazard(LOCAL), ozark(LOCAL), tcunix(LOCAL),
+	stygia(LOCAL), bizarre(LOCAL),
+	rna(DIRECT), pyrnj(EVENING), netsys(EVENING),
+	cmcl2(DIRECT), pyramid(EVENING), philabs(DEMAND),
+	princeton(EVENING)
+
+#N	ritcsh
+#S	DEC VAX-11/750 ; 4.3 BSD UNIX
+#O	Computer Science House @ Rochester Institute of Technology
+#C	Geordie Klueber
+#E	ritcsh!news
+#T	+1 716 475 3305
+#P	RIT, CPU 861, 25 Andrews Memorial Drive, Rochester, NY, 14623
+#L	43 10 N / 77 36 W city
+#R	Student Organization in the Residence Halls -- Timeshare
+#R	Currently porting CMU's MACH to a Fairchild Clipper-based system.
+#U	challenger jake elwood rocksvax ritcv rama laser pyramid
+#W	ritcsh!geordie (Geordie Klueber) ; Mon Nov 16 09:19:04 EST 1987
+#
+ritcsh	ritcv(LOCAL), elwood(LOCAL), rama(DIRECT),
+	pyramid(DEAD)
+
+#N	rna
+#S	VAX 11/750
+#O	Rockefeller University, Department of Neurobiology
+#C	Daniel Ts'o
+#E	cmcl2!rna!dan
+#T	(212) 570-7671
+#P	1230 York Avenue, New York, NY 10021
+#L	40 45 N / 73 59 W
+#R	
+#U
+#W	rna!dan; 02/18/88
+#
+rna = rna.rockefeller.edu
+rna = rna-gw.rockefeller.edu
+#
+rna	cmcl2(DEMAND), wealth(DAILY), popcbr(DEMAND), cubsun(DEMAND),
+	rocky2(DEMAND), cumc(DEMAND), nybcig(DEMAND), mstan(HOURLY),
+	delftcc(DAILY), phri(DAILY), reason(DAILY), tso(DAILY), xp(DEMAND)
+
+#N	rob6300
+#S	AT&T PC6300Plus; System V.2
+#O	Atmospheric Sciences Research Center (ASRC)
+#C	Robert D. Seals
+#E	rob6300!rob
+#T	+1 518 442 3828
+#P	100 Fuller Road, Albany, NY, 12205
+#L	42 42 N / 073 50 W
+#R
+#U
+#W	rob6300!rob (Robert D. Seals); Mon Mar	2 13:58:15 EST 1987
+#
+rob6300 asrcmv(DEDICATED/6)
+
+#N	rochester
+#S	Sun 2/170; SunOS 3.4
+#O	University of Rochester, Dept. of Computer Science
+#C	Tim Becker, Liudvikas Bukys
+#E	rochester!becker, rochester!bukys
+#T	+1 716 275 5365, +1 716 275 7747
+#P	Rochester, NY 14627  USA
+#L	043 01 40 N / 77 37 49 W
+#W	rochester!becker (Tim Becker); Thu Mar	3 08:49:26 EST 1988
+#U	cornell pt.cs.cmu.edu kodak ritcv rocksanne ur-tut
+#U	rutgers
+#R	also known as sol.cs.rochester.edu but don't mail to that
+#	machine!  Instead mail to "PERSON@cs.rochester.edu".  For
+#	example, the contact people are becker@cs.rochester.edu and
+#	bukys@cs.rochester.edu .
+#
+# an alias
+rochester = "cs.rochester.edu"
+#
+# the UofR dataswitch connections
+rochester
+	ur-automat(DEDICATED), ur-cvsvax(DEDICATED),
+	ur-valhalla(DEDICATED), ur-laser(DIRECT),
+	ur-msbvax(DEDICATED), ur-tut(DEDICATED),
+#
+# other connections
+rochester
+	allegra(DAILY/2), cci632(DIRECT), decvax(DAILY), ektools(WEEKLY),
+	kodak(DIRECT), moscom(DIRECT), research(POLLED), ritcv(DIRECT),
+	rocksanne(DIRECT), rama(DAILY), srs(DAILY/2),
+	sunrock(WEEKLY), steinmetz(HOURLY*4), tropix(DIRECT), walden(WEEKLY/3)
+#
+rochester
+	cmcl2(DEDICATED), columbia(DEDICATED),
+	cornell(DEDICATED), garp(DEDICATED), harvard(DEDICATED),
+	ll-xn(DEDICATED), ames(DEDICATED), rutgers(DEDICATED)
+
+#N	rocksanne
+#S	Vax 11/785 4.3 BSD
+#O	Xerox/Webster
+#C	Gerry Hudson, Lee Moore
+#E	rocksanne!postmaster, rocksanne!lee, rocksanne!hudson
+#T	+1 716 422 5517		(Computer Center)
+#P	800 Phillips Rd. Bldg. 128  Webster N.Y. 14580
+#L	43 01 N / 77 37 W  (city)
+#R	Running: news version 2.10.3
+#U	rochester entire sunybcs xrxns
+#W	rocksanne!hudson (Gerry Hudson); Tue Apr  7 11:15:53 EST 1988
+#
+rocksanne	anb02(DEMAND), entire(DIRECT), rochester(DIRECT),
+	sci(EVENING), ur-esm(DIRECT)
+#
+# These sites connect with rocksanne on a polled basis on their end.  
+#
+rocksanne	sunybcs(DAILY), parcvax(WEEKLY), scrapy(WEEKLY), wrceml(WEEKLY),
+	wrcepsl(WEEKLY), wrcwsl(WEEKLY), wrccosmos(WEEKLY), xrxcad(EVENING),
+	xrxns(DAILY), xtpone(WEEKLY)
+
+#N     rocky
+#S     DEC VAX-11/750; 4.3 BSD UNIX
+#O     Instructional Computing Center, SUNY College at Oswego, Oswego NY
+#C     Ed Beadel
+#E     oswego!usenet
+#T     +1 315 341 3055
+#P     12 Snygg Hall, SUNY College at Oswego, Oswego, NY 13126
+#L	76 31 W / 43 27 N city
+#R     An Internet nonconnected site, LAN ethernet, oswego is the gateway
+#U
+#W     oswego!beadel (Ed Beadel); Mon Jan 11 19:45:48 EST 1988
+#
+rocky = rocky.oswego.edu
+rocky	oswego(LOCAL)
+
+#N	rpics
+#S	SUN 4/280; SUN OS 3.2
+#O	RPI Computer Science Department
+#C	Martin Lee Schoffstall
+#E	rpics!schoff
+#T	+1 518 276 2654
+#P	Amos Eaton Hall, Troy NY  12180
+#L	37 48 47 W / 42 45 44 W
+#R	gateway to internal rpi sites, cs.rpi.edu on INTERNET
+#U	itsgw
+#W	rpics!yeongw (Wengyik Yeong); Wed Apr 27 16:34:13 EDT 1988
+#
+rpics	itsgw(LOCAL), nynex1(DIRECT), hgcsc(DIRECT), sunbow(DEMAND),
+	nysernic(LOCAL)
+
+#N	rpicsb8
+#S	Sequent Balance 8000 ; DYNIX 2.1
+#O	RPI Computer Science Department
+#C	Martin Lee Schoffstall
+#E	rpics!schoff
+#T	+1 518 276 2654
+#P	Amos Eaton Hall, Troy NY  12180
+#L	37 48 47 W / 42 45 44 W
+#R	Network server for RPI CS Department
+#U	nysernic
+#W	rpics!yeongw (Wengyik Yeong); Mon Nov 2 12:19:43 EST 1987
+#
+rpicsb8= b8.cs.rpi.edu
+#
+rpicsb8 rpics(LOCAL),nysernic(LOCAL)
+
+#N	sabin
+#S	Altos 386 Series 2000; Xenix System V
+#O	Sabin Metal Corporation
+#C	Brendan McMahon
+#E	sabin!bjm
+#T	+1 716 538 2194
+#P	1647 Wheatland Center Road, Scottsville, NY  14546
+#L	42 58 N / 77 50 W
+#R	Refiners of Precious Metals
+#U	ritcsh lazlo
+#W	sabin!bjm (Brendan McMahon); Thu Feb 11 10:22:43 EST 1988
+#
+sabin	ritcsh(DAILY/4), lazlo(DAILY/4)
+
+#N	salomon
+#S	Sun 3/260; SunOS 3.2
+#O	Salomon Brothers, Inc.
+#C	Brian Carrihill
+#E	salomon!root
+#T	+1 212 747 3904
+#P	Dept. 5371, 1 New York Plaza, New York, NY 10004
+#L	40 45 n / 73 45 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu,  7 Jan 88	19:28:49 EST
+#U
+#
+salomon uunet(DEMAND)
+
+#N	sbcs
+#S	Vax 11/780 4.3bsd
+#O	State University of New York at Stony Brook
+#C	Joe Simonetti
+#E	sbcs!joes, joes@sbcs.sunysb.edu
+#T	(516) 632-7682
+#P	Stony Brook, NY 11794-4400
+#L	40 56 N / 73 09 W city
+#R
+#U	sunybcs, cmcl2
+#W	map per rick@sbcs; 14-May-88
+#
+sbcs	allegra(DEMAND), philabs(DEMAND), bnl(DIRECT), pyramid(DEMAND),
+	research(DEMAND), icus(DIRECT), sunybcs(DEDICATED), nyit(DIRECT),
+	ameristar(DIRECT), amersun(DIRECT)
+
+#N	sigmast
+#S	AT&T 3B2/500; System V Release 3.1.1 version 3
+#O	Sigma Systems Technology, Inc.
+#C	John R. Wagner, David G. Yearke
+#E	sigmast!postmaster, sigmast!jrw, sigmast!dgy
+#T	+1 716 634 8787
+#P	5813 Main Street, Buffalo, NY 14221
+#L	78 47 W / 43 00 N (CITY)
+#R
+#U	canisius
+#W	sigmast!dgy (Dave Yearke); Fri May 20  03:43:46 PM EDT 1988
+#
+sigmast canisius(DIRECT), cald80(DIRECT)
+
+#N	sixhub
+#S	PC Designs GV386; Xenix/386 v2.2.1
+#O	TMR Associates
+#C	Bill Davidsen
+#E	sixhub!davidsen
+#T	+1 518 370 5654
+#P	105 Seward Pl; Schenectady NY 12305
+#L	73 56 W / 43 49 N
+#R	*IX UNIX users group BBS and server
+#U	steinmetz crdos1 beowulf
+#W	crdos1!davidsen; May 24, 1988
+#
+sixhub	steinmetz(DIRECT), crdos1(DIRECT), sixbdf(DAILY),
+	benway(DIRECT+HIGH), beowulf(DIRECT)
+
+#N	smc1
+#S	VAX 785; VAX VMS with EUNICE 4.2 
+#O	Standard Microsystems Corp.
+#C	Tom Adams
+#E	smc1!adams
+#T	+1 516 273 3100
+#P	35 Marcus Blvd, Hauppauge, NY 11788
+#L	40 46 N / 73 55 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Mon 4 Jan 1988
+#U	uunet
+#
+smc1	uunet(DEMAND)
+
+#N	srs
+#S	Sun 3/180 Sun OS 3.2/3.4
+#O	Speech Recognition Systems
+#C	Matthew Goheen
+#E	srs!matt
+#T	+1 716 271 0600
+#P	1895 Mt. Hope Ave., Rochester NY 14620
+#L	43 10 N / 77 36 W
+#R	use "srs!user" to reach anyone on our LAN
+#U	ur-cvsvax
+#W	srs!matt (Matt Goheen); Wed Apr 13 08:52:34 EDT 1988
+#
+srs	rochester(HOURLY), ur-cvsvax(EVENING)
+
+#N	steinmetz
+#S	VAX 11/780, Unix
+#O	GE Corp., Research & Development
+#C	Joe Kane
+#E	{uunet,rochester}!steinmetz!kane
+#T	(518) 385-6748
+#P	K1-5C28a, P.O. Box 8, Schenectady, NY 12301
+#L	42 49 37 N / 73 52 30 W
+#R	
+#W	steinmetz!kane ; 04/13/88
+#
+steinmetz= steinmetz.ge.com
+steinmetz  .steinmetz.ge.com
+#
+ge-crd.arpa=crd.ge.com
+#
+steinmetz	 edison(POLLED),rochester(DEMAND),cadreri(DIRECT),
+		 rpics(DIRECT),albanycs(DIRECT),unioncs(DIRECT),sunbow(DIRECT),
+		 benway(DEMAND),crdos1(DEMAND),mblast(DAILY),sixhub(DEMAND),
+		 ledzep(POLLED),elan(DEMAND),vrdxhq(DEMAND),brspyr1(DIRECT),
+		 ge-dab(DEMAND),crd.ge.com(LOCAL),philabs(DEMAND),
+		 itsgw(DIRECT),uunet(POLLED),pclab1(DEMAND),cugeorge(POLLED),
+		 vdsvax(LOCAL),sane(POLLED),chinet(DEAD),gemed(DEMAND),
+		 kidder(DEMAND),ipxlabs(POLLED),bloch(DEMAND),beowulf(DIRECT),
+		 lisqnt(DIRECT),nbc1(DEMAND),ge-rtp(DIRECT),nmri(DIRECT)
+
+#N	step
+#S	Sun-3/180; SunOS 3.5 (4.2 BSD UNIX)
+#O	Dean Witter Reynolds Inc.
+#C	Robert Perlberg
+#E	step!perl
+#T	+1 212 392 4945
+#P	2 World Trade Center, New York, NY 10048
+#L	40 43 N / 74 01 W city
+#R	
+#U	dasys1
+#W	step!perl (Robert Perlberg); Tue May 17 11:39:56 EDT 1988
+#
+step	dasys1(DIRECT), mancol(EVENING), philabs(DAILY)
+
+#N	sunlamp
+#S	Sun 3
+#O	Sun Microsystems Consulting Services, Rochester NY
+#C	Tom Kessler
+#E	sun!tomk
+#T	(716)-385-3055
+#P	Sun Microsystems, 345 Woodcliff Drive, Fairport, NY
+#L	43 06 N / 77 27 W
+#R	
+#W	tomk ; 11/2/87
+#
+sunlamp	 sunrock(LOCAL), tropix(DAILY)
+
+#N	sunrock
+#S	Sun-3/180; 4.2 BSD UNIX
+#O	Sun Microsystems, Inc.	(Western New York Regional Office)
+#C	Brian Wilson
+#E	sunrock!brian
+#T	(716) 385-3055
+#P	345 Woodcliff Drive, Fairport, NY
+#W	Tom Kessler ; 12/7/87 
+#L	43 01 N / 77 36 W 
+sunrock sun(DAILY+HIGH), sunrise(DAILY), sunpitt(HOURLY), sunlakes(HOURLY),
+	suneast(DAILY), sunne(DAILY), sunbow(HOURLY), texsun(DAILY),
+	elmgate(DIRECT), kodak(DIRECT), rochester(WEEKLY),sunlamp(LOCAL)
+
+#N	sunybcs
+#S	VAX11/785; 4.3BSD
+#O	State University of New York at Buffalo, Computer Science Department
+#C	Ken Smith or Devon Bowen
+#E	sunybcs!usenet
+#T	+1 716 636 3190
+#P	320 Bell Hall, Amherst, NY 14260
+#L	78 47 43 W / 43 00 05 N 
+#R	SUNY/Buffalo CS gateway - sunybcs.bitnet, buffalo.csnet, cs.buffalo.edu
+#U	cald80 canisius daemen fredonia kitty moogvax oswego
+#U	boulder rutgers ur-tut
+#W	sunybcs!bowen (Devon E Bowen); Tue Mar	8 02:39:41 PM EST 1988
+#
+# Users on all machines at SUNY/Buffalo CS can receive mail on our local
+# relay machine (cs.Buffalo.EDU) - it gets forwarded to their mail host.
+# For that reason, no additional internal connection info for CS is given.
+#
+sunybcs .buffalo.edu
+sunybcs = "buffalo.csnet"
+sunybcs = "sunybcs.bitnet"
+sunybcs = "cs.buffalo.edu"
+sunybcs boulder(DEDICATED), rutgers(DEDICATED), ames(DEDICATED),
+	ur-tut(DEDICATED), decvax(DEDICATED), allegra(EVENING),
+	rocksanne(EVENING), watmath(EVENING), sbcs(DEDICATED),
+	fredonia(DEDICATED), oswego(DEDICATED), bingvaxu(DEDICATED),
+	alfalpha(LOCAL), burdvax(EVENING), cald80(DIRECT), torah(DAILY),
+	canisius(DIRECT), daemon(DIRECT), kitty(DIRECT), leow(DAILY),
+	moogvax(HOURLY), codas(DAILY), trotter(DAILY), bedlam(EVENING)
+
+#N	svax
+#S	DEC Micro Vax II; 4.3 BSD UNIX
+#O	Cornell University, Computer Science Dept.
+#C	Dean Kraftt
+#E	svax!adm, svax!dean
+#T	+1 607 255 9214, +1 607 255 9184
+#P	4119 Upson Hall, Ithaca, NY 14853-7501
+#L	042 27 N / 076 30 W city
+#R	MAIL ONLY! This machine is on the ARPANET:  svax.cs.cornell.edu
+#U	cornell, gvax
+#W	cornell!parmelee (Larry Parmelee); Tue Mar 10 11:23:53 EST 1987
+#
+svax	cornell(LOCAL)
+
+#N	swamps
+#S	IBM PC AT, Microport System V & MSDOS/Pcmail
+#O 
+#C	Val Christian	       
+#E	swamps!val
+#T	+1 716 293 3743
+#P	P.O. Box 151, Churchville, NY 14428    
+#L	43 09 N / 77 52 W
+#R	Semi-private system.		     
+#U		      
+#W	lazlo!ccs (Val Christian); Wed Mar 16 23:00:00 EDT 1988 
+#
+swamps	kodak(DAILY), lazlo(DAILY*3)		  
+
+#N	sweetp
+#S	AT&T 6386WGS, System V, Rel. 3.1 / Simultask 386 (MSDOS 3.2)
+#O	American LP Systems, Inc.
+#C	Leonard B. Tropiano,	  Dennis W. Koncelik
+#E	quincy!sweetp!lenny,	  quincy!sweetp!dennis
+#T	+1 (516) 582-5525
+#P	1777-18 Veterans Memorial Hwy, Islandia, NY 11722
+#L	40 degrees, 49' N / 73 degrees, 11' W
+#R	AT&T VAR - Development System for "The Centurion Fuel-Oil/LP Gas System"
+#U
+#W	quincy!sweetp!lenny (Leonard B. Tropiano) ; Thu Apr 21 16:23:27 EDT 1988
+#
+sweetp	quincy(DEDICATED),  bogie(DEDICATED)
+
+#N	taliesin
+#S	IBM AT Clone; SCO Xenix 286 System V Rev 2.2.1
+#O	
+#C	Thomas R. Luce
+#E	parcvax!luce.wbst
+#T	+1 716 427 8421
+#P	Rochester NY.	14623
+#L	43 10 N / 77 36 W city
+#R	NONE
+#U		
+#W	parcvax!luce.wbst (Thomas R. Luce); 12-Jan-88 09:03:12
+#
+taliesin	tokugowa(DAILY)
+
+#N	tesla
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Cornell University, Electrical Engineering Dept.
+#C	Chris Pottle
+#E	tesla!pottle
+#T	+1 607 255 9192
+#P	410 Phillips Hall, Ithaca NY, 14853
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPANET:	 tesla.ee.cornell.edu
+#U	
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:58:58 EST 1988
+#
+tesla	cornell(LOCAL), allegra(POLLED)
+
+#N thezone
+#S AT&T 3b1, 2.5MB/67MB, Unix-PC version 3.51
+#O 
+#C Edward M. Markowski
+#E thezone!emm
+#T +1 716 272 1023
+#P 29 Kimball Drive, Rochester, NY  14623
+#L 43 04 N / 77 39 W
+#R Private system used for development.
+#R Willing to feed mail, and the limited newsgroups carried
+#U lazlo
+#W thezone!emm (Edward M. Markowski); Sun Apr 18 23:00:00 EST 1988
+#
+thezone	  lazlo(DIRECT)
+
+#N	tokugowa
+#S	PCs Limited 286(8) AT; SCO Xenix 286 System V Rev 2.2.1
+#O	DJINNI Software Development
+#C	John R. Luce
+#E	xerox.com!luce.wbst129, luce.wbst129@Xerox.COM
+#T	+1 716 422 9067
+#P	183 Harvard St., Rochester NY 14607
+#L	43 10 N / 77 36 W city
+#R	NONE
+#U	taliesin	
+#W	xerox.com!luce.wbst129 (John R. Luce);	18-Mar-88  8:58:29
+#
+tokugowa	dasys1(WEEKLY/2), icus(WEEKLY/2),
+	mancol(WEEKLY/3), taliesin(DIRECT),  xrx3b(DIRECT)
+
+#N	trintex
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Trintex
+#C	Ed Ravin
+#E	trintex!postmaster
+#T	+1 914 993 4737
+#P	445 Hamilton Avenue, White Plains, NY 10601
+#L	41 04 N / 73 43 W
+#R  
+#W	trintex!elr (Ed Ravin) ; Fri Feb 26 10:53:27 EST 1988
+#U
+trintex philabs(DEMAND)
+
+#N	tropix
+#S	Motorola 68020 Local Workstation/Tropix
+#O	G.C.A. Corporation, Tropel Division
+#C	Michael J. Shon
+#E	tropix!mjs
+#T	+1 716 377 3200 x157
+#P	60 O'Connor Road, Fairport, NY 14450
+#L	43 06 N / 77 27 W city
+#R	
+#U	rama sunlamp
+#W	tropix!prd (Patrick R. Demorais); Mon May 23 18:12:39 EDT 1988
+#
+tropix	allegra(EVENING), ritcv(DEMAND), rochester(DEMAND), sunlamp(DEMAND),
+	ihnp4(EVENING), masscomp(EVENING), moscom(DEMAND), rama(DEMAND)
+
+#N	unioncs	 
+#S	VAX 11/750, 4.3BSD Unix
+#O	Union College, EE/CS Dept	  
+#C	Lance Spallholz
+#E	{uunet,rochester}!steinmetz!unioncs!postmaster
+#T	(518) 377-6270
+#P	Steinmetz Hall 210, Union College, Schenectady, NY 12308
+#L	42 47 40 N / 73 55 30 W
+#R	
+#W	unioncs!spallhol ; 01/24/88
+#
+#
+#
+unioncs		 steinmetz(POLLED),albanycs(POLLED)
+
+#N	ur-valhalla
+#S	VAX-11/750, 4.3BSD Unix
+#O	University of Rochester, Dept. of Electrical Engineering
+#C	Badri Lokanathan
+#E	rochester!ur-valhalla!badri
+#T	+1 (716) 275-3870
+#P	Rochester, NY 14627  USA
+#L	43 01 40 N / 77 37 49 W
+#R	Also on internet: 128.151.160.11 valhalla.ee.rochester.edu
+#U
+#W	ur-valhalla!badri (Badri Lokanathan) ; 2/7/88
+#
+ur-valhalla	rochester(DEDICATED), ur-tut(DEDICATED), micropen(POLLED),
+		moscom(POLLED)
+
+#N	ursa
+#S	Sun-3/180; Sun UNIX 4.2 Release 3.5 
+#O	Bear Stearns
+#C	Tuck Lee   
+#E	ursa!thl, ursa!usenet
+#T	+1 212 272 3043
+#P	245 Park Ave. New York, NY 10167 
+#L	73 59 W / 40 46 N 
+#U	gotham
+#W	ursa!thl (Tuck Lee); Fri Apr 22 11:36:25 EDT 1988 
+#
+ursa	gotham(DIRECT), sunrise(HOURLY), convex(POLLED), c1east(POLLED)
+
+#N	viascan
+#S	Intel 310/311 development system; XENIX 3.4
+#O	Recognition Research Corp.
+#C	Larry Lippman
+#E	viascan!larry
+#T	+1 716 688 1231, +1 716 741 3900
+#P	5655 Newhouse Road, East Amherst, NY 14051
+#L	78 40 W / 43 00 N
+#R	Primary development and support machine for Viascan Project
+#U	kitty
+#W	viascan!larry (Larry Lippman); Sat Nov 14 11:00:18 EST 1987
+#
+viascan kitty(DEDICATED), vscan(LOCAL), vscan1(LOCAL), vscan2(LOCAL),
+	vscan3(LOCAL), vscan4(LOCAL), vscan5(LOCAL)
+
+#N	walden
+#S	CCI Power 5/32 ; 4.2BSD Unix
+#O	AWCS   (personal machine)
+#C	John Grana
+#E	walden!jjg
+#T	+1 716 334 1503
+#P	120 Heatherdale Cir., Henrietta NY, 14467
+#L	42 20 N / 71 05 W
+#R	
+#U	cci632
+#W	walden!jjg (John Grana) ; Sun Oct 11 16:59:42 EDT 1987
+
+walden	cci632(DAILY), rochester(WEEKLY/3), wingman(DAILY), swssys(DAILY)
+
+#N	wealth
+#S	DEC MicroVAX II; ULTRIX
+#O	Winston Capital Systems, Inc.
+#C	Ken Winston
+#E	wealth!ken
+#T	+1 212 496 5438
+#P	250 West 75th Street, New York, New York  10023
+#L	40 43 N / 74 01 W
+#R
+#U
+#W	rob@philabs.philips.com ; Thu Apr 28 14:54:48 EDT 1988
+#
+wealth	cmcl2(EVENING), rna(EVENING)
+
+#N	westbury
+#S	Altos 2086; Xenix 3.4
+#O	Caicer Placements, Inc.
+#C	Michael Johnston
+#E	westbury!root
+#T	+1 516 683 6000 x 338
+#P	1600 Stewart Ave., Westbury, NY 11590
+#L	40 45 N / 73 45 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Wed Apr 27 16:35:29 EDT 1988
+#U
+#
+westbury	uunet(DEMAND)
+
+#N	wjelny
+#S	ATT UNIX PC/3B1; UNIX System V 3.5
+#O	New York University Medical Center
+#C	Warren R. Jelinek
+#E	wjelny!postmaster, wjelny!wjel
+#T	+1 212 340 5951, +1 212 340 5937
+#P	Biochemistry, N.Y.U. Med. Ctr., 550 First Ave., N.Y., N.Y. 10016
+#L	73 59 W / 40 45 N city
+#R
+#U
+#W	wjelny!wjel (Warren R. Jelinek); Sun Jul 12 13:47:52 EDT 1987
+#
+wjelny	phri(DIRECT), rocky2(DAILY)
+
+#N	wp3b01
+#S
+#O	
+#C	Susan Manassa
+#E	wp3b01!root
+#T	+1 914 397 4123
+#P	Rm 11B5, 1 North Lexington, Ave, White Plains, NY
+#L	41 02 N / 73 46 W city
+#R
+#U	uunet
+#W	seismo!rick; Wed Jun  3 12:44:45 EDT 1987
+#
+wp3b01	uunet(DAILY)
+
+#N	wwd
+#S
+#O	World Wide Data Corp
+#C	Ron Benvenisti
+#E	wwd!ron
+#T	+1 718 438 2807
+#P	133 60th St, Brooklyn, NY 11219
+#L
+#R
+#U
+#W	usenix!madeline (Madeleine McCall); Mon Feb  1 12:38:40 PST 1988
+#
+wwd	uunet
+
+#N	xrx3b
+#S	AT&T 3B2/400, Unix System V
+#O	Xerox Corporation
+#C	Chris Midgley
+#E	xrx3b!cgm
+#T	+1 (716) 422-1927
+#P	800 Phillips Road 311-08J; Webster, NY	14580
+#L	43 13 16 N / 77 25 03 W
+#R	We sometimes exchange mail and news with other machines that the world
+#R	does not know about (either small machines internal to Xerox [oscdcf],
+#R	or machines internal to AT&T)
+#U	rocksvax
+#W	xrx3b!cgm ; 09/18/87
+#
+xrx3b	oscdcf(DIRECT), kitty(DEMAND)
+#
+#
+#MAP FILE END: u.usa.ny.3   Tue May 31 08:50:15 EDT 1988   rob@philabs.philips.com
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,112 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.nh.1
+: This archive created: Sun May  1 01:51:27 1988
+echo shar: extracting d.usa.nh.1
+cat << 'SHAR_EOF' > d.usa.nh.1
+#	start of d.usa.nh.1: Fri Apr 29 13:23:07 EDT 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.calcomp.com, elrond
+#S	VAX 11/780; Ultrix 2.0-1
+#F	harvard.edu
+#O	CalComp Inc., A Lockheed Company
+#C	Barry F. Evans
+#E	evans@elrond.CalComp.COM
+#T	+1 603 885 8025
+#P	PTP2-2D15, 65 River Road, Hudson, NH, 03051
+#L	42 47 N / 71 29 W
+#U	savax 
+#R	registered
+#W	evans@elrond.CalComp.COM (Barry F. Evans); Fri Mar  4 14:04:07 EST 1988
+#
+elrond	.calcomp.com
+elrond=	calcomp.com, elrond.calcomp.com
+elrond	savax(LOCAL), bu-tyng(DIRECT), decvax(DIRECT), harvard(DEMAND),
+	sii(DIRECT), zinn(DIRECT), mips(DEMAND+HIGH), websta(DIRECT)
+
+
+#N	.dartmouth.edu, dartvax
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Dartmouth College, Kiewit Computation Center
+#C	Stephen Campbell
+#E	dartvax!postmaster
+#T	+1 603 646 2643
+#P	HB 6028, Hanover, NH 03755
+#L	72 17 W / 43 42 N
+#W	dartvax!steve (Stephen Campbell) Tue Apr  5 10:00:00 EDT 1988
+#U	decvax creare lscvax
+#R	dartvax is the gateway to all Dartmouth College hosts.
+#
+dartvax = dartmouth.edu
+dartvax	.dartmouth.edu
+#
+#	UUCP connectivity for dartvax
+#
+dartvax	decvax(EVENING), linus(EVENING), creare(POLLED), cornell(WEEKLY),
+	burlcoat(POLLED), true(POLLED), c1east(DAILY), thelma(POLLED),
+	colby(DAILY), psc70(DAILY), uvm-gen(EVENING), ihnp4(EVENING),
+	research(EVENING), harvard(EVENING), lscvax(EVENING), uscga(EVENING),
+	achs15(DEMAND), brsug(DAILY), brspyr1(POLLED), eabog1(DAILY),
+	princeton(EVENING), psc90(DAILY), columbia(WEEKLY), uunet(EVENING),
+	cmi1(DEAD), sirius(DAILY)
+
+
+#N	.howtek.com, howtek
+#S	Sun 3/160; UNIX 4.2, Sun Release 3.0
+#F	none
+#O	Howtek Inc
+#C	Jim McHale, Mike Rubin
+#E	jpm@howtek.com, mike@howtek.com
+#T	603-882-5200
+#P	21 Park Ave, Hudson, NH 03051
+#L	42 46 N / 71 29 W 
+#U	decvax
+#R	submitted with no forwarder
+#W	jpm@howtek ; Tue Mar  3 13:29:38 1987
+#
+howtek	.howtek.com
+howtek=	howtek.com
+howtek=	howtek.howtek.com
+howtek	decvax(HOURLY*4), mirror(DAILY*2), dmcnh(DEAD)
+
+#N	.mv.com, zinn
+#S	IMS PC/AT compatible; Microport System V/AT v 2.2
+#F	harvard.harvard.edu
+#O	Merrimack Valley Domain Park
+#C	Mark E. Mallett
+#E	mem@zinn.MV.COM
+#T	603 645 5069
+#P	P.O. Box 4188, Manchester NH; 03103
+#L	42 56 N / 71 26 W City
+#R	registered
+#R	MV is a "domain park" covering small businesses, independant
+#R	consultants, and personal nodes in the Merrimack Valley
+#R	area of New England (Southern NH and northern MA).
+#U	virgin
+#W	mem@zinn.MV.COM (Mark E. Mallett); Tue Mar  8 09:34:16 EST 1988
+#
+#O	Zinn Computer Company
+#C	Mark E. Mallett
+#E	zinn!mem, zinn!uucp
+#
+zinn	.mv.com
+zinn=	mv.com, zinn.mv.com
+#
+# our news feed (we poll)
+zinn	virgin(DIRECT)
+#
+# outgoing calls
+zinn	interlan(WEEKLY), sii(DAILY), siia(DIRECT),
+	formtek(WEEKLY), ditka(WEEKLY), mhis(DAILY)
+#
+# incoming calls
+zinn	elrond(DIRECT)
+
+
+#	end of d.usa.nh.1: Fri Apr 29 13:23:12 EDT 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

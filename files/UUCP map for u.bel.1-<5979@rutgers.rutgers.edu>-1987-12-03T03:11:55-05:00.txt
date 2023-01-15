@@ -1,0 +1,279 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.bel.1
+# This archive created: Thu Dec  3 03:11:47 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.bel.1
+cat << ¬•SHAR_EOF > u.bel.1
+# u.bel.1; changes to: uucpmap@prlb2.uucp
+
+#N	agrib
+#S	NCR Tower 32; Unix V.2
+#O	CEC, Agricultural Informatics
+#C	Guido Aerts
+#E	agrib!gja, agrib!lsa
+#T	+32 2 2359224
+#P	200, Rue de la Loi, B-1049 Brussels
+#L	
+#R	
+#U	
+#W	agrib!gja  870715
+#
+agrib	ibiza(DEMAND), palma(DEMAND), terbru(DEMAND), terlux(DEMAND),
+	insem(DEMAND), devel(DEMAND), tai(DEMAND), taibru(DEMAND), 
+	agrec(DEMAND), prlb2(HOURLY)
+
+#N	cstb
+#S
+#O	MBLE; Philips Centre for Software Technology Brussels
+#C	Danny Kuppens
+#E	cstb!postmaster
+#T	+32 2 5257130
+#T	Tweestationsstraat 82 , B-1070 Brussels , Belgium
+#L	4 22 E / 50 46 N
+#R
+#U
+#W	cstb!kuppens Wed Oct 28 18:45:13 MET 1987
+cstb	prlb2(DEDICATED)
+
+#N	fun-cs
+#S	DEC VAX 11/750;ULTRIX-32 V1.2
+#O	Facultes universitaires de Namur; Institut d'Informatique
+#C	Patrick Geurts, Bruno Delcourt
+#E	fun-cs!pge, fun-cs!postmaster
+#T	+32 81 229065
+#P	21, rue Grandgagnage, B-5000, Namur, Belgium
+#L
+#R
+#U
+#W	prlb2!ml Tue Oct 21 18:45:02 MET 1986
+#
+fun-cs	prlb2
+
+#N	imec
+#S	DEC VAX-11/750; ULTRIX-32  V1.1 
+#O	Interuniversity MicroElectronics Center (IMEC)
+#C	Jan Rabaey, Jan Sevens	
+#E	imec!rabaey, imec!sevens
+#T	+32 16 281202, +32 16 281206
+#P	Kapeldreef 75, B3030 Leuven, Belgium
+#L	004 25 E / 50 40 N
+#R	
+#U	
+#W	imec!rabaey 860806
+#
+imec	prlb2(DAILY/2)
+
+#N      kulcs
+#S      DEC VAX 11/750; 4.3 BSD UNIX
+#O      Katholieke Universiteit Leuven, Department of Computer Science
+#C      Jean Huens, Andre De Deurwaerder
+#E      kulcs!postmaster
+#T      +32 16 20 06 56 x3561, +32 16 20 06 56 x3563
+#P      Celestijnenlaan 200A, B-3030 Heverlee, Belgium
+#L      004 40 47 E / 50 51 53 N
+#R
+#U      prlb2
+#W      kulcs!andre ; Thu Nov 19 11:59:20 MET 1987
+#
+kulcs   prlb2(HOURLY), lln-cs(HOURLY), uiag(HOURLY), sunbim(HOURLY),
+        vub(DAILY/3), fun-cs(HOURLY), rubens(HOURLY)
+
+vax-kulug-net = { kulcs, kulesat, kulmech, kulneuro, kulmath,
+        kulagrv1, kuliks }
+
+#N      lln-cs
+#S      VAX-11/750, MT XINU BSD 4.3 + NFS
+#O      Universite Catholique de Louvain, Unite d'Informatique
+#C      Elie Milgrom, Hubert Broze
+#E      lln-cs!em, lln-cs!hb
+#T      +32 10 473151 / 473396 / 473150 (secr.)
+#P      2, Place Ste-Barbe, B-1348 Louvain-la-Neuve, Belgium
+#L
+#R
+#U      prlb2, fun-cs, etbel, sunbim, uclfynu
+#W      lln-cs!hb Mon Nov 23 18:06:10 MET 1987
+#
+lln-cs  etbel(HOURLY), fun-cs(HOURLY), inria(DAILY),
+        kulcs(HOURLY), prlb2(HOURLY),
+        sunbim(HOURLY*2), tls-cs(HOURLY),
+        uclfynu(HOURLY), vub(DAILY/3)
+
+#N	rubens
+#S	CONVEX C1/XP; CONVEX UNIX 6.0
+#O	PGS/UCMB
+#C	Philippe Berthet
+#E	rubens!berthet, rubens!Postmaster
+#T	+32 2 6485200
+#P	ULB - UCMB CP160, Av. P. Heger batiment P2, B-1050 Bruxelles.
+#L
+#R
+#U	
+#W	rubens!berthet Mon Aug  3 10:57:20 MET DST 1987
+#
+rubens	prlb2(HOURLY), sunbim(HOURLY), kulcs(HOURLY)
+
+#N	rug
+#S	NCR Tower32-600; UNIX SystemV
+#O	Rijksuniversiteit Gent
+#C	Veerle Fack
+#E	rug!veerle
+#T	+32 91 225715 x2535, x2547
+#P	Krijgslaan 281-S9, B-9000 Gent, Belgium
+#L
+#R
+#U
+#W	rug!veerle Wed Aug 12 11:20:36 EUR 1987
+#
+rug	vub(DAILY)
+
+#N	sunbim
+#S	SUN 2/120, 4.2BSD
+#O	Belgian Institute of Management
+#C	Stephan Allemon
+#E	sunbim!sa
+#T	+32 2 759 59 25
+#P	Kwikstraat, 4		B-3078 Everberg, Belgium
+#L
+#R
+#U
+#W	sunbin!sa 851003
+#
+sunbim	prlb2(HOURLY), lln-cs(HOURLY), sunuk(DAILY)
+
+#N	taibru
+#S	NCR Tower 32; Unix V rel. 2 (NCR rel. 1.01)
+#O	CEC, Terminologie et Applications Informatiques (TAI)
+#C	Michael Baltsavias
+#E	taibru!michael
+#T	+32 2 2351111
+#P	200, Rue de la Loi, B-1049 Brussels, Belgium
+#L	4 22 E / 50 46 N
+#R
+#U
+#W	taibru!michael Tue May  5 10:04:05 MET 1987
+#
+taibru	ibiza(DAILY), palma(DEMAND), terbru(DEMAND), terlux(DEMAND),
+	qpbru(DEMAND), insem(DEMAND), eval(DEMAND), devel(DEMAND),
+	tai(DEMAND), prlb2(HOURLY)
+
+#N	uclfynu
+#S	VAX-11/750, Ultrix-32 V1.1
+#O	Universite Catholique de Louvain, Nuclear Physics Dept.
+#C	Jean-Marie Ferte, Francis Somers
+#E	uclfynu!jmf, uclfynu!some
+#T	+32 10 433206 / 433231 / 433273 (secr.)
+#P	Chemin du Cyclotron  2, B-1348 Louvain-la-Neuve, Belgium
+#L	
+#R
+#W	uclfynu!some 870108
+#
+uclfynu	lln-cs(HOURLY), prlb2(HOURLY), cernvax(HOURLY)
+
+#N	uiag, kiwi, uiapc1
+#S	Gould Powernode 6031-X, UTX/32 release 1.2 (with EUUG-UUCP)
+#O	Universitaire Instelling Antwerpen, Computer Science dept.
+#C	Paul De Bra
+#E	uiag!debra
+#T	+32 3 8282528 x 107
+#P	Universiteitsplein 1, B-2610 Wilrijk, Belgium
+#L
+#R
+#U
+#W	prlb2!ml Wed May 13 12:12:14 MET 1987
+#
+uiag	kulcs (HOURLY*2), prlb2(HOURLY*2), lri(DAILY), 
+	uiaa(LOCAL), kiwi(LOCAL), uiapc1(LOCAL)
+
+#N	uiaa
+#S	Altos ACS 68000-14, Unix System III (with EUUG-UUCP)
+#O	Universitaire Instelling Antwerpen, Computer Science dept.
+#C	Paul De Bra
+#E	uiag!debra
+#T	+32 3 8282528 x 107
+#P	Universiteitsplein 1, B-2610 Wilrijk, Belgium
+#L
+#R
+#U
+#W	uiag!debra 860616
+#
+uiaa	uiag(LOCAL)
+
+#N	vub
+#S	VAX-11/785, 4.3BSD
+#O	Vrije Universiteit Brussel, Medische Informatica
+#C	Erik Blockeel
+#E	vub!erik
+#T	+32 2 4784890 x1438
+#P	Laarbeeklaan 103, B-1090 Brussel, Belgium
+#L
+#U	prlb2
+#R	gateway machine to VUB LAN
+#W	vub!erik Wed Aug 12 12:08:43 MET 1987
+#
+vub	prlb2(DAILY), kulcs(DAILY), sunbim(DAILY), lln-cs(DAILY),
+	rug(DAILY)
+#
+VUBNET= {vub,  minf1, cyto1, fysp1, primis,
+	klzs1, info1, info2, info3, klzs2, klzr2,
+	imec1, elec1, etro1, 
+	arti1, arti2, arti3, arti4, arti5,
+	fgts1, prog1,  tinf1, tinf2, 
+        tena1, tena2, zone1, elem1, 
+	bcms1}(LOCAL)
+
+#N	arti2
+#S	SUN-2/170; 4.2 BSD UNIX Sun Release 2.0
+#O	University of Brussels (VUB) Artificial Intelligence Laboratory
+#C	Erik Wybouw
+#E	arti2!Postmaster
+#T	+32 2 641 2975
+#P	Pleinlaan 2, Building K, 1050 Brussels, Belgium
+#L	004 25 E / 50 40 N
+#U	
+#W	prlb2!ml Mon Mar 16 13:39:14 MET 1987
+#
+arti2	prlb2(DAILY)
+#
+arti2 = vubarti
+
+#N	prlb2, prlb
+#S	VAX-11/780, 4.2BSD
+#O	Philips Research Laboratory Brussels
+#C	Michel Lacroix, Jean-Jacques Quisquater
+#E	prlb2!ml, prlb2!jjq
+#T	+32 2 6734190
+#P	Av. Van Becelaere 2 box 8, B-1170 Brussels, Belgium
+#L	4 22 E / 50 46 N
+#R	
+#U	kulcs, lln-cs, mcvax, philabs, vub
+#W	prlb2!ml Wed Oct 28 18:52:45 MET 1987
+#
+prlb2   agrib(DAILY), arti2(DAILY/3), cernvax(ARPA), crcge1(DAILY*2), 
+	crin(DAILY*2), cselt(DAILY*2), 
+	csinn(DAILY*2), cstb(LOCAL),
+	diku(ARPA), enea(ARPA), euroies(DAILY),
+	fun-cs(HOURLY), hpubrua(DAILY), hrc63(DAILY*2), 
+	imag(DAILY*2), imec(DAILY), inria(ARPA), 
+	kulcs(HOURLY),
+	lln-cs(HOURLY), lri(DAILY*2),
+	mcvax(ARPA-1), munnari(DAILY), 
+	phibsi(DIRECT), phifo(DEDICATED), philmds(DEDICATED), 
+	prlb(LOCAL), prle(HOURLY), prlvax4(DEDICATED), 
+	rubens(HOURLY), rsun1(DAILY), sunbim(HOURLY*2), 
+	taibru(DAILY), tauros(DAILY), trtmv0(DEDICATED),
+	tls-cs(DAILY*2), tuvie(ARPA), 
+	uclfynu(HOURLY), uiag(HOURLY), ukc(ARPA), 
+	unido(ARPA), unipas(DAILY*2),
+	vub(DAILY/3), vubarti(DAILY/3)
+
+# end of u.bel.1
+SHAR_EOF
+#	End of shell archive
+exit 0

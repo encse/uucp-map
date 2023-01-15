@@ -1,0 +1,262 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.Country
+#	d.Glue
+#	d.Top
+#	d.can.on.1
+# This archive created: Tue Sep 29 02:03:08 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.Country
+cat << \SHAR_EOF > d.Country
+#N	.fi, tut
+#F	seismo.css.gov
+#O	Tampere University of Technology, Computer Science Laboratory
+#C	Hannu-Matti Jarvinen
+#E	tut!hmj
+#T	+358 31 162702
+#P	P.O.Box 527, SF-33101 Tampere, Finland
+#L	23 50 E / 61 26 N
+#R	
+#U	intrin, oulu, tucos, valmet, santra, ujocs, utacs
+#W	tut!hmj 860710
+#
+tut	.fi
+tut =	tut.fi
+tut	enea(HOURLY), mcvax(HOURLY), unido(HOURLY),
+
+#N      .nl, mcvax
+#F      seismo.css.gov
+#O      Centrum voor Wiskunde en Informatica (CWI)
+#C      Piet Beertema
+#E      mcvax!piet
+#T      +31 20 5920333
+#P      Kruislaan 413, NL-1098 SJ Amsterdam, Netherlands
+#L      52.22N 4.54E
+#R      inquiry
+#
+mcvax	.nl
+mcvax =	mcvax.nl
+
+#N      .nz, vucomp
+#F      (none)
+#O      New Zealand
+#C      Duncan McEwan
+#E      duncan@vuwcomp.nz, ...!{alberta, ubc-vision}!calgary!vuwcomp!duncan
+#T      +64 4 721 000
+#P      Computer Science Department, Victoria University of Wellington,
+#P      Private Bag, Wellington, New Zealand.
+#L      41 17 25 S / 174 46 7 E
+#U      munnari
+#R      inquiry
+#W      Duncan McEwan (vuwcomp!duncan); Fri Nov 14 16:50:28 NZDT 1986
+#
+vuwcomp .nz
+vuwcomp calgary(DAILY), munnari(DEAD)
+
+#N	.se, enea
+#F	seismo.css.gov
+#O	Sweden
+#C	Bjorn Eriksen, Sten Folkerman
+#E	ber@enea.uucp, sten@enea.uucp
+#T	+46 8 756 72 20
+#P	ENEA DATA Svenska AB, Box 232, S-183 23 TABY, Sweden
+#L	59 45 N / 18 09 E
+#U	agaton, chalmers, daab, erix, infovax, kuling, liuida
+#U      log-hb, luth, mcvax, sal, sems, sielem, suadb, ttds, tut
+#R	registered
+#W	10/17/86 MRH from enea!ber
+#
+enea	.se
+enea =	enea.se
+enea	mcvax
+
+SHAR_EOF
+echo shar: extracting d.Glue
+cat << \SHAR_EOF > d.Glue
+nosc	humu
+humu	uhmanoa
+#
+lll-lcc	ucdavis
+ucdavis	egg-id
+#
+huji	humus
+#
+ucf-cs	novavax
+#
+uunet	kaist
+#
+mcvax	hafro
+SHAR_EOF
+echo shar: extracting d.Top
+cat << \SHAR_EOF > d.Top
+#
+# DOMAIN GATEWAY LIST FOR UUCP AND OTHER TOP-LEVEL DOMAINS
+# This file is pathalias input for UUCP domain addressing.
+#
+# All gateway hosts (those in this file) must understand domain!user.
+# Note that most lines are still commented out, because many hosts don't 
+# recognise domain!user.
+#
+# Problems and changes to domains@registry.UUCP
+# 		4/28/86
+#
+# TOP LEVEL DOMAINS AND THEIR GATEWAYS
+#
+# UUCP top level domain
+cbosgd	.uucp
+decuac	.uucp
+harvard	.uucp
+gatech	.uucp
+ihnp4	.uucp
+mcvax	.uucp
+rutgers	.uucp
+ucbvax	.uucp
+uunet	.uucp
+#
+# ARPANET and related domains
+harvard	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+rutgers	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+sun	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+ucbvax	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+uunet	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+talcott	.arpa, .com, .gov, .mil, .edu, .org, .net, .us
+#
+# domains reachable via the ARPANET
+harvard	.de, .no, .nz
+rutgers	.de, .no, .nz
+sun	.de, .no, .nz
+ucbvax	.de, .no, .nz
+uunet	.de, .no, .nz, .my, .cl
+talcott	.de, .no, .nz
+#
+# CSNET
+harvard	.csnet
+talcott	.csnet
+#
+# MAILNET
+harvard	.mailnet
+talcott	.mailnet
+#
+# BITNET
+psuvax1	.bitnet
+talcott	.bitnet
+ucbvax	.bitnet
+#
+# Canada
+garfield	.can, .cdn
+ubc-vision	.can, .cdn
+watmath		.can, .cdn
+#
+# EAN X.400 domains
+# The following X.400 domains exist, but there is no known way to reach
+# them from UUCP.
+# .aristote, .ch, .chunet, .dfn, .dunet, .hasler, .iris, .irl, .osiride,
+# .sunet, .surfnet, .uninett
+
+# United Kingdom/Great Britain
+ucl-cs	.uk, .cern, .desy
+ukc	.uk
+
+# Netherlands
+mcvax	.nl
+
+# Sweden
+enea	.se
+
+# Finland
+tut	.fi
+
+# Israel
+humus	.il, .israel
+
+# Korea
+kaist	.kr, .korea
+
+# Japan
+kddlab	.jp, .junet, .jpn
+
+# Australia
+munnari	.au, .oz, .oz.au
+mulga	.au, .oz, .oz.au
+
+# France
+inria	.fr
+
+# Iceland
+hafro	.is
+SHAR_EOF
+echo shar: extracting d.can.on.1
+cat << \SHAR_EOF > d.can.on.1
+#	d.can.on.1 : last updated Fri Jul 24 12:05:28 EDT 1987
+#	Changes/updates/corrections to path@ai.toronto.edu.
+
+#N	.sq.com, sq, squawk, squad, squeak, squat, sqrt, squish
+#F	a.cs.uiuc.edu
+#S	Sun-3/180S; SUN UNIX 3.0 (aka 4.2BSD+)
+#O	SoftQuad Inc.
+#C	Ian Darwin, Bud Greasley
+#E	ian@sq.com, bud@sq.com
+#T	+1 416 963 8337
+#P	720 Spadina Avenue, Suite 200, Toronto, ON  Canada M5S 2T9
+#L	79 25 W / 43 45 N city
+#U	
+#R	Home of SoftQuad troff(tm), world's best (we say) commercial troff.
+#W	ian@sq.com (Ian Darwin); Wed Jan  7 10:15:61 EST 1987
+#
+sq.com	.sq.com
+sq.com	= sq
+sq.com	utai(DEDICATED), utzoo(DIRECT), utcsri(DEDICATED)
+#
+#	sq:	 SUN-3/180S; SunOS 3.0		(mail gateway)
+#	squawk:	 AT&T 3B2/400; SVr2 UNIX
+#	squad:	 AT&T 7300; SV version 2 UNIX
+#	squeak:	 AT&T 6300; SCO Xenix
+#	squat:	 IBM PC/AT; Various PC UNIX-like systems
+#	sqrt:	 IBM PC/RT; AIX (SVr2?) UNIX
+#	squish:	 DEC PDP-11/73; Ultrix-11
+#
+#	Not all machines are always operational.
+#	Send mail to user@sq.com for optimal(?) forwarding to any sq* machine.
+#
+
+SQnet = { sq.com, squawk, squad, squeak, squat, sqrt }(LOCAL)
+
+# miscellany UUCP connections
+
+sq.com	chp(DIRECT),
+	darwin(DIRECT),
+	eris(DIRECT),
+	hcr(DIRECT),
+	jupiter(DIRECT),
+	parkridge(DIRECT),
+	pql(DIRECT),
+	trigraph(DIRECT),
+	utgpu(DIRECT),
+	utfyzx(DIRECT),
+	yup(DIRECT)
+
+#N	.unicus.com, unicus
+#F	uxc.cso.uiuc.edu
+#O	Unicus Corporation
+#C	Eric M. Carroll
+#E	postmaster@unicus.com
+#R	This is the Unicus corporate gateway
+#T	+1 416 967 1320
+#P	1240 Bay St. Suite 201, Toronto, Ont, Canada, M5R 2A7
+#L	79 24 W / 43 40 N city
+#W	emc@unicus.com (Eric M. Carroll); Thu Jul  9 16:15:11 EDT 1987
+#
+unicus	.unicus.com
+unicus=	unicus.com
+unicus	yetti(DIRECT), chp(DIRECT), mnetor(DIRECT), ms(DIRECT),
+	genat(DIRECT), utcsri(DIRECT), geac(DIRECT),
+	uiucuxc(WEEKLY)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

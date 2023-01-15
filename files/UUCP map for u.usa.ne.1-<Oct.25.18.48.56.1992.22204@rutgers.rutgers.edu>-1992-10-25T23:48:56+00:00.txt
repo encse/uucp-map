@@ -1,0 +1,566 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ne.1
+: This archive created: Sun Oct 25 18:48:54 1992
+echo shar: extracting u.usa.ne.1
+cat << 'SHAR_EOF' > u.usa.ne.1
+file{u.usa.ne.1}
+#File maintained by Doug McCallum <dougm@cypress.west.sun.com>; Sun Oct 25 08:54:07 MST 1992
+#Send updates to "uucpmap@rutgers.edu", cc: to me optionally
+#
+
+#N	aglock
+#S	Commodore Amiga 3000; AmigaDOS 2.04
+#O	Unknown Identities, Ltd.
+#C	Richard J. Ohnemus
+#E	aglock!postmaster
+#T	+1 402 292 3956
+#P	3518 Comstock Ave., Bellevue, NE 68123
+#L	095 56 52 W / 041 08 44 N
+#R	Ag is the abbreviation for silver not agriculture
+#R	
+#U	sparky
+#W	aglock!rick (Richard J. Ohnemus); Sun Jan  5 00:32:46 CST 1992
+#
+aglock	sparky(EVENING)
+
+#N	backbone
+#S	ENIAC; TOS V6.3  TCP/IP Version 2
+#O	The Backbone Cabal
+#C	Wayne Schlitt
+#E	cabal@backbone.UUCP
+#T	(402) 483-6437
+#P	2342 So 62nd St, Lincoln NE 68506
+#L	40 46 N / 96 39 W city
+#U	dsndata tssi
+#W	backbone!wayne (Wayne Schlitt);Sun Jun 28 17:42:15 CDT 1992
+#
+backbone	dsndata(DIRECT), tssi(DIRECT), cstreet(DIRECT)
+
+
+#N	.boystown.org, btni
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Boys Town National Research Hospital
+#C	Roger L. Ferrel
+#E	postmaster@boystown.org
+#T	+1 402 498 6618
+#P	555 North 30th St., Omaha, NE 68131
+#L	41 15 N / 96 00 W city
+#R	also Creighton U. Dept. of Otolaryngology & Human Communications
+#R	formally Boys Town National Institute
+#U	sparky, unocss
+#W	ferrel@boystown.org (Roger Ferrel); Thu Oct 10 15:54:11 CDT 1991
+btni	.boystown.org(LOCAL)
+btni	= btni.boystown.org
+btni	= boystown.org
+btni	null(DIRECT), mcmi(DIRECT), pbi(DIRECT), sparky(DIRECT),
+	unocss(DEAD), uunet(DEAD)
+
+
+
+#N	cjs1	
+#S	386 AT; Xenix Sys V  ver.  2.3.3
+#O	C. J. Schneider Structural Engineering Co.	
+#C	Jerry Schneider	
+#E	cjs1!jas	
+#P	5634 South 85 Street, Omaha, NE 68127
+#L	096 31 W / 041 15 N city
+#W	cjs1!jas (Jerry Schneider); Mon Jan 20 14:37:15 CDT
+#
+cjs1	sparky(DIRECT),
+	tuva(DIRECT)
+
+#N	cookie
+#S	Leading Edge Model D; Dos 3.1
+#O	Tiger Software, Inc.
+#C	Eric U. Johnson (Administrator)
+#E	cookie!eric
+#P	P.O Box 31221, Omaha NE  68132
+#R	Copyright (c) 1992 Tiger Software, Inc.  ALL RIGHTS RESERVED
+#R	Use of this information in the compilation of any mailing list
+#R	is expressly forbidden.
+#W	cookie!eric (Eric U. Johnson); Sun May 10 23:07:29 CDT 1992
+#
+cookie	mcmi(WEEKLY), tuva(WEEKLY), null(DAILY)
+
+#N	densun
+#S	Sun 4/370; Sun OS 4.1
+#O	Omaha Public Power District
+#C	Joe Lofshult
+#E	densun!postmaster
+#P	444 South 16th Street Mall, Omaha NE  68102
+#L	41 15 N / 96 00 W city
+#W	densun!joe (Joe Lofshult); Wed Oct 14 12:55:00 CDT 1992
+#
+densun = densun.oppd.gov
+densun  .oppd.gov
+densun	sparky(DIRECT)
+
+#N	drbbs
+#S	Televideo 806/800  D.G. UUCP
+#O	DRBBS Technical BBS
+#C	Jack Winslade
+#E	drbbs!jsw
+#T	+1 402 681 0526
+#P	5078 S. 108 St. #345 Omaha, Ne. 68137
+#L	41 15 N / 96 00 W city
+#R	Good Day!
+#W	jsw@drbbs.omahug.org (John Winslade); Fri Nov 22 16:44:00 CST 1991
+#U    ivgate
+#
+drbbs = drbbs.omahug.org
+
+drbbs ivgate(DEDICATED)
+
+
+
+
+#N	dsndata
+#S	HP 9000/380; HP-UX 8.0
+#O	Design Data Corp.
+#C	Damon Scaggs
+#E	damon@dsndata.UUCP
+#T	(402) 476-8278
+#P	1033 "O" street, Suite 324, Lincoln, NE 68508-3621
+#L	40 48 N / 96 42 W city
+#U	sci.ccny.cuny.edu tssi mmedia sierra netcomsv backbone
+#W	dsndata!damon (Damon Scaggs); Mon May 28 10:00:25 CDT 1992
+#
+dsndata tssi(DIRECT), mmedia(DIRECT), sierra(DIRECT), backbone(DIRECT),
+	<hpfcla>(DEMAND+LOW), <sparky>(DEMAND), <ccnysci>(EVENING+HIGH),
+	unocss(DEAD), netcomsv(DIRECT), <uudell>(DIRECT)
+
+# we poll the following sites often...
+unocss  dsndata(DEAD)
+
+
+#N	ivgate
+#S	386; Gnu UUCP
+#O	Omaha Heath-Zenith Users' Group, Inc.
+#C	Jack Winslade (technical) Mike Riddle (admin)
+#E	ivgate!jsw
+#T	+1 402 681 0526
+#P	POB 777, Bellevue, NE 68005
+#L	41 15 N / 96 00 W city
+#R	Interuniverse Gateway (IVGATE) project of OMAHUG
+#R	Serving the non-profit public-access sites in greater Omaha
+#R	Formerly iugate.unomaha.edu
+#R	Good Day!
+#W	jsw@ivgate.omahug.org (John Winslade); Fri Nov 22 16:44:00 CST 1991
+#U      uunet drbbs
+#
+ivgate = ivgate.omahug.org
+ivgate = .omahug.org
+
+ivgate uunet(DEMAND), drbbs(DEDICATED), sparky(POLLED)
+
+
+
+
+#N      jolly
+#S      Commodore-AMIGA; Amiga-DOS V1.3 & Amiga-UUCP V1.11D
+#O      Advanced Systems Consulting & Design
+#C      Roger Holmstedt
+#E      jolly!roger
+#T      +1 402 571 7054
+#P      8614 Raven Oaks Drive, Omaha, NE  68152
+#L      41 20 30 N / 96 00 00 W
+#R
+#U      midam
+#W      jolly!roger (Roger Holmstedt) ; Saturday 11-May-1991 23:29
+#
+jolly  midam(DIRECT)
+
+
+
+
+#N      kbl
+#S      AT&T PC6300; OPUS System V Release 2 Version 2
+#O      Sterling Software, IMD
+#C      Kent B. Landfield
+#E      kbl!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005-2969
+#L      095 55 43 W / 041 08 49 N
+#R
+#W      kbl!kent (Kent B. Landfield); Tue Oct 29 12:04:45 CST 1991
+#
+kbl = kbl.imd.sterling.com
+
+kbl     sparky(DIRECT)
+
+
+
+
+#N	ltec
+#S	Pyramid OSX; 4.3 BSD
+#O	Lincoln Telephone Company
+#C	Mark Dahmke
+#E	ltec!mdahmke
+#T	+1 402 476 4859
+#P	P.O. Box 81309, Lincoln, NE  68501
+#L	40 48 N / 96 40 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Sun Mar  4 18:10:43 MST 1990
+#U
+#
+ltec		uunet(DEMAND)
+
+
+
+
+#N	ltec1
+#S	Pyramid OSX; 4.3 BSD
+#O	Lincoln Telephone Company
+#C	Mark Dahmke
+#E	ltec1!mdahmke
+#T	+1 402 476 4859
+#P	P.O. Box 81309, Lincoln, NE  68501
+#L	40 48 N / 96 40 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Sun Mar  4 18:10:43 MST 1990
+#U
+#
+ltec1		uunet(DEMAND)
+
+
+
+#N	lvkeep
+#S	Commodore Amiga 1000; AmigaDOS 1.3
+#O	Lord Valentine, Inc.
+#C	Chris M. Olson
+#E	lvkeep!postmaster
+#T	+1 402 292 4064
+#P	507 Gaslight Lane #1, NE
+#L	095 53 00 W / 041 07 55 N
+#R	Could not afford a castle...
+#R	
+#U	sparky
+#W	lvkeep!chris (Chris M. Oslon); Tue Dec 27 12:42:44 CST 1989
+#
+lvkeep	sparky(DIRECT)
+
+
+
+#N	mcmi
+#S	AT&T 3B2/600; UNIX System V Release 3.2.2
+#O	Medical Computer Management Inc.
+#C	Roger Riley
+#E	mcmi!roger
+#T	+1 402 331 6660
+#P	11128 John Galt Blvd., Suite 450, Omaha, NE  68137
+#L	041 12 37 N / 096 05 12 W
+#U	unocss sparky
+#W	mcmi!roger (Roger Riley); Tue, 23 Jul 91 15:37:29 CDT
+#
+mcmi	btni(DIRECT+FAST),   cookie(DIRECT),      dsndata(DAILY), 
+	null(DEMAND),        omaha1(DIRECT+FAST), pbi(DIRECT),
+        sparky(DIRECT+FAST), unocss(DIRECT), zycor(DEMAND)
+
+
+
+#N      midam
+#S      DEC VAX 11/780; VMS 4.6 & DECUS UUCP V1.00
+#O      MidAmerican Communications Corporation
+#C      Mark E. Walker
+#E      midam!postmaster
+#T      +1 402 393 8250
+#P      2918 N. 72 Street, Omaha, NE  68134
+#L      41 15 30 N / 95 57 30 W
+#R	Use of this information in the compilation of any mailing list
+#R	is expressly forbidden.
+#U      unocss
+#W      midam!mmw (Mark E. Walker) ; Sun, 12 May 91 01:52:37 CST
+#
+midam  unocss(DIRECT), jolly(DIRECT)
+
+
+
+#N	mmedia
+#S	Intel 386; SCO XENIX 2.3.2  
+#O	Midwest Multimedia
+#C	David McFarling
+#E	mcfarlin@mmedia.UUCP
+#T	+1 402 467 3591
+#P	3815 Adams Street; Lincoln, NE 68504
+#L	40 50 N / 96 39 W
+#U	dsndata
+#W	mmedia!mcfarlin (David McFarling);  Wed Mar 6 09:38:41 CST 1991
+mmedia	dsndata(DIRECT)
+
+
+
+
+#N	neodata
+#S	Sequent S200/400; DYNIX Release 3.1.4
+#O	NeoData
+#C	Agris Taurins
+#E	neodata!taurins
+#T	+1 402 330 6100
+#P	2840 South 123rd Court #205, Omaha, NE  68144-3977
+#L      41 15 N / 96 00 W city
+#W	neodata!taurins (Agris Taurins); Tue Oct 29 04:10:12 CST 1991
+neodata	sparky(DIRECT+HIGH), dsndata(DEMAND+LOW), sequent(EVENING)
+
+
+
+#N	null
+#S	Plexus P35; System V
+#O	U S WEST Communications
+#C	E. U. Johnson
+#E	null!usenet
+#P	222 South 15th Street - Room 950, Omaha, NE  68102  USA
+#L	095 56 9 W / 041 15 28 N 
+#R	Copyright (c) 1992 U S WEST Communications,  ALL RIGHTS RESERVED
+#R	Use of this information in the compilation of any mailing list
+#R	is expressly forbidden.
+#W	null!eric (E. U. Johnson); Mon Jan 13 16:07:22 CST 1992
+#U	btni
+#
+null    mcmi(DEMAND), btni(DIRECT), sparky(DIRECT), unocss(DEAD),
+	tuva(DIRECT)
+
+#N	pbi
+#S	AT&T 3B2/400; UNIX System V 3.2
+#O	Perfect Byte, Inc.
+#C	Michael Couch
+#E	pbi!postmaster
+#T	+1 402 554 1122
+#P	7121 Cass Street, Omaha, NE  68132
+#L	41 15 48 N / 96 1 25 W
+#R
+#W	pbi!michael (J. Michael Couch); Sat Apr 15 18:43:27 CDT 1989
+#
+pbi	btni(DIRECT), mcmi(DIRECT), sparky(DIRECT),
+	<uunet>(DEMAND)
+
+
+
+
+#N      peppy
+#S      Sun IPC; SunOS Release 4.1.1
+#O      Sterling Software, IMD Inc.
+#C      Kent B. Landfield
+#E      peppy!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005
+#L      095 55 43 W / 041 08 49 N
+#R
+#W      peppy!kent (Kent B. Landfield); Wed Feb 27 12:26:56 CST 1991
+#
+
+peppy = peppy.sterling.com
+peppy = peppy.imd.sterling.com
+
+peppy  sparky(DIRECT)
+
+
+
+
+#N	purrsun
+#S	Sun 4/260
+#O	PRC, Inc
+#C	Wayne Campbell
+#E	purrsun\!wac
+#T	+1 402 293 3967
+#P	1410 Wall Streat, Bellevue, NE 68005
+#L	41 08 N / 95 53 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Sun Sep 22 09:48:15 MDT 1991
+#U
+#
+purrsun uunet(DEMAND), sparky(DIRECT)
+
+#N      risky
+#S      DEC Station 5000/200; Ultrix 4.1
+#O      Sterling Software, IMD Inc.
+#C      Kent B. Landfield
+#E      risky!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005
+#L      095 55 43 W / 041 08 49 N
+#R
+#U      sparky kbl 
+#W      sparky!kent (Kent B. Landfield); Thu Sep  5 22:49:30 1991
+#
+
+risky = risky.sterling.com
+risky = risky.imd.sterling.com
+
+risky  kbl(DIRECT), sparky(DIRECT)
+
+
+
+
+
+#N	.wildernet.com, sierra
+#S	Intel 80386 Clone, Interactive UNIX 2.2.1
+#F	uunet.uu.net
+#O	Advanced System Design
+#C	Randy Terbush
+#E	randyt@wildernet.com
+#T	+1 402 486 4199
+#P	1362 Chautauqua, Lincoln, NE  68510
+#L	40 48 N / 96 42 W city		
+#R	Registered and looking for a forwarder in Lincoln, NE
+#U	dsndata
+#W	randyt@wildernet.com (Randy Terbush); Wed Sept. 4 17:15:00 CDT 1991
+	
+sierra	.wildernet.com
+sierra = sierra.wildernet.com
+sierra	dsndata(DEMAND), sapphire(DEAD)
+sierra = asdnet
+
+
+
+
+#N      sonny
+#S      Sun SparkStation 1+; SunOS Release 4.1.1
+#O      Sterling Software, IMD Inc.
+#C      Kent B. Landfield
+#E      sonny!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005
+#L      095 55 43 W / 041 08 49 N
+#R
+#W      sonny!kent (Kent B. Landfield); Fri Dec 21 20:50:25 CST 1990
+#
+
+sonny = sonny.sterling.com
+sonny = sonny.imd.sterling.com
+
+sonny  sparky(DIRECT)
+
+
+
+
+#N      sparky
+#S      Sun SparkStation 1+; SunOS Release 4.1.1
+#O      Sterling Software, IMD Inc.
+#C      Kent B. Landfield
+#E      sparky!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005
+#L      095 55 43 W / 041 08 49 N
+#R
+#U      aglock btni dsndata lvkeep mcmi neodata uunet ssbell
+#W      sparky!kent (Kent B. Landfield); Fri Jan 17 12:21:10 CST 1992
+#
+ 
+sparky = sparky.sterling.com
+sparky = sparky.imd.sterling.com
+sparky = sterling
+sparky .imd.sterling.com
+ 
+sparky  aglock(EVENING),  btni(DIRECT),   cjs1(DEMAND),    dsndata(DEMAND),
+        ivgate(DIRECT),   kbl(DIRECT),    lvkeep(EVENING), mcmi(DIRECT),
+        neodata(DIRECT),  null(DIRECT),   pbi(DIRECT),     peppy(DIRECT),
+        risky(DIRECT),    sonny(DIRECT),  ssbell(DIRECT),  ssdc(DEMAND),    
+        sunflats(DIRECT), tekky(DIRECT),  tuva(DIRECT),    uunet(DEMAND),
+        unocss(DEMAND)
+
+
+#N      ssbell
+#S      SUN 4/490; SunOS Release 4.1_PSR_A 
+#O      Sterling Software, IMD Inc.
+#C      Kent B. Landfield
+#E      ssbell!postmaster
+#T      +1 402 291 8300
+#P      1404 Ft Crook Road South, Bellevue, NE 68005
+#L      095 55 43 W / 041 08 49 N
+#R
+#W      ssbell!kent (Kent B. Landfield); Mon Sep 16 23:02:16 CDT 1991
+#
+
+ssbell = ssbell.sterling.com
+ssbell = ssbell.imd.sterling.com
+
+ssbell  sparky(DIRECT), kbl(DIRECT)
+
+
+
+#N	tekky
+#S	tektronix XD88/10; UTEKV 3.2e
+#O	Catalytic Solutions
+#C	Gerald W. Cata
+#E	tekky!postmaster
+#T	+1 402 291 7407
+#P	2602 Jackpine Street, Omaha, NE 68123
+#L	095 57 W / 041 08 N 
+#R	
+#W	tekky!gcata (Gerald W. Cata); Fri Apr 5 16:05:36 CST 1991
+#
+tekky	sparky(DIRECT)
+
+
+
+#N	.tssi.com, tssi
+#F	helios.unl.edu
+#S	NCR Tower/450; Sys Vr2 UNIX (NCR version 2.01.00)
+#O	Tailored Software Services, Inc.
+#C	Michael E. Nolan
+#E	nolan@tssi.com
+#T	+1 402 423 1490
+#P	PO Box 22010, Lincoln, NE 68542
+#L	40 49 N / 96 42 W city
+#R	also Cliffs Notes, Inc. and Cliffs Studyware	
+#U	dsndata, backbone, rde
+#W	nolan@tssi.com (Michael Nolan); Fri Jul 10 12:55:20 CDT 1992
+#	
+tssi .tssi.com
+tssi = tssi.com
+tssi dsndata(DIRECT+FAST), mmedia(DIRECT+FAST), backbone(DIRECT+FAST), 
+     rde(EVENING+FAST), fmas(WEEKLY+FAST)
+
+
+#N	tuva
+#S	486/33 AT; SCO 
+#O	-none-
+#C	Bill Mahoney
+#E	tuva!bill
+#P	2312 Country Club Avenue Omaha, NE 68104
+#L	096 31 W / 041 15 N city
+#W	tuva!bill@sparky.imd.sterling.com (Bill Mahoney); Sun, 12 Jan 92 15:30:06 -0600
+#
+tuva	sparky(DIRECT), 
+	null(DIRECT),
+	cjs1(DIRECT)
+
+#N	unocs1
+#S	AT&T 3B2/400; System V Release 3.0
+#O	University of Nebraska at Omaha, Mathematics & Computer Science Dept.
+#C	Stanley Wileman
+#E	unocs1!postmaster
+#T	+1 402 554 2834
+#P	Room 226, Durham Science Center, Omaha, Nebraska 68182-0243
+#L	41 15 30 N / 96 30 0 W
+#W	unocss!stanw (Stan Wileman); Sun Feb 7 17:42:16 CST 1988
+#
+unocs1	unocss(DEDICATED)
+
+
+
+
+#N	unocss
+#S	Sequent B8000; Dynix 2.1
+#O	University of Nebraska at Omaha, Mathematics & Computer Science Dept.
+#C	Stanley Wileman
+#E	unocss!postmaster
+#T	+1 402 554 2834
+#P	Room 226, Durham Science Center, Omaha, Nebraska 68182-0243
+#L	41 15 30 N / 96 30 0 W
+#R	'unocss' replaces the defunct site 'unebocs'
+#U	
+#W	unocss!stanw (Stan Wileman); Fri Jun 10 11:23:02 CDT 1988
+#
+unocss	btni(DIRECT), hdr(EVENING/2), mcmi(DIRECT),
+	pbi(DIRECT), sparky(DIRECT), 
+	unocs1(DEDICATED)
+
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

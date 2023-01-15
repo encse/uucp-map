@@ -1,0 +1,2118 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.hi.1
+#	u.usa.ia.1
+#	u.usa.id.1
+#	u.usa.il.1
+#	u.usa.in.1
+#	u.usa.ks.1
+#	u.usa.ky.1
+#	u.usa.la.1
+# This archive created: Wed Apr 29 03:14:51 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.hi.1
+cat << \SHAR_EOF > u.usa.hi.1
+#	complete, revised u.usa.hi.1 file
+#	most systems absorbed into subdomains of HAWAII.EDU
+#	unable to get response from Maui sites, so dropping them now
+#	Bob Cunningham (bob@hig.hawaii.edu)	13-NOV-1986
+
+#N     	hig
+#S	Harris H800, VOS & VUE operating systems
+#O	Hawaii Institute of Geophysics, University of Hawaii
+#C	Bob Cunningham
+#E	uhmanoa!bob
+#T	+1 808 948 8711
+#P	2525 Correa Road Honolulu HI 96822
+#L	21 18 N /157 49 W
+#R	new site active on or before 31 December 1986
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:01:00 HST 1986
+#
+hig	uhmanoa(DIRECT)
+
+#N	humu
+#S	VAX-11/750; 4.3 BSD
+#O	Naval Ocean Systems Center, Hawaii Laboratory
+#C	Ron Broersma
+#E	nosc!ron
+#T
+#P	P.O. Box 997, Kailua, HI 96734-0997
+#L	21 27 N / 157 56 W
+#R
+#U	nosc islenet uhmanoa uhccux
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:52:00 HST 1986
+#
+humu	nosc(DEMAND),islenet(DEMAND),uhmanoa(DEMAND),uhccux(DEMAND)
+
+#N	islenet
+#S	Dual 83/80; System V UniPlus+
+#O	Islenet Inc.
+#C	Richard Foulk
+#E	islenet!richard
+#T	+1 808 735 5013
+#P	P.O. Box 90155, Honolulu, HI 96835
+#L	21 19 N /157 52 W city
+#R
+#U	humu bigtuna uhmanoa
+#W	islenet!bob (Bob Cunningham); Mon Oct 13 12:12:00 HST 1986
+#       
+islenet	aloha1(DAILY), bigtuna(DIRECT), dual(DAILY), uhccux(DAILY),
+	humu(DEMAND), ihnp4(DAILY), uhmanoa(DIRECT), vortex(WEEKLY)
+
+#N	uhifa
+#S	VAX-11/785; ULTRIX-32
+#O	University of Hawaii Institute for Astronomy
+#C	George Miyashiro
+#E	uhifa!postmaster
+#T	+1 808 948 6826
+#P	Hawaii, Honolulu, HI 96822
+#L	21 19 N / 157 49 W
+#R
+#U	uhmanoa
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:17:00 HST 1986
+#
+uhifa	uhmanoa(DIRECT), noao(DAILY)
+
+#N	uhmanoa
+#S	DEC VAX-11/780; 4.2 BSD
+#O	University of Hawaii, Information & Computing Sciences
+#C	Torben Nielsen
+#E	uhmanoa!torben
+#T	+1 808 948 7175
+#P	Honolulu, HI 96822
+#L	21 18 N /157 49 W
+#R	University of Hawaii gateway, gateway to ICS LAN
+#U	humu uhifa islenet uhpgvax aloha1 uhccux uhunix hawaii
+#W	uhmanoa!bob (Bob Cunningham); Mon Oct 13 12:20:00 HST 1986
+uhmanoa humu(DEMAND), uhifa(DIRECT), islenet(DEMAND), uhpgvax(DIRECT),
+	aloha1(DIRECT), uhccux(DIRECT)
+SHAR_EOF
+echo shar: extracting u.usa.ia.1
+cat << \SHAR_EOF > u.usa.ia.1
+# Doug McCallum <dougm@ico.ISC.COM>; Mon Apr  6 19:13:22 MST 1987
+
+#N	exnet
+#S	VAX 11/730; Berkeley 4.2BSD Unix
+#O	Iowa State University, Extension Computer Service/IPM
+#C	Chris Fields, Dennis Fret, Mary Halstead
+#E	postmaster@exnet.UUCP
+#T	+1 515 294 8352
+#P	110 Bessey Hall, Iowa State University, Ames, Iowa 50011
+#L	42 02 N / 93 37 W city
+#U	isucs1
+#W	exnet!s1chris (Chris Fields); Mon Dec  1 1986
+#
+exnet	isucs1(HOURLY)
+
+
+
+#N      isucs1
+#O      Iowa State University, Department of Computer Science
+#S      DEC VAX-11/780; 4.3BSD
+#C      Brian Justice
+#T      +1 515 294 7214
+#P      223B Computer Science Building, Ames, IA 50011
+#E      usenet@isucs1.UUCP
+#L      42 02 N / 93 37 W city
+#W      isucs1!shaver (Dave H. Shaver); Wed Oct  1 13:09:51 CDT 1986
+#U      umn-cs mcrware
+#
+
+isucs1  umn-cs(EVENING), exnet(DIRECT), okstate(EVENING+HIGH),
+	csu-cs(EVENING*3), rias(DIRECT), mcrware(EVENING),
+	bravo(WEEKLY), suesue(WEEKLY)
+
+
+#N	isuee1
+#O	Iowa State University, Dept. of EECPE
+#S	AT&T 3B20S/SV
+#C	Doug Jacobson
+#T	(515) 294-8307
+#P	253 Coover Hall, Iowa State University, Ames, Iowa  50011
+#E	doug@isuee1.UUCP
+#L	42 02 N / 93 37 W city
+#C
+#W	last edited 2/4/87
+#
+isuee1	isucs1(HOURLY), rias(HOURLY), ihnp4(DAILY)
+
+
+
+#N      mcrware
+#S      DEC VAX-11/750; 4.2 BSD UNIX
+#O      Microware Systems Corporation
+#C      Kim Kempf
+#E      mcrware!kim
+#T      +1 515 224 1929
+#P      1866 N.W. 114th Street, Des Moines, Iowa 50322
+#L      093 46 00 W / 41 36 00 N
+#R      Developers of OS-9
+#U      fluke isucs1 mit-vax
+#W      mcrware!kim (Kim Kempf); Thu Aug  7 10:35:16 CDT 1986
+#
+mcrware fluke(EVENING), isucs1(EVENING)
+
+
+#N	rias
+#O	Iowa State University, Dept. of EECPE
+#S	Type/OS: PDP 11/45 V7m
+#C	Doug Jacobson
+#T	(515) 294-8307
+#P	253 Coover Hall, Iowa State University, Ames, Iowa  50011
+#E	doug@isuee1.UUCP
+#L	42 02 N / 93 37 W city
+#C
+#W	last edited 2/4/87
+#
+rias	isucs1(HOURLY), isuee1(HOURLY)
+
+
+SHAR_EOF
+echo shar: extracting u.usa.id.1
+cat << \SHAR_EOF > u.usa.id.1
+# Usa.id
+# This map is maintained by Karen Summers-Horton (ksh@cbosgd.UUCP)
+
+#N	ui3
+#S	hp9000 series 500; HPUX Version 5.15
+#O	Microelectronics Research Center, Univ. of Idaho, Moscow, ID 83843
+#C	John C. Shovic
+#E	ui3!shovic
+#T	+1 208 885 6554
+#P	MRC College of Engineering, Univ. of Idaho, Moscow, ID 83843
+#L	46 44 N / 116 57 4 W 
+#R
+#U 
+#W	ui3!shovic (John C. Shovic); Tue Jan 13 21:08:39 EST 1987 ksh
+#
+ui3	egg-id
+SHAR_EOF
+echo shar: extracting u.usa.il.1
+cat << \SHAR_EOF > u.usa.il.1
+#N	aicchi
+#S	Plexus P40, UNIX System III
+#O	Analysts International Corp., Chicago Branch
+#C	Douglas H. Price, Dave Ihnat, Ron Spizzirri
+#E	aicchi!price, aicchi!ignatz, aicchi!ron
+#T	+1 312 882 4673
+#P	650 Woodfield Drive, Suite 300, Schaumberg, IL, 60195, USA
+#L	42 04 45 N / 88 02 18 W
+#R	AiC provides computer consulting services.
+#U	hcfeams chinet ihnp4
+#W	aicchi!price (Douglas H. Price); Sat Jan 31 17:52:58 EST 1987
+#
+aicchi	pyrchi(DAILY), ihnp4(DAILY/2), chinet(DAILY/2), intrndr(DAILY),
+	homebru(DEMAND), vfrot(DEMAND), lattice(DEMAND), laidbak(DEMAND),
+	hcfeams(DEMAND), ronsat(DAILY)
+
+#N	anubis
+#S	Pyramid 90x/OSx
+#O	University of Chicago, Computer Science Dept.
+#C	Chris Johnston
+#E	gargoyle!chris
+#T	(312) 962-8440
+#P	Ryerson Hall, 1100 E. 58th St., Chicago, IL 60637
+#L
+#R	pathalias data commented out until update is received
+#U
+#W	gargoyle!chris (Chris Johnston); Fri Jul 29 00:00:00 EST 1985
+#
+#anubis	gargoyle(DEMAND)
+
+#N	bartek1
+#S	Zilog System 8000 model 21, SYSTEM III
+#O	Bartek Associates
+#C	Norman R. Bartek
+#E	bartek1!norm
+#T	+1 312 696 2840
+#P	PO Box 723, Park Ridge, IL  60068-0723
+#L	42 01 N / 87 52 W	
+#R	Consulting on systems, software/hardware, UN*X & C
+#U	tapa sinharat
+#W	bartek1!norm (Norman Bartek); Thu Feb 18 10:26:18 CST 1986
+bartek1	tapa(DEMAND), sinharat(DAILY), ihnp4(DAILY/3)
+
+#N	bohr
+#S	Sun 2; 4.2 BSD UNIX
+#O	National Center for SuperComputer Applications, U. of Illinois
+#C	Larry White
+#E	bohr!white, bohr!postmaster, uiucuxc!postmaster
+#T	+1 217 244 0639
+#P	257 Water Resources Bldg, 605 E Springfield Ave, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Gateway machine between Proteon campus-net and NCSA-net
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+bohr.ncsa.uiuc.edu	= bohr
+private {NCSA-Net}
+NCSA-Net	= { bohr, divinci, planck, pauli } (LOCAL)
+
+#N	bourbaki
+#S	Vax 730, 4.2BSD
+#O	University of Chicago, Mathematics Dept.
+#C	Chris Johnston
+#E	gargoyle!chris
+#T	(312) 962-8440
+#P	5734 S. University Ave., Chicago, IL 60637
+#L	
+#R	pathalias data commented out until update is received
+#U
+#W	gargoyle!chris (Chris Johnston); Fri Jul 29 00:00:00 EST 1985
+#
+#bourbaki	gargoyle(HOURLY)
+
+#N	bradley
+#S	VAX 11/750 4.3BSD
+#O	Bradley University, Text Processing
+#C	Bradley Smith
+#E	bradley!brad
+#T	(309) 677-2337
+#P	Bradley Hall #6, Peoria, IL 61625
+#L	40 42 N / 89 36 W city
+#R	
+#U	uiucdcs cyber bu-jrn bucc2 buea3b2 bueb3b2 buee730
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+bradley	ihnp4(DAILY), uiucdcs(DAILY), cepu(DAILY), bu-jrn(DEMAND),
+	butelcom(DEMAND), provost(DEMAND), glc2ee1(DEMAND), gl01(DEMAND),
+	gl03(DEMAND), noao(DAILY), rembrandt(DEMAND), bucs3b2(DEMAND),
+	buefl(DEMAND), buadm(DEMAND), bueb3b2(DEMAND),
+	buea3b2(DEMAND), buee730(DEMAND), bucc2(DEMAND), linear(DEMAND),
+	msi(DEMAND)
+
+#N	bu-jrn
+#S	PDP 11/73 2.9BSD
+#O	Bradley University, Text Processing
+#C	Bradley Smith
+#E	bu-jrn!brad
+#T	(309) 676-7611, x446
+#P	Peoria, IL 61625
+#L	
+#R
+#U 	bradley
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+bu-jrn	bradley(POLLED)
+
+#N	buadm
+#S	3b2/300 SYSTEM V
+#O	Bradley University, Addmissions Deptartment
+#C	Bradley Smith
+#E	bradley!brad
+#T	(309) 677-2337
+#P	Bradley Hall #6, Peoria, IL 61625
+#L	40 42 N / 89 36 W city
+#R	
+#U	bradley
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+buadm	bradley(POLLED)
+
+#N	buea3b2
+#S	ATT 3b2/300
+#O	Bradley University, E.E. Dept.
+#C	Donald R. Schertz
+#E	buea3b2!don
+#T	(309) 677-2707
+#P	Jobst Hall, Peoria, IL 61625
+#L	40 42 N / 89 36 W city
+#R	
+#U	bradley
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+buea3b2	bradley(DEMAND), bucc2(DEMAND), bueb3b2(DEMAND), buee730(DEMAND)
+
+#N	buefl
+#S	3b2/300 SYSTEM V
+#O	Bradley University, English Deptartment
+#C	Bradley Smith
+#E	bradley!brad
+#T	(309) 677-2337
+#P	Bradley Hall #6, Peoria, IL 61625
+#L	40 42 N / 89 36 W city
+#R	
+#U	bradley
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+buefl	bradley(POLLED)
+
+#N	butelcom
+#S	3b5 SYSTEM V
+#O	Bradley University, Telecommunications
+#C	Bradley Smith
+#E	bradley!brad
+#T	(309) 677-2337
+#P	Bradley Hall #6, Peoria, IL 61625
+#L	40 42 N / 89 36 W city
+#R	
+#U	bradley
+#W	bradley!brad (Bradley Smith); Sat Sep 27 09:22:05 CDT 1986
+#
+butelcom	bradley(DEMAND)
+
+#N	ccvaxa
+#S	Vax 11/750 ; 4.3 BSD
+#O	Gould Computer Systems Division
+#C	Scott Preece, Bruce Zimmerman, Patrick Kane, notes, postmaster
+#E	ccvaxa!preece,ccvaxa!zimmerm,ccvaxa!kane,ccvaxa!notes,ccvaxa!postmaster
+#T	+1 217 384 8500
+#P	1101 East University Ave., Urbana, Il. 61801
+#L	40 07 N / 88 12 W city
+#R	Used for site access to usenet notes
+#U
+#W	ccvaxa!zimmerm (Bruce A. Zimmerman); Mon Jan  5 07:29:03 EST 1987
+#
+ccvaxa	uiucdcs(DIRECT), uiucuxc(DIRECT), trixie(DAILY/4), gould(DAILY/4),
+	rb-dc1(DAILY/4)
+
+#N	cerlpyr
+#S	Pyramid 90x; OSx 2.5
+#O	US Army Construction Engineering Research Lab, Army Corps of Engineers
+#C	Jim Westervelt
+#E	mass1!westerve, uiucuxc!postmaster
+#T	+1 217 352 6511 x449
+#P	US Army CERL, 2902 Newmark Drive, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	General software development.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+cerlpyr		mass1(LOCAL)
+
+#N	chinet
+#S	AT&T 3b2/300 SysVr2
+#O	Chinet - Public Access Un*x
+#C	Randy Suess
+#E	ihnp4!chinet!randy
+#T	+1 312 545 7535
+#P	5219 Warwick Chicago Ill 60641
+#L	87 55 W / 41 54 N
+#R
+#U	ihnp4 hcfeams nucsrl steinmetz
+#W	chinet!randy (Randy Suess) ; Mon Mar 30 08:05:39 EST 1987
+#
+chinet	afbf01(POLLED), aicchi(POLLED), autorad(POLLED), balrog(POLLED),
+	cideq3(POLLED), crdos1(POLLED), ddsw1(POLLED), ethos(POLLED),
+	fmsrl7(POLLED), hcfeams(POLLED), helm(POLLED), homebru(POLLED),
+	ihnp4(HOURLY), irnd1(POLLED), itivax(POLLED), m-net(POLLED),
+	nucsrl(POLLED), osi3b2(POLLED), poot(POLLED), qpsn(POLLED),
+	spudnik(POLLED), sscchi(POLLED), stox(POLLED), sw1a7(POLLED),
+	teachad(POLLED), uklpl(POLLED), vfrot(POLLED), vpnet(POLLED)
+
+#N	clio
+#S	Integrated Solutions Optimum V; 4.2 BSD UNIX
+#O	School of Humanities, University of Illinois, Urbana-Champaign
+#C	Mike Verdeyen
+#E	clio!verdeyen, clio!postmaster, uiucuxc!postmaster
+#T	+1 217 333 7108
+#P	112 English, 608 S Wright St, Urbana, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Also: David Bantz, bantz@clio.soh.uiuc.edu.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+clio.soh.uiuc.edu	= clio
+clio		uiucuxc(HOURLY)
+
+#N	crsp
+#S	Perkin-Elmer 3210, Xelos (System V, Rel. 2)
+#O	University of Chicago
+#C	Alan Becker
+#E	crsp!alan
+#T	(312) 962-7467
+#P	1101 E 58th St., Chicago, IL 60637
+#L	
+#R	pathalias data commented out until update is received
+#U	
+#W	crsp!alan (Alan Becker); Thu Jul 28 00:00:00 EST 1985
+#
+#crsp	gargoyle(DEMAND), ihnp4(DAILY)
+
+#N	ctt
+#S	Heurikon Minibox; System V UNIPLUS+
+#O	C.T. Technologies, Inc.
+#C	M.W. Coe
+#E	uiucuxc!postmaster
+#T	+1 217 398 8594
+#P	25 E Healey, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Used in connection with USA-CERL development
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+ctt	uiucuxc(EVENING)
+
+#N	cyber
+#S	
+#O	Bradley University, Computer Center
+#C	Jeff Hibbard
+#E	cyber.jeff
+#T	(309) 676-7611, x468
+#P	Peoria, IL 61625
+#L	
+#R	On Usenet but not UUCP
+#U	bradley
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985
+
+#N	datamen
+#S	PDP-11/44; UNIX System III
+#O	Datamension Corporation
+#C	Glenn R. Sogge
+#E	datamen!glenn
+#T	+1 312 564 5060
+#P	615 Academy Drive, Northbrook, IL 60062
+#L	87 48 W / 42 15 N
+#R
+#U
+#W	datamen!glenn (Glenn R. Sogge); Sun Dec 21 23:02:53 CST 1986
+#
+datamen	icom(POLLED)
+
+#N	divinci
+#S	Sun 2; 4.2 BSD UNIX
+#O	National Center for SuperComputer Applications, U. of Illinois
+#C	Larry White
+#E	bohr!white, bohr!postmaster, uiucuxc!postmaster
+#T	+1 217 333 6262
+#P	257 Water Resources Bldg, 605 E Springfield Ave, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+divinci.ncsa.uiuc.edu	= divinci
+
+#N	extel
+#S	PDP 11/70 V7/2.8bsd
+#O	Extel, Incorporated
+#C	Larry Pajakowski
+#E	extel!larry
+#T	(312) 291-4991
+#P	4065 Commercial Ave., Northbrook, IL 60062
+#L	42 08 N / 87 52 W
+#R	pathalias data commented out until update is received
+#U	tellab1
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:37:03 GMT 1985
+#
+#extel	tellab1(DAILY), ihnp4(DAILY/3)
+
+#N	fineart
+#S	Compaq 286; Xenix SysV Ver. 2.1.3
+#O	WFMT-FM Chicago's Finearts Radio
+#C	Gordon Carter, Jim Addie
+#E	fineart!postmaster
+#T	+1 312 565 5032
+#P	303 East Wacker Drive, Chicago, IL 60601
+#L	87 37 12 W / 41 53 15 N
+#R	No news at this time
+#U	
+#W	fineart!gordon (Gordon Carter) ; Thur Mar  5 11:52:18 CST 1987
+#
+fineart	numusic(DIRECT)
+
+#N	fthood
+#S	Masscomp MC535; RTU 2.2a
+#O	US Army, HQ III Corps & Ft. Hood
+#C	Emmet P Gray
+#E	fthood!egray, uiucuxc!postmaster
+#T	+1 817 287 8754
+#P	US Army, HQ III Corps & Ft Hood, Attn: AFZF-DE-ENV, Ft Hood, TX 76544
+#L	31 15 N / 97 30 W city
+#R	Geographical analysis of LANDSAT data.  Located near Killeen, TX
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+fthood		uiucuxc(DAILY)
+
+#N	gargoyle
+#S	Vax 11/750; 4.2BSD
+#O	University of Chicago, Computer Science Department
+#C	Chris Johnston
+#E	gargoyle!chris
+#T	(312) 962-8440
+#P	Ryerson Hall, 1100 E. 58th St., Chicago, IL 60637
+#L	41 47.40 N / 87 35.00 W city
+#R
+#U	ihnp4 oddjob sphinx cantor crsp jpusa1 phenix uicbert paladin
+#W	gargoyle!lord (Bob Lord); Tue Sep  9 11:48:43 CDT 1986
+#
+gargoyle	anubis(LOCAL), bourbaki(DEAD), cantor(DEMAND),
+	cerberus(DEMAND), crsp(DEMAND),
+	csrlvax(DEAD), galton(LOCAL), ihnp4(DIRECT),
+	jpusa1(DEMAND), molly(DEMAND), oddjob(LOCAL),
+	paideia(DEMAND), puck(DEMAND), paladin(DEMAND),
+	phenix(DEMAND), puck(DEMAND), sam(DEMAND),
+	sentry(DEMAND), sphinx(LOCAL), spsspyr(DEMAND),
+	swcdbc(DEAD), truth(DEMAND), tuzeus(DEMAND),
+	uicbert(DEMAND)
+
+#N	hcfeams
+#S	DEC VAX-8600; AT&T SysVr2
+#O	ARSB Support Group
+#C	Randy J. Suess 
+#E	ihnp4!hcfeams!randy
+#T	+1 312 727 3861
+#P	625 W Randolph, Chicago Ill 60606 17b
+#L	87 39 W / 41 54 N 
+#R		
+#U	chinet cfmdev aicchi unimar cboenews
+#W	hcfeams!randy (Randy J. Suess); Mon Mar 30 08:04:56 EST 1987
+#
+hcfeams	 chinet(HOURLY), cboenews(HOURLY), aicchi(HOURLY), cfmdev(HOURLY),
+	 unimar(HOURLY)
+
+#N	homebru
+#S	Altos 586; Xenix 3.1a (w/mods)
+#O	Private node
+#C	Dave Ihnat
+#E	homebru!ignatz,aicchi!ignatz
+#T	+1 312 784 4544
+#P	4414 North Malden Avenue, Chicago, Illinois, 60640, USA
+#L	41 50 N / 87 45 W
+#R	Used for consulting software development
+#U	
+#W	homebru!ignatz (Dave Ihnat); Sat Jan 31 17:55:01 EST 1987
+#
+homebru	ihnp4(HOURLY*6), aicchi(HOURLY*6), chinet(HOURLY*6), vfrot(DIRECT),
+	pyrchi(DIRECT), jpusa1(DIRECT), cuaepd(DIRECT), laidbak(DIRECT),
+	teachaid(DIRECT), kashruth(DIRECT), ibc3b5(DEMAND), intrndr(DIRECT),
+	lattice(DEMAND)
+
+#N	ilunix
+#S	DEC VAX-11/780; 5.0.5 UNIX
+#O	Illinois Bell ARSB Support
+#C	Sam Spitzner
+#E	ilunix!sks
+#T	+1 312 727 5129
+#P	225 W Randolph HQ17B Chicago, Ill 60606
+#L	41 50 N / 87 45 W
+#R	Several other UNIX systems tie into this one, locally
+#U	chinet ihnp4
+#W	ilunix!sks (Sam Spitzner); Thu Jan  2 09:22:35 CST 1986
+#
+ilunix	ihnp4(HOURLY), chinet(HOURLY)
+
+#N	intrndr
+#S	National Semiconductor Sys32 running GENIX
+#O	Interand Corporation
+#C	Mike Beirne
+#E	intrndr!beirne
+#T	312-478-1700
+#P	3200 W. Peterson, Chicago,Il 60659
+#L	41 53 N / 87 30 W city
+#R	manufacturer of video teleconference equipment, doesn't get Netnews
+#R	pathalias data commented out until update is received
+#U	aicchi chinet
+#W	fluke!schuh (Mike Schuh); Tue Dec  3 12:33:32 PST 1985
+#
+#intrndr	chinet(DAILY), aicchi(DAILY/2)
+
+#N	invest
+#S	Dual System Corp 83/60; Sys V Rel 1 UniPlus+
+#O	Investment Futures, Inc.
+#C	Gene E. Fowler
+#E	invest!gef
+#T	+1 312 858 9437
+#P	424 Anthony St., Glen Ellyn, Il 60137-4420
+#L	41 52 N / 83 03 W city
+#R
+#U	ihnp4, iitcs, masschgo, wheaton
+#W	invest!gef (Gene E. Fowler); Sun Dec  7 23:33:35 EST 1986 
+#
+invest	dual(EVENING), ihnp4(DIRECT), iitcs(DIRECT+HIGH),
+	masschgo(DIRECT+HIGH), strg8(DIRECT), vpnet(DIRECT), wheaton(DIRECT)
+
+#N	jpusa1
+#S	Viasyn 68k; UniPlus+ System V
+#O	J.P.U.S.A.
+#C	Stu Heiss
+#E	jpusa1!postmaster
+#T	+1 312 989 6338
+#P	4707 N. Malden, Chicago, Il. 60640
+#L	41 50 N / 87 45 W
+#R
+#U	gargoyle
+#W	jpusa1!stu (Stu Heiss); Sun Feb  1 00:13:15 EST 1987
+#
+jpusa1	ihnp4(HOURLY), gargoyle(HOURLY), homebru(DAILY)
+
+#N	kaisqnt
+#S	Sequent Balance 8000; DYNIX 2.0
+#O	Kuck & Associates, Inc.
+#C	Pat Wolfe
+#E	kaisqnt!pat, kaisqnt!postmaster
+#T	+1 217 356 2288
+#P	1808 Woodfield Drive, Savoy, IL  61874
+#L	40 07 N / 88 12 W city
+#R	Software development machine.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+kaisqnt		uiucuxc(DAILY)
+
+#N	laidbak
+#S	Sun 3, Unix 4.3
+#O	Lachman Associates, Inc. (LAI)
+#C	Roger Frauman
+#E	laidbak!postmaster
+#T	(312) 505-9100
+#P	1901 North Naper Boulevard, Naperville, Illinois  60566-1031
+#L	41 47 N / 88 09 W
+#R	
+#U	ihnp4
+#W	laidbak!rlf (Roger Frauman); Fri Dec 12 11:00:56 CST 1986
+#
+laidbak	ihnp4(EVENING), cynosure(WEEKLY), edge(WEEKLY),
+	masscomp(WEEKLY), sun(WEEKLY)
+
+#N	mac
+#S	
+#O	Parks College
+#C	Bob Pasken
+#E	slu70!pasken, mac!pasken
+#T	+1 314 337 7500 x277
+#P	Parks College  Cahokia, IL 62206
+#L	
+#R	
+#U
+#W	plus5!hokey; Sat Feb 21 18:42:14 CST 1987
+#
+mac	slu70(DEMAND)
+
+#N	mass1
+#S	Masscomp MC537; RTU 2.2a
+#O	US Army Construction Engineering Research Lab, Army Corps of Engineers
+#C	Jim Westervelt
+#E	mass1!westerve, uiucuxc!postmaster
+#T	+1 217 352 6511 x449
+#P	US Army CERL, 2902 Newmark Drive, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Geographical analysis of LANDSAT data.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+mass1		uiucuxc(DIRECT), cerlpyr(LOCAL)
+
+#N	masschgo
+#S	Masscomp 5600; RTU 3.1 (System V release 2.2)
+#O	Masscomp
+#C	Brian Kowalski
+#E	masschgo!uucp
+#T	+1 312 519 9040
+#P	300 N. Martingale,  Schaumburg, Ill  60194
+#L	42 01 N / 83 03 W city
+#R	Masscomp Chicago Sales Office
+#U	invest
+#W	masschgo!brian (Brian Kowalski) ; Mon Jan 26 19:54:45 EST 1987
+#
+masschgo	invest(DIRECT), masscomp(DEMAND)
+
+#N	mcdchg
+#S	Motorola Delta 20 (MC68020); SVR3
+#O	Motorola, Microcomputer Division
+#C	Ronald W. Heiby (Ron)
+#E	mcdchg!heiby
+#T	+1 312 576 0347
+#P	2060 East Algonquin Rd., Schaumburg, IL 60173
+#L	42 00 N / 88 08 W
+#R	We pass the unix-pc newsgroups upon request.
+#U	chinet clyde gatech illusion ilmss motcoh motsj1 wucs1
+#W	mcdchg!heiby (Ron Heiby); Tue Mar 17 17:30:00 CST 1987
+#
+mcdchg	cbatt(EVENING),		cbosgd(EVENING),	chinet(DIRECT),
+	clyde(EVENING),		ethos(EVENING),		falkor(WEEKLY),
+	gatech(EVENING),	hrcca(DIRECT),
+	illusion(EVENING),	ilmss(EVENING),		ltuxa(DIRECT),
+	mcdsun(HOURLY),		motchg(DIRECT),
+	motcoh(EVENING),	motdet(DEMAND),
+	motsj1(DEMAND),		motsmo(DEMAND),		mottom(DEMAND),
+	nud(DEMAND),		wucs1(DAILY)
+
+#N	mebhpll
+#S	HP 9000 Series 500; HP-UX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Prof. Jyoti Mazumder
+#E	mebhpll!root
+#T	+1 217 333 1964
+#P	114 MEB, 1206 W. Green St., Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+mebhpll		uiucme(DEMAND)
+
+#N	mebhppp
+#S	HP 9000 Series 500; HP-UX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Prof. Charles Tucker III
+#E	mebhppp!root
+#T	+1 217 333 8042
+#P	215 MEB, 1206 W. Green St., Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Departmental computer
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+mebhppp		uiucme(HOURLY)
+
+#N	melrdgc
+#S	Ridge; ROS
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Prof. Jon Dantzig
+#E	melrdgc!root
+#T	+1 217 333 4107
+#P	352 MEB, 1206 W. Green St., Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+melrdgc		uiucme(DEMAND)
+
+#N	molly
+#S	Sun 2/120; 4.2 BSD UNIX
+#O	Dept. of Mathematics, Northwestern University
+#C	John Franks, Len Evens
+#E	molly!postmaster
+#T	+1 312 491 5548, +1 312 491 5537
+#P	Lunt Hall, 2033 Sheridan Road, Evanston, ILL 60201
+#L	87 40 35 W / 42 3 27 N
+#R	We do not currently get netnews
+#U
+#W	molly!john (John Franks); Fri Feb  7 14:22:08 CST 1986
+#
+molly	ihnp4(DIRECT), numusic(DIRECT), gargoyle(DIRECT), nuearth(DIRECT),
+	iitcs(WEEKLY)
+
+#N	ncsaa
+#S	VAX-11/785; VMS V4.2 (w. Wollongong IP/TCP & Eunice)
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Melanie Anderson
+#E	ncsaa!melanie, uiucuxc!postmaster
+#T	+1 217 244 1249
+#P	150 Digital Computer Lab, 1304 W. Springfield, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	National Center for Supercomputer Applications Cray XMP front end.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+ncsaa.cso.uiuc.edu	=	ncsaa
+
+#N	ncsab
+#S	VAX-11/785; VMS V4.2 (w. Wollongong IP/TCP & Eunice)
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Melanie Anderson
+#E	ncsaa!melanie, uiucuxc!postmaster
+#T	+1 217 244 1249
+#P	150 Digital Computer Lab, 1304 W. Springfield, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	National Center for Supercomputer Applications Cray XMP front end.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+ncsab	=	ncsab.cso.uiuc.edu
+
+#N	nucsrl
+#S	VAX-11/780 ; 4.3BSD UNIX
+#O	Northwestern University Dept. of Electrical Eng. & Computer Sci.
+#C	Jacob Gore
+#E	ihnp4!nucsrl!gore gore@eecs.nwu.edu
+#T	(312) 491-5248
+#P	2145 Sheridan Rd., Evanston, IL 60201
+#L	42 03 33 N / 87 40 32 
+#R	This is being set up as a UUCP gateway into NWU.EDU
+#U	chinet
+#W	gore@eecs.nwu.edu (Jacob Gore); Sun Feb  1 00:21:21 EST 1987
+#
+nucsrl	ihnp4(DIRECT), numusic(DIRECT), molly(DIRECT), nuearth(DIRECT),
+	chinet(DIRECT)
+
+#N	nuearth
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Northwestern University Department of Geological Sciences
+#C	John H. Werner
+#E	nuearth!postmaster
+#T	+1 312 491 3238
+#P	Locy Hall, Evanston, IL  94720
+#L	87 37 56 W / 42 03 04 N
+#R
+#U	We do not currently receive news
+#W	nuearth!werner (John H. Werner); Thu Mar 20 16:21:52 CST 1986
+#
+nuearth	numusic(DIRECT), ihnp4(DIRECT), molly(DIRECT), nucsrl(DIRECT)
+
+#N	numusic
+#S	Pyramid 90x; OSx 3.0
+#O	Northwestern Computer Music (NCM)
+#C	Derek Ludwig, Jim White
+#E	numusic!postmaster
+#T	+1 312 491 3895
+#P	711 Elgin, Evanston IL, 60201
+#L	87 40 30 W / 42 3 34 N
+#R	No news at this time
+#U	
+#W	numusic!derek (Derek Ludwig) ; Wed Mar  4 12:00:38 CST 1987
+#
+numusic ihnp4(DIRECT), nucsrl(DIRECT),  nuearth(DIRECT), molly(DIRECT),
+	nurr(DIRECT), nuisp(DIRECT), goldsho(DIRECT), laidbak(DIRECT),
+	fineart(DIRECT), pyrchi(DIRECT), sunbird(DIRECT)
+
+#N	oddjob
+#S	VAX-11/780; 4.3 BSD UNIX
+#O	University of Chicago; Deparment of Astronomy and Astrophysics
+#C	Matt Crawford
+#E	oddjob!matt
+#T	+1 312 702 8207
+#P	5640 S. Ellis Avenue, Chicago IL 60637
+#L	41 47 32 N / 87 36 08 W
+#R	aka oddjob.UChicago.EDU [128.135.4.2]
+#U	hao mimsy uwvax gargoyle control gizmo ihnp4(L0) sphinx(L0)
+#W	oddjob!matt (Matt Crawford); Tue Mar  3 20:17:41 1987
+#
+oddjob	gargoyle(LOCAL), sphinx(LOCAL*10), control(LOCAL),
+	ihnp4(DIRECT+50), anlams(DIRECT), lbl-csam(HOURLY-50),
+	astrovax(EVENING), noao(EVENING), cfa(EVENING),
+	gizmo(WEEKLY), icebox(DEAD), pupthy(EVENING),
+	anubis(LOCAL), hao(DEDICATED), mimsy(DEDICATED),
+	uwvax(DEDICATED)
+oddjob	.UChicago.edu
+oddjob	UChicago.edu
+oddjob=	oddjob.UChicago.EDU
+
+#N	ohare
+#S	AT&T 3B2/400;UNIX System V Release 2.0.4
+#O	Salse Force Companies, Inc.
+#C	Henry C. Schmitt
+#E	ohare!news, ohare!uucp
+#T	+1 312 671 5460
+#P	4333 Transworld Road; Schiller Park, IL 60176
+#L
+#R	Food Brokerage Company
+#U	cfmdev
+#W	ohare!hcs (Henry C. Schmitt); Thu Feb 11 13:16:29 CST 1987
+#
+ohare	cfmdev(HOURLY*3), ihnp4(HOURLY*6)
+
+#N	paideia
+#S	HP9000; HP-UX 4.02
+#O	University of Chicago; Education Department
+#C	Richard T. Congdon
+#E	paideia!richard
+#T	+1 312 962 9453
+#P	5835 S. Kimbark Ave., Chicago, IL 60637
+#L	
+#R	pathalias data commented out until update is received
+#U	gargoyle, shpinx
+#W	fluke!schuh (Mike Schuh); Fri Aug  9 23:11:41 PDT 1985
+#
+#paideia gargoyle(DEMAND), sphinx(DEMAND)
+
+#N	pallas
+#S	Convergent Technologies MiniFrame; CTIX 3.2 (Unix V.2)
+#O	Athenanet, Inc.
+#C	Lee Bertagnolli
+#E	pallas!lbert359
+#T	+1 217 529 0360
+#P	34 Hazel Lane, Springfield, Illinois
+#L	039 45 W / 089 37 N city
+#R	Host site for Minnie BBS, a semi-private (yet FREE) bulletin board
+#U
+#W	pallas!lbert359 (Lee Bertagnolli); Fri Jan  3 13:23:55 CST 1986
+#	Minnie can be reached at (217) 529-3223, 24 hours each day,
+#	at 300, 1200, and 2400 bps.
+#
+
+#N	planck
+#S	Sun 2; 4.2 BSD UNIX
+#O	National Center for SuperComputer Applications, U. of Illinois
+#C	Larry White
+#E	bohr!white, bohr!postmaster, uiucuxc!postmaster
+#T	+1 217 333 6262
+#P	257 Water Resources Bldg, 605 E Springfield Ave, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+pauli.ncsa.uiuc.edu	= pauli
+
+#N	pauli
+#S	Sun 2; 4.2 BSD UNIX
+#O	National Center for SuperComputer Applications, U. of Illinois
+#C	Larry White
+#E	bohr!white, bohr!postmaster, uiucuxc!postmaster
+#T	+1 217 333 6262
+#P	257 Water Resources Bldg, 605 E Springfield Ave, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+planck.ncsa.uiuc.edu	= planck
+
+#N	plxchi
+#S	Plexus P/60; Plexus UNIX Sys5r2
+#O	PLEXUS Computers, Inc.
+#C	Chuck Sullivan
+#E	plxchi!madmin
+#T	+1 312 627 5300
+#P	2001 Midwest Road; ste 106; Oak Brook, IL 60521
+#L	
+#R	pathalias data commented out until update is received
+#U
+#W	plx!joey (Joseph Yetter); Mon Nov 18 17:10:00 PST 1985
+#
+#plxchi	plx(DEMAND)
+
+#N	pyrchi
+#S	Pyramid 90x, UNIX SV & 4.2
+#O	Pyramid Technology Corp. - Central Region
+#C	Michelle Donat
+#E	pyrchi!michelle
+#T	312-699-0420
+#P	1350 E Touhy Ave; Des Plaines, Il 60018
+#L	42 01 N / 87 80 W
+#R	They used to call themselves by the illegal name pyr_chi
+#R	pathalias data commented out until update is received
+#U
+#W	ihnp4!pyrchi!michelle (Michelle Donat); Sat Aug 10 00:04:05 EDT 1985
+#
+# Costs:
+#	ACU external, uucp/ddd - wide area			(DEMAND)
+#	ACU external, uucp/ddd (hours 2000-0600)- wide area	(EVENING)
+#pyrchi	agrigen(EVENING), aicchi(DIRECT), ihnp4(DIRECT),
+#	mdc1(EVENING), numusic(DIRECT), pyramid(DEMAND),
+#	pyrcorp(DEMAND), pyrlis(DIRECT),  pyrnj(DEMAND),
+#	sphynx(DIRECT), spsspyr(DIRECT), tulane(EVENING),
+#	talcott(EVENING), uiucuxc(EVENING), uiucuxa(EVENING),
+#	uiucdcsp(EVENING), uniqvax(DIRECT), uwvax(EVENING),
+#	chinet(DIRECT) 
+
+#N	riccb
+#S	DEC VAX-11/780-5; UNIX System V Release 2
+#O	Rockwell Telecommunications, Inc.
+#C	David S. Benco
+#E	riccb!netnews
+#T	+1 312 960 8567
+#P	1431 Opus Place, Downers Grove, IL 60515
+#L	41 50 N / 88 00 W
+#R	This is a Rockwell Telecommunications UUCP gateway machine
+#U	ihopa
+#W	riccb!netnews (David S. Benco); Sun Jan  4 12:27:46 EST 1987
+#
+riccb	ihopa(DEMAND), ihnp4(DEMAND+LOW), hropus(HOURLY)
+
+#N	sphinx
+#S	Pyramid 90x/OSx
+#O	University of Chicago Computation Center
+#C	Melinda Shore
+#E	sphinx!shor
+#T	(312)702-8189
+#P	1155 East 60th Street, Chicago, IL 60637-2745
+#L	41 53 N / 87 38 W city
+#R
+#U
+#W	tgt@cbosgd.ATT.COM (Tim Thompson) ; Mon Jan 26 09:26:55 EST 1987
+#
+sphinx	gargoyle(LOCAL), paideia(DEMAND)
+
+#N 	stox
+#S 	AT&T 3B1; UNIX V
+#O 	Autorad, Inc.
+#C 	Kenneth P. Stox
+#E 	stox!ken
+#T 	+1 312 761 1144
+#P 	1636 West Columbia, Chicago, Illinois, 60626
+#L 	87 40 W / 42 00 N
+#R
+#U
+#W 	stox!ken (Kenneth P. Stox); Tue Mar 31 22:44:14 CST 1987
+#
+stox	chinet(DIRECT), vpnet(DEMAND), auto2(DEMAND), cfmdev(DEMAND), 
+	ihop3(EVENING)
+
+#N	symcom
+#S	SUN 3/160; SUN OS 3.0
+#O	Math. Dept., University of Illinois at Urbana-Champaign
+#C	Roman E. Maeder
+#E	symcom!postmaster
+#T	+1 217 333 2563
+#P	130 Altgeld Hall, 1409 W Green St., Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Central machine for the Math. Department
+#U
+#W	symcom!maeder (Roman E. Maeder); Sun Jan  4 16:54:43 EST 1987
+symcom	.symcom.math.uiuc.EDU
+symcom	uiucuxc(DIRECT), uiucmath(DIRECT)
+
+#N	tapa
+#S	PC/AT Xenix 3.0
+#O	Pata Consultants
+#C	Larry Pajakowski
+#E	tapa!larry
+#T	+1 312 291 4991
+#P	PO Box 969F, Wheeling IL 60090
+#L	42 10 N / 87 52 W
+#R	pathalias data commented out until update is received
+#U	extel
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:42:15 GMT 1985
+#
+#tapa	extel(DAILY), ihnp4(DAILY)
+
+#N	tellab1
+#S	
+#O	Tellabs, Inc.
+#C	Steve Harpster
+#E	tellab1!steve
+#T	(312) 969-8800
+#P	4951 Indiana Ave., Lisle, IL 60532
+#L	
+#R	pathalias data commented out until update is received
+#U	ihnp4 tellab2 extel tmq
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985
+#
+#tellab1	tellab2, ihnp4, extel
+
+#N	tellab2
+#S	
+#O	Tellabs, Inc.
+#C	Steve Harpster
+#E	tellab1!steve
+#T	(312) 969-8800
+#P	4951 Indiana Ave., Lisle, IL 60532
+#L	
+#R	pathalias data commented out until update is received
+#U	tellab1, tellab3
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985
+#
+#tellab2	tellab1, tellab3
+
+#N	tellab3
+#S	
+#O	Tellabs, Inc.
+#C	Steve Harpster
+#E	tellab1!steve
+#T	(312) 969-8800
+#P	4951 Indiana Ave., Lisle, IL 60532
+#L	
+#R 	pathalias data commented out until update is received
+#U	tellab2
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985
+#
+#tellab3	tellab2
+
+#N	tlhpcl
+#S	HP 9000 Series 500; HP-UX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Barbara Boni
+#E	tlhpcl!root
+#T	+1 217 333 4724
+#P	Talbot Lab, 104 S Wright St, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+tlhpcl		uiucme(DEMAND)
+
+#N	uicbert
+#S	VAX 11/780; 4.2 BSD UNIX
+#O	University of Illinois at Chicago; Dept of E.E./C.S.
+#C	Ralph Orlick
+#E	uicbert!ralph, uicbert!postmaster, uiucuxc!postmaster
+#T	+1 312 996 3182
+#P	1120 Sci. and Eng. Lab. 851 South Morgan, Chicago, IL 60680
+#L	41 50 N / 87 45 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uicbert		uiucuxc(DEMAND)
+
+#N	uicsg
+#S	VAX-11/780; 4.2 BSD UNIX
+#O	University of Illinois, Computer Systems Group
+#C	Geoff McNiven
+#E	uicsg!mcniven
+#T	+1 217 333 3516
+#P	262 CSL, 1101 W. Springfield, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uicsg.csl.uiuc.edu	= uicsg
+private {CSL-Net}
+CSL-Net	= { uicsg, uicsl, uicslb } (LOCAL)
+uicsg		uiucdcs(DEDICATED), uiucuxc(DEDICATED)
+
+#N	uicsl
+#S	VAX-11/780; 4.2 BSD UNIX
+#O	University of Illinois, Coordinated Science Lab
+#C	David Ballman
+#E	uicsl!ballman
+#T	+1 217 333 7205
+#P	2-110 CSL, 1110 W. Springfield, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uicsl.csl.uiuc.edu	= uicsl
+uicsl		uiucdcs(DEDICATED), uiucuxc(DEDICATED)
+
+#N	uicsrd
+#S	DEC VAX-11/785; 4.2 BSD UNIX
+#O	Univ. of Ill. Center for Supercomputing Research and Development
+#C	Mark Washburn
+#E	uicsrd!postmaster
+#T	+1 217 244 0285
+#P	305 Talbot Lab, 104 S. Wright St., Urbana, IL 61801-2932
+#L	088 13 34 W / 40 06 46 N
+#R	also uicsrd.CSRD.UIUC.EDU on the internet
+#U	uiucdcs 
+#W	uicsrd!washburn (Mark Washburn); Mon Jan  7 09:23:00 CST 1986
+#
+uicsrd	uiucdcs(LOCAL), alliant(DAILY)
+
+#N	uicsrd
+#S	VAX-11/785; 4.2 BSD UNIX
+#O	Center for Supercomputing R&D, University of Illinois, Urbana-Champaign
+#C	Mark Washburn
+#E	uiucuxc!postmaster, uicsrd!postmaster
+#T	+1 217 244 0285
+#P	321C Talbott Lab, 104 S Wright St, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Head of CSRD domain; aka "csrd.uiuc.edu" aka "uicsrd.csrd.uiuc.edu"
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 11:33:34 CDT 1986
+#
+uicsrd.csrd.uiuc.edu	= uicsrd
+uicsrd		uiucdcs(LOCAL), alliant(DAILY)
+
+#N	uiphysed
+#S	PDP-11/73; 2.9 BSD UNIX
+#O	Physical Education Department, University of Illinois, Urbana-Champaign
+#C	Steve Alexander
+#E	uiphysed!stevea, uiucuxc!postmaster
+#T	+1 217 333 7619
+#P	112 Freer Hall, 906 S Goodwin, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Central machine for the Physical Education Department.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiphysed.pe.uiuc.edu	= uiphysed
+uiphysed	uiucuxc(DAILY)
+
+#N	uiucbso
+#S	PDP-11/24; 2.9 BSD UNIX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Jeff Spitler
+#E	uiucbso!spitler, uiucuxc!postmaster
+#T	+1 217 333 7239
+#P	30 MEB, 1206 W Green St, Urbana, Illinois  61801
+#L	40 07 N / 88 12 W city
+#R	BLAST Support Office (bso) machine.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiucbso		uiucuxc(DIRECT)
+
+#N	uiucdcs
+#S	Vax-11/780; 4.3 BSD
+#O	Computer Science Department, University of Illinois at Urbana-Champaign
+#C	Ruth Aydt
+#E	usenet@a.cs.uiuc.edu
+#T	(217) 333-8924
+#P	1304 West Springfield Avenue, Urbana, IL 61801
+#L
+#R	Gateway machine for UIUC CS Department
+#R	aka "a.cs.uiuc.edu" aka "uiuc.arpa"
+#U	pur-ee convex bradley uiucuxc
+#W	essick@a.cs.uiuc.edu (Ray Essick); Mon Jan 26 09:23:31 EST 1987
+#
+a.cs.uiuc.edu	= uiucdcs.cs.uiuc.edu,  uiucdcs, uiuc.arpa, uiuc.csnet
+a.cs.uiuc.edu	= cs.uiuc.edu
+#	a.cs.uiuc.edu will forward to any *.cs.uiuc.edu site
+a.cs.uiuc.edu	.cs.uiuc.edu(LOCAL)
+
+# Connections to UIUC Sites.
+#
+uiucdcs	archebio(DEMAND),
+	uicsl(POLLED), uicsrd(DIRECT), uiucme(POLLED), uiucuxc(DIRECT)
+
+# Connections to non-UIUC Sites.
+#
+uiucdcs	amdcad(DEMAND), bradley(DEMAND+2*LOW),
+	cbatt(DEMAND), cbosgd(DEMAND), ccvaxa(DEMAND), citi(DEMAND),
+	cmcl2(DEMAND), convex(DEMAND), csab(POLLED),
+	fps1(DEAD), fps2(DEAD), gatech(DEAD),
+	harvard(DEMAND),
+	icase(DEAD), icom(DEMAND), ihnp4(DEMAND+4*LOW), ima(DEMAND),
+	meccts(DEMAND), nsc(DEAD),
+	okstate(DEMAND+6*LOW), philabs(DEMAND), plus5(DEMAND),
+	princeton(DEMAND), pur-ee(DEMAND),
+	rayssd(DEMAND), research(DEMAND), rosevax(DEMAND),
+	seismo(DEMAND+LOW), sq(DEMAND), stargate(DEMAND),
+	unify1(DEMAND), wucs(DEMAND)
+#
+# Non-Local Connections used for file transfer; infrequently exercised.
+#
+uiucdcs	purdue(DAILY), ptuvax(DEAD), pyrcorp(DAILY), utah-gr(DEAD)
+
+#N	uiuceml
+#S	PDP-11/60; V7 UNIX
+#O	Eye Movement Lab, Center For the Study of Reading, Univ of Illinois
+#C	J.H. Wilson, D. Zola
+#E	uiuceml!jerry, uiuceml!david, uiucuxc!postmaster
+#T	+1 217 333 7641, +1 217 333 7635
+#P	51 Gerty Drive, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Building is the Children's Research Center west of the Credit Union.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiuceml		uiucuxc(HOURLY)
+
+#N	uiucmath
+#S	VAX Station II; Ultrix 1.1
+#O	Math Department, University of Illinois, Urbana-Champaign
+#C	Daniel R. Grayson
+#E	uiucmath!dan, uiucmath!postmaster, uiucuxc!postmaster
+#T	+1 217 333 6209
+#P	273 Altgeld Hall, 1409 W Green St, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Central machine for the Math Department
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiucmath.math.uiuc.edu	= uiucmath
+uiucmath	uiucuxc(DIRECT)
+
+#N	uiucme
+#S	HP 9000 Series 500; HP-UX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Matt Barnes
+#E	uiucme!matthew, uiucuxc!postmaster
+#T	+1 217 333 9044
+#P	30 MEB, 1206 W Green St, Urbana, Illinois  61801
+#L	40 07 N / 88 12 W city
+#R	Departmental computer
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+uiucme		uiucdcs(DEMAND), uiucme2(HOURLY), uiucuxc(DEMAND),
+		mebhppp(DEMAND), mebhpll(HOURLY), tlhpcl(DEMAND),
+		melrdgc(DEMAND)
+
+#N	uiucme2
+#S	HP 9000 Series 500; HP-UX
+#O	Mechanical & Industrial Eng Dept, Univ of Illinois, Urbana-Champaign
+#C	Matt Barnes
+#E	uiucme2!root
+#T	+1 217 333 9044
+#P	30 MEB, 1206 W Green St, Urbana, Illinois  61801
+#L	40 07 N / 88 12 W city
+#R	Departmental computer
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 15:09:09 CDT 1986
+#
+uiucme2		uiucme(HOURLY)
+
+#N	uiucmsl
+#S	Cadmus 9000; System V UNIX
+#O	Microcomputer Systems Laboratory, Univ of Illinois, Urbana-Champaign
+#C	Gary Mehler
+#E	uiucmsl!mehler, uiucuxc!postmaster
+#T	+1 217 333 5272
+#P	1408 W University Ave, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Main system for MSL
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiucmsl		uiucdcs(DEMAND), uiucuxc(DEMAND)
+
+#N	uiucnpl
+#S	VAX-11/785; VMS 4.2 (w. Wollongong Eunice)
+#O	Physics Dept, University of Illinois, Urbana-Champaign
+#C	Mike Finn
+#E	uiucuxc!finn, uiucuxc!postmaster
+#T	+1 217 333 2358
+#P	209 Nuclear Physics Lab, 2311 Stadium Drive, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Number crunching box for physics data.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+#
+uiucnpl		uiucuxc(DIRECT)
+
+#N	uiucuxa
+#S	Pyramid 90x; OSx 2.5
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Bob Foertsch
+#E	uiucuxa!bob, uiucuxa!postmaster, uiucuxc!postmaster
+#T	+1 217 333 8033
+#P	150 Digital Computer Lab, 1304 W Springfield Ave, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Machine used for beginning computer classes.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+uxa.cso.uiuc.edu	= uiucuxa, uxa, uiucuxa.cso.uiuc.edu
+private {CSO-Net}
+CSO-Net	= { bohr, uinete, uiucuxa, uiucuxe, uiucuxf,
+		uiucuxc, ncsaa, ncsab } (LOCAL)
+
+#N	uiucuxc
+#S	VAX-11/780; 4.2 BSD UNIX
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Paul Pomes
+#E	uiucuxc!postmaster, uiucuxc!paul
+#T	+1 217 333 6262
+#P	150 Digital Computer Lab, 1304 W Springfield Ave, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Head of CSO domain; aka "cso.uiuc.edu" aka "uxc.cso.uiuc.edu"
+#U
+#W	uiucuxc!paul (Paul Pomes); Tue Mar 10 18:22:50 CST 1987
+#
+uxc.cso.uiuc.edu	= uiucuxc, uxc, uiucuxc.cso.uiuc.edu, uiucuxc.arpa
+#
+# Virtual Nodes and who collects for them.
+uxc.cso.uiuc.edu	= cso.uiuc.edu
+#	uxc.cso.uiuc.edu will forward to any *.cso.uiuc.edu site
+uxc.cso.uiuc.edu	.cso.uiuc.edu(LOCAL)
+#
+# UIUC-sites.  panther is the gateway to the Center for Complex Systems
+# Research, but it conflicts with some machine already out there.  A lose
+# for CCSR.
+uiucuxc		cevax(DIRECT), clio(DIRECT), napcc(WEEKLY),
+		uimusic(DIRECT), uiphysed(DIRECT), uiucbso(DIRECT),
+		uiuceml(HOURLY), uiucmath(DIRECT), uiucmsl(HOURLY),
+		symcom(DIRECT), ftir(DAILY), uicsrd(LOCAL),
+		uiucme(DIRECT), uicsl(DEDICATED), uicsg(DEDICATED),
+		uicerl(DIRECT), gslisa(DIRECT), aquifer(DIRECT)
+#
+# Non-UIUC sites
+uiucuxc		ctt(DIRECT), fthood(DAILY/2), pyrchi(EVENING),
+		uicbert(DIRECT),
+		kaisqnt(HOURLY*2), pyrtech(DAILY), wiuhow(DAILY),
+		ccvaxa(DIRECT), wucs1(DEMAND), ihnp4(DEMAND+4*LOW),
+		sys1(DEMAND), eta(DEMAND), unisec(DEMAND),
+		unrvax(DEMAND), melpad(DEMAND), stride(DEMAND),
+		fluke(DEMAND), peregrine(DEMAND), pwcs(DEMAND),
+		crash(DEMAND), oucs(DEMAND), peora(DEMAND),
+		iscuva(DEMAND), unicus(DEMAND), egg-id(DEMAND),
+		mntgfx(DEMAND), quad1(DEMAND), cideq3(DEMAND),
+		aecom(DEMAND), tikal(DEMAND), scgvaxd(DEMAND),
+		quintron(DEMAND)
+
+#N	uiucuxe
+#S	Pyramid 90x; OSx 2.5
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Bob Foertsch
+#E	uiucuxa!bob, uiucuxe!postmaster, uiucuxc!postmaster
+#T	+1 217 333 8033
+#P	150 Digital Computer Lab, 1304 W Springfield Ave, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Machine used for general research.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+uxe.cso.uiuc.edu	= uiucuxe, uxe, uiucuxe.cso.uiuc.edu
+
+#N	uiucuxf
+#S	Sequent Balance 8000; DYNIX 2.0
+#O	Computing Services Office, University of Illinois, Urbana-Champaign
+#C	Bob Foertsch
+#E	uiucuxa!bob, uiucuxf!postmaster, uiucuxc!postmaster
+#T	+1 217 333 8033
+#P	150 Digital Computer Lab, 1304 W Springfield Ave, Urbana, IL 61801
+#L	40 07 N / 88 12 W city
+#R	Machine used for advanced computer classes.
+#U
+#W	uiucuxc!paul (Paul Pomes); Fri Oct 17 14:39:20 CDT 1986
+uxf.cso.uiuc.edu	= uiucuxf, uxf, uiucuxf.cso.uiuc.edu
+
+#N	uniq
+#S	DEC PDP-11/70; System V Release 2.0
+#O	Uniq Digital Technologies, Inc.
+#C	Cletus J. Welsch
+#E	uniq!welsch
+#T	+1 312 879 1566
+#P	28 S. Water St., Batavia, IL 60510
+#L	41 51 13 N / 88 18 41 W city
+#R	
+#U	ihnp4
+#W	uniq!welsch (Cletus J. Welsch); Sun Jan  4 16:56:15 EST 1987
+#
+uniq	ihnp4(DAILY)
+
+#N	vfrot
+#S	Sperry IT (AT clone) 3 Meg ; SCO XENIX System V 2.1.1
+#O	Private Node
+#C	Douglas H. Price, Jane Haldeman
+#E	vfrot!price, vfrot!jane
+#T	+1 312 383 8023	; +1 312 979 3664 (work)
+#P	1016 Columbian, Oak Park, IL 60302, USA
+#L	41 52 04 N / 87 46 43 W
+#R	Name stands for Visual Flight Rules, On Top.
+#	Home machine of two private pilots.
+#U	
+#W	vfrot!price (Douglas H. Price); Sat Jan 31 17:56:28 EST 1987
+#
+vfrot	aicchi(DEMAND), chinet(DIRECT), homebru(DEMAND), ihnp4(DEMAND)
+
+#N	wheaton
+#S	DEC MicroVax II;  Ultrix 1.0
+#O	Wheaton College
+#C	John Hayward
+#E	wheaton!postmaster
+#T	+1 312 260 3871
+#P	Wheaton College, 501 E. Seminary, Wheaton IL 60187
+#L	41 52 20 N / 88 06 15 W
+#R
+#U
+#W	wheaton!stuart (Stuart C. Williams); Mon Mar 31 21:51:01 CST 1986
+#
+wheaton	ihnp4(DAILY/4), invest(DAILY/4)
+
+
+SHAR_EOF
+echo shar: extracting u.usa.in.1
+cat << \SHAR_EOF > u.usa.in.1
+#N	ack
+#S	Altos 986T/40; Xenix 3.0c (System III)
+#O	Computer Specialists, division of Audio Specialists, Inc.
+#C	J. Anderson Dustman
+#E	ack!andy, ack!root
+#T	+1 219 234 5001
+#P	401 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	Computer Specialists sells and supports single- and multi-user systems.
+#U
+#W	ack!andy (J. Anderson Dustman); Mon Jan  6 09:00:25 EST 1986
+#
+ack	alpha(EVENING)
+
+#N	alpha
+#S	Altos 986/40; Xenix Booster Pack (4.2 BSD UNIX)
+#O	Assistive Device Resource Center, Memorial Hospital of South Bend
+#C	Donald K. Irmiger III
+#E	alpha!don, alpha!root
+#T	+1 219 284 3015
+#P	615 North Michigan Street, South Bend, Indiana  USA  46601
+#L	41 41 02 N / 86 15 07 W
+#R	The ADRC aids the handicapped community with assistive devices.
+#U
+#W	alpha!don (Donald K. Irmiger); Sat Jan 04 09:00:00 EST 1986
+#
+alpha	kangaro(HOURLY), pur-ee(DAILY/2), ack(HOURLY), isrnix(DAILY/2),
+	ihnp4(DAILY)
+
+#N	duncan
+#S	Fortune 32:16, 4.1 BSD
+#O	Duncan Communications Bulletin Board System
+#C	Malcolm Duncan
+#E	duncan!root
+#T	(317) 567-2220
+#P	RR #1 Box 98E, Battle Ground, IN 47920
+#L	40 32 42 N / 86 46 15 W
+#R	Public Access Bulletin Board System, news, PD software
+#R	pathalias data commented out until update is received
+#U	duncan
+#W	duncan!root (Malcolm Duncan); Sun Mar 19 22:00:00 EST 1985 
+#
+#duncan	pur-phy(DAILY), kran(DAILY/6), mrstve(DAILY)
+
+#N	hpuinda
+#S	HP9000/500; HPUX
+#O	Hewlett-Packard Indianapolis Office
+#C	Jerry Shurr
+#E	hpuinda!jerrys
+#T	+1 317 844 4100
+#P	11911 N. Meridian, Carmel,IN 46032
+#L	39 46 N / 86 09 W city
+#R
+#U	iubugs
+#W	iuvax!mosier (Steve Mosier); Mon Jul 14 11:32:50 EST 1986
+# 
+hpuinda	iuvax(DIRECT), iubugs(DIRECT), ritron(DAILY), hpfcse(DAILY)
+
+#N	isrnix
+#S	DEC PDP-11/44 2.9BSD
+#O	Indiana University, Institute for Social Research
+#C	Greg Travis
+#E	isrnix!greg
+#T	+1 812 335 0886
+#P	E. 3rd St., Bloomington, IN 47401
+#L	39 10 N / 86 32 W city
+#R	
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:48:38 EST 1987
+#
+isrnix	inuxc(DEMAND), iuvax(LOCAL), pur-ee(DEMAND), pur-phy(DEMAND),
+	qusavx(WEEKLY)
+
+#N	iubugs
+#S	SUN 2/150; 4.2BSD
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall, Bloomington In 47405
+#L	39 10 N / 86 32 W city
+#R	USENET gateway machine, will forward mail to its usenet neighbors.
+#	Runs nntpd / rrn 
+#U	inuxc iuvax isrnix ndmath hpuinda
+#W	iuvax!mosier (Steve Mosier); Wed Jul  2 10:02:37 EST 1986
+# 
+#
+iubugs	iuvax(DAILY), isrnix(DAILY), inuxc(DAILY), kangaro(DAILY),
+	ndmath(DAILY), hpuinda(DAILY)
+
+#N	iucs
+#S	VAX 11-780; Ultrix 1.2
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall 021C Bloomington, In 47405
+#L	39 10 N / 86 32 W city
+#R	iucs.cs.indiana.edu on Internet
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:48:38 EST 1987
+#
+iucs = "iucs.cs.indiana.edu"
+iucs	iuvax(LOCAL)
+
+#N	iuvax
+#S	DEC VAX-8800; Ultrix T2.0-1
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier
+#T	+1 812 335 5561
+#P	Lindley Hall, Bloomington In 47405
+#L	39 10 N / 86 32 W city
+#R	iuvax.cs.indiana.edu on Internet
+#U	inuxc
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:02:37 EST 1987
+#
+iuvax = indiana,indiana.csnet,iuvax.cs.indiana.edu
+#
+iuvax	akgua(DEMAND),cbosgd(DEMAND),hpuinda(DEMAND),ihnp4(DEMAND+LOW),
+	inuxa(DIRECT),inuxb(DIRECT),inuxc(DIRECT),inuxd(DIRECT),
+	inuxe(DIRECT),inuxg(DIRECT),inuxh(DIRECT),inuxi(DIRECT),
+	inuxj(DIRECT),inuxk(DIRECT),inuxl(DIRECT),inuxm(DIRECT),
+	inuxn(DIRECT),inuxo(DIRECT),inuxp(DIRECT),isrnix(DIRECT),
+	iubest(DIRECT),iucs(LOCAL),kangaro(DIRECT), ndmath(DIRECT),
+	purdue(DIRECT),pur-ee(DIRECT),pyramid(1000), seismo(DEMAND),
+	ssp(DEMAND),silver(DIRECT),iubugs(LOCAL)
+
+#N	kangaro
+#S	Altos 586/40; Xenix Booster Pack (System III port with BSD file system)
+#O	Kangaroo Koncepts, Inc.  (The Connection)
+#C	Greg Corson
+#E	kangaro!milo
+#T	+1 219 277 5306 
+#P	19141 Summers Drive, South Bend, Indiana  USA  46637
+#L	41 43 08 N / 86 14 17 W
+#R	We operate a public-access bulletin board service & act as consultants
+#R	pathalias data commented out until update is received
+#U
+#W	kangaro!milo (Greg Corson); Fri Nov  1 15:45:00 EST 1985 
+#
+#kangaro	alpha(HOURLY), pur-ee(DAILY/3), isrnix(DAILY/4)
+
+#N	kran
+#S	NCR Tower XP, System 5.2
+#O	Purdue University, Krannert Graduate School of Management
+#C	Malcolm Duncan
+#E	kran!wmd
+#T	(317) 494-7700
+#P	Krannert Executive Education Programs, W. Lafayette, IN, 47907
+#L	40 27 N / 86 55 W      
+#R	Purdue University, Krannert Executive Education Programs
+#U	kran
+#W	kran!wmd (Malcolm Duncan); Sun Mar 19 22:00:00 EST 1986
+#
+kran	pur-phy(DAILY/6), duncan(DAILY/6)
+
+#N	mwhhlaw
+#S	Fortune 32:16
+#O	Martin, Wade, Hartley & Hollingsworth
+#C	Bob Hartley
+#E	mwhhlaw!bob
+#T	(317) 924-6700
+#P	3590 N. Meridian Street, Indianapolis, IN 46208
+#L
+#R
+#U	inuxc
+#W	mwhhlaw!bob (Bob Hartley); Sat Feb 22 15:40:43 EST 1986
+#
+mwhhlaw	inuxc(DEMAND)
+
+#N	ndmath
+#S	SUN 2; 4.2BSD
+#O	Notre Dame University, Math Dept.
+#C	Ken Grant	
+#E	ndmath!root
+#T	+1 219 239 7694 
+#P	Math Department, Notre Dame University, South Bend IN 46556
+#L
+#R	irishmvs.bitnet Univ. of Notre Dame Comp. Ctr
+#	irishvm.bitnet  Notre Dame PC Lab
+#	not available thru ndmath, send mail to postmaster@irishmvs.bitnet
+#U	iubugs kangaro  
+#W	iuvax!mosier (Steve Mosier); Thu Jul 10 09:48:53 EST 1986
+# 
+ndmath	iuvax(DAILY), alpha(DAILY), iubugs(DAILY), kangaro(HOURLY), ack(HOURLY)
+
+#N	pur-ee
+#S	DUAL VAX 11/780, 4.3BSD
+#O	Purdue University, Electrical Engineering Dept.
+#C	Dave Curry
+#E	pur-ee!davy
+#T	(317) 494-3648
+#P	Electrical Engineering, Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R	This is ECN's administrative machine, and the only true uucp machine.
+#U	inuxc cs-mordred ecn-pc
+#W	pur-ee!davy (Dave Curry); Sun Mar  1 13:02:52 1987 EST
+# We have TCP/IP over Ethernet to these things, but sendmail is smart enough
+# to decode the uucp-ish addresses into what they should be, so just use that
+# mail format.
+ECN    = {ecn-aa,ecn-ab,ecn-ca,ecn-cb,ecn-ec,ecn-ed,ecn-ee,ecn-ef,ecn-eg,
+	  ecn-ei,ecn-ej,ecn-ga,ecn-gb,ecn-ka,ecn-ma,ecn-mb,ecn-pa,ecn-pb,
+	  ecn-pc}!(LOCAL)
+# We talk to all the PUCC and CS machines via Ethernet or Berknet.  I'm 
+# sticking them here just cause it's easier to read and work on.
+TOCS   = {cs-arthur,cs-merlin,cs-mordred,purdue}!(LOCAL)
+TOPUCC = {pucc-c,pucc-d,pucc-e,pucc-h,pucc-i,pucc-j,pucc-k,pucc-n}!(LOCAL)
+pur-ee = ecn-ee
+pur-ee	 ECN, TOCS, TOPUCC,
+	 alpha(DIRECT), ames(DAILY/3+HIGH), cbosgd(DAILY), decvax(DAILY), 
+	 glc2ff1(HOURLY), gould(DAILY), icalqa(DAILY), intelca(DAILY), 
+	 inuxc(HOURLY), isi(DAILY), isrnix(DAILY/3), iuvax(DIRECT), 
+	 kangaro(DIRECT), keep(DAILY/3), lynxys(LOCAL), masscomp(DAILY), 
+	 pur-phy(LOCAL), purdue(LOCAL), spar(DAILY), ucbvax(DAILY)
+
+#N	pur-phy
+#S	DEC PDP-11/44; 2.8 BSD UNIX
+#O	Purdue University Physics Dept.
+#C	Charles R. LaBrec
+#E	pur-phy!news
+#T
+#P	Physics Dept., Purdue Univ., W. Lafayette, IN 47906
+#L
+#R
+#U	pucc-h kran mrstve
+#W	pur-phy!news (C. LaBrec) ; Sun Jan  4 12:30:44 EST 1987
+#
+pur-phy	kran(DEMAND), mrstve(DEMAND), duncan(DEMAND), pur-ee(DEMAND)
+
+#N	purdue
+#S	VAX 8600, Mt. Xinu 4.3BSD with NFS
+#O	Purdue University, Dept. of Computer Science
+#C	Dan Trinkle
+#E	purdue!trinkle
+#T	+1 317 494-7844
+#P	West Lafayette, IN 47907
+#L	40 30 N / 86 55 W
+#R
+#U	
+#W	purdue!trinkle (Dan Trinkle) ; Thu Feb 26 17:30:52 EST 1987
+#
+purdue  .arthur.cs.purdue.edu
+purdue  arthur.cs.purdue.edu
+purdue	allegra(POLLED), convex(POLLED), decvax(POLLED), 
+	decwrl(POLLED), floyd(POLLED), flxdal(POLLED), ihnp4(HOURLY), 
+	iuvax(DEMAND), msdc(POLLED), pur-phy(DEMAND), pur-ee(DEMAND),
+	psuvax1(POLLED), sb6(POLLED), tektronix(POLLED), 
+	ucbvax(POLLED)
+
+#N	c.cc.purdue.edu, d.cc.purdue.edu, e.cc.purdue.edu
+#S	DEC PDP-11/70, 2.9BSD
+#O	Purdue University Computer Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	k.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+c.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+d.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+e.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	h.cc.purdue.edu, i.cc.purdue.edu, j.cc.purdue.edu, k.cc.purdue.edu
+#S	DEC Dual VAX-11/780, 4.3BSD
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	j.cc.purdue.edu n.cc.purdue.edu s.cc.purdue.edu t.cc.purdue.edu pur-phy
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+h.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+i.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+j.cc.purdue.edu	c.cc.purdue.edu(LOCAL), d.cc.purdue.edu(LOCAL),
+	e.cc.purdue.edu(LOCAL), h.cc.purdue.edu(LOCAL), i.cc.purdue.edu(LOCAL),
+	k.cc.purdue.edu(LOCAL), l.cc.purdue.edu(LOCAL), n.cc.purdue.edu(LOCAL),
+	s.cc.purdue.edu(LOCAL), t.cc.purdue.edu(LOCAL), pur-ee(DEDICATED)
+k.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	l.cc.purdue.edu
+#S	DEC VAX-11/780, 4.3BSD
+#O	Purdue University Statistics Department
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	k.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+l.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	n.cc.purdue.edu
+#S	DEC Dual VAX-11/780, 4.3BSD
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	h.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+n.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N	s.cc.purdue.edu, t.cc.purdue.edu
+#S	Sequent Balance 21000, Dynix 2.1
+#O	Purdue University Computing Center
+#C	Rich Kulawiec
+#E	j.cc.purdue.edu!usenet
+#T	+1 317 494 1787
+#P	Math-Science Building, Rm 216, W. Lafayette, IN 47907
+#L	40 30 N / 86 55 W city
+#R
+#U	h.cc.purdue.edu
+#W	j.cc.purdue.edu!rsk (Rich Kulawiec); Fri Mar 13 12:42:58 EST 1986
+#
+s.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+t.cc.purdue.edu	j.cc.purdue.edu(LOCAL)
+
+#N      que
+#S      IBM PC AT/XENIX 3.0
+#O      Que Corporation
+#C      Chris DeVoney
+#E      que!chris
+#T      +1 317 842 7162
+#P      7999 Knue Road, Indianapolis, IN 46250 USA
+#L      39 52 N / 86 09 W
+#R      Que Corp. is a publisher specializing in microcomputer books and mags.
+#R	pathalias data commented out until update is received
+#U      inuxc
+#W	que!chris (Chris DeVoney); Sat Aug 10 16:55:00 EST 1985 
+#       
+#que	inuxc(DIRECT)
+
+#N	silver
+#S	DEC VAX-8650; Ultrics 1.2
+#O	Indiana University, Bloomington Academic Computing Service
+#C	Jeff Russ
+#E	silver!russ
+#T	+1 812 335 2733
+#P	750 N. SR 46, Bloomington, IN 47405-4801
+#L	39 10 N / 86 32 W city
+#R	silver.bacs.indiana.edu on Internet  [ 192.12.206.2 ]
+#U	iuvax
+#W	Steve Mosier <iuvax!mosier>; Wed Mar 25 10:48:38 EST 1987
+#
+silver = silver.cs.indiana.edu
+silver	iuvax(LOCAL)
+
+#N	uextrjs
+#S	PDP-11/34A version7 UNIX
+#O	Unix-System Research Lab, Dept. of Computer Science, Univ. of Evansville
+#C	Hal N. Fuquay
+#E	uextrjs!hal
+#T	812-479-2662
+#P	P.O. Box 329 Evansville, IN 47702
+#L	39 10 N / 86 32 W city
+#R	pathalias data commented out until update is received	
+#U	isrnix inuxc chinet
+#W	uextrjs!root (Name Unknown); Thu Jan  1 00:00:00 EST 1985
+#	
+#uextrjs	isrnix(DAILY), chinet(WEEKLY), inuxc(DEMAND)
+
+SHAR_EOF
+echo shar: extracting u.usa.ks.1
+cat << \SHAR_EOF > u.usa.ks.1
+# u.usa.ks.1 is empty on Thu Nov 13 16:15:27 EST 1986
+SHAR_EOF
+echo shar: extracting u.usa.ky.1
+cat << \SHAR_EOF > u.usa.ky.1
+# u.usa.ky.1
+
+#N	pbc
+#S	Masscomp MC-500
+#O	Pennfield BioMechanics, Inc.
+#C	Sean Casey
+#E	ukma!pbc!sean
+#T
+#P
+#L	37 N / 83 W city
+#U
+#W	last edited, ukma!david, 6-Nov-86
+#
+pbc	ukma(HOURLY)
+
+
+#N	ukecc
+#S	AT&T 3B20S, System 5 Version 2 Release 2 UNIX
+#O	University of Kentucky, Engineering Computing Center
+#C	Scott Senlein, Edward Bennett
+#E	scott@ecc.engr.uky.csnet, edward@ecc.engr.uky.csnet
+#T	(606) 257-175
+#P	Lexington, KY 4050
+#L	37 N / 83 W city
+#R	computing services for the University of Kentucky College of Engineering
+#U	ukma ukee dvt
+#W	Last edited, david@ms.uky.csnet, 6-Nov-86
+#
+# ukecc	.ecc.engr.uky.edu, engr.uky.edu
+ukecc	ukma(HOURLY), ukee(DIRECT)
+
+#N	ukee
+#S	PDP-11/44, 2.9BSD
+#O	Univ. of Kentucky, Dept. of Electrical Engineering
+#C	Edward C. Bennett
+#E	bennett@ee.engr.uky.csnet, edward@ecc.engr.uky.csnet
+#T
+#P	Lexington, KY
+#L	37 N / 83 W city
+#U
+#W	Last edited david@ms.uky.csnet, 6-Nov-86
+# ukee	.ee.engr.uky.edu
+ukee  ukecc(DIRECT), ukma(HOURLY)
+
+#N	ukgs
+#S	PDP-11/24, 2.9BSD
+#O	Univ. of Kentucky, Graduate School
+#C	Sean Gilley
+#E	slg@gs.uky.csnet
+#T	(606) 257-4613
+#P	Patterson Office Tower, Rm. 351, Lexington, KY  40506
+#L	37 N / 83 W city
+#R	Restricted access administrative system.
+#U
+#W	last edited by david@ms.uky.csnet, 6-Nov-86
+# ukgs	.gs.uky.edu
+ukgs 	ukma(DEDICATED)
+
+#N	ukma
+#S	Vax-11/750, 4.2 BSD.
+#O	Univ. of Kentucky, Dept. of Computer Science
+#C	David Herron, Ken Kubota
+#E	david@ms.uky.csnet, ken@ms.uky.csnet
+#T	(606) 257-3641
+#P	Patterson Office Tower, Rm. 915, Lexington, KY  40506-0027
+#L	37 N / 83 W city
+#W 	last edited by david@ms.uky.csnet, 6-Nov-86
+#U	cbosgd psuvm.bitnet hasmed ukecc ulkyvx gtfelix
+#
+# ukma	.ms.uky.edu, .uky.edu
+ukma	.ms.uky.csnet, .uky.csnet, .ukma.bitnet
+ukma 	hasmed(EVENING), cbosgd(DAILY/3), anlams(DAILY/3),
+      	ukgs(DEDICATED), ukee(HOURLY), mason(DEAD), 
+      	ukpa(HOURLY), ukecc(HOURLY), pbc(HOURLY)
+
+#N	ukpa
+#S	Ridge/32
+#O	University of Kentucky, Physics and Astrophysics
+#C	Dr. George Pepper
+#E	ukma!ukpa!root, root@pa.uky.csnet
+#T
+#P	Chemistry Physics Building, Room 239, Lexington, KY 40506
+#L	37 N / 83 W city
+#R
+#U
+#W	Last edited by david@ms.uky.csnet, 6-Nov-86
+#
+# ukpa	.pa.uky.edu
+ukpa	ukma(EVENING)
+SHAR_EOF
+echo shar: extracting u.usa.la.1
+cat << \SHAR_EOF > u.usa.la.1
+# Doug McCallum <dougm@ico.ISC.COM>; Fri Feb 20 20:49:10 MST 1987
+
+#N	conrad
+#S	Integrated Solutions IS68K; 4.2 BSD UNIX
+#O	Steven A. Conrad, MD, PhD
+#C	Steven A. Conrad
+#E	conrad!sac
+#T	+1 318 635 4916
+#P	5711 Lakefront Drive, Shreveport, LA 71119-3913
+#L	93 45 W / 32 30 N city
+#W	conrad!sac (Steven A. Conrad); Mon Nov 17 09:32:12 CST 1986
+#
+conrad	lsumaxx(WEEKLY), lsubiom(WEEKLY), bles(WEEKLY), daystrom(WEEKLY)
+
+
+#N	lsubiom
+#S	DEC PDP11/70; ULTRIX-11
+#O	Louisiana State Univ Medical Center Shreveport - Biometry
+#C	Steven A. Conrad
+#E	lsubiom!sac
+#T	+1 318 674 5927
+#P	P.O. Box 33932, Shreveport, LA 71130-3932
+#L	93 45 W / 32 30 N city
+#W	lsubiom!sac (Steven A. Conrad); Mon Nov 17 09:45:12 CST 1986
+#
+lsubiom	lsumaxx(DIRECT+HIGH), conrad(WEEKLY), bles(DAILY), lsursip(DAILY)
+
+
+#N	lsumaxx
+#S	DEC PDP11/83; ULTRIX-11
+#O	Louisiana State Univ Medical Center Shreveport - Toxicology
+#C	Steven A. Conrad
+#E	lsumaxx!sac
+#T	+1 318 674 5927
+#P	P.O. Box 33932, Shreveport, LA 71130-3932
+#L	93 45 W / 32 30 N city
+#W	lsumaxx!sac (Steven A. Conrad); Mon Nov 17 09:45:12 CST 1986
+#
+lsumaxx	lsubiom(DIRECT), conrad(WEEKLY)
+
+
+
+#N	rpp
+#S
+#O	River Parishes Programming
+#C	John F. Haugh II
+#E	tulane!rpp!jfh
+#T	504-733-2091
+#P	6525 Park Manor Dr. #13, Metairie, La. 70003
+#L	30 00 N / 90 01 W
+#U
+#R
+#W	jfh@rpp.UUCP; Aug 8, 1985
+#
+rpp	assured(DAILY),tulane(EVENING),pyuxqq(DEMAND+LOW)
+
+
+#N	tu-pul
+#S	AT&T 3B2/20, System 5.2
+#O	Tulane Medical Center, Pulmonary Research Center
+#C	J. E. Diem
+#E	{akgua,ihnp4,ulysses}!tulane!tu-pul!jed
+#T	
+#P	
+#L	30 N / 90 W
+#R	
+#W	
+#
+##################################################
+# 	tu-pul
+#
+tu-pul	tulane
+
+
+#N      tulane
+#S      Pyramid 90x; OSx 3.1
+#O      Tulane University
+#C      Darrin J. Anthony (dja)
+#E      postmaster@tulane.UUCP
+#T      +1 504 865 5840
+#P      Department of Computer Science, New Orleans, LA 70118
+#L      090 00 00 W / 30 00 00 N
+#R      also known as TULANE on CSNET
+#U      akgub
+#W      tulane!mb (Mark Benard); Sat Nov 8 17:00:00 CDT 1986
+#
+tulane  ulysses(EVENING), akgua(EVENING), tu-pul(DIRECT),
+	comus(DEDICATED), momus(DEDICATED)
+
+
+
+#N	usl
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	University of Southwestern Louisiana, Center for Advanced Computer Studies
+#C	Patrick Landry
+#E	usl!postmaster
+#T	+1 318 231 6284
+#P	P.O. Box 44330, Lafayette, LA 70504-4330
+#L	30 12 N / 92 02 W
+#R
+#U	akgua
+#W	usl!pml (Patrick Landry); Fri Jun  6 10:48:05 CDT 1986
+#
+usl	ut-sally(DAILY/2), akgua(DAILY), akgub(DAILY)
+#
+USL-ETHER = @{usl, usl-pa, usl-pb, usl-pc}(LOCAL)
+
+
+
+#N	usl-pa
+#S	Pyramid 90x; OSx V??
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 2770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!pml (Patrick Landry); Fri Jun  6 10:48:05 CDT 1986
+#
+usl-pa	USL-ETHER
+
+
+
+#N	usl-pb
+#S	Pyramid 90x; OSx V??
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 2770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!pml (Patrick Landry); Fri Jun  6 10:48:05 CDT 1986
+#
+usl-pb	USL-ETHER
+
+
+
+#N	usl-pc
+#S	Pyramid 90x; OSx V??
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 2770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!pml (Patrick Landry); Fri Jun  6 10:48:05 CDT 1986
+#
+usl-pc	USL-ETHER
+
+
+SHAR_EOF
+#	End of shell archive
+exixix

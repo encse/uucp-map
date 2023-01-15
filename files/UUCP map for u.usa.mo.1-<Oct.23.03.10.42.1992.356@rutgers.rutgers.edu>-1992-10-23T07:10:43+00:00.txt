@@ -1,0 +1,945 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mo.1
+: This archive created: Fri Oct 23 03:10:40 1992
+echo shar: extracting u.usa.mo.1
+cat << 'SHAR_EOF' > u.usa.mo.1
+file {u.usa.mo.1} # Thu Oct 15 20:38:29 CDT 1992
+#	maintained by usa-mo@pfcs.com
+
+#N	abstl
+#O	Anheuser-Busch, Inc.
+#C	Jim Wingbermuehle
+#T	+1 314 577 7076
+#P	One Busch Place, Bldg. 202-3, St. Louis, MO 63118
+#E	abstl!zjjw
+#L	38 38 N / 90 11 W city
+#R	
+#W	abstl!zjjw; Fri Sep 25 10:53:43 CDT 1992
+#U	
+#S	3B2-1000/80; SV R3.2.3
+#
+abstl	plus5(HOURLY),
+	selab(HOURLY),
+	we53(HOURLY),
+	glmpc(DAILY)
+
+#N	amgraf
+#S	80386; SCO Xenix
+#O	Amgraf, Inc.
+#C	Huver Hu
+#E	amgraf!postmaster
+#T	+1 816 474 4797
+#P	1501 Oak, Kansas City, MO 64108
+#L	39 05 N / 94 34 W city
+#U	brian386 rjmkc cpsolv
+#W	amgraf!huver (Huver Hu);  Tue Sep 22 16:10:06 CDT 1992
+#
+amgraf	.amgraf.com
+amgraf	= amgraf.com
+amgraf	uunet(EVENING+FAST), rjmkc(DIRECT+FAST),
+	gator(EVENING+FAST), <cpsolv>(DIRECT), <plus5>(WEEKLY+FAST),
+	<brian386>(DIRECT+HIGH), <wbm486>(DIRECT+HIGH)
+
+#N	artisans
+#S	Intel 486; UNIX SysVr4
+#O	Computer Artisans
+#C	Rick Moll
+#E	artisans!postmaster
+#T	+1 314 822 4263
+#P	503 McLain Lane, Kirkwood, MO 63122
+#L	38 35 N / 090 35 W
+#R
+#U
+#W	artisans!rick (Rick Moll); Mon Jul 13 15:16:07 CDT 1992
+#
+artisans	wupost(DAILY)
+artisans	.cart.com
+artisans	=artisans.cart.com
+artisans	=cart.com
+
+#N	booga
+#S	Compaq 8086; MSDOS 3.1
+#O	none
+#C	Ken Hardy
+#E	booga!ken
+#T	+1 314 567 8456
+#P	2684 McKelvey Rd, Maryland Heights, MO 63043
+#L	38 40 N / 90 20 W city
+#W	racerx!ken (Ken Hardy); Thu Apr 23 00:01:05 CDT 1992
+#
+booga	racerx(EVENING)
+
+#N	boogie
+#S	I386 + Concensys SVR4
+#O	Power SIX Drag Racers
+#C	Larry Ash
+#E	boogie!larry
+#T	+1 314 391 7685
+#P	403 Crestbury Dr., Manchester, MO 63011
+#L	38 38 N / 90 18 W City
+#R	A private system.
+#W	boogie!larry (Larry Ash); Wed Sep 30 11:13:49 CDT 1992
+#U
+#
+boogie	amdahl(DIRECT)
+
+#N	bosparc
+#S	Sun SparcStation 1; SunOS 4.1.1
+#O	Bridge Information Systems, Inc.
+#C	Ken Hardy
+#E	racerx!postmaster
+#T	+1 314 567 8456
+#P	717 Office Parkway, St. Louis MO 63141
+#L	42 21 N / 71 03 W city
+#W	racerx!ken (Ken Hardy); Thu Apr 23 00:01:05 CDT 1992
+#
+bosparc	racerx(DEMAND)
+
+#N	brian386
+#S	Acer/20, ISC v2.2
+#O	McCane Consulting
+#C	Wm. Brian McCane
+#E	brian386!new
+#T	+1 816 252 6923
+#P
+#L
+#R
+#W	brian386!new (Wm. Brian McCane); Wed Nov 20 13:34:00 CDT 1991
+#U	wbm486 genco amgraf
+#
+brian386	wbm486(DEAD),genco(DEAD),amgraf(DIRECT+HIGH)
+
+#N	bullwinkle
+#S	NeXT; NeXT OS 2.1
+#O	Essex Information Systems
+#C	Steve Dieringer
+#E	bullwinkle!steved
+#T	+1 314 235 5166
+#P	7 Chaminade, Creve Coeur, MO 63141
+#L	38 38 N / 90 18 W CITY
+#U	wupost nimno
+#W	steved%bullwinkle@wupost.wustl.edu (Steve Dieringer); Wed Nov  13 15:56:26 CST 1991
+#
+bullwinkle	.essex.com
+bullwinkle	=essex.com
+bullwinkle	=bullwinkle.essex.com
+#
+bullwinkle	wupost(DIRECT), nimno(DIRECT)
+
+#N	campfire
+#S	CompuAdd 216; AT&T MSDOS 4.01 Revision 1.0
+#O	Residence of David J. Camp
+#C	David J. Camp
+#E	david@wubios.wustl.edu
+#T	+1 314 382 0584
+#P	6103 Charlotte Avenue, St. Louis, MO 63120-1201
+#L	38 38 N / 90 18 W CITY
+#R	remarks
+#U	
+#W	david@wubios (David J. Camp) ; 13 December 1991
+#
+campfire	wupost(HOURLY),attmail(HOURLY)
+
+#N	charro
+#S	Unisys 5050; UNIX 5.2
+#O	The Charron Law Firm
+#C	John Charron
+#E	group@charro.uucp
+#T	+1 314 993 4550
+#P	10411 Clayton Road, Suite 204; St. Louis, MO 63131
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Mon Apr 13 09:12:56 CDT 1992
+#
+charro	wupost(DIRECT), <attmail>(DAILY)
+
+#N	cheswicks
+#S	80 DATA 386/33DX; DOS 5.0
+#O	ToadNet
+#C	Chelsea Cartstedt
+#E	chelsea@f3.n8012.z86.toadnet.org
+#T	+1 314 965 7590
+#P	234 Couch Avenue; St. Louis, MO 63122
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Aug 12 07:12:53 CDT 1992
+#
+cheswicks	wupost(DIRECT)
+cheswicks	=f3.n8012.z86.toadnet.org
+cheswicks	.toadnet.org
+
+#N	compusci
+#S	Western Digital 486; SCO UNIX 3.2.4
+#O	CompuSci
+#C	Mike Morey
+#E	mike@compusci.uucp
+#T	+1 314 343 5022
+#P	1642 Manufacturers Drive; Fenton, MO 63026
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Apr 22 14:09:12 CDT 1992
+#
+compusci	wupost(DIRECT)
+compusci	= compusc
+
+#N	cpqkw
+#S	Deskpro 386/33C Sco Unix 3.2.2
+#O	Data Trade
+#C	Kevin Wormington
+#E	cpqkw!root
+#T	+1 417 886 4298
+#P	3703 W. Sylvania Springfield, MO 65807
+#L	37 12 N / 93 17 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Oct  7 12:11:08 EDT 1991
+#U
+#
+cpqkw	uunet(DEMAND)
+
+#N	csc1
+#S	Hewlett-Packard 720; HP/UX 8.0
+#O	The Principia
+#C	Chris Davis
+#E	chris@csc1.prin.edu (Chris Davis)
+#T	(314) 275-3502
+#P	The Principia; 13201 Clayton Road; Saint Louis, MO 63131
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Thu Apr  2 12:50:18 CST 1992
+#
+csc1	.prin.edu
+csc1	=csc1.prin.edu
+
+csc1	wupost(DIRECT)
+
+#N	cssodt
+#S	486/33 SCO Open Desktop
+#O	Common Sense Software
+#C	Bart Ridge
+#E	cssodt!bartr
+#T	+1 816 472 8600
+#P	2900 Rockcreek Parkway, Suite 760, North Kansas City, MO 64117
+#L	39 12 N / 94 33 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Nov  6 09:56:53 EST 1991
+#U
+#
+cssodt	uunet(DEMAND)
+
+#N	dflora
+#S	NeXT
+#C	Peter Wilson
+#E	dflora!peter@wpa.com
+#T	+1 314 776 2869
+#P	4526 Shenandoah, St. Louis, MO 63110
+#L	38 37 N / 90 11 W city
+#R	Work on Floristic Database (Misouri Botanical
+#	Gardens).Develop botanical apps for the NeXT.
+#W	john@wpa.com (John Bartley); Wed Jun 24 09:00:00 CDT 1992
+#U	nimno
+#
+
+dflora	nimno(DIRECT)
+
+#N	digsys
+#S	DEC MicroVAX-3100; VAX/VMS 5.4-2
+#O	Digital Systems Consultants
+#C	Mark Gillespie
+#E	gillespie@digsys.uucp
+#T	+1 314 432 8200
+#P	One Cityplace Drive, Suite 240; Saint Louis, MO 63141
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Jul 22 10:14:31 CDT 1992
+#
+digsys	wupost(DIRECT)
+digsys	=digsys.digsys.com
+digsys	.digsys.com
+
+#N	dinorah
+#S	DEC MicroVAX-II; Ultrix 3.1
+#O	Computerized Medical Systems
+#C	Ken Krippner
+#E	dinorah!kek
+#T	+1 314 434 4394
+#P	56 Worthington Drive, Maryland Heights MO
+#L	38 38 16 N / 90 15 54 W
+#U	wuarchive
+#W	plus5!harlan; Fri Jan 17 00:20:12 CST 1992
+#
+dinorah	.cms-stl.com
+dinorah=cms-stl.com
+dinorah plus5(DIRECT), wupost(LOCAL)
+
+#N	dukemfg
+#S	NeXT; Mach
+#O	Duke Manufacturing Co.
+#C	Linda Coonrod
+#E	linda@dukemfg.uucp
+#T	+1 314 231 1130 x215
+#P	2305 North Broadway; St. Louis, MO 63102
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Apr 22 09:33:29 CDT 1992
+#
+dukemfg	wupost(DIRECT), nimno(DIRECT)
+
+#N	east-win
+#S	386 Dell Microport SVR4; Version 2.2
+#O	East Wind Community
+#C	Jim Kingdon
+#E	east-win!postmaster
+#T	+1 417 679 4682
+#P	Rt 3 Box 6B2, Tecumseh, MO 65760
+#L	36 35 N / 92 17 W city
+#R
+#W	kingdon@east-wind.org (Jim Kingdon); Mon Aug 31 13:51:38 CDT 1992
+#U
+#
+east-win	= east-wind.org
+east-win	uunet(DEMAND)
+
+#N	fcemoe
+#S	Intergraph Clipper System V
+#O	FRU-CON Engineering
+#C	Dean T. Modde
+#E	fcemoe!root
+#T	+1 314 391 4404
+#P	P.O. Box 100, Ballwin, MO  63022-0100
+#L	38 35 N / 90 32 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Jul 30 12:13:10 EDT 1991
+#U
+#
+fcemoe	uunet(DEMAND)
+
+#N	genco
+#S	AT&T 3B2/400; System V Release 3.2
+#O	Gentry & Associates
+#C	R. Arthur Gentry
+#E	rag@genco.bungi.com
+#T	+1 816 637 2443
+#P	P.O. Box 38, Excelsior Springs, MO 64024-0038
+#L	39 6 N / 94 35 W
+#R	Gentry & Assoc. is a consulting firm specializing in unix[tm]
+#U	daver bmskc u6060 wbm486
+#W	rag@genco.bungi.com (R. Arthur Gentry); Tue Aug 18 11:20:13 CDT 1992
+#
+genco=  genco.bungi.com
+genco=	kcdev
+u6060=	kcpl
+genco   interex(DEMAND+LOW), daver(DEMAND+FAST),
+	bmskc(DEAD), wbm486(POLLED+HIGH),
+	u6060(POLLED+LOW), hughes(DEMAND+LOW)
+
+#N	glmpc
+#O	none - privately owned
+#C	Gary Mann
+#T	+1 314 391 0537
+#T	+1 314 577 2598
+#P	P. O. Box 166, Ballwin, MO 63022
+#E	glmpc!glm
+#L	
+#R	System running UNIX (PC Release) 3.5 (close to SVR2)
+#W	glmpc!glm; Sun Aug 26 16:43:26 CDT 1990
+#U	
+#S	UNIX PC (7300)
+
+glmpc	abstl(DEMAND)
+
+#N	gracehill
+#S	DEC VAX 8350: VMS V5.5
+#O	Grace Hill Neighborhood Services
+#C	Michael Morrow-Howell, Van Heins
+#E	gracehill!postmaster
+#T	+1 314 539 9552
+#P	2600 Hadley St., St. Louis MO 63106 
+#L      90 45 N / 38 40 W city
+#R	Running DECUS uucp V2 
+#W	gracehill!vanh (Van Heins): Mon Aug 31 13:45 CDT 1985
+gracehill    wupost(DIRECT)
+
+#N	hok
+#S	Next or SGI Indigo
+#O	Hok Inc.
+#C	Nathan Huebner
+#E	hok!nathan
+#T	+1 314 421 2000
+#P	1831 Chestnut Street, Saint Louis, MO  63103
+#L	38 37 N / 90 11 W
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Jan 6 19:00 CST 1992 
+#U
+#
+hok	uunet(DEMAND)
+
+#N	jgaltstl
+#S	Wyse 386
+#O	The Lafayette Group
+#C	Terry R. Linhardt
+#E	jgatlstl!root
+#T	+1 314 772 4762
+#P	P.O. Box 2182, St. Louis, MO 63158
+#L	38 37 N / 90 11 W [city]
+#R
+#W	chris@wugate.wustl.edu; Wed Feb 19 14:04:02 CST 1992
+#U
+#
+jgatlstl	uunet(DEMAND), wupost(DIRECT)
+
+#N	kcd486a
+#S	Mips RC 3360; Unix Sys. V; BSD 4.3
+#O	Allied Signal Aerospace
+#C	A.R. Van Hook
+#E	kcd486a!root
+#T	+1 816 997 3531
+#P	2100 East 95th, Kansas City, MO 64131
+#L	39 05 N / 94 34 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Mar 24 10:27:51 EST 1992
+#U
+#
+kcd486a	uunet(DEMAND)
+
+#N	kcrover
+#S	386AT clone;Xenix System V/386 2.3.3
+#C	Rick Kramer
+#E	kcrover!rick
+#T	+1 816 891 7302
+#P	12918 N.W. 78th Terr., Parkville, MO 64152
+#L	39 N / 94 30 W (city)
+#R	Personal System w/ Xenix (for work); Phone is residence line
+#U	boulder osu-cis
+#W	kcrover!rick (Rick Kramer); Sat Aug 10 12:07:06 MDT 1991
+#
+kcrover	osu-cis(WEEKLY), boulder(WEEKLY)
+
+#N	kcufgat, .n280.z1.fidonet.org
+#S	80386/ISA; PC-DOS 3.3
+#O	BenNETt BBS Host System
+#C	David H. Bennett
+#E	kcufgat!root
+#T	+1 816 228 1670
+#P	1100 Liggett Court, Blue Springs, MO  64015
+#L	39 01 N / 94 17 W city
+#U	genco
+#R	1:280/500 running UFGATE, Kansas City FidoNet (1:280) Internet Gateway
+#W	merlin@ns.fidonet.org (Burt Juda); Sun Oct 27 15:00:00 EST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+kcufgat=	kcufgat.fidonet.org, f500.n280.z1.fidonet.org
+kcufgat	genco(DAILY)
+
+#N	liebe
+#S	Micronics 486; Xenix 2.3.4
+#O	The Liebe Group
+#C	Jimmy Liebe
+#E	jimmy@liebe.com
+#T	+1 314 532-1614
+#P	582 Goddard Avenue; Chesterfield, MO 63005-1109
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Thu Apr 16 12:44:09 CDT 1992
+#
+liebe	=liebe.com
+liebe	=liebe.liebe.com
+liebe	.liebe.com
+
+liebe	wupost(DIRECT)
+
+#N	mdceng
+#S	IBM RS/6000; AIX 3.1.5
+#O	Missouri Conservation Dept.
+#C	Jeff Kunce
+#E	mdceng!root
+#T	+1 314 751 4115
+#P	P.O. Box 180, Jefferson City, MO 65102
+#L	38 34 N / 92 10 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Nov  5 14:20:41 EST 1991
+#U
+#
+mdceng	uunet(DEMAND)
+
+#N	mds1
+#S	Unisys 5000/70; CENTIX sysV.2
+#O	Mylee Digital Sciences, Inc.
+#C	Curtis Schaible
+#E	uunet!racerx!mds1!curt
+#T	+1 314 256 8221
+#P	433 Sovereign Court, St. Louis, MO 63011
+#L	38 36 N / 90 32 W
+#R
+#U	racerx
+#W	mds1!curt (Curtis Schaible); Thu Jun 25 12:00:00 CDT 1992
+#
+mds1	racerx(EVENING)
+
+#N	.meridiantc.com, meridian
+#F	wupost.wustl.edu
+#S	DEC MicroVAX-II; VMS V5.4-1
+#O	Meridian Technology Corporation
+#C	Kenneth B. Denson
+#E	postmaster@meridiantc.COM
+#T	+1 314 532 7708
+#P	11 McBride Corp. Center Dr. - Suite 250, Chesterfield, MO 63005-1406
+#L	38 40 N / 90 40 W
+#R	Running DECUS uucp V1.1; registered Internet domain 192.65.254.1
+#U	
+#W	meridian!postmaster (Ken Denson> Fri Oct 25 10:00:00 CDT 1991
+#
+meridian	.meridiantc.com
+meridian=	magic.meridiantc.com
+meridian=	meridiantc.com
+
+meridian	wupost(DIRECT+FAST)
+
+#N	mumps
+#O	PFCS Corporation
+#C	Harlan Stenn
+#T	+1 314 230 8847
+#P	PO Box 1806, Manchester MO 63011-8806
+#E	mumps!harlan
+#L
+#R	
+#W	pfcs!harlan; Thu Mar 28 12:48:57 CST 1991
+#U
+#S	
+#
+mumps	plus5(DIRECT)
+
+#N	nimno
+#F	wupost.wustl.edu
+#S	Next; NeXTSTEP 2.1
+#O	Workgroup Productivity Associates
+#C	John Bartley
+#E	nimno!john
+#T	+1 314 928 6913
+#P	2022 Autmn Wood Dr; Saint Charles, MO 63303
+#L	38 37 N / 90 11 W city
+#R	WPA is a NeXT-authorized Commercial Systems Integrator,
+#	providing hardware and software for NeXT computers, as
+#	well as consulting, training, and systems support services.
+#W	john@wpa.com (John Bartley); Wed Jul 29 09:35:00 CDT 1992
+#U	wupost dflora
+#
+nimno	=wpa.com
+nimno	=nimno.wpa.com
+nimno	.wpa.com
+
+nimno	dukemfg(DIRECT), dlflora(DIRECT), lestat(DIRECT),
+	wupost(DIRECT)
+
+#N	pareto
+#S	IBM XT; DOS 3.3
+#O	Federal Reserve Bank - St. Louis
+#C	Lora Holman
+#E	pareto!holman
+#T	+1 314 444 8553
+#P	Federal Reserve Bank; PO Box 442; St. Louis, MO 63166
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Thu Oct 15 13:29:16 CDT 1992
+#
+pareto	wupost(DIRECT)
+
+#N	pfcs
+#O	PFCS Corporation
+#C	Harlan Stenn
+#T	+1 314 230 8847
+#P	PO Box 1806, Manchester MO 63011-8806
+#E	mumps!harlan
+#L
+#R	
+#W	pfcs!harlan; Thu Mar 28 12:48:57 CST 1991
+#U
+#S	
+#
+pfcs	plus5(DIRECT)
+
+#N	pipkins
+#S	AT&T StarServer E; UNIX System V, Release 4, version 2.1
+#O	Pipkins, Inc.
+#C	Dave Beecher
+#E	pipkins!beech
+#T	+1 314 469 6106
+#P	1215 Fern Ridge Office Pkwy, Suite 110; Creve Coeur, MO 63141
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Tue Jun  2 14:33:23 CDT 1992
+#
+pipkins	wupost(DIRECT)
+
+#N	.pfcs.com, plus5
+#F	wupost.wustl.edu
+#O	PFCS Corporation
+#C	Harlan Stenn
+#E	harlan@pfcs.com
+#T	+1 314 230 8847
+#P	PO Box 1806, Manchester MO 63011-8806
+#L	38 38 20 N / 90 19 22 W
+#U	wupost
+#R	registered
+#W	plus5!harlan; Mon Jul 13 10:00:17 CDT 1992
+#
+plus5	.pfcs.com
+plus5=	pfcs.com
+plus5	.plus5.com
+plus5=	plus5.com
+plus5	abstl(DIRECT),
+	amgraf(WEEKLY),
+	dinorah(DIRECT),
+	hpuslma(DIRECT),
+	mumps(DIRECT),
+	slustl(DIRECT),
+	swbatl(DEAD),
+	wupost(DIRECT+FAST),
+
+#N	q106fm
+#S	Headland 386/35 PC; MSDOS 5.0
+#C	Pete Cervasio
+#E	pete@q106fm.uucp
+#T	+1 314 644 1380
+#P	2360 Hampton Avenue; St. Louis, MO 63139
+#L	38 36 48 N / 90 17 12 W
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Apr 22 10:19:10 CDT 1992
+#
+q106fm	wupost(DIRECT)
+
+#N	racerx
+#S	Sun SparcStation 1; SunOS 4.1.1
+#O	Bridge Information Systems, Inc.
+#C	Ken Hardy
+#E	racerx!postmaster
+#T	+1 314 567 8456
+#P	717 Office Parkway, St. Louis MO 63141
+#L	38 40 N / 90 20 W city
+#U	mds1 booga
+#W	racerx!ken (Ken Hardy); Thu Apr 23 00:01:05 CDT 1992
+#
+racerx	bridge.com
+racerx	= racerx.bridge.com
+racerx	uunet(DEMAND), mds1(EVENING), bosparc(DEMAND), booga(EVENING)
+
+#N	.scscom.com, scsgate
+#S	Gateway 486/33c; SCO Unix Sys V Rel 3.2.4
+#O	SCS/Compute, Inc.
+#C	S. Kent Hamilton
+#T	+1 314 966 1040
+#P	12444 Powerscourt Drive, Suite 400, St. Louis, MO 63131
+#E	scsgate!postmaster
+#L	38 38 N / 90 18 W city
+#R	What do I need to say something?
+#W	scsgate!kenth (Kent Hamilton);  Sat Sep 26 21:38:23 CTD 1992
+#U	wupost
+#
+scsgate	.scscom.com
+scsgate	= scscom.com
+scsgate	wupost(DIRECT+FAST), scscom(DEMAND)
+
+#N	sempco
+#S	Amiga 3000; Workbench 2.04
+#O	Sim's Electronic Musicians' Publishing Company
+#C	Simeon Layne, Jr.
+#E	sempco!slayne
+#T	+1 314 531 5315
+#P	4444 West Pine #134; St. Louis, MO 63108
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Sep  9 09:09:27 CDT 1992
+#
+sempco	wupost(DIRECT)
+
+#N	slustl
+#O	St. Louis University, Earth and Atmospheric Science
+#C	Eric Haug
+#T	+1 314 658 3136
+#P	3507 Laclede, St. Louis, MO 63103
+#E	slustl!ejh
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U
+#W	plus5!usa-mo; Mon Apr 13 12:06:18 CDT 1992
+#S	
+#
+slustl	plus5(DIRECT), wupost(DIRECT), newton(DIRECT)
+
+#N	stockell
+#S	DEC MicroVAX 3100; VAX/VMS 5.4-2
+#O	Stockell Information Systems
+#C	Jim Welch
+#E	jim@sis.stockell.com
+#T	+1 314 537 9530
+#P	15400 South Outer Forty, Suite 105; Chesterfield, MO 63017
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Fri Apr 10 11:05:03 CDT 1992
+#
+stockell	wupost(DIRECT)
+
+stockell	.stockell.com
+stockell	=sis.stockell.com
+
+#N	swbatl
+#S	Pyramid MIS 4/2, OSX 5.0
+#O	Southwestern Bell Telephone Co., Advanced Technology Laboratory
+#C	Tom Adams
+#E	adams@swbatl.sbc.com
+#T	+1 314 235-7459
+#P	1010 Pine, Room 635, St. Louis, Mo. 63101
+#L	38 37 40 N / 90 12 W
+#R	C news 
+#U	texbell wuarchive.wustl.edu
+#W	postmaster@swbatl.sbc.com (Tom Adams); Mon Aug  6 21:45:09 CDT 1990
+#
+swbatl	.sbc.com
+swbatl	= swbatl.sbc.com
+swbatl	plus5(DAILY), pyramid(WEEKLY), texnet(DAILY), uunet(WEEKLY),
+	wupost(LOCAL), sbctri(LOCAL), texbell(DEDICATED), swuts(DIRECT),
+	sarek(DIRECT)
+
+#N	tcihp0
+#S	HP 3000 400 Running HP-UX
+#O	Truss Components, Inc.
+#C	Stephen Comfort-Mason
+#E	tcihp0!root
+#T	+1 314 861 1120
+#P	102 South Elam Ave., Peerless Park, MO 63088
+#L	38 32 N / 90 29 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Apr 28 11:41:47 EDT 1992
+#U
+#
+tcihp0	uunet(DEMAND)
+
+#N	thetatau
+#S	AMI 386; Interactive UNIX 3.0
+#O	Theta Tau Professional Engineering Fraternity
+#C	Dean Bettinger
+#E	dean@suvm.acs.syr.edu
+#T	+1 315 443 1070
+#P	655 Craig Road, Suite 128; Creve Coeur, MO 63141-7132
+#L	38 38 N / 90 18 W CITY
+#W	chris@wugate.wustl.edu (Chris Myers); Fri Jun  5 14:30:50 CDT 1992
+#
+thetatau	wupost(DIRECT)
+
+#N	transit
+#S	Packard-Bell 386 Legend; SCO Xenix 2.3.2
+#C	Roy Ferguson
+#E	root@transit.uucp
+#T	+1 314 968 4692
+#P	9069 West Swan; Saint Louis, MO 63144
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Apr 15 10:29:17 CDT 1992
+#
+transit	wupost(DIRECT)
+
+#N	travel
+#S	386/486 PC Clone; DOS 3.31
+#C	Rik Brown
+#E	travel!rik.brown
+#T	+1 314 625 4052
+#P	2 Marche Drive; Lake St. Louis, MO 63367
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed Feb 19 14:14:30 CST 1992
+#
+travel	wupost(DIRECT+FAST)
+
+#N	tripos
+#S	Tripos Sun 4/280; SUNos 4.1.1
+#O	Tripos Associates Inc.,
+#C	John Cacioppo
+#E	tripos!jc
+#T	+1 314 647 1099
+#P	1699 S. Hanley Rd, Ste. 303, St. Louis, MO 63144
+#L	38 38 N / 90 17 W city
+#U	wuarchive
+#W	wupost!chris; Thu Aug 30 10:48:37 CDT 1990
+#
+tripos	uunet(DAILY), wupost(DIRECT+HIGH)
+
+#N	umsysa
+#S	386 clone; SCO UNIX 3.2
+#O	University of Missouri at Saint Louis
+#C	Bob Covington
+#E	bobc@umsysa.uucp
+#T	+1 314 647 3288
+#P	Univ. Missouri at St. Louis; 8001 Natural Bridge Rd; St. Louis, MO 63136
+#L	38 38 N / 90 18 W CITY
+#U	wupost
+#W	chris@wugate.wustl.edu (Chris Myers); Wed May 27 14:49:11 CDT 1992
+#
+umsysa	wupost(DIRECT)
+
+#N	ustores
+#O	Computer Spectrum, University of Missouri - Columbia
+#S	NCR 3345; NCR SVR4 v1.03
+#C	Bill Canning
+#E	ustores!postmaster
+#T	+1 314 882 2131
+#P	T. A. Brady Commons, Columbia, MO USA 65211
+#L	38 57 06 N / 92 20 02 W city
+#U	wupost wolf359
+#W	reg!cspecwc (Bill Canning); Thu Jul 15 10:51:25 CDT 1992
+#R	Internet address is 128.206.14.2
+#
+ustores		.ustores.missouri.edu
+ustores		= ustores.ustores.missouri.edu
+ustores		wupost(DEDICATED)
+ustores		wolf359(DAILY/2)
+
+#N	wbm386
+#S	Micronics ASIC 25 MB, ISC 2.2.1
+#O	Harmon Electronics
+#C	Wm. Brian McCane
+#E	wbm386!usenet
+#T	+1 816 252 6923
+#P
+#L
+#R
+#W	wbm386!usenet (Wm. Brian McCane); Tue Aug 27 13:34:00 CDT 1991
+#U	wbm386
+#
+wbm386	brian386(DIRECT+HIGH),amgraf(DIRECT+HIGH)
+
+#N	wbm486
+#S	i486/33, ISC v3.0
+#O	Harmon Electronics
+#C	Wm. Brian McCane
+#E	wbm486!news
+#T	+1 816 252 6923
+#P
+#L
+#R
+#W	wbm486!news (Wm. Brian McCane); Wed Nov 20 13:34:00 CDT 1991
+#U	wbm486 genco
+#
+wbm486	brian386(DIRECT+HIGH),genco(DIRECT+FAST),amgraf(DIRECT+HIGH)
+
+#N	wolf359
+#S	Commodore Amiga 500; AmigaOS 2.04
+#C	Eric Edwards
+#E	wolf359!postmaster
+#T	+1 314 446 0040
+#P	103 North Stadium, Apartment 312, Columbia, MO  65203
+#L	38 57 18 N / 92 22 17 W
+#R	Private UUCP node
+#U	ustores.ustores.missouri.edu
+#W	wolf359!eric (Eric Edwards); Wed May 25 16:00:00 CDT 1992
+
+wolf359	ustores.ustores.missouri.edu(DAILY/2)
+
+#N	wuarchive
+#S	DECstation 5000/200; Ultrix 4.2
+#O	Washington University, Office of the Network Coordinator
+#C	Chris Myers
+#E	wugate!chris
+#T	+1 314 935 7390
+#P	One Brookings Drive, Campus Box 1048, St. Louis, MO 63130-4899
+#L	38 38 57 N / 90 18 18 W
+#R	Internet address is 128.252.135.4
+#W	wugate!chris (Chris Myers); Tue Nov  5 21:52:27 CST 1991
+#
+wuarchive	.wustl.edu
+wuarchive	=wuarchive.wustl.edu
+# On-campus connections
+wuarchive	wupost(LOCAL), wugate(LOCAL)
+# Off-campus connections (going away someday)
+wuarchive	uwm(DEDICATED+HIGH)
+
+#N	wugate
+#S	DECstation 3100; Ultrix 4.2
+#O	Washington University, Office of the Network Coordinator
+#C	Chris Myers
+#E	wugate!chris
+#T	+1 314 726 7390
+#P	One Brookings Drive, Campus Box 1048, St. Louis, MO 63130-4899
+#L	38 38 57 N / 90 18 18 W
+#R	Internet address is 128.252.120.1
+#W	wugate!chris (Chris Myers); Thu Jul 25 13:58:01 CDT 1991
+#
+wugate	.wustl.edu
+wugate	=wugate.wustl.edu
+wugate	wuarchive(LOCAL), wupost(LOCAL)
+
+#N	wupost
+#S	Sun SPARCstation 2; SunOS 4.1.2
+#O	Washington University, Office of the Network Coordinator
+#C	Chris Myers
+#E	wugate!chris
+#T	+1 314 935 7390
+#P	One Brookings Drive, Campus Box 1048, St. Louis, MO 63130-4899
+#L	38 38 57 N / 90 18 18 W
+#R	Internet address is 128.252.120.6
+#R
+#R	On-Campus Newsfeeds
+#U	eclnews.wustl.edu gauss.wustl.edu mcf.wustl.edu
+#U	wubios.wustl.edu wuche2.wustl.edu wuibc.wustl.edu
+#U	wums2.wustl.edu wuphys.wustl.edu wustlb.wustl.edu
+#U	wuvmd.wustl.edu
+#R
+#R	UUCP Newsfeeds
+#U	bullwinkle.uucp crest.uucp dinorah.uucp hpuslma.uucp
+#U	jgaltstl.uucp jim.uucp nimno.uucp plus5.uucp scsgate.uucp
+#U	slustl.uucp stockell.uucp transit.uucp travel.uucp tripos.uucp
+#R
+#R	Off-Campus Newsfeeds
+#U	bu.edu calvin.sbc.com cs.utexas.edu csus.csus.edu
+#U	darwin.sura.net disney.com dsuvax.dsu.edu
+#U	emory.mathcs.emory.edu gazette.bcm.tmc.edu gumby.cc.wmich.edu
+#U	hsdndev.harvard.edu kuhub.cc.ukans.edu m.cs.uiuc.edu
+#U	micro-heart-of-gold.mit.edu mont.cs.missouri.edu
+#U	mthvax.cs.miami.edu news.rice.edu news.utdallas.edu news.uu.net
+#U	news.waikato.ac.nz nigel.ee.udel.edu nntp-gw.pa.dec.com
+#U	psuvax1.cs.psu.edu reg.ustores.missouri.edu rex.cs.tulane.edu
+#U	rouge.usl.edu s.ms.uky.edu sdd.hp.com sdg.dra.com spool.mu.edu
+#U	swbatl.sbc.com think.com tin.monsanto.com unlinfo.unl.edu
+#U	usc.edu uwm.edu zaphod.mps.ohio-state.edu zazen.macc.wisc.edu
+#W	wugate!chris (Chris Myers); Thu Oct 15 13:31:05 CDT 1992
+#
+wupost	.wustl.edu
+wupost	=wupost.wustl.edu
+#
+# Off-Campus Connections
+wupost	aacsb(DIRECT), artisans(DIRECT), bullwinkle(DIRECT),
+	campfire(DAILY), charro(DIRECT), cheswicks(DIRECT),
+	compusci(DIRECT), crest(DIRECT), csc1(DIRECT), dbsun(DIRECT),
+	digsys(DIRECT), dinorah(DIRECT+FAST), dogpound(DIRECT),
+	dukemfg(DIRECT), gracehill(DIRECT), hpuslma(DIRECT+FAST),
+	jgaltstl(DIRECT), jim(DIRECT), lc(DIRECT), liebe(DIRECT),
+	meridian(DIRECT+FAST), nimno(DIRECT+FAST), nsurg(DIRECT+FAST),
+	pareto(DIRECT), pipkins(DIRECT+FAST), plus5(DIRECT+FAST),
+	q106fm(DIRECT), roach(DIRECT), scsgate(DIRECT), sempco(DIRECT),
+	slustl(DIRECT+FAST), stockell(DIRECT), texenix(DIRECT),
+	thetatau(DIRECT), transit(DIRECT), travel(DIRECT+FAST),
+	tripos(DIRECT+FAST), ultramac(DIRECT), umsysa(DIRECT+FAST)
+#
+# On-campus connections
+wupost	wuarchive(LOCAL), wugate(LOCAL)
+
+#N      x10siv
+#S      Sun Sun386i Workstation; SunOS 4.0.2
+#O      Residence of Serge Stewart
+#C      Serge Stewart
+#E      x10siv!postmaster
+#T      +1 816 361 4044
+#P      P O BOX 5084 ,Kansas City, MO 64132
+#L      39 1 16 N / 94 33 12 W
+#U      wariat
+#W      x10siv!serges (Serge Stewart); Mon Jun 29 05:45:14 CDT 1992
+#
+x10siv= x10siv.wariat.org
+x10siv  cpsolv(DIRECT), wariat(DIRECT+FAST)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,2271 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.va.2
+: This archive created: Tue Dec  8 08:07:33 1992
+echo shar: extracting u.usa.va.2
+cat << 'SHAR_EOF' > u.usa.va.2
+file{u.usa.va.2}
+# u.usa.va.2 from uucp-map@acsu.buffalo.edu
+#  send maps to usa-[dc|de|md|nj|ny|va|wv]@rutgers.edu
+# 01:50 gmt 31-Oct-1992
+#N	icfinc
+#S	ibmpc; Dos 3.3
+#O	ICF, Inc.
+#C	Sandeep Vishnu
+#E	icfinc!root
+#T	+1 703 934 3249
+#P	9300 Lee Highway, Fairfax, VA 22031
+#L	38 50 N / 77 18 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Mar 10 11:14:44 EST 1992
+#U
+#
+icfinc	uunet(DEMAND)
+
+#N	icfint
+#S	RISC6000; AIX 3.1.5
+#O	ICF International
+#C	Michael Fowler
+#E	icfint!mef
+#T	+1 703 218 2627
+#P	9300 Lee Highway, Fairfax, VA 22031
+#L	38 50 N / 77 18 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon May  4 15:16:40 EDT 1992
+#U
+#
+icfint	uunet(DEMAND)
+
+#N	.icg.com, icg
+#F	icg.com
+#S	486/50 PC; BSD/386
+#O	IntelliCom Consulting Group
+#C	James Revell <revell>
+#E	postmaster@icg.com
+#T	+1 703 698 9436
+#P	2808 Lee Oaks Place, Suite 201, Falls Church, VA, 22046-2713
+#L	77 11 50 W / 38 52 42 N
+#R	Registered with NIC.  Connected via AlterNet
+#R
+#R	ICG does consulting in UNIX networking and distributed
+#R	systems, for-hire system administration, and R&D in
+#R	communications applications of artificial intelligence.
+#U	uunet
+#W	revell@icg.com (James Revell); Fri Oct 23 16:28:25 EDT 1992
+#
+icg	.icg.com(LOCAL), icg.com(LOCAL)
+icg	uunet(DEDICATED)
+
+#N	idcusa
+#S	AT&T 3B1
+#O	InfoDesign Corporation
+#C	David R. Seaman
+#E	style!dave
+#T	+1 416 928-6800
+#P	5805 Woodlawn Gables Drive, Alexandria, VA, 22309, USA
+#L	unknown
+#W	style!dave (David Seaman); Fri Mar  9 21:32:14 EDT 1990
+#
+idcusa	style(DEMAND) #, idc(DEMAND) site in yugoslavia????
+
+#N	ihost.isnet.com, ihost
+#F	mimsy.umd.edu
+#S	AST Premium 486/33TE; SCO UNIX System 5 Release 3.2 Version 4
+#O	Information Systems Network (ISNET)
+#C	Warren D. Calhoun
+#E	postmaster@ihost.isnet.com, ihost!postmaster
+#T	+1 703 799 7425 +1 703 799 0718
+#P	HHC, 610th Ordnance Battalion, Fort Belvoir, VA 22060
+#L	38 41 36 N / 77 09 01 W
+#U	black-silicon keystone xrxedds next32 blip gvp
+#W	postmaster@ihost.isnet.com (Warren Calhoun); Wed Apr 21 05:24:00 GMT 1992
+#
+#R	The domain .isnet.com is offically registered.
+#     Mail gateway service to an Internet host provided.
+#     Usenet news feeds are available from ihost.isnet.com or next32.isnet.com.
+#     Line one is a Telebit Trailblazer T2500
+#     Line two is a Telebit Trailblazer T3000
+#     Running smail 3.1.25 / cnews 22-Dec-91 / Taylor uucp 1.03
+#     Send email to uucp-request@ihost.isnet.com for further information.
+
+ihost  =.isnet.com
+ihost  = ihost.isnet.com
+ihost   .isnet.com(LOCAL)
+
+# Primary Internet Forwarder
+ihost    mimsy(DIRECT+FAST)
+mimsy    ihost(DIRECT+FAST)
+
+# Secondary Internet Forwarder
+ihost    jhunix(POLLED)
+jhunix   ihost(POLLED)
+
+# Upstream News Feeds
+ihost    <xrxedds>(DIRECT+FAST)
+
+# Terminal Connections
+ihost    <gvp>(POLLED), <blip>(POLLED), <zod>(DIRECT+FAST),
+         <keystone>(DIRECT+FAST), <black-silicon>(DAILY)
+
+# Downstream Connections
+ihost    next32(DIRECT+FAST)
+ihost    ukelele(DIRECT+HIGH)
+
+#N	inri
+#S	HP830; HPOX
+#O	Inter-National Research Institude
+#C	Dan Smith
+#E	inri!dls
+#T	+1 804 249 1234
+#P	12350 Jefferson Avenue, Suite 400, Newport News, VA 23602
+#L	36 58 N / 76 25 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Aug 29 11:52:37 EDT 1991
+#U
+#
+inri	uunet(DEMAND)
+
+#N	instep.com, instep
+#F	uunet.uu.net
+#S	Sun 4/60; BSD 4.2, Sun 4.0.3c
+#O	Innovative Software Engineering Practices, Inc.
+#C	Brian Nejmeh <nejmeh>
+#E	instep!root
+#T	+1 703 742 6276
+#P	13526 Copper Bed Road, Herndon, VA  22071
+#L	38 58 N / 77 23 W city
+#R	registered
+#W	gaede@sda.com (Steve Gaede); Mon Jul 30 10:27:00 MDT 1990
+#U
+#
+# Also known as:
+#
+instep	.instep.com
+instep =	instep.com
+instep =	instep.instep.com
+instep	uunet(HOURLY), sunset(HOURLY), bearsan(HOURLY)
+
+#N	intercon
+#S	AT&T 3B2/310; UNIX System V Release 3.1
+#O	InterCon Systems Corporation
+#C	Amanda Walker
+#E	intercon!amanda
+#T	+1 703 450 7117
+#P	46950 Community Plaza Suite 101-132, Sterling, VA 22170
+#L	38 55 N / 77 00 W city
+#R	
+#W	amanda@intercon.UU.NET (Amanda Walker); Mon Jul 31 12:10:16 EDT 1989
+#U	
+#
+lts =	intercon
+intercon	uunet(DEMAND)
+
+#N	interf
+#S	Sun 3/80; SunOS
+#O	Interferometrics
+#C	Linton Floyd
+#E	interf!linton
+#T	+1 703 790 8500
+#P	8150 Leesburg Pike, Suite 1400, Vienna, VA 22182
+#L	38 54 N / 77 15 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Aug	6 15:30:57 EDT 1990
+#U
+#
+interf	uunet(DEMAND)
+
+#N	intertv
+#S	Compaq 386; SCO Xenix 2.3.2
+#O	Interactive Television Co.
+#C	Mike Hickey
+#E	intertv!root
+#T	+1 703 525 5625
+#P	1800 N. Kent St., Suite 920, Arlington, VA  22209
+#L	38 52 N / 77 06 W [city]
+#R
+#W	lori@uunet.UU.NET (Lori lewis); Tue Jun 16 16:12:13 EDT 1992
+#U
+#
+intertv	uunet(DEMAND)
+
+#N	ipsserv
+#S	Sun Sparcstation; SunOs 4.1.1
+#O	PRC, Inc.
+#C	Dale Browne
+#E	ipsserv!root
+#T	+1 703 620 8163
+#P	12005 Sunrise Valley Drive, Reston, VA 22091
+#L	38 58 N / 77 23 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Wed Oct 23 15:42:28 EDT 1991
+#U
+#
+ipsserv	uunet(DEMAND)
+
+#N	isavax
+#S	DEC uVAX-II; Ultrix-32
+#O	Integrated Systems Analysts, Inc.
+#C	Cliff Bedore
+#E	cliffb@isavax.isa.com
+#T	+1 703 824 0700
+#P	2800 Shirlington Rd. Suite 1100, Arlington, VA 22206
+#L	38 50 30 N / 077 05 10 W
+#R
+#W	cliffb@isavax.isa.com (Clifford J. Bedore); Mon Feb 10 16:15:17 EST 1992
+#U
+#
+isavax	.isavax.isa.com
+isavax	uunet(DIRECT)
+
+#N	issm
+#S	DEC VAX 11/750; 4.3 BSD
+#O	GTE Contel Federal Systems
+#C	Michael O'Connor, Software Engineering Dept.
+#E	issm!usenet
+#T	+1 703 818 4000
+#P	15000 Conference Center Drive.  Chantilly, Va.  22021  USA
+#L	38 55 N / 077 12 W
+#R	Systems integrators.
+#R	This is also ISSM.ISS.CONTEL.COM [131.131.235.20] on the Internet.
+#U
+#W	oconnor@sccgate.scc.com (Michael O'Connor); Sat Dec 20 20:45:00 EST 1991
+issm =  contel-fss
+issm    uunet(DAILY/4+HIGH), issa(DEMAND+HIGH), issb(HOURLY/2+HIGH)
+
+#N	itac	
+#S	486 DOS & SCO
+#O	ITAC
+#C	Bill Harr
+#E	ITAC!wharr
+#T	+1 703 391 8822
+#P	1875 Campus Commons Dr. Suite 300 Reston, VA  22091
+#L	38 58 N 77 23 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Mon Oct 26 13:44:30 EST 1992
+#U
+#
+itac	uunet(DEMAND)
+
+#N	iwa
+#S	Compaq Deskpro 386
+#O	Interactive Systems, Inc.
+#C	David Chabot
+#E	iwa!david
+#T	+1 703 847 4228
+#P	8150 Leesburg Pike, Vienna, VA 22182
+#L	38 54 N / 77 15 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jul 13 09:41:38 EDT 1990
+#U
+#
+iwa	uunet(DEMAND)
+
+#N	jando
+#F
+#S	80386 clone, SCO XENIX System V
+#O	Independent Consultant
+#C	jando!doug (Doug Rickman)
+#E	doug@jando
+#T	(703)644-0557
+#P	7800 Cherry Orchard Ct., Springfield, VA 22153
+#L	38 44 45 N / 77 14 39 W
+#R	
+#U	aggie2 alyce aquin btg flower ka3ovk spiff perkins worldex
+#W	jando!doug(Doug Rickman) ; Sat Oct 27 06:21:42 1990
+#
+# DIRECT+HIGH	Local phone call, made anytime, 9600 baud. (Telebit)
+# DIRECT		Local phone call, made anytime, 2400 baud.
+# POLLED		People who call us (we do not call them, yet).
+# DEMAND+HIGH	People who call us (we do not call them, 9600 baud). (Telebit)
+#
+# Have Telebits will provide Telebit connection for others
+#
+jando	alyce(DIRECT+HIGH), aquin(DIRECT+HIGH),
+	ka3ovk(DIRECT+HIGH), men2a(DIRECT+HIGH),
+	lighthouse.com(DIRECT), armycorp(DIRECT), oasis(DIRECT),
+	askcs(DIRECT), men1a(DIRECT), spiff(DIRECT),
+	btg(DIRECT), navott(DIRECT), cmi486(DIRECT),
+	dvpdev(POLLED), madras(POLLED),
+	perkins(POLLED), worldex(POLLED), aggie2(POLLED),
+	vsedev(DEAD), 1solaria(DEAD), hotdog(DEAD), tons61(DEAD), kgsoft(DEAD),
+	flower(DEAD)
+
+#N	jca
+#S	uupc
+#O	J. Christopher Associates, Inc.
+#C	Jim Partridge
+#E	jca!jim
+#T	+1 703 788 9799
+#P	Route 2, Box 680B, Catlett, VA	22019
+#R	
+#U	
+#W	swlabs!jack (Jack Bonn); Sun Oct 16 14:46:47 EST 1988
+jca	swlabs(DIRECT)
+
+#N	jmucshub
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	James Madison University
+#C	Mark Miller
+#E	news@hub.cs.jmu.edu
+#T	+1 703 568 6945
+#P	Dept. Math & Computer Science, Harrisonburg, VA 22807
+#L	38 30 N / 78 50 W
+#R	This is also "hub.cs.JMU.EDU" [134.126.20.10] on the Internet.
+#R	We get News via Internet but can be reached by UUCP through 'virginia'.
+#W	mmiller@hub.csjmu.edu ; Thu Nov	 2 16:55:27 PST 1989
+#U	virginia uvaarpa.virginia.edu
+#
+jmucshub = hub.cs.jmu.edu
+jmucshub	virginia(DEMAND)
+
+#N	k4ngc
+#S	CONSENSYS UNIX System V, Release 4
+#O	Donald H. Bennett Unix Consultant
+#C	Donald H. Bennett
+#E	k4ngc!dbennett
+#t	+1 703 670 4773
+#P	15016 Carlsbad Rd, Woodbridge, Va 22193
+#L	38 39 N / 77 15 W City
+#W	k4ngc!dbennett (Donald Bennett); Sat May 30 20:00:00 EDT 1992
+k4ngc	ka3ovk(DEMAND), wb3ffv(DEMAND)
+ 
+#N	kcwc
+#S	Nextstation Color; Next Mach 2.1
+#O	KCW Consulting
+#C	Curt Welch
+#E	kcwc!curt
+#T	+1 703 938 4152
+#P	3126 Windwood Farms Dr., Oakton, VA 22124
+#L	38 52 N / 77 18 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Dec  4 12:14:15 EST 1991
+#U
+#
+kcwc	uunet(DEMAND)
+
+#N	.kesmai.com, kesmai
+#F	rutgers.edu
+#O	Kesmai Corporation
+#C	Kelton Flinn, John Taylor
+#E	kff@kesmai.com, jrt@kesmai.com
+#T	+1 804 979 0931
+#P	609 East Market St. Suite 303, Charlottesville, Va 22901
+#L	38 01 70 N / 78 30 39 W
+#U
+#R	registered with no gateway
+#W	kesmai!kff (Kelton Flinn);  Thu Dec 14 13:34:25 EST 1989
+#
+kesmai	.kesmai.com
+kesmai =	kesmai.com
+#
+# local calls
+kesmai	uvaee(DIRECT), murdoch(DIRECT), virginia(DIRECT)
+#
+# We poll these sites even if we don't have traffic for them
+uvaee	kesmai(DAILY)
+virginia	kesmai(DAILY)
+murdoch kesmai(DAILY)
+
+#N	keystone
+#S	386  ICS/386 2.2
+#O	Keystone Software, Inc.
+#C	Ralph Saunders
+#E	keystone!ralph
+#T	+1 703 866 1593
+#P	5819 Brunswick Street, Springfield, VA 22150
+#L	38 47 N / 77 11 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Jan 16 12:07:17 EST 1992
+#U
+#
+keystone	uunet(DEMAND)
+
+#N	kzin
+#S	Apple Macintosh IIcx; Mac OS
+#O	Kzinti Embassy, McLean Virginia
+#C	John Theodore Nelson
+#E	mimsy!kzin!speaker
+#T	+1 703 356 6514
+#P	8340 Greensboro Drive, #223 McLean Virginia 22102
+#L	77 17 30 N  / 38 53 00 W Washington DC
+#R	new host - on-line on a demand basis
+#U	mimsy rattler
+#W	mimsy!kzin!speaker; Wed Feb 28 10:08:08 EST 1990
+#
+kzin	rattler(DEMAND), mimsy(DEMAND)
+
+#N	lazarus
+#S	Gateway 2000, 386 20Mhz, ESIX 4.0.3
+#C	Marvin Frederickson
+#E	lazarus!marvinf
+#T	+1 804 740 1542
+#P	10305 Avenham Way, Richmond VA  23233
+#U	tcsc3b2
+#W	lazarus!marvinf (Marvin Frederickson); Tue Aug 06 10:00:00 EST 1991
+lazarus	tcsc3b2(DEMAND)
+
+#N	lintech
+#S	Exenex AGI386/386ix 2.2
+#O	Lintech
+#C	David Linthieum
+#E	lintech!root
+#T	+1 703 818 9164
+#P	5712 Rocky Run Dr. Centreville, VA  22020
+#L	38 50 N / 77 25 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Mon Jul  6 10:28:27 EDT 1992
+#U
+#
+lintech	uunet(DEMAND)
+
+#N	lonesome
+#S	generic 386; BSDI 0.3
+#O	Lonesome Dove Computing Services
+#C	Mark C. Linimon
+#D	usenet@lonesome.lonesome.com
+#T	+1 703 776 1004
+#P	P.O. Box 20291, Roanoke, VA 24018
+#L	37 15 N / 079 58 W city
+#R	engineering consulting: UNIX/vxWorks/real-time/C/assembler/SPARC/68k
+#R	experimental system
+#U	nominil
+#W	linimon@nominil.lonesome.com (Mark C. Linimon); Sun Aug 30 16:39:16 CDT 1992
+#
+lonesome = lonesome.lonesome.com
+lonesome	nominil(DEDICATED)
+
+#N	loony
+#S	Sun 3260; Unix BSD
+#O	Sprint International
+#C	John Mullan
+#E	loony!root
+#T	+1 703 689 7127
+#P	12490 Sunrise Valley Road, MS BO102, Reston, VA  22096
+#L	38 58 N / 77 23 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Jul 19 17:43:41 EDT 1991
+#U
+#
+loony	uunet(DEMAND)
+
+#N	luvthang
+#S	Commodore/Amiga 3000, AmigaDOS 2.0
+#O
+#C	David Talmage
+#E	talmage@luvthang, talmage@luvthang.ori-cal.com
+#T	+1 703 519 8057
+#P	2400 E. Randolph Ave., Alexandria, VA 22301
+#L	38 50 N / 77 05 W
+#R	I use luvthang mainly for natural language experiments.
+#W	talmage@luvthang (David Talmage); Mon 28 Sep 8:10:00 EST 1992
+#
+luvthang = luvthang.ori-cal.com
+luvthang	men2a(DAILY)
+
+#N	macom1
+#S	ARIX 1200; UNIX 5.3
+#O	Centel Federal Systems, Inc. (Technical Services, Reston Office)
+#C	Dennis Roth
+#E	macom1!usenet, macom1!roth
+#T	+1 703 758 7000
+#P	11400 Commerce Park Drive, Reston, VA 22091-1506 
+#L	38 56 00 N / 77 20 00 W
+#R	
+#U	macomh lowen
+#W	macom1!roth (Dennis Roth); Feb 16, 1989
+#
+macom1	coldbee(WEEKLY), grebyn(DIRECT), macomh(LOCAL), misi130(LOCAL),
+	lowen(EVENING), netsys(DEAD)
+
+#N	macomh
+#S	AT&T 3B2 model 300; UNIX System V Release 2.0.4 3B2 Version 2  
+#O	Centel Federal Systems, Inc. (Technical Services, Reston Office)
+#C	Dennis Roth
+#E	macom1!usenet, macom1!roth
+#T	+1 703 758 7000
+#P	11400 Commerce Park Drive, Reston, VA 22091-1506 
+#L	38 56 00 N / 77 20 00 W
+#R	
+#U	grebyn macom1
+#W	macom1!roth (Dennis Roth); Feb 16, 1989
+#
+macomh	grebyn(EVENING), macom1(LOCAL), misi130(LOCAL), coldbee(WEEKLY),
+	netsys(DEAD)
+
+#N	maker
+#S	INTeL 386/310; Xenix 386/3.5
+#O	CACI - Federal, Inc.
+#C	A. Jeyanathan
+#E	maker!jey
+#T	+1 703-876-2420
+#P	8260 Willow Oaks Dr., Mail Stop 11/08, Fairfax, Virginia 22031
+#L	
+#R	Also running BBCS board at +1 703-280-0483 (data)
+#W	maker!jey ; Thu Aug  3 16:20:11 EDT 1989
+#U	grinch gwusun
+#
+maker	grinch(DEMAND), gwusun(DEMAND)
+
+#N	maxemail
+#S	Dell 486; Unix Sys 5.4
+#O	SESI Software Inc.
+#C	Larry Layten
+#E	maxemail!larry
+#T	+1 703 573 4366
+#P	2301 Gallows Road #200,Dunn Loring, VA  22027
+#L	38 53 N / 77 13 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Apr 12 17:33:37 EDT 1991
+#U
+#
+maxemail	uunet(DEMAND)
+
+#N	maximal
+#S	Dell 325 (DOS)
+#O	Maximal Software Inc.
+#C	Bjarni Kristiansson
+#E	maximal!bjarnik
+#T	+1 703 351 5272
+#P	1655 N. Fort Meyer Dr, Suite 700, Arlington, VA  22209
+#L	38 52 N / 77 06 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Mar 13 19:42:24 EST 1991
+#U
+#
+maximal	uunet(DEMAND)
+
+#N	maximus
+#S	Sun 3/280; Sun OS 4.0.3
+#O	MAXIM Technologies, Inc.
+#C	Andy Lynn
+#E	maximus!andy
+#T	+1 703 893 3660
+#P	Suite 130, 8618 Westwood Center Dr., Vienna, VA 22182
+#L	38 55 N / 77 00 W city
+#R	
+#W	maximus!andy (Andy Lynn); Mon Feb 26 09:27:59 EST 1990
+#U	klemdog
+#
+maximus uunet(DEMAND), klemdog(DEMAND)
+
+#N	mbs
+#S	NCR Tower
+#O	MBS Associates, Inc.
+#C	Philip J. Vincenzes
+#E	mbs!root
+#T	+1 703 761 3148
+#P	1360 Beverly Rd., Suite 102, McLean, VA	 22101
+#L	38 54 N / 77 06 W city
+#R
+#W	donnalyn@uunet.UU.NET (Donnalyn Frey); Thu Nov 10 13:48:13 EST 1988
+#U
+#
+mbs	uunet(DEMAND)
+
+#N      mcardle
+#S      Next; 4.3 BSD
+#O      Design And Data Analysis
+#C      J. Jack McArdle
+#E      mcardle!root
+#T      +1 804 979 0208
+#P      1929 Lewis Mountain Rd., Charlottesville, VA
+#L      38 01 70 N / 78 30 39 W city
+#R
+#W      smb@data.com  (Steve Boker); Tue Feb 19 11:00 MST 1991
+#U
+#
+mcardle         virginia(DEMAND)
+
+#N	mcigate
+#S	IBM RS/6000-320 AIX 3.1
+#O	MCI Telecommunications Corp.
+#C	Robert M Wise
+#E	mcigate!postmaster
+#T	+1 703 438-4395
+#P	1771 Business Ctr. Drive, Reston, VA 22090
+#L	38 57 00 N / 77 22 00 W city
+#R
+#U	mcigate
+#W	lectroid!fmbutt; Wed Jan  9 13:49:42 EST 1991
+#
+# Eventually we'll have a domain  and it will be ...
+#mcigate = mcigate.mci.com
+#mcigate = .mci.com
+#mcigate = .apdev.mci.com
+#
+# +FAST indicates a Trailblazer connection
+mcigate lectroid(DAILY)
+
+#N	mcl-sys
+#S	PC-386
+#O	MCL Systems Limited
+#C	Swami Muthuvelu
+#E	mcl-sys!root
+#T	+1 703 749 1480
+#P	2010 Corporate Ridge Road, McLean, VA 22102
+#L	38 56 N / 77 10 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Feb 25 10:24:02 EST 1992
+#U
+#
+mcl-sys	uunet(DEMAND)
+
+#N	mcsdc
+#S	Motorola Delta Series; SYSTEM V/68
+#O	Motorola, Inc., Computer Group, Commercial Systems Division
+#C	Ken Muller
+#E	mcsdc!kenm
+#T	+1 703 749 0762
+#P	McLean, VA
+#L	38 56 N / 77 10 W city
+#R	
+#U	
+#W	brian@ca41.csd.mot.com (Brian Smithson); Thu Jul 18 16:14:01 PDT 1991
+#
+mcsdc	.va16.csd.mot.com, va16.csd.mot.com
+mcsdc=	va16.csd.mot.com, mcsdc.va16.csd.mot.com
+#
+mcsdc	motcsd(EVENING)
+
+#N	mcsiad
+#S	Motorola Delta Series; System V/68 R3V5.1
+#O	Motorola, Inc., Computer Group, Commercial Systems Division
+#C	Gary Furr
+#E	mcsiad!gary
+#T	+1 703 749 0738
+#P	8180 Greensboro Drive, Suite 950, McLean, VA 22102, USA
+#L	38 53 N / 77 25 W city
+#R
+#U	motcsd
+#W	motcsd!brian (Brian Smithson); Thu Oct 11 15:11:35 PDT 1990
+#
+mcsiad	motcsd(DEMAND)
+
+#N	mdsol1, mdsol1.mdc.com
+#S	Solbourne Series 5/600; OS/MP 4.0.3
+#O	McDonnell Douglas Electronic Systems Co
+#C	David Mack
+#E	usenet@mdsol1.mdc.com
+#T	+1 703 883 3812
+#P	8201 Greensboro Dr. McLean Va 22102
+#L	38 54 N / 77 12 W
+#R
+#U	alembic
+#W	mack2@mdsol1.mdc.com (Dave Mack); 17 Oct 1991
+
+mdsol1 .mdc.com
+mdsol1 = mdsol1.mdc.com
+#
+mdsol1	alembic(DIRECT+FAST)
+
+#N	meerkat
+#S	Macintosh SE
+#O	Frey Communications
+#C	Donnalyn Frey
+#E	uunet!donnalyn
+#T	+1 703 764 9342
+#P	P.O. Box 2685, Fairfax, VA 22031
+#L	38 51 N / 77 19 W city
+#R	
+#W	rick@uunet.UU.NET (Rick Adams); Mon Nov	 6 10:26:39 EST 1989
+#U	
+#
+meerkat uunet(DEMAND)
+
+#N	melpar
+#S	Compaq 386; 2.2.3 SCO Xenix
+#O	E-Systems
+#C	Doug Toppin
+#E	melpar!root
+#T	+1 703 560 5000
+#P	M/S FC-A402, 7700 Arlington Blvd., Falls Church, VA 22046
+#L	38 52 N / 77 12 30 W city
+#R	
+#W	melpar!toppin (Doug Toppin); Thu Aug  3 09:20:21 EDT 1989
+#U	
+#
+melpar	uunet(DEMAND)
+
+#N	metter
+#S	Altos 3068MP; UNIX Sys. V II
+#O	Metters Industries, Inc.
+#C	Chris Mathes
+#E	metter!root
+#T	+1 703 892 5200
+#P	2231 Crystal Drive, Suite 815, Arlington, VA  22202
+#L	38 52 N / 77 06 W [city]
+#R	
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu Oct  5 12:59:22 EDT 1989
+#U	
+#
+metter	uunet(DEMAND)
+
+#N	mgbyrne
+#S	IBM PC/AT ;Dos 3.2 w/UUCP
+#O	Individual
+#C	Michael Byrne
+#E	mgbyrne!root
+#T	+1 703 440 9156
+#P	8160 Ships Curve Lane, Springfield, VA 22153
+#L	38 47 N /77 11 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Oct  2 14:41:43 EDT 1991
+#U
+#
+mgbyrne	uunet(DEMAND)
+
+#N	mic0
+#S	IBM RS/6000
+#O	Management Information Consulting, Inc.
+#C	Jim Fottrell
+#E	mic0!postmaster
+#T	+1 703 845 5800
+#P	2800 Shirlington Road, Suite 720, Arlington, VA 22206
+#L	38 52 N / 77 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jan 31 09:25:42 EST 1992
+#U
+#
+mic0	uunet(DEMAND)
+
+#N	microw
+#S	386 SCO open desktop
+#O	Micro Well
+#C	John Welcher
+#E	microw!welcher
+#T	+1 703 620 2575
+#P	12321 Myterra Way, Herndon  VA,	 22071
+#L	38 58 N /77 23 W Herndon
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Sep 21 15:25:57 EDT 1990
+#U
+#
+microw	uunet (DEMAND)
+
+#N	mike
+#S	Sun 3/50; SunOS 3.2
+#O	Mystech Associates, Inc.
+#C	Paul Paloski, Dan James
+#E	mike!Postmaster, mike!usenet
+#T	+1 703 671 8680, ask for Paul Paloski or Dan James
+#P	Suite 1200, 5205 Leesburg Pike, Falls Church, Virginia 22041
+#L	77 07 03 W / 38 50 44 N
+#R
+#U	uunet
+#W	mike!paul (Paul Paloski); Mon Aug 13 23:05:59 EDT 1990
+#
+#	Site(s) that we actually call
+mike	uunet(DAILY/8)
+#	Sites that call us(none)
+
+#N	misi130
+#S	Zilog model 130; UNIX System V Release 2
+#O	Centel Federal Systems, Inc. (Custom Systems)
+#C	Rhea Talley
+#E	macom1!rhea,  macom1!usenet
+#T	+1 703 758 7000
+#P	11400 Commerce Park Drive, Reston, VA 22091-1506 
+#L	38 56 00 N / 77 20 00 W
+#R	
+#U	
+#W	macom1!roth (Dennis Roth); Feb 16, 1989
+#
+misi130 macom1(LOCAL)
+
+#N	morpheus
+#S	Amiga 3000; Amiga Unix
+#O	Frank McPherson
+#C	Frank McPherson
+#E	morpheus!frank
+#L	37 15 N / 80 25 W city
+#T	+1 703 232 1641
+#P	Frank McPherson, 4012 Pritchard, Blacksburg, VA, 24060-0024
+#R
+#W	jarrell@vtserf.cc.vt.edu (Ron Jarrell); Thu Mar 9 02:37:12 EST 1991
+#U	vtserf
+#
+morpheus vtserf(DAILY/4)
+
+#N	mos
+#S	PC XT; MSDOS (v3.3) 4DOS (v3.01)
+#O	Aqueduct Information Services
+#C	Vincent Lowe
+#E	mos!agentv
+#T	+1 703 255 2908
+#P	7873 Heritage Dr, Suite #534, Annandale, VA, 22003
+#L	38 59 50 N / 77 25 09 W
+#R	small, personal mail site
+#U	bogart,phzzzt
+#W	mos!agentv (Vincent Lowe); Tue  04-07-1992  23:50:31
+mos bogart(DIRECT),phzzzt(DIRECT)
+
+#N	nat-3
+#S	IBM PC-AT 339 with Turn Point 80386 motherboard; SCO XENIX-386 2.3.2
+#O	White Spot (North)
+#C	John R. Meyer
+#E	nat-3!postmaster
+#T	+1 703 281 5157, +1 703 802 1872
+#P	10208-C Ashbrooke Ct., Oakton, VA (USA) 22124
+#L	38 52 30 N / 77 18 00 W
+#W	postmaster@nat-3.UUCP (John R. Meyer); Thu Jan	4 07:11:00 EST 1990
+#
+nat-3	mimsy(DIRECT), uunet(DIRECT+HIGH)
+
+#N	neptune
+#S	Microvax II; Ultrix 32, V3.1
+#O	The Jonathan Corporation
+#C	Louis Sally
+#E	neptune!root
+#T	+1 804 640 7140
+#P	150 Boush St., Norfolk, VA  23510
+#L	36 50 N / 76 17 W [city]
+#R	
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Fri Nov  3 17:29:13 EST 1989
+#U	
+#
+neptune uunet(DEMAND)
+
+#N	netex
+#
+#	Technically, we don't have a forwarder, but we are an alternate
+#	gateway for ".netx.com".  See site "netxcom" for the offical
+#	gateway and forwarder for ".netx.com".
+#
+#S	IBM PC (386); SCO XENIX Sys V 2.3.2
+#O	NetExpress Communications, Inc.
+#C	Edwin Wiles
+#E	netex!elw
+#T	+1 703 749 2317
+#P	1953 Gallows Rd Suite 300, Vienna, VA 22182
+#L	38 54 30 N / 77 13 30 W
+#W	elw@netx.com (Edwin Wiles); Wed Oct 30 13:25:18 EST 1991
+
+netex		.netx.com
+
+netex	netxcom(DIRECT), gimlet(WEEKLY)
+
+#N	netwrx1
+#S	ATT 3B2; Unix System V Release 3.1
+#O	Networks One
+#C	Bob Slaski or Lisa Ingrassia
+#E	netwrx1!postmaster
+#T	+1 703 827 7767
+#P	8229 Boone Blvd., Suite 810, Vienna, VA	 22182
+#L	38 55 N / 77 00 W city
+#R	NetWorks One specializes in wide and local
+#R	area networking. 
+#W	netwrx1!lisa (Lisa Ingrassia); Fri Apr 13 17:31:01 EDT 1990
+#U	
+#
+netwrx1 uunet(DEMAND)
+
+#N	.netx.com, netxcom.netx.com, netx.com, netxcom
+#F	uunet.uu.net
+#S	IBM PC (386); SCO XENIX Sys V 2.3.2
+#O	NetExpress Communications, Inc.
+#C	Edwin Wiles
+#E	netex!elw
+#T	+1 703 749 2317
+#P	1953 Gallows Rd Suite 300, Vienna, VA 22182
+#L	38 54 30 N / 77 13 30 W
+#U	ecompin sundc uunet
+#W	elw@netx.com (Edwin Wiles); Wed Oct 30 13:25:09 EST 1991
+
+netxcom netex(HOURLY), uunet(HOURLY)
+
+netxcom	.netx.com(LOCAL)
+
+netxcom	= netxcom.netx.com, netx.com
+
+#N	nexsys
+#S	NEXT
+#O	Nexsys Corporation
+#C	Allan Carter
+#E	nexsys!rot
+#T	+1 804 288 6398
+#P	7201 Glen Forest Dr., Suite 300 Richmond, VA  23226
+#L	37 34 N 77 27 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen);  Fri Aug 21 14:55:01 EDT 1992
+#U
+#
+nexsys	uunet(DEMAND)
+
+#N	next32, next32.isnet.com
+#S	NeXTStation, 4.3BSD over Mach
+#O	Private
+#C	Dave Strout
+#E	root@next32.isnet.com 
+#T	+1 703 385 3250
+#P	12162 Penderview Lane apt 1601, Fairfax, Va 22033
+#L	38 52 30 N / 77 23 80 W
+#R	Custom NeXT Software Available -- NeXT Registered Developer
+#	Usenet news feeds are available from next32.isnet.com or
+#	ihost.isnet.com.
+#	Send email to uucp-request@ihost.isnet.com for further
+#	information.
+#	We have one T2500 for dialin/out
+#U	
+#W	next32!root (Dave Strout) Sat Apr  4 06:06:45 GMT-0500 1992
+#
+next32	ihost(DIRECT+FAST), irscscm(HOURLY), ailanth(HOURLY)
+next32 =  next32.isnet.com
+
+#N	nexus
+#S	NCR Tower 32
+#O	Nexus, Inc.
+#C	Mike Hickey
+#E	nexus!mike
+#T	+1 703 847 6644
+#P	7700 Leesburg Pike, Suite 205, Falls Chursh, VA 22043
+#L	?
+#R
+#W	nexus!mike (Mike Hickey); 11 Nov 88 18:36:33 EST 1988
+#U	uunet
+#
+nexus	uunet(DEMAND)
+
+#N	noblesys
+#S	IBM PC Comp. 286
+#O	Noblestar Systems Corp.
+#C	Tim Bergloff
+#E	noblesys!root
+#T	+1 703 641 8511
+#P	3110 Fairview Park Dr., Suite 800, Falls Church, VA 22042
+#L	38 51 N / 77 19 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Nov  4 16:47:44 EST 1991
+#U
+#
+noblesys	uunet(DEMAND)
+
+#N	nominil
+#S	Mizar Unistar-32; System V/VME r3.1
+#O	Lonesome Dove Computing Services
+#C	Mark C. Linimon
+#D	usenet@nominil.lonesome.com
+#T	+1 703 776 1004
+#P	P.O. Box 20291, Roanoke, VA 24018
+#L	37 15 N / 079 58 W city
+#R	engineering consulting: UNIX/vxWorks/real-time/C/assembler/SPARC/68k
+#R	personal system; willing to accept Roanoke connections
+#R	Formerly at 8701 Parkfield, Austin, TX 78758, +1 512 835 6760
+#R	usage of nominil.lonestar.org is obsolete and deprecated.
+#U	chinacat uunet
+#W	linimon@nominil.lonesome.com (Mark C. Linimon); Sun Aug 30 16:50:32 CDT 1992
+#
+nominil .lonesome.com(LOCAL)
+nominil = lonesome.com
+nominil = nominil.lonesome.com
+nominil	<bock>(WEEKLY), <chinacat>(EVENING+FAST), lonesome(DEDICATED),
+	<uunet>(WEEKLY), <wrangler>(EVENING+FAST)
+
+#N	norfolk
+#S	Motorola Computer Systems; Delta System V/68 R3V7.1
+#O	Motorola, Inc., Field Service Division, Norfolk Branch
+#C	Jack Buck
+#E	norfolk!jack
+#T	+1 804-853-4286
+#P	894 Widgeon Road, Suite 1, Norfolk, VA 23513, USA
+#L	38 55 15 N / 77 12 00 W
+#R	
+#U	alex
+#W	jack@norfolk.fsd.mot.com (Jack Buck); Mon Jul 27 11:16:29 EDT 1992
+#
+# mot.com domain stuff
+smarthost	= alex.fsd.mot.com, alex
+norfolk		= norfolk.fsd.mot.com
+# Long Distance Calls within the state
+norfolk	alex(DIRECT)
+# Sites that are private to this site
+norfolk	<cradac>(DEAD), <usenet>(DEAD), <csc>(DEAD), <op-center>(DEAD), <balt>(DEAD), <washs>(DEAD), <fourgen>(DEAD)
+
+#N	nss1
+#S	SCO Unix V 3.2
+#O	Simpact Associates, Inc.
+#C	Adam Feldman
+#E	nss1!ajf
+#T	+1 703 758 0190
+#P	12007 Sunrise Valley Dr., Reston, VA 22091
+#L	38 58 N / 77 20 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Jul	2 15:25:12 EDT 1990
+#U
+#
+nss1	uunet(DEMAND)
+
+#N	nybble
+#S	ATT 7300; UNIX 3.51
+#O	Private USENET node in Sterling, VA 22170-4914
+#C	Charles Green
+#E	nybble!charles
+#T	+1 703 471 6000
+#P	460 Herndon Parkway, Herndon, VA 22070-5201
+#L	38 59 50 N / 77 25 09 W
+#W	c3pe!charles (Charles Green); Mon Feb 10 16:15:17 EST 1992
+#U	c3pe pbsi
+#R	#T and #P fields are my employer; #L is physical system location
+#	local calls
+nybble	c3pe(DIRECT), pbsi(DIRECT), alembic(POLLED)
+
+#N	.odu.edu, chrysanthemum
+#F	CHRYSANTHEMUM.CS.ODU.EDU
+#O	Old Dominion University, Department of Computer Science
+#C	David Bianco <bianco>
+#E	postmaster@cs.odu.edu
+#T	+1 804 683 4529
+#P	Dept. of Computer Science; Norfolk, Virginia  23529-0162
+#L	36 53 7 N / 76 18 12 W
+#R	registered with NIC.DDN.MIL, affiliation in SURANET
+#U	mcnc ames ukma lll-winken uakari samsung sccvax cfdl virgil
+#U	brooks topsy gwynedd galaxia talos
+#W	chrysanthemum!bianco;  Thur Jan 23 09:50:00 EST 1992
+#
+# Also known as:
+#
+chrysanthemum   .odu.edu
+chrysanthemum = odu.edu
+chrysanthemum = ocean.odu.edu
+chrysanthemum = cs.odu.edu
+chrysanthemum = chrysanthemum.cs.odu.edu
+chrysanthemum = xanth.cs.odu.edu
+chrysanthemum = xanth
+#
+# Hampton Roads:
+chrysanthemum   brooks(POLLED), csab(DEMAND), gwynedd(POLLED), prose(POLLED),
+        ptvb(POLLED), sunva(DIRECT), topsy(DIRECT), vinya(DIRECT),
+        virgil(DIRECT), wyvern(DIRECT+FAST), taylor(DIRECT+FAST)
+#
+# Virginia:
+chrysanthemum   talos(POLLED), tcsc3b2(POLLED)
+#
+# Mundania:
+chrysanthemum   <ames>(DEDICATED), galaxia(POLLED),
+        <harvard>(DEDICATED+LOW), jetson(POLLED), <mcnc>(DEDICATED),
+        <mit-eddie>(DEDICATED), <umn-cs>(DEDICATED)
+
+#N	ois
+#S	PC 386, SCO Unix 3.2.2
+#O	Objective Interface Systems, Inc.
+#C	Jeff Chilton
+#E	ois!root
+#T	+1 703 264 1900
+#P	1875 Campus Commons Dr. Suite 310 Reston, VA  22091
+#L	38 58 N 77 23 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Wed Oct  7 13:25:41 EDT 1992
+#U
+#
+ois	uunet(DEMAND)
+
+#N	ons
+#S	SCO System V-Open Desktop
+#O	Open Network Systems Inc.
+#C	James Moulton
+#E	ons!root
+#T	+1 703 430 2668
+#P	P.O. Box 669, Sterling, VA  22170
+#L	39 00 N / 77 25 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Oct 29 20:08:21 EST 1990
+#U
+#
+ons	uunet(DEMAND)
+
+#N	.ori-cal.com, men2a
+#F	uunet.uu.net
+#O	Atlantic Rocket Corp.
+#C	Andrew Sibre, Dave Gallauresi
+#E	andys@ori-cal.com, daveg@ori-cal.com
+#T	(703) 841-0102
+#P	ARC/PSG Corporation, 1401 Wilson Blvd., Arlington Va., 22209
+#L	38 50 29 N / 77 03 30 W
+#U	grebyn (grebyn.com)
+#R	NIC Registered
+#W	andys@ori-cal.com (Andy Sibre) ; Thu Dec 28 16:46:15 EST 1989
+#
+#    (DIRECT+HIGH)  ==	Telebit		  (LOCAL)  ==	LAN
+#
+angela =	angela.ori-cal.com
+angela	men1a(DIRECT), men2a(DIRECT)
+
+aquin = aquin.ori-cal.com
+aquin	alyce(DIRECT+HIGH), askcs(DIRECT), jando(DIRECT+HIGH), kultis(DIRECT),
+	men1a(DIRECT), men2a(DIRECT+HIGH), spiff(DIRECT)
+
+askcs = askcs.ori-cal.com
+askcs	aquin(DIRECT), jando(DIRECT), men1a(DIRECT), men2a(DIRECT), 
+
+
+kultis =	kultis.ori-cal.com
+kultis	aquin(DIRECT), arc550(DIRECT), arc2(DIRECT), 
+	arc3(DIRECT), jando(DIRECT), men1a(DIRECT), 
+	men2a(DIRECT), spiff(DIRECT)
+
+men1a = men1a.ori-cal.com
+men1a	aquin(DIRECT+HIGH), angela(DIRECT), askcs(DIRECT), 
+	grebyn(DIRECT+HIGH), jando(DIRECT+HIGH), kultis(DIRECT),
+	men2a(LOCAL), men3a(DIRECT), men4a(DIRECT+HIGH), 
+	men5a(DIRECT), pd70-1(DIRECT), rlgvax(DIRECT), 
+	spiff(DIRECT), wingnut(DIRECT+HIGH)
+	
+men2a	.ori-cal.com
+men2a = men2a.ori-cal.com
+men2a	angela(DIRECT), aquin(DIRECT+HIGH), askcs(DIRECT), 
+	grebyn(DIRECT+HIGH), jando(DIRECT+HIGH), kultis(DIRECT), 
+	men1a(LOCAL), men3a(DIRECT), men4a(DIRECT+HIGH), 
+	men5a(DIRECT), pd70-1(DIRECT), spiff(DIRECT), 
+	uunet(DIRECT+HIGH), wingnut(DIRECT+HIGH)
+
+men3a = men3a.ori-cal.com
+men3a	men1a(DIRECT), men2a(DIRECT), pd70-1(DIRECT), 
+	wingnut(DEMAND), men5a(DIRECT)
+
+men4a = men4a.ori-cal.com
+men4a	men1a(DIRECT), men2a(DIRECT), men3a(DIRECT), 
+	wingnut(DEMAND)
+
+men5a = men5a.ori-cal.com
+men5a	men1a(DIRECT), men2a(DIRECT), men3a(DIRECT), men4a(DIRECT)
+
+orisqnt =	orisqnt.ori-cal.com
+orisqnt men2a(DIRECT)
+
+wingnut =	wingnut.ori-cal.com
+wingnut men1a(DIRECT), men2a(DIRECT+HIGH),
+	men3a(DIRECT), men4a(DIRECT)
+
+#N	orionres
+#S	Compaq 386; Interactive Unix 2.2
+#O	Orion Research
+#C	Todd Morris
+#E	orionres!root
+#T	+1 703 524 0504
+#P	4601 N. Fairfax Dr, Suite 703, Arlington, VA  22203
+#L	38 52 N / 77 06 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Dec 27 16:33:51 EST 1990
+#U
+#
+orionres	uunet(DEMAND)
+
+#N	osgssp.reston.icl.com
+#S	ICL DRS 6000; UNIX System V.4
+#O	International Computers Limited, Customer Support (CSTOR), Reston
+#C	Fred Covert
+#E	fred@osgssp.Reston.ICL.COM
+#T	+1 703 648 3300
+#P	11490 Commerce Park Drive, Reston, VA 22091
+#L	38 56 40 N / 77 20 20 W
+#R	
+#U	
+#W	Scott Thurlow <rlgvax!thurlow>; Tue Jan 14 12:01:43 EST 1992
+#	
+#	CSTOR is the customer support organization for ICL's OFFICEPOWER
+#	Office Automation package in North America.
+#
+osgssp =	osgssp.reston.icl.com
+osgssp	rlgvax(DEDICATED)
+
+#N	pacdc1
+#S	Intel 386; Sco 3.2.2        
+#O	Performance Awareness
+#C	Eric Wang
+#E	pacdc1!wang
+#T	+1 703 749 7738
+#P	2010 Corporate Ridge, #700, McLean, VA 22102
+#L	38 56 N / 77 10 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Fri Jun 12 16:51:06 EDT 1992
+#U
+#
+pacdc1	uunet(DEMAND)
+
+#N	.pae.com, selidor
+#F	uunet.uu.net
+#S	Infinity 386; ISC 386ix
+#O	PAE Associates
+#C	Paul Ebersman
+#E	postmaster@pae.com
+#T	+1 703 847 5770
+#P	1937 Kennedy Dr. #201, McLean, VA 22102
+#L	38 54 52 N / 77 12 45 W
+#R	Registered with NIC.DDN.MIL
+#U	uunet
+#W	ebersman@uunet.uu.net (Paul Ebersman); Fri Apr 20 15:02:45 EDT 1990
+#
+selidor .pae.com(LOCAL)
+selidor =	pae.com
+#
+selidor uunet(DIRECT+HIGH+FAST)
+
+#N	palcable
+#S	Dell 316 SX
+#O	Pharmaco Analytical Lab.
+#C	Steve Cable
+#E	palcable!root
+#T	+1 804 359 1900
+#P	2240 Dabney Rd., Richmond, VA 23230
+#L	37 33 N / 77 27 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Jul 30 16:40:21 EDT 1992
+#U
+#
+palcable	uunet(DEMAND)
+
+#N	pbs
+#F	UU.PSI.COM
+#S	DEC VAX6000-410; VMS 5.4-2
+#O	Public Broadcasting Service
+#C	Seton R. Droppers
+#E	pbs!postmaster, postmaster@pbs.org, sdroppers@pbs.org
+#T	+1 703 739 5089
+#P	1320 Braddock Place, Alexandria, VA  22314-1698
+#L	38 48 55 N / 77 02 59 W
+#R	Running DECUS uucp V1.3 and ANU News 6.0
+#U	uupsi
+#W	pbs!sdroppers (Seton Droppers);	 Tue Jan 29 08:40:42 EST 1992
+#
+pbs	uupsi(DIRECT)
+#
+# domain information
+#
+pbs	.pbs.org
+pbs =	pbs.org
+pbs =	pbs.pbs.org
+
+#N	pbsi	
+#S	Sequent
+#O	Phone Base Systems, Inc.
+#C	Rikki Welsh
+#E	pbsi!rikki
+#T	+1 703 893 8600 
+#P	8620 Westwood Center Dr, Vienna, VA 22180
+#L	38 54 N / 77 15 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Mon Feb 12 15:23:30 EST 1990
+#U	
+#
+pbsi	uunet(DEMAND)
+
+#N	pbsoscr
+#F
+#S	DEC MicroVAX II; VMS 5.2
+#O	Public Broadcasting Service
+#C	Seton R. Droppers
+#E	pbs!postmaster, sdroppers@pbs.org
+#T	+1 703 739 5089
+#P	1320 Braddock Place, Alexandria, VA  22314-1689
+#L	38 48 55 N / 77 02 59 W
+#R
+#U
+#W	pbs!sdroppers (Seton Droppers);	 Mon Jun 25 14:01:30 EDT 1990
+#
+pbsoscr pbs(DIRECT)
+
+#N	peapod
+#S	Gateway 2000 386 25MHz; ESIX System V 3.2 Rev D
+#O	
+#C	Jonathan R. Senning
+#E	jrs%peapod.uucp@virginia.edu
+#T	+1 804 977 1940
+#P	101 Scarborough Place, Charlottesville, VA 22903
+#L	38 00 30 N / 78 31 15 W
+#R	Personal system.
+#U	virginia
+#W	peapod!jrs (Jonathan R. Senning); Tue Nov 12 23:10:28 EST 1991
+#
+peapod	virginia(DIRECT)
+
+#N	permanet
+#S	US Robotics Courier Dual Standard V.32bis
+#O	Individual
+#C	Mark Prado
+#E	permanet!root
+#T	+1 703 715 0265
+#P	11425 South Lakes Dr. Reston, VA  22091
+#L	38 58 N 77 28 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Thu Oct  1 12:21:27 EDT 1992
+#U
+#
+permanet	uunet(DEMAND)
+
+#N	planets
+#S	Sun Sparc Station SLS - Sun O.S.4.1.1
+#O	Cambridge Researc Assoc.
+#C	Stephen W. Seipel
+#E	planets!root
+#T	+1 703 790 0505
+#P	1430 Springhill Rd. Suite 200 McLean, VA  22102
+#L	38 56 N 77 10 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Tue Sep  8 14:09:19 EDT 1992
+#U
+#
+planets	uunet(DEMAND)
+
+#N	potomac
+#S	Sun III/180; 4.2 BSD UNIX
+#O	Advanced Decision Systems (Washington Office)
+#C	Wayne M. Roberts
+#E	potomac!wmr, wmr@potomac.ads.com
+#T	+1 703 243 1611
+#P	1500 Wilson Boulevard #512, Arlington VA, 22209-2401
+#L	77 05 00 W  / 38 53 00 N Washington DC
+#U	sundc psc zodiac etl fedlxn tdmfed
+#R	Internet address potomac.ads.com
+#W	potomac!wmr (Wayne M. Roberts);Thu Aug 31 14:12:03 EDT 1989
+#
+potomac =	"potomac.ads.com"
+potomac sundc(HOURLY), fedlxn(DAILY), psc(DAILY), zodiac(HOURLY), etl(DAILY)
+
+#N	prcpto
+#S	Masscomp 5500; UNIX Sys. V 3.1B
+#O	PRC, Inc.
+#C	N. Curt Bean
+#E	prcpto!psyncb
+#T	+1 703 883 8591
+#P	1760 Business Center Dr., Reston, VA 22090
+#L	38 58 N / 77 20 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jan 31 11:16:06 EST 1992
+#U
+#
+prcpto	uunet(DEMAND)
+
+#N	prcrs
+#S	HP 9000/850; HP-UX 3.1
+#O	Planning Research Corporation, Realty Systems
+#C	Paul Hite
+#E	prcrs!paul, prcrs!postmaster
+#T	+1 703 556 2243, +1 703 556 2500
+#P	1500 Planning Research Drive, Mail Stop 5N2, McLean, VA 22102
+#L	38 58 N / 77 16 W
+#R	
+#W	prcrs!paul (Paul Hite); Mon Nov	 6 11:37:06 EST 1989
+#U	uunet
+#
+prcrs	uunet(HOURLY), decuac(WEEKLY), stubby(DIRECT), 
+	prcpto(WEEKLY), bstar1(DEDICATED)
+
+#N	psd
+#S	Dell 325, UNIX
+#O	Pomper Software Design, Inc.
+#C	Gardner Pomper
+#E	psd!root
+#T	+1 703 450 3816
+#P	20044 Great Falls Forest Dr., Great Falls, VA 22066
+#L	77 17 N / 38 59 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Aug 26 15:42:10 EDT 1991
+#U
+#
+psd	uunet(DEMAND)
+
+#N	ptvb
+#S	NCR Tower 32/600;Tower Unix 1.03.08
+#O	Pioneer Title
+#C	Rebecca Chappell
+#E	ptvb!postmaster
+#T	+1 804 671 7413
+#P	525 SOVRAN Bank Bldg.; One Columbus Center; Virginia Beach, VA 23462
+#L	36 50 33 N / 76 07 54 W
+#U	xanth
+#W	ptvb!rebec (Rebecca Chappell); Tue Aug	8 14:58:57 EDT 1989
+#
+# Link to outside world
+ptvb	xanth(DIRECT)
+#
+# Other Pioneer machines
+ptvb	ptport(DIRECT), ptches(DIRECT), ptnn(DIRECT)
+
+#N	pyrdc
+#S	Pyramid MIServerT 4/4; OSx 5.1a (4.3/SystemV.3)
+#O	Pyramid Technology Corp., Washington D.C. office
+#C	Bill Stangle , Tony Kazel
+#E	pyrdc!bill, pyrdc!tony
+#T	703 848 2050
+#P	1921 Gallows Road, Suite 250, Vienna, VA 22180
+#L	38 55 N / 77 14 W 
+#R	general purpose machine
+#U	grebyn uunet eliot netxcom prcpto reavin oeo2 isi tdmfed
+#U	ibmsid netsys cdscom jetson nowhere bimbo sunny rucs lighthouse 
+#W	pyrdc!mike; Thu Sep  3 03:46:54 EDT 1992
+#
+pyrdc	abbey(WEEKLY), alxfac(DIRECT), bimbo(DIRECT), cp1(DIRECT),
+	cdscom(DIRECT), eliot(DIRECT), grebyn(DEMAND), hqdic(DIRECT),
+	ibmsid(WEEKLY), inco(WEEKLY), isi(DAILY), jetson(DIRECT),
+	lighthouse(DIRECT), mcsi(DAILY), netxcom(DIRECT),
+	nopyr(DAILY), ods0(DAILY), oeo2(HOURLY), prcpto(DAILY), 
+	pyramid(DEMAND), pyratl(DEMAND), pyrbos(DEMAND), pyrchi(DEMAND), 
+	pyred(DEMAND), pyritan(WEEKLY), pyrnj(DEMAND), reavin(DAILY), 
+	sajmm(WEEKLY), scsi(POLLED), sna6(WEEKLY), snark(WEEKLY), 
+	swbatl(WEEKLY), tdmfed(DIRECT), uunet(DIRECT+HIGH), viar(WEEKLY)
+
+#N	reftek
+#S	Generic 386; Esix 5.3.2
+#O	Individual
+#C	John Fleming
+#E	reftek!fleming
+#T	+1 703 883 3956
+#P	13149 Penndale Lane, Fairfax, VA 22033
+#L	38 50 N / 77 18 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Aug 31 10:21:17 EDT 1990
+#U
+#
+reftek	uunet(DEMAND)
+
+#N	results
+#S	Macintosh II; A/UX3.0
+#O	RESULTS Now, Inc.
+#C	Christopher Johnson
+#E	results!cjohnson
+#T	+1 703 521 4862
+#P	1111 Jefferson Davis Highway, Suite 607, Arlington, VA 22202
+#L	38 52 N / 77 06 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri May  8 14:57:53 EDT 1992
+#U
+#
+results	uunet(DEMAND)
+
+#N	rich
+#S	Motorola Computer Systems; Delta System V/68 R3V7.1
+#O	Motorola, Inc., Field Service Division, Richmond Branch
+#C	Don Mayes
+#E	rich!don
+#T	+1 804-275-1031
+#P	6526-A Iron Bridge Road, Richmond, VA 23234, USA
+#L	38 55 15 N / 77 12 00 W
+#R	
+#U	alex
+#W	don@rich.fsd.mot.com	(Don Mayes); Mon Jul 27 12:47:33 EDT 1992
+#
+# mot.com domain stuff
+smarthost	= alex.fsd.mot.com, alex
+rich		= rich.fsd.mot.com
+# Long Distance Calls within the state
+rich	alex(DIRECT)
+# Sites that are private to this site
+rich	<cradac>(DEAD), <usenet>(DEAD), <csc>(DEAD), <op-center>(DEAD), <balt>(DEAD), <washs>(DEAD), <fourgen>(DEAD)
+
+#N	rlgvax.Reston.ICL.COM
+#F	uu3.psi.com
+#S	POWER 6/32; CCI/ICL System V Release 3.11
+#O	International Computers Limited, OFFICEPOWER Products Center, Reston
+#C	Scott Thurlow, Jan Tax
+#E	postmaster@rlgvax.Reston.ICL.COM
+#T	+1 703 648 3300
+#P	11490 Commerce Park Drive, Reston, VA 22091
+#L	38 56 40 N / 77 20 20 W
+#R	
+#U	mimsy uupsi2
+#W	Scott Thurlow <rlgvax!thurlow>; Fri Jun 19 10:25:26 EDT 1992
+#
+#	All inquiries regarding e-mail addresses of ICL employees world-wide
+#	should be directed to Address_Inquiries@Reston.ICL.COM.
+#
+#	Rlgvax is the gateway between the North American division of 
+#	International Computers Limited and the outside world.  In addition
+#	rlgvax is part of the OFFICEPOWER Products Center in Reston which
+#	develops ICL's OFFICEPOWER in coordination with the OFFICEPOWER
+#	Products Centre in Bracknell, Berkshire, UK.
+#
+#	+FAST		= Trailblazer connection
+#			= 2400 Baud connection
+#	+LOW		= 1200 Baud connection
+rlgvax		.icl.com
+rlgvax =	reston.icl.com
+
+# Connections to other ICL offices
+rlgvax	<ccicpg>(DEAD), <iclusa02>(DEAD), <osgssp>(LOCAL),
+	<dsbc>(DEDICATED+LOW), <q>(EVENING)
+
+# Connections to other people
+rlgvax	mimsy(DIRECT+FAST), <uupsi>(DEAD), <uupsi2>(EVENING+FAST),
+	<uupsi3>(DIRECT+FAST), <xlisa>(WEEKLY)
+
+#N	rmcash
+#S	Concurrent Computer 3230
+#O	Randolph-Macon College
+#C	Roberta Young-Jackson
+#E	rmcash!ry
+#T	+1 804 752 4719
+#P	Computer Center, Ashland, VA  23005
+#L	37 44 N / 90 54 W city
+#R
+#W	uunet!rmcash!tbm (T. Boyd Moore); Fri May 25 13:11:48 EDT 1990
+rmcash	uunet(DIRECT)
+
+#N	robecdc
+#S	Unisys 486/25; SCO UNIX V3.2.0
+#O	Robec Distributors
+#C	William Sneed
+#E	ghost@dc.robec.com
+#T	+1 703 631 4800
+#P	9030 Euclid Ave. Manassas Va 22110
+#L
+#R	Development & Archives
+#U	pyrdc uunet jmsoft vcrst datasync
+#W	William Sneed (ghost@dc.robec.COM); Thur Aug  2 11:41:23 EDT 1990
+#
+robecdc robec.com
+robecdc =	dc.robec.com
+robecdc =	robecdc.robec.com
+robecdc pyrdc(DAILY/6), uunet(DAILY/6+HIGH), robechq(DAILY/8),
+	robecbo(DEMAND), robecfl(POLLED), robecga(POLLED),
+	robecch(POLLED), vcrst(POLLED), datasync(POLLED),
+	gsprod(POLLED), jmsoft(POLLED), unix-dc(DEMAND)
+
+#N	rri
+#S	PC-386; Interactive V/386
+#O	Recognition Research Inc.
+#C	James Dunson
+#E	rri!james
+#T	+1 703 231 7541
+#P	Recognition Research Inc, 1800 Kraft Dr, Suite 108, Blacksburg, VA 24060
+#L	37 15 N / 80 25 W city
+#R
+#W	jarrell@vtserf.cc.vt.edu (Ron Jarrell); Thu Mar 9 02:37:12 EST 1991
+#U	vtserf
+#
+rri vtserf(DAILY/4)
+
+#N	s8000
+#S	Zilog System 8000
+#O	Dynatech Communications
+#C	Graham C. Welling
+#E	s8000!root
+#T	+1 703 550 0011
+#P	991 Annapolis Way Woodbridge, VA 22191
+#L	38 39 N / 77 15 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Sep	 4 12:37:39 EDT 1990
+#U
+#
+s8000	uunet(DEMAND)
+
+#N	s850
+#S	HP 9000/850
+#O	Mary Washington College 
+#C	Ernest C. Ackermann
+#E	s850!root
+#T	+1 703 899 4031	 
+#P	1301 College Ave., Combs 4A, Fredericksburg, VA 22401
+#L	38 18 N / 77 27 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Wed May	9 11:05:19 EDT 1990
+#U	
+#
+s850	uunet(DEMAND)
+
+#N	sacfed
+#S	SCO Unix 3.2.2
+#O	CACI Inc. - Federal
+#C	Bill Brothers
+#E	sacfed!root
+#T	+1 703 876 2280
+#P	8260 Willow Oaks Corporate Dr, Fairfax, VA  22302
+#L	38 48 N / 77 02 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner);Mon Mar  4 18:34:34 EST 1991
+#U
+#
+sacfed	uunet(DEMAND)
+
+#N	sae
+#S	Sun 3/160;SunOS 4.1
+#O	Software AE
+#C	Kenneth Dahl
+#E	sae!ken
+#T	+1 703 284 3830
+#P	1600 Wilson Blvd., Suite 500, Arlington, VA 22209
+#L	38 52 N / 77 06 W city
+#R
+#W	sae!ken (Kenneth Dahl); Thu Nov 15 11:13:46 EST 1990
+#U
+sae	uunet(DEMAND)
+
+#N	saimcl
+#S	VAX 8650 / VMS
+#O	SAIC
+#C	Andy Wolf
+#E	saimcl!root
+#T	+1 703 821 4330
+#P	1710 Goodridge Dr, McLean, VA 22102
+#L	38 56 N / 77 10 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Jun	6 09:31:49 EDT 1990
+#U
+#
+saimcl	uunet(DEMAND)
+
+#N	sandman
+#S	Tandy 1000TX; MS-DOS/UUPC
+#O	Ron Jarrell
+#C	Ron Jarrell
+#E	sandman!jarrell
+#T	+1 703 231 9513
+#P	Ron Jarrell, 1700 Pratt Dr, Blacksburg, VA 24060-6361
+#L	37 15 N / 80 25 W city
+#R
+#W	jarrell@vtserf.cc.vt.edu (Ron Jarrell); Sat Mar 23 02:37:12 EST 1991
+#U
+#
+rri vtserf(DEMAND)
+
+#N	sandr
+#S	SCO Unix V/386; 3.2.2
+#O	S&R Software, Inc.
+#C	Doug Lucy
+#E	sandr!root
+#T	+1 804 358 5698
+#P	2209 Park Ave., Richomond, VA 23220
+#L	37 33 N / 77 27 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Apr  9 15:34:30 EDT 1992
+#U
+#
+sandr	uunet(DEMAND)
+
+#N	sasl
+#S	386.33 Genric
+#O	Systems & Software, Ltd.
+#C	Gary Jakl
+#E	sasl!root
+#T	+1 703 683 7180
+#P	P.O. Box 907, Arlington, VA 22216
+#L	38 52 N / 77 06 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Fri Oct  4 14:28:27 EDT 1991
+#U
+#
+sasl	uunet(DEMAND)
+
+#N	sassy
+#S	Macintosh SE; MacOS 6.0.5
+#O	C & C's
+#C	Charles Shotton
+#E	sassy!charles
+#T	+1 804 539-2288
+#P	826 Craig Dr., Suffolk, VA 23434
+#L	36 30 N / 75 30 W city
+#U	wyvern
+#R	Sassy is a Mac receiving and posting mail and news. No forwarding.
+#W	cshotton@oac.hsc.uth.tmc.edu (Chuck Shotton) ; Tue Oct 29 20:00:00 CST 1991
+#
+sassy	wyvern(DIRECT)
+
+#N	savant
+#S	Everex AGI 33Mhz 386/ESIX SVR3.2(c)
+#O	Savant Systems
+#C	jon
+#E	savant!jon@virginia.edu
+#T	(804)977-8802
+#P	221 Collonade Dr. #6, Charlottesville, Va. 22901
+#L	077 20 W / 38 19 N
+#R	Public Access Host, Serving the Global Village
+#U	murdoch
+#W	savant!jon (jon gefaell); Friday, June 9 00:00:00 EDT 1990
+#
+savant	murdoch(DIRECT), virginia(DIRECT)
+
+#N	sea071
+#S	Cromemco, V.2
+#O	Don Hall
+#C	Don Hall
+#E	sea071!root
+#T	+1 703 527 3688
+#P	309 N. Fillmore St., Arlington, VA  22201
+#L	38 54 N / 77 06 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Tue Jan 10 13:03:11 EST 1989
+#U
+#
+sea071		uunet(DEMAND)
+
+#N	seismo
+#S	Sun SPARCstation 1+; SunOS 4.1.1
+#O	Center for Seismic Studies
+#C	David S. Comay
+#E	postmaster@seismo.CSS.GOV, seismo!postmaster
+#T	+1 703 276 7900
+#P	1300 North 17th Street, Suite 1450, Arlington, VA 22209-3871
+#L	38 53 40 N / 077 04 34 W
+#R
+#U	darwin.sura.net esosun expres.expres.nsf.gov hal lll-winken news.bbn.com
+#U	rsg1 sundc ukma uunet
+#W	dsc@seismo.CSS.GOV (David S. Comay); Tue Apr  7 10:20:25 EDT 1992
+#
+seismo	.CSS.GOV(LOCAL), esosun(DEDICATED), uunet(DEDICATED)
+
+#N	shlfed
+#S	Acer 386/20
+#O	Systemhouse Federal Systems
+#C	Brad Seller
+#E	shlfed!root
+#T	+1 703 276 0500
+#P	1010 N. Glebe Road, Arlington, VA  22201
+#L	38 54 N / 77 06 W city
+#R	
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu Aug 17 13:27:45 EDT 1989
+#U	
+#
+shlfed	uunet(DEMAND)
+
+#N	shlhse
+#S	Next Station
+#O	Systemhouse
+#C	Rob Robless
+#E	shlhse!root
+#T	+1 703 276 0500
+#P	1010 N. Glebe Rd., Arlington, VA 22201
+#L	38 52 N / 77 06 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Nov 26 15:42:16 EST 1991
+#U
+#
+shlhse	uunet(DEMAND)
+
+#N	smsdpg
+#S	Sun-3/180, SunOS 4.0.3
+#O	SMS Data Products Group, Inc.
+#C	T. Scott Pyne
+#E	smsdpg!postmaster
+#T	+1 703 648 9400
+#P	12379 Sunrise Valley Drive, Reston VA 22091-3422 USA
+#L	38 56 55 N / 77 22 30 W
+#R	gateway to SMS internal network
+#U	hadron uunet fed
+#W	smsdpg!tsp (T. Scott Pyne); Thu Mar  8 16:52:09 EST 1990
+#
+smsdpg	hadron(DIRECT), fed(POLLED)
+
+#N	snowgoos
+#S	Toshiba 5200; MS-DOS
+#O	Snow Goose Software Works
+#C	David Stoffel
+#E	snowgoos!root
+#T	+1 301 255 0658
+#P	P.O. Box 16450, Arlington, VA  22215
+#L	38 52 N / 77 06 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Nov	6 19:02:49 EST 1990
+#U
+#
+snowgoos	uunet(DEMAND)
+
+#N	snowgoose
+#S	
+#O	Snow Goose Software Works
+#C	David Stoffel
+#E	snowgoose!root
+#T	+1 301 255 0658
+#P	P.O. Box 16450, Arlington, VA  22215
+#L	
+#R	
+#W	asp@uunet.UU.NET (Andrew Partan); Thu Feb 28 17:13:22 EST 1991
+#U	
+#
+snowgoose	uunet(DEMAND)
+
+#N	.soup.org, mama
+#S	Sun 3.50
+#O	The Soup Kitchen
+#C	Liz Sommers
+#E	liz@mama.soup.org 
+#T	+1 703 620-1727
+#P	Herndon, Virginia
+#R	Home machine
+#W	liz@mama.soup.org;  Sat Mar 31 14:48:06 EST 1990
+#U	
+#
+mama =	mama.soup.org, soup.org
+mama	.soup.org
+mimsy	mama(DIRECT), mama(WEEKLY)
+
+#N	speck
+#S	Clone 386 PC; Coherent 3.2
+#C	Mike McAdams
+#E	speck!root
+#T	+1 703 866 1459
+#P	8354 Darlington Ct.  Springfield, VA 22152
+#L	38 47 30 N / 77 14 30 W
+#R    
+#U	bogart
+#W	speck!mmcadams (Mike McAdams); Wed Jun 10 17:05:00 EST 1992
+#
+speck       bogart(POLLED)
+
+#N	spiff
+#S	PAT 80386, SCO XENIX System V/386 r2.3.1
+#O	Management Information Consulting, Inc.
+#C	Gordon A. Runkle
+#E	spiff!usenet
+#T	+1 703 522 0825
+#P	2602 Lee Highway, No. 204, Arlington, VA  22201-4052
+#L	38 55 N / 77 00 W city
+#R	--- spiff replaces 1solaria ---
+#R	The system in my office.
+#R	I receive news from jando, others I feed.
+#U	dvpdev jando kgsoft kultis worldex
+#W	spiff!gar;  Fri Feb  2 13:35:01 EST 1990
+spiff = 1solaria
+spiff	askcs(EVENING), aquin(DIRECT), dvpdev(DIRECT), jando(DIRECT),
+	kgsoft(DIRECT), kultis(EVENING), men2a(LOCAL), oeo2(DEAD),
+	worldex(EVENING)
+
+#N	sqlware
+#S	386-33 DOS/Network uupcd software
+#O	SQLWare, Inc.
+#C	Joseph Bartling
+#E	sqlware!root
+#T	+1 703 771 3979
+#P	808 Balls Bluff Rd. NE Leesburg, VA  22075
+#L	39 06 N 77 33 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Tue Sep 29 12:56:53 EDT 1992
+#U
+#
+sqlware	uunet(DEMAND)
+
+#N	srvr01
+#S	Dell (PC-Limited) `386 Clone; SCO Xenix-386 2.2
+#O	Third Presbyterian Church
+#C	
+#E	ki4pv!tanner
+#T	+1 804 282 4645
+#P	600 Frost Ave; Richmond, VA   23229.
+#L	
+#U	
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+srvr01	cdin-1(DAILY)
+
+#N	ssdc
+#S	Sun386i SunOS 4.0.1
+#O	Sterling Software
+#C	Eric Seeger
+#E	ssdc!eseeger
+#T	703 356 3551
+#P	8000 Towers Crescent Dr. Vienna, VA. 22182
+#L	
+#R	DoD Software Develoment
+#U	uunet
+#W	ssdc!eseeger (Eric Seeger); Mon Jan 9 10:00 EST 1990
+#
+ssdc	uunet(DAILY) 
+
+#N	.ssdc.sterling.com, ssdc
+#S	Sun386i SunOS 4.0.1
+#O	Sterling Software
+#C	Eric Seeger
+#E	ssdc!eseeger
+#T	+1 703 356 3551
+#P	8000 Towers Crescent Dr. Vienna, VA. 22182
+#L	
+#U	uunet
+#W	ssdc!eseeger (Eric Seeger); Fri Jul 10 13:06:03 CDT 1992
+#
+ssdc = ssdc.ssdc.sterling.com
+ssdc = .ssdc.sterling.com
+
+ssdc	uunet(DAILY), <sparky>(DEMAND)
+
+#N	sterno
+#S	HP Vectra 486 SCO Sys V 3.2.4
+#O	Transaction communications, Inc.
+#C	Richard Sternitzke
+#E	sterno!root
+#T	+1 703 742 0500
+#P	13873 Park Center Rd., Suite 405 Herndon, VA  22071 
+#L	38 58 N / 77 23 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Tue Jun 30 10:09:54 EDT 1992
+#U
+#
+sterno	uunet(DEMAND)
+
+#N	sticky
+#S	386/25; UNIX SVR3.2
+#O	Tidewater UNIX Users Group
+#C	Buddy Cook
+#E	sticky!usenet
+#T	+1 804 488-9310
+#P	2004 Christopher Dr., Chesapeake, VA 23321
+#L	36 50 33 N / 076 07 54 W
+#R	This space for rent.
+#U	wyvern
+#W	sticky!bcook (Buddy Cook); Sat Nov  9 19:05:00 EST 1991
+#
+sticky	wyvern(DIRECT+FAST)
+
+#N	sundc
+#S	Sun-3/280S-32; 4.2 BSD UNIX
+#O	Sun Microsystems, Inc.
+#C	Mike Roncadori
+#E	sundc!mike sundc!usenet sundc!postmaster
+#T	+1 703 883 0444
+#P	8219 Leesburg Pike, Suite 700, Vienna, VA.  22182
+#L	38 53 N / 77 25 W
+#R	
+#W	sundc!mike (Mike Roncadori); Fri Jan 12 07:06:38 EDT 1990
+#U	hadron hqda-ai netxcom potomac rlgvax student sun sunbalt sunatl
+#	sunfla sunvice
+#
+#      DIRECT+HIGH = 2400	       DIRECT = 1200
+#
+sundc	bdmrrr(DIRECT), cos(DIRECT+HIGH), elvira(DEMAND),
+	gwusun(DIRECT), hadron(DIRECT+HIGH), hqda-ai(DIRECT+HIGH),
+	liberty(EVENING), mxeast(DIRECT), netxcom(DIRECT),
+	osiris(DEMAND), potomac(DIRECT), qacg(DIRECT),
+	rlgvax(DIRECT+HIGH), smsdpg(DIRECT), student(DIRECT+HIGH),
+	sun(DEDICATED), sunatl(EVENING), sunfla(EVENING),
+	sunne(DEDICATED), sunpeaks(EVENING), sunrise(EVENING),
+	suntri(EVENING), texsun(DEDICATED), tukey(DIRECT),
+	xrxedds(DIRECT), sunbalt(DEDICATED), sunatl(DEDICATED),
+	sunfla(DEDICATED), sunvice(DEDICATED) 
+#
+mxwest	sundc(DAILY)
+saevax	sundc(DAILY)
+
+#N	sundra
+#S	Sun/BSD
+#O	Integrated Systems, Inc.
+#C	Chris Nicotra
+#E	sundra!root
+#T	+1 703 471 7453
+#P	11361 Sunset Hills Rd. Reston, VA 22090
+#L	38 58 N / 77 20 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Aug 28 16:08:36 EDT 1990
+#U
+#
+sundra	uunet(DEMAND)
+
+#N	.sunset.sda.com sunset
+#F	uunet.uu.net
+#S	Sun 3/60; Sun OS 4.0
+#O	Software Design and Analysis
+#C	Mark Dowson
+#E	sunset!root
+#T	+1 703 476 6250
+#P	1160-F South Lakes Drive, #303, Reston, VA  22091
+#L	38 58 W / 77 20 W city
+#R	registered
+#W	gaede@bearsan.sda.com (Steve Gaede); Thu Jan  4 11:30:41 MST 1990
+#U	
+#
+sunset =	sunset.sda.com
+sunset	uunet(DEMAND), bearsan(HOURLY)
+
+#N	syscntr 
+#S	Sun 386i;SunOS 4.0.2
+#O	Systems Center, Inc.
+#C	Andrew McCasker
+#E	syscntr!alm
+#T	+1 703 264 8208
+#P	1800 Alexander Bell Dr., Reston, VA 22091
+#L	38 58 N / 77 20 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Thu Feb	1 15:27:28 EST 1990
+#U	
+syscntr uunet(DEMAND)
+
+#N	systar
+#F	uunet.uu.net
+#S	ALR 386/33; Interactive UNIX System V/386 3.2 Ver. 2.2
+#O	Systar, Inc.
+#C	David McVicar
+#E	uunet!systar!djm
+#T	+1 703 834 5510
+#P	205 Van Buren, Ste. 350, Herndon, VA   22070
+#L	39 00 N / 77 37 W
+#R	Software Engineering and Marketing (Performance Monitors)
+#U	uunet
+#W	uunet!systar!djm (David McVicar); Thu Nov 29 08:50:45 EST 1990
+#
+systar	uunet(DIRECT+FAST)
+
+#N	sytex
+#S	PC AT 386
+#O	Sytex Systems
+#C	Jim Arnold
+#E	Sytex!root
+#T	+1 703 358 9139
+#P	4400 N Pershing Dr. Apt. 1 Arlington, VA  22203
+#L	38 52 N 77 06 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Mon Oct  5 10:01:32 EDT 1992
+#U
+#
+sytex	uunet(DEMAND)
+
+#N	talos,talos.pm.com
+#S	DEC MICROVAX II; ULTRIX 3.0
+#O	Philip Morris Research Center
+#C	Jon Tabb
+#E	tabb@talos.pm.com
+#T	+1 804 274 5355
+#P	P. O. Box 26583, Richmond, VA 23261
+#L	37 28 10 N / 77 25 55 W
+#R
+#U	uunet
+#W	talos!kjones (Kyle Jones); Wed Aug 22 15:40:42 EDT 1990
+#
+talos	.pm.com
+talos = talos.pm.com
+
+talos	uunet(DEMAND), cscunix(DEMAND)
+
+#N	taurus
+#S	Gateway 2000 386SX; Coherent 3.1.0U
+#O	James Madison University
+#C	John O. Wall III (Jay Wall)
+#E	taurus!jwall
+#T	+1 703 564 1152
+#P	51-H South Ave.  Harrisonburg, VA  22801
+#L	38 30 N / 78 50 W
+#R	Can also be reached on the Internet at jwall@hub.cs.jmu.edu
+#U	jmucshub
+#W	taurus!jwall (John O. Wall III); Wed Feb 27 21:28:51 EST 1991
+#
+taurus		jmucshub(DAILY)
+
+#N	taylor
+#S	Altos series 2000, Unix 5.3dt3
+#O	Lake Taylor Hospital, Computer Services
+#C	Mark A. Davis <mark>
+#E	taylor!postmaster
+#T	+1 804 461 5001 x431
+#P	Lake Taylor Hospital; Computer Services, Norfolk VA, 23502
+#L	36 53 7 N / 76 18 12 W
+#W	taylor!mark (Mark A. Davis);  Mon Sep  9 11:57:00 EST 1991
+taylor	chrysanthemum(DIRECT+FAST)
+
+#N	.tcsc.com, tcsc3b2
+#F	ka3ovk
+#S	386/25; Microport Unix System V 4.0
+#O	The Computer Solution Company, Inc.
+#C	Philip A. Gross
+#E	tcsc3b2!postmaster
+#T	+1 804 794 3491 x32
+#P	831 Grove Road, P.O. Box 716, Midlothian, VA  23113
+#L	37 30 N / 77 39 W city
+#U	ka3ovk
+#W	tcsc3b2!pag (Philip A. Gross); Wed Jul  8 08:46:11 EDT 1992
+#R	
+tcsc3b2	.tcsc.com(LOCAL)
+tcsc3b2=tcsc3b2.tcsc.com
+tcsc3b2	<uunet>(WEEKLY), ka3ovk(DAILY/3), tincan(EVENING), 
+	tcsc386(EVENING), wimpy(EVENING), fibers(POLLED), lazarus(POLLED), 
+	syrinx(POLLED), karnak(POLLED), fossal(POLLED), wperkins(POLLED)
+
+#N	tcsc386
+#F	tcsc3b2
+#S	AT&T 6386/E; AT&T UNIX System V Release 3.2
+#O
+#C	David P. Romig
+#E	tcsc386!postmaster
+#T	+1 804 794 7377
+#P	1981 Castlebridge Road, Midlothian, VA	23113
+#L	37 30 N / 77 39 W city
+#U	tcsc3b2
+#W	tcsc386!tcsc (David P. Romig); Tue May 15 08:49:06 EDT 1990
+#R
+tcsc386 =	tcsc386.tcsc.com
+tcsc386 tcsc3b2(EVENING)
+
+#N	tcsc3b2, .tcsc.com
+#F	ka3ovk
+#S	386/25; Microport Unix System V 4.0
+#O	The Computer Solution Company, Inc.
+#C	Philip A. Gross
+#E	tcsc3b2!postmaster
+#T	+1 804 794 3491 x32
+#P	831 Grove Road, P.O. Box 716, Midlothian, VA  23113
+#L	37 30 N / 77 39 W city
+#U	wb3ffv ka3ovk
+#W	tcsc3b2!pag (Philip A. Gross); Tue Dec 17 11:47:03 EST 1991
+#R	
+tcsc3b2	.tcsc.com(LOCAL)
+tcsc3b2=tcsc3b2.tcsc.com
+tcsc3b2	<uunet>(WEEKLY), ka3ovk(DAILY/3), tincan(EVENING), 
+	tcsc386(EVENING), wimpy(EVENING), fibers(POLLED), lazarus(POLLED), 
+	syrinx(POLLED), karnak(POLLED), fossal(POLLED)
+
+#N	tdmfed
+#S	Tandem Integrity 200; NonStop-UX A22
+#O	Tandem Computers
+#C	Frank Hecker
+#E	tdmfed!postmaster
+#T	+1 703 476 3392
+#P	12100 Sunrise Valley Drive, Reston, VA 22091
+#L	38 57 00 N / 77 21 50 W
+#R	cnews; Tandem Federal Operations
+#U	tdmnj
+#W	tdmfed!hecker (Frank Hecker); Mon Jul 20 14:35:54 EDT 1992
+
+tdmfed  .reston.tandem.com(LOCAL)
+tdmfed =        reston.tandem.com, tdmfed.reston.tandem.com
+tdmfed  halley(DAILY), ldastl(DAILY), pyrdc(DAILY), tandem(DAILY),
+	tdmchi(DEMAND), tdmnj(DAILY)
+
+#N	telenet
+#S	Sun 3/280 (68020); Sun OS 3.5
+#O	Telenet Communications Corp.
+#C	Eldon R. Mast
+#E	telenet!postmaster
+#T	+1 703 689 6000
+#P	12490 Sunrise Valley Drive Reston VA 22096
+#L	38 55 N / 77 00 W city
+#R	
+#U	hadron uunet
+#W	telenet!netxbbs!root (David K. Purks); Wed Aug 24 11:27:36 EDT 1988
+#
+telenet uunet(DIRECT)
+
+#N	tmn
+#S	Compaq 386/20; SCO Xenix 386
+#O	Metasystems Design Group, Inc.
+#C	Scott Burns
+#E	tmn!scott
+#T	+1 703 243 6622
+#P	2000 N. 15th St., Suite 103, Arlington, VA  22201
+#L	38 54 N / 77 06 W city
+#R	
+#W	scott@tmn.UU.NET (Scott Burns); Fri Mar 30 11:19:41 EST 1990
+#U	
+#
+tmn	uunet(DEMAND)
+
+#N	tnc
+#S	Zenith Z386/16; SCO Xenix 2.2
+#O	The Next Challenge, Fairfax, Va.
+#C	Tom Buchsbaum
+#E	tnc!tom
+#T	+1 703 239 8992
+#P	11622 Havenner Rd., Fairfax Station, VA 22039
+#L	38 50 N / 77 18 W
+#R
+#W	tnc!tom (Tom Buchsbaum); Sat Jul 28 10:58:30 EDT 1990
+#U	uunet
+#
+tnc	uunet(DIRECT)
+
+#N	topsy
+#S	AT&T 3b2 Unix System V Release 3		
+#O	Norfolk State University, Computer Science Dept.
+#C	Mark D. Manes
+#E	topsy!manes
+#T	+1 804 683 2532
+#P	CS Dept, 2401 Corprew Ave, Norfolk VA 23504
+#L	36 53 7N / 76 18 12W
+#U	xanth
+#W	topsy!manes (Mark D. Manes); Wed May 10 14:00:00 EST 1989
+#
+topsy	xanth(DIRECT)
+
+#N	toylnd
+#S	AT&T 3b1; SYS V version 3.5
+#O	Dave & Anne in Charlottesville, VA.
+#C	David C. Albrecht
+#E	toylnd!dca
+#T	+1 804 973 3041
+#P	2411 Peyton Dr. APT 207, Charlottesville, VA 22901
+#L	38 04 N / 78 27 W
+#W	toylnd!dca (David C. Albrecht); Tue Nov 28 4:08:00 EST 1989
+#
+toylnd	virginia(DIRECT)
+
+#N	tropez
+#S	80286-based PC AT Compatible; SCO Xenix 286 2.2.1
+#O	DC Pro
+#C	Doug Lucy
+#E	tropez!dlucy
+#T	+1 703 820 3922
+#P	3738A Madison Lane, Falls Church, VA 22041
+#L	38 52 N / 77 10 W city
+#R	Unix/Xenix/Macintosh/MSDOS S/W Developer & VAR
+#U	
+#W	tropez!dlucy (Doug Lucy); Wed Jan 24 17:59:43 EST 1990
+#
+tropez	uunet(DIRECT)
+
+#N	trwacs
+#S	Sun 3/160; SunOS 4.0.3
+#O	TRW Systems Division
+#C	Jeremy Epstein
+#E	trwacs!epstein
+#T	+1 703 876 4202
+#P	2750 Prosperity Avenue, Fairfax VA  22031
+#L	38 52 30 N / 77 14 10 W
+#R	
+#W	epstein@trwacs.UU.NET (Jeremy Epstein); Thu Feb	 1 09:51:14 EST 1990
+#U	
+#
+trwacs	uunet(DIRECT)
+
+#N	tsghq
+#S	Macintosh SE/30
+#O	Telos
+#C	Mike Tankenson
+#E	tsghq!root
+#T	+1 703 802 1730
+#P	4755 Meadow Wood Lane, Suite 200N, Chantilly, VA  22021
+#L	38 50 N / 77 18 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Nov 19 18:45:10 EST 1990
+#U
+#
+tsghq	uunet(DEMAND)
+
+#N	tuhq
+#S	Intel P301; Xenix
+#O	Terminals Unlimited Inc.
+#C	Ann W. Raybold
+#E	tuhq!root
+#T	+1 703 848 0808
+#P	8460 Tyco Road, Vienna VA  22182
+#L	38 55 N / 77 00 W city
+#R	
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu May  4 10:50:50 EDT 1989
+#U	
+#
+tuhq	uunet(DEMAND)
+
+#N	tvanswer
+#S	Compaq Deskpro 386/25
+#O	TV Answer, Inc.
+#C	Paul Delano
+#E	tvanswer!root
+#T	+1 703 715 8894
+#P	1941 Roland Clarde Place, Reston, VA 22091
+#L	38 58 N / 77 23 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Apr  9 15:32:40 EDT 1992
+#U
+#
+tvanswer	uunet(DEMAND)
+
+#N	tyx
+#S	Intel 386; ISC Unix System V 3.2
+#O	TYX Corporation
+#C	Raghu Rao
+#E	tyx!root
+#T	+1 703 264 1080
+#P	1851 Alexander Bell Drive, Suite 200, Reston, VA  22091
+#L	38 58 N / 77 23 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed May 22 18:12:36 EDT 1991
+#U
+#
+tyx	uunet(DEMAND)
+
+#END u.usa.va.2
+SHAR_EOF
+:	End of shell archive
+exit 0
+

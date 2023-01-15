@@ -1,0 +1,1526 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.can.ab.1
+#	u.can.bc.1
+#	u.can.nf.1
+#	u.can.ns.1
+#	u.can.pq.1
+#	u.can.sk.1
+# This archive created: Tue Sep 29 02:03:53 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.can.ab.1
+cat << \SHAR_EOF > u.can.ab.1
+#	u.can.ab.1 : last updated Fri Sep  4 16:03:12 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	alberta
+#S	DEC VAX 11/780; 4.2 BSD UNIX
+#O	University of Alberta, Dept. of Computing Science
+#C	Steve Sutphen, Robert Lake, Bruce Folliott
+#E	alberta!steve, alberta!lake, alberta!bruce
+#T	+1 403 432 4768, +1 403 432 5640
+#P	#615 General Service Building, Edmonton, Alberta, Canada T6G 2H1
+#L	53 24 N / 113 30 W city
+#R	University of Alberta mail/news/admin site
+#R	Usenet backbone host, UUCP/CDNNet/NETNORTH gateway site
+#U	auvax calgary edm edson ihnp4 myrias ncc sask ubc-vision
+#W	alberta!lake (Robert Lake); Fri Jun 12 07:44:35 MDT 1987
+#
+alberta auvax(DAILY/2),			# phone link (poll us)
+	calgary(HOURLY),		# X.25 connection (poll eachother)
+	edm (HOURLY),			# phone link (poll us)
+	edson(DAILY/2), 		# phone link (poll us)
+	ihnp4(HOURLY),			# phone link (poll eachother)
+	myrias(HOURLY),			# phone link (poll us)
+	ncc(HOURLY),			# phone link (poll us)
+	obed(HOURLY),			# direct line (poll us)
+	sask(HOURLY),			# direct dataroute link (poll us)
+	sunwest(DAILY),			# phone link (poll us)
+	uofaee(HOURLY*5),		# phone link (poll us)
+	ubc-vision(HOURLY),		# X.25 connection (poll eachother)
+	vax135(DAILY),			# phone link (poll us)
+	uqv-mts(HOURLY/2),		# ethernet connection (poll them)
+	watmath(HOURLY)			# X.25 connection (poll eachother)
+
+# University of Alberta LAN (ethernet):
+alberta-csc = {
+	alberta,
+	cadomin,	# VAX 11/780 graphics, image proc., VLSI research
+	cavell,		# VAX 11/780 general research and teaching
+	jasper,		# VAX 11/780 undergraduate teaching
+	pembina,	# VAX 11/780 gateway to outside world
+	astotin,	# IRIS 1400
+	sakwatamau,	# SUN 3/50
+	sedgewick,	# SUN 3/50
+	seibert,	# SUN 3/50
+	senex,		# SUN 3/50
+	sexsmith,	# SUN 3/50
+	simonette,	# SUN 3/50
+	slave-lake,	# SUN 3/50
+	smoky-lake,	# SUN 3/50
+	snaring,	# SUN 3/50
+	spedden,	# SUN 3/50
+	spirit-riv,	# SUN 3/50
+	sturgeon,	# SUN 3/50
+	sun-creek,	# SUN 3/50
+	sunchild,	# SUN 2/50
+	sundance,	# SUN 2/100U
+	sundog,		# SUN 2/50
+	sundre,		# SUN 2/50
+	sunevere,	# SUN 2/120
+	sunkay,		# SUN 3/75
+	sunken,		# SUN 3/75
+	sunnybrook,	# SUN 2/100U
+	sunnynook,	# SUN 2/50
+	sunnyslope,	# SUN 2/50
+	sunset.uucp,	# SUN 2/120		(alas also BITNET name)
+	sunshine,	# SUN 2/50
+	sunwapta,	# SUN 2/50
+	tawayik		# IRIS 3130
+	}(LOCAL)
+
+#N	alpha0
+#S	Convergent Technologies MiniFrame+; CTIX 3.20 (Sys V)
+#O	Alphatel Systems Ltd.
+#C	Steven Farkas
+#E	alpha0!steven
+#T	+1 403 451 5671
+#P	11430 - 168 St., Edmonton, Alberta, Canada T5M 3T9
+#L	53 24 N / 113 29 W city
+#R
+#U
+#W	idacom!patrick (Patrick Siu); Thu Oct  2 16:07:34 MDT 1986
+alpha0	idacom(HOURLY*2)
+
+#N	amc-vlsi
+#S	SUN 3/180; 4.2 BSD
+#O	Alberta Microelectronic Centre
+#C	Earl Locken
+#E	amc-vlsi!news, amc-vlsi!root, amc-vlsi!earl
+#T	+1 403 289 2043
+#P	#200 1620 29 Street N.W. Calgary, Alberta, Canada T2N 4L7
+#L	51 05 N / 114 08 W
+#U	calgary
+#W	amc-vlsi!earl (Earl Locken); Wed July 1 10:35:25 MDT 1987
+#
+amc-vlsi	calgary(DIRECT)
+
+#N	arcsun
+#S	Sun C3/160; 4.2 BSD UNIX
+#O	Advanced Technologies, Alberta Research Council
+#C	Richard Kasperski, Ken Gamble, Doug Konkin
+#E	arcsun!postmaster
+#T	+1 403 297 2679, +1 403 297 2673, +1 403 297 2644
+#P	3rd floor 6815 Street NE, Calgary, AB, Canada T2E 7H7
+#L	51 05 N / 114 01 W city
+#R	This site used to be known as uccsrg.
+#U	calgary
+#W	arcsun!kasper (Richard Kasperski); Tue Jan 20, 1987
+#
+arcsun	calgary(DIRECT), sunwest(HOURLY*4)
+
+#N	auvax
+#S	DEC VAX-11/785; Ultrix v1.2
+#O	Athabasca University
+#C	Ross Alexander
+#E	alberta!auvax!rwa
+#T	+1 403 675-6111
+#P	Box 10000, Athabasca, Alberta, Canada, T0G 2R0
+#L	54 43 N / 113 17 W
+#R	
+#W	auvax!tech (Richard Loken); Tue Mar 10 13:04:06 MST 1987
+#
+auvax	alberta(DAILY/3)
+
+#N	calgary
+#S	VAX 11/780; 4.2 BSD UNIX
+#O	Dept. of Computer Science, U of Calgary
+#C	Keith Andrews, Dave Mason
+#E	calgary!postmaster
+#T	+1 403 220 5903, +1 403 220 3518
+#P	2500 University Dr., Calgary, AB, Canada T2N 1N4
+#L	51 03 N / 114 05 W city
+#R	This site used to be known as uccsrg.
+#U	alberta
+#W	calgary!andrews (Keith Andrews); Tue Oct 14 11:37:50 MDT 1986
+#
+# For sites that don't like names longer than six characters
+calgary	= calgar
+
+calgary	alberta(DEMAND), ubc-vision(DEMAND), spycal(DIRECT), arcsun(DIRECT),
+	dataspan(DIRECT), sunwest(DIRECT), vuwcomp(DAILY), utai(DEMAND),
+	gass(DIRECT), nrl-css(DEAD)
+
+#N	csb
+#S	Convergent Technologies MightyFrame; CTIX 6.0
+#O	Alberta Public Works Supply & Services
+#C
+#E
+#T
+#P
+#L	53 24 N / 113 29 W city
+#R
+#U
+#W	ncc!lyndon (Lyndon Nerenberg); Thu Aug 20 17:24:11 MDT 1987
+#
+csb	ncc(DIRECT+HIGH)
+
+#N	danger
+#S	Convergent Technologies MiniFrame; CTIX 3.20 (Sys V)
+#O	Alberta Public Safety Services
+#C	Lyndon Nerenberg
+#E	ncc!postmaster
+#T	+1 403 424 2930
+#P	
+#L	53 24 N / 113 29 W city
+#R	Compliance Information Centre
+#U	ers
+#W	ncc!lyndon (Lyndon Nerenberg); Tue Jan 27 23:53:36 MST 1987
+#
+danger	ers(DEDICATED)
+
+#N	dataspan
+#S	SUN 3/???
+#O	DataSpan Technology Ltd.
+#C	Dave Penton, Nelson Phillips
+#E	dataspan!penton, dataspan!phillips
+#T	+1 403 237 9313
+#P	400 450 5 Ave. S.W., Calgary, Alberta
+#L	113 45 W / 51 11 N city
+#R
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+dataspan	calgary(DIRECT)
+
+#N	daver
+#S	Various 320xx homebrew systems
+#O	
+#C	Dave Rand
+#E	daver!daver
+#T	+1 403 489 2148
+#P	10232 - 160 St., Edmonton, Alberta Canada
+#L
+#R	
+#U
+#W	daver!daver (Dave Rand); Wed Sep 17 16:32:51 MDT 1986
+daver	teletron(DIRECT)
+
+#N	edm
+#S	Convergent Mightyframe ; CTIX 5.11 (sys V)
+#O	Unexsys systems inc.
+#C	Stephen Samuel, David Kaufman
+#E	edm!rroot, edm!dave
+#T	+1 403 432 9382, +1 403 438-0948
+#P	#200 9704-54 ave. Edmonton, Alberta, Canada , T6E 0A9
+#L	53 24 N / 113 30 W city
+#R	Willing to accept both mail and news feeds.
+#U	alberta idacom 
+#W	edm!steve (Stephen Samuel); Fri May 22 14:31:07 MDT 1987
+#
+edm	alberta(DEMAND), idacom(HOURLY), alpha0(HOURLY), neyessa(HOURLY),
+	acsedm(DEMAND), greene(WEEKLY), horzon(WEEKLY), wombat(DAILY)
+
+#N	ers
+#S	Convergent Technologies MightyFrame; CTIX 6.0
+#O	Alberta Public Safety Services, Disaster Services Division
+#C	Lyndon Nerenberg
+#E	ncc!postmaster
+#T	+1 403 421 8181
+#P
+#L	53 24 N / 113 29 W city
+#R	Emergency Response System
+#U	alberta danger et ncc teletron
+#W	ncc!lyndon (Lyndon Nerenberg); Tue Jan 27 23:56:05 MST 1987
+#
+ers	danger(LOCAL), ncc(DEDICATED)
+
+#N	et
+#S	DEC MicroVax II; Ultrix 32M v1.2
+#O	Etcom International (edmonton telephones)
+#C	Steve Hole
+#E	et!steve
+#T	+1 403 441 7973
+#P	10040 108st, Edmonton Alta., Canada  T5J 2R4
+#L	53 33 N / 113 28 W 
+#R
+#U	ncc
+#W	et!steve (Steve Hole); Mon Jun  1 12:27:36 MDT 1987
+#
+et	ncc(DIRECT+HIGH)
+
+#N	gass
+#S	WYSE pc 286; MicroPort System V/AT 1.36
+#O	Ginter and Associates
+#C	Andrew Ginter
+#E	gass!postmaster
+#T	+1 403 230 3012
+#P	208 - 21 Avenue NW, Calgary, Alberta, Canada  T2M 1J3
+#L	113 45 W / 51 11 N city
+#R
+#U	calgary
+#W	gass!afg (Andrew Ginter); Thu Apr  2 13:30:00 MST 1987
+#
+gass	calgary(DIRECT)
+
+#N	idacom
+#S	DEC VAX 11/750; 4.3BSD
+#O	IDACOM Electronics Ltd.
+#C	Patrick Siu
+#E	ihnp4!alberta!ncc!idacom!patrick
+#T	+1 403 450 2468
+#P	9411 - 20 th Ave., Edmonton, AB, Canada T6N 1E5
+#L	53 24 N / 113 30 W
+#R	
+#U	ncc
+#W	idacom!patrick (Patrick Siu); Tue Mar 10 23:31:45 EST 1987
+#
+idacom	ncc(HOURLY), edm(DAILY), alpha0(HOURLY*2)
+
+#N	ncc
+#S	Convergent Technologies MiniFrame; CTIX 3.20 (Sys V)
+#O	Nexus Computing Corporation
+#C	Lyndon Nerenberg
+#E	ncc!postmaster
+#T	+1 403 421 8181
+#P	300, One Thornton Court; Edmonton, Alberta  T5J 2E7
+#L	53 24 N / 113 29 W city
+#R	Communications research and software development
+#U	alberta ers
+#W	ncc!lyndon (Lyndon Nerenberg); Thu Aug 20 18:59:12 MDT 1987
+#
+#  This site is the contact point for non-academic sites in the
+#  Edmonton area looking for mail and news feeds. Inquires should
+#  be directed to ncc!usenet.
+#
+#  We are also the home of /usr/group/edmonton. Contact ncc!usrgroup
+#  for info.
+#
+# Bonus points for 2400...
+ncc	acsedm(EVENING), alberta(DIRECT+HIGH), csb(DIRECT+HIGH),
+	ers(DEDICATED), et(DIRECT+HIGH), ggc0(DIRECT), idacom(DIRECT),	
+	pyramid(EVENING), sunedm(DIRECT), teletron(DIRECT), winfree(EVENING)
+
+#N	spycal
+#S	Sperry 5000/40; UNIX System 5.2
+#O	UNISYS, Calgary, Alberta, Canada
+#C	John Presley
+#E	spycal!john
+#T	+1 403 253 5005
+#P	100 - 1011 Glenmore Tr. S.W., Calgary, Alta, T2V 4R6
+#L	51 03 N / 114 05 W city
+#R
+#U	calgary
+#W	spycal!john (John Presley); Tue Nov 18 15:34:00 MST 1986
+#
+spycal  calgary(DIRECT)
+
+#N	tcc3b1
+#S
+#O	Thirsk Computer Consultants
+#C	Rich Thirsk
+#E	tcc3b1!rich
+#T	+1 403 238 0085
+#P
+#L	113 45 W / 51 11 N city
+#R
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+tcc3b1	calgary(DIRECT)
+
+#N	teknica
+#S	SUN 3/160
+#O	Teknica
+#C	Bob Bramwell
+#E	teknica!boob
+#T	+1 403 269 4386
+#P	1100 736 6th Ave. S.W., Calgary, Alberta
+#L	113 45 W / 51 11 N city
+#R	Contact's email address is not a typo.  His login name really is "boob"
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+teknica	calgary(DIRECT)
+
+#N	teletron
+#S	AT&T UNIX pc (3b1);  System V 3.5
+#O	TeleTronic Communications Ltd.
+#C	Andrew Scott
+#E	teletron!andrew teletron!usenet
+#T	+1 403 451 6799
+#P	15107 - 123 Ave, Edmonton, Alberta, CANADA T5V 1J7
+#L	53 34 N / 113 35 W
+#R	willing to add mail only sites
+#U	ers
+#W	teletron!andrew (Andrew Scott); Mon Aug 17 13:54:47 MDT 1987
+#
+teletron	ncc(DIRECT), ers(HOURLY), idacom(DIRECT)
+
+#N	uqv-mts
+#S	AMDAHL 5860; Michigan Terminal System (MTS)
+#O	University of Alberta, Dept. of Computing Services
+#C	Irene Braun
+#E	alberta!uqv-mts!imb
+#T	+1 403 432 2462
+#P	#352 General Sevice Building, Edmonton, AB, Canada T6G 2H1
+#L	53 24 N / 113 30 W city
+#R	
+#U
+#W	alberta!lake (Robert Lake); Fri Jun 12 07:44:35 MDT 1987
+#
+uqv-mts	alberta(HOURLY/2)
+
+SHAR_EOF
+echo shar: extracting u.can.bc.1
+cat << \SHAR_EOF > u.can.bc.1
+#	u.can.bc.1 : last updated Fri Sep 18 22:07:16 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#S	DEC VAX 11/780
+#O	Kwantlen College
+#C	Randy Bruce
+#E	casey!randy
+#T	+1 604 591 1111
+#P	P.O. Box 9030, Surrey, BC, Canada V3T 5H8
+#L	49 06 N / 122 49 W city
+#R	
+#W	utai!path (Path Database); Fri Feb 13 23:00:03 EST 1987
+#
+casey	ubc-vision
+
+#N	cdl
+#S	Sperry PC/IT; SCO XENIX System V Release 2.1
+#O	Clarendon Datex Ltd.
+#C	George E. Pajari
+#E	cdl!postmaster
+#T	+1 604 926 8649
+#P	2545 Queens Avenue, West Vancouver, BC, CANADA, V7V 2Y9
+#L	49 24 N / 123 5 W
+#R	UNIX consultants and software developers
+#U
+#W	cdl!pajari (George Pajari); Tue Jun 16 09:15:47 PDT 1987
+#
+cdl	attvcr(DIRECT+HIGH), nvanbc(DIRECT),
+	sco(WEEKLY), spyvan(DIRECT), van-bc(DIRECT)
+
+#N	molihp
+#S	HP9000/550; HP-UX 5.1
+#O	Moli Energy Ltd.
+#C	Robbin W. Johnson
+#E	molihp!postmaster
+#T	+1 604 437 6927
+#P	3958 Myrtle St., Burnaby, BC. Canada, V5C 4G2
+#L	49 30 N / 122 55 W
+#R	This site will be changing its name when it registers as a domain
+#U	van-bc
+#W	molihp!robbinj (Robbin W. Johnson); Tue Nov 4 10:44:45 PST 1986
+#
+molihp	van-bc(HOURLY), ubc-vision(EVENING)
+
+#N	mprg
+#S	DEC uVAX I, Ultrix 1.2
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprg!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R	Mail/news gateway for Microtel Pacific Research
+#U	ubc-vision
+#W	waters!pronk (Frank Pronk); Thur May 14 11:00 PDT 1987
+#
+mprg	casey(HOURLY), dssmv0(DEDICATED), handel(DEDICATED), joplin(DEDICATED),
+	liszt(DEDICATED), mprc(DEDICATED), mprd(DEDICATED), mprott(HOURLY), 
+	ubc-vision(HOURLY), uw-vlsi(EVENING), van-bc(HOURLY), waters(DEDICATED)
+
+#N	mprvaxa
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprvaxa!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R
+#U
+#W	mprvaxa!pronk (Frank Pronk); Tue Jan 27 10:00 PST 1987
+#
+#mprvaxa=vaxa.mpr.can
+mprvaxa	casey(DEMAND), mprg(DEDICATED), mprvaxb(DEDICATED), ubc-vision(HOURLY),
+	uw-vlsi(EVENING/2)
+
+#N	mprvaxb
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Microtel Pacific Research Ltd.
+#C	Ross Parker
+#E	mprvaxa!postmaster
+#T	+1 604 294 1471
+#P	8999 Nelson Way, Burnaby, BC, Canada V5A 4B5
+#L	49 45 N / 122 45 W
+#R		
+#W	mprvaxa!pronk (Frank Pronk); Tue Jan 27 10:00 PST 1987
+#
+#mprvaxb=vaxb.mpr.can
+mprvaxb	mprg(DEDICATED), mprvaxa(DEDICATED)
+
+#N	nvanbc
+#S	IBM PC/AT; XENIX 1.0
+#O	LH Computing
+#C	Lawrence Harris
+#E	nvanbc!lawrence
+#T	+1 604 985 4785
+#P	733 Sylvan Ave., North Vancouver, BC, Canada, V7R 2E8
+#L	49 20 N / 123 10 W city
+#R
+#U	van-bc
+#W	nvanbc!lawrence (Lawrence Harris); Sat Sep  6 11:35:00 PDT 1986
+#
+nvanbc	van-bc(DIRECT)
+
+#N	sfucmpt
+#S	
+#O	Simon Fraser University, Computer Science Lab
+#C	Neil MacKenzie
+#E	lbl-csam!uw-beaver!ubc-vision!sfucmpt
+#T	+1 604 291-4430, +1 604 291-4277
+#P	Burnaby, BC, Canada v5a 1s6
+#L	49 15 N / 122 57 W city
+#R	
+#W	; Thu Jan  2 01:00:56 EST 1973
+#
+sfucmpt	ubc-vision(DAILY)
+
+#N	ubc-andrew
+#S	SMI 2/100U; SUN UNIX 1.4
+#O	The University of British Columbia, Computer Scinece
+#C	John Demco
+#E	ubc-ean!postmaster
+#T	+1 604 228 6537
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Distributed Systems Research Group X.25/X.400 development system
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 21 13:48 PDT 1987
+#
+#ubc-andrew =	andrew.ubc.can
+ubc-andrew	ubc-ean, ubc-cs, ubc-csfs1, ubc-csgrads, ubc-ean, ubc-vision
+
+#N	ubc-bdcvax
+#S	DEC VAX 11/750; UNIX 4.3BSD
+#O	University of British Columbia, Biosciences Data Center
+#C	Susan Ertis
+#E	ubc-bdcvax!postmaster
+#T	+1 604 228 6527
+#P	2204 Main Mall, Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#U	ubc-cryos vivarium
+#W	Susan Ertis (susan@ubc-bdcvax.uucp); Wed Sep 24 17:32:57 PDT 1986
+#
+#ubc-bdcvax =	ubc-bdc, bdcvax
+ubc-bdcvax	ubc-cryos(DIRECT), ubc-vision(HOURLY), vivarium(DIRECT)
+
+#N	ubc-cryos
+#S	DEC uVAX II; Ultrix 1.2
+#O	The University of British Columbia, Department of Physics
+#C	Rick Cline
+#E	ubc-cryos!postmaster
+#T	+1 604 228 2535
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#U
+#R	
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:50 PST 1987
+#
+ubc-cryos	ubc-bdcvax(DEMAND)
+
+#N	ubc-cs
+#S	DEC VAX 11/750; UNIX 4.3BSD
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science faculty and grad student host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:50 PST 1987
+#
+#ubc-cs =	cs.ubc.can
+ubc-cs		ubc-andrew, ubc-csfs1, ubc-csgrads, ubc-dsrg,
+		ubc-ean, ubc-vision
+
+#N	ubc-cs4
+#S	SMI 2/120FS SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-cs4		ubc-vision, ubc-ean, ubc-andrew, ubc-cs,
+		ubc-ugserver, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-csfs1
+#S	SMI 3/160; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science file server host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 14:08 PST 1987
+#
+#ubc-csfs1 =	csfs1.ubc.can
+ubc-csfs1	ubc-andrew, ubc-cs, ubc-csgrads, ubc-dsrg, ubc-ean, ubc-vision
+
+#N	ubc-csgrads
+#S	SMI 3/160; UNIX 3.2
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Computer Science faculty and grad student host
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 14:08 PST 1987
+#
+#ubc-csgrads =	csgrads.ubc.can
+ubc-csgrads	ubc-andrew, ubc-cs, ubc-csfs1, ubc-dsrg, ubc-ean, ubc-vision
+
+#N	ubc-dsrg
+#S	SMI 2/150FS; SUN UNIX 2.3
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample, Frank Pronk
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:52 PST 1987
+#
+#ubc-dsrg =	dsrg.ubc.can
+ubc-dsrg	ubc-andrew, ubc-ean, ubc-cs, ubc-csfs1,
+		ubc-csgrads, ubc-vision
+
+#N	ubc-ean
+#S	DEC VAX 11/750; UNIX 4.2BSD
+#O	University of British Columbia, Dept. of Computer Science
+#C	John Demco
+#E	ubc-vision!ubc-ean!postmaster
+#T	+1 604 228 6537
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Distributed Systems Research Group X.25/X.400 development system
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Jan 21 13:54 PST 1987
+#
+#ubc-ean =	ean.ubc.can
+ubc-ean		ubc-andrew, ubc-cs, ubc-csfs1, ubc-csgrads,
+		ubc-dsrg, ubc-vision
+
+#N	ubc-mts
+#S	Amdahl 5850; MTS
+#O	The University of British Columbia, Computing Centre
+#C	Michael Hayward
+#E	ubc-mts!postmaster
+#T	+1 604 228 4375
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R
+#W	Frank Pronk (pronk@ubc-vision.uucp); Mon Jan 26 13:52 PST 1987
+#
+#ubc-mts =	mts.ubc.can
+ubc-mts		ubc-vision(DEMAND)
+
+#N	ubc-ug1
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug1		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ugserver, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug2
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug2		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ugserver, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug3
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug3		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ugserver, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug4
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug4		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ugserver,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-ug5
+#S	SMI 2/50 SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Used for undergraduate teaching
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ug5		ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ugserver, ubc-dsrg, ubc-rtec
+
+#N	ubc-ugserver
+#S	SMI 2/120FS SUN UNIX 2.0
+#O	The University of British Columbia, Computer Science
+#C	Rick Sample
+#E	ubc-cs!postmaster
+#T	+1 604 228 6686
+#P	Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#U
+#R	Server host for diskless SUN workstations
+#W	Frank Pronk (pronk@ubc-vision.uucp); Wed Feb 5 22:00 PST 1986
+#
+ubc-ugserver	ubc-vision, ubc-ean, ubc-andrew, ubc-cs4,
+		ubc-cs, ubc-ug1, ubc-ug2, ubc-ug3, ubc-ug4,
+		ubc-ug5, ubc-dsrg, ubc-rtec
+
+#N	ubc-vision
+#S	DEC VAX 11/780; UNIX 4.2BSD
+#O	University of British Columbia, Laboratory for Computational Vision
+#C	Dan Razzell
+#E	ubc-vision!postmaster
+#T	+1 604 228 6794
+#P	6356 Agricultural Rd., Vancouver, BC, Canada V6T 1W5
+#L	49 16 53 N / 123 15 16 W
+#R	This machine is a usenet backbone host
+#U	ubc-bdcvax ubc-cs ubc-ean
+#U	alberta calgary casey fornax utai uvicctr uw-beaver watmath
+#U	attvcr van-bc
+#W	Dan Razzell (razzell@ubc-vision.uucp); Wed Sep  9 13:20:47 1987
+#
+# fix up truncated system names
+#
+ubc-vision	= ubc-vis, ubc-visi
+#
+ubc-vision	alberta(HOURLY), attvcr(HOURLY), calgary(HOURLY),
+		casey(DEMAND), fornax(HOURLY), ibx(WEEKLY), mdivax1(WEEKLY),
+		molihp(WEEKLY), mprg(WEEKLY),
+		munnari(HOURLY*2), sun(DAILY),
+		ubc-andrew(LOCAL), ubc-bdcvax(HOURLY), ubc-cs(LOCAL),
+		ubc-dsrg(LOCAL), ubc-ean(LOCAL), ubc-ugserver(LOCAL),
+		ubcg-mts(LOCAL*2), utai(HOURLY), uvicctr(DAILY),
+		uw-beaver(EVENING), van-bc(HOURLY),
+		watmath(HOURLY)
+
+#N	uvicctr
+#S	
+#O	University of Victoria
+#C	Trumpour
+#E	uw-beaver!uvicctr!trumpour
+#T	
+#P	Victoria, BC, Canada
+#L	48 25 N / 123 22 W city
+#R	
+#W	; Thu Jan  2 01:00:56 EST 1973
+#
+uvicctr	ssc-vax(DAILY), ubc-vision(DAILY), uvicar(DAILY), uw-beaver(DAILY)
+
+#N	van-bc
+#S	Callan Unistar 300; System V Uniplus+   4.2.2.L3
+#O	Public Access Unix - Vancouver BC
+#C	Stuart Lynne
+#E	van-bc!sl
+#T	+1 604-937-7532	
+#P	225B Evergreen Dr., Port Moody, BC, V3H 1S1
+#L	49 17 N / 122 52 W
+#R	Public access to newsfeed and mail for British Columbia
+#W	van-bc!sl (Stuart Lynne); Sat May 23 15:42:32 EDT 1987
+#U	ubc-vision nvanbc horace molihp attvcr cdl tango
+#U	mprg dfi
+#
+van-bc = .van-bc.uucp
+van-bc	ubc-vision(DIRECT), nvanbc(DIRECT), horace(DIRECT), tango(DEAD),
+	cdl(DIRECT), csibham(WEEKLY), dfi(DEMAND), mashe(DEAD),
+	attvcr(DIRECT), molihp(DEMAND), mprg(DEMAND), vertigo(DEMAND),
+	ibx(DEMAND)
+
+#N	vivarium
+#S	DEC PDP 11/73; UNIX V7
+#O	University of British Columbia, Department of Zoology
+#C	Lee gass
+#E	vivarium!postmaster
+#T	+1 604 228 5844
+#P	2204 Main Mall, Vancouver, BC, Canada V6T 1W5
+#L	49 16 N / 123 15 W
+#W	Frank Pronk (pronk@ubc-vision.uucp); Tue Jan 27 20:32 PST 1987
+#
+vivarium =	ubc-vivarium, ubc-viv, vivariu
+vivarium	ubc-bdcvax(HOURLY)
+
+SHAR_EOF
+echo shar: extracting u.can.nf.1
+cat << \SHAR_EOF > u.can.nf.1
+#	u.can.nf.1 : last updated Sun Jan 25 01:00:20 EST 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	arlene
+#S	DEC VAX 11/750; 4.2BSD UNIX
+#O	Memorial University of Newfoundland, Dept. of Computer Science
+#C	Michael Rayment
+#E	garfield!mike
+#T	+1 709 737-8711
+#P	Elizabeth Ave.., St. John's, NF, Canada A1C 5H4
+#L	47 34 N / 52 43 W city
+#R	
+#W	Larry Bouzane (garfield!larry); Wed Jan 21 17:30:24 NST 1987
+#
+arlene	garfield(LOCAL), nermal(LOCAL)
+
+#N	garfield
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Memorial University of Newfoundland, Dept. of Computer Science
+#C	Michael Rayment
+#E	garfield!mike
+#T	+1 709 737-8711
+#P	Elizabeth Ave.., St. John's, NF, Canada A1C 5H4
+#L	47 34 N / 52 43 W city
+#U	utai
+#R	Uucp connection for all MUN sites. We are an offical gateway
+#       to CDNnet.  Our news comes from utai(ai.toronto.cdn) over
+#       CDNnet.
+#W	Larry Bouzane (garfield!larry); Wed Jan 21 17:30:24 NST 1987
+#
+garfield	akgua(EVENING), allegra(EVENING), arlene(LOCAL),
+	astrovax(EVENING), cbosgd(EVENING), clyde(EVENING), dalcs(DEMAND),
+	ihnp4(EVENING), masscomp(EVENING), munucs(LOCAL+LOW), odie(DEAD), 
+	philabs(EVENING), princeton(EVENING), psuvax1(EVENING), 
+	sii(EVENING), tunscs(DEMAND), utai(DEMAND), 
+	research(DEAD) 
+
+#N	munucs
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Memorial University of Nfld., Computing Services
+#C	Randy Dodge
+#E	munucs!randy
+#T	+1 709 737-8116
+#P	Elizabeth Ave., St. John's, NF, Canada A1C 5H4
+#L	47 34 N / 52 43 W city
+#R	
+#W	Larry Bouzane (garfield!larry); Wed Jan 21 17:30:24 NST 1987
+#
+munucs	garfield(DEMAND)
+
+#N	nermal
+#S	Heurikon HK68; Unisoft SYS III UNIX
+#O	Memorial University of Nfld., C.S. Dept.
+#C	Michael Rayment
+#E	garfield!mike
+#T	+1 709 737-8711
+#P	Elizabeth Ave., St. John's, NF, Canada A1C 5H4
+#L	47 34 N / 52 43 W city
+#R	
+#W	Larry Bouzane (garfield!larry); Wed Jan 21 17:30:24 NST 1987
+#
+# MUN Computer Science Dept. HK68 Graphics & Image Processing Workstation
+# Not really a huge user community here, but it keeps the name for us!
+#
+nermal	arlene(LOCAL)
+
+#N	odie
+#S	DEC PDP 11/34A; 2.9BSD UNIX
+#O	Memorial University of Nfld., C.S. Dept.
+#C	Michael Rayment
+#E	garfield!mike
+#T	+1 709 737-8711
+#P	Elizabeth Ave., St. John's, NF, Canada A1C 5H4
+#L	47 34 N / 52 43 W city
+#R	Currently dead.  Resurrection low priority
+#W	Larry Bouzane (garfield!larry); Wed Jan 21 17:30:24 NST 1987
+#
+# MUN Computer Science Dept. PDP 11/34
+#
+odie	garfield(DEAD)
+
+SHAR_EOF
+echo shar: extracting u.can.ns.1
+cat << \SHAR_EOF > u.can.ns.1
+#	u.can.ns.1 : last updated Fri Sep 18 22:07:21 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	amigpx
+#S	DEC VaxStation II/GPX; Ultrix-32m 1.2
+#O	Applied Microelectronics Institute, Technical University of Nova Scotia
+#C	Allan Jost
+#E	amigpx!jost
+#T	+1 902 429 8300
+#P	PO Box 1000, Halifax, Nova Scotia, Canada B3J 2X4
+#L	63 36 W/ 44 39 N city
+#R	No news. Gateway to DECNET of VMS machines at T.U.N.S.
+#U
+#W	tunscs!jost; Wed Jan 14 12:15:00 ADT 1987
+#
+#	Supports VLSI research. Gateway to DECNET of VMS machines at T.U.N.S.
+#	Currently these machines are:
+#	AMI::     Applied Microelectronics Institute VAX-11/8200
+#	TUN785::  Dept of Computer Services VAX-11/785
+#	TUN780::  Dept of Computer Services VAX-11/780
+#
+#	DECNET users are reachable with addresses like:  amigpx!ami::username
+#
+amigpx	tunscs(HOURLY), dalcs(DEMAND)
+#	Reverse link from dalcs is DEMAND.  This line here in case they
+#	didn't do it yet.
+dalcs	amigpx(DEMAND)
+#
+
+#N	aucs
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Acadia University School of Computer Science
+#C	Bill Wilder
+#E	aucs!wdw
+#T	+1 902 542 2201 x213
+#P	Wolfville, Nova Scotia, CANADA B0P 1X0
+#L
+#R
+#W	aucs!wdw (Bill Wilder); Sun Jan 18 04:20:35 AST 1987
+#U	dalcs
+#
+aucs	dalcs(HOURLY)
+
+#N	biomel
+#S	WICAT S160; Uniplus V 2.0
+#O	Marine Ecology Lab., Bedford Inst. of Oceanography
+#C	Bill Silvert
+#E	utai!dalcs!biomel!root
+#T	+1 902 426 1577
+#P	Dartmouth, NS Canada  B2Y 4A2
+#L	44 39 N / 63 36 W city
+#R	
+#U
+#W	biomel!root; Wed Jan  7 12:00:00 AST 1987
+#
+biomel	dalcs(DIRECT)
+
+#N	dalcs
+#S	DEC VAX 11/785; 4.3 BSD UNIX
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	David Trueman, Michael Thompson
+#E	dalcs!david, dalcs!thompson, dalcs!{usenet,root,postmaster}
+#T	+1 902 424 6501, +1 902 424 2572
+#P	Chase Bldg, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	We feed from mnetor, and to dalcsug, aucs, force10, garfield, iisat
+#R	local postings are forwarded watmath.
+#U	garfield, dalcsug, aucs, force10, iisat, mnetor, uunet, watmath
+#W	dalcs!thompson (Michael Thompson); Fri Sep  4 14:09:39 ADT 1987
+#
+#	Note: we've marked our uunet connection as DEMAND*2 not because of
+#	a lack of quality, but because it costs us almost 6 times as much to
+#	transmit stuff through there, as it does to transmit stuff to our
+#	other DEMAND connections.
+#	
+#	All DEMAND connections are through the X25 network datapac.
+#
+dalcs	= "cs.dal.cdn"
+dalcs	.dal.cdn
+dalcs	.cdn
+
+dalcs	amigpx(DIRECT), aucs(HOURLY/2), biomel(DIRECT),
+	dalcsug(DIRECT), dalstat(DEAD), force10(DIRECT),
+	garfield(DEMAND), iisat(HOURLY/2), stars(DIRECT),
+	tunscs(DAILY/2), utai(DEMAND), uunet(DEMAND*2), watmath(DEMAND)
+
+#N	dalcsug
+#S	DEC VAX 11/750; 4.2 BSD UNIX
+#O	Dalhousie University, Department of Math, Stats, & Computer Science
+#C	Bruce Hudson
+#E	dalcsug!hudson, dalcsug!usenet
+#T	+1 902 424 3472
+#P	Killam Library, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#U	dalcs
+#W	dalcs!thomspon (Michael Thompson); Thu Dec 25 21:49:07 AST 1986
+#
+dalcsug	dalcs(DIRECT)
+
+#N	dalstat
+#S	WICAT S160  Uniplus 2.4
+#O	Dalhousie University, Statistics Group
+#C	David Trueman
+#E	dalcs!david, dalstat!usenet
+#T	+1 902 424 6501, +1 902 424 2572
+#P	Chase Bldg, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4H8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#W	dalcs!thomspon (Michael Thompson); Thu Dec 25 21:49:07 AST 1986
+#
+dalstat	dalcs(DEDICATED)
+
+#N	force10
+#S	IBM PC/AT; Xenix V ver 2.1.3
+#O	ForceTen Enterprises Incorporated.
+#C	Neil Erskine
+#E	force10!erskine
+#T	+1 902 453 0040 x340
+#P	3845 Dutch Village Road, Halifax, Nova Scotia Canada B3L 4H9
+#L	63 36 W / 44 / 39 N city
+#R	No direct news yet, but soon I hope through dalcs
+#U
+#W	force10!erskine (Neil Erskine); Wed Aug 20 14:18:38 ADT 1986
+#
+#	This machine is the window onto the world of the Development
+# team for the Health Care Products department of ForceTen. Your dentist
+# may be using one of our packages (Safeguard Practice Perfect). We are
+# using four PC/ATs with varying amounts of hard-disk storage and memory.
+#
+force10		dalcs(DAILY/2)
+
+#N	iisat
+#S	Tandy 3000; Tandy Xenix 1.1.0
+#O	International Information Service (IIS)
+#C	Kevin Davies, Trent MacDougall
+#E	iisat!kevin, iisat!trent, iisat!usenet
+#T	+1 902 466 5764, +1 902 861 2837
+#P	75 Boland Road, Dartmouth, Nova Scotia, Canada B3A 3G8
+#L	63 34 30 W / 44 38 54 N city
+#R	
+#U	dalcs
+#W	iisat!kevin (Kevin Davies); Sun Jul 26 15:37:20 ADT 1987
+#
+iisat	dalcs(HOURLY)
+
+#N      stars
+#S      DEC MicroVax II; Ultrix-32m 1.2
+#O      Dalhousie University, School of Business Administration
+#C      Eric Rountree
+#E      stars!rountree
+#T      +1 902 424 7080 ext 159
+#P      6152 Coburg Rd, Halifax, N.S., B3H 1Z5
+#L      63 34 30 W / 44 38 54 N city
+#R      No news. Gateway to DECNET of VMS machines at Dalhousie
+#U
+#W      stars!rountree; Thu Jan 22 13:19:59 AST 1987
+#
+#       Gateway to DECNET of VMS machines at Dalhousie
+#       Currently these machines are:
+#       EARTH::   School of Business Administration
+#       MOON::    School of Business Administration
+#
+#       DECNET users are reachable with addresses like:  stars!earth::username
+#
+stars   dalcs(DIRECT)
+
+#N	tunscs
+#S	DEC VaxStation II/GPX; Ultrix-32m 1.2
+#O	School of Computer Science, Technical University of Nova Scotia
+#C	Allan Jost
+#E	tunscs!jost
+#T	+1 902 429 8300
+#P	PO Box 1000, Halifax, Nova Scotia, Canada B3J 2X4
+#L	63 36 W/ 44 39 N city
+#R	No news.
+#U
+#W	tunscs!jost (Allan Jost); Wed Jan 14 12:16:00 ADT 1987
+#
+#	Supports VLSI research, particularly CAD.
+#
+tunscs	dalcs(DEMAND), garfield(DEMAND), amigpx(DEMAND)
+#	We poll the following sites:
+dalcs	tunscs(HOURLY*2)
+garfield	tunscs(DAILY/2)
+amigpx	tunscs(HOURLY)
+
+SHAR_EOF
+echo shar: extracting u.can.pq.1
+cat << \SHAR_EOF > u.can.pq.1
+#	u.can.pq.1 : last updated Wed Sep 23 17:29:41 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N      bedrock
+#S      Sun 3/160; Sun3.4 OS
+#O      Bell + Howell, IPSD
+#C      Ron Hall
+#E      bedrock!Postmaster, bedrock!root, bedrock!r2h2
+#T      +1 514 395 2284, ext 46
+#P      740 Notre Dame W., Suite 1500 Montreal, Quebec, Canada H3C 3X6
+#L
+#R      This talk to the rest of the Sun Networks here : 40 machines+workstation
+#U      musocs sunmtr(sunlegendre)
+#W      bedrock!r2h2 (Ron Hall); Mon Sep 21 09:26:24 EDT 1987
+#
+bedrock	sunmtr(DAILY), musocs(DAILY)
+
+#N	cae
+#S	Dy4 DSM6816; UniSoft UniPlus+ System III
+#O	CAE Electronics Ltd
+#C	Denis Fortin
+#E	cae!Postmaster
+#T	+1 514 341 6780 x 2884
+#P	8585 Cote-de-Liesse, St-Laurent, QC, Canada  H4T 1G6
+#L	73 43 W / 45 28 N
+#R	Flight & power plant simulators, control systems, aerospace electronics
+#U
+#W	zap!fortin (Denis Fortin); Wed Jun 17 11:39:24 EST 1987
+#
+cae     odyssee(DAILY), musocs(DAILY), iros1(DAILY)
+
+#N	clouso
+#S	MicroVAX-II; Ultrix 1.2 (4.2BSD)
+#O	Centre de Recherche Informatique de Montreal
+#C	Daniel Gorham
+#E	clouso!Postmaster
+#T	+1 514 848 4784
+#P	1550 boul. de Maisonneuve o., Montreal (Qc)
+#L	73 W / 45 N
+#R
+#U	iros1
+#W	iros1!burj (Justin Bur); Thu Jun 25 05:23:59 EDT 1987
+#
+clouso	iros1(LOCAL)
+
+#N      cnrail
+#S      CYB MultiBox; System V 2.0
+#O      Canadian National Railways (C.N.), Montreal, Quebec.
+#C      Osman Arslaner.
+#E      cnrail!osman
+#T      +1 514 399 5723
+#P      Signals & Communications, Box 8100, Montreal, Quebec H3B 2M9.
+#L      45 31 N / 73 34 W city
+#R
+#U      cambs micomvax
+#W      cnrail!osman (Osman Arslaner); Wed Mar  4 11:12:08 EST 1987 
+#
+cnrail  cambs(DEMAND), micomvax(DAILY)
+
+#N	iros1
+#S	Sun-2/170; SunOS 3.2 (4.2BSD)
+#O	Dept. IRO, Universite de Montreal
+#C	Pierre Laplante
+#E	iros1!Postmaster
+#T	+1 514 343 6830
+#P	PO Box 6128, Station A, Montreal, Quebec  H3C 3J7
+#L	73 37 W / 45 30 N
+#R	IRO means Informatique et Recherche operationnelle
+#U	mcgill-vision
+#W	iros1!burj (Justin Bur); Thu Jun 25 05:23:59 EDT 1987
+#
+iros1	mcgill-vision(LOCAL), musocs(LOCAL), clouso(LOCAL),
+	alisrd(POLLED), cae(POLLED), odyssee(DIRECT)
+
+#N	mcgill-vision
+#S	DEC VAX-11/750; mtXinu 4.3+NFS
+#O	McGill University, Computer Vision and Robotics Lab (Dept. of E. E.)
+#C	Cem Eskenazi, Mike Parker
+#E	mcgill-vision!system, mcgill-vision!usenet, mcgill-vision!postmaster
+#T	+1 514 398 7155
+#P	McConnell Engineering Building, 3480 University, Montreal, PQ, Canada
+#U	musocs
+#W	mcgill-vision!mouse (Mike Parker); Sat Jul 18 20:07:18 1987
+#
+mcgill-vision   musocs(LOCAL), mosart(DIRECT),
+		iros1(DIRECT), onfcanim(DIRECT)
+
+#N	micomvax
+#S	VAX-11/780; 4.1bsd UNIX
+#O	Philips Information Systems Ltd.
+#C	Mark Seguin
+#E	micomvax!cco, micomvax!root
+#T	+1 514 744 8200 (ext.2435)
+#P	600 Dr. Frederick Philips Blvd, St. Laurent - PQ, Canada
+#L	45 31 N / 73 34 W
+#R	
+#U	philabs  avec  othervax  musocs  mnetor  mult  onfcanim  cnrail
+#W	micomvax!cco (Mark Seguin); Sat Dec  6 08:00:20 EST 1986
+#
+micomvax        philabs(DAILY),		avec(DAILY),
+		musocs(DAILY),		mnetor(DAILY),
+		mult(DAILY),		onfcanim(DAILY),
+		cnrail(DAILY),		othervax(DEDICATED)
+
+#N	mosart
+#S	VAX 11/750; Ultrix-32 V1.0
+#O	Silicart Inc.
+#C	Marc P. Rinfret
+#E	mosart!postmaster
+#T	1+ 514 455 5681
+#P	1000 Boul. Roche, Vaudreuil, QC J7V 6B3
+#L	45 25 55 N/ 74 02 20 W
+#R	VLSI design, Design automation, LISP.
+#U
+#W	mosart!marc (Marc P. Rinfret); Wed Jul 29 19:59:41 EDT 1987
+#
+mosart	mcgill-vision(HOURLY/2), think(POLLED)
+
+#N	musocs
+#S	DEC VAX-11/780; UNIX BSD
+#O	McGill University, Computer Science Department
+#C	Matthew Odinotski
+#E	musocs!network, musocs!postmaster
+#T	+1 514 398 7083, +1 514 398 7071
+#P	Burnside Hall, 805 Sherbrooke St. W., Montreal, PQ, Canada
+#L	45 31 N / 73 34 W city
+#U	mcgill-vision micomvax muopus odyssee deervax
+#R	News archive site in Quebec
+#W	musocs!matt (Matthew Odinotski); Wed Jul 01 13:29:08 EDT 1987
+#
+#	musocs is the main mail/news gateway on campus and to CRIM
+#	(Centre Recherche Informatique de Montreal)
+#
+musocs	= mcgill, musocs.bitnet
+musocs	.mcgill, .mcgill.cdn, .mcgill.csnet, .mcgill.ca, .mcgill.netnorth
+
+musocs	utai(HOURLY),			# University of Toronto AI
+	utcsri(DEAD),			# University of Toronto CSRI
+	microsoft(DAILY/2),		# Microsoft Inc.
+	deervax(LOCAL),			# Concordia University (EE)
+	micomvax(HOURLY),		# Philips Montreal
+	watmath(DAILY/2),		# University of Waterloo
+	labo(DEAD),			# University of Laval
+	onfcanim(HOURLY),		# National Film Board
+	mit-eddie(DAILY/5),		# MIT
+	mcgill-vision(LOCAL),		# EE/MCRCIM McGill
+	cae(DAILY/4),			# cae
+	zap(DAILY/4),			# cae
+	odyssee(DAILY/8),		# Odyssee Research
+	bedrock(DAILY/4)		# Bell & Howell
+
+VM-McGILLrscsnet = {
+	mcgill1, mcgilla, mcgillb, mcgillc, mcgill2, mcgill3, musocs
+	}!(LOCAL)
+
+#N	nlcmvax
+#S	DEC MicroVax II, Ultrix 2.0
+#O	National Library of Canada
+#C
+#E	
+#T	+1 819 997 7992
+#P
+#L
+#R
+#U
+#W	geac!david (David Haynes); Fri, 03 Jul 87 07:53:50 edt
+#
+nlcmvax	geac(POLLED)		# Geac Computers International Inc.
+
+#N	odyssee
+#S	SUN 3/160; 4.2 BSD UNIX (SUN Release 3.2)
+#O	Odyssee Recherches Appliquees inc.
+#C	Francois Pinard
+#E	odyssee!postmaster, odyssee!usenet
+#T	+1 514 279 0716
+#P	605 Rue De L'Epee, Montreal (Que), Canada H2V 3T7
+#L	45 31 17 N / 73 36 30 W
+#R	Applied research in AI, comp. linguistics, natural language synthesis
+#U
+#W	odyssee!pinard (Francois Pinard); Sat Jul 18 10:59:43 EDT 1987
+#
+odyssee	cae(EVENING),			# CAE Electronics Ltd
+	elevia(DAILY/6),		# Diane Nault inc.
+	iros1(DAILY/6),			# Universite de Montreal
+	musocs(DAILY/4),		# Universite McGill
+	oravax(WEEKLY),			# Odyssey Research Associates
+	sunlegende(DAILY/2),		# Sun Microsystems, Montreal
+	zap(WEEKLY)			# Prive: Denis Fortin
+
+#N	onfcanim
+#S	DEC VAX 11/780; 4.2BSD
+#O	National Film Board of Canada/Office national du film du Canada
+#C	David Martindale
+#E	onfcanim!postmaster
+#T	+1 514 283 9828
+#P	Box 6100, Station A, P-36, Montreal, Quebec, Canada  H3C 3H5
+#L	45 31 05 N / 073 39 30 W
+#R	Computer Animation Centre
+#U	micomvax
+#W	onfcanim!dave (Dave Martindale); Mon Oct 20 20:47:25 GMT 1986
+#
+onfcanim	alias(DAILY+LOW), dciem(DAILY+LOW), watcgl(DAILY),
+		wavefront(DAILY+LOW), nrcctis(DAILY),
+		micomvax(DAILY/2), musocs(DEMAND+LOW), mcgill-vision(DEMAND)
+
+#N	othervax
+#S	VAX-11/780 - UNIX  4.1bsd
+#O	Philips Information Systems Ltd.
+#C	Mark Seguin
+#E	micomvax!othervax!cco
+#T	(514) 744-8200 (ext.2435)
+#P	600 Dr. Frederick Philips Blvd, St. Laurent - PQ, Canada
+#L	45 31 N / 73 34 W
+#R	
+#U	micomvax
+#W	othervax!cco (Mark Seguin); Wed Sep 25 20:30:00 EST 1985
+#
+othervax	micomvax(DEDICATED)
+
+#N	zap
+#S	TEC MASTER Advanced System+; Microport System V/AT 2.2
+#O	ZAP (Denis Fortin)
+#C	Denis Fortin
+#E	zap!Postmaster
+#T	+1 514 695 4045
+#P	57 Denault, Kirkland, QC, Canada  H9J 3J2
+#L	73 52 W / 45 27 N
+#R	Private site
+#U
+#W	cae!fortin; Tue Jun 30 02:16:59 EST 1987
+#
+zap	iros1(WEEKLY), odyssee(WEEKLY), musocs(WEEKLY)
+
+SHAR_EOF
+echo shar: extracting u.can.sk.1
+cat << \SHAR_EOF > u.can.sk.1
+#	u.can.sk.1 : last updated Tue Aug 11 01:08:19 EDT 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	kimnovax
+#S	DEC VAX 11/750; 4.2 BSD UNIX
+#O	University of Saskatchewan, Dept. of Comp. Sci. Research Lab
+#C	Darwyn Peachey
+#E	sask!postmaster
+#T	+1 306 966 4909
+#P	86 Commerce Bldg., Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+kimnovax	sask(DEDICATED), skorpio(LOCAL)
+
+#N	pmbrc
+#S	Zilog System 8000 Model 11+; ZEUS 3.21 (System III)
+#O	Prairie Migratory Bird Research Centre (Canadian Wildlife Service)
+#C	Eric J. Woodsworth
+#E	pmbrc!zeus
+#T	+1 306 975 4023, +1 306 975 4087
+#P	115 Perimeter Rd., Saskatoon, SK S7N 0X4 Canada
+#L	52 08 16 N / 106 37 43 W
+#R	Poll sask on demand, and many times a day
+#U
+#W	pmbrc!ejw (Eric Woodsworth); Fri Aug 15 15:51:22 CST 1986
+#
+pmbrc	sask(DIRECT)
+
+#N	regina
+#S	DEC VAX-11/750; 4.2bsd
+#O	Department of Computer Science, University of Regina
+#C	Mark Christopher (possibly out-of-date)
+#E	regina!postmaster
+#T	+1 306 584 4632
+#P	University of Regina, Regina, SK, Canada S4S 0A2
+#L	50 24 N / 104 35 W city
+#R	
+#U
+#W	regina!mark (Mark Christopher); Tue Feb  4 13:05:51 EST 1986
+#
+regina	sask(EVENING)
+
+#N	sask
+#S	DEC VAX 8600; Ultrix 1.2 UNIX
+#O	University of Saskatchewan, Dept. of Comp. Sci. Undergrad Lab
+#C	Darwyn Peachey
+#E	sask!postmaster
+#T	+1 306 966 4909
+#P	86 Commerce Bldg., Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U	alberta zaphod
+#W	sask!peachey (Darwyn Peachey); Thu Dec 11 16:17:46 CST 1986
+#
+sask	alberta(DEDICATED+LOW), ihnp4(DEMAND), utcsri(DEMAND), zaphod(DIRECT),
+	kimnovax(DEDICATED), skorpio(DEDICATED), skatter(DEDICATED),
+	skeng(LOCAL), skerth(LOCAL), skyblu(LOCAL), skalar(LOCAL),
+	skvlsi(LOCAL), pmbrc(DIRECT), skul(DEDICATED)
+
+#N	skalar
+#S	DEC MicroVAX II; Ultrix
+#O	University of Saskatchewan; Dept. of Mathematics
+#C	Stan Devitt
+#E	sask!postmaster
+#T	+1 306 966 6114
+#P	Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skalar	sask(LOCAL)
+
+#N	skatter
+#S	DEC VAX 11/785; Ultrix 1.2 UNIX
+#O	University of Saskatchewan, Linear Accelerator Lab.
+#C	Doug Murray
+#E	skatter!doug
+#T	+1 306 966 8529
+#P	Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skatter	sask(DEDICATED)
+
+#N	skeng
+#S	DEC VAX 11/780; VMS/EUNICE
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Derek Andrew
+#E	sask!postmaster
+#T	+1 306 966 4820
+#P	Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skeng	sask(LOCAL), skul(DEDICATED)
+
+#N	skerth
+#S	DEC VAX 11/785; VMS/EUNICE
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Derek Andrew
+#E	sask!postmaster
+#T	+1 306 966 4820
+#P	Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skerth	sask(DEDICATED)
+
+#N	skorpio
+#S	Pyramid 90x; OSx 2.5 UNIX 4.2/Sys V
+#O	University of Saskatchewan, Dept. of Comp. Sci. Research Lab
+#C	Darwyn Peachey
+#E	sask!postmaster
+#T	+1 306 966 4909
+#P	86 Commerce Bldg., Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skorpio	sask(DEDICATED), kimnovax(LOCAL)
+
+#N	skul
+#S	AT&T 3B2/400 ; system V (2.01)
+#O	University of Saskatchewan, College of Engineering
+#C	Geoff Coleman
+#E	skul!geoff
+#T	+1 306 966 5415
+#P	Saskatoon, SK, Canada  S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skul	sask(DEDICATED), skeng(DEDICATED)
+
+#N	skvlsi
+#S	DEC Vaxstation II/GPX; Ultrix
+#O	University of Saskatchewan, Comp. Science & Electrical Engineering
+#C	Darwyn Peachey
+#E	sask!postmaster
+#T	+1 306 966 4909
+#P	86 Commerce Bldg., Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skvlsi	sask(LOCAL)
+
+#N	skyblu
+#S	DEC VAX 8600+8650 cluster; VMS/Eunice
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Derek Andrew
+#E	sask!postmaster
+#T	+1 306 966 4820
+#P	Saskatoon, SK, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	sask!peachey (Darwyn Peachey); Mon Dec  1 14:17:22 CST 1986
+#
+skyblu	sask(LOCAL)
+
+#N	zaphod
+#S	DEC VAX-11/780; Ultrix-32 V2.0
+#O	Develcon Electronics Ltd.
+#C	Bob Harvey, Bill Jones
+#E	sask!zaphod!postmaster
+#T	+1 306 933 3300
+#P	856 51 Street East, Saskatoon SK  S7K 5C7, Canada
+#L	52 07 N / 106 38 W city
+#R	
+#U	sask dvlmarv
+#W	zaphod!billj (Bill Jones); Sun Aug  9 09:06:29 CST 1987
+#
+zaphod	sask(HOURLY*2), dvlmarv(HOURLY/2)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

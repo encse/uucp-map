@@ -1,0 +1,387 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.ita.1
+# This archive created: Wed Dec  2 04:19:02 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.ita.1
+cat << \SHAR_EOF > u.ita.1
+#	u.ita.1 ; changes to : uucpmap@i2unix.uucp
+
+#N	cca_umi
+#S	Vax 750 4.3Bsd
+#O	Centro di calcolo universita' di milano
+#C	valeria schiavi
+#E	cca_umi!root
+#T	+39 2 
+#P	citta' studi
+#L	45.28N 9.12E
+#R	subject to change asap
+#W	i2unix!roby 860915
+#
+
+#N	cise
+#S	sun 2/170
+#O	Centro informazioni studi esperienze
+#C	Savini
+#E	cise!max
+#T	+39 2 21672429
+#P	via Reggio Emilia 39, Segrate, I-20090 Italy
+#L	45.28N 9.12E
+#R
+#W	i2unix!roby 861120
+#
+
+#N	cip
+#S	sun 3 4.2 BSD
+#O	CNR - IMAI
+#C	Bruno Betro'
+#E	cip!bruno
+#T	+39 2 
+#P	via Ampere, 56 - 20131 MILANO
+#L	45.28N 9.12E
+#R
+#W	i2unix!roby 861120
+#
+
+#N	cselt
+#S
+#O	CSELT - Centro Studi Elettronica e Telecomunicazioni
+#C	Paolo Decarlini
+#E	cselt!dcr
+#T	+39 11 21691
+#P	Via Reiss Romoli 274, I-10148 Torino, Italy
+#L	45.03N 7.4E
+#R	
+#W	i2unix!roby 860312
+#
+CSELTnet = {cselt, dotto, mammolo, pisolo, gongolo, cucciolo, eolo, brontolo}!(DIRECT)
+
+
+#N	crai
+#S	
+#O	CRAI Consorzio per la ricerca e le applicazioni di informatica
+#C	Giuseppe Cavarretta
+#E	crai!pino
+#T	+39 984 837253
+#P	Via Bernini 5 Quattromiglia di Rende, I-87030 Cosenza, Italy	
+#L	39.20N 16.15E
+#R	
+#U	
+#W	i2unix!roby 860623
+#
+
+#N	delphi
+#S	
+#O	Delphi S.p.A.
+#C	Giuseppe Attardi
+#E	delphi!beppe
+#T	+39 584 395161
+#P	Via della Vetraia 11, I-55049 Viareggio, Italy
+#L	43.52N 10.14E
+#R	
+#U	list, dipisa
+#W	i2unix!roby 860311
+#
+delphi	dipisa(DAILY), list(DEAD)
+
+#N	dipisa
+#S	
+#O	Dipartimento di Informatica - Universita' di Pisa
+#C	Franco Turini
+#E	dipisa!turini
+#T	+39 50 40864
+#P	Corso Italia 40, I-56100 Pisa, Italy
+#L	43.66N 10.40E
+#R	
+#U	
+#W	i2unix!roby 860703
+#
+
+#N	disrm
+#S	
+#O	Dipartimento di Informatica - Universita' di Roma
+#C	Enrico Nardelli
+#E	disrm!nardelli
+#T	+39 67312367
+#P	Via Buonarroti 12 I-00185 Roma, Italy
+#L	41.50N 12.35E	
+#R	
+#U	
+#W	i2unix!roby 860703
+#
+
+#N	enidbo
+#S	
+#O	Eni-data Bologna
+#C	Dr. Bartoli
+#E
+#T	+39 51 505684
+#P
+#L	44.00N 10.30E
+#R	
+#U	
+#W	i2unix!roby 870323
+#
+
+#N	etna
+#S	
+#O	Istituto di informatica e telecomunicazioni
+#C	Lorenzo Vita
+#E	etna!root
+#T	+39 95 339449
+#P	Via Andrea Doria 6, I-95100 Catania, Italy	
+#L	39.20N 16.15E
+#R	
+#U	
+#W	i2unix!roby 870323
+#
+
+#N	i2unix
+#S	Vax750/ 4.2BSD	
+#O	Italian Unix systems User Group
+#C	Roberto Pirrone
+#E	i2unix!roby
+#T	+39 11 538608
+#P	Piazza Solferino 7, I-10121 Torino, Italy
+#L	45.03N 7.40E
+#R	italian backbone
+#U	ugdist, cselt, olita2, sadix, smcv_02, sgs, cca_umi
+#W	i2unix!roby 860219
+#
+i2unix	mcvax(ARPA), inria(ARPA)
+i2unix	cca_umi(DAILY), cise(DAILY), crai(DEMAND), cselt(DIRECT), 
+	delphi(HOURLY), disrm(DAILY/2), sarinit(DAILY),
+	ic8u74(DAILY), iconet(DIRECT), ieeupdb(DAILY), olhqm01(WEEKLY), 
+	sadix(DEAD), sgs(DAILY), sissa(WEEKLY), smcv_02(DAILY/2), 
+	strolog(DAILY), ubdm(DAILY), udsab(DEMAND), ugdist(DAILY/4), 
+	usperry(WEEKLY), leonardo(DAILY), etna(DAILY), cip(DAILY),
+	enidbo(DAILY)
+
+#N	ic8u74
+#S	VAX11 750 Ultrix 1.2
+#O	Italtel Sit
+#C	angelo ferrario
+#E	ic8u74!angelof
+#T	+39 2 43887167
+#P	Cascina castelletto Settimo milanese, I-20019 Milano Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	i2unix!roby 870108
+#
+
+#N	iconet
+#S	PDP11/44 2.9BSD
+#O	I.C. OLIVETTI
+#C	paolo campagnola
+#E	iconet!paul
+#T	+39 125 522402
+#P	Via Jervis 7, I-10015 Ivrea,Italy
+#L	45.03N 7.40E
+#R	
+#U
+#W	i2unix!roby 860603
+#
+ICOnet = {iconet,icocae,icodap,trzfal,icogre,barhor,icoign,icokip,
+	icolok,trzmac,icooll,icopen,scmque,icoras,icosal,psatit,psauly,
+	icoven,olivew,icoxan,icoyeh,icozen,icoque,icotwo,icol2m,newgest,
+	icos02,icos01,sssvax,trzsev}!(LOCAL)
+
+#N	ieeupdb
+#S	3b2/300
+#O	Istituto Elettrotecnica ed Elettronica Universita' di Padova
+#C	franco bombi
+#E	ieeupdb!franco
+#T	+39 49 8070268
+#P	Via Gradenigo 6a, I-35131 Padova, Italy
+#L	44.00N 10.30E
+#R	
+#U
+#W	i2unix!roby 861115
+#
+
+#N	imacnr
+#S	Sun 3/50
+#O	Istituto per la matematica applicata C.N.R. 
+#C	Sergio Antoy
+#E	imacnr!sergio
+#T	+39 10 515510
+#P	Via L.B. Alberti 24, I-16132 Genova, Italy
+#L	44.22N 8.55E
+#R	
+#U
+#W	i2unix!roby 861106
+#
+
+
+#N	list
+#S	SUN2/120 4.2BSD
+#O	list s.r.l.
+#C	Enrico Sonno
+#E	list!sleep
+#T	+39 50 44023
+#P	p.za Mazzini 6, I-56100 Pisa, Italy
+#L	43.43N 10.24E
+#R	
+#W	i2unix!roby 860311
+#
+
+
+#N	olhqm01
+#S	Olivetti/AT&T 3B2/300, System V
+#O	Olivetti HQ International Marketing, S/W support center
+#C	Tecchio
+#E	olhqm01!root
+#T	+39 2 452731
+#P	Olivetti HQIM, Via Caldera 21, I-20153 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	olhqma!pete 850313
+#
+
+#N	olita2
+#S	Olivetti/AT&T 3B2/300, System V.2
+#O	Olivetti Direzione OEM/VAR
+#C	roberto perego
+#E	olita2!roberto
+#T	+39 2 88362423
+#P	Via Meravigli 12, I-20123 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	i2unix!roby 861115
+#
+
+#N	sarinit
+#S	SUN 3 4.2BSD
+#O	Sarin settore ricerche
+#C	Gianluca Loreto
+#E	sarinit!root
+#T	+39 691197451
+#P	Pomezia - Roma
+#L	41.50N 12.35E	
+#R	
+#U	
+#W	i2unix!roby 860703
+#
+
+#N	sgs
+#S	
+#O	SGS-ATES S.p.A.
+#C	Lucio D'Amico
+#E	sgs!lucio
+#T	+39 39 635542
+#P	Centro Direzionale Colleoni, Andromeda 3, I-20041 Agrate Brianza, Italy
+#L	45.34N 9.21E
+#R	mcvax
+#U
+#W	mcvax!piet 841215
+#
+
+#N	sissa
+#S	Gould 32/97 4.2Bsd
+#O	Scuola internazionale superiore di studi avanzati
+#C	Paolo Budinich
+#E	sissa!root
+#T	+39 40 22401
+#P	SISSA, strada Costiera 11, I-34014, Trieste,Italy
+#L	41.08N 14.15E
+#R	
+#W	i2unix!roby 860708
+#
+
+#N	smcv_02
+#S	VAX785/4.2BSD
+#O	Italtel Telematica S.p.A.
+#C	Francesco Vitale 
+#E	smcv_02!vitale
+#T	+39 823 791421
+#P	Italtel Telematica,Via Appia Loc. Cappuccini, I-81055 S.M.C.Vetere (CE),Italy
+#L	41.08N 14.15E
+#R	
+#W	i2unix!roby 860313
+#
+
+#N	strolog
+#S	
+#O	STRHOLD S.p.A.
+#C	Paolo Balocchi
+#E	strolog!paolo
+#T	+39 522 70941
+#P	Via Cipriani 2, I-42100 Reggio Emilia, Italy
+#L	44.43N 10.36E
+#R	
+#U	mcvax
+#W	mcvax!piet 851202
+#
+
+#N	ubdm
+#S	3B2/300XM & System V
+#O	Dipartimento di Matematica, Universita' di Bologna
+#C	Luigi Cerofolini
+#E	ubdm!luigi
+#T	+39 51 275500
+#P	Piazza Porta San Donato 5, I-40100 Bologna, Italy
+#L	44.00N 10.30E
+#R	
+#W	i2unix!roby 860318
+#
+
+#N	udsab
+#S	Vax 785 4.2BSD
+#O	Dipartimento di Informatica
+#C	pippo cattaneo
+#E	udsab!pc
+#T	+39 89 878299
+#P	universita' di salerno, Baronissi Salerno, Italy
+#L	41.00N 14.30E
+#R	
+#W	i2unix!roby 861120
+#
+
+#N	ugdist
+#S	VAX750/4.2BSD
+#O	Dipartimento di Informatica, Sistemistica e Telematica
+#C	Joy Marino
+#E	ugdist!joy
+#T	+39 10 310223
+#P	Via Opera Pia 11A, I-16145 Genova, Italy
+#L	44.22N 8.55E
+#R	
+#W	i2unix!roby 860311
+#
+DistNet = {ugdist, distimg, distai, dist23, dist24, dist34}!(LOCAL)
+ugdist	imacnr(HOURLY)
+
+
+#N	usperry
+#S	Sperry PC IT
+#O	Sperry spa, Information Systems Group
+#C	Daniele Schinelli
+#E	usperry!dny
+#T	+39 2 6883470
+#P	Via Pola 9 I-20124 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#W	i2unix!roby 860703
+#
+
+#N	leonardo
+#S	VAX 780, 4.2 BSD
+#O	Dipartimento di informatica Universita' di Torino
+#C	bruno graziano
+#E	leonardo!bruno
+#T	+39 11 755677
+#P	C.so Svizzera 185, I-10100 Torino, Italy
+#L	45.03N 7.40E
+#R	
+#W	i2unix!roby 861115
+#
+SHAR_EOF
+#	End of 06:InInI IntHP HP H

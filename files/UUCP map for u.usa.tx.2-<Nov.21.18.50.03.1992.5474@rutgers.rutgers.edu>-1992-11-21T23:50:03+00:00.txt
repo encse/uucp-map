@@ -1,0 +1,2550 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.tx.2
+: This archive created: Sat Nov 21 18:50:01 1992
+echo shar: extracting u.usa.tx.2
+cat << 'SHAR_EOF' > u.usa.tx.2
+# FILE: u.usa.tx.2 ; Fri Nov 20 23:25:31 CST 1992
+# MAINTAINER: texas-uucpmap@tmc.edu (Stan Barber)
+
+#N      dinosaur
+#S      Gateway 2000 386/25Mz; Sys 5.3.2
+#C      Keith Cantrell
+#E      dinosaur!keith
+#T      +1 214-492-1088
+#P      2100 Sonata Ln. Carrollton TX 75007
+#L      32 52 N / 96 43 W city
+#W      dinosaur!root (Keith Cantrell) ; Mon Jul 01 23:02:47 CDT 1991
+#U	ttsi texsun letni
+#
+dinosaur = dinosaur.lonestar.org
+dinosaur aptzero(POLLED), dfwuug(DIRECT), digi(DIRECT+FAST),
+	harlie(DIRECT+FAST), iphase(DIRECT), keys(POLLED), letni(DIRECT+FAST),
+	polygon(POLLED), steward(POLLED), sulaco(DIRECT+FAST), 
+	texsun(DIRECT+FAST), ttsi(DIRECT+FAST), vangogh(POLLED)
+
+#N	dkwgate
+#S	HP 9000/800
+#O	DKW Systems Corporation
+#C	JR Jesson
+#E	dkwgate!jr
+#T	+1 214 746 5880
+#P	4050 Infomart, 1950 Stemmons Freeway, Dallas, TX 75207
+#L	32 47 N / 96 48 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb  6 19:43:40 EST 1991
+#U
+#
+dkwgate	uunet(DEMAND)
+
+#N	dlss1, dlss1.sbc.com
+#S	AT&T 3B2/700; System V 3.2.1
+#O	Southwestern Bell Telephone Co.
+#C	James Cummings
+#E	dlss1!james
+#T	+1 214-841-7649
+#P	4100 Bryan St. Rm 970; Dallas, Tx 75204
+#L	32 47 N / 96 49 W
+#W	dlss1!james (James Cummings); Wed Jan 15 07:21:20 CST 1992
+#U	txnews
+#
+dlss1= 	dlss1.sbc.com
+dlss1	bcr(DEMAND+LOW), ctounix(DIRECT+LOW), dlss2(LOCAL), 
+	fwss3b(DIRECT), swgate(DIRECT), swuts(DIRECT),
+	texnet(DIRECT), txnews(DIRECT+HIGH), txss01(LOCAL)
+
+#N	dlss2, dlss2.sbc.com
+#S	AT&T 3B2/700; System V 3.2.1
+#O	Southwestern Bell Telephone Co.
+#C	James Cummings
+#E	dlss2!james
+#T	+1 214-841-7649
+#P	4100 Bryan St. Rm 970; Dallas, Tx 75204
+#L	32 47 N / 96 49 W
+#W	dlss2!james (James Cummings); Wed Jan 15 07:21:20 CST 1992
+#U	txnews
+#
+dlss2 =	dlss2.sbc.com
+dlss2	ctounix(DIRECT), dlss1(LOCAL), homey(DIRECT+FAST), 
+	lodestar(WEEKLY), texnet(DIRECT), txnews(DIRECT+FAST), 
+	txss01(LOCAL)
+
+#N	dms3b1
+#S	AT&T 3b1; System V (3.51)
+#O	Infotouch Systems, Inc.
+#C	Dave Hanna
+#E	dms3b1!dave
+#T	(817) 540-1524
+#P	3900 Cedar Ridge Dr., Suite 100, Bedford, TX 76021
+#L	97 07 W / 32 52 N
+#R	Infotouch System was formerly Daltech MicroSystems
+#U	letni, ataritx, caleb
+#W	dms3b1!dave (Dave Hanna); Mon Nov 26 18:28:26 CST 1990
+#
+dms3b1	caleb(DIRECT), letni(DIRECT), ataritx(DIRECT)
+
+
+
+
+#N	dna, dna.lonestar.org
+#S	IBM AT;MS-DOS 5.0 & Waffle 1.65
+#O	DNA Enterprises, Inc.
+#C	Greg Mayhan
+#E	postmaster@dna.lonestar.org
+#T	+1 214 250 0061
+#P	5068 Plano Parkway, Suite 121, Plano, TX 75093
+#L	33 10 N / 96 40 W city
+#R	Software/hardware design consultation and implementation
+#U
+#W	pgilley@dna.lonestar.org (Phil Gilley); Sun Mar 22 08:21:12 1992
+#
+dna	= dna.lonestar.org
+dna	dfwuug(DIRECT),letni(DIRECT),rho(DIRECT)
+
+
+
+
+#N	doc
+#S	Dynix/ptx
+#O	EmCare, Inc.
+#C	Frank Wang
+#E	doc!root
+#T	+1 214 761 9200
+#P	1717 Main St., #5200, Dallas, TX 75201
+#L	32 47 N / 96 48 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Sep  4 16:12:57 EDT 1991
+#U
+#
+doc	uunet(DEMAND)
+
+#N	dogface, dogface.austin.tx.us
+#F	cs.utexas.edu
+#S	80486 clone ; ISC Unix 2.2.1
+#C	Bob Izenberg
+#E	bei@dogface.austin.tx.us
+#T	+1 512 346 7019
+#P	8535 Capitol of Texas Highway North, Austin, TX  78759
+#L	30 21 53 N / 97 44 15 W city
+#U	aatdev,balkan,dis,hitex,mdf,motaus,peyote,posms,whooper,zitt
+#W	bei@dogface.austin.tx.us (Bob Izenberg) ; Sat May 02 11:32:55 CDT 1992
+#
+dogface = dogface.austin.tx.us
+#
+dogface	aatdev(POLLED), balkan(POLLED), blackice(POLLED), cfi1(DEMAND+FAST),
+	chinacat(POLLED), cs.utexas.edu(DEMAND+FAST), fnordbox(POLLED),
+	fquest(POLLED), hitex(POLLED), mdf(EVENING), peyote(POLLED),
+	posms(POLLED), rpp386(DEMAND), whooper(POLLED), wixer(POLLED),
+	zhintil(POLLED), zitt(POLLED)
+
+
+#N	donbaya
+#S	AT clone; DOS 3.3
+#O	Private system
+#C	Taijan Wei
+#E	donbaya!postmaster, donbaya!tjw
+#T	+1 817 387 2218
+#P	P.O. Box 22734 TWU,  Denton, TX 76204
+#L	33 13 N / 97 08 W city
+#R	Initial map entry.
+#U	shibaya
+#W	donbaya!postmaster (Taijan Wei) ; Tue Jun 26 16:25:39 CDT 1990
+#
+donbaya	shibaya(DIRECT)
+
+
+#N      donn
+#S      PC's Ltd. PC/AT; Microport Sys V, IBM PC/IX, 4.3 bsd
+#O      ATbsd Project, c/o Donn Baumgartner
+#C      Donn Baumgartner
+#E      donn!donn
+#T      +1 512 834 3666
+#P      1304 Baronet's Trail, Austin, Texas 78753
+#L      30 24 N / 97 43 W
+#R      Coordinating site for 4.3 bsd for PC/AT Project
+#W      donn!donn (Donn Baumgartner); Mon Apr 15 16:25:00 CST 1991
+#
+donn    cs.utexas.edu(DAILY),rice(DAILY)
+
+
+
+#N	dp7up
+#S	Uniq Tecnologies 80486/33; SCO UNIX V/3.2v2
+#C	Bill Harris
+#O	Dr Pepper/The Seven-Up Company
+#E	root@dp7up.lonestar.org
+#T	+1 214-360-7000
+#P	8144 Walnut Hill Ln, Dallas,Tx 75231
+#L
+#W	root@dp7up.lonestar.org; Thu Oct 24 11:30:00 CDT
+#
+#
+dp7up   joshua(DIRECT+FAST), mic(DIRECT+FAST), void(DIRECT+FAST)
+
+
+#N	dptspd,dptspd.sat.datapoint.com
+#S	Datapoint DX400; System V/68
+#O	Datapoint Corporation
+#C	Lee Ziegenhals
+#E	postmaster@sat.datapoint.com
+#T	+1 512 593 7330
+#P	8400 Datapoint Drive, San Antonio, TX 78229-8552
+#L	29 31 00 N / 98 34 07 W
+#U	afnews csoftec ephsa fezzik iquery swrinde
+#W	lcz@sat.datapoint.com (Lee Ziegenhals); Tue Jul 21 15:59:55 CDT 1992
+#
+dptspd = dptspd.sat.datapoint.com
+dptspd	.datapoint.com(LOCAL)
+#
+dptspd	afnews(DIRECT+FAST), csoftec(DIRECT+FAST), ephsa(DIRECT+FAST),
+	fezzik(DIRECT), fl2(DAILY), fuzzylog(DIRECT+FAST),
+	iquery(DIRECT+FAST), swrinde(DEDICATED)
+
+#N	dr-bill
+#S	Laptop
+#O	W. H. Clingman, PhD
+#C	Lyn R. Kennedy
+#E	lrk@k5qwb.lonestar.org
+#T	+1 214 217 0212
+#P	P. O. Box 5133, Ovilla, TX 75154
+#L	32 32 30 N / 96 53 36 W
+#U	k5qwb
+#W	k5qwb!lrk (Lyn R. Kennedy); Sun Nov 08 22:30:00 CST 1992
+#
+dr-bill	k5qwb(DAILY)
+
+#N	drig
+#S	Commodore-Amiga 2000HD; AmigaDOS 1.3
+#O	Dallas Remote Imaging Group (Satellite Tracking & Imaging)
+#C	Jeff Wallach, Ph.D.
+#E	drig!jw
+#T	+1 214 394 7325
+#P	4209 Meadowdale Dr., Carrollton, Tx.  75010
+#L	32 59 45 N / 96 52 28 W
+#U	kf5iw  mcduck
+#W	drig!jw   (Jeff Wallach); Mon Dec 24 22:24:22 CST 1990
+#
+drig	kf5iw(DAILY/2), starweb(DEAD), mcduck(DAILY)
+
+#N	drk1
+#S	Convex C210; ConvexOS V9.0
+#O	Mobil Research and Development
+#C	Cheryl Croft
+#E	drk1!cacroft
+#T	+1 214 851 8479
+#P	P.O. Box 819047, Dallas, TX  75381-9047
+#L	37 47 N / 96 48 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Tue Jul 16 10:17:03 EDT 1991
+#U
+#
+drk1	uunet(DEMAND)
+
+#N	drlc1
+#S	Convex C210; ConvexOS V9.0
+#O	Mobil Research and Development
+#C	Cheryl Croft
+#E	drlc1!cacroft
+#T	+1 214 851 8479
+#P	P.O. Box 819047, Dallas, TX  75381-9047
+#L	37 47 N / 96 48 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Aug 19 10:05:29 EDT 1991
+#U
+#
+drlc1	uunet(DEMAND)
+
+#N      dtsem,  dts.edu
+#S      HP 9000; HP-UX 7.0
+#O      Dallas Theological Seminary
+#C      Rick Blake
+#E      dtsem!postmaster
+#T      +1 214 841 3767
+#P      3909 Swiss Ave., Dallas, TX  75204
+#L      32 47 N / 96 48 W city
+#W      dtsem!rick (Rick Blake) Mon Apr 27 07:55:25 CST 1992
+ 
+dtsem   utacfd(DIRECT)
+ 
+#N	dungeon, dungeon.lonestar.org
+#S	386/AT Clone; Microport System V/386 3.0e
+#O	MCP Systems
+#C	Chert Pellett
+#E	dungeon!chert
+#T	+1 214 250-0190
+#P	P. O. Box 850132, Richardson, Tx. 75085-0132
+#L	32 50 N / 96 43 W 
+#R	dungeon receives news as notes.
+#W	egsner!eric ( Eric Schnoebelen ); Wed May  8 22:19:32 CDT 1991
+#U	egsner
+#
+dungeon=mcpsys
+dungeon dungeon.lonestar.org
+dungeon	egsner(DEMAND), vector(DAILY)
+
+#N	dynsim1
+#S
+#O	Litwin Process Automation
+#C	Vic Rice
+#E	dynsim1!root
+#T	+1 713 497 6200
+#P	580 Westlake Park Blvd., Houston, TX  77251-1281
+#L
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Fri Oct 26 21:22:34 EDT 1990
+#U
+#
+dynsim1	uunet(DEMAND)
+
+#N	eatonaus
+#S	Sun IPC
+#O	Eaton Corporation
+#C	Mike Cavazos
+#E	eatonaus!root
+#T	+1 512 873 2677
+#P	2433 Rutland Drive, Austin, TX 78758
+#L	30 16 N / 97 44 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon May  6 18:40:43 EDT 1991
+#U
+#
+eatonaus	uunet(DEMAND)
+
+#N	ecaard
+#S	SUN 4; SunOS 4.0.3
+#O	ElectroCom Automation L.P.
+#C	Rus Duderstadt
+#E	ecaard!rad
+#T	+1 817 695 7524
+#P	2910 Ave. F East, Arlington, TX 76011
+#L	32 44 N / 97 06 W
+#W	ecaard!rad (Rus Duderstadt); Tue Sep 11 11:10:32 CDT 1990
+#
+ecaard	uunet(DEMAND)
+
+#N	ecor1
+#S	Tandy 6000 HD; XENIX 3.02
+#O	Home System
+#C	Tod D. Romo
+#E	ecor1!root
+#T	+1 512 824 5121 
+#P	318 Jeanette, San Antonio, TX 78216
+#L	98 32 23 W / 29 31 38 N San Antonio TX
+#W	ephsa!root (Buddy Hilliker); Mon May 5 09:11:06 CST 1991
+#
+ecor1	ephsa(DIRECT+HIGH), petro(DAILY), tusol(DAILY), ucmsa(DEAD), 
+	utanes(DIRECT)
+
+
+
+#N	edscons
+#S	Macintosh 11CI
+#O	Electronic Data Systems
+#C	Jim Bartoo
+#E	Jim Bartoo
+#T	+1 214 403 5765
+#P	5228 Tennyson Pkwy MS ED-03-139 Plano, TX  75024
+#L	33 01 N 96 41 W
+#R
+#W	evie@uunet.UU.NET (Evie Allen); Fri Nov  6 15:58:21 EST 1992
+#U
+#
+edscons	uunet(DEMAND)
+
+#N      edsr
+#S      Sun 4/OS4.1.1
+#O      EDS Advanced Research
+#C      Jimmy Niemann
+#E      edsr!jcn
+#T      +1 214 661 6052
+#P      7223 Forest Lane, Dallas, TX 75230
+#L      32 47 N / 96 48 W city
+#R
+#W      jcn@edsr.eds.com (Jim Niemann); Mon Jun 06 08:39:49 CDT 1991
+#U
+ 
+edsr    texsun(DIRECT), uunet(DAILY), tantalum(DEDICATED)
+
+
+#N      eec, .austin.eds.com
+#F	cs.utexas.edu
+#S	Sun 3/60; SunOS 4.1.1
+#O      Austin Laboratory; EDS Research
+#C      Rob Mayoff
+#E      mayoff@austin.eds.com, postmaster@austin.eds.com
+#T      +1 512 477 1892
+#P      Austin Lab, EDS Research, 1601 Rio Grande Ste. 451, Austin, TX, 78701
+#L      30 17 13 N / 97 44 19 W
+#W	mayoff@austin.eds.com (Rob Mayoff); Tue Jan 15 19:37:11 CST 1991
+#
+eec	.austin.eds.com
+eec	= austin.eds.com
+eec	cs.utexas.edu(HOURLY/3), cli(DAILY)
+
+#N	egsner, egsner.cirr.com, cirr.com
+#F	cs.utexas.edu, utacfd.arl.utexas.edu
+#S	386/AT Clone; Interactive 386/ix 3.0 (Unix System Vr3.2)
+#O	Central Iowa (Model) Railroad
+#C	Eric Schnoebelen
+#E	egsner!postmaster, egsner!eric
+#P	1321 Colmar, Plano, Tx 75023
+#L	32 59 16 N/ 96 46 04 W
+#W	egsner!eric (Eric Schnoebelen); Mon Nov  2 04:00:02 CST 1992
+#
+#	$Id: egsner.map,v 2.47 1992/09/22 04:00:21 eric Released $
+#
+#U	dungeon mic convex ataritx vector shyguy dfwuug
+#
+egsner=egsner.cirr.com
+egsner=cirr.com
+egsner .cirr.com
+egsner	<chinacat>(DAILY),
+	<tao>(WEEKLY+HIGH),
+	acer(EVENING+FAST),
+	adaptex(DIRECT+FAST),
+	ataritx(DIRECT+FAST),
+	awful(DIRECT+FAST),
+	batpc(DIRECT),
+	cms2(DIRECT),
+	convex(DIRECT+FAST),
+	cs.utexas.edu(DAILY+HIGH),
+	csccat(DIRECT+FAST),
+	dalsil(DIRECT),
+	dalnet(DIRECT+FAST),
+	damaru(POLLED),
+	dfwuug(DEMAND+FAST),
+	dms3b1(DEMAND),
+	dungeon(DIRECT),
+	europa(POLLED),
+	foxtlcm(DEMAND+FAST),
+	frontier(DIRECT),
+	gtenext1(DEAD),
+	harlie(DEAD),
+	incon(DEAD),
+	jassys(DIRECT),
+	jho(DIRECT+FAST),
+	laczko(DEMAND),
+	lerami(DIRECT+FAST),
+	letni(DIRECT+FAST),
+	lodestar(DIRECT),
+	mette(POLLED),
+	mic(DIRECT+FAST),
+	montagar(DIRECT),
+	niteowl(DEAD),
+	nominil(POLLED),
+	ocitor(DIRECT+FAST),
+	pandora(DEAD),
+	pfloyd(DEAD),
+	ping(DAILY+FAST+HIGH),
+	piziali(POLLED+HIGH),
+	rwsys(DIRECT+FAST),
+	sdf(DIRECT),
+	supernet(DEAD),
+	swsrv1(DIRECT),
+	texrex(DIRECT),
+	triad(DIRECT),
+	utacfd(DIRECT+FAST),
+	vector(DIRECT+FAST),
+	vitec(DEMAND),
+	void(DIRECT+FAST),
+	wb5nrn(DIRECT+FAST),
+	wf-dal(POLLED),
+	wf-rch(DEMAND),
+	whitwiz(DIRECT)
+
+#N	ehbbs
+#S	AT&T 6386 MS DOS 3.30 PC Board 14.5a
+#O	Ed Hopper's BBS - 713-997-7575
+#C	Ed Hopper
+#E	ed.hopper@ehbbs.hou.tx.us
+#T	713-997-9834
+#P	3403 Jacquelyn, Pearland, Texas 77581
+#R	Public Access BBS Site 713-997-7575
+#U	ehpcb
+#W	ed.hopper@ehbbs.hou.tx.us (Ed Hopper); Wed Nov 13 21:45:00 CST 1991
+#
+ehbbs=ehbbs.hou.tx.us
+ehbbs	ehpcb(LOCAL),nix1(DIRECT)
+ehpcb	wrangler(EVENING)
+
+#N	elecafe
+#S	Intel 80386; Waffle UUCP
+#O	Electric Cafe BBS, Denton, TX
+#C	Darren Loher
+#E	darren@sol.acs.unt.edu
+#T	+1 817 380 0604
+#P	3601 Oriole Drive, #L-13, Denton, Texas  76201
+#L	32 12 53 N / 97 07 58 W
+#R	Public Access BBS
+#U	sdf
+#W	elecafe!root (Postmaster Account); Sun Aug 30 92 18:42:16 CDT 1992
+#
+elecafe    sdf(DAILY)
+
+#N      elpc
+#S      Compaq 386/20; Sco Xenix 386
+#C      Cam Fox
+#O      Electro Plate Circuitry
+#E      elpc!cam
+#T      +1 (214) 466-0818
+#P      1430 Century - Dallas - Tx - 75006
+#L      32 45 N / 97 20 W city
+#W      void!cam;Fri May 25 14:12:23 CDT 1990
+#R
+#U
+# 
+elpc       void(DIRECT+FAST)
+
+
+#N	els3
+#S	ALTOS 2086;  SCO XENIX
+#O	Equipment Listing Service
+#C	Buddy Hilliker
+#E	els3!root
+#T	+1 512 341 4900
+#P	Isom Road, San Antonio, TX 78216
+#L	98 32 23 W / 29 31 38 N San Antonio TX
+#R	UN*X-based Database Systems
+#W	ucmsa.ucm.org!ucm (Buddy Hilliker); Thu Jan 25 11:37:12 CST 1990
+#
+els3	ucmsa.ucm.org(DAILY)
+
+
+#N	emass
+#S	Sun 3/280; SunOS 4.1.1
+#O	E-Systems
+#C	Rich Cannizzaro
+#E	emass!root
+#T	+1 214 272 0515
+#P	P.O. Box 660023, Dallas, TX 75266-0023
+#L	32 47 N / 96 48 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Dec 18 13:50:48 EST 1991
+#U
+#
+emass	uunet(DEMAND)
+
+
+#N	engcon
+#S	Convex C1-XP 4.2 BSD
+#O	LTV Aerospace and Defense Company
+#C	Ben Rouse
+#E	engcon!root
+#T	+1 214 266 7268
+#P	P.O.Box 655907, M/S WT-25, Dallas, TX 75265
+#L	32 47 N / 96 48 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri May 11 15:41:19 EDT 1990
+#U
+#
+engcon	uunet(DEMAND)
+
+#N	enigma, enigma.haus.com
+#F	utacfd.arl.utexas.edu; solo.csci.unt.edu
+#S	Sun SparcStation/1+; SunOS 4.1
+#O	Harris Adacom Corporation
+#C	Clay Luther
+#E	cluther@enigma.haus.com
+#T	+1 214 386 2356
+#P	P.O. Box 809022,  Dallas, Tx 75380-9022
+#L	32 47 N / 96 49 W
+#R	Harris Adacom X Development Team
+#U	supernet
+#W	cluther@enigma.haus.com; Wed Jan  9 20:12:06 CST 1991
+#
+enigma =   enigma.haus.com
+enigma =   enigma.dallas.haus.com
+enigma     supernet(LOCAL)
+
+#N	ephsa
+#S	386/25;
+#C	Buddy Hilliker
+#E	ephsa!news
+#T	+1 512 561 9801
+#L	98 32 23 W / 29 31 38 N San Antonio TX
+#U	aerosar, angel, dptspd, irsaims, spatsc, vh5150
+#W	ephsa!news (Buddy Hilliker); Mon Jul 27 17:21:30 CDT 1992
+#
+ephsa	dptspd(DIRECT+FAST), angel(DIRECT+FAST), irsaims(DIRECT+FAST),
+	aerosar(DIRECT), vh5150(DIRECT+HIGH), ucmsa(DIRECT),
+	ephsa2(DIRECT+FAST), spatsc(DIRECT),
+	scuba(DIRECT+HIGH), ecor1(DEAD)
+
+
+#N	ernest
+#S	CTI-109; ISC 386 2.2.1
+#O	Texas Instruments
+#C	Alan Edmonds
+#E	ernest!postmaster
+#T	+1 214 575 6427
+#P	P.O. Box 869305, MS 8513, Plano, TX, 75086
+#L	33 3 56 N / 96 41 54 W
+#R	willing to accept local mail connections
+#U	mic chinacat shibaya moxie cmptrc shyguy egsner theark
+#W	ernest!postmaster (Alan Edmonds); Mon Nov 16 11:15:14 CST 1992
+#
+ernest	= ernest.itg.ti.com
+ernest	= ernest.dseg.ti.com
+#
+ernest	<ajahnv>(DIRECT)
+ernest	chinacat(DEMAND+FAST)
+ernest	cmptrc(DIRECT)
+ernest	digi(DIRECT)
+ernest	egsner(DIRECT)
+ernest	europa(DIRECT)
+ernest	harlie(DEMAND)
+ernest	<keys>(POLLED)
+ernest	<laczko>(DIRECT)
+ernest	letni(DIRECT)
+ernest	mic(DIRECT)
+ernest	montagar(DEMAND)
+ernest	moxie(DIRECT+HIGH)
+ernest	<shibaya>(DIRECT)
+ernest	shyguy(DIRECT)
+ernest	sulaco(DIRECT)
+ernest	theark(DIRECT)
+ernest	woodwrk(DEMAND)
+
+#N 	eru001
+#S	VAX 6510; VAX/VMS 5.4
+#O	Ericsson Radio Systems at Richardson Tx
+#C	Bryan Bradley
+#E	system@eru001.lonestar.org
+#T	+1 214 952 8805
+#P	740 East Campbell Road, Richardson TX 75081
+#L	96 30 W / 32 50 N  city
+#U	fallout
+#W	system@eru001.lonestar.org ; Friday March 20 11:00 CST 1992
+#R      Cellular Radio Propogation
+#           
+#
+eru001 = eru001.lonestar.org
+eru001	 fallout(DIRECT)
+
+
+#N	esitx
+#S	Sun 4.1.1
+#O	Electrospace Systems
+#C	Tam Vutam
+#E	esitx!root
+#T	+1 214 470 2061
+#P	P.O. Box 831359, M/S 1500, Richardson, TX 75083
+#L	32 56 N / 96 43 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Jun 10 12:36:22 EDT 1992
+#U
+#
+esitx	uunet(DEMAND)
+
+#N    esnethou
+#S    CompuAdd 320s
+#O    Engineering-Science, Inc., Houston, TX
+#C    James E. Hartman
+#E    root@esnethou.UUCP
+#T    +1 713 943 5432
+#P    9906 Gulf Fwy. #100, Houston, TX  77034
+#L    29 25 N / 95 27 W City
+#R    Link to ES-NET
+#U    unkaphaed
+#W    esnethou!root (James E. Hartman); Mon Jul 06 20:58:00 GMT 1992
+
+esnethou      unkaphaed(DIRECT)
+
+#N	etnsed
+#S	Sun IPC
+#O	Eaton Corporation
+#C	Mike Cavazos
+#E	etnsed!root
+#T	+1 512 873 2677
+#P	2433 Rutland Drive, Austin, TX 78758
+#L	30 16 N / 97 44 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Mon Apr  6 15:06:26 EDT 1992
+#U
+#
+etnsed	uunet(DEMAND)
+
+#N      europa
+#S      AT&T 3B1; Unix System V (3.51)
+#O      Moria Mining Guild (BBS)
+#C      Tom Kimball
+#E      europa!tom
+#T      +1 214 458 1663
+#P      5454 Peterson Lane #2101, Dallas, TX USA 75240
+#L      32 45 N / 96 38 W city
+#R      
+#W      europa!tom (Tom Kimball); Fri Feb 21 18:32:35 CST 1992
+#
+europa = europa.lonestar.org
+europa  egsner(DIRECT), lerami(DIRECT), montagar(DIRECT),
+	sdf(DIRECT), txnews(DIRECT)
+
+
+#N	euwncs03
+#S	SUN Sparcstation 2;  SunOS 4.1.1
+#O	Exxon Upstream Tech. Co.
+#C	Press Robinson, Jr.
+#E	euwncs03!root
+#T	+1 713 965 7933
+#P	3120 Buffalo Speedway, Houston, TX 77098
+#L	29 45 N / 95 25 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Sep  5 16:47:40 EDT 1991
+#U
+#
+euwncs03	uunet(DEMAND)
+
+#N	execu
+#F	uunet.uu.net
+#S	Sun 3/280 SunOS Release 4.1
+#O	Comshare - Austin Dev Center
+#C	Molly Markley
+#E	usenet@execu.com
+#T	+1 512 794 3773
+#P	9600 Great Hills Tr, Suite 350W, Austin, Tx 78759
+#L	30 24 52 N / 97 43 52 W
+#R
+#U	cs.utexas.edu
+#W	usenet@execu.com;Thu Apr 16 15:53:29 CDT 1992
+#
+execu=execu.execu.com
+execu	execu.com(LOCAL)
+execu	.execu.com(LOCAL)
+execu	balkan(HOURLY*2)
+execu	crucible(HOURLY*4)
+execu	cs.utexas.edu(HOURLY)
+execu	dalsqnt(EVENING)
+execu	<uudell>(DAILY) 
+execu	pcinews(HOURLY*4)
+execu	<peyote>(DAILY)
+execu	rpp386(HOURLY+LOW)
+execu	sulaco(DAILY)
+execu	uunet(HOURLY*2)
+
+#N	exitech
+#S	Sun 386i
+#O	Exitech
+#C	John J. McGrath
+#E	ext-adm!admin
+#T	+1 409 245 9023
+#P	1904 Stonesthrow Drive, Bay City, TX 77414
+#L	28 50 N / 95 39 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Sep 21 09:30:52 EDT 1990
+#U
+#
+exitech	uunet(DEMAND)
+
+#N	exloghou
+#S	SUN 4/75; SunOS Release 4.1.1
+#O	Exlog, Inc
+#C	Dave St.Clair
+#E	dave@exlog.com
+#T	+1 713 744 4735
+#P	Houston, TX 77040
+#L	95 20.4 W / 29 58.8 N city
+#R	Oil Field Services
+#U	portal
+#W	dave@exlog.com (Dave St.Clair); Tues May 28 08:10:41 CST 1991
+#
+exloghou	.exlog.com
+exloghou	exlog.com
+exloghou	portal(DEMAND)
+
+
+#N	exsearch
+#S	Compaq 386-20; SCO Xenix
+#O	King Computer Search
+#C	Sandy Davis
+#E	exsearch!sandy
+#T	+1 214 238 1021
+#P	9221 LBJ Freeway, Dallas, TX 75243
+#L	32 47 N / 96 48 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Apr 28 11:47:53 EDT 1992
+#U
+#
+exsearch	uunet(DEMAND)
+
+#N	ext-adm
+#S	Sun 386i
+#O	Exitech 
+#C	John McGrath
+#E	ext-adm!admin
+#T	+1 409 245 9023
+#P	1904 Stonesthrow Drive, Bay City, TX 77414
+#L	28 50 N / 95 39 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Sep 19 16:36:01 EDT 1990
+#U
+#
+ext-adm	uunet(DEMAND)
+
+#N	f-454, f1024.n106.z1.fidonet.org
+#S	80386-20; MS-Dos 5.0 / DesqView 386
+#O	Fahrenheit 454
+#C	Rupa Schomaker
+#E	nuchat!xcluud!dadstoy!f-454!rupa
+#T	+1 713 683 9409
+#P	1406 W. 34 1/2 St., Houston, TX, 77086
+#L	29 40 N / 95 25 W city
+#U	dadstoy
+#W	stjhmc!ddodell (David Dodell); Fri Jun 26 22:30:00 MST 1992
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+f-454=	f-454.fidonet.org, f1024.n106.z1.fidonet.org
+f-454	dadstoy(DAILY+FAST)
+
+#N	fallout
+#S	DEC VAXstation 3100  VAX/VMS 5.5-1
+#O	DECUS DFW Local User Group (DFWLUG)
+#C	John Wisniewski
+#E	system@fallout.lonestar.org
+#T	+1 214 686 8107
+#P	3308 Rockne, Mesquite, TX 75150
+#L	32 46 N/ 96 46 W city
+#U	montagar dp7up cpvax eru001 dalsil vibro
+#W	system@fallout.lonestar.org ; Sat Aug 18 16:58:39 CST 1990
+#R      Local BBS for the Dallas-Ft Worth DFWLUG
+#       +1 214-270-3313  1200-9600 8/n/1 dial-up    
+#       VAXnotes, ANU News, DECUS UUCP,Public and Private Accounts 
+#       DECUS software indexes online
+#
+fallout = fallout.lonestar.org
+fallout	montagar(DIRECT+LOW),dp7up(DIRECT+LOW),cpvax(DIRECT+LOW),
+        eru001(DIRECT+LOW),dalsil(DIRECT+LOW),vibro(DIRECT+LOW)
+
+#N	fcircus, fcircus.sat.tx.us
+#S	Amiga 2000/GVP'030; AmigaDOS 2.0/AmigaUUCP V1.15D
+#O	The Flying Circus BBS
+#C	Randy Schnedler
+#E	fcircus!postmaster
+#T	+1 512 697 0784
+#P	6061 De Zavala #704, San Antonio, TX 78249
+#L	29 30 N / 098 30 W city
+#R	fcircus.sat.tx.us from the internet (MX'd)
+#U	fezzik
+#W	fezzik!tsarna (Ty Sarna); Tue Aug  4 11:58:31 CDT 1992
+#
+fcircus = fcircus.sat.tx.us
+fcircus	fezzik(DIRECT+FAST)
+
+
+#N	fcknfst
+#S	Prototype 680x0 box (currently 50mhz and climbing)
+#O	Doug Davis
+#C	Doug Davis <letni!doug>
+#E	letni!doug
+#T	+1 214 270 9226
+#P	4409 Sarazen / Mesquite / Tx / 77150
+#L	32 47 N / 96 15 W city
+#U	letni
+#W	 Doug Davis <letni!doug>; Tue May  8 09:49:07 CDT 1990
+#
+fcknfst	letni(LOCAL)
+
+#N	ferus
+#S	Tandy 6000 Xenix 03.02.00
+#C	Alan J. Caldera
+#E	root@ferus.lonestar.org
+#T	+1 817 294 2791
+#P	6062 Copperfield Dr. #842, Ft. Worth, TX 76132
+#L	32 45 N / 97 20 W city
+#U	merch 
+#W	alan@ferus.lonestar.org (Alan Caldera); Mon Sep 10 04:05:10 CDT 1990
+#
+ferus = ferus.lonestar.org
+ferus	merch(DIRECT),rwsys(DIRECT),nominil(DIRECT)
+
+#N	fezzik, fezzik.endicor.com, endicor.com, .endicor.com
+#S	Sun 3/60; SunOS 4.1
+#O	Endicor Technologies, Inc.
+#C	Ty Sarna
+#E	fezzik!postmaster
+#T	+1 512 650 4988
+#P	P.O. Box 29000 #355, San Antonio, TX 78229
+#L	29 30 N / 098 30 W city
+#R	mail gateway for endicor.com domain
+#U	dptspd fcircus
+#W	fezzik!tsarna (Ty Sarna); Tue Aug  4 11:58:31 CDT 1992
+#
+fezzik = fezzik.endicor.com
+fezzik = endicor.com
+fezzik  .endicor.com(LOCAL)
+fezzik	dptspd(DIRECT), fcircus(DIRECT+FAST)
+
+
+#N	ffg,ffg.com
+#F	portal.bcm.tmc.edu
+#S	SparcStation 1; SunOS 4.1
+#O	The ForeFront Group, Inc.
+#C	Andy Burger
+#T	+1 713 798 6120
+#E	burger@ffg.com
+#P	1709 Dryden, Suite 901, Houston, Texas 77030
+#W	bcm!sob (Stan Barber); Sat Aug 15 11:06:03 CDT 1992
+#
+ffg=ffg.com
+ffg	ffg.com(LOCAL)
+ffg	bcm(LOCAL)
+
+
+
+
+
+
+
+
+
+
+
+#N	ficc.ferranti.com
+#F	uu.psi.com
+#S	40 or so intel 310/320s, OpenNET; Xenix R3.5
+#S	Intel 520, OpenNET, TCP/IP; System V/386 R3.2.2
+#O	Ferranti International Controls Corporation
+#C	Peter da Silva
+#E	peter@ferranti.com
+#T	+1 713 274 5180
+#P	12808 West Airport Blvd./ Sugar Land TX  77487-5012
+#L	29 37 N / 95 36 W
+#R	Energy Management Systems vendor
+#W	peter@ficc.ferranti.com (Peter da Silva), Wed Dec 11 14:30:45 CST 1991
+#U	uupsi taronga sugar bcm
+#
+ficc=	.ferranti.com
+ficc=	ficc.ferranti.com
+#
+#	ris1 is the uucp name of our gateway machine, and some mailers will
+#	generate return paths with it in it instead of using From:. :-<
+#
+ficc=	ris1
+ris1=	ris1.ferranti.com
+#
+#	Official UUCP neighbors.
+#
+ficc	bcm(POLLED)
+ficc	helix2(HOURLY)
+ficc	nuke(EVENING)
+ficc	rice(HOURLY*4)
+ficc	sugar(DEMAND)
+ficc	taronga(DEMAND)
+
+
+
+#N	fl2
+#S	Tandy 6000, Xenix 3.2
+#C	Ron McDowell
+#E	flattop!postmaster
+#T	+1 512 655 3655
+#P	4418 Monaco, San Antonio, Texas 78218-4339
+#L	98 24 25 W / 29 29 30 N
+#W	flattop!rcm (Ron McDowell); Mon May  6 09:03:58 CDT 1991
+#	domain stuff
+fl2 = fl2.progcons.com
+#	local calls
+fl2	csoftec(WEEKLY), dptspd(DIRECT)
+
+#N	flatland
+#S	V20 4.77 MHz; MS-DOS v3.2
+#O	Flatland Technologies
+#C	Steven Byrnes
+#E	flatland!steven
+#T	+1 713 467 7463
+#L	29 48 50 N / 95 33 20 W 
+#R	Running UUPC/extended v1.11.
+#U	bitsink
+#W	flatland!steven (Steven Byrnes); Thu Aug 22 20:54:34 CDT 1991
+#
+flatland	bitsink(DIRECT)
+
+#N	flatline
+#S	CBM Amiga 2000; AmigaDOS 1.3
+#O	row major
+#C	J. Eric Townsend
+#E	jet@uh.edu
+#T	+1 713 863 9137
+#P	511 Parker #2, Houston, Tx 77007
+#L	29 63 N / 95 44 W
+#R	personal machine until I get more drive space
+#W	jet@uh.edu ; Sun Sep 15 23:23:23 CST 1990
+#U	menudo will be feed
+#	slowly but surely coming back to life.
+
+flatline	uhnix1(LOCAL)
+
+#N	flattop, .progcons.com
+#S	Dell 316SX,  Dell Unix V.4
+#C	Ron McDowell
+#E	flattop!postmaster
+#T	+1 512 346 0138
+#P	9500 Jollyville Rd, #143, Austin, Texas 78759
+#L	97 45 W / 30 14 N city
+#W	flattop!rcm (Ron McDowell); Wed May  8 18:47:58 CDT 1991
+#	domain stuff
+flattop = flattop.progcons.com
+flattop .progcons.com
+#	local calls
+flattop	uudell(DIRECT+FAST)
+#	long distance
+flattop	csoftec(DAILY), fl2(DAILY), midlyd(DAILY), amital(WEEKLY),
+	pawsd(WEEKLY)
+
+#N	flight, flight.hrnowl.lonestar.org
+#S	UTI 386 clone ; Waffle 1.63 UUCP
+#O	Paul Elliott's PC
+#C	Paul Elliott
+#E	paul.elliott@flight.hrnowl.lonestar.org
+#T	(713)781-4543
+#P	5857 South Gessner #224 Houston, texas 77036
+#L	095 31 W / 29 44 N
+#U	hrnowl
+#W	paul.elliott@flight.hrnowl.lonestar.org (Paul Elliott); Thu Mar 28 06:47:00 CST 1991
+#
+flight	.flight.hrnowl.lonestar.org(LOCAL)
+flight	=flight.hrnowl.lonestar.org
+flight	hrnowl(DIRECT)
+ 
+
+#N	fnordbox
+#S	Amiga 3000; Matt Dillon's UUCP v1.10D
+#O	Texas Net Illuminati
+#C	Loyd Blankenship
+#E	fnordbox!loydb
+#T	+1 512 447 7866
+#P	PO Box 18957, Austin, TX, 78760
+#L	30 21 53 N / 97 44 15 W city
+#R	Occasionally runs DLG BBS.
+#U	dogface
+#W	fnordbox!loydb (Loyd Blankenship); Wed Oct 16 20:15:30 CDT 1991
+#
+fnordbox dogface(DIRECT)
+
+
+
+
+#N	foyinc, foyinc.wlk.com
+#F	wrangler.wlk.com
+#S	Tandy 4000 (80386); SCO Xenix 2.3.3
+#O	Foy Inc
+#C	James H. Foy
+#E	postmaster@foyinc.wlk.com
+#T	+1 214 782 7282
+#P	100 McKinney Street, Farmersville, Texas  75442
+#L	33 09 N / 96 22 W
+#R	Writes software for the aluminum extrusion industry worldwide.
+#R	Have DEMAND connections to many aluminum companies.
+#U	wrangler.wlk.com
+#W	foy@foyinc.wlk.com (Jim Foy); Mon Jul  1 13:43:18 CDT 1991
+#
+foyinc = foyinc.wlk.com
+foyinc	wrangler(EVENING+FAST), alcanp(DEMAND+FAST), anso(WEEKLY+LOW), 
+	fville(LOCAL), terrel1(DEMAND+FAST), uthoeni(WEEKLY+LOW)
+
+
+#N	fozzy
+#S	DEC uVAX-3600; ULTRIX-32 V2.2
+#O	Rockwell International
+#C	Dennis W. Fail  
+#E	fozzy!fail
+#T	+1 214 996 2471 (VOICE)
+#T	+1 214 996 7768, +1 214 996 2412 (DATA)
+#P	1200 North Alma Road, M/S 448-100, Richardson, TX 75081
+#L	32 54 N / 96 44 W
+#R	Gateway for Rockwell, Arapaho Facility
+#U	uunet 
+#W	bcm!texas-uucpmap;Wed Sep 19 22:03:49 CDT 1990
+#
+fozzy	uunet(EVENING)
+
+
+
+
+
+
+
+#N	fquest, f23.n19.z1.fidonet.org
+#S	IBM-XT Clone; SEAdog, TBBS, & Waffle 1.64
+#O	BBS "Future Quest"
+#C	Kevin Basey
+#E	fquest!postmaster, fquest!kevin
+#T	+1 512 451 4405
+#P	115 W. Koenig #110 Austin, Tx. 78751
+#L	30 21 N / 97 45 W (city)
+#R	fidonet node 1:19/23
+#U	uudell dogface
+#W	stjhmc!ddodell (David Dodell); Fri Jul 12 07:45:00 MST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+#
+fquest	fquest.fidonet.org, f23.n19.z1.fidonet.org
+fquest	uudell(POLLED), dogface(POLLED)
+
+#N	frontier, frontier.lonestar.org
+#S	Micronics 386/33; SCO Xenix 2.3
+#O	Frontier Information Systems
+#C	Kevin Langston
+#E	frontier!postmaster
+#T	+1 214 315 0942
+#P	2025 Frontier Trail, Lewisville, TX 75067
+#L	33 00 30 N / 97 00 45 W 
+#R	Willing to provide mail connections for local sites.
+#U	jassys egsner isect cowboy frankie medcare bbat
+#W	frontier!root; Fri Aug 30 22:07:04 CDT 1991
+#
+frontier=frontier.lonestar.org
+frontier  asdata(POLLED),
+	  bbat(POLLED),
+	  cowboy(DIRECT),
+	  ctbilbo(DIRECT),
+	  egsner(DIRECT),
+	  frankie(DIRECT),
+	  intmed(DIRECT),
+	  isect(POLLED),
+          jassys(DIRECT),
+	  letni(DIRECT), 
+	  medcare(DIRECT),
+          nominil(DEAD),
+	  piziali(POLLED),
+	  rmbsvcs(DIRECT),
+	  triad(DIRECT)
+	  
+
+
+#N	fubar
+#S	MacIIfx; A/UX 2.0
+#C	Damon Permezel
+#E	fubar!dap
+#T	+1 512 371 3545
+#P	pobox 9068, austin, tx 78766-9068
+#L	30 16 N / 97 44 W [city]
+#R
+#W	fubar!dap (Damon Anton Permezel); Wed Nov 14 21:52:24 CST 1990
+#U
+#
+fubar		uunet(DAILY), natinst(HOURLY+FAST)
+
+#N      furp, furp.lonestar.org
+#S      Intel 80386SX-20, 32k Cache, IBM MessyDos 4.01, Waffle 1.64
+#O      Centerville's Furpish Residue
+#C      Kurt Grutzmacher
+#E      grutz@furp.lonestar.org
+#T      +1 214 392 7312
+#P      13707 Rolling Hills  Dallas, Tx  75240
+#U      egsner
+#W      Kurt Grutzmacher; 11 June 1991 21:44:59
+#R      Centerville is a Fidonet Compatible BBS running MAXIMUS
+#R      and accepting phone calls 23 hours a day.  Furpish Residue
+#R      is Waffle ran as a Door from Centerville and is open to
+#R      all users who call.  No reg fees, no surcharges, no sheet!
+#
+furp = furp.lonestar.org
+furp    egsner(DIRECT)
+
+
+#N	furry, furry.lonestar.org
+#S	Commodore-AMIGA; Amiga-DOS V1.3 & Amiga-UUCP V1.13D
+#C	Todd A. Murray
+#E	furry!postmaster
+#T	+1 214 596 5313
+#P	2525 Ohio Dr. Apt. 602, Plano, TX 75093
+#L	32 52 N / 96 43 W city
+#U	dbyrne
+#W	furry!tam (Todd A. Murray); Sat Oct 12 22:57:00 CDT 1991
+#R	Private UUCP/Usenet site
+#O	Small Furry Animals Unlimited, Plano TX
+#
+furry = furry.lonestar.org
+furry	dbyrne(DIRECT)
+
+
+#N	fuzzylog
+#S	Dell System 310 (386), ESIX 5.3.2 Rev. D
+#O	Simple Systems
+#C	Bob Friesenhahn
+#E	postmaster@simple.sat.tx.us
+#T	+1 512 349 8170
+#P	7667 Callaghan Rd., #806, San Antonio TX, 78229
+#L	29 25 N / 98 29 W city
+#R	Simple Systems is a small consulting firm specializing in networking.
+#W	fuzzylog!bob (Bob Friesenhahn); Mon Sep 21 11:25:33 CDT 1992
+#U
+#
+fuzzylog	simple.sat.tx.us
+fuzzylog	= simple.sat.tx.us
+fuzzylog	dptspd (DIRECT+FAST)
+#
+
+#N	fw05
+#S	AT&T 3B2/400
+#O	USDA Soil Conservation Service
+#C	Terri Mason
+#E	fw05!root
+#T	+1 817 334 5231
+#P	501 Felix St., FWFC, Bld. 23, Ft. Worth, TX 76115
+#L	32 45 N / 97 20 W city
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Thu Feb 28 17:00:09 EST 1991
+#U
+#
+fw05	uunet(DEMAND)
+
+#N	gandalf
+#S	IBM Clone 386SX; Coherent 3.2.1A; UUCP
+#O	G. L. Hester (Personal System)
+#C	Garyl Hester
+#E	gandalf!garyh
+#T	+1 214 422 7197
+#P	88 Fairwood Vlg; Plano, TX  75074
+#L	32 52 N / 96 43 W city
+#W	gandalf!garyh (Garyl Hester); Sat Jun 6 20:45:00 CST 1992
+
+gandalf kf5iw(DIRECT), rwsys(DIRECT)
+
+
+
+
+#N      gartown
+#S      Intel 386; MS-DOS 5.0; Waffle 1.64
+#O      Upton Graphics
+#C      Bill Upton
+#E      gartown!postmaster, gartown!gar
+#T      +1 713 496 0380
+#P      RESTRICTED
+#L      29 45 N / 95 21 W city
+#R      
+#W      cls!cbs (Chris Smith); Sat Jan 25 16:04:11 CDT 1992
+#U      cls
+#
+gartown = gartown.cls.com
+gartown   cls(DIRECT)
+
+#N	gbdata, gbdata.com
+#S	GBDS i386; SCO Xenix System V/386
+#F	menudo.uh.edu
+#O	GB Data Systems
+#C	Gary Clark II
+#E	root@gbdata.com
+#T	+1-713-893-5893
+#P	2427 Falls Church Houston Texas
+#L	29 37 N / 95 36 W city
+#R	An organization of systems working on RF design and public
+#R	network access (tghost is mail interface for the domain)
+#R	This machine is also n5vmf.ampr.org (44.76.0.48IP)
+#U	tghost
+#W	gbdata!root  (Gary Clark (SysAdmin)  Tue Jan 28 23:24:13 CST 1992
+#
+gbdata=gbdata.com
+gbdata .ham.gbdata.com (LOCAL)
+gbdata	tghost(DIRECT+FAST+HIGH)
+
+
+#N      gbm
+#S      IBM PC/386/25
+#O      General Business Machines
+#C      Joel Colvin
+#E      gbm!joel
+#T      +1 713 497-1919
+#P      14811 St. Mary's Lane, Suite 148 Houtson, TX 77079
+#L      29 45 N / 95 21 W city
+#R
+#W      jane@uunet.UU.NET (Jane Roop); Fri May 24 10:00:02 EST 1991
+
+gbm	uunet(DEMAND)
+#N      gdfwc3
+#S      DEC uVAX; ULTRIX 4.1
+#O      General Dynamics, Fort Worth Division, C3 Systems
+#C      Todd Shutts
+#E      gdfwc3!todd
+#T      +1 817 777 8168
+#P      General Dynamics Blvd., Fort Worth, TX 76108
+#L      32 46 13 N  /  097 26 46 W
+#U      jassys rwsys texsun
+#W      gdfwc3!todd (Todd Shutts) ; Tue Feb 26 15:50:27 CST 1991
+#
+gdfwc3  jassys(DIRECT), rwsys(DIRECT), texsun(DIRECT)
+
+#N	geoquest
+#S	
+#O	GeoQuest Systems Inc.
+#C	Ad Talwar
+#E	geoquest!root
+#T	+1 713 952 2100
+#P	5858 Westheimer, Suite 800, Houston TX 77057
+#L	
+#R	
+#W	asp@uunet.UU.NET (Andrew Partan); Thu Feb 28 17:13:22 EST 1991
+#U	
+#
+geoquest	uunet(DEMAND)
+
+
+#N	geosig
+#S	SUN 3/260; 4.1.1 SunOS
+#O	Geosignal Inc.
+#C	Mark Czigan
+#E	postmaster@geosig.uucp
+#T	+1 713 973 0828
+#P	11111 Katy Fwy. Suite 200, Houston, TX 77079
+#L	30 00 00 N / 95 00 00 W
+#R
+#U	nuchat
+#W	mark@geosig.uucp (Mark Czigan); Mon Aug 17 12:00:00 CDT 1992
+#
+geosig	nuchat(DIRECT+FAST)
+
+#N	gescorp1
+#S
+#O	Golden Era Services, Inc.
+#C	Stuart C. Cater
+#E	gescorp1!root
+#T	+1 713 524 8881
+#P	2727 Allen Parkway, Suite 1900, Houston, TX 77019
+#L
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Fri Oct 26 21:22:34 EDT 1990
+#U
+#
+gescorp1	uunet(DEMAND)
+
+#N	gestalt
+#S	NeXT cube; NeXT OS 2.1
+#O	private system
+#C	John William Garnett
+#E	postmaster@gestalt.austin.tx.us
+#T	+1 512 339 2428
+#P	12811 Irongate, Austin, TX 78727
+#L	30 24 N / 97 41 W
+#F	cs.utexas.edu
+#U	
+#W	garnett@cs.utexas.edu (John Garnett); Thu Oct  3 12:41:56 CDT 1991
+#
+gestalt	cs.utexas.edu(DAILY/4)
+
+#N	gfsa, gfsa.lonestar.org
+#S	IBM 386-40; MSDOS 5.0 & DOS-UUCP 1.64
+#C	Tony Reynolds
+#E	gfsa!postmaster
+#T	+1 214 690 1847
+#P	525 Winchester Drive Richardson, TX 75080
+#L	32 52 N / 96 43 W city
+#U	dbyrne
+#W	gfsa!tony (Tony Reynolds); Mon Oct 5 06:17:00 CDT 1992
+#R	GFSA Online BBS running GT Power 24 hours a day.
+#R	BBS: (214)690-5701 (1200-14400 v.32/v.32bis)
+#O	Tony Reynolds (Personal Machine)
+#
+gfsa = gfsa.lonestar.org
+gfsa   dbyrne(DIRECT)
+
+
+
+
+#N     ghostwheel
+#S     Sun 3/50;  Sun OS 4.11
+#O     Comstock Connections
+#C     Jack L Bell
+#E     loyola!jack
+#T     +1 512 928 8780
+#P     3103 Loyola Lane, Austin, TX 78723
+#L     97 41 25 W / 30 19 7 N
+#W     loyola!jack ( Jack L Bell ); Mon Jun  8 14:01:45 CDT 1992
+#
+ghostwheel loyola(LOCAL), tdmuscs2(HOURLY), halley(HOURLY),
+
+
+#N   glnserv
+#S   Pointech 8088 ; MS-DOS v3.3
+#O   Vermithrax Mail/News Server
+#C   Jerry L. Norris
+#E   glnserv!root
+#T   +1 713 520 8719
+#P   1837 Kipling, Houston, TX 77098
+#L   29 25 N/ 95 27 W city
+#R   Personal system
+#U   xcluud
+#W   glnserv!jerryn (Jerry Norris); Sun Jun 02 03:40:00 CDT 1991
+#
+glnserv      xcluud(DIRECT)
+
+#N	global
+#S	Systems Integration
+#O	Global Advantage	 
+#C	Gary Henderson
+#E	global!ghenderson
+#T	+1 713 356 6043
+#P	1105 Meyer, P.O. Box 434, Seabrook, TX 77586
+#L	29 33 N / 95 01 W
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Sep 27 18:18:09 EDT 1990
+#U
+#
+global	uunet(DEMAND)
+
+#N	gtmvax
+#S	Dec VAX 8200; Ultrix 2.2
+#O	GTE Telemessager, GTE information services
+#C	Steve Linebarger,Floyd Ferguson
+#E	gtmvax!steve,gtmvax!floydf
+#T	+1 214 929 7943, +1 214 929 7942
+#P	9150 Royal Lane, Suite 130, Irving, TX 75063
+#L	97 01 10 W / 32 56 10 N
+#R	
+#U      
+#W	bcm!texas-uucpmap ; Sun Mar 25 11:39:04 CST 1990
+#
+#
+# coromir is never polled but instead calls gtmvax.
+#
+gtmvax	dscvax2(DEMAND), dms3b1(DIRECT),  coromir(WEEKLY),
+	gtencr(DEMAND)
+
+#N      hackbox
+#S      Dell 433SE; Dell SVR4 Unix 
+#O      CMP Publications et al
+#C      Jason Martin Levitt
+#E      hackbox!jason
+#T      +1 512 441-7747
+#P      PO Box 3344, Austin, TX 78764 (Bubba-Land)
+#L      30 18 N / 97 44 W city
+#R      Mail only; TB+ capable.
+#R      Goodbye IBM RT. Ye shall be sorely missed (sort of :-).
+#R	Goodbye Sun 3/60. Couch me and stand aloof awhile......
+#U
+#W      hackbox!jason (Jason Martin Levitt); Sat Dec  7 19:52:21 CST 1991
+#
+hackbox bigtex(DIRECT+FAST), cs.utexas.edu(DEMAND+FAST), 
+        helps(DIRECT+FAST), <utoday>(DEMAND+FAST), uudell(DIRECT+FAST)
+
+
+#N	hal6000 hal6000.tandy.com
+#S	Tandy Model 6000; 68000/XENIX 3.3 (sys III based)
+#O	Tandy Systems Software
+#C	Frank Durda IV
+#E	hal6000.UUCP!uhclem
+#T	+1 817 390 2865
+#P	1300 Two Tandy Center; Ft. Worth, TX 76102
+#L	32 45 19 N / 97 20 00 W 
+#R
+#U	cpe trsvax fuzzy
+#W	hal6000!uhclem (Frank Durda IV); Fri Aug 10 15:00:00 CDT 1990
+#
+hal6000 = hal6000.tandy.com
+
+hal6000	cpe(DEMAND), sys1(WEEKLY), letni(DAILY), techsup(DEMAND),
+	trsvax(DEDICATED), fuzzy(DEMAND), rwsys(DIRECT+FAST), 
+	nemesis(DIRECT+FAST), tisgate(POLLED), skaro(POLLED)
+
+#N      halley
+#S      Tandem S2; nonstop A10
+#O      Tandem Computers (MPD)
+#C      Steve Upchurch, Jack Bell
+#E      halley!postmaster
+#T      +1 512 244 8000
+#P      14231 Tandem Blvd; Austin, Texas  78728
+#L      30 16 N / 97 45 W  city
+#R      This is MPD.TANDEM.COM on the internet
+#R	This map entry drops austsun from the connections list (their req.)
+#U      cs.utexas.edu esc-bb tdmuscs2 loyola integrity
+#W      halley!jack (Jack Bell);  Mon Apr  6 11:56:17 CDT 1992
+halley  mpd.tandem.com
+halley  = devnull.mpd.tandem.com
+halley  austsun(DEAD), esc-bb(WEEKLY), mips(HOURLY), ghostwheel(LOCAL),
+        iphase(HOURLY), cs.utexas.edu(HOURLY), cmcvax(DEAD),ceres(POLLED),
+        shiner(LOCAL), loyola(DEMAND), tdmfed(DAILY), rtech(DAILY), 
+        raid5(HOURLY), iw4os(HOURLY), infmx(HOURLY), nixbur(DAILY),
+        notres(POLLED), integrity(LOCAL), tdmuscs2(LOCAL), laredo(DAILY),
+        vlsichi(POLLED)
+
+#N	harlie
+#S	Micronix 486/33; 386BSD v0.1; Ian Taylor's UUCP 1.3
+#O	Private System
+#C	Mitch Mitchell
+#E	harlie!postmaster
+#T	+1 214 519 3257
+#L	32 52 N / 96 58 W city
+#W	harlie!mitch (Mitch Mitchell); Thu May 28 14:02:04 CDT 1992
+#
+harlie	= harlie.lonestar.org
+harlie	ajahnv(DIRECT+HIGH),digi(DIRECT+FAST),dinosaur(DIRECT+FAST),
+	egsner(DIRECT+FAST),ernest(DIRECT+HIGH),keys(POLLED),
+	letni(DIRECT+FAST),mic(DIRECT+FAST),montagar(DIRECT+HIGH),
+	pixie(LOCAL),steward(POLLED),sulaco(DIRECT+FAST),
+	supernet(DIRECT+FAST),turtle(LOCAL),whitwiz(DIRECT),
+	woodwrk(DIRECT+HIGH),vangogh(POLLED),virago(LOCAL)
+#
+
+#N	hasting
+#S	IBM PS/2; SCO Unix
+#O      Hastings Books Music and Video
+#C	John Hintz
+#E	hasting!root
+#T	+1 806 376 6251
+#P	421 E. 34 Street, Amarillo, TX 79103
+#L	35 13 N / 101 49 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Dec 10 15:53:22 EST 1991
+#U
+#
+hasting	uunet(DEMAND)
+
+#N	hcc
+#S	Sequent 581
+#O	Healthcare Computer Corp.
+#C	Sam Salus
+#E	hcc!root
+#T	+1 817 531 8992
+#P	2601 Scott Avenue, #600, Fort Worth, TX 76103
+#L	32 43 N / 97 19 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Sep 20 12:25:15 EDT 1991
+#U
+#
+hcc	uunet(DEMAND)
+
+#N	hdrock
+#S	frankinstein 286; Coherent 3.1
+#O	Welch Family Household
+#C	John Charles Welch
+#E	hdrock!john
+#T	+1 713 288 4710
+#P	19618 Enchanted Oaks, Spring, Texas 77388
+#L	30 02 N / 95 25 W
+#W	hdrock!john (John Charles Welch); Fri May 15 12:30
+#
+hdrock	bitsink(DEMAND), corelab(DEMAND)
+
+#N	hefty
+#S	Sun 3/60; SunOS 4.1.1
+#O	None
+#C	Jeff Enderwick
+#E	jeff@hefty.uucp
+#T	+1 512 476-8177
+#P	3202 Grooms #G, Austin, TX 78705
+#L	30 16 N / 97 45 W city
+#R	None
+#U	cactus.org
+#W	jeff@hefty.uucp (Jeff Enderwick); Mon Feb  3 12:00:00 CST 1992
+#
+hefty	cactus.org(DAILY)
+
+
+#N	helix2, .pstech.com
+#S	386/40 & 286/12 running Coherent          
+#O	PS Technology         
+#C	Lori Pape
+#E	helix2!lpape, helix2!postmaster
+#T	+1 713 343 9725
+#P	6630 Flowermound Dr., Sugar Land, TX 77479
+#L	29 33 30 N /  95 41 30 W
+#R	
+#U	taronga
+#W	helix2!lpape (Lori Pape); Fri Sep 25 14:52:32 CDT 1992
+#
+helix2  = pstech.com
+helix2  = helix2.pstech.com
+helix2	.pstech.com(LOCAL)
+helix2	uhnix1(DIRECT), taronga(DIRECT), ficc(DAILY)  
+
+
+#N	helps
+#S	Sperry PC/IT; XENIX V 2.2.1
+#O	Howard Electronics Laboratories, Products & Services 
+#C	James Howard
+#E	helps!postmaster
+#T	+1 512 329 8910
+#P	P. O. Box 160184, Austin, TX 78716-0184
+#L	097 48 00 W / 30 16 45 N
+#R	
+#U	
+#W	helps!jhoward (James Howard); Mon Jan  6 03:17:18 CST 1992
+#
+helps=	helps.cactus.org
+helps	ausg(DAILY), bigtex(DAILY),
+	bodedo(DAILY), bongo(EVENING),
+	cactus.org(DAILY), cs.utexas.edu(DAILY),
+	dpm-tprt(DAILY), hackbox(DAILY),
+	nidhog(DAILY), peyote(DAILY),
+	rpp386(DAILY), sulaco(EVENING),
+	uudell(DAILY), wedowin(DAILY),
+	wixer(DAILY)
+
+
+#N	hiplot
+#S	DEC Microvax II; Ultrix-32 V2.2
+#O	Houston Instrument, a division of Summagraphics, Inc.
+#C	Gary Powell
+#E	hiplot!postmaster
+#T	+1 512 835 0900
+#P	8500 Cameron Road, Austin, TX 78753
+#L	30 16 N / 97 45 W city
+#R	Houston Instrument is a manufacturer of plotters and digitizers.
+#W	hiplot!postmaster; Tue May  8  9:15:17 CDT 1990
+#U	tntdev
+#	
+hiplot	balkan(HOURLY+FAST), bigtex(EVENING+FAST), peyote(EVENING+FAST)
+
+
+
+
+#N	hlthnt, f68.n381.z1.fidonet.org
+#S	IBM PC; MS-DOS 3.3
+#O	Physicians Link - FidoNet
+#C	Steve Ginn
+#E	hlthnt!postmaster
+#T	+1 915 779 6245
+#P	7309 Parkland Dr., El Paso, TX 79925
+#L	31 46 15 N / 106 30 30 W city
+#U	bbx
+#R	Fido 1:381/68 running UFGATE.
+#W	merlin@ns.fidonet.org (Burt Juda); Sun Oct 27 15:00:00 EST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+# this is a FidoNet <-> UUCP/Internet gateway site serving the Southwest 
+# Net numbers 381 and 305.  
+#
+hlthnt	.n381.z1.fidonet.org, n305.z1.fidonet.org
+hlthnt=	hlthnt.fidonet.org, f68.n381.z1.fidonet.org
+hlthnt	bbx(DAILY)
+
+
+
+#N	hnb017
+#S	Compaq 386/25
+#O	Eastman Christensen
+#C	Larry Flournoy
+#E	hnb17!root
+#T	+1 713 985 3870
+#P	15355 Vantage Pkwy.,West, Houston, TX 77032
+#L	29 45 N / 95 21 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Jul  3 14:25:46 EDT 1991
+#U
+#
+hnb17	uunet(DEMAND)
+
+#N	homey, homey.lonestar.org
+#S	AT&T 3B2/400; System V 3.1
+#O	RedRock Development
+#C	James Cummings
+#E	homey!james
+#T	+1 214-270-7236
+#P	825 Brookshire Cir.; Garland, Tx 75043
+#L	32 47 N / 96 49 W
+#W	homey!james (James Cummings); Sun Jun  7 20:19:06 CDT 1992
+#U	letni.lonestar.org
+#
+homey =	homey.lonestar.org
+homey	dalnet(DIRECT+FAST), dlss2(LOCAL), letni(DIRECT+FAST)
+
+
+
+#N      hosaka
+#S      Sun SS1; SunOS 4.1
+#O      Smallworks Inc.
+#C      Jim Thompson
+#E      hosaka!jthomp
+#T      +1 214 414 2007
+#P      2226 Moss Trail, Garland, TX 75044
+#L      32 54 N / 96 38 W city
+#R
+#W      jim@smallworks.com (Jim Thompson); Thu Mar 5 20:42:26 CST 1992
+#U
+#
+hosaka = hosaka.smallworks.com
+hosaka  .smallworks.com(LOCAL)
+hosaka  uunet(DEMAND), netdev(DEDICATED)
+
+
+#N	hoshi
+#S	IBM Risc 6000; AIX 3.1.5
+#O	Thesis Group, Inc.
+#C	Shigeru Katada
+#E	hoshi!root
+#T	+1 214 407 8000 x2248
+#P	18333 Preston Rd., #500, Dallas, TX 75252
+#L	32 47 N / 96 48 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Fri Mar 27 16:35:56 EST 1992
+#U
+#
+hoshi	uunet(DEMAND)
+
+#N	hou13us
+#S	Decstation 5000/200; Unix 4.2
+#O	Brown & Root, Inc.
+#C	Lee Parsons
+#E	hou13us!root
+#T 	+1 713 676 8038
+#P	4100 Clinton Drive, Bldg 3, 108c, Houston, TX 77020
+#L	29 45 N / 95 21 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Feb  4 10:42:30 EST 1992
+#U
+#
+hou13us	uunet(DEMAND)
+
+#N	hounix
+#F	uucp-gw.cc.uh.edu
+#S	IBM PC 386 Clone; Interactive UNIX V2.2.1
+#O	HOUNIX - Houston Unix Users Group
+#C	Gil Kloepfer, Jr.
+#E	gil@hounix.org
+#T	+1 713 684-6590
+#P	P.O. Box 692005-326, Houston, TX  77269-2005
+#L	29 25 N/ 95 27 W city
+#W	gil@hounix.org (Gil Kloepfer Jr); Wed Aug 05 18:54:37 CDT 1992
+#U	nuchat synercom
+#
+hounix	= hounix.org
+hounix	.hounix.org(LOCAL)
+hounix	hrnowl(DIRECT), lobster(DIRECT+FAST), lotex(DIRECT+FAST),
+	nuchat(DIRECT+FAST), pace(POLLED), synercom(DIRECT+FAST),
+	uhnix1(DIRECT+FAST)
+
+#N	houston
+#S	Motorola Delta Series; SYSTEM V/68
+#O	Motorola, Inc., Computer Group, Commercial Systems Division
+#C	Khaled Shaaban
+#E	houston!root
+#T	+1 713 462 3120
+#P	Houston, TX
+#L	29 45 N / 95 21 W city
+#R	
+#U	
+#W	brian@ca41.csd.mot.com (Brian Smithson); Thu Jul 18 16:13:58 PDT 1991
+#
+houston	.tx50.csd.mot.com, tx50.csd.mot.com
+houston= tx50.csd.mot.com, houston.tx50.csd.mot.com
+#
+houston	motcsd(EVENING+FAST)
+
+
+
+#N      hpaustx
+#S      HP9000 or Apollo DN4XXX
+#O      Hewlett Packard - Austin Texas Office
+#C      Stuart Jarriel
+#E      hpaustx!stuart
+#T      +1 512 338 7262
+#P      9050 Capitol of Texas Highway North, Suite 290, Austin TX  78759
+#L      97 44 80 W / 30 23 14 N
+#R      UUCP physical node will change
+#U      
+#W      hpaustin!stuart (Stuart Jarriel); Tue May 8, 1990
+#
+hpaustx         cs.utexas.edu(HOURLY)
+
+#N	hrnowl, hrnowl.lonestar.org
+#F	uh.menudo.edu
+#S	Standard brand 286 clone ; Waffle 1.64 UUCP
+#O	Horned Owl BBS
+#C	Paul Elliott
+#E	anwyn@hrnowl.lonestar.org
+#T	(713)781-4543
+#P	5857 South Gessner #224 Houston, texas 77036
+#L	095 31 W / 29 44 N
+#R	BBS WITCHCRAFT, ANARCHISM, SKEPTICSIM
+#U	nuchat, urchin, uhnix1
+#W	anwyn@hrnowl.lonestar.org (Paul Elliott); Thu Jan 02 09:20:10 CST 1992
+#
+hrnowl	.hrnowl.lonestar.org(LOCAL)
+hrnowl	=hrnowl.lonestar.org
+hrnowl nuchat(DAILY), urchin(DAILY), uhnix1(DAILY)
+
+
+#N	htwrm
+#S	Compaq 386; SCO Open Desktop V1.1 UNIX V3.2.2
+#O	Nerco Oil & Gas
+#C	WR Mitchel
+#E	htwrm!root
+#T	+1 713 260 5754
+#P	10375 Richmond Avenue, Suite 600, Houston, TX 77042
+#L	29 45 N / 95 21 W city
+#R	htwrm is the gateway to nerco.com 148.175.0.0 (thru UUNET)
+#W	mitchelm@htwrm.nerco.com (WR Mitchel); Thu Apr 16 12:15 CDT 1992
+#U
+#
+htwrm = htwrm.nerco.com
+htwrm	.nerco.com(LOCAL)
+htwrm	uunet(DEMAND)
+
+#N	hutto
+#S	CYB Multibox; Unix System V.0
+#C	Henry Melton
+#E	hutto!henry
+#T	+1 512 759 3241
+#P	Route 1 Box 274E, Hutto Texas 78643-9751
+#L	30 29 56 N / 97 33 25 W
+#W	emx.utexas.edu!hutto!henry (Henry Melton); Thu Feb 27 17:35:30 CST 1992
+#U	ut-emx
+#
+hutto	ut-emx(DAILY),hutto2(DAILY)
+
+
+#N	hutto2
+#S	Sun 3/60; SunOs  4.1.1
+#C	Henry Melton
+#E	hutto2!henry
+#T	+1 512 759 3241
+#P	Route 1 Box 274E, Hutto Texas 78643-9751
+#L	30 29 56 N / 97 33 25 W
+#W	emx.utexas.edu!hutto!hutto2!henry (Henry Melton); Thu Feb 27 17:35:30 CST 1992
+#U	
+#
+hutto2	hutto(DAILY)
+
+
+
+#N	 ibes
+#S	 Sequent S-27 Dynix 3.0.17
+#O	 IBES Corp.
+#C	 Royce Allen
+#E	 ibes!postmaster
+#T	 +1 214 907 8475
+#P	 1201 Richardson Dr. Richardson, TX 75080
+#L	 32 56 N / 96 43 W
+#R
+#W	 ibes!rla (Royce Allen; Thu Apr 18 14:17:33 CDT 1991
+#U
+ibes 	 uunet(DEMAND)
+
+#N	ibnet214
+#S	Sun3; SunOS
+#O	Information Brokerage Network
+#C	David Woods
+#E	ibnet214!root
+#T	+1 214 733 0466
+#P	P.O. Box 796514, Dallas, TX 75379
+#L	32 47 N / 96 48 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Jan 10 22:34:53 EST 1991
+#U
+#
+ibnet214	uunet(DEMAND)
+
+#N      icus, .ICUS.COM
+#F      cs.utexas.edu, ames.arc.nasa.gov
+#S      IBM RT, Berkeley 4.3 BSD Reno
+#O      ICUS Software Systems 
+#C      Leonard B. Tropiano
+#E      icus!lenny, icus!postmaster, postmaster@icus.ICUS.COM
+#P      6905-B Argonne Forest Cove, Austin, TX  78759
+#L	30 25 32 N / 097 45 58 W city
+#R	Telebit T2500 (PEP, V.32/42bis, 2400, 1200)
+#U      cs.utexas.edu sierra alliance risctakr destiny
+#W      icus!maps (ICUS Network Mapping) ; Sun Oct 18 00:51:32 CDT 1992
+#
+# Set up the aliases for ICUS.COM domain (user@host.ICUS.COM)
+#
+icus	.icus.com(LOCAL)
+icus     = icus.com
+icus     = icus.icus.com
+#
+icus	ansmach(LOCAL)
+#
+# Other network connectivity with sites that are not local. 
+#
+icus    ames(EVENING+FAST+HIGH), pacbell(EVENING+FAST),
+	<limbic>(DEMAND+FAST),   <lobster>(POLLED+FAST),
+	<denwa>(DEMAND+FAST),    <att>(DEMAND+FAST),
+	<ditka>(DEMAND+FAST)
+#
+# Local sites (Austin, TX)
+#
+icus    <taliesin>(DIRECT+FAST), cs.utexas.edu(DEMAND+FAST),
+	kunikpok(POLLED),        risctakr(DEMAND+FAST),
+	<sierra>(DIRECT),        <destiny>(POLLED+FAST),
+	<husky>(POLLED),         <alliance>(EVENING+FAST),
+	micrtk(DEMAND+FAST)
+
+#N	iex
+#S      VAX 11/750; 4.3 BSD UNIX
+#O      IEX Corporation
+#C      Bob Blencowe
+#E      iex!postmaster
+#T      +1 214 612-2600
+#P      1400 Preston Road, Suite 350, Plano, Texas  75093
+#L      33 10 N / 096 40 W
+#R      This system was formerly named "infoswx"
+#U      convex ntvax
+#W      bcm!texas-uucpmaps;Mon Jun 17 23:32:41 CDT 1991
+iex     .iex.com
+iex	= iex.com
+iex     convex(DIRECT),iphase(DIRECT),supernet(DIRECT),
+	att(DEMAND), reuse(DEMAND), ticnj(DEMAND),uunet(DEMAND),ntvax(DAILY)
+
+
+#N      improb
+#S      AT&T 6300; Waffle UUCP
+#O      Improbability Drive
+#C      Jeff L. Wannamaker
+#E      improb!postmaster, improb!jlw
+#T      +1 713 568 5740
+#P      7422 Marisol, Houston, Texas, 77083
+#L      29 45 N / 95 21 W city
+#R      Personal UUCP/mail site
+#U      cls
+#W      improb!jlw (Jeff Wannamaker); Sun Feb 23 12:32:15 CST 1992
+#
+improb  cls(DIRECT)
+
+
+#N	imsl
+#S	Sun 3/280 
+#O	Individual
+#C	Edward B. Herrera
+#E	imsl!herrera
+#T	+1 713 782 6060
+#P	2500 Parkwest Blvd., Houston, TX 77042
+#L	29 45 N / 95 21 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Fri May 11 16:04:58 EDT 1990
+#U
+#
+imsl	uunet(DEMAND)
+
+#N	incon
+#S	Micro Express 386/25; ISC 386/ix 2.02 
+#O	Incon	
+#C	Barry Gregory	
+#E	payday!barry
+#T	+1 214 727 1773
+#P	708 Thoreau Lane, Allen, Texas 75002	
+#L      32 47N / 96 48W
+#U
+#R	T1600 + Motif/X
+#W	john@jho.com (John Ho); Mon Jun 10 10:33:45 CST 1991
+incon     jho(DIRECT+HIGH)
+
+#N	inebriae
+#S	No name clone 80386; 386/ix 2.0.2
+#O	Tel-Account, Inc.
+#C	Lawrence M. Wesson, C.P.A.
+#E	postmaster@inebriae.WLK.COM
+#T	+1 214 788-2582
+#P	12740 Hillcrest #107 Dallas, TX 75230
+#L	32 47N / 96 48W city
+#U	ssbn
+#W	ssbn!bill (Bill Kennedy); Mon Dec 21 09:12:31 CST 1990
+#
+inebriae	mic(DIRECT+HIGH), wrangler(EVENING)
+
+#N	infohub
+#S	Tandy 4000 ISC UNIX
+#O	Radio Shack Computer Merchandising
+#C	G. David Butler, II
+#E	root@infohub.merch.rs.tandy.com
+#T	+1 817 457 4043
+#P	1500 One Tandy Center, Ft Worth, TX, 76102
+#L	32 45 N / 97 20 W city
+#W	gdb@infohub.merch.rs.tandy.com (G. David Butler); Fri Oct 04 14:34:25 CDT 1991
+#
+infohub = infohub.merch.rs.tandy.com
+infohub	doslan(LOCAL), trsvax(LOCAL), utacfd(DIRECT+FAST),
+	sys1(DIRECT), omnibus(DIRECT), rsf(DIRECT+FAST), rscus1(DIRECT),
+	nqccent(DIRECT), techsup(DIRECT), ninja(DIRECT+FAST), aadvlp1(LOCAL),
+	aaftw-1(LOCAL), cpe(LOCAL), tunguska(LOCAL),
+	qcdev(DIRECT), te0098(DIRECT)
+
+
+#N      integrity
+#S      Tandem S2; nonstop A21
+#O      Tandem Computers (MPD)
+#C      Steve Upchurch, Ron Boerger
+#E      integrity!postmaster
+#T      +1 512 244 8861
+#P      14231 Tandem Blvd; Austin, Texas  78728
+#L      30 16 N / 97 45 W  city
+#R      This is INTEGRITY.MPD.TANDEM.COM (not directly accessable)
+#U      halley
+#W      integrity!ron (Ron Boerger); Wed Nov 20 10:46:07 CST 1991
+#
+integrity  halley(LOCAL)
+
+
+
+
+#N      iphase.com
+#S      SunOS 4.1.2
+#O      Interphase Corporation
+#C      Daniel B. Uland
+#E      duland@iphase.com
+#T      +1 214 919 9000
+#P      13800 Senlac, Dallas, TX  75234
+#L      34 47 N / 96 48 W city
+#R
+#W      duland@iphase.com (Daniel B. Uland); Wed May  6 17:59:26 CDT 1992
+#U
+#
+iphase.com 	digi(HOURLY), iex(HOURLY), uunet(HOURLY)
+
+
+#N	iquery, iqsc.com
+#S	AT&T 3B2/400; System V.3.1 Unix
+#O	IQ Software Corporation (formerly Programmed Intelligence Corp.)
+#C	Matthew C. Reedy
+#E	iquery!news
+#T	+1 512 490 6684
+#P	400 N Loop 1604 E, Ste 100, San Antonio, TX 78232
+#L	98 30 W / 29 32 N city
+#R
+#U	dptspd
+#W	iquery!matt (Matt Reedy); Tue Jan 14 15:41:05 CST 1992
+#
+iquery	.iqsc.com
+iquery = iqsc.com, iquery.iqsc.com
+#
+iquery	dptspd(DIRECT+FAST), uunet(DAILY/2+FAST)
+
+#N	irsaims
+#S	CompuAdd 433t 486/33; SCO Unix 3.2v4.1
+#O	Insurance Rating Systems
+#C	Gary L. Filipski
+#E	irsaims!postmaster
+#T	+1 512 658 4691
+#P	PO Box 2576, Universal City, TX, 78148, USA
+#L	29 30 N / 98 20 W city
+#R	San Antonio, Tx  Metro Area
+#U	uunet
+#W	irsaims!flip (Gary L. Filipski); Mon Oct 19 09:34:25 CDT 1992
+#
+# Local
+irsaims	ephsa(DIRECT)
+#
+# Long Distance
+irsaims	uunet(POLLED+FAST)
+
+
+#N	issi
+#S	Sun 4/370; SunOS/4.1.1
+#O	International Software Systems, Inc.
+#C	Lisa A. Gerlich
+#E	issi!postmaster
+#T	+1-512-338-5724
+#P	9430 Research Blvd; Echelon IV, Suite 250; Austin, TX  78759
+#L	30 18 N / 97 47 W city
+#R
+#U
+#W	issi!lisa (Lisa A. Gerlich) ; Fri Jul 12 14:13:19 CDT 1991
+#
+# our UUCP connections
+issi	uunet(DAILY),cs.utexas.edu(HOURLY)
+
+
+#N	jaguar
+#S	Amga 2500; Workbench 2.04; UUCP
+#O	Hidalgo County Computer Dept.
+#C	Jose Gonzalez
+#E	jaguar!root
+#T	+1 512 318 2151
+#P	P.O. Box 1356, Edinburg, TX 78540
+#L	26 28 N / 98 09 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Jun 25 09:08:52 EDT 1992
+#U
+#
+jaguar	uunet(DEMAND)
+
+#N	jamatx,jamatx.lonestar.org
+#S	Mac SE/30; A/UX 2.0.1
+#O	An Asylum in Texas
+#C	John Thompson
+#E	jamatx!jarthur,jamatx!news
+#T	+1 214 596-2095
+#P	2721 Knollwood Ct, Plano TX 75075
+#L	32 52 N / 096 43 W city
+#R	A news/mail machine for myself and friends at BNR Richardson
+#U	dalnet
+#W	jamatx!jarthur (John Thompson); Mon Jun 1 07:03:18 CDT 1992
+#
+jamatx = jamatx.lonestar.org
+jamatx	dalnet(DIRECT+FAST),
+	letni(DIRECT+FAST),
+	montagar(DIRECT+FAST),
+	void(POLLED)
+
+
+
+#N	jasoom, jasoom.lonestar.org
+#S	Compudyne 25/386C; BSDI/386 UNIX
+#O	Privately Owned
+#C	Chris Riney
+#T	+1 817 561 1783
+#E	postmaster@jasoom.lonestar.org
+#P	6206 Hott Springs Dr; Arlington, TX 76017
+#L	32 44 N / 97 04 W  city
+#W	chrisr@jasoom.lonestar.org (Chris Riney); Mon Jul 13 23:00:41 CDT 1992
+#
+jasoom	= jasoom.lonestar.org
+jasoom	tisgate(DIRECT), nemesis(DIRECT), sasoom(DIRECT), barsoom(DEAD),
+	dksbsd(DIRECT)
+
+
+
+
+
+
+
+#N	jassys				
+#S	(no longer) a true NO-NAME AT-Clone;SCO Xenix
+#O	private system
+#C	Tony Holden
+#E	jassys!news,jassys!tony
+#T	+1 817 280-0282
+#P	729 Briarwood, Hurst, Tx. 76053
+#L	32 50 N / 097 07 W
+#R	(no longer) proving that no-names can do it too.
+#W	bcm!texas-uucpmap ;Thu Sep  10 05:38:41 CDT 1992
+#U	rwsys
+#
+jassys	egsner(DIRECT), gdfwc3(DIRECT), rwsys(DIRECT+FAST), 
+	gtenext1(DIRECT+FAST)#N	jcpenne
+#S	AIX / RS6000 3.1
+#O	JC Penney Company Inc.
+#C	Robert J. Davis
+#E	jcpenne!rjdavis2
+#T	+1 214 387 6156 
+#P	12712 Park Central Place, Dallas, TX 75251
+#L	32 47 N / 96 48 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Jan 21 19:20:10 EST 1991
+#U
+#
+jcpenne	uunet(DEMAND)
+
+#N      jeanluc
+#S      SCO Open Desktop 1.1, UNIX System V 3.2.0
+#O      Open Systems Solutions (formerly Star Dot Star Consulting)
+#C      Jeffrey M. Stockett
+#E      stockett@titan.tsd.arlut.utexas.edu
+#T      (512) 467-0288
+#P      Austin, TX 78751
+#L      30 16 N / 97 45 W city
+#R
+#W      cs.utexas.edu!ut-emx!jeffms; Mon Apr 15 12:06:40 CDT 1991
+#U      jeanluc
+#
+jeanluc ut-emx(POLLED)
+
+#N	jho
+#S	Micronics 386/33MZ; ISC 386/ix 2.02 
+#O	Software Programming, Inc.	
+#C	John Ho 
+#E	jho!john
+#T	+1 214 907 9801
+#P	2402 Acacia Street, Richardson, Tx 75082	
+#L      32 47N / 96 48W city
+#R	T2500 + Motif/X + news 
+#U	iex texsun egsner uunet
+#W	jho!john (John Ho); Sun Sep 15 14:41:22 CST 1991
+jho	= jho.com
+jho     texsun(DIRECT+HIGH),
+	egsner(DIRECT+HIGH),
+	iex(DIRECT+HIGH),
+	rei2(DEAD),
+	payday(DIRECT),
+	uunet(DEAD)
+
+
+
+#N	jkh0
+#O	John Kay Harris and Associates
+#C	John Harris
+#E	jkh0!root
+#T	+1 713 667 1781
+#P	5650 Kirby, Suite 150, Houston, TX  77005
+#L	29 34 N / 97 57 W city
+#R
+#W	bcm!texas-uucpmap; Mon Sep 17 18:40:40 CDT 1990
+#U
+#
+jkh0		uunet(DEMAND)
+
+#N	jmd386, jmd386.lonestar.org, jmdst, jmdst.lonestar.org
+#S	Clone 386 machine; Linux 0.96
+#O	Home System
+#C	Joe M. Doss
+#E	jmd386!postmaster
+#T	+1 817 468 8932
+#P	904 Tennis Villa Drive, Arlington, TX, 76017
+#L	32 48 N / 96 15 W city
+#R	Willing to provide mail and (limited) news feeds to other small sites.
+#R	Send mail to jmd386!postmaster for a connection.
+#U	rwsys jmdst
+#W	jmd386!jdoss (Joe M. Doss); Sun Aug  2 12:02:47 CDT 1992
+#
+jmd386	= jmd386.lonestar.org
+jmd386	caleb(DIRECT),lerami(DIRECT),nemesis(DIRECT),rwsys(DIRECT),
+	jmdst(LOCAL)
+
+jmdst	= jmdst.lonestar.org
+jmdst	jmd386(LOCAL)
+
+
+
+
+
+#N	jmdst, jmdst.lonestar.org
+#S	Atari 1040ST; Minix V1.5
+#O	Home System
+#C	Joe M. Doss
+#E	jmdst!postmaster
+#T	+1 817 468 8932
+#P	904 Tennis Villa Drive, Arlington, TX, 76017
+#L	32 48 N / 96 15 W city
+#R	Willing to provide mail and (limited) news feeds to other small sites.
+#R	Send mail to jmdst!postmaster for a connection.
+#U	rwsys
+#W	jmdst!jdoss (Joe M. Doss); Wed May 29 21:15:47 CDT 1991
+#
+jmdst	= jmdst.lonestar.org
+jmdst	caleb(DIRECT),lerami(DIRECT),nemesis(DIRECT),rwsys(DIRECT)
+
+
+
+#N	joshua, joshua.lonestar.org
+#S	Tandy 4000 LX; SCO SYSV/386 2.3.2
+#C	Bill Harris
+#O	FoxPro database design
+#E	joshua!bill
+#T	data +1-214-578-9335 voice +1-214-424-7626
+#P	3396 Ave P, Plano, Texas   75074
+#L	96 30 W / 32 50 N  city
+#W	joshua!bill; June 16, 1992
+#R	
+#U	void
+#
+#
+joshua = joshua.lonestar.org
+joshua	dp7up(DIRECT+FAST), void(DIRECT+FAST)
+
+
+
+#N	jpunix, .jpunix.com
+#S	Intel 486/33;SCO ODT 2.0
+#O	J.P. and Associates
+#C	John Perry
+#E	jpunix!postmaster
+#F	uucp-gw.cc.uh.edu
+#T	+1 713 534 3653
+#P	Route 2 Box 68, Dickinson, TX 77539
+#L	29 46 94 N / 95 08 25 W
+#R	Private Mail System
+#U	buster,xcluud
+#W	jpunix!perry (John Perry) ; Wed Oct 7 19:00 CDT 1992
+#
+# jpunix is the gateway for anything in the jpunix.com domain
+#
+jpunix	.jpunix.com(LOCAL)
+jpunix=	leopold.jpunix.com
+jpunix	digsol(DIRECT),
+	buster(DIRECT+FAST),
+	lobster(DIRECT+FAST),
+	xcluud(DIRECT),
+	uhnix1(DIRECT+FAST+HIGH),
+	nuchat(WEEKLY)
+
+
+#N	k5qwb, k5qwb.lonestar.org
+#S	PC-AT Clone; Waffle 1.64
+#O	Amateur Radio Station k5qwb
+#C	Lyn R. Kennedy
+#E	lrk@k5qwb.lonestar.org
+#T	+1 214 217 0212
+#P	P. O. Box 5133, Ovilla, TX 75154
+#L	32 32 30 N / 96 53 36 W
+#U	kf5iw
+#W	k5qwb!lrk (Lyn R. Kennedy); Sun Nov 08 22:30:00 CST 1992
+#
+k5qwb   = k5qwb.lonestar.org
+k5qwb	kf5iw(DAILY), run10k(DAILY), n5gly(DAILY), dr-bill(DAILY)
+
+
+#N	k5qwb-m
+#S	Toshiba laptop
+#O	Amateur Radio Station k5qwb mobile
+#C	Lyn R. Kennedy
+#E	lrk@k5qwb.lonestar.org
+#T	+1 214 217 0212
+#P	P. O. Box 5133, Ovilla, TX 75154
+#L	32 32 30 N / 96 53 36 W
+#U	k5qwb
+#W	k5qwb!lrk (Lyn R. Kennedy); Sun Nov 08 22:30:00 CST 1992
+#
+k5qwb-m	k5qwb(DAILY)
+
+#N	k5qwb-u
+#S	486/DX 33; 386bsd test system
+#O	Amateur Radio Station k5qwb
+#C	Lyn R. Kennedy
+#E	lrk@k5qwb.lonestar.org
+#T	+1 214 217 0212
+#P	P. O. Box 5133, Ovilla, TX 75154
+#L	32 32 30 N / 96 53 36 W
+#U	k5qwb
+#W	k5qwb!lrk (Lyn R. Kennedy); Sun Nov 08 22:30:00 CST 1992
+#
+k5qwb-u	k5qwb(DAILY)
+
+#N	karnak, karnak.lonestar.org
+#S	486/33; Interactive Unix Sys V.3.2 Ver. 3.0
+#O	Capitalist Warmongers, Inc.
+#C	John B. Meaders, Jr.
+#E	karnak!john
+#T	+1 214
+#P	8820 Southwestern Blvd. #1103, Dallas, TX  75206
+#L	32 47 N / 96 48 W (city)
+#R	FAST is Telebit TB+ (19200 bps).  e-mail for connection.
+#U	sulaco
+#W	karnak!john (John B. Meaders Jr.); Tue Oct 27 13:07:23 CST 1992
+#
+karnak = karnak.lonestar.org
+karnak	 sulaco(DIRECT+FAST)
+
+#N	kawhou
+#S	At&T 3B1
+#O	Kurt A. Welgehausen
+#C	Kurt A. Welgehausen
+#E	kawhou!root
+#T	+1 713 528 7132
+#P	P.O. Box 270835, Houston, TX  77277-0835
+#L	29 45 N / 95 25 W city
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Wed Apr 25 18:09:08 EDT 1990
+#U
+#
+kawhou		uunet(DEMAND)
+
+#N	kevami
+#S	Commodore Amiga; AmigaDOS 2.0; AmigaUUCP
+#O	T. K. Autrey (personal system)
+#C	Kevin Autrey
+#E	kevami!postmaster
+#T	+1 214 517 1206, +1 214 519 2349
+#P	1328 Maywood Court, Plano, TX USA 75023-1914
+#L	32 52 N / 96 43 W city
+#R	Will provide email connections
+#W	kevami!kevin (T.K. Autrey); Wed Mar 13 13:55:07 CST 1991
+#
+kevami  = kevami.lonestar.org
+#
+kevami  digi(DIRECT), ajahnv(DIRECT), halflife(DIRECT),
+        woodwrk(DIRECT), jon7sky(DIRECT), letni(DIRECT)
+
+#N	keys
+#S	Fivestar 386/20 (20MHz); MSDOS 3.30 & Waffle 1.63
+#O	Christopher L. Winemiller (personal system)
+#C	Chris Winemiller
+#E	keys!postmaster
+#T	+1 214 393 0850, +1 214 519 3451
+#P	328 Plantation Drive, Coppell, TX USA 75019-3213
+#L	32 55 N / 96 58 W
+#R	Handle email
+#W	keys!cwinemil (Chris Winemiller); Wed Jan 30 20:50:00 CST 1991
+keys	= keys.lonestar.org
+keys	digi(DIRECT), letni(DIRECT), harlie(DIRECT), dinosaur(DIRECT),
+	ajahnv(DIRECT), ernest(DIRECT), woodwrk(DIRECT)
+
+#N	kf5iw, kf5iw.lonestar.org
+#S	386/33 MHz; UNIX Sys V Rel 3.2.1
+#O	Honda Sport Touring Association
+#C	Jim Blocker
+#E	kf5iw!jim
+#T	+1 214 996 6875
+#P	2524 Sundance Lane, Dallas, TX 75287-5871
+#L	32 59 45 N / 96 52 28 W
+#R	I am willing to provide email and limited newsfeeds to other
+#R	small sites in the Dallas area.  Send your request to kf5iw!jim.
+#U	cmptrc dexnet gandalf gmp k5qwb rwsys wb5nrn wb9rxw wd5hwq
+#W	kf5iw!jim (Jim Blocker); Sat Aug 22 15:44:10 CDT 1992
+#
+kf5iw	= kf5iw.lonestar.org
+kf5iw	cmptrc(DIRECT+FAST),dexnet(DIRECT), gandalf(DAILY), gmp(DAILY),
+	<drig>(DAILY/2), k5qwb(DIRECT),
+	lerami(DIRECT+FAST), letni(DIRECT+FAST), rwsys(DIRECT+FAST),
+	sdf(DIRECT+FAST), wb5nrn(DIRECT), wb9rxw(DIRECT+FAST),
+	wd5hwq(DIRECT+FAST)
+
+
+#N      kilgore
+#S      Dell System 286 (AT Clone); DOS 3.3
+#O      Ridge Industries, Inc., Kilgore, Texas
+#C      Carter R Bennett Jr
+#E      scilab!carter, carter@scilab.lonestar.org
+#T      +1 817 261 4843
+#P      2904 Regent Street  Kilgore, TX 75662
+#L      32 22 30 N / 094 47 30 W
+#W      scilab!carter (Carter Bennett); Fri Jul 5 19:33:32 CDT 1992
+
+kilgore  scilab(DIRECT)
+
+
+
+#N	kinesix
+#S	Sun IPX; SunOS 4.1.2
+#O	Kinesix
+#C	Karen Easley
+#E	kinesix!karen
+#T	+1 713 953 8310
+#P	9800 Richmond Ave., Suite 750
+#L	29 45 N / 95 21 W city
+#R
+#W	sob@tmc.edu;Sat Oct 17 02:53:50 CDT 1992
+#U
+#
+kinesix bcm(POLLED)
+
+#N	knapper
+#S	IBM-AT uupc11k; Dos 3.1
+#O	Aurora Contracting, Private system      
+#C	Woody Baker
+#E	knapper!woody
+#T	+1 512 272 4511
+#P	Woody Baker Rt.1 Box I Manor, Tx. 78653
+#L	37 52 29 N / 122 13 44 W
+#R	Private node, single user
+#U	sequoia 
+#W	knapper!woody (Woody Baker); Tue Nov 13 08:35:16 CTS 1991
+# 
+knapper=knapper.cactus.org
+knapper	sequoia(POLLED), chinacat(POLLED), cs.utexas.edu (POLLED)
+
+
+
+#N      krm
+#S      386; ISC 2.2 (SYS V)
+#O      Infoserve Computer Services Inc.
+#C      Kenneth R. Moore
+#E      krm!kmoore
+#T      +1 214 224-8002
+#P      1133 Sandalwood Lane, DeSoto, Tx. 75115
+#L      32 00 N / 96 00 W city
+#R      News version 2.11
+#U      mic
+#W      krm!kmoore (Kenneth R. Moore); Mon Dec 09 06:55:00 CDT 1991
+#
+krm     mic(DIRECT+FAST)
+
+
+#N	ks
+#S	IBM Risc System/6000 Model 530; AIX/6000 v3.2
+#O	IBM Advanced Workstation & Systems
+#C	Bryan D. Harold
+#E	ks!bryan
+#T	+1 512 838 3898
+#P	11400 Burnet Road; Zip 9582; Austin, Texas 78758-3493
+#L	30 16 N / 97 45 W  city
+#R	Internet: "bryan@ks.austin.ibm.com";  Fax: +1 512 838 3461
+#U	awdprime
+#W	bdh!bryan (Bryan D. Harold); Wed Oct 28 21:33:59 CST 1992
+#
+ks = ks.austin.ibm.com
+ks	bdh(DIRECT+FAST), 	 cactus.org(DEMAND), 
+        obiwan(DIRECT+FAST),     homectl(DIRECT+FAST),
+	cpunk(DIRECT+FAST),	 scifi(DIRECT+FAST)
+
+
+
+
+
+
+#N      kunikpok
+#S      Generic 80386/33Mhz; UNIX System V Rel. 3.2.2
+#O	Kunikpok Kennels & Komputers
+#C      Richard Hasting
+#E      kunikpok!rich
+#P      11702 Barchetta Dr., Austin, TX  78758
+#L      30 26 N / 97 42 W city
+#U      icus
+#W      kunikpok!rich (Richard Hasting) ; Sun Jun 16 21:59:28 CDT 1991
+#
+kunikpok    icus(DAILY/2)
+
+
+
+#N	kvue
+#S	Dual 83/80; System V
+#O	KVUE-TV
+#C	Edward Sparks
+#E	sparks@kvue.UUCP
+#T	+1 512 459 6521
+#P	PO Box 9927, Austin, TX 78766
+#L	30 21 53 N / 97 44 15 W
+#R	ABC Affiliate Television Station
+#U	oakhill
+#W	kvue!sparks (Edward Sparks);Mon Jun 22 19:20:40 CDT 1992
+#
+kvue	cs.utexas.edu(DEMAND), val(DEMAND), zitt (DAILY), dogface (DAILY)
+
+
+#N	laczko,	laczko.ti.com
+#S	386 clone, Windows 3.0, UULINK software
+#O	Private system
+#C	Frank L. Laczko, Sr
+#E	postmaster@laczko.ti.com
+#T	+1 214 997 3988
+#P	P.O. Box 867676 Plano TX 75086
+#L	32 47 N / 96 45 W city
+#U	csccat
+#W	Frank Laczko;Sat Mar 30 00:07:09 CST 1991
+#
+#	Will supply mail connection to local sites if desired
+#
+laczko=	laczko.ti.com
+#
+#
+laczko	csccat(DIRECT+FAST), texsun(DIRECT+FAST), letni(DIRECT+FAST),
+        ti-csl(DIRECT+HIGH), grf(POLLED+HIGH), chrysalis(DIRECT+HIGH),
+	dvp-fll(POLLED+FAST), piziali(POLLED+FAST), samsung(DIRECT+FAST),
+	cs.utexas.edu(POLLED+FAST), decwrl(DIRECT+FAST), steward(DIRECT+HIGH), 
+        wanderer(POLLED+HIGH), matrox(DIRECT+FAST)
+
+
+
+
+
+#N	lad-shrike
+#S	Sun-3/280, SunOS 4.0.3
+#O	Lockheed Missles & Space Co., Austin Division
+#C	David Capshaw
+#E	lad-shrike!usenet
+#T	+1 512 448 5757
+#P	O/96-10 B/30E, 6800 Burleson Road, Austin, Texas 78744
+#L	30 12 30 N / 97 45 W
+#R	aka shrike.austin.lockheed.com
+#W	lad-shrike!capshaw (David Capshaw); Sat May 12 01:32:39 CDT 1990
+#U	ut-emx
+#
+lad-shrike = shrike.austin.lockheed.com
+lad-shrike	ut-emx(DIRECT), milano(DAILY), leadsv(POLLED), lstc(POLLED)
+#N      lambada
+#S      AST Xformer 286 (Hardware Modified); MS-DOS 5.0
+#O      Cory West
+#C      Cory West
+#E      lambada!cory
+#T      +1 713 630 8858
+#P      Wiess College; P.O. Box 2011; Houston, TX 77252
+#L      29 40 N / 95 25 W city
+#R      This is my personal system in my room at Rice University
+#W      lambada!cory (Cory West); Thu Sep  3 21:59:45 CDT 1992
+#
+lambada = lambada.hou.tx.us
+lambada rice(DAILY)
+
+
+
+
+
+# EOF: u.usa.tx.2
+SHAR_EOF
+:	End of shell archive
+exit 0
+

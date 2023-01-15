@@ -1,0 +1,55 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mt.1
+: This archive created: Mon Mar 28 02:58:07 1988
+echo shar: extracting u.usa.mt.1
+cat << 'SHAR_EOF' > u.usa.mt.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# Last updated: Sat Mar 21 00:41:44 PST 1987
+
+#N	cs01
+#S	VAX 11/750;	Ultrix
+#O	University of Montana Computer Science Dept.
+#C	Alden Wright
+#E	ucbvax!ucdavis!umt!cs_ahw
+#T	+1 406 243 2883
+#P	U of M Computer Science Dept., Missoula, MT 59812
+#L			       
+#R	
+#W	umt!marsh (Paul Marsh); Wed Nov  4 10:23:22 MST 1987
+#
+cs01	 umt(DEMAND)		     
+
+#N	mts-cs
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Computer Science Dept, Montana State University
+#C	Emery Newlon
+#E	mts-cs!usenet
+#T	+1 406 994 3931, +1 406 994 5959
+#P	Computer Science, MSU, Bozeman, MT 59717
+#L	111 00 00 W / 45 30 00 N
+#R	Computer Science Instructional Computer
+#U	utah-gr umt
+#W	mts-cs!monitor (E. Newlon); Fri Jun  6 19:23:02 EDT 1986
+#
+mts-cs	utah-gr(DAILY), umt(DAILY)
+
+#N	umt
+#S	VAX 11/785;	Ultrix
+#O	University of Montana Computer Center
+#C	Paul Marsh 
+#E	umt!marsh
+#T	+1 406 243 5455
+#P	U of M Computer Center, Missoula, MT 59812
+#L			       
+#R	
+#W	umt!marsh (Paul Marsh); Wed Nov  4 10:23:22 MST 1987
+#
+umt	ucdavis(DAILY), cs01(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

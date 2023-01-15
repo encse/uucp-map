@@ -1,0 +1,153 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.vt.1
+# This archive created: Sun Dec 13 04:11:44 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.vt.1
+cat << \SHAR_EOF > u.usa.vt.1
+#	start of u.usa.vt.1: Sat Dec 12 22:17:42 EST 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	antiem
+#S	DG MV10000 DG/UX 3.11
+#O	University of Vermont, Division of Eng. Math. and Bus. Adm. (EMBA)
+#C	Gary A Barbour
+#E	uvm-gen!gb, antiem!postmaster
+#T	+1 802 656 4029
+#P	101 Votey Eng. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R	See uvm-gen for info
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	uvm-gen 
+#
+antiem	.uvm.edu
+antiem= antiem.uvm.edu
+#
+antiem	uvm-gen(LOCAL), uvm-cs(LOCAL)
+
+#N	banzai
+#S	Plexus P/35; Plexus Sys5 UNIX
+#O	The People's Computer Company
+#C	Jay Schuster
+#E	banzai!usenet
+#T	+1 802 864 0747
+#P	40 George Street, Burlington, VT  05401
+#L	44 28 52 N / 73 12 55 W
+#R	
+#W	banzai!jay (Jay Schuster); Sat Jul 11 21:39:30 EDT 1987
+#U	uvm-gen
+#
+banzai	uvm-gen(DIRECT)
+
+#N	ethan
+#S	DEC Vax-8600; VMS 4.5 
+#O	University of Vermont, Academic Computing Center
+#C	Gary A Barbour
+#E	uvm-gen!gb
+#T	+1 802 656 4029
+#P	Waterman Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R	mail only, see uvm-gen for info
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	uvm-gen
+#
+ethan	.uvm.edu
+ethan = ethan.uvm.edu
+#
+ethan	uvm-gen(DIRECT)
+
+#N	phobos
+#S	AT&T UNIX SYSTEM V 3.0
+#O	Phobos Enterprises 
+#C	Gary A Barbour
+#E	uvm-gen!gb, phobos!postmaster
+#T	+1 802 656 4029
+#P	Northern Vermont
+#L	44 38 N / 73 34 W
+#R      
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	uvm-gen
+#
+phobos 	uvm-gen(DAILY)
+
+#N	tonto
+#S	AT&T 3B15 System V 2.0
+#O	University of Vermont, Chemistry Dept.
+#C	Gary A Barbour
+#E	uvm-gen!gb
+#T	+1 802 656 4029
+#P	2nd floor Cook Physical Sci. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R	mail only, see uvm-gen for info
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	uvm-gen
+#
+tonto	.uvm.edu
+tonto = tonto.uvm.edu
+#
+tonto	uvm-gen(DIRECT)
+
+#N	uvm-cs
+#S	DEC Vax-11/750; 4.3BSD
+#O	University of Vermont, Division of Eng. Math. and Bus. Adm. (EMBA)
+#C	Gary A Barbour
+#E	uvm-gen!gb, uvm-cs!postmaster 
+#T	+1 802 656 4029
+#P	101 Votey Eng. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R	See uvm-gen for info
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	uvm-gen
+#
+uvm-cs	.uvm.edu
+uvm-cs= cs.uvm.edu
+#
+uvm-cs	uvm-gen(LOCAL), antiem(LOCAL)
+
+#N	uvm-gen
+#S	DEC Vax-11/780; 4.3BSD
+#O	University of Vermont, Division of Eng. Math. and Bus. Adm. (EMBA)
+#C	Gary A Barbour
+#E	uvm-gen!gb, uvm-gen!postmaster
+#T	+1 802 656 4029
+#P	101 Votey Eng. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R	gateway for UUCP and CSnet to all Univ. of Vermont machines 
+#R	 via EMBA-LAN or direct links. 
+#W	uvm-gen!gb ( Gary A Barbour) ; Thur Dec 3 22:10:07 EST 1987
+#U	dartvax uvm-cs antiem vmix banzai phobos stinst teletech ethan tonto bu-cs
+#
+uvm-gen	 .uvm.edu
+uvm-gen= gen.uvm.edu
+uvm-gen	 dartvax(EVENING), uvm-cs(LOCAL), antiem(LOCAL), vmix(DAILY/3),
+	 banzai(DAILY/2), phobos(DAILY), bu-cs(WEEKLY/3), teletech(DAILY),
+	 stinst(DAILY), ethan(LOCAL), tonto(LOCAL)
+#
+# the forced calls, other than LOCAL ones are:
+dartvax	uvm-gen(DAILY/3)
+phobos	uvm-gen(DAILY)
+bu-cs	uvm-gen(WEEKLY/3)
+
+#N	vmix
+#S	IBM RT-PC; AIX v1.10
+#O	Vermont Microsystems Inc.
+#C	Paul Angstman
+#E	vmix!pja
+#T	+1 802 655 2860
+#P	11 Tigan Street, Winooski, VT 05404
+#L	42 11 00 N / 77 23 00 W
+#R	
+#W	uvm-gen
+#U	vmix!pja (Paul Angstman); Fri July 3 10:33:00 EDT 1987
+#
+vmix	uvm-gen(DIRECT)
+
+#	end of u.usa.vt.1: Sat Dec 12 22:17:50 EST 1987
+SHAR_EOF
+#	End of shell archive
+exit 0

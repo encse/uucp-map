@@ -1,0 +1,2428 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ca.16
+: This archive created: Tue Sep  8 10:53:53 1992
+echo shar: extracting u.usa.ca.16
+cat << 'SHAR_EOF' > u.usa.ca.16
+file {u.usa.ca.16}
+
+# Packaged & maintained by crash!bblue (Bill Blue); Mon Sep 07 18:01:19 PDT 1992
+# Northern California map(s) are u.usa.ca.[2 4 6 ... etc],
+# for area code(s) 209 510 408 415 707 916.
+# This u.usa.ca.16 is for sites with names schulze through tcomeng.
+# Send your map updates to: uucpmap@rutgers.edu cc: bblue@crash.cts.com.
+
+#N	schulze
+#S	NCR 32/700; TOWER 32/700 Operating System Release 1
+#O	Schulze	Manufacturing
+#C	Gordon/Pam Coppin
+#E	portal!schulze!uucp
+#T	+1 415 692 1944
+#P	50 Ingold Road,	Burlingame CA  94010
+#L	37 34 180 N / 122 21 0 W city
+#R	OS base	is AT&T	V.3.2; passes SVVS Version 3 and X/OPEN	PG2.402
+#U
+#W	portal!schulze!uucp (Gordon Coppin); Wed Jun  5	13:41:21 PDT 1991
+#
+schulze	portal(DAILY+HIGH)
+
+#N	sco, .sco.com
+#F	relay1.UU.NET, relay2.UU.NET
+#O	The Santa Cruz Operation, Inc.
+#C	michael	thornburgh, Tim	Ruckle,	John Vosburg, Keith Reynolds
+#E	miketh@sco.COM,	timr@sco.COM, johnv@sco.COM, keithr@sco.COM
+#T	+1 408 425 7222
+#P	PO Box 1900; Santa Cruz, CA; 95061
+#L	36 58 N	/ 122 3	W city
+#U	uunet
+#R
+#W	miketh@sco.COM (michael	thornburgh); Fri May 08	14:20:00 PDT 1992
+#
+sco	.sco.com
+sco =	sco.com
+sco	scol(DAILY+HIGH), scocan(DAILY+HIGH), fedsco(DAILY+HIGH),
+	scoanz(DAILY+HIGH), uunet(DAILY+HIGH)
+
+#N	scooter
+#S	DELL system 310; SCO UNIX V3.2.2
+#C	Joseph B. Carlson
+#E	carlson@scooter.plsn.ca.us
+#T	+1 415 846 5459
+#P	4437 Valley Avenue, Pleasanton CA, 94566
+#L	37 40 30.9 N / 121 52 24.8 W
+#U	lll-winken
+#W	Joe Carlson <lll-winken!carlson> ; Sat Oct 27 17:00:48 GMT 1990
+#
+scooter	=	scooter.plsn.ca.us
+scooter	lll-winken(DIRECT)
+
+#N	scueng
+#F	ames.arc.nasa.gov
+#S	DEC VAX-11/750;	Ultrix
+#O	Santa Clara University
+#C	Willis Dair
+#E	scueng!postmaster
+#T
+#P
+#L	121 57 48 W / 37 20 15 N
+#R
+#U
+#W	dair@scueng.scu.edu (Willis Dair); Mon Mar 19 10:36:19 PST 1990
+#
+scueng	.scu.edu
+scueng =	.scu.edu, scueng.scu.edu
+#
+scueng	ames(DIRECT)
+
+#N	scusa
+#S	Sun 3-160; SunOS 4.0.3
+#O	Sherpa Corporation
+#C	Vivek K. Handa
+#E	scusa!root
+#T	+1 408 433 0455
+#P	611 River Oaks Parkway,	San Jose, CA  95134
+#L	37 20 N	/ 121 53 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Mar 15 16:28:44 EST 1991
+#U
+#
+scusa	uunet(DEMAND)
+
+#N	seeker,	seeker.mystic.com, .mystic.com
+#S	386 Clone; SCO Xenix System V 2.3.1
+#F	uunet.uu.net
+#O
+#C	Patrick	Miller
+#E	seeker!postmaster
+#T	+1 415 432 3354
+#P	2213 Lynbrook Drive, Pittsburg,	Ca 94565
+#L	38 01 N	/ 122 53 W
+#R	news/mail feeds	welcome. Trailblazer
+#R	mystic.com
+#U	premenos
+#W	seeker!pjm (Patrick Miller) ; Mon May 27 12:40:38 PDT 1991
+#
+seeker	.mystic.com
+seeker =	seeker.mystic.com
+seeker	vixie(DEMAND+FAST), uunet(HOURLY), mtdiablo (DEMAND+FAST),
+	seer(DEMAND+FAST), boo (DEMAND+FAST), realnet(DEMAND+FAST),
+	talktec(HOURLY), rael (POLLED)
+
+#N	seer, seer.gentoo.com, .gentoo.com
+#F	netcom.com
+#S	i486; SCO Xenix	System V 2.3.2GT
+#O	Brad Lanam  Walnut Creek, CA
+#C	Brad Lanam
+#E	seer!postmaster
+#T	+1 510 937 6916
+#P	PO Box 155  Walnut Creek, CA  94597-0155
+#L	37 52 94 N / 122 03 01 W
+#R	Trailblazer+
+#U	boo netcomsv sage seeker
+#W	seer!bll (Brad Lanam); Sat Apr	4 17:42:47 PST 1992
+#
+seer	.gentoo.com
+seer =	gentoo.com
+seer =	seer.gentoo.com
+#
+# local	calls
+seer	abhg(DIRECT+FAST), boo(DIRECT+FAST), genone(POLLED),
+	<mtdiablo>(DIRECT+FAST), realnet(DIRECT+FAST)
+# toll calls
+seer	iclusa02(WEEKLY+FAST), landooz(DEMAND+FAST), netcomsv(EVENING+FAST),
+	ossi(EVENING+FAST), seeker(HOURLY+FAST)
+# non registered sites.
+seer	dark(DEAD), gentoo(DIRECT+FAST),
+	overkill(POLLED), rael(POLLED),	sage(DIRECT+FAST)
+
+#N	segfault
+#S	Sun 4/20 (SLC);	SunOS 4.1
+#O	Ron Guilmette Computing
+#C	Ron Guilmette
+#E	segfault!postmaster
+#T	+1 408 732 7839
+#P	396 Ano	Nuevo Ave. #216, Sunnyvale, CA 94086
+#L	37 23 N	/ 122 3	W
+#R	SunOS 4.1 (BNU)
+#U	lupine
+#W	segfault!rfg (Ron Guilmette); Fri May  1 22:01:55 PST 1992
+#
+segfault	lupine(DAILY)
+segfault	netcomsv(WEEKLY)
+
+#N	segpc
+#S	Sprite 386; Esix 3.2-D
+#O	Garfinkle Consulting
+#C	Scott E. Garfinkle
+#E	segpc!postmaster
+#T	+1 408 738 5627
+#P	125 Connemara Way #114,	Sunnyvale, CA 94087
+#L	37 21 N	/ 122 03 W
+#R	Call before 2100 hrs Pacific Time
+#U	vsi1 netcom
+#W	segpc!seg (Scott E. Garfinkle);	Mon Jul	30 11:08:00 PDT	1990
+#
+segpc	netcom(DEMAND),	vsi1(DEMAND)
+
+#N	seidc
+#F	mips.com
+#S	Sun 4/75; SUN OS 4.1.1
+#O	Silicon	Engineering, Inc. (Design Center)
+#C	Guntram	Wolski
+#E	seidc!postmaster
+#T	+1 408 438 5331	x112
+#P	940 Disc Drive.	Suite 250 Scotts Valley, CA 95066
+#L	36 58 N	/ 122 3	W city
+#R
+#U
+#W	seidc!gwolsk (Guntram Wolski); Wed Feb 26 17:44:05 PST 1992
+#
+seidc	.sei.com
+seidc =	sei.com
+seidc =	seidc.sei.com
+seidc	ames(DEMAND+FAST), mips(DIRECT+FAST)
+
+#N	sepsys
+#S	unknown
+#O	Personal - Scott Pendleton
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Mon Jun	8 16:23:16 PDT 1992
+#
+sepsys	netcomsv(POLLED)
+
+#N	serv223
+#S	HP9000/370; HP-UX 7.03 (System V)
+#O	Trimble	Navigation
+#C	Allen S. Foster
+#E	serv223!postmaster
+#T	+1 408 730 2976
+#P	645 North Mary Ave., Sunnyvale,	Ca. 94088-3642
+#L	37 23 39 N / 122 2 14 W
+#U
+#W	serv223!foster (Allen S. Foster) ; Tue Jan 26 16:00 PST	1991
+#
+serv223	wildoat(DIRECT)
+
+#N	server1
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Alain Pinel Realtors
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+server1	=	apr.com
+server1	fernwood(HOURLY)
+
+#N	sethwd
+#F	sgi.com
+#O	Set Engineering	Inc.
+#S	HP/Apollo DN4000; DOMAIN_OS 10.3.2
+#C	Dave Paulsen
+#E	sethwd!davep
+#T	+1 408 778 6238
+#P	605 Tennant Ave. Suite G, Morgan Hill, CA. 95037
+#L	37 07 N	/ 121 37 W
+#U	xxxx
+#R	Computer Systems Design	Consultants.
+#W	sethwd!davep; Fri Aug30	10:23:48 PDT 1991
+#
+sethwd	sgi(DAILY)
+
+#N	sfindigo
+#S	486/33 running BSDI
+#O	San Francisco Indigo Co.
+#C	Steve Sellgren
+#E	sfindigo!sellgren
+#T	+1 415 433 3043
+#P	353 Sacramento St., #400, San Fran., CA	94111
+#L	37 46 N	/ 122 25 W city
+#R
+#W	lori@uunet.UU.NET (Lori	Lewis);	Mon May	18 12:52:52 EDT	1992
+#U
+#
+sfindigo	uunet(DEMAND)
+
+#N	sfsun
+#S	Sun 3/280 ; SunOS 4.0.3
+#O	Sun Microsystems, San Francisco	Sales Office
+#C	Charles	L. Tierney
+#E	sfsun!postmaster
+#T	+1 415 781 8140
+#P	101 California Street, Suite 4330, San Francisco, CA  94111
+#L	37 52 29 N / 122 13 44 W
+#R	sfsun is a private site	- all contact is through "Sun.COM"
+#U
+#W	sun!ctierney (Charles L. Tierney) ; Mon	May  7 17:10:15	PDT 1990
+#
+sfsun	sun(DAILY)
+
+#N	.sgi.com, sgi
+#F	sgi.com
+#O	Silicon	Graphics Computer Systems
+#S	Silicon	Graphics IRIS-4D CS/12;	IRIX 4D-3.2
+#C	Ian Clements
+#E	postmaster@sgi.com
+#T	+1 415-960-1980
+#P	2011 N.	Shorline Boulevard; Mountain View, CA 94039-7311
+#L	37 25 43 N / 122 04 34 W
+#U	decwrl,	mips
+#R	registered
+#W	ian@sgi.com (Ian Clements): Fri	Sep  4 15:41:23	PDT 1992
+#
+sgi	.sgi.com(LOCAL)
+sgi=	sgi.sgi.com
+sgi=	sgi.com
+sgi	adobe(DIRECT), alias(DIRECT), alien(DAILY),
+	alliant(DIRECT), ames(DIRECT), bei(DIRECT), bitblks(DIRECT),
+	blia(DIRECT), btr(DIRECT), calcite(DIRECT),
+	cdp(DIRECT), convex(DIRECT), dazixca(DIRECT), eagercon(DIRECT),
+	edsews(HOURLY+HIGH), gogoman(DIRECT), hope(DIRECT),
+	iphase(DIRECT),	iphasew(DIRECT), kerner(DIRECT),
+	key(DEAD), leroy(DIRECT), llustig(DIRECT),
+	mindcrf(DIRECT), mips(DIRECT), oilean(DIRECT),
+	opusys(DAILY), pdi(DIRECT), pei(LOCAL),
+	ragtime(DIRECT), redwood(DAILY/4), sethwd(DIRECT),
+	silvlis(DIRECT), steggie(DIRECT), sun(DIRECT), snyside(DIRECT),
+	ultra(DIRECT), veritas(DIRECT),	verdix(DIRECT),
+	wdl1(DIRECT), wetware(DIRECT), zok(DIRECT)
+
+#N	sgiblab
+#S	Silicon	Graphics 4D-480
+#O	Silicon	Graphics, Inc.
+#C	Scott Henry, Eliot Lear, John Schimmel,	Gabriel	Villalobos
+#E	postmaster@sgiblab.sgi.com
+#T	+1 415 390 2414
+#P	2011 N.	Shoreline Blvd,	Mountain View CA 94041
+#L	37 25 19.1 N / 122 04 33.5 W
+#U	mips.mips.com news.arc.nasa.gov	control.spies.com smurf.sti.com
+#U	guardian.apple.com nntpserver.cs.uoregon.edu zaphod.mps.ohio-state.edu
+#U	bridge2.nsd.3com.com xlnvax.excelan.com	wdl1.wdl.loral.com
+#U	nec-gw.nec.com ns.pacbell.com netnews.synoptics.com sdd.hp.com
+#U	uucp-gw-2.pa.dec.com swrinde.nde.swri.edu rpal.rockwell.com
+#U	news.cs.indiana.edu spool.mu.edu wrdis01.af.mil
+#U	news.msi.umn.edu gate.ready.com	ntrlink.hq.interlink.com uc.msc.edu
+#U	hobbes.cs.brown.edu think.com spool.msi.co aurora.cs.athabascau.ca
+#U	darkstar.ucsc.edu nntp.ifi.uio.no darwin.sura.net
+#U	hustle.rahul.net munnari.oz.au equus.ingres.com	newsun.novell.com
+#U	ptimtc.tadw.panasonic.com dice.nwscc.sea06.navy.mil
+#U	wyse daver misc	ultra sysadmin symlab svcs1 btr	zorch bdcsys mswind
+#U	troi octela wdi	skyking	wetware	synopsys banana	cres rat altos tsoft
+#U	unpc ampex netops boomrang board8 boy parallax kludge bazooka
+#R	sgiblab.sgi.com	[192.82.208.3] on the Internet
+#W	lear@sgiblab.sgi.com (Eliot Lear); Thu Aug 20 15:26:20 PDT 1992
+#
+sgiblab=	sgiblab.sgi.com
+# uucp connections:
+sgiblab	ampex(POLLED+FAST),	badjams(POLLED),	banana(POLLED+FAST),
+	bct(DIRECT+FAST),	bdcsys(DIRECT+FAST),	boy(POLLED+FAST),
+	btr(DIRECT+FAST),	chips(DIRECT+FAST),	daver(DIRECT+FAST),
+	decwrl(DEMAND+FAST),	ditka(DIRECT+FAST),	elrond(POLLED),
+	force(DIRECT+FAST),	genuke(POLLED),		goucha(POLLED+FAST),
+	gozur(POLLED+FAST),	infoserv(POLLED+FAST),	junior(DIRECT+FAST),
+	kesa(DEMAND+FAST),	lmsi(DIRECT),		maow(DEMAND+FAST),
+	mfocus(DIRECT+FAST),	microsoft(DEMAND+FAST),	mswind(POLLED),
+	netarch(POLLED),	netops(POLLED+FAST),	nsc(DEMAND),
+	pacbell(DEMAND+FAST),	plus5(DEMAND+FAST),	primerd(DEMAND+FAST),
+	rpm(POLLED),		sgi(DIRECT+FAST),	svcs1(POLLED),
+	synopsys(DIRECT+FAST),	sysadmin(DIRECT+FAST),	troi(DIRECT+FAST),
+	ultra(DIRECT+FAST),	unpc(POLLED+FAST),	uoregon(DEMAND),
+	watjo(DIRECT+FAST),	wetware(POLLED+FAST),	wotan(DEMAND+FAST),
+	zorch(DIRECT+FAST)
+
+#N	sgs
+#S	HP 9000	Model 430; HP-UX 7.03
+#O	Semi-Gas Systems
+#C	Jennifer Wu
+#E	sgs!jtw
+#T	+1 408 971 6500
+#P	625 Wool Creek Drive, San Jose,	CA  95112
+#L	37 20 N	/ 121 53 W city
+#R
+#W	jtw@sgs.com; 28	Jan 1991
+#U
+#
+sgs	.sgs.com
+sgs =	sgs.com
+sgs	uunet(DEMAND)
+
+#N	sharks
+#S	Altos 886; Xenix 3.2f
+#O	Shark's	Head BBS
+#C	R."Dusty" Van Iderstine
+#E	sharks!dusty
+#T	+1 408 248 5173
+#P	P.O. Box 3727, Santa Clara, CA	95055
+#L	37 20 25 N / 121 57 35 W
+#R
+#U	grinch smtc smtchq
+#W	sharks!dusty (Dusty Van	Iderstine);Sat Dec 23 17:54:36 PDT 1989
+#
+sharks	grinch(DIRECT),	smtc(DIRECT), shakey(DIRECT), legal(DIRECT),
+	smtchq(DEMAND)
+
+#N	shemp
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	The Infotainment Group
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+shemp =	infotainment.com
+shemp	fernwood(HOURLY)
+
+#N	shinobu
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Silicon	Graphics, Inc.
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+shinobu	fernwood(HOURLY)
+
+#N	shograf
+#S	Intel 386; SCO UNIX V 386 V3.2r2.0
+#O	SHOgraphics Inc.
+#C	Jim Morris
+#E	shograf!jim
+#T	+1 415 903 3887
+#P	1890 N.	Shoreline Blvd.	Mountain View, CA 94043
+#L	37 26 50 N / 121 54 W city
+#R	Practical PEX makers
+#U	motcsd
+#W	shograf!morris (Jim Morris); Thu Nov 29	18:20:19 PST 1990
+#
+shograf	motcsd(DIRECT)
+
+#N	shres
+#S	unknown
+#O	Shared Resources
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Tue Jun	9 15:44:26 PDT 1992
+#
+shres=	shres.com
+shres	.shres.com(LOCAL)
+shres	netcomsv(POLLED)
+
+#N	siamese
+#F
+#S	Sun 4/25 SunOS4.1.2
+#O	Geoffrey G. Peck, Consultant
+#C	Geoff Peck
+#E	siamese!postmaster
+#T	+1 408 270 1840
+#P	3075 Marston Way, San Jose, CA	95148-3121
+#L	37 19 37 N / 121 46 14 W
+#R
+#W	siamese!geoff (Geoff Peck); Fri	Dec 20 17:13:37	PST 1991
+#U	kpc
+#
+siamese	kpc(DIRECT+HIGH)
+
+#N	sib
+#S	386 generic; MS-DOS + UUPC/extended
+#O	SIB Computing
+#C	Terry Lee Doyle
+#E	sib!postmaster
+#T	+1 415 854 2383
+#P	120 Andeta Way,	Portola	Valley,	CA  90428
+#L	37 24 N	/ 122 11 W
+#R
+#W	raven!rcd (Dick	Dunn); Fri Feb	7 12:54:09 MST 1992
+sib	expertec(DAILY), raven(DAILY/2)
+
+#N	siecomp
+#S	DEC VAX/VMS
+#O	Siemens	Components, Inc.
+#C	Mike Gzowski
+#E	siecomp!gzowski
+#T	+1 408 980 4500
+#P	2191 Laurelwood	Road, Santa Clara, CA  95054
+#L	37 23 5	N / 121	57 46 W
+#R
+#U	intersil
+#W	siecomp!gzowski	(Mike Gzowski);	Thu May	17 09:25:00 PST	1990
+#
+siecomp	intersil(DIRECT+FAST),wdimtv(DIRECT+FAST)
+
+#N	sierras
+#S	SUN 4/40; SUNOS	4.1.1
+#O	Sierra Software
+#C	David B. Hubbell
+#E	sierras!postmaster
+#T	+1 209 822 2768
+#P	Friant,	CA 93626
+#L	37 12 40 N / 119 45 00 W
+#R	Custom Ingres Applications
+#U	portal
+#W	dhubb@sierras (David B.	Hubbell); Wed May  6 09:23:16 PDT 1992
+#
+sierras	.sierras.com
+sierras	=	sierras.com
+sierras	advsys(DEMAND+HIGH), palit1(DEMAND), portal(EVENING+HIGH)
+
+#N	silicom
+#S	Sun4
+#O	Silicom, Inc.
+#C	George Mattathil
+#E	silicom!george
+#T	+1 415 967 0175
+#P	655 W. evelyn Ave., Suite 2-9308, Mt. View, CA 94041
+#L	37 23 N	/ 122 04 w city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Mon Apr 27 16:13:31 EDT 1992
+#U
+#
+silicom	uunet(DEMAND)
+
+#N	silma
+#S	Sun SparcStation 1+; Sun OS 4.1
+#O	Silma Inc.
+#C	Andy Burgess
+#E	silma!aab
+#T	+1 408 725 8908
+#P	1601 Saratoga-Sunnyvale	Road, Cupertino, CA  95014
+#L	37 19 N	/ 122 01 W city
+#R	Robotics Programming and general simulation software
+#U	motcsd cichlid
+#W	silma!aab (Andy	Burgess); Fri Jan 31 12:06:28 PST 1992
+#
+silma	uupsi2(DIRECT),	motcsd(HOURLY),	cichlid(EVENING)
+
+#N	silvlis
+#F	sun.com
+#O	Silvar-Lisco
+#S	Sun 4/260; (SunOS 4.0.3)
+#C	Paul Versmissen
+#E	smis@silvlis.com,postmaster@silvlis.com
+#T	+1 408 991 6000
+#P	703 East Evelyn	Avenue,	Sunnyvale, CA 94086
+#L	37 22 30 N / 122 1 30 W
+#R
+#U	sgi ensys
+#W	jimb@silvlis.com (Jim Budler) ;	Tue Aug	27 14:30:25 PDT	1991
+#
+silvlis	.silvlis.com
+silvlis	=	silvlis.com
+silvlis	pyramid(DAILY/2+HIGH), sgi(DIRECT),
+	sun(DAILY/12), ensys(DAILY+LOW)
+
+#N	simquest
+#S	sparcstation 1+; 4.1 SunOs
+#O	SimQuest
+#C	Richard	Edelman
+#E	simquest!postmaster
+#T	+1 408 739 7582
+#P	3235 Kifer Road, Suite 300, Santa Clara, CA 95051
+#L	37 22 30 N / 121 59 10 W
+#R
+#U
+#W	simquest!rich (Richard Edelman); Thu Aug 27 13:46:04 PDT 1992
+#
+simquest	sgiblab(HOURLY)
+
+#N	simucad
+#S	Sun 3/50; 0S4.1
+#O	Simucad
+#C	Bob Floyd
+#E	simucad!root
+#T	+1 415 487 9700
+#P	32970 Alvardo-Niles Road, Union	City, CA  94587
+#L	37 35 N	/ 122 01 W
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner) ;	Mon Sep	24 20:39:47 GMT	1990
+#U
+#
+simucad	uunet(DEMAND)
+
+#N	siobhan
+#S	Sun Microsystems ELC
+#O	Systems'n'Software
+#C	Steven Harrison
+#E	indetech!jack!steve
+#T	+1 510 623 8651
+#P	45034 Imnaha Court Fremont, CA	94539-6669
+#L	35 11 N	/ 117 34 W city
+#R
+#W	steve@jack.sns.com (J. Steven Harrison); Wed Jul 26 10:20 PDT 1992
+#U
+#
+siobhan	.sns.com
+siobhan	jack(LOCAL), wolf(LOCAL), man(WEEKLY)
+
+#N	sisnext
+#S	Color NeXTStation, Mach	2.1
+#O	Kroll Family Residence
+#C	Lawrence S. Kroll
+#E	cshub!sisnext!si
+#T	+1 415 386 0243
+#P	626 48th Avenue, San Francisco,	CA 94121
+#L	37 43 24 N / 122 28 31 W
+#R	Personal Graphics Computer
+#U
+#W	cshub!sisnext!si ; Tue Feb 18 13:11:45 PST 1992
+sisnext	<cshub>(EVENING)
+
+#N	siva
+#S	Unisys i386 ; SCO Xenix	2.3
+#O
+#C	Mark C.	Marsh
+#E	siva!mark
+#T	+1 916 454 9080
+#P	3215 T Street, Sacramento CA 95816
+#L
+#R
+#U	unify cdffp mcdre3 utgard sactoh0 rdk386
+#W	siva!mark (Mark	C. Marsh)  ; Sat Nov 24	 8:00:00 GMT 1990
+#
+siva	unify(DEMAND), sactoh0(DEMAND),	rdk386(DEMAND),
+	mcdre2(DEMAND),	utgard(POLLED),	cdffp(DEMAND)
+
+#N	sjsca4
+#S	Sun-3/260; SunOS 4.0.3
+#O	Schlumberger Technologies, ATE Division
+#C	Fabrice	Le Metayer
+#E	sjsca4!postmaster
+#T	+1 408 437 5114, +1 408	453 0123
+#P	1601 Technology	Drive, San Jose, CA 95110
+#L	37 22 N	/ 121 54 W
+#R	Schlumberger ATE North America primary mail router for San Jose
+#U	uunet
+#W	sjsca4!fabrice (Fabrice	A. Le Metayer);	Wed Jan	29 15:51:53 PST	1992
+#
+sjsca4=	eris.sj.ate.slb.com, sj.ate.slb.com
+sjsca4	.sj.ate.slb.com(LOCAL),	.ate.slb.com(DEDICATED+HIGH),
+	.slb.com(DEDICATED+LOW)
+sjsca4	ukfca1(DEDICATED+LOW), sjs(LOCAL),
+	amdahl(DIRECT),	amdcad(DIRECT),	becky(DIRECT), cemax(DIRECT),
+	decwrl(DEMAND),	french(DIRECT),	gibbons(DIRECT), navtech(HOURLY),
+	siamese(DIRECT), uunet(DEMAND+LOW), zok(DIRECT), zorch(DIRECT)
+
+#N	sjsumcs
+#F	sun.com
+#S	Sequent	Symmetry S27; DYNIX 3.0.17
+#O	San Jose State University, Math	& Computer Science Dept.
+#C	Richard	Warner
+#E	sjsumcs!postmaster, sjsumcs!usenet
+#T	+1 408 924 5107
+#P	San Jose, CA 95192-0103
+#L	37 19 58 N / 121 52 51 W
+#R
+#U	netcom octopus
+#W	sjsumcs!rick (Richard M. Warner) ; Tue Nov  5 16:46:54 PST 1991
+#
+sjsumcs	.sjsu.edu
+sjsumcs	=	sjsu.edu, sjsumcs.sjsu.edu
+sjsumcs	.mathcs.sjsu.edu
+sjsumcs	=	mathcs.sjsu.edu, sjsumcs.mathcs.sjsu.edu
+sjsumcs	=	math.sjsu.edu, cs.sjsu.edu
+sjsumcs	ames(DIRECT), ctnews(DIRECT), netcomsv(DIRECT),
+	octopus(DIRECT), pyramid(DIRECT), sequent(WEEKLY), sun(DIRECT)
+
+#N	ska
+#S	DECstation 3100; Ultrix/UWS 2.2
+#O	Dan Keller Technical Services
+#C	Dan Keller
+#E	ska!dsk, ska!root
+#T	+1 415 285 5300
+#P	2507 Bryant Street, San	Francisco, California 94110 U.S.A.
+#L	122 W /	37 N
+#U
+#W	ska!dsk	(Dan Keller); Tue Mar 27 22:37:10 PST 1990
+#
+ska	uunet(DEMAND), capmkt(DEMAND), apple(DEMAND), basis(DEMAND),
+	trio(DEMAND), sun(DEMAND), sybase(DEMAND), rtech(DEMAND),
+	pyramid(DEMAND), unisoft(DEMAND), mtxinu(DEMAND)
+
+#N	skeletoncrew
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Skeleton Crew USA Inc.
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+skeletoncrew =	skeletoncrew.com
+skeletoncrew	fernwood(HOURLY)
+
+#N	skelly
+#S	Commodore 128; 8502/Z80; CP/M 3.0
+#O	none, yet
+#C	Bruce Skelly
+#F	pacbell
+#E	skelly!root
+#T	+1 510 538 8105
+#P	16888 Columbia Dr., Castro Valley, CA, 94552-1614
+#L	37 37 N	/ 122 07 W
+#R	Using David Goodenough's (pallio!dg) UUCP V2.1B	for CP/M
+#R	Just wanted the	name before the	oil company got	it.
+#U	pacbell
+#W	skelly!bruce (Bruce Skelly) ; Thu Oct  3 14:27:09 GMT 1991
+#
+skelly	pacbell(DEMAND)
+
+#N	skinny
+#F	rutgers.edu
+#S	AT&T 3B2 300; System V R3.2
+#O	R Yaker	Enterprises
+#C	Rich Yaker
+#E	skinny!rich
+#T	+1 408 749-1059
+#P	655 S. Fair Oaks Ave. #C102, Sunnyvale,	CA 94086
+#L	37 23 N	/ 122 01 W city
+#R	A private system.
+#W	skinny!rich (Rich Yaker) ; Thu Sep 27 15:03:54 GMT 1990
+#U
+#
+skinny =	skinny.masa.com
+skinny	amdahl(DIRECT),	hombre(DAILY)
+
+#N   skivs
+#F   uunet.uu.net
+#S
+#O   Smith-Kettlewell Eye Research Institute
+#C   Erin O'Neill
+#E   skivs!postmaster, skivs!erin
+#T   +1	415 561	1612
+#P   2232 Webster Street, San Francisco, CA  94115
+#L   37	47 N / 122 26 W
+#R
+#U   fernwood.mpk.ca.us
+#W   erin@skivs.ski.org	(Erin O'Neill);	Tue Jun	2 11:17:46 PST 1992
+#
+skivs	.ski.org
+skivs=	   skivs.ski.org
+skivs	uunet(DEMAND), fernwood(DEMAND), pacbell(DAILY), eeg(WEEKLY)
+
+#N	skyking
+#S	CounterPoint System19K;CXIX 3.01 (UNIX SysV 3.0)
+#O	Personal System
+#C	J.C. Webber III
+#E	skyking!jc
+#T	+1 408 241 7029
+#P	1368 Piland Drive San Jose, CA 95130
+#L	121 53 W / 37 20 N city
+#R
+#U	mips
+#W	skyking!jc (J.C. Webber	III) ; Thu Jan 10  2:31:46 GMT 1991
+#
+skyking	mips(DIRECT), dumbcat(DAILY)
+
+#N	skyline
+#S	Macintosh IIci,	MacOS 7.00
+#O	Skyline	Ridge Partners
+#C	Gary Kremen
+#E	skyline!gk, fss@btr.com
+#T	+1 415 9494-3305
+#P	346 Costello Court, Los	Altos, CA 94024-4707
+#L	37 27 29 N / 122 11 44 W
+#U	ditka fss fullsrc fabian batman
+#R	skyline	is a Mac receiving and posting mail and	news.
+#W	skyline!gk ; Sat Jun 19	20:14:39 EDT 1990
+#
+skyline	ditka(DAILY), fullsrc(DIRECT+FAST),
+	fabian(DIRECT+FAST)
+#batman(DIRECT+FAST)	#wrong ones
+#fss(DIRECT+FAST)
+#N	slabsf
+#S	Micro Vax II; Vetrix 3.0
+#O	Softlab, Inc.
+#C	Frank Allegretti
+#E	slabsf!root
+#T	+1 415 957 9175
+#P	188 The	Embarcadero, San Francisco, CA 94105
+#L	37 49 N	/ 122 22 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Fri Mar 16 14:21:09 EST 1990
+#U
+#
+slabsf	uunet(DEMAND)
+
+#N	slgpcat
+#S	unknown
+#O	Personal - Sammie Graham
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Fri Jun	5 17:07:32 PDT 1992
+#
+slgpcat	netcomsv(POLLED)
+
+#N	sli1
+#S	MIPS RC3240; RISC/OS
+#O	Solid Logic, Inc.
+#C	Tony Friend
+#E	sli1!root
+#T	+1 415 927 2255
+#P	5725 Paradise Drive, #200, Corte Madera, CA 94925
+#L	37 55 N	/ 122 31 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Wed Feb 12 11:31:33 EST 1992
+#U
+#
+sli1	uunet(DEMAND)
+
+#N	slovenia
+#S	unknown
+#O	Joe Barello
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Fri Jun	5 15:43:13 PDT 1992
+#
+slovenia=	jbc.com
+slovenia	.jbc.com(LOCAL)
+slovenia	netcomsv(POLLED)
+
+#N	slxinc,	.specialix.com
+#S	386 PC;	Xenix 2.3
+#O	Specialix, Inc.
+#C	Jim Maurer, John Pettitt
+#E	postmaster@specialix.com, postmaster@specialix.co.uk
+#T	+1 408 354 4498
+#P	985 University Avenue, Suite 12, Los Gatos, CA 95030
+#L	37 20 N	/ 121 55 W city
+#R	US office of Specialix International
+#U
+#W	jpp@specialix.co.uk (John Pettitt); Tue	Mar 13 09:36:39	GMT 1990
+#
+#	This site is a fully transparent gateway to our	internal network.
+#	That is	if you send to Full.Name@specialix.com it will reach
+#	the right person in any	Specialix office world wide.
+#
+#	N.B. MX	service	provided by uunet.uu.net
+slxinc	.specialix.com
+slxinc =	specialix.com
+slxinc =	slxinc.specialix.com
+slxinc =	slxinc.specialix.co.uk
+#
+slxinc	<uunet>(DEMAND), mips(DEMAND+FAST)
+#
+#	Very low cost internal net to uk office, N.B. won't forward to eunet
+#
+slxinc	<slxsys>(ARPA)
+
+#N	smos
+#S	Sun Sparcstation; SunOs	4.1.2
+#O	S-MOS Systems
+#C	Lap-Yun	Yau
+#E	smos!lapyun
+#T	+1 408 954 0120
+#P	2460 N.	First Street, San Jose,	CA 95131
+#L	37 20 N	/ 121 53 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Thu May	7 10:15:47 EDT 1992
+#U
+#
+smos	uunet(DEMAND)
+
+#N	smosjc
+#S	AST 390; Unix 3.2
+#O	SMOS Systems
+#C	John Conover
+#E	smosjc!john
+#T	+1 408 922 0200
+#P	2460 N.	First St., San Jose, CA	 95131-1002
+#L	37 20 N	/ 121 55 W city
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Wed Apr 25 18:09:08 EDT 1990
+#U
+#
+smosjc	uunet(DEMAND)
+
+#N	snirddsc
+#F	snirddsc.sc.sni-usa.com
+#S	SNI Targon 35/50; TOS 4.1
+#O	Siemens-Nixdorf	Information Systems
+#C	George S. Spangler
+#E	snirddsc!postmaster
+#T	+1 408 235 1443
+#P	2520 Mission College Blvd, Santa Clara,	Ca 95054
+#L	37 21 N	/ 121 58 W city
+#R
+#U	pyramid
+#W	snirddsc!geos (George S. Spangler); Thu	May 21 09:00:00	PST 1992
+#
+snirddsc	.sc.sni-usa.com(LOCAL)
+snirddsc	= sc.sni-usa.com
+snirddsc	= ntcpyr
+snirddsc	uunet(HOURLY)
+
+#N	snulbug
+#F	apple.com
+#S	Apple Macintosh	; uupc 2.1 with	some additional	hacks
+#O	Snulbug	Software
+#C	Dave Platt
+#E	dplatt@snulbug.mtview.ca.us
+#T	+1 415 967 9570
+#P	1095 Burgoyne St., Mountain View CA  94043-3025
+#L	37 23 N	/ 122 04 W city
+#W	dplatt@snulbug.mtview.ca.us (Dave Platt); Tue Mar 12 09:19 PST 1991
+#
+snulbug	=	snulbug.mtview.ca.us
+snulbug	mrspoc(DAILY),apple(DAILY/2+FAST),ntg(DAILY+FAST)
+
+#N	snyside, sunnyside, sunnyside.com, .sunnyside.com
+#S	Sun4; Sun OS 4.1.1
+#O	Sunnyside Computing Inc.
+#C	Al Whaley
+#E	snyside!postmaster
+#T	+1 415 322 5411
+#P	Box 299, Palo Alto, CA 94302
+#L	37 26 07 N / 122 08 10 W
+#R	This is	also snyside.sunnyside.com [192.147.248.1] on the Internet.
+#W	al@sunnyside.com (Al Whaley); Fri Aug 28 15:11:10 PDT 1992
+#
+snyside	.sunnyside.com(LOCAL)
+snyside	=	sunnyside.com
+snyside	=	snyside.sunnyside.com
+snyside	=	sunnyside
+snyside	sgi(DIRECT), motcsd(HOURLY), calcite(WEEKLY), pe(WEEKLY*4),
+	canoem(HOURLY)
+
+#N	sobell
+#S	altos 3068; system V unix
+#O	sobell associates inc.
+#C	mark g.	sobell
+#E	sobell!mark
+#T	+1 415 322 1891
+#P	P.O. Box 1089, Menlo Park, CA  94026
+#L
+#R
+#U
+#W	sobell!mark; 23	Jan 1991
+#
+sobell	cdp(POLLED)
+
+#N	socrates
+#S	NeXT; OS 2.1
+#O	Superscript - Typography
+#C	William	Baxter
+#E	web@superscript.com
+#T	+1 510-658-5908
+#P	PO Box 20669 Oakland CA	94620 USA
+#L	37 48 N	/ 122 13 W  city
+#R	Portal UUCP Connection
+#U	portal
+#W	portal!rich (Rich MacKinnon); Mon Dec  2 13:26:54 PST 1991
+#
+socrates	.superscript.com
+socrates =	superscript.com
+socrates =	socrates.portal.com
+socrates	portal(POLLED)
+
+#N	.s21.com, soft21
+#F	mobdig.ncal.mobdig.com
+#F	netcomsv.netcom.com
+#S	486 clone; Interactive Unix v.2.2.1
+#O	21st Century Software
+#C	John Antypas
+#E	jantypas@soft21.s21.com
+#T	+1 510 932 5379
+#P	3193 Wayside Plaza #16 Walnut Creek CA 94596
+#W	johna@mobdig.com (John Antypas); Thur Aug 26 13:51:15 PDT 1992
+#U	mobdig
+#
+soft21	.s21.com
+soft21 = soft21.s21.com
+# Sites	with which we communicate to get to the	outside	world
+soft21	mobdig(DIRECT),	netcomsv(DAILY)
+
+#N	softix
+#S	Sun 3/280; 4.2 BSD UNIX
+#O	Softix,	Inc.
+#C	Roger Reynolds
+#E	softix!postmaster
+#T	+1 408 370 1130
+#P	800 Camden Avenue, Campbell, CA	94008
+#L	37 17 N	/ 121 58 W city
+#R	entertainment ticketing	software and systems.
+#U
+#W	softix!root; 19	Feb 1990
+#
+softix	uunet(DAILY)
+
+#N	softnet
+#S	Victory	Computer Systems-Factor; System	5.0
+#O	Softnet	Systems
+#C	Craig Estey
+#E	softnet!cae
+#T	+1 408 749 8161
+#P	1016 E.	El Camino Real #139, Sunnydale,	CA  94087
+#L	37 22 N	/ 122 02 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner) ;	Thu Oct	25 23:08:33 GMT	1990
+#U
+#
+softnet	uunet(DEMAND)
+
+#N	solar1
+#S	Sun-4/147; SUNOS 4.1
+#O	Able Technologies, Inc., Solarix Division
+#C	Scott Corcoran
+#E	solar1!postmaster
+#T	+1 415 659 1544	111
+#P	46791 Fremont Blvd., Fremont CA	94538, USA
+#L	37 28 20 N / 121 56 16 W
+#R	Solarix	is a line of SPARC compatible machines.
+#U	portal ism780c trellis
+#W	solar1!scott (Scott Corcoran); Tue Jun 26 11:40:17 PDT 1990
+#
+solar1 =	solar1.portal.com
+solar1	portal(HOURLY*2+HIGH),
+	ism780c(DAILY/2+LOW),
+	trellis(DAILY/3+LOW)
+
+#N	solarsys
+#F	uunet.uu.net
+#S	Everex Step 20/386; SCO	UnixV 3.2.0
+#O	Solution Set Software
+#C	Charles	Dye
+#E	chas@solution.com
+#T	+1 415 339 6223
+#P	6355 Pinehaven Road, Oakland  CA  94611
+#L	37 48 N	/ 122 16 W city
+#R
+#W	solarsys!chas; 22 Jan 1991
+#U
+#
+solarsys	.solution.com
+solarsys =	solution.com
+solarsys	uunet(DEMAND)
+
+#N	sonic
+#S	Apple Macintosh	SE/30; System 7.1.1
+#O	Sonic Solutions
+#C	Jim Roth
+#E	sonic!postmaster
+#T	+1 415 485 4800
+#P	1891 E.	Francisco Blvd., San Rafael, CA	 94901
+#L	37 57 06 N / 122 29 20 W
+#W	sonic!jmr (Jim Roth); Fri Jun 26 23:04:03 GMT 1992
+#
+sonic	moon(DIRECT)
+
+#N	sono
+#S	Sun 4/75; SunOS	4.1.1
+#O	Acuson
+#C	Chris Thomas
+#E	thomas@acuson.com
+#T	+1 415 969 9112
+#P	1365 Shorebird,	P.O. Box 7393, Mountain	View, CA 94039
+#L	37 25 44 N / 122 05 49 W city
+#U	amdcad
+#W	sono!thomas (Chris Thomas) ; Thu Sep 15	14:10:00 PDT 1991
+#
+sono	sun(HOURLY*4), amdcad(DAILY*4),	fernwood(HOURLY*4)
+sono =	acuson.com
+
+#N	sonoma1
+#S	unknown
+#O	Personal - Don Oberthur
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Mon Jun	8 15:42:54 PDT 1992
+#
+sonoma1	netcomsv(POLLED)
+
+#N	sonyusa
+#F	uunet.uu.net
+#S	SONY NWS-900; (NEWS-OS)
+#O	Sony Microsystems Corp.
+#C	David C. Elliott, Ron Ryan
+#E	postmaster@sony.com, dce@sony.com, ryan@smsc.sony.com
+#T	+1 408 434 6644
+#P	651 River Oaks Pkwy; San Jose, CA 95134
+#L	37 23 54.5 N / 122 00 21.4 W
+#R
+#U	mips
+#W	ryan@smsc.sony.com (Ron	Ryan) ;	Thu Nov	14 23:19:27 GMT	1991
+#
+sonyusa	.smsc.sony.com
+sonyusa	=	smsc.sony.com
+sonyusa	=	sonyusa.smsc.sony.com
+sonyusa	mips(DIRECT), uunet(DAILY/4), decwrl(DEMAND),
+	sonyd1(DAILY/4), twinhead(DIRECT)
+
+#N	spacebbs
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Austin Scientific, Inc.
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+spacebbs =	spacebbs.com
+spacebbs	fernwood(HOURLY)
+
+#N	sparkyfs
+#F	erg.sri.com
+#S	Sun-4/380; SunOS 4.1
+#O	SRI International
+#C	Dave Curry
+#E	davy@erg.sri.com
+#T	(415) 859-2508
+#P	333 Ravenswood Avenue, Menlo Park, CA 94025
+#L	37 27.4	N / 122	12.1 W
+#R	No UUCP	connections; all news via NNTP.
+#U	ames.arc.nasa.gov noose.ecn.purdue.edu saturn.ads.com
+#U	hercules.csl.sri.com usasoc.soc.mil
+#W	davy@erg.sri.com Wed Jan  2 15:48:41 PST 1991 ;	Mon Jan	21  8:00:00 GMT	1991
+sparkyfs	.erg.sri.com
+sparkyfs =	erg.sri.com
+sparkyfs	ames(2*HOURLY),	pur-ee(4*HOURLY)
+
+#N    spectrx
+#S    i386; OS/2 2.0/Waffle 1.65
+#O    SPECTROX SYSTEMS 1.408.252.1005
+#C    Aaron Anderer
+#E    szebra!spectrx!system
+#T    +1 408 446 1347
+#P    7677 Normandy Way,Cupertino, Ca 95014
+#L    37 20 41 N  / 122	3 40 W
+#R    SPECTROX SYSTEMS +1 408 252 1005
+#U    szebra tsoft therat
+#W    szebra!spectrx!system ; Sun Aug 16 11:11:11 PDT 1992
+#
+spectrx	 saigon.com
+spectrx	 = spectrx.saigon.com
+spectrx	 szebra(HOURLY),tsoft(HOURLY),nocturn(DAILY),net23(DAILY),
+	 therat(DAILY),kapono(DAILY),garg(DAILY),pooh(DAILY)
+
+#N	speedo
+#S	Sun-2/150
+#O	Speedo Cat Food	Products Corporation
+#C	Msgnr. Kenton Hoover
+#E	speedo!shibumi
+#T	+1 415 661 9718
+#P	1287-A 3rd Avenue, San Francisco, CA 94122
+#L	37 45 50 N / 122 27 30 W
+#U
+#R	Its amazing how	long names persist.  The old
+#R	speedo was sold	two years ago, but still this map
+#R	entry is here.	This map entry was written
+#W	shibumi@mica.berkeley.edu  (Msgnr. Kenton Hoover); Fri Jun 28 14:15:16 PDT 1991
+#
+speedo	well(HOURLY), catnip(DEMAND), acme(DEMAND), karlmarx(DEAD)
+
+#N	spherical
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Spherical Solutions
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+spherical =	spherical.com
+spherical	fernwood(HOURLY)
+
+#N	sphersys
+#S	unknown
+#O	Sam Goldberg
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Fri Jun	5 15:44:30 PDT 1992
+#
+sphersys	netcomsv(POLLED)
+
+#N	sphinx
+#S	unknown
+#O	Scholes	Consulting
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Mon Jun	8 16:08:22 PDT 1992
+#
+sphinx=	sphinx.com
+sphinx	.sphinx.com(LOCAL)
+sphinx	netcomsv(POLLED)
+
+#N	spies
+#S	Integrated Solutions V20 ; bsd4.3 / Wicat 160 ;	WMCS
+#O	Spies in the Wire, PUBLIC ACCESS UNIX
+#C	Andy Rubin
+#E	arubin@apple.com
+#T	+1 408 974 0058
+#P	PO box 160325, Cupertino, CA 95016
+#L	37 20 N	/ 121 55 W city
+#R	Public access unix site	with 16	dialup lines into a
+#R	terminal server.
+#R	2400 baud hunt group: 867-7790 (6 lines)
+#R	1200 baud hunt group: 867-7400 (8 lines)
+#R	UUCP (trailblazer) 867-3889, 867-4752
+#U	apple citasim tweak uuwest zorch elandes spymud
+#W	arubin@apple.com (Andy Rubin) ;	Tue Jan	22 21:44:15 PST	1991
+#
+spies =	spies.sf-bay.org
+spies	apple(DIRECT), citasim(DIRECT),	tweak(DIRECT),
+	uuwest(DIRECT),	zorch(DAILY/4),	spymud(DIRECT),
+	elandes(DAILY/4)
+
+#N	spike
+#S	DELL 486 / DELL-AT&T SVR4.2
+#O	Uniforum Association
+#C	Ralph Barker
+#E	ralph@techcomm.uniforum.org
+#T	+1 408 986 8840
+#P	2901 Tasman Drive, #201, Santa Clara, CA  95054
+#L	37 20 N	/ 121 16 W city
+#R	UUNET added to correct pathing problems.
+#W	skeltoh@sns2.sns.net (Harry Skelton); Tue Aug  4 14:59:10 CDT 1992
+#U
+#
+spike =	.uniforum.org
+usrgrp	limbo(DEMAND), xopusw(DEMAND)
+spike	uni4um(LOCAL), usrgrp(LOCAL), techcomm(LOCAL), work(LOCAL),
+	woody(LOCAL), pooh-corner(LOCAL), ziggy(LOCAL),	mc2nns(LOCAL),
+	news(LOCAL), ski(LOCAL), play(LOCAL), director(LOCAL),
+	popcorn(LOCAL),	art(DEAD), abacus(DEAD), wilco(DEAD), editor(DEAD),
+	uninews(DEAD), uunet(DIRECT)
+
+#N	spked
+#S	Unisys 5000/80e; DA-MINIS Arix System V.3
+#O	US Army	Corps of Engineers, Sacramento District
+#C	Joe Pace
+#E	postmaster@usace.mil
+#T	+1 916 557-7672
+#P	1325 J Street, Sacramento, CA  95814-2922
+#L	121 27 W / 38 33 N
+#R	Technical Support Branch, ARMS TCX (CESPKED-T)
+#U
+#W	pace@usace.mil (Joe Pace); Mon Apr 30 14:31:27 PDT 1990
+#
+spked =	spked.usace.mil
+spked	ncs3b2(DEMAND),	ucdavis(DEMAND)
+
+#N	spline
+#S	Apple Macintosh	Plus; uupc/FernMail
+#O	North Bay Network
+#C	John Harkin
+#E	moon!postmaster
+#T	+1 415 472 2452
+#P	20 Minor Ct., San Rafael, CA 94903
+#L	38 00 00 N / 122 33 23 W
+#W	jh@nbn.com (John Harkin); Tue Aug 13 20:02:22 GMT 1991
+#R	Thanks to Dave Platt for FernMail!
+#
+spline =	spline.nbn.com
+spline	<moon>(LOCAL), <nbn>(LOCAL)
+
+#N spud
+#S AMI 286; DR DOS
+#O Spud's House	BBS
+#C Tom Lemos
+#E spud!postmaster
+#T +1 415 648 8528
+#P 430 Burnett Av 19,San Francisco,CA 94131
+#L 37 46 N / 122 25 W city
+#R Spud's House	BBS  +1	415 648	8528 Public Usenet Access
+#W spud!tom (Tom Lemos); Sun May 10 12:22:42 1992 PST
+#
+spud = spud.kludge.com
+spud tsi(DAILY)
+
+#N	square2
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Square Two, Inc.
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+square2	=	square2.sf.ca.us
+square2	fernwood(HOURLY)
+
+#N	sr0
+#S	unknown
+#O	Software Research, Inc.
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Mon Jun	8 16:29:38 PDT 1992
+#
+sr0=	soft.com
+sr0	.soft.com(LOCAL)
+sr0	netcomsv(POLLED)
+
+#N	sri-unix
+#S	Sun 4/280S; SunOS 4.1.1
+#O	SRI International
+#C	Susan Cole
+#E	sri-unix!cole
+#T
+#P	333 Ravenswood Avenue, Menlo Park, CA 94025
+#L	37 27 30 N / 122 10 20 W
+#R
+#U
+#W	sri-unix!cole (Susan Cole) ; Wed Aug 28	14:07:25 PDT 1991
+#
+sri-unix	.sri.com
+sri-unix =	unix.sri.com, sri-unix.arpa, sri-unix.sri.com
+sri-unix	amdahl(DEMAND),	ctnews(DAILY), fernwood(WEEKLY),
+	cic(POLLED), clipper(POLLED), harvisr(DEMAND),
+	husc6(DEMAND+FAST), menlo70(DEMAND), orc(HOURLY),
+	pyramid(HOURLY), quintus(POLLED), rutgers(HOURLY+FAST),
+	sytek(DAILY), tcipro(EVENING), tcomeng(WEEKLY),	llustig(POLLED)
+
+#N	srtest
+#S	SUN 4/60; SunOs	4.1.1
+#O	Sunrise	Test Systems, Inc.
+#C	Jon Hartlaub
+#E	srtest!jon, srtest!postmaster
+#T	+1 (408) 739-4076 x124
+#P	1095 E.	Duane Ave., #207, Sunnyvale, CA	94086
+#L	37 22 30 N / 122 7 30 W	city
+#R
+#U
+#W	jon!srtest (Jon	Hartlaub); Tue Jun 18 14:51:01 PDT 1991
+#
+srtest	daver(DAILY/4)
+
+#N	srv1
+#S	unknown
+#O	Decision Focus
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Tue Jun	9 15:33:08 PDT 1992
+#
+srv1=	dfi.com
+srv1	.dfi.com(LOCAL)
+srv1	netcomsv(POLLED)
+
+#N	ssfo01
+#S	IBM-AT;	SCO 2.2
+#O	Good Shepherd
+#C	Dianne Leonetti
+#E	ssfo01!dianne
+#T	+1 415 355 2593
+#P	Pacifica, CA
+#L
+#R
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu	Nov  9 11:22:33	EST 1989
+ssfo01	ki4pv(DAILY), cdin-1(DAILY), dpdx01(DAILY)
+
+#N	ssfpd
+#S	Micronics 80386-33; Xenix 2.3.2
+#O	South San Francisco Police Dept.
+#C	Daryl Jones
+#E	ssfpd!daryl
+#T	+1 415 877 8676
+#P	33 Arroyo Drive, So. San Francisco, CA 94080
+#L	37 39 53 N / 122 25 7 W
+#R	Municipal law enforcement.
+#U	tcomeng
+#W	ssfpd!daryl (Daryl Jones); 21 Jan 1991
+#
+ssfpd	tcomeng(DEDICATED)
+
+#N	ssigv
+#S	Sun SPARCStation 2; SunOS 4.1.1
+#O	Silicon	Systems	Incorporated
+#C	Don Lewis
+#E	ssigv!postmaster, postmaster@ssi1.com
+#T	+1 916 265 3211
+#P	138 New	Mohawk Road, Nevada City, CA  95959
+#L	39 14 54 N / 121 00 57 W
+#R
+#U	gvgpsa uunet
+#W	ssigv!lewis (Don Lewis); Fri Jan 31 18:12:26 PST 1992
+#
+ssigv	ssi1.com(LOCAL), .ssi1.com(LOCAL)
+ssigv =	sunrise.ssi1.com
+ssigv	uunet(EVENING)
+
+#N	ssiwest
+#S	Sun 3/180 ; SunOS 4.1
+#O	Supercomputer Systems, Inc.
+#C	Chuck Rasbold
+#E	ssiwest!postmaster
+#T	+1 415 373 8020
+#P	2021 Las Positas Court,	Suite 101, Livermore, CA 94550
+#L	37 40 N	/ 121 48 W
+#R
+#U
+#W	ssiwest!rasbold	(Chuck Rasbold)	; Tue Jan 21 11:30:24 PDT 1991
+#
+ssiwest	llnl(DIRECT), ssi(DIRECT), abhg(DIRECT)
+
+#N	ssr
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Newspager Corp.	of America
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+ssr =	ssr.nca.sf.ca.us
+ssr	fernwood(HOURLY)
+
+#N	sst
+#S	sun 4/470 sunos	4.1
+#O	Sophia Systems and Technology
+#C	Alex Kreis
+#E	atk@java.sophia.com
+#T	+1 415 493 6700
+#P	777 California Ave. Palo Alto, CA  94304
+#L	37 26 N	122 08 W
+#R
+#W	evie@uunet.UU.NET (Evie	Allen);	Wed Jun	17 12:28:28 EDT	1992
+#U
+#
+sst	uunet(DEMAND)
+
+#N	ssui01
+#F	dsinc.dsi.com
+#S	386; SCO XENIX 2.3.1
+#O	St Mary	Church
+#C	Rev. Daniel Casey
+#E	ssui01!dan
+#T	+1 707 448 2390
+#P	250 Stinson Ave.; Vacaville, CA	75688
+#L
+#R	2614
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu	Jan 24 12:13:14	EST 1991
+ssui01 =	ssui01.compu.com
+ssui01	cdin-1(DAILY), ki4pv(WEEKLY), ssui02(DAILY), ssfo01(DAILY)
+
+#N	ssui02
+#F	dsinc.dsi.com
+#S	Wyse 286;
+#O	St Leo Parish
+#C	Jim McFadden
+#E	ssui02!jimm
+#T	+1 707 996 7503
+#P	601 W. Agua Caliente Rd.; Boyes	Hot Springs, CA	95476
+#L
+#R	2008
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu	Jan 24 12:13:14	EST 1991
+ssui02 =	ssui02.compu.com
+ssui02	ssui01(DAILY)
+
+#N	stadium
+#S	80286 clone; MS-DOS 3.3
+#O
+#C	Rich MacKinnon
+#E	stadium!rich, spartan@cup.portal.com
+#T	+1 408 377 5349
+#P	1793 Braddock Ct, San Jose, CA,	USA
+#L	121 47 W / 37 13 30 N city
+#R	leaf site only
+#U
+#W	stadium!rich (Rich MacKinnon); Mon Mar 11 20:04:20 PST 1991
+#
+stadium	portal(WEEKLY/5)
+
+#N	staltec
+#S	386 SCO	Xenix 3.2
+#O	Stallion Technologies, Inc.
+#C	Mike New
+#E	staltec!anvilus
+#T	+1 408 395 5775
+#P	983 University Ave., Suite 104,	Los Gatos, CA 95030
+#L	37 13 N	/ 121 58 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Tue Apr 17 15:14:39 EDT 1990
+#U
+#
+staltec	uunet(DEMAND)
+
+#N	starflt
+#S	SCO Unix/386 ODT
+#O	Starflight Corp.
+#C	Jon Roland
+#E	starflt!root
+#T	+1 415 361 8141
+#P	1755 East Bayshore Rd. #9A,Redwood City, CA 94063
+#L	39 29 N	/ 122 14 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb 20 21:48:03 EST 1991
+#U
+#
+starflt	uunet(DEMAND)
+
+#N	stargazr
+#S	Dell 420DE-Sury
+#O	Beckett	& Associates
+#C	Richard	Beckett
+#E	stargazr!beckett
+#T	+1 510 887 1974
+#P	437 Puerto Place, Haywood, CA 94541
+#L	37 40 N	/ 122 04 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Thu May	7 10:13:33 EDT 1992
+#U
+#
+stargazr	uunet(DEMAND)
+
+#N	starnet
+#S	SUN sparcsystem;SunOS 4.1.1
+#F	apple.com
+#O	Starnet	Connections
+#C	Richard	Mahn
+#E	starnet!rich
+#T	+1 415 949 5626
+#P	101 First Street, Suite	275, Los Altos,	CA  94022
+#L
+#R
+#W	starnet!rich (Rich Mahn); Mon Aug  3 16:45:44 PDT 1992
+#U
+#
+starnet	=	starconn.com
+starnet	.starconn.com
+starnet	amdahl(DEMAND),	mrspoc(DIRECT+FAST),
+	apple(DIRECT+FAST), motcsd(DIRECT+FAST), decwrl(DIRECT+FAST),
+	sun(DIRECT+FAST)
+
+#N	starnine
+#F	uunet.uu.net
+#S	Apple Macintosh	II; A/UX Release 1.0
+#O	StarNine Technologies, Inc.
+#C	Tom Biddulph
+#E	starnine!postmaster
+#T	+1 415 548 0391
+#P	2126 Sixth Street, Berkeley, CA	94710
+#L	37 52 N	/ 122 13 W
+#R	UNIX to	Macintosh mail connectivity software, A/UX device drivers
+#U
+#W	starnine!bid (Tom Biddulph); 21	Jan 1991
+#
+starnine	.starnine.com
+starnine =	starnine.com
+starnine	uunet(HOURLY), unisoft(HOURLY),	apple(DEMAND)
+
+#N	steggie
+#S	NeXT Station ; NeXT Mach 2.1
+#O	BLT Enterprises
+#C	Eric N.	Fronberg
+#E	steggie!eric
+#T	+1 415 967 2748
+#P	2034 San Luis #1 Mountain View,	Ca  94043
+#L	37 25 N	/ 122 5	W city
+#R	This is	my home	machine
+#U	ultra
+#W	steggie!eric (Eric Fronberg) ;Wed Jul  1 20:34:06 PDT 1992
+#
+steggie	=	steggie.mtview.ca.us
+steggie	altos(DAILY), heltel(DIRECT), sgi(DIRECT), sun(DIRECT),
+	ultra(DIRECT)
+
+#N	steiny
+#S	i486; Microport	System V.4/386 - release 4.3
+#O	Don Steiny Software
+#C	Don Steiny
+#E	steiny!steiny
+#T	+1 408 425 0382
+#P	214 Calvin Place, Santa	Cruz, CA 95060
+#L	36 58 N	/ 122 3	W city
+#R
+#U
+#W	steiny@steiny.com (Don Steiny);	Sun May	31 16:23:57 PDT	1992
+#
+steiny	infoserv.com(HOURLY)
+
+#N	step
+#S	Sun-4/IPC; SunOS 4.1.1
+#O	Step Engineering
+#C	Daniel Weaver
+#E	step!dan
+#T	+1 408 733 7837
+#P	661 E. Arques, Sunnyvale, CA 94088
+#L	37 22 54.5 N / 122 00 21.4 W
+#R
+#U	amdcad
+#W	step!dan (Daniel Weaver); Wed May  6 09:32:14 PDT 1992
+#
+step	amdcad(DIRECT),	fmiapd2(DIRECT), intelhf(DEMAND+LOW), key(DEMAND)
+
+#N	stephen
+#S	Unix Workstation
+#O	Stephen	Adams &	Associates
+#C	Cecil Coe
+#E	stephen!root
+#T	+1 415 780 2800
+#P	123 Saginaw Drive, Redwood City, CA 94063
+#L	37 29 N	/ 122 14 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Wed Aug	8 08:54:02 EDT 1990
+#U
+#
+stephen	uunet(DEMAND)
+
+#N	stepper
+#S	Sun 3/160S; 4.2	BSD UNIX (Sun Release 3.5)
+#O	Ultratech Stepper (A Unit of General Signal)
+#C	T. Michael Turney
+#E	stepper!postmaster
+#T	+1 408 982 5710
+#P	2905 Scott Blvd, P.O. Box 58103, Santa Clara, CA 95052-8103
+#R
+#L	37 22 10 N / 121 55 20 W
+#W	stepper!mike; 31 Jan 90
+#
+stepper	sun(HOURLY)
+
+#N	sticks
+#S	PC Clone running UUPC
+#O	American Data Cable
+#C	Steuart	Bjornsson
+#E	esb@sticks.uucp
+#T	+1 916 622 3465
+#P	PO Box 2212, Placerville, CA 95667
+#L	38 42 N	/ 120 55 W
+#R	Computer Architecture, Instrumentation,	and Controls
+#W	david@infopro.com (David Fiedler); Thu Mar 12 12:39:01 PST 1992
+#U	infopro
+#
+#
+sticks	infopro(DEMAND)
+
+#N	stormbringer
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Atherton Software Works
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Wed	Jan 15 14:25:47	PST 1992
+#
+stormbringer =	asw.com
+stormbringer	fernwood(HOURLY)
+
+#N	strategy
+#F	portal
+#S	Sun; SunOS 4.0.3
+#O	Maximum	Strategy Inc
+#C	Blake Homan
+#E	strateg!postmaster
+#T	+1 408 456 8880
+#P	2185 Old Oakland Road, San Jose, CA 95131
+#L	37 20 07 N / 121 53 38 W [city]
+#R	Portal Communications Company gateway
+#U
+#W	portal!rich (Rich MacKinnon); Thu May 28 16:21:06 PDT 1992
+#
+strategy  .maxstrat.com
+strategy= strateg.portal.com
+strategy  portal(POLLED)
+
+#N	stratus
+#S	Stratus	XA/2000; FTX 1.1
+#O	Stratus	Western	Development Center
+#C	David Burkhalter
+#E	stratus!postmaster
+#T	+1 408 559 5382
+#P	2065 Hamilton Avenue, San Jose,	CA 95126
+#L	37 16 33 N / 122 00 14 W
+#R	Fault tolerant U*IX development	for Stratus Computer, Inc.
+#U	netcom oliveb voder
+#W	stratus!gbs (George B. Smith); Tue Feb 26 15:09:37 PST 1991
+#
+stratus	=	swdc.stratus.com
+stratus	.swdc.stratus.com(LOCAL)
+stratus	amdahl(DEMAND),	ames(DEMAND+LOW), comsto(DEMAND),
+	infoserv(DEMAND), <k9haven>(DAILY), lectroid(DEDICATED),
+	<lupine>(DEMAND), netcom(DEMAND+HIGH), oliveb(DEMAND+HIGH),
+	<osc>(DEMAND), <sybase>(DEMAND), <uunet>(DEMAND+FAST),
+	voder(DEMAND+HIGH)
+
+#N	streotxs
+#S	SUN 4/110 Sparc	Station
+#O	Stereotaxis, Inc.
+#C	Michael	Lawson
+#E	streotxs!root
+#T	+1 510 443 0327
+#P	50 North Canyons Pkwy Livermore, CA  94550
+#L	37 40 N	121 46 W
+#R
+#W	evie@uunet.UU.NET (Evie	Allen);	Thu Jul	16 15:18:04 EDT	1992
+#U
+#
+streotxs	uunet(DEMAND)
+
+#N	suemac
+#S	Apple Macintosh	Plus; Gnuucp
+#C	Steven E. Watt
+#E	wattres!steve
+#T	+1 408 255 9677
+#P	220 Waverly, Palo Alto,	CA 94301-1442
+#L	37 18 30 N / 122 1 9 W
+#W	wattres!steve (Steven E. Watt);	Tue Dec	24 23:02:56 PST	1991
+#
+suemac	wattres(POLLED)
+
+#N	sui
+#S	Sun Sparcstation 1
+#O	Siemen Ultrasound, Inc.
+#C	Peter Nau
+#E	sui!root
+#T	+1 415 277 3300
+#P	2527 Camino Ramon, San Ramon, CA 94583
+#L	37 46 N	/ 121 58 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Wed Jul 11 10:34:59 EDT 1990
+#U
+#
+sui	uunet(DEMAND)
+
+#N	sumitomo
+#S	Intel MPE 386; System V, Release 3.2
+#O	Sumitomo Electric USA, Inc.
+#C	Toru Murase
+#E	sumitomo!root
+#T	+1 408 737 8517
+#P	3235 Kifer Road, Santa Clara, CA  95051
+#L	37 20 N	/ 121 56 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Tue Nov 21	17:31:21 EST 1989
+#U
+#
+sumitomo	uunet(DEMAND)
+
+#N	sun
+#F	sun.com
+#S	Sun-3; SunOS 4.1
+#O	Sun Microsystems Inc.
+#C	Bill Shannon
+#E	sun!shannon
+#T	+1 415 960 1300
+#P	2550 Garcia Avenue, Mountain View, CA 94043
+#L	37 25 44 N / 122 5 49 W
+#U	aeras amdcad apple exodus imagen plx
+#R	registered on Arpanet
+#W	sun!shannon (Bill Shannon) ; Fri Aug 28	07:48:35 PDT 1992
+#
+sun	.sun.com
+sun=	sun.com
+sun	abitare(WEEKLY), adobe(DIRECT+HIGH), aeras(DEMAND+HIGH+HIGH),
+	allegra(DEMAND), altos(DIRECT+HIGH), amdahl(DEMAND+HIGH+HIGH),
+	amdcad(DEMAND+HIGH+HIGH), apple(DEMAND+HIGH+HIGH+LOW),
+	atari(DIRECT+HIGH), athertn(DIRECT+HIGH), att(DEMAND+HIGH),
+	attain(DIRECT+HIGH), auspex(DIRECT+HIGH), autodesk(DIRECT+HIGH),
+	barcode(WEEKLY), bellcore(DEMAND+HIGH),	bit(DEMAND+HIGH),
+	bitbrain(DIRECT), bridge2(DIRECT+LOW), buddy(DEMAND+HIGH),
+	bween(WEEKLY), cadence(WEEKLY),	cadreri(DEMAND+HIGH),
+	ccicpg(DEMAND+HIGH), cdlnctr(DEMAND+HIGH), celit(DEMAND+HIGH),
+	chelm(WEEKLY), cimlinc(DEMAND+HIGH), citabria(WEEKLY),
+	claris(DIRECT+HIGH), cloudy(WEEKLY), convex(DEMAND+HIGH),
+	crl(DIRECT+HIGH), cvbnet(DEMAND+LOW), daslink(EVENING),
+	daver(DIRECT+HIGH), dcjhome(DIRECT), decvax(DEMAND+HIGH),
+	delphi(WEEKLY),	diogenes(WEEKLY), dionysus(DIRECT+HIGH),
+	dlb(DIRECT+HIGH), ecrm(DEMAND+HIGH), edsel(WEEKLY),
+	edsews(DEMAND+HIGH), emsca(WEEKLY), enera(WEEKLY), eyrie(WEEKLY),
+	fai(DIRECT+HIGH), fear(DIRECT),	fernwood(DIRECT+HIGH),
+	fluke(DEMAND+HIGH), fmiapd2(DIRECT+HIGH), franz(DIRECT+HIGH+LOW),
+	gandhi(DIRECT),	gumbo(WEEKLY), gw3com(DIRECT+HIGH), hendrix(WEEKLY),
+	hitachi(WEEKLY), hoptoad(DEMAND), icmv(WEEKLY),	ico(DEMAND+HIGH),
+	ide(DIRECT+HIGH), iis(WEEKLY), imagen(DEMAND+HIGH+HIGH+LOW),
+	indetech(DEMAND+HIGH), inmet(DEMAND+HIGH+LOW), innovat(WEEKLY),
+	iphasew(DIRECT+HIGH), iqix(DIRECT+HIGH), island(DIRECT+HIGH+LOW),
+	jetsun(DIRECT+HIGH), jfrank(DIRECT+HIGH), kass(DIRECT+HIGH),
+	kccs(DIRECT+HIGH), key(DEMAND+HIGH), kla(DIRECT+HIGH), laidbak(DEMAND),
+	lanslide(DIRECT), larse(WEEKLY), lassen(DIRECT+HIGH),
+	leadsv(DIRECT+HIGH), legato(DIRECT), livingston(DIRECT), lock(WEEKLY),
+	lsil(WEEKLY), lucid(WEEKLY), markets(DIRECT+HIGH), masada(WEEKLY),
+	mcrware(EVENING), mdv(WEEKLY), megatek(WEEKLY),
+	megatest(DIRECT+HIGH+LOW), metaware(DIRECT+HIGH), mfocus(DIRECT+HIGH),
+	microsoft(DEMAND+HIGH),	minx(WEEKLY), mirador(DIRECT+HIGH),
+	mtxinu(DEMAND),	musicman(WEEKLY), nasadc(WEEKLY), nathan(WEEKLY),
+	nissan2(WEEKLY), nsc(DIRECT+HIGH), ntrlink(WEEKLY), oakhill(WEEKLY),
+	objy(DIRECT+HIGH), oliveb(DIRECT+HIGH),	omni(WEEKLY), onager(WEEKLY),
+	onesun(WEEKLY),	opusys(DIRECT+HIGH), osg(DEMAND), parallax(DIRECT),
+	parcplace(DIRECT+HIGH),	pcw(WEEKLY), peernet(WEEKLY),
+	perigee(DIRECT+HIGH), perot(DEMAND), pid(WEEKLY),
+	pipeline(DEMAND+HIGH), pixar(DEMAND), plato(DIRECT),
+	plus5(DEMAND+HIGH), pluto(DEMAND+HIGH),	plx(DEMAND+HIGH+HIGH),
+	poseur(WEEKLY),	practic(DIRECT+HIGH), pyramid(DIRECT+HIGH),
+	qad(WEEKLY), qubix(EVENING), quintus(DIRECT), rayssd(DEMAND+HIGH),
+	redwood(WEEKLY), remedy(WEEKLY), resonex(DEAD),	rosalind(WEEKLY),
+	rtech(DEMAND), s5(WEEKLY), saxman(WEEKLY), saxony(DIRECT),
+	sco(DIRECT+HIGH), sdatasc(WEEKLY), sdcarl(DEMAND), sdcrsi(DEMAND+HIGH),
+	sdl(DEMAND+HIGH), sequent(DEMAND+HIGH),	sertek(WEEKLY),
+	sgi(DIRECT+HIGH), shell(DEMAND), silvlis(DIRECT+HIGH), sjsumcs(DIRECT),
+	ska(DIRECT), smitomo(WEEKLY), smmicro(WEEKLY), soland(WEEKLY),
+	sono(DIRECT+HIGH), sst(DIRECT+HIGH), stafford(DEMAND+HIGH),
+	stan(WEEKLY), starnet(DIRECT+HIGH), station1(WEEKLY),
+	steggie(DIRECT+HIGH), stepper(DIRECT), sts(DEMAND+HIGH),
+	sunarg(WEEKLY),	sunbraz(WEEKLY), sunisv(WEEKLY), sunjam(WEEKLY),
+	sunmex(WEEKLY),	sunuru(WEEKLY),	suprtek(WEEKLY), svmsg(WEEKLY),
+	sybase(DIRECT+HIGH), synapsis(WEEKLY), synergy(WEEKLY),
+	systema(WEEKLY), tammy(WEEKLY),	teamone(WEEKLY), thirdi(WEEKLY),
+	tikibar(WEEKLY), tracker(WEEKLY), tudor(DIRECT+HIGH), twilley(WEEKLY),
+	ufrt(WEEKLY), uiunix(DEMAND), ultra(WEEKLY), unislc(DEMAND+HIGH),
+	unisoft(DEMAND), usl(DEMAND+HIGH), ussertk(WEEKLY), uworld(WEEKLY),
+	valid(WEEKLY), validgh(DIRECT+HIGH), varsun(WEEKLY),
+	verdix(DEMAND+HIGH), versatc(DIRECT+HIGH), vitsemi(DIRECT+HIGH),
+	vortex(DEMAND+HIGH+HIGH), vrtex(WEEKLY), vsi1(DIRECT+HIGH),
+	wascoey(WEEKLY), wesfdd2(WEEKLY), wrs(DEMAND), xanadu(DIRECT+HIGH),
+	xopusw(WEEKLY),	zehntel(DEMAND+LOW), zycad(DIRECT+HIGH)
+
+#N	sunjose
+#S	Sun SparcStation; SunOS	4.0.3
+#O	Test Systems Strategies, Inc., San Jose	Field Office
+#C	Steve Willoughby
+#E	tessi!steve
+#T	+1 800 642 9281, +1 503	643 9281
+#P	San Jose, CA
+#L	37 24 N	/ 121 56 W city
+#R
+#U
+#W	tessi!steve (Steve Willoughby);	Sat Feb	 8 11:42:56 PST	1992
+#
+sunjose	tessi(EVENING)
+
+#N	surak
+#S	Sun-4/60C-16
+#O	Odegard	Labs, Inc.
+#C	Frode Odegard
+#E	surak!postmaster, surak!frode
+#T	+1 415 434 4242
+#P	100 Bush Street, Suite 625, San	Francisco, CA 94104
+#L	37 minutes 45 seconds N	/ 122 minutes 27 seconds W (city center)
+#U	pacbell
+#W	surak!frode (Frode Odegard); Wed Nov 27	01:40:11 PST 1991
+#
+#	site(frequency)		# Company name		Postmaster
+#
+# Local	UUCP neighbours	-- it's	free for us to call them
+#
+surak	cshub(DIRECT)		# San Francisco		Erik Scott (eps)
+#				  State	University
+#
+# Bay area sites we talk to whenever we	have traffic.
+#
+#
+# Sites	that poll us every day.
+#
+#
+# Sites	that poll us occasionally.
+#
+
+#N	surfsoft
+#S	AMT 386; Microport System V/386
+#O	Surf Software
+#C	Terry Alan Braschi
+#E	surfsoft!postmaster
+#T	+1 408 429 1811
+#P	PO Box 1386, Santa Cruz, CA 95061
+#L	36 58 32 N / 122 1 30 W	city
+#R	your system software resource
+#U
+#W	surfsoft!terry;	Tue Oct	10 09:25:04 PDT	1989
+#
+surfsoft	diogenes(DEMAND), surfjj(DIRECT), xwind(DEMAND)
+
+#N	suugaku
+#S	IBM RS/6000
+#O	Chevron	Research and Technology	Company
+#C	Paul Merz
+#E	suugaku!manager
+#T	+1 415 620 4304
+#P	100 Chevron Way, P.O.Box 1627, Richmond, CA 94802-0627
+#L	37 56 N	/ 122 20 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Wed Apr 12	11:34:04 EDT 1989
+#U
+#
+
+#N	svcs1
+#S	AT&T 3B2/1000-80; UNIX System V, Rel. 3.2.2
+#O	Silicon	Valley Computer	Society
+#C	Paul M.	Craig
+#E	svcs1!craig
+#T	+1 408 522 4819
+#P	1090 East Duane	Avenue,	Sunnyvale, CA  94086
+#L	37 22 N	/ 121 59 W city
+#R
+#U
+#W	svcs1!craig (Paul Craig); Tue Nov 19 17:15:00 PST 1991
+#
+svcs1	mips(DIRECT+FAST), uunet(EVENING+FAST),	ys2(DIRECT+FAST)
+
+#N	svmard
+#S	DEC Microvax II; Ultrix	4.2
+#O	Westinghouse Electric Corporation, Marine Division
+#C	Lyle Harris
+#E	svmard!delth
+#T	+1 408 735 3933
+#P	401 E. Hendy Ave, Sunnyvale, CA	 94088
+#L	37 22 N	/ 122 02 W [city]
+#R
+#U
+#W	svmard!delth (Lyle Harris); Fri	Mar 20 9:15:00 PST 1992
+#
+svmard	.mard.wec.com
+svmard =	svmard.wec.com,	svmard.mard.wec.com
+#
+svmard	daver(DIRECT)
+
+#N	svnet
+#S	Counterpoint 19K
+#O	Silicon	Valley Net
+#C	Ralph Barker
+#E	svnet!ralph
+#T	+1 408 986 8840
+#P	640 S. Winchester Ave.,	San Jose, CA 95128
+#L	37 20 N	/ 121 53 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Thu Mar	1 09:39:51 EST 1990
+#U
+#
+svnet	uunet(DEMAND)
+
+#N	svqti
+#S	Hewlett-Packard	9000/320
+#O	Westinghouse Electric Corporation, Marine Division
+#C	Richard	Walker
+#E	svqti!derkw, svqti!postmaster
+#T	+1 408 735 4950
+#P	401 E. Hendy Ave, Sunnyvale, CA	 94088
+#L	37 22 N	/ 122 02 W [city]
+#R
+#U
+#W	svqti!derkw (Richard Walker); Tue Mar 17 9:15:00 PST 1991
+#
+svqti =	svqti.wec.com
+svqti =	svqti.mard.wec.com
+#
+svqti	daver(DIRECT)
+#
+
+#N	svsg
+#S	386;Xenix System V
+#O	Scotts Valley Software Group
+#C	John Muth
+#E	svsg!postmaster
+#T	+1 408 438 7884
+#P	P.O.Box	66694, Scotts Valley, CA 95067-6694
+#L	37 03 N	/ 122 00 W city
+#R
+#W	svsg!muth (John	Muth) ;	Fri Feb	23 10:08:30 PST	1990
+#U
+#
+svsg	uunet(DEMAND)
+
+#N	swagman
+#S	unknown
+#O	Personal - Patrick MC Evoy
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Tue Jun	9 15:19:18 PDT 1992
+#
+swagman=	swagman.com
+swagman	.swagman.com(LOCAL)
+swagman	netcomsv(POLLED)
+
+#N	swapout
+#S	IBM PC 80386; MS-DOS 3.3
+#O	Private	System
+#C	Ben Rudiak-Gould
+#E	swapout!postmaster
+#T	+1 510 527 0661
+#P	969 Curtis St.,	Albany,	CA 94706
+#L	122 15 W / 37 51 N
+#R	This is	a private system; I can't provide mail or news feeds. Sorry.
+#U
+#W	swapout!ben (Ben Rudiak-Gould);	Sun Oct	14 00:10:59 PDT	1991
+#
+swapout	barn(DIRECT), medicus(DIRECT)
+
+#N	sybase
+#F	sun.com
+#O	Sybase,	Inc.
+#S	Sun 2/170; SunOS 4.0.3
+#C	Nick Cuccia
+#E	sybase!postmaster
+#T	+1 415 596 3500
+#P	6475 Christie Avenue, Emeryville, CA 94608
+#L	37 49 N	/ 122 15 W
+#R	registered
+#U	mtxinu
+#W	sybase!cuccia (Nick Cuccia);  Mon Feb 26 17:28:50 PST 1990
+#
+sybase	.sybase.com
+sybase =	sybase.com
+#
+# local	calls
+#
+sybase	mtxinu(DEDICATED), ebmudd(DEDICATED), <capmkt>(DEDICATED),
+	ska(DEDICATED)
+#
+# zone calls
+#
+sybase	pacbell(DIRECT), pyramid(DIRECT), sfsun(DIRECT),
+	lll-tis(DIRECT), <stratus>(DIRECT), sun(DIRECT), hippo(DIRECT),
+	pcg(DIRECT), <sun-hpd>(DIRECT),	altos86(DIRECT), next(DIRECT),
+	thirdi(DIRECT),	daisy(DIRECT)
+#
+# long-distance	in-state calls
+#
+sybase	<ashtate>(DEMAND), <wiley>(DEMAND)
+#
+# out-of-state calls
+#
+sybase	<microsoft>(DEMAND+50),	<lectroid>(DEMAND+50), <osiris>(DEMAND+50),
+	<lotus>(DEMAND+50), <attunix>(DEMAND+50)
+#
+# out-of-country calls
+#
+sybase	<syboz>(DEMAND+100)
+
+#N	sybex
+#S	unknown
+#O	Sybex, Inc.
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Tue Jun	9 15:45:52 PDT 1992
+#
+sybex=	sybex.com
+sybex	.sybex.com(LOCAL)
+sybex	netcomsv(POLLED)
+
+#N	symlab
+#F	mips.com
+#S	Sun 4/330; SunOS 4.0.3
+#O	Symphony Laboratories
+#C	Phil Mak
+#E	symlab!mak
+#T	+1 408 986 1701
+#P	2620 Augustine Dr., Suite #250,	Santa Clara, CA	95054
+#L	37 22 54.5 N / 122 00 21.4 W
+#R	FAX: +1	408 986	1771
+#U	mips
+#W	mips!symlab!mak	(Phil Mak);  Thu Jan 24	16:01:02 PST 1991
+#
+symlab	.symlab.com
+symlab =	symlab.com, symlab.symlab.com
+symlab	mips(HOURLY)
+
+#N	synaptx
+#F	uunet.uu.net
+#S	Sun 3/280; Sun OS 4.1
+#O	Synaptics, Inc.
+#C	Glenn E. Gribble
+#E	postmaster@synaptics.com
+#T	+1 408 434 0110
+#P	2860 Zanker Road, #206,	San Jose, CA  95134
+#L	37 20 N	/ 121 55 W city
+#R
+#U	uunet
+#W	glenn@synaptics.com (Glenn Gribble); Mon Jan 21	10:14:26 PST 1991
+#
+synaptx	.synaptics.com
+synaptx	=	synaptx.synaptics.com
+synaptx	uunet(DEMAND)
+
+#N	synchrods
+#F	ames.arc.nasa.gov
+#S	DEC DECstation 3100; ULTRIX-32 3.1
+#O	SynchroDesign Inc.
+#C	Daniel Senderowicz
+#E	synchrods!postmaster
+#T	+1 415 486 0797
+#P	2140 Shattuck Ave, Suite 605, Berkeley,	CA 94704-1210
+#L	37 52 N	/ 122 14 W
+#R
+#U	ucbvax
+#W	synchrods!daniel (Daniel Senderowicz); Wed May	1 17:37:02 PDT 1991
+#
+synchrods	.synchrods.com
+synchrods =	synchrods.synchrods.com
+synchrods	ames(DIRECT), radon(HOURLY), bebita(DIRECT)
+
+#N	synopsy
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Synopsys, Inc.
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+synopsy	=	synopsys.com
+synopsy	fernwood(HOURLY)
+
+#N	synseer
+#S	Sun SPARC 1; SunOS 4.1.2 UNIX
+#O	Syntex (U.S.A.), Inc.
+#C	Bill Putney
+#E	synseer!postmaster
+#T	+1 415 855 1259
+#P	3401 Hillview Ave., Palo Alto, CA 94303
+#L	37 24 15 N / 122 8 43 W
+#R	This system is the mail	gateway	for Syntex
+#W	synseer!billp (Bill Putney); Thu Jul 16	13:24:00 PDT 1992
+#
+synseer	= syntex.com
+synseer	oliveb(HOURLY/2)
+
+#N	sysadmin
+#S	Mini-Micro 386;	System V rel 3.2
+#O	/sys/admin, inc.
+#C	Bjorn Satdeva
+#E	sysadmin!postmaster
+#T	+1 408 241 3111
+#P	2787 Moorpark Ave, San Jose, CA	95128
+#L	37 23 N	/ 122 9	W city
+#R	Registed with internet.	 Uunet holds the MX record.
+#R	Mips is	primary	forwarder.  Uunet is secondary forwarder
+#U	mips
+#W	crash!bblue (Bill Blue); Sun Jul 26 08:01:00 PDT 1992
+#
+sysadmin	.sysadmin.com(LOCAL)
+sysadmin =	sysadmin.sysadmin.com
+#
+sysadmin	crossck(EVENING), dpro(WEEKLY),	daver(DEMAND),
+	diogenes(EVENING), infopro(EVENING), mips(DEMAND+FAST),
+	mtek(EVENING), pyramid(DEMAND),	svcs1(EVENING),
+	svnet(EVENING),	tandem(DEMAND)
+
+#N	systems
+#S	unknown
+#O	Systems	Science	Inc.
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Wed Jun	10 14:22:25 PDT	1992
+#
+systems=	systems.com
+systems	.systems.com(LOCAL)
+systems	netcomsv(POLLED)
+
+#N	szebra
+#S	PC 386/20, SVR4.0.3
+#O	Station	Zebra
+#C	Tin Le
+#E	szebra!postmaster
+#T	+1 408 739-1520
+#P	Sunnyvale, CA 94086
+#L	37 28 N	/ 122 7	40 W
+#R	UNIX consulting	and public Usenet access site
+#U	claris fiver legal sonyusa spectrx zorch
+#W	tin@Saigon.COM (Tin Le); 28 Oct	91 22:30:50 PDT
+#
+#	Partial	archives for GNU and X11R4 for 386/ix.
+#	Source code and	usually	binaries available.
+#
+
+# saigon.com is	a registered domain
+szebra	.saigon.com(LOCAL)
+szebra =	saigon.com
+szebra =	szebra.saigon.com
+
+# Update should	be sent	to nca-maps@violet.berkeley.edu
+#
+# DIRECT	is a local free	call
+# DEMAND	is a local toll	call
+# DEMAND+100	is a long distance toll	call
+# POLLED	not called by us at all
+#
+# HIGH is added	to reliable/high traffic sites
+# LOW is added to less reliable	sites or just to discourage traffic thru them
+#
+# principal and/or well	known connections
+szebra	sonyusa(DIRECT+HOURLY),	claris(DIRECT+HOURLY),
+	zorch(DIRECT+HOURLY),
+	legal(POLLED),
+	spectrx(POLLED)
+
+#N	tabarzin
+#S	Sun 386i/250; SunOS 4.0.2
+#O	US Army	Corps of Engineers, Sacramento District
+#C	Joe Pace
+#E	postmaster@usace.mil
+#T	+1 916 557-7672
+#P	1325 J Street, Sacramento, CA  95814-2922
+#L	121 27 W / 38 33 N
+#R	Engineering Division, ARMS TCX Group (CESPKED-T)
+#W	pace@usace.mil (Joe Pace); Mon Apr 30 14:31:27 PDT 1990
+#
+tabarzin =	tabarzin.usace.mil
+tabarzin	longbow(LOCAL)
+
+#N	talarian
+#S	SPARCstation 1;	SunOS 4.0.3c
+#O	Talarian Corporation
+#C	Scott Weitzenkamp
+#E	talarian!scott
+#T	+1 415 965 8050
+#P	1043 N.	Shoreline Blvd., Suite 201, Mountain View, CA 94043
+#L
+#R	Makers of R*TIME real-time monitoring software.
+#U
+#W	uunet!talarian!scott (Scott Weitzenkamp); 21 Jan 1991
+#
+talarian	uunet(DAILY)
+
+#N	talke
+#S	unknown
+#O	Personal - Andrew Moore
+#C	Robert Hood
+#E	postmaster@netcom.com
+#T	+1 408 554 UNIX
+#P	4000 Moorpark Avenue Suite 209,	San Jose, CA 95117
+#L	37 10 01 N / 121 53 19 W
+#R	This map was generated by Netcom as a service to our customer
+#W	hoodr@netcom.com (Robert Hood);	Mon Jun	8 15:21:06 PDT 1992
+#
+talke	netcomsv(POLLED)
+
+#N	tandem
+#S	SUN 4-60; 4.1.2	SunOS
+#O	Tandem Computers, Inc.
+#C	Kevin J. Rowett
+#E	tandem!usenet
+#T	1 408 865 4325
+#P	10501 N. Tantau, Cupertino, CA 95014
+#L	37 19 30 N / 122 0 15 W
+#R	Tandem Computers G/W node
+#U	pacbell	ub-gate	zorch
+#W	tandem!scott (Scott Hazen Mueller); Fri	Aug 14 09:50:16	PDT 1992
+#
+tandem	.tandem.com
+tandem=	suntan.tandem.com
+tandem=	tandem.com
+tandem	apple(DEAD), farside(DEAD), lbc(DIRECT), mips(DIRECT), rtech(DEAD),
+	sysadmin(DIRECT), tdmedu(DEAD),	tdmfed(DAILY), ub-gate(DAILY),
+	xopusw(DIRECT),	zorch(DIRECT)
+
+#N	tangent
+#F	tangent.com
+#S	Tangent	386; SCO 3.2.2
+#O	Tangent	Computer Inc.
+#C	Jeff Saxton
+#E	root@tangent.com
+#T	+1 415 342 9388
+#P	197 Airport Blvd. Burlingame CA	94010
+#L	37 35 N	/ 122 25 W city
+#R	Microcomputer Sales, Integration
+#U	netcomsv
+#W	root@tangent.com (jeff Saxton);	Mon Aug	18 12:00:00 PDT	1991
+#
+tangent	.tangent.com(LOCAL)
+tangent	=	tangent.com
+tangent	netcomsv(HOURLY+FAST)
+
+#N	tango
+#S	SunOS 4.3.2
+#O	Data Advantage
+#C	John Desvernine
+#E	tango!palantir
+#T	+1 510 261 3400
+#P	5601 San Leandro Street, 2nd Floor, Oakland, CA	94621
+#L	37 48 N	/ 122 16 W city
+#R
+#W	jane@uunet.UU.NET (Jane	Roop); Fri Dec	6 14:48:48 EST 1991
+#U
+#
+tango	uunet(DEMAND)
+
+#N	taniwha
+#S	Apple Macintosh	II; A/UX 1.0
+#O	Taniwha	Systems	Design
+#C	Paul Campbell
+#E	taniwha!root
+#T	+1 415 540 5557
+#P	2206 Roosevelt Ave, Berkeley, CA 94703
+#L	37 48 7	N / 122	13 24 W
+#R
+#U
+#W	taniwha!root (Paul Campbell); Mon Jan 21 08:29:51 PDT 1991
+#
+taniwha	amandla(DIRECT), mtxinu(HOURLY), starnine(HOURLY),
+	viewstar(HOURLY), unisoft(HOURLY)
+
+#N	taranis
+#F	fernwood.mpk.ca.us
+#S	not available
+#O	Anterior Technology for	Taranis	Design
+#C	ACS/UUCP Customer Support
+#E	support@fernwood.mpk.ca.us
+#T	+1 415 328 5615
+#P	P.O. Box 1206-uu; Menlo	Park, CA  94026-1206; USA
+#L	37 27 30 N / 122 10 20 W
+#W	support@fernwood.mpk.ca.us; Fri	Jan  3 03:31:05	PST 1992
+#
+taranis	=	taranis.com
+taranis	fernwood(HOURLY)
+
+#N	tate
+#F	uunet.uu.net
+#S	NeXT
+#O	Ashton-Tate
+#C	Brad Rayburn (bradr)
+#E	tate!bradr
+#T	(408) 927-5013
+#P	6411 Guadalupe Mines Road, San Jose, CA	95120
+#L	37 20 N	/ 121 55 W city
+#R
+#W	tate!bradr (Brad Rayburn) ; Fri	Apr 26 11:54:18	PST 1991
+#
+tate	.a-t.com(LOCAL)
+tate	a-t.com
+tate =	tate.a-t.com
+tate	dbase(LOCAL), walnut(LOCAL), alexis(LOCAL), atsun(LOCAL),
+	forefront(LOCAL), ashtate(LOCAL), walkabout(LOCAL)
+
+#N	taunix
+#S	AT&T PC7300; UNIX System V.2
+#O	Taranto	& Associates, Inc.
+#C	Irwin Taranto
+#E	taunix!irwin
+#T	+1 415 472 2670
+#P	80 Mark	Drive, San Rafael, CA 94903
+#L	38 0 55	N / 122	32 51 W
+#W	roger@Binky.COM	(Roger Taranto); Sat Apr 11 17:19:49 PDT 1992
+#
+taunix=taunix.binky.com
+taunix	binky(DAILY), rtech(DEMAND)
+
+#N	taygeta
+#S	MIPS 3230; RISC/os 4.5 (Unix Sys V)
+#O	Naval Postgraduate School
+#C	Professor Everett Carter
+#E	taygeta!postmaster, postmaster@taygeta.oc.nps.navy.mil
+#T	+1 408 646 3318
+#P	Department of Oceanography, Code OC/Cr,	Monterey, CA 93943
+#L	36 35 N	/ 121 55 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Sun May 19 14:32:24 EDT 1991
+#U
+#
+taygeta	uunet(DAILY), rafos(DEMAND)
+
+#N	tcad
+#S	DEC VAXStation II; VMS V5.3-1
+#O	TCAD Inc.
+#C	David Angst
+#E	tcad!postmaster
+#T	+1 415 965 8443
+#P	1111 W.	El Camino Real,	Suite 109-216, Sunnyvale, Ca 94087 USA
+#L	37 17 42 N / 122 24 38 W
+#R	Running	DECUS uucp Version 1.1 (VMSnet,	gnuucp for VMS); ANU NEWS 5.9C
+#W	tcad!postmaster	(David Angst) ;	Tue Sep	11 23:11:00 GMT	1990
+#U	infopiz
+#
+tcad	infopiz(DEMAND), triton(DEMAND)
+
+#N	tcis
+#S	MIPS Mips/OS 4.52
+#O	Teknekron Customer Info. Solutions
+#C	Richard	Lamberty
+#E	tcis!root
+#T	+1 510 540 1110
+#P	2150 Shattuck Ave., Suite 300, Berkeley, CA 94704
+#L	37 52 N	/ 122 16 W city
+#R
+#W	lori@uunet.UU.NET (Lori	Lewis);	Tue Mar	10 10:06:40 EST	1992
+#U
+#
+tcis	uunet(DEMAND)
+
+#N	tcomeng
+#S	Homebrew 80486-33; SCO Unix 3.2.2
+#O	Telecommunications Engineering Associates
+#C	Daryl Jones
+#E	tcomeng!daryl
+#T	+1 415 871 4200
+#P	409 Wildwood Drive, So.	San Francisco, CA 94080
+#L	37 39 53 N / 122 25 7 W
+#R	Telecomm. engineering for police, fire and emergency medical systems.
+#U	decwrl faximum lcomm
+#W	tcomeng!daryl (Daryl Jones); Mon Nov 16	12:59:00 PST 1991
+#
+#	We will	provide	limited	newsfeeds and/or UUCP links for	systems	in our
+#	general	area. Also, on a limited basis,	we offer a free	dial-in	service
+#	for people wanting to read news	or send	mail.
+#
+tcomeng	=	tcomeng.com
+
+tcomeng	fiver(DIRECT), szebra(DEAD), cfcl(DIRECT), sri-unix(DIRECT),
+	asylum(DEAD),	pacbell(DIRECT), decwrl(DIRECT), khijol(DIRECT),
+	llustig(DIRECT), woodowl(DEMAND), faximum(POLLED), wzlr(DIRECT),
+	ssfpd(DEDICATED), halfdom(DAILY*2), goodall(POLLED), lcomm(DIRECT)
+
+
+# End u.usa.ca.16
+SHAR_EOF
+:	End of shell archive
+exit 0
+

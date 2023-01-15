@@ -1,0 +1,1265 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.wa.1
+#	u.usa.wi.1
+#	u.usa.wv.1
+#	u.usa.wy.1
+# This archive created: Wed Apr 29 03:18:33 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.wa.1
+cat << \SHAR_EOF > u.usa.wa.1
+# Usa.wa
+# This map is maintained by Karen Summers-Horton (ksh@cbosgd.UUCP)
+
+#N	amc
+#S	DEC Vax 11/750; 4.3bsd
+#O	Applied Microsystems Corporation
+#C	Stan Tazuma
+#E	amc!postmaster
+#T	+1 206 882 2000
+#P	5020 148th Avenue N.E.; Redmond, WA 98052
+#L	122 8 27 W / 47 39 14 N 
+#R	USPS: P.O. Box 97002; Redmond, WA 98073-9702
+#W	amc!stan (Stan Tazuma); Fri Apr 10 16:36:47 EDT 1987 ksh
+#U	tikal, pilchuck
+#
+amc	tikal(DIRECT), pilchuck(DIRECT), ssc(DIRECT), sigma(DIRECT),
+	ipmoea(EVENING)
+
+#N	apcisea
+#S	Apollo DN570; DOMAIN/IX
+#O	Apollo Computer, Inc
+#C	David M. Chinn
+#E	apcisea!chinn
+#T	+1 206 453 5544
+#P	1756-114th Ave SE, Suite 202, Bellevue WA. 98004
+#L	47 33 18 N / 122 15 30 W
+#R	
+#W	David M. Chinn 12/23/86; Tue Jan 13 20:51:08 EST 1987 ksh
+#U	uw-beaver, pilchuck
+#
+apcisea	pilchuck(HOURLY), uw-beaver(HOURLY)
+
+#N	apl-em
+#S	HP 9050; HP-UX 5.05
+#O	Applied Physics Lab, University of Washington
+#C	John H. Dunlap, Maureen A. Kennelly
+#E	apl-em!root
+#T	+1 206 543 1300
+#P	1013 NE 40th St., Seattle, WA 98105
+#L	47 39 19 N / 122 18 55 W 
+#W	apl-em!dunlap (John H. Dunlap); Mon Sep  1 21:32:33 EDT 1986 ksh
+#
+apl-em	apl-uw(DIRECT), hpubvwa(DIRECT)
+apl-uw	apl-em(DIRECT)
+hpubvwa	apl-em(DIRECT)
+
+#N	bcsaic
+#S	Dec VAX 780, running Ultrix
+#O	Boeing Computer Services AI Center
+#C	Randy Groves, Stuart Stern
+#E	bcsaic!randy			
+#T	(206) 763-5393
+#P	P.O. Box 24346, M/S 7A-03, Seattle, WA 98124
+#L	122 7 W / 47 36 N
+#U	
+#R	
+#W	ksh per paper form 7/28/85, 851103 rsk
+#
+bcsaic	ssc-vax(HOURLY*3), uw-june(HOURLY)
+
+#N	bcstec
+#S	DEC PDP11/73; ULTRIX-11 3.0
+#O	Boeing Computer Services
+#C	Marc Amis
+#E	bcstec!news
+#T	+1 206 656 5577
+#P	P.O. Box 24346, MailStop 6R-79, Seattle, WA 98124-0346
+#L	47 29 N / 122 11 E city
+#W	bcstec!amis (Marc Amis); Fri Apr 10 16:38:03 EDT 1987 ksh
+#U	tahoma
+#
+bcstec	tahoma(EVENING)
+
+#N	butler
+#S	Vax 11/750, 4.2bsd
+#O	Butler Manufacturing, Controls Division
+#C	David Chinn
+#E	butler!chinn
+#T	(206) 823-7100
+#P	11825 120th Avenue, N.E/P.O. Box 2249; Kirkland, WA 98083
+#L	47 42 N / 122 8 W
+#R
+#W	David Chinn 10/01/85
+#
+butler	dataio(POLLED)
+
+#N	camco
+#S	Tandy 16a/6000; Xenix 3.0
+#O	Consultant & Seattle Unix User's Group (Slug)
+#C	Bill Campbell
+#E	camco!bill
+#T	+1 206 232 4164
+#P	6641 East Mercer Way; Mercer Island, Wa. 98040
+#L
+#R
+#U
+#W	camco!bill (Bill Campbell); Tue Jul  1 20:14:33 EDT 1986 ksh
+#
+camco	ssc(DIRECT), tikal(DIRECT), moss-bay(DIRECT),
+	hpubvwa(DIRECT), uw-osman(DAILY), seautx(DIRECT),
+	ncrsea(DIRECT), seatso(DIRECT), bethco(DIRECT), averill(DIRECT),
+	wrecosys(DIRECT), transys(DIRECT), tijil(DIRECT)
+
+#N	colossus
+#S	Tektronix 6130; UTek 2.2 (4.2 BSD)
+#O	edm enterprises
+#C	Ed Morin
+#E	colossus!postmaster
+#T	+1 206 820 0270
+#P	12810 - 125th Lane N.E. #C-15, Kirkland, WA  98034-7615
+#L	47 42 50 N / 122 10 25 W
+#U
+#R	We currently do not handle news traffic.
+#W	colossus!edm (Ed Morin); Fri Apr 10 16:40:18 EDT 1987 ksh
+#
+colossus	tikal(DEMAND), nesa(DEMAND)
+
+#N	cxsea
+#S	Motorola MVME131; Unix System V/68 Release 2, version 2.1 
+#O	Computer X Inc.
+#C	Brian L. Matthews
+#E	cxsea!blm
+#T	+1 206 251 6811
+#P	19115 W. Valley Highway, Suite H-104, Kent, WA 98032
+#L	47 25 52 N / 122 14 53 W
+#U	ssc-vax
+#R	
+#W	cxsea!blm (Brian L. Matthews); Mon Oct 20 19:13:55 EDT 1986, ksh
+#
+cxsea	ssc-vax(DAILY)
+
+#N	el-tco
+#S	uVax II; Ultrix-II
+#O	ELDEC Corporation (Technical and Central Operations)
+#C	Martin Krienke
+#E	el-tco!postmaster
+#T	+1 206 483 7840
+#P	1522 217th Place SE, Bothell, WA 98021
+#L	47 47 N  /  122 12.5 W
+#W	el-tco\!krienke (Martin Krienke); Fri Apr 10 16:41:55 EDT 1987 ksh
+#
+el-tco	uw-vlsi(DAILY/4), fluke(DEMAND)
+
+#N	gasv
+#S	Plexus P/35, Unix System III (Plexus Sys3)
+#O	Gasboy Development
+#C	Melinda A. McBride
+#E	gasv!mac
+#T	821-5030
+#P	12525 Willows Rd., Kirkland, WA 98033
+#L	122 10 W / 47 40 N
+#U	
+#R	
+#W	ksh per paper form 7/29/85, 851103 rsk
+#
+gasv	ssc(DEMAND)
+
+#N	geops
+#S	Pyramid-90x, OSx-2.5 4.2BSD universe
+#O	Geophysics, Univ. of Washington
+#C	Steve Malone
+#E	uw70!steve
+#T	(206) 545-3811
+#P	Geophysics AK-50, Univ. of Washington, Seattle, WA 98195
+#L	47 39 18 N / 122 18 30 W
+#R	Gateway to "GEOPHYSICS" LAN
+#U	uw-june, uw-atm
+#W	geops!steve 2/26/86; Sat Jun  7 21:46:28 EDT 1986ksh
+#
+geops	uw-beaver(DIRECT+HIGH*4), uw-june(DIRECT+HIGH), tikal(HOURLY+LOW),
+	uw-atm(HOURLY), uw70(LOCAL+HIGH)
+
+#N	hplsla
+#S	HP9000 S550; HP-UX 5.05
+#O	Hewlett-Packard Lake Stevens Instrument Division
+#C	Bob Kunz
+#E	hplsla!bobk
+#T	+1 206 335 2135
+#P	8600 Soper Hill Rd, Everett, Wa. USA 98205-1298
+#L	48 02 N / 122 07 W
+#R	news to notes gateway
+#U	tikal hpubvwa hpvcla
+#W	hplsla!bobk (Bob Kunz); Tue Jul  1 20:21:47 EDT 1986 ksh
+#
+hplsla	fluke(DIRECT), hp-pcd(DEMAND), hp-sdd(EVENING), hpubvwa(DEMAND+5),
+	hpisla(DEMAND), hplvla(DEMAND),
+	hpscda(EVENING), hpscolb(DEMAND), hpvcla(DEMAND),
+	tikal(DEMAND+5)
+
+#N	hpubvwa
+#S	HP 9050X; HP-UX 05.11 D
+#O	Hewlett-Packard Bellevue Sales Office
+#C	Eldon R. Brown
+#E	hpubvwa!eldon
+#T	+1 206 643 8822
+#P	P.O. Box C-156, Bellevue, WA 98009-0156
+#L	122 09 01 W / 47 34 40 N
+#U	hplsla pnl-geo b-mrda sseacc
+#W	hpubvwa!eldon (Eldon R. Brown); Fri Apr 10 16:44:39 EDT 1987 ksh
+#
+hpubvwa	WA0UWH(DEAD), hpupora(DEAD), hpuswaa(DEAD), hpfcse(DEMAND),
+	hplsla(DEMAND/2), hpuvcca(DAILY), hpuewrg(WEEKLY), pnl-geo(POLLED),
+	bacais(DEMAND), csafe(DEMAND), bcsbase(WEEKLY), b-mrda(DEMAND),
+	emisa(WEEKLY), vantage(POLLED), eldec(EVENING), apl-em(DEMAND),
+	cominco(EVENING), slovax(EVENING), naipsca(EVENING), dsdvax(DEMAND),
+	gasv(POLLED), sseacc(DEMAND), ssc(DEMAND), camco(DEMAND),
+	widco(EVENING), wsucshp(EVENING), quinton(DEMAND), weycord(EVENING),
+	nuwesa(EVENING), ui3(EVENING), uswnsi(EVENING)
+
+#N	hpvcla
+#S	Hewlett-Packard HP9000 Series 200 HP-UX
+#O	Hewlett-Packard Vancouver Division
+#C	Dave Allen
+#E	hpvcla!davea
+#T	(206) 254-8110
+#P	Hewlett-Packard,P.O. Box C-006,Vancouver,WA 98668
+#L	
+#R	
+#U	hplsla
+#W	Dave Allen 6-26-85, 851103 rsk
+#
+hpvcla	hp-pcd(DEMAND), hplsla(DEMAND), hpfcla(DEMAND+5), hpcnoe(DEMAND+5)
+
+#N      ipmoea
+#O
+#C      J. Eric Roskos
+#E      ericr@ipmoea.UUCP
+#T      +1 206 882-8080
+#P      Box 97017 M/S 3.2, Redmond, WA 98073-9717
+#L      47 39 06 N / 122 08 34 W
+#U	amc lusin xldev
+#W      jer@ipmoea.uucp (J. Eric Roskos); Fri Apr 10 16:45:18 EDT 1987 ksh
+#R      Receives only a very limited subset of news (3 technical groups)
+#
+ipmoea  amc(DAILY), pesnta(WEEKLY/2), melia(LOCAL), xldev(DAILY), lusin(DAILY)
+melia   ipmoea(LOCAL)
+
+#N	microsoft
+#S	XENIX
+#O	Microsoft
+#C	Richard Gates
+#E	microsoft!richardg
+#T	(206) 828-8080
+#P	10700 Northup Way, Bellevue, WA 98004
+#L	47 37 N / 122 12 W city
+#R	
+#W	rsk 850610
+#
+microsoft	altos86(DEAD), decvax(DAILY), fluke(WEEKLY),
+	omsvax(DEAD), sco(WEEKLY), trsvax(WEEKLY), ubc-vision(WEEKLY),
+	uw-beaver(DAILY)
+
+#N	motsea
+#S	Motorola VME/10; unix sysV/68 r2v1.0	     
+#O	Motorola Semiconductor Products, Inc.
+#C	Mark Konopacky
+#E	motsea!mark
+#T	+1 206 454 4160
+#P	1750 112th Avenue NE Suite C228, Bellevue, WA 98004
+#L	122 8 W / 47 42 N
+#U	
+#R
+#W	motsea!mark(Mark Konopacky), Tue Jul  1 19:55:44 EDT 1986 ksh
+# 
+motsea	tikal(HOURLY), motptd(DAILY), motsj1(DAILY), mottom(DAILY)
+
+#N	oz
+#S	
+#O	Telematic Products
+#C	John Hansen
+#E	oz!johnh
+#T	(206) 882-5000
+#P	Kirkland, WA
+#L	47 41 N / 122 12 W city
+#R	
+#W	
+#
+oz	beesvax(DAILY)
+
+beesvax oz(DAILY)
+
+#N	phastvax
+#S	       
+#O	University of Washington, Seattle; Physics, Astronomy Depts.
+#C	j. James Belonis II
+#E	phastvax!MANAGER  
+#T	206-545-8695
+#P	       
+#L
+#U
+#R
+#W	851103 rsk 
+#
+phastvax	uw-beaver(DAILY)
+
+#N	phred
+#S	DEC VAX-11/750; Ultrix-32 1.2
+#O	Physio-Control Corp.
+#C	Marc Greisen
+#E	phred!usenet
+#T	+1 206 881 4000
+#P	11811 Willows RD, Redmond, WA 98052
+#L	47 42 N / 122 8 W
+#R	
+#U	tikal
+#W	phred!marcg (Marc Greisen) Thu Jan 16 09:05:16 PDT 1986
+#
+phred	tikal(DAILY)
+
+#N	pnl-geo
+#S	HP9040; HP-UX 5.0
+#O	Battelle-Northwest, Geosciences
+#C	Doug Johnson
+#E	pnl-geo!doug
+#T	(509) 376-8642
+#P	Battelle Northwest, P.O. Box 999, Richland, WA  99352
+#L	119 16 00 W / 46 20 30 N
+#U	hpubvwa naipsca
+#W	pnl-geo!doug (Doug Johnson); Mon Sep  1 21:47:25 EDT 1986, ksh
+#
+pnl-geo hpubvwa(DEMAND), charm(DEMAND), aluxbdm(DEMAND), noao(DAILY),
+	aluxbdm(DEMAND), lbl-csam(DAILY), naipsca(DEMAND), tld(DEMAND)
+
+#N	polstra
+#S	SUN 3/180; 4.2 BSD UNIX
+#O	John D. Polstra & Co., Inc.
+#C	John D. Polstra
+#E	polstra!postmaster
+#T	+1 206 932 6482
+#P	4522 SW Andover Street, Seattle, WA 98116
+#L	122 20 W / 47 37 N city
+#W	polstra!jdp (John D. Polstra); Sat Nov 15 16:46:57 EST 1986 ksh
+#
+polstra	artslop(DEAD), sco(DEAD), unidot(DEAD), scvcs(DEAD), jandj(DEAD),
+	practical(DEAD), cfg(DEAD), teltone(DEAD)
+
+#N	shuksan
+#S	Sun 3/160, Unix 4.2 sunrelease 3.2
+#O	Man Machine Systems Technology (MMST)
+#C	Mike Fields
+#E	shuksan!mikey
+#T	(206) 251-4078
+#P	Boeing Aerospace, MS 2K-58, P.O. Box 3999, Seattle, Wa. 98124
+#L	48 21 N / 122 48 W
+#R
+#W	shuksan!mikey (Mike Fields); Sun Feb 15 15:49:35 EST 1987 ksh
+#
+shuksan ssc-vax(DAILY), doodah(DAILY*2), tahoma(DAILY*2), sunup(DAILY)
+
+#N	sigma
+#S	DEC Vax 11/750; 4.2bsd
+#O	Summation Inc.
+#C	Grant Bohnet or Bill Swan
+#E	sigma!usenet
+#T	+1 206 823 8688
+#P	11335 NE 122nd Way, Kirkland WA 98034
+#L	47 42 N / 122 8 W
+#R	
+#W	sigma!bill (Bill Swan); Tue Jan 13 21:04:38 EST 1987 ksh
+#U	tikal uw-nsr
+#
+sigma	amc(DIRECT), uw-entropy(DAILY), tikal(DIRECT), uw-nsr(DIRECT)
+#
+# Summation has a local-area network of VAXen and SUNs who attempt to
+# hide their existence from the rest of the world (wise, considering
+# the rate of change of this system configuration). The world needs 
+# only to know the name "sigma" to reach anyone at Summation Inc.
+# Internal network configuration changes often.
+
+#N	slovax
+#S	DEC Micro Vax II; Ultrix-32m Version 1.2
+#O	R & D Associates
+#C	William Schaffer
+#E	slovax!postmaster
+#T	+1 206 581 1322
+#P	3625 Perkins Lane S.W., Tacoma, WA 98499
+#L	47 9 53 N / 122 28 59 W
+#R
+#U
+#W	slovax!bills (William Schaffer); Mon Sep  1 21:52:18 EDT 1986, ksh
+#
+slovax	tikal(DEMAND), hpubvwa(HOURLY*2), rembrandt(DEMAND), logico(DEMAND)
+
+#N	ssc
+#S	IBM PC/AT; SCO Xenix 5
+#0	Specialized Systems Consultants, Inc.
+#C	Phil Hughes
+#E	ssc!fyl
+#T	+1 206 367 8649
+#P	PO Box 55549, Seattle, WA 98155
+#L	122 10 W / 47 43 N
+#U	
+#R
+#W	ssc!fyl (Phil Hughes); Mon Sep  1 21:52:47 EDT 1986, ksh
+#
+ssc	tikal(HOURLY*3), camco(DAILY/3), gasv(HOURLY), hpubvwa(DAILY),
+	amc(DAILY/2)
+
+#N	ssc-vax
+#S	VAX 11/780, UNIX 4.2BSD
+#O	Software Support Center
+#C	Jeff Jongeward
+#E	ssc-vax!jeff
+#T	(206) 773-3419
+#P	Boeing Aerospace, MS 8H-56, P.O. Box 3999, Seattle, WA 98124
+#L	48 20 N / 122 48 W
+#R
+#U	bcsaic cxsea fluke shuksan uvicctr uw-beaver voodoo
+#W	ssc-vax!jeff (Jeff Jongeward); Sun Feb 15 15:50:24 EST 1987 ksh
+#
+ssc-vax bcsaic(DAILY/5), cxsea(DAILY/3), fluke(DAILY/2), shuksan(DAILY/2),
+	uvicctr(DAILY), uw-beaver(DAILY/5), voodoo(DAILY/3), 
+	lbl-csam(WEEKLY)
+
+#N    sunup
+#S    Sun 2/150; 4.2 BSD UNIX
+#O    Sun Microsystems Northwest District Office
+#C    M. Conrad Geiger
+#E    sunup!postmaster
+#T    +1 206 828 4020
+#P    4020 Lake Washington Blvd, NE Kirkland, WA, 98033
+#L    122 8 W / 47 35 N
+#U    tikal
+#R
+#W    sunup!conrad (Conrad Geiger); Fri Apr 10 16:52:54 EDT 1987 ksh
+#
+sunup uw-beaver(EVENING), sun(HOURLY*4), microsoft(DAILY), fluke(HOURLY),
+      tikal(HOURLY*4)
+
+#N	suvax1					
+#S	VAX-11/750, UNIX 4.2bsd				
+#O	Dept. of Software Engineering / Computer Science, Seattle University
+#C	Dave Eichmann			
+#E	suvax1!postmaster
+#T	+1 (206) 626-5631					
+#P	Seattle, WA 98122				
+#L	47 36 N / 122 20 W city				
+#R							
+#U	butler
+#W	suvax1!eichmann (Dave Eichmann); Fri Nov 22 11:14:34 PST 1985
+#
+suvax1	butler(EVENING)
+
+#N	tahoma
+#S	Alliant FX-8;Concentrix 2.0
+#O	Boeing Commercial Airplane Co., Seattle WA
+#C	Gerald R. Vanden Heuvel
+#E	tahoma!grv
+#T	+1 206 237 5080
+#P	P.O. Box 3707, M/S 66-04, Seattle, WA 98124-2207
+#L	47 36 N / 122 20 W city
+#R	Real-time simulation engine attached to a ring of Apollo Workstations
+#W	tahoma!grv (Gerald R. Vanden Heuvel); Tue Jan 13 21:05:32 EST 1987 ksh
+#U	shuksan
+#
+tahoma	shuksan(DAILY*2)
+
+#N	teldata
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Teltone Corporation
+#C	Duane Hesser
+#E	tikal!postmaster
+#T	+1 206 827 9626
+#P	10801 120th Avenue North East, Kirkland, WA, 98033
+#L	122 8 W / 47 42 N
+#R	
+#U	tikal transys
+#W	tikal!tim (Tim Rosmus) 3/24/86, Tue Jul  1 19:54:25 EDT 1986 ksh
+#
+teldata teltone(DEDICATED), tikal(LOCAL), sunrise(POLLED), inmet(WEEKLY),
+	transys(EVENING)
+
+#N	telematic
+#S	
+#O	Telematic Products, Inc.
+#C	John J. Hansen
+#E	telematic!johnj
+#T	(206) 882-5000
+#P	5000 148th Ave., N.E., Redmond, WA 98052
+#L	47 40 N / 122 07 W city
+#R	
+#W	
+#
+telematic	beesvax(DAILY), fluke(DAILY)
+
+#N	teltone
+#S	DEC VAX-11/750; 4.1 BSD UNIX
+#O	Teltone Corporation
+#C	Duane Hesser
+#E	tikal!postmaster
+#T	+1 206 827 9626
+#P	10801 120th Avenue North East, Kirkland, WA, 98033
+#L	122 8 W / 47 42 N
+#R	This machine is on the Teltone local ethernet but does not run sendmail.
+#U	tikal
+#W	tikal!tim (Tim Rosmus);  Tue Jul  1 19:58:37 EDT 1986 ksh
+# 
+teltone uw-beaver(DAILY/2), dataio(DAILY/2), fluke(DAILY/2), teldata(DEDICATED),
+	mtxinu(WEEKLY*5), asms(DAILY), purdue(WEEKLY*5),
+	polstra(DEAD)
+
+#N	tijil
+#S	Tandy 16B+, Xenix 3.0
+#O	COMENCO (Comm. Engr. Co.)
+#C	Tom Losh
+#E	tijil!tjl
+#T	+1 206 854 9128
+#P	3515 South 270th, Kent, WA 98032
+#L	47 21 N / 122 17 W
+#R
+#U
+#W	tijil!tjl; Tue Jul  1 20:18:58 EDT 1986 ksh
+#
+tijil	camco(DIRECT), pn4(DIRECT), pn5(DIRECT), pn6(DIRECT),
+	pn8(DIRECT), pnesac(DIRECT), ssc(DIRECT)
+
+#N	uw-nsr
+#S	DG MV/10000; DG/UX 2.02
+#O	National Simulation Resource in Mass Transport and Exchange
+#C	John Sambrook
+#E	uw-nsr!john
+#T	+1 206 545 7433
+#P	M/S WD-12, University of Washington, Seattle, WA  98195
+#L	47 36 N / 122 20 W city
+#R
+#U	uw-entropy sigma uw-warp
+#W	uw-nsr!john (John Sambrook); Mon Oct 20 19:23:10 EDT 1986, ksh
+#
+uw-nsr	sigma(DEMAND), tikal(DEMAND), uw-beaver(DEMAND), uw-entropy(DEMAND),
+	uw-warp(DEMAND)
+
+#N	uw-vlsi
+#S	
+#O	University of Washington, Dept. of Computer Science
+#C	Richard Furuta
+#E	uw-beaver!uw-june!furuta
+#T	(206) 543-7798
+#P	FR-35, Seattle, WA 98115
+#L	47 36 N / 122 20 W city
+#R	
+#W	
+#
+# aliased in uw-eddie
+
+#N	uw70
+#S	DEC PDP-11/70, UNIX V7
+#O	University of Washington, Geophysics Program
+#C	Steve Malone
+#E	geops!steve
+#T	(206) 545-3811
+#P	AK-50, Seattle, WA 98195
+#L	47 36 N / 122 20 W city
+#R	
+#W	geops!steve 2/26/86, Sat Jun  7 21:50:25 EDT 1986, ksh
+#
+uw70	uw-june(DIRECT+HIGH*4), geops(LOCAL+HIGH),
+	menlo70(HOURLY+LOW*4),   
+	slu70(EVENING+LOW*4), lamont(EVENING), pyrcorp(EVENING+HIGH),
+	uuss70(EVENING+LOW), apl-uw(DIRECT), phastvax(DIRECT+LOW),
+	seismo(EVENING)
+#  menlo70- US Geological Survey in Menlo Park, CA
+#  cires- U of Colorado, Boulder, CO (We call them 3 times a week)
+#  slu70- St Louis University, St Louis, MI (We call them 1 time a week)
+#  lamont- Lamont Geophysical Obs, Palisades, NY (we call them 3 times a week)
+
+#N	voodoo
+#S	DEC VAX-11/750; Ultrix 1.2
+#O	Boeing Computer Services
+#C	Jim Tollefson
+#E	voodoo!jimt
+#T	+1 206 342 2328
+#P	Box 24346, MS 03-73, Seattle, WA 98124
+#L	122 14 W / 47 59 N city
+#R
+#U
+#W	voodoo!jimt (Jim Tollefson); Fri Jul 11 21:26:42 EDT 1986 ksh
+#
+voodoo	ssc-vax(DAILY)
+
+#N	walldata
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Wall Data Incorporated
+#C	Steven Jeffers Herber
+#E	walldata!postmaster
+#T	+1 206 883 4777
+#P	17769 North East 78th Place, Redmond, WA 98052
+#L	122 6 45 W / 47 40 15 N
+#U	tikal
+#W	walldata!herber (S. Herber); Tue Jul  1 19:57:13 EDT 1986 ksh
+#
+walldata	tikal(HOURLY)
+
+#N	wor-mein
+#S	MicroVAX II; Ultrix 1.2
+#O	Quantum Medical Systems, Issaquah, WA
+#C	Dave Axness
+#E	wor-mein!dave
+#T	206 392 9180
+#P	1065 12th Ave NW  Issaquah, WA  98027
+#L
+#R	S/W development
+#U
+#W	wor-mein!dave; Tue Jan 13 21:14:49 EST 1987 ksh
+#
+wor-mein	tikal(HOURLY)
+SHAR_EOF
+echo shar: extracting u.usa.wi.1
+cat << \SHAR_EOF > u.usa.wi.1
+# u.usa.wi.1 - Sat Apr  4 01:10:02 PM PST 1987 - amdahl!gam
+
+#N	astroatc
+#S	DEC Vax 11/780; 4.3BSD Berkeley Unix
+#O	Astronautics Technology Center
+#C	Dave Greunke
+#E	astroatc!vid, astroatc!postmaster
+#T	+1 608 221 9001
+#P	5800 Cottage Grove Rd, Madison WI, 53716-1387
+#L	43 05 36 N / 089 16 52 W
+#R	
+#U	uwvax nicmad prairie
+#W	astroatc!vid (Dave Greunke) ; Wed Jan 28 18:52:07 CST 1987
+#
+astroatc	uwvax(DIRECT+HIGH), nicmad(DIRECT+HIGH), prairie(DIRECT),
+	heurikon(DIRECT), norvax(DIRECT), magatt(DIRECT), terminus(POLLED)
+
+#N	cgls
+#S	PDP 11/34
+#O	University of Wisconsin - Milwaukee, Center for Great Lakes Studies
+#C	
+#E 	cgls!postmaster
+#T	
+#P	600 E Greenfield Av, Milwaukee, WI
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+cgls	uwmcsd1(DIRECT)
+
+#N	chekov
+#S	ATT 3B2 SysV
+#O	University of Wisconsin, Computer Sciences Dept. Undergrad Projects Lab
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#W	6/25/86 by dave cohrs
+chekov	uhura(DIRECT)
+
+#N	crystal
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs, Mitali Bhattacharyya
+#E	uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 26 W
+#U	uwvax
+#W	uwvax!dave (Dave Cohrs); Thu Jan 29 10:11:33 CST 1987
+crystal = "crys.wisc.edu"
+
+#N	dsl68k
+#S	ISI 68k, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Data Security Lab
+#C	Brian Matt
+#E 	dsl68k!postmaster
+#T	+1 414 963 5252
+#P	3200 N Cramer, EMS E762, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+dsl68k = "dsl68k.milw.wisc.edu"
+dsl68k	MILWAUKEE
+
+#N	dsllsi
+#S	ISI 68k, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Data Security Lab
+#C	Dr. George Davida
+#E 	dsllsi!postmaster
+#T	+1 414 963 5192
+#P	3200 N Cramer, EMS E762, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+dsllsi = "dsllsi.milw.wisc.edu"
+dsllsi	allegra(DEAD)
+dsllsi	MILWAUKEE
+
+#N	geowhiz
+#S	Masscomp MC5500, RTU2.2A
+#O	University of Wisconsin, Dept. of Geology & Geophysics
+#C	Larry McVoy
+#E	geowhiz!postmaster
+#T	+1 608 262 1698
+#P	1215 W. Dayton St., Madison WI 53706
+#L	43 04 13 N / 89 24 23 W
+#R	Geology, geophysics, earth science instrumentation.
+#U	uwvax netzer
+#W	geowhiz!larry (Larry McVoy); Thu Jul 24 11:54:45 CDT 1986
+#W      amdahl!gam (Gordon A Moffett); Mon Oct 13 18:49:00 PDT 1986 removed 'netzer'
+#	uwvax is a local call, 2 way demand connection.
+#	netzer is a local call, 2 way demand connection.
+geowhiz uwvax(DIRECT), geophiz(LOCAL), geopaz(LOCAL)
+geowhiz=whiz
+
+#N	geopaz
+#S	Masscomp MC5500, RTU3.0A
+#O	University of Wisconsin, Dept. of Geology & Geophysics
+#C	Larry McVoy
+#E	geowhiz!postmaster
+#T	+1 608 262 1698
+#P	1215 W. Dayton St., Madison WI 53706
+#L	43 04 13 N / 89 24 23 W
+#R	Geology, geophysics, earth science instrumentation.
+#U	
+#W	geowhiz!larry (Larry McVoy); Thu Jul 24 11:54:45 CDT 1986
+geopaz	geophiz(LOCAL), geowhiz(LOCAL)
+
+#N	geophiz
+#S	Masscomp MC5500, RTU3.0A
+#O	University of Wisconsin, Dept. of Geology & Geophysics
+#C	Larry McVoy
+#E	geowhiz!postmaster
+#T	+1 608 262 1698
+#P	1215 W. Dayton St., Madison WI 53706
+#L	43 04 13 N / 89 24 23 W
+#R	Geology, geophysics, earth science instrumentation.
+#U	
+#W	geowhiz!larry (Larry McVoy); Thu Jul 24 11:54:45 CDT 1986
+geophiz	geowhiz(LOCAL), geopaz(LOCAL)
+
+#N	gravity
+#S	Sun, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Physics Dept
+#C	Dr. Len Parker
+#E 	gravity!postmaster
+#T	+1 414 963 4474
+#P	3200 N Cramer, Physics , Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+gravity	uwmcsd1(DEDICATED)
+
+#N	grc
+#S	GRC Python/32B (NSC32032); System 5.2
+#O	General Robotics Corporation
+#C	Don Woelz, Mike Cerny
+#E	grc!don, grc!mike, grc!postmaster
+#T	+1 414 673 6800
+#P	23 South Main Street, Hartford, WI 53027
+#L	88 22 30 W / 43 19 N city
+#R	
+#U	nicmad
+#W	grc!don (Donald D. Woelz);February 9, 1987
+#
+grc	nicmad(DAILY)
+
+#N	gumby
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 25 W
+#U	pokey puff uwvax
+#W	uwvax!dave (Dave Cohrs); Wed Jan  7 09:55:26 CST 1987
+gumby = "gumby.wisc.edu"
+gumby	rutgers(DEDICATED), caip(DEDICATED), ihtlt(POLLED),
+	hiray1(HOURLY), hiray2(HOURLY)
+
+#N	heckle
+#S	HP 9000; HPUX 5.01
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 26 W
+#W	uwvax!dave (Dave Cohrs); Fri Jan  9 09:08:43 CST 1987
+#
+heckle	jeckle(DIRECT), puff(DIRECT)
+
+#N	heurikon
+#S	Heurikon HK68/M10; UniPlus+ System 5
+#O	Heurikon Corporation
+#C	Jeffrey Mattox
+#E	heurikon!jeff
+#T	(608) 271-8700
+#P	3201 Latham Drive, Madison, WI 53713
+#L	43 04 N / 89 23 W
+#R	
+#
+heurikon	ihnp4(DEAD), uwvax(DIRECT)
+
+#N	hiray2
+#S	ATT 3B2; System V
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 28 W
+#W	uwvax!dave (Dave Cohrs); Wed Jan  7 09:56:16 CST 1987
+hiray2	gumby(DIRECT)
+
+#N	hobbes
+#S	Kammerman Labs AT, Microport System V/AT v1.38 Beta-3
+#O	ComSoft Consulting
+#C	John Plocher
+#E	hobbes!plocher
+#T	+1 608 655 3691
+#P	216 Deerfield Road, Box 288, Marshall, WI, USA, 53559-0288
+#L	43 07 54 N / 88 83 55 W
+#R	Software development system for UW-Madison Spanish Dept.
+#W	hobbes!plocher (John Plocher); Mon Feb  2 19:38:23 CST 1987
+#U	uwmacc
+#
+hobbes	uwmacc(DAILY/2)
+
+#N	hyde
+#S	HP 9000; HPUX 5.01
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 26 W
+#W	uwvax!dave (Dave Cohrs); Sat Sep 13 16:31:54 CDT 1986
+#
+hyde	puff(DIRECT)
+
+#N	jeckle
+#S	HP 9000 HPUX 5.01
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#W	4/15/86 by dave cohrs
+#
+jeckle	heckle(DIRECT)
+
+
+#N	kirk
+#S	HP 9836 HP-UX
+#O	University of Wisconsin, Computer Sciences Dept. Undergrad Projects Lab
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#W	6/25/86 by dave cohrs
+#
+kirk	uhura(HOURLY)
+
+#N	m68-6, m68-4, m68-3, m68-1
+#S	ISI 68k, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Data Security Lab
+#C	Jeff Dieringer
+#E 	m68-6!postmaster
+#T	+1 414 963 6634
+#P	3200 N Cramer, EMS E726, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+m68-6 = "m68-6.milw.wisc.edu"
+m68-6	MILWAUKEE
+m68-4 = "m68-4.milw.wisc.edu"
+m68-4	MILWAUKEE
+m68-3 = "m68-3.milw.wisc.edu"
+m68-3	MILWAUKEE
+m68-1 = "m68-1.milw.wisc.edu"
+m68-1	MILWAUKEE
+
+#N	m68-2
+#S	ISI 68k, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Data Security Lab
+#C	Jeff Dieringer
+#E 	m68-2!postmaster
+#T	+1 414 963 6634
+#P	3200 N Cramer, EMS E726, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+m68-2 = "m68-2.milw.wisc.edu"
+m68-2	MILWAUKEE
+
+#N	m68-5
+#S	ISI 68k, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Data Security Lab
+#C	Jeff Dieringer
+#E 	m68-5!postmaster
+#T	+1 414 963 6634
+#P	3200 N Cramer, EMS E726, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+m68-5 = "m68-5.milw.wisc.edu"
+m68-5	MILWAUKEE
+
+#N	marque
+#S	ATT 3B5 - System V
+#O	Math, Stat and Comp Science - Marquette University
+#C	Doug Harris
+#E	marque!doug
+#T	+1 414 224 3889
+#P	Marquette University, Milwaukee, WI, 53233
+#L	43 4 58 N / 87 55 52 W (City)
+#R	gateway to all Marquette machines
+#U	uwmcsd1
+#W	doug 5/1/86
+#
+marque	uwmcsd1(DIRECT), glmndd(DIRECT)
+
+#N	muphys
+#S	PDP 11/73 - Harvard/Seismo 2.9bsd
+#O	Marquette University, Physics Dept.
+#C	Don Matthys
+#E 	uwmcsd1!postmaster
+#T	+1 414 224 1494
+#P	Milwaukee, WI
+#L	43 4 58 N / 87 55 52 W (City)
+#U 
+#W	uwmcsd1!james 9/26/86
+#
+muphys	uwmcsd1(DEMAND+LOW)
+
+#N	nicmad
+#S	DEC Vax 11-750; 4.3 BSD UNIX
+#O	Nicolet Instrument Corp.
+#C	Mike Brown, Bob Ziesemer, Dick Ferrier
+#E	nicmad!brown, nicmad!ziesemer, nicmad!ferrier, nicmad!postmaster
+#T	+1 608 273 5039, +1 608 271 3333 x2704, +1 608 271 3333 x2226
+#P	5225 Verona Road, Madison, WI  53711
+#L	89 22 W / 43 05 N city
+#R	
+#U	astroatc, agrigene, norvax
+#W	nicmad!brown (Michael L. Brown); Wed Nov  5 17:42:00 CST 1986
+#
+nicmad	ihnp4(DEMAND), astroatc(DEMAND), uwvax(DEMAND), decvax(DEMAND),
+	agrigene(DEMAND), nicuk(WEEKLY), norvax(DEMAND)
+
+#N	pipe
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 26 W
+#W	uwvax!dave (Dave Cohrs); Fri Jan  9 09:08:28 CST 1987
+pipe = "pipe.wisc.edu"
+
+#N	pokey
+#S	VAX 11/750 4.3bsd
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	(608) 262-1204, (608) 262-2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#U	gumby puff
+#W	1/12/85 by dave cohrs
+pokey = "pokey.wisc.edu"
+
+#N	prairie
+#S	Compaq Deskpro 286, Microport/AT&T System V, Release 2 Unix
+#O	Prairie Computing
+#C	Daniel M. Frank
+#E	prairie!dan
+#T	+1 608 255 0002
+#P	1802 Keyes Ave. Madison, WI 53711-2006
+#L	43 04 N / 89 24 W
+#R
+#U  uwvax astroatc netzer
+#W	prairie!dan (Dan Frank); Fri Nov 7 11:35:15 CST 1986
+#
+prairie	uwvax(DIRECT), astroatc(DIRECT), netzer(DIRECT)
+
+#N	puff
+#S	GOULD 9080-Powernode; UTX/32 2.0
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!postmaster, uwvax!dave
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 25 W
+#U	uwvax gumby pokey uhura
+#W	uwvax!dave (Dave Cohrs); Thu Jan 29 09:59:52 CST 1987
+puff = "puff.wisc.edu"
+puff	uhura(DIRECT), heckle(LOCAL), hyde(DIRECT)
+
+
+#N	scotty
+#S	HP 9836 HP-UX
+#O	University of Wisconsin, Computer Sciences Dept. Undergrad Projects Lab
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#W	6/25/86 by dave cohrs
+#
+scotty	uhura(HOURLY)
+
+
+#N	sulu
+#S	HP 9836 HP-UX
+#O	University of Wisconsin, Computer Sciences Dept. Undergrad Projects Lab
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#W	6/25/86 by dave cohrs
+#
+sulu	uhura(HOURLY)
+
+
+#N	uhura
+#S	ATT 3B2; System V
+#O	University of Wisconsin, Computer Sciences Dept. Undergrad Projects Lab
+#C	Dave Cohrs
+#E	uwvax!postmaster, uwvax!dave
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 16 N / 89 24 25 W
+#U	puff
+#W	uwvax!dave (Dave Cohrs); Thu Jan 29 10:38:40 CST 1987
+#
+uhura	puff(DIRECT), chekov(DIRECT), kirk(DIRECT),
+	scotty(DIRECT), sulu(DIRECT)
+
+#N	uwai
+#S	VAX 11/750 4.3bsd
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs
+#E	uwvax!dave, uwvax!postmaster
+#T	(608) 262-1204, (608) 262-2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 N / 89 24 W
+#U	uwvax
+#W	1/12/85 by dave cohrs
+uwai = "ai.wisc.edu"
+
+#N	uwm-cs
+#S	Vax 11/780, 4.3bsd
+#O	University of Wisconsin - Milwaukee, Computer Science Dept.
+#C	Jeff Dieringer
+#E 	uwmeecs!postmaster
+#T	+1 414 963 6634
+#P	3200 N Cramer, EMS E790, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	uwmcsd1
+#W	uwmcsd1!james 12/4/86
+#
+uwm-cs = "uwm-cs.milw.wisc.edu"
+uwm-cs	uwvax(DEDICATED)
+uwm-cs	MILWAUKEE
+# alias info for now, uwm-cs was uwmeecs 12/4/86
+uwm-cs = uwmeecs
+
+#N	uwm-evax
+#S	Vax 11/750, 4.2bsd
+#O	University of Wisconsin - Milwaukee, Computer Science Dept.
+#C	Jeff Dieringer
+#E 	uwm-evax!postmaster
+#T	+1 414 963 6634
+#P	3200 N Cramer, EMS E726, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	
+#W	uwmcsd1!james 9/26/86
+#
+uwm-evax = "evax.milw.wisc.edu"
+uwm-eva = uwm-evax
+uwm-evax	MILWAUKEE
+
+#N	uwm-nm
+#S	Motorola 6300, Sys V
+#O	University of Wisconsin - Milwaukee, Computing Services Division
+#C	Jim Lowe
+#E 	uwmcsd1!postmaster
+#T	+1 414 963 6431
+#P	3200 N Cramer, EMS E380, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U
+#W	uwmcsd1!james 9/26/86
+#
+uwm-nm  uwmcsd1(DEDICATED)
+
+#N	uwmacc
+#S	Vax 11-780/Berkeley 4.2BSD UNIX
+#O	University of Wisconsin-Madison Academic Computing Center
+#C	Bill Kelly
+#E	{seismo, ihnp4}!uwvax!uwmacc!bllklly
+#T	608-262-9501
+#P	UW-Madison, 1210 West Dayton St, Madison WI 53706
+#L	43 05 N / 89 22 W city
+#R	
+#W	Bill Kelly 7/23/85
+#U	uwvax(HOURLY), uwmcsd1(HOURLY)
+#
+uwmacc	uwvax(HOURLY), uwmcsd1(HOURLY), uwmrc(HOURLY)
+
+
+#N	uwmcsd1
+#S	ISI 68k - 4.2bsd
+#O	University of Wisconsin - Milwaukee, Computing Services Division
+#C	Jim Lowe
+#E 	uwmcsd1!postmaster
+#T	+1 414 963 6431
+#P	3200 N Cramer, EMS E380, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U 	uwmacc uwm-cs marque uwmcsd4 msoesun
+#W	uwmcsd1!james 1/23/87
+#
+uwmcsd1 = "csd1.milw.wisc.edu"
+#
+# local calls or dedicated links
+#
+uwmcsd1	cgls(DEAD),		gravity(DEDICATED), 	marque(DIRECT+HIGH),
+	mcwbj(DIRECT),		msoesun(DIRECT),	muphys(DEMAND+LOW),
+	sdc1(DEMAND+LOW),	u1100u(DEDICATED),	uwm-nm(DEAD),
+	uwmacc(DEDICATED), 	uwvax(DEDICATED),	vandy(DEAD)
+#
+# out of town connections.  [We call ihnp4 on demand; but they are very
+# difficult to get in touch with.]
+#
+uwmcsd1 ihnp4(EVENING),		sx1100(DEAD),		uwpvacs(EVENING/2+LOW)
+#
+# 10 meg ethernet, but we support uucp addressing.
+#
+MILWAUKEE = {	dsl68k, dsllsi, m68-1, m68-2, m68-3, m68-4, m68-5, m68-6,
+		uwm-evax, uwmcsd1, uwmcsd3, uwmcsd4, uwm-cs }!(LOCAL)
+
+#N	uwmcsd3
+#S	ISI 68k - 4.2bsd
+#O	University of Wisconsin - Milwaukee, Computing Services Division
+#C	Jim Lowe
+#E 	uwmcsd1!postmaster
+#T	+1 414 963 6431
+#P	3200 N Cramer, EMS E380, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U
+#W	uwmcsd1!james 9/26/86
+#
+uwmcsd3 = "csd3.milw.wisc.edu"
+uwmcsd3	MILWAUKEE
+
+#N	uwmcsd4
+#S	Unisys 7000/40, 4.3bsd
+#O	University of Wisconsin - Milwaukee, Computing Services Division
+#C	Jim Lowe
+#E 	uwmcsd1!postmaster
+#T	+1 414 963 6431
+#P	3200 N Cramer, EMS E380, Milwaukee, WI  53211
+#L	43 4 58 N / 87 55 52 W (City)
+#U	uwmcsd1
+#W	uwmcsd1!james 12/15/86
+#
+uwmcsd4 = "csd4.milw.wisc.edu"
+uwmcsd4	MILWAUKEE
+
+#N	uwslh
+#S	VAX 11/750 4.3bsd
+#O	University of Wisconsin, State Lab of Hygiene
+#C	David E. Miran
+#E	uwslh!dem, uwslh!usenet
+#T	(608) 262-0019
+#P	465 Henry Mall, Madison, WI 53706
+#L	43 04 N / 89 24 W
+#U	uwvax
+#W	uwslh!dem  (David E. Miran); Mon Jan 12 09:15:00 CST 1987
+uwslh	uwvax(DIRECT)
+
+#N	uwvax
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Wisconsin, Computer Sciences Dept.
+#C	Dave Cohrs, Mitali Bhattacharyya
+#E	uwvax!postmaster, uwvax!dave, uwvax!mitali
+#T	+1 608 262 1204, +1 608 262 2196
+#P	1210 W. Dayton St., Madison, WI 53706
+#L	43 04 15 N / 89 24 26 W
+#U	astroatc crystal geowhiz husc6 heurikon seismo pade
+#U	uwai uwmacc uwslh rutgers spool gumby pokey puff
+#W	uwvax!dave (Dave Cohrs); Thu Jan 29 09:47:25 CST 1987
+uwvax = "rsch.wisc.edu", "uwvax.wisc.edu"
+uwvax	astroatc(DIRECT+LOW), geopaz(DIRECT), geowhiz(DIRECT),
+	heurikon(DIRECT+LOW), netzer(POLLED),
+	nicmad(DIRECT+LOW), prairie(DIRECT+LOW), pade(DIRECT), uwmrc(DIRECT),
+	uwslh(DIRECT)
+#
+# out of town connections
+uwvax	akgua(EVENING), allegra(DAILY+LOW), bellcore(WEEKLY),
+	dicomed(WEEKLY), ihnp4(DAILY+LOW), marque(DAILY), oasis(HOURLY+LOW),
+	pyrchi(EVENING), sequent(DIRECT)
+#
+# other network connections
+uwvax	seismo(DEDICATED), harvard(DEDICATED), rutgers(DEDICATED),
+	ames(DEDICATED), ll-xn(DEAD), uwmacc(DEDICATED),
+	uwmcsd1(DEDICATED), uwm-cs(DEDICATED), caip(DEDICATED),
+	ucbvax(DAILY)
+#
+# uwvax serves the wisc.edu domain for uucp
+uwvax	.wisc.edu
+#
+# 10Mbit Pronet and 10Mbit Ethernets -- Actually uses Internet Syntax, but
+# uucp syntax is supported for ease of access.
+WISC = { uwvax, dbvax, pokey, crystal, gumby, pipe, dream,
+	uwai, wiscvm, devo, spool, gosset, puff }!(LOCAL)
+
+SHAR_EOF
+echo shar: extracting u.usa.wv.1
+cat << \SHAR_EOF > u.usa.wv.1
+#	start of u.usa.wv.1: Fri Apr  3 19:31:25 EST 1987
+#	maintained by rick@seismo.CSS.GOV
+
+#N	wvcsua, wvucsb, wvucswv
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Dept. of Stat & CS West Virginia University
+#C	Alan Butcher
+#E	wvucsb!ab
+#T	+1 304 293 3607
+#P	212 Knapp Hall, WVU, Morgantown, WV 26506	
+#L	39 36 N / 79 50 W
+#U	wvucsa wvucswv
+#W	wvucsb!ab (Alan Butcher) Fri Feb 20 17:53:41 EST 1987
+#
+wvucsb	pitt(DAILY)
+#
+WVUNET = {wvucsa, wvucsb, wvucswv}!(LOCAL)
+
+#	end of u.usa.wv.1: Fri Apr  3 19:31:26 EST 1987
+SHAR_EOF
+echo shar: extracting u.usa.wy.1
+cat << \SHAR_EOF > u.usa.wy.1
+# Usa.wy
+# This map is maintained by Karen Summers-Horton (ksh@cbosgd.UUCP)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

@@ -1,0 +1,141 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ca.6
+: This archive created: Wed Apr 27 01:44:06 1988
+echo shar: extracting u.usa.ca.6
+cat << 'SHAR_EOF' > u.usa.ca.6
+# nca-maps@ucbvax.berkeley.edu (Erik E. Fair); Mon Apr 25 23:30:48 PDT 1988
+
+#N	wrs
+#S	ISI Optimum V-24; 4.2 BSD UNIX
+#O	Wind River Systems, Inc.
+#C	Eric Stromberg
+#E	wrs!usenet
+#T	+1 415 428 2623
+#P	1316 67th Street, Emeryville, CA 94608
+#L	37 50 57 N / 122 17 26 W
+#R	Marooned In Realtime
+#U	rtech
+#W	wrs!eric (Eric Stromberg); Wed Sep 23 13:53:47 PDT 1987
+#
+wrs	rtech(DIRECT), sun(DIRECT), gethen(DIRECT), isieng(DEMAND),
+	thirdi(DEMAND)
+
+#N	wuthel
+#S	Sun 3/50 ; SunOS 3.5  (BSD UNIX)
+#O	Wuthel's Living Room (and Second Opinion Library)
+#C	Russell L. Brand
+#E	brand@cogsci.berkeley.edu
+#T	+1 415 548 1361
+#P	2483 Hearst Street, Suite 136, Berkeley, CA 94709
+#L	37 51 01 N / 122 13 34 W
+#R	
+#U
+#W	brand@cogsci.berkeley.edu; Thu Apr 21 14:02:36 PDT 1988
+# our UUCP connections
+wuthel	cogsci(DIRECT), capmkt(DIRECT), lll-crg(HOURLY)
+
+#N	wyse, .wyse.com
+#F	uunet.uu.net
+#S	Sun 3/260; SunOS 3.5
+#O	Wyse Technology
+#C	Mike Wexler
+#E	postmaster@wyse.com
+#T	+1 408 433 1000 x1330
+#P	3571 North First Street, San Jose, CA 95134
+#L	37 24 N / 121 54 W  city
+#R	The domain wyse.com is registered
+#U	bigboy uunet weitek
+#W	mikew@wyse.com (Mike Wexler); Mon Apr 11 13:07:53 PDT 1988
+#
+wyse	.wyse.com
+wyse = wyse.com, wyse1
+wyse	bigboy(LOCAL), uunet(DEMAND+HIGH),
+	intelcs(DEMAND), intsc(DEMAND), sco(DEMAND-HIGH),
+	weitek(DEMAND), vsi1(DEMAND-HIGH), ddsw1(DEMAND+HIGH)
+
+#N	xdos
+#S	Sun 3/160; 4.3 BSD UNIX
+#O	Hunter Systems Inc.
+#C	Treve Bonser, Chuck Collins
+#E	xdos!treve, xdos!postmaster, xdos!cpc
+#T	+1 415 965 2400
+#P	Mountain View, CA  94041
+#L	122 04 40 W / 37 23 40 N city
+#W	xdos!cpc (Chuck Collins); Fri Mar  4 09:30:00 PDT 1988
+#
+xdos	chkpt(HOURLY)
+
+#N	z
+#O	Guidelines Software, Inc.
+#C	Nathaniel Stitt
+#E	z!nat
+#T	+1 415 849 9050
+#P	2150 Channing Way #34, Berkeley CA  94704
+#L	37 51 45 N / 122 16 30 W
+#R
+#U
+#W	z!nat (Nathaniel Stitt); Wed Mar 23 22:28:13 PST 1988
+#
+z	a(DIRECT), unison(DIRECT), bales(DAILY)
+
+#N	zehntel
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Zehntel, Inc.
+#C	Diana Berry
+#E	zehntel!diana, zehntel!postmaster
+#T	+1 415 932 6900 x360
+#P	2625 Shadelands Drive, Walnut Creek, CA  94598
+#L	37 48 30 N / 122 10 00 W city
+#U	bales kinetics varian ista
+#R	
+#W	zehntel!diana (Diana L. Berry); Wed Mar 23 10:29:57 PST 1988
+#
+#zehntel	.zehntel.com
+#zehntel = zehntel.com
+#
+zehntel zps(DIRECT+HIGH), bales(DIRECT), kinetics(DIRECT),
+	varian(DIRECT), decwrl(DEMAND), idi(DEMAND), ihnp4(DEMAND),
+	ista(DEMAND), lll-crg(DEMAND), oliveb(DEMAND), rtech(DEMAND),
+	sra2(DEAD), sun(DEMAND+HIGH), tektronix(DEMAND), unisoft(DEMAND),
+	hplabs(DEMAND+LOW), ucbvax(WEEKLY/5), zinfandel(LOCAL)
+
+#N	zinfandel
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Zehntel, Inc.
+#C	Diana Berry
+#E	zehntel!diana, zehntel!postmaster
+#T	+1 415 932 6900 x360
+#P	2625 Shadelands Drive, Walnut Creek, CA  94598
+#L	37 48 30 N / 122 10 00 W city
+#U	
+#R	
+#W	zehntel!diana (Diana L. Berry); Wed Mar 23 10:29:57 PST 1988
+#
+zinfandel       ardent(DIRECT), kinetics(DIRECT), rtech(DEMAND),
+		zehntel(LOCAL), zps(DIRECT)
+
+#N	zorch
+#S	AT&T Unix-PC 3B1; System V 3.5 UNIX
+#O	At Home; Sunnyvale, CA
+#C	Scott Hazen Mueller
+#E	zorch!scott
+#T	+1 408 245 9461
+#P	107 South Mary Avenue #123, Sunnyvale, CA 94086
+#L	122 12 44 W / 37 12 29 N city
+#R
+#U	ames pacbell tolerant uunet
+#W	zorch!scott (Scott Hazen Mueller); Sat Feb 27 17:08:40 PST 1988
+#
+#	Private system; if I move, it does.
+#	Should still talk to uunet, though.
+#	Exchange unix-pc.* with ames, pacbell and uunet
+#
+zorch	ah7300(EVENING), ames(DEMAND), aryith(DAILY), pacbell(DAILY),
+	pyramid(DIRECT), tolerant(DIRECT+HIGH), uunet(EVENING/2)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

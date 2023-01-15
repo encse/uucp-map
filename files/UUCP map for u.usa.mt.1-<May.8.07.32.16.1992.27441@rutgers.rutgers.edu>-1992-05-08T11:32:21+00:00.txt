@@ -1,0 +1,81 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mt.1
+: This archive created: Fri May  8 07:32:13 1992
+echo shar: extracting u.usa.mt.1
+cat << 'SHAR_EOF' > u.usa.mt.1
+# This map is maintained by David Schmidt (davids@isc-br.ISC-BR.COM).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# *PLEASE* follow directions in the README posting for all updates.
+#
+# I attempt to ship updates every two weeks or so, time permitting.
+#
+# Last updated: Wed Mar 25 14:05:40 PST 1992
+#############################################
+
+file {u.usa.mt.1}
+
+#N	bigsky
+#S	SVC 386, SCO UNIX 3.2.2
+#O	Big Sky Telegraph, Western Montana College, Dillon, MT, USA
+#C	Frank Odasz
+#E	bigsky!franko
+#T	+1 406 683 7338
+#L	45 25 N / 112 50 W
+#R	Rural Ed and Econ Dev. Computer Conferencing
+#U	oldcolo
+#W	dave@csn.org (Dave Hughes); Wed Mar 12 16:00:00 MST 1991
+#
+bigsky	csn.org(DAILY), oldcolo(DAILY)
+
+#N	caesar
+#S	MicroVAX II; Ultrix 3.1
+#O	Mont. State University, Dept. of Computer Science
+#C	Jaye Mathisen
+#E	caesar!usenet
+#T	+1 406 994 4780
+#P	410 Roberts Hall, Bozeman MT 59717
+#L	45 40 N / 111 00 W city
+#R	Gateway to MSU Computer Science machines.
+#U	blake ogicse dali uakari brutus samsung
+#W	caesar!icsu6000 (Jaye Mathisen); Mon Nov 20 20:10:15 MST 1989
+#
+caesar .cs.montana.edu
+caesar = caesar.cs.montana.edu
+#
+# 	This connection is actually UUCP over TCP/IP, I'll get it working one
+# 	of these days.
+caesar	ogicse(DEAD)
+
+#N	cs01
+#S	VAX 11/750;	Ultrix
+#O	University of Montana Computer Science Dept.
+#C	Alden Wright
+#E	ucbvax!ucdavis!umt!cs_ahw
+#T	+1 406 243 2883
+#P	U of M Computer Science Dept., Missoula, MT 59812
+#L
+#R
+#W	umt!marsh (Paul Marsh); Wed Nov  4 10:23:22 MST 1987
+#
+cs01	 umt(DEMAND)
+
+#N	umt
+#S	VAX 11/785;	Ultrix
+#O	University of Montana Computer Center
+#C	Paul Marsh
+#E	umt!marsh
+#T	+1 406 243 5455
+#P	U of M Computer Center, Missoula, MT 59812
+#L
+#R
+#W	umt!marsh (Paul Marsh); Wed Nov  4 10:23:22 MST 1987
+#
+umt	ucdavis(DAILY), cs01(DEMAND)
+
+##### End of Map #####
+SHAR_EOF
+:	End of shell archive
+exit 0
+

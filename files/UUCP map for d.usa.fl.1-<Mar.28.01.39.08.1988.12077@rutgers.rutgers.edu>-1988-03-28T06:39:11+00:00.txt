@@ -1,0 +1,245 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.fl.1
+: This archive created: Mon Mar 28 01:38:55 1988
+echo shar: extracting d.usa.fl.1
+cat << 'SHAR_EOF' > d.usa.fl.1
+#
+# Maintained by:	Mikel Manitius (mikel@codas.att.com)
+# Last Update:		Mon Mar  7 16:00:30 EST 1988
+# Send Updates To:	map-request@codas.att.com
+#
+
+#N	.ge.com, ge-dab, ge-rtp, steinmetz
+#F	seismo.css.gov
+#O	General Electric Company
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4333, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#R	registered
+#R	This map entry contains those .ge.com sites that are functional
+#R	domain gateways.  Other .ge.com uucp hosts are still in the
+#R	u.usa.* maps, for now....
+#U	codas rti uunet uvacs
+#W	dovich@ge-dab.GE.COM (Steven J. Dovich); Wed Jan 20 11:40:00 1988 EST
+#
+# Second and Third level domains and gateways:
+ge-dab	.ge.com, .dab.ge.com
+ge-rtp	.ge.com, .rtp.ge.com
+steinmetz	.ge.com
+nbc1	.nbc.ge.com
+edison	.aco.ge.com
+# UUCP hosts valid as third level domains:
+calma		=	calma.ge.com
+calmasd		=	calmasd.ge.com
+edison		=	edison.ge.com
+ge-dab		=	ge-dab.ge.com
+ge-rtp		=	ge-rtp.ge.com
+gecalma		=	gecalma.ge.com
+proteus		=	proteus.ge.com
+steinmetz	=	steinmetz.ge.com
+nbc1		=	nbc1.ge.com
+#
+#	ge-dab
+#S	DEC VAX-11/780; Ultrix-32
+#O	General Electric Simulation and Control Systems Department
+#C	Steven J. Dovich, Andrew L. Hazeltine
+#E	postmaster@dab.ge.com
+#T	+1 904 258 2564
+#P	P.O. Box 2500  Rm 4336, Daytona Beach, FL 32015
+#L	29 11 38 N / 81 04 24 W
+#U	ge-rtp codas steinmetz nbc1
+#  Our dedicated links
+ge-dab	ge-rtp(DEDICATED), steinmetz(DEDICATED)
+#  Our polled connections
+ge-dab  codas(DEMAND), sunfla(DAILY),
+	edison(HOURLY*2), nbc1(HOURLY*2), ucf-cs(HOURLY*3)
+#
+#	ge-rtp
+#S	DEC Microvax-II; Ultrix-32m
+#O	General Electric Company, Semiconductor Division
+#C	Will Gwaltney
+#E	postmaster@rtp.ge.com
+#T	+1 919 549 3787
+#P	P.O. Box 13049, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#U	rti ge-dab
+# direct connections
+ge-rtp	ge-dab(DEDICATED)
+# local calls
+ge-rtp	mcnc(DIRECT+HIGH), rti(DIRECT)
+# sites we poll
+mcnc	ge-rtp(DAILY/8)
+rti	ge-rtp(DAILY/6)
+#
+#	edison
+#S	DEC VAX-11/785; BRL VAX UNIX (4.2 BSD)
+#O	GE Fanuc Automation Corporation, North America
+#C	Bruce Garland, Keith Chambers
+#E	postmaster@edison.ge.com
+#T	+1 804 978 5000
+#P	P.O. Box 8106; Charlottesville, VA 22906
+#L	38 09 N / 078 25 W
+#U	uvacs toylnd ge-rtp steinmetz
+# direct connections
+edison	proteus(DEDICATED)
+# local calls
+edison	uvacs(DIRECT), uvaee(DIRECT), kesmai(DIRECT), toylnd(POLLED)
+# long distance GE sites
+edison	ge-rtp(EVENING), ge-dab(EVENING), steinmetz(DAILY),
+	gecalma(DAILY), calma(DAILY), calmasd(DAILY+LOW),
+	rvsd(EVENING)
+# other long distance sites
+edison	xanth(EVENING),
+	decuac(DAILY), brl-smoke(DAILY),
+	houxm(DAILY), unipress(DAILY),
+	hpfcla(DAILY), scgvaxd(DAILY)
+#
+# Sites we poll (ensure real and pathalias connectivity)
+uvacs		edison(HOURLY)
+kesmai		edison(DAILY)
+xanth		edison(DAILY)
+decuac		edison(DAILY)
+brl-smoke	edison(DAILY)
+scgvaxd		edison(DAILY)
+hpfcla		edison(WEEKLY/2)
+rvsd		edison(WEEKLY)
+gecalma		edison(WEEKLY)
+calma		edison(WEEKLY)
+calmasd		edison(WEEKLY)
+houxm		edison(WEEKLY)
+#
+#
+#	steinmetz
+#S	VAX 11/780, Unix
+#O	GE Corp., Research & Development
+#C	Joe Kane
+#E	{uunet,rochester}!steinmetz!kane
+#T	(518) 385-6748
+#P	K1-5C28a, P.O. Box 8, Schenectady, NY 12301
+#L	42 49 37 N / 73 52 30 W
+#U	uunet ge-dab
+#R	
+#W      steinmetz!kane 12/24/87
+#
+# local convention (update pending)
+steinmetz  .steinmetz.ge.com
+# internet alias
+ge-crd.arpa=crd.ge.com
+#
+steinmetz	edison(POLLED), rochester(DEMAND) ,cadreri(DIRECT),
+	rpics(DIRECT), albanycs(DIRECT), unioncs(DIRECT), sunbow(DIRECT),
+	benway(DEMAND), crdos1(DEMAND), mblast(DAILY), sixhub(DEMAND),
+	ledzep(POLLED), elan(DEMAND), vrdxhq(DEMAND), brspyr1(DIRECT),
+	ge-dab(DEMAND), crd.ge.com(LOCAL), philabs(DEMAND),
+	itsgw(DIRECT), uunet(DIRECT), pclab1(DEMAND), cugeorge(POLLED),
+	vdsvax(LOCAL), sane(POLLED), chinet(DEAD), gemed(DEMAND),
+	kidder(DEMAND), ipxlabs(POLLED), bloch(DEMAND), beowulf(DIRECT),
+	lisqnt(DIRECT), nbc1(DEMAND)
+#	nbc1
+#S	VAX 11/750  Ultrix-32 V2.0
+#O	National Broadcasting Co., Computer Imaging Laboratory
+#C      Anthony Stone
+#E	nbc1!postmaster
+#T	+1 212 664 2206
+#P	30 Rockefeller Plaza, Room 1615W, New York, NY 10112
+#L	40 45 33 N / 73 58 48 W
+#R
+#U	philabs
+#W	nbc1!stone (Anthony Stone); Sat Dec 12 19:39:18 EST 1987
+#
+nbc1	philabs(DEMAND), ge-dab(HOURLY*2), wavefront(HOURLY*24),
+	steinmetz(POLLED)
+
+#N	.harris.com, hcx1
+#F	eddie.mit.edu
+#O	Harris Corp., Computer Systems Division
+#C	Dick Reynolds, Gilbert Pilz
+#E	Postmaster@harris.com
+#T	305-974-1700
+#P	2101 W Cypress Creek Rd., Fort Lauderdale, FL 33309
+#L	80 09 W / 26 15 N 
+#U	novavax
+#R	registered
+#W	dick@ssd.harris.com (Dick Reynolds); Tue Dec 22 07:21:32 EST 1987
+#
+hcx1=	.harris.com, .ssd.harris.com
+hcx1=	harris.com, ssd.harris.com
+hcx1	novavax(DIRECT), mishcx(DEDICATED)
+hcx1	mit-eddie, cbosgd, galbp, uunet, vrdxhq
+hcx1	sec6(DEMAND), rama(DEMAND), pd1(DEMAND)
+
+#N	hechcx
+#S	Harris hcx7; HCX/UX 2.2
+#O	Harris Computer Systems (Harris Education Center)
+#C	John Teloh   
+#E	hechcx!news
+#T	+1 305 977 5602
+#P	2101 W Cypress Creek Road, Fort Lauderdale, FL., 33309
+#L	80 08 W / 26 14 N 
+#R	
+#U	flipper hrshcx
+#W	mikel@codas.att.com (Mikel Manitius); Mon Feb  1 20:29:58 EST 1988
+#
+hechcx=	.hec.harris.com
+hechcx=	hec.harris.com
+hechcx	hrshcx(LOCAL), hecmcx6(LOCAL), flipper(LOCAL)
+
+#N	.ccur.com, peora
+#F	uxc.cso.uiuc.edu
+#O	Concurrent Computer Corporation
+#C	Steve Davies, Randy Hendry
+#E	postmaster@peora.ccur.com
+#T	+1 305 850 1040
+#P	2486 Sand Lake Road, Orlando, FL  32809-7642
+#L	28 26 57 N / 81 24 56 W
+#R
+#U	ucf-cs codas petsd(L1) hoptoad(alt)
+#W	srd@peora.ccur.com (Steve Davies); Mon Nov  2 10:45:29 EST 1987
+#
+peora	.ccur.com
+peora=	peora.ccur.com
+peora	codas(DIRECT), hoptoad(DEMAND+LOW), pecnos(DEMAND+HIGH),
+		pedsgd(DEAD), petsd(DEAD), ucf-cs(DIRECT), uiucuxc(DEMAND)
+pecnos	pedsgd(DEDICATED), petsd(DEDICATED)
+
+#N	.ufl.edu, uflorida
+#S	Vax 11/750; 4.3bsd
+#O	Univ. of Florida, Computer and Information Sciences Dept.
+#C	Andy Wilcox, Eric Johnson
+#E	uflorida!postmaster, postmaster@ufl.edu
+#T	+1 904 335 8053
+#P	310 CSE, University of Florida, Gainsville Fl, 32611
+#L	29 40 N / 82 20 W city
+#R	Also bikini.cis.ufl.edu [128.227.2.1] on internet
+#R	We used to be ufcsv in the UUCP maps.
+#U	codas ufqtp gatech ukma ufise uf-ee9k
+#W	uflorida!esj (Eric Johnson); Wed Mar  2 21:40:09 EST 1988
+#
+uflorida .ufl.edu
+uflorida .cis.ufl.edu
+uflorida = ufl.edu
+uflorida = cis.ufl.edu
+uflorida = bikini.cis.ufl.edu
+uflorida = bikini
+uflorida = ufcsv
+#
+# News in:
+#
+uflorida codas(DEMAND+HIGH+HIGH), gatech(DIRECT)
+#
+# News out:
+#
+uflorida ufqtp(LOCAL), ufise(LOCAL), uf-ee9k(DIRECT)
+#
+# Just uucp
+#
+uflorida gould(DAILY), medman(DAILY), cmr(DAILY), ufms(DEMAND), 
+	 h2o(POLLED),  ricker(POLLED), gator(POLLED), ufnmr(DAILY)
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,912 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.oh.1
+: This archive created: Fri Jan 29 01:30:58 1988
+echo shar: extracting u.usa.oh.1
+cat << 'SHAR_EOF' > u.usa.oh.1
+#MAP FILE: u.usa.oh.1	Wed Jan 27 14:10:13 EST 1988	tgt@stargate.COM
+#
+#
+#N	abvax
+#S	VAX 11/780 BSD 4.3
+#O	Allen-Bradley Company, Inc.; Industrial Computer Division
+#C	William King
+#E	abvax!postmaster
+#T
+#P	747 Alpha Drive, Highland Heights, OH 44143
+#L	081 27 W / 41 33 N
+#R
+#U	mandrill.CWRU.Edu
+#W	abvax!wrk (William King) ; Mon Jan 11 10:58:34 EST 1988
+#
+abvax	cvedc(DEMAND), decvax(DEMAND), mandrill(DIRECT),
+	masscomp(DEMAND+HIGH), mrmarx(DAILY), pyramid(DEMAND)
+
+#N	apr
+#S	Integrated Solutions Optimum 5/10; 4.2BSD
+#O	Advanced Programming Resolutions, Inc.
+#C	Edward Thompson, Pat Murphy, Richard Glenn
+#E	apr!usenet, apr!thompson, apr!pem, apr!glenn
+#T	+1 614 766 6901
+#P	2715 Tuller Parkway Drive, Dublin OH 43017
+#L	40 05 N / 83 05 W
+#R	Consulting, Contract Programming
+#U	cbosgd osu-cis
+#W	apr!pem (Patrick E. Murphy); Sat Dec  5 18:16:25 EST 1987
+#
+apr	cbosgd(DIRECT), osu-cis(DIRECT), apr-m5(DIRECT), tarpit(DEMAND)
+
+#N	artsvax
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	The Ohio State University
+#C	Mark Welch       
+#E	artsvax!news
+#T	1 614 292 0895
+#P	Rm. 406 Baker, 1971 Neil Avenue, Columbus Ohio 43210
+#L	83 W / 40 N
+#R	We're just pleased as punch to fill out this form
+#U	osupyr
+#W	artsvax!mike (Michael Czeiszperger); Wed Sep 23 08:30:00 EDT 1987
+#
+artsvax	= "artsvax.ohio-state.edu"
+artsvax	osupyr(HOURLY)
+
+#N	bcd-dyn
+#S	Masscomp MC-5500; RTU 3.0
+#O	Battelle Columbus Division, Columbus, OH
+#C	Stanley F. Quayle, Mike D. Kurre
+#E	bcd-dyn!news, bcd-dyn!uucpadm, bcd-dyn!sfq, bcd-dyn!mdk
+#T	+1 614 424 4052, +1 614 424 4519
+#P	505 King Avenue, Columbus, OH  43201
+#L	39 59 52 N / 083 01 13 W
+#R	Usernames "news" and "uucpadm" routed to "sfq".
+#U	dsacg1 osu-cis
+#W	bcd-dyn!sfq (Stanley F. Quayle); Wed Jan 06 09:58:15 EDT 1988
+#
+bcd-dyn	dsacg1(HOURLY), osu-cis(HOURLY), oscar(DAILY)
+
+#N	bgsuvax
+#S	DEC VAX 11/785; 4.3BSD UNIX
+#O	Bowling Green State Univ.
+#C	Steve Herber
+#E	bgsuvax!herber
+#T	(419) 372-2102
+#P	Computer Services/Math Science Bldg., Bowling Green, OH 43403
+#L	41 55 N / 83 30 W
+#R
+#U	osu-cis
+#W	bgsuvax!herber (Steve Herber); Tue Dec 15 08:26:55 EST 1987
+#
+###### aliases ######
+bgsuvax = "bgsu.edu", "bgsu", "andy.bgsu.edu"
+#
+###### BGSU LAN ######
+bgsu = {bgsuvax, bgsu-stu, opie, trapper}(LOCAL)
+#
+###### UUCP connections ######
+bgsuvax	osu-cis(DEDICATED), robin(DEMAND), cduncan(DIRECT), 
+	bezier(DIRECT), pitt(DAILY)
+
+#N	cesbws
+#S	AT&T 6300+,  System V, Rel. 2.5
+#O	Cincinnati Electronics Corp
+#C	Yun-seng Chao
+#E	cesbws!usenet, cesbws!yun
+#T	+1 513 733 6370
+#P	2630 Glendale-Milford Drive, Cincinnati, Ohio 45241
+#L	39 14 N / 84 31 W
+#R	Gateway to outside world.
+#U	spca6 sdrc
+#W	cesbws!yun (Yun-seng Chao); Dec 11 14:49:03 EST 1987
+#
+cesbws	spca6(HOURLY), sdrc(HOURLY),
+#	The following are internal machines
+cesbws	ceetm1(DEMAND)
+
+#N	cheetah
+#S	Data General, MV10000, DG/UX 3.10
+#O	Case Western Reserve Univ.  Comp. Eng. Dept.
+#C	Ed Rynes
+#E	mandrill!postmaster
+#T	+1 216 368 6471
+#P	10900 Euclid, Cleveland, OH 44106
+#L	081 36 35 W / 41 30 15 N
+#R	Used to be cwrudg
+#U	mandrill
+#W	mandrill!rynes (Ed Rynes) ; Tue Aug 25 11:08:22 EDT 1987
+#
+cheetah .ces.cwru.edu
+cheetah	mandrill(DEDICATED)
+
+#N	chemabs
+#S	VAX-11/780; ULTRIX 1.2
+#O	Chemical Abstracts Service
+#C	Robert S. Hall
+#E	chemabs!postmaster,chemabs!hall
+#T	+1 614 421 3600 x2027
+#P	2540 Olentangy River Road, P. O. Box 3012, Columbus, OH, 43210
+#L	39 59 N / 83 03 W
+#R	Chemical information processing & distribution
+#U	osu-cis
+#W	chemabs!hall (Robert S. Hall); Mon Oct 26 17:51:44 EST 1987
+#
+chemabs	osu-cis(DAILY)
+#N	crdnl
+#S	Masscomp MC500; RTU 3.0
+#O	Cardinal Information Systems
+#C	Ken Brown
+#E	crdnl!ken
+#T	+1 513 435 4653
+#P	PO Box 97, Dayton, OH 45449
+#L	39 47 N / 84 14 W
+#R
+#U	ncremd wright 
+#W	crdnl!kvb (Ken Brown); Wed Jun  3 08:45:38 EDT 1987
+#
+crdnl	cbosgd(DEMAND),	wright(DIRECT), ncremd(DIRECT), oucs(DAILY), uunet
+
+#N	crta
+#S	DEC Micro-VAX II; Ultrix-32 M
+#O	Burke Marketing Services, Inc. 
+#C	Barry Wenger
+#E	crta!wenger
+#T	+1 513 852 3933, +1 513 852 8524
+#P	800 Broadway, Cincinnati, Ohio  45202
+#L	039 06 20 N / 84 30 26 W
+#R
+#U
+#W	crta!gordos (John A. Gordos); Tue Dec 16 10:58:11 EDT 1986
+#
+crta	oucs(EVENING)
+
+#N	david
+#S	AT&T UNIX-PC; 3.5 UNIX
+#O	David A. Roth, Consultant
+#C	David A. Roth
+#E	david!david
+#T	+1 614 860 2931
+#P	100 East Wilson Bridge Road/Suite 212, Columbus, Ohio, USA 43085
+#L	40 08 N / 83 01 W
+#R	Connect primarily with Columbus area sites.
+#U	
+#W	david!david (David A. Roth); Sat Nov 14 08:28:49 EST 1987
+#
+david	osu-cis(DIRECT), n8emr(DIRECT)
+
+#N	dsacg1
+#S	Gould Powernode 9050; UTX 2.0 (4.3 BSD)
+#O	U. S. Defense Logistics Agency Systems Automation Center
+#C	Chuck Cameron, Dorrine Crowder
+#E	dsacg1!ccameron, dsacg1!dcrowder
+#T	+1 614 238 9055
+#P	DSAC-ZT, P. O. Box 1605, Columbus, OH 43216
+#L	83 00 W / 40 00 N city
+#R	Defense Logistics Agency Central Electronic Mail Router
+#R	Most mail aliases are formed as addressee first initial
+#R	last name all lower case
+#U	osu-cis dsacg2 dsacg3 dsachg1 dsacng1 dlag1 ddmpg1 ddmtg1
+#U	ddoug1 ddtcg1 dlscg1 dcscg1 descg1 dfscg1 dgscg1 discg1
+#U	dpscg1 dcrag1 dcrbg1 dcrig1 dcrlg3 dcrpg1 dcrtg1 dticg1
+#U	bcd-dyn
+#W	dsacg1!jroth (Jeff Roth); Mon Oct 19 11:00:00 EDT 1987
+#
+######	Automated Information System Development	######
+dsacg1	dsacg2(LOCAL)
+#
+######	Research and Development	######
+dsacg1	dsacg3(LOCAL)
+#
+######	DSAC Remote Development	######
+dsacg1	dsachg1(HOURLY), dsacng1(HOURLY)
+#
+######	Headquarters	######
+dsacg1	dlag1(HOURLY)
+#
+######	Defense Depots	######
+dsacg1	ddmpg1(HOURLY), ddmtg1(HOURLY), ddoug1(HOURLY), ddtcg1(HOURLY)
+#
+######	Defense Reutilization and Marketing Service	######
+dsacg1	dlscg1(HOURLY), drmreg1(DAILY+LOW)
+#
+######	Defense Supply Centers	######
+dsacg1	dcscg1(DIRECT), descg1(HOURLY), dfscg1(HOURLY), dgscg1(HOURLY),
+	discg1(HOURLY), discg2(HOURLY), discg3(HOURLY), discg4(HOURLY),
+	dpscg1(HOURLY)
+#
+######	DLA Support Centers ######
+dsacg1	dlscg2(HOURLY), dticg1(HOURLY)
+#
+######	Defense Contract Administration Service Regions	######
+dsacg1	dcrag1(HOURLY), dcrbg1(HOURLY), dcrig1(HOURLY), dcrlg1(HOURLY),
+	dcrlg2(HOURLY), dcrlg3(HOURLY), dcrlg4(HOURLY), dcrlg5(HOURLY),
+	dcrpg1(HOURLY), dcrtg1(HOURLY), dcrng1(HOURLY)
+#
+######	Others	######
+dsacg1	gould(HOURLY), samson(WEEKLY), brl-adm(DAILY/3), telesoft(WEEKLY),
+	isis(WEEKLY), lll-tis(WEEKLY), stubby(DAILY), ariane(DEAD),
+	osu-cis(DAILY/12), bcd-dyn(EVENING/7)
+
+#N	dsacg2
+#S	Gould Powernode 9050; UTX 1.2 (4.2 BSD)
+#O	U. S. Defense Logistics Agency Systems Automation Center
+#C	Linda Friese
+#E	dsacg2!postmaster
+#T	+1 614 238 9193
+#P	DSAC-T, P. O. Box 1605, Columbus, OH 43216
+#L	83 00 W / 40 00 N city
+#R	This is application development machine for DSAC
+#U	
+#W	dsacg2!jroth (Jeff Roth); Mon Jan 5 08:30:00 EST 1987
+#
+dsacg2	dsacg1(DEDICATED), dsacg3(DEDICATED)
+
+#N	dsacg3
+#S	Gould Powernode 9050; UTX 2.0 (4.3 BSD)
+#O	U. S. Defense Logistics Agency Systems Automation Center
+#C	Linda Friese
+#E	dsacg3!postmaster
+#T	+1 614 238 9193
+#P	DSAC-T, P. O. Box 1605, Columbus, OH 43216
+#L	83 00 W / 40 00 N city
+#R	This is R&D machine for DLA
+#U	
+#W	dsacg3!jroth (Jeff Roth); Mon Jan 5 08:30:00 EST 1987
+#
+dsacg3	dsacg1(DEDICATED), dsacg2(DEDICATED)
+
+#N	hal
+#S	DEC VAX 11/750; 4.3BSD UNIX
+#O	Department of Biometry
+#C	Aydin Edguer
+#E	hal!ane
+#T	+1 216 368 3970
+#P	School of Medicine, Case Western Reserve Univ., Cleveland, OH 44106
+#L	41 30 N / 81 41 W
+#R
+#U	cbosgd mandrill ncoast uccba
+#W	hal!ane (Aydin Edguer); Thu Jul  9 12:20:30 EDT 1987
+#
+hal	mandrill(HOURLY), ncoast(HOURLY), uccba(EVENING), cbosgd(EVENING)
+
+#N	hasmed
+#S	Tandy 6000;XENIX 3.1.1
+#O	Hamilton's Health Aid Services Inc.
+#C	Bob Hamilton
+#E	hasmed!bob
+#T	+1 513 923 3300
+#P	6225 Colerain Ave., Suite 300, Cincinnati, OH 45239
+#L
+#R
+#U	ukma
+#W	hasmed!bob (Bob Hamilton); Fri Aug  8 07:09:34 EDT 1986
+#
+hasmed	ukma(EVENING)
+
+#N	magnet
+#S	DEC MicroVAX-II; ULTRIX-32m 1.2
+#O	Management Assistance Group
+#C	Rich Henning, Owen Plowman
+#E	magnet!usenet
+#T	+1 416 632 6500
+#P	2000 National City Center, Cleveland, Ohio, 44114
+#L	41 30 N / 81 43 W
+#R      Machine is in Cleveland, but administered by Meta Systems (Canada)
+#U
+#W	magnet!owen (Owen Plowman); Fri Dec  4 18:02:58 EST 1987
+#
+magnet	hal(DIRECT),		# mail link	(we call them)
+	methods(DAILY/4),	# mail link	(we call them)
+	metavax(DAILY/4)	# mail link	(we call them)
+
+#N	mcorp
+#S	DEC VAX-11/750; ULTRIX-32 Version 2.0
+#O	MMS International
+#C	Philip H. Gross
+#E	mcorp!usenet
+#T	+1 614 895 0738
+#P	2400 Corporate Exchange, Suite 200, Columbus, Ohio 43229
+#L
+#R
+#U	osu-cis
+#W	mcorp!phil (Philip H. Gross); Thu Jan  7 17:17:01 EST 1988
+#
+mcorp	osu-cis(EVENING)
+
+#N	mech23
+#S	DEC PDP-11/23; 2.9 BSD UNIX
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	was connected to cincy
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:01:11 EST 1987
+#
+mech23	ucmie(DEDICATED)
+
+#N	motcoh
+#S	Motorola System 1131; System V R3 V1.0   
+#O	Motorola Inc.
+#C	Mark D. Mills
+#E	motcoh!mark   motcoh!usenet
+#T	+1 614 846 9460
+#P	6563 Worthington-Galena Road, Worthington Ohio  43085
+#L	40 04 N / 83 02 W
+#R	
+#U	mcdchg osu-cis motsj1 motdet
+#W	motcoh!mark (Mark D. Mills); Thu Aug 27 14:40:44 EDT 1987
+#
+motcoh	osu-cis(DIRECT), mcdchg(EVENING), motsj1(WEEKLY), motdet(EVENING),
+	mcdapps(DEMAND)
+
+#N	mstar
+#S	Masscomp MC5500; RTU 3.0
+#O	Morning Star Technologies, Inc.
+#C	Karl F. Fox
+#E	mstar!postmaster
+#T	+1 614 451 1883
+#P	1760 Zollinger Road, Columbus, OH 43221
+#L	83 03 32 W / 40 01 08 N
+#R	Protocol and Software Development Machine
+#U	osupyr
+#W	mstar!karl (Karl F. Fox); Tue Jul 21 18:01:24 EDT 1987
+#
+mstar	cbosgd(DIRECT), osupyr(DIRECT)
+
+#N	n8emr
+#S	AT&T unix-pc; 3.5 unix
+#O	HBBS (Ham Bulletin Board System)
+#C	Gary W. Sanders
+#E	n8emr!usenet,n8emr!gws
+#T	+1 614 457 4595
+#P	4689 Greentree Ct. Apt D, Columbus, OH
+#L	83 00 W / 40 00 N
+#R	Bulletin Board supporting Ham and SWL activitys,
+#U	gwspc cbcsta uncle oink dkstar
+#W	n8emr!gws (Gary W. Sanders); Thu Aug 20 10:25:57 EDT 1987
+#
+#	Running Unaxcess BBS software. I support a limited number 
+#	of newsgroups. Supported are comp.all, news.all, unix-pc.all
+#	rec.ham-radio.all, and a few other misc and rec groups.
+#	BBS users have read-only access rec.ham-radio and rec.ham-radio.packet
+#	A few people have unix access to read other newsgroups...
+#
+n8emr	gwspc(DIRECT), cbcsta(DIRECT), uncle(EVENING), oink(EVENING),
+        cbosgd(DAILY), chemabs(DAILY), ihnp4(WEEKLY), dkstar(EVENING),
+	riors(DAILY),riors2(WEEKLY)
+
+#N	ncoast
+#S	Plexus P-35; sys3
+#O	Cleveland Public Access Un*x
+#C	
+#E	ncoast!postmaster
+#T	
+#P	633 Huron Rd, Cleveland, Oh 44115
+#L	081 41 W / 41 30 N 
+#R	+1 216 781 6201 login as 'makeuser'
+#R	sites wanting uucp connection send email from 
+#R 	your site to ncoast!postmaster to establish login
+#U	hal9000 peng fmsrl7 hnsurg3 icus devon hal 
+#U	hoptoad necntc axcess nemesis ohiont
+#W	ncoast!smith (Phil Smith) ; Sat Dec 19 17:41:11 EST 1987
+#
+ncoast	mandrill(DIRECT), hal(DAILY), hal9000(DAILY), tdi2(DAILY),
+	peng(WEEKLY), necntc(DAILY), devon(WEEKLY), uccba(WEEKLY),
+	fmsrl7(WEEKLY), hoptoad(WEEKLY), hnsurg3(WEEKLY),
+	garrett(DAILY), axcess(DAILY), sidrat(DAILY)
+
+#
+# These sites call us.
+#
+hoptoad	ncoast(DAILY)
+icus	ncoast(DAILY)
+devon	ncoast(DAILY)
+peng	ncoast(DAILY)
+hnsurg3	ncoast(DAILY)
+
+#N	ncrcam
+#S	NCR Tower-32 running System V, 1.03
+#O	NCR Corporation, E&M Cambridge
+#C	Debbie Morley
+#E	d.morley@ncrcam.Cambridge.NCR.COM
+#T	+1-614-439-0113
+#P	800 Cochran Ave., Cambridge, OH  43725
+#L	
+#R	NCR sites fed in the Cambridge.NCR.COM domain:
+#U	ncrcpx
+#W	ncrcam!morley (Debbie Morley); Thu Oct  8 14:06:32 EDT 1987
+#
+# We are the gateway for the cambridge.ncr.com domain.  In
+# addition to domain routing, if you know the full name of
+# someone at an NCR Cambridge site, mail sent to
+# full.name@cambridge.ncr.com will get to them.
+#
+ncrcam  = ncrcam.cambridge.ncr.com
+ncrcam  .cambridge.ncr.com, .ncr.com, cambridge.ncr.com
+#
+# Non-local NCR sites
+ncrcam ncrlnk(DEDICATED)	#dayton.ncr.com gateway
+ncrcam ncrcae(DEDICATED)	#columbia.ncr.com gateway
+ncrcam ncrwic(DEDICATED)	#wichita.ncr.com
+ncrcam rd1632(DEMAND)		#rd1632.dayton.ncr.com
+
+#N	ncrcpx
+#S	NCR Tower 32/600; System V.2
+#O	NCR Engineering & Manufacturing Cambridge
+#C	R. Craig Peterson
+#E	ncrcpx!postmaster
+#T	+1 614 439 0245, +1 614 439 0232
+#P	800 Cochran, Cambridge, Ohio, 43725
+#L
+#R	Mail/News for all machines in operating systems/tools engineering
+#U	ncrcam
+#W	R. Craig Peterson (craig@ncrcpx); Fri Jan 15 15:24:46 EST 1988
+#
+ncrcpx	ncrcam(DEDICATED)
+
+#N	ncrpcd
+#S	NCR TOWER XP; System V Release 2 UNIX (3.01.00)
+#O	NCR Corporation - Personal Computer Division
+#C	Roscoe Rush
+#E	ncrpcd!news
+#T	+1 513 445 1744
+#P	1601 S. Main Dayton, OH 45479
+#L	39 44 02 N / 84 11 00 W
+#R
+#U	ncrlnk ncroem wright pcd-cd ncrcae
+#W	ncrpcd!rmr (Roscoe Rush); Thu Sep 17 15:15:49 EST 1987
+#
+ncrpcd	ncrlnk(DIRECT), ncroem(DAILY), wright(EVENING), pcd-cd(DIRECT), 
+	ncrcae(DAILY)
+
+#N	neoucom
+#S
+#O	Northeastern Ohio Universities College of Medicine
+#C	Bill Dorsey
+#E	neoucom!wfd
+#T	(216) 325-2511
+#P	POB 95, Rootstown, OH 44272
+#L	41 06 N / 81 15 W city
+#R
+#U	cbosgd mandrill
+#W	cbosgd!tgt (Tim Thompson); Mon Jul 14 07:49:03 EDT 1986
+#
+neoucom	allegra(EVENING), princeton(EVENING), astrovax(EVENING), cbosgd(EVENING)
+
+#N	nitrex
+#S	Motorola/Convergent Series 6600 Megaframe; UNIX SYS V
+#O	The Standard Oil Co.
+#C	Mark S. Holtman
+#E	nitrex!msh
+#T	216-581-5375
+#P	4440 Warrensville Center Road, Cleveland, Ohio 44128
+#L	41 30 N / 81 41 W City 
+#R
+#U	mandrill,cbosgd 
+#W	nitrex!msh (Mark S. Holtman); Mon Jan 26 21:44:09 EST 1987
+#
+nitrex 	mandrill(DIRECT), cbosgd(EVENING)
+
+#N	oberlin
+#S	DEC VAX-11/750;	ULTRIX 1.2
+#O	Oberlin College Computer Science
+#C	Ken Baer
+#E	oberlin!usenet
+#T	+1 216 775 8424
+#P	Math Department, Oberlin OH 44074
+#L	41 17 30 N / 82 12 32 W city
+#R	Our machine is also on CSNET as oberlin.edu
+#U	
+#W	oberlin!baer (Ken Baer); Fri May 29 09:06:46 EDT 1987
+#
+oberlin = "oberlin.edu"
+#
+oberlin	ihnp4(DAILY), terminus(DAILY/2)
+
+#N	ogg
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	The Ohio State University Computer Graphics Research Group
+#C	Jeffey L. Campbell
+#E	ogg!postmaster
+#T	+1 614 292 3416
+#P	Cranston Center, 1501 Neil Avenue, Columbus, Ohio, 43201
+#L	39 58 N / 83 03 W
+#R	used to be osu-cgrg
+#U	osu-cis
+#W	ogg!frog (Jeffrey L. Campbell) Wed Aug 26 13:53:33 EDT 1987
+#
+ogg =	ogg.cgrg.ohio-state.edu
+ogg =	osu-cgrg
+#
+ogg	osu-cis(DIRECT), cbosgd(WEEKLY)
+
+#N	osu-cis
+#S	ATT 3B2/400; SVr3.0 UNIX
+#O	The Ohio State University Computer & Information Science Department
+#C	Robert A. Sutterfield
+#E	osu-cis!usenet
+#T	+1 614 292 7348
+#P	CIS Department, 2036 Neil Avenue Mall, Columbus Ohio  43210-1277
+#L	39 59 N / 83 03 W
+#R	UUCP mail & News gateway for Ohio State University & lots of Columbus
+#U	apr cbosgd chemabs dsacg1 mcorp motcoh sppy00
+#U	loquat.cis.ohio-state.edu bcd-dyn tut.cis.ohio-state.edu ogg
+#U	osupyr
+#W	bob@cis.ohio-state.edu (Bob Sutterfield) ; Thu Jan 14 16:26:36 EST 1988
+#
+osu-cis = osu-cis.cis.ohio-state.edu
+#
+osu-cis	apr(DIRECT),
+	bcd-dyn(DIRECT),
+	bgsuvax(DAILY/4),
+	cbosgd(DIRECT+HIGH),
+	cbstr1(DIRECT),
+	chemabs(DIRECT),
+	devel(DIRECT),
+	dsacg1(DIRECT),
+	fraikus(DIRECT),
+	loquat.cis.ohio-state.edu(DIRECT),
+	mcmi(WEEKLY),
+	mcorp(DIRECT),
+	motcoh(DIRECT),
+	musky2(WEEKLY),
+	n8emr(DIRECT),
+	ogg(DIRECT),
+	osuecn(DIRECT),
+	osupyr(DIRECT),
+	pdp7.cis.ohio-state.edu(DIRECT),
+	pyramid(DAILY/4),
+	pyrtech(DAILY/4),
+	rls(WEEKLY),
+	sppy00(DIRECT),
+	tut.cis.ohio-state.edu(LOCAL)
+#
+# Various PC and PC7300
+#
+osu-cis datta(DIRECT),
+	david(DIRECT)
+# exist but not registered
+#	jazz(DIRECT),
+#	kumiss(DIRECT),
+#	sydney(DIRECT)
+#
+#
+#N	tut.cis.ohio-state.edu
+#S	Pyramid 98x; OSx4.0
+#O	The Ohio State University Computer & Information Science Department
+#C	Robert A. Sutterfield
+#E	osu-cis!usenet
+#T	+1 614 292 7348
+#P	CIS Department, 2036 Neil Avenue Mall, Columbus Ohio  43210-1277
+#L	39 59 N / 83 03 W
+#R	Main NNTP feed/server for CIS, OSU, and Ohio
+#U	osu-cis bgsuvax
+#W	bob@cis.ohio-state.edu (Bob Sutterfield) ; Thu Jan 14 16:26:36 EST 1988
+#
+## Aliases ##
+tut.cis.ohio-state.edu = .cis.ohio-state.edu
+tut.cis.ohio-state.edu = cis.ohio-state.edu
+tut.cis.ohio-state.edu = .ohio-state.edu
+tut.cis.ohio-state.edu = ohio-state.edu
+tut.cis.ohio-state.edu = ohio-state.csnet
+tut.cis.ohio-state.edu = ohio-state.arpa
+tut.cis.ohio-state.edu = ohio-state
+tut.cis.ohio-state.edu = osu-eddie
+#
+tut.cis.ohio-state.edu	osu-cis(LOCAL)
+#
+#------------------------------------------------------------
+# Other hosts whose connectivity we know about
+#
+osupyr = osupyr.mast.ohio-state.edu
+osupyr = .mast.ohio-state.edu
+osupyr = mast.ohio-state.edu
+#
+osupyr	osu-cis(LOCAL), snd-synth(DEDICATED), osuecn(DEDICATED),
+	cbosgd(DIRECT), alix(DIRECT), cblpf(DIRECT), gei(DIRECT),
+	mstar(DIRECT), pyramid(DAILY/4), sppy00(DIRECT)
+#
+snd-synth = artsvax
+snd-synth = .snd-syth.ohio-state.edu
+snd-synth = snd-syth.ohio-state.edu
+#
+osuecn = econ.ohio-state.edu
+
+#N	oink
+#S	AT&T UNIX-PC; 3.5 UNIX
+#O	Random Prime Research Institute
+#C	James E. Prior
+#E	oink!jep,oink!postmaster
+#T	+1 614 274 5428
+#P	3523 Wilson Woods Drive, Columbus, Ohio, USA 43204
+#L	39 58 N / 83 06 W
+#R	nice toy, wastes time doing fractals or big primes
+#U	n8emr
+#W	oink!jep (James E. Prior); Wed Aug 26 14:16:01 EDT 1987
+#
+oink	n8emr(DAILY)
+
+#N	ouhtc
+#S	AT&T 3B2/300; Unix System V
+#O	Ohio University Honors Tutorial College
+#C	Phil Zecher
+#E	ouhtc!zecher
+#T	+1 614 593 1595
+#P	35 Park Place, Athens, OH 45701
+#L	82 4 W / 39 17 N  
+#R	Also htc.OHIOU.EDU
+#U	oucs
+#W	ouhtc!ronz (Andrew Rawnsley); Fri May 29 09:08:03 EDT 1987
+#
+ouhtc	oucs(DIRECT)
+
+#N	owlmnt
+#S	Onyx C6810; Unix System 5.0
+#O	Owl Mountain Inc.
+#C	Jim McCool
+#E	owlmnt!jim
+#T	+1 513 845 1409
+#P	515 Whaley Road New Carlisle Ohio 45344
+#L	
+#R
+#U	wright sloop
+#W	owlmnt!jim (Jim McCool); Wed Dec 23 22:40:36 1987
+#
+owlmnt	wright(DIRECT), sloop(DIRECT)
+
+#N	sdrc
+#S	HP 9000/350; HP-UX 5.3
+#O	Sturctural Dynamics Research Corporation
+#C	Ken Shackelford
+#E	sdrc!news
+#T	+1 513 576 2556
+#P	2000 Eastman Dr., Milford, OH 45150
+#L	39 4 6 N / 84 10 18 W
+#R	None
+#U	uunet
+#W	sdrc!crken (Ken Shackelford); Mon Nov 23 18:32:47 EST 1987
+#
+sdrc	uunet(DAILY/6)
+
+#N	sloop
+#S	IBM RT/PC AIX 2.2
+#O	Mead Data Central Inc.
+#C	Bob Karp, Christy Dey
+#E	sloop!bobkarp sloop!christy
+#T	+1 513 865 7799
+#P	9473 Springboro Pike, Dayton OH.
+#L	
+#R
+#U	owlmnt
+#W	owlmnt!jim (Jim McCool); Wed Dec 23 22:40:36 EST 1987
+#
+sloop	owlmnt(HOURLY)
+
+#N	spca6
+#S	Unisys 5000/80 (aka Arete 1200); Unix System V.2
+#O	U.S. Court of Appeals for the Sixth Circuit
+#C	Ray Price
+#E	spca6!news
+#T	+1 513 684 2987
+#P	USPO & Courthouse Building; Cincinnati, OH 45202
+#L	39 06 08 N / 84 30 23 W
+#R
+#U	uccba
+#W	spca6!ray (Ray Price); Thu Oct  8 14:46:49 EDT 1987
+#
+spca6	uccba(DIRECT) 
+
+#N	sppy00
+#S	Pyramid 98x; OSx 3.1; 4.2/SysV Unix
+#O	Online Computer Library Center
+#C	Phillip Bronsdon
+#E	sppy00!news
+#T	+1 614 764 6260
+#P	6565 Frantz Road, Dublin, OH, 43017
+#L	83 01 17 W / 39 59 46 N
+#R	the OCLC development environment
+#U	osu-cis
+#W	sppy00!cml (Chris Lott); Thu Sep  3 10:28:51 EDT 1987
+#
+sppy00	osu-cis(DIRECT)
+
+#N	strlna
+#S	Sperry 5000/90; 3.1 unix
+#O	Sterling Software
+#C	John B. Milton
+#E	strlna!usenet
+#T	+1 614 459 7644
+#P	1691 North West Professional Plaza, Columbus, OH  43220
+#L	40 04 N / 83 04 W
+#R	COBOL developement, no news feed yet
+#U
+#W	strlna!john (John B. Milton); Tue Dec 08 19:40:00 EDT 1987
+#
+strlna	uncle(DAILY)
+
+#N	syrano
+#S	DEC LSI 11/23
+#O	Univ. of Cincinnati, Dep't. of Anatomy & Cell Biology
+#C	Steve Kleene
+#E	syrano!steve; BITNET WANARCG@NOSECITY
+#T	(513) 872-6027
+#P	Univ. of Cinci., ML 521, Cincinnati, OH 45267-0521
+#L	39 06 N / 84 31 W city
+#R	
+#U	none (mail only)
+#W	syrano!steve (Steve Kleene); Sun Jan  4 17:02:35 EST 1987
+#
+
+#N	tipnis
+#S	Hewlett-Packard HP-9000 Model 560; HP-UX 5.11
+#O	Tipnis Software Systems
+#C	Alfonso J. Marmora
+#E	tipnis!postmaster
+#T	+1 513 791 3805
+#P	10815 Indeco Drive, Cincinnati, OH 45241 USA
+#L	39 15 40 N / 84 23 20 W
+#R
+#U	uccba
+#W	tipnis!al (Alfonso J. Marmora); Wed Aug  5 09:14:16 EDT 1987
+#
+tipnis	mddc(DAILY), uccba(DAILY/12), ucmie(DAILY/4),
+	syrano(DAILY/4)
+
+#N	topcat
+#S	AT&T unix-pc; 3.5 unix
+#O	personal computer
+#C	David Summerville
+#E	topcat!postmaster,topcat!david
+#T	+1 614 299 6800
+#P	33 East 17th Ave, Columbus Ohio 43201
+#L	39 57 N / 83 00 w
+#R	personal computer
+#U	n8emr 
+#W	n8emr!gws (Gary W. Sanders);Sat Nov 21 16:58:50 EST 1987
+#
+topcat	n8emr(EVENING)
+
+#N	uciair
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Tim King
+#E	ucmie!uucp, ucmie!king
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:05:36 EST 1987
+#
+uciair	ucmie(DEDICATED), ucmie1(DEDICATED), ucmie2(DEDICATED),
+	ucmie3(DEDICATED), ucmie4(DEDICATED), ucsdrl(DEDICATED)
+
+#N	ucmie
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	tipnis
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:07:20 EST 1987
+#
+ucmie	ucmie1(DEDICATED), ucmie2(DEDICATED), ucmie3(DEDICATED),
+	ucmie4(DEDICATED), ucsdrl(DEDICATED), uciair(DEDICATED),
+	mech23(DEDICATED), cincy(DIRECT),  cinsys(DIRECT),
+	syrano(DIRECT),  tipnis(DAILY)
+
+#N	ucmie1
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:10:47 EST 1987
+#
+ucmie1	ucmie(DEDICATED), ucmie2(DEDICATED), ucmie3(DEDICATED),
+	ucmie4(DEDICATED), ucsdrl(DEDICATED), uciair(DEDICATED)
+
+#N	ucmie2
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:12:13 EST 1987
+#
+ucmie2	ucmie(DEDICATED), ucmie1(DEDICATED), ucmie3(DEDICATED),
+	ucmie4(DEDICATED), ucsdrl(DEDICATED), uciair(DEDICATED)
+
+#N	ucmie3
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:13:10 EST 1987
+#
+ucmie3	ucmie(DEDICATED), ucmie1(DEDICATED), ucmie2(DEDICATED),
+	ucmie4(DEDICATED), ucsdrl(DEDICATED), uciair(DEDICATED)
+
+#N	ucmie4
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:14:06 EST 1987
+#
+ucmie4	ucmie(DEDICATED), ucmie1(DEDICATED), ucmie2(DEDICATED),
+	ucmie3(DEDICATED), ucsdrl(DEDICATED), uciair(DEDICATED)
+
+#N	ucsdrl
+#S	HP 550; HPUX System V
+#O	University of Cincinnati, Dept. of Mechanical & Industrial Engr.
+#C	Larry Schwartman
+#E	ucmie!uucp, ucmie!larry
+#T	+1 513 475 3242, +1 513 475 2738
+#P	Mail Loc. 72, Cincinnati, OH 45221
+#L	39 06 N / 84 31 W city
+#R	
+#U	
+#W	ucmie!ray (Ray Wilkin); Sun Jan  4 17:09:34 EST 1987
+#
+ucsdrl	ucmie(DEDICATED), ucmie1(DEDICATED), ucmie2(DEDICATED),
+	ucmie3(DEDICATED), ucmie4(DEDICATED), uciair(DEDICATED)
+
+#N	uncle
+#S	AT&T unix-pc; 3.5 unix
+#O	Personal system
+#C	John B. Milton
+#E	uncle!postmaster,uncle!jbm
+#T	+1 614 294 4823
+#P	1146 #B Harrison Avenue, Columbus, Oh 43201
+#L	40 00 N / 83 00 w
+#R	Personal computer
+#U	n8emr
+#W	uncle!jbm (John B. Milton); Fri Sep 01 20:53:00 EDT 1987
+#
+#	General interest in computer graphics and fractals.
+#
+uncle	n8emr(DIRECT)
+
+#N	zhmti
+#S	SUN 2/160C; 4.2 BSD UNIX
+#O	Zebb-Hoff Machine Tool, Inc.
+#C	Dieter H. Zebbedies
+#E	zhmti!usenet
+#T	+1 216 631 6100
+#P	9535 Clinton Road, Brooklyn, OH 44144
+#L	81 41 W / 41 30 N 
+#R	host for AMP (Automated Manfacturing Project), using CAE/CIM 
+#U	mandrill telxon auphys inez unie ppi zippysun endot
+#W	zhmti!dietz (Dieter H. Zebbedies); Wed Jun  3 08:46:45 EDT 1987
+#
+zhmti	mandrill(DAILY/3), telxon(DAILY), auphys(DAILY), inez(WEEKLY),
+	unie(WEEKLY), ppi(DAILY), zippysun(DEAD), endot(DEAD)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,456 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.ab.1
+: This archive created: Mon Mar 28 02:00:42 1988
+echo shar: extracting u.can.ab.1
+cat << 'SHAR_EOF' > u.can.ab.1
+#	u.can.ab.1 : last updated Mon Feb 29 03:38:52 1988
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	If you wish a permanent record of your registration or update, please
+#	send it to cbosgd!uucpmap *only*.  Elsewise please send the update to
+#	the utai!path address *only*.  The only difference is that sending an
+#	update/registration through the cbosgd!uucpmap address will guarantee
+#	the existence of a centrally kept copy.  If you wish to register your
+#	site as a subdomain under the Canadian top-level domain (.Ca), please
+#	contact utai!registry (registry@ai.toronto.{edu,cdn}) for information.
+
+#N	access
+#S	Sun 3/140; Sun OS 3.2
+#O	Alberta Educational Communication Corporation
+#C	Stanley Varnhagen
+#E	access!postmaster
+#T	+1 403 451 7219
+#P	16930 114 Ave.; Edmonton, Alberta  T5M 3S2
+#L	53 24 N / 113 29 W city
+#R	ACCESS Network
+#U	alberta edm
+#W	alberta!bruce (Bruce Folliott); Mon Feb  8 14:51:35 MST 1988
+#
+access	alberta(DIRECT), edm(EVENING)
+
+#N	adec23
+#S	DEC 11/23; UNIMAX
+#O	Advanced Digital Eng. Corp.
+#C	Mark G. Salyzyn
+#E	adec23!root
+#T	+1 403 432 7382
+#P	10509-81 Avenue, Room 38, Edmonton, Alberta, Canada, T6E-1X7
+#L	53 31 10 N / 113 30 30 W
+#R
+#U
+#W	adec23!mark (Mark G. Salyzyn); Wed Dec  7 16:20:00 MST 1987
+#
+adec23	uofaee(DAILY), teletron(DAILY)
+
+#N	alberta
+#S	DEC VAX 11/780; 4.3 BSD UNIX
+#O	University of Alberta, Dept. of Computing Science
+#C	Steve Sutphen, Robert Lake, Bruce Folliott
+#E	alberta!steve, alberta!lake, alberta!bruce
+#T	+1 403 432 4768, +1 403 432 5817, +1 403 432 2651
+#P	#615 General Service Building, Edmonton, Alberta, Canada T6G 2H1
+#L	53 24 N / 113 30 W city
+#R	University of Alberta mail/news/admin site
+#R	Usenet backbone host, UUCP/CDNNet/NETNORTH gateway site
+#U	access auvax calgary edson ihnp4 myrias ncc sask teletron ubc-cs
+#W	alberta!lake (Robert Lake); Thu Feb 25 10:14:53 MST 1988
+#
+#	alberta actually refers to a collection of 4 VAX 11/780s, about
+#	30 SUN 2 and 3 workstations, and two IRIS workstations and a MIPS.
+#	One of the VAX machines currently serves as the gateway to the outside
+#	world.  Any user on any of our machines may be reached by address-
+#	ing email to alberta!user or user@alberta.uucp.  Mail and news
+#	enquiries should be directed to Bruce Folliott (alberta!bruce).
+#
+alberta access(HOURLY),			# phone link (poll each other)
+	alpha0(HOURLY),			# phone link (poll us)
+	altel(HOURLY),			# phone link (poll us)
+	auvax(HOURLY*2),		# phone link (poll us)
+	calgary(HOURLY),		# X.25 connection (poll each other)
+	codas(DAILY),			# phone line (poll them)
+	edm (HOURLY),			# phone link (poll us)
+	edson(HOURLY), 			# phone link (poll us)
+	ihnp4(HOURLY),			# phone link (poll each other)
+	myriasb(HOURLY),		# phone link (poll us) 
+	ncc(HOURLY),			# phone link
+	obed(HOURLY),			# direct line (poll us)
+	sask(HOURLY),			# direct dataroute link (poll us)
+	sunwest(DAILY),			# phone link (poll us)
+	teletr(HOURLY),			# phone link (poll each other)
+	uofaee(HOURLY*5),		# phone link (poll us)
+	ubc-cs(HOURLY),			# X.25 connection (poll each other)
+	ubc-vision(HOURLY),		# X.25 connection (poll each other)
+	vax135(DAILY),			# phone link (poll us)
+	uqv-mts(HOURLY/2),		# ethernet connection (poll them)
+	watmath(HOURLY)			# X.25 connection (poll each other)
+
+#N	alpha0
+#S	Convergent Technologies MiniFrame+; CTIX 3.20 (Sys V)
+#O	Alphatel Systems Ltd.
+#C	Steven Farkas
+#E	alpha0!steven
+#T	+1 403 451 5671
+#P	11430 - 168 St., Edmonton, Alberta, Canada T5M 3T9
+#L	53 24 N / 113 29 W city
+#R
+#U
+#W	idacom!patrick (Patrick Siu); Thu Oct  2 16:07:34 MDT 1986
+#
+alpha0	idacom(HOURLY*2)
+
+#N	amc-vlsi
+#S	SUN 3/180; 4.2 BSD
+#O	Alberta Microelectronic Centre
+#C	Earl Locken
+#E	amc-vlsi!news, amc-vlsi!root, amc-vlsi!earl
+#T	+1 403 289 2043
+#P	#200 1620 29 Street N.W. Calgary, Alberta, Canada T2N 4L7
+#L	51 05 N / 114 08 W
+#U	calgary
+#W	amc-vlsi!earl (Earl Locken); Wed July 1 10:35:25 MDT 1987
+#
+amc-vlsi	calgary(DIRECT)
+
+#N	apin
+#S	Mega Turbo (PC/XT Clone);  PC Dos 3.3
+#O	Alberta Packet Information Network
+#C	Brian D. McCullough
+#E	apin!brian
+#T	+1 403 464 5985
+#P	470 - 52313 Range Road 232, Sherwood Park, Alberta, CANADA   T8B 1B7
+#L	53 30 N / 113 17 W
+#R	UUCP and FidoNet contact for Amateur Packet Radio in Alberta
+#R	FidoNet Node 1:342/7  
+#W	apin!brian (Brian D. McCullough); Thu Dec 17 19:46:56 MST 1987
+#U
+#
+#   May soon have UUCP <--> FidoNet message gateway to Northern Alberta
+#
+apin    dragos(DAILY)
+
+#N	arcsun
+#S	Sun C3/160; 4.2 BSD UNIX
+#O	Advanced Technologies, Alberta Research Council
+#C	Richard Kasperski, Ken Gamble, Doug Konkin
+#E	arcsun!postmaster
+#T	+1 403 297 2679, +1 403 297 2673, +1 403 297 2644
+#P	3rd floor 6815 Street NE, Calgary, AB, Canada T2E 7H7
+#L	51 05 N / 114 01 W city
+#R	This site used to be known as uccsrg.
+#U	calgary
+#W	arcsun!kasper (Richard Kasperski); Tue Jan 20, 1987
+#
+arcsun	calgary(DIRECT), sunwest(HOURLY*4)
+
+#N	auvax
+#S	DEC VAX-11/785; Ultrix v1.2
+#O	Athabasca University
+#C	Ross Alexander
+#E	alberta!auvax!rwa
+#T	+1 403 675-6111
+#P	Box 10000, Athabasca, Alberta, Canada, T0G 2R0
+#L	54 43 N / 113 17 W
+#R	
+#W	auvax!tech (Richard Loken); Tue Mar 10 13:04:06 MST 1987
+#
+auvax	alberta(DAILY/3)
+
+#N	calgary
+#S	VAX 11/780; 4.2 BSD UNIX
+#O	Dept. of Computer Science, U of Calgary
+#C	Keith Andrews, Dave Mason
+#E	calgary!postmaster
+#T	+1 403 220 5903, +1 403 220 3518
+#P	2500 University Dr., Calgary, AB, Canada T2N 1N4
+#L	51 03 N / 114 05 W city
+#R	This site used to be known as uccsrg.
+#U	alberta
+#W	calgary!andrews (Keith Andrews); Tue Oct 14 11:37:50 MDT 1986
+#
+# For sites that don't like names longer than six characters
+calgary	= calgar
+
+calgary	alberta(DEMAND), ubc-vision(DEMAND), spycal(DIRECT), arcsun(DIRECT),
+	dataspan(DIRECT), sunwest(DIRECT), vuwcomp(DAILY), utai(DEMAND),
+	gass(DIRECT), nrl-css(DEAD)
+
+#N	csb
+#S	Convergent Technologies S/320; CTIX 5.11
+#O	Alberta Public Works Supply & Services
+#C	Lyndon Nerenberg
+#E	ncc!postmaster
+#T	+1 403 421 8181
+#P	Alberta, somewhere.
+#L	53 24 N / 113 29 W city
+#R
+#U
+#W	ncc!lyndon (Lyndon Nerenberg); Wed Sep 30 14:59:16 MDT 1987
+#csb	ncc(DIRECT+HIGH)
+
+#N	dataspan
+#S	SUN 3/???
+#O	DataSpan Technology Ltd.
+#C	Dave Penton, Nelson Phillips
+#E	dataspan!penton, dataspan!phillips
+#T	+1 403 237 9313
+#P	400 450 5 Ave. S.W., Calgary, Alberta
+#L	113 45 W / 51 11 N city
+#R
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+dataspan	calgary(DIRECT)
+
+#N	daver
+#S	Various 320xx homebrew systems
+#O	
+#C	Dave Rand
+#E	daver!daver
+#T	+1 403 489 2148
+#P	10232 - 160 St., Edmonton, Alberta Canada
+#L
+#R	
+#U
+#W	daver!daver (Dave Rand); Wed Sep 17 16:32:51 MDT 1986
+daver	teletron(DIRECT)
+
+#N	dragos
+#S	THE286/12+; Microport SystemV/AT 2.3
+#O	(none)
+#C	Dragos Ruiu
+#E	dragos!work
+#T	+1 403 432 0090
+#P	#1705 8515 112th Street, Edmonton, Alberta, CANADA T6G 1K7
+#L	53 24 N / 113 29 W city
+#C	Independent Software Developer
+#U	tic
+#W	dragos!uucp (Dragos Ruiu); Sunday Dec 20 12:00:00 MDT 1987
+#
+dragos	tic(DAILY/3), apin(DAILY)
+
+#N	edm
+#S	Convergent Mightyframe ; CTIX 5.11 (sys V)
+#O	Unexsys systems inc.
+#C	Stephen Samuel, David Kaufman
+#E	alberta!steve, alberta!lake
+#T	+1 403 432 9382, +1 403 438 0948
+#P	#615 General Service Building, Edmonton, Alberta, Canada T6G 2H1
+#L	53 24 N / 113 30 W city
+#R	Willing to accept both mail and news feeds.
+#U	alberta ahe3b1
+#W	edm!steve (Stephen Samuel); Sun May 10 09:05:02 MDT 1987
+#
+edm	alberta(DEMAND), idacom(DEAD), alpha0(HOURLY), neyessa(HOURLY),
+	acsedm(DEMAND), greene(DAILY), horzon(DAILY), ahe3b1(DEMAND)
+
+#N	et
+#S	DEC MicroVax II; Ultrix 32M v1.2
+#O	Etcom International (edmonton telephones)
+#C	Steve Hole
+#E	et!steve
+#T	+1 403 441 7973
+#P	10040 108st, Edmonton Alta., Canada  T5J 2R4
+#L	53 33 N / 113 28 W 
+#R
+#U	ncc
+#W	et!steve (Steve Hole); Mon Jun  1 12:27:36 MDT 1987
+#
+#et	ncc(DIRECT+HIGH)
+
+#N	gass
+#S	WYSE pc 286; MicroPort System V/AT 1.36
+#O	Ginter and Associates
+#C	Andrew Ginter
+#E	gass!postmaster
+#T	+1 403 230 3012
+#P	208 - 21 Avenue NW, Calgary, Alberta, Canada  T2M 1J3
+#L	113 45 W / 51 11 N city
+#R
+#U	calgary
+#W	gass!afg (Andrew Ginter); Thu Apr  2 13:30:00 MST 1987
+#
+gass	calgary(DIRECT)
+
+#N	idacom
+#S	DEC VAX 11/750; 4.3BSD
+#O	IDACOM Electronics Ltd.
+#C	Pat Glynn
+#E	ihnp4!alberta!teletron!idacom!pglynn
+#T	+1 403 450 2468
+#P	9411 - 20 th Ave., Edmonton, AB, Canada T6N 1E5
+#L	53 24 N / 113 30 W
+#R
+#U	teletron
+#W	idacom!pglynn (Pat Glynn); Tue Dec  7 10:55:45 EST 1987
+#
+idacom 	edm(DAILY), alpha0(HOURLY*2), teletron(DEMAND)  
+
+#N	myrias 
+#S	DEC VAX 11/750; 4.2 BSD UNIX 
+#O	Myrias Research Corporation	
+#C	Ken Hruday, Ted Bentley
+#E	myrias!kwh, myrias!tcb
+#T	+1 403 428 1616
+#P	#900 10611-98 Ave., Edmonton, Alberta, Canada, T5K 2P7
+#L	53 24 N / 113 30 W city
+#U	alberta 
+#W	myrias!kwh (Ken Hruday); Thu Nov 12 13:45:00 MST 1987
+#
+myrias	alberta(HOURLY)		# 2400 baud phone link (poll them)
+
+#N	ncc
+#S	Sun 3/280S; SunOS 3.4
+#O	Nexus Computing Inc.
+#C	Lyndon Nerenberg
+#E	ncc!postmaster
+#T	+1 403 421 8181
+#P	300 One Thornton Court, Edmonton Alberta, T5J 2E7
+#L	
+#R	
+#U	alberta
+#W	ncc!lyndon (Lyndon Nerenberg); Thu Feb  4 11:50:16 MST 1988
+#
+ncc	alberta(DIRECT), csb(DIRECT), daver(DAILY), ers(DEDICATED),
+	utzoo(HOURLY*2)
+
+#N	spycal
+#S	Sperry 5000/40; UNIX System 5.2
+#O	UNISYS, Calgary, Alberta, Canada
+#C	John Presley
+#E	spycal!john
+#T	+1 403 253 5005
+#P	100 - 1011 Glenmore Tr. S.W., Calgary, Alta, T2V 4R6
+#L	51 03 N / 114 05 W city
+#R
+#U	calgary
+#W	spycal!john (John Presley); Tue Nov 18 15:34:00 MST 1986
+#
+spycal  calgary(DIRECT)
+
+#N	tac
+#S	HP-UX series 500 model 9000 ; Version 5.21
+#O	University of Alberta, Dept. of Electrical Engineering
+#C	Steve Drake
+#E	tic!news
+#T	+1 403 432 5877
+#P	540 Civil, Dept. of Elec. Eng., University of Alberta, Canada
+#L	53 31 42 N / 113 31 09 W
+#R	Served by LAN from tic
+#W	Keith Clifford ; Fri Dec  4 09:59:07 MST 1987
+#U	tic
+#
+tac	tic(LOCAL)
+
+#N	tcc3b1
+#S
+#O	Thirsk Computer Consultants
+#C	Rich Thirsk
+#E	tcc3b1!rich
+#T	+1 403 238 0085
+#P
+#L	113 45 W / 51 11 N city
+#R
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+tcc3b1	calgary(DIRECT)
+
+#N	teknica
+#S	SUN 3/160
+#O	Teknica
+#C	Bob Bramwell
+#E	teknica!boob
+#T	+1 403 269 4386
+#P	1100 736 6th Ave. S.W., Calgary, Alberta
+#L	113 45 W / 51 11 N city
+#R	Contact's email address is not a typo.  His login name really is "boob"
+#W	calgary!andrews (Keith Andrews); Tue May  5 09:00:00 MDT 1987
+#
+teknica	calgary(DIRECT)
+
+#N	teletron
+#S	AT&T UNIX pc (3b1);  System V 3.5
+#O	TeleTronic Communications Ltd.
+#C	Andrew Scott
+#E	teletron!postmaster, teletron!andrew
+#T	+1 403 451 6799
+#P	15107 - 123 Ave, Edmonton, Alberta, CANADA T5V 1J7
+#L	53 34 N / 113 35 W
+#R	willing to add limited number of mail/news feeds
+#U	alberta idacom adec23
+#W	teletron!andrew (Andrew Scott); Thu Feb 18 08:49:36 MST 1988
+#
+teletron = teletr
+teletron	alberta(HOURLY), idacom(HOURLY), adec23(DAILY), daver(DEAD)
+
+#N	tic
+#S	HP-UX series 500 model 9000 ; Version 5.21
+#O	University of Alberta, Dept. of Electrical Engineering
+#C	Steve Drake
+#E	tic!news
+#T	+1 403 432 5877
+#P	540 Civil, Dept. of Elec. Eng., University of Alberta, Canada
+#L	53 31 42 N / 113 31 09 W
+#R	Served by edson
+#W	Keith Clifford ; Fri Dec  4 09:59:07 MST 1987
+#U	tic
+#
+tic	tac(LOCAL), toe(LOCAL), edson(DEDICATED)
+
+#N	toe
+#S	HP-UX series 500 model 9000 ; Version 5.21
+#O	University of Alberta, Dept. of Electrical Engineering
+#C	Steve Drake
+#E	tic!news
+#T	+1 403 432 5877
+#P	540 Civil, Dept. of Elec. Eng., University of Alberta, Canada
+#L	53 31 42 N / 113 31 09 W
+#R	Served by LAN from tic
+#W	Keith Clifford ; Fri Dec  4 09:59:07 MST 1987
+#U	tic
+#
+toe	tic(LOCAL)
+
+#N	trat
+#S	Northern Telecom Meridian DV-1; DVIX V.2 (Sys V)
+#O	Alberta Technology, Research & Telecommunications
+#C	Dean Frey
+#E	trat!dean
+#T	+1 403 422 0567
+#P	12th Floor, 10909 Jasper Ave., Edmonton, Alberta, Canada T5J 3M8
+#L	53 24 N / 113 30 W city
+#W	trat!dean (Dean Frey); Thu Oct 15 13:35 MDT 1987
+#
+trat	alberta(DIRECT)		# poll them
+
+#N	uqv-mts
+#S	AMDAHL 5860; Michigan Terminal System (MTS)
+#O	University of Alberta, Dept. of Computing Services
+#C	Irene Braun
+#E	alberta!uqv-mts!imb
+#T	+1 403 432 2462
+#P	#352 General Sevice Building, Edmonton, AB, Canada T6G 2H1
+#L	53 24 N / 113 30 W city
+#R	
+#U
+#W	alberta!lake (Robert Lake); Fri Jun 12 07:44:35 MDT 1987
+#
+uqv-mts	alberta(HOURLY/2)
+
+#N	ve6boa
+#S	Stride 440; UniStride 2.1
+#O	Larry Gadallah, VE6BOA
+#C	Larry Gadallah
+#E	ve6boa!postmaster
+#T	+1 403 948 6752
+#P	General Delivery, Airdrie, Alberta, CANADA
+#L	
+#R	Amateur packet radio IP (AMPRNET) - UseNet gateway
+#U	calgary ncc stride1
+#W	ve6boa!larry (Larry Gadallah); Sat Nov 21 16:19:23 MST 1987
+#
+ve6boa	calgary(DAILY), stride1(WEEKLY)	#, ncc(EVENING)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

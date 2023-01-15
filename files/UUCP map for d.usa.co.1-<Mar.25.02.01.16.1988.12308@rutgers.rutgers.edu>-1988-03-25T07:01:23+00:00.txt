@@ -1,0 +1,150 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.co.1
+: This archive created: Fri Mar 25 02:00:17 1988
+echo shar: extracting d.usa.co.1
+cat << 'SHAR_EOF' > d.usa.co.1
+# Doug McCallum <dougm@ico.ISC.COM>; Thu Mar 24 07:56:59 MST 1988
+
+#N	.cadnetix.com, cadnetix
+#F	UUNET.UU.NET
+#O	Cadnetix Corporation
+#C	Gordon Durand, Jim Traeber
+#E	postmaster@cadnetix.com
+#T	303-444-8075
+#P	5757 Central Ave; Boulder, CO 80301
+#L	40 02 N / 105 14 W city
+#R	registered
+#U	ico
+#W	gad@cadnetix.com (Gordon Durand); Thu Nov 12 11:13:43 MST 1987
+#
+cadnetix	.cadnetix.com
+cadnetix	cadnetix.com
+cadnetix	= cadnetix.com
+cadnetix	ico(DAILY/4), sunpeaks(DAILY/4+LOW), nbires(DEAD)
+
+
+
+#N	.isc.com, ico
+#F	sally.utexas.edu
+#O	Interactive Systems Corporation
+#C	Doug McCallum
+#E	dougm@ico.isc.com
+#T	303 449-2870
+#P	2950 Wilderness Place, Suite B, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#U	ism780c nbires isis cadnetix
+#R	registered
+#W	dougm@ico.ISC.COM; Sun Apr 12 11:04:53 MST 1987
+#
+ico	.isc.com
+ico	isc.com
+ico =	ico.isc.com
+#
+#	Internal Sites
+ico     haddock(DEMAND), ism780c(DEDICATED), ism780b(DEDICATED)
+#	Local Connections
+ico	hao(DEAD),
+	nbires(DEMAND), boulder(DEMAND), isis(DEMAND), mongor(DEMAND),
+	vianet(DEMAND), cadnetix(POLLED), raven(POLLED), stcvax(DEMAND)
+#	Long Distance Connections
+ico	cbosgd(EVENING), interlan(EVENING), sys1(WEEKLY),
+	ut-sally(EVENING+HIGH)
+
+
+#N	.nbi.com, nbires
+#O	NBI Inc.
+#C	Dale Reed
+#E	dcr@nbires.UUCP, postmaster@nbires.UUCP
+#T	303-444-5710
+#P	P.O. Box 9001, Boulder CO 80301
+#L	40 02 15 N / 105 14 22 W
+#U	bdaemon boulder cires ico isis nbisos ntia rips stcvax vianet
+#R	registered
+#W	dcr@nbires.nbi.com (Dale Reed); Fri Nov 13 11:10:35 MST 1987
+#
+nbires	.nbi.com
+nbires	nbi.com
+nbires=	nbires.nbi.com
+nbires	allegra(EVENING+HIGH),	amd(EVENING+LOW),	apache(DIRECT),
+	bdaemon(DIRECT),	boulder(DIRECT+LOW),	cadnetix(DIRECT),
+	calay(DIRECT),		cbosgd(EVENING+HIGH),	cires(DIRECT),
+	cornell(EVENING),	csu-cs(DEMAND),		ctvax(EVENING),
+	fred(DEAD),		galon(DIRECT+LOW),	gangue(DIRECT),
+	hao(DEAD),	hicntry(POLLED),	ico(DIRECT),
+	isieng(DIRECT),		isis(DIRECT),		lbl-csam(EVENING),
+	nbisos(DIRECT),		ntia(DIRECT),		onecom(DIRECT),
+	princeton(WEEKLY),	pyramid(EVENING),	rips(DIRECT),
+	scgvaxd(EVENING),	stcvax(DIRECT+LOW),	ucbvax(EVENING+HIGH),
+	udenva(DIRECT),		unidot(DIRECT),		usenix(EVENING+HIGH),
+	ut-sally(EVENING),	utah-cs(EVENING+LOW),	uunet(EVENING),
+	vianet(DIRECT)
+
+
+
+#N	.ucar.edu, ncar
+#S	
+#O	Scientific Computing Division/NCAR
+#C	Greg Woods
+#E	ncar!woods
+#T	(303) 497-1295
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	Internet host handies.ucar.edu 128.117.64.4
+#W	woods 03/15/88
+#U	noao ames boulder gatech husc6 oddjob
+#
+#    NCAR local Ethernet machines; not normally accessible from the outside
+#
+UCARNET = {haovax, hao-hw, hao-is, ics-m, acdpyr, scdpyr, windom, cgdra, 
+	   yoda, bierstadt, ncar, handies}!(LOCAL)
+#
+#    local calls; some have penalties due to limited accessiblity
+#
+#
+# special CISCO link to CU-Boulder
+#
+ncar     boulder(DEDICATED)
+ncar ".colorado.edu"
+#
+#    high frequency long distance calls 
+#
+ncar noao(DEDICATED), oddjob(DEDICATED),
+    gatech(DEDICATED), ames(DEDICATED), rutgers(DEDICATED), husc6(DEDICATED)
+#
+#    other long distance
+#
+ncar    ".ucar.edu"(LOCAL)
+ncar = "ncar.ucar.edu"
+ncar = "handies.ucar.edu"
+
+
+
+#N	.alphacdc.com
+#F	rutgers.edu
+#O	Alpha Communications Development Corp.
+#C	Cyro Lord, Andrea Lord, Mark Felton
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	2570 Sky Ranch Rd Box 63A, Aurora, Colo.  80011
+#L	39 45 15 N / 104 45 W city
+#U	isis apache embudo taos bigsky
+#R
+#W	08/07/87 scicom!cyrill
+#
+scicom = .alphacdc.com
+scicom = alphacdc.com
+scicom = scicom.alphacdc.com
+scicom  apache(DEMAND), boulder(DEMAND), hao(DEAD),
+	galon(DEMAND), qetzal(DEMAND), isis(DIRECT),
+	milehi(DEMAND), taos(LOCAL), embudo(DIRECT),
+	bigsky(DAILY), medevac(DEMAND), reo(DEMAND),
+	bldr(DEMAND), peng(DAILY), bilanc(DEMAND)
+
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0

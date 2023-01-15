@@ -1,0 +1,188 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.ok.1
+# This archive created: Wed Jan  6 01:31:24 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.ok.1
+cat << ¬•SHAR_EOF > u.usa.ok.1
+# Doug McCallum <dougm@ico.ISC.COM>; Tue Jan  5 20:47:02 MST 1988
+
+#N      chaos
+#S      Microvax II; Ultrix-32m 1.2
+#O      University of Oklahoma High Energy Physics
+#C      Carl Rigney
+#E      chaos!postmaster
+#T      +1 405 325 3961 x307
+#P      440 West Brooks, Norman, OK  73019
+#L      35 12 30 N / 097 28 00 W city
+#R      Gateway Machine to OU Physics & Astronomy LAN
+#U
+#W      chaos!cdr (Carl Rigney); Mon Oct  6 19:40:25 CDT 1986
+#
+chaos   uokmax(DEMAND), occrsh(DEMAND), gorgo(DEMAND), oktext(DEMAND),
+	nears(DAILY), tac3b5(DAILY/2)
+
+
+
+#N	ea
+#S	VAX 750/BSD4.3
+#O	Energy Analysts, Inc.
+#C	John Moyer
+#E	jrm@ea.UUCP
+#T	321-5778
+#P	P.O. Box 1508, Norman, OK 73070
+#L	35 13 N / 97 26 W city
+#R	
+#W	jrm@ea.UUCP 10/31/86
+#U	uokmax
+#
+ea	uokmax(DEMAND), texsun(DEMAND), mtxinu(DEMAND),
+	okstate(DEMAND), occrsh(DEMAND)
+
+
+
+#N	mfbbs
+#S	Tandy 6000; Tandy Xenix 3.1.2
+#O	usr/bbs development center
+#C	Marc Randolph
+#E	mfbbs!usenet
+#T	+1 918 838 1430
+#P	P.O. Box 690295, Tulsa, OK 74169-0295
+#L	36 16 N / 95 53 W
+#R	Phone number is for after 5pm
+#U	svo
+#W	mfbbs!marc (Marc Randolph); Sat Jun 20 12:40:00 CDT 1987
+#
+mfbbs	svo(HOURLY), slick(DAILY)
+
+
+
+
+#N        mom
+#S        IBM PC/XT; PC DOS
+#O        Nova Research Co.
+#C        Robert Klotz
+#E        mom!postmaster
+#T        +1 405 321 7812 x - afternoons
+#P        217 S. Flood, Norman, OK, 73069
+#L        35 13 00 N / 97 27 13 W
+#U        uokmax
+#W        mom!klotrobert (Robert Klotz); Fri Dec 11 16:07:34 CST 1987
+mom        uokmax(DIRECT)
+ 
+
+
+#N	pbox
+#S	AT&T 3B2; Unix V.3
+#O	$USR UNIX/C/Networking Users Group
+#C	Pete Rourke
+#E	pbox!ruut
+#T	+1 918 664 0724
+#P	7340 East 25th Place, Tulsa, OK 74129
+#L	36 15 N / 095 55 W
+#R	rutgers feeds us news.  This site is the uucp entry point for most
+#R	of central and eastern Oklahoma.
+#U	romed okstate rutgers
+#W	romed!mfbbs!marc (Marc Randolph); Sat Dec  6 11:30:00 CST 1987
+#
+pbox	romed(DEDICATED), glmnjj(DAILY), gort(DAILY), ihnp4(DAILY+LOW),
+	jojo(DAILY), killer(EVENING), okstate(DIRECT+LOW), rutgers(EVENING),
+	sco(EVENING+LOW), uiucuxc(DEAD)
+
+
+
+#N	romed
+#S	Compaq 386/130; SCO Xenix-386 2.2.1
+#O	$USR UNIX/C/Networking User Group
+#C	Pete Rourke
+#E	romed!postmaster
+#T	+1 918 664 0724
+#P	7340 East 25th Place, Tulsa, OK 74129
+#L	36 15 N / 095 55 W
+#R	Eastern Oklahoma, Western Arkansas news feeder
+#U	pbox actsn gort jojo mfbbs
+#W	mfbbs!marc (Marc Randolph); Sat Dec  6 11:30:00 CST 1987
+#
+romed	pbox(DEDICATED), actsn(POLLED), dbrd(EVENING+LOW), glmnjj(DIRECT),
+	gort(DIRECT), hotrod(DIRECT), ihnp4(DAILY+LOW),
+	jojo(DIRECT), killer(DAILY+HIGH), mcstul(DIRECT), mfbbs(POLLED),
+	omen(EVENING+LOW), okstate(DIRECT+LOW), penguin(DIRECT), rcf(DIRECT),
+	redman(DIRECT), rwtcpa(DIRECT), sco(EVENING+LOW), sundc(DAILY+LOW),
+	svo(DIRECT), texsun(DEMAND+LOW), tulsix(DEDICATED), tulsun(DEMAND+LOW)
+
+
+
+#N      snafu
+#S      Microvax II; Ultrix-32 2.0
+#O      University of Oklahoma High Energy Physics
+#C      Carl Kalbfleisch
+#E      snafu!postmaster
+#T      +1 405 325 3961 x307
+#P      440 West Brooks, Norman, OK  73019
+#L      35 12 30 N / 097 28 00 W city
+#R      Gateway Machine to OU Physics & Astronomy LAN
+#U
+#W      chaos!cdr (Carl Rigney); Wed Nov  4 11:47:15 CST 1987
+#
+snafu   uokmax(DEMAND), occrsh(DEMAND), chaos(DAILY)
+
+
+
+#N	uokmax
+#S	Encore MultiMax; Umax 4.2 (BSD UNIX)
+#O	University of Oklahoma, Engineering Computer Network
+#C	Robert Shull
+#E	uokmax!postmaster
+#T	+1 405 325 5370
+#P	202 W. Boyd, CEC 107, Norman, OK 73019
+#L	35 13 N / 97 26 W city
+#R	This machine replaces both uok and uokvax (they no longer exist)
+#W	uokmax!rob (Robert K. Shull); Mon Jan  4 12:00:00 CDT 1988
+#U	occrsh
+#
+uokmax	ea(DIRECT), encore(POLLED), fergvax(DEDICATED), genepaq(POLLED),
+	lll-lcc(HOURLY), mom(POLLED), occrsh(DIRECT), oktext(DIRECT),
+	servalan(POLLED), sooner(POLLED), steve(DAILY), texsun(HOURLY),
+	unixou(DIRECT), uokgeo(DIRECT), uokmet(DIRECT), uoknhv(DIRECT),
+	uokucs(DIRECT), zordac(DAILY)
+
+
+
+#N	uokmet
+#S	2.9BSD
+#O	PDP-11/44
+#C	Kevin W. Thomas
+#E	kwthomas@uokmet.UUCP root@uokmet.UUCP
+#T	405-325-6561
+#P	Univ. of Oklahoma, School of Meteorology, 200 Felgar Street, Rm 219, Norman, OK  73019
+#L	35  14 N / 97 28 W
+#R	Norman is just south of Oklahoma City.
+#W	Kevin W. Thomas 9/16/86
+#
+uokmet	uokmax(DIRECT), occrsh(DIRECT)
+
+
+
+#N	zordac
+#S	Unisys XE500; CENTIX B6.00.06 (ATT SYS 5.2 UNIX)
+#O	Steve's Wholesale Distributors Inc.
+#C	Brian Lee Gnad
+#E	zordac!postmaster
+#T	+1 405 631 0352
+#P	2423 S. Walker OKC, OK. 73109-1907
+#L	35 27 N / 97 32  1 Mile east of Down Town Air Park
+#R	New instalation
+#W	zordac!briang (Brian L. Gnad); Mon Oct 19 16:51:18 CDT 1987
+#U	uokmax.
+#
+zordac	uokmax(DIRECT)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

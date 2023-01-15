@@ -1,0 +1,202 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.ne.1
+# This archive created: Mon Jan  4 01:20:50 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.ne.1
+cat << ¬•SHAR_EOF > u.usa.ne.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Jan  3 15:22:48 MST 1988
+
+#N	btni
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Boys Town National Institute
+#C	Roger L. Ferrel
+#E	btni!postmaster
+#T	+1 402 449 6618
+#P	555 North 30th Street, Omaha Nebraska 68131
+#L	096 31 W / 041 15 N city
+#R	also Creighton U. Dept. of Otolaryngology & Human Communications
+#U	hdr
+#W	btni!ferrel (Roger Ferrel); Tue Dec 22 15:31:57 CST 1987
+btni	hdr(DIRECT),
+	pbi(DIRECT),
+	ugn(DIRECT),
+	unocss(DIRECT),
+	uunet(DAILY/2)
+
+
+
+
+#N	cookie
+#S	Leading Edge Model D; Dos 3.1
+#O	Tiger Software, Inc.
+#C	Eric J. Johnson
+#E	cookie!eric
+#P	P.O Box 31221, Omaha NE  68132
+#W	cookie!eric (Eric J. Johnson); Thu Dec 17 00:41:42 CST 1987
+#
+cookie	hdr(DIRECT), pbi(DIRECT)
+
+
+
+#N	dsndata
+#S	HP 9000/350; HP-UX 5.3B
+#O	Design Data Corp.
+#C	Dennis Page
+#E	denny@dsndata.UUCP
+#T	(402) 476-8278
+#P	1033 "O" street, suite 324, Lincoln, NE 68508-3621
+#L	40 48 N / 96 42 W city
+#U	upba
+#W	dsndata!denny (Denny Page); Wed Jun 17 09:41:00 CDT 1987
+#
+dsndata	hpfcla(DEMAND),	upba(DIRECT)
+
+
+
+
+#N	hdr
+#S	AT&T 3B15; System V Release 2.1.1
+#O	HDR Systems, Inc.
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8404 Indian Hills Drive, Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	This is the gateway to the all Unix machines at HDR Systems
+#W	hdr!eric (Eric J. Johnson); Wed Nov 11 13:47:30 CST 1987
+#U	btni mcmi pbi unocss
+#
+hdr	btni(EVENING), codas(EVENING), ihnp4(EVENING), mcmi(EVENING),
+	noah1(DEAD), noah2(HOURLY), noah3(HOURLY), noah4(DEDICATED),
+	pbi(EVENING), ugn(DEDICATED), unebocs(DAILY), unocss(DEMAND)
+hdr	<cookie>(DAILY)
+
+
+#N	mcmi
+#S	AT&T 3B2400; UNIX System V Release 3.1
+#O	Medical Computer Management Inc.
+#C	Dennis Page
+#E	mcmi!denny
+#T	+1 402 330 6660
+#P	10810 Farnam, Omaha, NE  68154
+#L	041 15 N / 096 31 W city
+#U	hdr omaha1
+#W	mcmi!denny (Dennis Page); Fri Dec 11 10:05:00 CDT 1987
+#
+mcmi	ugn(DIRECT), hdr(DIRECT), ssbell(DIRECT), pbi(DIRECT),
+	hpuonea(DIRECT), omaha1(DEDICATED), unocss(DIRECT)
+
+
+
+#N	noah1, noah4
+#S	Onyx C8000; UNIX System III
+#O	HDR Systems, Inc.
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8404 Indian Hills Drive, Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	General Purpose Processing
+#W	hdr!eric (Eric J. Johnson); Sun Nov 22 21:24:22 CST 1987
+#
+noah1	hdr(DEAD)
+noah4	hdr(DEDICATED)
+
+
+#N	noah2
+#S	VAX 11/730; Ultrix 1.2
+#O	HDR Systems, Inc.
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8404 Indian Hills Drive, Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	General Purpose Processing
+#W	hdr!eric (Eric J. Johnson); Tue Sep 29 11:14:41 CDT 1987
+#
+noah2	hdr(DEDICATED)
+
+
+
+#N	noah3
+#S	IBM PC/AT; SCO Xenix 2.2.1
+#O	HDR Systems, Inc.
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8404 Indian Hills Drive, Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	General Purpose Processing
+#W	hdr!eric (Eric J. Johnson); Fri Dec 11 21:48:34 MST 1987
+#
+noah3	hdr(DEDICATED)
+
+
+
+
+#N	ugn
+#S	AT&T 3B5; UNIX System V Release 2.0
+#O	/usr/group/nebraska
+#C	Dennis Page (Secretary)
+#E	ugn!denny
+#P	P.O. Box 34577   Omaha, NE  68134
+#L	096 31 39 W / 041 15 42 N 
+#R	This is the mail routing system for /usr/group/nebraska
+#W	hdr!eric (Eric J. Johnson); Thu Dec 17 00:48:51 CST 1987
+#
+ugn	btni(DIRECT),
+	hdr(DEDICATED),
+	hpuonea(DIRECT),
+	mcmi(DIRECT),
+	ohgua(DIRECT),
+	omaha1(DAILY),
+	pbi(DIRECT),
+	ssbell(DIRECT),
+	unebocs(DAILY),
+	unocss(DIRECT),
+	upba(WEEKLY),
+	wmsco(DAILY),
+	<zycor>(DAILY)
+
+
+
+#N	unebocs
+#S	PDP 11/44 Version 7m 2.1 (System V.2-when we finish the device drivers)
+#O	University of Nebraska at Omaha -- Math/Computer Science Dept 
+#C	Stanley Wileman 
+#E	unebocs!cs002
+#T	+1 402 554 2834
+#P	6001 Dodge Street, Omaha, Nebraska
+#L	41 15 30 N / 96 30 0 W
+unebocs	btni(DIRECT), csvax(EVENING/2), fergvax(DEMAND), ihnp4(EVENING/2)
+
+
+
+#N	upba
+#S	Sequent Balance 8000; DYNIX (BSD 4.2)
+#O	United Phone Book Advertisers
+#C	Damon Scaggs
+#E	damon@upba.UUCP
+#T	(402) 476-2200
+#P	Damon Scaggs, , Lincoln, NE  68510
+#L	40 48 N / 96 42 W city
+#R	
+#W	Damon Scaggs 7/12/87
+#U	mcdchg dsndata eecae unebocs qetzal
+#
+upba	dsndata(DIRECT), pbi(DEMAND), fergvax(DIRECT), ihnp4(DEMAND),
+	sequent(DEMAND), mcdchg(EVENING), eecae(DIRECT), unebocs(DEMAND),
+	qetzal(DIRECT), ugn(DEMAND)
+#
+# We also poll several of these sites regularly and we aren't in their
+# map entries.  
+#
+ihnp4	upba(DAILY/4)
+sequent	upba(DAILY/4)
+
+
+SHAR_EOF
+#	End of shell archive
+exit 0

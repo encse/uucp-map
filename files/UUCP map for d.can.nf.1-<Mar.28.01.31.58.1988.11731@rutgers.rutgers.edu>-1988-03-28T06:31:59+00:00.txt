@@ -1,0 +1,51 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.can.nf.1
+: This archive created: Mon Mar 28 01:31:49 1988
+echo shar: extracting d.can.nf.1
+cat << 'SHAR_EOF' > d.can.nf.1
+#	d.can.nf.1 : last updated Mon Feb 29 02:48:03 1988
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.Ca) or want related information, please contact:
+#
+#	registry@ai.toronto.edu, registry@ai.utoronto.ca, registry@utai.uucp
+#	
+#	For information about registering under any of .Edu, .Com, .Gov etc,
+#	please contact registry@stargate.com or registry@stargate.uucp direct.
+#
+#	Corrections to the contents of this file should be sent to:
+#		path@ai.toronto.edu, path@ai.utoronto.ca, path@utai.uucp
+#
+
+#N	.mun.edu, garfield
+#S	VAX 11/780; 4.2BSD
+#O	Memorial University of Newfoundland, Dept. of Computer Science
+#C	Nolan White
+#E	nolan@garfield
+#T	+1 709 737 8711
+#P	Elizabeth Ave.., St. John's, NF, Canada A1C 5S7
+#L	47 34 N / 52 43 W city
+#R	Uucp connection for all MUN sites. We are an offical gateway
+#       to CDNnet, which contains domains .cdn
+#W	Jeff Sparkes (garfield!jeff1); Wed Sep 16 21:37:28 NDT 1987
+#U	dalcs
+#
+garfield	.mun.edu, .cdn
+garfield=	garfield.mun.edu, garfield.mun.cdn, garfield.mun.ca
+garfield	cbosgd(POLLED), dalcs(DEMAND), ihnp4(POLLED), tunscs(DEMAND),
+		utai(DEMAND), uunet(DEMAND)
+#
+# University machines reachable over Ethernet.  Kean is a VAXcluster
+# reached via EAN/CDNnet.
+MUNnet={garfield, arlene, munucs, pooky, odie, lyman, jon, kean.mun.cdn,
+	nermal, stretch}(LOCAL)
+#
+# We only talk to kean over EAN
+kean=	kean.mun.cdn
+
+SHAR_EOF
+:	End of shell archive
+exit 0

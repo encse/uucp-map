@@ -1,0 +1,482 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.ak.1
+#	u.usa.al.1
+#	u.usa.ar.1
+#	u.usa.az.1
+# This archive created: Tue Sep 29 17:09:19 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.ak.1
+cat << \SHAR_EOF > u.usa.ak.1
+# Usa.ak
+# This map is maintained by Karen Summers-Horton (ksh@cbosgd.UUCP)
+SHAR_EOF
+echo shar: extracting u.usa.al.1
+cat << \SHAR_EOF > u.usa.al.1
+#N	blnt1
+#S	AT&T 3B2/400; SysV R2.0.4
+#O	Blount Brothers Corp.
+#C	John Tamplin, David Bryant
+#E	blnt1!usenet
+#T	+1 205 244 6231, +1 205 244 6234
+#P	2511 Fairlane Dr.  Montgomery, AL  36116
+#L	32 19 N / 86 30 W
+#R
+#U	madhat
+#W	blnt1!jat (John Tamplin); Mon Aug 11 14:23:13 CDT 1986
+#
+# The DAILY/2 connections are polled twice daily to get mail, but we initiate
+# a call to transfer mail anytime.  DEMAND is long distance, called only when
+# there is mail to transfer. 
+#
+blnt1	madhat(DAILY/2), akgua(DAILY/2), yoyodyne(DEMAND), dataap(DEMAND)
+
+
+#N	ingr
+#S	NS-32032 System V
+#O	Intergraph Corp.
+#C	Linwood Varney
+#E	akgua!ingr!linwood
+#T	(205) 772-6163
+#P	1 Madison Industrial Park, Mail Stop cr1104, Huntsville, AL 35807
+#L	34 38 N / 86 44 W city
+#R	Intergraph Mail Gateway
+#U	uahcs1
+#W	ingr!linwood; 5/9/87
+#
+ingr	akgua(DAILY), ihnp4(DEMAND), jett(HOURLY), madhat(DEMAND),
+	uahcs1(HOURLY), zaiaz(HOURLY)
+
+#N	jett
+#S	DEC PDP 11/34; HCR Unity 3.0
+#O	Jett Unix System
+#C	Linwood Varney
+#E	cbatt!jett!linwood
+#T	(205) 772-6163
+#P	1312 Brookmeade Street   Huntsville, AL.  35816
+#L	34 44 N / 86 35 W city
+#R	Community Unix system
+#W	ingr!linwood; 5/9/87
+#U	ingr
+#
+jett	zaiaz(DEMAND), akgua(DEMAND), ihnp4(DEMAND), ingr(HOURLY)
+
+#N	madhat
+#S	Heurikon HK68; Unisoft Uniplus+ System V
+#O	DataVision
+#C	Phillip L. Harbison
+#E	madhat!alvitar
+#T	1 205 881 4317
+#P	3409 Grassfort Drive, Huntsville, AL 35805
+#L	34 44 N / 86 35 W city
+#R	we archive {mod,net}.sources
+#U	akgua uahcs1
+#W	zaiaz!curtis; 11-27-85
+#
+madhat	akgua(DEMAND), blnt1(DAILY), clyde(DEMAND), jett(DIRECT),
+	mtx5b(DEMAND), ronald(DAILY), uahcs1(DIRECT)
+
+
+#N	scbhq
+#S	ATT 3B20S, 5.2.1.0V3
+#O	South Central Bell
+#C	Jere Sandidge
+#E	akgua!sb6!scbhq!jts
+#T	+1 205 988-1102
+#P	Rm. S-204, 1876 Data Dr., Birmingham, AL 35244
+#L	33 31 N / 086 49 W city
+#R	
+#U	sb6 uab uahcs1 kyssc1
+#W
+#
+scbhq	sb6(DEDICATED), uab(DIRECT), uahcs1(DAILY), kyssc1(DAILY),
+	ihnp4(DEMAND), akgua(DEMAND)
+
+
+#N	uab-cs
+#S	
+#O	University of Alabama, Computer Science
+#C	Robert M. Montgomery, Jr.
+#E	uab-cs!monty
+#T	(205) 934-2213
+#P	115A Campbell Hall, 1300 University Blvd., Birmingham, AL 35294
+#L	
+#R	They call themselves the illegal name uab_cs.
+#U	scbhq
+#W	last edited 6-6-85 zaiaz!kim
+#
+uab-cs	scbhq
+
+#N	uahcs1
+#S	Sperry 7000; 4.2 BSD
+#O	University Of Alabama In Huntsville
+#C	Dr. James D. Johannes, Phillip L. Harbison
+#E	uahcs1!johannes,  madhat!alvitar
+#T	1 205 895 6255,  1 205 881 4317
+#P	Computer Science Department, Huntsville, AL 35899
+#L	34 44 N / 86 35 W city
+#R
+#U	akgua madhat scbhq uab zaiaz
+#W	zaiaz!curtis; 11-27-85
+#
+uahcs1	akgua(DAILY), madhat(DIRECT), scbhq(DAILY/2), uab(DAILY),
+	zaiaz(DIRECT), ingr(HOURLY)
+
+#N	zaiaz
+#S	GRC Python; System V
+#O	Zaiaz Communications, Inc.
+#C	Bill Welch
+#E	{ihnp4,akgua}!zaiaz!bill
+#T	(205) 881-2200
+#P	2225 Drake Ave. Suite 17,  Huntsville, AL.  35805
+#L	34 42 N / 86 35 W city
+#R
+#W	ingr!linwood; 5/9/87
+#U	ingr
+#
+zaiaz	jett(DEMAND), akgua(DEMAND), ihnp4(DEMAND), madhat(DIRECT),
+	ingr(HOURLY)
+
+
+
+SHAR_EOF
+echo shar: extracting u.usa.ar.1
+cat << \SHAR_EOF > u.usa.ar.1
+# u.usa.ar.1 is empty on Thu Nov 13 16:15:27 EST 1986
+SHAR_EOF
+echo shar: extracting u.usa.az.1
+cat << \SHAR_EOF > u.usa.az.1
+#N	amethyst
+#S	Sun-3/180; Sun v.3.*
+#O	Dept. of Mathematics, University of Arizona at Tucson
+#C	Robert S. Maier
+#E	amethyst!usenet
+#T	+1 602 621 6893
+#P	Tucson, AZ  85721
+#L	32 13 N / 110 58 W city
+#R	Soon to be amethyst.ma.arizona.edu on the Internet.
+#W	amethyst!usenet (Robert S. Maier); Thu Jan 29 15:31:05 MST 1987
+#U	arizona
+# 
+# 'amethyst' will be the main gateway, for news and mail, to the University
+# of Arizona Mathematics Department.   Other University of Arizona sites
+# are 'arizona' and 'noao'.  'arizona' is in the Computer Science Department.
+#
+amethyst	arizona(DIRECT)
+
+#N	anasazi
+#S	Convergent Technologies MegaFrame Sys V
+#O	International Anasazi
+#C	Guy Finney, or Larry Rodis
+#E	anasazi!guy, or anasazi!larry
+#T	(602)870-3330
+#P	7500 N. Dreamy Draw Dr., Suite 120, Phoenix, AZ	 85020
+#L
+#R	web per uucpmap 11/24/85
+#W	Guy Finney 11/12/85
+#U	mot
+#
+anasazi	 mot(DEMAND)
+anasazi=anasaz
+
+#N	arizona
+#S	DEC VAX-11/780; 4.3+NFS from Mt. Xinu
+#O	University of Arizona Computer Science Department
+#C	Bill Mitchell
+#E	arizona!whm, arizona!postmaster
+#T	+1 602 621 6613
+#P	Tucson AZ, 85721
+#L	32 13 N / 110 58 W city
+#R
+#W	arizona!whm (Bill Mitchell); Fri Dec  5 14:13:13 MST 1986
+#U	noao sunburn
+#
+arizona allegra(WEEKLY), cmcl2(WEEKLY), ihnp4(WEEKLY), naucse(WEEKLY),
+	noao(DIRECT), sunburn(WEEKLY), ucsbcsl(WEEKLY)
+
+#N	asuvax
+#S	VAX-11/780, 4.2BSD
+#O	Arizona State University, Engineering Computer Services
+#C	Marc Lesure
+#E	ucbvax!arizona!asuvax!lesure
+#T	(602) 965-2005
+#P	Tempe, AZ 85287
+#L	33 25 N / 111 56 W city
+#R	aka asu on CSNET
+#W	web per Marc Lesure 10/30/85
+#U	arizona mot anasazi
+#
+asuvax	anasazi(EVENING), arizona(WEEKLY), byucsa(WEEKLY),
+	isosvax(EVENING), mot(EVENING), slh(EVENING)
+
+#N	bocklin
+#S	VAX-11/785, 4.3bsd
+#O	University of Arizona, Dept. of Computer Science
+#C	Bill Mitchell
+#E	ihnp4!arizona!whm
+#T	(602) 621-6613
+#P	Tucson, AZ 85721
+#L	32 13 N / 110 58 W
+#R
+#W	web per uucpmap 4/10/86
+#U
+#
+bocklin arizona(LOCAL)
+
+#N	edge
+#S	Edge Model 500; AT&T System V
+#O	Edge Computer Corporation
+#C	John R. Koehring
+#E	edge!johnrk, edge!news
+#T	+1 602 951 2020
+#P	7273 East Butherus Drive; Scottsdale, AZ 85260
+#L	33 37 22 N / 111 54 35 W
+#R	None
+#W	edge!johnrk (John R. Koehring); Wed Jul	 1 15:01:12 MST 1987
+#U	gtx
+#
+edge	ghsvax(DEMAND), gtx(DIRECT), ism780c(DEMAND), laidbak(DEMAND),
+	mot(DIRECT), nasadc(WEEKLY), oliveb(DEMAND), vertex2(DEMAND),
+	wavefront(DEMAND)
+
+#N	lectura
+#S	VAX-11/785, 4.3bsd
+#O	University of Arizona, Dept. of Computer Science
+#C	Bill Mitchell
+#E	ihnp4!arizona!whm
+#T	(602) 621-6613
+#P	Tucson, AZ 85721
+#L	32 13 N / 110 58 W
+#R
+#W	web per uucpmap 4/10/86
+#U
+#
+lectura arizona(LOCAL)
+
+#N	mcdsun
+#S	SUN 3/50; Sun Operating System 3.2
+#O	Motorola Microcomputer Division
+#C	Fred Fish
+#E	mcdsun!usenet
+#T	+1 602 438 5976
+#P	3013 South 52nd Street, Tempe, Arizona, 85282, USA
+#L
+#R	Gateway to internal Sun network and Motorola systems
+#W	mcdsun!fnf (Fred Fish); Thu Nov 13 17:00:19 MST 1986
+#U	noao nud
+#
+mcdsun	noao(EVENING+HIGH), nud(LOCAL), mot(DIRECT)
+
+#N	megaron
+#S	VAX-8600, 4.3bsd
+#O	University of Arizona, Dept. of Computer Science
+#C	Bill Mitchell
+#E	ihnp4!arizona!whm
+#T	(602) 621-6613
+#P	Tucson, AZ 85721
+#L	32 13 N / 110 58 W
+#R
+#W	web per uucpmap 4/10/86
+#U	arizona
+#
+megaron arizona(LOCAL)
+
+#N	moqui
+#S	Courier 9030 Applications Processor
+#O	Courier Terminal Systems
+#C	Doug Brown
+#E	amdahl!supai!verde!moqui!doug
+#T	(602) 894-7317
+#P	PO Box 29039 M/S E02, Phoenix, AZ  85038
+#L	33 25 N / 111 56 W
+#U
+#R
+#W	web per B. Flandrena/uucpmap 1/29/87
+#
+moqui	verde(DEMAND)
+
+#N	mot
+#S	DEC VAX-11/780; AT&T UNIX System V Release 2
+#O	Motorola Microsystems
+#C	Daryl K. Phillips
+#E	mot!daryl
+#T	+1 602 438 3395
+#P	2900 S. Diablo Way, Tempe, AZ  85282
+#L	33 24 N / 111 58 W city
+#R	home of UNIX System V/M680x0 microports (aka SYSTEM V/68)
+#W	web/uucpmap mot!daryl (Daryl K. Phillips); Thu Apr 03 08:04:40 MST 1986
+#U	anasazi asuvax motcso motsj1 oakhill mnetor
+#
+mot	ningaubl(DEMAND), anasazi(DEMAND), asuvax(DAILY), attunix(HOURLY*3),
+	btlunix(HOURLY*3), cdlncae(HOURLY*3), cdlnctr(DEAD), cdx23(HOURLY*3),
+	cdx39(HOURLY*3), cmcvax(HOURLY*3), cuuxb(HOURLY*3), drivax(DEAD),
+	edge(DIRECT), flkvax(HOURLY*3), fps1(HOURLY*3), harvax(HOURLY*3), ihnp4(EVENING),
+	mdc0a(DEAD), mnetor(HOURLY*3), motcso(DEMAND), motsj1(HOURLY*3),
+	mottom(DEMAND), nrcvax(WEEKLY), nud(DEMAND), oakhill(HOURLY*2),
+	palomino(HOURLY*3), sftig(HOURLY*3), wlbr(HOURLY*3),
+	unisoft(HOURLY*3), mcdsun(DAILY)
+
+#N	motcso
+#S
+#O	Motorola/Four Phase Customer Support Operations
+#C	David Burba
+#E	ihnp4!mot!motcso!david
+#T	+1 602 438 3100
+#P	1919 W. Fairmont, Suite 8, Tempe, AZ 85282
+#L	33 25 N / 111 56 W
+#R
+#W	web per uucpmap 5/29/86, web per uucpmap 1/14/86
+#U	mot
+#
+motcso	mot(DAILY), motsj1(DAILY)
+
+#N	mottom
+#S
+#O	Motorola Tech Trng - Phoenix, AZ
+#C	Dan Avery or Bob Bratt
+#E	mottom!dan
+#T
+#P
+#L
+#R
+#W	web per uucpmap 1/14/86
+#U
+#
+mottom	motatl, motbos, motch1, motdc1, motdet, motlax, motmpl, motral, mot,
+	motsea, motsj1, motsmo, motstp
+
+#N	naucse
+#S	DEC MicroVax II; Ultrix V1.2
+#O	Northern Arizona University
+#C	Joseph E. Cunliffe
+#E	naucse!jec
+#T	+1 602 523 2088
+#P	Box 15600, Northern Arizona University, Flagstaff, AZ 86011
+#L	111 39 22 W / 35 10 40 N
+#U	arizona
+#W	jec on Mon Sep 21 11:30:46 MST 1987
+#
+naucse	arizona(HOURLY)
+NAUNET	= {naucse, naupdp, mvaxcs1, mvaxcs2}(LOCAL)
+	
+#N	noao
+#S	DEC VAX-11/750; 4.3BSD UNIX
+#O	National Optical Astronomy Observatories
+#C	Steve Grandi, Richard Wolff
+#E	noao!postmaster
+#T	+1 602 327 5511
+#P	P.O. Box 26732, 950 N. Cherry Ave., Tuscon AZ 85726-6732, USA
+#L	32 13 59 N / 110 56 55 W 
+#R	
+#U	arizona hao mcdsun
+#W	noao!grandi (Steve Grandi); Tue Sep  8 16:26:11 MST 1987
+#
+noao	.arizona.edu
+noao = noao.arizona.edu, carina.noao.arizona.edu
+noao	allegra(EVENING+LOW), amd(EVENING), arizona(DIRECT), astrovax(EVENING),
+	azsil(EVENING), bonnie(EVENING+LOW), bradley(EVENING+LOW),
+	cfa(EVENING), charm(EVENING), clyde(EVENING+LOW), ctimv(DIRECT),
+	decvax(EVENING+HIGH), dicomed(EVENING+LOW), escher(EVENING+LOW),
+	floyd(EVENING+LOW), hao(DIRECT), hsi(EVENING), hutspa(EVENING),
+	ihnp4(EVENING+HIGH), ipac(EVENING), lbl-csam(EVENING),
+	masscomp(EVENING), mcdsun(EVENING), moss(EVENING+LOW), oddjob(DIRECT),
+	research(EVENING), scgvaxd(EVENING), sdcarl(EVENING+LOW),
+	sdcsvax(EVENING+LOW), solpl(DIRECT), stsci(EVENING), sunspot(EVENING),
+	trwspf(EVENING+LOW), ut-sally(EVENING), utastro(EVENING),
+	vortex(EVENING+LOW)
+#	solar(EVENING)	  We talk to the "wrong" solar.
+
+#N	nud
+#S	Four Phase System 2000
+#O	Motorola Four Phase
+#C	Dale Farnsworth
+#E	mot!nud!df
+#T
+#P	Tempe, AZ
+#L
+#R	new home of Motorola Four Phase Microcomputer Systems Group
+#W	web per uucpmap 1/14/86
+#U
+#
+nud	mot(DEMAND), supai(DEMAND)
+
+#N	palomino
+#S	Various M68000/M68010's under UNIX System V, M68000 version
+#O	Palomino Computer Systems, Inc.
+#C	Luke C. Dion
+#E	palomino!luke
+#T	(602) 897-UNIX
+#P	5777 S. Rural Rd. #4, Tempe, AZ 85283
+#L	33 20 N / 111 53 W 
+#R
+#W	Luke C. Dion, 12/14/84
+#
+palomino	mot(DAILY)
+palomino=palomi
+
+#N	slh
+#S
+#O
+#C
+#E
+#T
+#P
+#L
+#R
+#W	web 5/6/85 (added for the benefit of #U)
+#U
+#
+slh	asuvax(DEMAND)
+
+#N	sunburn
+#S	Sun3/160S
+#O	Sun Microsystems, Phoenix Sales Office
+#C	Mark Thomas
+#E	sunburn!mark
+#T	1 602 266 6793
+#P	1707 East Highland  Suite 110,	Phoenix, AZ  85016
+#L	
+#R	
+#W	sunburn!mark (Mark Thomas); Tue Feb  3 14:50:30 MST 1987
+#U	arizona
+#
+sunburn arizona(DAILY), sun(DEMAND)
+
+#N	supai
+#S	Callan Unistar 300
+#O	Courier Terminal Systems
+#C	Bob Flandrena
+#E	amdahl!supai!bob
+#T	(602) 894-7139
+#P	PO Box 29039 M/S E02, Phoenix, AZ  85038
+#L	33 25 N / 111 56 W
+#U
+#R	supai is a communications front-end for several internal systems
+#W	web per B. Flandrena/uucpmap 1/28/87
+#
+supai	amdahl(WEEKLY), bellcore(WEEKLY), cbosgd(WEEKLY), fps2(DEMAND),
+	infoswx(WEEKLY), ittatc(WEEKLY), nud(DEMAND), research(WEEKLY),
+	verde(DEMAND)
+
+#N	verde
+#S	NAS 9050
+#O	Courier Terminal Systems
+#C	Bob Flandrena
+#E	amdahl!supai!bob
+#T	(602) 894-7139
+#P	PO Box 29039 M/S E02, Phoenix, AZ  85038
+#L	33 25 N / 111 56 W
+#U
+#R	verde is a VM partition running Amdahl UTS V
+#W	web per B. Flandrena/uucpmap 1/29/87
+#
+verde	supai(DEMAND), moqui(DEDICATED)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

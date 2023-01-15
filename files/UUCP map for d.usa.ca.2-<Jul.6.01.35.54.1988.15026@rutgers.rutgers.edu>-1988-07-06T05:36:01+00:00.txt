@@ -1,0 +1,1037 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.ca.2
+: This archive created: Wed Jul  6 01:35:09 1988
+echo shar: extracting d.usa.ca.2
+cat << 'SHAR_EOF' > d.usa.ca.2
+# FILE: d.usa.ca.2 ; Tue Jul  5 15:00:39 PDT 1988
+# MAINTAINER: nca-maps@ucbvax.berkeley.edu (Erik E. Fair)
+
+#N	.3com.com, 3comvax
+#F	sun.com
+#O	3Com Corporation
+#C	Marc Lavine
+#E	marcl@vax.3Com.Com
+#T	+1 408 970 1857
+#P	3165 Kifer Road, Santa Clara, CA 95052-8145, USA
+#L	37 21 N / 121 56 W city
+#U	oliveb bridge2 cygnet tymix excelan
+#R	registered
+#W	marcl@vax.3Com.Com (Marc Lavine); Tue May  3 12:11:32 PDT 1988
+#
+#	Users on our internal 3+ internetwork can be reached via a mail
+#	gateway.  For example, to reach Marc Lavine:HQ:3Com, use the
+#	address Marc_Lavine@HQ.3Com.Com.  If your mailer can't handle
+#	that, use {3comvax|sun|oliveb}!HQ.3Com.Com!Marc_Lavine.
+#
+3comvax  .3com.com
+3comvax = 3com.com
+3comvax acad(DEMAND), bnrmtv(WEEKLY/2), bridge2(DEDICATED), cygnet(EVENING),
+	decwrl(DEMAND), excelan(POLLED/2), lotus(DEMAND), mdc(POLLED),
+	microsoft(DEMAND), oliveb(DIRECT), sun(DIRECT), tymix(DIRECT)
+
+#N	.adobe.com, adobe
+#F	sun.com
+#O	Adobe Systems Incorporated
+#C	Andrew I. Shore, Ron Weaver
+#E	postmaster@ADOBE.COM
+#T	+1 415 961 4400
+#P	1585 Charleston Road, P.O. Box 7900, Mountain View, CA  94039-7900
+#L	37 29 N / 122 03 W
+#R	registered
+#U	decwrl
+#W	shore@ADOBE.COM (Andrew I. Shore); Fri Mar 11 09:21:24 1988
+#
+adobe	.adobe.com
+adobe=	adobe.com
+adobe	apple(DIRECT+LOW), decwrl(DIRECT+HIGH), eakins(DIRECT),
+	labrea(DIRECT), mejac(DIRECT), next(DIRECT), 
+	sgi(DIRECT), sun(DIRECT+HIGH)
+
+#N	.amd.com, amdcad
+#F	sun.com
+#O	Advanced Micro Devices, Inc.
+#C	Carl Rigney
+#E	cdr@amdcad.AMD.COM
+#T	+1 408 749 2453
+#P	AMD, 901 Thompson Place, P.O. Box 3452, MS#167, Sunnyvale, CA 94088
+#L	37 22 50 N / 121 59 12 W
+#U	ames sun
+#R	registered
+#W	cdr@amdcad.amd.com (Carl Rigney); Mon Jun 27 17:33:32 PDT 1988
+#
+amdcad	.amd.com
+amdcad=	amd.com
+#
+# Data Ranges over 8 days from 171 to 179 Julian; 41 hosts connected
+# Mean conn/day = 239, Median c/d = 240, Mean Absolute Deviation = 63
+amdcad  allegra(WEEKLY), amdahl(DIRECT), ames(DIRECT), andante(HOURLY),
+	apple(DAILY/6), atari(DAILY/2), cae780(WEEKLY),
+	decwrl(DIRECT+HIGH), dgcad(DAILY/2), epi(DAILY),
+	gatech(DAILY/2), ghsvax(DAILY/3), hoptoad(HOURLY),
+	hplabs(DIRECT), ima(DAILY), inmet(WEEKLY/6), intelca(WEEKLY),
+	kestrel(DAILY/7), light(HOURLY), lll-crg(WEEKLY),
+	lll-lcc(WEEKLY/5), magic(DAILY/2), metaware(WEEKLY/4),
+	plus5(WEEKLY/2), pyramid(HOURLY), <qtc>(WEEKLY/5),
+	redwood(DAILY), riacs(DIRECT), research(WEEKLY), sco(WEEKLY),
+	sun(HOURLY), sun0(DAILY), tymix(DAILY), ucbvax(DAILY/3),
+	uiucdcs(DAILY/2), unisoft(DAILY/2), uport(DAILY/2),
+	uunet(DAILY/2), weitek(HOURLY), well(WEEKLY/3)
+
+#N      .amdahl.com, amdahl
+#F	sun.com
+#O	Amdahl Corporation, UTS Products Group
+#S	Amdahl 5890/300E; UTS/580 (System V with Berkeley extensions)
+#C      Gordon A. Moffett; Landon Curt Noll
+#E	amdahl!usenet
+#T      +1 408 746 8287; +1 408 746 6259
+#P      1250 E. Arques Ave., Mailstop 316, Sunnyvale, CA 94088-3470
+#L	37 22 33 N / 121 57 41 W
+#   full news feeds
+#U      ames apple bnrmtv cerebus drivax ems pyramid 
+#U      sri-unix twg-ap unixprt uunet
+#   local news feeds
+#U	amdcad cit-vax dlb namei hplabs nsc oliveb
+#U	pacbell rtech sun
+#R	also known as amdahl.amdahl.com
+#R	Member of the Usenet backbone
+#R	@(#)global.map	1.131 6/3/88 06:12:38
+#W      amdahl!chongo (Landon Curt Noll /\oo/\); Fri Jun  3 06:11:03 PDT 1988
+#
+# amdahl.com is a registered domain
+amdahl	.amdahl.com
+amdahl = amdahl.amdahl.com
+
+# DIRECT        is a local free call
+# DEMAND        is a local toll call
+# DEMAND+100    is a long distance toll call
+# POLLED 	not called by us at all
+#
+# HIGH is added to reliable/high traffic sites
+# LOW is added to less reliable sites or just to discourage traffic thru them
+# some nearby local toll calls have been given lower costs as well
+
+# principal and/or well known connections
+amdahl	ames(DEMAND), att(DEMAND+100),
+	cbosgd(DEMAND+100), decwrl(DEMAND-50),
+	hplabs(DEMAND-50+LOW), ihnp4(DEMAND+100+LOW),
+	mtune(DEMAND+100+HIGH), nsc(DIRECT+HIGH),
+	pyramid(DIRECT+HIGH), sun(DIRECT+HIGH+HIGH),
+	usenix(DEMAND), uunet(DEMAND+100+LOW)
+
+# et al., usw.
+amdahl  abcom(DEMAND+100), abfli(DEMAND+100), ackcu1(DEMAND+100),
+	altos86(DIRECT+LOW), amdcad(DIRECT), apple(DIRECT), 
+	atteja(DEMAND+100), attunix(DEMAND+100+HIGH),
+	bnrmtv(DIRECT+HIGH), bungia(DEMAND+100), cerebus(DIRECT),
+	cit-vax(DEMAND+100+HIGH), clyde(DEMAND+100), columbia(DEMAND+100),
+	cuuxb(DEMAND+100), dgcad(DIRECT), dlb(DEMAND-40+HIGH),
+	drivax(POLLED), <ems>(EVENING), 
+	escd(DIRECT), fai(DIRECT), hoptoad(DEMAND), 
+	imnet(DIRECT), ism780c(DEMAND+100+HIGH),
+	kinetics(DEMAND+HIGH), laidbak(DEMAND+100), 
+	mds(POLLED), mentat(EVENING), namei(DIRECT+HIGH),
+	nixntc(DIRECT), ntc(DEAD), <nuchat>(EVENING),
+	odutsa(DEMAND+100), oliveb(DIRECT+HIGH), pacbell(DEMAND-25+HIGH), 
+	plus5(DEMAND+100), ricnix(EVENING),
+        rtech(DEMAND+HIGH), <snark>(EVENING),
+	spar(DIRECT), sri-unix(DEMAND-50),
+	stubby(DEMAND+100), swamp(DEMAND+100), twg-ap(DIRECT), 
+	ubvax(DIRECT), unet(DEMAND-40), unisoft(DEMAND+LOW), 
+	unixprt(POLLED), uswat(DEMAND+100),
+	whuts(DEMAND+100), wnutsa(DEMAND+100)
+#
+# subdomain gateways
+#
+amdahl  walt(DIRECT), tetons(DEMAND+100)
+
+# UTS Santa Clara subdomain
+amdahl	.uts.amdahl.com
+amdahl = amdahl.uts.amdahl.com
+
+# Idaho subdomain of .amdahl.com
+tetons	.idaho.amdahl.com
+tetons	= tetons.idaho.amdahl.com
+tetons	amdahl(DEMAND+100)
+
+# Test Engineering subdomain of .amdahl.com
+walt	.testeng.amdahl.com
+walt	= walt.testeng.amdahl.com
+walt	amdahl(DIRECT+HIGH)
+
+#
+# Amdahl LANs
+#
+amdahl	amdahl-busboy(LOCAL), amdahl-chef(LOCAL), amdahl-bartender(LOCAL),
+	amdahl-waitron(LOCAL), amdahl-bouncer(DEAD)
+
+# UTS Santa Clara LANs
+amdahl-busboy = { busboy, eek, galapagos, jac, hammer, futatsu, 
+		  sushi, barnyard, carmen }(LOCAL)
+amdahl-chef = { chef, ssara, soare, symphony, shades, danw, 
+		spudley, haven }(LOCAL)
+amdahl-bartender = { bartender, myrddin, theshed, bananajr, monolith, 
+		     tzb80, nickb, martyn, mahakala, sidhe, tuatha,
+		     leto, darkstar }(LOCAL)
+amdahl-waitron = { waitron, elm, wibnif, schizoid, com3, com4, jewel, 
+		   com6, com7, com8, devel }(LOCAL)
+amdahl-bouncer = { bouncer, cedar, larch, defcom1, defcom2, defcom3,
+		   defcom4, defcom5, defcom6 }(DEAD)
+
+#N	.atherton.com, athertn
+#F	sun.com
+#S	Sun-3; Sun-OS 3.2
+#O	Atherton Technology
+#C	Eric Black, Yale Rosenblatt
+#E	ericb@Atherton.COM, yale@Atherton.COM
+#T	+1 408 734 9822
+#P	1333 Bordeaux Drive, Sunnyvale, CA  94089
+#L	37 22 50 N / 121 59 12 W
+#U	hpda pyramid
+#R	registered
+#W	ericb@Atherton.COM (Eric Black); Wed May 18 10:29:09 PDT 1988
+#
+athertn	.atherton.com
+athertn=	atherton.com
+athertn	cti(DAILY), decwrl(DIRECT), hpda(DIRECT), pyramid(DIRECT),
+	sun(DIRECT)
+
+#N	.coherent.com, coherent
+#F	ames.arc.nasa.gov
+#O	Coherent Thought Inc.
+#C	Celeste Stokely, Dave Platt
+#E	cstokely@Coherent.com, dplatt@Coherent.com
+#T	+1 415 493 8805
+#P	3350 West Bayshore Road, Suite 205; Palo Alto, CA  94303
+#L
+#R	registered
+#U	uunet aimt
+#W	dplatt@Coherent.com (Dave Platt); Wed Dec 09 13:57 PST 1987
+#
+coherent	.coherent.com
+coherent=	coherent.com
+coherent	uunet(EVENING), ibuki(DIRECT), ames(DIRECT), sun(DIRECT),
+		aimt(DEDICATED)
+
+#N	.convergent.com, ctnews
+#F	sun.com
+#O	Convergent Technologies
+#C	Bruce Schlobohm
+#E	bms@Convergent.COM
+#T	+1 408 435 3792
+#P	2314 N. First Street, P.O. Box 6685, San Jose, CA 95150
+#L	121 55 W / 37 23 N
+#U	pyramid sri-unix voysys mad
+#R	pacbell is our unix-pc newsgroup feed
+#W	bms@convergent.com; 28 June 1988
+#
+ctnews .convergent.com
+ctnews= convergent.com
+# FAST		bonus for trailblazer connection
+# POLLED	not called by us at all
+ctnews pyramid(DEMAND+FAST), sri-unix(EVENING), pacbell(EVENING),
+	sjsumcs(DEMAND+LOW), mad(POLLED), master(POLLED), voysys(POLLED)
+
+#N	.das.com, .das.net, dasnet
+#F	sun.com
+#O	DA Systems, Inc.
+#C	Russell Briggs, Anna Lange
+#E	Russ@11russ.das.net, AnnaB@11russ.das.net
+#T	+1 408 559 7970, +1 408 559 7434
+#P	1503 East Campbell Avenue, Campbell, CA   95008
+#L
+#U
+#R	
+#W	nca-maps@ucbvax.berkeley.edu (Erik E. Fair, per R.B.); Feb 17, 1988
+#
+dasnet	.das.com
+dasnet	.das.net
+daslink  idi(EVENING/2),  cdp(DEMAND), sun(EVENING/2), dasnet(DEDICATED)
+dasnet   daslink(DEDICATED)
+
+#N	.epi.com, epimass, epiwrl
+#F	uunet.uu.net
+#O	Entropic Processing, Inc.
+#C	Joe Buck, Alan Parker
+#E	jbuck@epimass.epi.com, parker@wrl.epi.com
+#T	+1 408 973 9800, +1 202 547 1420
+#P	10011 North Foothill Boulevard, Cupertino, CA
+#L	37 19 N / 122 03 W
+#U	csi oliveb
+#R	registered
+#W	jbuck@epimass.EPI.COM (Joe Buck); Dec 20 13:06:03 PST 1987
+#
+# epiwrl is in Washington DC and is our East Coast gateway.
+# epimass is in Silicon Valley and is our West Coast gateway.
+# #P and #L refer to epimass and corporate HQ.
+#
+epiwrl	.epi.com
+epimass	.epi.com
+epiwrl=	wrl.epi.com
+epimass=epimass.epi.com
+epimass	epicen(LOCAL), csi(DIRECT), oliveb(DIRECT), pyramid(DEMAND+LOW),
+	tymix(DIRECT), apple(DIRECT), epiwrl(EVENING), frs(EVENING)
+epiwrl	epimass(EVENING), vrdxhq(DEMAND), ap150(EVENING), svc(DEMAND),
+	chemo(EVENING),	boom(EVENING), uunet(HOURLY)
+
+#N	.esl.com, esl
+#F	lll-lcc.llnl.gov
+#O	ESL Incorporated
+#C	Mark Vieler
+#E	mav@esl.ESL.COM
+#T	+1 408 738 2888 x5103
+#P	M/S 302, PO Box 3510, Sunnyvale, CA  94088-3510
+#L      37 25 N / 122 01 W
+#U	leadsv
+#R	Updated to ``keep account current'' with ``nca-maps''
+#W	mac@esl.ESL.COM; Tue Apr  5 00:44:40 PDT 1988
+#
+esl	.esl.com
+esl=	esl.com
+esl     ac6(DEMAND), 	ames(DEMAND), 	cheops(DIRECT), 
+	leadsv(DEMAND), lll-lcc(DEMAND), plus(DAILY),
+	shasta(DAILY),	trwspp(DEMAND) 
+
+#N	.gene.com, genie
+#F	cgl.ucsf.edu
+#O	Genentech, Inc.
+#C	Scooter Morris, Roy Takai
+#E	scooter@genie.gene.COM, rst@genie.gene.COM
+#T	+1 415 266 1068
+#P	Scientific Computing, 460 Pt. San Bruno Blvd.; South San Francisco, CA 94080
+#L	37 46 39 N / 122 24 40 W city
+#U	ucsfcgl
+#R	registered
+#W	scooter@genie.gene.COM (Scooter Morris); Aug 19, 1987
+#
+genie	.gene.com
+genie=	gene.com, genie.gene.com
+genie	ucsfcgl(DEDICATED), cfcl(DAILY)
+
+#N	.ide.com, ide
+#F	sun.com
+#O	Interactive Development Environments
+#C	David Shewmake, Peter Pircher
+#E	shewmake@ide.com, pircher@ide.com
+#T	+1 415 543 0900
+#P	595 Market Street, Suite 1200; San Francisco, CA 94105
+#L	37 45 N / 122 27 W city
+#U
+#R	applied
+#W	shewmake@ide.com (David Shewmake); Fri Mar 25 14:02:30 PST 1988
+#
+ide	.ide.com
+ide=	ide.com
+ide	sun(DAILY), ucsfmis(DIRECT), idene(POLLED)
+
+#N	.kccs.com, kccs
+#S
+#F	ames.arc.nasa.gov
+#O	KC Computer Sciences
+#C	Kelly Chang
+#E	postmaster@kccs.com
+#T	+1 415 731 7179
+#P	P. O. Box 22307, San Francisco, CA 94122
+#L	37 44 N / 122 29 W
+#U	
+#R	registered
+#W	khc@kccs.com; Fri Apr  1 16:33:22 PST 1988
+#
+#
+kccs	.kccs.com
+kccs=	kccs.kccs.com
+kccs    hoptoad(DIRECT), pacbell(DEMAND), pyramid(DEMAND+10), leadsv(DEMAND),
+        ames(DEMAND+10), practic(DEMAND), ihnp4(EVENING), dildoc(POLLED),
+        ucsfmis(DIRECT), lll-lcc(DEMAND), sun(DEMAND), infmx(EVENING)
+
+#N	.mips.com, mips
+#F	ames.arc.nasa.gov
+#S
+#O	Mips Computer Systems, Inc.
+#C	David Koblas
+#E	koblas@mips.COM
+#T	+1 408 720 1700
+#P	930 Arques; Sunnyvale, CA 94086
+#L	35 04 05 N / 106 37 46 W city
+#U	prls
+#R	registered
+#W	koblas@mips.COM (David Koblas); Sat Apr 30 20:23:26 PDT 1988
+#
+mips	.mips.com
+mips=	mips.mips.com
+mips	decwrl(DEMAND), sgi(DEMAND), prls(DIRECT), ames(DEMAND), pyramid(DEMAND)
+
+#N	.nasa.gov, ames
+#F	ames.arc.nasa.gov
+#S	ISI/68020; 4.3BSD
+#O	NASA Ames Research Center
+#C	Steve Schoch, Peter Yee
+#E	ames!usenet
+#T	+1 415 694 4121
+#P	MS:233-18, Moffett Field, CA 94035
+#L	37 25 2 N / 122 3 27 W
+#U	acornrc amdahl amdcad claris cmcl2 elan elroy eos fxgrp hc
+#U	ll-xn lll-lcc lll-tis nasa1 ncar necntc netsys oliveb
+#U	pasteur pacbell riacs
+#U	scubed sgi sri-spam think ucsd umix xanth
+#R	Internet host ames.arc.nasa.gov -- 128.102.18.3
+#W	yee@ames.arc.nasa.gov (Peter E. Yee); Sat Apr 30 08:43:02 PDT 1988
+ames	= ames.arc.nasa.gov
+ames	= arc.nasa.gov
+ames	= ames.arpa
+ames	.nasa.gov
+#
+ames	acornrc(DIRECT+HIGH), allegra(DEMAND+LOW), amdahl(DIRECT+HIGH),
+	amdcad(DIRECT+HIGH), amelia(LOCAL), atari(DIRECT),
+	bnrmtv(DIRECT), canisius(POLLED), claris(DIRECT+HIGH),
+	cbosgd(DEMAND+LOW), cmcl2(DEDICATED), coherent(DIRECT),
+	cullsj(DIRECT),
+	decwrl(POLLED), dual(EVENING),
+	eagle(LOCAL), elan(DIRECT), elroy(DEDICATED),
+	eos(LOCAL),
+	esl(DIRECT), eta(POLLED), ethz(POLLED),
+	fxgrp(DIRECT),
+	gatech(DEMAND), gsssjo(DIRECT),
+	hc(DEDICATED), hplabs(DIRECT+HIGH), husc6(DEMAND),
+	ihnp4(EVENING+LOW), iis(DEAD),
+	cs.utexas.edu(DEDICATED+LOW), infopro(EVENING), isieng(EVENING),
+	kccs(DIRECT+LOW),
+	lams(DIRECT),
+	ll-xn(DEDICATED+LOW),
+	lll-crg(DEDICATED), lll-tis(DEDICATED),
+	mips(DIRECT),
+	nrl-cmf(DEDICATED),
+	nasa1(DEMAND), ncar(DEDICATED+LOW), necntc(EVENING),
+	netsys(POLLED),
+	oliveb(DIRECT+HIGH),
+	pacbell(EVENING),
+	pasteur(DIRECT),
+	philabs(POLLED+LOW), ptsfa(EVENING), pyramid(DIRECT+HIGH),
+	rencon(DIRECT), riacs(LOCAL), rochester(DEDICATED),
+	scampi(DIRECT), scubed(DEDICATED), scueng(EVENING),
+	scvcs(DIRECT),
+	sgi(DIRECT), spar(DIRECT), sri-spam(DEDICATED),
+	sunybcs(POLLED),
+	tektronix(POLLED+LOW), telebit(DEMAND), teleop(DIRECT),
+	ultra(DIRECT+LOW),
+	umix(DEDICATED),
+	unet(EVENING), usenix(DAILY),
+	ut-sally(DIRECT), uw-beaver(DIRECT), uwvax(DIRECT),
+	xanth(POLLED), yquem(DIRECT), zorch(POLLED)
+
+#N	.nsc.com, nsc, nscpdc
+#F	sun.com
+#O	National Semiconductor Corp.
+#C	Linda Lyon, Les Pembroke
+#E	linda@nsc.nsc.com, les@nsc.nsc.com
+#T	+1 408 721 8140, +1 408 721 8144
+#P	1135 Kern Avenue,  M/S 7c266, Sunnyvale, CA  94086
+#U	pyramid csi daisy oblio unixprt
+#R	registered
+#W	tron@nsc.NSC.COM; 5/21/87 15:43:22
+#
+#	regional subdomains are currently SC (Santa Clara/Sunnyvale)
+#	PO (Portland area) and TA (Tel-aviv).  These names are currently
+#	subject to change without notice.
+#
+#	Regional subdomains of .nsc.com are currently:
+#
+#		.sc.nsc.com	(Santa Clara/Sunnyvale area)
+#		.po.nsc.com	(Portland/Beaverton area)
+#		.ta.nsc.com	(Tel-Aviv/Israel)  -- Not fully operational
+#		.dv.nsc.com	(Denver/Anglewood area) --Not fully operational
+#
+nsc	.nsc.com
+nsc=	nsc.nsc.com
+nscpdc	.nsc.com
+nscpdc=	nscpdc.nsc.com
+#
+#	NSC is administered by tron@nsc.nsc.com
+#L	120 0 16 W / 37 23 18 N
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+nsc	ac1(HOURLY*4), amdahl(HOURLY*2+LOW+LOW), apple(HOURLY*4),
+	blit(WEEKLY), csi(WEEKLY), daisy(WEEKLY), decwrl(HOURLY*2+LOW),
+	harvax(DAILY*2), highrel(DAILY), hoptoad(HOURLY*6),
+	hpda(HOURLY*4), hplabs(HOURLY*2), ihnp4(WEEKLY), mips(WEEKLY),
+	nscpdc(HOURLY*4), oblio(WEEKLY), offbeat(DAILY),
+	opusys(HOURLY*3), pyramid(HOURLY*2+LOW+LOW), rencon(WEEKLY),
+	ridge(WEEKLY), sequent(DAILY*2), sfsvvse(WEEKLY),
+	sftig(WEEKLY), sun(HOURLY*2+LOW+LOW), tolerant(WEEKLY),
+	unixprt(HOURLY*4), verdix(DAILY), voder(HOURLY*2)
+#
+#	NSCPDC is administered by steve@nscpdc.nsc.com (503)629-4430
+#L	122 50 W / 45 32 N
+#S	DEC VAX-11/785; 4.2 BSD UNIX
+nscpdc	nsc(HOURLY), reed(DIRECT), sequent(DEMAND), univax(DEAD),
+	tsec(DEMAND), tektronix(DEMAND), arnav(DIRECT)
+
+#N	.octopus.com, octopus
+#F	sun.com
+#S	Stride 440; UNIX V.2 (Motorola)+some BSD
+#O	Octopus Enterprises
+#C	Peter Holzmann
+#E	octopus!postmaster, octopus!usenet
+#T	+1 408 996 7746
+#P	19611 La Mar Court, Cupertino, CA 95014
+#L	122 8 32 W / 37 25 33 N
+#U	pyramid harvax avsd wciu vlsi1 kiss
+#R	Makers of useable Geographic Information Systems & other useful things
+#W	octopus!pete (Pete Holzmann); Tue Mar 29 14:12:20 PST 1988
+#
+octopus .octopus.com
+octopus= octopus.com
+#
+# we only use the link to stride when we need it.
+# FAST added for Telebit links, HIGH added for 2400 baud.
+octopus	avsd(DIRECT), cwm-gmp(WEEKLY), harvax(DIRECT), hoptoad(WEEKLY),
+	hpda(DIRECT+HIGH), kiss(POLLED), pyramid(DIRECT+FAST),
+	rpx(DAILY), stride1(DEAD), vsi1(DIRECT+FAST), wciu(WEEKLY)
+
+#N	.olivetti.com, oliveb
+#F	sun.com
+#O	Olivetti Advanced Technology Center
+#C	Jerry Aguirre
+#E	jerry@ATC.OLIVETTI.COM
+#T	+1 408 996 3867
+#P	Systems Administration; 20300 Stevens Creek Blvd.; Cupertino, CA 95014
+#L	37 19 N / 122 2 W
+#U	ames pyramid intelca tymix 3comvax stratus iconet elandes peritus amiga
+#R	registered
+#W	oliveb!jerry (Jerry Aguirre); Tue Jun 28 21:23:28 PDT 1988
+#
+#	Note that our connection to stratus(DIRECT) is not shown because
+#	Georgia Tech has an alias for their gt-stratus that would conflict
+#
+oliveb	.olivetti.com
+oliveb=	b.atc.olivetti.com
+oliveb  3comvax(DIRECT), acornrc(DEMAND), allegra(DAILY),
+	amdahl(DIRECT), ames(DIRECT), amiga(DEMAND), bunker(DIRECT),
+	cdes(DAILY), cirrusl(DIRECT), cuuxa(DAILY), cygnet(DIRECT),
+	drusd(DAILY), druin(DAILY), druxl(DAILY), epimass(DIRECT),
+	edge(DIRECT), elandes(DAILY), emulex(WEEKLY), felix(DAILY),
+	fortune(DEMAND), gsg(DAILY), hplabs(DEMAND), idi(DIRECT),
+	intelca(DIRECT), ism780c(DAILY), microsoft(DAILY),
+	mtunb(DAILY), nexgen(DIRECT), olivea(LOCAL), olivee(LOCAL),
+	olivej(LOCAL), oliven(LOCAL), olrhbg(DEDICATED),
+	orc(DEDICATED), peritus(DIRECT), perivax(DIRECT), pmgmt(DAILY),
+	pyramid(DIRECT), retix(DAILY), sci(DIRECT), sco(DIRECT),
+	skesob(DAILY), skesof(DAILY), sun(DIRECT), tekbspa(DEMAND),
+	tolerant(DIRECT), ttrdc(DAILY), tymix(DIRECT), unet(DAILY),
+	uvacs(DAILY), vlsvax1(DEMAND), voder(DIRECT), zehntel(DEMAND),
+	zilog(DAILY)
+# Olivetti hosts in Italy via dedicated link
+oliveb  barhor(DEDICATED), icocae(DEDICATED), icodap(DEDICATED),
+	icogre(DEDICATED), icoign(DEDICATED), icol2m(DEDICATED),
+	icolok(DEDICATED), iconet(DEDICATED), icooll(DEDICATED),
+	icopen(DEDICATED), icoque(DEDICATED), icoras(DEDICATED),
+	icosal(DEDICATED), icotwo(DEDICATED), icoven(DEDICATED),
+	icoxan(DEDICATED), icoyeh(DEDICATED), icozen(DEDICATED),
+	newgest(DEDICATED), olivew(DEDICATED), psatit(DEDICATED),
+	psauly(DEDICATED), scmque(DEDICATED), sssvax(DEDICATED),
+	trzfal(DEDICATED), trzmac(DEDICATED), trzsev(DEDICATED)
+
+#N	.pacbell.com, pacbell, ptsfa
+#F	sun.com
+#O	Pacific Bell
+#C	David St. Pierre, Dave Turner
+#E	david@pacbell.com, dmt@pacbell.com
+#T	+1 415 823 6800, +1 415 542 1299
+#P	2600 Camino Ramon, Room 2E952, San Ramon CA 94583
+#L	37 37 N / 122 7 W
+#R	registered
+#R	Corporate HQ is in San Ramon but the main access number for
+#R		our gateway is in Hayward.
+#U	ames att
+#U	pb2esac pbhya pbhyb pbhyc pbhyd pbhye pbhyf pbhyg
+#U	ski vixie eeg hoptoad hippo tandem belltec
+#U	varian cogent cpro ista pmt1 rencon forbrk
+#U	well nonvon laticorp cfcl trane lamc dual
+#W	david@pacbell.com (David St. Pierre); Wed Jun  8 07:03:51 PDT 1988
+#
+pacbell		.pacbell.com
+pacbell=	pacbell.com
+pacbell=	pacbell.pacbell.com
+ptsfa		.pacbell.com
+ptsfa=		ptsfa.pacbell.com
+#	Internal DataKit connections
+#	(These are only the main ones, there are another 100+ we'll
+#	provide routing to once you get to a gateway)
+dkit = {ptsfa, pbphb, pbhya, pbhyb, pbhyc, pbhyd, pbhye, pbhyf, pbhyg, pacbell}!(LOCAL)
+#
+pacbell	amdahl(DIRECT), ames(DIRECT+FAST), belltec(DIRECT), cfcl(DIRECT+FAST),
+	cogent(DIRECT+FAST), comdim(DIRECT), cpro(DIRECT), decwrl(DIRECT+FAST),
+	dorothy(DIRECT), dplace(DIRECT+FAST), dual(DIRECT), eeg(DIRECT),
+	forbrk(DIRECT), hippo(DIRECT), hoptoad(DIRECT+FAST), hwdzeus(DIRECT),
+	intsc(DIRECT), ista(DIRECT), kccs(DIRECT), key(DIRECT), lamc(DIRECT),
+	laticorp(DIRECT), lll-crg(DIRECT), lll-tis(DIRECT), lll-winken(DIRECT),
+	maxepr(DIRECT), nonvon(DIRECT), oracle(DIRECT), pmt1(DIRECT),
+	pyramid(DIRECT+FAST), qantel(DIRECT), rencon(DIRECT), rtech(DIRECT),
+	ski(DIRECT), stream(DIRECT), sun(DIRECT+FAST), sybase(DIRECT),
+	trane(DIRECT), ubvax(DIRECT+FAST), ucsfmis(DIRECT), unet(DIRECT),
+	varian(DIRECT), vixie(DIRECT+FAST), zorch(DIRECT), tandem(DIRECT),
+	well(DIRECT)
+pacbell	att(DIRECT), bakerst(DEMAND), bcr(DIRECT), bellcore(DIRECT),
+	clyde(DEMAND), gladys(DEMAND), icus(HOURLY), ihnp4(DEMAND),
+	safari(DEMAND), sw1d(DEMAND)
+
+#N	.parcplace.com, pplace
+#F	sun.com
+#S	Sun 3/180; SunOS 3.4
+#O	ParcPlace Systems, Inc.
+#C	Tom Wadlow
+#E	pplace!taw
+#T	+1 415 859 1048
+#P	2400 Geng Road, Palo Alto, CA 94303
+#L	37 27 N / 122 9 30 W city
+#U	spar
+#R	registered
+#W	pplace!taw (Tom Wadlow); Wed Apr 27 19:52:30 PDT 1988
+#
+# Proprietors of fine object-oriented technology since earlier this month
+#
+pplace	.parcplace.com
+pplace= parcplace.com, pplace.parcplace.com
+pplace	sun(DEMAND), parcvax(DEMAND), decwrl(DEMAND), spar(DEMAND)
+
+#N	.portal.com, portal
+#F	sun.com
+#O	Portal Communications Company
+#C	John Little
+#E	portal!postmaster
+#T	+1 408 973 9111
+#P	19720 Auburn Drive, Cupertino, CA 95014
+#L	122 02 W / 37 19 N city
+#R	Portal Communications Company gateway
+#U	atari
+#W	portal!jel (John Little); Sun Sep 13 21:10:41 PDT 1987
+#
+portal	.portal.com
+portal=	portal.portal.com, portal.com
+portal	sun(EVENING), atari(EVENING), hoptoad(EVENING)
+
+#N	.pw.com, pwtc
+#F	labrea.stanford.edu
+#O	Price Waterhouse Technology Centre
+#C	Cris Johnson
+#E	johnson@tc.pw.com
+#T	+1 415 322 0606
+#P	68 Willow Road, Menlo Park, CA  94025
+#L	37 25 02 N / 122 09 07 W
+#R	registered
+#U	
+#W	johnson@tc.pw.com (Cris Johnson); Wed Nov 18 16:48:36 PST 1987
+#
+pwtc	.pw.com
+pwtc=	tc.pw.com
+pwtc	labrea(HOURLY)
+
+#N	.pyramid.com, pyramid
+#F	sun.com
+#O	Pyramid Technology Corporation
+#S	Pyramid 98x; dualPort OSx 4.1
+#C	Rick Preston
+#E	postmaster@pyramid.com, usenet@pyramid.com
+#T	+1 415 965 7200
+#P	1295 Charleston Road, P.O. Box 7295, Mountain View, CA 94039-7295
+#L	37 25 45 N / 122 04 30 W
+#U	altera amdahl cromemco ctnews decwrl infmx isieng leadsv octopus
+#U	oliveb nsc ntc prls thirdi triada voder weitek
+#W	csg@pyramid.com (Carl S. Gutekunst); Tue Mar 29 10:41:46 PST 1988
+#R	Registered with forwarder
+#
+# Our USENET feeds are decwrl, oliveb, prls, and amdahl. The #U entry above
+# shows only full news links; many "alt" only, partial, local, and regional
+# connections also exist. (Yes, we qualify to be a backbone. We chose not to.)
+#
+# pyramid.com is the gateway for all Pyramid Technology Corporation machines;
+#
+#	user@pyramid.com
+# or
+#	user@pyrhost.pyramid.com
+#
+# should get you anywhere. (Thanks to Bill Nowicki for being our forwarder.)
+# A number of Pyramid field offices and support groups also have machines on
+# the UUCP net; Each of these is individually administrated.
+#
+# Pyramid is a mod.sources archive site; mail to pyramid!usenet for info.
+# International X.25 sites are welcome.
+#
+# The costs below are generally scaled against what we have to pay for them.
+# Small bonuses are awarded for 2400bps or a Trailblazer. X.25 sites do *not*
+# get a bonus, since in the US it is more expensive than the telephone.
+#
+pyramid	 .pyramid.com
+pyramid = pyramid.com
+#
+# Pyramid's own field offices. Our internal (hidden) map makes these links much
+# cheaper, so we pay for our own mail as much as possible, but the world at
+# large gets the true values. pyrnj uses Trailblazer; pyrltd uses X.25; pta
+# polls using V.22bis.
+#
+pyramid pta(DAILY/2), pyrbos (DEMAND+100), pyrchi(DEMAND+100), pyrdc(DEMAND+75),
+	pyrla(DEMAND+50), pyrnj(DEMAND+50), pyrltd(EVENING), pyrtech(10)
+#
+# Local calls from Mountain View -- includes most of Silicon Valley. Ames is
+# artificially high because they list a lot of their Internet connections on
+# their UUCP map, which throws off our paths; they're actually one of the most
+# reliable sites in the Bay Area. Ames, octopus, oliveb, sun, and telebit are
+# using Trailblazers. Probably others too, I'm losing track.
+#
+pyramid	acornrc(DIRECT-5), altera(DIRECT+LOW), amdahl(DIRECT), 
+	amdcad(DIRECT), ames(350), athertn(DIRECT), cdp(DEMAND), 
+	chkpt(DIRECT), cromemco(DIRECT), cti(DIRECT), 
+	ctnews(DAILY/7), daisy(DIRECT-10), daver(DIRECT), decwrl(DIRECT-5), 
+	garth(DIRECT), harvax(DIRECT), hplabs(DIRECT-10), idi(DIRECT),
+	infmx(DIRECT), infopro(HOURLY), isieng(DIRECT), kontron(DIRECT), 
+	ksc(DIRECT), leadsv(DIRECT), lewey(DIRECT), lparl(DIRECT), 
+	megatest(DIRECT), mips(DIRECT), mitsumi(DIRECT), nsc(DIRECT), 
+	nixntc(DIRECT), ntc(DIRECT), octopus(DIRECT), oliveb(DIRECT-5), 
+	olympus(DIRECT), practic(DIRECT), prls(DIRECT-5), quintus(DAILY), 
+	ranhome(DIRECT), sgi(DIRECT), shasta(DIRECT), silicon(DIRECT), 
+	silvlis(DIRECT), sri-unix(DIRECT), sybase(DIRECT), sun(DIRECT-10), 
+	tekbspa(DIRECT), telebit(DIRECT-10), thirdi(DIRECT), tolerant(DIRECT), 
+	triada(DIRECT), ubvax(DIRECT), versatc(DIRECT), vecpyr(DIRECT),
+	voder(DIRECT), weitek(DIRECT), wjvax(DIRECT), zorch(DIRECT)
+#
+# Within our service area, mostly San Francisco Bay Area. Amiga, hoptoad,
+# sable (an internal machine at Measurex), unisoft, and vsi1 are using Trail-
+# blazers. There is at least one other "sable" on the net, but neither has a
+# map entry.
+#
+pyramid	abekas(DAILY/2), abhg(DAILY), acad(DEMAND), aida(HOURLY),
+	amiga(DEMAND-50), avsd(DAILY/3), blia(DEMAND), cubi(DAILY/4), 
+	cerebus(DEMAND), dual(DEMAND+20), hoptoad(DEMAND-50), 
+	lamc(DAILY), lll-crg(DEMAND), lll-lcc(DEMAND),
+	lll-winken(HOURLY), kccs(DEMAND-10), opusys(DEMAND), oracle(DEMAND-10),
+	pacbell(DEMAND-10), rpx(DAILY/3), rencon(DEMAND), rtech(DEMAND), 
+	ska(DEMAND), sable(DEMAND-20), trane(DEMAND), titn(DEMAND), 
+	unisoft(DEMAND-20), vsi1(DEMAND-50)
+#
+# California Band 1 WATS.
+#
+pyramid	cepu(DAILY/24), jack(DEMAND+50), ncr-sd(DEMAND+25), pdsc(DEMAND),
+	polyslo(DAILY/4), sdeggo(DEMAND+50), soft21(EVENING),
+	ttidca(DEMAND+50), ucsbcsl(DEMAND+50)
+#
+# Miscellaneous Long Distance, Band 5 WATS. Batcomputer and uunet are using a
+# Trailblazer. Netxcom is X.25, and very fast but expensive. We poll isis and
+# utzoo, since they're pennyless educational institutions. :-) uccba and a few
+# others poll via PC Pursuit.
+#
+pyramid abvax(DEMAND+100), allegra(DEMAND+100), andromeda(DEMAND+100),
+	batcomputer(DEMAND+50), boulder(DEMAND+100), cbmvax(DEMAND+50),
+	cmcl2(DEMAND+100), comdesign(DAILY/3), crayamid(DEMAND+100), 
+	fmsrl7(DEMAND+100), geops(DEMAND+100), hhb(DEMAND+75), 
+	isis(DEMAND+100), iuvax(DEMAND+100), marque(DEMAND+100), 
+	mdc(DAILY), mhis(DEMAND+100), mirror(DEMAND+75), 
+	mstar(DEMAND+100), nbires(DEMAND+100), necntc(HOURLY), 
+	netxcom(DEMAND+100), <nitrex>(WEEKLY), osiris(DEMAND+100), 
+	osu-cis(DEMAND+100), osupyr(DEMAND+100), oxtrap(DAILY), 
+	plus5(DEMAND+100), qtc(DEMAND+100), ritcv(DEMAND+100),
+	rutgers(DEMAND+100), sbcs(DEMAND+100), scdpyr(DEMAND+100),
+	ssi(DEMAND+100), tulane(DEMAND+100), uccba(DAILY/3),
+	uiucdcs(DEMAND+50), ut-sally(DEMAND+50), utzoo(DEMAND+150),
+	uunet(DEMAND+75), verdix(DEMAND+100), vcuac(DEMAND+100),
+	wnwpyr(DEMAND+100), wucs1(DEMAND+50) 
+#
+# International X.25 Connections. Generally the other site pays for these.
+# We call utai via X.25 during the day, and Band 5 WATS Trailblazer at night.
+# Munnari really is on demand, but very expensive.
+#
+# Costs are listed as DEMAND plus some hacks, because uunet does. Rick and I
+# will resolve this some day.... fauern's entry has been tuned so that mail
+# to any site on their Ethernet is sent directly, but mail to their other X.25
+# links has to go through uunet!unido.
+#
+pyramid actisb(DEMAND+100), atina(DEMAND+100), fauern(DEMAND+250),
+	gtc(DEMAND+100), iaoobel(DEMAND+100), munnari(DEMAND+100),
+	tub(DEMAND+100), uchdcc(DEMAND+100), utai(DEMAND+50)
+#
+#pyramid dpolk(DEAD), fourier(DEAD), greipa(DEAD),
+#	gymble(DEAD), jove(DEAD), hughes(DEAD), imcgpe(DEAD), ncrmsd(DEAD),
+#	plx(DEAD), sco(DEAD), tnova(DEAD), t12tst(DIRECT), tommif(DEAD), 
+
+#N	.quintus.com, quintus
+#F	sun.com
+#S	Sequent S27; DYNIX 3.0.8
+#O	Quintus Computer Systems
+#C	W. Gregg Stefancik
+#E	quintus!postmaster
+#T	+1 415 965 7700
+#P	1310 Villa Street, Mountain View, CA 94041
+#L	37 23 N / 122 3 W
+#R	Makers of Quintus Prolog
+#U	sri-unix sun
+#W	quintus!gregg (W. Gregg Stefancik); Wed Jun  8 13:05:54 PDT 1988
+#
+quintus .quintus.com
+quintus= quintus.com
+quintus	sun(DEMAND), parcvax(DEMAND), pyramid(DEMAND), hubcap(DAILY),
+	decwrl(DEMAND), sri-unix(DEMAND), fernwood(DEMAND)
+
+#N	.rtech.com, rtech
+#F	sun.com
+#O	Relational Technology, Inc.
+#S	DEC Micro-VAX II; Ultrix 2.0
+#C	Diane Alter
+#E	rtech!postmaster
+#T	+1 415 769 1400
+#P	1080 Marina Village Pkwy, Alameda CA 94501
+#L	37 47 N / 122 16 W
+#R	registered
+#U	amdahl mtxinu cpsc6a hoptoad wrs gonzo politik pacbell
+#W	rtech!postmaster (Dave Brower); Fri Feb 26 10:55:01 PST 1988
+#
+rtech	.rtech.com
+rtech=	rtech.com
+#
+# local calls & reliable
+#
+rtech	cpsc6a(DIRECT), gonzo(DIRECT), gusano(DIRECT), politik(DIRECT),
+	mtxinu(DIRECT), wrs(DIRECT)
+#
+# zone calls, pretty reliable
+#
+rtech	amdahl(DEMAND), hoptoad(DEMAND), pacbell(DEMAND), pyramid(DEMAND),
+	rosey(DEMAND), sun(DEMAND)
+#
+# long distance and/or flakey
+#
+rtech	osiris(POLLED)
+
+#N	.sc-scicon.com, scampi
+#S	SUN 3/160S
+#F	ames.arc.nasa.gov
+#O	Systems Control
+#C	Kent S. Harris, Andrew Mangogna
+#E	postmaster@SC-Scicon.COM
+#T	+1 415 494 1165 x1743
+#P	Embedded Systems Group, 1801 Page Mill Road; Palo Alto, CA 95014
+#L	37 27 N / 122 06 W  (city)
+#U	leadsv
+#R	registered
+#W	ksh@SC-Scicon.COM (Kent S. Harris); Fri Mar 25 14:03:26 PST 1988
+#
+scampi	.sc-scicon.com
+scampi=	scampi.sc-scicon.com
+scampi	leadsv(DEMAND+LOW), ihnp4(DEMAND+LOW), scvcs(DEMAND),
+	jandj(DEMAND), practic(DEMAND), hoptoad(DIRECT+LOW),
+	lll-lcc(DIRECT+LOW), ames(DEMAND+LOW)
+
+#N	.sco.com, sco
+#F	ucscc.ucsc.edu
+#O	The Santa Cruz Operation, Inc.
+#C	Keith Reynolds, Steph Marr
+#E	keithr@sco.COM, stephm@sco.COM
+#T	+1 408 425 7222
+#P	PO Box 1900, Santa Cruz, CA, 95061
+#L	36 58 N / 122 3 W city
+#U	amd uunet
+#R	registered
+#W	keithr@sco.COM (Keith Reynolds); Fri Oct 16 13:45:50 PDT 1987
+#
+sco	.sco.com
+sco=	sco.com
+sco	acermt(DAILY), altos86(DAILY), amd(DAILY), amdcad(DAILY),
+	cbosgd(DAILY), cdl(DAILY), cfg(DAILY), cit-vax(DAILY),
+	dswssw(DAILY), edsel(DAILY), elwood(DAILY), emerald(DAILY),
+	excelan(DAILY), felix(DAILY), ganglio(DAILY), hermix(DAILY),
+	hpsvla(DAILY), hpwcso(DAILY), idx(DAILY), ihnp4(DAILY),
+	itech1(DAILY), itech2(DAILY), jack(DAILY), jandj(DAILY),
+	lalk(DAILY), microsoft(HOURLY), mindcrf(DAILY), mitsu(DAILY),
+	moe(DAILY), ncrpc8a(DAILY), nxsysf(DAILY), oliveb(DAILY),
+	omen(DAILY), paomail(DAILY), pbox(DAILY), pn1(DAILY),
+	qumix(DAILY), sdcrdcf(DAILY), spx30(DAILY), sq(DAILY),
+	ssds(DAILY), sw1d(DAILY), sw1e(DAILY), techops(DAILY),
+	tixgrp(DAILY), trsvax(DAILY), ubvax(DAILY), ucscc(HOURLY),
+	unidot(DAILY), unisys(DAILY), usrgrp(DAILY), uugte(DAILY),
+	uunet(EVENING), wyse(DAILY), zeldev(DAILY)
+
+#N	.scvcs.com, scvcs
+#S	ISI Optimum V, M68020; V3.07
+#F	ames.arc.nasa.gov
+#O	Santa Clara Valley Computer Sciences
+#C	Kent S. Harris, William L. English
+#E	postmaster@scvcs.COM
+#T	+1 408 973 0771
+#P	20600 Valley Green Drive, Cupertino, CA 95014
+#L	37 19 N / 122 2 W city
+#U	practic
+#R	registered
+#W	ksh@scvcs.COM (Kent S. Harris); Fri Mar 25 14:04:49 PST 1988
+#
+scvcs	.scvcs.com
+scvcs=	scvcs.scvcs.com
+scvcs	polstra(DEAD), jandj(DIRECT), scampi(DEMAND), isi(DEAD),
+	practic(DIRECT), ames(DIRECT+LOW)
+
+#N	.sgi.com, sgi
+#F	sgi.com
+#O	Silicon Graphics Incorporated
+#S	Silicon Graphics 3030; SGI 3.6+
+#C	Ian Clements
+#E	postmaster@sgi.com
+#T	+1 415 960 1980
+#P	2011 Stierlin Road; Mountain View, CA 94043
+#L	37 25 30 N / 122 04 30 W
+#U	decwrl
+#R	applied
+#W	vjs@sgi.com (Vernon Schryver); Sun Mar 20 15:10:53 PST 1988
+sgi	.sgi.com
+sgi=	sgi.sgi.com
+sgi	wdl1(DIRECT), ames(DIRECT),
+	adobe(DIRECT), allegra(DAILY*2), alias(DAILY*2), alien(DAILY),
+	belfast(DIRECT), blia(HOURLY), decwrl(DIRECT),
+	mips(HOURLY+HIGH), mtxinu(HOURLY+HIGH), opusys(DAILY*2),
+	prmcad(DAILY*2), pyramid(DIRECT), research(DAILY*2),
+	sun(DIRECT+LOW), unisoft(HOURLY+HIGH), wavefront(DAILY)
+
+#N	.silvlis.com, silvlis
+#F	sun.com
+#O	Silvar-Lisco
+#S	Sun 3/160; 4.2 BSD UNIX
+#C	Mark D. Baushke, Zeev Wurman
+#E	mdb@silvlis.com, zeev@silvlis.com, postmaster@silvlis.com
+#T	+1 415 324 0700
+#P	Silvar-Lisco, 1080 Marsh Road, Menlo Park, CA 94025-1053
+#L	122 10 57 W / 37 28 52 N
+#R	registered
+#U
+#W	mdb@silvlis.com (Mark D. Baushke); Sun Mar 27 00:20:00 PST 1988
+#
+#	(Thanks to Bill Nowicki for being our forwarder.)
+#
+silvlis	.silvlis.com
+silvlis= silvlis.com
+silvlis	sun(DAILY/12), pyramid(DAILY)
+
+#N	.tss.com, tekbspa
+#F	uunet.uu.net
+#O	Teknekron Software Systems
+#C	Joe Angelo, Marc Bowles
+#E	usenet@tekbspa.tss.com
+#T	+1 415 325 1025
+#P	525 University Avenue, Suite 600, Palo Alto, CA, 94301
+#L	122 9 41 W / 37 26 35 N
+#R	registered
+#U
+#W	joe@tekbspa.tss.com; Mon Mar 28 15:46:30 PST 1988
+#
+tekbspa		.tss.com
+tekbspa=	tekbspa.tss.com
+tekbspa		tekswny(DEDICATED), tekcuma(DEDICATED),
+		uunet(DEMAND), oliveb(DEMAND), sfsun(DEMAND),
+		necntc(WEEKLY+HIGH), lll-winken(DEMAND),
+		kontron(DEMAND), acornrc(DEMAND)
+
+#N	.ub.com, ubvax
+#F	ames.arc.nasa.gov
+#O	Ungermann-Bass Enterprises, Inc.
+#C	Paul Vixie, Lance Keigwan
+#E	vix@ub.com, lance@ub.com
+#T	+1 408 496 0111
+#P	3990 Freedom Circle, Santa Clara, CA 95052-8030
+#L	37 21 41 N / 121 55 37 W
+#U	amdahl weitek lll-winken smegma dalek ames pyramid vsi1
+#R	cae780 is back. sigh.
+#W	vix@ub.com (Paul Vixie); Thu Jun  2 21:34:08 PDT 1988
+#
+ubvax	.ub.com
+ubvax=	ub.com, ubvax.ub.com, engr.ub.com
+#
+# cheap, local phone calls
+#
+ubvax	pyramid(DIRECT), weitek(DIRECT), <ast0>(DIRECT), <dalek>(DIRECT),
+	dlb(DIRECT), amdahl(DIRECT), ardent(DIRECT), <smegma>(DIRECT),
+	unisv(DIRECT), vsi1(DIRECT), tandem(DIRECT), daisy(DIRECT),
+	apple(DIRECT), ames(DIRECT), cae780(DIRECT)
+#
+# toll calls or time-restricted calls
+#
+ubvax	lll-winken(DEMAND), pacbell(DEMAND), uunet(DEMAND+LOW), <sco>(POLLED)
+
+#N	.ultra.com, ultra
+#F	ames.arc.nasa.gov
+#O	Ultra Network Technologies
+#C	Wayne Hathaway, Norm Finn
+#E	wayne@ultra.com, norm@ultra.com
+#T	+1 408 922 0100
+#P	2140 Bering Drive, San Jose, CA 95131
+#L	37 22 50 N / 121 55 W
+#U	ames
+#R	registered
+#W	norm@ultra.com  (Norm Finn); Tue Apr 12 14:10:38 1988
+#
+ultra	.ultra.com
+ultra=	ultra.com
+ultra	ames(DIRECT)
+
+#N	.uop.edu, uop
+#F	ucdavis.ucdavis.edu
+#O	University of the Pacific, Department of Computer Science
+#C	Greg Onufer, Bill Ford
+#E	postmaster@uop.edu, exodus@uop.edu, billf@uop.edu
+#T	+1 209 944 7481, +1 209 946 3028
+#P	Stockton, CA  95211
+#L	121 15 W / 37 55 N city
+#U	ucdavis cogent
+#R	applied
+#W	exodus@uop.edu (Greg Onufer); 14 Jun 1988 01:01:49 PDT
+#
+uop	.uop.edu
+uop=	uop.edu, uop.uop.edu
+uop	ucdavis(DAILY/2), retix(POLLED), cogent(DAILY/2)
+
+#N	.weitek.com, weitek
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#F	sun.com
+#O	WEITEK Corporation
+#C	Robert Plamondon
+#E	postmaster@weitek.com
+#T	+1 408 738 8400
+#P	1060 E. Arques Avenue, Sunnyvale, CA 94086
+#L	37 12 N / 122 10 W city
+#R	registered
+#U	sci turtlevax ubvax pyramid wyse
+#W	weitek!robert (Robert Plamondon); Tue Mar  1 10:08:25 PST 1988
+#
+weitek	.weitek.com
+weitek= weitek.com
+weitek	aimt(POLLED), apple(DEMAND+LOW), applicon(DAILY),
+	cast(POLLED), fear(LOCAL), ghsvax(DAILY), pyramid(DIRECT),
+	resonex(DEAD), sci(DEMAND+LOW), turtlevax(DEMAND+LOW),
+	ubvax(DIRECT+LOW), wyse(DEMAND+2*LOW)
+fear	sun(DIRECT+LOW), weitek(LOCAL)
+
+#N	.zehntel.com, zehntel, zinfandel
+#F	lll-crg.llnl.gov
+#O	Zehntel, Inc.
+#C	Diana Berry
+#E	zehntel!postmaster
+#T	+1 415 932 6900 x360
+#P	2625 Shadelands Drive, Walnut Creek, CA  94598
+#L	37 53 30 N / 122 5 W city
+#R	
+#U	bales kinetics varian ista
+#W	zehntel!diana (Diana L. Berry); 14 Jun 88 16:07:17 PDT
+#
+zehntel		.zehntel.com
+zehntel=	zehntel.com
+zinfandel=	zinfandel.zehntel.com
+#
+zehntel		zps(DIRECT+HIGH), bales(DIRECT), kinetics(DIRECT),
+		varian(DIRECT), decwrl(DEMAND), hoptoad(DEMAND),
+		idi(DEMAND), ista(DEMAND), lll-crg(DEMAND), 
+		oliveb(DEMAND), rtech(DEMAND), sra2(DEAD), 
+		sun(DEMAND+HIGH), tektronix(DEMAND), unisoft(DEMAND), 
+		hplabs(DEMAND+LOW), ucbvax(WEEKLY/5), zinfandel(LOCAL)
+#
+zinfandel       ardent(DIRECT), kinetics(DIRECT), rtech(DEMAND),
+		zehntel(LOCAL), zps(DIRECT)
+
+
+# EOF: d.usa.ca.2
+SHAR_EOF
+:	End of shell archive
+exit 0

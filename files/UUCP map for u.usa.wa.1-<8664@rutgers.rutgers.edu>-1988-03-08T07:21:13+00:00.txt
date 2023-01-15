@@ -1,0 +1,1098 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.wa.1
+: This archive created: Tue Mar  8 02:20:31 1988
+echo shar: extracting u.usa.wa.1
+cat << 'SHAR_EOF' > u.usa.wa.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@cbosgd.att.com (cbosgd!uucpmap).
+# Last updated: Mon Mar  7 08:54:26 PST 1988
+
+#N	4gen
+#S	SCO XENIX 386
+#O	Softa
+#C	Loren West
+#E	4gen!sysad
+#T	+1 206 542 7481
+#P	1110 N. 175th, Ste. 203, Seattle, WA 98133
+#L	47 35 N / 122 20 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Mon Jan  4 22:10:56 EST 1988
+#U
+#
+4gen	uunet(DEMAND)
+
+#N	amc
+#S	DEC Vax 11/750; 4.3bsd
+#O	Applied Microsystems Corporation
+#C	Stan Tazuma
+#E	amc!postmaster
+#T	+1 206 882 2000
+#P	5020 148th Avenue N.E.; Redmond, WA 98052
+#L	122 8 27 W / 47 39 14 N 
+#R	USPS: P.O. Box 97002; Redmond, WA 98073-9702
+#W	amc!stan (Stan Tazuma); Wed Dec  9 09:50:48 PST 1987
+#U	tikal, pilchuck
+#
+amc	tikal(DIRECT), pilchuck(DIRECT), ssc(DIRECT), sigma(DIRECT),
+	sunup(DAILY)
+
+#N	apcisea
+#S	Apollo DN570; DOMAIN/IX
+#O	Apollo Computer, Inc
+#C	David M. Chinn
+#E	apcisea!chinn
+#T	+1 206 453 5544
+#P	1756-114th Ave SE, Suite 202, Bellevue WA. 98004
+#L	47 33 18 N / 122 15 30 W
+#R	
+#W	apcisea!chinn (David M. Chinn); Tue Jan  5 09:35:23 PST 1988
+#U	uw-beaver pilchuck tikal mcgp1 apollo ssc ncrsea
+#
+apcisea	pilchuck(HOURLY), uw-beaver(HOURLY), tikal(HOURLY),
+	mcgp1(HOURLY), apollo(DAILY), ssc(HOURLY), ncrsea(HOURLY)
+
+#N	apex
+#S	SUN2; Xenix
+#O	Apex Computer Compnay
+#C	Chuck Huffington
+#E	apex!postmaster
+#T	+1 206 867 1900
+#P	4500 150th Ave NE, Redmond WA  98052
+#L	47 39 14 N / 122 8 27 W
+#R
+#U	microsoft
+#W	apex!chuckh (Chuck Huffington); Tue Feb 16 15:18:11 PST 1988
+#
+apex	microsoft(DIRECT)
+
+#N	apl-at
+#S	MASSCOMP 55-010; RTU 3.1A
+#O	Applied Physics Lab, University of Washington
+#C	Stephen A. Reynolds, Tom A. Aufrance
+#E	apl-at!root
+#T	+1 206 543 1300
+#P	1013 NE 40th St., Seattle, WA 98105
+#L	47 39 19 N / 122 18 55 W 
+#W	apl-at!steve (Steve Reynolds); Fri Jul 10 14:06:37 PDT 1987
+#U	uw-apl
+#
+apl-at	uw-apl(DIRECT), apl-em(DIRECT)
+
+#N	apl-em
+#S	HP 9050; HP-UX 5.05
+#O	Applied Physics Lab, University of Washington
+#C	John H. Dunlap, Maureen A. Kennelly
+#E	apl-em!root
+#T	+1 206 543 1300
+#P	1013 NE 40th St., Seattle, WA 98105
+#L	47 39 19 N / 122 18 55 W 
+#W	apl-em!dunlap (John H. Dunlap); Mon Sep  1 21:32:33 EDT 1986
+#
+apl-em	apl-uw(DIRECT), hpubvwa(DIRECT)
+apl-uw	apl-em(DIRECT)
+
+#N	arctic
+#S	Masscomp MC500; RTU 3.1A
+#O	Applied Physics Laboratory, University of Washington
+#C	Bob Gill
+#E	arctic!gill,root
+#T	+1 206 543 1300
+#P	1013 NE 40th Street, Seattle, WA, 98105
+#L	122 18 55 W / 47 39 19 N
+#W	uw-apl!ez (Eleanor Zitek); Mon Aug 6 13:52:07 PDT 1987
+arctic	uw-apl
+
+#N	b-mrda
+#S	HP-UX b-mrda 05.11 B 9020X 2240A00584
+#O	Boeing Commercial Airplane Co.
+#C	Jim Sadler
+#E	b-mrda!jim
+#T	+1 206 237 0961
+#P	Apron C, Renton Municipal Airport, Renton Wa. 98055
+#L	122 13 00 W / 47 29 00 N
+#R	USPS: P.O. Box 3707 m/s 94-26 Seattle Wa. 98124 USA
+#W	b-mrda!jim (Jim Sadler); Wed Aug  5 21:20:52 PDT 1987
+#U	hpubvwa
+#
+b-mrda	hpubvwa(DEMAND), apl-em(DEMAND), doodah(DEMAND), portnoy(DEMAND), 
+	testie(DEMAND), tahoma(DEAD), panglos(DEMAND)
+
+#N	bcsaic
+#S	Dec VAX 11/780, Ultrix 1.2
+#O	Boeing Computer Services Advanced Technology Center
+#C	Phyllis Melvin
+#E	bcsaic!phyllis
+#T	+1 206 865 3293
+#P	P.O. Box 24346, M/S 7L-68, Seattle, WA 98124-0346
+#L	122 7 W / 47 36 N
+#U	
+#R	
+#W	bcsaic!phyllis (Phyllis Melvin); Sun May 31 23:23:58 EDT 1987
+#
+bcsaic	ssc-vax(HOURLY*3), uw-june(HOURLY)
+
+#N	bcsfse
+#S	Apollo Domain/IX ring; BSD4.2/SYS5
+#O	Boeing Computer Services Feild Service Eng.
+#C	Jim Tollefson
+#E	bcsfse!jimt
+#T	(206) 656-7151
+#P	P.O. Box 24346, M/S 6R-51, Seattle, WA 98124
+#L	122 7 W / 47 36 N
+#R	
+#U	voodoo
+#W	bcsfse!jimt (Jim Tollefson); Sun May 31 23:22:19 EDT 1987
+#
+bcsfse	voodoo(HOURLY)
+
+#N	bcstec
+#S	DEC PDP11/73; ULTRIX-11 V3.0
+#O	Boeing Computer Services - Distributed Processors Technology
+#C	Marc Amis
+#E	bcstec!news
+#T	+1 206 656 5306
+#P	P.O. Box 24346, MailStop 6R-59, Seattle, Washington  98124-0346
+#L	47 29 N / 122 11 E city
+#W	bcstec!amis (Marc Amis); Mon Oct  5 21:04:16 PDT 1987
+#U	tahoma faccs
+#
+bcstec	tahoma(EVENING/2), faccs(DAILY/5)
+
+#N	camco
+#S	Tandy 16a/6000; Xenix 3.0
+#O	Consultant & Seattle Unix User's Group (Slug)
+#C	Bill Campbell
+#E	camco!bill
+#T	+1 206 232 4164
+#P	6641 East Mercer Way; Mercer Island, Wa. 98040
+#L
+#R
+#U
+#W	camco!bill (Bill Campbell); Tue Jul  1 20:14:33 EDT 1986
+#
+camco	ssc(DIRECT), tikal(DIRECT), moss-bay(DIRECT),
+	hpubvwa(DIRECT), uw-osman(DAILY), seautx(DIRECT),
+	ncrsea(DIRECT), seatso(DIRECT), bethco(DIRECT), averill(DIRECT),
+	wrecosys(DIRECT), transys(DIRECT), tijil(DIRECT)
+
+#N	cheergiz
+#S	PC Limited 386; 386 SCO XENIX
+#O
+#C	Mark R. Holbrook
+#E	cheergiz!root
+#T	+1 206 392 9672
+#P	13327 251st SE, Issaquah, WA 98027
+#L	47 41 N / 122 12 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Wed Mar  2 17:46:01 EST 1988
+#U
+#
+cheergiz	uunet(DEMAND)
+
+#N	colossus
+#S	Tektronix 6130; UTek 2.2 (4.2 BSD)
+#O	edm enterprises
+#C	Ed Morin
+#E	colossus!postmaster
+#T	+1 206 820 0270
+#P	12810 - 125th Lane N.E. #C-15, Kirkland, WA  98034-7615
+#L	47 42 50 N / 122 10 25 W
+#U
+#R	We currently do not handle news traffic.
+#W	colossus!edm (Ed Morin); Fri Apr 10 16:40:18 EDT 1987
+#
+colossus	tikal(DEMAND), nesa(DEMAND)
+
+#N	cxsea
+#S	Motorola MVME131XT; Unix System V/68 Release 2, version 2.3
+#O	Computer X Inc.
+#C	Brian L. Matthews
+#E	cxsea!blm
+#T	+1 206 251 6811
+#P	19115 W. Valley Highway, Suite H-104, Kent, WA 98032
+#L	47 25 52 N / 122 14 53 W
+#U	ssc-vax
+#R	
+#W	cxsea!blm (Brian L. Matthews); Wed Aug 26 15:17:37 PDT 1987
+#
+cxsea	ssc-vax(DIRECT)
+
+#N	dad
+#S	SUN 3/280; SUN OS Version 3.4
+#O	R & D Associates
+#C	Sally Chouinard  
+#E	dad!sysadm
+#T	+1 206 581 1322
+#P	3625 Perkins Lane S.W., Tacoma, WA 98499
+#L	47 9 53 N / 122 28 59 W
+#R
+#U	tikal
+#W	dad!sally (Sally Chouinard); Tue Mar  1 11:08:25 PST 1988
+#
+dad	tikal(DEMAND), hpubvwa(HOURLY*2), logico(DAILY)
+
+#N	doodah
+#S	SUN 2/120; SUN OS V3.5 (4.2 BSD UNIX)
+#O	Boeing Computer Services - Network Technology Division
+#C	Steve Roediger
+#E	doodah!usenet
+#T	+1 206 656 5326
+#P	P. O. Box 24336, M/S 6R-37, Seattle, Washington 98124-0346
+#L	47 29 N / 122 11 W city
+#U	
+#W	doodah!sgr (Steve Roediger); Tue Mar  1 15:21:46 PST 1988
+#
+doodah	shuksan(DAILY/2), sunup(HOURLY)
+
+#N	dwpc
+#S	Zenith 181 (8088); MS-DOS 3.2
+#O	David Walker Consulting
+#C	David Walker
+#E	dwpc!dw
+#T	+1 206 232 1698
+#P	3860 West Mercer Way; Mercer Island, WA 98040 USA
+#L	47 34 49 N / 122 14 42 W
+#W	dwpc!dw (David Walker); Wed Oct 7 23:00:00 PDT 1987
+#U	l5comp
+#
+dwpc	l5comp(EVENING)
+
+#N	el-tco
+#S	uVax II; Ultrix-II
+#O	ELDEC Corporation (Technical and Central Operations)
+#C	Martin Krienke
+#E	el-tco!postmaster
+#T	+1 206 483 7840
+#P	1522 217th Place SE, Bothell, WA 98021
+#L	47 47 N  /  122 12.5 W
+#W	el-tco\!krienke (Martin Krienke); Fri Apr 10 16:41:55 EDT 1987
+#
+el-tco	uw-vlsi(DAILY/4), fluke(DEMAND)
+
+#N	erbe
+#S	Masscomp MC5500, RTU3.1
+#O	University of Washington, Dept. of Atmospheric Sciences
+#C	Harry Edmon
+#E	erbe!harry, rainy!harry, harry@erbe.geo.washinton.edu, 24440@UWACDC.BITNET
+#T	+1 206 543-0547
+#P	Dept. of Atmospheric Sciences AK-40, Univ. of Washington, Seattle, WA 98195
+#L	47 39 18 N / 122 18 30 W
+#R	Formerly uw-erbe
+#W	erbe!harry (Harry Edmon); Sun May 31 23:08:02 EDT 1987
+#
+erbe	rainy(HOURLY), geops(LOCAL), squall(LOCAL)
+
+#N	faccs
+#S	DEC MicroVax II; Ultrix-32 V2.0
+#O	Boeing Computer Services - Factory Systems Architecture
+#C	Marc Amis
+#E	bcstec!news
+#T	+1 206 656 5306
+#P	P.O. Box 24346, MailStop 6R-59, Seattle, Washington  98124-0346
+#L	47 29 N / 122 11 E city
+#W	bcstec!amis (Marc Amis); Mon Oct  5 21:04:16 PDT 1987
+#U	bcstec
+#
+faccs	bcstec(DAILY/5)
+
+#N	gasv
+#S	Plexus P/35, Unix System III (Plexus Sys3)
+#O	Gasboy Development
+#C	Melinda A. McBride
+#E	gasv!mac
+#T	+1 206 821 5030
+#P	12525 Willows Rd., Kirkland, WA 98034
+#L	47 40 N / 122 10 W
+#U	
+#R	
+#W	gasv!mac (Melinda McBride); Tue Jan  5 09:29:43 PST 1988
+#
+gasv	ssc(DEMAND)
+
+#N	geops
+#S	Pyramid-90x, OSx-2.5 4.2BSD universe
+#O	Geophysics, Univ. of Washington
+#C	Steve Malone
+#E	uw70!steve
+#T	(206) 545-3811
+#P	Geophysics AK-50, Univ. of Washington, Seattle, WA 98195
+#L	47 39 18 N / 122 18 30 W
+#R	Gateway to "GEOPHYSICS" LAN
+#U	uw-june, rainy
+#W	geops!steve 2/26/86; Sat Jun  7 21:46:28 EDT 1986
+#
+geops	uw-beaver(DIRECT+HIGH*4), uw-june(DIRECT+HIGH), tikal(HOURLY+LOW),
+	rainy(HOURLY), uw70(LOCAL+HIGH)
+
+#N	grace
+#S	Microvax II 4.3 BSD
+#O	Applied Physics Lab, Univ. of Washington
+#C	Letcher Ross
+#E	grace!letcher
+#T	+1 206 545 1614
+#P	Applied Physics Lab, 1013 NE 40th, Seattle, WA 98105
+#L	47 39 19 N / 122 18 55 W
+#U	uw-apl quick
+#W	grace!srg (Spencer Garrett); Tue Aug 18 01:32:06 PDT 1987
+#
+grace	uw-entropy (DIRECT), uw-apl (DIRECT), geops (DIRECT), quick (DAILY)
+
+#N	guardian
+#S	Tektronix 6130; UTek 2.2 (4.2 BSD)
+#O	edm enterprises
+#C	Ed Morin
+#E	colossus!postmaster
+#T	+1 206 820 0270
+#P	12810 - 125th Lane N.E. #C-15, Kirkland, WA  98034-7615
+#L	47 42 50 N / 122 10 25 W
+#U
+#R	We currently do not handle news traffic.
+#W	colossus!edm (Ed Morin); Sun May 31 23:18:23 EDT 1987
+#
+guardian	colossus(LOCAL)
+
+#N  happym
+#S  Motorola SYS1131UY34; System V/68 R2V3.0 (SysV.2)
+#O  Happy Man Corporation
+#C  Kent Forschmiedt
+#E  happym!postmaster
+#T  +1 206 282 9598
+#P  119 Aloha Street, Seattle, WA 98109
+#L  47 37 N / 122 30 W city
+#R
+#U  polari
+#W  happym!kent (Kent Forschmiedt); Thu Dec  3 12:12:48 PST 1987
+#
+happym	polari(DAILY/5), camco(DAILY/5)
+
+#N	hplsla
+#S	HP9000 S550; HP-UX 5.05
+#O	Hewlett-Packard Lake Stevens Instrument Division
+#C	Eric Yamada
+#E	hplsla!ericy
+#T	+1 206 335 2462
+#P	8600 Soper Hill Rd, Everett, Wa. USA 98205-1298
+#L	48 02 N / 122 07 W
+#R	
+#U	tikal hpvcla hpubvwa
+#W	hplsla!ericy (Eric Yamada); Thu Aug 13 10:23:41 PDT 1987
+#
+hplsla	fluke(DIRECT), hp-pcd(DIRECT), hp-sdd(EVENING), hplslp(LOCAL),
+	hpubvwa(DEMAND+5), hpisla(DEMAND), hplvla(DEMAND),
+	hpscda(EVENING), hpscolb (EVENING), hpvcla(DEMAND),
+	tikal(DEMAND+5)
+#
+#       This machine handles SMTP for hplsla
+#
+hplslp  hplsla(LOCAL)
+
+#N	hpubvwa
+#S	HP 9000/825; HP-UX A.B1.10 B
+#O	Hewlett-Packard Bellevue Sales Office
+#C	Eldon R. Brown
+#E	hpubvwa!eldon
+#T	+1 206 643 8822
+#P	P.O. Box C-156, Bellevue, WA 98009-0156
+#L	47 34 40 N / 122 09 01 W
+#W	hpubvwa!eldon (Eldon R. Brown); Mon Feb  1 03:45:16 PST 1988
+#
+hpubvwa	hpupora(EVENING), hpfcse(DEMAND), hplsla(EVENING),
+	hpuvcca(EVENING), pnl-geo(EVENING), bacais(EVENING),
+	csafe(DEMAND), bcsbase(POLLED), b-mrda(EVENING),
+	vantage(POLLED), eldec(EVENING), apl-em(EVENING),
+	cominco(EVENING), slovax(EVENING), naipsca(EVENING),
+	dsdvax(EVENING), sseacc(EVENING), ssc(EVENING),
+	camco(EVENING), widco(EVENING), wsucshp(EVENING),
+	weycord(EVENING), nuwesa(EVENING), ui3(EVENING),
+	kent01(EVENING)
+
+#N	hpvcla
+#S	Hewlett-Packard HP9000 Series 200 HP-UX
+#O	Hewlett-Packard Vancouver Division
+#C	Dave Allen
+#E	hpvcla!davea
+#T	(206) 254-8110
+#P	Hewlett-Packard,P.O. Box C-006,Vancouver,WA 98668
+#L	
+#R	
+#U	hplsla
+#W	Dave Allen 6-26-85; Sun Nov  3 00:00:00 PST 1985
+#
+hpvcla	hp-pcd(DEMAND), hplsla(DEMAND), hpfcla(DEMAND+5), hpcnoe(DEMAND+5)
+
+#N	hrsw2
+#S	MicroVAX II; Ultrix 2.0
+#O	Boeing Commercial Airplane Company
+#C	Layne Lommen
+#E	hrsw2!lommen
+#T	(206) 234-2039
+#P	PO Box 3707 (Lommen's MS 77-13)  Seattle, WA 98124   USA 
+#L	122 12 18 W / 47 29 36 N
+#U	tahoma
+#W	hrsw2!lommen (Layne Lommen); Thu Feb 18 11:40:00 PST 1988
+#
+hrsw2	tahoma(DIRECT)
+
+#N	ibvu
+#S	Intel 310AP; Xenix 3.4
+#O	Intel Field Sales
+#C	Bill Wallick
+#E	ibvu!bill
+#T	+1 206 453 8086
+#P	155 108th Ave NE, Bellevue, WA 98004
+#L	122 15 16 W / 47 39 01 N
+#R	Application Engineers, Hardware and Software.
+#U
+#W	ibvu!bill (Bill Wallick); Fri May 29 17:40:38 PDT 1987
+#
+ibvu	pilchuck(DIRECT)
+
+#N	intek01
+#S	AST Premium 286; SCO Xenix V
+#O	Air Mac, Inc. Special Products Division
+#C	Mark McWiggins
+#E	intek01!usenet
+#T	+1 206 641 5014
+#P	13228 SE 30th Street #C8  Bellevue WA  98005
+#L	47 35 N / 122 10 W
+#R
+#W	intek01!mark (Mark McWiggins); Wed Dec 23 13:57:15 PST 1987
+#U	uunet
+#
+intek01		amc(DAILY/6), polari(DIRECT), uunet(DAILY)
+
+#N	l5comp
+#S	Stride Micro 440 (68010); UniStride 2.1
+#O	L5 Computing
+#C	Scott Turner
+#E	l5comp!scotty
+#T	+1 206 743 0781
+#P	12311 Maplewood Avenue; Edmonds, WA 98020 USA
+#L	47 53 13 N / 122 19 14 W
+#R	Uunet replaced stride & stride1 as this site's external contact points
+#W	l5comp!scotty (Scott Turner); Wed Jan 6 23:36:04 PST 1988
+#U	uunet
+#
+l5comp	uunet(EVENING), stride1(WEEKLY), dwpc(WEEKLY), stride(DEAD)
+
+#N	mcgp1
+#S	AT&T 3B2-600; SYS V Rel 3.1 UNIX 
+#O	McCaw Information Services, Inc.
+#C	John Opalko
+#E	mcgp1!usenet
+#T	+1 206 283 2658
+#P	201 Elliott Avenue West, Suite 105, Seattle, WA, 98119, USA
+#L	47 37 N / 122 21 W
+#R	The McCaw Network Operations Center (NOC)
+#W	mcgp1!jgo (John Opalko); Wed Dec  9 17:14:05 PST 1987
+#U	apcisea
+#
+mcgp1	apcisea(HOURLY), tikal(HOURLY)
+
+#N	microsoft
+#S	SUN-3 ; XENIX 3.0
+#O	Microsoft
+#C	Brent W. Prindle
+#E	microsoft!brentp
+#T	+1 206 882 8080
+#P	16011 NE 36th Way, Box 97017, Redmond, WA 98073-9717
+#L	47 37 N / 122 12 W city 
+#R	
+#U	polari apex
+#W	microsoft!brentp (Brent W. Prindle) ; Tue Jan 12 10:41:07 PST 1988
+#
+microsoft	uw-beaver(DIRECT), decvax(DAILY), decwrl(DAILY),
+		uunet(DAILY), 3comvax(DAILY), attunix(DAILY),
+		sco(DAILY), sun(DAILY), trsvax(WEEKLY), fluke(DAILY),
+		hp-pcd(DAILY), sybase(WEEKLY), intelca(DAILY),
+		tikal(DIRECT), oliveb(DAILY), vortex(DAILY), 
+		aidesign(DAILY), ubc-vision(DAILY), ism780c(DAILY),
+		elwood(DAILY)
+
+#N	mltco
+#S	Stride 440; System V 2.2
+#O	Multico
+#C	Bruce Thelen
+#E	mltco!brucet
+#T	+1 206 483 4100
+#P	1014 10th St., Snohomish, WA 98290
+#L	47 35 N / 122 20 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue Jan  5 20:31:45 EST 1988
+#U
+#
+mltco	uunet(DEMAND)
+
+#N	motsea
+#S	Motorola sys 11/31; unix sysV/68 r3v2
+#O	Motorola Semiconductor Products, Inc.
+#C	Mark Konopacky
+#E	motsea!mark
+#T	+1 206 454 4160
+#P	1750 112th Avenue NE Suite C228, Bellevue, WA 98004
+#L	122 8 W / 47 42 N
+#U
+#R
+#W	motsea!mark(Mark Konopacky); Fri Dec  4 09:18:30 PST 1987
+# 
+motsea	tikal(HOURLY), motptd(DAILY), motsj1(DAILY), apple(DAILY),
+	oophost(DAILY)
+
+#N	oophost
+#S	Motorola VME/10; Unix System V
+#F	uxc.cso.uiuc.edu
+#O	OOPSTAD (SmallTalk Application Developer's Association)
+#C	Carl Nelson, Bob Campbell
+#E	oophost!chn, oophost!bobc
+#T	+1 206 252 6897, +1 206 486 4572
+#P	PO Box 1565, Everett, WA 98206-1565
+#L	47 59 N / 122 14 W city
+#U	motsea fluke sunup
+#R	This site is run by Carl Nelson & Associates Inc.
+#W	oophost!bobc (Bob Campbell); Thu Oct  8 13:16:45 PST 1987
+oophost	motsea(HOURLY), fluke(DEMAND), sunup(DEMAND+LOW+LOW)
+
+#N	orcas
+#S	AT&T 3B2 - 600
+#O	US WEST NewVector
+#C	Douglas M. Strombom
+#E	orcas!root
+#T	+1 206 644 4931
+#P	3350  161st Ave. SE, Bellevue, WA 98008
+#L	47 35 N / 122 20 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu 7 Jan 88  17:05:27 EST
+#U
+#
+orcas	uunet(DEMAND)
+
+#N	oz
+#S	
+#O	Telematic Products
+#C	John Hansen
+#E	oz!johnh
+#T	(206) 882-5000
+#P	Kirkland, WA
+#L	47 41 N / 122 12 W city
+#R	Contact phone has been changed to +1 206 485 3400   djs
+#W	Date faked by davids@iscuva.iscs.com; Thu Jan  1 00:00:00 PST 1987
+#
+oz	beesvax(DAILY)
+
+#N	phastvax
+#S	       
+#O	University of Washington, Seattle; Physics, Astronomy Depts.
+#C	j. James Belonis II
+#E	phastvax!MANAGER  
+#T	206-545-8695
+#P	       
+#L
+#U
+#R
+#W	851103 rsk; Sun Nov  3 00:00:00 PST 1985
+#
+phastvax	uw-beaver(DAILY)
+
+#N	phred
+#S	DEC VAX-11/750; Ultrix-32 1.2
+#O	Physio-Control Corp.
+#C	Marc Greisen
+#E	phred!usenet
+#T	+1 206 881 4000
+#P	11811 Willows RD, Redmond, WA 98052
+#L	47 42 N / 122 8 W
+#R	
+#U	tikal
+#W	phred!marcg (Marc Greisen); Thu Jan 16 09:05:16 PDT 1986
+#
+phred	tikal(DAILY)
+
+#N	piobaire
+#S	Alspa Computer ACI-2DS; CP/M 2.2
+#O	Cygnus Consulting
+#C	William Swan
+#E	piobaire!bill
+#T	+1 206 488 1156
+#P	15213 - 72nd Ave NE, Bothell WA 98011
+#L	47 44 21 N / 122 14 37 W 
+#R	piobaire is being used for development of a uucp clone 
+#W	piobaire!bill (William Swan); Fri Oct 23 12:50:54 PDT 1987
+#U	
+#
+piobaire	sigma(WEEKLY+HIGH)
+
+#N	pnl-geo
+#S	HP9040; HP-UX 5.0
+#O	Battelle-Northwest, Geosciences
+#C	Doug Johnson
+#E	pnl-geo!doug
+#T	(509) 376-8642
+#P	Battelle Northwest, P.O. Box 999, Richland, WA  99352
+#L	119 16 00 W / 46 20 30 N
+#U	hpubvwa naipsca
+#W	pnl-geo!doug (Doug Johnson); Mon Sep  1 21:47:25 EDT 1986
+#
+pnl-geo hpubvwa(DEMAND), charm(DEMAND), aluxbdm(DEMAND), noao(DAILY),
+	aluxbdm(DEMAND), lbl-csam(DAILY), naipsca(DEMAND), tld(DEMAND)
+
+#N	polstra
+#S	SUN 3/180; 4.2 BSD UNIX
+#O	John D. Polstra & Co., Inc.
+#C	John D. Polstra
+#E	polstra!postmaster
+#T	+1 206 932 6482
+#P	4522 SW Andover Street, Seattle, WA 98116
+#L	122 20 W / 47 37 N city
+#W	polstra!jdp (John D. Polstra); Sat Nov 15 16:46:57 EST 1986
+#
+polstra	artslop(DEAD), sco(DEAD), unidot(DEAD), scvcs(DEAD), jandj(DEAD),
+	practical(DEAD), cfg(DEAD), teltone(DEAD)
+
+#N	rainy
+#S	Prime-9955, Primos 20.2.2 Primix 2.0
+#O	University of Washington, Dept. of Atmospheric Sciences
+#C	Harry Edmon
+#E	rainy!harry, erbe!harry, harry@erbe.geo.washington.edu 24440@UWACDC.BITNET
+#T	+1 206 543-0547
+#P	Dept. of Atmospheric Sciences AK-40, Univ. of Washington, Seattle, WA 98195
+#L	47 39 18 N / 122 18 30 W
+#R	Main machine for Atmospheric Sciences, formerly uw-atm
+#U	geops
+#W	rainy!harry (Harry Edmon); Sun May 31 23:08:14 EDT 1987
+#
+rainy	geops(HOURLY), erbe(HOURLY)
+
+#N	shuksan
+#S	Sun 3/160, Unix 4.2 sunrelease 3.2
+#O	Man Machine Systems Technology (MMST)
+#C	Mike Fields
+#E	shuksan!mikey
+#T	(206) 251-4078
+#P	Boeing Aerospace, MS 2K-58, P.O. Box 3999, Seattle, Wa. 98124
+#L	48 21 N / 122 48 W
+#R
+#W	shuksan!mikey (Mike Fields); Sun Feb 15 15:49:35 EST 1987
+#
+shuksan ssc-vax(DAILY), doodah(DAILY*2), tahoma(DAILY*2), sunup(DAILY)
+
+#N	sigma
+#S	DEC Vax 11/750; 4.2bsd
+#O	Summation Inc.
+#C	Grant Bohnet or Bill Swan
+#E	sigma!usenet
+#T	+1 206 823 8688
+#P	11335 NE 122nd Way, Kirkland WA 98034
+#L	47 42 33 N / 122 11 14 W
+#R	
+#W	sigma!bill (Bill Swan); Tue Dec 15 08:22:21 PST 1987
+#U	tikal uw-nsr sea375
+#
+sigma	amc(DIRECT), uw-entropy(DIRECT), tikal(DIRECT), uw-nsr(DIRECT),
+	piobaire(DIRECT), sea375(DAILY), wd-arete(DIRECT), telesis(DAILY),
+	thebes(DIRECT)
+
+#N	slovax
+#S	DEC Micro Vax II; Ultrix-32m Version 1.2
+#O	R & D Associates
+#C	Sally Chouinard  
+#E	slovax!sysadm
+#T	+1 206 581 1322
+#P	3625 Perkins Lane S.W., Tacoma, WA 98499
+#L	47 9 53 N / 122 28 59 W
+#R
+#U	tikal
+#W	slovax!sally (Sally Chouinard); Tue Jan  5 10:08:25 PST 1988
+#
+slovax	tikal(DEMAND), hpubvwa(HOURLY*2)
+
+#N	slug
+#S	VAX 11/750; 4.2 BSD
+#O	Applied Physics Laboratory, University of Washington
+#C	Eleanor Zitek
+#E	uw-apl!ez,postmaster
+#T	+1 206 543 1300
+#P	1013 NE 40th Street, Seattle, WA, 98105
+#L	122 18 55 W / 47 39 19 N
+#W	uw-apl!ez (Eleanor Zitek); Mon Aug 24 11:40:00 PDT 1987
+slug	uw-apl(LOCAL), uw-beaver(DIRECT), uw-june(DIRECT), uw70(DIRECT),
+	apl-em(DIRECT), ampmsp(DIRECT),
+        uw-entropy(DIRECT), apl-at(DIRECT), geops(DIRECT), grace(DIRECT)
+
+#N	squall
+#S	Masscomp MC5500, RTU3.1
+#O	University of Washington, Dept. of Atmospheric Sciences
+#C	Harry Edmon
+#E	squall!harry, rainy!harry, harry@squall.geo.washinton.edu, 24440@UWACDC.BITNET
+#T	+1 206 543-0547
+#P	Dept. of Atmospheric Sciences AK-40, Univ. of Washington, Seattle, WA 98195
+#L	47 39 18 N / 122 18 30 W
+#R	Formerly uw-squall
+#W	squall!harry (Harry Edmon); Sun May 31 23:07:49 EDT 1987
+#
+squall	rainy(HOURLY), geops(LOCAL), erbe(LOCAL)
+
+#N	ssc
+#S	IBM PC/AT; SCO Xenix 5
+#0	Specialized Systems Consultants, Inc.
+#C	Phil Hughes
+#E	ssc!fyl
+#T	+1 206 367 8649
+#P	PO Box 55549, Seattle, WA 98155
+#L	122 10 W / 47 43 N
+#U	
+#R
+#W	ssc!fyl (Phil Hughes); Mon Sep  1 21:52:47 EDT 1986
+#
+ssc	tikal(HOURLY*3), camco(DAILY/3), gasv(HOURLY), hpubvwa(DAILY),
+	amc(DAILY/2)
+
+#N	ssc-vax
+#S	VAX 11/780, UNIX 4.2BSD
+#O	Software Support Center
+#C	Jeff Jongeward
+#E	ssc-vax!jeff
+#T	(206) 773-3419
+#P	Boeing Aerospace, MS 8H-56, P.O. Box 3999, Seattle, WA 98124
+#L	48 20 N / 122 48 W
+#R
+#U	bcsaic cxsea fluke shuksan uvicctr uw-beaver voodoo
+#W	ssc-vax!jeff (Jeff Jongeward); Sun Feb 15 15:50:24 EST 1987
+#
+ssc-vax bcsaic(DAILY/5), cxsea(DAILY/3), fluke(DAILY/2), shuksan(DAILY/2),
+	uvicctr(DAILY), uw-beaver(DAILY/5), voodoo(DAILY/3), 
+	lbl-csam(WEEKLY)
+
+#N    sunup
+#S    Sun 3/180; SUN OS (4.2 BSD UNIX)
+#C    M. Conrad Geiger
+#E    sunup!postmaster
+#T    +1 206 828 4020
+#P    4020 Lake Washington Blvd, NE Kirkland, WA, 98033
+#L    47 35 N / 122 8 W
+#U    tikal
+#R
+#W    sunup!conrad (Conrad Geiger); Tue Dec 15 07:21:00 PST 1987
+#
+sunup	uw-beaver(EVENING), sun(HOURLY*4), microsoft(DAILY), fluke(HOURLY),
+	tikal(HOURLY*4), thebes(DEMAND), nosun(HOURLY), shuksan(DAILY)
+
+#N	suvax1
+#S	DEC VAX-11/750, 4.2 BSD UNIX
+#O	Dept. of Software Engineering / Computer Science, Seattle University
+#C	Fanny Liang
+#E	suvax1!postmaster
+#T	+1 206 626 6735
+#P	Seattle, WA 98122
+#L	47 36 N / 122 20 W city
+#R
+#U	dataio
+#W	suvax1!liang (Fanny Liang); Sun May 31 23:30:18 EDT 1987
+#
+suvax1	dataio(DIRECT)
+
+#N	tahoma
+#S	Alliant FX-8;Concentrix 3.0
+#O	Boeing Commercial Airplane Co., Seattle WA
+#C	Gerald R. Vanden Heuvel
+#E	tahoma!grv
+#T	+1 206 237 5080
+#P	P.O. Box 3707, M/S 66-04, Seattle, WA 98124-2207
+#L	47 36 N / 122 20 W city
+#R	Real-time simulation lab
+#W	tahoma!grv (Gerald R. Vanden Heuvel); Mon Jan 11 10:25:34 PST 1988
+#U	shuksan bcstec hrsw2
+#
+tahoma	shuksan(EVENING/2), bcstec(EVENING/2), hrsw2(EVENING/2)
+
+#N	teldata
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Teltone Corporation
+#C	Duane Hesser
+#E	tikal!postmaster
+#T	+1 206 827 9626
+#P	10801 120th Avenue North East, Kirkland, WA, 98033
+#L	122 8 W / 47 42 N
+#R	
+#U	tikal transys
+#W	tikal!tim (Tim Rosmus) 3/24/86; Tue Jul  1 19:54:25 EDT 1986
+#
+teldata teltone(DEDICATED), tikal(LOCAL), sunrise(POLLED), inmet(WEEKLY),
+	transys(EVENING)
+
+#N	telematic
+#S	
+#O	Telematic Products, Inc.
+#C	John J. Hansen
+#E	telematic!johnj
+#T	(206) 882-5000
+#P	5000 148th Ave., N.E., Redmond, WA 98052
+#L	47 40 N / 122 07 W city
+#R	Contact phone has been changed to +1 206 485 3400   djs 12/14/87
+#W	Date faked by davids@iscuva.iscs.com; Thu Jan  1 00:00:00 PST 1987
+#
+telematic	beesvax(DAILY), fluke(DAILY)
+
+#N	teltone
+#S	DEC VAX-11/750; 4.1 BSD UNIX
+#O	Teltone Corporation
+#C	Duane Hesser
+#E	tikal!postmaster
+#T	+1 206 827 9626
+#P	10801 120th Avenue North East, Kirkland, WA, 98033
+#L	122 8 W / 47 42 N
+#R	This machine is on the Teltone local ethernet but does not run sendmail.
+#U	tikal
+#W	tikal!tim (Tim Rosmus); Tue Jul  1 19:58:37 EDT 1986
+# 
+teltone uw-beaver(DAILY/2), dataio(DAILY/2), fluke(DAILY/2), teldata(DEDICATED),
+	mtxinu(WEEKLY*5), asms(DAILY), purdue(WEEKLY*5),
+	polstra(DEAD)
+
+#N	tijil
+#S	Tandy 16B+, Xenix 3.0
+#O	COMENCO (Comm. Engr. Co.)
+#C	Tom Losh
+#E	tijil!tjl
+#T	+1 206 854 9128
+#P	3515 South 270th, Kent, WA 98032
+#L	47 21 N / 122 17 W
+#R
+#U
+#W	tijil!tjl; Tue Jul  1 20:18:58 EDT 1986
+#
+tijil	camco(DIRECT), pn4(DIRECT), pn5(DIRECT), pn6(DIRECT),
+	pn8(DIRECT), pnesac(DIRECT), ssc(DIRECT)
+
+#N	toybox
+#S	DEC PDP-11/73; ULTRIX-11 3.0 (Sys V)
+#O	US West Network Systems, Inc.
+#C	Mark Anacker
+#E	uswnsi!msa
+#T	+1 206 865 0432
+#P	14335 NE 24th, Suite 222, Bellevue, WA  98007
+#L	47 34 N / 122 09 W city
+#R	This will be our primary mail/news relay system	
+#W	uswnsi!msa (Mark Anacker); Tue Dec 29 12:20:10 PDT 1987
+#
+toybox	uswnsi(DIRECT), rwing(EVENING), newwoc(WEEKLY)
+
+#N	unix
+#S	PDP 11/23+; Unix 2.9 BSD
+#O	edm enterprises
+#C	Ed Morin
+#E	colossus!postmaster
+#T	+1 206 820 0270
+#P	12810 - 125th Lane N.E. #C-15, Kirkland, WA  98034-7615
+#L	47 42 50 N / 122 10 25 W
+#U
+#R	We currently do not handle news traffic.
+#W	colossus!edm (Ed Morin); Sun May 31 23:19:19 EDT 1987
+#
+unix	colossus(LOCAL)
+
+#N	uswnsi
+#S	DEC PDP-11/73; ULTRIX-11 2.0 (V7)
+#O	US West Network Systems, Inc.
+#C	Mark Anacker
+#E	uswnsi!msa
+#T	+1 206 865 0432
+#P	14335 NE 24th, Suite 222, Bellevue, WA  98007
+#L	47 34 N / 122 09 W city
+#R	We are willing to relay mail for local systems	
+#W	uswnsi!msa (Mark Anacker); Tue Dec 29 12:20:10 PDT 1987
+#
+uswnsi	hpubvwa(DEAD), slovax(EVENING+HIGH), killer(WEEKLY+HIGH),
+	thebes(DEMAND), toybox(DIRECT)
+
+#N	uw-apl
+#S	Pyramid 98xe; OSx 3.1 (4.2 BSD universe)
+#O	Applied Physics Laboratory, University of Washington
+#C	Eleanor Zitek
+#E	uw-apl!ez,postmaster
+#T	+1 206 543 1300
+#P	1013 NE 40th Street, Seattle, WA, 98105
+#L	122 18 55 W / 47 39 19 N
+#U	apl-at grace
+#W	uw-apl!ez (Eleanor Zitek); Mon Aug 24 11:40:00 PDT 1987
+uw-apl	slug(LOCAL), apl-at(DAILY/2), arctic(HOURLY/2), uw-june(DAILY),
+        uw-entropy(DIRECT), uw-hilbert(DIRECT), uw-beaver(DIRECT),
+	geops(DIRECT), ampmsp(DIRECT),
+        uw70(DIRECT), apl-em(DIRECT), grace(DIRECT)
+
+#N	uw-beaver
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	University of Washington, Dept. of Computer Science
+#C	Voradesh Yenbut
+#T	+1 206 545 0912
+#P	FR-35, Seattle, WA 98195
+#L	47 36 N / 122 20 W city
+#R	
+#U	microsoft ssc-vax tektronix tikal
+#W	uw-beaver!yenbut; Sun May 31 23:25:55 EDT 1987
+#
+uw-beaver allegra(EVENING), ames(EVENING), apcisea(DIRECT), apollo(DAILY),
+	cornell(EVENING), decvax(WEEKLY), fluke(DEMAND),
+	geops(DIRECT), ihnp4(DAILY/3), lbl-csam(EVENING), linus(EVENING),
+	microsoft(EVENING), pmr(DIRECT), rutgers(DEMAND), sdcsvax(EVENING),
+	ssc-vax(DIRECT), sunup(DAILY), tektronix(WEEKLY/2), teltone(DIRECT),
+	tikal(DIRECT), ubc-vision(DAILY), utcsri(EVENING),
+	uvicctr(EVENING), uw-apl(DIRECT), uw-entropy(DIRECT),
+	uw-hilbert(DIRECT), uw-june(DIRECT), uw-nsr(DIRECT), uw70(DIRECT)
+
+#N	uw-entropy
+#S	DEC Vax-11/750; 4.3 BSD UNIX
+#O	Univ. of Washington, Math/Stat, Seattle, Washington  USA
+#C	Steve Hubert
+#E	uw-entropy!postmaster
+#T	+1 206 545 2303
+#P	Department of Statistics, Mail Stop GN-22, Seattle, WA 98195
+#L	122 20 W / 47 36 N city
+#R
+#U	dataio uw-apl
+#W	uw-hilbert!hubert (Steve Hubert); Sun May 31 23:10:39 EDT 1987
+#
+uw-entropy uw-apl(DIRECT), dataio(DEMAND), uw-hilbert(LOCAL),
+	uw-june(DEDICATED), uw-beaver(DEDICATED), sigma(DEMAND),
+	uw-evolution(DEMAND), uw-nsr(DEMAND), thebes(DEMAND), brownie(DAILY),
+	sal9000(DAILY), hal9000(DAILY), phastvax(DAILY),
+	enthalpy(DAILY), gimli(DAILY), ix370(DAILY), uwmth1(DAILY)
+
+#N	uw-hilbert
+#S	DEC Vax-11/785; 4.3 BSD UNIX
+#O	Univ. of Washington, Math/Stat/CSci, Seattle, Washington  USA
+#C	Steve Hubert
+#E	uw-hilbert!postmaster
+#T	+1 206 545 2303
+#P	Department of Statistics, Mail Stop GN-22, Seattle, WA 98195
+#L	122 20 W / 47 36 N city
+#R
+#U
+#W	uw-hilbert!hubert (Steve Hubert); Sun May 31 23:10:50 EDT 1987
+#
+uw-hilbert	uw-apl(DIRECT), uw-entropy(LOCAL), uw-june(DEDICATED),
+	uw-beaver(DEDICATED), ix370(DAILY), uwmth1(DAILY), uwsmooth(DAILY)
+
+#N	uw-nsr
+#S	DG MV/10000; DG/UX 2.02
+#O	National Simulation Resource in Mass Transport and Exchange
+#C	John Sambrook
+#E	uw-nsr!john
+#T	+1 206 545 7433
+#P	M/S WD-12, University of Washington, Seattle, WA  98195
+#L	47 36 N / 122 20 W city
+#R
+#U	uw-entropy sigma uw-warp
+#W	uw-nsr!john (John Sambrook); Mon Oct 20 19:23:10 EDT 1986
+#
+uw-nsr	sigma(DEMAND), tikal(DEMAND), uw-beaver(DEMAND), uw-entropy(DEMAND),
+	uw-warp(DEMAND)
+
+#N	uw-warp
+#S	AT&T 3B2/300 XM; Unix System V Release 3
+#O	The Warp
+#C	Dennis M. Gentry
+#E	uw-warp!usenet
+#T	+1 206 547 1864
+#P	P.O. Box 45818, Seattle, WA 98145-0818
+#L	47 39 30 N / 122 18 45 W
+#R	This machine lives in a closet.
+#W	uw-warp!tom (F. Thomas May); Fri Jul 17 23:39:50 PDT 1987
+#U	uw-nsr
+#
+uw-warp	uw-nsr(HOURLY)
+
+#N	uw70
+#S	DEC PDP-11/70, UNIX V7
+#O	University of Washington, Geophysics Program
+#C	Steve Malone
+#E	geops!steve
+#T	(206) 545-3811
+#P	AK-50, Seattle, WA 98195
+#L	47 36 N / 122 20 W city
+#R	
+#W	geops!steve 2/26/86; Sat Jun  7 21:50:25 EDT 1986
+#
+uw70	uw-june(DIRECT+HIGH*4), geops(LOCAL+HIGH),
+	menlo70(HOURLY+LOW*4),   
+	slu70(EVENING+LOW*4), lamont(EVENING),
+	uuss70(EVENING+LOW), apl-uw(DIRECT), phastvax(DIRECT+LOW)
+#  menlo70- US Geological Survey in Menlo Park, CA
+#  cires- U of Colorado, Boulder, CO (We call them 3 times a week)
+#  slu70- St Louis University, St Louis, MI (We call them 1 time a week)
+#  lamont- Lamont Geophysical Obs, Palisades, NY (we call them 3 times a week)
+
+#N	voodoo
+#S	DEC VAX-11/750; Ultrix 1.2
+#O	Boeing Computer Services
+#C	Jim Tollefson
+#E	voodoo!jimt
+#T	+1 206 342 2328
+#P	Box 24346, MS 03-73, Seattle, WA 98124
+#L	122 14 W / 47 59 N city
+#R
+#U
+#W	voodoo!jimt (Jim Tollefson); Fri Jul 11 21:26:42 EDT 1986
+#
+voodoo	ssc-vax(DAILY)
+
+#N	walldata
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Wall Data Incorporated
+#C	Steven Jeffers Herber
+#E	walldata!postmaster
+#T	+1 206 883 4777
+#P	17769 North East 78th Place, Redmond, WA 98052
+#L	122 6 45 W / 47 40 15 N
+#U	tikal
+#W	walldata!herber (S. Herber); Tue Jul  1 19:57:13 EDT 1986
+#
+walldata	tikal(HOURLY)
+
+#N	wor-mein
+#S	MicroVAX II; Ultrix 1.2
+#O	Quantum Medical Systems, Issaquah, WA
+#C	Dave Axness
+#E	wor-mein!dave
+#T	+1 206 392 9180
+#P	1065 12th Ave NW  Issaquah, WA  98027
+#L	47 35 N / 122 20 W city
+#R	S/W development
+#U
+#W	wor-mein!dave (Dave Axness); Tue Jan 13 21:14:49 EST 1987
+#
+wor-mein	tikal(HOURLY), uunet(DAILY)
+
+#N	wsucshp
+#S	HP9000 540; HPUX 5.11
+#O	Washington State University
+#C	Michael K. Kibler
+#E	wsucshp!mike
+#T	+1 509 335 2723
+#P	Computer Science Department, Pullman, Wa. 99164-1210
+#L	46 44 N / 116 57 4 W
+#R
+#U
+#W	wsucshp!mike (Michael K. Kibler); Sun May 31 23:01:54 EDT 1987
+#
+wsucshp	ui3
+
+#N	xinx
+#S	IBM AT Clone; Microport System V/AT 2.3U
+#O	Workshop Mu
+#C	Takuji Akiyama (nix)
+#E	xinx!nix
+#T	+1 206 695 5948
+#P	2306 E 18th Street #A11, Vancouver, WA 98661
+#L	45 25 N / 122 38 W
+#R	Irregular down times
+#U	uunet
+#W	xinx!nix  (Takuji Akiyama) ; Sun Dec 27 03:43:06 PST 1987
+#
+xinx	uunet(DEMAND), reed(WEEKLY)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

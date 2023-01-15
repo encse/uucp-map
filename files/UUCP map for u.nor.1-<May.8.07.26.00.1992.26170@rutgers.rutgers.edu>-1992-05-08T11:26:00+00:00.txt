@@ -1,0 +1,1075 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.nor.1
+: This archive created: Fri May  8 07:25:56 1992
+echo shar: extracting u.nor.1
+cat << 'SHAR_EOF' > u.nor.1
+
+#   u.nor.1; last changed 920204 hph@nuug.no
+#
+#	Copyright 1989-1992 by EurOpen. All rights reserved.
+#	Permission is granted for non-commercial use.
+#
+#   changes to uucpmap@nuug.no
+#
+#   file one of two
+#
+#	u.nor.1 Contains all EUnet/NUUG sites
+#	u.nor.100 Contains UNINETT sites for News map purposes
+#
+# #W lines show 2 dates: date of introduction and date of last change.
+#
+
+#N	nuug
+#S
+#O	Norwegian Unix User Group
+#C	Hans Petter Holen
+#E	hph@nuug.no
+#T	+47-2-453482
+#P	Postboks 1059 Blindern, N-0316 OSLO 3, Norway
+#L	59 56 N / 10 43 E Oslo 
+#R	EUnet backbone in Norway
+#W	hph@nuug.no 910925, hph@nuug.no 910925
+#U	ifi.uio.no,ulrik.uio.no,ugle.unit.no
+#U	gyda.dhhalden.no
+#U	sdata.no
+#U	dolphin.no, multix, mikrosys, lindba, nososl, dr, uninor, aftp
+#U	bibsyst, infosys, huldra, kivax4, fdmetd, vmsfo, isncr, tglobe2
+#U	kdv650, sysdeco, kjell, sylow, nftdf, etn, falcon, ncrnorw
+#U	autro1, cimsand, consens, gars, tedoc, bdc, hfkix, falch, statoil.no
+#U      
+#
+nuug = nuug.no, nac.no
+
+# Norwegian sites
+nuug	.no
+nuug	dolphin(HOURLY), multix(DAILY/2), 
+	lindba(DAILY/2), dr(DAILY/2), symbas(DAILY/2),
+	aftp(DAILY/2), 	 bibsyst(DAILY/2), ara(DAILY/2),
+	ncrnorw(DAILY/2), infosys(DAILY/2), stku01(DAILY/2),
+	huldra(DAILY/2), vivendi(DEAD), kivax4(DAILY/2),
+	fdmetd(DAILY/2), usetest(ARPA), autro1(DAILY/2),
+	nokosl(DAILY/2), ndhq(DAILY/2),  nftda(DAILY/2), cinet(DAILY/2),
+	ncn(DAILY/2),
+	falcon(DAILY/2), uninor(DAILY/2), hpuosla(DAILY/2),
+	sylow(DAILY/2), titusa(DAILY/2), sysdeco(DAILY/2), fics(DAILY/2),
+	isafhp(DAILY/2), fdata(DAILY/2), vmsfo(DAILY/2), kdv650(DAILY/2),
+	nososl(DAILY/2), tglobe2(DAILY/2),
+	isncr(DAILY/2), ifi.uio.no(ARPA), ssb(DAILY/2), kjell(DAILY/2),
+	etn(DAILY/2), balder(DAILY/2), nftdf(DAILY/2),
+	stkhsc(DAILY/2), tbk01(DAILY/2), kgk(DAILY/2), scanoli(DAILY/2),
+	statoil(DAILY/2), consens(DAILY/2), tedoc(DAILY/2), rws(DAILY/2),
+	arena(DAILY/2), cimsand(DAILY/2), fdcomm(DAILY/2), sama(DAILY/2),
+	gars(DAILY/2), techcad(DAILY/2), tinor(DAILY/2), bdc(DAILY/2),
+	mikrosys(DAILY/2), falch(DAILY/2), hfkix(DAILY/2), sfk(DAILY/2),
+	nri20(DAILY/2), ipac(DIRECT), nks(DAILY/2), brage(DAILY/2),
+	abel(DAILY/2), humpty.edb.tih.no(ARPA), ik(DAILY/2), datatid(DAILY),
+	smds2(DEAD), bergman(DAILY), ggdata(DAILY), finn(DAILY), etel(DAILY),
+	arnljot(DAILY), unidk(DAILY), xpartner(DAILY), infomed(DAILY),
+	nospt(DAILY), lindosl(DAILY)
+
+#N	aftp
+#S
+#O	Aftenposten
+#C	Geir Arnesen
+#E	arnesen@aftp.uucp
+#T	+47-2-863232 & +47-2-426325
+#P	Akersgaten 51, N-0409 OSLO 1, Norway
+#R
+#U	nuug symbas
+#L	59 55 N / 10 45 E city
+#W	see@ndosl 890524, see@ndosl 890524
+#
+
+#N	ara
+#S
+#O	Tallgrass Technologies A.S
+#C	Hans J|rgen Bergmann
+#E	hans@ara.uucp
+#T	+47-2-709200 & +47-2-709316 (FAX)
+#P	Solheimvn. 50, Postboks 215, N-1473 SK]RER, Norway
+#R
+#U
+#L	59 55 N / 10 45 E city
+#W	andy@ndosl 891011, hph@nuug.no 910901
+#
+
+#N	autro1
+#S
+#O	AUTRONICA A/S
+#C	Ole Benjamin Hestvik
+#E	oleb@autro1.uucp
+#T	+47-7-918080
+#P	Postboks 3010, N-7001 TRONDHEIM, Norway
+#L	63 25 N / 10 25 E city
+#R	
+#U	nuug
+#W	ndosl!torj 880310, ndosl!torj 880310
+#
+
+#N	balder, balder.no, .balder.no
+#S
+#O	Balder Programvare AS
+#C	Steinar O. Cook
+#E	steinar@balder.no
+#T	+47-9-870550 & +47-9-877116 (FAX)
+#P	Postboks 1344, N-1401 SKI, Norway
+#R
+#W	bl@nuug.no 891228, hph@nuug.no 910925
+balder = balder.no
+balder .balder.no
+
+#N	bibsyst, bibsyst.no, .bibsyst.no
+#S
+#O	Bibliotek-Systemer A/S
+#C	Torkel Hasle
+#E	lnonet@bibsyst.no
+#T	+47-34-82202 & +47-34-85185 (FAX)
+#P	Johan Sverdrupsgt. 3, N-3250 LARVIK, Norway
+#L	59 41 N / 10 0	E city
+#W	bl@nuug.no 900331, bl@nuug.no 900331
+#
+bibsyst = bibsyst.no
+bibsyst .bibsyst.no
+
+#N	cinet
+#S	
+#O	Cinet A/S
+#C	St}le Lian
+#E	lian@cinet.uucp
+#T	+47-2-387000 & +47-2 387070 (FAX)
+#P	Postboks 9913 Ila, N-0132 OSLO 1, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U
+#W	bl@nuug.no 900214, hph@nuug.no 920106
+#
+
+#N	dolphin.no
+#S
+#O	Dolphin Server Tecnology A/S
+#C	Svein Erik Eriksen
+#E	see@dolphin.no
+#T	+47-2-627000 & +47-2-627007 (FAX)
+#P	Olaf Helsets vei 5, Postboks 25 Bogerud, N-0621 OSLO 6, Norway
+#L	59 55 N / 10 45 E city
+#U	nuug
+#W	see@ndosl 890210,  hph@nuug.no 910901
+#
+dolphin.no = dolphin
+
+#N	dr, .dr.no, dr.no
+#S
+#O	DataRojahn AS
+#C	Tom Rojahn
+#E	tom@dr.no
+#T	+47-9-876720 & +47-9-876766 (FAX)
+#P	Postboks 1348, N-1401 SKI, Norway
+#L	59 43 N /  10 52 E
+#R	
+#U	nuug
+#W	nuug!bl 900402, nuug!bl 900402
+#
+dr = dr.no
+dr .dr.no
+
+#N	falcon, .falcon.no, falcon.no
+#S	SUN 3/50, SunOS4.0.3
+#O	Falcon Information Services A/S
+#C	Arne Asplem
+#E	aras@falcon.no
+#T	+47-2-831310 & +47-2-831290 (FAX)
+#P	Stranden 1, N-0254 OSLO 2, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	aras@falcon.no 910304, hph@nuug.no 910901
+falcon = falcon.no
+falcon .falcon.no
+
+#N	fdata
+#S
+#O	Fellesdata A/S, avd. 542/UNIX
+#C	Harald Sevaldsen
+#E	unimast@fdata.uucp
+#T	+47-2-528196 & +47-2-528021
+#P	Postboks 248, N-0212 OSLO 2, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U
+#W	bl@nuug.no 900410, hph@nuug.no 911204
+#
+
+#N	fdmetd
+#S
+#O	Fellesdata A/S
+#C	Kjell Ivar Hansen
+#E	kih@fdata.uucp
+#T	+47-2-528483
+#P	Postboks 248, N-0212 OSLO 2, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	ndosl!torj 880812, ndosl!torj 880812
+#
+
+#N	fics
+#S	Wyse PC, Xenix 386
+#O	Kvam Data AS
+#C	Karl Olav Bergesen
+#E	kob@fics.uucp
+#T	+47-4-623766
+#P	Nikkelv. 14, Postboks 1101 Lura, N-4301 SANDNES, Norway
+#L	
+#R	
+#U	
+#W	bl@nuug.no 900402, bl@nuug.no 900402
+#
+
+#N	hpuosla
+#S
+#O	Hewlett-Packard Norge A/S
+#C	Ronny Dragnes
+#E	ronny@hpuosla.uucp
+#T	+47-2-246090 & +47-2-246696 (FAX)
+#P	\sterndalen 16-18, N-1345 \STERAS, Norway
+#L	59 54 N / 10 29 E city
+#U	
+#W	ndosl!torj 880810, ndosl!torj 880810
+#
+
+#N	huldra, .tdata.no, tdata.no
+#S
+#O	Tandberg Data A/S
+#C	Arild Pedersen / Arnstein Leonardsen
+#E	adm@tdata.no
+#T	+47-2-189090 
+#P	Postboks 9, Korsvoll, N-0808 OSLO 8, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	ndosl!torj 880519, ndosl!torj 880519
+#
+huldra = tdata.no
+huldra .tdata.no
+
+#N	humpty.edb.tih.no
+#S
+#O	Trondheim Ingeni|rh|gskole
+#C	Ola Resell
+#E	ola@humpty.uucp
+#T	+47-7-525500
+#P	Gunnerius gt 1, N-7004 TRONDHEIM, Norway
+#L	63 5 N / 11 5 E city
+#R	
+#U	ugle.unit.no
+#W	torj@ndosl.uucp 890117, hph@nuug.no 910991
+#
+humpty.edb.tih.no = humpty
+
+
+#N      ipac
+#S      Sun 3/50 SunOS
+#O      IPAC A/S
+#C      Stein Rune Jacobsen
+#E	postmaster@ipac.uucp
+#T      +42-4-571488
+#P      Gamle Forus vei 17, Pb 172 4033 FORUS
+#L
+#R
+#W      bl@nuug.no 910813,      bl@nuug.no 910813
+
+#N      ifi.uio.no
+#S	Unix
+#O      Institutt for Informatikk, Universitetet i Oslo
+#C      Jens Thomassen
+#E      jens@ifi.uio.no
+#T      +47-2-453459
+#P      Postboks 1080, N-3016 Oslo 3, Norway
+#L      59 56 N / 10 43 E city
+#R
+#U	nuug, ulrik.uio.no, ugle.unit.no
+#W      jens@nuug.no 900808, hph@nuug.no 910925
+#
+ifi.uio.no = ifi
+
+#N	infosys
+#S
+#O	Telub Service A/S
+#C	Tore Ivar Iversen
+#E	tii@infosys.uucp
+#T	+47-2-652250
+#P	Postboks 48 Refstad, N-0513 OSLO 5, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#W	ndosl!torj 880310, ndosl!torj 880310
+#
+
+#N	isafhp, isaf.no, .isaf.no
+#S	HP9000/825, HP-UX 3.1
+#O	Instituttgruppa for samfunnsforskning
+#C	Niels Eivind Naas
+#E	nen@isafhp.uucp
+#T	+47-2-554510
+#P	Munthes gt. 31, N-0260 OSLO 2, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	bl@nuug.no 900402, bl@nuug.no 900402
+#
+isafhp = isaf.no
+isafhp .isaf.no
+
+#N	nftda
+#S
+#O	Norsk Forsvarsteknologi A/S, Computer Technology
+#C	Geir Haug Hanssen
+#E	geir@nftda.uucp
+#T	+47-3-738555 & +47-3-739735 (FAX)
+#P	Postboks 1003, N-3601 KONGSBERG, Norway
+#L	59 39 N / 9 39 E city
+#R	
+#W	bl@nuug.no 900126, bl@nuug.no 900126
+#
+nftda =	kark
+nftda = odin
+
+#N	kdv650
+#S	NCR Tower 650, UNIX V.3 R3.00.01
+#O	KDV A/S
+#C	Jan Erik Larsen
+#E	janik@kdv650.uucp
+#T	+47-5-541100
+#P	Lars Hillesgt. 19, N-5028 BERGEN, Norway
+#L	60 23 N / 5 27 E city
+#R	
+#U	nuug
+#W	bl@nuug.no 900509, bl@nuug.no 900509
+#
+
+#N	lindba, lindbak.no, .lindbak.no
+#S	
+#O	LINDBAK A/S
+#C	Einar Steen
+#E	luug@lindbak.no
+#T	+47-7-966022 & +47-7-964505 (FAX)
+#P	Postboks 4242, N-7002 TRONDHEIM, Norway
+#R	
+#L	63 5 N / 11 5 E city
+#U	nuug symbas
+#W	see@ndosl.uucp 881220, hph@nuug.no 910926
+#
+lindba = lindbak.no
+lindba .lindba.no
+
+#N	multix, .multix.no, multix.no
+#S
+#O	MULTIX A/S
+#C	Rolf Rennemo, Andreas Hope
+#E	postmaster@multix.no
+#T	+47-2-950800 & +47-2-950790 (FAX)
+#P	Gjerdrumsvei 16 A, N-0881 OSLO 8, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	rar@multix.uucp 900420, hph@nuug.no 911004
+#
+multix = multix.no
+multix .multix.no
+
+
+#N	ncn
+#S	Nixdorf Targon 31 running TOS4.0/SysV 3.0
+#O	Siemens Nixdorf A/S (Nixdorf Computer Norge A/S)
+#C	Erlend Kristoffersen
+#E	ekr@ncn.uucp
+#T	+47-2-749500 & 749501
+#P	Olav Helseths v 5, Posboks 6447 Etterstad,0605 Oslo
+#L	59 55 N / 10 45 E oslo
+#R	
+#U	nuug
+#W	jens@ifi.uio.no 900314, hph@nuug.no 920130
+#
+
+#N	ncrnorw, ncr.no, .ncr.no
+#S	NCR Tower 32/700; UNIX V.3. NCR Rel. 1.01.01
+#O	NCR Corporation Norway
+#C	Bo Asbjorn Muldbak
+#E	postmaster@ncrnorw.Norway.NCR.NO
+#T	+47-2-953600 & +47-2-953601
+#P	Gjerdrums vei 11, N-0409 Oslo 4, Norway
+#L      59 57 N / 10 46 E City
+#R	NCR Norway Country Gateway. Dom. NCR.NO+Norway.NCR.NO+Norway.NCR.COM
+#U	ncrdkcp	nuug
+#W	ncrnorw!bam 910427, ncrnorw!bam 910427
+#
+#
+# If you know the full name of someone at NCR Norway, mail sent to
+# full.name@Norway.NCR.NO  or full.name@Norway.NCR.COM will get to them.
+#
+# Define the gateway machine and its alias:
+ncrnorw = ncrnorw.norway.ncr.no, ncrnorw.norway.ncr.com, ncrnorw.ncr.com
+#
+# ncrnorw knows the virtual machine used for First.Last addressing
+ncrnorw .norway.ncr.no, .ncr.no, .norway.ncr.com
+ncrnorw	norway.ncr.no, ncr.no
+
+#N	ndhq
+#S
+#O	NORSK DATA A/S (SERIVCETEAM)
+#C	Svein Erik Eriksen
+#E	see@ndhq.uucp
+#T	+47-2-627020
+#P	Olaf Helsets vei 5, Postboks 25, Bogerud, N-0621 OSLO 6, Norway
+#L	59 55 N / 10 45 E city
+#U
+#W	ndosl!torj 880613, ndosl!torj 880613
+#
+
+#N	nokosl
+#S
+#O	NOKIA DATA
+#C	Leo Sapiraa
+#E	postmaster@nokosl.uucp
+#T	+47-2-895911
+#P	Box 4285 Torshov, Sandakervn. 64, N-0401 OSLO 4, Norway
+#L	59 55 N / 10 45 E Oslo
+#R	
+#W	ndosl!torj 881220, ndosl!torj 881220
+#
+nokosl = erieio
+
+#N	nososl, .nordic-offshore.no, nordic-offshore.no
+#S	BSD 4.3
+#O	Nordic Offshore Systems A/S
+#C	Trygg Eliassen
+#E	trygg@nososl.uucp
+#T	+47-2-125580
+#P	Postboks 1085, N-1321 STABEKK, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#W	bl@nuug.no 900509, bl@nuug.no 900509
+#
+nososl = nordic-offshore.no
+nososl .nordic-offshore.no
+
+#N	ssb, .ssb.no, ssb.no
+#S
+#O	Statistisk Sentralbyr}
+#C	Knut Bj|rnstad
+#E	knb@ssb.no
+#T	+47-2-864500 & +47-2-111238 (FAX)
+#P	Postboks 8131 Dep., N-0033 OSLO 1, Norway
+#L	59 55 N / 10 45 E Oslo
+#U	
+#W	bl@nuug.no, 900830, bl@nuug.no, 900830
+#
+ssb = ssb.no
+ssb .ssb.no
+
+#N	stku01, .alcatel.no, alcatel.no
+#S
+#O	Alcatel STK A/S
+#C	Knut Fossgard
+#E	knut.fossgard@alcatel.no
+#T	+47-2-638192 & +47-2-638497 (FAX)
+#P	\stre Aker vei 33, N-0508 OSLO 5, Norway
+#R
+#U	
+#L	59 55 N / 10 45 E Oslo
+#W	andy@ndosl 891009, hph@nuug.no 910901
+#
+stku01 = alcatel.no
+stku01 .alcatel.no
+
+#N	sylow, .nelecsys.no, nelecsys.no
+#S	Mycron 4500, UNIX V.3 1.06
+#O	Nordic Electronic Systems
+#C	Terje Sparre Olsen
+#E	tso@sylow.uucp
+#T	+47-9-195301
+#P	Postboks 1005 Berg, N-1750 HALDEN, Norway
+#L	
+#U	nuug
+#W	bl@nuug.no 900402, bl@nuug.no 900402
+#
+sylow = nelecsys.no
+sylow = .nelecsys.no
+
+#N	symbas, .lind.no, lind.no
+#S	Stride 740, Unistride 2.2
+#O	Lindmac A/S
+#C	Tor-Arne Gisvold
+#E	tag@symbas.uucp
+#T	+47-7-967311 & +47-7-965479 (FAX)
+#P	Nordslettveien 1, N-7018 TRONDHEIM, Norway
+#L	60 5 N / 11 5 E city
+#R	
+#U	aftp, lindbak
+#W	ndosl!torj 880810, ndosl!torj 880810
+#
+symbas = lind.no
+symbas .lind.no
+
+#N	sysdeco, .sysdeco.no, sysdeco.no
+#S	Apollo DN4500, SYSVR3
+#O	SYSDECO A/S
+#C	Hans Christien Nielsen
+#E	hcn@sysdeco.no
+#T	+47-2-383090 & +47-2-384659
+#P	Chr. Michelsens gt. 65, N-0474 OSLO 4, Norway
+#L	59 52 N /  10 28 E
+#U	nuug
+#W	bl@nuug.no 900402, hph@nuug.no 910926
+#
+sysdeco = sysdeco.no
+sysdeco sysdeco.no
+
+#N	tglobe2, .tollpost-globe.no, tollpost-globe.no
+#S	SUN Sparcstation 1, SunOS 4.0.3c
+#O	Tollpost-Globe AS
+#C	Arild Kj|lseth
+#E	arild@tglobe2.uucp
+#T	+47-72-21211
+#P	Postboks 1, N-6301 ]ndalsnes
+#R
+#U      nuug
+#W	bl@nuug.no, 960612, bl@nuug.no, 960612
+tglobe2 = tollpost-globe.no
+tglobe2 .tollpost-globe.no
+
+#N	titusa
+#S	HP9000 360CH, HP-UX 7.0
+#O	Titus Data A/S
+#C	Terje Stramrud
+#E	terje@titusa.uucp
+#T	+47-2-249311 & +47 2 249316 (FAX)
+#P	\sterndalen 18, N-1314 \STER]S, Norway
+#R	
+#L	59 52 N /  10 28 E
+#W	bl@nuug.no 900402, bl@nuug.no 900402
+#
+
+#N	uninor
+#S
+#O	UNISYS Norge A/S
+#C	Svein Fuglerud
+#E	sf@uninor.uucp
+#T	+47-2-157010
+#P	Postboks 4219, Torshov, N-0401 OSLO 4, Norway
+#L	59 55 N / 10 45 E city
+#R	
+#U      nuug
+#W	ndosl!torj 880310, ndosl!torj 880310
+#
+
+#N	vivendi
+#S	
+#O	Vivendi A/S Edb Skolen (N{ringslivs akademiet)
+#C	Geir Ande Christiansen
+#E	geir@vivendi.uucp
+#T	+47-2-196010 & +47-2-196090 (FAX)
+#P	Svovelstikka 3, Postboks 6439 - Etterstad 0605 Oslo, Norway
+#R	Changing names and Organization an so on...
+#U	
+#L	59 55 N / 10 45 E city
+#W	torj@kark.uucp 881207, hph@nuug.no 920108
+#
+
+#N	vmsfo, .vingmed.no, vingmed.no
+#S	SUN, SunOS 4.0.3
+#O	Vingmed Sound
+#C	Hans Chr. L|nstad
+#E	hcl@vingmed.no
+#T	+47-2-479206 & +47-2-124355 (FAX)
+#P	Postboks 300 Veritassenteret, N-1322 H\VIK, Norway
+#R	
+#U	
+#L	59 55 N / 10 45 E city
+#W	bl@nuug.no 900509, bl@nuug.no 900509
+#
+vmsfo = vingmed.no
+vmsfo .vingmed.no
+
+
+#N      kjell
+#S      UNISYS 386
+#O      TF-BFT
+#C      Gjermund Hartviksen
+#E	gjermund@kjell.uucp
+#T      +47-83-80150
+#P      Postboks 2806 Elverh|y, N-9001 TROMS\, Norway
+#R
+#U      nuug
+#L
+#U      nuug
+#W      bl@nuug.no 900910,      bl@nuug.no 900910
+#
+
+#N	etn, .ericsson.no, ericsson.no
+#S	Sun 3/80, SunOS4
+#O	Ericsson Telecom
+#C	Geir Odden
+#E	god@ericsson.no
+#T	+47-2-841200, +47-2-844112 & +47-2-981095 (FAX)
+#P	Postboks 34, N-1361 BILLINGSTADSLETTA, Norway
+#L	
+#R	
+#U	ericsson.se
+#W	bl@nuug.no 900911, hph@nuug.no 910901
+etn = ericsson.no
+etn .ericsson.no
+
+#N	nftdf
+#S	SUN3/50, SunOS4.1
+#O	Norsk Forsvarsteknologi A/S, Divisjon DF
+#C	Gunnar Dammen, avd. DF48
+#E	dammen@nftdf.uucp
+#T	+47-3-739669
+#P	Postboks 1003, N-3601 KONGSBERG, Norway
+#L	
+#R	
+#W	bl@nuug.no 901120, bl@nuug.no 901120
+
+#N	stkhsc
+#S	XENIX Ver. 2.3
+#O	Alcatel Telecom A/S
+#C	Finn Drolsum
+#E	finn@stkhsc.uucp
+#T	+47-2-637853
+#P	Postboks 310 Oekern. N-0511 Oslo Norway
+#L	
+#R	
+#W	bl@nuug.no 901212, hph@nuug.no 911201
+
+#N	tbk01
+#S	HP 9000/832S, HPUX7.0
+#O	TBK A/S
+#C	Erik Bergersen
+#E	eb@tbk01.uucp
+#T	+47-2-632261
+#P	Postboks 6311 Etterstad, N-0604 OSLO 6, Norway
+#L	
+#R	
+#W	bl@nuug.no 910102, bl@nuug.no 910102
+
+#N	kgk
+#S	Sun 3/60, SunOS4.0.3
+#O	Sivilingeni|r Kjell G. Knutsen AS
+#C	\yvind A. Landsnes
+#E	oyvind@kgk.uucp
+#T	+47-43-56205
+#P	Postboks 113, 4520 S\R-AUDNEDAL
+#L	
+#R	
+#W	bl@nuug.no 910226, bl@nuug.no 910226
+
+#N	scanoli
+#S	SPARCstation 1/SunOS4.0.3c
+#O	Scanvest Olivetti
+#C	Eirik Gr|nsund
+#E	eg@scanoli.uucp
+#T	+47-2-232280 & +47-4-678055
+#P	Postboks 1072 Lura, 4301 SANDNES
+#L	
+#R	
+#W	bl@nuug.no 910226, bl@nuug.no 910226
+
+#N      statoil, .statoil.no, statoil.no
+#S      Solbourne S4000, OS/MP 4.1
+#O      Den Norske Stats Oljeselskap A/S
+#C      Bj|rn Larsen
+#E      bjla@statoil.no
+#T      +47-4-807528
+#P      DATA/TD, Postboks 300, 4001 STAVANGER, Norway
+#L
+#R
+#W       bl@nuug.no 910404, bjla@statoil.no 911112
+statoil = statoil.no
+.statoil.no statoil.no
+
+#N	consens
+#S	SPARCstation IPC, SunOS 4.1
+#O	Consensus Analysis AS
+#C	Bj|rn Alsberg
+#E	bjorn@consens.uucp
+#T	+47-9-877570
+#P	P.O. box 1391, N-1401 SKI, Norway
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910404, bl@nuug.no 910404
+
+#N	tedoc, .corena.no, corena.no
+#S	IBM RS/6000m530, AIX 3.1
+#O	CORENA A/S
+#C	Tor J|rgen Lande
+#E	torj@corena.no
+#T	+47-3-736611
+#P	P.O. box 448, N-3601 KONGSBERG, Norway
+#L	
+#R	
+#W	bl@nuug.no 910404, bl@nuug.no 910404
+
+#N	rws
+#S	Sun 3/260, SunOS4.0.3
+#O	Read Well Services
+#C	P}l Kristiansen
+#E	paal@rws.uucp
+#T	+47-2-982240
+#P	P.O. box 25, N-1364 HVALSTAD, Norway
+#L	
+#R	
+#W	bl@nuug.no 910404, bl@nuug.no 910404
+
+#N	arena
+#S	SPARCstation IPC, SunOS4.1
+#O	Arena Data AS
+#C	Bj|rnulf Vik
+#E	bv@arena.uucp
+#T	+47-2-902300 & +47-2-902844(FAX)
+#P	Blakstadmarka 26, N-1370 ASKER, Norway
+#L	
+#R	
+#W	bl@nuug.no 910404, bl@nuug.no 910404
+
+#N	cimsand, cimage.no, .cimage.no
+#S	IBM RT6150, AIX2.2.1
+#O	CIMAGE A.S
+#C	Rune Riisn{s
+#E	rune@cimsand.uucp
+#T	+47-2-541500
+#P	Skytterdalen 6, N-1300 SANDVIKA, Norway
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910404, bl@nuug.no 910404
+# norway.cimage.com
+cimsand = cimage.no
+cimsand .cimage.no
+
+#N	fdcomm, .fearndat.no, fearndat.no
+#S	Acer 386/33, Interactive UNIX 2.2
+#O	Fearnley Data
+#C	Anders Herbj|rnsen
+#E	ah@fearndat.no
+#T	+47-2-416077 & +47-2-425286 (FAX)
+#P	Rosenkrantz gt. 22, N-0160 OSLO 1, Norway
+#L	
+#R	
+#W	bl@nuug.no 910515 hph@nuug 911223
+fdcomm = fearndat.no
+fdcomm .fearndat.no
+
+#N	sama
+#S	386/Interactive
+#O	SAMA AS
+#C	Lasse Durucz
+#E	lasse@sama.uucp
+#T	+47-2-700700
+#P	Hasleveien 28, N-0571 OSLO 5, Norway
+#L	
+#R	
+#W	bl@nuug.no 910528, hph@nuug.no 920117
+
+#N	gars, .gar.no, gar.no
+#S	Sun SPARCstation 2
+#O	Gallagher & Robertson A/S
+#C	Robert Andersson
+#E	ra@gar.no
+#T	+47-2-418551 & +47-2-428922 (FAX)
+#P	Postboks 1824 Vika, N-0123 OSLO 1
+#L	59 55 N / 10 45 E city
+#R	
+#U	nuug
+#W	bl@nuug.no 910605
+gars = gar.no
+gars .gar.no
+
+#N	techcad, best.no, .best.no
+#S	SUN SPARCstation 2 GX
+#O	Berdal Str|mme
+#C	Johan Jotun
+#E	tc@techcad.uucp
+#T	+47-2-545880 & +47-2-544576 (FAX)
+#P	Kj|rboveien 25, 1300 SANDVIKA
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910605, hph@nuug.no 911014
+techcad	= best.no
+techcad .best.no
+
+#N	tinor
+#S	TI 1500/S1520
+#O	Texas Instruments Norge A/S
+#C	Arild Berntsen
+#E	osab@tinor.uucp
+#T	+47-2-155090 & +47-2-227136 (FAX)
+#P	Postboks 106 Refstad, N-0513 OSLO 5
+#L	
+#R	
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+
+#N	bdc, bdc.no, .bdc.no
+#S	Copam 486B/Interactive V/386
+#O	Bergen Data Consulting A/S
+#C	Hans Victor Koch
+#E	hvk@bdc.no
+#T	+47-5-224435
+#P	Postboks 73, 5049 SANDSLI
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910620, hph@nuug.no 910901
+bdc = bdc.no
+bdc .bdc.no
+
+#N	mikrosys, .mikrosys.no, mikrosys.no
+#S	Interactive V/386
+#O	Mikrosys A/S
+#C	Asgeir Finnseth
+#E	asgeir@mikrosys.uucp
+#T	+47-83-10803
+#P	Postboks 3543 Stakkevoll, 9001 TROMS\
+#L	
+#R	
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+mikrosys = mikrosys.no
+mikrosys .mikrosys.no
+
+#N	falch, .falch.no, falch.no
+#S	SPARCstation IPC/SunOS 4.1.1
+#O	Falch Hurtigtrykk A/S
+#C	Steve Pepper
+#E	pepper@falch.no
+#T	+47-2-163040
+#P	Postboks 60 Grorud, 0917 OSLO 9
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+falch = falch.no
+falch .falch.no
+
+#N	hfkix
+#S	MSDOS
+#O	H{rens Forsyningskommando / IX.3
+#C	Bj|rn Kjartan Myklebust
+#E	postmaster@hfkix.uucp
+#T	+47-2-896358
+#P	Oslo MIL/L|ren, 0018 OSLO 1
+#L	
+#R	
+#U	nuug
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+
+#N	sfk
+#S	PS/2-95, SCO UNIX
+#O	Sj|forsvarets Forsyningskommando
+#C	Staale N. Sentongo
+#E	sfk@sfk.uucp
+#T	+47-5-262643
+#P	SFK/F-DD, P. b. 90, N-5078 HAAKONSVERN
+#L	
+#R	
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+
+#N	nri20
+#S	Sun 4/370, SunOS 4.1.1
+#O	EB Nera a.s
+#C	Nj}l Gravels{ter
+#E	njaal@nri20.uucp
+#T	+47-5-225672
+#P	Postboks 10, 5061 KOKSTAD
+#L	
+#R	
+#W	bl@nuug.no 910620, bl@nuug.no 910620
+
+#N	nks
+#S	Sparcstation 2/SunOS 4.1.1
+#O	NKS Ernst G. Mortensens Stiftelse
+#C	Tore Kollerud, Aud Berit Fossdal, Gunnar Jan Ellingsen
+#E	tk@nks.uucp, gje@nks.uucp, ab@nks.uucp
+#T	+47-2-568600 (etter kontortid +47-2-568504)
+#P	Postboks 5853 Hegdehasugen
+#L	
+#R	
+#W	hph@nuug.no 910903, hph@nuug.no 910903
+
+#N	abel
+#S	HP9000 serie 720
+#O	Geomatic AS
+#C	Harald A Meyer
+#E	meyer@abel.uucp
+#T	+47-2-504330
+#P	Pb. 165 Sk|yen, 0212 Oslo 2, Norway
+#L	
+#R	
+#W	hph@nuug.no 910912, hph@nuug.no 920128
+geomatic.no abel
+ibsen	abel
+
+#N	ik, inko.no, .inko.no
+#S	Convergent "Mighty Frame"
+#O	Informasjonskontroll AS
+#C	Jan Erik Sevland
+#E	jes@inko.no
+#T	+42-2-790660 & +47-2-900345 (FAX)
+#P	Solbraveien 32, P.O.Box 265, N-13171 Asker, Norway
+#L	
+#R	
+#W	hph@nuug.no 910930, hph@nuug.no 910930
+ik 	= inko.no
+ik	.inko.no
+
+#N	datatid
+#S	Interactive Sys V.3.2
+#O	Datafrolaget AS
+#C	Ingvar Botnen
+#E	ibo@datatid.uucp
+#T	+47-2-808224 & +47-2- (FAX)
+#P	Pb. 145, N- 1412 Sofiemyr, Norway
+#L	
+#R	
+#W	hph@nuug.no 910930, hph@nuug.no 910930
+
+#N      brage, statsdata.no, .statsdata.no
+#S      Interactive UNIX 
+#O      Statsdata
+#C      Frode K. Fausa
+#E      frodefk@statsdata.no
+#T      +47-2-466200 & +47-2-469470 (FAX)
+#P      Pb. 8115 DEP, N- 0032 Oslo, Norway
+#L	59 56 N / 10 43 E Oslo
+#R
+#W      hph@nuug.no 910912, hph@nuug.no 911223
+brage = statsdata.no
+brage .statsdata.no
+
+#N      smds2
+#S      Sun4/90, Sunos 4.1
+#O      Luftfartsverket, NR\
+#C      John Sandtorv, Lars Hasvold,Softwaregruppa
+#E      john@smds2.uucp,lars@smds2.uucp
+#T      +47-2-593692, +47-2-593258, +47-2-593503
+#P      Bygning 49, Gamle Fornebu, Postboks 23
+#L
+#R
+#W      hph@nuug.no 910930, hph@nuug.no 920127
+
+#N	bergman
+#S	Solbourne S400, Sunos $.1.1
+#O	Bergman Systems
+#C	Dag Lunder
+#E	dag@bergman.uucp
+#T	+47-2-790202 & +47-2-790606
+#P	Box 134, 1371 Asker
+#L	
+#R	
+#W	hph@nuug.no 911022, hph@nuug.no 911022
+
+#N	ggdata
+#S	WYSE 7000 i/SCO Unix V.3
+#O	GGData A.S.
+#C	Knut Gr|nneng
+#E	knut@ggdata.uucp
+#T	+47-6-841600 & +47-6-842911 (FAX)
+#P	Hvamvn 4, 2013 Sjetten
+#L	
+#R	
+#W	hph@nuug.no 911106, hph@nuug.no 911106
+
+#N	finn
+#S	SCO Unix Rel. 3.2
+#O	Finn Drolsum (PP)
+#C	Finn Drolsum
+#E	finn@finn.uucp
+#T	+47-3-282276
+#P	Sundbyveien 48, N-3478 Naersnes, Norway
+#L	
+#R	the NUUG treasurer
+#W	hph@nuug.no 911115, hph@nuug.no 911201
+
+#N	etel
+#S	Acer 386/SCO UNIX System V
+#O	Samkj|ringen
+#C	Oddleiv Tungland
+#E	tmk@etel.uucp
+#T	+47-2-461930
+#P	Postboks 5093 Majorstua, 0301 Oslo 3, Norge
+#L	
+#R	
+#W	hph@nuug.no 911205, hph@nuug.no 911205
+
+#N	arnljot
+#S	386 Intel/ SCO Unix 
+#O	Helge Arnljot (PP)
+#C	Helge Arnljot
+#E	helge@arnljot.uucp
+#T	+47-2-691279, +47-2-498517 & +47-2-498128
+#P	Wilhelms gt. 5a, 0168 Oslo 0168, Norge
+#L	59 56 N / 10 43 E Oslo
+#R	
+#W	hph@nuug.no 911205, hph@nuug.no 911223
+
+#N	unidk
+#S	Intel 386 /SCO UNIX System 5.3
+#O	Unisoft A.S.
+#C	Reno Berg
+#E	reno@unisoft.uucp
+#T	+47-2-688970 & +47-2-683919 (FAX)
+#P	Enebakkveien 154, 0680 Oslo, Norge
+#L	
+#R	
+#W	hph@nuug.no 911205, hph@nuug.no 911205
+
+#N	xpartner
+#S	HP9000-375/HPUX 8.0
+#O	X/partner a.s
+#C	Marius R|ksund
+#E	mr@xpartner.uucp
+#T	+47-3-880308 & +47-3-880310 (FAX)
+#P	P.O.Box 2516, 3003 Drammen, Norge
+#L	
+#R	Kobbervikdalen 69, 3036 Drammen, Norge
+#W	hph@nuug.no 911205, hph@nuug.no 911205
+
+#N      infomed
+#S      HP9000-800/HPUX 8.0
+#O      InfoMedica A/S
+#C      Gisle Aas
+#E      aas@infomed.uucp
+#T      +47-2-627411 & +47-2-627138 (FAX)
+#P      P.O.Box 28, Bogerud,0621 Oslo, Norge
+#L
+#R
+#W      hph@nuug.no 911205, hph@nuug.no 911205
+
+#N	nospt
+#S	Sun SPARC/SunOS 4.1.1
+#O	Spacetec A/S
+#C	]dne Hestnes
+#E	ah
+#T	+47-83-84500 & +47-55859 (FAX)
+#P	Prestvannv. 38, Box 585, 9001 Troms|, Norge
+#L	
+#R	
+#W	hph@nuug.no 911205, hph@nuug.no 911205
+
+#N      lindosl
+#S      Channon 5000 / Unistride 2.1
+#O      LindMac A/S --- Oslo
+#C      Arne Asplem
+#E      postmaster@lindosl.lind.no
+#T      +47-2-139404 & +47-2-139455 (FAX)
+#P      Postboks 61 - 1358 Kols}s - Norway
+#L
+#R
+#W      hph@nuug.no 920113, hph@nuug.no 920113
+lindosl = lindosl.lind.no
+SHAR_EOF
+:	End of shell archive
+exit 0
+

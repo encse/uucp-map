@@ -1,0 +1,392 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.on.2
+: This archive created: Tue Mar  1 01:53:18 1988
+echo shar: extracting u.can.on.2
+cat << 'SHAR_EOF' > u.can.on.2
+#	u.can.on.2 : last updated Mon Feb 29 03:42:22 1988
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	If you wish a permanent record of your registration or update, please
+#	send it to cbosgd!uucpmap *only*.  Elsewise please send the update to
+#	the utai!path address *only*.  The only difference is that sending an
+#	update/registration through the cbosgd!uucpmap address will guarantee
+#	the existence of a centrally kept copy.  If you wish to register your
+#	site as a subdomain under the Canadian top-level domain (.Ca), please
+#	contact utai!registry (registry@ai.toronto.{edu,cdn}) for information.
+
+#N	utfyzx
+#S	HP9000-500; HP-UX
+#O	University of Toronto, Dept. of Physics
+#C	David Harrison
+#E	utfyzx!harrison
+#T	+1 416 978 8672
+#P	Toronto, ON, Canada M5S 1A1
+#L	79 23 55 W / 43 39 37 N
+#R	
+#U	utgpu sq
+#W	utai!path (Path Database); Sat Sep 14 02:13:45 EDT 1985
+#
+utfyzx	utgpu(HOURLY)
+
+#N	utglg
+#S	DUAL System/83-20 (M68000); UniSoft System V
+#O	Geology Department, University of Toronto
+#C	John Rylaarsdam
+#E	utglg!john
+#T	+1 416 978 5591
+#P	Toronto, Ontario, Canada M5S 1A1
+#L	79 25 W / 43 45 N city
+#R
+#W	utai!path (Path Database); Wed Dec 25 16:38:20 EST 1985
+#
+utglg	utgpu(HOURLY)
+
+#N	uthub
+#S	ISI Optimum V24; 4.2 BSD
+#O	HubNet project, University of Toronto
+#C	Phil Poulos
+#E	phil@ecf.toronto.edu
+#T	+1 416 978 4606, +1 416 978 5898
+#P	10 King's College Road, Toronto, Ontario, Canada M5S 1A4
+#L	79 23 45 W / 43 39 35 N
+#R	This machine is on the U of Toronto local-area network. See utcsri.
+#U	utcsri ecf
+#W	utai!path (Path Database); Sat Nov 15 23:42:12 EST 1986
+#
+hub.toronto.edu	= uthub
+
+hub.toronto.edu
+	radha(DIRECT)
+
+#N	math, mars.math
+#S	SUN 3/160; SUN UNIX 4.2 Release 3.0
+#O	Department of Mathematics, University of Toronto
+#C	Karin Smith
+#E	mars@math.toronto.edu
+#T	+1 416 978 6765
+#P	100 St. George Street, UofT, Toronto, ON, Canada, M5S 1A1
+#L	79 24 W / 43 40 N
+#R	lead machine of a very small ethernet
+#U	
+#W	utai!path (Path Database); Thu Feb  5 19:09:36 EST 1987
+#
+#	This machine is a fileserver for the Mathematics Dept. Sun workstations.
+#
+#	uteuler:	SUN 3/160-4; SUN UNIX 4.2 Release 3.0
+#clients:
+#	utmars:		SUN 2/50-2; SUN UNIX 4.2 Release 3.0
+#	
+math.toronto.edu	= uteuler
+uteuler	.math.toronto.edu
+math.toronto.edu	utas3(DEDICATED), utgpu(DIRECT)
+
+#N	utrim
+#S	DEC PDP-11/23; ULTRIX-11 System V2.0
+#O	Royal Inscriptions of Mesopotamia, University of Toronto
+#C	Ron Westerby
+#E	utrim!ron
+#T	+1 416 978 4531
+#P	280 Huron Street, RIM Project, UofT, Toronto, ON, Canada
+#L	79 23 45 W / 43 39 35 W
+#W	utrim!ron (Ron Westerby); Thu Dec 19 19:00:00 EST 1985
+#
+utrim	utgpu(HOURLY*2),
+	rom			# Royal Ontario Museum
+
+#N	utstat
+#S	SUN 3/160; SUN UNIX 4.2 Release 3.0
+#O	University of Toronto, Statistics
+#C	Geoff Collyer
+#E	utstat!geoff
+#T	+1 416 978 4302
+#P	100 St. George Street, Toronto, Ontario, Canada M5S 1A1
+#L	79 23 55 W / 43 39 37 N
+#R	Replaces utcsstat, the 11/70.
+#R	This machine is on the U of Toronto local-area network. See utcsri.
+#U	utgpu
+#W	utstat!geoff (Geoff Collyer); Tue Mar 31 15:54:39 EST 1987
+#
+#	This machine is a fileserver for the Stat's groups' Sun workstations.
+#
+#	utstat:		SUN 3/160-4; SUN UNIX 4.2 Release 3.0
+#	utensil:	SUN 3/160-4; SUN UNIX 4.2 Release 3.0
+#clients:
+#	utworm:		SUN 3/75-4; SUN UNIX 4.2 Release 3.0
+#	utubrutus:	SUN 3/50-4; SUN UNIX 4.2 Release 3.0
+#	utdelury:	SUN 2/120-2; SUN UNIX 4.2 Release 3.0
+#	utbugs:		SUN 3/50-4; SUN UNIX 4.2 Release 3.0
+#
+# real names (old synonyms)
+utstat = utfraser, utcsstat
+# domain names
+utstat = utstat.toronto.edu, stat.toronto.edu
+
+utstat	utzoo(DIRECT)
+
+#N	utzoo
+#S	DEC pdp11/44; V7
+#O	University of Toronto, Zoology Dept.
+#C	Henry Spencer
+#E	utzoo!usenet
+#T	+1 416 978 6060
+#P	Toronto, ON, Canada M5S 1A1
+#L	79 24 W / 43 40 N
+#R	Usenet backbone site, major mail/news hub for Eastern Canada.
+#U	dciem mnetor utgpu yunexus genat lsuc utzebra
+#W	utzoo!henry (Henry Spencer); Mon Dec  7 14:40:19 EST 1987
+#R
+#R	Supports research and teaching in the largest and most disorganized
+#R	zoology department in the western hemisphere.  First Usenet site in
+#R	Canada, and still a major communications hub.  We do mostly text
+#R	processing, with small-but-growing user communities in statistics
+#R	and database work.
+#
+# The utzoo-utcsri dedicated line is broken, repair not expected soon.  The
+# link to mks doesn't really exist, but certain wretchedly stupid programs
+# apparently cannot grasp the notion of a unidirectional link.
+#
+utzoo	alice(EVENING), allegra(EVENING), attunix(EVENING),
+	bnr-vpa(DAILY), chp(DIRECT), darwin(DIRECT), dciem(DIRECT),
+	decvax(EVENING), deepthot(DAILY+LOW), duke(WEEKLY), floyd(WEEKLY),
+	genat(DIRECT), hcr(DIRECT), hoptoad(WEEKLY),
+	ihnp4(DAILY/5), kitty(EVENING), lethe(DIRECT), linus(EVENING+LOW),
+	lsuc(DIRECT), mnetor(DIRECT), oscvax(DIRECT),
+	parkridge(DAILY), psddevl(DIRECT), pyramid(DAILY), redvax(HOURLY),
+	research(WEEKLY), rhodnius(DIRECT+LOW), ryesone(DAILY),
+	sickkids(DIRECT), spectrix(DIRECT), sq(DIRECT), syntron(DIRECT),
+	tmsoft(DIRECT), trigraph(DIRECT), utai(DIRECT), utas1(DIRECT),
+	utcsri(DIRECT), utgpu(DEDICATED), utstat(DEDICATED),
+	utzebra(DEDICATED), watmath(EVENING), wildcan(DAILY), yunexus(DIRECT) 
+
+#N	watcgl
+#S	DEC VAX 8600, 4.3 BSD UNIX
+#O	Computer Graphics Laboratory, University of Waterloo
+#C	Peter Tanner
+#E	watcgl!admin_sys
+#T	+1 519 884 3852
+#P	200 University Avenue, Waterloo, Ontario, Canada N2L 3G1
+#L	43 28 N / 080 23 W city
+#R	Computer Graphics R&D machine
+#W	watmath!kwlalonde (Ken Lalonde); Mon Sep 21 10:46:22 EDT 1987
+#
+watcgl	WaterlooNet,
+	electro(DEMAND), nrcctis(EVENING), phocena(DEMAND),
+	physeter(DIRECT), bitslice, bruno
+
+#N	watmath
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	Math Faculty Computing Facility, University of Waterloo
+#C	Bill Ince
+#E	watmath!postmaster
+#T	+1 519 885 1211 x2721
+#P	200 University Avenue, Waterloo, Ontario, Canada N2L 3G1
+#L	43 28 N / 080 23 W city
+#R	Main U. of Waterloo mail/news/admin site
+#R	Usenet backbone, UUCP-CDNnet gateway
+#U	utgpu uwo thunder clyde decvax sunybcs lsuc dalcs
+#U	looking mks mgvax onfcanim
+#W	orchid!kwlalonde (Ken Lalonde); Wed Dec 16 02:47:57 EST 1987
+#
+watmath	.waterloo.edu, .cdn
+watmath = math.waterloo.edu, math.waterloo.cdn
+watmath
+	# Local phone calls
+	looking(DEMAND), stwo01, mks(DAILY), csc(DEMAND),
+	# Ontario LD
+	thunder(WEEKLY), deepthot(EVENING), utzoo(EVENING), lsuc(EVENING),
+	# USA LD
+	decvax(DAILY), ihnp4(DAILY), linus(DAILY+LOW), plus5(DAILY),
+	attunix(DAILY), tektronix(DAILY),
+	# X.29 in Canada
+	utai(HOURLY+HIGH), ubc-vision(HOURLY), dalcs(HOURLY),
+	musocs(HOURLY+LOW), alberta(HOURLY), calgary(HOURLY), garfield(HOURLY),
+	uunet(HOURLY*4), # X.29 to USA
+	<cantuar>(DAILY)	 # NZ
+ # Logical U of Waterloo LAN, less workstations
+WaterlooNet = {
+	watmath,
+	watcgl,		# Computer Graphics R&D
+	watdragon, watyew,		# AI
+	watrose, watshine, # lily,	# Teaching
+	water,	# Research in fluid mechanics, optimisation, AI, cryptography
+	watmsg,	# Research in distributed systems
+	watmum,	# Research in symbolic algebra, data structures
+	watdcsu,	# Typesetting
+	watpix,		# Arts computing
+	orchid,		# Admin
+	watsol, watbun,	watstat,
+	watvlsi, ccng,	# VLSI and CCNG depts.
+	watale,		# General engineering research
+ # BITNET links
+ #  water and watdcsu have BITNET links to watdcs
+	watcsg, watbank, # R&D
+	watdcs,		 # Academic computing, data processing 
+	watacs, watlager, watmad, watimp, wataco
+ }!(LOCAL)
+
+#N      web
+#S      Sweet Electronics IBM compatible AT; SCO XENIX Version 2.2
+#O      Ontario Environment Network
+#C      Michael Jensen
+#E      web!mikej
+#T      +1 416 925 1322, +1 416 463 4550
+#P      456 Spadina Ave, Toronto, Ontario, Canada, M5T 2G8
+#L      79 21 W / 43 42 N
+#R      Web is also accessible via iNet and Datapac.
+#U      ontmoh
+#W      mikej@web (Michael Jensen); Sun Jan 15 20:55:48  EDT 1988
+#
+web	ontmoh
+
+#N	xicom
+#S	Spectrix Series-30; XENIX
+#O	Xicom Technologies Corp.
+#C	Al Norman
+#E	xicom!root
+#T	+1 613 728 9099
+#P	1545 Carling Avenue, Ottawa, Ontario, Canada
+#L	75 42 W / 45 25 N city
+#R
+#U	xios
+#W	xios!tony (Tony Lill); Thu Apr 9 12:33:00 EDT 1987
+xicom	xios(HOURLY)
+
+#N	xios
+#S	Convergent Technologies Mightyframe; CTIX 5.11
+#O	XIOS Systems Corporation
+#C	Tony Lill
+#E	xios!tony
+#T	+1 613 725 5411
+#P	1600 Carling Avenue, Suite 150, Ottawa, Ontario, Canada, K1Z 8R8
+#L	75 42 W / 45 25 N city
+#R	Renaissance office automation system
+#U	nrcaer xicom cott01
+#W	xios!tony (Tony Lill); Thu Apr 9 12:14:00 EDT 1987
+#
+xios	nrcaer(DIRECT), xicom(DIRECT), cognos(DIRECT), cott01(DIRECT)
+
+#N	yetti
+#S	Sun 280s; SunOS 3.4
+#O	York University Department of Computer Science
+#C	Terry Lim, Ozan S. Yigit
+#E	yetti!terry, yunexus!oz
+#T	+1 416 736 5053 x 4324, +1 416 736 5257 x 3976
+#P	4700 Keele Street, North York - ONT., CANADA  M3J 1P3
+#L	43 46 02 N / 79 30 00 W	
+#R
+#U	yunexus
+#W	yunexus!oz (Ozan S. Yigit); Thu Dec 17 12:00:00 EST 1987
+#
+yetti	yunexus(LOCAL) 		# mail and news connection
+
+#N	ypa
+#S	Plexus P-60, System VR2
+#O	Classified Directory Publishers Inc.
+#C	David Arjoon
+#E	ypa!root
+#T	+1 416 477 4420
+#P
+#L
+#R
+#U	geac
+#W	geac!david (David Haynes); Fri, 03 Jul 87 07:52:10 edt
+#
+ypa	geac(EVENING)		# Geac Computers International Inc.
+
+#N	yugauss
+#S	Silicon Graphics Iris 1400; UNIX System V Release 1
+#O	Department of Mathematics, York University
+#C	Georges Monette
+#E	yumath!georges
+#T	+1 416 736 5250
+#P	4700 Keele Street, North York, Ontario, M3J 1P3
+#L	43 46 02 N / 79 30 00 W
+#U	yumath
+#W	yumath!georges (Georges Monette); Wed Dec 16 02:48:23 EST 1987
+#
+yugauss	yunexus(DIRECT), yetti(DAILY), yumath(DEDICATED)
+
+#N	yumath
+#S	Silicon Graphics Iris 1400; UNIX System V Release 1
+#O	Department of Mathematics, York University
+#C	Georges Monette
+#E	yumath!georges
+#T	+1 416 736 5250
+#P	4700 Keele Street, North York, Ontario, M3J 1P3
+#L	43 46 00 N / 79 30 00 W
+#W	yumath!georges (Georges Monette); Wed Dec 16 02:48:49 EST 1987
+#
+yumath	yunexus(DIRECT), yetti(DAILY), yugauss(DEDICATED)
+
+#N	yunccn
+#S	IBM PC AT; SCO XENIX Version 2.2
+#O	York University Faculty of Environmental Studies
+#C	Mary Bernard, Mike Clarkson, Paul Shields
+#E	yunccn!usenet
+#T	+1 416 736 5287
+#P	4700 Keele Street, North York, Ontario, Canada, M3J 1P3
+#L	79 30 W / 43 47 N
+#R	yunccn is the gateway to the Native Computer Communications Network.
+#U	nccnat oneida sixnat union
+#W	yunccn!shields (Paul Shields); Mon Jan 04 03:19:09 EST 1988
+#
+yunccn	gen1(DIRECT), nccnat(DIRECT), nccnxt(DIRECT), oneida(HOURLY),
+	ontmoh(DIRECT), sixnat(HOURLY), union(HOURLY)
+
+#N	yunexus
+#S	Sun 280s; SunOS 3.4
+#O	York University Department of Computing Services
+#C	Ozan S. Yigit, Eriks Rugelis
+#E	yunexus!oz, yunexus!eriks
+#T	+1 416 736 5257 x 3976, +1 416 736 5257 x 2688
+#P	4700 Keele Street, North York - ONT., CANADA  M3J 1P3
+#L	43 46 02 N / 79 30 00 W	
+#R
+#U	mnetor geac gen1 yumath unicus yetti
+#W	yunexus!oz (Ozan S. Yigit); Fri Jan 15 15:17:17 EST 1988
+#
+yunexus	utgpu(DIRECT), 		# mail connection
+	utzoo(DIRECT), 		# main news and mail connection
+	mnetor(DIRECT), 	# main mail connection
+	geac(HOURLY),		# downstream news feed
+	lsuc(DIRECT), 		# mail connection
+	yetti(LOCAL),		# mail/news connection
+	carr(DEDICATED),	# mail/news connection
+	writer(DEDICATED),	# same as above
+	yumath(DIRECT+LOW),
+	yugas(HOURLY),
+	cmq1(DIRECT),
+	gen1(HOURLY),		# downstream partial news feed 
+	dcsnett(WEEKLY/4),
+	lethe(DAILY), 
+	msitxt(DIRECT),
+	sis(DIRECT), 		# Sheridan College downstream partial news feed
+	maccs(HOURLY+LOW),	# McMaster 
+	spectrix(DIRECT), 
+	unicus(DIRECT), 	# downstream partial news feed
+	yugauss(HOURLY), 	# downstream partial news feed
+	yup(HOURLY+LOW),
+	msitxt(HOURLY),
+	tmsoft(DAILY/3),
+	redvax(HOURLY+LOW)
+
+#N	zorac
+#S	VAX 11/750; 4.2BSD UNIX
+#O	Defence and Civil Institute of Environmental Medicine
+#C	Lynda Kennedy
+#E	zorac!lynda
+#T	+1 416 635 2077
+#P	P.O. Box 2000, 1133 Sheppard Ave. W, Downsview, ON, Canada M3M 3B9
+#L	43 45 01 N / 79 28 08 W
+#R	also talks (poor connection) to dmc-crc.ARPA in Ottawa
+#U
+#W	dciem!tim (Tim Pointing); Mon Oct 27 14:42:35 EST 1986
+#
+#zorac	isis(LOCAL)		# isis is an alias for udenver (utai!path)
+zorac	dciem(LOCAL),	per(LOCAL),	sim(LOCAL),	daq(LOCAL)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

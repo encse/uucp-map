@@ -1,0 +1,429 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.ita.1
+: This archive created: Thu Mar 31 04:14:14 1988
+echo shar: extracting u.ita.1
+cat << 'SHAR_EOF' > u.ita.1
+#    u.ita.1 ; changes to : uucpmap@i2unix.uucp
+
+#N    automa
+#S    PC/AT (compatibile) XENIX SYS V
+#O    Automa s.r.l
+#C    Adriano Verardo
+#E    automa!adriano
+#T    +39 10 205705
+#P    Via Caffaro 8/12, I-16100 Genova, Italy
+#L    44.22N 8.55E
+#R	
+#W    i2unix!ab 880201
+#
+
+#N    ccaumi
+#S    Vax 750 4.3Bsd
+#O    Centro di calcolo Universita' di Milano
+#C    Paola Formai
+#E    ccaumi!paola
+#T    +39 2 2361060
+#P    via Colombo 71, Milano, I-20100 Italy
+#L    45.28N 9.12E
+#W    i2unix!ab 880201
+#
+
+#N    cip
+#S    sun 3/50 4.2 BSD
+#O    CNR - IAMI
+#C    Bruno Betro`
+#E    cip!bruno
+#T    +39 2 2360105 / 2361159
+#P    via Ampere 56, Milano, I- 20131 
+#L    45.28N 9.12E
+#R
+#W    cip!bruno 880314
+#
+
+#N    cise
+#S    sun 2/170
+#O    Centro Informazioni Studi Esperienze
+#C    Massimo Savini
+#E    cise!max
+#T    +39 2 21672429
+#P    via Reggio Emilia 39, Segrate, I-20090 Italy
+#L    45.28N 9.12E
+#R
+#W    i2unix!roby 860312
+#
+
+#N    crai
+#S    Sun Network/4.2BSD
+#O    CRAI Consorzio per la Ricerca e le Applicazioni di Informatica
+#C    Giuseppe Gatto     
+#E    crai!pippo
+#T    +39 984 8331 / 833307
+#P    Contrada Santo Stefano, I-87020 Rende (CS), Italy  
+#L    39.20N 16.15E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    cselt
+#S    Vax 780/ BSD 4.2
+#O    CSELT - Centro Studi Elettronica e Telecomunicazioni
+#C    Francesco Antoci
+#E    cselt!root
+#T    +39 11 21691
+#P    Via Reiss Romoli 274, I-10148 Torino, Italy
+#L    45.03N 7.4E
+#R
+#W    i2unix!ab 880201
+#
+CSELTnet = {cselt, dotto, mammolo, pisolo, gongolo, cucciolo, eolo, brontolo}!(DIRECT)
+
+#N    delphi
+#S
+#O    Delphi S.p.A.
+#C    Roberto Angelotti
+#E    delphi!roby 
+#T    +39 584 395225
+#P    Via della Vetraia 11, I-55049 Viareggio, Italy
+#L    43.52N 10.14E
+#R
+#U    list, dipisa
+#W    i2unix!ab 880201
+#
+
+#N    dipisa
+#S
+#O    Dipartimento di Informatica - Universita' di Pisa
+#C    Franco Turini
+#E    dipisa!turini
+#T    +39 50 510111/510253
+#P    Corso Italia 40, I-56100 Pisa, Italy
+#L    43.66N 10.40E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    disrm
+#S    Sun 2/170 / Unix 4.2 
+#O    Dipartimento di Informatica - Universita' di Roma
+#C    Peppino Andreola
+#E    disrm!root
+#T    +39 6733412 
+#P    Via Buonarroti 12 I-00185 Roma, Italy
+#L    41.50N 12.35E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    enidbo
+#S    Sun 3/260
+#O    Enidata Bologna
+#C    Mario Bartoli
+#E    enidbo!mb
+#T    +39 51 505684
+#P    Viale Aldo Moro 38, I-40127 Bologna, Italy
+#L    44.00N 10.30E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    etna
+#S    Olivetti 3B2
+#O    Istituto di informatica e telecomunicazioni
+#C    Lorenzo Vita
+#E    etna!root
+#T    +39 95 339449
+#P    Via Andrea Doria 6, I-95100 Catania, Italy
+#L    39.20N 16.15E
+#R    Pending site
+#U
+#W    i2unix!ab 880201
+#
+
+#N    i2unix, ugdist
+#S    Sperry 5000/40 - Unix SysV
+#O    Dipartimento di Informatica, Sistemistica e Telematica
+#C    Joy Marino   /   Alessandro Berni 
+#E    i2unix!joy   /      i2unix!ab
+#T    +39 10 310223
+#P    Universita' di Genova, Via Opera Pia 11A, I-16145 Genova, Italy
+#L    44.22N 8.55E
+#R    Italian backbone site. Send help requests to iunet@i2unix.UUCP
+#U
+#W    i2unix!ab 880201
+#
+DistNet = {i2unix, ugdist, arianna, dist3d, dist23, dist24, 
+     dist34, distimg, distx, distat, distlisp, distap, star1,
+     olivia, ellen, san-ben, sva}!(LOCAL)
+i2unix    mcvax(ARPA) 
+i2unix    ccaumi(HOURLY), cise(HOURLY), crai(HOURLY), cselt(HOURLY/2),
+    delphi(HOURLY/2), disrm(HOURLY), sarinit(HOURLY), cip (HOURLY),
+    ic8u74(HOURLY), iconet(HOURLY/2), ieeupdb(HOURLY), olhqm01(HOURLY),
+    sadix(HOURLY), sgs(HOURLY), sissa(HOURLY), smcv(HOURLY),
+    ubdm(HOURLY), udsab(HOURLY), semto(HOURLY/2), dipisa (HOURLY),
+    usperry(HOURLY), leonardo(HOURLY), etna(DEAD), cip(HOURLY),
+    enidbo(HOURLY), imacnr(HOURLY), olita2(HOURLY), irst(HOURLY/2),
+    automa(HOURLY), unirel(HOURLY), kpit(HOURLY), lipr(HOURLY),
+    ugdibe(DIRECT)
+
+#N    ic8u74
+#S    VAX11 750 Ultrix 1.2
+#O    Italtel Sit
+#C    Angelo Ferrario
+#E    ic8u74!angelof
+#T    +39 2 43887167
+#P    Cascina Castelletto, Settimo milanese, I-20019 Milano, Italy
+#L    45.28N 9.12E
+#R
+#U
+#W    i2unix!roby 870108
+#
+
+#N    iconet
+#S    Vax 750  4.?BSD
+#O    I.C. OLIVETTI
+#C    Mauro Buffoni
+#E    iconet!mauro
+#T    +39 125 521525 / 521676
+#P    Via Jervis 7, I-10015 Ivrea,Italy
+#L    45.03N 7.40E
+#R
+#U
+#W    i2unix!ab 880201
+#
+ICOnet = {iconet,icocae,icodap,trzfal,icogre,barhor,icoign,icokip,
+    icolok,trzmac,icooll,icopen,scmque,icoras,icosal,psatit,psauly,
+    icoven,olivew,icoxan,icoyeh,icozen,icoque,icotwo,icol2m,newgest,
+    icos02,icos01,sssvax,trzsev}!(LOCAL)
+
+#N    ieeupdb
+#S    3b2/300
+#O    Istituto Elettrotecnica ed Elettronica Universita' di Padova
+#C    Franco Bombi
+#E    ieeupdb!franco
+#T    +39 49 8070268
+#P    Via Gradenigo 6a, I-35131 Padova, Italy
+#L    44.00N 10.30E
+#R
+#U
+#W    i2unix!roby 861115
+#
+
+#N    imacnr
+#S    Sun 3/50
+#O    Istituto per la matematica applicata C.N.R.
+#C    Sergio Antoy
+#E    imacnr!sergio
+#T    +39 10 515510
+#P    Via L.B. Alberti 24, I-16132 Genova, Italy
+#L    44.22N 8.55E
+#R
+#U
+#W    i2unix!roby 861106
+#
+
+#N    irst
+#O    SUN180/4.2BSD
+#O    Istituto per la Ricerca Scientifica e Tecnologica
+#C    Roberto Flor
+#E    irst!flor
+#T    +39 461 810105
+#P    Loc. Pante' di Povo, I-38100 Trento, Italy
+#L    46.10N 11.20E
+#R
+#W    i2unix!ab 880201
+#
+IRSTnet={irst, giotto, xerox, lisp-1, lisp-2}(DIRECT)
+
+#N    kpit
+#S    AT&T 3b2/300 - Unix SysV
+#O    Kuwait Petroleum Italia S.p.A.
+#C    Sergio Chiti    /    Paola Cantini
+#E    kpit!chiti      /    kpit!paola
+#T    +39 6 686071
+#P    Lungotevere Marzio 11, I-00186 Roma
+#L    41.50N 12.35E 
+#R    Pending site 
+#W    i2unix!ab 880314
+
+#N    leonardo
+#S    VAX 780, 4.2 BSD
+#O    Dipartimento di informatica Universita' di Torino
+#C    Bruno Graziano
+#E    leonardo!bruno
+#T    +39 11 755677
+#P    C.so Svizzera 185, I-10149 Torino, Italy
+#L    45.03N 7.40E
+#R
+#W    i2unix!roby 861115
+#
+
+#N    lipr
+#S    AT&T 3B2/300 
+#O    Laboratorio Interprovinciale di Informatica di Parma e Piacenza
+#C    Nicola Farina
+#E    lipr!nicola
+#T    +39 521 206030
+#P    via Carducci 24, I-43100 Parma, Italy
+#L     
+#R    
+#W    i2unix!ab 880314
+#
+
+#N    olhqm01
+#S    Olivetti/AT&T 3B2/300, System V
+#O    Olivetti HQ International Marketing, S/W support center
+#C    Antonio Fontanini
+#E    olhqm01!root
+#T    +39 2 452731
+#P    Olivetti HQIM, Via Caldera 21, I-20153 Milano, Italy
+#L    45.28N 9.12E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    olita2
+#S    Olivetti/AT&T 3B2/300, System V.2
+#O    Olivetti Direzione OEM/VAR
+#C    Roberto Perego
+#E    olita2!roberto
+#T    +39 2 88362423
+#P    Via Meravigli 12, I-20123 Milano, Italy
+#L    45.28N 9.12E
+#R
+#U
+#W    i2unix!roby 861115
+#
+
+#N    sadix
+#S    Sun 2/170 4.2BSD
+#O    CEC - Centro Comune di Ricerca - Divisione Elettronica 27A
+#C    Gianfranco De Grandi
+#E    sadix!gdf
+#T    +39 332 789823
+#P    21020 Ispra (VA), Italy
+#L    45.48N 8.37E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    sarinit
+#S    SUN 3 4.2BSD
+#O    Sarin settore ricerche
+#C    Stefano Pavan   
+#E    sarinit!root
+#T    +39 691197451
+#P    Via Pontina Km. 29.200, I-00100 Pomezia - Roma, Italy
+#L    41.50N 12.35E
+#R
+#U
+#W    i2unix!ab 880201
+#
+
+#N    semto 
+#S    Vax750/ 4.2BSD
+#O    Systems & Management S.p.A.    
+#C    Roberto Pirrone
+#E    semto!roby
+#T    +39 11 5612323
+#P    Piazza Solferino 7, I-10121 Torino, Italy
+#L    45.03N 7.40E
+#R    Former Italian backbone
+#W    i2unix!roby 860219
+#
+     
+#N    sissa
+#S    Gould 32/97 4.2Bsd
+#O    Scuola internazionale superiore di studi avanzati
+#C    Alvise Nobile 
+#E    sissa!root
+#T    +39 40 2240248
+#P    SISSA, strada Costiera 11, I-34014, Trieste,Italy
+#L    41.08N 14.15E
+#R
+#W    i2unix!ab 880201
+#
+
+#N    smcv
+#S    VAX785/4.2BSD
+#O    Italtel Telematica S.p.A.
+#C    Ebe Bultrini     
+#E    smcv!bultrini
+#T    +39 823 719402
+#P    Via Appia Loc. Cappuccini, I-81055 S.M.C.Vetere (CE), Italy
+#L    41.08N 14.15E
+#R
+#W    i2unix!ab 880201
+#
+
+#N    ubdm
+#S    Sun 3/50 Unix 4.2  
+#O    Dipartimento di Matematica, Universita' di Bologna  
+#C    Ozalp Babaoglu  
+#E    ubdm!ozalp  
+#T    +39 51 241303  
+#P    Piazza Porta San Donato, 5 I-xx127 Bologna, Italy
+#L    44.00N 10.30E  
+#R      
+#W    ubdm!ozalp 880314
+#
+
+#N    udsab
+#S    Vax 785 4.2BSD
+#O    Dipartimento di Informatica
+#C    Pippo Cattaneo
+#E    udsab!pc
+#T    +39 89 878299
+#P    Universita' di Salerno, Baronissi Salerno, Italy
+#L    41.00N 14.30E
+#R
+#W    i2unix!roby 861120
+#
+
+#N    ugdibe
+#S    MicroVax II GPX
+#O    Dipartimento di Ingegneria Biofisica ed Elettronica
+#C    Daniele Giusto
+#E    ugdibe!myrddin
+#T    +39 10 311811
+#P    Universita' di Genova, Via Opera Pia 11a, 16145 Genova, Italy  
+#L    44.22N 8.55E  
+#R     
+#W    i2unix!ab 880316   
+#
+
+#N    unirel
+#S    Miniframe Convergent CTIX SysV r.3.0b
+#O    Unirel s.r.l
+#C    Mauro Fantechi
+#E    unirel!mauro
+#T    +39 055 373043
+#P    Via Tevere 14, 50019 Osmannoro, Sesto Fiorentino (FI), Italy
+#L    43.51N 11.16E             
+#R    Other users: marco, andrea, gufo
+#W    i2unix!ab 880201
+#
+
+#N    usperry
+#S    Sperry PC IT / Xenix
+#O    Sperry spa, Information Systems Group
+#C    Angelo Ballarin
+#E    usperry!root
+#T    +39 2 6985520
+#P    Via B. Crespi 57, I-20124 Milano, Italy
+#L    45.28N 9.12E
+#R
+#W    i2unix!ab 880201
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0

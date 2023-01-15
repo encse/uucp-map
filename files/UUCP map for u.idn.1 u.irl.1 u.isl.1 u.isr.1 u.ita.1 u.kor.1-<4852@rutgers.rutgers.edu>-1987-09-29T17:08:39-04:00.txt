@@ -1,0 +1,1688 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.idn.1
+#	u.irl.1
+#	u.isl.1
+#	u.isr.1
+#	u.ita.1
+#	u.kor.1
+# This archive created: Tue Sep 29 17:08:36 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.idn.1
+cat << \SHAR_EOF > u.idn.1
+#N	indovax
+#S	Vax 11/750; 4.3BSd Unix
+#O	University of Indonesia, Computer Science Center
+#C	Benny Somali
+#E	indovax!somali
+#T	+62 021 345726
+#P	Jl. Salemba 4, P.O. Box 3442, Jakarta, Indonesia
+#L	06 11 S / 106 50 E
+#R	Telex 45680 (UI JKT)
+#W	rick@seismo.css.gov (Rick Adams); Thu Jul 17 00:09:28 EDT 1986
+#U	seismo
+#
+indovax	seismo(DAILY), munnari(DAILY), kaist(DAILY)
+#
+seismo	indovax(DAILY)
+munnari	indovax(DAILY)
+kaist	indovax(DAILY)
+SHAR_EOF
+echo shar: extracting u.irl.1
+cat << \SHAR_EOF > u.irl.1
+# 	u.irl.1; changes to: uucpmap@mcvax.uucp
+
+#N	iclitc
+#S	ICL Clan6/System V.2
+#O	ICL Information Technology Centre
+#C	Simon Kenyon
+#E	iclitc!simon
+#T	+353 1 956644
+#P	South County Business Park, Leopardstown, Dublin 18
+#L	6 15 W / 53 20 N city
+#R	Irish backbone whose real name is iclitc
+#R	just pretending to be einode during a period of transition
+#U	
+#W	iclitc!simon 870708
+#
+
+# 	Inter-backbone links
+iclitc	ukc(ARPA)
+
+# 	Einode alias
+iclitc = einode
+
+# 	National links
+iclitc	genrix(DAILY/4), puschi(DAILY/3), tcdcs(DAILY/4), tcdmath(DAILY/4)
+
+#N	euroies, eurokom
+#S	GEC Series 63
+#O	EuroKom
+#C	Philip Dunne
+#E	euroies!philip
+#T	+353 1 697890
+#P	University College Dublin, Computer Centre, Belfield, Dublin 4
+#L	6 15 W / 53 20 N city
+#R
+#U	
+#W	mcvax!piet 851114, 860729
+#
+euroies eurokom(LOCAL)
+
+#N	genrix
+#S	Microvax II/Ultrix 1.2
+#O	Generix Limited
+#C	Barry Lynch
+#E	genrix!lynch
+#T	+353 1 954012
+#P	7 Leopardstown Office Park, Foxrock, Dublin 18
+#L	6 15 W / 53 20 N city
+#R	
+#U	
+#W	iclitc!simon 870708
+#
+
+#N	puschi
+#S	Altos 286/Xenix
+#O	Glockenspiel Limited
+#C	John Carolan
+#E	puschi!john
+#T	+353 1 735159
+#P	19 Belvedere Place, Dublin 1
+#L	6 15 W / 53 20 N city
+#R	
+#U	
+#W	iclitc!simon 860627
+#
+
+#N	tcdcs
+#S	ICL Clan 3/System V
+#O	Trinity College, Computer Science Department
+#C	Michael Nowlan
+#E	tcdcs!michael
+#T	+353 1 772941 ext 1787
+#P	Trinity College, Dublin 2
+#L	6 15 W / 53 20 N city
+#R	
+#U	
+#W	iclitc!simon 860917
+#
+
+#N	tcdmath
+#S	PDP-11/73 2.9BSD
+#O	Trinity College, Maths Department
+#C	Dr. Timothy Murphy, Hugh Grant
+#E	tcdmath!tim, tcdmath!hugh
+#T	+353 1 772941 x 1486 or 1983
+#P	Trinity College, Dublin 2
+#L	53.20N 6.15W
+#R	
+#U	
+#W	iclitc!simon 861010
+#
+SHAR_EOF
+echo shar: extracting u.isl.1
+cat << \SHAR_EOF > u.isl.1
+# u.isl.1; changes to: uucpmap@hafro.uucp	Tue Nov  4 11:25:12 MET 1986
+
+#N	askja
+#S	Altos 3068/Sys V, rel. 2.
+#O	University of Iceland, Computing Center (RHI)
+#C	Marius Olafsson
+#E	askja!marius
+#T	+354 1 25088
+#P	Hjardarhaga 2, 107 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R
+#U	hafro
+#W	hafro!gunnar 861211
+#
+#N	hafro
+#S	HP9000/550, HP-UX
+#O	Marine Research Institute, Reykjavik
+#C	Gunnar Stefansson
+#E	hafro!gunnar
+#T	+354 1 20240
+#P	Skulagata 4, Reykjavik, Iceland
+#L	21 57 E / 64 08 N
+#R	Icelandic Backbone
+#U	mcvax
+#W	hafro!gunnar 870801
+#
+hafro	enea(ARPA), mcvax(ARPA-1), katla(DEAD), keilir(DAILY), krafla(HOURLY), marel(DAILY), rala(DAILY), geysir(DAILY), simi(DAILY)
+#N	katla
+#S	VAX750/Eunice
+#O	University of Iceland, Computing Center (RHI)
+#C	Marius Olafsson
+#E	katla!marius
+#T	+354 1 25088
+#P	Hjardarhaga 2, 107 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#U	hafro
+#W	katla!marius 861211
+#
+#N	keilir
+#S	HP9000/320 HP-UX
+#O	Utgardar, University of Iceland
+#C	Malcolm Cohen
+#E	keilir!malcolm
+#T	+354 1 622918
+#P	Ithrottahus Hagaskola, Fornhagi, 107 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	askja
+#W	hafro!gunnar
+#
+
+krafla katla(HOURLY/4), raunvis(HOURLY), keilir(DAILY), kerfi(HOURLY), norvol(DIRECT), hugh(DAILY), nanna(DIRECT), rhi(DIRECT), askja(DIRECT)
+#N	marel
+#S	HP 9000/320 & HPUX
+#O	Marel hf
+#C	Eggert Olafsson
+#E	marel!eggert
+#T	354 1 686858
+#P	P.O.Box 8394, 128 Reykjavik, Iceland
+#L	21 57 E, 64 08 N
+#R	
+#U	
+#W	hafro!gunnar
+#
+#N	raunvis
+#S	VAXstation II/GPX ULTRIX
+#O	Science Institute, University of Iceland
+#C	Marteinn Sverrisson
+#E	raunvis!matti
+#T	+354 1 21340
+#P	Dunhaga 3, Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	askja
+#W	hafro!gunnar
+#
+
+SHAR_EOF
+echo shar: extracting u.isr.1
+cat << \SHAR_EOF > u.isr.1
+# u.isr.1; changes to: uucpmap@mcvax.uucp
+
+
+#N	banana
+#S	vax11/750 4.2bsd Unix
+#O	The Fritz Haber Molecular Dynamics Research Center
+#C	Michael Berman
+#T	+972 2 585270
+#P	91904 Jerusalem, Israel.
+#E	banana!michael
+#L	35 14 E / 31 46 N city
+#R	also on bitnet (HUJIFH)
+#U
+#W	mcvax!piet 850610
+#
+
+#N	bengus
+#S	vax11/780 4.2bsd Unix
+#O	Ben-Gurion University, Dept. of Math & Comp. Science.
+#C	Arie Kaufman
+#T	
+#P	Beersheva, Israel.
+#E	bengus!postmaster
+#L	34 47 E / 31 14 N
+#R	also on csnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	huji
+#S	vax11/750 4.2bsd Unix
+#O	The Hebrew Univ. of Jerusalem, Dept. of Comp. Science.
+#C	Danny Braniss
+#T	+972 2 584385
+#P	91904 Jerusalem, Israel.
+#E	huji!danny
+#L	35 14 E / 31 46 N city
+#R	danny@huji.csnet, danny@HUJICS.bitnet
+#U
+#W	mcvax!piet 850610
+# The cost of huji-mcvax is given high to discourage its use
+# when another route exists.
+huji	banana(DIRECT), bengus(DAILY), humus(DIRECT), mcvax(WEEKLY),
+	taurus(DAILY), tech-sel(DAILY), wisdom(DAILY)
+
+#N	humus
+#S	vax11/780 4.2bsd Unix
+#O	The Hebrew Univ. of Jerusalem, Dept. of Comp. Science.
+#C	Danny Braniss
+#T	+972-2-584385
+#P	91904 Jerusalem, Israel.
+#E	humus!danny
+#L	35 14 E / 31 46 N city
+#R	also humus%israel@csnet-relay
+#U
+#W	mcvax!piet 850610
+# The cost of humus-decvax is given high to discourage its use
+# when another route exists.
+humus	banana(DAILY), bengus(DAILY), taurus(DAILY), tech-sel(DAILY),
+	wisdom(DAILY)
+
+#N	taurus
+#S	vax11/780 4.1bsd Unix
+#O	Tel-Aviv Univ., Dept. of Mathematial Sciences.
+#C
+#T	
+#P	Ramat-Aviv, Tel-Aviv, Israel.
+#E	taurus!nir
+#L	34 46 E / 32 04 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	tech-sel
+#S	
+#O	The Technion
+#C	Shlomo Goldberg
+#T	
+#P	Kiryat Hatechnion, Haifa, Israel.
+#E	technion!shlomo
+#L	35 00 E / 32 50 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	wisdom
+#S	vax11/750 4.2bsd Unix
+#O	Weizmann Institute, Dept. of Mathematics.
+#C	Lenore Zuck
+#T	
+#P	Rehovot, Israel.
+#E	wisdom!lenore
+#L	34 49 E / 31 54 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+SHAR_EOF
+echo shar: extracting u.ita.1
+cat << \SHAR_EOF > u.ita.1
+#	u.ita.1 ; changes to : uucpmap@i2unix.uucp
+
+#N	cca_umi
+#S	Vax 750 4.3Bsd
+#O	Centro di calcolo universita' di milano
+#C	valeria schiavi
+#E	cca_umi!root
+#T	+39 2 
+#P	citta' studi
+#L	45.28N 9.12E
+#R	subject to change asap
+#W	i2unix!roby 860915
+#
+
+#N	cise
+#S	sun 2/170
+#O	Centro informazioni studi esperienze
+#C	massimo gallanti
+#E	cise!max
+#T	+39 2 21672496
+#P	via Reggio Emilia 39, Segrate, I-20090 Italy
+#L	45.28N 9.12E
+#R
+#W	i2unix!roby 861120
+#
+
+#N	cselt
+#S
+#O	CSELT - Centro Studi Elettronica e Telecomunicazioni
+#C	Alessandro Camici
+#E	cselt!dcr
+#T	+39 11 21691
+#P	Via Reiss Romoli 274, I-10148 Torino, Italy
+#L	45.03N 7.4E
+#R	
+#W	i2unix!roby 860312
+#
+CSELTnet = {cselt, dotto, mammolo, pisolo, gongolo, cucciolo, eolo, brontolo}(DIRECT)
+
+
+#N	crai
+#S	
+#O	CRAI Consorzio per la ricerca e le applicazioni di informatica
+#C	Giuseppe Cavarretta
+#E	crai!pino
+#T	+39 984 837253
+#P	Via Bernini 5 Quattromiglia di Rende, I-87030 Cosenza, Italy	
+#L	39.20N 16.15E
+#R	
+#U	
+#W	i2unix!roby 860623
+#
+
+#N	delphi
+#S	
+#O	Delphi S.p.A.
+#C	Giuseppe Attardi
+#E	delphi!beppe
+#T	+39 584 395161
+#P	Via della Vetraia 11, I-55049 Viareggio, Italy
+#L	43.52N 10.14E
+#R	
+#U	list, dipisa
+#W	i2unix!roby 860311
+#
+delphi	dipisa(DAILY), list(DEAD)
+
+#N	dipisa
+#S	
+#O	Dipartimento di Informatica - Universita' di Pisa
+#C	Franco Turini
+#E	dipisa!turini
+#T	+39 50 40864
+#P	Corso Italia 40, I-56100 Pisa, Italy
+#L	43.66N 10.40E
+#R	
+#U	
+#W	i2unix!roby 860703
+#
+
+#N	disrm
+#S	
+#O	Dipartimento di Informatica - Universita' di Roma
+#C	Enrico Nardelli
+#E	disrm!nardelli
+#T	+39 67312367
+#P	Via Buonarroti 12 I-00185 Roma, Italy
+#L	41.50N 12.35E	
+#R	
+#U	
+#W	i2unix!roby 860703
+#
+
+#N	etna
+#S	
+#O	Istituto di informatica e telecomunicazioni
+#C	Lorenzo Vita
+#E	etna!root
+#T	+39 95 339449
+#P	Via Andrea Doria 6, I-95100 Catania, Italy	
+#L	39.20N 16.15E
+#R	
+#U	
+#W	i2unix!roby 870323
+#
+
+#N	i2unix
+#S	Vax750/ 4.2BSD	
+#O	Italian Unix systems User Group
+#C	Roberto Pirrone
+#E	i2unix!roby
+#T	+39 11 538608
+#P	Piazza Solferino 7, I-10121 Torino, Italy
+#L	45.03N 7.40E
+#R	italian central site
+#U	ugdist, cselt, olita2, sadix, smcv_02, sgs, cca_umi
+#W	i2unix!roby 860219
+#
+i2unix	mcvax(ARPA), inria(ARPA)
+i2unix	cise(DAILY), crai(DEMAND), cselt(DAILY/4), 
+	delphi(HOURLY), disrm(DAILY/2), 
+	ic8u74(DAILY), iconet(DAILY/4), ieeupdb(DAILY), olhqm01(WEEKLY), 
+	sadix(DEAD), sgs(DAILY), sissa(WEEKLY),
+	strolog(DAILY), ubdm(DAILY), udsab(DEMAND), ugdist(DAILY/4), 
+	usperry(WEEKLY), leonardo(DAILY), etna(DAILY)
+
+#N	ic8u74
+#S	VAX11 750 Ultrix 1.2
+#O	Italtel Sit
+#C	angelo ferrario
+#E	ic8u74!angelof
+#T	+39 2 43887167
+#P	Cascina castelletto Settimo milanese, I-20019 Milano Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	i2unix!roby 870108
+#
+
+#N	iconet
+#S	PDP11/44 2.9BSD
+#O	I.C. OLIVETTI
+#C	paolo campagnola
+#E	iconet!paul
+#T	+39 125 522402
+#P	Via Jervis 7, I-10015 Ivrea,Italy
+#L	45.03N 7.40E
+#R	
+#U
+#W	i2unix!roby 860603
+#
+
+#N	ieeupdb
+#S	3b2/300
+#O	Istituto Elettrotecnica ed Elettronica Universita' di Padova
+#C	franco bombi
+#E	ieeupdb!franco
+#T	+39 49 8070268
+#P	Via Gradenigo 6a, I-35131 Padova, Italy
+#L	44.00N 10.30E
+#R	
+#U
+#W	i2unix!roby 861115
+#
+
+#N	imacnr
+#S	Sun 3/50
+#O	Istituto per la matematica applicata C.N.R. 
+#C	Sergio Antoy
+#E	imacnr!sergio
+#T	+39 10 515510
+#P	Via L.B. Alberti 24, I-16132 Genova, Italy
+#L	44.22N 8.55E
+#R	
+#U
+#W	i2unix!roby 861106
+#
+
+
+#N	list
+#S	SUN2/120 4.2BSD
+#O	list s.r.l.
+#C	Enrico Sonno
+#E	list!sleep
+#T	+39 50 44023
+#P	p.za Mazzini 6, I-56100 Pisa, Italy
+#L	43.43N 10.24E
+#R	
+#W	i2unix!roby 860311
+#
+
+
+#N	olhqm01
+#S	Olivetti/AT&T 3B2/300, System V
+#O	Olivetti HQ International Marketing, S/W support center
+#C	Tecchio
+#E	olhqm01!root
+#T	+39 2 452731
+#P	Olivetti HQIM, Via Caldera 21, I-20153 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	olhqma!pete 850313
+#
+
+#N	olita2
+#S	Olivetti/AT&T 3B2/300, System V.2
+#O	Olivetti Direzione OEM/VAR
+#C	roberto perego
+#E	olita2!roberto
+#T	+39 2 88362423
+#P	Via Meravigli 12, I-20123 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#U
+#W	i2unix!roby 861115
+#
+
+#N	sgs
+#S	
+#O	SGS-ATES S.p.A.
+#C	Lucio D'Amico
+#E	sgs!lucio
+#T	+39 39 635542
+#P	Centro Direzionale Colleoni, Andromeda 3, I-20041 Agrate Brianza, Italy
+#L	45.34N 9.21E
+#R	mcvax
+#U
+#W	mcvax!piet 841215
+#
+
+#N	sissa
+#S	Gould 32/97 4.2Bsd
+#O	Scuola internazionale superiore di studi avanzati
+#C	Paolo Budinich
+#E	sissa!root
+#T	+39 40 22401
+#P	SISSA, strada Costiera 11, I-34014, Trieste,Italy
+#L	41.08N 14.15E
+#R	
+#W	i2unix!roby 860708
+#
+
+#N	smcv_02
+#S	VAX785/4.2BSD
+#O	Italtel Telematica S.p.A.
+#C	Francesco Vitale 
+#E	smcv_02!vitale
+#T	+39 823 791421
+#P	Italtel Telematica,Via Appia Loc. Cappuccini, I-81055 S.M.C.Vetere (CE),Italy
+#L	41.08N 14.15E
+#R	
+#W	i2unix!roby 860313
+#
+
+#N	strolog
+#S	
+#O	STRHOLD S.p.A.
+#C	Paolo Balocchi
+#E	strolog!paolo
+#T	+39 522 70941
+#P	Via Cipriani 2, I-42100 Reggio Emilia, Italy
+#L	44.43N 10.36E
+#R	
+#U	mcvax
+#W	mcvax!piet 851202
+#
+
+#N	ubdm
+#S	3B2/300XM & System V
+#O	Dipartimento di Matematica, Universita' di Bologna
+#C	Luigi Cerofolini
+#E	ubdm!luigi
+#T	+39 51 275500
+#P	Piazza Porta San Donato 5, I-40100 Bologna, Italy
+#L	44.00N 10.30E
+#R	
+#W	i2unix!roby 860318
+#
+
+#N	udsab
+#S	Vax 785 4.2BSD
+#O	Dipartimento di Informatica
+#C	pippo cattaneo
+#E	udsab!pc
+#T	+39 89 878299
+#P	universita' di salerno, Baronissi Salerno, Italy
+#L	41.00N 14.30E
+#R	
+#W	i2unix!roby 861120
+#
+
+#N	ugdist
+#S	VAX750/4.2BSD
+#O	Dipartimento di Informatica, Sistemistica e Telematica
+#C	Joy Marino
+#E	ugdist!joy
+#T	+39 10 310223
+#P	Via Opera Pia 11A, I-16145 Genova, Italy
+#L	44.22N 8.55E
+#R	
+#W	i2unix!roby 860311
+#
+DistNet = {ugdist, distimg, distai, dist23, dist24, dist34}!(LOCAL)
+ugdist	imacnr(HOURLY)
+
+
+#N	usperry
+#S	Sperry PC IT
+#O	Sperry spa, Information Systems Group
+#C	Daniele Schinelli
+#E	usperry!dny
+#T	+39 2 6883470
+#P	Via Pola 9 I-20124 Milano, Italy
+#L	45.28N 9.12E
+#R	
+#W	i2unix!roby 860703
+#
+
+#N	leonardo
+#S	VAX 780, 4.2 BSD
+#O	Dipartimento di informatica Universita' di Torino
+#C	bruno graziano
+#E	leonardo!bruno
+#T	+39 11 755677
+#P	C.so Svizzera 185, I-10100 Torino, Italy
+#L	45.03N 7.40E
+#R	
+#W	i2unix!roby 861115
+#
+SHAR_EOF
+echo shar: extracting u.kor.1
+cat << \SHAR_EOF > u.kor.1
+# Map for System Development Network in Korea
+# Coordinator ; Haesoon Cho (nmc@sorak.kaist.ac.kr)
+# Latest Update ; 9/2/87
+
+#N	3bketri
+#S	3B20S ; System V (Rel. 2.4)
+#O	Electronics and Telecommunication Research Institute
+#C	Hong, Jin Pyo, Kim, Sung Hee
+#E	kaist!ketri!3bketri!postmaster
+#T	+82 42 822 4455 x5611
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E /36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+3bketri	ketri(DIRECT)
+3bketri = "3bketri.etri.res.kr"
+3bketri = "3bketri.etri.re.kr"
+3bketri = "3bketri.etri.re"
+3bketri = "3bketri.etri"
+
+#N	choe
+#S	Sun 3/52; 4.2 BSD UNIX
+#O	Programming Languages Lab., Dept. of Computer Science, KAIST
+#C	Kwang-Moo Choe
+#E	kaist!choe!choe
+#T	+82 2 966 1931 x3752
+#P	P.O. Box 150 Chongryang, Seoul 131, Rep. of Korea
+#L	126 58 E /37 33 N city
+#R
+#W	Kwang-Moo Choe; Jan. 19 1987
+choe kaist(LOCAL)
+choe = "choe.kaist.edu.kr"
+choe = "choe.kaist.ac.kr"
+choe = "choe.kaist.edu"
+choe = "choe.kaist"
+
+#N	cosmos
+#S	SUN2/130 ; 4.2 BSD UNIX 
+#O	Korea Advanced Institute of Science and Technology
+#C	Lee, Dongman
+#E	kaist!cosmos!postmaster
+#T	+82 2 966 1931 x4714
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N 
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+cosmos	kaist(LOCAL)
+cosmos = "cosmos.kaist.edu.kr"
+cosmos = "cosmos.kaist.ac.kr"
+cosmos = "cosmos.kaist.edu"
+cosmos = "cosmos.kaist.ac"
+cosmos = "cosmos.kaist"
+
+#N	cskaist
+#S	VAX 11/780 ; 4.2 BSD UNIX
+#O	Korea Advanced Institute of Science and Technology
+#C	Ahn, Jaeeon
+#E	kaist!cskaist!postmaster
+#T	+82 2 966 1931 x4721
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N 
+#R	
+#U	kaist	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+#		10M Pronet Ring
+cskaist	kaist(LOCAL), dlkaist(LOCAL)
+cskaist = "cskaist.kaist.edu.kr"
+cskaist = "cskaist.kaist.ac.kr"
+cskaist = "csd.kaist.edu.kr"
+cskaist = "csd.kaist.ac.kr"
+cskaist = "cskaist.kaist.ac"
+cskaist = "csd.kaist.ac"
+cskaist = "cskaist.kaist"
+cskaist = "csd.kaist"
+
+#N	csms2
+#S	3B2 ; System V
+#O	Electonic Telecommunication Research Institute
+#C	Yang, Jae Woo, Han, Kyung Sook
+#E	kaist!ketri!csms2!postmaster
+#T	+82 42 822 4455 x2311
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	csms2!kshan(Kyungsook Han); Mon May 30 11:31:47 EDT 1986
+#
+csms2	ketri(DIRECT)
+csms2 = "csms2.etri.res.kr"
+csms2 = "csms2.etri.re.kr"
+csms2 = "csms2.etri.re"
+csms2 = "csms2.etri"
+
+#N	dacom1
+#S	3B20 ; System V 2.0
+#O	Data Communication Co.
+#C	Lee, Si Chan
+#E	kaist!dacom1!postmaster
+#T	+82 2 784 0381 x2664
+#P	P.O. Box 15, Youido-dong, Youngdeungpo-ku, Seoul, Korea
+#L	126 49 E / 37 34 N 
+#R      
+#U	
+#W	kaist!hscho (Haesoon Cho); Sat Oct 18 14:28:35 GMT+9:00 1986
+#
+dacom1	kaist(DIRECT)
+dacom1 = "dacom1.dacom.com.kr"
+dacom1 = "dacom1.dacom.co.kr"
+dacom1 = "dacom1.dacom.co"
+dacom1 = "dacom1.dacom"
+
+#N	dacomse
+#S	PC/AT; Xenix V.2
+#O	Data Communication Co.
+#C	Oh, Ik Kyoon
+#E	kaist!dacomse!postmaster
+#T	+82 2 784 0381 x2664
+#P	P.O. Box 15, Youido-dong, Youngdeungpo-ku, Seoul, Korea
+#L	126 49 E / 37 34 N 
+#R      
+#U	
+#W	kaist!hscho (Haesoon Cho); Sat Oct 18 14:28:35 GMT+9:00 1986
+#
+dacomse	kaist(DIRECT), dacom1(DIRECT)
+dacomse = "dacomse.dacom.com.kr"
+dacomse = "dacomse.dacom.co.kr"
+dacomse = "dacomse.dacom.co"
+dacomse = "dacomse.dacom"
+
+#N	dacom2
+#S	3B20 ; System V 2.0
+#O	Data Communication Co.
+#C	Lee, Si Chan
+#E	kaist!dacom1!postmaster
+#T	+82 2 784 0381 x2664
+#P	P.O. Box 15, Youido-dong, Youngdeungpo-ku, Seoul, Korea
+#L	126 49 E / 37 34 N 
+#R      
+#U	
+#W	kaist!hscho (Haesoon Cho); Sat Oct 18 14:28:35 GMT+9:00 1986
+#
+dacom2	dacom1(DIRECT)
+dacom2 = "dacom2.dacom.com.kr"
+dacom2 = "dacom2.dacom.co.kr"
+dacom2 = "dacom2.dacom.co"
+dacom2 = "dacom2.dacom"
+
+#N	dacom3
+#S	3B20 ; System V 2.0
+#O	Data Communication Co.
+#C	Lee, Si Chan
+#E	kaist!dacom1!dacom2!dacom3!postmaster
+#T	+82 2 784 0381 x2664
+#P	P.O. Box 15, Youido-dong, Youngdeungpo-ku, Seoul, Korea
+#L	126 49 E / 37 34 N 
+#R      
+#U	
+#W	kaist!hscho (Haesoon Cho); Sat Oct 18 14:28:35 GMT+9:00 1986
+#
+dacom3	dacom2(DIRECT)
+dacom3 = "dacom3.dacom.com.kr"
+dacom3 = "dacom3.dacom.co.kr"
+dacom3 = "dacom3.dacom.co"
+dacom3 = "dacom3.dacom"
+
+#N	dacom4
+#S	VAX 11/750 ; 4.2 BSD
+#O	Data Communication Co.
+#C	Lee, Kwang Su 
+#E	kaist!dacom1!dacom2!dacom4!postmaster
+#T	+82 2 784 0381 x2664
+#P	P.O. Box 15, Youido-dong, Youngdeungpo-ku, Seoul, Korea
+#L	126 49 E / 37 34 N 
+#R      
+#U	
+#W	kaist!hscho (Haesoon Cho); Sat Oct 18 14:28:35 GMT+9:00 1986
+#
+dacom4	dacom2(DIRECT)
+dacom4 = "dacom4.dacom.com.kr"
+dacom4 = "dacom4.dacom.co.kr"
+dacom4 = "dacom4.dacom.co"
+dacom4 = "dacom4.dacom"
+
+#N	dlkaist	
+#S	VAX 11/750 ; 4.2 bsd UNIX
+#O	Korea Advanced Institute of Science and Technology
+#C	Jo, Bog Lae
+#E	kaist!dlkaist!postmaster
+#T	+82 2 966 1931 x3763 3712
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+dlkaist	kaist(LOCAL)
+dlkaist = "dlkaist.kaist.edu.kr"
+dlkaist = "dlkaist.kaist.ac.kr"
+dlkaist = "dlkaist.kaist.ac"
+dlkaist = "dlkaist.kaist"
+
+#N	etrivax
+#S	VAX 11/750 ; 4.2 BSD UNIX
+#O	Electonics and Telecommunication Research Institute
+#C	Choi, Yang Hee, Han Ki Soo
+#E	kaist!kiet!etrivax!postmaster
+#T	+82 42 822 4455 x2488
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+etrivax	ketri(DIRECT), kiet(DIRECT), tdxse(DIRECT)
+etrivax = "etrivax.etri.res.kr"
+etrivax = "etrivax.etri.re.kr"
+etrivax = "etrivax.etri.re"
+etrivax = "etrivax.etri"
+
+#N	gs
+#S	GSM-3068 ; Sys. V
+#O	Gold Star Co.
+#C	Yang, Beomjoon
+#E	kaist!mani!gs!bjyang
+#T	+82 856 5811 x210
+#P	327-23 Garibong-Dong Guro-Gu, Seoul, Korea
+#L	
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Thu Dec 18 11:51:09 GMT+9:00 1986
+#
+gs	mani(DIRECT) 
+gs = "gs.gs.com.kr"
+gs = "gs.gs.co.kr"
+
+#N	gsc
+#S	VAX 11/750 ; 4.2 bsd UNIX
+#O	Gold Star Cable Co.
+#C	Park, Youngjin
+#E	kaist!gsc!postmaster
+#T	+82 0432 52 4151 x390
+#P	155 Hogye-Dong, Annyang-Si, Kyungki-Do, Korea
+#L	126 58 E / 37 22 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+gsc	kaist(DIRECT) 
+gsc = "gsc.gsc.com.kr"
+gsc = "gsc.gsc.co.kr"
+gsc = "gsc.gsc.co"
+gsc = "gsc.gsc"
+
+gsc = "gsc.co.kr"
+
+#N	hadan
+#S	SSM-16; V. 7
+#O	Donga University
+#C	Lee, Jungtae
+#E	sorak.kaist.ac.kr!hadan!postmaster
+#T	+82 051 204 0171 x 3824
+#P	840 Hadan-dong, Saha-ku, Pusan-si, Korea
+#L	
+#R	
+#U	
+#W	sorak!hscho (Haesoon Cho); Wed Feb 25 03:21:55 GMT+9:00 1987
+#
+hadan	sorak(DEAD)
+hadan = "hadan.donga.ac.kr"
+hadan = "hadan.donga.ac"
+
+#N	hanyang
+#S	VAX 11/750 ; 4.2 bsd UNIX
+#O	Hanyang University
+#C	Kim, Dongjin
+#E	kaist!hanyang!postmaster.
+#T	+82 2 292 2111 x2127
+#P	Heandang-dong, Sungdong-ku, Seoul, Korea
+#L	127 02 E / 37 33 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Thu Dec 18 11:51:09 GMT+9:00 1986
+#
+hanyang	kaist(DIRECT), zevy(DIRECT)
+hanyang = "hanyang.hanyang.edu.kr"
+hanyang = "hanyang.hanyang.ac.kr"
+hanyang = "hyuee.hanyang.edu.kr"
+hanyang = "hyuee.hanyang.ac.kr"
+hanyang = "hanyang.hanyang.ac"
+hanyang = "hyuee.hanyang.ac"
+hanyang = "hanyang.hanyang"
+hanyang = "hyuee.hanyang"
+
+#N	kaist
+#S	VAX 11/750 ; 4.2 bsd UNIX
+#O	Korea Advanced Institute of Science and Technology
+#C	Hur, Jin Ho
+#E	kaist!postmaster
+#T	+82 2 966 1931 x3806 3744 4714
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N 
+#R	Gateway to USENET and CSNET of Korean sites	
+#U	cskaist gsc ketri kiet kta pine snucom
+#W	kaist!hscho (Haesoon Cho); Tue Feb  9 16:38:11 GMT+9:00 1987
+#		10M Pronet Ring
+kaist	cskaist(LOCAL), dlkaist(LOCAL)
+#
+#		10M Ethernet 
+kaist	pine(LOCAL), palm(LOCAL), cosmos(LOCAL)
+#
+#		local hard line
+kaist	moran(DIRECT), mani(DIRECT), tulip(DIRECT), lilac(DIRECT), choe(DIRECT)
+#
+#		domestic PSTN/PSDN line
+kaist	dacomse(DEAD), oaseri(DEAD), park(DIRECT),sse(DAILY), sst(DAILY/4),
+	hadan(DEAD)
+#		Asia Sites
+kaist	indovax(DEMAND), munnari(DEMAND), hkucs(WEEKLY*3), kddlab(DAILY*2),
+ 	tataelxsi(DAILY), mimos(DEAD)	
+#
+#		Asia Sites pending (Not on line yet)
+#kaist	titcca(POLLED)
+#
+#		X.25 oversea link through PAD.
+kaist	mcvax(DAILY)
+#		X.25 oversea link pending
+#kaist	ucl-cs(DEAD))
+#
+#		Domestic leased line link.
+kaist	kiet(DIRECT), ketri(DIRECT), gsc(DIRECT), kta(DIRECT),
+	dacom1(DIRECT), hanyang (DIRECT), kuecc(DIRECT),
+	snucom(DIRECT)
+kaist = "sorak"
+kaist = "sorak.kaist.edu.kr"
+kaist = "sorak.kaist.ac.kr"
+kaist = "kaist.kaist.edu.kr"
+kaist = "kaist.kaist.ac.kr"
+kaist = "sorak.kaist.ac"
+kaist = "kaist.kaist.ac"
+kaist = "sorak.kaist"
+kaist = "kaist.kaist"
+kaist = "kaist.ac.kr"
+
+#N	ketri
+#S	VAX 11/750 ; System V (Rel. 2.0)
+#O	Electronics and Telecommunications Research Institute
+#C	Hong, Jin Pyo, Cho, Cheol Hye
+#E	kaist!ketri!postmaster
+#T	+82 42 822 4455 x3488
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+ketri	kaist(DIRECT), 3bketri(DIRECT), kiet(DIRECT), saturn(DIRECT),
+	csms2(DIRECT), tops(DIRECT), sigssm(DIRECT), santa(DIRECT),
+	etrivax(DIRECT)
+ketri = "ketri.etri.res.kr"
+ketri = "ketri.etri.re.kr"
+ketri = "ketri.etri.re"
+ketri = "ketri.etri"
+
+#N	kiet
+#S	VAX 11/750 ; 4.2 BSD
+#O	Electronics and Telecommunications Research Institute
+#C	Kim, Kyeong Beom
+#E	kaist!kiet!postmaster
+#T	+82 042 822 4455 x2377
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kiet	ketri(DIRECT), kaist(DIRECT), etrivax(DIRECT), kit(DIRECT)
+kiet = "kiet.etri.res.kr"
+kiet = "kiet.etri.re.kr"
+kiet = "kiet.etri.re"
+kiet = "kiet.etri"
+
+#N	kit
+#S	VAX 11/750 ; 4.2 BSD
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!postmaster
+#T	+82 042 822 1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 27 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kit	kiet(DEMAND), ketri(DIRECT), kit0(DIRECT), kits1(DIRECT), 
+	kits2(DIRECT), kits3(DIRECT), kits4(DIRECT), kits5(DIRECT), 
+	kits6(DIRECT), kits7(DIRECT),
+	mvu1(DIRECT), mvu2(DIRECT), mvu3(DIRECT)
+kit = "kit.kit.edu.kr"
+kit = "kit.kit.ac.kr"
+kit = "kit.kit.ac"
+kit = "kit.kit"
+
+kit = "kit.ac.kr"
+
+#N	kit0
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kit0	kit(DIRECT)
+kit0 = "kit0.kit.edu.kr"
+kit0 = "kit0.kit.ac.kr"
+kit0 = "kit0.kit.ac"
+kit0 = "kit0.kit"
+
+#N	kits1
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!ketri!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits1	kit0(DIRECT)
+kits1 = "kits1.kit.edu.kr"
+kits1 = "kits1.kit.ac.kr"
+kits1 = "kits1.kit.ac"
+kits1 = "kits1.kit"
+
+#N	kits2
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin, Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits2	kit0(DIRECT)
+kits2 = "kits2.kit.edu.kr"
+kits2 = "kits2.kit.ac.kr"
+kits2 = "kits2.kit.ac"
+kits2 = "kits2.kit"
+
+#N	kits3
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin, Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 30 E /36 35 N city 
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits3	kit0(DIRECT)
+kits3 = "kits3.kit.edu.kr"
+kits3 = "kits3.kit.ac.kr"
+kits3 = "kits3.kit.ac"
+kits3 = "kits3.kit"
+
+#N	kits4
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits4	kit0(DIRECT)
+kits4 = "kits4.kit.edu.kr"
+kits4 = "kits4.kit.ac.kr"
+kits4 = "kits4.kit.ac"
+kits4 = "kits4.kit"
+
+#N	kits5
+#S	SSM-16 ; Vesion 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits5	kit0(DIRECT)
+kits5 = "kits5.kit.edu.kr"
+kits5 = "kits5.kit.ac.kr"
+kits5 = "kits5.kit.ac"
+kits5 = "kits5.kit"
+
+#N	kits6
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits6	kit0(DIRECT)
+kits6 = "kits6.kit.edu.kr"
+kits6 = "kits6.kit.ac.kr"
+kits6 = "kits6.kit.ac"
+kits6 = "kits6.kit"
+
+#N	kits7
+#S	SSM-16 ; Version 7
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!kit0!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kits7	kit0(DIRECT)
+kits7 = "kits7.kit.edu.kr"
+kits7 = "kits7.kit.ac.kr"
+kits7 = "kits7.kit.ac"
+kits7 = "kits7.kit"
+
+#N	mvu1
+#S	Micro VAX ; Ultrix
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Thu Nov  6 20:36:08 GMT+9:00 1986
+#
+mvu1	kit(DIRECT)
+mvu1 = "mvu1.kit.edu.kr"
+mvu1 = "mvu1.kit.ac.kr"
+mvu1 = "mvu1.kit.ac"
+mvu1 = "mvu1.kit"
+
+#N	mvu2
+#S	Micro VAX ; Ultrix
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Thu Nov  6 20:36:08 GMT+9:00 1986
+#
+mvu2	kit(DIRECT)
+mvu2 = "mvu2.kit.edu.kr"
+mvu2 = "mvu2.kit.ac.kr"
+mvu2 = "mvu2.kit.ac"
+mvu2 = "mvu2.kit"
+
+#N	mvu3
+#S	Micro VAX ; Ultrix
+#O	Korea Institute of Technology
+#C	Shin , Byungchul
+#E	kaist!kiet!kit!postmaster
+#T	+82 042 822 823-1234
+#P	400 Gusung-dong, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 23 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Thu Nov  6 20:36:08 GMT+9:00 1986
+#
+mvu3	kit(DIRECT)
+mvu3 = "mvu3.kit.edu.kr"
+mvu3 = "mvu3.kit.ac.kr"
+mvu3 = "mvu3.kit.ac"
+mvu3 = "mvu3.kit"
+
+#N	kta
+#S	SSM-16 ; Version 7
+#O	Korea Telecommunication Authority
+#C	Kim, Yeongheon
+#E	kaist!kta!postmaster
+#T	+82 2 754 7729
+#P	21-1 Choongmooro 1-ga, Jung-gu, Seoul, Korea
+#L	126 58 E / 37 34 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kta	kaist(DIRECT), ktarc(DIRECT)
+kta = "kta.kta.org.kr"
+kta = "kta.kta.co.kr"
+kta = "kta.kta.co"
+kta = "kta.kta"
+
+kta = "kta.co.kr"
+
+#N	ktarc
+#S	3B20S ; System V
+#O	Korea Telecommunication Authority
+#C	Kim, Myungchul
+#E	kaist!kta!ktarc!postmaster
+#T	+82 2 754 7729
+#P	21-1 Choongmooro 1-ga, Jung-gu, Seoul, Korea
+#L	126 58 E / 37 34 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+ktarc	kta(DIRECT)
+ktarc = "ktarc.kta.org.kr"
+ktarc = "ktarc.kta.co.kr"
+ktarc = "ktarc.kta.co"
+ktarc = "ktarc.kta"
+
+#N	konkuk
+#S	VAX 11/750 ; Ultrix 
+#O	Konkuk University
+#C	Han, Sunyoung
+#E	kaist!mani!konkuk!postmaster
+#T	+82 2 445 0061 x 2873, 2871
+#P	93-1 Mojin-Dong, Seongdong-Ku, Seoul, Korea
+#L	
+#R	
+#U
+#W	kaist!hscho (Haesoon Cho); Thu Dec 18 11:51:09 GMT+9:00 1986
+#
+konkuk	mani(DIRECT)
+konkuk = "konkuk.konkuk.edu.kr"
+konkuk = "konkuk.konkuk.ac.kr"
+
+#N	kuecc
+#S	VAX 11/750 ; 4.2 bsd UNIX
+#O	Korea University
+#C	Shin, Suckbin
+#E	kaist!kuecc!postmaster
+#T	+82 2 94 4381 x836
+#P	126-16 Anam-dong, Seoungbook-ku, Seoul, Korea
+#L	127 02 E / 37 36 N
+#R	
+#U
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+kuecc	kaist(DIRECT)
+kuecc = "kuecc.ukorea.edu.kr"
+kuecc = "kuecc.ukorea.ac.kr"
+kuecc = "kuecc.ukorea.ac"
+kuecc = "kuecc.ukorea"
+
+#N	mamy
+#S	PC / AT : Xenix System V
+#O	Kwangwoon University
+#C	Kim, Cha Jong
+#E	kaist!hanyang!zevy!mamy!postmaster
+#T	+82 2 918 1021 x320
+#P	Wolgye-dong, Dobong-ku, Seoul, Republic of Korea
+#L	127 02 E / 37 36 N
+#R
+#U
+#W	hanyang!hycho(Hanyang cho); Tue Dec 9  1986
+#
+mamy	zevy(DIRECT)
+mamy = "mamy.kwu.edu.kr"
+mamy = "mamy.kwu.ac.kr"
+mamy = "mamy.kwu.ac"
+mamy = "mamy.kwu"
+
+#N	mani
+#S	PC/AT ; Xenix
+#O	Korea Advanced Institute of Science and Technology
+#C	Park, Yeonsook
+#E	kaist!mani!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+mani	kaist(DIRECT), yscal(DIRECT), gs(DEAD), konkuk(DIRECT), pigeon(DIRECT)
+mani = "mani.kaist.edu.kr"
+mani = "mani.kaist.ac.kr"
+mani = "mani.kaist.ac"
+mani = "mani.kaist"
+
+#N	moran
+#S	PC/AT ; Xenix
+#O	Korea Advanced Institute of Science and Technology
+#C	Hur, Jinho
+#E	kaist!moran!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+moran	kaist(DIRECT)
+moran = "moran.kaist.edu.kr"
+moran = "moran.kaist.ac.kr"
+moran = "moran.kaist.ac"
+moran = "moran.kaist"
+
+#N	lilac	
+#S	PC/AT; System V.2
+#O	Korea Advanced Institute of Science and Technology
+#C	Park, Hyun Je 
+#E	kaist!lilac!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+lilac	kaist(DIRECT)
+lilac = "lilac.kaist.edu.kr"
+lilac = "lilac.kaist.ac.kr"
+lilac = "lilac.kaist.ac"
+lilac = "lilac.kaist"
+
+#N	palm
+#S	SSM-16 ; Version 7
+#O	Korea Advanced Institute of Science and Technology
+#C	Yoon, Jinsoo
+#E	kaist!palm!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+palm	kaist(LOCAL)
+palm = "palm.kaist.edu.kr"
+palm = "palm.kaist.ac.kr"
+palm = "palm.kaist.ac"
+palm = "palm.kaist"
+
+#N      park
+#S      AT&T UNIX PC 7300; UNIX System V Release 2.0
+#O      Gold Star Cable co. Ltd.
+#C      Park, Youngjin
+#E      kaist!park!yjpark
+#T      +82 2 753 0141 x370
+#P      C. P. O. Box 1687 Seoul, Korea.
+#L      126 58 E /37 33 N city
+#R
+#U
+#W      kaist!park!yjpark (Park Youngjin); Wed Sept 24, 3:57 GMT+9:00 1986
+#
+park	kaist(WEEKLY)
+park = "park.gsc.com.kr"
+park = "park.gsc.co.kr"
+park = "park.gsc.co"
+park = "park.gsc"
+
+#N      pigeon
+#S      PC/AT ; XENIX
+#O      SERI, KAIST
+#C      Byun, Okwhan
+#E      sorak!pigeon!root 
+#T      
+#P      
+#L      
+#R
+#U
+#W      sorak!nmc (Haesoon Cho) : Tue Feb 17 22:50:29 GMT+9:00 1987
+#
+pigeon	mani(WEEKLY)
+pigeon = "pigeon.seri.re.kr"
+pigeon = "pigeon.seri.re.kr"
+pigeon = "pigeon.seri.re"
+pigeon = "pigeon.seri"
+
+#N	pine
+#S	SSM-16 ; Version 7
+#O	Korea Advanced Institute of Science and Technology
+#C	Ahn, Namsick
+#E	kaist!pine!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+pine	kaist(LOCAL)
+pine = "pine.kaist.edu.kr"
+pine = "pine.kaist.ac.kr"
+pine = "pine.kaist.ac"
+pine = "pine.kaist"
+
+#N	santa
+#S	PC/AT; Xenix V.2
+#O	Electronics and Telecommunications Research Institute
+#C	Cho, Cheol Hye
+#E	kaist!ketri!santa!postmaster
+#T	+82 42 822 4455 x3488
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	ketri 
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+santa	ketri(DIRECT)
+santa = "santa.etri.res.kr"
+santa = "santa.etri.re.kr"
+santa = "santa.etri.re"
+santa = "santa.etri"
+
+#N	saturn
+#S	SUN/130 ; 4.2 BSD UNIX
+#O	Electonic Telecommunication Research Institute
+#C	Cho, Joo Hyun
+#E	kaist!ketri!saturn!postmaster
+#T	+82 42 822 4455 x3455
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+saturn	ketri(DIRECT)
+saturn = "saturn.etri.res.kr"
+saturn = "saturn.etri.re.kr"
+saturn = "saturn.etri.re"
+saturn = "saturn.etri"
+
+#N	see
+#S	SUN-3/160 ; 4.2BSD
+#O	Electonic Telecommunication Research Institute
+#C	Shin, Yeon Seung
+#E	kaist!ketri!see!postmaster
+#T	+82 42 822 4455 x3477
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+see	tdxse(LOCAL)
+see = "see.etri.res.kr"
+see = "see.etri.re.kr"
+see = "see.etri.re"
+see = "see.etri"
+
+#N	sigssm
+#S	SSM-16 ; Version 7
+#O	Electronics and Telecommunication Research Institute
+#C	Kim, Jin Tae
+#E	kaist!ketri!sigssm!postmaster
+#T	+82 42 822 4455 x2511
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+sigssm	ketri(DIRECT)
+sigssm = "sigssm.etri.res.kr"
+sigssm = "sigssm.etri.re.kr"
+sigssm = "sigssm.etri.re"
+sigssm = "sigssm.etri"
+
+#N	snucom 
+#S	PDP 11/40 ; Version 7 
+#O	Seoul National University 
+#C	Kim, Chul Ki
+#E	kaist!snucom!postmaster
+#T	+82 2 877 0101 x3584
+#P	Sinlim-dong, Kwanak-ku, Seoul, Korea
+#L	126 59 E / 37 27 N
+#R	
+#U	kaist
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+snucom	kaist(DIRECT)
+snucom = "snucom.snu.edu.kr"
+snucom = "snucom.snu.ac.kr"
+snucom = "snucom.snu.ac"
+snucom = "snucom.snu"
+
+#N	sse
+#S	Plexus/60 ; System III
+#O	Samsung Electronics
+#C	Chun, In Gook
+#E	sorak!sse!root
+#T	+82 555 6760 x 661
+#P	Ki-nam Bodg. 1318-2, Seocho-Dong, Kangnam-Ku, Seoul
+#L	
+#R	
+#U
+#W	sorak!hscho (Haesoon Cho); Mon Feb 16 15:56:15 GMT+9:00 1987
+#
+sse	kaist(DAILY)
+sse = "sse.sse.com.kr"
+sse = "sse.sse.co.kr"
+sse = "sse.sse.co"
+sst = "sse.sse"
+
+#N	sst
+#S	VAX-11/750; SYSTEM V 2.0
+#O	Samsung Semiconductor and Telecommunications Co., Ltd,
+#C	Lee, Hee Ju, Kim, Dong, Suk
+#E	kaist!sst!hjlee, kaist!sst!dskim
+#T	+82 741 0620 x488
+#P	P.O Box 37, San #24 Nongsee-Lee, Kihung-Eub, Kyungki-Do, Korea
+#L	127 05 E / 37 17 N
+#R	
+#U
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+sst	kaist(DAILY/4)
+sst = "sst.sst.com.kr"
+sst = "sst.sst.co.kr"
+sst = "sst.sst.co"
+sst = "sst.sst"
+sst = "sst.co.kr"
+
+#N	tdxse
+#S	SUN 2 ; 4.2 BSD UNIX
+#O	Electonics & Telecommunication Research Institute
+#C	Hong, Jinpyo
+#E	kaist!kiet!etrivax!tdxse!postmaster
+#T	+82 42 822 4455 x3488
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Thu Dec 18 11:51:09 GMT+9:00 1986
+#
+tdxse	ketri(DIRECT), see(LOCAL)
+tdxse = "tdxse.etri.res.kr"
+tdxse = "tdxse.etri.re.kr"
+tdxse = "tdxse.etri.re"
+tdxse = "tdxse.etri"
+
+#N	tops
+#S	SSM-16 ; Version 7
+#O	Electonic Telecommunication Research Institute
+#C	Kim, Kyung Sik
+#E	kaist!ketri!tops!postmaster
+#T	+82 42 822 4455 x2511
+#P	P.O. 8, Daeduck-Danji, Chungnam, 300-32, Korea
+#L	127 22 E / 36 22 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+tops	ketri(DIRECT)
+tops = "tops.etri.res.kr"
+tops = "tops.etri.re.kr"
+tops = "tops.etri.re"
+tops = "tops.etri"
+
+#N	tulip	
+#S	PC/AT; Xenix V.2
+#O	Korea Advanced Institute of Science and Technology
+#C	Chung, Chul
+#E	kaist!tulip!postmaster
+#T	+82 2 966 1931 x3806
+#P	P.O. Box 150 Chongryang, Seoul, Republic of Korea
+#L	127 03 E / 37 35 N
+#R	
+#U	kaist 
+#W	kaist!hscho (Haesoon Cho); Thu Nov  6 20:36:08 GMT+9:00 1986
+#
+tulip	kaist(DIRECT)
+tulip = "tulip.kaist.ac.kr"
+tulip = "tulip.kaist.edu.kr"
+tulip = "tulip.kaist.ac"
+tulip = "tulip.kaist"
+
+#N	yscal
+#S	SSM-16 ; Version 7
+#O	Yonsei University
+#C	Lee, Seoung Kyoo
+#E	kaist!mani!yscal!postmaster
+#T	+82 2 392 0131 x2365
+#P	Sinchon-dong, Surdaemoon-ku, Seoul, Republic of Korea
+#L	126 56 E / 37 33 N
+#R	
+#U	
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+yscal	mani(DIRECT)
+yscal = "yscal.yonsei.edu.kr"
+yscal = "yscal.yonsei.ac.kr"
+yscal = "yscal.yonsei.ac"
+yscal = "yscal.yonsei"
+
+#N	zevy
+#S	PC/AT ; Xenix
+#O	Hanyang University
+#C	Cho, Hyunyoung
+#E	kaist!hanyang!zevy!postmaster
+#T	+82 2 292 2111 x2127
+#P	Haengdang-dong, Sungdong-ku, Seoul, Republic of Korea
+#L	127 02 E / 37 33 N
+#R	
+#U      
+#W	kaist!hscho (Haesoon Cho); Tue Sep  2 14:14:07 GMT+9:00 1986
+#
+zevy	hanyang(DIRECT), mamy(DIRECT)
+zevy = "zevy.hanyang.edu.kr"
+zevy = "zevy.hanyang.ac.kr"
+zevy = "zevy.hanyang.ac"
+zevy = "zevy.hanyang"
+SHAR_EOF
+#	End of shell archive
+exit 0

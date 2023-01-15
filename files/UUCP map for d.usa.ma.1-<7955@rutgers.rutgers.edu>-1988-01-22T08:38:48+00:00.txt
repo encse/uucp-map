@@ -1,0 +1,657 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.ma.1
+: This archive created: Fri Jan 22 03:38:23 1988
+echo shar: extracting d.usa.ma.1
+cat << 'SHAR_EOF' > d.usa.ma.1
+#	start of d.usa.ma.1: Wed Jan 20 21:06:04 EST 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.adelie.com, adelie
+#F	harvard.edu
+#O	Adelie Corporation
+#C	Barry A. Burke, Jeff Moskow
+#E	barry@adelie.Adelie.COM, jeff@adelie.Adelie.COM, usenet@adelie.Adelie.COM
+#T	+1 617 354-0400
+#P	125 Cambridge Park Drive, Cambridge, MA  02140
+#L	42 23 40 N / 071 08 40 W
+#U	ll-xn axiom ora morgoth mirror munsell necntc infinet
+#R	Network of several VAXen, Suns, and PC's
+#W	barry@adelie.UUCP (Barry A. Burke); Wed Aug 18 13:14:24 EDT 1987
+#
+# +HIGH signifies 2400 baud links
+#
+adelie	.adelie.com
+adelie=	adelie.com
+adelie	axiom(DIRECT), cfisun(DIRECT+HIGH), harvard(DIRECT+HIGH),
+	infinet(DEMAND+HIGH), iquery(DAILY/2), ll-xn(DEMAND+HIGH+HIGH), 
+	minya(HOURLY), mirror(DIRECT+HIGH), morgoth(DIRECT), 
+	munsell(HOURLY+HIGH), necntc(HOURLY+HIGH), ora(DIRECT+LOW)
+#
+# We prefer to get our mail via harvard, since they do less damage to return
+# addresses (even though we POLL them).
+harvard	adelie(DIRECT)
+
+#N	.alliant.com, alliant
+#F	eddie.mit.edu
+#O	Alliant Computer Systems Corporation
+#C	Roger Roles
+#E	rroles@alliant.com, alliant!rroles
+#T	617-486-1211
+#P	One Monarch Drive, Littleton, MA 01460
+#L	42 31 05 N / 71 31 05 W
+#U	linus mrmarx
+#R	registered
+#W	alliant!rdr (Roger D. Roles); Fri Aug 28 14:35:05 EDT 1987
+#
+alliant	.alliant.com
+alliant= alliant.com
+alliant	apollo(DEMAND),	attunix(DEMAND), brl-smoke(DEMAND), 
+	linus(DEMAND+HIGH), maynard(WEEKLY), mit-eddie(DEMAND), 
+	mrmarx(EVENING), palladium(EVENING), sgi(EVENING), 
+	suneast(DEMAND), sunne(DEMAND)
+
+#N	.applicon.com, applicon
+#F	eddie.mit.edu
+#O	Applicon/Schlumberger
+#C	Peter Webb, Bob Kumlin
+#E	webb@applicon.com, kumlin@applicon.com
+#T	617-667-8850
+#P	Applicon/Schlumberger, 829 Middlesex Tpk, Billerica MA, 01821
+#L	42 30 N / 71 16 W
+#U	raybed2
+#R	registered
+#R	Applicon is our gateway to USENET for our other unix machines.
+#W	webb@applicon.com (Peter Webb) ; Thu May 14 11:00:10 EDT 1987
+#
+applicon	.applicon.com
+applicon=	applicon.com
+applicon	raybed2(LOCAL), alphatech(POLLED), ima(HOURLY*4),
+	pbear(DAILY), hdsvx1(POLLED), ulowell(DEMAND), mit-eddie(HOURLY*4)
+
+#N	.bbn.com, bbn
+#F	bbn.com
+#O	Bolt Beranek and Newman Inc.
+#C	Dan Tappan, Bob Goguen
+#E	bbn!postmaster, bbn!tappan, bbn!rgoguen
+#T	+1 617 497 3546, +1 617 497 3667
+#P	10 Moulton St., Cambridge, MA 02238
+#L	42 22 N / 71 06 W
+#R	bbn.com [128.89.0.122] Acts as the central mail point for BBN
+#U	husc6 ima aoa clsib21 xn.ll.mit.edu uwmcsd1 gatech oberon
+#U	rochester 
+#W	tappan (Dan Tappan); Thu Oct 22 14:31:50 EDT 1987
+#
+bbn	.bbn.com
+bbn=bbn.com
+#
+bbn	xn.ll.mit.edu(LOCAL),  harvard(LOCAL), husc6(LOCAL), 
+	ima(DIRECT), ulowell(DIRECT), aoa(DIRECT), spdcc(DIRECT), 
+	clsib21(DIRECT), agent99(DAILY), k1bc(DAILY),
+
+#N	.bsw.com, maynard
+#F	harvard.harvard.edu
+#O	The Boston Software Works, Inc.
+#C	Larry Campbell
+#E	campbell@bsw.com
+#T	+1 617 367 6846
+#P	452 Boylston Street, Brookline, MA 02146
+#L	 ?
+#W	maynard!campbell (Larry Campbell); Sun Dec  6 15:44:42 EST 1987
+#
+maynard	.bsw.com
+maynard= maynard.bsw.com
+maynard	 alliant(WEEKLY), drilex(DIRECT), husc6(DIRECT),
+	 interlan(WEEKLY), mirror(DIRECT), puck(DEMAND),
+	 spdcc(DIRECT), talcott(DIRECT), textware(DIRECT),
+	 think(DIRECT), ulowell(DIRECT), vcvax1(DIRECT),
+	 wjh12(DIRECT)
+# force polled even if no traffic
+alliant	 maynard(WEEKLY)
+drilex	 maynard(DAILY/8)
+husc6	 maynard(DAILY/8)
+interlan maynard(WEEKLY)
+minya	 maynard(EVENING)
+mirror	 maynard(DIRECT)
+puck	 maynard(EVENING)
+spdcc	 maynard(DAILY/8)
+textware maynard(DAILY/8)
+think	 maynard(DAILY/8)
+ulowell	 maynard(DAILY/8)
+vcvax1	 maynard(DAILY/8)
+wjh12	 maynard(DAILY/8)
+
+#N	.bu.edu, bu-cs
+#F	relay.cs.net
+#S	Sun 3/180S; Sun UNIX 4.2 Release 3.4
+#O	Boston University, CS Dept.
+#C	Barry Shein
+#E	bu-cs!postmaster
+#T	+1 617 353 2780
+#P	Academic Computing Center, 111 Cummington Street, Boston, MA  02215
+#L	42 22 N / 71 04 W
+#U	bloom-beacon husc6 mit-eddie polygen uvm-gen
+#U	bucsb buengc bucasb bu-ma bu-chm
+#R	trinary SUN (with bucsd, bucse) for faculty & staff
+#W	bu-cs!tower (Leonard H. Tower Jr.); Mon Nov 30 16:39:21 1987
+#
+bu-cs	.bu.edu
+bu-cs=	bu-cs.bu.edu, bu-cs.arpa, bucsa, bucsd, bucse
+# Actually only the small sub-set of B.U. machines on USENET:
+bu-net= { bu-it, buita, bucsb, buengc, bucasb, bu-ma, bu-chem, bu-bio,
+	  bu-albert }(LOCAL)
+bu-cs	bu-net
+bu-cs	allegra(DAILY), bloom-beacon(DIRECT),
+	celtics(POLLED), coxeng1(POLLED),
+	harvard(DIRECT), ima(POLLED),
+	m2c(POLLED), mit-eddie(DIRECT), ll-xn(DIRECT),
+	paradigm(POLLED), polygen(POLLED),
+	spooky(POLLED), uvm-gen(POLLED*3)
+
+#N	.cayman.com, cayman
+#F	harvard.harvard.edu
+#S	SUN 3/50; BSD 4.2 UNIX
+#O	Cayman Systems, Inc.
+#C	Brad Parker
+#E	brad@cayman.Cayman.COM, harvard!cayman!brad
+#T	+1 617 494 1999
+#P	One Kendall Square, Bldg 600; Cambridge Ma. 02139
+#L	42 22 N / 71 06 W
+#R	applied
+#W	cayman!brad (Brad Parker); Sun Oct  4 14:33:35 EDT 1987
+#U	gcc-milo
+#
+cayman	.cayman.com
+cayman=	cayman.com, cayman.cayman.com
+cayman	gcc-milo(DAILY/6), harvard(DAILY/3)
+
+#N	.cfi.com, cfisun
+#F	harvard.harvard.edu
+#S	Sun 3/180; Sun UNIX 4.2 Release 3.2
+#O	The Consumer Financial Institute
+#C	Sheldon Laube, Rich Baughman
+#E	shel@cfi.com, rich@cfi.com
+#T	+1 617 899 6500
+#P	University Office Park, 51 Sawyer Road, Waltham, MA 02154
+#L	
+#U	ima absolu stellar palladium hpwala
+#R	registered
+#W	shel@cfi.com (Sheldon Laube); Fri Jan 15 15:44:49 EST 1988
+#
+cfisun	.cfi.com
+cfisun = cfisun.cfi.com
+cfisun	absolut(DAILY),	adelie(DIRECT), cataly(DIRECT),
+	harvard(DIRECT), hpwala(DAILY), ima(DIRECT),
+	masscomp(DEMAND), palladium(DAILY), sii(EVENING),
+	stellar(DAILY),	textware(DAILY), usdottsc(DIRECT),
+	wjh12(DIRECT)
+
+#N	.ci.com, dandelion
+#F	eddie.mit.edu
+#O	Cognition, Inc.
+#C	David Watson
+#E	david@dandelion.CI.COM
+#T	+1 617 667 4800
+#P	900 Technology Park Drive, Billerica, MA  01821
+#L	42 20 N / 71 05 city
+#U	necntc ulowell bunny
+#R	registered
+#W	David Watson Tue Oct 13 12:22:22 EDT 1987
+#
+dandelion	.ci.com
+dandelion = dandelion.ci.com
+#
+# ci-dandelion has changed its hostname to dandelion.
+#
+ci-dandelion =	dandelion.ci.com
+#
+dandelion	bunny(HOURLY), frog(DAILY), gcc-milo(DAILY), 
+		lotus(HOURLY), mit-eddie(HOURLY), necntc(DEMAND), 
+		sesame(DAILY), talcott(HOURLY), ulowell(DEMAND), 
+		unisrc(DAILY), vaxine(DAILY)
+#
+# We force-poll everyone since we don't accept incoming calls
+bunny		dandelion(HOURLY)
+frog		dandelion(DAILY)
+gcc-milo	dandelion(DAILY)
+lotus		dandelion(HOURLY)
+mit-eddie	dandelion(HOURLY)
+necntc		dandelion(DEMAND)
+sesame		dandelion(DAILY)
+talcott		dandelion(HOURLY)
+ulowell		dandelion(DEMAND)
+unisrc		dandelion(DAILY)
+vaxine		dandelion(DAILY)
+
+#N	.datacube.com, datacube
+#F	rutgers.edu
+#S	Pyramid 90x; OSx 3.1 (Unix 4.2bsd and Sys V.2)
+#O	Datacube Inc.
+#C	Bob Berger
+#C	Mark (Zok) Rodal
+#C	Shep Siegel
+#E	postmaster@DATACUBE.COM, zok@DATACUBE.COM, shep@DATACUBE.COM
+#T	617-535-6644
+#P	4 Dearborn Rd. Peabody, Ma. 01960
+#L	42 34 N / 70 58 W
+#U	mirror
+#R	registered
+#W	berger@DATACUBE.COM (Bob Berger); Fri Jun  5 00:17:07 EDT 1987
+#R	Signal and Image Processing Hardware Manufacturer
+#R	We are a notes user
+#
+datacube	.datacube.com
+datacube=	datacube.com
+datacube	abekas(DAILY*4), apple(DEAD), avsds(DAILY*4),
+		denning(DAILY), frame(DAILY*2), ihnp4(DAILY+HIGH),
+		mcrware(DEMAND), mirror(DEMAND), pyrbos(DEMAND),
+		pyrnj(DAILY*2), pyrtech(DAILY*2),
+		ulowell(DAILY), vslvax(DAILY), wjh12(DAILY), wslvax(DEAD)
+# Polling
+rutgers		datacube(HOURLY*4)
+
+#N	.entity.com, spt
+#S	Wyse PC 386; SCO Xenix System V
+#F	eddie.mit.edu
+#O	The Entity
+#C	Gail Zacharias
+#E	postmaster@entity.com
+#T	+1 617 876 3035
+#P	287 Harvard Street #33, Cambridge, MA 02139
+#L	42 22 N / 71 06 W
+#U	bloom-beacon
+#R	registered
+#W	gz@entity.com (Gail Zacharias); Mon Dec 21 06:07:00 EST 1987
+#
+spt	.entity.com
+spt=	entity.com, spt.entity.com
+mcp=	mcp.entity.com
+gse=	gse.entity.com
+spt	mit-eddie(DIRECT), bloom-beacon(DIRECT),
+	mcp(DIRECT+LOW), gse(DIRECT)
+# polling schedule
+bloom-beacon	spt(HOURLY/2)
+mit-eddie	spt(HOURLY/2)
+
+#N	.gte.com, bunny
+#F	relay.cs.net
+#S	Vax 11/785; Ultrix 2.0
+#O	GTE Laboratories
+#C	Mike Murphy
+#E	mm06@bunny.gte.com
+#T	+1 617  466 2132
+#P	40 Sylvan Rd., Waltham, MA 02254
+#L	42 23 N / 71 14 W city
+#R	
+#W	mm06@bunny.gte.com (Mike Murphy); Fri Aug 7 13:55:50 EDT 1987
+#U	softg husc6 ci-dandelion gcc-milo
+#
+#	Our nameserver entries are maintained by csnet.
+#	Bunny corresponds to the phonenet site gte-labs.csnet
+#
+bunny	.gte.com
+bunny=	bunny.gte.com
+bunny=	gte.com
+#
+bunny	harvard(HOURLY), softg(DAILY), ci-dandelion(HOURLY), 
+	gcc-milo(DAILY), husc6(HOURLY)
+
+#N	.inmet.com, inmet
+#F	inmet.inmet.com
+#O	Intermetrics, Inc.
+#C	Charles Ball
+#E	cball@inmet.inmet.com
+#T	+1 617 661 1840
+#P	733 Concord, Ave., Cambridge, MA 02138
+#L	42 34 N / 71 06 W
+#U	harpo ima ihnp4 mirror allegra necntc
+#
+inmet	.inmet.com
+inmet=	inmet.inmet.com
+inmet	allegra(HOURLY), harpo(HOURLY), ihnp4(HOURLY), ima(HOURLY),
+		mirror(HOURLY), necntc(HOURLY)
+
+#N	.mit.edu, mit-eddie
+#S	DEC VAX-11/750
+#F	eddie.mit.edu
+#O	Massachusetts Institute of Technology
+#C	Jeff Siegal, Jeff Schiller, Ron Hoffmann
+#E	jbs@EDDIE.MIT.EDU, jis@ATHENA.MIT.EDU, hoffmann@ATHENA.MIT.EDU
+#T	617-253-2737, 617-253-1401, 617-253-0160
+#P	MIT EECS Deptartment, Room 38-394; Cambridge, MA 02139
+#L	42 21 40 N / 71 05 35 W
+#U	bloom-beacon cybvax0 gatech genrad husc6 ll-xn rutgers uw-beaver
+#W	jbs@EDDIE.MIT.EDU (Jeff Siegal); Fri Jan 15 01:18:06 EST 1988
+#R	MIT.EDU is registered with the NIC
+#
+# GATEWAY INTO THE DOMAIN
+#
+mit-eddie .mit.edu
+mit-eddie = eddie.mit.edu
+#
+# EXTERNAL CONNECTIVITY DATA
+#
+mit-eddie	alliant(HOURLY*2), applicon(DAILY/4),
+		apollo(HOURLY), banyan(EVENING),
+		blblbl(HOURLY+LOW), 
+		clyde(DAILY/4), 
+		culdev1(HOURLY), cybvax0(HOURLY),
+		dandelion(HOURLY), 
+		eplunix(DAILY/2), frog(HOURLY*4), genrad(HOURLY),
+		hcx1(DAILY/4), icot(DAILY/3), ihnp4(DAILY), interlan(DAILY/4),
+		lees-rif(HOURLY*4),
+		mck-csc(DAILY/4), mirror(HOURLY), mrst(DAILY),
+		necntc(HOURLY), primerd(DAILY/4), spt(HOURLY/2),
+		terrapin(HOURLY), uccba(HOURLY*4), umich(WEEKLY), 
+		xanth(EVENING)
+#
+# uucp/tcp links
+#
+mit-eddie	bu-cs(DEDICATED+LOW+LOW), gatech(DEDICATED+LOW), 
+		harvard(DEDICATED+LOW), 
+		musocs(DEAD),
+		rutgers(DEDICATED+LOW), 
+		think(DEDICATED+LOW), uunet(DEDICATED+LOW)
+#
+# INTERNAL CONNECTIVITY DATA
+#
+mit-eddie	lids(DIRECT), mit-ce(DIRECT), mit-ems(DIRECT),
+		mit-erl(DIRECT), whthd4(DEAD)
+#
+# tcp/uucp links
+# 
+mit-eddie	bloom-beacon(DEDICATED), dspvax(DEDICATED), ll-xn(DEDICATED),
+		mit-amt(DEDICATED), mit-athena(DEAD), mit-atrp(DEDICATED),
+		dspvax(DEDICATED), mit-hermes(DEDICATED), garp(DEDICATED),
+#
+# chaos/uucp links
+# The Chaosnet itself is fast, but chaos/uucp is pretty bad.
+# So, for now, these paths are penalized.
+# 
+mit-eddie	mit-cipg(DEDICATED+LOW+LOW), mit-prep(DEDICATED+LOW+LOW), 
+		deep-thought(DEDICATED+LOW+LOW), 
+		mit-vax(DEDICATED+LOW+LOW), mit-nc(DEDICATED+LOW+LOW)
+#
+#
+# OTHER SITES WITH UUCP-REGISTERED DOMAIN NAMES
+#
+#
+#N	mit-athena
+#S	DEC MicroVAX-II; Ultrix
+#O	MIT, Project Athena
+#C	Ron Hoffmann, Jon Rochlis, Jeff Schiller
+#E	mit-athena!postmaster
+#T	(617) 253-4101
+#P	E40-311, 77 Massachusetts Avenue, Cambridge, MA  02139
+#L	42 22 N / 71 06 W
+#R
+#W	mit-athena!hoffmann 5/11/87
+#
+#mit-athena = athena.mit.edu
+#mit-athena	mit-eddie(DIRECT)
+#
+#
+#N	bloom-beacon
+#S	DEC MicroVAX II; Unix BSD 4.3+NFS (Wisconsin)
+#O	MIT Student Information Processing Board
+#C	Jean Marie Diaz, Henry Mensch, Andre DeHon
+#E	bloom-beacon!usenet, usenet@bloom-beacon.mit.edu
+#T	+1 617 253 7788
+#P	77 Massachusetts Avenue, Cambridge MA, 02139
+#L	42 22 N / 71 06 W city
+#R	bloom-beacon.mit.edu on the Internet; address is 18.80.0.17
+#W	mit-eddie!ambar (Jean Marie Diaz); Sun Nov 29 18:41:22 EST 1987
+#U	mit-hermes mit-amt mit-vax think bu-cs spt coplex gatech oberon
+#
+bloom-beacon = "bloom-beacon.mit.edu"
+bloom-beacon = "news.mit.edu"
+bloom-beacon = "beacon.mit.edu"
+#
+# spt is a local, unregistered (*SIGH*) site.
+bloom-beacon	mit-eddie(LOCAL), bu-cs(DEDICATED+LOW), spt(HOURLY),
+		garp(LOCAL), husc6(DEDICATED), think(DEDICATED+LOW),
+		coplex(DAILY)
+#
+#
+#N	deep-thought
+#S	DEC DECSYSTEM-2065; TOPS-20 5.4MIT
+#O	MIT, EECS Department Educational Computer Facility
+#C	Jeff Siegal
+#E	mit-eddie!postmaster
+#W	mit-eddie!jbs (Jeff Siegal); Tue Feb 10 16:10:43 EST 1987
+#
+deep-thought = deep-thought.mit.edu
+deep-thought = dt.mit.edu
+deep-thought = mit-deep-thought.mit.edu
+#
+# uucp/chaos link
+#
+deep-thought	mit-eddie(LOCAL)
+#
+#
+#N	garp
+#S	IBM RT PC running ACIS 4.2a
+#O	Massachusetts Institute of Technology
+#C	Henry Mensch
+#E	mit-eddie!garp!usenet, usenet@garp.mit.edu
+#T	+1 617 253 0131
+#P	E40-379 MIT; Cambridge, MA  02139
+#L	42 18 N /  71 06 W
+#U	mit-amt	
+#R	On the Internet as GARP.MIT.EDU [18.72.0.205]
+#W	garp!henry (Henry Mensch); Mon Oct 26 00:00:00 EST 1987
+#
+garp =	garp.mit.edu
+garp	mit-eddie(LOCAL), bloom-beacon(LOCAL), cca(DEDICATED), 
+	harvard(DEDICATED), ames(DEDICATED), rochester(DEDICATED), 
+	soft21(EVENING)
+#
+#
+#N	mit-nc
+#S	DEC PDP 11/750, 4.3BSD
+#O	MIT Neural Computation Group
+#C	John Woods
+#T	+1 617 253-3264
+#P	Room 20A-002, 77 Massachusetts Avenue, Cambridge MA 02142
+#E	mit-nc!jfw
+#L	42 22 N / 71 06 W
+#R	used to be mitccc
+#W	jbs@eddie.mit.edu (Jeff Siegal); Fri Nov 13 12:33:00 EST 1987
+#U
+#
+mit-nc	mit-eddie(DIRECT), mit-erl(DIRECT), frog(HOURLY),
+	jfwhome(DAILY)
+
+#N	.nec.com, necntc
+#S	DEC VAX-11/780; ULTRIX-32 V1.2
+#F	harvard.edu
+#O	NEC Electronics Inc.
+#C	Jeff Janock
+#E	usenet@necntc.nec.com
+#T	+1 617 655 8833 x4227
+#P	One Natick Executive Park, Natick, MA 01760
+#L	42 18 N / 71 21 W
+#R	Registered
+#R	We are US gateway to .nec.{junet,jp} -
+#W	necntc!jeff (Jeff Janock); Sat Dec 12 21:29:17 EST 1987
+#U	adelie ames gordon banyan ci-dandelion culdev1 celtics encore m2c
+#U	husc6 necis necssd necam necsyl primerd linus mit-eddie rayssd ima
+#
+necntc	.nec.com
+necspl	= necspl.nec.com
+necntc  = necntc.nec.junet, necntc.nec.jp, necntc.nec.com, necntc.nec.jpn
+#
+necntc  adelie(DIRECT), ames(DIRECT+LOW), banyan(DEMAND), 
+	cataly(DAILY), celtics(DIRECT), custom(DAILY), 
+	dandelion(HOURLY), culdev1(DEMAND), decvax(DIRECT+25), 
+	decuac(DIRECT+HIGH), drilex(DEMAND), encore(DEMAND), 
+	frog(DIRECT+LOW), gt-eedsp(DAILY/4), gordon(DIRECT), m2c(DEMAND), 
+	harvard(DIRECT+HIGH+HIGH), husc6(HOURLY), ima(DIRECT), 
+	inmet(DEMAND), linus(DIRECT), ncoast(DAILY+LOW), mirror(WEEKLY), 
+	mit-eddie(DIRECT+LOW), necam(DEMAND), necis(DIRECT), necssd(DEMAND),
+	necspl(DEMAND+LOW+LOW), necsyl(DAILY), primerd(DAILY/2), 
+	pyramid(DIRECT), rayssd(DIRECT+LOW), swlabs(WEEKLY), talcott(DEMAND)
+#
+harvard	necntc(DIRECT+HIGH)
+#
+
+#N	.polygen.com, polygen
+#F	bu-cs.bu.edu
+#O	Polygen Corporation
+#C	Paul Haahr, Pablo Halpern, Hal Stern
+#E	polygen!haahr, polygen!pablo, polygen!stern
+#T	+1 617 890 2888
+#P	200 Fifth Avenue, Waltham, MA 02254
+#L	42 23 18 N / 71 15 15 W
+#U	
+#R	registered
+#W	polygen!haahr; Fri Jun 12 15:35:31 EDT 1987
+#
+polygen	  .polygen.com
+polygen = polygen.com
+polygen	bu-cs(DEMAND), princeton(HOURLY*2), applix(POLLED)
+
+#N	.prime.com, primerd
+#F	eddie.mit.edu
+#S	Sun 2/120u; 4.2 BSD UNIX/3.0 Sun UNIX
+#O	Prime Computer Inc.
+#C	Douglas S. Rand
+#E	primerd!postmaster
+#T	+1 617 879 2960
+#P	500 Old Conn Path, Framingham, Ma 01701
+#L	42 18 N / 71 21 W
+#R	Registered .prime.com with the uucp project (3/87)
+#U	necntc
+#W	2/87 from primerd!doug
+#
+primerd	.prime.com
+primerd	= primerd.prime.com
+primerd	mit-eddie(DAILY/3), necntc(DAILY/3), allegra(DEMAND),
+	usenix(DAILY), wang(DEMAND), frog(DEMAND), semantic(DEMAND),
+	mirror(DAILY), stellar(DAILY), prmcad(POLLED)
+
+#N	.spdcc.com, spdcc
+#S	IBM PC/AT with Inboard 386/AT CPU; SCO XENIX 386 v 2.2.2
+#F	harvard.harvard.edu
+#O	S.P. Dyer Computer Consulting
+#C	Stephen P. Dyer
+#E	dyer@spdcc.COM
+#T	+1 617 864 6054
+#P	27 Chauncy Street, Cambridge, MA 02138-2406
+#L	42 22 N / 71 07 W
+#U	husc6 ihnp4 ima linus m2c k1bc gubba gstsys earvax lexi
+#R	registered
+#W	dyer@spdcc.COM (Steve Dyer); Tue Nov 17 00:58:32 EST 1987
+#
+spdcc	.spdcc.com
+spdcc=	spdcc.com
+spdcc	harvard(DEDICATED+HIGH), husc6(DEDICATED+HIGH), linus(DIRECT),
+	bbn(DEDICATED+HIGH), ihnp4(DEMAND), earvax(DIRECT), eplunix(DIRECT),
+	ima(DIRECT), ewj(DIRECT), m2c(DEMAND), gubba(DIRECT), maynard(DIRECT),
+	k1bc(DIRECT), ftp(DIRECT), textware(DIRECT), kaos(DIRECT),
+	chutepc(EVENING), lexi(DIRECT), gstsys(EVENING)
+
+#N	.tmc.com, mirror
+#S	Pyramid 98x; OSx4.0
+#F	eddie.mit.edu 
+#O	Times Mirror Corporation
+#C	Fred Nesserella
+#E	postmaster@mirror.tmc.com
+#T	+1 617 661 0777
+#P	Mirror Systems; 2067 Massachusetts Avenue; Cambridge, MA 02140 
+#L	42 22 N / 71 06 W
+#U	adelie beldar cca datacube hpwalf ileaf ima otto rayssd xanth
+#R	registered
+#R	Former home of Rich $alz and mod.sources
+#R	 (former home of Brian Moran - he's moved to premise...) 
+#R	mirror also forwards to zone1.com - 
+#R	see zone1.com entry for additional information
+#W	mirror!brian (Brian Moran);Tue Jan 19 12:44:19 EST 1988
+mirror	.tmc.com
+mirror=	mirror.tmc.com
+#	Most costs are slightly higher now...
+mirror	adelie(DEMAND), beldar(DAILY/2), cbosgd(DAILY+HIGH), cca(HOURLY),
+	cybvax0(DAILY), datacube(DAILY), hoptoad(DAILY),howtek(WEEKLY),
+	hpwala(DAILY), ihnp4(DAILY+HIGH+HIGH), ileaf(DAILY/7),
+	ima(DAILY), inmet(DAILY/2), ishmael(DAILY), linus(EVENING),
+	maynard(DAILY/5), mit-eddie(HOURLY),
+	mgm(DAILY/6), mtxinu(WEEKLY), necntc(WEEKLY), otto(DAILY),
+	premise(DAILY/2),
+	primerd(DAILY/2), pyramid(DAILY+HIGH+HIGH), pyrbos(DAILY),
+	pyrnj(DAILY), rayssd(DAILY), seismo(DAILY), toolbox(DAILY),
+	vcvax1(WEEKLY/2), wjh12(DAILY/4), xanth(DAILY/6), coxeng1(DAILY/8)
+
+#N	.ulowell.edu, ulowell
+#F	relay.cs.net
+#S	DEC VAX-11/750; 4.3BSD
+#O	University of Lowell
+#C	Bob Page
+#E	ulowell!postmaster, postmaster@ulowell.edu
+#T	+1 617 452 5000 x2976
+#P	Computer Science Dept, Lowell MA 01854 USA
+#L	71 19 26 W / 42 39 08 N
+#R	Known as ulowell.edu, ulowell.uucp and ulowell.csnet
+#R	Gateway machine for all U of Lowell's internetwork
+#U	apollo ci-dandelion dino interlan m2c masscomp maynard sky
+#W	ulowell!page (Bob Page); Wed Sep  2 11:23:28 EDT 1987
+#
+ulowell= ulowell.edu
+ulowell	.ulowell.edu, apollo(DIRECT), applicon(DIRECT),
+	bbn(DIRECT), bossqnt(DEMAND+LOW), bu-tyng(DIRECT),
+	cg-atla(DIRECT), ci-dandelion(DIRECT),
+	composite(EVENING), dino(DEDICATED), harvard(DIRECT),
+	infinet(DIRECT), interlan(EVENING), m2c(DEMAND),
+	masscomp(DIRECT), maynard(DIRECT), mit-eddie(DIRECT),
+	pcd1(DEMAND+LOW), sky(DIRECT), vaxine(DIRECT), wang(DIRECT)
+#
+apollo    ulowell(DIRECT)
+applicon  ulowell(DIRECT)
+bbn	  ulowell(DIRECT)
+bu-tyng   ulowell(DIRECT)
+composite ulowell(EVENING)
+infinet   ulowell(DEMAND)
+masscomp  ulowell(DIRECT)
+maynard   ulowell(DIRECT)
+mit-eddie ulowell(DIRECT)
+sky       ulowell(DIRECT)
+vaxine    ulowell(DIRECT)
+#
+# pcd1 and pcd2 (Gould Programmable Controller Div) aren't in the map yet
+#
+pcd1	pcd2(LOCAL), ulowell(DAILY/4)
+
+#N	.zone1.com
+#S	Pyramid 98x; OSx4.0
+#F	eddie.mit.edu 
+#O	Times Mirror Corporation
+#C	Brian K. Moran, Fred Nesserella
+#E	postmaster@mirror.tmc.com
+#T	+1 617 661 0777
+#P	Mirror Systems; 2067 Massachusetts Avenue; Cambridge, MA 02140 
+#L	42 22 N / 71 06 W
+#R	registered
+#W	mirror!brian (Brian Moran); Wed Jan 20 19:56:34 EST 1988
+#
+mirror	.zone1.com
+mirror	coxeng1(DAILY/8), premise(DAILY/2)
+#   ^^  Locally supported  mail links ^^ 
+#
+## these are hacks to support zone1.com
+##
+## these two support pc's hooked through raytheon.
+## mailto dhb@rayssd for more info
+## 
+### I include the site "pri" for completeness, even though they havent
+### called me since sometime around 11/87.  As far as I know, this is
+### their only connection to the outside world.  -dhb@rayssd
+#
+galaxia	amanpt1(POLLED), insgraph(POLLED), rag15(POLLED),
+	telos(POLLED), pri(POLLED)
+rayssd	galaxia(POLLED)
+
+#	end of d.usa.ma.1: Wed Jan 20 21:06:26 EST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

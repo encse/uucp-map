@@ -1,0 +1,930 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.jpn.1
+: This archive created: Fri Nov  8 05:31:02 1991
+echo shar: extracting u.jpn.1
+cat << 'SHAR_EOF' > u.jpn.1
+# u.jpn.1 of 4; changes to: uucpmap@kddlab.kddlabs.co.jp
+# #W lines show 2 dates: date of first edition and date of last change.
+# Last change:  Wed Mar  6 11:11:04 JST 1991
+ 
+#N	abc, .asahi.co.jp, abc.asahi.co.jp
+#S	Exormacs SystemV rel1.0
+#O	Asahi Broadcasting Corp.
+#C	Keishi Kandori
+#E	postmaster@abc.asahi.co.jp
+#T	+81 6-458-5321 ext.2617
+#P	2 Oyodo-cho, Oyodo-ku, Osaka 560, Japan
+#L	
+#R	
+#U	ouics
+#W	kk@abc.asahi.co.jp 861225, konish@kddlabs.co.jp 910205
+#
+abc = abc.asahi.co.jp, asahi.co.jp 
+abc = abc.asahi.junet, asahi.junet 
+#
+.asahi.co.jp	abc(LOCAL)
+
+#N	abcomr, .abc-kk.co.jp, abcomr.keno.abc-kk.co.jp
+#S	OMRON SX-9100 sigma; sigma OS
+#O	A.B.C. Co., Ltd.
+#C	Narumi Tanuma
+#E	tan@abc-kk.co.jp
+#T	+81 3 3543-3497
+#P	3-10-10, Tsukiji, Chuou-ku, Tokyo 104, Japan
+#L	
+#R	
+#U	utogw
+#W	tan@abc-kk.co.jp 910208, konish@kddlabs.co.jp 910209
+#
+abcomr = abcomr.keno.abc-kk.co.jp, keno.abc-kk.co.jp, abc-kk.co.jp 
+abcomr = abcomr.keno.abc-kk.junet, keno.abc-kk.junet, abc-kk.junet 
+#
+.keno.abc-kk.co.jp	abcomr(LOCAL)
+
+#N	aclab2, .anritsu.co.jp, aclab2.resrch.anritsu.co.jp
+#S	SONY NEWS; UNIX4.2BSD
+#O	Anritsu Co., Ltd.
+#C	Shintaro Inagaki
+#E	inagaki@aclab1.resrch.anritsu.co.jp
+#T	+81 462 231111 ext. 2550
+#P	1800, Onna, Atsugi-shi, Kanagawa 243, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Oct 4 1990, konish@kddlabs.co.jp 910205
+#
+aclab2 = aclab2.resrch.anritsu.co.jp, resrch.anritsu.co.jp, anritsu.co.jp 
+aclab2 = aclab2.resrch.anritsu.junet, resrch.anritsu.junet, anritsu.junet 
+#
+.resrch.anritsu.co.jp	aclab2(LOCAL)
+
+#N	acomp50, .aichi-steel.co.jp, acomp50.aichi-steel.co.jp
+#S	Sun4/370 SunOS4.0.3
+#O	Aichi Steel Works, Ltd. (Research and Development Department)
+#C	Aki Watarai
+#E	postmaster@aichi-steel.co.jp
+#T	+81 52 604-1111 (ext. 2806)
+#P	1. Wano-Wari, Arao-Machi, Tokai-Shi, Aichi-Ken, 476, JAPAN
+#L	
+#R	
+#U	tytcprm
+#W	watarai@aichi-steel.co.jp Dec 26 1990, konish@kddlabs.co.jp 910205
+#
+acomp50 = acomp50.aichi-steel.co.jp, aichi-steel.co.jp 
+acomp50 = acomp50.aichi-steel.junet, aichi-steel.junet 
+#
+.aichi-steel.co.jp	acomp50(LOCAL)
+
+#N	adacgw, .adac.co.jp, adacgw.adac.co.jp
+#S	Micro VAX 3100 System, Ultrix V3.1B
+#O	Advanced Data Controls, Corp.
+#C	Shusaku Kawasaki
+#E	kawasaki@adac.co.jp
+#T	+81 3 3576 5351
+#P	Nihon Seimei Otsuka Bldg. No. 13-4, Kita Otsuka 1-chome Toshima-ku, Tokyo 170, JAPAN
+#L	35 46 N / 139 44 E
+#R	
+#U	denvax
+#W	kawasaki@adac.co.jp 900903, konish@kddlabs.co.jp 910205
+#
+adacgw = adacgw.adac.co.jp, adac.co.jp 
+adacgw = adacgw.adac.junet, adac.junet 
+#
+.adac.co.jp	adacgw(LOCAL)
+
+#N	aecgwy, .asahi-eng.co.jp, aecgwy.asahi-eng.co.jp
+#S	SUN 3/60 SUN OS3.5EXPORT
+#O	Asahi Engineering Co., Ltd.
+#C	Yoshihiro Suse
+#E	suse@aecgwy.asahi-eng.co.jp
+#T	+81 3 3445-2320
+#P	No.2 Keikyuu Bldg., Takanawa 3-chome, Minato-ku, Tokyo 108, Japan
+#L	
+#R	
+#U	patty.ricoh.co.jp
+#W	konish@kddlabs.co.jp 910205
+#
+aecgwy = aecgwy.asahi-eng.co.jp, asahi-eng.co.jp 
+aecgwy = aecgwy.asahi-eng.junet, asahi-eng.junet 
+#
+.asahi-eng.co.jp	aecgwy(LOCAL)
+
+#N	aictr, .ijaic.or.jp, aictr.ijaic.or.jp
+#S	SUN3/260C, SUN-OS release 3.5
+#O	ICOT-JIPDEC AI Center, JIPDEC AI Promotion Center
+#C	Yoshimitsu Hirai
+#E	hirai@ijaic.or.jp
+#T	+81-3-578-3469
+#P	WTC 7F, 2-4-1 Hamamatsu-cho, Minato-ku, Tokyo 105, Japan
+#L	35 42 N / 139 46 E
+#R	Non-profit organization for promoting artificial intelligence
+#U	none
+#W	hirai@ijaic.or.jp 890306, konish@kddlabs.co.jp 910205
+#
+aictr = aictr.ijaic.or.jp, ijaic.or.jp 
+aictr = aictr.ijaic.junet, ijaic.junet 
+#
+.ijaic.or.jp	aictr(LOCAL)
+
+#N	airgw, .air.co.jp, airgw.air.co.jp
+#S	SUN3/260C, SunOS R4.0.3
+#O	AI Language Research Institute, Ltd.
+#C	Norio Satake
+#E	satake@air.co.jp
+#T	+81 3 456 1007
+#P	Sakurai Building, 3-15-15, Shiba, Minato-ku, Tokyo 105, Japan
+#L	35 39 N / 139 45 E
+#R	Gateway for AIR
+#U	
+#W	satake@air.co.jp 890426, konish@kddlabs.co.jp 910205
+#
+airgw = airgw.air.co.jp, air.co.jp 
+airgw = airgw.air.junet, air.junet 
+#
+.air.co.jp	airgw(LOCAL)
+
+#N	akanbe, .asp.co.jp, akanbe.asp.co.jp
+#S	SONY NEWS NWS-830; NEWS-OS 3.2b
+#O	ASP CORPORATION
+#C	Genta Hoashi
+#E	postmaster@asp.co.jp
+#T	+81 3 3767 1451
+#P	5-8-11-106 Oomorikita Oota-ku Tokyo 143, Jaspan
+#L	
+#R	
+#U	menami (astec.co.jp)
+#W	hoashi@asp.co.jp Mar 13 1990, konish@kddlabs.co.jp 910205
+#
+akanbe = akanbe.asp.co.jp, asp.co.jp 
+akanbe = akanbe.asp.junet, asp.junet 
+#
+.asp.co.jp	akanbe(LOCAL)
+
+#N	akane, .toyo-eng.co.jp, akane.toyo-eng.co.jp
+#S	SUN 3/50; SUN OS 4.1
+#O	Toyo Engineering Co., Ltd.
+#C	Kouichi Ozaki
+#E	postmaster@toyo-eng.co.jp
+#T	+81 474 54-1787
+#P	2-8-1, Akanehama, Narashino-shi, Chiba 275, Japan
+#L	
+#R	
+#U	
+#W	minoru@mtl.t.u-tokyo.ac.jp, konish@kddlabs.co.jp 910205
+#
+akane = akane.toyo-eng.co.jp, toyo-eng.co.jp 
+akane = akane.toyo-eng.junet, toyo-eng.junet 
+#
+.toyo-eng.co.jp	akane(LOCAL)
+
+#N	anprda, .asahi-np.co.jp, anprda.atson.asahi-np.co.jp
+#S	SONY NEWS-841; NEWS-OS 2.1 (4.2BSD UNIX)
+#O	Asahi News Paper Co., Ltd.
+#C	Akira Takiguchi
+#E	akira@atson.asahi-np.co.jp
+#T	+81 3 3289 7051
+#P	Wako_Bldg., 10-4, Ginza 8chome, Chuou-ku, Tokyo 104, Japan
+#L	
+#R	
+#U	sragwa	
+#W	akira@atson.asahi-np.co.jp 910212, konish@kddlabs.co.jp 910213
+#
+anprda = anprda.atson.asahi-np.co.jp, atson.asahi-np.co.jp, asahi-np.co.jp 
+anprda = anprda.atson.asahi-np.junet, atson.asahi-np.junet, asahi-np.junet 
+#
+.atson.asahi-np.co.jp	anprda(LOCAL)
+
+#N	apollo0, .okakogi.go.jp, apollo0.denhi.okakogi.go.jp
+#S	Apollo DOMAIN DN3000 Domain/IX SR9.7
+#O	Okayama Prefecture Technical Center
+#C	Hisae Fujiwara
+#E	postmaster@okakogi.go.jp
+#T	+81 862 41-1631
+#P	661-2, Imaho, Okayama-shi, Okayama 701-01, Japan
+#L	
+#R	gateway for Okayama Prefecture Technical Center
+#U	none
+#W	fujiwara@okakogi.go.jp DEC 19 1989, konish@kddlabs.co.jp 910205
+# 
+apollo0 = apollo0.denhi.okakogi.go.jp, denhi.okakogi.go.jp, okakogi.go.jp 
+apollo0 = apollo0.denhi.okakogi.junet, denhi.okakogi.junet, okakogi.junet 
+#
+.denhi.okakogi.go.jp	apollo0(LOCAL)
+
+#N	artgw, .artstech.co.jp, artgw.artstech.co.jp
+#S	SONY NEWS-1450; NEWS-OS 3.4
+#O	ARTS TECH Inc.
+#C	Koji Ishii
+#E	postmaster@artstech.co.jp
+#T	+81 3-5704-6721
+#P	Maison de Nakameguro 202, Nakameguro 4-2-14, Meguro-ku Tokyo 153, Japan
+#L	
+#U	hxrdgw
+#W	ishii@hexard.co.jp Apr 13 1990, konish@kddlabs.co.jp 910205
+#
+artgw = artgw.artstech.co.jp, artstech.co.jp 
+artgw = artgw.artstech.junet, artstech.junet 
+#
+.artstech.co.jp	artgw(LOCAL)
+
+#N	as3000, .kmt-iri.go.jp, as3000.kmt-iri.go.jp
+#S	Toshiba AS3000;OS/AS Ver3.3(4.2 BSD UNIX)
+#O	Kumamoto Industrial Research Institute
+#C	Takao Kawakita
+#E	postmaster@as3000.kmt-iri.go.jp
+#T	+81 96 368-2101
+#P	3-11, Higashi-machi, Kumamoto-shi, Kumamoto 862, Japan
+#L	
+#R	
+#U	hstgwa(DAILY/5)
+#W	tkawakit@as3000.kmt-iri.go.jp APR 20 1989, konish@kddlabs.co.jp 910205
+#
+as3000 = as3000.kmt-iri.go.jp, kmt-iri.go.jp 
+as3000 = as3000.kmt-iri.junet, kmt-iri.junet 
+#
+.kmt-iri.go.jp	as3000(LOCAL)
+
+#N	asahic, .asahi-techno.co.jp, asahic.asahi-techno.co.jp
+#S	Sun 3/60; Sun UNIX 4.2 Release 3.5
+#O	Asahi Techno Computer Co., Ltd.
+#C	Katsuaki Kobayashi
+#E	postmaster@asahic.asahi-techno.co.jp
+#T	+81 3 3507 2279
+#P	17th floor, Imperial Tower, 1-1-1, Uchisaiwai-chou, Chiyoda-ku, Tokyo 100, Japan
+#L	
+#R	
+#U	kubotaj (kubotaj.tt.kubota.co.jp)
+#W	postmaster@asahic.asahi-techno.co.jp 900228, konish@kddlabs.co.jp 910205
+#
+asahic = asahic.asahi-techno.co.jp, asahi-techno.co.jp 
+asahic = asahic.asahi-techno.junet, asahi-techno.junet 
+#
+.asahi-techno.co.jp	asahic(LOCAL)
+
+#N	ascgw, .ascii.co.jp, ascgw.ascii.co.jp
+#S	
+#O	ASCII Corp.
+#C	H. Fukase
+#E	hiro-f@ascii.co.jp
+#T	+81 3 4867195
+#P	Sumitomo-Minami-Aoyama Bldg. 5-11-5 Minami Aoyama, Minato-ku Tokyo, 107, JAPAN
+#L	35 42 N / 139 46 E city
+#R	
+#U	ascii, rshvax, titcca, necspl, digita, flab, cskvax
+#W	asami@kddlabs.co.jp Oct 28 1986, konish@kddlabs.co.jp 910205
+#
+ascgw = ascgw.ascii.co.jp, ascii.co.jp 
+ascgw = ascgw.ascii.junet, ascii.junet 
+#
+.ascii.co.jp={ascgw, ascii, rshvax}(LOCAL)
+
+#N	asnw1, .nissho-ele.co.jp, asnw1.nissho-ele.co.jp
+#S	SONY NEWS NWS-3860; NEWS-OS 3.91R 4.3bsd
+#O	Nissho Electronics Corp.
+#C	Toshio Taga
+#E	taga@nissho-ele.co.jp
+#T	+81 3 3544 8234
+#P	7-3-1 Tsukiji, Chuo-ku, Tokyo, 104
+#L	
+#R	
+#U	rena.dit.co.jp
+#W	sakurai@nissho-ele.co.jp Feb 20 1990, konish@kddlabs.co.jp 910205
+#
+asnw1 = asnw1.nissho-ele.co.jp, nissho-ele.co.jp 
+asnw1 = asnw1.nissho-ele.junet, nissho-ele.junet 
+#
+.nissho-ele.co.jp	asnw1(LOCAL)
+
+#N	assun, .sigma.co.jp, assun.sigma.co.jp
+#S	SUN-3; Sun OS4.0.3
+#O	Sigma Co., Ltd.
+#C	Yuzo Takahashi
+#E	yuzo@assun.sigma.co.jp
+#T	+81 3 2550421
+#P	16-8, Sotokanda 3chome, Chiyoda-ku, Tokyo 101, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Nov 16 1990, konish@kddlabs.co.jp 910205
+#
+assun = assun.sigma.co.jp, sigma.co.jp 
+assun = assun.sigma.junet, sigma.junet 
+#
+.sigma.co.jp	assun(LOCAL)
+
+#N	asuka, .aerospace-lab.go.jp, asuka.aerospace-lab.go.jp
+#S	SUN4/150CXP;SunOs4.0.3-JLE1.0.3
+#O	National Aerospace Laboratory
+#C	Kohtaro Matsumoto
+#E	matumoto%asuka.aerospace-lab.go.jp@cs.uec.ac.jp
+#T	+81 422 47-5911;ext582
+#P	7-44-1, Jindaiji-Higashi-machi, Chofu, Tokyo, 182, Japan
+#L	
+#R	This machine is the gateway to JUNET from NAL.
+#U	uecgw.cs.uec.ac.jp
+#W	matumoto@aerospace-lab.go.jp Jan 16 1991, konish@kddlabs.co.jp 910205
+#
+asuka = asuka.aerospace-lab.go.jp, aerospace-lab.go.jp 
+asuka = asuka.aerospace-lab.junet, aerospace-lab.junet 
+#
+.aerospace-lab.go.jp	asuka(LOCAL)
+
+#N	atrpost, .atr.co.jp, atrpost.atr.co.jp
+#S	SUN3/260; release3.5
+#O	Advanced Telecomm. Research Inst. International
+#C	Syuji Tuji
+#E	tuji@atrpost.atr.co.jp
+#T	+81 7749 5 1111
+#P	Seika-cho, Souraku-gun, Kyoto 619-02, Japan
+#L	
+#R	
+#U	kddlab,atr-la,atr-hr,atr-sw,atr-rd,creamy
+#W	tuji@atrpost.atr.co.jp 910208, konish@kddlabs.co.jp 910209
+#
+atrpost = atrpost.atr.co.jp, atr.co.jp 
+atrpost = atrpost.atr.junet, atr.junet 
+#
+.atr.co.jp	atrpost(LOCAL)
+
+#N	attack, .kao.co.jp, attack.ke.kisi.kao.co.jp
+#S	SUN-4; SUN OS4.0.3
+#O	Kao Co., Ltd.
+#C	Hiroshi Nagara
+#E	nagara@attack.kao.co.jp
+#T	+81 3 3616-9713
+#P	1-3, Fumihana 2chome, Sumida-ku, Tokyo 131, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Jun 22 1990, konish@kddlabs.co.jp 910205
+#
+attack = attack.ke.kisi.kao.co.jp, ke.kisi.kao.co.jp, kao.co.jp 
+attack = attack.ke.kisi.kao.junet, ke.kisi.kao.junet, kao.junet 
+#
+.kao.co.jp = {.ke.kisi, .cg.kisi, .ms.kisi, .pj.kisi}(LOCAL)
+.ke.kisi = {attack}(LOCAL)
+
+#N	avance, .komatsu.co.jp, avance.lab.komatsu.co.jp
+#S	SONY NEWS-1850, NEWS-OS 3.2(UNIX 4.3BSD)
+#O	Komatsu Ltd. Research Division
+#C	Eiji mizutani
+#E	em@komatsu.co.jp
+#T	+81 463 341111 (ex 445)
+#P	1200 Manda, Hiratsuka-shi, Kanagawa 254, Japan
+#L	35 19 N / 139 18 E
+#R	Machinery Company
+#U	mtpro
+#W	em@komatsu.co.jp 890901, konish@kddlabs.co.jp 910205
+#
+avance = avance.lab.komatsu.co.jp, lab.komatsu.co.jp, komatsu.co.jp 
+avance = avance.lab.komatsu.junet, lab.komatsu.junet, komatsu.junet 
+#
+.lab.komatsu.co.jp	avance(LOCAL)
+
+#N	basashi, .aisoft.co.jp, basashi.aisoft.co.jp
+#S	Sony NWS-1850 os3.3
+#O	A.I.SOFT,INC.
+#C	Mr. Kazuyoshi Nagayasu
+#E	postmaster@aisoft.co.jp, nagayasu@basashi.aisoft.co.jp
+#T	+81 263 36-1212
+#P	Chu-ou 2-1-27 , Matsumoto City, Nagano 390, Japan
+#L	
+#R	
+#U	epsongw
+#W	nagayasu@basashi.aisoft.co.jp 13 Apr. 1990, konish@kddlabs.co.jp 910205
+#
+basashi = basashi.aisoft.co.jp, aisoft.co.jp 
+basashi = basashi.aisoft.junet, aisoft.junet 
+#
+.aisoft.co.jp	basashi(LOCAL)
+
+#N	basys, .bussan-advsys.co.jp, basys.tky.bussan-advsys.co.jp
+#S	Sony NEWS; NEWS OS Release 3.2
+#O	Bussan Advanced System co., Ltd.
+#C	Shingo Tsunoda
+#E	postmaster@bussan-advsys.co.jp
+#T	+81 3 3711-1511
+#P	Meguro F2 Build. 1-8-8, Nakameguro, Meguro-ku, Tokyo 153, Japan
+#L	
+#R	
+#U	kubotaj (kubotaj.tt.kubota.co.jp)
+#W	postmaster@bussan-advsys.co.jp 900228, konish@kddlabs.co.jp 910205
+#
+basys = basys.tky.bussan-advsys.co.jp, tky.bussan-advsys.co.jp, bussan-advsys.co.jp
+basys = basys.tky.bussan-advsys.junet, tky.bussan-advsys.junet, bussan-advsys.junet
+#
+.tky.bussan-advsys.co.jp	basys(LOCAL)
+
+#N	bus, .hitachi-chem.co.jp, bus.hitachi-chem.co.jp
+#S	SONY NEWS830, NEWS-OS 2.2(UNIX 4.2BSD)
+#O	Hitachi Chemical Co., Ltd., Shimodate Research Laboratory
+#C	Mitsuru Ikei
+#E	ikei@hitachi-chem.co.jp
+#T	+81 296 282111 ext. 488
+#P	1250 Shimoezure, Shimodate-shi, Ibaraki 308, Japan
+#L	36 19 N / 139 54 E
+#R	Hitachi Chemical Co., Ltd.,
+#U	
+#W	ikei@hitachi-chem.co.jp 900210, konish@kddlabs.co.jp 910205
+#	Fax +81 296 283483
+#
+bus = bus.hitachi-chem.co.jp, hitachi-chem.co.jp 
+bus = bus.hitachi-chem.junet, hitachi-chem.junet 
+#
+.hitachi-chem.co.jp	bus(LOCAL)
+
+#N	cae, .daikin.co.jp, cae.daikin.co.jp
+#S	SONY NWP-891; UNIX4.2BSD
+#O	Daikin Industry Co,. Ltd.
+#C	Yoshinori Ogura
+#E	ogura@cae.daikin.co.jp
+#T	+81 722 594111
+#P	1000-2, Okamoto-cho, Kusatsu-shi, Siga 525, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Aug 10 1990, konish@kddlabs.co.jp 910205
+#
+cae = cae.daikin.co.jp, daikin.co.jp 
+cae = cae.daikin.junet, daikin.junet 
+#
+.daikin.co.jp	cae(LOCAL)
+
+#N	candae, .aml.co.jp, candae.aml.co.jp
+#S	SONY NEWS-830; NEWS OS 3.2 ( 4.3BSD )
+#O	Advanced Materials Laboratory Inc.
+#C	Setsu Suzuki
+#E	setsu@aml.co.jp
+#T	+81 489 27-7310
+#P	4-1-8, Yoshimachi, Souka-shi, Saitama 340, Japan
+#L	
+#U	pentel.co.jp
+#W	setsu@pentel.co.jp May 22 1990, konish@kddlabs.co.jp 910205
+#
+candae = candae.aml.co.jp, aml.co.jp 
+candae = candae.aml.junet, aml.junet 
+#
+.aml.co.jp	candae(LOCAL)
+
+#N	canongw, .canon.co.jp, canongw.canon.co.jp
+#S	SUN 3/80; SUN OS 4.0
+#O	Canon Information System Reseach Center
+#C	Youichi Kawabata (Machine Intelligence Division)
+#E	postmaster@canon.co.jp
+#T	+81 44 549 5321
+#P	890-12, Kashimada, Saiwai-ku, kanagawa 211, Japan
+#L	139 42 00 E / 35 33 00 N
+#R	Gateway for Canon Inc.
+#U	icot32
+#W	ogiso@cavax3.cis.canon.co.jp Dec 19 1989, konish@kddlabs.co.jp 910205
+#
+canongw = canongw.canon.co.jp, canon.co.jp 
+canongw = canongw.canon.junet, canon.junet 
+#
+.canon.co.jp	canongw(LOCAL)
+
+#N	cij-gw, .cij.co.jp, cij-gw.cij.co.jp
+#S	Sun SPARCstation 2GX; SunOS 4.1.1 JLE
+#O	Computer Institute of Japan, Ltd.
+#C	Noriyuki Satoh
+#E	postmaster@cij.co.jp
+#T	+81 45 324 0098
+#P	2-5-15 Kitasaiwai Nisi-ku Yokohama-city Kanagawa Japan
+#L	139 37 50 E / 35 28 20 N
+#R	
+#U	kogwy.cc.keio.ac.jp
+#W	kagawa@cij.co.jp Feb 8 1991, konish@kddlabs.co.jp 910209
+#
+cij-gw = cij-gw.cij.co.jp, cij.co.jp 
+cij-gw = cij-gw.cij.junet, cij.junet 
+#
+.cij.co.jp	cij-gw(LOCAL)
+
+#N	cnvxjp, .convex-j.co.jp, cnvxjp.convex-j.co.jp
+#S	SUN3/60M-4; SUN OS Release 4.1.1
+#O	Convex Computer Japan K.K.
+#C	Yoshiho Yoshida
+#E	postmaster@convex-j.co.jp
+#T	+81 3 3437 1711
+#P	Toranomon_Waiko_Bldg., 5-12-1 Toranomon, Minato-ku, Tokyo 105, Japan
+#L	139 46 E / 35 42 N
+#R	
+#U	rena@dit.co.jp, convex@convex.com, jasmine@consing.my, gpsc1, 
+#U	nkkc1, nws1
+#W	yoshida@convex-j.co.jp July 28 1989, konish@kddlabs.co.jp 910205
+#
+cnvxjp = cnvxjp.convex-j.co.jp, convex-j.co.jp 
+cnvxjp = cnvxjp.convex-j.junet, convex-j.junet 
+#
+.convex-j.co.jp	cnvxjp(LOCAL)
+
+#N	coke, .soliton.co.jp, coke.rd.soliton.co.jp
+#S	DEC micro VAX II(Ultrix 3.0)
+#O	SOLITON SYSTEMS K.K.
+#C	Tetsuyuki Kamiya
+#E	postmaster@soliton.co.jp
+#T	+81 3 3356-6351
+#P	2-4-3 Shinjuku, Shinjuku-ku, Tokyo 160, JAPAN
+#L	
+#R	FAX 03-356-6354, TELEX 2322374 SOLITN J
+#U	komaba.c.u-tokyo.ac.jp
+#W	tom@rd.soliton.co.jp 90/09/30, konish@kddlabs.co.jp 910205
+#
+coke = coke.rd.soliton.co.jp, rd.soliton.co.jp, .soliton.co.jp 
+coke = coke.rd.soliton.junet, rd.soliton.junet, .soliton.junet 
+#
+.rd.soliton.co.jp	coke(LOCAL)
+
+#N	cosmos, .aic.co.jp, cosmos.aic.co.jp
+#S	Sun SPARCstation330(Sun4/330); SunOS 4.0.3 + JLE 1.0.3
+#O	Advanced Intelligent Communication System Laboratories
+#C	Keiichirou Yamano
+#E	postmaster@aic.co.jp
+#T	+81 22 279-3310
+#P	112-1 Gongenmoriyama, Imozawa, Aoba, Sendai, Miyagi 989-32, Japan
+#L	
+#R	Facsimile: +81 22 279-3640
+#U	srans3
+#W	postmaster@aic.co.jp Jan 9 1991, konish@kddlabs.co.jp 910205
+#
+cosmos = cosmos.aic.co.jp, aic.co.jp 
+cosmos = cosmos.aic.junet, aic.junet 
+#
+.aic.co.jp	cosmos(LOCAL)
+
+#N	craygw, .cray.co.jp, craygw.cray.co.jp
+#S	SUN-3/470 SunOS 4.0.3
+#O	Cray Research Japan Ltd.
+#C	Katsuya Nishi
+#E	postmaster@cray.co.jp
+#T	+81 6 311-0901
+#P	Hankyu-Sangyo Umeda Bldg. 9th floor,6-8 Tayuuji-cho,Kita-ku Osaka 530
+#L	
+#R	
+#U	crcnw02.crc.citoh.co.jp
+#W	nishi@cray.co.jp July 27 1990, konish@kddlabs.co.jp 910205
+#
+craygw = craygw.cray.co.jp, cray.co.jp 
+craygw = craygw.cray.junet, cray.junet 
+#
+.cray.co.jp	craygw(LOCAL)
+
+#N	csigw, .canon-soft.co.jp, csigw.canon-soft.co.jp
+#S	NeXT Computer system;NeXT OS V1.0(Mach base BSD4.3 style)
+#O	Canon Software Co., Ltd.
+#C	Seiichi Morikawa
+#E	postmaster@canon-soft.co.jp
+#T	+81 3 3455-9920
+#P	3-9-7, Mita, Minato-ku, Tokyo 108, Japan
+#L	
+#R	
+#U	canongw
+#W	olj@canon-soft.co.jp 1990/06/20, konish@kddlabs.co.jp 910205
+#
+csigw = csigw.canon-soft.co.jp, canon-soft.co.jp 
+csigw = csigw.canon-soft.junet, canon-soft.junet 
+#
+.canon-soft.co.jp	csigw(LOCAL)
+
+#N	cskgw, .csk.co.jp, cskgw.cske.csk.co.jp
+#S	SONY NEWS 3870, NEWS-OS 4.0 (4.3 BSD)
+#O	OA Division,  CSK Corp.
+#C	Shigeki Yoshida, Satoshi Shida
+#E	postmaster@csk.co.jp
+#T	+81 3 5563-9300
+#P	32 F, ARK Mori Bldg, 1-12-32 Akasaka, Minato-ku, Tokyo 107, Japan
+#R	
+#U	ascgw tg_gtwy ctcgw
+#W	shige@csk.co.jp; Tue Feb 19 12:48:50 JST 1991
+#
+cskgw = cskgw.cske.csk.co.jp, cske.csk.co.jp, csk.co.jp
+cskgw = cskgw.cske.csk.junet, cske.csk.junet, csk.junet
+#
+.cske.csk.co.jp	cskgw(LOCAL)
+
+#N	ctcgw, .citoh.co.jp, ctcgw.ctc.citoh.co.jp
+#S	Sun-3/470, SunOS 4.1.1(JLE 1.1.1)
+#O	C.Itoh Techino-science Co., Ltd.
+#C	Tomo-aki Shimoyama
+#E	tomo@ctc.citoh.co.jp
+#T	+81 3 3497-4793
+#P	5-1, Kita-aoyama 2-chome, Minato-ku, Tokyo 107, Japan
+#L	35 52 N / 139 31 E
+#R	the information system trading and system integrating company
+#U	cskgw, kddlab, komazawa, sunj
+#W	tomo@ctc.citoh.co.jp 910214, konish@kddlabs.co.jp 910205
+#
+ctcgw = ctcgw.ctc.citoh.co.jp, ctc.citoh.co.jp, citoh.co.jp 
+ctcgw = ctcgw.ctc.citoh.junet, ctc.citoh.junet, citoh.junet 
+#
+.ctc.citoh.co.jp	ctcgw(LOCAL)
+
+#N	d0e, .tikusi.go.jp, d0e.tikusi.go.jp
+#S	NEC EWS4800/50 ; UNIX SYSTEM V R.2
+#O	
+#C	Yasuhiko Wada
+#E	postmaster@tikusi.go.jp
+#T	+81 2975 6-8623
+#P	
+#L	
+#R	@@
+#U	terra
+#W	wada@d0e.tikusi.go.jp Jan 18 1989, konish@kddlabs.co.jp 910205
+#
+d0e = d0e.tikusi.go.jp, tikusi.go.jp 
+d0e = d0e.tikusi.junet, tikusi.junet 
+#
+.tikusi.go.jp	d0e(LOCAL)
+
+#N	datctl, .datacontrol.co.jp, datctl.datacontrol.co.jp
+#S	SUN SPARCstation1; SunOS 4.0.3
+#O	DATA CONTROL LTD.
+#C	Iwao Deguchi
+#E	postmaster@datacontrol.co.jp
+#T	+81-6-763-2662
+#P	11-19 Obase-cho,Ten-nouji-ku,Osaka 543 Japan
+#L	
+#R	TOPS,WIN/TCP,LAN products support
+#U	uclsun.uclosk.co.jp
+#W	deguchi@datacontrol.co.jp Jun 23 1990, konish@kddlabs.co.jp 910205
+#
+datctl = datctl.datacontrol.co.jp, datacontrol.co.jp 
+datctl = datctl.datacontrol.junet, datacontrol.junet 
+#
+.datacontrol.co.jp	datctl(LOCAL)
+
+#N	denvax, .densan.co.jp, denvax.densan.co.jp
+#S	DEC Micro VAX-3500;4.3 MORE/bsd UNIX
+#O	Densan Co., Ltd.
+#C	Akihiro Handa, Hideaki Tanaka, Hidemoto Yamauchi
+#E	postmaster@densan.co.jp
+#T	+81 3-3329-3871
+#P	Meiwa Bldg., 1-23-11, Kami-takaido, Suginami-ku, Tokyo 168, Japan
+#L	
+#R	
+#U	enterprise.mtl.t.u-tokyo.ac.jp
+#W	yamau@densan.co.jp 910212, konish@kddlabs.co.jp 910213
+#
+denvax = denvax.densan.co.jp, densan.co.jp 
+denvax = denvax.densan.junet, densan.junet 
+#
+.densan.co.jp	denvax(LOCAL)
+
+#N	diagw, .diaconsult.co.jp, diagw.diaconsult.co.jp
+#S	SONY NEWS (NWS-1720); 4.3 BSD UNIX
+#O	DIA CONSULTANTS CO.,LTD.
+#C	Minoru Matsumura
+#E	postmaster@diaconsult.co.jp
+#T	+81 3 3959-8192
+#P	5-26-16,NISHI-IKEBUKURO,TOSHIMA-KU,TOKYO 170,JAPAN
+#L	139 45 E / 35 44 N
+#W	matsu@diaconsult.co.jp Feb 8 1991, konish@kddlabs.co.jp 910205
+#
+diagw = diagw.diaconsult.co.jp, diaconsult.co.jp 
+diagw = diagw.diaconsult.junet, diaconsult.junet 
+#
+.diaconsult.co.jp	diagw(LOCAL)
+
+#N	digigw, .digital.co.jp, digigw.lab.nanko.digital.co.jp
+#S	SPARC Station 1; SUN OS4.0.3
+#O	Digital Nanko Office Co., Ltd.
+#C	Yoshio Okada
+#E	okada@digital.co.jp
+#T	+81 6613 1101
+#P	2-52, Nanko Higashi 8chome, Suminoe-ku, Osaka 559, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Feb 5 1990, konish@kddlabs.co.jp 910205
+#
+digigw = digigw.lab.nanko.digital.co.jp, lab.nanko.digital.co.jp, digital.co.jp 
+digigw = digigw.lab.nanko.digital.junet, lab.nanko.digital.junet, digital.junet 
+#
+.digital.co.jp	.lab.nanko(LOCAL)
+.lab.nanko	digigw(LOCAL)
+
+#N	edrrp, .edr.co.jp, edrrp.edr.co.jp
+#S	AS3160M; 4.2BSD UNIX
+#O	Japan Electronic Dictionary Research Institute Ltd. ; EDR
+#C	Takao Irumano
+#E	postmaster@edrrp.edr.co.jp
+#T	+81 3 3798-5521
+#P	Mita-Kokusai-Building 1-4-28 Mita Minato-ku Tokyo 108 Japan
+#R	
+#U	
+#W	iruman@edrrp.edr.co.jp 15 Dec. 1988, konish@kddlabs.co.jp 910205
+#
+edrrp = edrrp.edr.co.jp, edr.co.jp 
+edrrp = edrrp.edr.junet, edr.junet 
+#
+.edr.co.jp	edrrp(LOCAL)
+
+#N	epsongw, .epson.co.jp, epsongw.epson.co.jp
+#S	Sony NWP-1750 os3.2
+#O	Seiko Epson Co., Ltd.
+#C	Tsuneyasu Hiroyuki
+#E	postmaster@epson.co.jp
+#T	+81 263 54-4419
+#P	80, Nitta, Hirookahara, Shiojiri-shi, Nagano 399-07, Japan
+#L	
+#R	
+#U	nagano
+#W	postmaster@epson.co.jp@6 Oct 1989, konish@kddlabs.co.jp 910205
+#
+epsongw = epsongw.epson.co.jp, epson.co.jp 
+epsongw = epsongw.epson.junet, epson.junet 
+#
+.epson.co.jp	epsongw(LOCAL)
+
+#N	exagw, .nk-exa.co.jp, exagw.nk-exa.co.jp
+#S	sun3/150 SunOS Release 4.0.3-JLE1.0.3
+#O	NK-EXA Co., Ltd.
+#C	Kenichi Hayami
+#E	postmaster@nk-exa.co.jp
+#T	+81 44 322 6639
+#P	Keihin Computer Bldg., 1-1,Minamiwatarida-cho, Kawasaki-ku, Kawsaki 210, Japan
+#L	
+#R	
+#U	nkkgwy
+#W	hayami@end.nk-exa.co.jp Jan 22 1991, konish@kddlabs.co.jp 910205
+#
+exagw = exagw.nk-exa.co.jp, nk-exa.co.jp 
+exagw = exagw.nk-exa.junet, nk-exa.junet 
+#
+.nk-exa.co.jp	exagw(LOCAL)
+
+#N	fecgw, .furuno.co.jp, fecgw.furuno.co.jp
+#S	NWS-830; NEWS-OS Release 2.3 (4.2BSD + NFS + KANJI)
+#O	FURUNO ELECTRIC Co.,Ltd.
+#C	Hitoshi KONDO
+#E	kondo@furuno.co.jp
+#T	+81 798 65-2111 ext.3761
+#P	9-52 Ashihara-cho, Nishinomiya-shi, Hyogo 662, Japan
+#L	135 21 12 E / 34 44 28 N (WGS84)
+#R	FAX +81 798 66-0216
+#U	
+#W	kondo@furuno.co.jp 19910208, konish@kddlabs.co.jp 910205
+#
+fecgw = fecgw.furuno.co.jp, furuno.co.jp 
+fecgw = fecgw.furuno.junet, furuno.junet 
+#
+.furuno.co.jp	fecgw(LOCAL)
+
+#N	ffilmgw, .fujifilm.co.jp, ffilmgw.fujifilm.co.jp
+#S	Sun3/160; SunOS4.0.3
+#O	Fuji Photo Film Co.,LTD.
+#C	Makoto Hara, Yoshiaki Yokoyama
+#E	postmaster@fujifilm.co.jp
+#T	+81 465 83-7107(Hara), +81 465 83-7163(Yokoyama)
+#P	Miyanodai Kaisei-machi Ashigarakami-gun Kanagawa, 258 JAPAN
+#L	
+#R	
+#U	kogwy.cc.keio.ac.jp
+#W	hara@miya.fujifilm.co.jp Jul 11 1990, konish@kddlabs.co.jp 910205
+#
+ffilmgw = ffilmgw.fujifilm.co.jp, fujifilm.co.jp 
+ffilmgw = ffilmgw.fujifilm.junet, fujifilm.junet 
+#
+.fujifilm.co.jp	ffilmgw(LOCAL)
+
+#N	fgw, .fujitsu.co.jp, fgw.fujitsu.co.jp
+#S	PFU A-50, SX/A E60 (SystemV + 4.2BSD)
+#O	Fujitsu Ltd., Kawasaki Labs., Information Processing Network Center
+#C	Hideyuki Aikawa
+#E	cen121@flab.fujitsu.co.jp
+#T	+81 44 777-1111 ext. 26416
+#P	1015 Kamikodanaka, Nakahara-ku, Kawasaki-shi, Kanagawa 211, Japan
+#L	N / E
+#R	this host is a gateway of the whole Fujitsu group
+#U	ascgw, titcca, fssc
+#W	cen121@flab.fujitsu.co.jp 910208, konish@kddlabs.co.jp 910209
+#
+fgw = fgw.fujitsu.co.jp, fujitsu.co.jp 
+fgw = fgw.fujitsu.junet, fujitsu.junet 
+#
+.fujitsu.co.jp fgw(LOCAL)
+.fujitsu.co.jp fai(DEDICATED)
+
+#N	fjgwy, .fujita.co.jp, fjgwy.fujita.co.jp
+#S	Sun-4/65(SPARC station1+); SunOS 4.0.3 (4.3 BSD UNIX)
+#O	Fujita Corporation
+#C	Kikuo Tomita
+#E	postmaster@fujita.co.jp
+#T	+81 3 3253 3694
+#P	Sagami-bldg. 2-17, kandasuda-chou, Chiyoda-ku, Tokyo 101
+#L	
+#R	
+#U	none
+#W	tomi@fujita.co.jp Nov 15 1990, konish@kddlabs.co.jp 910205
+#
+fjgwy = fjgwy.fujita.co.jp, fujita.co.jp 
+fjgwy = fjgwy.fujita.junet, fujita.junet 
+#
+.fujita.co.jp	fjgwy(LOCAL)
+
+#N	frf, .omron.co.jp, frf.omron.co.jp
+#S	SX-9100; System V2.1+4.2BSD
+#O	Tateishi Denki Co., Ltd.
+#C	Takahira Ueda
+#E	postmaster@frf.omron.co.jp
+#T	+81 75 9515111 ext. 164
+#P	Shimo-kaiinji, Nagaokakyo-shi, Kyoto 617, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Dec 16 1989, konish@kddlabs.co.jp 910205
+#
+frf = frf.omron.co.jp, omron.co.jp 
+frf = frf.omron.junet, omron.junet 
+#
+.omron.co.jp	frf(LOCAL)
+
+#N	gcosaka, .goldcoast.co.jp, gcosaka.goldcoast.co.jp
+#S	Sun3/50; SunOS 4.0.1
+#O	Gold Coast Productions Co., Ltd.
+#C	David Madden
+#E	dave@gcosaka.goldcoast.co.jp
+#T	+81 6 2416353
+#P	2-9, Hisatarou 4chome, Chuuou-ku, Osaka 541, Japan
+#L	
+#R	
+#U	
+#W	konish@kddlabs.co.jp Nov 10 1990, konish@kddlabs.co.jp 910205
+#
+gcosaka = gcosaka.goldcoast.co.jp, goldcoast.co.jp 
+gcosaka = gcosaka.goldcoast.junet, goldcoast.junet 
+#
+.goldcoast.co.jp	gcosaka(LOCAL)
+
+#N	gctgw, .gctech.co.jp, gctgw.gctech.co.jp
+#S	Sun3/110c; 4.2 BSD UNIX
+#O	Graphic Communication Technologies Co., Ltd.
+#C	Masaki Koyama
+#E	postmaster@gctech.co.jp
+#T	+81 3 3498-7141
+#P	Column_Minani_Aoyama 6F, 7-1-5, Minami-Aoyama, Minato-ku, Tokyo 107, Japan
+#L	
+#R	Gateway for gctech
+#U	ascgw
+#W	kym@gctech.co.jp Aug 16 1989, konish@kddlabs.co.jp 910205
+#
+gctgw = gctgw.gctech.co.jp, gctech.co.jp 
+gctgw = gctgw.gctech.junet, gctech.junet 
+#
+.gctech.co.jp	gctgw(LOCAL)
+
+#N	gekkou, .tepco.co.jp, gekkou.tepco.co.jp
+#S	SUN 3/260, SunOS 3.4
+#O	Tokyo Electric Power Co. Inc., Computer & Communication Research Center
+#C	Haruo Amari
+#E	amari@gekkou.tepco.co.jp
+#T	+81 3 3501-8111 ext. 6899
+#P	1-4-10 Irifune Chuo-ku, Tokyo 104, Japan
+#L	35 40 N / 139 47 E
+#R	Tokyo Denryoku, System Kenkyu-sho (in Japanese)
+#U	
+#W	amari@gekkou.tepco.co.jp 900314, konish@kddlabs.co.jp 910205
+#
+gekkou = gekkou.tepco.co.jp, tepco.co.jp 
+gekkou = gekkou.tepco.junet, tepco.junet 
+#
+.tepco.co.jp	gekkou(LOCAL)
+
+#N	gion, .omronsoft.co.jp, gion.omronsoft.co.jp
+#S	OMRON SX-9100/DS; UNIX System V + 4.2bsd (UniOS-U)
+#O	Omron Software Co., Ltd.
+#C	Kazuo Itoh
+#E	postmaster@omronsoft.co.jp
+#T	+81 75 223-0631
+#P	Shijo, Karasuma st., Nakagyo-ku, Kyoto, 604 Japan
+#L	
+#R	
+#U	frf.omron.co.jp
+#W	ito@omronsoft.co.jp 910208, konish@kddlabs.co.jp 910209
+#
+gion = gion.omronsoft.co.jp, omronsoft.co.jp 
+gion = gion.omronsoft.junet, omronsoft.junet 
+#
+.omronsoft.co.jp	gion(LOCAL)
+
+#N	grus, .jepro.co.jp, grus.tokyo.jepro.co.jp
+#S	SUN-3/80; SUNOS4.0.3
+#O	Jepro Co., Ltd.
+#C	Hisashi Tsurudome
+#E	postmaster@grus.tokyo.jepro.co.jp
+#T	+81 3 3249-6761
+#P	2-11-5, Kayaba-cho, Nihonbashi, Tokyo 111, Japan
+#R	
+#U	komaba.c.u-tokyo.ac.jp
+#W	coji@jepro.co.jp 910208
+#
+grus = grus.tokyo.jepro.co.jp, tokyo.jepro.co.jp, jepro.co.jp 
+grus = grus.tokyo.jepro.junet, tokyo.jepro.junet, jepro.junet 
+#
+.tokyo.jepro.co.jp	grus(LOCAL)
+SHAR_EOF
+:	End of shell archive
+exit 0
+

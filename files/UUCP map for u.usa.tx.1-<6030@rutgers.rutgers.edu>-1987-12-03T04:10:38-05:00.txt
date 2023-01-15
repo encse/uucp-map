@@ -1,0 +1,1028 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.tx.1
+# This archive created: Thu Dec  3 04:10:25 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.tx.1
+cat << \SHAR_EOF > u.usa.tx.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Nov 22 16:23:10 MST 1987
+
+#N	academ
+#S	Symmetric 375; 4.2BSD
+#O	Academ Computer Systems (Consulting)
+#C	Stan Barber
+#E	sob@academ
+#T	+1 713 790-9004
+#P	P.O. Box 3000481, Houston, Tx 77230
+#L	29 40 N/ 95 25 W city
+#U	rice,soma,killer,hoptoad,uhnix1
+#W	academ!sob (Stan Barber);Thu Apr 23 11:47:45 CDT 1987
+#
+academ	soma(LOCAL), rice(LOCAL), eyeball(LOCAL), mbir(LOCAL), 
+	killer(EVENING), shell(LOCAL), hoptoad(EVENING), uhnix1(LOCAL)
+
+
+
+#N	auscso
+#S	ATT 3B2
+#O	ATT
+#C	John Herry
+#E	root@auscso.UUCP
+#T	+1 512 465 2441
+#P	1033 La Posada, Austin, TX 78712
+#L	97 44 19 W / 30 17 11 N
+#R	
+#U	ut-ngp 
+#W	auscso!paddock (Steve Paddock); Fri Jun 26 19:07:14 CDT 1987
+#
+auscso	ut-ngp(DIRECT), pam(DIRECT),
+	gbsaus(DIRECT), bscaus(DIRECT),
+	mybest(DIRECT), bsscaus(LOCAL),
+	mgtaus(LOCAL), 	sdedal(DEAD),
+	ihnp4(DEAD),	fifi(DIRECT),
+	helps(DIRECT),	jclyde(DIRECT),
+	bigtex(DIRECT),	mybest(DIRECT)
+
+
+
+#N	baylor
+#S	Integrated Solutions; 4.2BSD
+#O	Baylor College of Medicine, Digital Imaging Group
+#C	Heather Lambert
+#E	heather@baylor.UUCP
+#T	+1 713 799 4996
+#P	Department of Medicine, One Baylor Plaza, Houston, Tx 77030
+#L	29 40 N/ 95 25 W city
+#U	
+#W	soma!sob (Stan Barber);Fri May  1 18:14:38 CDT 1987
+#R	cannot dial out, must be polled
+baylor	rice(POLLED), uni2(DEDICATED), soma(DEDICATED), kitty(POLLED)
+
+
+
+#N	bcm5000
+#S	Sperry 5000; SYSV
+#O	Baylor College of Medicine
+#C	Walt Panko, Stan Barber
+#E	postmaster@bcm5000.uucp, wbp@bcm5000, sob@bcm5000
+#T	(713) 799-5985 (Stan) (713) 799-6120 (Walt)
+#P	One Baylor Plaza, Houston, Tx 77030
+#L	29 40 N / 95 25 W city
+#U	soma rice
+#W	soma!sob (Stan Barber); Wed Jan 28 01:42:36 CST 1987
+#
+bcm5000 rice(DEDICATED), soma(DEDICATED), baylor(DEDICATED),
+	mbir(DEDICATED), crick(DEDICATED)
+#
+bcm5000 = bcm5000.bcm.tmc.edu
+
+
+
+#N	bigtex
+#S	PC/AT; Microport System V.2
+#O	F.B.N. Software
+#C	James Van Artsdalen
+#E	bigtex!postmaster
+#T	+1 512 323 2675
+#P	5300B McCandless, Austin, TX 78756
+#L	30 19 14 N / 97 44 02 W
+#U	reality1 osi3b2 
+#W	bigtex!james (James Van Artsdalen); Sat Dec 27 22:35:16 CST 1986
+#
+bigtex	helps(DIRECT), reality1(DIRECT), utastro(DAILY/4),
+	osi3b2(DAILY)
+
+
+
+#N	bles
+#S	Tandy 6000; Xenix 3.2
+#O	William T. Blessum, M.D.- Physical Medicine and Rehabilitation
+#C	William T. Blessum, M.D.
+#E	bles!wtb
+#T	+1 512 692 0977
+#P	7950 Floyd Curl # 102 ; San Antonio , TX 78229-3955
+#L	98 28 W / 29 33 N
+#W	bles!wtb (Wm Blessum) ; Tue Jun  2 10:53:19 CDT 1987
+#	
+bles	alamo(DIRECT), petro(DIRECT+HIGH), piano(DIRECT), utanes(DIRECT),
+	flattop(DIRECT), csoftec(DIRECT), conrad(POLLED+WEEKLY)
+
+
+#N	blhom
+#S	Tandy 6000; Xenix 3.2
+#O	William T. Blessum, M.D.- Physical Medicine and Rehabilitation
+#C	William T. Blessum, M.D.
+#E	blhom!wtb
+#T	+1 512 692 0977
+#P	7950 Floyd Curl # 102 ; San Antonio , TX 78229-3955
+#L	98 28 W / 29 33 N
+#W	blhom!wtb (Wm Blessum) ; Tue Jun  2 10:53:19 CDT 1987
+#	
+blhom	petro(DIRECT), bles(DIRECT+HIGH)
+
+
+#N	crick
+#S	Sun 3/160; Sun Unix 3.2
+#O	Baylor College of Medicine
+#C	Stan Barber
+#E	postmaster@crick.bcm.tmc.edu, sob@crick.bcm.tmc.edu
+#T	+1 713 799 6042
+#P	Baylor College of Medicine, One Baylor Plaza, Houston, Texas 77030
+#L	29 40 N / 95 25 W city
+#U	uni2
+#W	soma!sob (Stan Barber); Wed Jun 17 17:04:05 CDT 1987
+#R	crick is on the internet as host 128.249.4.2
+# this is crick's domain name
+crick = crick.bcm.tmc.edu
+# crick's local lan
+IAMISNET = {crick,huggins,svedberg,curie,pauling}!(LOCAL)
+# crick's connections to other machine at baylor
+crick	uni2(DEDICATED), mbir(DEDICATED), watson(DEDICATED)
+
+
+
+#N	csoftec
+#S	Tandy 1200,  Xenix System V
+#O	CompSofTech Consulting
+#C	Cliff Manis
+#E	csoftec!cmanis
+#T	+1 512 654 4411
+#P	P. O. Box 33937, San Antonio, Texas 78265
+#L	98 29 W / 29 25 N (City)
+#R	Computer Consulting, Customer Service
+#W	csoftec!cmanis, (Cliff Manis), Tuesday, July 21, 1987, 09:00:00
+#       Local Calls
+csoftec	petro(DEMAND+HIGH), bles(DEMAND), tss1(EVENING), flattop(DEMAND+HIGH),
+	mwi(DEMAND), medicia(DEMAND), swri14be(DEMAND), scuba(DEMAND),
+	dymsa(DEMAND)
+#
+#	Long Distance Calls
+#
+csoftec	dev1100(DEMAND), killer(DEMAND)
+
+
+
+#N	cyb-eng
+#S	Cyb Multibox; System V UniPlus+
+#O	Cyb Systems, Inc.
+#C	Gary Owens
+#E	ut-sally!cyb-eng!usenet, cyb-eng!usenet@ut-sally.ARPA
+#T	+1 512 835 2266
+#P	Cyb Systems, 2215 W Braker Ln, Austin, TX 78723
+#L	30 19 15 N / 97 41 45 W
+#R
+#U	oakhill bdp esc-bb batman 
+#W	cyb-eng!glo (Gary Owens); Fri Oct  3 17:43:37 CDT 1986
+#	batman has no incoming uucp line and they also talk to ut-sally
+cyb-eng	bdp(DIRECT), cybmktg(DIRECT),
+	esc-bb(EVENING), oakhill(DAILY), theo(DIRECT), ut-ngp(DIRECT),
+	ut-sally(DIRECT), wicat(DEAD)
+
+
+
+#N	esc-bb
+#S	Cyb Multibox; System V Uniplus+
+#O	Eclipse Systems Corporation
+#C	Brad Benton
+#E	postmaster@esc-bb.UUCP
+#T	+1 512 476 8385
+#P	703 Carolyn Avenue; Austin, Texas  78705
+#L	97 45 W / 30 16 N  city
+#R
+#U	austsun halley im4u romp
+#W	esc-bb!brad (Brad Benton); Mon May  4 22:28:11 CDT 1987
+esc-bb	austsun(DIRECT), cyb-eng(WEEKLY+LOW), halley(DIRECT), im4u(DIRECT),
+	romp(DIRECT)
+
+
+
+#N	eyeball
+#S	PDP-11/73; 2.9 BSD
+#O	Low Vision Project, Baylor College of Medicine, Houston, Tx
+#C	Brad Daniels
+#E	biff@eyeball
+#P	Low Vision Project, Baylor College of Medicine, Houston,Tx 77030
+#L	29 40 N/ 95 25 W city
+#W	eyeball!sob (Stan Barber);Fri May  1 18:12:11 CDT 1987
+#
+eyeball	soma(DIRECT), uni2(DIRECT)
+eyeball=eyeball.bcm.tmc.edu
+
+
+
+#N	flattop
+#S	Altos 686; Xenix 3.2f (sys 3)
+#O	R. C. McDowell Programming Consultants
+#C	Ron McDowell
+#E	flattop!postmaster
+#T	+1 512 826 8627
+#P	354 Timberlane Drive, San Antonio, Texas 78218-4248
+#L	98 25 30 W / 29 29 40 N
+#U	petro
+#W	flattop!rcm (Ron McDowell); Sun Apr 19 12:32:54 CDT 1987
+#	local network
+flattop	fl2(DEDICATED), fl3(DEDICATED), fl4(DEDICATED), fl5(DEDICATED)
+#	local calls
+flattop alamo(DIRECT), bles(DIRECT), csoftec(DIRECT), cuitex(DEAD),
+	cus(DEAD), mercy(DIRECT), mwi(DIRECT), petro(DIRECT+HIGH)
+#	long distance
+flattop akgua(DEAD), amital(DEMAND), fbm(EVENING), houston(EVENING),
+	midlyd(DEMAND), nofoe(EVENING), pawsd(WEEKLY/2), radshack(EVENING),
+	ssg(DEAD)
+
+
+
+#N	ghostwheel
+#S	DEC VAX-11/750; 4.xBSD
+#O	MCC; Database Program
+#C	Jack L. Bell
+#E	ut-sally!ghostwheel!postmaster
+#T	+1 512 343 0978
+#P	MCC / Database; 3500 W. Balcones Center Dr.; Austin, Tx 78759
+#L	97 45 W / 30 16 N
+#R	aka ghostwheel.DB.MCC.COM
+#U	ut-sally
+#W	ghostwheel!postmaster; Fri Sep  5 20:04:35 MDT 1986
+#
+ghostwheel	ut-sally(LOCAL)
+
+
+
+#N	godel
+#S	Sun 2/120; Sun UNIX 4.2 Release 2.0
+#O	University of Texas Computer and Vision Research Center
+#C	Rick Mooney
+#E	godel!rickm
+#T	+1 512 471 1114
+#P	Dept of Electrical and Computer Engineering, U of Texas, Austin, Tx 78759
+#L	97 44 19 W / 30 17 13 N
+#U	im4u
+#R	This is also godel.ee.utexas.edu on the internet (128.83.1.83)
+#W	boyter; 17 Nov 86
+#
+godel	.ee.utexas.edu
+godel	im4u(LOCAL)
+
+
+
+#N	im4u
+#S	Sequent Balance 21000; DYNIX (4.2BSD)
+#O	University of Texas, Austin, Dept. of Computer Sciences
+#C	Fletcher Mattox, John Chambers
+#E	ut-sally!im4u!postmaster
+#T	+1 512 471 7316
+#P	U. Texas, Dept. of Computer Sciences, Austin, TX 78712
+#L	97 44 19 W / 30 17 13 N
+#R	aka im4u.UTEXAS.EDU
+#U	esc-bb milano oakhill rutgers swrinde ut-sally romp
+#W	ut-sally!postmaster; 1986 Tue Sep  1 10:55:45 CDT 1987
+#
+# Local links (UT).
+#
+im4u	ut-sally(LOCAL/2), bluto(DAILY)
+#
+# Austin. (We don't call them; they call us)
+#
+im4u	oakhill(DIRECT), esc-bb(DIRECT), dadoes(DAILY), longway(DAILY),
+	milano(DEDICATED), romp(DIRECT), irasun(HOURLY)
+#
+# Texas. (We don't call them; they call us)
+#
+im4u	ti-csl(HOURLY), swrinde(HOURLY), woton(HOURLY)
+## Elsewhere.
+#
+im4u	rutgers(DEDICATED), ames(DEDICATED)
+
+
+
+#N	imsl
+#S	Sun 3/50; BSD 4.2 Sun version 3.0
+#O	IMSL
+#C	John Brophy
+#E	usenet@imsl.UUCP
+#T	+1 713 782 6060
+#P	2500 ParkWest Tower One, 2500 CityWest Blvd, Houston,Tx 77042
+#L	29 40 N / 95 25 W city
+#U	soma
+#W	soma!sob (Stan Barber); Tue Mar  4 00:25:14 CST 1986
+#R	We receive only the net.math groups at this time
+#
+imsl	soma(DIRECT)
+
+
+
+#N      irasun
+#S      SUN 3/160; SUN Unix 3.2
+#O      Information Research Associates
+#C      Peter Newton, Werner Uhrig
+#E      irasun!postmaster, newton@sally.utexas.edu, werner@astro.as.utexas.edu
+#T      +1 512 474-4526
+#P      911 West 29th Street, Austin, TX  78705
+#L      30 17 33  N / 97 46 32 W
+#R
+#U
+#W      irasun!werner (Werner Uhrig); Fri Aug 28 14:47:52 CDT 1987
+#
+irasun  im4u(DIRECT), petsd(WEEKLY)
+
+
+
+#N	ix1
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	University of Texas at Austin
+#C	Jim Knutson
+#E	ix1!uucp
+#T	+1 512 471 3241
+#P	Computation Center Room 1, Austin, TX 78712
+#L	97 44 19 W / 30 17 11 N
+#R	This is also IX1.CC.UTEXAS.EDU [128.83.0.21] on the internet
+#U	ix2 walt
+#W	ix1!knutson (Jim Knutson); Mon Mar 3 15:33:48 CST 1986
+#
+ix1	ut-ngp(HOURLY), ix2(HOURLY)
+
+
+#N	ix2
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	University of Texas at Austin
+#C	Jim Knutson
+#E	ix1!uucp
+#T	+1 512 471 3241
+#P	Computation Center Room 1, Austin, TX 78712
+#L	97 44 19 W / 30 17 11 N
+#R	This is also IX2.CC.UTEXAS.EDU [128.83.0.29] on the internet
+#U	ix1 ut-ngp
+#W	ix1!knutson (Jim Knutson); Mon Mar 3 15:53:09 CST 1986
+#
+ix2	ut-ngp(HOURLY), ix1(HOURLY)
+
+
+#N	jclyde
+#S	Compaq Deskpro;  Xenix V Rel 2.1.3
+#O
+#C	John B. Meaders, Jr.
+#E	john@jclyde.UUCP
+#T	+1 512 451 5038
+#P	1114 Camino La Costa #3083, Austin, TX  78752
+#L	97 42 W / 30 15 N city
+#R
+#U
+#W	jclyde!john (John B. Meaders, Jr.); Fri Sep 4 15:12:53 CDT 1987
+#
+jclyde	auscso(DIRECT), helps(DIRECT), sulaco(DEAD)
+
+
+
+#N	jeeves
+#S	Sun 3/160; 4.2 BSD UNIX
+#O	National Instruments
+#C	Rob Dye
+#E	jeeves!postmaster
+#T	+1 512 250 9119
+#P	12109 Technology Bvld, Austin, TX  78727
+#L	30 21 59 N / 97 45 30 W
+#W	jeeves!rob (Rob Dye); Fri Sep 25 10:40:00 CDT 1987
+#
+jeeves	im4u(HOURLY)
+
+
+#N	kvue
+#S	dual 83/80; System V
+#O	KVUE-TV
+#C	Edward Sparks
+#E	sparks@kvue.UUCP
+#T	+1 512 459 6521
+#P	PO Box 9927, Austin, TX 78766
+#L	30 21 53 N / 97 44 15 W
+#R	News: oakhill
+#U	oakhill
+#W	kvue!sparks (Edward Sparks); Mon May  4 12:15:45 CDT 1987
+#
+kvue	ut-sally(DEMAND), oakhill(DAILY)
+
+
+
+#N	lad-shrike
+#S	Sun-3/280, SunOS 3.4
+#O	Lockheed Missles & Space Co., Austin Division
+#C	David Capshaw
+#E	lad-shrike!usenet
+#T	+1 512 448 9747
+#P	O/96-01 B/30E, 6800 Burleson Road, Austin, Texas 78744
+#L	30 12 30 N / 97 45 W
+#R	aka shrike.austin.lockheed.com
+#W	lad-shrike!capshaw (David Capshaw); Wed Oct 21 13:44:42 CDT 1987
+#U	ut-ngp
+#
+lad-shrike = shrike.austin.lockheed.com
+lad-shrike	ut-ngp(DIRECT), milano(DAILY)
+
+
+#N	lngnck
+#S	AT&T 7300 UNIX pc; SYSTEM V v3.0
+#O	Ewing & Associates
+#C	Jeffrey J. Ewing
+#E	lngnck!ewing
+#T	+1 214 250 2862
+#L	32 56 N / 96 53 W (approx)
+#W	lngnck!ewing (Jeff Ewing) SUN Nov 1 11:25 CDT 1987
+lngnck	killer(DIRECT)
+
+
+
+#N	.tic.com, longway
+#F	sally.utexas.edu
+#O	Texas Internet Consulting
+#C	Smoot Carl-Mitchell, John S. Quarterman, William C. Anderson
+#E	postmaster@longway.tic.com
+#T	512-837-7233
+#P	P.O. Box 14621, Austin, TX 78761
+#L
+#U
+#R	applied
+#W	postmaster@longway.tic.com Sun Mar 22 22:10:40 CST 1987
+#
+longway	.tic.com
+longway=	longway.tic.com
+longway	im4u(DIRECT), ut-sally(DEMAND)
+
+
+
+#N	mbir
+#S	Sun 3/160; Sun Unix 3.2
+#O	Molecular Biology Information Resource, Baylor College of Medicine
+#C	Charlie Lawrence
+#E	chas@mbir.bcm.tmc.edu
+#P	Department of Cell Biology, Baylor College of Medicine, One Baylor Plaza, Houston, Texas 77030
+#L	29 40 N / 95 25 W city
+#U	uni2
+#W	soma!sob (Stan Barber); Wed Jun 17 17:04:05 CDT 1987
+#R	mbir is on the internet as host 128.249.6.1
+#
+# >>> mbir = condor
+# this is mbir's domain name
+mbir = mbir.bcm.tmc.edu
+mbir = condor.bcm.tmc.edu
+# mbir's local lan
+# >>> MBIRNET = {kite,thrasher,condor,falcon,shrike,osprey,kestral,owl,merlin,roc}!(LOCAL)
+MBIRNET = {kite,thrasher,falcon,shrike,osprey,kestral,owl,roc}!(LOCAL)
+# mbir's connections to other machine at Baylor 
+mbir	MBIRNET, baylor(DEDICATED), uni2(DEDICATED), crick(DEDICATED),
+	rice(DIRECT), watson(DEDICATED), soma(DEDICATED)
+
+
+
+#N	mercy
+#S	Tandy 6000; Xenix 03.01.01 (sys 3)
+#O	Mercy Medical Equipment Company
+#C	Ron McDowell 
+#E	flattop!postmaster
+#T	+1 512 826 8627
+#P	7959 Fredericksburg Road #135, San Antonio, Texas 78229
+#L	98 33 W / 29 32 N
+#R	
+#U
+#W	flattop!rcm (Ron McDowell); Thu Jun  4 01:06:54 CDT 1987
+#
+mercy	flattop(DIRECT)
+
+
+
+
+#N	mwi
+#S	Altos 1086 ; Xenix 3.3a
+#O	Mueller & Wilson, Inc.
+#C	Ron C. Wilson
+#E	mwi!ron
+#T	+1 512 824 9461
+#P	P.O. Box 17659,  San Antonio, TX 78217
+#L	98 29 W / 29 25 N city
+#R	
+#U	
+#W	mwi!ron (Ron C. Wilson); Fri May  8 09:52:19 CST 1987
+#
+mwi	petro(DIRECT)
+
+
+
+#N	mybest
+#S	ATT 6300Plus
+#O	Best Printing Co./Steve Paddock
+#C	Steve Paddock
+#E	mybest!root
+#T	+1 512 477 9733
+#P	3218 Manor Rd. Austin, Tx 78723
+#L	97 44 19 W / 30 17 11 N
+#R	
+#U	auscso
+#W	mybest!paddock (Steve Paddock);Thu Aug 13 14:11:13 CDT 1987
+#
+auscso	bsscaus(DIRECT), auscso(DIRECT)
+
+
+
+#N	oakhill
+#S	VAX 11/780 4.2BSD
+#O	Motorola
+#C	Ed Rupp
+#E	ed@oakhill.UUCP
+#T	(512) 440-2224
+#P      Motorola Inc., Mail Drop OE37, 6501 William Cannon Dr. West, Austin, TX 78735-8598
+#L	30 16 N / 97 45 W austin
+#R	Motorola 8/16 bit microprocessor design group
+#U	cyb-eng ut-sally kvue
+#W      oakhill!ed (Ed Rupp); Wed Jul  1 13:10:16 CDT 1987
+#
+oakhill im4u(HOURLY*3), cyb-eng(EVENING), kvue(EVENING), mot(EVENING),
+	ut-sally(HOURLY*3), sun(DAILY), mnetor(DAILY)
+
+
+
+#N	pemrac
+#S	Convex XP-1; 4.2 BSD UNIX
+#O	Southwest Research Institute
+#C	Richard Murphy
+#E	pemrac!richard, pemrac!postmaster
+#T	512 522 3259
+#P	6220 Culebra Rd., San Antonio, TX 78284
+#L	29 26 N / 98 29 W city
+#R
+#U
+#W	pemrac!richard (Richard Murphy) Jul 16 11:00:00 CDT 1987
+#
+pemrac	convex(DAILY/2)
+
+
+
+#N	petro	
+#S	Tandy 6000 ; Xenix 3.1
+#O	G.M. Andreen & Associates, Inc. 
+#C	Gilbert B. Andreen
+#E	postmaster@petro.UUCP
+#T	+1 512 656 3053
+#P	12607 La Plata,  San Antonio, Texas 78233-6335
+#L	98 25 W / 29 33 N
+#R	News 2.11
+#U	bles flattop swrinde
+#W	petro!bruce (Gilbert B. Andreen); Thu Feb 19 17:31:56 CST 1987
+#
+#	Local San Antonio systems:
+#
+petro	csoftec(DIRECT+HIGH), alamo(DIRECT+HIGH), bamcard(DAILY),
+	bles(DIRECT+HIGH), cjames(DIRECT+HIGH), cus(EVENING), draco(DAILY),
+	dymsa(DIRECT), flattop(DIRECT), mercy(DIRECT), mwi(DIRECT+HIGH),
+	petro2(DIRECT+HIGH), sausys(DIRECT+HIGH), scuba(DIRECT),
+	swri14be(DIRECT+HIGH), swrinde(DIRECT+HIGH), satbbb(DIRECT+HIGH),
+	satmeow(DAILY), sys3(EVENING), utanes(DIRECT+HIGH),
+	wedaff2(DIRECT+HIGH)
+#
+#	Long distance calls:
+#
+petro	akgua(DEMAND), dymhou(EVENING), dymsj(EVENING), gatech(DEMAND),
+	ihnp4(DEMAND), midlyd(DEMAND), ssbn(DEMAND), uxship(DEMAND)
+
+
+
+#N	reality1
+#S	Zilog 110; System V5_2.1
+#O	Reality Computer Systems
+#C	James R. Van Artsdalen
+#E	usenet@reality1.UUCP
+#T	+1 512 323 2675
+#P	7801 North Lamar Bldg. F1, Austin TX 78752
+#L	97 44 W / 30 17 N city
+#U	utastro osi3b2
+#W	reality1!james (James R. Van Artsdalen); Sun Nov  2 18:18:15 CDT 1986
+#
+reality1	melpad(DEMAND), utastro(DAILY/2), osi3b2(DAILY)
+
+
+
+#N	rice
+#S	VAX 11/750, UNIX 4.2bsd
+#O	Rice University, Houston, TX
+#C	Vicky Riffle, Dave Johnson, Paul Milazzo
+#E	postmaster@rice.edu
+#T	713-527-8101 x3844
+#P	Dept. of Computer Science
+#L	29 43 N / 95 26 W
+#R	Same as Internet host "rice.ARPA"
+#W	Vicky Riffle
+#
+rice	baylor(DEMAND), watson(DIRECT), cbosgd(DEMAND), cmucsg(DEMAND),
+	convex(DAILY/2), cornell(DEMAND), hp-pcd(DEMAND), lbl-csam(DEMAND),
+	soma(DAILY), pyramid(DEMAND), rosetta(HOURLY), shell(DEMAND),
+	sun(DEMAND), unmvax(DEMAND), ut-sally(DEMAND), ut-path(DAILY)
+
+
+
+#N	romp
+#S	IBM RT PC; AIX 2.1.1
+#O	IBM Austin, Entry Systems Division
+#C	Alan Weaver
+#E	romp!linear
+#T	+1 512 823 3579
+#P	3C-09/802, 11400 Burnet Rd., Austin, TX 78759
+#L	30 16 51 N / 97 45 30 W
+#W	romp!lwh (Larry W. Henson); Fri Aug 28 09:05:54 CDT 1987
+#
+romp	im4u(DIRECT), 3b5node(HOURLY), obiwan(DIRECT), floor14a(HOURLY)
+
+
+
+#N	satbbb
+#S	Tandy 6000 ; Xenix 3.1
+#O	The Better Business Bureau
+#C	Leo W. Taylor
+#E	satbbb!postmaster
+#T	+1 512 828-9441
+#P	1800 N.E. Loop 410, Suite 400, San Antonio, Texas 78217
+#L	98 29 W / 29 25 N city
+#R	
+#U	
+#W	satbbb!lwt (Leo W. Taylor); Sat Dec  6 14:30:06 CST 1986
+#
+satbbb	petro(DIRECT+HIGH)
+
+
+
+#N	shell
+#S	DEC VAX 11/780; ULTRIX-32
+#O	Shell Development Co., Computer Science Department
+#C	Stan Hanks
+#E	stan@shell.UUCP
+#T	+1 713 663 2385
+#P	Bellaire Research Center, P.O. Box 481, Houston, TX 77001
+#L	29 46 N / 95 22 W city
+#R
+#W	stan@shell 9/1/87
+#U	academ soma rice ihnp4 ut-sally
+#
+shell	academ(DIRECT), housun(DIRECT), ihnp4(HOURLY), intelca(DAILY),
+	nuchat(DAILY), psuvax(HOURLY*12), pur-ee(DAILY), rice(DIRECT), 
+	soma(DIRECT), sun(HOURLY), sytek(DAILY), uhnix1(DIRECT), 
+	ut-ngp(HOURLY*12), ut-sally(HOURLY*12), isis(DAILY)
+
+
+
+#N	sisd
+#S	Masscomp MC500-DP; RTU 3.0
+#O	Ford Aerospace, Space Information Systems Operation
+#C	Rick Sutton      Mike Needler
+#E	postmaster@sisd.UUCP
+#T	+1 713 280 6701, +1 713 280 6704
+#P	P.O. Box 58487, Houston, TX  77258
+#L	095 06 44 W / 29 33 21 N
+#R
+#U	soma 
+#W	sisd!rbs (Rick Sutton); Mon Nov 03 11:00:00 CDT 1986
+#
+sisd	rice(DIRECT), shell(DIRECT), soma(DIRECT),
+	masscomp(DEMAND+LOW)
+
+
+
+
+#N	soma
+#S	Masscomp MC5500-PEP ; Real-Time Unix 3.1B
+#O	Neurophysiology Laboratory, Neurology Department, Baylor College of Medicine
+#C	Mark Kelsey
+#E	postmaster@soma.bcm.tmc.edu, mk@soma.bcm.tmc.edu
+#T	+1 713 799 5985 
+#P	Department of Neurology, Baylor College of Medicine, One Baylor Plaza, Houston, Texas 77030
+#L	29 40 N / 95 25 W city
+#R	running pathalias/uumail software to assist in mail routing
+#U	shell, uni2, sisd, imsl, rice, uhnix1, academ
+#W	soma!sob (Stan Barber); Wed Jun 17 17:04:05 CDT 1987
+#
+# Soma's aliases
+# soma's old name was neuro1
+soma = neuro1
+# this is soma's domain name
+soma = soma.bcm.tmc.edu
+soma = soma-gw
+# soma's local lan
+CNLNET = {cortex,synapse,spine,neuron,axon,daq,dendrite}!(LOCAL)
+# soma's connections to machine at Baylor via 9600 baud links
+soma	CNLNET(DEDICATED), baylor(DEDICATED), uni2(DEDICATED),
+	mbir(DEDICATED), eyeball(DEDICATED), crick(DEDICATED),
+	watson(DEDICATED)
+# soma's connections in the city of Houston
+soma	shell(DIRECT), rice(DIRECT), uhnix1(DIRECT), houatso(DIRECT),
+	imsl(POLLED), academ(DIRECT)
+# soma's out-of-town mail links
+soma	sys1(POLLED)
+
+
+
+#N	splut
+#S	Everex/AT Plus System 1800A (PC/AT clone); Microport System V/AT 2.21
+#O	Confederate Microsystems
+#C	Jay Maynard
+#E	splut!jay
+#T	+1 713 332 3376
+#P	6027 Leafwood Circle, League City, TX 77573
+#L	29 28 45 N / 095 09 20 W
+#R	stats not likely to change unless I move - it's my machine!
+#W	splut!jay (Jay Maynard); Mon Sep 12 09:02:26 CDT 1987
+#U	sugar nuchat
+#
+splut	sugar(DIRECT), nuchat(DIRECT), uhnix1(DIRECT)
+
+
+
+#N	texhrc
+#S	Convex C1 Convex Unix
+#O	TEXACO Houston Research Center
+#C      Lyle Meier, Susan WilliS
+#E      texhrc!ldm,texhrc!sew 
+#T      713-954-6000
+#P      3901 Briarpark, Houston, Tx 77072 
+#L      29 42n 95 35 w city 
+#R
+#W      texhrc!ldm    (Lyle Meier); Tue Jun  2 21:09:24 MDT 1987
+texhrc	convex
+
+
+
+#N	uhnix1
+#S	ATT 3B20S; System V Release 2
+#O	University Computing Center, University of Houston
+#C	Alan Pfeiffer-Traum, Jeff Hayward
+#E	root@uhnix1.UUCP, postmaster@uhnix1.UUCP
+#T	+1 713 749 2761
+#P	4213 Elgin Blvd., Houston, TX 77004
+#L	29 43 12 N / 95 20 36 W
+#R	Alan Pfeiffer-Traum <uhnix1!root>	(System Administrator)
+#R	Jeff Hayward        <uhnix1!postmaster>	(Electronic Mail Postmaster)
+#U	soma, uhnix2
+#W	uhnix1!uccq (Alan Pfeiffer-Traum); Wed Jan 14  9:00:00 CST 1987
+#
+uhnix1	soma(DIRECT), uhnix2(DEDICATED)
+
+
+
+#N	uhnix2
+#S	ATT 3B20S; System V Release 2
+#O	University Computing Center, University of Houston
+#C	Alan Pfeiffer-Traum, Jeff Hayward
+#E	root@uhnix2.UUCP, postmaster@uhnix2.UUCP
+#T	+1 713 749 2761
+#P	4213 Elgin Blvd., Houston, TX 77004
+#L	29 43 12 N / 95 20 36 W
+#R	Alan Pfeiffer-Traum <uhnix2!root>	(System Administrator)
+#R	Jeff Hayward        <uhnix2!postmaster>	(Electronic Mail Postmaster)
+#U	uhnix1
+#W	uhnix1!uccq (Alan Pfeiffer-Traum); Wed Jan 14  9:00:00 CST 1987
+#
+uhnix2	uhnix1(DEDICATED)
+
+
+
+#N	uni2
+#S	Sperry 5000/40; SYSV
+#O	Baylor College of Medicine
+#C	Stan Barber
+#E	postmaster@uni2.bcm.tmc.edu
+#T	(713) 799-6120
+#P	One Baylor Plaza, Houston, Tx 77030
+#L	29 40 N / 95 25 W city
+#U	soma rice
+#W	soma!sob (Stan Barber); Fri May  1 18:02:07 CDT 1987
+#R	this is the primary news machine for Baylor College of Medicine
+#
+uni2	rice(DEDICATED), soma(DEDICATED), baylor(DEDICATED),
+	mbir(DEDICATED), crick(DEDICATED), watson(DEDICATED)
+#
+# domain name for uni2
+uni2 = uni2.bcm.tmc.edu
+
+
+
+#N	ut-ngp
+#S	VAX 11-780 / UNIX 4.2bsd
+#O	University of Texas, Computation Center
+#C	William C. Anderson
+#E	wca@ut-ngp.UUCP
+#T	(512) 471-3241 x252
+#P	Austin, TX 78712
+#L	30 16 N / 97 45 W city
+#R	
+#W	ut-ngp!wca (William Anderson); Mon Mar 15:59:01 CST 1987
+#U	ut-sally, ix1, utep-vaxa, infotel, melpad, ibmchs
+#
+ut-ngp	allegra(DAILY), bdp(HOURLY), ctvax(DAILY),
+	cyb-eng(POLLED), eagle(DAILY), gatech(DAILY),
+	ihnp4(DAILY), nbires(DAILY), rice(DAILY), ut-sally(HOURLY),
+	utastro(HOURLY), vortex(DAILY), ut-tsp(HOURLY), ix1(HOURLY),
+	uniq(DAILY), boulder(DAILY), netword(DAILY), chester(DAILY),
+	shell(POLLED), philabs(POLLED), rubicon(POLLED), vrvax0(POLLED),
+	iga(POLLED), texsun(POLLED), utep-vaxa(POLLED),
+	tiupd(POLLED), dstar1(POLLED), siemens(POLLED), infotel(POLLED),
+	mizar(POLLED), sol(POLLED), ccmaint(POLLED),
+	melpad(POLLED), trx-hou(POLLED), ut-bach(POLLED), ibmsupt(DAILY),
+	ibmchs(POLLED), lll-crg(HOURLY), rod(POLLED), netcor(POLLED),
+	cati(POLLED)
+	
+
+
+#N	ut-rod
+#S	IBM RT PC; ACIS 4.3
+#O	The University of Texas at Austin
+#C	Boyd Merworth
+#E	ut-rod!merworth
+#T	512 471 3241
+#P	Austin, Texas 78712
+#L	97 44 19 W / 30 17 11 N
+#R	This is also rod.cc.utexas.edu [128.83.134.11] on the internet.
+#U	ut-ngp ut-emx
+#W	ut-rod!merworth (Boyd Merworth); Thur Nov 5 09:19:45 CDT 1987
+#
+ut-rod	ut-ngp(HOURLY), ut-ngp(HOURLY)
+
+
+#N	ut-sally
+#S	DEC VAX-11/780; 4.3BSD
+#O	University of Texas, Austin, Dept. of Computer Sciences
+#C	Fletcher Mattox, John Chambers
+#E	ut-sally!postmaster
+#T	+1 512 471 7316
+#P	U. Texas, Dept. of Computer Sciences, Austin, TX 78712
+#L	97 44 19 W / 30 17 12 N
+#R	aka sally.UTEXAS.EDU
+#U	im4u ghostwheel harvard ut-ngp utastro
+#W	ut-sally!postmaster; 1984 Thu Sep 10 12:16:32 CDT 1987
+#
+# Local links (Austin).
+ut-sally	aci1(DEMAND), cli(EVENING),
+	ibmjal(DAILY), im4u(LOCAL/2), kvue(DIRECT),
+	ghostwheel(LOCAL), ni3b2(LOCAL), oakhill(HOURLY), utastro(LOCAL),
+	ut-ngp(LOCAL), ut-tsp(DEMAND), longway(DAILY)
+# Other Texas links and usl.
+ut-sally        convex(EVENING/2), rice(DEDICATED+LOW), 
+	shell(DAILY), flxdal(DAILY), texsun(DAILY), tiupd(DAILY), 
+	usl(EVENING), utep-vaxa(DAILY)
+# Out of state links.
+ut-sally	angband(DEDICATED), exodus(DAILY), gatech(EVENING),
+	harvard(DEDICATED), ico(EVENING), ihnp4(DAILY), mordor(DEDICATED),
+	nbires(EVENING), ames(DEDICATED), noao(DEAD), pyramid(EVENING),
+	sequent(EVENING)
+#
+# Ibmjal, ghostwheel, oakhill, and usl poll us, but we don't call them.
+# Usl is listed as EVENING because we are nonetheless their main mail
+# connection to the outside world.
+# Noao call us infrequently, but it's best not to depend on it.
+# In anticipation of a possible eventual name change, the following alias:
+#
+ut-sally = sally
+
+
+
+
+#N      utanes
+#S      AT&T 3B2/400; System V.3 UNIX
+#O      Univ. of Texas Health Science Ctr. San Antonio, Dept of Anesthesiology
+#C      Philip E. Helsel
+#E      utanes!peh
+#T      +1 512 567 4521
+#P      7703 Floyd Curl Dr., San Antonio, Tx. 78284-7838
+#L      98 34 41 W / 29 30 27 N
+#R
+#U
+#W      utanes!peh  (Philip E. Helsel); Sat May  2 11:21:06 CST 1987
+#
+utanes  bles(DIRECT), petro(DIRECT), leong(DIRECT)
+
+
+
+#N	utastro
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Texas, Astronomy/McDonald Observatory
+#C	David Way, David Garrett
+#E	postmaster@utastro.UUCP
+#T	+1 512 471 7439
+#P	Univ of Texas, Dept of Astronomy, Austin TX 78712
+#L	97 44 11 W / 30 17 21 N
+#U	ut-sally 
+#W	utastro!dpw (David Way); Mon Sep 7 8:30:31 CDT 1987
+#
+utastro	astrovax(EVENING), charm(EVENING), isi(EVENING), noao(EVENING),
+	nrao1(EVENING), sun(EVENING), ut-ngp(LOCAL), ut-sally(LOCAL)
+
+
+
+#N	utep-vaxa
+#S	VAX 11/785, 4.3BSD UNIX
+#O	University of Texas at El Paso, EE and CS Dept.
+#C	David Williams
+#E	sys_man@utep.UUCP williams@utep.UUCP
+#T	+1 915 747 5470
+#P	El Paso, Texas 79968-0523
+#L	31 46 15 N / 106 30 30 W
+#R	News: B 2.10.3, Mail: smail(2.2)
+#U	ut-ngp
+#W	utep-vaxa!postmaster (Vince Fresquez); Thu Apr  9 18:14:42 MST 1987
+#
+utep-vaxa	nmsumath(DEMAND), ut-sally(DEMAND), ut-ngp(DAILY)
+#
+# Aliases for utep-vaxa
+#
+utep-vaxa = "utep"
+
+
+
+#N	utmbvax
+#S	VAX 11/750, 4.2 BSD
+#O	University of Texas Medical Branch, Office of Academic Computing and Biostatistics, A-23
+#C	Michael M Rubenstein
+#E	mmr@utmbvax.UUCP
+#T	(409) 761-1813
+#P	Galveston, TX 77550
+#L	29 18 N / 94 48 W city
+#R	news and mail; "nmail" routing; news down indefinitely.
+#W	mmr 12/12/84
+#U	shell
+#
+utmbvax	ut-sally, cssgraphics
+
+
+
+#N	watson
+#S	Sun 3/180; Sun Unix 3.2
+#O	Baylor College of Medicine
+#C	Stan Barber, Rosalinda Garcia
+#E	postmaster@watson.bcm.tmc.edu, sob@curie.bcm.tmc.edu, rosa@huggins.bcm.tmc.edu
+#T	+1 713 799 6042, +1 713 799 4511
+#P	Baylor College of Medicine, One Baylor Plaza, Houston, Texas 77030
+#L	29 40 N / 95 25 W city
+#U	uni2
+#W	soma!sob (Stan Barber); Wed Jun 17 17:04:05 CDT 1987
+#R	watson is the central mail server for Baylor College of Medicine
+#R	it will also be the primary name server for domain "tmc.edu" when
+#R	sesquinet comes on-line.
+#R	watson is on the internet as host 128.249.1.1
+# this is watson's domain name
+watson = watson.bcm.tmc.edu
+watson = bcm.tmc.edu
+watson = tmc.edu
+watson = bcm
+watson	uni2(DEDICATED), soma(DEDICATED), mbir(DEDICATED), crick(DEDICATED)
+
+
+
+#N	woton, hilda, bonita, borden, daniel, ernst, galvez, ibis, lisa, shrimp, strand
+#S	AT&T 3Bxx systems; System V release 2.1.1
+#O	Shriners Burns Institute
+#C	Lisa Rosenblatt, Prentiss Riddle
+#E	woton!root, woton!lhr, woton!riddle
+#T	+1 409 761 4701
+#P	SBI, Computer Department, 610 Texas Ave., Galveston, TX 77550 USA
+#L	29 18 N / 94 48 W city
+#R	We don't call uhnix1, they call us; im4u doesn't call us, we call them.
+#U	im4u killer uhnix1
+#W	woton!riddle (Prentiss Riddle); Tue Sep 22 14:25:05 CDT 1987
+#
+# Local links (SBI).
+woton	bonita(DIRECT), borden(DIRECT), daniel(DIRECT), ernst(DIRECT)
+woton	galvez(DIRECT), hilda(DEDICATED), ibis(DIRECT), lisa(DIRECT)
+woton	shrimp(DIRECT), strand(DIRECT)
+#
+# Soon-to-be-created local links (SBI).
+woton	adler(DEAD/2), anchor(DEAD/2), apffel(DEAD/2), ashton(DEAD/2)
+woton	ball(DEAD/2), bayou(DEAD/2), chief(DEAD/2), church(DEAD/2)
+woton	coral(DEAD/2), ferry(DEAD/2), gaido(DEAD/2), genter(DEAD/2)
+woton	gerol(DEAD/2), grambo(DEAD/2), gulf(DEAD/2), gull(DEAD/2)
+woton	heron(DEAD/2), maggie(DEAD/2), menard(DEAD/2), moody(DEAD/2)
+woton	mutiny(DEAD/2), sealy(DEAD/2), shore(DEAD/2), surf(DEAD/2)
+woton	swan(DEAD/2), teal(DEAD/2), tern(DEAD/2), tuna(DEAD/2)
+#
+# Local links (Galveston).
+woton	jirpc(DIRECT), marslab(DIRECT), obpc(DIRECT)
+#
+# Soon-to-be-created local links (Galveston).
+woton	marsfac(DEAD)
+#
+# Elsewhere.
+woton	gdpc(DEMAND), im4u(DEMAND), killer(DAILY), uhnix1(DAILY)
+woton	cuuxb(DEMAND*2), mcwash(DEMAND*2)
+#
+hilda	woton(DIRECT)
+bonita	woton(DIRECT)
+borden	woton(DIRECT)
+daniel	woton(DIRECT)
+ernst	woton(DIRECT)
+galvez	woton(DIRECT)
+ibis	woton(DIRECT)
+lisa	woton(DIRECT)
+shrimp	woton(DIRECT)
+strand	woton(DIRECT)
+
+
+SHAR_EOF
+#	End of shell archive
+exit 0

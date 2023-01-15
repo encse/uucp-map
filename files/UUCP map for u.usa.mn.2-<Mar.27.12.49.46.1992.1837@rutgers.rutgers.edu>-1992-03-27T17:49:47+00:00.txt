@@ -1,0 +1,1492 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.mn.2
+: This archive created: Fri Mar 27 12:49:39 1992
+echo shar: extracting u.usa.mn.2
+cat << 'SHAR_EOF' > u.usa.mn.2
+# u.usa.mn.2 maintained by Jeff Wabik <jwabik@msc.edu>
+# Fri Mar 27 10:25:10 CST 1992
+file {u.usa.mn.2}
+
+#N	.mn.org, tcnet, tcnet.mn.org
+#F	poincare.geom.umn.edu
+#S	EISA 486/33;Interactive UNIX 2.21
+#O	Minnesota Domain Park
+#C	Greg Kemnitz
+#E	mailadm@mn.org
+#T	+1 612 475 1527
+#P	P.O. Box 47804, Plymouth, MN  55447-0804
+#L	44 59 20 N / 93 28 22 W
+#U	kksys
+#R	registered
+#R	.andante.mn.org - alegrej@andante.mn.org <John N. Alegre - 612-699-2709>
+#R	.apertus.mn.org - bradm@apertus.mn.org <Brad Miller - +1 612 828 0728>
+#R	.boss.mn.org - postmaster@danmc.boss.mn.org <Dan McCreary - +1 612 330 6896>
+#R	.brainiac.mn.org - root@brainiac.mn.org < - >
+#R	.bright.mn.org - bright!dab <David A. Bright - +1 612 487 2407>
+#R	.brimson.mn.org - pberger@taiga.brimson.mn.org <Peter Perger - +1 218 848 2885>
+#R	.bungia.mn.org - ahby@Bungia.MN.ORG <Shane P. McCarron - +1 612 224 9239>
+#R	.c2s.mn.org - craig@c2s.mn.org <Craig Wilson - +1 612 452 9522>
+#R	.cdsmn.mn.org - cdsmn!fine <Dick Fine - +1 612 895 3099>
+#R	.cimcor.mn.org - mike@cimcor.MN.ORG <Mike Grenier - +1 612 464 7382>
+#R	.cipric.mn.org - jmh@cipric.mn.org <Janet Huss - +1 612 559 2034>
+#R	.clavdivs.mn.org - bird@clavdivs.mn.org <Mike Bird - +1 612 924 0723>
+#R	.cnt.mn.org - amir@cnt.MN.ORG <Stuart Fishman - +1 612 550 8235>
+#R	.crud.mn.org - crud!trashman <Barry Schwartz - +1 612 631-8083>
+#R	.crystal.mn.org - joel@crystal.mn.org <Joseph P. Larson - +1 612 542 1245>
+#R	.dhdsc.mn.org - bill@dhdsc.mn.org <William T. Argyros - +1 612 375 6651>
+#R	.dmshq.mn.org - pnessutt@dmshq.sialis.com <Robert A. Monio - +1 612 435 3120>
+#R	.dynasoft.mn.org - postmaster@dynasoft.mn.org <John L. Stanley - +1 612 825 4215>
+#R	.edgar.mn.org - bryan@edgar.mn.org <Bryan Halvorson - 612-454-4177>
+#R	.fs.mn.org - boylan@fs.mn.org <Chris Boylan - (612) 851 1479>
+#R	.gorf.mn.org - rms@gorf.mn.org <Roger Shimada - +1 612 484 6361>
+#R	.haapi.mn.org - clay@haapi.mn.org <Clayton Haapala - +1 612 542 9873>
+#R	.hawkmoon.mn.org - det@hawkmoon.mn.org <Derek Terveer - +1 612 683 0413>
+#R	.helios.mn.org - postmaster@helios.mn.org <Rob Healey - +1 612 939 9394>
+#R	.kksys.mn.org - kksys!postmaster <Greg Kemnitz - +1 612 475 1527>
+#R	.kolonel.mn.org - db@kolonel.mn.org <David Becker - +1 612 631 0633>
+#R	.lmt.mn.org - lmt!postmaster <Chris Cox - +1 612 944 6069>
+#R	.lucan.mn.org - postmaster@lucan.mn.org <Scott Lucas - +1 612 612 860 8144>
+#R	.lynx.mn.org - dave@Lynx.MN.Org <David Messer - +1 612 688 8030>
+#R	.macgate.mn.org - postmaster@macgate.mn.org <Tony Austinson - +1 612 881 4320>
+#R	.marilyn.mn.org - marilyn!shawn <Shawn P. Stanley - +1 612 929 5181>
+#R	.maven.mn.org - maven.mn.org!postmaster <Jay A. Christopherson - +1 612 828 3507>
+#R	.mca.mn.org - sjm@mca.mn.org <Steve McDowall - +1 612 621 4812>
+#R	.mcetech.mn.org - postmaster@mcetech.mn.org <Doug McIntyre - +1 612 537 4026>
+#R	.mecc.mn.org - jap@wombat.mecc.mn.org <John A. Persoon - 612-569-1686>
+#R	.mishima.mn.org - postmaster@mishima.mishima.mn.org <Tom Greenwalt - +1 612 866 1344>
+#R	.mobird.mn.org - me@mobird.mn.org <Scott Blasel - +1 612 687 9258>
+#R	.moundst.mn.org - tacook@moundst.mn.org <Tom Cook - +1 612 472 5189>
+#R	.mrdos.mn.org - postmaster@mrdos.mn.org <Mark D. Rustad - +1 612 832 8745>
+#R	.mutley.mn.org - mutley!peiffer <Timothy Peiffer - +1 612 464 5113>
+#R	.newave.mn.org - postmaster@newave.mn.org <John A. Weeks III - +1 612 942 6969>
+#R	.nightowl.mn.org - joelm@nightowl.mn.org <Joel Melohn - +1 612 423 3951>
+#R	.nokomis.mn.org - nokomis!loren <Loren Cahlander - +1 612 890 0040>
+#R	.orb.mn.org - cosmos@orbit <Peter Kosmas - +1 612 929 2701>
+#R	.questar.mn.org - postmaster@questar.questar.mn.org <patty or  tim kelly x65 - +1 612 688 0089>
+#R	.roadkil.mn.org - postmaster@roadkil.mn.org <C. Clark Piepho - +1 612 831 0014>
+#R	.saylor.mn.org - jim@saylor.mn.org <Jim Anderson - +1 612 934 7451>
+#R	.sialis.mn.org - rjg@sialis.mn.org <Robert J. Granvin - +1 612 922 2382>
+#R	.sledge.mn.org - curt@sledge.mn.org <Curt Olson - +1 612 757 0310>
+#R	.sps.mn.org - eric@sps.mn.org <Eric Christenson - +1 612 641 0963>
+#R	.starfire.mn.org - john@starfire.MN.ORG <John Lind - +1 612 379 2150>
+#R	.syntel.mn.org - dal@syntel.syntel.mn.org <Dale A. Schumacher - +1 612 646 8559>
+#R	.technix.mn.org - jfw@technix.mn.org <Jerry Wallace - +1 612 647 9483>
+#R	.thelake.mn.org - postmaster@thelake.mn.org <Steve Yelvington - +1 612 426 7165>
+#R	.thurse.mn.org - thurse!charles <Charles L. Rennolet - +1 612 699 0594>
+#R	.tricord.mn.org - tricord!sja <Scott J. Amundson - +1 612 557 8391>
+#R	.veggard.mn.org - brent@veggard.mn.org <Brent J. Nordquist - +1 719 630 0857 h  +1 719 554 9367>
+#R	.vware.mn.org - postmaster@vware.MN.ORG <Andy Warner - +1 612 377 3627>
+#R	.wd0gol.mn.org - postmaster@wd0gol.mn.org <Robert W. Barker - +1 612 949 0140>
+#R	.zeno.mn.org - gene@zeno.mn.org <Gene Olson - +1 612 824 9108>
+#R	.zuhause.mn.org - zuhause!bruce <Bruce Albrecht - +1 612 699 8832>
+#W	mailadm@mn.org (Mail Administrator); Fri Mar 13 15:31:47 CST 1992
+
+# Domain member declarations
+libros	.andante.mn.org
+apertus	.apertus.mn.org
+danmc	.boss.mn.org
+brainiac	.brainiac.mn.org
+bright	.bright.mn.org
+taiga	.brimson.mn.org
+bungia	.bungia.mn.org
+com50	.c2s.mn.org
+cdsmn	.cdsmn.mn.org
+cimcor	.cimcor.mn.org
+cipric	.cipric.mn.org
+clavdivs	.clavdivs.mn.org
+cnt	.cnt.mn.org
+crud	.crud.mn.org
+crystal	.crystal.mn.org
+dayton	.dhdsc.mn.org
+dmshq	.dmshq.mn.org
+dynasoft	.dynasoft.mn.org
+edgar	.edgar.mn.org
+fs	.fs.mn.org
+gorf	.gorf.mn.org
+haapi	.haapi.mn.org
+hawkmoon	.hawkmoon.mn.org
+kas	.helios.mn.org
+kksys	.kksys.mn.org
+kolonel	.kolonel.mn.org
+lmt	.lmt.mn.org
+lucan	.lucan.mn.org
+viper	.lynx.mn.org
+macgate	.macgate.mn.org
+marilyn	.marilyn.mn.org
+maven	.maven.mn.org
+mca	.mca.mn.org
+mcetech	.mcetech.mn.org
+meccts	.mecc.mn.org
+mishima	.mishima.mn.org
+mobird	.mobird.mn.org
+moundst	.moundst.mn.org
+mrdos	.mrdos.mn.org
+mutley	.mutley.mn.org
+newave	.newave.mn.org
+nightowl	.nightowl.mn.org
+nokomis	.nokomis.mn.org
+orbit	.orb.mn.org
+questar	.questar.mn.org
+roadkil	.roadkil.mn.org
+saylor	.saylor.mn.org
+sialis	.sialis.mn.org
+sledge	.sledge.mn.org
+sps	.sps.mn.org
+starfire	.starfire.mn.org
+syntel	.syntel.mn.org
+technix	.technix.mn.org
+thelake	.thelake.mn.org
+thurse	.thurse.mn.org
+tricord	.tricord.mn.org
+limabean	.veggard.mn.org
+vware	.vware.mn.org
+wd0gol	.wd0gol.mn.org
+zeno	.zeno.mn.org
+zuhause	.zuhause.mn.org
+
+# kksys is the mn.org controller
+kksys	.mn.org(LOCAL)
+
+kksys	poincar(DIRECT+FAST)
+
+###########################################################################
+#	Connections to domain park members
+tcnet	# -- place holder -- 
+	apertus(DIRECT+FAST),
+	brainiac(DIRECT+FAST),
+	bright(DIRECT),
+	bungia(DIRECT+FAST),
+	calhoun(DIRECT+HIGH),
+	cdsmn(DIRECT+HIGH),
+	cimcor(DIRECT+HIGH),
+	cipric(DIRECT+FAST),
+	clavdivs(POLLED),
+	cnt(DIRECT+FAST),
+	com50(DIRECT+FAST),
+	crud(POLLED),
+	crystal(DIRECT+HIGH),
+	danmc(DIRECT+FAST),
+	dayton(DIRECT+FAST),
+	dmshq(DIRECT+FAST),
+	dynasoft(POLLED),
+	edgar(DIRECT+FAST),
+	fs(DIRECT+FAST),
+	gorf(POLLED),
+	hawkmoon(DIRECT+FAST),
+	haapi(DIRECT+HIGH),
+	kas(DIRECT+FAST),
+	kksys(LOCAL),
+	kolonel(DIRECT+LOW),
+	libros(POLLED),
+	limabean(POLLED),
+	lmt(DIRECT+FAST),
+	lucan(DIRECT+HIGH),
+	macgate(POLLED),
+	marilyn(POLLED),
+	maven(DIRECT+HIGH),
+	mca(POLLED),
+	mcetech(DIRECT+LOW),
+	meccts(DIRECT),
+	mishima(DIRECT+FAST),
+	moundst(DIRECT+FAST),
+	mrdos(POLLED),
+	mutley(DIRECT+FAST),
+	ncs(DIRECT+FAST),
+	newave(POLLED),
+	nightowl(DIRECT+FAST),
+	nokomis(DIRECT+HIGH),
+	orbit(DIRECT+FAST),
+	questar(DIRECT+HIGH),
+	roadkil(DIRECT+FAST),
+	saylor(DIRECT+FAST),
+	sialis(DIRECT+FAST),
+	sledge(DIRECT),
+	sps(DIRECT+FAST),
+	starfire(DIRECT+HIGH),
+	syntel(POLLED),
+	taiga(POLLED),
+	technix(DIRECT+FAST),
+	thelake(POLLED),
+	thurse(DIRECT),
+	tricord(DIRECT+FAST),
+	viper(DIRECT+HIGH),
+	vware(DIRECT+FAST),
+	wd0gol(DIRECT+FAST),
+	zeno(DIRECT+FAST),
+	zuhause(DIRECT+HIGH)
+
+#	Descriptions POLLED Member sites
+clavdivs	tcnet(DAILY+HIGH)
+crud		tcnet(DAILY+HIGH)
+dynasoft	tcnet(DAILY+HIGH)
+gorf	tcnet(DAILY+LOW)
+libros	tcnet(DAILY+FAST)
+limabean tcnet(DAILY+HIGH)
+macgate	tcnet(DAILY)
+marilyn	tcnet(DAILY+HIGH)
+mca	tcnet(DAILY+HIGH)
+mrdos	tcnet(DAILY+HIGH)
+newave	tcnet(DAILY+HIGH)
+syntel	tcnet(DAILY+HIGH)
+taiga	tcnet(DAILY+HIGH)
+thelake	tcnet(DAILY)
+
+#	Connections to other local sites
+tcnet	# -- place holder -- 
+	atc(DIRECT+FAST),
+	knute(DIRECT+FAST)
+
+#	Non-regional connections
+
+# End of mn.org
+
+
+
+#N	.andante.mn.org, libros
+#S	NeXT; NeXT OS version 1.0 (4.3 BSD UNIX)
+#F	MN.ORG
+#O	Andante Systems
+#C	John N. Alegre
+#E	alegrej@andante.mn.org, root@andante.mn.org
+#T	612-699-2709
+#P	2043 Berkeley Avenue
+#L	44 56 14 N / 93 08 46 W
+#U	
+#R	registered
+#W	alegrej@andante.mn.org; Sat Jun 30 11:48:43 CST 1990
+libros	.andante.mn.org(LOCAL)
+libros	tcnet(DIRECT)
+
+#N	.apertus.mn.org, apertus
+#S	Pyramid 9000/TB+
+#F	.mn.org
+#O	Apertus Technologies
+#C	Brad Miller
+#E	bradm@apertus.mn.org
+#T	+1 612 828 0728
+#P	7275 Flying Cloud Drive; Eden Prairie, MN 55344
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+apertus	.apertus.mn.org(LOCAL)
+apertus= apertus.mn.org
+apertus	tcnet(DIRECT+FAST)
+
+#N	.boss.mn.org, danmc
+#S	NeXT 2.0
+#F	.mn.org
+#O	Boss Logic
+#C	Dan McCreary
+#E	postmaster@danmc.boss.mn.org
+#T	+1 612 330 6896
+#P	1836 Iglehart Ave.; St. Paul, MN 55104
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+danmc	.boss.mn.org(LOCAL)
+danmc= boss.mn.org
+danmc	tcnet(DIRECT+FAST)
+
+#N	.brainiac.mn.org, brainiac
+#F	.mn.org
+#E	root@brainiac.mn.org
+#O	Private
+#L	44 46 N / 93 13 W
+#W	root@brainiac.mn.org (Operator); Sat Feb 22 15:20:00 CST 1992
+#U	edgar apertus com50 esb moron
+#R	registered
+brainiac	.brainiac.mn.org(LOCAL)
+brainiac= brainiac.mn.org
+brainiac	apertus(DIRECT+FAST), 
+	com50(DIRECT+FAST), 
+	edgar(DIRECT+FAST),
+	tcnet(DIRECT+FAST),
+	vware(DIRECT+FAST),
+	moron(DIRECT),
+	hp1(WEEKLY),
+	rexlab(DIRECT+FAST),
+	nr0d(LOCAL)
+
+
+#N	.bright.mn.org, bright
+#F	.mn.org
+#S	DTK 25MHz 386; ESIX System V R3.2, Revision C
+#O	Bright Family and Friends
+#C	David A. Bright
+#E	bright!dab
+#T	+1 612 487 2407
+#P	910 W Burke Ave., Roseville, MN 55113 USA
+#L	44 46 N / 93 5 W
+#R	Lat and Long are appr.
+#U
+#W	dab@Bright.MN.ORG (David A. Bright); Wed Sep 26 23:13:10 CDT 1990
+#
+bright	.bright.mn.org(LOCAL)
+bright	tcnet(DIRECT)
+
+
+#N	.brimson.mn.org, taiga
+#S	
+#F	.mn.org
+#O	Brimson Laboratories
+#C	Peter Perger
+#E	pberger@taiga.brimson.mn.org
+#T	+1 218 848 2885
+#P	1549 Hiironen Road; 
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+taiga	.brimson.mn.org(LOCAL)
+taiga= brimson.mn.org
+taiga	tcnet(DIRECT+FAST)
+
+#N	.bungia.mn.org, bungia
+#F	.mn.org
+#S	AT&T 3B1; Release 3.51
+#O	NAPS International
+#C	Shane P. McCarron, Scott R. Anderson
+#E	ahby@Bungia.MN.ORG, mailadm@Bungia.MN.ORG
+#T	+1 612 224 9239
+#P	117 Mackubin St.  #6, St. Paul, MN  55102
+#L      45 01 N / 93 30 W city  
+#U	com50
+#R	registered
+#W	mailadm@bungia.mn.org (Scott R. Anderson); Thu Aug 17 09:57:23 CDT 1989
+bungia	.bungia.mn.org(LOCAL)
+
+#N	.c2s.mn.org, com50
+#S	Convergent S/280
+#F	MN.ORG
+#O	Com Squared Systems
+#C	Craig Wilson, Jeff White
+#E	craig@c2s.mn.org, jwhite@c2s.mn.org
+#T	+1 612 452 9522
+#P	1285 Corporate Center Drive, Eagan, MN  55121
+#L	44 51 N / 93 10 W
+#U	bungia cipric dayton rosevax pwcs dmshq mca atc lucan
+#W	jwhite@c2s.mn.org <Jeffrey White>; Wed Feb 12 09:40:05 CST 1992
+#
+com50	.c2s.mn.org
+com50	tcnet(DIRECT+FAST),
+	bungia(DIRECT+FAST),
+	com2serv(LOCAL),
+	cipric(DIRECT+FAST),
+	dmshq(DIRECT+FAST),
+	dayton(DIRECT+FAST),
+	kksys(DIRECT+FAST),
+	mca(POLLED),
+	midgard(DIRECT+FAST),
+	pai(DEMAND),
+	pwcs(DIRECT+FAST),
+	rosevax(POLLED+FAST),
+	srcsip(DIRECT+FAST),
+	tcnet(DIRECT+FAST),
+	uiunix(POLLED),
+	wilson(DIRECT+FAST),
+	brainiac(DIRECT+FAST),
+	vware(DIRECT+FAST),
+	lucan(DIRECT+FAST),
+	atc(DEMAND),
+	sialis(POLLED),
+	com2chi(POLLED)
+
+
+#N	.cdsmn.mn.org, cdsmn
+#F	.mn.org
+#S	Intel 301Z running Interactive Unix V Rel. 3 Ver 2.2
+#O	Dicomed, Inc.
+#C	Dick Fine
+#E	cdsmn!fine
+#T	+1 612 895 3099
+#P	11401 Rupp Drive, Burnsville, Mn. 55337
+#L	44 59 N / 93 13 W city
+#R	Latitude/longitude are approximate (city).
+#U	pwcs
+#W	mailadm@mn.org (Greg Kemnitz); Mon Feb 17 12:11:40 CST 1992
+cdsmn	.cdsmn.mn.org(LOCAL)
+cdsmn	tcnet(DIRECT+HIGH), pwcs(DIRECT+FAST), skald(DAILY)
+
+#N	.cimcor.mn.org, cimcor
+#F	.MN.ORG
+#S	386 clone, Microport V/386
+#O	Scandia Microsystems
+#C	Mike Grenier
+#E	mike@cimcor.MN.ORG
+#T	+1 612 464 7382
+#P	5090 Scandia Trail; Forest Lake, MN 55025
+#L	45 20 00 N / 92 30 00 W
+#U	atc
+#R	registered
+#W	mike@cimcor.mn.org (Mike Grenier); Wed Jan 30 14:49:19 CST 1991
+#
+cimcor	.cimcor.mn.org
+wildbill .wildbill.cimcor.mn.org
+cimcor	rosevax(DAILY), hawkmoon(DIRECT), nightowl(DIRECT),
+	tcnet(DIRECT), mmm(DIRECT), atc(DIRECT), wildbill(DAILY)
+
+
+#N	.cipric.mn.org, cipric
+#F	.mn.org
+#S	Motorola System 8000 (1132); System 5 Release 3.5
+#O	Ciprico, Inc
+#C	Janet Huss, Bill Taylor
+#E	jmh@cipric.mn.org, bill@cipric.mn.org
+#T	+1 612 559 2034
+#P	2955 Xenium Lane, Plymouth MN  55441
+#L      45 01 N / 93 30 W city  
+#R	registered
+#U	rosevax, tailored
+#W	cipric!jmh (Janet Huss); Fri Jan  5 11:20:51 CST 1990
+cipric = ciprico
+cipric	.ciprico.mn.org(LOCAL)
+cipric	.cipric.mn.org(LOCAL)
+cipric  tcnet(DIRECT+HIGH), quest(DIRECT), rosevax(POLLED),
+	starfire(DAILY/6), kksys(DAILY/6),
+	tailored(POLLED), texsun(POLLED), unicon(POLLED)
+
+rosevax	cipric(HOURLY)
+
+#N	.clavdivs.mn.org, clavdivs
+#S	PC clone 386DX - 25MHz; MS-DOS 4.01 
+#F	.mn.org
+#O	BIrdBIlt Software & Hummingbird's
+#C	Mike Bird, Helen Bird
+#E	bird@clavdivs.mn.org, helen@clavdivs.mn.org
+#T	+1 612 924 0723
+#P	2731 Salem Ave S., St. Louis Park, MN 55416-1915
+#L	93 12 00 N longitude / 44 33 36 W latitude
+#U	kksys
+#R	registered
+#W	bird@clavdivs.MN.ORG (Mike Bird); Sat Feb 02 11:25:28 CST 1991
+clavdivs	.clavdivs.mn.org(LOCAL)
+clavdivs	tcnet(DIRECT), <kksys>(DIRECT)
+
+#N	.cnt.mn.org, cnt
+#F	.mn.org
+#O	Computer Network Technology Corp.
+#C	Stuart Fishman, amed
+#E	amir@cnt.MN.ORG
+#T	+1 612 550 8235
+#P	9440 Science Center Dr., New Hope, MN 55428
+#L	44 50 N / 93 15 W
+#U	quest
+#W	postmaster@cnt.cnt.mn.org (Stuart Fishman); Sat Feb 27 11:07:28 CST 1988
+cnt	.cnt.mn.org(LOCAL)
+cnt	tcnet(DIRECT), quest(DIRECT)
+
+#N	.crud.mn.org, crud
+#F	.mn.org
+#S	CompuAdd 216LP (286/16); MSDOS 5.0 + UUPC/extended
+#O	personal system
+#C	Barry Schwartz
+#E	crud!trashman, trashman@crud.mn.org
+#T	+1 612 631-8083
+#P	4329 Arden View Court, Arden Hills, MN  55112
+#L	44 58 00 N / 93 20 00 W city
+#U	hawkmoon
+#R	registered
+#W	trashman@crud.mn.org (Barry Schwartz); Sat Feb 22 09:47:00 CST 1992
+#
+crud	.crud.mn.org(LOCAL)
+crud=	crud.mn.org
+#
+crud	tcnet(DIRECT+HIGH), hawkmoon(DAILY)
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#N	.crystal.mn.org, crystal
+#S	NCR Tower 850; UNIX V.2
+#F	mn.org
+#O	Crystal Foods
+#C	Joseph P. Larson
+#E	joel@crystal.mn.org
+#T	+1 612 542 1245
+#P	6465 Wayzata Blvd #200, Mpls Mn 55426
+#L	44 58 36 N / 93 17 00 W
+#U	none
+#R	applied
+#W	joel@crystal.mn.org (Joseph P. Larson); Fri Jun 22 13:20:00 CDT 1990
+crystal   .crystal.mn.org(LOCAL)
+crystal   tcnet(DIRECT+HIGH), dayton(DIRECT+HIGH)
+
+#N	.dhdsc.mn.org, dayton
+#S	NCR Tower 32/600; Unix V.3
+#F	.mn.org
+#O	Department Store Division of Dayton Hudson Corp.
+#C	William T. Argyros
+#E	bill@dhdsc.mn.org
+#T	+1 612 375 6651
+#P	700 On the Mall; Minneapolis, MN 55402
+#L	44 58 36 N / 93 16 14 W  city
+#U	none
+#R	registered
+#W	bill@dhdsc.mn.org (William T. Argyros); Fri Feb 14 14:08:54 CST 1992
+dayton	.dhdsc.mn.org(LOCAL)
+dayton= dhdsc.mn.org
+dayton	tcnet(DIRECT), argy(DIRECT), cipric(DIRECT),
+	com50(DIRECT+FAST), crystal(DIRECT+HIGH), dicome(DIRECT),
+	rutgers(DEMAND), umn-cs(DIRECT), viper(DIRECT)
+argy	dayton(DIRECT)
+mca	dayton(HOURLY)
+
+
+#N	.dmshq.mn.org, dmshq, .dmshq.sialis.com
+#F	.sialis.com
+#O	Death Fleet Command
+#C	Robert A. Monio
+#E	pnessutt@dmshq.sialis.com, pnessutt@dmshq.mn.org
+#T	+1 612 435 3120
+#P	17130 Jordan Court; Lakeville, MN  55044
+#L	44 46 N / 93 15 W
+#U	
+#R	registered
+#W	dmshq!pnessutt (Robert A. Monio); Tue Dec 31 20:15:19 CST 1991
+dmshq	com50(DIRECT+FAST),
+	iqi(DIRECT+FAST),
+ 	quad(POLLED),
+ 	sialis(DIRECT+FAST),
+ 	tcnet(DIRECT+FAST),
+ 	umn-cs(DIRECT+FAST),
+ 	wd0gol(DIRECT+FAST)
+
+
+#N	.dynasoft.mn.org, dynasoft
+#S	Mega-4; TOS 1.4
+#O	DynaSoft Systems
+#C	John L. Stanley
+#E	postmaster@dynasoft.mn.org
+#T	+1 612 825 4215
+#L	44 55 37 N / 93 17 14 W
+#W	jls@dynasoft.mn.org (John L. Stanley); Wed Oct 31 10:15:10 CDT 1990
+#
+dynasoft	viper(DAILY*2), tcnet(DAILY*2), moundst(DAILY*2),
+		midgard(DAILY*2), bungia(DAILY*2)
+
+#N	.edgar.mn.org, edgar 
+#F	mn.org	
+#O	
+#C	Bryan Halvorson, Barry Berg 
+#E	bryan@edgar.mn.org, barry@edgar.mn.org
+#T	612-454-4177
+#P	122 Shasta Ct. Apple Valley, MN 55124
+#L	44.46.21 N / 93.13.53 W
+#U	
+#R	registered
+#W	bryan@edgar.mn.org (Bryan Halvorson); Wed Feb 5 23:15:56 CDT 1992
+edgar	.edgar.mn.org(LOCAL)
+edgar	brainiac(DIRECT+FAST),
+	cosmos(POLLED),
+	kksys(DIRECT+FAST),
+	moron(DIRECT),
+	n0atp(POLLED),
+	n0buu(LOCAL),
+	perela(POLLED),
+	quest(DIRECT+FAST),
+	saylor(DIRECT+FAST),
+	tanstaafl(POLLED),
+	tdkt(DIRECT),
+	technix(DIRECT+FAST),
+	vware(DIRECT)
+
+
+#N	.fs.mn.org, fs
+#F	MN.ORG
+#O	Fourth Shift Corporation
+#C	Chris Boylan
+#E	boylan@fs.mn.org
+#T	(612) 851 1479
+#P	Fourth Shift Corp, 7900 International Drive, Mpls MN 55425
+#L	HH MM SS N/S longitude / HH MM SS E/W latitude
+#U	None
+#R	registered
+#W	mailadm@mn.org (Mail Admin); Thu Mar 05 17:06:19 CST 1992
+fs	.fs.mn.org(LOCAL)
+fs	tcnet(DIRECT+HIGH)
+
+#N	.gorf.mn.org, gorf
+#F	.mn.org
+#S	AT&T 3B1; PC UNIX 3.51
+#O	Programmers Against Bureaucratic Incompetence
+#C	Roger Shimada
+#E	rms@gorf.mn.org
+#T	+1 612 484 6361
+#P	2687 Matilda Street; Roseville, MN  55113
+#U	sialis
+#R	registered
+#W	rms@gorf.mn.org (Roger M. Shimada); Thu Feb 20 18:27:23 CST 1992
+gorf	.gorf.mn.org(LOCAL)
+gorf	lawson(DIRECT), sialis(DIRECT), tcnet(DIRECT)
+
+
+#N      .haapi.mn.org, haapi
+#F	.mn.org
+#S      ALR 386/2 running SCO Xenix 386 2.3.4
+#O      Haapi's Hangout (Drivers 'R Us)
+#C      Clayton Haapala
+#E      clay@haapi.mn.org
+#T      +1 612 542 9873
+#P      2309 Archers LN, Minnetonka, MN 55343
+#L      44 50 20 N / 93 20 32 W city
+#R      Latitude/longitude are approximate (city)
+#U	kksys
+#W      clay@haapi.mn.org (Clayton Haapala); Wed Feb 26 12:16:31 CST 1992
+haapi	.haapi.mn.org
+haapi   csinc(DIRECT+HIGH),
+	d2ss(DIRECT+HIGH),
+	guppy(POLLED),
+	hawkmoon(DIRECT+HIGH),
+	palmips(POLLED),
+	quad(POLLED),
+	tcnet(DIRECT+HIGH),
+	uci(POLLED)
+
+#N	.hawkmoon.mn.org, hawkmoon
+#S	Home Spun 80386-33 clone; Esix System V R4.0.3A
+#F	.mn.org
+#O	Home System
+#C	Derek Terveer
+#E	det@hawkmoon.mn.org
+#R	voice
+#T	+1 612 683 0413
+#R	data
+#R	+1 612 683 0516
+#P	4100 Lexington Avenue South #104, Eagan, MN, 55123-2507, USA
+#L	44 48 N / 93 08 45 W
+#R	Hawkmoon is one of the Eternal Champions.
+#R	Read Michael Moorcock for further information.
+#R	registered
+#R	added: #U funflyer, xerxes
+#R	changed: atc(DIRECT)==>(WEEKLY)
+#R	changed: cimcor(DIRECT)==>(WEEKLY)
+#R	deleted: kksys(DIRECT)
+#R	deleted: #U atc, cimcor, crayjr
+#U	crud, funflyer, krepton, mspboss, nightowl, pwcs, tbi, xerxes
+#W	root@hawkmoon.mn.org (Derek Terveer); Wed Feb 26 07:06:10 CST 1992
+
+hawkmoon	.hawkmoon.mn.org(LOCAL)
+hawkmoon	atc(WEEKLY), bargan(POLLED+LOW),
+		cimcor(WEEKLY), crayjr(WEEKLY+FAST),
+		crud(DAILY), funflyer(DIRECT),
+		haapi(DIRECT), krepton(DAILY), mspboss(EVENING+FAST),
+		nightowl(DIRECT+FAST), pwcs(DIRECT+FAST), quest(DIRECT),
+		s5000(DIRECT+FAST), tbi(DAILY), tcnet(DIRECT+FAST),
+		xerxes(POLLED+LOW)
+
+
+#N	.helios.mn.org, kas
+#F	.mn.org
+#S	Amiga 3000UXD; Amiga SVR4 1.1
+#O	Home System
+#C	Rob Healey
+#E	postmaster@helios.mn.org
+#T	+1 612 939 9394
+#P	1301 Cambridge Street, Apt. 618, Hopkins, MN 55343
+#L	44 55 N / 93 23 W
+#R      registered
+#U      digibd
+#W	postmaster@mn.org (Postmaster); Mon Mar 09 17:16:11 CST 1992
+#
+kas	.helios.mn.org(LOCAL)
+kas = 	helios.mn.org
+kas	digibd(DAILY),
+	maven(EVENING),
+	<norstar>(WEEKLY),
+	tcnet(DAILY)
+
+
+#N	.kksys.mn.org, kksys, kksys.kksys.mn.org
+#F	.mn.org
+#S	EISA 486/33;Interactive UNIX 2.21
+#O	K and K Systems
+#C	Greg Kemnitz
+#E	kksys!postmaster, postmaster@kksys.mn.org
+#T	+1 612 475 1527
+#P	P.O. Box 47804, Plymouth, MN  55447-0804
+#L	44 59 20 N / 93 28 22 W
+#U
+#R	registered
+#W	gk@kksys.mn.org (Greg Kemnitz); Mon Feb 10 21:32:03 CST 1992
+#
+kksys	.kksys.mn.org(LOCAL)
+kksys=	kksys.mn.org, kksys.kksys.mn.org
+#
+kksys	tcnet(LOCAL)
+#
+
+#N	.kolonel.mn.org, kolonel
+#S	ATT 3B1 mc68k; System V 3.51
+#F	.mn.org
+#O	None
+#C	David Becker
+#E	db@kolonel.mn.org
+#T	+1 612 631 0633
+#P	4435 Pleasant Dr; Arden Hills, MN 55112
+#L	45 04 05 N / 95 37 46 W city
+#U	none
+#R	registered
+#W	db@kolonel.mn.org; Tue Jul 31 13:11:30 CDT 1990
+kolonel .kolonel.mn.org(LOCAL)
+kolonel	tcnet(DIRECT), lestat(DIRECT+LOW), questar(DIRECT+LOW)
+
+#N	.lmt.mn.org, lmt
+#F	.mn.org
+#S	system type;unix verson
+#O	LaserMaster Corp.
+#C	Chris Cox
+#E	lmt!postmaster, postmaster@lmt.mn.org
+#T	+1 612 944 6069
+#P	7156 Shady Oak Road, Eden Prairie, MN  55344
+#L	44 58 00 N / 93 20 00 W city
+#U
+#R	registered
+#W	gk@kksys.mn.org (Greg Kemnitz); Mon Feb 10 22:31:03 CST 1992
+#
+lmt	.lmt.mn.org(LOCAL)
+lmt=	lmt.mn.org
+#
+lmt	tcnet(DIRECT+FAST)
+#
+
+#N	.lucan.mn.org, lucan
+#S	Convergent S80/DC2400
+#F	.mn.org
+#O	Private
+#C	Scott Lucas
+#E	postmaster@lucan.mn.org
+#T	+1 612 612 860 8144
+#P	9286 Amsden Way; Eden Prairie, MN 55347
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+lucan	.lucan.mn.org(LOCAL)
+lucan= lucan.mn.org
+lucan	tcnet(DIRECT+FAST)
+
+#N	.Lynx.MN.Org, viper
+#F	.MN.Org
+#S	Standard-286 AT-clone 9.216Mhz; Microport System V.2
+#O	Lynx Data Systems
+#C	David Messer
+#E	dave@Lynx.MN.Org
+#T	+1 612 688 8030
+#P	Suite 206, 3035 Eagandale Place, Eagan, MN, 55121
+#L	44 50 43 N / 093 09 35 W
+#R	registered
+#U	dayton, ems, meccts, pwcs, quest
+#W	dave@Lynx.MN.Org (David Messer); Fri Nov 27 12:49:00 CST 1990
+#
+viper	.lynx.mn.org
+viper=	lynx.mn.org
+viper	tcnet(DIRECT),
+	dayton(DIRECT),
+	ems(WEEKLY),
+	fizban(POLLED),
+	meccts(DIRECT),
+	mskito(DIRECT),
+	pwcs(WEEKLY),
+	quest(DAILY),
+	questar(DIRECT+HIGH),
+	rose3(DIRECT),
+	zeno(DIRECT+HIGH)
+
+
+#N  .macgate.mn.org, macgate, macgate.fidonet.org, f22.n282.z1.fidonet.org, macgate.rbbs-net.org, f16.n973.z8.rbbs-net.org
+#F  .mn.org
+#S  Deico 80386-25; MS-DOS 5.0
+#O  The Minnesota Macintosh Users Group
+#C  Tony Austinson
+#E  postmaster@macgate.mn.org
+#T  +1 612 881 4320
+#P  25 West 98th Street, Suite 6, Bloomington, MN 55420-4628
+#L  44 46 N / 93 20 W
+#U  saylor
+#R  This is a Usenet-FidoNet Gateway site, FidoNet node 1:282/22
+#R  RBBS-Net node 8:973/16
+#W  root@macgate.mn.org (Tony Austinson); Sat Feb 15 08:00:00 CST 1992
+macgate  .macgate.mn.org(LOCAL)
+macgate= macgate.mn.org, macgate.fidonet.org, f22.n282.z1.fidonet.org,       
+         macgate.rbbs-net.org, f16.n973.z8.rbbs-net.org
+macgate  saylor(DIRECT+FAST),
+         mmug(POLLED),
+         farces(DIRECT+FAST),
+         lakes(DIRECT+FAST),
+         nomug(DIRECT+FAST),
+         shokwav(DIRECT),
+         macend(DIRECT+FAST),
+         starnet(DIRECT),
+         umlib(DIRECT),
+	 tcnet(DIRECT)
+
+#N	.marilyn.mn.org, marilyn
+#S	CompuAdd-386/16, SCO Xenix 2.3
+#F	.mn.org
+#O	Litfal
+#C	Shawn P. Stanley
+#E	marilyn!shawn
+#T	+1 612 929 5181
+#P	4904 Vallacher Avenue, St. Louis Park, MN  55416
+#L	44 59 N / 93 13 W Minneapolis
+#U	orbit
+#R	registered
+#W	marilyn!shawn (Shawn P. Stanley); Tue Nov 27 18:24:17 CST 1990
+#
+marilyn	.marilyn.mn.org(LOCAL)
+marilyn orbit(DIRECT), offhook(WEEKLY), tcnet(DIRECT)
+
+#N	.maven.mn.org, maven
+#S	AT&T 7300; UNIX 3.51
+#F	.mn.org
+#O	Home System
+#C	Jay A. Christopherson
+#E	maven.mn.org!postmaster
+#T	+1 612 828 3507
+#P	635 Prairie Center Drive, Eden Prairie, MN 55344
+#L	44 52 N / 93 27 W
+#U	rosevax
+#R	registered
+#W	maven!jay (Jay A. Christopherson); Thu Feb 20 16:54:05 CST 1992
+maven	.maven.mn.org(LOCAL)
+maven = maven.mn.org
+maven	tcnet(EVENING),
+	kas(EVENING),
+	dino(EVENING),
+	rosevax(POLLED)
+
+
+#N	.mca.mn.org, mca
+#S	SUN SPARC SLC/TB+
+#F	.mn.org
+#O	McDowall Computer Associates, Ltd.
+#C	Steve McDowall
+#E	sjm@mca.mn.org
+#T	+1 612 621 4812
+#P	11958 Eldorado St. NW; Coon Rapids, MN 55433
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+mca	.mca.mn.org(LOCAL)
+mca= mca.mn.org
+mca	tcnet(DIRECT+FAST)
+
+#N	.mcetech.mn.org, mcetech
+#S	AT&T UNIXPC; SVR2.2
+#F	.mn.org
+#O	MCE Technology
+#C	Doug McIntyre
+#E	postmaster@mcetech.mn.org
+#T	+1 612 537 4026
+#P	3338 Brunswick Ave North; Crystal, MN 55422
+#L	45 01 01 N / 93 21 26 W
+#U	
+#R	registered
+#W	dougm@mcetech.Mn.Org (Doug McIntyre); Tue Feb 5 10:22:46 CST 1990
+mcetech	.mcetech.mn.org(LOCAL)
+mcetech= mcetech.mn.org
+mcetech	tcnet(DIRECT+FAST)
+
+#N	.mecc.mn.org, meccts
+#F	.mn.org
+#O	Minnesota Educational Computing Corporation
+#C	John A. Persoon
+#E	jap@wombat.mecc.mn.org
+#T	612-569-1686
+#P	6160 Summit Drive North  Minneapolis, MN  55430
+#L	45 03 N / 93 15 W
+#U	
+#R	registered
+#W	jap@mecc.mn.org (John A. Persoon); Wed Mar 11 17:06:50 CDT 1992
+meccts	tcnet(DIRECT+HIGH)
+
+
+#N	.mishima.mn.org, mishima
+#S	Sun 2-50
+#F	.mn.org
+#O	Private
+#C	Tom Greenwalt
+#E	postmaster@mishima.mishima.mn.org
+#T	+1 612 866 1344
+#P	7300 Nicollet Ave. South; Richfield, MN 55423
+#L	
+#U	tcnet flatliner hobbes marilyn gehenna
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+mishima	.mishima.mn.org(LOCAL)
+mishima= mishima.mn.org
+mishima	tcnet(DIRECT+FAST), flatliner(DIRECT+FAST)
+mishima hobbes(DAILY), marilyn(DAILY), gehenna(DAILY)
+
+
+#N	.mobird.mn.org, mobird
+#S	NeXT Station 2.0/2400
+#F	.mn.org
+#O	Private
+#C	Scott Blasel
+#E	me@mobird.mn.org
+#T	+1 612 687 9258
+#P	1544B Clemson Drive; Eagan, MN 55122
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+mobird	.mobird.mn.org(LOCAL)
+mobird= mobird.mn.org
+mobird	tcnet(DIRECT+FAST)
+
+#N	.moundst.mn.org, moundst
+#F	.MN.ORG
+#S	Atari 520ST; TOS 1.4
+#O	UUCP/Citadel Gateway System
+#C	Tom Cook
+#E	tacook@moundst.mn.org
+#T	+1 612 472 5189
+#P	2343 Fairview Lane, Mound, MN 55364-1754 USA
+#L      44 56 N / 93 39 W
+#R      Long and Lat are accurate +- 1 minute
+#U	ardvar dynasoft mast orbit pwcs syntel stag thelake umn-cs
+#W	moundst!tacook (Tom Cook); Sat Jan  4 18:54:05 CST 1992
+#
+moundst	.moundst.mn.org(LOCAL)
+#
+moundst	ardvar(WEEKLY),   dynasoft(WEEKLY), mast(LOCAL),
+	oiihob(WEEKLY),   orbit(DAILY),     pwcs(DAILY/4),
+	stag(DAILY),      syntel(WEEKLY),   tcnet(DIRECT),
+	thefarm(DEAD),    thelake(WEEKLY),  umn-cs(DAILY),
+	uptown(WEEKLY)
+
+
+#N	.mrdos.mn.org, mrdos
+#S	Macintosh IIci; MacOS 7.0, uAccess 1.5
+#F	.mn.org
+#O	Private
+#C	Mark D. Rustad
+#E	postmaster@mrdos.mn.org
+#T	+1 612 832 8745
+#P	6505 Polar Circle; Edina, MN 55436-1813
+#R	At least a reasonable estimate of coordinates.
+#L	44 53 38 N / 93 23 22 W
+#U
+#R	registered
+#W	mdr@mrdos.mn.org (Mark D. Rustad); Sun Mar 1 20:13:46 CST 1992
+mrdos	.mrdos.mn.org(LOCAL)
+mrdos= mrdos.mn.org
+mrdos	tcnet(DIRECT+FAST)
+
+
+#N	.mutley.mn.org, mutley
+#F	.mn.org
+#S	system type;unix verson
+#O	personal system
+#C	Timothy Peiffer
+#E	mutley!peiffer, peiffer@cs.umn.edu
+#T	+1 612 464 5113
+#P	PO Box 368, Forest Lake, MN  55025
+#L	44 58 00 N / 93 20 00 W city
+#U
+#R	registered
+#W	gk@kksys.mn.org (Greg Kemnitz); Mon Feb 10 22:31:03 CST 1992
+#
+mutley	.mutley.mn.org(LOCAL)
+mutley=	mutley.mn.org
+#
+mutley	tcnet(DIRECT+HIGH)
+#
+
+#N	.newave.mn.org, newave
+#F	.mn.org
+#S	Northgate 386/25, Interactive 386/ix 2.0.2
+#O	NeWave Communications, Ltd.
+#C	John A. Weeks III
+#E	postmaster@newave.mn.org
+#T	+1 612 942 6969
+#P	9635 Stagecoach Pass #29, Eden Prairie, MN 55347
+#L	44 49 N / 93 25 W
+#U	wd0gol
+#R	registered
+#W	john@newave.mn.org (John A. Weeks III); Mon Feb 19 10:35:27 CST 1990
+#
+newave	.newave.mn.org(LOCAL)
+newave	wd0gol(DIRECT),
+	kirk(DAILY),
+	tcnet(DAILY)
+
+
+#N	.nightowl.mn.org, nightowl
+#S	Unisys 80386/16; Esix 5.3.2-D
+#F	.MN.ORG
+#O	Home System
+#C	Joel Melohn, Derek Terveer
+#E	joelm@nightowl.mn.org, det@hawkmoon.mn.org
+#R	voice
+#T	+1 612 423 3951
+#R	data
+#R	+1 612 423 4875
+#P	14150 Elgin Court, Apple Valley, MN 55124, USA
+#R	I'm sure these coordinates are incorrect...
+#L	44 52 N / 93 09 W
+#U	s5000
+#R	applied
+#R	added:
+#R	deleted: medtron(DIRECT+FAST)
+#R	changed:
+#W	det@nightowl.mn.org (Derek Terveer); Sun Dec 16 20:23:13 CST 1990
+
+nightowl	nightowl.mn.org(LOCAL)
+nightowl	atc(DIRECT), cimcor(DEMAND), hawkmoon(DIRECT+FAST),
+		s5000(DIRECT+FAST), tcnet(DIRECT+FAST), xerxes(DEAD)
+
+
+#N	.nokomis.mn.org, nokomis
+#F	.mn.org
+#S	system type;unix verson
+#O	personal system
+#C	Loren Cahlander
+#E	nokomis!loren, loren@nokomis.mn.org
+#T	+1 612 890 0040
+#P	8488 Copperfield Way, Inver Grove Heights, MN  55076
+#L	44 58 00 N / 93 20 00 W city
+#U
+#R	registered
+#W	gk@kksys.mn.org (Greg Kemnitz); Mon Feb 10 22:31:03 CST 1992
+#
+nokomis	.nokomis.mn.org(LOCAL)
+nokomis=	nokomis.mn.org
+#
+nokomis	tcnet(DIRECT+HIGH)
+#
+
+#N	.orb.MN.ORG, orbit
+#F	MN.ORG
+#S	386 clone; SCO Xenix 2.3.2
+#O
+#C	Peter Kosmas
+#E	cosmos@orbit
+#T	+1 612 929 2701
+#P	P.O. Box 16089, Minneapolis, MN  55416-0089
+#L	44 59 N / 93 13 W city
+#R	orbit hosts People-Net [pnet51], (pnet51.cts.com)
+#R	P-Net offers public access news and mail.
+#R	P-Net phone number +1 612 473 2295 modem (2400/1200,8N1)
+#W	orbit!cosmos (Peter Kosmas); Thur Sept 13 06:17 CDT 1990
+#U	source: kksys  full feeds: petrus nwmb ann jersey pnet51
+#U	partial feeds: sdi marilyn bassett incstar pro-hysteria
+#U	postings and/or local mn: crash wso crystal quest wd0gol
+#U	jhereg sialis stag
+#
+orbit	.orb.mn.org(LOCAL)
+#
+# Local connections:
+#
+orbit	iss(LOCAL),
+	pnet51(LOCAL),
+	petrus(LOCAL),
+	orb(LOCAL),
+	orator(LOCAL)
+#
+# Telebit PEP connections:
+#
+orbit	crash(DIRECT+FAST),
+	bungia(DIRECT+FAST),
+	kksys(DIRECT+FAST),
+	sialis(DIRECT+FAST),
+	wd0gol(DIRECT+FAST),
+	jhereg(DIRECT+FAST),
+	tcnet(DIRECT+FAST),
+	ann(DIRECT+FAST)
+#
+# V.32 connections:
+#
+orbit	jersey(DIRECT+FAST)
+bassett	orbit(DIRECT+FAST)
+#
+# 2400 baud connections:
+#
+orbit	stag(DIRECT),
+	nwmb(DIRECT),
+	incstar(DIRECT),
+	mcetech(DIRECT),
+	crystal(DIRECT),
+	quest(DIRECT),
+	moundst(DIRECT)
+sdi	orbit(DIRECT)
+marilyn	orbit(DIRECT)
+thelake	orbit(DIRECT)
+wso	orbit(DIRECT)
+zuhause	orbit(DIRECT)
+#
+# Dead (or down) connections:
+#
+orbit	del(DEAD),
+	pink(DEAD),
+	cli(DEAD)
+
+
+#N	.questar.mn.org, questar
+#S	Pyramid 9815; OSx 4.4
+#F	.mn.org
+#O	Questar Data Systems
+#C	patty or  tim kelly x65
+#E	postmaster@questar.questar.mn.org
+#T	+1 612 688 0089
+#P	2905 West Service Road; Eagan, MN 55121-2199
+#L	35 04 05 N / 106 37 46 W city
+#U	lestat com50
+#R	registered
+#W	jeff@questar.mn.org (Jeff Holmes); Fri Jun 22 14:32:37 CDT 1990
+questar .questar.mn.org(LOCAL)
+questar	bthpyd(DIRECT),
+	cimcor(DIRECT+LOW),
+	com50(DIRECT),
+	datapg(DEAD),
+	gallico(POLLED),
+	kolonel(DIRECT+LOW),
+	lemule(DIRECT),
+	lestat(DIRECT+FAST),
+	ntmtka(DIRECT),
+	rosevax(POLLED),
+	tcnet(DIRECT),
+	viper(DIRECT),
+	zeno(DIRECT) 
+
+# More specifically..
+gallico	questar(DAILY)
+rosevax	questar(DAILY)
+
+
+#N	.roadkil.mn.org, roadkil
+#F	MN.ORG
+#O	Personal
+#C	C. Clark Piepho
+#E	postmaster@roadkil.mn.org
+#T	+1 612 831 0014
+#P	8272 Zenith Av S, Bloomington, MN 55431-4406
+#L	44 50 N / 093 25 W
+#U	None
+#R	registered
+#W	clark@roadkil.mn.org (C.Clark Piepho); Tue Mar 27 20:03:05 CST 1990
+roadkil	.roadkil.mn.org(LOCAL)
+roadkil	.roadkill.mn.org(LOCAL)
+roadkil	tcnet(DIRECT), timbuk(DIRECT)
+
+#N	.saylor.mn.org, saylor
+#F	mn.org
+#S	Sun IPC; SunOS 4.1.1
+#O	Saylors Software First
+#C	Jim Anderson
+#E	jim@saylor.mn.org
+#T	+1 612 934 7451
+#P	6532 Edenvale Blvd., Eden Prairie, MN  55346
+#L	44 52 N / 93 29 W
+#U	edgar
+#R	registered
+#W	jim@saylor.mn.org (Jim Anderson); Wed Mar  4 09:22:56 CST 1992
+#
+saylor	.saylor.mn.org
+saylor	<mskito>(DIRECT+LOW), tcnet(DIRECT), edgar(DIRECT),
+	questar(DIRECT), macgate(DIRECT), <uupsi2>(DIRECT),
+	<hornet>(DIRECT), com50(DAILY+LOW), <tta>(POLLED)
+
+
+#N	.sialis.mn.org, sialis
+#F	.mn.org
+#S	AT&T 3b1; Unix 3.51m
+#O	Dr. Ho Laboratory and Day Care Center
+#C	Robert J. Granvin
+#E	rjg@sialis.mn.org
+#T	+1 612 922 2382
+#P	2701 West 43rd Street;  Minneapolis, MN;  55410-1629
+#L	44 57 15 N / 93 16 08 W
+#U	dmshq gorf quad umn-cs
+#R	registered
+#W	sialis!rjg (Robert J. Granvin); Thu Sep 27 23:07:19 CDT 1990
+#
+sialis	.sialis.mn.org(LOCAL)
+#
+#	High speed sites I can call.
+#
+sialis	com50(DIRECT+FAST),	dmshq(DIRECT+FAST),	kksys(DIRECT+FAST),
+	orbit(DIRECT+FAST),	pwcs(DIRECT+FAST),	tcnet(DIRECT+FAST),
+	umn-cs(DIRECT+FAST),	wd0gol(DIRECT+FAST)
+#
+#	Slower speed sites I call (2400 or 1200 baud).
+#
+#
+#	Long distance or "special" sites I call.
+#
+sialis	icus(EVENING+FAST)
+#
+#	Sites who poll me.
+#
+sialis	farm(POLLED),		gorf(POLLED),		quad(POLLED),
+	rosevax(POLLED)
+#
+farm	sialis(WEEKLY)
+gorf	sialis(HOURLY)
+quad	sialis(HOURLY)
+rosevax	sialis(HOURLY+FAST)
+
+
+#N	.sledge.mn.org, sledge
+#S	386/2400
+#F	.mn.org
+#O	Private
+#C	Curt Olson
+#E	curt@sledge.mn.org
+#T	+1 612 757 0310
+#P	570 West Sandhurst Dr., #122; Roseville, MN 55113
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+sledge	.sledge.mn.org(LOCAL)
+sledge= sledge.mn.org
+sledge	tcnet(DIRECT+FAST)
+
+#N	.sps.mn.org, sps
+#S	SCO/Telebit
+#F	.mn.org
+#O	St. Paul Software
+#C	Eric Christenson
+#E	eric@sps.mn.org
+#T	+1 612 641 0963
+#P	754 Transfer Rd.; St. Paul, MN 55114-1404
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+sps	.sps.mn.org(LOCAL)
+sps= sps.mn.org
+sps	tcnet(DIRECT+FAST)
+
+#N	.starfire.mn.org, starfire
+#F	MN.ORG
+#O	Starfire Consulting Services
+#C	John Lind, Doug Johnson
+#E	john@starfire.MN.ORG, doug@starfire.MN.ORG
+#T      +1 612 379 2150
+#P      PO Box 13001, Minneapolis, MN  55414
+#L      44 59 N / 93 13 W city
+#U	quest.quest.mn.org
+#R      registered
+#W      john@starfire.mn.org (John Lind); Tue Dec  5 16:22:13 CST 1989
+starfire	.starfire.mn.org(LOCAL)
+starfire        cipric(DAILY/8), quest(HOURLY*2), rose3(HOURLY),
+		tcnet(HOURLY*2), kksys(HOURLY*2)
+
+
+#N	.syntel.mn.org, syntel
+#F	.mn.org
+#S	Atari 520ST/2.5Mb; TOS 1.0 / Minix-ST g-kernel
+#O	Syntelligence, Inc.
+#C	Dale A. Schumacher
+#E	dal@syntel.syntel.mn.org
+#T	+1 612 646 8559
+#P	399 Beacon Ave., St. Paul, MN 55104-3527
+#L	44 02 48 N / 93 10 31 W
+#R	This system is an Atari ST running my own news/mail software.
+#R	It may do strange things on occasion as I develop new code.
+#U	moundst promedia
+#W	dal@syntel.syntel.mn.org (Dale Schumacher); Thu Sep 27 08:41:48 CDT 1990
+syntel	.syntel.mn.org(LOCAL)
+syntel	tcnet(DEMAND), bungia(DAILY), moundst(DAILY), promedia(WEEKLY)
+
+#N	.technix.mn.org, technix
+#S	386 with Interactive/T2500
+#F	.mn.org
+#O	Technix, Inc.
+#C	Jerry Wallace
+#E	jfw@technix.mn.org
+#T	+1 612 647 9483
+#P	1394 Grantham St.; St. Paul, MN 55108
+#L	
+#U	
+#R	registered
+#W	mailadm@mn.org (MN.ORG Admin); Thu Dec 20 10:25:46 CST 1990
+technix	.technix.mn.org(LOCAL)
+technix= technix.mn.org
+technix	tcnet(DIRECT+FAST)
+
+#N	.thelake.mn.org, thelake
+#F	.mn.org
+#S	Atari ST; TOS 1.0 (GEMdos)
+#O	Otter Lake Leisure Society (private system)
+#C	Steve Yelvington
+#E	postmaster@thelake.mn.org
+#T	+1 612 426 7165
+#P	1392 Brandlwood Road, White Bear Lake, MN 55110
+#L	45 06 N / 93 02 W
+#R	thelake is a test site for the TOS port of smail 2.5
+#U	cs.umn.edu moundst
+#W	steve@thelake.mn.org (Steve Yelvington); Sat Jun 30 10:12:50 CST 1990
+#
+thelake	.thelake.mn.org
+thelake	= thelake.mn.org
+thelake	tcnet(WEEKLY), umn-cs(DAILY*2), stag(WEEKLY), syntel(DEAD),
+	orbit(WEEKLY), moundst(WEEKLY)
+
+#N	.thurse.mn.org, thurse
+#S	National Semiconductor ICM3216 ; sys V 2.2
+#O	none.
+#C	Charles L. Rennolet
+#E	thurse!charles, charles@thurse.mn.org
+#T	+1 612 699 0594
+#P	2050 Lincoln Avenue, St Paul, MN 55105
+#L	45 03 N / 93 15 W
+#U
+#W	thurse!charles (Charles L. Rennolet); Sun July 1 13:50:28 CDT 1989
+#
+thurse	.thurse.mn.org(LOCAL)
+thurse	tcnet(DIRECT)
+
+#N	.tricord.mn.org, tricord
+#F	.mn.org
+#S	SUN 3/280; Unix 4.2 Release 3.5
+#O	Tricord Systems, Inc.
+#C	Scott J. Amundson
+#E	tricord!sja
+#T	+1 612 557 8391
+#P	3750 Annapolis Lane, Plymouth, MN 55447
+#L	45 03 N / 93 15 W
+#W	bungia!mark (Mark H. Colburn); Wed Sep  6 15:44:39 CDT 1989
+#U	quest
+tricord   .tricord.mn.org(LOCAL)
+tricord	tcnet(DIRECT+FAST),
+	quest(DIRECT+FAST)
+
+
+#N	.veggard.mn.org, limabean
+#F	.mn.org
+#S	Amiga 3000; AmigaDOS 2.04
+#O	The Vegetable Garden
+#C	Brent J. Nordquist
+#E	brent@veggard.mn.org
+#T	+1 719 630 0857 h  +1 719 554 9367
+#P	107 N Roosevelt St, Colo Spgs CO 80909-6547
+#L	38 50 03 N / 104 46 05 W
+#R	registered
+#U	hp-col tomato
+#W	brent@veggard.mn.org (Brent Nordquist); Sun Sep  8 08:55:40 MST 1991
+#
+limabean	.veggard.mn.org(LOCAL)
+limabean	aspen(DAILY/5)
+limabean	hp-col(DAILY/2)
+limabean	tomato(DAILY/2)
+limabean = limabean.veggard.mn.org
+
+#N	.vware.mn.org, vware
+#F	.mn.org
+#S	AT&T UNIX PC; UNIX System V 3.51
+#O	VisionWare
+#C	Andy Warner
+#E	postmaster@vware.MN.ORG 
+#T	+1 612 377 3627
+#P	PO Box 3991, Minneapolis, MN, 55405
+#L	45 03 N / 93 15 W (city)
+#R	VisionWare produces PC <-> Unix workstation integration software.
+#R	This machine front-ends VisionWare's internal network with a
+#R	Telebit T-1000. All VisionWare staff can be reached at vware.
+#U	edgar
+#R	registered
+#W	andyw@vware.MN.ORG (Andy Warner); Wed May 29 11:27:24 CDT 1991
+#
+vware	.vware.mn.org
+vware	tcnet(DIRECT+FAST),	#	(MN.ORG mailserver)
+	kksys(DIRECT+FAST),	#	(kksys)
+	brainiac(DIRECT+FAST),	#	(Jeff's machine)
+	edgar(DIRECT+FAST),	#	(Bryan, N0BUU)
+	moron(POLLED),		#	(Chris Cox, G4JEC)
+	pillock(POLLED)		#	(Steve, KA0VYB)
+
+
+#N	.wd0gol.mn.org, wd0gol
+#F	.mn.org
+#S	386/25mhz - Interactive Systems Unix 3.0
+#O	Robert Barker & Associates
+#C	Robert W. Barker
+#E	postmaster@wd0gol.mn.org
+#T	+1 612 949 0140
+#P	13900 Chestnut Dr. #304, Eden Prairie, MN 55344
+#L	44 52 N / 093 26 W
+#R	Lat and Long are approximate
+#R	registered
+#U	kksys, rathe, newave, fss, sialis, dmshq
+#W	barker@wd0gol.mn.org (Robert W. Barker); Sat Feb 15 11:29:57 CST 1992
+#
+wd0gol	.wd0gol.mn.org(LOCAL)
+wd0gol	tcnet(DIRECT+FAST),
+	fss(DIRECT+FAST),
+	hepcat(LOCAL),
+	kksys(DIRECT+FAST),
+	orbit(DIRECT+FAST),
+	rathe(DIRECT+FAST),
+	rba(LOCAL),
+	sialis(DIRECT+FAST)
+
+petrus	wd0gol(DIRECT+FAST)
+newave	wd0gol(DIRECT)
+
+
+#N	.zeno.mn.org, zeno
+#F	.mn.org
+#S	ATT 3B1, PC UNIX 3.51
+#O	Smartware
+#C	Gene Olson
+#E	gene@zeno.mn.org
+#T	+1 612 824 9108
+#P	Smartware, 5131 Aldrich Ave S., Minneapolis, MN 55419
+#L	44 54 34 N / 93 17 20 W
+#W	gene@zeno.mn.org (Gene Olson); Thu Aug 17 21:19:43 CDT 1989
+zeno	.zeno.mn.org(LOCAL)
+zeno	aj(DIRECT),
+	birdie(DIRECT),
+	tcnet(DIRECT),
+	cts(DIRECT),
+	digibd(DIRECT),
+	gms(DIRECT),
+	quest(DIRECT),
+	viper(DIRECT)
+
+#N	.zuhause.mn.org, zuhause
+#F	MN.ORG
+#S	Commodore Amiga; AmigaDOS V2.0 & Amiga-UUCP V1.15D
+#O	Organization to Stamp Out Bogus Organizations
+#C	Bruce Albrecht
+#E	zuhause!bruce
+#T	+1 612 699 8832
+#P	393 Macalester St, Saint Paul, MN  55105-2127
+#L	44 55 45 N / 93 10 07 W
+#R	registered
+#U
+#W	zuhause!bruce (Bruce Albrecht); Sat Feb 8 22:00:00 CDT 1992
+#
+zuhause	.zuhause.mn.org(LOCAL)
+zuhause	speeds01(DAILY), tcnet(DAILY), orbit(DAILY) 
+
+
+# End of u.usa.mn.2
+SHAR_EOF
+:	End of shell archive
+exit 0
+

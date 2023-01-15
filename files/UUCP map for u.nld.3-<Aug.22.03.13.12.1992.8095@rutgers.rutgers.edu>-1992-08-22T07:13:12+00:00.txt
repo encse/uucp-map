@@ -1,0 +1,680 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.nld.3
+: This archive created: Sat Aug 22 03:13:04 1992
+echo shar: extracting u.nld.3
+cat << 'SHAR_EOF' > u.nld.3
+file {u.nld.3} # of 0,1,2,3,4,100; changes to: uucpmap@nluug.nl
+# Copyright 1989-1992 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# #W lines show 2 dates: date of introduction and date of last change.
+# Last change:	Tue Aug 18 10:44:32 MET DST 1992
+
+#N	magistr
+#S	
+#O	Magister Computer B.V.
+#C	H.W. van Tijen
+#E	henq@magistr.uucp
+#T	+31 70 3818384
+#P	Daendelsstraat 57, NL-2509 XT Den Haag, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920204, martijn@nluug.nl 920204
+#
+
+#N	marcvx
+#S	
+#O	Marc Analysis Research Corporation
+#C	G.J. Hegemans
+#E	root!marcvx.uucp
+#T	+31 79 5104114
+#P	Bredewater 26, NL-2715 CA Zoetermeer, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920407, martijn@nluug.nl 920407
+#
+
+#N	mart
+#S	
+#O	Mart B.V.
+#C	W.J. Groot Kormelink
+#E	postm@mart.uucp
+#T	+31 5443 74412
+#P	P.O. Box 165, NL-7130 AD Lichtenvoorde, Netherlands
+#L	6 34 E / 51 59 N
+#R	
+#U
+#W	martijn@nluug.nl 900718, martijn@nluug.nl 900718
+#
+
+#N	media03
+#S	
+#O	Mediasystemen B.V.
+#C	Rob Zomerdijk
+#E	rzo@media03.uucp
+#T	+31 23 361464
+#P	P.O. Box 4932, NL-2003 EX Haarlem, Netherlands
+#L	4 38 E / 52 23 N
+#R	
+#U
+#W	piet@cwi.nl 890803, martijn@nluug.nl 910411
+#
+
+#N	meycc1, .mey.nl, mey.nl
+#S	
+#O	Moret, Ernst & Young
+#C	Ron van der Horst
+#E	postmaster@mey.nl
+#T	+31 10 4074444
+#P	Postbus 488, NL-3000 AL Rotterdam, Netherlands
+#L	4 16 E / 51 56 N city
+#R	
+#U
+#W	martijn@nluug.nl 920205, piet@nluug.nl 920331
+#
+
+#N	mhres, .mh.nl, mh.nl
+#S
+#O	Multihouse
+#C	Johan Vromans
+#E	netmgr@mh.nl
+#T	+31 1820 62944
+#P	Doesburgweg 7, NL-2803 PL Gouda, Netherlands
+#L	4 43 E / 52 01 N
+#R	
+#U
+#W	piet@cwi.nl 860611, piet@cwi.nl 880922
+#
+
+#N	moene, .moene.indiv.nluug.nl, moene.indiv.nluug.nl
+#S
+#O	
+#C	A.R. Moene
+#E	toon@moene.indiv.nluug.nl
+#T	+31 30 206443
+#P	Kantershof 269, NL-1104 GN Amsterdam, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920130, martijn@nluug.nl 920609
+#
+
+#N	moeras, .sierra.nl, sierra.nl
+#S
+#O	Sierra Semiconductors
+#C	Peter van Es
+#E	root@sierra.nl
+#T	+31 73 408888
+#P	Bruistensingel 242, NL-5232 AD Den Bosch, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920605, piet@nluug.nl 920810
+#
+
+#N	motnl, .motorola.nl, motorola.nl
+#S
+#O	Motorola B.V.
+#C	David Lambregts
+#E	root@motorola.nl
+#T	+31 30 870857
+#P	Europalaan 526, NL-3526 KS Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	martijn@nluug.nl 901206, piet@nluug.nl 910419
+#
+
+#N	motom
+#S
+#O	MOTOM Software Development B.V.
+#C	M.O. van Leer
+#E	mo@motom.uucp
+#T	+31 30 769191
+#P	HoogHiemstraplein 73, NL-3514 AX Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	piet@cwi.nl 890530, martijn@nluug.nl 910123
+#
+
+#N	mushex
+#S
+#O	Proefstation voor de Champignoncultuur
+#C	J.W.M. Backus
+#E	postmaster@mushex.uucp
+#T	+31 4764 1944
+#P	Peelheideweg 1, NL-5966 PJ America, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920224, martijn@nluug.nl 920224
+#
+
+#N	natlab
+#S	
+#O	Philips Natlab
+#C	D. Collins
+#E	collins@nvpna1.prl.philips.nl
+#T	+31 40 744091
+#P	Building WAY 3, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R
+#U
+#W	piet@cwi.nl 880730, piet@nluug.nl 901219
+#
+
+#N	ncrt800
+#S	
+#O	NCR Nederland N.V.
+#C	A. Schokker
+#E	postmaster@ncrt800.uucp
+#T	+31 20 5499111 ext. 550
+#P	Buitenveldertselaan 3, NL-1082 VA Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 890414, martijn@nluug.nl 900511
+#
+
+#N	ncsat, .repko.nl, repko.nl
+#S	
+#O	Repnet B.V.
+#C	F. van Smaalen
+#E	root@repko.nl
+#T	+31 3473 70650
+#P	Postbus 245, NL-4130 EE Vianen, Netherlands
+#L	5 05 E / 52 00 N
+#R	
+#U
+#W	piet@cwi.nl 880608, martijn@nluug.nl 910308
+#
+
+#N	ncsbv, .ncs.nl, ncs.nl
+#S
+#O	Jannesen Holding B.V.
+#C	P. Jannesen
+#E	peter@ncs.nl
+#T	+31 10 4184404
+#P	J.W. Frisostraat 11b, NL-3051 EH Rotterdam, Netherlands
+#L	4 16 E / 51 56 N city
+#R
+#U
+#W	martijn@nluug.nl 900208, piet@nluug.nl 910506
+#
+
+#N	ncm-01
+#S
+#O	Nederlandse Credietverzekerings Maatschappij N.V., afd. A.G.V. Netwerkbeheer
+#C	Mark Goppel
+#E	mark@ncm-01.uucp
+#T	+31 20 5532275
+#P	Keizersgracht 271-287, NL-1016 ED Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 870306, martijn@nluug.nl 900226
+#
+
+#N	nh20, nh19, nh21, nh22, nh23, nh24, nh25, nh26, nh27
+#S	
+#O	Nederland-Haarlem B.V.
+#C	A. Schoonhoven
+#E	arend@nh20.uucp
+#T	+31 23 189191
+#P	P.O. Box 665, NL-2003 RR Haarlem, Netherlands
+#L	4 38 E / 52 23 N
+#R	
+#U
+#W	piet@cwi.nl 881101, piet@cwi.nl 881101
+#
+
+#N	nibr
+#S
+#O	Ned. Instituut voor Hersenonderzoek
+#C	M. Timmerman
+#E	marcel@nibr.uucp
+#T	+31 20 5665486
+#P	Meibergdreef 33, NL-1105 AZ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R
+#U
+#W	martijn@nluug.nl 910522, martijn@nluug.nl 910522
+#
+
+#N	nikhefk.nikhef.nl, .nikhefk.nikhef.nl, nikhefk,
+#S
+#O	NIKHEF-K
+#C	Wim Heubers
+#E	postmaster@nikhefk.nikhef.nl
+#T	+31 20 5922030
+#P	Kruislaan 411, NL-1098 SJ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 850320, piet@nluug.nl 901218
+#
+
+#N	nlbb-e, nlbb-a
+#S	
+#O	Nederlandse Luister en Braille Bibliotheek
+#C	Niels Hamoen
+#E	niels@nlbb-e.uucp
+#T	+31 70 3211211
+#P	Zichtenburglaan 260, NL-2544 EB 's-Gravenhage, Netherlands
+#L	5 10 E / 52 14 N city
+#R	
+#U
+#W	martijn@nluug.nl 891012, martijn@nluug.nl 910416
+#
+
+#N	nlbull, bull.nl, .bull.nl
+#S	
+#O	Bull Nederland N.V.
+#C	Jos Vos
+#E	nlnet-admin@bull.nl
+#T	+31 20 5652395
+#P	Hoogoorddreef 66-68, NL-1101 BE Amsterdam Z.O., Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 880112, martijn@nluug.nl 920804
+#
+
+#N	nlcvx, .convex.nl, convex.nl
+#S	
+#O	Convex Computer B.V.
+#C	JEP de Bie
+#E	jep@convex.nl
+#T	+31 30 888368
+#P	Europalaan 514, NL-3526 KS Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	piet@cwi.nl 870907, martijn@nluug.nl 900129
+#
+
+#N	nlg.philips.nl, pcg.philips.nl
+#S
+#O	Philips Nat. Lab.
+#C	Jaap Bottenberg
+#E	sysmgr@pcg.philips.nl
+#T	+31 40 892279
+#P	W. Alexanderlaan 7b, NL-5664 AN Geldrop, Netherlands
+#L	5 28 E / 51 26 N
+#R	
+#U	philmds
+#W	piet@cwi.nl 860513, martijn@nluug.nl 910104
+#
+
+#N	nlksla, .ksla.nl, ksla.nl
+#S	
+#O	Koninklijke Shell/Lab, Amsterdam, Afd. MSE
+#C	J.A. Somers
+#E	root@nlksla.uucp
+#T	+31 20 6303021
+#P	GVTD 22/22, Postbus 3003, NL-1003 AA Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R
+#U
+#W	piet@cwi.nl 870728, martijn@nluug.nl 920406
+#
+
+#N	nlsca
+#S	
+#O	Sweelinck Conservatorium Amsterdam
+#C	A.E.F. Coenen
+#E	root@nlsca.uucp
+#T	+31 20 6647641
+#P	van Baerlestraat 27, NL-1071 AN Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R
+#U
+#W	piet@cwi.nl 860902, martijn@nluug.nl 901218
+#
+
+#N	nuclint, .nuclint.nl, nuclint.nl
+#S
+#O	Nucletron
+#C	M.J.J. van der Voort
+#E	mvt@nuclint.nl
+#T	+31 8385 33133
+#P	Waardgelder 1, NL-3905 TH Veenendaal, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920520, piet@nluug.nl 920630
+#
+
+#N	oli1, olnl1, .olivetti.nl, olivetti.nl
+#S
+#O	Olivetti Systems & Networks Nederland B.V.
+#C	Paul v.d. Zwan
+#E	postmaster@olivetti.nl
+#T	+31 71 319931
+#P	Verbeekstraat 19-21, NL-2332 CA Leiden, Netherlands
+#L	4 30 E / 52 09 N
+#R	
+#U
+#W	piet@cwi.nl 860110, martijn@nluug.nl 920326
+#
+
+#N	oosten
+#S
+#O	Woningbouwvereniging Het Oosten
+#C	Mevr. A. van Kleef
+#E	kt@oosten.uucp
+#T	+31 20 5882329
+#P	Vlaardingenlaan 1, NL-1059 GL Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 910717, martijn@nluug.nl 910717
+#
+
+#N	openi, .open-i.nl, open-i.nl
+#S	
+#O	Open-I Software B.V.
+#C	Imko Molenbuur
+#E	imko@open-i.nl
+#T	+31 30 543311
+#P	Daltonlaan 250, NL-3584 BJ Utrecht, Netherlands
+#L	
+#R	
+#U
+#W	piet@cwi.nl 890814, martijn@nluug.nl 920507
+#
+
+#N	orcenl, .oracle.nl, oracle.nl
+#S	
+#O	ORCE Systems B.V.
+#C	Tom Cusell
+#E	tcusell@oracle.nl
+#T	+31 3406 94211
+#P	Rijnzathe 6, NL-3454 PV De Meern, Netherlands
+#L	5 08 E / 52 05 N
+#R	
+#U
+#W	piet@cwi.nl 880819, martijn@nluug.nl 910416
+#
+
+#N	oswc
+#S	
+#O	Omega Software And Consulting BV
+#C	Arjen Jongeling
+#E	arjen@oswc.uucp
+#T	+31 30 892450
+#P	Winthontlaan 186A, NL-3526 KV Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	martijn@nluug.nl 901113, martijn@nluug.nl 901113
+#
+
+#N	phcisa, .origin.nl, origin.nl
+#S	
+#O	Origin/International B.V.
+#C	Roland Faes
+#E	postmaster@ait.origin.nl
+#T	+31 40 586879
+#P	High Tech Park, Room 306, De Run 1121, NL-5503 LB Veldhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	piet@nluug.nl 900726, martijn@nluug.nl 920702
+#
+
+#N	owoc70
+#S	
+#O	Onderwijs Computercentrum, Vakgroep OW & OC
+#C	Han Hermsen
+#E	han@owoc70.uucp
+#T	+31 30 611661
+#P	Tibordreef 4, NL-3561 GG Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	piet@cwi.nl 841215, piet@cwi.nl 841215
+#
+
+#N	pact, pact.nl, .pact.nl
+#S	
+#O	PACT B.V.
+#C	Rob Kurver
+#E	rob@pact.nl
+#T	+31 15 616864
+#P	Foulkeslaan 87, NL-2625 RB Delft, Netherlands
+#L	4 21 E / 52 00 N
+#R	
+#U
+#W	piet@cwi.nl 890228, piet@nluug.nl 900705
+#
+
+#N	pasta, .pasta.mh.nl, pasta.mh.nl
+#S
+#O	Multihouse
+#C	Johan Vromans
+#E	netmgr@mh.nl
+#T	+31 1820 62944
+#P	Doesburgweg 7, NL-2803 PL Gouda, Netherlands
+#L	4 43 E / 52 01 N
+#R	
+#U
+#W	martijn@nluug.nl 920525, martijn@nluug.nl 920525
+#
+
+#N	pecoaix, .pecoma.nl, pecoma.nl
+#S
+#O	Pecoma B.V. (IQU Informatica Groep)
+#C	J. Borensztajn
+#E	postmaster@pecoma.nl
+#T	+31 20 6003001
+#P	P.O. Box 4148, NL-1009 AC Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R
+#U
+#W	martijn@nluug.nl 910502, piet@nluug.nl 911101
+#
+
+#N	prcmuu, .parcom.nl, parcom.nl
+#S	
+#O	Parallel Computing
+#C	Arthur Veen
+#E	root@parcom.nl
+#T	+31 20 6279339
+#P	Postbus 16775, NL-1001 RG Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 891013, martijn@nluug.nl 900125
+#
+
+#N	pro6030
+#S	
+#O	Progress Software BV
+#C	P. de Jong
+#E	pjo@pro6030.uucp
+#T	+31 1806 20388
+#P	Zuideinde 77-79, NL-2991 LJ Barendrecht, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920317, martijn@nluug.nl 920317
+#
+
+#N	prismia, .prismia.nl, prismia.nl
+#S	
+#O	Prism Information Architects
+#C	Robert B.D. Harris
+#E	postmaster@prismia.nl
+#T	+31 10 4587511
+#P	Ligusterbaan 1, NL-2908 LW Capelle a/d Ijssel, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920130, piet@nluug.nl 920220
+#
+
+#N	phcoms.seri.philips.nl, .compo.philips.nl, .seri.philips.nl, seri.philips.nl
+#S
+#O	Philips Components SERI
+#C	O. Khan
+#E	khan@phcoms.seri.philips.nl
+#T	+31 40 723802
+#P	Building BC 136, Hurksestraat 9, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	piet@cwi.nl 880730, piet@cwi.nl 901218
+#
+
+#N	phigate.cnps.philips.nl, phigate
+#S	
+#O	Nederlandse Philips Bedrijven B.V., C&P/LSS, Gebouw VA-p
+#C	D. Wiersma
+#E	postmaster@philips.nl
+#T	+31 40 732354
+#P	P.O. Box 218, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U	sun4nl, nlgvax, philce, philmds, philtis, prle
+#W	piet@cwi.nl 890228, martijn@nluug.nl 910107
+#
+
+#N	philapd, .ptis.philips.nl, .tds.philips.nl, idca.tds.philips.nl
+#S	
+#O	Philips Informatie Systemen B.V.
+#C	Everhard Faas
+#E	faas@idca.tds.philips.nl
+#T	+31 55 432790
+#P	Postbus 245, NL-7300 AE Apeldoorn, Netherlands
+#L	5 58 E / 53 13 N
+#R	
+#U
+#W	piet@cwi.nl 850319, martijn@nluug.nl 900920
+#
+
+#N	ce.philips.nl, philce
+#S	
+#O	Philips Consumer Electronics
+#C	Ad Dijkhoff
+#E	add@ce.philips.nl
+#T	+31 40 735983
+#P	Building SK-433, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	piet@cwi.nl 880222, martijn@nluug.nl 920525
+#
+
+#N	dts.philips.nl, philmds, duvel, orval, postel, sundts, sundts1, sundts2, sundts3, sundts4
+#S
+#O	Philips I&E, T&M, DTS
+#C	Sjaak Arts
+#E	sjaak@dts.philips.nl
+#T	+31 40 785009
+#P	Building TQV-5, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	piet@cwi.nl 851125, piet@nluug.nl 901219
+#
+
+#N	cft.philips.nl, philtis
+#S
+#O	Philips Corp. CAD Center
+#C	L.C. Noordhuizen
+#E	lcn@cft.philips.nl
+#T	+31 40 735834
+#P	Building SAQ 2714, NL-5600 MD Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U	philmds
+#W	piet@cwi.nl 860513, piet@nluug.nl 901219
+#
+
+#N	prl.philips.nl, cst.philips.nl, prle, prle1, prle2, prle3, nvpna1, cst
+#S
+#O	Philips Research Laboratories
+#C	M.G.B.M. Ensink
+#E	root@prl.philips.nl
+#T	+31 40 744273
+#P	WY-P 01, P.O. Box 80000, NL-5600 JA Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	piet@cwi.nl 850912, piet@nluug.nl 901219
+#
+
+#N	picocme
+#S
+#O	CME Delft
+#C	Ir. A.C. de Graaf
+#E	sander@picocme.uucp
+#T	+31 15 697268
+#P	Postbus 6067, NL-2600 JA Delft, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 910923, martijn@nluug.nl 910923
+#
+
+#N	posi, .positronika.nl, positronika.nl
+#S
+#O	Positronika Nederland B.V.
+#C	Jos Scherders
+#E	root@positronika.nl
+#T	+31 40 416355
+#P	Postbus 1145, NL-5602 BC Eindhoven, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 911111, piet@nluug.nl 920217
+#
+
+#N	propell, .propell.nl, propell.nl
+#S	
+#O	Propell B.V.
+#C	Hans Kappert
+#E	root@propell.nl
+#T	+31 4998 90502
+#P	Hallenweg 15, NL-5683 CT Best
+#L
+#R	re-introduced after erroneous deleting
+#U
+#W	martijn@nluug.nl 910613, piet@nluug.nl 920818
+#
+
+#N	psyline, .psyline.nl, psyline.nl
+#S	
+#O	
+#C	Th.J.P.M. Bogels
+#E	postmaster@psyline.nl
+#T	+31 80 445801
+#P	Meyhorst 14-69, NL-6537 JT Nijmegen, Netherlands
+#L	
+#R	
+#U	
+#W	martijn@nluug.nl 920717, piet@nluug.nl 920806
+#
+
+#N	pttdis, ux53, .pttnwb.nl, pttnwb.nl
+#S	
+#O	PTT Telecom Netwerkbedrijf, afd. BU-NWB
+#C	Tjong Ang, Karel van Houten
+#E	netmanager@pttnwb.nl
+#T	+31 70 434947
+#P	P.O. Box 30150, NL-2500 GD 's-Gravenhage, Netherlands
+#L	5 10 E / 52 14 N city
+#R	
+#U	
+#W	piet@cwi.nl 881013, piet@nluug.nl 920113
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

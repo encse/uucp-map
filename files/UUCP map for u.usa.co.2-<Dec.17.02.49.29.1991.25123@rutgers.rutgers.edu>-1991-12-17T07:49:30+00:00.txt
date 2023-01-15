@@ -1,0 +1,998 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.co.2
+: This archive created: Tue Dec 17 02:49:27 1991
+echo shar: extracting u.usa.co.2
+cat << 'SHAR_EOF' > u.usa.co.2
+# Doug McCallum <dougm@ico.ISC.COM>; Mon Dec 16 09:33:31 MST 1991
+
+#N	.nbi.com, nbires
+#O	NBI, Inc.
+#S	ISI 570; UNIX 4.3 BSD
+#C	Dale Reed
+#E	nbires!postmaster
+#T	+1 303 444 5710
+#P	P.O. Box 9001, Boulder, CO 80301
+#L	40 02 13 N / 105 14 34 W
+#R	registered
+#U	isieng ncar
+#W	dcr@nbires.nbi.com (Dale Reed); Mon Nov 13 09:39:22 MST 1989
+#
+nbires	isieng(DIRECT), ncar(DIRECT+LOW)
+
+
+#N	.ucar.edu, ncar
+#S	
+#O	Scientific Computing Division/NCAR
+#C	Greg Woods
+#E	woods@ncar.ucar.edu
+#T	(303) 497-1295
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	Internet host ncar.ucar.edu 128.117.64.4
+#W	woods 06/12/90
+#U	asuvax ames boulder gatech midway umigw dinl pvi unmvax skink nbires 
+#U	elroy zaphod.mps.ohio-state.edu noaasel
+#
+#
+#    NSFnet/WESTnet links
+#
+ncar noao(DEDICATED), oddjob(DEDICATED), mailrus(DEDICATED), tank(DEDICATED),
+    gatech(DEDICATED), ames(DEDICATED), rutgers(DEDICATED+5*LOW), 
+    umigw(DEDICATED), boulder(DEDICATED), noaasel(DEDICATED),
+    unmvax(DEDICATED), skink(DEDICATED), asuvax(DEDICATED), midway(DEDICATED)
+#
+#    local phone calls; the ones with penalties are because they only call
+#    us, so we have to wait for them to poll us
+#
+ncar chernow(DIRECT), dinl(DIRECT), gaia(DIRECT+2*LOW), 
+     ico(DIRECT), nbires(DIRECT), sunpeaks(DIRECT), gcs(DIRECT),
+     ntia(DIRECT), stcvax(DIRECT+4*LOW), scicom(DIRECT),
+     cepu(DAILY), pvi(DIRECT+2*LOW), raven(DIRECT+2*LOW), amaze(DIRECT+2*LOW),
+     peaks(EVENING), spatial(POLLED), bearsan(DIRECT), mhigh(DIRECT+2*LOW),
+     bluesky(DIRECT), cmpatsys(DIRECT+2*LOW), scg(DIRECT+2*LOW)
+
+
+ncar    ".ucar.edu"(LOCAL)
+ncar = "ncar.ucar.edu"
+ncar = "ucar.edu"
+
+
+
+#N	neko
+#S	Zenith 151/Wildfire;MSDOS 3.3
+#O	Systems Analysis
+#C	George R Carr Jr
+#E	neko!carr
+#T	+1 303 449 3983
+#P	4882 Hopkins Place, Boulder CO 80301
+#L	40 02 N / 105 17 W
+#R	running WAFFLE/uucp
+#U
+#W	neko!carr (George R Carr Jr); Mon Sep 10 22:56:55 MST 1990
+#
+neko	raven(DAILY)
+
+
+
+#N	nemsis
+#S
+#O	Nemesis Public BBS
+#C	Quais Hassan
+#E	nemsis!postmaster
+#T
+#P	Aurora, Colorado
+#L	37 10 N / 116 20 W city
+#R
+#U	scicom
+#W	nemsis!postmaster; Sun Sep 22 09:47:04 MDT 1991
+#
+nemsis	scicom(DIRECT)
+
+
+#N	netwise.com, netwise
+#S	Sun 3/280; Sun OS 4.1
+#O	Netwise Inc.
+#C	Guy Poly
+#E	guy@netwise.com
+#T	+1 303 442 8280
+#P	2477 55th Street, Building B, Boulder, CO 80301
+#L	105 14 W / 40 02 N city
+#R	registered
+#U	dplus, flatirons
+#W	guy@netwise.com (Guy W. Poly); Tue April 9 16:10 MST 1991
+#
+netwise .netwise.com(LOCAL)
+netwise =netwise.com
+netwise csn(DIRECT+HIGH), flatirons(HOURLY), dplus(HOURLY)
+
+
+
+#N	ntia
+#S	Pyramid 90x; OSx
+#O	NTIA-ITS, US Dept. of Commerce
+#C	Tim Butler
+#E	tim@its.bldrdoc.gov
+#T	+1 303 497 3606
+#P	US Dept of Commerce, NTIA/ITS.N3, 325 Broadway, Boulder, CO 80303-3328
+#L	105 17 W / 39 59 N
+#R	none
+#U	ncar boulder
+#W	tim@ntia.its.bldrdoc.gov (Tim Butler); Fri Mar  2 14:26:02 MST 1990
+#
+ntia	= ntia.its.bldrdoc.gov
+ntia	ncar(DAILY), boulder(DAILY)
+
+
+
+#N	.rmnug.org, nugget
+#F	nugget.rmnug.org
+#O	rmNUG (Rocky Mountain NeXT Users' Group)
+#C	Jacob Gore
+#E	jacob@rmnug.org
+#T	303-696-7893
+#P	3044 S. Akron St., Denver, CO 80231-4605, USA
+#L	39 43 N / 105 01 W city
+#R
+#U	slate.mines.colorado.edu
+#W	jacob@rmnug.org (Jacob Gore); Mon Jul  1 08:34:45 MDT 1991
+#
+nugget	.rmnug.org
+nugget	rmnug.org
+nugget=	rmnug.org
+
+
+
+#N	nyx
+#S	Pyramid 90x; OSx 4.0
+#O	U. of Denver, Dept. of Math and Computer Science, Public Access Unix
+#C	Andrew Burt
+#E	nyx!postmaster
+#T	+1 303 871-3344
+#P	John Greene Hall, Denver, CO 80208
+#L	39 43 N / 105 01 W city
+#W	nyx!aburt (Andrew Burt); Sun Feb 25 18:52:50 MST 1990
+#U	scicom mnemosyne.cs.du.edu csm9a ico vila ufweed
+#
+nyx	bilanc (DIRECT), boulder(DIRECT), csm9a(DIRECT), timna(DIRECT),
+	ico(DAILY), netech(DIRECT), scicom(DIRECT),
+	qetzal(DAILY), vila(DAILY), ufweed(DAILY), dentent(DIRECT),
+	mra(DAILY), koscej(DAILY), zbrka(DAILY), kato(DAILY), r5turbo(DAILY)
+
+nyx = nyx.cs.du.edu
+
+
+
+#N	oldcolo                                                            
+#S	SVC 386, SCO XENIX SYS V 2.2.3
+#O	Old Colorado City Communications                              
+#C	David Hughes                                
+#E	oldcolo!dave                                                 
+#T	1 719 632 4848                                                   
+#L	38 55 N / 104 50 W                                        
+#R	Conferencing, Foxbase Data Base, Naplps Graphics, Packet Radio
+#W	oldcolo!dave (Dave Hughes); Thu Mar 7 15:00:00 MST 1991        
+#U      csn.org   hp-lsd  bigsky  spacenet
+# 	
+oldcolo csn.org(DAILY), hp-lsd(DAILY), bigsky(DAILY), spacenet(DEMAND)
+
+
+
+#N	paranet, f422.n104.z1.fidonet.org
+#S	Tandy; MS-DOS 3.3,  uuslave
+#O	ParaNet Information Service
+#C	Michael Corbin
+#E	scicom!mcorbin, paranet!michael_corbin
+#T	+1 303 431 8797
+#P	P.O. Box 928, Wheatridge, CO  80034
+#L	37 10 N / 116 20 W city
+#R	'ParaNet Information Service', FidoNet 104/722
+#U	scicom
+#W	merlin@ns.fidonet.org (Burt Juda); Sun Oct 27 15:00:00 EST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+paranet=	paranet.fidonet.org, f422.n104.z1.fidonet.org
+paranet	scicom(DEMAND)
+
+
+#N	pawsd
+#S	Tandy 6000; Xenix 03.02.00
+#O	Pagosa Area Water and Sanitation District
+#C	Ron McDowell
+#E	flattop!postmaster
+#T	+1 512 837 7245
+#P	Post Office Box 4610, 100 Lyn Ave., Pagosa Springs, Colorado, 81157
+#L	107 05 W / 37 15 N
+#R
+#U
+#W	flattop!rcm (Ron McDowell); Mon Jul  1 21:54:29 CDT 1991
+#
+pawsd  flattop(WEEKLY/2)
+
+
+
+#N      pcs
+#S      Wyse 386; SCO UNIX 3.2V2
+#O      Phoenix Computer Systems
+#C      Pat Sharp
+#E      pcs!pat
+#E      pcs!george
+#T      +1 303 428 4010
+#P      6820 North Broadway, Suite A, Denver, CO 80221
+#L      39 51 N / 104 59 W city
+#R
+#W      lorelei@uunet.UU.NET (Lorelei Horner); Fri, 1 Nov 1991 15:24:24 -0700 (MST)
+#U
+#
+pcs     uunet(DEMAND)
+
+
+
+#N		pigsty
+#S		386 Clone; UNIX System V/386
+#O		none
+#C		John Hensley
+#E		pigsty!john
+#T		+1 303 320 0259
+#P		840 S. Oneida #A403, Denver, CO 80224
+#L		39 44 58 N / 104 59 22 W city
+#R		none
+#U		isis
+#W		pigsty!john (John Hensley); Tue Sep 24 21:45:24 EDT 1991
+#
+pigsty	isis(DIRECT)
+
+
+#N	pikes
+#S	Pyramid 90XX, BSD 4.2
+#O	University of Colorado at Denver
+#C	Randy Hagan
+#E	pikes!netnews  pikes!postmaster
+#T	+ 1 303 556 2312
+#P	Denver, Colorado
+#L      39 37 N / 105 01 W city
+#R	Feeds mail to all campus machines
+#U	boulder copper clem koala sofal
+#W	randy@pikes (Randy Hagan); Sun Nov 04 10:07:00 MST 1990
+#
+pikes = "pikes.denver.colorado.edu"
+cu-den = "pikes"
+#
+pikes	boulder(DEDICATED), copper(DEDICATED), clem(DEMAND), koala(DEMAND),
+        sofal(DEMAND)
+
+
+
+#N	polygon
+#S	DEC MicroVax II; 4.3 BSD Unix
+#O	Polygon Network, Incorporated
+#C	Mark Ehr
+#E	polygon!mehr
+#T	+1 303 468 1245
+#P	PO Box 4806, Dillon, CO  80435-4806
+#L	39 38 00 N / 106 2 30 W
+#R	<None>
+#U	<None>
+#W	polygon!mehr (Mark Ehr); Thu Mar 1 10:30:00 MDT 1990
+#
+polygon		uunet(DEMAND)
+
+
+
+#N      pvi
+#S      SUN 3/160M; SUN OS 4.0.3 
+#O      Precision Visuals Inc.
+#C      Karen Allen 
+#E      boulder!pvi!postmaster 
+#T      +1 303 530 9000 x358
+#P      Precision Visuals Inc., 6260 Lookout Rd. Boulder, Colo. 80301
+#L      40 00 30 N / 105 17 00 W city
+#R      Computer Visual Data Analysis Specialists
+#W      boulder!pvi!karena (Karen Allen);Tue May 8 14:00:00 MDT 1990
+#U      ncar
+#
+# We call these sites, they never call us
+pvi  boulder(DAILY/4), ncar(DAILY/4)
+
+
+
+#N	qetzal
+#S	IMS 286; Microport SYS V/AT 2.4L
+#O	The WhiteStar Corporation
+#C	Robert C. White, Jr.
+#E	qetzal!postmaster
+#T	+1 303 781 5182
+#P	333 West Hampden Avenue, Suite 604, Englewood, CO  80110
+#L	39 37 39 N / 105 05 00 W
+#W	qetzal!rcw (Robert C. White, Jr); Fri Nov 01 16:34:00 MST 1991
+#
+qetzal  scicom(DIRECT), boulder (DIRECT)
+
+
+#N	raid5
+#S	Mips 120; RISC/os 4.50B (System V Release 3)
+#O	Array Technology Corporation
+#C	Tony Andrews
+#E	tony@raid5.UUCP
+#T	+1 303 444 9300
+#P	4775 Walnut St. Suite B, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#U	
+#W	raid5!tony (Tony Andrews); Mon Jul 30 13:23:44 MDT 1990
+#
+raid5	halley(DEMAND)
+
+
+
+#N	raven, .eklektix.com
+#F	ncar.ucar.edu
+#S	386 hodgepodge; ISC UNIX Sys V.3.2 rel 2.2
+#O	eklektix
+#C	Dick Dunn
+#E	raven!postmaster
+#T	+1 303 494 0965
+#P	856 Sycamore Ave., Boulder, CO  80303-2858  USA
+#L	40 00 08 N / 105 13 33 W
+#R	
+#U
+#W	raven!rcd (Dick Dunn); Thu Jul 11 10:15:27 MDT 1991
+raven	= eklektix.com
+raven   eklektix.com, .eklektix.com
+raven	bearsan(DAILY/4), csn(DIRECT), ensuzi(DAILY), ico(DIRECT+2*LOW),
+	ncar(DIRECT), neko(DAILY), returnco(DAILY/4), wdt(DAILY/4)
+
+
+#N	razor
+#S	HP9000
+#O	Genasys II, Inc.
+#C	Michael Aichlmayr
+#E	razor!root
+#T	+1 303 226 3283
+#P	2629 Redwing Road, Suite 330, Fort Collins, CO 80526
+#L	40 35 N / 105 05 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Dec 10 15:46:57 EST 1991
+#U
+#
+razor	uunet(DEMAND)
+
+
+#N	reo
+#S	Tandy 6000; XENIX 3.02.00
+#O	Colorado Wing, Civil Air Patrol
+#C	Richard E. Oakes
+#E	reo!postmaster
+#T	+1 303 361 6214
+#P	602 Dawson St., Aurora, Colorado  80011-6907
+#L	104 48 56 W / 39 42 34 N
+#R	
+#U	
+#W	reo!rick (Richard E. Oakes); Tue Jul  2 11:30:00 MDT 1991
+#
+reo	colocap(DIRECT), scicom(DIRECT), qetzal(POLLED)
+
+
+#N	rips
+#S	Intel 386, Xenix-386 2.3
+#O	Raster Image Processing Systems
+#C	Kent Whitten
+#E	rips!postmaster
+#T	+1 303 530 2910
+#P	4665 Nautilus Court South, Boulder Co. 80301
+#L	40 12 N / 105 14 22 W
+#U	stan
+#W	rips!kent (Kent Whitten); Wed Dec 06 12:50:34 MST 1989
+#
+rips	stan(DEMAND)
+
+
+#N	rockymt
+#S	Tandy 6000 - Xenix 3.02.00
+#O	Communications Dept., City of Aurora
+#C	Bill Sheriff
+#E	rockymt!bill rockymt!postmaster
+#T	(303)-695-7510
+#P	13625 E. Ellsworth Bld D., Aurora, CO.
+#L	39 44 N / 104 57 W city
+#U	scicom
+#R	City of Aurora's Communications & Electronic Maintenance Dept.
+#R	
+#W	scicom!cyrill (Cyro Lord); Thr Apr 04 11:32:43 MST 1991
+#
+rockymt	scicom(DIRECT)
+
+
+
+#N	rushpc
+#S	Intel 386; UNIX SVR3.2
+#O	My place on the Front Range.
+#C	John J. Rushford
+#E	rushpc!jjr
+#T	+1 303 465 4070
+#P 	10007 North King Street, Westminster, CO 80030
+#L	39 50 N / 105 02 W city
+#R	Receiving Net News
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Feb  1 19:30:16 EST 1991
+#U
+#
+rushpc	uunet(DEMAND)
+
+
+
+#N	scg
+#S	Sun 2/120; SunOs 3.5
+#O	Malco Partners
+#C	Peter Gross
+#E	scg!postmaster
+#T	+1 303 447 1374
+#P	1919 14th St., Suite 560, Boulder CO 80302
+#L
+#R	formerly in NYC
+#W	pag@scg.boulder.co.us (Peter Gross); Mon Jun 25 23:55:55 MDT 1990
+#U	
+#
+scg	scg.boulder.co.us
+scg	= scg.boulder.co.us
+scg	ncar(DIRECT)
+
+
+
+#N	.alphacdc.com, scicom
+#F	uiowa.edu
+#O	Alpha Communications Development Corp.
+#C	Cyro Lord
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	2570 Sky Ranch Rd  Box 63A, Aurora, Colo.  80011
+#L	39 45 15 N / 104 45 W city
+#U	isis embudo taos rockymt zebra paranet
+#U	zbrka freedom idic csn 
+#R
+#W	09/05/91 scicom!cyrill
+#
+scicom = .alphacdc.com
+scicom = alphacdc.com
+scicom = scicom.alphacdc.com
+scicom  ncar(DIRECT), isis(DIRECT), bldr(DIRECT), rockymt(DIRECT),
+	taos(LOCAL), qetzal(WEEKLY), reo(DIRECT), idic(DEMAND),
+	zebra(DIRECT), bilanc(DEMAND), freedom(DAILY), embudo(DAILY),
+	zbrka(DEMAND), paranet(DIRECT), csn(DIRECT)
+
+
+#N	simtek
+#S	SUN 4/75; SunOS 4.1.1
+#O	Simtek Corporation
+#C	Kerry Maletsky
+#E	simtek!kerry
+#T	+1 719 590 6523
+#P	1465 Kelly Johnson Blvd, Colorado Springs, CO 80132
+#L	38 50 N / 104 49 W city
+#R	non-volatile IC memory manufacturer
+#U	hp-col
+#W	simtek!kerry ; Tue Nov 12 09:08:42 MST 1991
+#
+simtek	hp-col(DIRECT)
+
+
+
+#N	soul
+#S	SUN 4/330; SUN OS 4.1.1
+#O	Ampex Video Systems Corporation, Colorado Springs
+#C	Steve Neidens
+#E	soul!postmaster, soul!usenet
+#T	+1 719 570 3561
+#P	600 Wooten Road, Colorado Springs, Colorado 80915-3597 USA
+#L	38 55 N / 104 50 W city
+#R	Gateway for Ampex in Colorado Springs
+#U	ampex,agcsun,monarch,tektalk,minuet
+#W	soul!neidens (Site Administrator); Fri Sep 06 12:41:00 MDT 1991
+#
+soul = soul.ampex.com
+soul	agcsun(LOCAL), ampex(DIRECT+HIGH), monarch(DIRECT+HIGH),
+        tektalk(DAILY), harmony(DAILY), minuet(DAILY)
+
+
+
+#N	spatial
+#F	boulder.colorado.edu
+#S	SPARCStation 1+  SunOS4.1.1
+#O	Spatial Technology, Inc.
+#C	Alek O. Komarnitsky
+#E	postmaster@spatial.com
+#T	+1 303 449 0649
+#P	2425 55th Street, Building A, Boulder, CO 80301
+#L	105 14 W / 40 02 N  city
+#R	registered
+#U	ico
+#W	alek@spatial.com (Alek O. Komarnitsky); Mon, Oct 7 12:38:34 MST 1991
+#
+spatial	.spatial.com
+spatial	spatial.com
+spatial =	spatial.com
+spatial	csn.org (HOURLY)
+
+
+
+#N	speclab
+#S	HP 9000/825; HPUX 3.10
+#O	U. S. Geological Survey Branch of Geophysics, Spectroscopy Lab
+#C	Roger N. Clark
+#E	speclab!rclark
+#T	+1 303 236 1332
+#P	P.O. Box 25046, MS 964, Denver Federal Center, Denver, CO 80225
+#L	105 10 W / 39 40 N
+#R
+#U	
+#W	speclab!ngorelic (Noel Gorelick) ; Tue Jan  2 14:43:21 MST 1990
+#
+speclab	csm9a(DEMAND), bgrvx1(WEEKLY), uhpgvax(WEEKLY),
+	bobslsi(WEEKLY), hpuecoa(EVENING/2), bgpmvx(WEEKLY)
+
+
+
+#N	sraco1
+#S	News-841; 4.3 BSD
+#O	Software Research Associates, Inc.
+#C	Hiroshi Sako
+#E	sraco1!sakoh
+#T	+1 303 440 3582
+#P	1113 Spruce #502, Boulder, CO  80302
+#L	40 00 N / 105 16 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Mon Jul  3 15:45:45 EDT 1989
+#U
+#
+sraco1		uunet(DEMAND)
+
+
+
+#N      ssds
+#S      Sun 3/260; SunOS 4.1.1
+#O      SSDS, Inc.
+#C	Pat Cain
+#E      ssds!root
+#T      +1 303 798 5520
+#P      1101 W. Mineral Ave., Suite 200, Littleton, CO  80120
+#L      39 36 N / 105 00 W city
+#R
+#W      jane@uunet.UU.NET (Jane Roop); Sun, 3 Nov 91 11:40:41 MST
+#U
+#
+ssds            uunet(DEMAND)
+
+
+
+
+#N	ssii
+#S	RS/6000 IBM
+#O	Scientific Software-Intercomp
+#C	Dick Shaw/Robert White 
+#E	ssii!root
+#T	+1 303 292 1111
+#P	1801 California Street, #295, Denver, CO 80202
+#L	39 44 N / 104 59 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Aug 13 15:21:14 EDT 1991
+#U
+#
+ssii	uunet(DEMAND)
+
+
+#N	stan
+#S	Solbourne Series5/602; OS/MP 4.1A.1 UNIX
+#O	Solbourne Computer, Inc.
+#C	Jerry Stachowski
+#E	postmaster@stan.UUCP
+#T	+1 303 678 4537
+#P	1900 Pike Road, Longmont, CO  80501-6700
+#L      40 12 N / 105 14 22 W city
+#R	Mail and news gateway for the registered domain solbourne.com.
+#W	kucharsk@solbourne.com (William Kucharski); Tue Nov 12 10:54:25 MST 1991
+#U	csn cwi graftek rips sentin uunet
+#
+#	Internet addresses are preferred.  While "stan!user" will work, mail
+#	addressed to "user@solbourne.com" will arrive much faster.
+#
+stan	.solbourne.com
+stan	solbourne.com
+stan	= stan.solbourne.com
+#
+#	Not real UUCP but friends we talk to via TCP
+#
+stan	boulder(DEDICATED+LOW), csn(DEDICATED), uunet(POLLED),
+	sola(DEDICATED+LOW), solchi(DEDICATED+LOW), sol-dc(DEDICATED+LOW),
+	solhou(DEDICATED+LOW), westsci(DEDICATED+LOW)
+#
+#	Real UUCP connections
+#
+stan	bldrsci(HOURLY*2), boots(HOURLY*2), cadzooks(POLLED), candy(HOURLY*6),
+	cwi(DAILY/2), gaia(HOURLY*8), graftek(HOURLY*3), lupine(DAILY/2), 
+	mizarvme(POLLED), ncoast(DEMAND+LOW), phoenix(HOURLY*2),
+	qad(DEMAND+LOW), rips(POLLED), seasolb(HOURLY*3), seasolb(HOURLY*3),
+	sentin(POLLED), set7(DAILY), solatl(HOURLY*3), solaust(DEMAND+LOW),
+	soldiego(HOURLY*3), solider(HOURLY*3), soleast(HOURLY),
+	solny(HOURLY*2), tgsys(DAILY/2), uksol(HOURLY*5)
+
+
+
+
+#N	stc-auts, autsvax
+#S	Dec VAX-11/750; 4.3 BSD
+#O	Storage Technology Corp.
+#C	Jeff Johnson
+#E	stc-auts!jbj
+#T	+1 303 673 3480
+#P	MS9145, 2270 S. 88th St., Louisville CO. 80028-9145
+#W	stc-auts!jbj (Jeff Johnson); Fri Mar  2 12:36:40 MST 1990
+#
+stc-auts stcvax(DAILY/2), autsvax(LOCAL)
+
+autsvax	stcvax(DEMAND), stc-auts(LOCAL)
+
+
+
+#N	stcvax
+#F	ncar.ucar.edu
+#S	Vax-11/750; 4.3BSD
+#O	Storage Technology Corp.
+#C	Barb Moorhead
+#E	stcvax!uucpadmin
+#T	+1 303 673 6441
+#P	Mail Drop - 1169, 2270 S. 88th St., Louisville, CO 80028
+#L	39 59 N / 105 09 W city
+#W	stcvax!bar (Barb Moorhead); Tue Feb  6 11:08:31 MST 1990
+#U	nbires
+#
+stcvax  stortek.com
+stcvax	nbires(DEMAND), ncar(DEMAND), cires(DEMAND), 
+	boulder(DEMAND), handel(EVENING), decvax(DAILY),
+	stc-auts(DIRECT), graftek(DIRECT), bbear(DIRECT),
+	bdaemon(DEMAND)
+
+
+
+
+
+
+#N      sunpeaks
+#S      Sun-4/280; SUNOS 4.1.1
+#O      Sun Microsystems, Inc.
+#C      Bill Meine
+#E      sunpeaks!postmaster
+#T      +1 303 796 7100
+#P      5251 DTC Parkway, Suite 500, Englewood, CO, 80111
+#L      104 53 53 W / 39 37 13 N
+#R      Greater Rocky Mountain Regional Office
+#U
+#W      sunpeaks!bill (Bill Meine); Thu May 16 14:36:38 MDT 1991
+#
+sunpeaks        agcsun(DIRECT), auto-trol(DIRECT), bion(DAILY),
+        boulder(DIRECT), celden(DAILY), densqnt(DAILY), ie(DIRECT),
+        gangue(DIRECT), graftek(DAILY), huges(DAILY),
+        larry(DAILY), martin(DAILY), mmds-fsd(DAILY),
+        ncar(DIRECT), optotech(DAILY), precvis(DAILY), raffles(DIRECT),
+        seri(DIRECT), wilden(DAILY)
+
+
+#N	taos
+#O	Alpha Communications Development Corp
+#C	Michele Lord
+#E	scicom!postmaster
+#T	1-303-343-4114
+#P	1017 Perth St.,  Aurora, CO. 80011
+#L	39 44 45 N / 104 44 W city
+#U	scicom
+#R	
+#W	taos!root; 09/01/91
+#
+taos	scicom(LOCAL)
+
+
+#N      tcr
+#S      AT&T Unix PC 7300; Unix System V vs. 3.51
+#O      The Computer Room, Denver
+#C      John B. Sobernheim
+#E      tcr!news
+#T      +1 303 799 9733
+#P      9625 East Arapahoe Road, Englewood, Colorado 80112
+#L      39 35 N / 104 51 W 
+#R      
+#U      boulder
+#W      tcr!news (John B. Sobernheim); Sun Jan 06 11:05:22 MST 1991
+#
+tcr     boulder(DAILY)
+
+
+
+#N	tektalk
+#S	IBM PC 286/12, Dos 3.3 / UUPC
+#O	Tektalk BBS
+#C	Steve Neidens
+#E	tektalk!postmaster, tektalk!neidens
+#T	+1 719 597 1212
+#P	Colorado Springs, Colorado 80915-3597 USA
+#L	38 55 N / 104 50 W city
+#R	Technical User BBS, 300-1200-2400,8,n,1 +1 719  550 0065
+#U	soul
+#W	soul!neidens Fri Sep 06 12:44:00 MDT 1991
+#
+tektalk	soul(DAILY)
+
+
+
+
+
+#N	topaz
+#O	Bureau of Mines, Denver Research Center, Ground Control Division
+#C	S. Billington
+#E	topaz!postmaster
+#T	+1 303 236 0736
+#P	Bldg. 20, Denver Federal Center, Denver, CO  80225
+#L	39 42 58 N / 105 08 04 W
+#W	topaz!postmaster (S. Billington); Fri Oct 04 10:52:47 MDT 1991
+#
+topaz	cires(DIRECT), boulder(HOURLY)
+
+
+
+#N	tst
+#S	DEC MICROVAX II; ULTRIX VER. 1.2 
+#O	Ampex Audio Video Systems Division, Design Test Engineering
+#C	Michael Willett
+#E	dse!news   
+#T	1 303 570 3561
+#P	600 Wooten Road, M.S. 900-07, Colorado Springs, CO, USA, 80915-3597
+#L	38 50 N / 104 50 W City
+#R	We receive news via Ampex's dse ethernet
+#W	dse!wizard (Michael Willett); Mon Mar 23 11:47:42 MST 1987
+#
+tst	dse
+
+
+
+#N	unidot
+#S	NCR-Tower, SYS V
+#O	Unidot
+#C	Robert M. McClure
+#E	unidot!rmm
+#T	+1 303 526 9263
+#P	528 Commons Drive; Golden, CO 80401
+#L	105 15 W / 43 30 N
+#W	unidot!rmm (Bob McClure); Mon Jul  1 14:57:26 MDT 1991
+#
+unidot  sco(WEEKLY), practic(WEEKLY), cfg(DAILY),
+	umunhum(WEEKLY), plato(WEEKLY), polstra(WEEKLY)
+
+
+
+#N	unisyn
+#S	Sun 3/280; 4.2 BSD UNIX
+#O	Unisyn, Inc.
+#C	John Matheny, Eric Arnold
+#E	unisyn!postmaster
+#T	+1 303 443 7878
+#P	3300 Mitchell Lane, Boulder, CO 80301
+#L	40 02 N / 105 15 W city
+#R	
+#U	uunet
+#W	unsiyn!matheny (John Matheny); Thu Jun 16 11:08:46 MDT 1988
+#
+unisyn	.unisyn.com
+unisyn=	unisyn.com
+unisyn	uunet(HOURLY), boulder(EVENING)
+
+
+#N	uranus
+#S	Sparcstation 1
+#O	Ford Microelectronics, Inc.
+#C	David Uraneck
+#E	uranus!duran
+#T	+1 719 528 7908
+#P	9965 Federal Drive, Colorado Springs, CO 80921
+#L	38 50 N / 104 49 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Sun Jul 14 10:22:20 MDT 1991
+#U
+#
+uranus	uunet(DEMAND)
+
+
+
+#N	uswat
+#S	Sun UNIX
+#O	U S WEST Inc
+#C	Brad Huntting, Joel Rem
+#E	postmaster@uswest.com
+#T	+1 303 541 6623
+#P	U S WEST Advanced Technologies, 4001 Discovery Drive, Boulder CO 80303
+#L	40 00 30 N / 105 14 W city
+#W	Brad Huntting, huntting@uswest.com; Fri Jun 14 11:21:02 MDT 1991
+#U	csn uswmrg
+#
+#R	Internet gateway for U S WEST
+#
+uswat	.uswest.com
+#
+#	Registered domain name
+#
+uswat	= uswat.uswest.com, uswest
+#
+#	Internal uswest connections:
+#
+uswat	mb400(DAILY*4), mbux0(DAILY*4), uswmrg(DAILY*4)
+#
+#	External connections:
+#
+uswat	csn(DEAD), att(DEAD), boulder(DEAD), bellcore(DEAD), sunpeaks(DEAD)
+
+
+
+#N      uswmrg
+#S      HP 9000/360 HP-UX 7.0
+#O      U.S. West Marketing Resources Group
+#C      Chris Fedde
+#E      uswmrg!chris@uswat.uswest.com
+#T      +1 303 784 2823
+#P      198 Inverness Drive West Englewood C0 80112
+#L      39 44 N / 104 52 W
+#U      uswat
+#W      Chris Fedde ; Fri, 1 Nov 91 16:00:56 MST
+#
+uswmrg uswat(DEMAND), mb400(DEMAND)
+uswmrg = "uswmrg2"
+
+
+#N	uswmrg2
+#S	HP 9000/850 HP-UX 3.1
+#O	U.S. West Marketing Resources Group
+#C	Chris Fedde
+#E	uswmrg2!chrisf@uswat.uswest.com
+#T	+1 303 369 2823
+#P	2530 so. Parker Road, Aurora CO 80014
+#L	39 44 N / 104 52 W
+#R	We are currently exploring joining uswest.com
+#U	uswat
+#W	Chris Fedde ; 4/14/90
+#
+uswmrg2 uswat(DEMAND)
+
+
+
+#N	utmc
+#S	Convex C1; 6.0 Convex UNIX
+#O	United Techologies Microelectronics Center
+#C	Anne C. Shaw, Vinton Goff
+#E	utmc!postmaster
+#T	+1 303 594 8363, +1 303 594 8054
+#P	1575 Garden of the Gods Road, Colorado Springs, CO  80907
+#L	104 04 W / 38 05 N city
+#R	Currently we do not talk to anyone; convex polls us twice daily
+#U
+#W	utmc!shaw (Anne C. Shaw); Wed Jul 12 13:15:33 MDT 1988
+#
+utmc	convex(POLLED)
+
+
+
+#N	wdt
+#F	wdt.com
+#S	DEC VAX8650; VMS V5.4-2
+#O	Western Data Technologies
+#C	Dave Santistevan
+#E	wdt!dave
+#T	+1 303 298 9192
+#P	5270 Fox St., P.O.Box 5542, Denver CO 80217, USA
+#L	40 00 N / 105 17 W
+#R	Running DECUS uucp V1.1a (send mail for details)
+#U	CSN
+#W	wdt!diana (Diana Stephens); Tue, 3 Sep 91 05:47:53 MDT
+#
+wdt     raven(POLLED)
+
+
+
+#N	westdata
+#S	DEC VAX8650; VMS V5.3-1
+#O	Western Data Technologies
+#C	Dave Santistevan
+#E	westdata!dave
+#T	+1 303 298 9192
+#P	5270 Fox St., P.O.Box 5542, Denver CO 80217, USA
+#L	40 00 N / 105 17 W
+#R	Running DECUS uucp V1.1a (send mail for details)
+#U	raven
+#W	westdata!zar (Dan Zirin); Thr Nov 1 12:00:00 MST 1990
+#
+westdata	raven(POLLED)
+
+
+
+
+
+#N	winfree, .gag.com
+#S	Hewlett-Packard 9000/370; HP-UX B.08.00 B
+#O	Garbee and Garbee, Computer / Graphics Consultants
+#C	Bdale Garbee
+#E	postmaster@gag.com
+#T	+1 719 590 2868
+#P	4390 Darr Circle, Black Forest, CO, 80908, USA
+#L	39 1 30 N / 104 45 W
+#R	News hub for the amateur radio Colorado Packet Association (COPA).
+#U	empire hp-col pitt
+#W	root@gag.com; Wed Jul 31 00:15:01 MDT 1991
+#
+winfree	.gag.com
+winfree	= winfree.gag.com
+winfree	arpad(DEMAND+HIGH), hp-col(DIRECT), empire(DIRECT), 
+	kd4nc(WEEKLY+HIGH), ldhmi(WEEKLY+HIGH), pitt(WEEKLY+HIGH)
+
+
+#N	wp42
+#S	Ultrix Microvax II
+#O	National Oceanic & Atmospheric Administration
+#C	Vivian LeFebvre
+#E	wp42!root
+#T	+1 303 497 6755
+#P	325 Broadway, Boulder, CO  80303-3328
+#L	40 00 N / 105 16 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Wed Dec  6 14:21:15 EST 1989
+#U
+#
+wp42	uunet(DEMAND)
+
+
+#N	yonder
+#S	AT&T 3B1; UNIX Sys V, ver. 3.51m
+#O	The Redstone Corp.
+#C	Michael E. Haws
+#E	yonder!michael
+#T	+1 303 232 0628
+#P	875 Estes, Lakewood, Colo., 80215
+#L	39 46 5.2 N / 105 2 19 W
+#W	yonder!michael (Michael E. Haws); Mon Jul  1 08:54:00 MDT 1991
+#
+yonder	boulder(DAILY/5), zebra(DIRECT), csn(DAILY/5)
+
+
+#N	zbrka
+#F
+#O	Foleda Software
+#C	Dave Fox
+#E	zbrka!fox
+#T	+1 303 278 9859
+#P	2140 Braun Dr.,Golden,CO 80401,USA
+#L	39 45 05 N / 105 08 54 W
+#U	scicom
+#R
+#W	zbrka!fox (Dave Fox); Thu Jan  3 08:59:04 MST 1991
+#
+zbrka	scicom(DAILY/2), nyx(DAILY)
+
+
+
+
+
+
+#N	zebra
+#S	AT&T 3B1; UNIX Sys V, ver. 3.51m
+#O	very little
+#C	Vernon C. Hoxie
+#E	zebra!vern
+#T	+1 303 455 2670
+#P	3975 W. 29th Ave., Denver, Colo., 80212
+#L	39 46 5.2 N / 105 2 19 W
+#R	Unix-pc SIG local 
+#U	scicom
+#W	zebra!vern (Vernon C. Hoxie); Wed May 01 9:27:30 MDT 1991
+#
+zebra	scicom(DIRECT)
+
+# EOF for map file: u.usa.co.2
+SHAR_EOF
+:	End of shell archive
+exit 0
+

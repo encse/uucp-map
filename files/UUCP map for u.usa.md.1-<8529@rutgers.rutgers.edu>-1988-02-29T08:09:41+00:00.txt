@@ -1,0 +1,1134 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.md.1
+: This archive created: Mon Feb 29 03:09:24 1988
+echo shar: extracting u.usa.md.1
+cat << 'SHAR_EOF' > u.usa.md.1
+#	start of u.usa.md.1: Mon Feb 22 10:29:06 PST 1988
+#	maintained by horton@reed
+
+#N	alv
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	Center for Automation Research, Univ. of Maryland
+#C	Joseph Sanjour
+#E	cvl!postmaster
+#T	+1 301 454 4526
+#P	College Park, MD 20742
+#L	38 59 09 N / 76 56 34 W
+#R	alv.umd.edu on ARPA
+#U	cvl
+#W	cvl!sanjour (Joseph Sanjour); Thu Dec  3 17:10:13 EST 1987
+#
+alv	cvl(LOCAL)
+
+#N	aplcen
+#S	AT&T 3B20S; System V.2.1.1
+#O	Johns Hopkins University, APL Center
+#C	Lloyd W. Taylor
+#E	aplcen!uucp
+#T	+1 301 953 6175
+#P	Johns Hopkins Road, Laurel, MD 20707
+#L	38 58 30 N / 076 53 48 W
+#R	no uucp transfers from 4pm until 11pm on weeknights
+#U	aplvax cp1 jhunix osiris mimsy quequeg casemo
+#W	aplcen!lloyd (Lloyd W. Taylor); Mon Jan 18 22:19:41 EST 1988
+#
+aplcen	aplvax(DEDICATED+HIGH), cp1(DIRECT), jhunix(DEDICATED+HIGH),
+	osiris(DIRECT), mimsy(DIRECT), quequeg(DIRECT),
+	casemo(DIRECT), decuac(DIRECT)
+
+
+#N	aplvax
+#S	Vax 11/780; 4.3BSD
+#O	Johns Hopkins University, Applied Physics Laboratory
+#C	John C. Noble
+#E	aplvax!jcn
+#T	+1 301 953 6819
+#P	Johns Hopkins Road, Laurel, MD 20707
+#L	39 06 N / 76 51 W
+#R	
+#W	aplvax!jcn (John C. Noble); Mon Jan 19 13:56:33 EST 1987
+#U	aplcen
+#
+aplvax = "aplvax.arpa"
+aplvax aplcen(DEDICATED)
+#
+# the following site is called every hour
+aplcen aplvax(HOURLY)
+
+#N	art
+#S	IBM PC/AT; Xenix 3.0	
+#O	National Institutes of Health
+#C	David Lipman
+#E	art!lipman
+#T	+1 301 496 4325
+#P	Building 31, Room 4B-54, Bethesda, MD  20892
+#R
+#W	art!lipman (David Lipman); Mon Feb 22 10:18:34 PST 1988
+#
+
+#N	beardc
+#S	AT&T 3b2/310; System V Version 2.1
+#O	Bear Track Computer Company
+#C	Charles Jay Pilzer
+#E	beardc!usenet
+#T	+1 301 588 0326
+#P	8555 16th Street, Suite 106, Silver Spring, MD  20910
+#L	38 59 50 N / 77 02 00 W
+#U	hqda-ai beartrk
+#W	beartrk!clp (Charles L. Pilzer); Tue Feb 9 14:44:45 EST 1988
+#
+#	This machine is the mail and news hub for the Washington Area
+#	Unix Users Group (wauug)
+#
+beardc	beartrk(DIRECT), hqda-ai(DIRECT)
+
+
+#N	beartrk
+#S	IBM PC/RT model 25; AIX Version 2.1.2
+#O	Bear Track Computer Company
+#C	Charles L. Pilzer, Phyllis Sutton
+#E	beartrk!usenet
+#T	+1 301 588 0326
+#P	8555 16th Street, Suite 106, Silver Spring, MD  20910
+#L	38 59 50 N / 77 02 00 W
+#U	beardc casemo
+#W	beartrk!clp (Charles L. Pilzer); Tue Feb 9 14:42:45 EST 1988
+#
+beartrk	beardc(DIRECT), casemo(DIRECT), netsys(DIRECT)
+
+
+#N	brb
+#S	Microvax II - Ultrix 32
+#O	National Cancer Institute
+#C	Dr. Richard Simon
+#E	brb!root
+#T	+1 301 496 4836
+#P	7910 Woodmont Ave.; Landow Bldg. Rm. 4B-06; Bethesda, MD  20892
+#L
+#R
+#U
+#W	usenix!madeline (Madeleine McCall); Mon Feb  1 12:32:01 PST 1988
+#
+brb	uunet(DAILY)
+
+
+#N	brl-smoke
+#S	GOULD 90xx; UTX/32 1.2
+#O	U. S. Army Ballistic Research Lab
+#C	Louise Kokinakis, Karen Hresko
+#E	brl-smoke!lkoke, brl-smoke!eskimo, brl-smoke!uucpstats
+#T	+1 301 278 6884, +1 301 278 6808
+#P	ATTN: SLCBR-SE-P, Aberdeen Proving Ground, MD 21005-5066
+#L	39 28 45 N / 76 07 25 W
+#R
+#U
+#W	brl-smoke!lkoke (Louise Kokinakis); Mon Sep 22 15:33:07 EDT 1986
+#
+brl-smoke	decvax(DAILY/2), gould(DAILY), rna(DAILY)
+
+#N	c1east
+#S	Convex C-1, 4.2bsd UNIX
+#O	Convex Computer Corporation
+#C	Brian J. Christianson
+#E	c1east!postmaster
+#T	+1 301 345 2400
+#P	Suite 450, 7474 Greenway Center Drive, Greenbelt, MD 20770
+#L	38 59 32 N / 76 52 54 W
+#R
+#W	convex!bjchrist Fri Sep 25 15:09:11 EDT 1987
+#
+c1east	convex(DEMAND), pruxd(DAILY), nrao1(DAILY), ssi(DAILY), 
+	cham(DAILY), super(DAILY), ursa(DAILY), stdc01(DAILY),
+	bellcore(DAILY), ideas(DAILY), dynamo(DAILY),
+	harvard(DEMAND-1), ssic1b(DAILY), dartvax(DAILY)
+
+#N	cal-unix
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	ORI/Calculon Corporation
+#C
+#E	cal-unix!postmaster
+#T	+1 301 258 5300
+#P	2440 Research Blvd., Rockville, MD  20850
+#L	39 20 N / 77 20 W
+#U	men2a
+#W	cal-unix!root; Wed Dec 16 18:55:14 EST 1987
+#U	men2a
+#
+cal-unix	men1a(DIRECT), men2a(DIRECT)
+
+#N	casemo
+#S	Convergent Technologies Miniframe; Unix Sys V (CTIX)
+#O	Case Communications, Inc.
+#C	Bill Jensen
+#E	casemo!bill
+#T	+1 301 290 7553
+#P	7200 Riverwood Drive, Columbia, MD 21046
+#R	
+#W	casemo!bill (Bill Jensen); Fri Oct 10 10:17:58 EDT 1986
+#
+casemo	aplcen(DIRECT)
+
+#N	censun1
+#S	Sun3/160
+#O	Century Computing, Inc.
+#C	Gary C. Chatters
+#E	censun1!root
+#T	+1 301 953 3330
+#P	1100 West Street, Laurel, MD 20707
+#L	39 06  N / 76 51 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Mon,  4 Jan 19:24:44 EST 1988
+#U	uunet
+#
+censun1	uunet(DEMAND)
+
+
+#N	cent32
+#S	Zilog System 8000 model 32; ZEUS rel. 3.21
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Rhea Talley, Dennis Roth, Rikki Welsh
+#E	cent32!talley, macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+cent32	macom1(DEDICATED)
+
+
+#N	centa
+#S	AT&T 3B2 model 300; UNIX System V Release 2.0.4 3B2 Version 2  
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Dennis Roth, Rikki Welsh
+#E	macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+centa	macom1(DEDICATED)
+
+
+#N	cente
+#S	AT&T 3B2 model 300; UNIX System V Release 3.0
+#O	Sigma Data Services Corp., division of Centel Information Systems, Inc. 
+#C	John Dickson, Dennis Roth, Rikki Welsh
+#E	cente!john, macom1!jwd, macom1!usenet, macom1!roth
+#T	+1 301 231 0644
+#P	12730 Twinbrook Parkway, Rockville, MD 20852
+#L	39 03 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+cente	macom1(DEDICATED)
+
+
+#N	chemo
+#S	IBM PC/AT Microport Sys V
+#O	Chemical Research Associates
+#C	Brian McGinness
+#E	chemo!postmaster
+#T	+1 202 374 1649
+#P	4618 DeRussey Parkway, Chevy Chase MD. 20815
+#L	38 58 10 N / 77 06 20 W
+#R
+#U
+#W	chemo!postmaster (Brian McGinness); Tues Aug 18 08:00:00 EDT 1987
+#
+chemo	epiwrl(EVENING)
+
+
+#N	cme-durer
+#S	Sun 150U running Sun UNIX 3.4
+#O	National Bureau of Standards
+#C	Don Libes
+#E	cme-durer!libes
+#T	(301) 975-3535
+#P	Bldg 220, Rm A-127, Gaithersburg, MD  20899
+#L	39 08 03 N / 77 13 08 W
+#R	Also known as cme-durer.arpa
+#W	Don Libes - Fri Feb 12 12:53:20 EST 1988
+#
+# mail via arpanet.  (news via uucp.)
+cme-durer	uunet(DEDICATED)
+uunet		cme-durer(DEDICATED)
+
+
+#N	coldbeer
+#S	Cheap Asian AT clone; XENIX System V Release 2.2
+#O	Rotronics, Inc.
+#C	Dennis Roth
+#E	coldbeer!roth  macom1!roth
+#T	+1 301 984 0724
+#P	8817 Sterling Street, Ardmore Village, MD 20785
+#L	38 56 05 N / 76 51 17 W
+#R	
+#U      macom1
+#W	coldbeer!roth (Dennis Roth); Sat June 27 16:50 DST 1987
+#
+coldbeer	macom1(DAILY)
+
+
+#N	comsat
+#S	Tolerant Systems; TX UNIX (BSD 4.2)
+#O	Communication Satellite Corporation
+#C	Neil Hainer
+#E	comsat!neil
+#T	+1 301 428 4652
+#P	22250 Comsat Dr, Clarksburg, Md 20871
+#L	77 16 27 W / 39 12 55 N
+#R
+#U	rlgvax
+#W	rlgvax!dennis (Dennis Bednar); Sun Jan 11 15:00:55 EST 1987
+#
+comsat	rlgvax(DAILY)
+
+#N	cp1
+#S	DEC PDP 11/70; USG UNIX 5.2
+#O	Chesapeake & Potomac Tel. Companies, A Bell Atlantic Co.
+#C	Roderick W. Hart
+#E	cp1!hart
+#T	+1 301 236 1099
+#P	RM A300, 13100 Columbia Pike, Silver Spring, Md. 20904
+#L	39 18 N / 76 38 W
+#R	cp1 is actually located in Baltimore, Md. and administered remotely.
+#W	hart@cp1.bell-atl.com (rod hart); 14 Nov 87 12:28:00 EST
+#U	aplcen gamma mimsy cpesac sarin bpa mcs
+#
+cp1	mimsy(DIRECT), aplcen(DIRECT), gamma(DEMAND), cpesac(DEMAND), 
+	bpa(DEMAND), sarin(DIRECT), masc(DEMAND), neesac(EVENING),
+	bellcore(EVENING), d05rch(DEMAND), zeta(EVENING), epsilon(EVENING),
+ 	delta(EVENING), gandolf(DIRECT), cbosgd(EVENING)
+# temporarily commented out
+#cp1 MAC007(DEMAND)
+cp1	av3b2(DEMAND), wb6rqn(EVENING), princeton(EVENING), masc(DEMAND),
+	sabre(EVENING), nvuxe(EVENING), ba1(DEMAND), wa3mez(DIRECT), 
+	briar(DIRECT), ea033b(DEMAND), pkpwr(EVENING), mcs(DIRECT), 
+	pyuxv(EVENING), swen01(EVENING), hutspa(DIRECT), opera(DIRECT), 
+	cphv1(DIRECT), thumper(EVENING), gandolf(DIRECT), bltm4(DIRECT),
+	cpaos1(DEMAND), hutspa(DIRECT), rb442(DEMAND), rcmd4(DEMAND),
+ 	washdcmo(DEMAND)
+
+
+#N	cuceng
+#S	AT&T 3B2/400; UNIX System V Release 3.1
+#O	Columbia Union College
+#C	Leroy Cain
+#E	cucstud!lcain
+#T	+1 301 891 4172
+#P	7600 Flower Avenue, Takoma Park, MD  20912-7796
+#L	077 00 W / 38 59 12 N
+#R	Liberal arts college affiliate with the Seventh Day Adventist Church.
+#U	cucstud
+#W	cucstud!lcain (Leroy Cain); Wed Jan 20 02:14:38 EST 1988
+#
+cuceng cucstud(DEDICATED), cucsc1(DEDICATED), cucrch(DEDICATED)
+
+
+#N	cucrch
+#S	AT&T 3B2/400; UNIX System V Release 3.1
+#O	Columbia Union College
+#C	Leroy Cain
+#E	cucstud!lcain
+#T	+1 301 891 4172
+#P	7600 Flower Avenue, Takoma Park, MD  20912-7796
+#L	077 00 00 W / 38 59 12 N
+#R	Liberal arts college affiliate with the Seventh Day Adventist Church.
+#U	cucstud
+#W	cucstud!lcain (Leroy Cain); Wed Jan 20 02:14:38 EST 1988
+#
+cucrch cucstud(DEDICATED), cuceng(DEDICATED), cucsc1(DEDICATED)
+
+
+#N	cucsc1
+#S	AT&T 3B2/400; UNIX System V Release 3.1
+#O	Columbia Union College
+#C	Leroy Cain
+#E	cucstud!lcain
+#T	+1 301 891 4172
+#P	7600 Flower Avenue, Takoma Park, MD  20912-7796
+#L	077 00 00 W / 38 59 12 N
+#R	Liberal arts college affiliate with the Seventh Day Adventist Church.
+#U	cucstud 
+#W	cucstud!lcain (Leroy Cain); Wed Jan 20 02:14:38 EST 1988
+#
+cucsc1 cucstud(DEDICATED), cuceng(DEDICATED), cucrch(DEDICATED)
+
+
+#N	cucstud
+#S	AT&T 3B2/400; UNIX System V Release 3.1
+#O	Columbia Union College
+#C	Leroy Cain
+#E	cucstud!lcain
+#T	+1 301 891 4172
+#P	7600 Flower Avenue, Takoma Park, MD  20912-7796
+#L	077 00 00 W / 38 59 12 N
+#R	Liberal arts college affiliated with the Seventh Day Adventist Church.
+#R	This machine gateways all news and mail for sites:
+#R	cucsc1 cuceng cucrch cucking cuctch oclr1 oclr2 oclr3 oclr4 oclr5
+#R	oclr6 oclr7 oclr8
+#U	netsys c3engr
+#W	cucstud!lcain (Leroy Cain); Wed Jan 20 02:14:38 EST 1988
+#
+cucstud	 netsys(DIRECT),c3engr(DAILY)
+#	Mail only
+cucstud eawa2(DIRECT),
+	cucsc1(DEDICATED), cuceng(DEDICATED), cucrch(DEDICATED),
+	cucking(DEDICATED), cuctch(DEDICATED),
+	oclr1(DEDICATED), oclr2(DEDICATED), oclr3(DEDICATED), oclr4(DEDICATED),
+	oclr5(DEDICATED), oclr6(DEDICATED), oclr7(DEDICATED), oclr8(DEDICATED)
+
+
+#N	cvl
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	Center for Automation Research, Univ. of Maryland
+#C	Joseph Sanjour
+#E	cvl!postmaster
+#T	+1 301 454 4526
+#P	College Park, MD 20742
+#L	38 59 09 N / 76 56 34 W
+#R	cvl.umd.edu on ARPA
+#U	alv dbl dblvax decuac dolqci elsie rlgvax mimsy umabco umd5 vsedev
+#W	cvl!sanjour (Joseph Sanjour); Thu Dec  3 17:10:13 EST 1987
+#
+cvl	alv(LOCAL), dbl(DIRECT), dblvax(DIRECT), decuac(DIRECT),
+	dolqci(DIRECT), elsie(DIRECT), mimsy(LOCAL), rlgvax(DIRECT),
+	umabco(DAILY), umd5(DIRECT), vsedev(DIRECT)
+
+
+#N	dtix
+#S	DEC VAX 11/750; Ultrix-32 V2.0 
+#O	David Taylor Research Center, U. S. Navy
+#C	Roger L. Yearick, Code 1893.3
+#E	dtix!postmaster
+#T	+1 202 227 1428
+#P	Bethesda MD   20084-5000
+#L	38 58 22 N / 77 11 20 W
+#R	Development / support machine for DT & NEMS Unix systems
+#W	hadron!jsdy (Joseph S. D. Yao); Thu Jan 28 12:25:22 EST 1988
+#U	
+#
+#	$Header: dtix.map,v 1.1 88/01/28 13:09:42 jsdy Exp $
+#	This is the UUCP connection for a local set of machines, mostly
+#	networked together, including various VAXen, Plexi, Towers,
+#	Apollos, and PC's.  Machines dtix, dtrc, nems, and dtvms are
+#	also on the DDN.  (Dtvms is our only VMS VAX.)  The current
+#	domain is .ARPA; we should eventually become [].DT.MIL.
+#
+#	local calls
+dtix	decuac(DIRECT), hadron(DIRECT), kcwc(DEAD), imsvax(WEEKLY+HIGH)
+
+#N	elsie
+#S	VAX 11/750; MORE/bsd 4.3
+#O	National Institutes of Health
+#C	Arthur David Olson
+#E	elsie!ado
+#T	+1 301 496 5688
+#P	Building 37, Room 3B03, Bethesda, MD  20892
+#L	39 00 N / 77 05 W
+#W	elsie!ado (Arthur David Olson); Sat Jan 16 12:46:34 EST 1988
+#U	cvl imsvax nih-csl ncifcrf
+#
+elsie	ncisam(DIRECT), nih-csl(DIRECT), art(DIRECT), ncifcrf(DIRECT),
+	cvl(DIRECT), mimsy(DIRECT), nlm-vax(DIRECT), lsr-vax(DIRECT), 
+	vax2(DIRECT)
+
+
+#N	eneevax
+#S	DEC Vax-11/785; 4.3BSD
+#O	Elec. Eng. Dept., U of Maryland, College Park
+#C	Randall Winchester, Chris Torek
+#E	eneevax!rsw, mimsy!chris
+#T	+1 301 454 6849, +1 301 454 6291
+#P	Elec. Eng. Dept., U of Maryland, College Park, MD 20742
+#L	38 59 09 N / 76 56 34 W
+#R
+#W	eneevax!hsu (Dave Hsu); Wed, 2 Dec 87 14:41:15 EST
+#U	mimsy
+#
+eneevax = "eneevax.umd.edu"
+#
+eneevax	mimsy(LOCAL), imsvax(POLLED), agent99(EVENING)
+
+
+#N	gouldsd
+#S	Gouldsd PowerNode 9080; UTX/32 Rel 2.0u03 (4.2 BSD + SMI stuff)
+#O	Gould Electronics, Inc., FSD/SDO
+#C	Reid D. Bingham
+#E	rbingham@gouldsd.uucp
+#T	+1 301 499 2460
+#P	801 Brightseat Road, Landover, MD 20785
+#L	38 50 N / 76 45 W
+#R
+#U	sundc decuac gould
+#W	gouldsd!rbingham (Reid D. Bingham); Sun Jan 17 15:35:55 PST 1988
+#
+gouldsd	decuac(DIRECT), sundc(DIRECT), gould(DIRECT)
+
+
+#N	gronk
+#S	Heurikon HK68; Unisoft Uniplus 5.0
+#O	NASA STDN Telemetry Software (BFEC/DXG/SSS)
+#C	John A. Limpert
+#E	gronk!postmaster
+#T	+1 301 286 6403
+#P	Code 530.2, Building 25, GSFC, Greenbelt, MD 20771
+#L	38 59 56 N / 76 50 32 W
+#R	smail 2.5, B news 2.11
+#U	n3dmc
+#W	n3dmc!johnl (John A. Limpert); Fri Feb  5 00:37:04 EST 1988
+#
+gronk	n3dmc(POLLED)
+
+
+#N	gsfc
+#S	Tektronix 8560 (LSI-11/23); TNIX 2.0
+#O	NASA STDN Telemetry Software (BFEC/DXG/SSS)
+#C	John A. Limpert
+#E	gronk!postmaster
+#T	+1 301 286 6403
+#P	Code 530.2, Building 25, GSFC, Greenbelt, MD 20771
+#L	38 59 56 N / 76 50 32 W
+#R	
+#U
+#W	n3dmc!johnl (John A. Limpert); Fri Feb  5 00:37:04 EST 1988
+#
+gsfc	n3dmc(POLLED)
+
+
+#N	gymble
+#S	Pyramid 90x, OSx 2.5
+#O	Univ. of Maryland, Computer Science Dept., Laboratory for Parallel Processing
+#C	Fred Blonder, Chris Torek, Steve Miller, Pete Cottrell
+#E	mimsy!usenet
+#T	+1 301 454 7690
+#P	College Park, MD 20742
+#L	38 59 09 N / 76 65 34 W
+#R	
+#W	Steve Miller <seismo!mimsy!steve>; Tue Jan 13 22:14:41 EST 1987
+#U	mimsy lll-crg super
+#
+gymble = "gymble.umd.edu"
+#
+## Gymble runs TCP/UUCP but has no autodialers, so must be polled
+## by sites which are not connected to the Internet.
+gymble	harvard(DEMAND), lll-crg(DEMAND), super(DIRECT), m00se(DAILY*2)
+
+
+#N	hutspa
+#S	Vax 11/750; DEC Ultrix-32 1.1
+#O	Center for Astrophysical Sciences, Johns Hopkins University
+#C	Clive K. Thomas
+#E	hutspa!postmaster
+#T	+1 301 338 8594
+#P	Rowland Hall, Charles & 34th Streets, Baltimore MD 21030
+#L	39 18 N / 76 38 W
+#R	
+#W	hutspa!ckt (clive thomas); Thu Nov 21 10:00:00 EST 1985
+#U	cp1
+#
+#hutspa	cp1(POLLED), tegse(DEMAND), jhunix(HOURLY*3), noao(WEEKLY)
+
+#N	imspw6
+#S	CCI Power6/32
+#O	Integrated Microcomputer Systems, Inc.
+#C	Yung-Chou Hsu
+#E	imspw6!hsu
+#T	+1 301 948 4790
+#P	2 Research Place; Rockville, MD  20850
+#L	39 06 28 N / 77 11 00 W
+#R
+#U
+#W	usenix!madeline (Madeleine McCall); Tue Jan 12 15:50:40 EST 1988
+#
+imspw6	uunet(DEMAND)
+
+
+#N	imsvax
+#S	Vax 11/750; 4.3BSD UNIX
+#O	Integrated Microcomputer Systems, Inc.
+#C	Hsien-Hua Lee
+#E	imsvax!hhlee
+#T	+1 301 948 4790
+#P	2 Research Place, Rockville, MD 20850
+#L	39 06 28 N / 77 11 00 W
+#R	
+#W	imsvax!hhlee (Hsien-Hua Lee); Wen, 21 Oct 87 16:21:13 EDT
+#U	elsie
+#
+#imsvax	elsie(DIRECT), eneevax(DIRECT)
+
+
+#N	jhu
+#S	AT&T 3B2/310; UNIX SVR2.0.4
+#O	Johns Hopkins University, Homewood Computing Facilities
+#C	Michael J. Mallette
+#E	jhunix!postmaster
+#T	+1 301 338 8096
+#P	Room 38 Garland Hall, 34th & Charles St., Baltimore, Md. 21218
+#L	39 18 N / 76 38 W
+#U
+#W	jhunix!mjm (Michael J. Mallette); Mon Nov 24 15:38:17 EST 1986
+#
+#	jhu will eventually be the uucp gateway for the local area network
+#
+jhu	osiris(DIRECT+HIGH), mimsy(DIRECT)
+#
+#	Sites we poll even though there is no mail for them
+#
+osiris	jhu(HOURLY/4)
+mimsy	jhu(HOURLY)
+
+#N	jhunix
+#S	AT&T 3B20S; UNIX SVR2
+#O	Johns Hopkins University, Homewood Computing Facilities
+#C	Michael J. Mallette
+#E	jhunix!postmaster
+#T	+1 301 338 8096
+#P	Room 38 Garland Hall, 34th & Charles St., Baltimore, Md. 21218
+#L	39 18 N / 76 38 W
+#U	green mmlai
+#W	jhunix!mjm (Michael J. Mallette); Mon Nov 24 15:40:24 EST 1986
+#
+#	We let jhu handle the dialouts.
+#
+jhunix	jhu(DEDICATED+HIGH)
+#
+#	Sites we poll even though there is no mail for them
+jhu	jhunix(HOURLY/4)
+
+#N	macom1
+#S	AT&T 3B5; UNIX System V Release 2.0 3B5 Version 2  
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Rikki Welsh, Dennis Roth, John Mullens
+#E	macom1!usenet, macom1!roth, macom1!michael
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	We used to be M/A-COM Information Systems, Inc.
+#U      accva1 apsrrd coldbeer decuac grebyn netsys
+#W	macom1!roth (Dennis Roth); Sept 23rd 1987
+#
+macom1	accva1(DIRECT), apsrrd(EVENING), centa(DEDICATED), cente(DEDICATED), 
+	cent32(DEDICATED), coldbeer(EVENING), decuac(DIRECT), grebyn(DIRECT), 
+	netsys(DIRECT), macomb(DEDICATED), macomc(DIRECT), macomh(DEAD), 
+	misi130(DEDICATED), paisano(DIRECT),
+
+
+#N	macomb
+#S	AT&T 3B2 model 300; UNIX System V Release 2.0.4 3B2 Version 2  
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Bob Smart, Dennis Roth, Rikki Welsh
+#E	macomb!bob, macom1!bob, macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+macomb	macom1(DEDICATED)
+
+
+#N	macomc
+#S	AT&T 3B2 model 300; UNIX System V Release 2.0.4 3B2 Version 2  
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Dennis Roth, Rikki Welsh
+#E	macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+macomc	macom1(DEAD)
+
+
+#N	macomh
+#S	AT&T 3B2 model 300; UNIX System V Release 2.0.4 3B2 Version 2  
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Dennis Henderson, Dennis Roth, Rikki Welsh
+#E	macomh!dennis, macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+macomh	macom1(DEDICATED)
+
+
+#N	mcs
+#S	Convergent Technologies Miniframe Plus; CTIX 3.2
+#O	MicroCALL Services
+#C	Tim Pugh
+#E	mcs!usenet
+#T	+1 301 776 5253
+#P	8713 Briarcroft Lane, Laurel, MD 20707
+#L	39 05 N / 076 50 W
+#R
+#U	cp1
+#W	mcs!tim (Tim Pugh); Mon Oct 13 17:27:21 EDT 1986
+#
+mcs	cp1(DAILY)
+
+#N	milo
+#S	DEC Vax 11/780; 4.2BSD
+#O	Johns Hopkins University, Applied Physics Laboratory
+#C	Steve Kahn
+#E	aplvax!steve
+#T	(301) 953-6812
+#P	Johns Hopkins Road, Laurel, MD 20707
+#L	39 06 N / 76 51 W
+#R	
+#U	aplvax
+#W	milo!steve (Steven Kahn); Tue, 19 Nov 85 15:41:32 EST
+#
+#milo	aplvax(LOCAL)
+
+#N	mimsy
+#S	DEC Vax-11/785; 4.3BSD
+#O	Computer Science Dept., University of Maryland, College Park
+#C	Fred Blonder, Chris Torek, Steve Miller, Pete Cottrell
+#E	mimsy!usenet
+#T	+1 301 454 7690, +1 301 454 6291
+#P	C.S. Dept., University of Maryland, College Park, MD 20742
+#L	38 59 09 N / 76 56 34 W
+#R
+#W	Steve Miller 8/27/87
+#U	aplcen cvl eneevax gymble jhunix nbs-amrf prometheus umd5
+#U	obbjob svss
+#
+mimsy = "mimsy.umd.edu"
+mimsy = umcp-cs
+mimsy	ames(DAILY), aplcen(DIRECT), arinc(DAILY),
+	blenny(DEDICATED), cp1(WEEKLY), cvl(LOCAL), discs(WEEKLY),
+	elsie(DAILY), eneevax(LOCAL),
+	hqda-ai(EVENING), jhu(DAILY), jhunix(DAILY), mbph(WEEKLY),
+	nbs-amrf(DAILY), nrl-aic(WEEKLY), nrl-css(DAILY), oddjob(DAILY),
+	presto(WEEKLY), prometheus(DIRECT), rayssd(EVENING),
+	rlgvax(DIRECT+LOW), rutgers(DEDICATED), uunet(DEDICATED)
+
+
+#N	misi130
+#S	Zilog model 130; UNIX System V Release 2
+#O	Centel Information Systems, Inc. (Rockville Office)
+#C	Rhea Talley, Dennis Roth, Rikki Welsh
+#E	misi130!talley, macom1!usenet, macom1!roth
+#T	+1 301 984 3636
+#P	5515 Security Lane, Suite 1100, Rockville, MD 20852
+#L	39 02 00 N / 77 07 00 W
+#R	
+#U      
+#W	macom1!roth (Dennis Roth); July 7th 1987
+#
+misi130	macom1(DEDICATED)
+
+
+#N	mmlai
+#S	DEC MicroVAX, ULTRIX 2.0
+#O	Martin Marietta Labs
+#C	John R. Thorp
+#E	mmlai!thorp
+#T	+1 301 247 0700 x271
+#P	1450 S. Rolling Rd. Balto., MD 21227
+#L	39 14 05 N / 076 42 52 W
+#R	mail server for labs network.	
+#U	uunet jhunix super
+#W	mmlai!thorp (John R. Thorp); Wed Jan 13 04:32:14 EDT 1988
+#
+mmlai	uunet(HOURLY), jhunix(HOURLY), super(HOURLY)
+
+
+#N	n3dmc
+#S	ITS 286/AT; Microport System V/AT 2.3
+#O
+#C	John A. Limpert
+#E	n3dmc!postmaster
+#T	+1 301 593 2119, +1 301 286 6403
+#P	11215 Oakleaf Drive #804, Silver Spring, MD 20901
+#L	39 02 23 N / 76 59 41 W
+#R	Telebit Trailblazer, smail 2.5, B news 2.11
+#U	gronk wb3ffv wb6rqn
+#W	n3dmc!johnl (John A. Limpert); Fri Feb  5 00:37:04 EST 1988
+#	Interested in getting/providing mail/news feeds.
+n3dmc	wb6rqn(DIRECT+FAST), gronk(DIRECT), gsfc(DIRECT), chuck(DIRECT),
+		wb3ffv(EVENING+FAST)
+
+
+#N	nbs-amrf
+#S	DEC VAX-11/785; VMS 4.4 & Eunice 4.2
+#O	National Bureau of Standards, Automated Manufacturing Research Facility
+#C	Don Libes
+#E	nbs-amrf!libes
+#T	+1 301 975 3535
+#P	Bldg 220, Rm A-127, Gaithersburg, MD 20899
+#L	39 08 03 N / 77 13 08 W
+#R	
+#U	mimsy 
+#W	libes!nbs-amrf (Don Libes); Tue Mar 3 13:01:00 EST 1987
+#
+# local calls
+nbs-amrf	mimsy(DAILY), wb6rqn(DAILY)
+
+#N	ncifcrf
+#S	SUN 3/280; 4.2 BSD UNIX
+#O	National Cancer Institute Supercomputer Center
+#C	Randy Smith
+#E	ncifcrf!postmaster
+#T	+1 301 698 5660
+#P	PO Box B, Building 430, Frederick, MD 21701
+#L	39 25 97 N / 077 25 55 W
+#R	
+#U	nih-csl
+#W	ncifcrf!randy (Randy Smith); Tue Mar  3 16:14:52 AST 1987
+#
+ncifcrf	elsie(HOURLY+LOW), nih-csl(EVENING)
+
+#N	netsys
+#S	AT&T 3B2/310; UNIX System V Release 3.1
+#O	NetSys Public Access Network
+#C	Len Rose
+#E	len@netsys.UUCP
+#T	+1 301 992 3435
+#P	NetSys, PO Box 1052, Germantown, MD 20874
+#L	39 40 N / 77 17 W
+#R	netsys is willing to accept a limited number of new UUCP feeds.
+#U	ames cucstud decuac fmsrl7 icus killer lll-winken macom1 macomc
+#U	nucleus obpa1 ocsmd rriwro
+#W	netsys!len Tue Feb 16 1988
+#
+netsys	ames(HOURLY), bearoff(DAILY/4), beartrk(HOURLY), cucstud(DIRECT),
+	decuac(DIRECT), devon(EVENING+LOW), esi(DEAD), fmsrl7(EVENING+LOW),
+	grebyn(DIRECT), icus(EVENING+LOW), ihnp4(EVENING+LOW), killer(HOURLY),
+	hawkeye(DIRECT), lll-winken(HOURLY), macom1(DIRECT), macomc(DIRECT),
+	ncoast(DAILY/4), necntc(DAILY/4), nucleus(DAILY/4), obpa1(DAILY/4),
+	ocsmd(DIRECT), rriwro(DIRECT)
+
+
+#N	neurad
+#S	Callan Unistar 300, Unix System V
+#O	Neuro-Imaging Section, National Institutes of Health
+#C	
+#E	neurad!root
+#	(301) 496-6801
+#P	Bldg. 10, Rm. 1C451, Bethesda, MD  20205
+#L	39 05 00 N / 77 06 00 W
+#R	
+#W	
+#U	gymble, nbs-amrf
+#
+#	Unreliable since neurad!donn left.
+#	---rick 8/1/86
+# local calls
+neurad	gymble(DEAD), nbs-amrf(DEAD)
+
+#long-distance
+neurad  colgate(DEAD)
+
+#N	nih-csl
+#S	Sun-3; Sun UNIX 3.4
+#O	National Institutes of Health, Computer Systems Laboratory
+#C	Keith E. Gorlen
+#E	nih-csl!keith
+#T	+1 301 496 5363
+#P	Bg. 12A, Rm. 2017, Bethesda, MD 20892
+#L	39 00 20 N / 77 06 30 W
+#W	nih-csl!keith (Keith E. Gorlen); Tue Jan 12 10:19:53 EST 1988
+#
+nih-csl	elsie(DIRECT), lsr-vax(DIRECT),	ncifcrf(DEMAND), nlm-vax(DIRECT)
+
+
+#N	osd9080
+#S	Gould Powernode 9080; UTX 1.2uo2
+#O	Gould Inc. Ocean Systems Division
+#C	Jim Thompson
+#E	osd9080!jlt
+#T	+1 301 787 2687
+#P	6730 Baymeadow Drive,Glen Burnie, MD 21061
+#L	39 12 N / 76 36 W
+#R
+#U	gouldsd
+#W	gouldsd!jlt; Mon Mar  9 16:35:14 EST 1987
+#
+osd9080	gouldsd(EVENING)
+
+#N	osiris
+#S
+#O	The Johns Hopkins Hospital
+#C	Jody Patilla
+#E	osiris!postmaster, osiris!jcp
+#T	+1 301 955 6613
+#P	Halsted 124, 600 N. Wolfe St., Baltimore, MD 21205
+#L	39 17 53 N / 76 35 39 W
+#R
+#W	osiris!jcp (Jody Patilla); Mon 27 Jul 10:43:04 EDT 1987
+#U	aplvax, stsci
+#
+osiris	aplcen(HOURLY), jhunix(HOURLY), hopkins(HOURLY), stsci(POLLED)
+
+
+#N	plxdc
+#S	Plexus P/60; Plexus UNIX Sys5r2
+#O	PLEXUS Computers, Inc.
+#C	Robert Ford
+#E	plxdc!madmin
+#T	+1 301 731 4150
+#P	8300 Professional Place; ste 119; Landover, MD 20785
+#L	38 50 N / 76 45 W
+#R	
+#U
+#W	decuac!avolio (Fred Avolio); Sat Jan 10 06:54:16 EST 1987
+#
+plxdc	plx(DEMAND), decuac(DEMAND)
+
+#N	presto
+#S	IBM PC, PC/IX
+#O	University of Maryland
+#C	Glenn Ricart
+#E	presto!glenn
+#T	+1 301 454 8800
+#P	5010 Stewart Court, College Park, MD  20740
+#L	38 59 N / 76 56 W
+#R
+#W	presto!glenn (Glenn Ricart); Tue Jan  5 14:58:00 PST 1988
+#U
+#
+#local telephone calls--systems which presto calls
+presto	mimsy(DAILY), cecil(DAILY)
+#local telephone calls--systems which call presto
+presto	umd5(HOURLY), mimsy(DAILY), cecil(DAILY)
+
+#N	prometheus
+#S	Tandy-6000, Xenix-3.2
+#O	Prometheus II, Ltd.
+#C	Paul M. Koloc
+#E	prometheus!pmk
+#T	+1 301 445 1075
+#P	Box 222, College Park, MD 20740-0222
+#L	39 01 04 N / 76 58 56 W
+#R	Advanced Controlled Thermonuclear Concepts R&D
+#W	prometheus!pmk (Paul M. Koloc);  Sat Feb 13 01:26:55 EST 1988
+#U	mimsy
+#
+prometheus	arc6000(DIRECT), dsi1(DEAD), smalldc(DIRECT), fsa84(DEAD),
+		mimsy(DIRECT), nexus(DAILY), softdev(WEEKLY), stuart(DIRECT), 
+		tarkus1(DAILY), vsedev(DIRECT), yendor(DIRECT)
+
+
+#N	psc
+#S	Parallel XR300; 4.2 BSD UNIX
+#O	Potomac Scheduling Company
+#C	John S. Labovitz
+#E	psc!jsl
+#T	+1 301 229 8880
+#P	6400 Goldsboro Road, Bethesda, MD 20817
+#L
+#R
+#U	bdmrrr
+#W	psc!jsl (John S. Labovitz); Tue Aug 25 17:06:09 EDT 1987
+#
+psc	bdmrrr(EVENING), potomac(HOURLY*4)
+
+
+#N	quequeg
+#S	Masscomp MC535; System V RTU 3.1A
+#O	Johns Hopkins Univ., Chesapeake Bay Institute
+#C	Bob Amen
+#E	quequeg!usenet
+#T	+1 301 867 7550, +1 301 269 5373
+#P	Suite 315, The Rotunda, 711 W 40th, Baltimore, MD 21211
+#L	39 37 N / 076 38 W
+#W	quequeg!amen (Bob Amen); Wed Mar 11 17:43:11 EST 1987
+#U	aplcen
+#
+quequeg	aplcen(DIRECT), otl(LOCAL), jhunix(DIRECT), jhu(DIRECT)
+#
+#	Systems we poll even if there is no work for them
+#
+aplcen	quequeg(DAILY/5)
+jhunix	quequeg(HOURLY*2)
+
+#N	sarin
+#S	IBM AT - System V/AT	
+#O	Sarin Inc.
+#C	Eric Beser	
+#E	sarin!eric
+#T	+1 301 356 4037 
+#P	12344 Greenspring Ave, Owings Mills, MD 21117	
+#L	39 41 74 N / 76 77 84 W 
+#R	Sarin Inc. manufactures signal processing products
+#U	cp1 
+#W	cp1!sarin!eric (Eric L. Beser); 16-Mar-87 15:49:42
+#
+sarin	cp1(LOCAL), wa3mez(POLLED)
+
+#N	scivax
+#S	VAX 8800; VMS
+#O	Space Telescope Science Institute
+#C	Lee Butler, Peter Shames
+#E	stsci!postmaster, stsci!butler, stsci!pmbs
+#T	+1 301 338 4531, +1 301 338 4748
+#P	3700 San Martin Drive, Homewood Campus, Baltimore, Maryland 21218
+#L	76 37 30 W / 39 30 00 N
+#R	
+#U	
+#W	stsci!butler (Lee Butler); 1/14/88
+#
+#scivax	.stsci.edu
+#
+STSCI-ETHER = {scivax, stsci}(LOCAL)
+
+
+#N	stsci
+#S	Sun 3/280; 4.2 BSD 
+#O	Space Telescope Science Institute
+#C	Lee Butler, Peter Shames
+#E	stsci!postmaster, stsci!butler, stsci!pmbs
+#T	+1 301 338 4531, +1 301 338 4748
+#P	3700 San Martin Drive, Homewood Campus, Baltimore, Maryland 21218
+#L	76 37 30 W / 39 30 00 N
+#R
+#U	noao
+#W	Lee Butler; 1/14/88
+#
+stsci = stsci.edu
+
+
+#N	theceg
+#S	IBM PC/AT Clone; AT&T UNIX System V.2 (Microport)
+#O	The Computer Engineering Group, Inc.
+#C	Lawrence Keith Blische
+#E	theceg!lkb
+#T	+1 301 282 5876,+1 301 828 5018
+#P	7306 Manchester Road, Dundalk, MD 21222-1321
+#L	39 17 05 N / 76 31 04 W
+#R
+#W	theceg!lkb (Larry K. Blische); Tue Feb 09 13:05:52 EST 1988
+#U	wb3ffv
+#
+theceg	wb3ffv(POLLED), uunet(DEAD)
+
+
+#N	umbc3
+#O	University of Maryland Baltimore County
+#S	DEC VAX-11/785; Ultrix 2.0 
+#C	Jeffrey Burgan
+#E	umbc3!jeff
+#T	+1 301 455 3631
+#P	5401 Wilkens Ave., Baltimore, MD 21228
+#L	39 15 21 N / 76 42 39 W
+#R
+#U	umd5 cbw1 mccvax woodb
+#W	umbc3!jeff (Jeffrey Burgan); Tue Nov  3 21:01:46 EST 1987
+#
+umbc3 = umbc3.umd.edu
+#
+umbc3	uunet(DEMAND), cbw1(POLLED), mccvax(POLLED), woodb(POLLED)
+
+
+#N	umd5
+#O	University of Maryland
+#S	DEC Microvax II, Ultrix 2.0
+#C	Greg Hollingsworth
+#E	umd5!gregh
+#T	+1 301 454 2946
+#P	Computer Science Center, U. of Md., College Park, Md. 20742
+#L	38 59 27 N / 76 56 34 W
+#R
+#W	Greg Hollingsworth; Tue Oct 20 11:29:47 EDT 1987
+#U	cvl.umd.edu presto umbc3.umd.edu brl-adm.arpa irs1 virginia verdxhq
+#U	mimsy.umd.edu snoopy.umd.edu linus.umd.edu eneevax.umd.edu grebyn
+#U	decuac.dec.com uunet
+#W	umd5!gregh (Greg Hollingsworth); Wed Sep 30 14:06:10 EDT 1987
+#
+umd5    .umd5.umd.edu
+#
+umd5	cvl(DIRECT), presto(HOURLY), decuac(POLLED), dblvax(HOURLY),
+	biochem(DAILY), sfsvvse(POLLED), sfsno(POLLED), obpa1(POLLED),
+	cbw1(POLLED), cbw2(POLLED), isavax(HOURLY), grebyn(POLLED),
+	irs1(POLLED), virginia(POLLED), vrdxhq(POLLED), astgb1(POLLED),
+	uunet(DAILY)
+ 
+
+#N	usna
+#S	Vax 11/780; 4.3BSD BRL Vax Unix
+#O	U.S. Naval Academy
+#C	Terry Slattery, Steve Satterfield
+#E	usna!postmaster
+#T	+1 301 267 4413
+#P	M/S 11G, U.S. Naval Academy, Annapolis, Md.  21402
+#L	38 59 N / 76 29 W
+#R	This is also usna.mil [26.7.0.102] on the internet
+#W	Terry Slattery <tcs@USNA.MIL>; Wed Feb 17 15:31:17 EST 1988
+#
+usna	= "usna.mil"
+#
+# Long distance 
+usna	ucsfcgl(DEMAND), excelan(DEMAND), esunix(DEMAND),
+	longs(DEMAND), mc70(DEMAND)
+
+
+#N	wb3ffv
+#S	WYSE-3216 (16mhz 80386) - Microport V/386 (Sys V Rel 3)
+#O	Fast Computer Service, Inc.
+#C	Howard Leadmon
+#E	wb3ffv!howardl
+#T	(301)-335-2206
+#P	Box 171, Chase, MD 21027-0171
+#L	39 14 N / 76 23 W
+#R	Would be willing to feed one or two additional sites
+#U	sarin idsssd fallst theceg wa3wbu n3dmc
+#W	wb3ffv!howardl  (Howard Leadmon); Tue Feb 09 16:29:48 EST 1988
+#
+#	POLLED - Means they poll us! 
+#	HIGH   - Indicates a 9600 baud or greater link ! (Trailblazer Plus)
+#
+wb3ffv	sarin(DIRECT), idsssd(DIRECT), wb3anq(DIRECT), wb6rqn(DAILY+HIGH),
+	wa3mez(POLLED),	briar(POLLED), n3dmc(POLLED+HIGH), fallst(POLLED),
+	theceg(POLLED+HIGH), wa3wbu(POLLED+HIGH), thumper(DAILY) 
+
+
+#N	wb6rqn
+#S	PC/AT;Microport System V/AT (AT&T System V rel 2, 80286)
+#O	Sirius Systems, Inc.
+#C	Brian Lloyd
+#E	wb6rqn!brian
+#T	+1 301 540 2066
+#P	Sirius Systems, Inc., 19200 Tilford Way, Germantown, MD 20874
+#L	39 10 N / 077 17 W
+#R
+#W	brian@wb6rqn (Brian Lloyd); Mon Jan 18 05:11:00 GMT 1988
+#
+wb6rqn	bellcore(EVENING), n3dmc(DIRECT), syscad(POLLED), irs3(DIRECT), 
+	cp1(DIRECT), thumper(EVENING), apogee(DIRECT), wa3wbu(EVENING), 
+	wb3ffv(EVENING), winfree(EVENING)
+
+
+#N	wuhep
+#S	Ridge 32, Unix
+#O	Washington Univ, High Energy Physics
+#C	Jeffrey E. Mandula
+#E	wuhep!mandula
+#T	+1 301 353 4829
+#P	Dept of Energy, Div. of High Energy Physics, ER-221,GTN, Wash., DC 20545
+#L	39 20 N / 77 20 W
+#R	Physically in Germantown, MD
+#W	Jeffrey E. Mandula Tue Jan  5 15:24:11 PST 1988
+#U
+#
+
+#	end of u.usa.md.1: Mon Feb 22 10:29:41 PST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

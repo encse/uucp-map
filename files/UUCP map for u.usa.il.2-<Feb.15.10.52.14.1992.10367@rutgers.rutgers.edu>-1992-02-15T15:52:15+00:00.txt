@@ -1,0 +1,1958 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.il.2
+: This archive created: Sat Feb 15 10:52:13 1992
+echo shar: extracting u.usa.il.2
+cat << 'SHAR_EOF' > u.usa.il.2
+# u.usa.il.2 created by uucpmap@trauma.rn.com on Sat Feb 15 08:38:31 EST 1992
+
+#N	homebru
+#S	Intel 386/20; ISC 3.2.2
+#O	Private node
+#C	Dave Ihnat
+#E	homebru!ignatz
+#T	+1 312 784 4544
+#P	4414 N. Malden Avenue, Chicago, Illinois, 60640
+#L	41 57 40 N / 87 40 00 W
+#R	Used for consulting software development and PD source archives
+#U
+#W	homebru!ignatz (Dave Ihnat); Wed Feb 12 07:42:29 CST 1992
+#
+homebru= homebru.chi.il.us
+homebru att(DEMAND), aicchi(HOURLY), chinet(DEMAND),
+	clout(DIRECT), nclout(DIRECT),jhereg(WEEKLY), mcdchg(HOURLY),
+	hoptoad(WEEKLY), ddsw1(WEEKLY), vpnet(DAILY), ronsat(DAILY),
+	laidbak(DAILY), vfrot(HOURLY), jpusa1(DEMAND),
+	limerick(DAILY), igloo(DAILY), tellab5(DAILY),
+	simon(DAILY), liltyke(DAILY), amdahl(DAILY),
+	oddjob(WEEKLY),gargoyle(DEMAND),obdient(DAILY),
+	odgate(DEMAND),smith(DEMAND),emocomp(DEMAND),hcfeams(DEMAND)
+
+#N	homer
+#S	80386-40, 676 MB ESDI, SCO Xenix 2.3.3, VP/ix
+#O	Tailored Software, Inc.
+#C	Marc Brumlik
+#E	homer!marc
+#T	+1 708 668 9947
+#P	1466 Coloma Place, Wheaton, IL  60187-7714
+#L	42 46 N / 88 19 W
+#R	consulting, programming, office integration, hardware
+#R	repairs, whatever comes my way.  *NIX, MS-DOS, TRSDOS.
+#W	homer!marc (Marc Brumlik) Sat Nov 23 11:12:24 CST 1991
+#U	bfm syzzle wrldgate
+#
+homer	bfm(DAILY/4),
+	illusion(DIRECT),
+	obdient(DIRECT+FAST),
+	syzzle(POLLED),
+	util20(POLLED+FAST),
+	wrldgate(POLLED)
+
+#N	hp1
+#S	HP 730; HP-UX 8.05
+#O	Hollister Incorporated
+#C	David Vrona
+#E	hp1!postmaster
+#T	+1 708 680 2829
+#P	2000 Hollister Drive  Libertyville, IL  60048-3781
+#L	87 57 W / 42 17 N city
+#R	gateway machine to Hollister Incorporated LAN
+#U	
+#W	hp1!dave (David Vrona); Tue Dec 10 12:16:23 CST 1991
+#
+hp1 ddsw1(DAILY/3), hp2(LOCAL), sashimi(EVENING), trinity(EVENING)
+
+#N	hp2
+#S	HP 730; HP-UX 8.05
+#O	Hollister Incorporated
+#C	David Vrona
+#E	hp1!postmaster
+#T	+1 708 680 2829
+#P	2000 Hollister Drive  Libertyville, IL  60048-3781
+#L	87 57 W / 42 17 N city
+#R
+#U
+#W	hp1!dave (David Vrona); Tue Dec 10 12:16:23 CST 1991
+#
+hp2 hp1(LOCAL)
+
+#N	.icom.com, icom
+#S	Intel 386; ISC 386/ix 2.0.2
+#F	uunet.uu.net
+#O	Icom Systems, Inc.
+#C	Andrew H. Marrinson
+#E	icom.icom.com!postmaster
+#T	+1 708 541 2237
+#P	6330 Capitol Dr., Wheeling, IL 60090
+#L	42 07 N / 087 52 W
+#R
+#U
+#W	icom!andy (Andrew H. Marrinson); Wed Jan 31 11:56:37 CST 1990
+icom	.icom.com
+icom=	icom.com
+icom	uunet(DEMAND), ahm(WEEKLY), shiny(WEEKLY)
+
+#N	ldhmi, .gracilis.com
+#S	Hewlett-Packard 9000/330; HP-UX 7.05 B
+#O	Gracilis, Inc.
+#C	Don Lemley
+#E	postmaster@gracilis.com
+#T	+1 708 897 9346
+#P	Aurora, IL, USA
+#L	41 45 9 N / 88 17 34 W
+#U	tellab5
+#W	root at ldhmi; Thu Sep 19 16:12:03 CDT 1991
+#
+ldhmi	.gracilis.com
+ldhmi	= ldhmi.gracilis.com
+ldhmi	tellab5(DIRECT), dpdpc(DEMAND), imsasun(DEMAND), 
+	winfree(WEEKLY+HIGH), hp-col(WEEKLY+HIGH)
+
+#N	idm
+#S	HP 486; SCO Unix Sys V/386
+#O	Information Data Management
+#C	Angela Johnston
+#E	idm!atj
+#T	+1 708 674 2650
+#P	7301 N. Lincoln, Suite 100, Lincolnwood, IL 60646
+#L	41 51 N / 87 39 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Tue Sep 18 09:34:21 EDT 1990
+#U
+#
+idm	uunet(DEMAND)
+
+#N	.c-mols.siu.edu, igate
+#S	Everex 486/33 ; SCO UNIX
+#O	Molecular Science Program SIU-C
+#C	Dan Ellison
+#E	dan@igate.c-mols.siu.edu
+#T	+1 618 453 7310
+#P	310C Neckers SIU-C, Carbondale, Illinois, 62901
+#L	37 43 N / 89 12 W
+#R	Graduate and Postdoctoral Catalytic Research Lab
+#W	igate!dan (Dan Ellison); Thu Jan 09 13:58:35 CST 1992
+#U	uxc.cso.uiuc.edu
+#
+igate=	igate.c-mols.siu.edu
+igate	.c-mols.siu.edu
+igate	c-mols.siu.edu
+igate	uiucuxc(LOCAL), uunet(LOCAL), att(LOCAL)
+
+#N	igloo, igloo.scum.com
+#F	gargoyle.uchicago.edu
+#O	Small Computer Users Magazine
+#C	William Vajk
+#E	igloo!learn
+#T	+1 312 272 7083
+#P	1841 Highland Avenue, Northbrook, IL 60062
+#R	No longer public access.
+#U	ddsw1.mcs.com, sprnbi, infopls
+#W	igloo!learn (Bill Vajk); Tue 22 Jan 08:00:00 CST 1991
+#
+igloo = igloo.scum.com
+#
+igloo	gargoyle.uchicago.edu(DAILY/4), ddsw1(DAILY/4), nucsrl(DIRECT)
+
+#N	.iit.edu, iitmax
+#S	Encore Multimax; UMAX 4.2
+#O	Illinois Institute of Technology
+#C	Mark Draughn
+#E	postmaster@iitmax.iit.edu
+#T	+1 312 567 5962
+#P	Academic Computing Center, 10 West 31st St., Chicago, IL 60616
+#L	41 32 44 N / 87 38 10 W 
+#R	registered
+#U	tank iitwest minna.iit.edu
+#W	ed@iitmax.iit.edu (Ed Federmeyer); Wed May 23 12:55:00 CDT 1990
+#
+iitmax	.iit.edu
+iitmax	=iitmax.iit.edu
+iitmax	=iit
+#
+iitmax	iitwest(POLLED)
+#
+iitmax	nccseq(DAILY/6), nucsrl(DAILY/6), vistec(POLLED), navwhq(POLLED),
+	att(DAILY/6), anlams(DAILY/6), bona(POLLED)
+
+#N	illusion
+#S	Clone of AT; XENIX 2.2.1
+#O	Magic Numbers Software
+#C	Marcus Hall
+#E	illusion!marcus
+#T	+1 708 351 3072
+#P	336 Colony Green, Bloomingdale, IL  60108
+#L	41 51 33 N / 88 04 40 W
+#R
+#U	mcdchg
+#W	illusion!marcus (Marcus Hall); Thu Feb 28 12:37:29 CST 1991
+#
+illusion= illusion.chi.il.us
+illusion	abacab(DIRECT), att(DIRECT), clout(DEMAND*2),
+		dabble(EVENING+DEAD), gagme(DEMAND*2), homer(DIRECT),
+		mcdchg(DIRECT/3), obdient(DIRECT), outback(EVENING),
+		tapa(DIRECT)
+
+#N	ilmss
+#S	AT&T 3B2/400, SVR3.1 UNIX
+#O	Media Software & Systems, Inc.
+#C	James M. Ewin
+#E	ilmss!ewin
+#T	+1 815 886 2400
+#P	12225 Disk Drive, Romeoville, IL 60441
+#L	41 45 N / 88 14 W
+#R	AT&T Distributor
+#U	mcdchg
+#W	ilmss!ewin (James M. Ewin); Thu Jan 18 16:17:53 CST 1990
+#
+ilmss	mcdchg(DAILY)
+
+#N	indep1.chi.il.us, indep1
+#S	AT Clone; SCO Xenix 286
+#O	Software Services, Inc.
+#C	Peter Franks
+#E	indep1!usenet
+#T	+1 708 206 2240
+#P	1785-G Cortland Court, Addison, IL 60101-4224
+#L	42 16 N / 87 57 W
+#R	This is a remote site located in Libertyville, IL
+#U	ddsw1 indep2 tosspot ldhmi point
+#W	indep1!pete (Peter Franks); Wed Dec 25 19:50:25 CST 1991
+#
+indep1 = indep1.chi.il.us
+indep1	ddsw1(DAILY/3), <indep2>(DEDICATED), clout(DAILY),
+	<ldhmi>(POLLED), <point>(POLLED), <tosspot>(DEAD)
+
+#N	indep2
+#S	AT Clone; Microport System V/AT Version 2.3.0-UM
+#O	Software Services, Inc.
+#C	Peter Franks
+#E	indep1!usenet
+#T	+1 708 602 2240
+#P	1785-G Cortland Court, Addison, IL 60101-4224
+#L	41 56 N / 88 00 W
+#R	Software/Firmware Consultants
+#U	indep1
+#W	indep1!pete (Peter Franks); Wed Apr 10 20:18:58 CDT 1991
+#
+indep2	indep1(DEDICATED)
+
+#N      infopls
+#S      Compudyne 25/386C; MS-DOS 5.00
+#O      Infoplus Support, Wheeling IL
+#C      Andrew Rossmann
+#E      infopls!postmaster
+#T      +1 708 537 2371
+#P      1005 Woodland, Wheeling IL  60090-3934
+#L      42 17 N / 087 58 W city
+#R      Running Waffle for mail/Usenet
+#R      Data number is +1 708 537 0247, 1200/2400, 24 hrs
+#U      ddsw1
+#W      infopls!andyross (Andrew Rossmann); Wed Aug 21 20:00:00 CST 1991
+#
+infopls         = infopls.chi.il.us
+infopls         clout(HOURLY), igloo(DEAD), ddsw1(EVENING), syzzle(POLLED),
+                mycroft(DEAD)
+
+#N	ingsoc
+#S	3B1; 3.51 Unix System V
+#O	Ingsoc Corporation
+#C	Colin Carr
+#E	ingsoc!root
+#T	+1 312 878 4570
+#P	941 W. Carmen, Chicago, IL 60640
+#L	41 51 N / 87 39 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed May 16 09:48:14 EDT 1990
+#U
+#
+ingsoc	uunet(DEMAND)
+
+#N	intsys
+#S	Intell 386 
+#O	Integrated Systems International
+#C	Steve Morse
+#E 	intsys\!root
+#T	+1 708 397 9999
+#P	P.O. Box 59099, Schaumburg, IL  60159
+#L	42 02 N / 88 05 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Apr 12 17:33:37 EDT 1991
+#U
+#
+intsys	uunet(DEMAND)
+
+#N	isidev
+#S	386/25; SVR 3.2 AT&T Unix
+#O	Iconic Software Inc.
+#C	Jerry D. Nowlin
+#E	isidev!nowlin
+#T	+1 708 552 8072
+#P	318 North Center St, Plano, IL 60545
+#L	41 39 N / 88 32 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb 27 18:34:57 EST 1991
+#U
+#
+isidev	uunet(DEMAND)
+
+#N	itsesi, itsesi.chi.il.us
+#S	386 clone; SCO Xenix 2.3.3
+#O	effective solutions, inc.
+#C	Jeff Postlewaite
+#E	itsesi!jeff
+#T	+1 312 337 4433
+#P	P.O. Box 93, Markham, IL 60426-0093
+#L	41 36 N / 87 42 W 
+#U
+#W	itsesi!jeff (Jeff Postlewaite) ; Wed Oct 3 08:00 CST 1990
+itsesi= itsesi.chi.il.us
+itsesi	metromn(DEMAND), glenoak(DIRECT), tu444(DIRECT), clout(DIRECT)
+
+#N	ixcorp1
+#S	Interactive 386/ix
+#O	iX Corporation
+#C	Neil F. N. Milsted
+#E	ixcorp1!nfnm
+#T	+1 312 902 2149
+#P	575 W. Madison #3610, Chicago, IL  60606
+#L	41 51 N / 87 39 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Fri Dec  8 14:55:05 EST 1989
+#U
+#
+ixcorp1		uunet(DEMAND)
+
+#N	jasper
+#S	Sun Sparcstation 1
+#O	Andrew Dudman, MD
+#C	Andrew Dudman, MD
+#E	jasper!jamie
+#T	+1 815 395 0908
+#P	150 Flintridge, Apt. 6, Rockford, IL  61107
+#L	42 16 N / 89 05 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Tue Oct 31 18:05:14 EST 1989
+#U
+#
+jasper		uunet(DEMAND)
+
+#N	jjcac
+#S	AT&T 3B2/600; System V Release 3.1.1
+#O	Joliet Junior College, Joliet, IL
+#C	Paul Rak
+#E	jjcac!postmaster
+#T	+1 815 729 9020 x362
+#P	Academic Computing Center, 1216 Houbolt Avenue, Joliet, IL 60436-9352
+#L	41 32 N / 88 05 W city
+#R	Academic use; UUCP, smail, and Netnews site.
+#R	This is our other computer... Our Cray is in the shop...
+#U	
+#W	larry@nstar; Mon Sep 17 10:00:00 CDT 1990
+jjcac	emocomp(DEMAND), nccseq(DEMAND)
+
+#N	joel
+#S	Macintosh SE, V7
+#O	Personal node
+#C	Joel Donaldson
+#E	joel!spock, wheaton!jsdonald
+#T	+1 708 752-6984
+#P	Wheaton College/Wheaton, IL 60187, U.S.A.
+#L	41 52 20 N / 88 06 15 W
+#R	End-node only
+#U	wheaton
+#W	wheaton!jsdonald (Joel S. Donaldson); Mon Nov 18 13:38:21 CST 1991
+# 
+joel	wheaton(DIRECT)
+
+#N	jpusa1.chi.il.us, jpusa1
+#S	sco 386 xenix v
+#O	J.P.U.S.A.
+#C	Stu Heiss
+#E	jpusa1!postmaster
+#T	+1 312 989 6354
+#P	920 W. Wilson, Chicago, Il. 60640
+#L	41 50 N / 87 45 W
+#R
+#U	nucsrl
+#W	jpusa1!stu (Stu Heiss); Tue Sep 10 17:24:08 CDT 1991
+#
+jpusa1 = jpusa1.chi.il.us
+jpusa1	gargoyle(DEMAND), homebru(DEMAND), ddsw1(DEMAND),
+	jpusa0(DIRECT), jpusa2(DIRECT), jpusa3(DIRECT), jpusa4(DIRECT),
+	jpusa5(DIRECT), nucsrl(DAILY), spl1(DEAD)
+
+#N	junkyd
+#S	Commodore-AMIGA; Amiga-DOS V2.0 & Amiga-UUCP
+#O	ICOM Simulations
+#C	Michael N. Garber
+#E	junkyd!postmaster
+#T	+1 708 537 6917
+#P	490 Pleasant Run Dr. Apt.#6, Wheeling, IL, 60090
+#L
+#R
+#U
+#W	caw@miroc.chi.il.us (Chris Wichura) ; Sun Sep 22 04:56:33 CST 1991
+#
+junkyd=	junkyd.chi.il.us
+junkyd	miroc(DAILY)
+
+#N	.kai.com, kailand
+#F	uunet.uu.net
+#S	Sequent S27; Dynix V3.1
+#O	Kuck and Associates, Inc.
+#C	Patrick Wolfe
+#E	postmaster@kai.com, kailand!postmaster
+#T	+1 217 356 2288
+#P	1906 Fox Drive, Champaign, IL 61820-7334
+#L	40 07 N / 88 12 W city
+#U	uunet uiucuxc
+#W	pwolfe@kai.com (Patrick Wolfe); Wed Feb 12 14:06:08 CST 1992
+#
+kailand	.kai.com
+kailand=	kai.com
+kailand	uunet(DAILY/4), uiucuxc(DAILY)
+
+#N	kashyk
+#S	Macintosh Plus; System 6.0.2
+#O	Private node
+#C	Kevin A. Mitchell
+#E	kashyk!kam
+#T	+1 708 452 9585
+#P	7234 W. North Ave #1608, Elmwood Park, IL 60635
+#L	41 51 N / 87 39 W city
+#R 
+#W	kashyk!kam (Kevin A. Mitchell); Fri Jan 26 09:00:00 CST 1990
+#U 
+# 
+kashyk	dlogics(DAILY)
+
+#N	katar
+#S	Exxon/Zilog Model 11+; zeus 3.21
+#O	Katar Innovations
+#C	John Guzolek
+#E	katar!postmaster
+#T	+1 312 593 6054
+#P	62 N. Albert St., Mount Prospect, IL 60056
+#L	42 09 N / 87 57 W
+#R	
+#U	bartek1 richp1
+#W	katar!guzolek (John Guzolek); Wed Mar 30 19:31:00 CST 1988
+#
+katar	bartek1(DIRECT), richp1(WEEKLY)
+
+#N	kells
+#S	486/25 clone; ISC Interactive Unix v.2.2.1
+#O	Kells Innovations, Inc.
+#C	Robert A. Schottland
+#E	ras@kells
+#T	+1 312 431 1649      +1 708 952 8750
+#P	302 Victoria Lane, Arlington Heights, IL 60005
+#L	42 03 19 N / 87 59 05 W
+#U	clout, tellab5, vijit, ch13
+#W	Robert A. Schottland; Mon Aug 05 20:23:12 CDT 1991
+#
+kells	=kells.chi.il.us
+kells	clout(DAILY/4), tellab5(DAILY/4),
+	vijit(DEAD), ch13(HOURLY)
+
+#N	kenlaw
+#S	382; System V.3
+#O	Kenneth N. Flaxman, P.C.
+#C	Kenneth N. Flaxman
+#E	kenlaw!knf
+#T	+1 312 431 0082
+#P	53 W. Jackson, Suite 1315, Chicago, IL  60604
+#L	41 51 N / 87 39 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu Aug  3 08:10:44 EDT 1989
+#U
+#
+kenlaw		uunet(DEMAND)
+
+#N	kericks
+#S	286AT clone; Xenix 2.2.3
+#O	Erickson Engineering
+#C	Ken Erickson
+#E	kericks!postmaster
+#T	+1 708 268-8009
+#P	2233 S. Highland #1005, Lombard, IL 60148
+#L	41 50 N / 88 00 W
+#R	Ken Erickson Home Machine
+#U	
+#W	kericks!ken (Ken Erickson); Tue Aug  6 07:51:16 CDT 1991
+#
+kericks	= kericks.chi.il.us
+kericks	balr(EVENING), clout(DIRECT), vijit(EVENING)
+
+#N	kilroy
+#S	Tandy Color-Computer 3; OS-9 Level II Release 2.0.1
+#O	Private node
+#C	Eddie Kuns
+#E	kilroy!ekuns
+#T	+1 708 820 3943
+#P	2005 Tall Oaks Drive #2A, Aurora, IL  60505-1221
+#L	41 47 52 N / 088 16 29 W
+#R	
+#U	
+#W	kilroy!ekuns (Eddie Kuns); Tue Mar 5 00:18:39 CST 1991
+#
+kilroy=	kilroy.chi.il.us
+kilroy	linac(DAILY), liltyke(DAILY), clout(WEEKLY)
+
+#N	ks25
+#S	Decstation 2100; Ultrix V4.2
+#O	R. R. Donnelley & Sons Company
+#C	Garret Toomey
+#E      ks25!postmaster
+#T	+1 708 719 6763
+#P	750 Warrenville Road, Lisle, IL 60532
+#L	41 48 N / 88 06 W
+#R	
+#U	wheaton, obdient
+#W      ks25!veener (Steven H Veeneman) ; Tue Oct  1 15:22:40 CDT 1991
+#	
+ks25=ks25.chi.il.us
+ks25 wheaton(DIRECT), obdient(DIRECT) 
+
+#N	kscorp
+#S	VAX 3800 ; VAX V5.3
+#O	KineticSystems Corp.
+#C	J.W. Tippie
+#E	kscorp!root
+#T	+1 815 838 0005
+#P	11 Maryknoll Dr, Lockport, IL 60441
+#L	41 35 N / 88 03 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Sun Jan 20 16:46:52 EST 1991
+#U
+#
+kscorp	uunet(DEMAND)
+
+#N	kukla
+#S	iAPX 286; Microport System V 2.3
+#O	Private node
+#C	John Dick
+#E	kukla!jed
+#T	+1 312 274 2692
+#P	7248 N. Hamilton, Chicago, IL 60645
+#L	41 51 N / 87 39 W city
+#R	
+#W	kukla!jed (John E. Dick); Wed Dec  6 08:28:29 CST 1989
+#U	
+#
+kukla	blob(WEEKLY), dlogics(DEMAND)
+
+#N	laidbak
+#S	Compaq 386/33; INTERACTIVE UNIX 2.2
+#O	INTERACTIVE Systems Corporation Naperville Office
+#C	Mike Borowiec
+#E	laidbak!postmaster
+#T	+1 708 505 9100 x229
+#P	1901 North Naper Boulevard, Naperville, IL  60563-8895
+#L	41 47 N / 88 09 W
+#R	
+#U	mcdchg obdient tellab5 ism ico ima
+#W	laidbak!mikebo (Mike Borowiec); Mon Dec 30 17:18:53 CST 1991
+#
+laidbak	.i88.isc.com
+laidbak	.isc.com
+laidbak = i88.isc.com
+#
+# actual connections here
+#
+laidbak amdahl(DEMAND), amiganet(DEMAND+HIGH), att(DEMAND+HIGH), 
+	att-ih(DEMAND), cg-atla(DEMAND), ctnews(DEMAND), 
+	fineart(DEMAND), clout(DEMAND), hjuxa(DEMAND), 
+	homebru(DEMAND), ico(DEMAND+HIGH), ihactr(DEMAND), 
+	ima(DEMAND+HIGH), ism(DEAD), laicb(DEMAND+HIGH), 
+	mcdchg(DEMAND), nucsrl(DEMAND), numusic(DEMAND), 
+	obdient(DEMAND), oconnor(DEMAND), pamach(DEMAND), 
+	sco(DEMAND), sdsi(DEMAND), solchi(DEMAND), 
+	sun(DEMAND), tellab5(DEMAND), timesink(DEMAND), 
+	yclept(DEMAND)
+
+#N       lcsh, lcsh.delta.com, .lcsh.delta.com
+#F       uunet.uu.net
+#S       Compaq Deskpro 386/33L; MS-DOS 4.01 w/ UUPC/extended 1.11f
+#O       Senior Services at Memorial Hospital of South Bend
+#C       John B Harlan
+#E       lcsh!jbh, lcsh!sys, delta!don
+#T       +1 219 284 7243
+#P       534 North Michigan Street, South Bend, Indiana USA 46601-1032
+#L       41 40 53 N / 86 15 02 W
+#W       lcsh!jbh (John B Harlan) Wed Aug 7 14:30:00 EST 1991
+#R
+#R       Senior Services located in the Leighton Center for Senior Health
+#R
+lcsh     .lcsh.delta.com
+lcsh     delta(DAILY*2)
+lcsh   = lcsh.delta.com
+
+#N	ldhmi
+#S	AT&T 6300+ AT&T Unix System V R2
+#O	Private node
+#C	Don Lemley
+#E	donl@ldhmi.chi.il.us donl@tellabs.chi.il.us
+#T	+1 312 844 0183
+#P	623 Palace Street, Aurora, Illinois, 60506
+#L	41 45 9 N / 88 17 34 W
+#R	Amateur Radio IP Gateway Node (n4pcr.ampr.org) 44.72.0.25
+#U
+#W	donl@ldhmi.chi.il.us (Don Lemley); Fri Sep 15 10:19:28 CDT 1989
+#
+ldhmi	= ldhmi.chi.il.us
+ldhmi	tellab5(DIRECT), clout(DEMAND)
+
+#N	levy1
+#S	Icom 386
+#O	The Levy Organization
+#C	Erin Phillips
+#E	levy1!root
+#T	+1 312 664 8200
+#P	980 N. Michigan, 4th Floor, Chicago, IL  60611
+#L	41 51 N / 87 39 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Tue Aug  8 08:46:07 EDT 1989
+#U
+#
+levy1		uunet(DEMAND)
+
+#N	liltyke
+#S	Sun 3/50ME-12 running SunOS 4.1.1
+#R	The normal hardware AT&T 3B1 AT&T Unix System V 3.51m
+#O	Private node
+#C	Darryl Baker
+#E	dpb@liltyke.chi.il.us dpb@homebru.chi.il.us
+#T	+1 708 879 9476
+#P	734 East Lake Street, Batavia, Illinois, 60510-2176
+#L	41 51 13 N / 88 18 41 W Batavia
+#R	Used for software development
+#U	tellab5
+#W	dpb@liltyke.chi.il.us (Darryl Baker); Sun Jul 14 10:40:27 CDT 1991
+#
+liltyke	= liltyke.chi.il.us
+liltyke	tellab5(DIRECT+FAST), clout(DIRECT+FAST), vfrot(DIRECT),
+	homebru(DIRECT+FAST), kilroy(POLLED), limerick(DIRECT+FAST),
+	wheaton(DIRECT+FAST), yclept(DIRECT+FAST), simon(DIRECT+FAST),
+	balr(DIRECT+FAST), obdient(DIRECT+FAST)
+
+#N	limerick
+#S	AT&T 3B1; System V version 3.51
+#O	Stupid Puns Inc.
+#C	Michael G. Beirne
+#E	limerick!beirne
+#T	+1 708 386 2415
+#P	845 W. Washington #2d, Oak Park,IL 60302-3821
+#L	41 54 N / 87 47 W
+#R	Mike Beirne home machine
+#U	homebru
+#W	limerick!beirne (Michael G. Beirne) ; Mon Mar 11 10:46:42 CST 1991
+#
+limerick = limerick.chi.il.us
+limerick	clout(DAILY), homebru(DAILY), laidbak(DEMAND), liltyke(DEMAND),
+	 	vfrot(DEMAND)
+
+#N	linac, linac.fnal.gov
+#S	Sun 4/260; SunOS 4.1
+#O	Fermi National Accelerator Laboratory
+#C	John Palkovic, Elliott McCrory
+#E	postmaster@linac.fnal.gov
+#T	+1 708 840 4808
+#P	MS 341, FNAL, Box 500, Batavia, IL 60510
+#L	41 50 17 N / 88 15 46 W
+#R	Linac stands for "linear accelerator." It is pronounced lynn-ack.
+#W	linac!palkovic (John A. Palkovic) Tue Jul 30 08:31:18 CDT 1991
+#U	midway.uchicago.edu uwm.edu highspl mgweed tellab5 fithp
+#U	pacific.mps.ohio-state.edu att.att.com sunova.ssc.gov
+#U	tomato.fnal.gov unixhub.slac.stanford.edu convex.com
+#
+linac	.fnal.gov(LOCAL)
+linac =	linac.fnal.gov
+#
+linac	fithp(DEMAND+HIGH),
+	highspl(DIRECT+HIGH),
+	hopduvel(DAILY),
+	<kilroy>(DAILY),
+	mgweed(HOURLY),
+	royko(EVENING),
+	simon(DIRECT),
+	tellab5(DIRECT+HIGH)
+
+#N	ludvig
+#S	Sperry PC/HT-300; MINIX 1.5
+#O	Flaaklypa Hackers
+#C	Lars Fredriksen
+#E	ludvig!postmaster
+#T	+1 708 820 3652
+#P	4212 Chesapeake Dr. Apt. #3A, AURORA, IL. 60504, USA
+#L	41 45 12 N / 88 13 09 W
+#R	
+#U
+#W	ludvig!fredriks (Lars Fredriksen); Wed Nov  7 14:49:35 CST 1990
+ludvig	dcfax(DIRECT)
+
+#N	lxn
+#S	Tandem LXN (aka Altos 3068EP), System V.2.2
+#O	Applied Communications Inc.
+#C	Christopher D. Orr
+#E	postmaster@lxn.UUCP
+#T	+1 312 853 3725
+#P	101 North Wacker Drive, Chicago, IL  60606
+#L	41 53 4 N / 87 37 47 W
+#R	Machines used:  Tandem LXN, NCR Tower series (XP, 32/450, etc)
+#R	Willing to feed mail to any additional sites
+#U	lehi3b15.csee.lehigh.edu, chinet.chi.il.us
+#W	lxn!chris (Christopher D. Orr); Sun Dec 17 17:31:39 1989
+#
+lxn=	lxn.chi.il.us
+lxn	clout(DIRECT/2), chinet(EVENING)
+
+#N	machine.chi.il.us
+#F	clout.chi.il.us
+#O	/usr/group/chicago, inc.
+#C	La Monte H. Yarroll
+#E	postmaster@machine.chi.il.us
+#t	+1 708 291 6700
+#P	Computer Science Dept., Univ. of Chicago, Chicago, IL 60637
+#L	41 53 N / 87 37 W city
+#U	chinet
+#R	News machine for /usr/group/chicago News Sig
+#W	piggy@clout.chi.il.us; Thu Oct 10 10:58:04 CDT 1991
+machine = machine.chi.il.us
+machine	clout(WEEKLY), chinet(WEEKLY)
+
+#N	macknife
+#S	Apple Mac II; AU/X 
+#O	Krantz & Ware Consultants
+#C	Don Ware
+#E	macknife!dware
+#T	+1 309 682 4224
+#P	2833 N. Kingston Drive, Peoria, IL  61604
+#L	40 42 N / 089 36 W city
+#R	
+#U	bradley
+#W	john@bradley.edu (John M. Lengeling); Tue Jul 25 08:58:32 CDT 1989
+#
+macknife	bradley(DEMAND), pallas(DEMAND)
+
+#N	mandr1
+#S	Sun SparcStation 2; SunOs 4.1.1
+#O	M&R Services, Inc.
+#C	Dwight Rebers
+#E	mandr1!dwightdr
+#T	+1 312 726 0677
+#P	55 W. Monroe 40th Floor, Chicago, IL 60603
+#L	41 51 N / 87 39 W city	
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Nov 20 13:58:32 EST 1991
+#U
+#
+mandr1	uunet(DEMAND)
+
+#N	marcal
+#S	HP9000/822; HPUX 7.02 
+#O	Marcal Systems Corporation
+#C	Marc Veeneman
+#E	marcal!usenet
+#T	+1 708 516 4555
+#P	720 Industrial Drive, Unit 123, Cary, IL  60013
+#L	42 12 N / 88 16 W city
+#R	Company provides financial/business software with HP hardware
+#R	Willing to supply locally what we get of Usenet
+#U	apres ceco devcom ftpbox mcdchg ks25 lamtop ntmntm 
+#U	obdient odgate trinity ttd1 uecok
+#W	marcal!marc (Marc Veeneman); Tue Oct 10 12:00:01 CST 1991
+#
+marcal	apres(EVENING), ceco(HOURLY), devcom(DAILY), ftpbox(EVENING),
+	ks25(DIRECT), lamtop(HOURLY), mcdchg(DIRECT), ntmntm(EVENING), 
+	obdient(DAILY), odgate(DAILY), trinity(DIRECT), ttd1(HOURLY), 
+	uecok(DEAD)
+
+#N	mass1
+#F	uxc.cso.uiuc.edu
+#S	Masscomp MC537; RTU 2.2a
+#O	US Army Construction Engineering Research Lab, Army Corps of Engineers
+#C	Jim Westervelt
+#E	mass1!westerve, uiucuxc!postmaster
+#T	+1 217 352 6511 x449
+#P	US Army-CECER, 2902 Newmark Drive, Champaign, IL 61820
+#L	40 07 N / 88 12 W city
+#R	Geographical analysis of LANDSAT data.
+#W	uiucuxc!paul (Paul Pomes); Mon May  9 10:48:33 CDT 1988
+#
+mass1=	mass1.cecer.army.mil
+mass1	cerl(LOCAL)
+
+#N	mcdchg
+#S	Motorola VME Delta 3640 (MC68030); SVR3
+#O	Motorola, Microcomputer Division
+#C	Ronald W. Heiby (Ron)
+#E	mcdchg!heiby
+#T	+1 708 576 0347
+#P	1100 Woodfield Rd, Suite 334, Schaumburg, IL 60173
+#L	42 00 N / 88 08 W
+#U	amtfocus ast att chinet ddsw1 ditka drudge falkor
+#U	illusion laidbak marcal mcdclv mcdcup mcdhup
+#U	mcdphx mnss motdet motmpl rutgers tellab5 scvme3 udc
+#W	mcdchg!heiby (Ron Heiby); Tue Jun 18 20:45:00 CDT 1991
+#R	We pass bionet, biz, gnu, & inet on req.
+#R	We are willing (for now) to pass the trial hierarchy.
+#R	We use Telebit Trailblazer Plus and T2500 with V.32/V.42/V.42bis.
+#
+mcdchg=	chg.mcd.mot.com
+mcdchg=	mcdchg.chg.mcd.mot.com
+mcdchg	.chg.mcd.mot.com(LOCAL), .mcd.mot.com
+#
+mcdchg	amtfocus(DIRECT+FAST),
+	arla(DEMAND+FAST),	ast(DIRECT),		att(DIRECT),
+	chinet(DIRECT+FAST),	clout(DIRECT+FAST),
+	clyde(DEMAND+FAST),
+	ddsw1(DIRECT+FAST),	ditka(EVENING),		documail(DIRECT+FAST),
+	dollars(DEMAND),	dover(DEMAND+FAST),	drudge(DIRECT+FAST),
+	ecgcurly(DIRECT+FAST),
+	falkor(EVENING+FAST),	gatech(DEMAND+FAST),	homebru(DIRECT+FAST),
+	ies1(DIRECT),		illusion(DIRECT),
+	iphase(DEMAND),
+	laidbak(DIRECT),	laotsu(EVENING),
+	lnvme1(DIRECT),		logia(DIRECT),
+	marcal(DIRECT),
+	mcdapps(DEMAND+FAST),	mcdbos(DEMAND+FAST),
+	mcdchd(LOCAL),		mcdchs(LOCAL),
+	mcdclv(DEMAND+FAST),	mcdcup(DEMAND+FAST),
+	mcddyt(DEMAND),		mcdhup(DEMAND+FAST),
+	mcdphx(DEMAND+FAST),
+	mdisea(DEMAND+FAST),	mnss(DIRECT+FAST),
+	motatl(DEMAND+FAST),	motaus(DEMAND+FAST),
+	motbos(DEMAND+FAST),	motchg(DIRECT),		motcid(DIRECT+HIGH),
+	motcsd(DEMAND+FAST),	motdet(DEMAND+FAST),
+	motmpl(DEMAND+FAST),	motott(DEMAND),		motral(DEMAND+FAST),
+	motsmo(DEMAND+FAST),	mottor(DEMAND),		motwdc(DEMAND+FAST),
+	ntcook(DIRECT+FAST),
+	obdient(DEMAND),	outback(DIRECT),
+	royko(DIRECT+FAST),	rutgers(DEMAND+FAST),
+	sol(DIRECT),		stealth(LOCAL),
+	tellab5(DIRECT+FAST),	scvme3(DIRECT),
+	udc(DEMAND+HIGH),	utick2(DIRECT+FAST),	uwm(DEMAND),
+	wyse(DEMAND+FAST),	yclept(DIRECT),		zaw(DIRECT)
+falkor = falkor.chg.mcd.mot.com
+mcdchd = mcdchd.chg.mcd.mot.com
+mcdchs = mcdchs.chg.mcd.mot.com
+stealth = stealth.chg.mcd.mot.com
+mcdcup = sjc.mcd.mot.com
+mcdchg = mcdch1
+motbos	decvax(DIRECT/2)
+
+#N	mcs1
+#S	Televideo Tele-386; Microport System V
+#O	Macro Computer Solutions, Inc.
+#C	J. Michael Duebner
+#E	mcs1!michael
+#T	+1 312 566 8910
+#P	415 South East Garfield Road, Mundelein, IL  60060
+#L	42 17 N / 087 58 W city
+#R	Internal site
+#U	ddsw1
+#W	mcs1!michael (J. Michael Duebner); Mon Feb  1 00:27:14 CST 1988
+#
+mcs1	ddsw1(LOCAL) 
+
+#N	mec
+#S	Sun SparcStation 2
+#O	Microsystems Engineering Corp.
+#C	M. G. S. Yadav
+#E	mec!root
+#T	+1 708 882 0111
+#P	2400 W. Hassell Rd, Suite 400, Hoffman Estates, IL 60195
+#L	42 02 N / 88 04 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Mar 13 19:42:24 EST 1991
+#U
+#
+mec	uunet(DEMAND)
+
+#N	medusa
+#S	IBM 386sx clone; UUPC v1.07h Extended
+#O
+#C	Apoorva Desai
+#E	medusa!port
+#T	+1 708 362 5155
+#P	1408 Amy Lane, Libertyville, Il, 60048
+#L	
+#R	
+#U	
+#W	medusa!port (Apoorva Desai) ; Tue Jul 04 21:55:54 CST 1990
+#
+medusa=	medusa.chi.il.us
+medusa	miroc(DAILY)
+
+#N	mgsscsg
+#S	Motorola VME Delta 3200 (MC68030); SYS V/68 R3
+#O	Motorola, Cellular Subscriber Group MIS
+#C	David Schmitt (Dave)
+#E	mgsscsg!usenet
+#T	+1 708 632 5562
+#P	1475 W. Shure Drive S356, Arlington Hts, IL 60004
+#L	40 17 N / 86 18 W city
+#W	mgsscsg!usenet (David Schmitt); Fri Feb 22 11:08:55 CST 1991
+#R	
+#U	amtfocus
+#	
+mgsscsg	amtfocus(LOCAL)
+
+#N	mgweed
+#F	att.com
+#S	AT&T 3B2/1000-80 System V 3.2.2
+#O	AT&T Montgomery Works
+#C	Phil Gunsul
+#E	mgweed!prg
+#T	+1 708 859 4485
+#P	S. River St., Montgomery, IL 60504-0305
+#L	88 18 51 W / 41 45 24 N
+#R	Printed Wiring Board Manufacturing, MODEM Repair, SMART Card
+#R	Supplier of the "chi.weather" information for the Chicago area
+#U	linac tellab5 obdient royko
+#W	mgweed!prg (Phil Gunsul); Thu Jan  2 23:00:22 CST 1992
+#
+mgweed	linac(DEMAND), tellab5(DEMAND),
+	obdient(DEMAND), edgesa(DEMAND), royko(DEMAND)
+
+#N	mgwhiz
+#S	AT&T 3B2/310 + XM System V 3.2.2
+#O	AT&T Information Systems, Montgomery IL.
+#C	Phil Gunsul
+#E	mgwhiz!prg
+#T	+1 708 859 4485
+#P	S. River ST., Montgomery, IL 60504-0305
+#L	88 18 W / 41 45 N
+#R	Development machine for ISD
+#U	mgweed mogun
+#W	mgwhiz!prg (Phil Gunsul); Fri Feb 14 22:25:43 CST 1992
+#
+mgwhiz	mgweed(DEMAND), mogun(DEMAND)
+
+#N	miroc
+#S	Commodore-AMIGA 3000; Amiga-DOS V2.0 & Amiga-UUCP
+#O
+#C	Christopher A. Wichura
+#E	miroc!postmaster
+#T	+1 312 684 2941
+#P	5450 East View Park, Chicago, Il, 60615
+#L	41 47 44 N / 87 35 58 W CITY
+#R
+#U
+#W	miroc!caw (Chris Wichura) ; Fri Dec 20 01:00:32 CST 1991
+#
+miroc=	miroc.chi.il.us
+miroc	amiganet(POLLED), chinet(DAILY), clout(DAILY),
+        junkyd(POLLED), medusa(POLLED)
+
+#N	.pubserv.com, morgana
+#S	Sequent-Balance-8K; 4.3 BSD UNIX
+#F	uxc.cso.uiuc.edu
+#O	Publication Services, Inc
+#C	Mike Sofka
+#E	postmaster@pubserv.com, paul@uxc.cso.uiuc.edu
+#T	+1 217 398 2060
+#P	Publication Services, Inc, 1802 S. Duncan Rd, Champaign, IL 61821
+#L	40 06 N / 88 13 W (city)
+#W	paul@uxc.cso.uiuc.edu (Paul Pomes); Tue May  8 16:36:47 CDT 1990
+#
+morgana	.pubserv.com(LOCAL)
+morgana	=morgana.pubserv.com
+#
+morgana	uiucuxc(DIRECT)
+
+#N	motcid
+#S	Sun (3 series)
+#O	Motorola, Inc.
+#C	Steve Wolfson
+#E	motcid!root
+#T	+1 312 632 6135
+#P	IL 27-2231 1501 W. Shure Dr. Arlington Heights, IL 60004
+#L	42 05 N / 87 58 W city
+#R	
+#W	lori@uunet.UU.NET (Lori Lewis); Tue May 22 12:28:51 EDT 1990
+#U
+#
+motcid	uunet(DEMAND)
+
+#N	mtcdev
+#S	Compaq Sys. Pro 486; SCO UNIX 3.2.2
+#O	Mediatech, Inc.
+#C	Charles Lei
+#E	mtcdev!root
+#T	+1 312 828 1146
+#P	110 W. Hubbard St., Chicago, IL 60610
+#L	41 51 N / 87 39 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Oct 15 13:53:47 EDT 1991
+#U
+#
+mtcdev	uunet(DEMAND)
+
+#N	mtcgate, mtc.com, mtcgate.mtc.com
+#S	UNIX Sun 3/260 - SunOS 4.1
+#O	Memorex Telex Corporation NSBG/STP
+#F	tellab5.tellabs.com
+#C	Dwight Frye
+#E	postmaster@mtcgate.mtc.com
+#T	+1 919 250 6135
+#P	1000 E. Warrenville Rd., Naperville, Illinois  60566
+#L	41 47 N / 88 09 W
+#R	Gateway machine for Memorex/Telex Corporation
+#U	odgate
+#W	frye@mtcgate.mtc.com (Dwight Frye); Tue Sep 17 09:21:26 EDT 1991
+mtcgate .mtc.com
+mtcgate = mtc.com
+mtcgate = .mtc.com
+mtcgate = mtcgate.mtc.com
+mtcgate	anlams(DEMAND), att(DEMAND), homebru(EVENING), odgate(DEMAND),
+	tellab5(DEMAND)
+
+#N	mwc
+#S	386/20; Coherent
+#O	Mark Williams Company
+#C	La Monte H. Yarroll
+#E	piggy@mwc.com
+#T	+1 708 291 6700
+#P	60 Revere Drive, Northbrook, IL 60062
+#L	42 07 N / 87 49 W city
+#R	Makers of the COHERENT operating system
+#W	mwc!piggy; Wed Oct  2 16:06:48 1991 CDT
+#U	chinet
+#
+mwc	uunet(DAILY), chinet(DAILY)
+
+#N	naginc, naginc.com, .naginc.com
+#S 	Sun2/170; SunOS 3.4
+#O 	Numerical Algorithms Group
+#C 	Erwin Ruppenthal
+#E 	erwin@naginc.com naginc!erwin@sunbird.Central.Sun.COM
+#T 	+1 708 971 2337
+#P 	1400 Opus Place Suite 200, Downers Grove, IL 60195
+#L 	41 47 N/88 05 W
+#R
+#W 	erwin@naginc.com (Erwin Ruppenthal); Wed Nov  7 10:11:29 CST 1990
+#U 	sunbird anlams
+naginc	.naginc.com
+naginc = naginc.naginc.com
+naginc = naginc.com
+naginc	sunbird(DIRECT), anlams(DIRECT) 
+
+#N	naitc
+#S	386 System V 3.2
+#O	A. C. Nielsen
+#C	Karl Denninger
+#E	naitc!kdenning
+#T	+1 708 317 3285
+#P	2201 Waukegah Rd., Suite 200 Bannockburn, IL 60015
+#L	42 11 N / 87 51 W city
+#R	
+#W	kdenning@naitc (Karl Denninger); Fri May  3 11:22:08 CDT 1991
+#U
+#
+naitc	uunet(DEMAND)
+
+#N	narvon1
+#S	Commodore Amiga 2000 AmigaDOS 1.3
+#O	Private Node
+#C	Scott Schorling
+#E	sas@narvon1.chi.il.us  sas@tellab5.chi.il.us
+#T	+1 708 527 0588
+#P	1531 Eton Lane, Naperville Illinois 60565-1633
+#L 	41 46 N / 88 9 W Naperville
+#R 	Used for software development
+#U	telab5
+#W	sas@narvon1.chi.il.us (Scott Schorling) Sat Jan 12 12:17:00 CST 1991
+#
+narvon1	=narvon1.chi.il.us
+narvon1 tellab5(DIRECT+FAST)
+
+#N	nas
+#S	Sun 4.0
+#O	Anderson Consulting
+#C	Lisa Goodwin
+#E	nas!root
+#T	+1 312 507 5043
+#P	100 S. Wacker, 6th floor, Chicago, IL  60606
+#L	41 51 N / 87 39 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Dec 20 16:46:08 EST 1990
+#U
+#
+nas	uunet(DEMAND)
+
+#N	nbupc
+#S	80386 4 Meg ; UNIX System V 3.2.1
+#O	Private Node
+#C	Norman R. Bernstein
+#E	nbupc!norm
+#T	+1 708 515 8371 ; +1 708 515 8352 (voice)
+#P	7319 S Woodward, Woodridge, IL 60517, USA
+#L	41 52 04 N / 87 46 43 W
+#R	Name stands for Norm Bernstein Unix PC
+#R	Home machine of software engineer
+#U
+#W	nbupc!norm (Norman R. Bernstein); Tue Feb 6 20:21:20 CST 1990
+nbupc=	nbupc.chi.il.us
+nbupc	chinet(DAILY), clout(DAILY), udt386(POLLED)
+
+#N	ncse1
+#S	Apple Macintosh II (A/UX 1.0)
+#O	Apple Computer Inc.
+#C	Don Oehlert
+#E	ncse1!postmaster
+#T	+1 312 399 3819
+#P	8700 W. Bryn Mawr Chicago IL 60631
+#L	41 55 N / 087 38 W (City)
+#R	
+#U	csdev
+#W	csdev!garry (Garry Winer); Mon May 9 15:00:00 CDT 1988
+#	
+ncse1	csdev(DIRECT), apple(DEMAND)
+
+#N	.netsys.com, netsys
+#F	ames.arc.nasa.gov, rutgers.edu, lll-winken.llnl.gov
+#S	AT&T 3B2/400 (14 mhz); System V Release 3.2
+#O	Netsys,Inc. (can't keep a good man down)
+#C	Len Rose
+#E	len@Netsys.COM, Postmaster@Netsys.COM
+#T	+1 708 527 1293
+#P	Netsys,Inc., 799 Royal St. George #105 Naperville, Il. 60563
+#L	41 47 N / 88 05 W CITY
+#R	AT&T 3B2 and IBM RS6000 Specialists 
+#R	Location of "convicted hacker" Terminus.
+#R	God Bless the EFF,Berkeley,GNU Project,and my
+#R	friends who have helped my family.
+#R	Map valid until I go to "club.fed" (Aug 1991-May 1992)
+#R	Newsfeeds welcome at 19.2k (mail links 2400 baud ok)
+#U	rutgers lsicom2 eci devcom
+#W	netsys!len ; Thu Apr 25 02:46:08 CDT 1991
+#
+netsys	.netsys.com
+netsys =	netsys.netsys.com
+netsys1 =	netsys1.netsys.com
+#
+#	    major ld links.. 
+#
+netsys	<osu-cis>(WEEKLY), <rutgers>(WEEKLY+FAST)
+#
+#           local links
+#
+netsys	devcom(LOCAL), <igloo>(DIRECT), 
+	<netsys1>(DEDICATED)
+#
+#
+#	    customer sites
+#
+netsys	<eci>(DIRECT), <lsicom2>(DAILY+FAST),
+	lsicom1(DEAD), mahard(DIRECT)
+#
+#	    the end of netsys' map entry.
+
+#N	mogun
+#S	AT&T 3B2/310 + XM System V 3.2.2
+#O	Hotrods `R' Us
+#C	Phil Gunsul
+#E	mogun!prg
+#T	+1 708 859 4485
+#P	S. River ST., Montgomery, IL 60504-0305
+#L	88 18 W / 41 45 N city
+#R	Just my home system... (But I'd like you to know how to reach me!)
+#U	mgweed mgwhiz
+#W	mogun!prg (Phil Gunsul); Fri Feb 14 22:25:43 CST 1992
+#
+mogun	mgweed(DEMAND), mgwhiz(DEMAND)
+
+#N	nos
+#S	Sun 4.0
+#O	Anderson Consulting
+#C	Lisa Goodwin
+#E	nas!root
+#T	+1 312 507 5043
+#P	100 S. Wacker, 6th floor, Chicago, IL  60606
+#L	41 51 N / 87 39 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Dec 20 16:46:08 EST 1990
+#U
+#
+nos	uunet(DEMAND)
+
+#N	npi
+#F	uunet.uu.net
+#S	Sun 4/280; SunOS 4.1
+#O	National Peripherals, Inc.
+#C	Pat Conroy
+#E	conroy@npi.com
+#T	+1 708 325 4151
+#P	1111 Pasquinelli Drive, Suite 400, Westmont IL 60559
+#L	41 47 N / 88 06 W city
+#U	uunet
+#W	conroy@npi.com (Pat Conroy); Wed Mar 13 10:28:28 CST 1991
+#
+npi	.npi.com(LOCAL)
+npi	=npi.com
+npi	uunet(HOURLY)
+
+#N	nsacray
+#S	Generic Intel Type; System Vr3.2.2
+#O	Private Node
+#C	Paul Guthrie
+#E	nsacray!postmaster
+#T	+1 312 902 4950
+#P	605 W. Madison #2701, Chicago IL 60606
+#L	41 48 N / 87 56 W [city]
+#U	balr
+#W	nsacray!paul (Paul D. Guthrie); Wed Jan 09 12:37:15 CST 1991
+
+nsacray=	nsacray.chi.il.us
+nsacray	balr(DIRECT+FAST), chinet(DAILY/4+FAST), gargoyle(DAILY)
+
+#N	ntmntm
+#S	IBM PC/AT clone; MSDOS 3.1 
+#O	Personal machine
+#C	Steven H. Veeneman
+#E	ntmntm!veener
+#T	+1 708 428 3475 
+#P	31 Robin Rd, Carpentersville, IL 60110
+#L	42 08 N / 88 15 W
+#R	Steve Veeneman home machine
+#U	
+#W	ks25!veener Steven H. Veeneman; Tue Oct  1 15:19:31 CDT 1991
+#	
+ntmntm = ntmntm.chi.il.us
+ntmntm   marcal(DAILY)
+
+#N	.nwu.edu, nucsrl
+#F	hub.eecs.nwu.edu
+#O	Northwestern University
+#C	William LeFebvre
+#E	phil@eecs.nwu.edu
+#T	312-491-5248
+#P	Northwestern Univ. EECS, 2145 Sheridan Rd, Rm. B630, Evanston, IL 60208
+#L	42 03 33 N / 87 40 32 W
+#R
+#U	chinet.chi.il.us, igloo.scum.com, tellab5.chi.il.us, jpusa1.chi.il.us
+#W	phil@eecs.nwu.edu (William LeFebvre); Mon Jul  8 15:22:05 CDT 1991
+#
+nucsrl	.nwu.edu, .eecs.nwu.edu
+nucsrl	nwu.edu, eecs.nwu.edu
+nucsrl=	eecs.nwu.edu
+#
+# *nucsrl*
+# Toll phone calls in Chicago area:
+nucsrl	att(DEMAND), chinet(DEMAND),
+	laidbak((DIRECT+DEMAND)/2), iit((DIRECT+DEMAND)/2), jpusa1(DEMAND),
+        tellab5((DIRECT+DEMAND)/2),igloo(DEMAND),obdient(DEMAND),sol(HOURLY*2)
+#
+# High-speed connections:
+nucsrl	oddjob(DEDICATED)
+#
+# Other:
+nucsrl	gore(POLLED)
+#
+#
+
+#N	obdient.chi.il.us, obdient
+#S	Trillian Power Systems PS386; Microport SysV/386 3.0.e.1, Merge
+#O	Obedient Software Corporation
+#C	Doug Blair
+#E	obdient!news
+#T	+1 708 682 8401
+#P	117 West Park Circle Drive Suite 102, Wheaton IL 60187
+#L	41 51 N / 88 08 W
+#W	blair@obdient (Doug Blair) Fri Dec 27 09:42:31 CST 1991
+#U	amiganet danger eternal homer ks25 laidbak marcal tellab5 yclept
+#
+obdient= obdient.chi.il.us
+obdient	abacab(POLLED),
+	amiganet(EVENING+FAST),
+	balr(DEAD+FAST),
+	chinet(DEAD+FAST),
+	clout(EVENING+FAST),
+	ddsw1(DEAD+FAST),
+	danger(POLLED+FAST),
+	eternal(POLLED),
+	fineart(EVENING),
+	gagme(DEAD+FAST),
+	homer(EVENING+FAST),
+	ks25(POLLED+FAST),
+	laidbak(DEMAND+FAST),
+	mcdchg(WEEKLY+FAST),
+	simon(EVENING+FAST),
+	tellab5(DEMAND+FAST),
+	vpnet(DEAD+FAST),
+	wheaton(EVENING+FAST),
+	yclept(DEMAND+FAST)
+
+#N	.uchicago.edu, oddjob
+#S	SUN-3/280 UNIX
+#O	University of Chicago; Deparment of Astronomy and Astrophysics
+#C	Matt Crawford
+#E	matt@oddjob.uchicago.edu
+#T	+1 312 702 8207
+#P	5640 S. Ellis Avenue, Chicago IL 60637
+#L	41 47 32 N / 87 36 08 W
+#R	aka oddjob.UChicago.EDU [128.135.4.2]
+#W	oddjob!matt (Matt Crawford); Thu Dec 20 11:09:59 1990
+#
+oddjob  gargoyle(LOCAL), clout(LOCAL), ncar(DEMAND), rutgers(DEMAND)
+oddjob  ".uchicago.edu"(LOCAL)
+oddjob = oddjob.uchicago.edu
+
+#N	odgate
+#S	DECstation 5000; ULTRIX 4.1
+#O	Odesta Corporation
+#C	David Strieby
+#E	odgate!evad
+#T	+1 708 498 5615 x320
+#P	4084 Commercial Ave., Northbrook, IL 60062
+#L	42 08 N / 87 52 W
+#U	aegis clout ecgcurly homebru marcal tellab5 mtcgate
+#U	odesta sunbird
+#W	odgate!evad (David Strieby); Tue Oct 15 13:06:32 CDT 1991
+#R	This is the gateway machine to the odesta.com domain
+#R	We use the COURIER HST dual standard HST/V.32/V.42/V.42BIS.
+#
+odgate .odesta.com
+odgate = odesta.com
+odgate = .odesta.com
+odgate = odgate.odesta.com
+odgate	aegis(DEMAND), clout(DEMAND), ecgcurly(DEMAND), homebru(EVENING),
+	marcal(DEMAND), odesta(DEMAND), sunbird(DEMAND),
+	tellab5(DEMAND), mtcgate(EVENING)
+
+#N	orion
+#S	Amiga 2000; AmigaDOS 1.3.1; AmigaUUCP 1.13
+#O	JRW and Associates
+#C	Jonathan R. Wahlmann
+#E	orion!jrw
+#T	+1 217 228 1561, +1 217 223 3211 x115
+#P	21 Wilmar Orchard, Quincy, IL., 62301-6801
+#L	39 57 40 N / 41 22 51 W
+#R	This is my personal machine.  It should be listening at any time.
+#U	quintro
+#W	orion!jrw (Jonathan R. Wahlmann); Thu May 23 14:00:00 CDT 1991
+#
+orion	quintro(DIRECT)
+
+#N	sdi.com, orpheo
+#F	uunet.uu.net
+#S	DEC VAX3100 Model 30; VMS V5.3
+#O	Systems by Design of Illinois
+#C	Joel R. Finkel
+#E	orpheo!postmaster
+#T	+1 312 769-4776
+#P	2317 W. Farragut Chicago, IL  60625
+#L	41 51 N / 87 39 W city
+#R	Software consulting services in the VAX/VMS domain
+#U	uunet
+#W	orpheo!postmaster (Joel R. Finkel); Tue Jun 26 19:00:00 CDT 1990
+#
+orpheo	.sdi.com
+#
+orpheo	= orpheo.sdi.com
+orpheo	= sdi.com
+#
+orpheo	uunet(DEMAND)
+
+#N	outback
+#S	IBM AT clone; MSDos 3.30
+#O	Makers of Wonderful Whirly Wombat Widgets
+#C	Jon Scheer
+#E	outback!wombat
+#P	1471 N Smith Rd, Palatine, Il  60067
+#L	42 08 06 N / 088 02 55 W
+#R	IBM AT clone running UUPC/extended 1.09c; receives some newsgroups.
+#W	outback!wombat (Jon Scheer); Thu Jan 24 14:16:42 CST 1991
+#
+outback= outback.chi.il.us
+outback	mcdchg(DAILY/2),
+	illusion(DAILY)
+
+#N	paa
+#S	Sun 4/75; Sun OS 4.1.1
+#O	Parkinson & Assoc.
+#C	Kent Parkinson
+#E	paa!root
+#T	+1 317 463 2103
+#P	209 E. Navajo, W. Lafayette, IN 47906
+#L	40 25 N / 86 52 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Fri Feb 14 14:51:55 EST 1992
+#U
+#
+paa	uunet(DEMAND)
+
+#N	pallas
+#S	AT&T 6836-376; Unix V.3.2.1
+#O	West Lake Computers
+#C	Lee Bertagnolli
+#E	!pallas!lbert359
+#T	+1 217 529 0359
+#P	34 Hazel Lane, Springfield, IL 62707
+#L	088 12 W / 38 20 N
+#R	Authors of UBBS, operators of pubnet Minnie BBS,  (217) 789-7888
+#R      Four lines, USR Dual Standards,  V42bis.
+#R      Previous update 05/15/91.
+#U	
+#W	pallas!lbert359 (Lee Bertagnolli); June 24, 10:30:00 CDT 1991
+#	
+pallas .athenanet.com(LOCAL)
+pallas= pallas.athenanet.com
+pallas bradley(DAILY)
+pallas nstar(DAILY)
+
+#N	panasun
+#S 	SUN 4/75; SunOS 4.1.1
+#O	Panasonic Factory Automation
+#C	Ken Marks
+#E	panasun!postmaster
+#T	+1 708 452 2425
+#P	9401 W. Grand Ave, Franklin Park, IL 60131
+#L	41 55 34 N / 087 51 24 W
+#U	balr
+#W	panasun!ken (Ken W. Marks); Wed Sep  4 08:43:46 CDT 1991
+panasun		balr(HOURLY), dabble(DEAD), obs(DEAD)
+
+#N	paudin
+#S	AT&T 3B1; System V 3.5
+#O	Private node
+#C	Paul C. Dinger
+#E	paudin!pcd
+#T	+1 708 355 4119
+#P	650 S. Wild Cherry Rd., Naperville, IL 60540
+#L	41 46 01 N / 88 10 03 W
+#R	Used for e-mail and software development
+#U	yclept
+#W	paudin!pcd (Paul C. Dinger); Thu Feb 28 19:50:00 CST 1991
+#
+paudin	= paudin.chi.il.us
+paudin	yclept(DAILY)
+
+#N	pcquote
+#S	Sun 3/60
+#O	PC Quote
+#C	David Kogan
+#E	pcquote!root
+#T	+1 708 820 5210
+#P	550 N. Commons Suite 120 Aurora, IL 60504
+#L	41 45 N / 88 19 W city
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Fri Oct 26 20:27:40 EDT 1990
+#U
+#
+pcquote	uunet(DEMAND)
+
+#N	pell
+#S	Atari ST; MiNT 0.6/TOS 1.4
+#O	Department of Atomic Text Units
+#C	David Parsons
+#E	pell!orc
+#T	+1 312 327 7154
+#P	3101 North Kenmore #1, Chicago, IL 60657
+#R	Latitude/Longitude are estimated.
+#U	vpnet
+#L	41 52 N / 87 40 W city
+#W	pell!orc (David Parsons); 30 Mar 91 16:45:00 CST
+#
+pell	vpnet(WEEKLY)
+
+#N	pga	
+#S	IBM AT Compatible 386
+#O	Paul Guggenheim & Associates, Inc.
+#C	Paul Guggenheim
+#E	pga!root
+#T	+1 708 498 2299
+#P	601 Skokie Blvd., Northbrook, IL 60062
+#L	42 07 N / 87 49 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Wed Feb  7 15:53:25 EST 1990
+#U
+#
+pga	uunet(DEMAND)
+
+#N	point
+#S	Intel '486 (25 mhz); ISC 2.2 unix
+#O	none (privately owned)
+#C	Bill Kuykendall
+#E	point!wek
+#T	+1 312 338 0563
+#P	1419 W. Estes, Chicago, IL 60626
+#L	87 40 00 W / 42 01 00 N
+#R	Located in Rogers Park area (North Shore) of Chicago
+#U	ddsw1
+#W	point!wek (Bill Kuykendall); Sun Sep 30 15:54:36 CDT 1990
+#
+point 	ddsw1(DAILY/4)
+
+#N	poot
+#S	AT&T 7300; AT&T SysVr?
+#O	Chinet, Public Access Unix
+#C	Randy J. Suess 
+#E	Randy@chinet
+#T	+1 312 545 7535
+#P	5505 W. Belmont Chicago, Ill 60641
+#L	87 39 W / 41 54 N 
+#R		
+#U	chinet 
+#W	poot!randy (Randy J. Suess); Sun Dec 11 08:00:00 CDT 1988
+#
+poot	chinet(DIRECT)
+
+#N	pronet, pronet.chi.il.us
+#S	386/33 MHz AT; ESIX SysV3.2 Rev D.
+#O	Proto's personal system.
+#C	Mike  Protofanousis
+#E	pronet!msp
+#T	+1 708 724 0744
+#P	405 Warren, Glenview, IL 60025
+#L	42 05 N / 87 55 W
+#R	This is a personal use system.
+#U	
+#W	gagme!greg (Gregory Gulik); Tue Nov 20 13:19:04 CST 1990
+#
+pronet=	pronet.chi.il.us
+pronet	gagme(DAILY)
+
+#N	protech
+#S	DEC VAX-11/750 running ATT V.3.2
+#O	ProTech Computer Group, Inc.
+#C	Cletus J. Welsch
+#E	welsch@protech.chi.il.us
+#T	+1 708 879 1566
+#P	143 First Street, Batavia, IL 60510
+#L	41 51 13 N / 88 18 41 W Batavia
+#R
+#U
+#W	welsch@protech.chi.il.us (Cletus J. Welsch); Thu Nov 21 17:46:06 CST 1991
+#
+protech = protech.chi.il.us
+protech	clout(DEMAND)
+
+#N	prowlr.chi.il.us, prowlr
+#S	AT&T 7300/3b1, running AT&T SysV3.5.1.4
+#O	Prowlr - Private Node
+#C	Paul Giovacchini
+#E	prowlr!orac
+#T	+1 312 728 2358
+#P	2545 W. Bryn Mawr, Chicago, Il. 60659
+#L	41 59 N / 87 43 W
+#R	Used for personal gratification.
+#U
+#W	prowlr!orac (Paul Giovacchini) Sun Jan 06 08:21:12 CST 1990
+#
+prowlr= prowlr.chi.il.us
+prowlr	chinet(DIRECT), clout(DIRECT)
+
+#N	pswin.chi.il.us, pswin
+#S	80386 clone; SCO Unix 3.2r2
+#O	White Oak Software Inc.
+#C	Henry C. Barta
+#E	pswin!barta
+#T	+1 708 462 6909
+#P      0 S 258 Park St. / Winfield, IL 60190
+#L	41 51 53 N / 88 09 41 W
+#W	pswin!barta (Henry C. Barta); Wed Jan 01 11:29:39 CST 1992
+#
+#
+pswin	=	pswin.chi.il.us
+pswin	vpnet(DAILY)
+
+#N	rauland
+#S	sco unix 3.2
+#O	Zenith Electronics
+#C	Scott Nemec
+#E	rauland!root
+#T	+1 708 450 8130
+#P	2407 North Avenue, Melrose Park, IL 60160
+#L	41 54 / 87 51 W city
+#R	
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Mon Oct  1 20:10:59 EDT 1990
+#U
+#
+rauland	uunet(DEMAND)
+
+#N	reaper
+#S	Commodore-AMIGA 2000; Amiga-DOS V1.3 & Amiga-UUCP
+#O	
+#C	Michael Marvin Morrison
+#E	reaper!postmaster
+#T	+1 708 490 0812
+#P	1330 Valley Lake Drive Apt 321, Schaumburg, Il.  60195
+#L	
+#R	
+#U	
+#W	miroc!caw (Chris Wichura) ; Sun Dec 08 18:33:40 CST 1990
+#
+reaper=	reaper.chi.il.us
+reaper	miroc(POLLED)
+
+#N	redstar, f639.n115.z1.fidonet.org
+#S	IBM AT - MS-DOS 5.0
+#O	The Red Star Mail System
+#C	Joel Veeneman
+#E	redstar!joel
+#T	+1 708 683 4428
+#P	P.O. Box 7, Burlington, IL 60109
+#L	42 03 17 N / 88 32 30 W
+#R	Fidonet address 1:115/639
+#U	apres
+#W	stjhmc!ddodell (David Dodell); Thu Aug 15 07:40:00 MST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+redstar=	redstar.fidonet.or, f639.n115.z1.fidonet.org
+redstar	apres(EVENING+HIGH)
+
+#N	reliable
+#S	Motorola Delta Series
+#O	Motorola, Inc.  General Systems Group/Advanced Manufacturing Technology
+#C	Troy Monaghen
+#E	reliable!troym
+#T	1(312)632-6499
+#P	1501 W. Shure Drive S144, Arlington Heights, Il 60004
+#L	40 17 N / 86 18 W city
+#U	reliable
+#W	reliable!troym (Troy Monaghen); Mon Nov 20 14:16:00 1989 CST
+#
+reliable	amtfocus(LOCAL)
+
+#N	reltek
+#S	386; SCO Unix 2.3
+#O	Rel-Tek Systems & Design, Inc.
+#C	Bille Hamilton
+#E	reltek!root
+#T	+1 312 335 2000
+#P	900 N. Franklin, Suite 708, Chicago, IL 60610
+#L	41 51 N / 87 39 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Mon Oct  7 12:07:36 EDT 1991
+#U
+#
+reltek	uunet(DEMAND)
+
+#N	renegade
+#S	Amiga; AmigaDOS 2.0
+#O	D.O.C. Data Processing Systems
+#C	Russell Rezaian
+#E	austral!postmaster
+#T	+1 708 961 0926
+#P	P.O.Box 479 Naperville, IL 60566-0479
+#L	41 44 30 N / 88 07 30 W
+#R	This is my news machine.
+#U	amiganet
+#W	rrezaian@austral (Russell Rezaian) Thu Oct  3 15:06:02 CDT 1991
+#
+renegade	amiganet(DIRECT), austral(DEDICATED), zed(DEDICATED)
+
+#N	rfmnet
+#S	Unix PC (3b1); AT&T Unix 3.5.1.4
+#O	RFM Publications
+#C	Arjay Kimmel
+#E	rfmnet!root
+#T	+1 312 897 1070
+#P	1295 Nantucket, Aurora Illinois 60506
+#L	41 46 30 N / 088 16 13 W city
+#R	RFM Publications private system, AKCS conference node
+#W	kendra!drew (Drew Derbyshire); Sun Sep 17 21:05:00 EDT 1989
+#U	chinet
+#
+# Connection information.
+#
+rfmnet	ddsw1(DAILY/4), igloo(DAILY/4), chinet(DAILY/2)
+
+#N	rices
+#S	AMI 386/16; DRDOS 5.0 ; UUPC 1.10a
+#O	Northrop - Electronics Systems Division
+#C	W. Scott Rice
+#E	postmaster@rices
+#T	+1 708 259 9600 x24756
+#P	912 Oxford Court, Palatine, IL  60067
+#L	42 02 30 N / 88 01 04 W  [city]
+#R	rices is also rices.dsd.northrop.com
+#U	ast
+#W	scott@rices (W. Scott Rice); Tue Aug 6 21:30 CDT 1991
+#
+rices	ast(DAILY/4)
+rices	dsd.northrop.com
+#
+rices = rices.dsd.northrop.com
+
+#N	richp1
+#S	Unisys U5000/80
+#O	Rich Inc.
+#C	James McCarthy, Mark Tribbia 
+#E	richp1!postmaster
+#T	+1 708 574 7424 x2509, +1 708 574 7424 x2504
+#P	1400 Kensington, Oakbrook, IL 60521
+#L	41 49 N / 87 56 W
+#R	Rich is owned by Reuters and makes equipment for the financial market.
+#U	richsun
+#W	veener@richsun.reuter.com (Steven H. Veeneman) ; Wed Feb 21 17:07:28 CST 1990
+#	
+richp1	richsun(LOCAL)
+
+#N	richsun
+#S	Sun 3/280 BSD 4.2 release 4.0.3
+#O	Rich Inc.
+#C	Jamie Matlack, Mark Tribbia
+#E	postmaster@richsun.uucp, elvis@richp1.uucp
+#T	+1 708 574 7424 x2505, +1 708 574 7424 x2504
+#P	1400 Kensington, Oakbrook, IL 60521
+#L	41 49 N / 87 56 W
+#R	Rich is owned by Reuters and makes equipment for the financial market.
+#U	mcdchg 
+#W	jamie@richsun.cpg.trs.reuter.com Jamie Matlack; Sep 20 11:31:13 CDT 1990
+#	
+richsun = cpg.trs.reuter.com
+richsun uunet(HOURLY), rvka(LOCAL), mcdchg(HOURLY), sunloop(HOURLY)
+
+#N	ringsoft
+#S	Commodore Amiga 3000, AmigaUUCP V1.15
+#O	Ring Software
+#C	Jim Ring
+#E	ringsoft!jring
+#T	+1 708 232 0009
+#P	726 E. State St., Geneva, IL  60134
+#L	41 47 N / 88 05 W CITY
+#R	Software/Hardware Sales of Amiga Systems/Video Systems
+#W	jring@ringsoft (Jim Ring) Fri Nov 22 23:30:00 CDT 1991
+#U	amiganet
+#
+ringsoft	amiganet(POLLED)
+
+#N	royko
+#S	AT&T 7300 aka UNIX PC; System V 3.51dG1
+#O	Chicago Software Works
+#C	Karl Swartz, Marty Masters
+#E	royko!kls, royko!mgm
+#T	+1 408 223 1308, +1 708 639 5885
+#P	7518 Silver Lake Rd., Cary, IL 60013
+#L	42 12 N / 88 16 W city
+#U	ditka mcdchg
+#W	royko!kls (Karl L. Swartz); Fri Oct 25 01:25:12 PDT 1991
+#R
+#	Willing to accept connections for mail and limited news
+#	feeds.  Reachable via PC Pursuit.  (Rabid routers NOT
+#	welcome.)
+#
+royko = royko.chicago.com
+royko	att(HOURLY+FAST),	butkus(HOURLY+FAST),	ditka(DEMAND+FAST),
+	<homebru>(HOURLY+FAST),	mcdchg(HOURLY+FAST),	mgweed(HOURLY),
+	mini(EVENING+FAST),	<mv>(HOURLY+FAST),	obdient(HOURLY+FAST),
+	penl0p(POLLED),		simon(HOURLY+FAST),	zinn(EVENING+FAST)
+
+#N	rpslmc
+#S	Sun 386i/250 SunOS 4.0.2
+#O	Rush Presbyterian-St. Lukes Medical Center
+#C	Brian Wolfe
+#E	rpslmc!postmaster
+#T	+1 312 942 5781
+#P	1753 W. Congress Pkwy, Chicago, IL 60612
+#L	41 50 N / 87 45 W city
+#R	This will be the gateway for the rpslmc.edu
+#R	domain sometime soon.
+#R	Would be willing to feed news to one more site via TB+.
+#W	rpslmc!bwolfe (Brian Wolfe); Wed Feb 21 12:39:38 CST 1990
+#U	chinet
+#
+rpslmc	clout(DIRECT+FAST), chinet(DIRECT+FAST), uicbert(DEAD),
+	siss81(DIRECT+FAST) 
+
+#N	sacs, sacs.com
+#S	AT&T 3B2; SVR3.1
+#O	Siegfried and Associates Consulting Services
+#C	Gregg Siegfried
+#E	postmaster@sacs.com, grs@sacs.com
+#T	+1 708 369 4936
+#P	1363 Ivy Lane #104 Naperville, IL 60563
+#L	41 47 N / 88 05 W city
+#U	nwnexus
+#W	grs@sacs.com (Gregg Siegfried); Mon Dec  2 19:45:29 CST 1991
+#
+sacs =  sacs.com
+sacs	.sacs.com(LOCAL)
+satori = satori.sacs.com
+sacs	satori(DEDICATED), nwnexus(DEMAND), <att>(DIRECT),
+	mcdchg(DIRECT+FAST), uunet(DEMAND)
+
+#N	safco0
+#S	SCO Unix Sys. V
+#O	SAFCo Corporation
+#C	Ken Grabowski
+#E	safco0!keg
+#T	+1 312 631 6216
+#P	6060 Northwest Highway, Chicago, IL 60631
+#L	41 51 N / 87 39 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Oct 17 12:06:42 EDT 1991
+#U
+#
+safco0	uunet(DEMAND)
+
+#N	safe
+#S	i80386 clone; SCO XENIX 386 System V 
+#O	Private Node
+#C	Mark Pecen
+#E	safe!mpecen
+#T	+1 708 619 4673 (w)
+#P	38 Steeple Ridge Ct., Oak Brook, IL 60521
+#L	41 49 N / 87 55 W city
+#R
+#U	
+#W	safe!mpecen (Mark Pecen); Fri Jan 24 08:48:59 CST 1992
+safe	.chi.il.us
+safe =	safe.chi.il.us
+safe	wheaton(DEMAND), mtcgate(DEMAND), clout(DEMAND)
+
+#N	sandv
+#S	Tandy Color-Computer 3; OS-9 Level II Release 2.0.1
+#O	SandV BBS
+#C	Paul Jerkatis
+#E	sandv!sysop
+#T	+1 708 579 1314
+#P	341 Newberry Ave, LaGrange Park, IL, 60525
+#L	41 47 0 N / 087 57 0 W city
+#R	StG-Net BBS, OS9/CoCo support, at 708-352-0948 3/12/24 - 8N1
+#U
+#W	sandv!sysop (Paul Jerkatis); Mon Dec 24 08:00:00 CDT 1990
+#
+sandv	vpnet(DAILY/3)
+
+#N	sarstar
+#S	INTEL 386; System V 3.2.2.3
+#O	SMD Services
+#C	George Sims
+#E	sarstar!root
+#T	+1 708 612 9024
+#P	8263 Janes, Ste H, Woodridge, IL 60517
+#L	41 42 05 N / 88 01 50 W
+#R	Computer Consulting, LANs, Graphics, Desktop Publishing
+#U	
+#W	sarstar!root (George Sims) Sat Nov 16 01:19:39 CDT 1991
+#
+sarstar		clout(DEMAND)
+
+#N	sashimi
+#S	Mylex 386-20 8MByte; UNIX Sys V.3.2
+#O	The Sushi BBS
+#C	David Vrona    
+#E	sashimi!postmaster
+#T	708/367-1870
+#P	P.O. Box 8201 Vernon Hills, IL  60061
+#L	87 59 30 W / 42 13 35 E
+#R	Public Access UNIX running AKCS BBS software.  708/367-1871
+#U	
+#W	sashimi!dave (David Vrona) Fri Feb  8 12:03:29 CST 1991
+#
+sashimi	ddsw1(EVENING), atiunix(DAILY/6)
+
+#N	sdsi
+#S	Plexus P35; UNIX System V Release 2
+#O	Software Development Systems, Inc.
+#C	David Ziffer
+#E	sdsi!dfz
+#T	+1 312 971 8170
+#P	4248 Bell Air Lane, Downers Grove, IL, 60515
+#L	41 47 N / 88 09 W
+#R	
+#U
+#W	laidbak!stevea (Steve Alexander);Thu Sep  7 10:59:53 CDT 1989
+#
+sdsi	laidbak(DEMAND)
+
+#N	secapl
+#F	uunet.uu.net
+#S	IBM Risc/6000 Model 320H; AIX 3.1
+#O	Security APL, Inc.
+#C	David H. Pfister
+#E	dhp@farstar.secapl.com
+#T	+1 312 263 5990
+#P	135 South LaSalle, Suite 2412, Chicago IL 60603
+#L	41 53 N / 87 38 W
+#R	
+#U	
+#W	dhp@farstar.secapl.com (David Pfister); Sat Nov 2 13:11:59 CST 1991
+#
+secapl	.secapl.com(LOCAL)
+secapl	=secapl.com
+secapl	uunet(DEMAND+FAST)
+
+#N	seich
+#S	IBM mainframe (4300 series); VM/CMS
+#O	SEI Information	Technology, Chicago
+#C	Carmen Pacelli
+#E	seich!cp000
+#T	+1 312 440 8322
+#P	450 East Ohio Street, Chicago, Il 60611-3360
+#L	87 40 W / 41 53 N
+#R	SEI is a technical consulting firm
+#U	seila
+#W	seich!cp000 (Carmen Pacelli); Wed May 23 21:00:00 PST 1990
+#
+seich	seila(DAILY/2)
+
+#N	severian
+#S	Sun 4/60; SunOS 4.0.3c
+#O	Private Node
+#C	Matt Crawford, Wendy Nather
+#E	matt@severian.chi.il.us, pooh@severian.chi.il.us
+#T	+1 312 702 8207 (work)
+#P	420 S. Home, Oak Park, IL 60302, USA
+#L	41 50 30 N / 87 47 04 W
+#R	This *is* the New Sun.
+#U	
+#W	matt@severian.chi.il.us (Matt crawford); Mon Feb 12 21:08:03 CST 1990
+severian=	severian.chi.il.us
+severian	oddjob(DEMAND), clout(EVENING)
+
+#N	sga
+#S	AT&T 3B2/1000 ; Sys V.3
+#O	Slavic Gospel Association
+#C	Doug Smith
+#E	sga!dougs
+#T	+1 708 690-8900
+#P	Box 1122/Wheaton, IL 60189, U.S.A
+#L	41 52 20 N / 88 06 15 W
+#R	
+#U	wheaton
+#W	sga!dougs ; Wed Oct  2 11:26:25 CDT 1991
+# 
+sga	wheaton(DIRECT)
+
+#N	shrlok
+#S	AT&T 3B1; AT&T UNIX System V Version 3.5
+#O
+#C	James H. Jennings
+#E	shrlok!jhj
+#T	+1 708 351 4771
+#P	49 Stonefield Drive, Glendale Heights, IL 60139
+#R	Home computer
+#U      
+#W	shrlok!jhj (James H. Jennings); Wed Aug  1 16:46:50 CDT 1990
+#
+shrlok	abacab(DIRECT+LOW)
+
+#N	sig01
+#S	AT&T Starserver E; Sys. 5
+#O	The Signature Group
+#C	Steve Levin
+#E	sig01!root
+#T	+1 708 605 7230
+#P	200 N. Martingale Rd., Schaumburg, IL 60173
+#L	42 02 N / 88 05 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Dec 17 10:01:12 EST 1991
+#U
+#
+sig01	uunet(DEMAND)
+
+# u.usa.il.2 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

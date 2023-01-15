@@ -1,0 +1,1958 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.fra.1
+: This archive created: Thu Jun 30 16:14:09 1988
+echo shar: extracting u.fra.1
+cat << 'SHAR_EOF' > u.fra.1
+# u.fra.1; changes to: uucpmap@inria.uucp
+
+# subdoms of .fr within FNET, and x400 sites accessible through emu.
+# this lattest information is not garanteed to be acurate
+
+pamir	.aristote
+pamir	.cea.fr
+pamir	.cnes.fr
+pamir	.cnet.fr
+# pamir	.edf.fr
+
+inria	.fr
+afuu	.afuu.fr
+axis	.axis.fr
+bdblues	.altair.fr
+bullfr	.bull.fr
+cerisi	.cerisi.fr
+chorus	.chorus.fr
+cicb	.cicb.fr
+crcge1	.cge.fr
+crin	.crin.fr
+csinn	.capsogeti.fr
+edfder1	.der.edf.fr
+emsesmc	.emse.fr
+ens	.ens.fr
+enst	.enst.fr
+ftc	.framentec.fr
+gipsy	.gipsi.fr
+ilog	.ilog.fr
+imag	.imag.fr
+inria	.inria.fr
+irisa	.irisa.fr
+laas	.laas.fr
+lri	.lri.fr
+metradt	.metra.fr
+poly	.poly.fr
+sept	.sept.fr
+tls-cs	.cert.fr
+uparis8	.unip8.fr
+
+
+#N	aandco
+#S	SUN 3/50, UNIX 4.2 et Syst V
+#O	Arthur Andersen et Compagnie
+#C	Pascal Boosz
+#E	aandco!postmaster, inria!renard
+#T	+33 1 42910606
+#P	tour GAN, CEDEX 13, F-92082, Paris la Defense, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: 871129 inria!devill
+#U	
+#
+
+aandco loupiac(DEAD)
+
+#N	adiris
+#S	
+#O	INRIA, Passerelles internationales
+#C	Yves Devillers
+#E	adiris!postmaster,  inria!postmaster
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#R	Formerly known as Agence de l'Informatique, 
+#	with JL-Bernard (adiris!bernard), at Tour FIAT, La defense, Paris
+#	gateway between french research network (aristote) and csnet.
+#	soon to be integrated (ie: no longer visible) within inria's gateways
+#W	created around 1985, last-mods: inria!devill 860303
+#	
+adiris	inria(LOCAL)
+
+#N	afuu
+#S	CT S/220 - CTIX (UNIX System V.2)
+#O	Association Francaise des Utilisateurs d'Unix
+#C	Said Fawzi
+#E	said@afuu.fr
+#T	+33 1 60191013
+#P	c/o SUPELEC, Plateau de Moulon, F-91190, Gif sur Yvette, France.
+#L	2 11 E / 48 43 N
+#R	
+#W	created: 861008 axis!philip
+#U      
+#
+afuu	.afuu.fr
+
+#N	archi
+#S	Telmat SM90; Unix System V (SMX V.2)
+#O	TIM3-IMAG/INPG Computer Architecture Group
+#C	Gilles BERGER SABBATEL , J.LAURENT
+#E	berger@archi.imag.fr ,laurent@archi.imag.fr
+#T	+33 76 57 46 13
+#P	46 Avenue Felix Viallet, F-38031 Grenoble CEDEX, France.
+#L	5 43 07 E / 45 11 51 N
+#R		
+#W	created:archi!berger 851228, last-mod: inria!devill 871129
+#U		
+#
+archi = archi.imag.fr
+archi	imag(DIRECT)
+
+#N	aztlm
+#S	Perkin-Elmer, Syst. V
+#O	AZ telematique
+#C	Jean Louis Louboungou
+#E	aztlm!postmaster, inria!renard
+#T	+33 1 47 39 95 32
+#P	55 rue Deguingand, F-92300 Levallois, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880229
+#
+aztlm loupiac (DEAD)
+
+#N	axis
+#S	VAX 11/751 - System 5.2.2
+#O	Axis Digital
+#C	Philip Peake
+#E	postmaster@axis.fr
+#T	+33 1 46033775
+#P	135, Rue d'Aguesseau, F-92100 Boulogne, France.
+#L	02 20 E / 48 50 N (city)
+#R	remarks
+#W	philip@axis.fr 870405
+#U      matra afuu
+#
+axis	ace(WEEKLY), inria(DEMAND), ircam(DAILY), inset(WEEKLY), afuu(DEMAND),
+        matra(DAILY/2),  enst(DAILY), polyeur(DEMAND)
+
+#N	bdblues
+#S	Sun3-280
+#O	GIP Altair (Base de donnees avancees)
+#C	Olivier Gremont , Sophie Gamerman
+#E	inria!bdblues!olivier inria!gremont ,inria!bdblues!sophie
+#T	+33 1 39635415
+#P	c/o INRIA, Domaine de Voluceau, BP 105, F-78153 Le Chesnay CEDEX, France.
+#L	2 07 E / 48 50 N (city)
+#R	is "bdblues.altair.fr", .altair.fr subdomain administrator
+#W	inria!devill 870603
+#
+bdblues = bdblues.altair.fr
+bdblues	inria(LOCAL)
+
+#N	bullfr
+#S	SPS9/800 SPIX931 2.4
+#O	Bull SA.
+#C	Jean Larradet, Jean-pierre Wies
+#E	lvbull!jl, lvbull!jpw
+#T	+33 1 49 45 50 65, +33 1 34 62 38 54
+#P	Rue Jean Jaures, F-78340 Les Clayes sous Bois, France.
+#L	1 59 E / 48 49 N (city)
+#R	will be backbone to BULL internal net
+#	former name bull was conflicting with californian site!
+#W	created: 880115 inria!devill, last-mods 880519 inria!devill
+bullfr	inria(DEDICATED)
+
+#N	ceatphn
+#S	SUN 3/160, 4.2BSD
+#O	CEA TPHN/HE
+#C	Francois Marabelle
+#E	ceatphn!postmaster, inria!renard
+#T	+33 1 69 08 75 51
+#P	F-91191, Gif sur Yvette, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880217
+#
+ceatphn loupiac(DEAD)
+
+#N	ccettix
+#S	IBM4381 sous VM, UNIX IX370
+#O	Centre Commun d'Etudes de Telediffusion et de Telecommunications
+#C	Paul Le Lourec
+#E	ccettix!postmaster, inria!renard
+#T	+33 1 99024645
+#P	rue du Clos Courtel, F-35512 Cesson-Sevigne Cedex, France
+#L	1 41 W / 48 05 N
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 871020
+#U	
+#
+ccettix irisa(DEAD)
+
+#N	ccr-p6
+#S	Gould PN9050, UTX-32 2.0 (4.3 BSD + SV)
+#O	Centre de Calcul Recherche
+#	Universite Pierre et Marie Curie (Paris VI)
+#C	Jacky Thibault
+#E	ccr-p6!jt
+#T	+33 (1) 43.54.60.87
+#P	Tour 55-65 1er etage, 4 Place Jussieu, F-75252 Paris CEDEX 05, France.
+#L	2 21 E / 48 52 N (city)
+#R
+#W	vmucnam!humberto 860430, inria!devill 870910
+#U
+#
+ccr-p6	litp(LOCAL)
+
+#N	ccvi
+#S	
+#O	Societe "Computer Communications & Visions" SARL
+#C	Jean Daniel Fekete
+#E	ccvi!postmaster, inria!renard
+#T	+33 1 43 47 19 28 
+#P	38 rue Mauconseil, F-75001 Paris, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880229
+#
+ccvi loupiac (DEAD)
+
+#N	cerci2
+#S	
+#O	CERCI , SEMA-METRA
+#C	J.P. FRADET
+#E	cerci2!fradet
+#T	+33 1 43945710
+#P	56, Rue Salengro, F-94126 Fontenay sous Bois, France.
+#L	2 29 E / 48 51 N (city)
+#R	
+#W	vmucnam!humberto 851027, inria!devill 860903
+#U
+#	
+cerci2	vmucnam(DAILY)
+
+#N	cerisi
+#S	
+#O	CERICS, DESS/ISI
+#C	Jean-Louis Faraut , Jean-Philippe Forestier
+#E	pastpe!cerisi!jlf ,paspe!cerisi!forestie
+#P	Sophia-Antipolis F-06560 Valbonne, France.
+#L	7 07 E / 43 35 N (city Antibes)
+#R	provisiore, provisional
+#W	inria!devill 870319
+#
+cerisi	mirsa(LOCAL)
+
+#N	cetia
+#S	Unigraph SYSV.2 + NFS
+#O	Compagnie Europeene des Techniques de l'Ingenierie Appliquee
+#C	Christian Bertin ,Paul Linares
+#E	cetia!chris ,cetia!li
+#T	+33 94-212005
+#P	150 rue Marcelin Berthelot, Z.I. Toulon-Est, F-83088 Toulon CEDEX, France.
+#L	?
+#R	enregistrement en cours, registration in progress.
+#W	created: inria!devill 870916, last-mod: 871202 inria!devill
+#U	
+cetia gouldfr (DAILY)
+
+#N	cetim
+#S	SUN ??
+#O	Centre technique des Industries Mecaniques
+#C	Yves Perrin
+#E	cetim!postmaster, inria!renard
+#T	+33 1 44 53 32 44
+#P	52 avenue Felix Louat, F-60300 Senlis, France.
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880120, 
+#
+cetim loupiac (DEAD)
+
+#N	chorus
+#S	Sun 3/280 - Sun OS 3.3 (almost 4.3BSD)
+#O	Chorus Systemes
+#C	Sylvain Langlois ,Bruno Pillard
+#E	sylvain@chorus.fr , bp@chorus.fr
+#T	+33 (1) 30570022
+#P	6 Av Gustave Eiffel, F-78180 Montigny Le Bretonneux, France
+#L	2 03 E / 48 47 N (city)
+#R	
+#W	created around 1986, last-mods:inria!devill 871217
+#
+chorus = chorus.fr
+chorus	inria(DEMAND)
+
+#N	cicb
+#S	HB68-Multics (smtp via irisa) (machine UNIX en Juin 88)
+#O	Centre Interuniversitaire de Calcul de Bretagne
+#C	Serge Aumont
+#E	inria!renard
+#T	+33 1 99362000
+#P	Campus de Beaulieu, av. du General Leclerc, F-35042 Rennes CEDEX, France
+#L	
+#R	
+#W	created around 12/1987, last-mods: inira!devill 880323
+#U	
+#
+cicb = cicb.fr
+cicb	irisa(LOCAL)
+
+#N	cict
+#S	SM90, SMX
+#O	CICT, Centre Inter-Universitaire de Calcul de Toulouse
+#C	Claire Gellion
+#E	inria!renard
+#T	+33 61521321
+#P	118 route de Narbonne, F-31062 Toulouse, France
+#L	1 26 E / 43 36 N
+#R	enregistrement en cours, registration in progress.
+#W	
+#U	
+#
+cict	loupiac(DEAD)
+
+#N	cisieng
+#S	SUN , 4.2BSD
+#O	CISI engenierie
+#C	Annie Laforgue
+#E	cisieng!postmaster, inria!renard
+#T	+33 1 93 65 31 31
+#P	bat.les cardoulines, route des dolines, F-06560 Valbonne, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880224
+#
+cisieng loupiac (DEAD)
+
+#N	citil
+#S	SPS7, SMX
+#O	Centre Universitaire de Traitement de l'Information
+#C	M. Temperman
+#E	citil!postmaster, inria!renard
+#T	+33 1 20 43 44 26
+#P	USTL Flandre Artois, Bat.M4, F-59655 Villeneuve d'Ascq CEDEX, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880224
+#	ATTENTION, ce site n'adhere pas tout de suite, il utilise lifl
+	
+citil loupiac (DEAD)
+
+#N	clabs
+#S	olivetti, UNIX Syst V
+#O	Cabinet Derieux, C-Labs
+#C	JP. Ponte
+#E	clabs!postmaster, inria!renard
+#T	+33 1 45 72 64 46
+#P	30 rue d'Armille, F-75017 Paris, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: 871204 inria!renard
+#U	
+#
+clabs loupiac(DEAD)
+
+#N	cmep
+#S	SPS7/70 SMX5.2
+#O	Ecole Polytechnique, Centre de Mathematiques
+#C	Thomas Ehrhard, Michel Demazure
+#E	ehrhard@cmep.poly.fr, demazure@cmep.poly.fr
+#T	+33 (1) 69 41 82 00 [20 86]
+#P	10 route de Saclay, 91128 Palaiseau CEDEX, France.
+#L	2 14 E / 48 43 N
+#W	ehrhard@cmep 880304
+cmep = cmep.poly.fr
+
+#N	cmtspp
+#S	VAX751,4.2BSD
+#O	MATRA ESPACE
+#C	Frederic Pasquier
+#E	cmtspp!pasquier
+#T	+33 61 39 67 96 +33 61 39 61 39  +33 61 39 67 20
+#P	31 Rue des Cosmonautes, ZI du Palays, F-31077 Toulouse CEDEX, France
+#L
+#R
+#W	cmtspp!pasquier 870109
+#U
+cmtspp	tls-cs(DAILY)
+
+#N	cncaltu
+#S	VAX 11/780 - 4.2 BSD - X25/X29 internal (TWICE)
+#O	Caisse Nationale du Credit Agricole, TLM
+#C	Philippe Coudray
+#E	cncaltu!root
+#T	+33 1 30447275
+#P	143 Bd Pasteur, F-75014 Paris, France.
+#L	2 03 E / 48 47 N (city)
+#R	
+#W	vmucnam!humberto 851013, inria!devill 860903
+#
+cncaltu	vmucnam(DAILY)
+
+#N	cnetlu
+#S	IBM 3083 UNIX V (amdahl UTS V (v 1.0)
+#O	Centre National d'Etude des Telecommunications,CNET LAA/ITP/GMI
+#C	Jean-Jacques Adam , Andre Soilleau
+#E	timpit0!cnetlu!adam ,cnetlu!soillea
+#T	+33 96052978
+#P	BP40, route de tregastel, F-22300 LANNION, FRANCE
+#L	3 28 0 W / 48 45 00 N
+#R
+#W	inria!devill 860521
+#U
+#
+cnetlu   timpit0(DAILY), inria(DEMAND)
+
+#N	comitec
+#S	SUN 3/260, UNIX 4.2BSD
+#O	COMITEC
+#C	Pierre Francois Kerviles
+#E	comitec!postmaster, inria!renard
+#T	+33 1 45 83 73 00
+#P	167, rue du chevalleret, F-75013, Paris, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 88/02/04 by inria!renard, last-mods:
+#
+comitec loupiac (DEAD)
+
+#N	compbc
+#S	SUN , 4.2BSD
+#O	Compagnie Bancaire
+#C	M. Barrielle
+#E	compbc!postmaster, inria!renard
+#T	+33 1 45 01 35 80
+#P	5 av. Kleber, F-75116 Paris, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880229
+#
+compbc loupiac (DEAD)
+
+#N	corton
+#S	Gould NP1
+#O	INRIA Rocquencourt, bat8.
+#C	Yves Devillers, Francis Dupont
+#E	corton!postmaster, corton!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	pseudo-site to test/bench network softwares
+#W	
+#
+corton = corton.inria.fr
+corton	inria(HOURLY)
+
+#N	cral
+#S	SPS9, UNIX Syst V
+#O	Universite de Nancy 2, CRAL-CELTA
+#C	M. Barakat
+#E	cral!postmaster, inria!renard
+#T	+33 1 83 96 16 14
+#P	BP 3397, F-54015 Nancy CEDEX, France.
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: 871204 inria!renard
+#U	
+#
+cral loupiac(DEAD)
+
+#N	crcge1
+#S	VAX 750 UNIX 4.2BSD
+#O	Laboratoires de Marcoussis, CRCGE , Division Informatique.
+#C	Patricia PAUTHE
+#E	crcge1!pauthe (pauthe@crcge1.cge.fr)
+#T	+33 1 6449 11 55
+#P	Route de Nozay, F-91460 Marcoussis, France
+#L	2 14 E / 48 39 N (city)
+#R	
+#W	created around 1985, updated: inria!devill 871112
+#U	geocub, litp, lri, edfder1
+#
+crcge1 = crcge1.cge.fr
+crcge1	inria(HOURLY), ircam(HOURLY), geocub(HOURLY), lri(HOURLY),
+	litp(HOURLY)
+
+#N	crin
+#S	DEC VAX 11/785 - UNIX 4.2 Bsd
+#O	Centre de Recherche en Informatique de Nancy ,campus scientifique
+#C	Karl Tombre, Gabrielle Feltin
+#E	tombre@crin.crin.fr, gfeltin@crin.crin.fr
+#T	+33 83.91.21.25, +33 83.91.21.26
+#P	B.P. 239, F-54506 Vandoeuvre CEDEX, France.
+#L	6 12 E / 48 41 N (city Nancy)
+#R	all news received from inria, fnet groups sent to prlb2
+#W	created around 1985, tombre@crin.crin.fr 870910
+#U	
+crin = crin.crin.fr
+crin inria (HOURLY), geocub (EVENING), lri (EVENING), litp (EVENING),
+	prlb2 (EVENING)
+
+#N	crnstrg
+#S	SUN, UNIX 4.2
+#O	Centre de Recherche Nucleaire de Strasbourg
+#C	M. Michaud
+#E	crnstrg!postmaster, inria!renard
+#T	+33 1 88 28 65 85
+#P	BP 20, F-67037, Strasbourg CEDEX, France
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created 871204 by inria!renard
+#U	
+#
+crnstrg loupiac(DEAD)
+
+#N	csinn
+#S	
+#O	Cap Sogeti Innovation
+#C	Thomas Grossi , Slavko Kone
+#E	csinn!grossi , csinn!kone
+#T	+33 76 908040
+#P	Chemin du Vieux Chene, Zirst, F-38240 Meylan, France
+#L	5 41 E / 45 14 N (city Sainte-Egreve)
+#R	
+#W	vmucnam!humberto 850620, inria!devill 860903
+#	
+csinn	imag(DAILY)
+
+#N	cueepl
+#S	SPS7
+#O	CUEEP Informatique
+#C	Claude Vieville
+#E	cueepl!postmaster, inria!renard
+#T	+33 1 20 41 16 41
+#P	CES Rimbaud, chemin vert, F-59650 Villeneuve d'Ascq, France.
+#L	?
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880120, 
+#
+cueepl loupiac (DEAD)
+
+#N	cvxfr
+#S	CONVEX  UNIX 4.3 BSD
+#O	CONVEX
+#C	Jean Louis N'Guyen ,Jean-Pierre Thibonnier
+#E	cvxfr!jln, cxvfr!thib
+#T	+33 1 30589300
+#P	le Daguerre, 9 av. Ampere, F-78180 Montigny-le-Bretonneux, France.
+#L	
+#R	En cours, Provisional
+#W	created: 8/87, last mods: inria!devill 871113
+#U	
+#
+cvxfr	inria(DEMAND)
+
+#N	decprl
+#S	microvax, ultrix V2
+#O	DIGITAL PRL
+#C	Henri Gouraud
+#E	inria!renard
+#T	+33 1 
+#P	18 rue Hoche F-92130 Issy-les-Moulineaux, France
+#L	2 17 E / 48 49 N 
+#R	enregistrement en cours, registration in progress.
+#W	created: inria!devill 870916
+#U	
+#
+decprl	loupiac(DEAD)
+
+#N	diox
+#S	Apricot Xen (80286) , Xenix System V Version 2
+#O	Microprest
+#C	Eric Pouyoul , Herve Schauer , Jean-Christophe Hugly
+#E	inria!diox!eric , inria!diox!itecom!schauer , inria!diox!hugly
+#T	+33 (1) 47 26 85 91
+#P	61, Avenue de Paris, F-94800 Villejuif, FRANCE
+#L	
+#R	L'administrateur principal, Eric Pouyoul, est contactable aux heures
+#	de travail au : +33 (1) 40 38 93 00
+#W
+#U	
+diox	inria(WEEKLY), timpit0(WEEKLY)
+
+#N	echbull
+#S	SM90 / SMIX
+#O	Bull Sems Echirolles
+#C	Noel Tuffery , Pascal Beyls
+#E	echbull!klein
+#T	+33 76 098055 [319]
+#P	BP208, F-38432 Echirolles CEDEX, France
+#L	5 41 E / 45 14 N (city Sainte-Egreve)
+#R	
+#W	inria!devill 860903
+#U	tlp,tse
+#
+echbull	lvbull(DAILY), vmucnam(DAILY), inria(DAILY/4)
+
+#N	edfder1
+#S	sps7/50 spix v20(UNIX S.V.2)
+#O	EDF-Direction des Etudes et Recherches
+#C	Alain Tardieu , Mr. Devauze
+#E	edfder1!tardieu , edfder1!devauze
+#T	+33 1 47653462
+#P	1, Avenue du general De Gaulle, F-92141 Clamart CEDEX, FRANCE 
+#L	2 16 E / 48 48 N (city)
+#R	
+#W	edfder1!tardieu 860224, inria!devill 860903
+#
+edfder1	inria(DAILY)
+edfder1=der.edf.fr
+
+#N	elsasft
+#S	SUN, UNIX 4.2
+#O	ELSA software
+#C	Porto Gallo
+#E	elsasft!postmaster, inria!renard
+#T	+33 1 46 30 24 55
+#P	F-92366 Meudon la Foret CEDEX, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 871218 inria!renard
+#
+elsasft loupiac(DEAD)
+
+#N	emu
+#S	SPS7 SPIX 5
+#O	GIP systemes informatique
+#C	Bernard Laborie
+#E	emu!x400boy gipsy!laborie
+#T	+33 1 39635442
+#P	Domaine de Voluceau, BP 105, F-78153 Le Chesnay CEDEX, France.
+#L	2 07 E / 48 50 N (city)
+#R	gateway to aristote, french X400 research network.
+#W	inria!devill 870218
+#U
+#
+emu = emu.inria.fr
+emu	inria(LOCAL)
+
+#N	emsesmc
+#S	sm90	smxV.1 (unix V)
+#O	Ecole des Mines de Saint Etienne
+#C	Paul Andre Pays
+#E	emsesmc!pays
+#T	+33 77420174
+#P	158, Cours Fauriel, F-42023 Saint-Etienne CEDEX 2, France
+#L	4 22 E / 45 26 N
+#R	
+#W	emsesmc!pays 860520 inria!devill 860930
+#	
+
+# Local network (operational : July '86)
+emsether	=	{emsesmc, emsesm0, emseapl, emsx400, emsevc }!(DEMAND)
+
+#N	enpc
+#S	SUN ou GOULD, UNIX 4.3 BSD et Syst.V
+#O	Ecole Nationale des Ponts et Chaussees
+#C	Rene Lalement
+#E	enpc!postmaster, inria!renard
+#T	+33 1 43044098
+#P	ENPC-CERMA BP105, F-93194, Noisy le Grand, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created 871129 inria!devill
+#U	
+#
+enpc loupiac(DEAD)
+
+#N	ens
+#S	VAX11/785 Ultrix
+#O	Ecole Normale Superieure, Labo D'informatique
+#C	Josiane Vinh, Dominique Gascuel
+#E	ens!ehrlich , ens!gascuel
+#T	
+#P	45 Rue d'Ulm, F-75005 Paris
+#L	2 21 24 E / 48 52 01 (city)
+#R
+#W	inria!devill 860903
+#U
+#
+ens	inria(WEEKLY)
+
+#N	ensl
+#S	Matra MS 1326, Unix BSD4.2
+#O	Ecole Normale Superieure de Lyon
+#C	Jean-Louis Moisy
+#E	ensl!moisy
+#T	+33 72728036
+#P	46,Allee d'Italie,  F-69364 Lyon CEDEX 07, France.
+#L	4 51 E / 45 45 N
+#R	
+#W	created: 88/02/15 inria!devill, last-mods:
+#U	
+#
+ensl	imag(DEMAND)            
+
+#N	enst
+#S	VAX11/785 / UNITY (5.2.3)/VMS 4.5
+#O	Ecole Nationale Superieure de Telecommunications
+#C	Philippe Dax, Guillaume Gerard
+#E	enst!dax enst!gege
+#T	+33 1 45817648
+#P	46, Rue Barrault, F-75634 Paris CEDEX 13, France.
+#L	2 21 24 E / 48 52 01 N (city)
+#R	UNITY under VMS. enst was enstvax before new version of UNITY. ARGH!
+#R	enst is a passive site called by inria and axis. runs CWI-uucp
+#W	created around 1985, last mod by inria!devill 871001
+#U	
+#	
+enst = enstvax
+
+
+#N	esegif
+#S	
+#O	SUPELEC, Ecole Superieure d'Electricite
+#C	Daniel Clar
+#E	esegif!dc
+#T	+33 1 39418040
+#P	SUPELEC, Plateau du Moulon, F-91190 Gif sur Yvettes, France
+#L	0 12 w / 48 57 N
+#R	
+#W	vmucnam!humberto 850519, inria!devill 860903
+#	
+esegif	inria(DAILY)
+
+#N	esemetz
+#S	SPS9-60 ROS
+#O	Ecole Superieure d'Electricite Etablissement de Metz
+#C	Patrick Mercier, Philippe Depalle
+#E	esemetz!mercier, esemetz!phd
+#T	+33 87 74 43 33
+#P	2 rue Edouard Belin, Technopole de Metz, F-57078 Metz CEDEX 3, France
+#L
+#R
+#W	esemetz!mercier 870517
+#U
+
+#N	esiee
+#S	Apollo
+#O	Ecole Superieure d'Ingenieurs en Electrotechnique et Electronique
+#C	Bernadette Miara
+#E	esiee!postmaster, inria!renard
+#T	+33 1 45926568
+#P	Cite Descartes, 2 bd Blaise Pascal, F-93162 Noisy-le Grand CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	
+#U	
+#
+esiee loupiac(DEAD)
+
+#N	etca
+#S	sps7/70 SMXV.2
+#O	Etablissement Technique Central de l'Armement
+#C	Philippe Clermont, Didier Irlande
+#E	etca!phc, etca!di
+#T	+33 1 42 31 98 25, +33 1 42 31 96 59
+#P	ETCA/CREA 94114 Arcueil
+#L	
+#R	
+#W	created: 871204 inria!renard, last-mods: 880504 inria!devill
+#U	
+etca	litp(HOURLY)
+
+#N	ftc
+#S	Compaq286 Venix
+#O	Framentec SA.
+#C	Remi Saccoman, Nhuan Do Duc
+#E	ftc!remi, ftc!ndoduc
+#T	+33 1 47 96 46 31, +33 1 47 96 46 33
+#P	Tour FIAT, F-92084 Paris La Defense CEDEX, France
+#L	
+#R	Developpement en intelligence artificielle (systemes experts)
+#R	Formerly located at "La Boursidiere, F-92357 Le Plessis-Robinson"
+#W	ftc!root 870218
+#U	
+ftc = ftc.ftc.fr
+ftc	inria(HOURLY)
+
+ftcnet = {ftc, ftcvax, ftcsun3}!(LOCAL)
+
+#N	geocub
+#S	vax 11/780 UNIX 4.3bsd
+#O	GRECO de Programmation du CNRS
+#C	Patrick Henry
+#E	geocub!henry
+#T	+33 56 80 73 82
+#P	Universite de Bordeaux 1, 351 cours de la liberation, F-33405 Talence CEDEX, France.
+#L	0 34 W / 44 50 N (city Bordeaux)
+#R	Plaque tournante des chercheurs francais en Informatique Fondamentale.
+#W	created: around 1984, last mod: inria!devill 870916
+#U
+#
+geocub	crcge1(DAILY), inria(DAILY), ircam(DAILY), leg(DAILY), litp(DAILY),
+	ogesml0(DAILY), vmucnam(DAILY)
+
+#N	giemer
+#S	SUN, UNIX 4.3
+#O	GIE Emeraude
+#C	M. Legait
+#E	giemer!postmaster, inria!renard
+#T	+33 1 
+#P	co. EUROSOFT, 36 bd Henri Sellier BP145, F-92154 Suresnes CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	
+#U	
+#
+
+giemer loupiac(DEAD)
+
+#N	gipsy
+#S	VAX 11/750 4.2BSD
+#O	GIP Systemes Informatiques
+#C	Guy Vaysseix
+#E	gipsy!vaysseix
+#T	+33 1 39635697
+#P	C/O INRIA, BP 105, F-78153 Le Chesnay CEDEX, France.
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#U
+#
+gipsy = gipsy.gipsi.fr
+gipsy	inria(LOCAL)
+
+
+#N	gouldfr
+#S	Gould Power Node 6080 UTX-32 2.0 (4.3 BSD + SV + NFS)
+#O	Gould Informatique S.A.
+#C	Humberto Caria Lucas
+#E	gouldfr!humberto
+#T	+33 1 34606101
+#P	Rue Michael Faraday, F-78390 Bois d'Arcy, France
+#L	2 01 E / 48 48 N (city)
+#R	
+#W	vmucnam!humberto 851019
+#U
+#
+gouldfr	afuu(DAILY)
+
+#N	goupilfr
+#S	Goupil G50, UNIX System V Release 3.0
+#O	SMT-Goupil
+#C	Scott HERZINGER (parle anglais), Catherine EZVAN (parle francais)
+#E	inria!goupilfr!scotth, inria!goupilfr!cath
+#T	+33 1 43 99 15 15
+#L	2 24 E / 48 45 N
+#R	Scott HERZINGER speaks english, Catherine EZVAN parle francais.
+#P	3 rue des archives, F-94000 Creteil, France
+#W	created: 871204 inria!renard, last-mods: 880607 inria!devill
+#U	
+goupilfr inria(DAILY)
+
+#N	gsitecsi
+#S	Sun3/260  Sun UNIX 3.3
+#O	GSI-Tecsi
+#C	Francois KAAG , Pierre CELNIK
+#E	tecsi!kaag , tecsi!celnik
+#T	+33 1 47781530
+#P	6 cours Michelet, F-92064 Paris La Defense Cedex 52 , France
+#L	xxx E / yyy N
+#R	
+#W	created: inria!devill 870916, modified:inria!devill 871029
+#U
+gsitecsi crcge1(DAILY)
+
+#N	ilog
+#S	Sun 3/260
+#O	ILOG Intelligence Logicielle
+#C	Pascal Kuczynski ,Eugen Neidl
+#P	2, Avkuczynski , ilog!neidl
+#T	+33 1 46636666
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	inria!devill 870424
+#U
+#
+ilog	inria(HOURLY)
+ilog = ilog.fr
+
+#N	imag
+#S	Vax 11/785, Unix BSD4.3
+#O	Institut d'informatique et de Mathematiques Appliques de Grenoble
+#C	Pierre Laforgue, Eric Paire
+#E	pierre@imag.imag.fr, paire@hal.imag.fr
+#T	+33 76 51 46 30, secretary: +33 76 51 46 32
+#P	Institut IMAG, B.P.68, F-38402 St. Martin D'Heres, France.
+#L	5 46 E / 45 12 N
+#R	
+#W	created:imag!pierre 860513, last mod: inria!devill 871129
+#U
+#
+imag = imag.imag.fr
+imag	csinn(DEMAND), inria(DEMAND),
+	lifia(DIRECT), archi(DIRECT),
+	tuniscni(DAILY), tunisisg(DAILY)
+
+#N	inagri
+#S	IRIS 3130 UNIX System 5
+#O	Institut National de l'Audiovisuel - Groupe Recherche Image
+#C	Armand Fellous, Tom Nadas
+#E	inagri!armand, inagri!tom
+#T	+33 1 48758010, +33 1 43875858 X:219
+#P	4, avenue de l'Europe, F-94360 Bry-sur-Marne, France.
+#L	2 21 E / 48 52 N
+#W	created around 05/87, last-mods:inria!devill 871121
+
+inagri uparis8(HOURLY)
+
+#N	inria
+#S	VAX11/785 UNIX 4.2BSD
+#O	Institut National de Recherche en Informatique et Automatique
+#C	Yves Devillers
+#E	inria!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	
+#W	inria!devill 860903
+#U	mcvax, axis, crcge1, crin, echbull, poly, 
+#U	gipsy, gouldfr, imag, ircam, lvbull, timpit0,
+#U	tls-cs, vmucnam
+#
+inria = inria.inria.fr
+# uucp sites on same ether (in rocquencourt, sophia or rennes)
+inria	bdblues(LOCAL), corton(LOCAL), emu(LOCAL), gipsy(LOCAL),
+	loupiac(LOCAL), mirsa(LOCAL), irisa(LOCAL)
+
+# FNET sites
+inria	adiris(DEMAND), axis(DEMAND), bullfr(DEDICATED), cerci2(DEMAND),
+	chorus(DAILY/4), cmep(DEMAND),
+	cncaltu(DEMAND), crcge1(DEMAND), crin(DEMAND),
+	cvxfr(DEMAND), 
+	echbull(DEMAND), ecrcvax(DEMAND), edfder1(DEAD), 
+	emsesmc(DEMAND), ens(DEMAND), enst(DEMAND), 
+	esegif(DEMAND), esemetz(DEMAND), geocub(DEMAND),
+	gouldfr(DEMAND), imag(DEMAND), ircam(DEMAND),iris(DEMAND),
+	irisa(DEMAND),
+	laas(DEMAND), lasso(DEMAND), litp(DEMAND),
+	lri(DEMAND), lvbull(DEMAND), masbull(DEMAND),
+	ogesml0(DEMAND), orion1(DEMAND), pastpe(DEAD), poly(DEMAND),
+	robotpe(DEDICATED), sept(DAILY),
+	timpit0(DEMAND), telic7(DEAD),
+	tls-cs(DEMAND), uparis8(DEMAND), vmucnam(DEMAND)
+
+# European inter-backbone links
+inria	mcvax(ARPA-1), cernvax(ARPA), enea(ARPA), unido(ARPA), ukc(ARPA),
+	prlb2(ARPA), tuvie(ARPA), 
+	diku(ARPA), dkuug(ARPA-1),
+	i2unix(ARPA), penet(DEAD), tut(DEAD), goya(DEAD)
+
+
+# Other International, non backbones links
+inria	icot(DAILY), lln-cs(DAILY), arco(DAILY)
+
+# inria is the official manager of .fr domain, and a proper gateway.
+inria	.fr
+
+#N	ipgetg
+#S	CONVEX C1 4.2 BSD
+#O	Institut de Physique du Globe - Laboratoire de sismologie
+#C	Jean Remy , Alexandre Nercessian
+#E	ipetg!alex
+#T	+33 1 43362525 [4896] ou [4778]
+#P	Tour 14 4e etage, 4 place Jussieu, F-75252 Paris, France
+#L	2 36 E / 4885 N
+#R
+#W	inria!ehrlich 870424
+#U
+ipgetg	inria(DAILY/2)
+
+#N	ircam
+#S	VAX 750 4.2 BSD
+#O	Institut de Recherche et Coordination Acoustique/Musique
+#C	Michel Fingerhut
+#E	ircam!mf
+#T	+33 1 42770105
+#P	31 rue Saint-Merri, F-75004 Paris, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	ircam!mf 870831
+#U
+#
+ircam	cernvax(DAILY), crcge1(DAILY),
+	diku(DAILY), enea(DAILY), inria(DAILY/2),
+	lri(DAILY), ogesml0(DAILY),
+	ukc(DAILY), unido(DAILY),
+	urubu(DAILY/2), vmucnam(DAILY)
+
+
+#N	iris
+#S	SM90 SMX5.2
+#O	Ecole des Mines de Saint Etienne
+#C	Jean-Francois Chambon, Paul Andre Pays
+#E	iris!chambon, emsesmc!pays
+#T	+33 77420180
+#P	158 Cours Fauriel, F-42023 Saint-Etienne CEDEX 2, France.
+#L	4 22 E / 45 26 N
+#R	messagerie de la recherche accessible par minitel, a l'ADI jusqu'en 87
+#R	research mail-system through minitel, formerly at ADI until Dec 86.
+#R	emse-inet=iris, emsesmc, smia, smapl, smopt, sps90, sps91, moon, sun1, sun2
+#R	IP adress: 192.031.211.xxx (operational : July 86)
+#W	created around end of 1986, modified: inria!devill 871029
+#
+iris = iris.emse.fr
+iris	emsesmc(DAILY)
+
+#N	irisa
+#S	SM90 SMX 
+#O	Institut de Recherche en Informatique et Systemes Aleatoires.
+#	INRIA Centre de Rennes. LA CNRS 227.
+#C	Raymond Trepos ,Didier Lamballous
+#E	irisa!trepos , irisa!lamballa
+#T	+33 99 362000
+#P	Avenue du General Leclerc, F-35042 RENNES Cedex, France
+#L	1 41 W / 48 05 N(city)
+#R	
+#W	inria!devill 860903
+#	
+irisa	inria(DAILY/2), vmucnam(DAILY), ucaen(DAILY/4)
+
+
+#N	isemvax
+#S	Vax 750 BSD4.2
+#O	Laboratoire ISEM de l'Universite Paris-Sud/Orsay
+#C	Guy Bernard
+#E	isemvax!gb
+#T	+33 (1) 69-41-65-79
+#P	Bat 490. Universite Paris-Sud. F-91405 Orsay CEDEX, France.
+#L	2 10 E / 48 42 N (city)
+#R	
+#W	created around 85 inria!devill, last-mods: 871210 inria!devill
+#U	
+#
+isemvax	lri(HOURLY)
+
+
+#N	isys
+#S	THOMSON MICROMEGA 32 (V7)
+#O	Informatique Systemes Isys
+#C	Patrick Chevalier, Herve Schauer
+#E	isys!pat, isys!herve
+#T	+33 1 47 74 94 34
+#P	8 Square Leon Blum, F-92800 Puteaux, France.
+#L	48 53 N / 2 14 E (city)
+#R	
+#W	isys!pat 870223
+#U	
+isys	diox(DAILY), itecom(WEEKLY), uparis8(WEEKLY)
+
+#N	itecom
+#S	Apricot Xen Xenix
+#O	Informatique et Techniques de Communication
+#C	Herve Schauer
+#E	itecom!schauer, itecom!hugly
+#T	+33 (1) 42 61 41 34
+#P	5bis, Boulevard des Italiens, F-75002 Paris, France.
+#L	2 21 E / 48 52 N (city)
+#R	
+#W	itecom!schauer 870225
+#U	
+itecom	diox(DAILY),	geocub(DAILY),	isys(WEEKLY)
+
+#N	itmi
+#S	SUN 3/160
+#0	Industrie et Technologie de la Machine Intelligente
+#C	Patrick Stelmaszyk Bruno Bouyssounouse
+#E	itmi!stelma itmi!bb
+#T	+33 76 90 33 81
+#P	Chemin des Pres, F-38240, Meylan, France.
+#L	
+#R	
+#W
+#U	lifia
+itmi	lifia (DAILY/3)
+
+#N	iutstrg
+#S	SM90 (Telmat bi-proc), MPX
+#O	IUT Strasbourg Sud
+#C	Roland Stutzmann
+#E	iutstrg!postmaster, inria!renard
+#T	+33 1 88676390
+#P	72 route du Rhin, F-67400 Illkirch Graffenstaden, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created:inria!renard 871026, last-mod: inria!devill 871113
+#	Was "iutss" until 871113
+#U	
+#
+iutstrg = iutss
+iutstrg loupiac(DEAD)
+
+#N	laas
+#S	VAX780 ULTRIX32 V1.2
+#O	C.N.R.S.-L.A.A.S
+#C	Danielle BARTHE, Ralph SOBEK
+#E	laas!danielle,laas!ralph
+#T	+33 61336424 61336266
+#P	7 av du colonel Roche, F-31077 Toulouse CEDEX, France.
+#L	1 48 E / 43 50 N
+#R	gateway to domain .laas.fr
+#W	created: inria!devill 870915, last-mod: inria!devill 871004
+#U
+
+#N	lasso
+#S	
+#O	LAAS - Laboratoire d'Automatique et d'Analyse des Systemes du CNRS
+#C	Ralph P. Sobek
+#E	lasso!ralph
+#T	+33 61 252147 [317]
+#P	7, avenue du Colonel-Roche, F-31077 Toulouse CEDEX, France.
+#L	1 26 E / 43 36 N (city)
+#R	
+#W	inria!devill 860903
+#
+lasso	inria(DAILY/2)
+
+#N	lifia
+#S	Vax 11/750, Unix BSD4.3
+#O	Laboratoire d'Informatique Fondamentale et d'Intelligence Artificielle
+#C	Henri SAYA,Fano RAMPARANY
+#E	saya@lifia.imag.fr , fano@lifia.imag.fr
+#T	+33 76 433766 [379] ou [384]
+#P	LIFIA -  46 Avenue Felix Viallet, F-38031 Grenoble CEDEX, France.
+#L	05 43 06 E / 45 11 52 N
+#R	
+#W	created: lifia!saya 860619, last-mod: inria!devill 871129
+#U	
+#
+lifia = lifia.imag.fr
+lifia	imag(DIRECT)
+
+#N	lifl
+#S	SUN, UNIX
+#O	Laboratoire d'Informatique Fondamentale de Lille
+#C	Richard Olejnik
+#E	lifl!postmaster, inria!renard
+#T	+33 1 20434716
+#P	USTL Flandre Artois (CNRS 369), Bat.M3, F-59655 Villeneuve d'Ascq CEDEX, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created:inria!renard 871026
+#U	
+#
+lifl loupiac(DEAD)
+
+#N	limsi
+#S	VAX730/UNIX 4.3 BSD
+#O	LIMSI/CNRS
+#C	Bernard Merienne, Patrice Ringot
+#E	merienne@limsi.uucp, ringot@limsi.uucp
+#T	+33 1 69858127, +33 1 69858067
+#P	Universite PARIS Sud, bat.508, BP30, F-91406 Orsay CEDEX, France
+#L	2 10 E / 48 43 N
+#R	
+#U	
+limsi	lri(POLLED)
+
+#N	litp
+#S	VAX11/780 Unix 4.3BSD
+#O	CNRS-LITP, Universites Paris6-Paris7
+#C	J.Guidon, Y.Legrandgerard, C.Simian
+#E	litp!jg  litp!ylg  litp!cs
+#T	+33 1 43299096, +33 1 43362525 X:5370, X:5422
+#P	2 Place Jussieu, F-75005 Paris, France.
+#L	2 21 24 E / 48 52 01 N (city)
+#R	Machine utilisee par 2 autres formations CNRS (MASI et LAFORIA)
+#W	created around 1985, last mod: inria!devill 870915
+#U	
+litp	crcge1(DEMAND),	geocub(DEMAND),	ircam(DEMAND),	lri(DEMAND),
+	crin(DEMAND),	arco(DEMAND)
+
+#N	logirep
+#S	68000, Syst V
+#O	Societe de logiciels d'informatique repartie
+#C	M. Maillot
+#E	logirep!postmaster, inria!lechantre
+#T	+33 1 69 28 70 37
+#P	square Charles Peguy BP 52, F-91404 Orsay, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!lechantre 880217
+#
+logirep loupiac(DEAD)
+
+#N	lpso
+#S	micro, UNIX Syst V
+#O	Laboratoire de Physique des Solides
+#C	Alan Braslau
+#E	lpso!postmaster, inria!renard
+#T	+33 1 69 41 53 93 
+#P	Bat. 510, Universite Paris-Sud, F-91405 Orsay, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880329
+#
+lpso inria(DAILY)
+
+#N	lri
+#S	Vax 750, 4.3BSD
+#O	Laboratoire de Recherche en Informatique, CNRS UA410
+#C	Roland Dirlewanger, Francis Capy
+#E	rd@lri.fr, fc@lri.fr
+#T	+33 1 69 41 64 01
+#P	Universite Paris-Sud, Batiment 490, F-91405 Orsay CEDEX, France.
+#L	2 10 E / 48 42 N (city)
+#W	created around 1985, last-mods: inria!devill 871117
+lri	inria(DEMAND), uiag(DAILY), litp(DAILY), crcge1(DAILY),
+	crin(DAILY),isemvax(LOCAL), geocub(DAILY)
+lri	.lri.fr
+lri=lri.lri.fr
+
+
+
+#N	lrp
+#S	SUN 3/50, 4.2BSD
+#O	Laboratoire de Mecanique et Robotique de Paris CNRS
+#C	M. Osorio
+#E	lrp!postmaster, inria!renard
+#T	+33 1 43 54 69 73
+#P	BP 340, F-75229 Paris CEDEX 05, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880329
+#
+lrp limsi(DEAD)
+
+#N	lvbull
+#S	Mini6, V7 + 4.2BSD extensions
+#O	Bull
+#C	Christain Remy , Bernard Massicot
+#E	lvbull!cr , lvbull!bernard
+#T	+33 1 39025583 39025060
+#P	Poste Courrier 33/05, 68 Route de Versailles, F-78430 Louveciennes, France.
+#L	2 07 E / 48 52 N (city)
+#R	
+#W	lvbull!jim 860530, inria!devill 860903
+#U
+#
+lvbull	hrc63(DAILY/2), emsesmc(HOURLY), echbull(DAILY),
+	vmucnam(HOURLY), inria(DEMAND), timpit0(DEAD), imag(DAILY),
+	ecrcvax(DAILY/2)
+
+LVBnet = {lvbull}!(LOCAL)
+
+#N	masbull
+#S	VAX 780 4.3 BSD
+#O	BULL MTS
+#C	Marc QUIPOURT, Jacques DAVY
+#E	masbull!quipourt, masbull!davy
+#T	+33 (1) 64 47 95 55, +33 (1) 64 47 68 57
+#P	7, rue Ampere, 91343 Massy CEDEX, France
+#L	2 17 E / 48 49 N (approx)
+#R
+#W	861207 inria!devill, 871030 inria!devill
+#U
+masbull	echbull(WEEKLY)
+
+#N	matra
+#S	Sun3
+#O	Matra Data Systemes
+#C	Christian Mercier-Laurent , Jean-Michel Feuvre
+#T	+33 1!cml matra!jmf
+#P	1, Avenue Niepce, F-78180 Montigny le Bretonneux, France.
+#L	2 03 E / 48 47 N (city of St Quentin)
+#R
+#W	inria!devill 860917
+#
+matra inria(DEMAND)
+	
+#N	metradt
+#S	Microvax II Ultrix 32m 1.2
+#O	SEMA-METRA, direction technique recherche et developpement
+#C	Charles Abecassis
+#E	metradt!charles
+#T	+33 1 46571300 X:2107
+#P	16-18, rue Barbes, F-92126 Montrouge, France
+#L	2 09 E / 48 50 N
+#R	
+#W	created: inria!devill 870127, last mod:inria!devill 870915
+#
+metradt=metradt.metra.fr
+metradt	inria(DEMAND)
+
+#N	metrotia
+#S	Tolerant / BSD
+#O	Metrologie, techniques informatique avancees
+#C	Jean-Claude Vau, Alain Lechevallier
+#E	metrotia!jcvau, metrotia!alechevallier
+#T	+33 1 47917452, +33 1 47906240 X:5209
+#P	La tour d'asnieres, 4 Av. Laurent Cely, F-92606 Asnieres CEDEX, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	provisoire
+#W	created by inria!devill 870909
+#
+metrotia	inria(DEMAND)
+
+#N	mirsa
+#S	gould PN9000
+#S	bsd 4.2
+#O	Centre de Sophia-Antipolis,
+#	Institut National de Recherche en Informatique et Automatique
+#C	Luc Ottavj, Guy Sergeant , Daniel Terrer
+#E	mirsa!ottavj, mirsa!sergeant , mirsa!terrer
+#T	+33 93 657888
+#P	INRIA Sophia Antipolis, Route des Lucioles, F-06560 Valbonne, France.
+#L	7 07 E / 43 35 N (city Antibes)
+#R	will soon replace pastpe.uucp
+#W	created: 871120, last-mod:inria!devill 871120
+#
+mirsa=mirsa.inria.fr
+mirsa	inria(LOCAL), cerisi(LOCAL)
+
+#N	nixdorfr
+#S	targon, UNIX Syst V
+#O	NIXDORF Lyon
+#C	Hubert Bottazi
+#E	nixdorfr!postmaster, inria!renard
+#T	+33 1 72 34 96 46
+#P	86, chemin de la courtille, F-69110 Sainte Foy les Lyon, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880120, 
+#
+nixdorfr loupiac (DEAD)
+
+#N	nsl
+#S	ORION1 4.2BSD
+#O	Non Standard Logics
+#C	Alain Deutsch, Said Kharrazen
+#E	nsl!ad	nsl!said
+#T	+33 (1) 43367750
+#P	57/59 Rue Lhommond
+#	75005 Paris, France
+#W	nsl!ad	880119
+
+nsl	lri(DAILY*2)
+
+#N	ogesml0	
+#S	
+#O	Centre National d'Etudes de Telecommunications ,CNET PAA/OGE/SML
+#C	Uli Finger
+#E	ogesml0!uli
+#T	+33 1 46384168
+#P	38-40 rue du General Leclerc, F-92131 Issy de Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	timpit0
+#
+ogesml0	timpit0(DAILY/2), geocub(DAILY), inria(DAILY), ircam(DAILY),
+	vmucnam(DAILY/2)
+
+#N	onera
+#S	SUN 3/60, 4.2BSD
+#O	ONERA
+#C	Melle Boisseau
+#E	onera!postmaster, inria!lechantre
+#T	+33 1 46 57 11 60 [26 19]
+#P	29, av de la division leclerc BP 72, F-92322 Chatillon CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!lechantre 880217, last-mods: 880418 inria!devill
+#
+onera inria(DAILY)
+
+#N	pamir
+#S	SPS7/70, SMX 5.2
+#O	INRIA, relai vers aristote-X400
+#C	Catherine Pierre-Radenac
+#E	pamir!postmaster, inria!renard
+#T	+33 1 39 63 52 61
+#P	Domaine de Voluceau, BP 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	enregistrement en cours, registration in progress
+#	will soon replace emu as rfc987 gateway between aristote and rfc-world
+#W	created: inria!renard 880421
+#
+pamir 	inria(LOCAL)
+
+#N	pastpe
+#S	PERKIN ELMER 3254 UNIX SV.2
+#O	Centre de Sophia-Antipolis,
+#	Institut National de Recherche en Informatique et Automatique
+#C	Patrice Cipiere
+#E	pastpe!pc pastpe!postmaster
+#T	+33 93 657865
+#P	INRIA Sophia Antipolis, Route des Lucioles, F-06560 Valbonne, France
+#L	7 07 E / 43 35 N (city Antibes)
+#R	
+#W	pastpe!pc 860527, inria!devill 860903
+#
+pastpe 	inria(DAILY/4), cmape(DAILY)
+
+#N	poly
+#S	VAX 8600 ULTRIX32 (1.2)
+#O	Ecole Polytechnique - Centre Informatique
+#C	Mme dominique Moret-Astier , Gerard Guillerm
+#E	poly!domi,poly!geg 
+#T	+33 69418200 ext 2873
+#P	route de saclay, F-91128 Palaiseau CEDEX, France.
+#L	2 15 E / 48 43 N (city)
+#R	is also FRPOLY11.BITNET, was frpoly.uucp
+#W	created around 1985, last_mod:inria!devill 871004
+#U
+#
+poly = frpoly
+
+#N	polyeur
+#S	Vax Station II ULTRIX 2.0
+#O	POLYGEN Europe Limited
+#C	Brigitte Carrabin
+#E	polyeur!brigitte
+#T	+33 1 45601161
+#P	25, rue du pont des halles, F-94666 Rungis CEDEX, France.
+#L	
+#R	recently moved from paris to rungis
+#W	created:polyeur!brigitte 870625, last-mod: inria!devill 871204
+#U
+
+#N	pommard
+#S	VAX11/785 UNIX 4.2BSD
+#O	Institut National de Recherche en Informatique et Automatique
+#C	Yves Devillers
+#E	inria!devill
+#T	+33 1 39635596
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	virtual site:
+#R	Mail backbone will switch to (several) SPS7 called "inria"
+#R	Vax785, formerly known as "inria" will be known as "pommard"
+#W	inria!devill 870430
+#U	inria
+#
+pommard = pommard.inria.fr
+pommard	inria(LOCAL)
+
+#N	provisu
+#S	Counter point, UNIX Syst. V rel. 2 
+#O	Aurline Provisuel 
+#	
+#C	M. Fouche
+#E	
+#T	+33 1 48560179
+#P	13 rue Rosenwald, F-75000 Paris, France 
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created around 9/87 inria!devill
+#U	
+#
+provisu	loupiac(DEAD)
+
+#N	resin
+#S	SUN 3/60, BSD 4.3
+#O	CICB
+#C	Jean Paul Leguigner, Serge Aumont
+#E	resin!postmaster, inria!renard
+#T	+33 1 99 36 20 00 [369 ou 371]
+#P	campus de Beaulieu, F-35042 Rennes CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880422
+#
+resin irisa
+
+#N	sagem
+#S	SAGEM , UNIX Syst.V
+#O	SAGEM
+#C	M.Leblanc
+#E	inria!renard
+#T	+33 1 30737070 [3223]
+#P	2 rue du petit Albi BP 8250, F-95801, Cergy Pontoise CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress	
+#W	created: inria!devill 870916
+#U	
+#
+sagem	loupiac(DEAD)
+
+#N	sept
+#S	SUN3/160 SUNOS 3.2
+#O	Service d'Etudes Communes des Postes et Telecommunications
+#C	Jacques Meneut, Jean-Michel Coolen
+#E	sept!meneut, sept!coolen
+#T	+33 31 55 91 16, +33 31 55 91 14
+#P	Pericentre V, 53 Avenue de la cote de Nacre, F-14040 CAEN Cedex, France
+#L	00 41 E / 49 22 N
+#R	Monetique et courrier electronique
+#W	created by inria!devill 870804. sept!meneut 870827
+#U
+
+sept inria(HOURLY)
+
+#N	sfgl
+#S	SPS7/70 SPIX21
+#O	European Advanced Scientific T, Societe Franciase de genie logiciel
+#C	Pierre Menard, Gilles Le Saint
+#E	sfgl!hard, sfgl!gls
+#T	+33 48 25 09 09
+#P	98 Rue du Chateau, F-92100 Boulogne, France.
+#L	02 20 E / 48 50 N (city)
+#R	was east until 880417
+#W	created: 880204 inria!devill, last-mods: 880417 inria!siksik
+#U
+sfgl = east
+sfgl	inria(DAILY)
+
+#N	sligos
+#S	VAX 730, ULTRIX V1.2
+#O	Societe SLIGOS
+#C	Nicolas Treves, Thanh Huynh
+#E	nt@sligos, htt@sligos
+#T	+33 1 49 02 27 22, +33 1 49 02 26 23
+#P	BP49, F-92067 Paris la Defense, France
+#L	2 13' E  48 75 N
+#R	Configuration susceptible d'evoluer vers un serveur SUN 3/280
+#W	created:inria!renard 871026, last-mods: 880105 inria!devill
+#U
+sligos lri(DAILY)
+
+#N	sogelo
+#S	SPS7/70, SPIX22
+#O	Societe francaise de genie logiciel
+#C	Jean Pierre Menard
+#E	sogelo!postmaster, inria!renard
+#T	+33 1 48 25 09 09
+#P	98, rue du chateau, F-92100, Boulogne, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created 88/02/05 by inria!renard
+#
+sogelo loupiac (DEAD)
+
+#N	sunfra
+#S	SUN, UNIX Syst V et 4.2 BSD
+#O	SUN microsystems
+#C	Mme Decerle
+#E	inria!renard
+#T	+33 1 46302324
+#P	La Boursidiere, F-92357 Le Plessis-Robinson, France 
+#L	
+#R	enregistrement en cours, registration in progress.
+#W	created around 1/88 by inria!devill, last-mods: 88/04/18 inria!devill
+#U	
+sunfra	inria(DAILY)
+
+#N	syminex
+#S	HP, BSD 4.2 et Syst V
+#O	societe SYMINEX
+#C	M. Broguiere
+#E	syminex!postmaster, inria!renard
+#T	+33 1 91 73 90 03
+#P	2 bd. de l'ocean, F-13009 Marseille, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880505
+#
+syminex loupiac(DEAD)
+
+#N	synergie
+#S	SUN
+#O	Societe Synergie
+#C	Mme Huynh
+#E	synergie!postmaster, inria!renard
+#T	+33 1 47 66 01 27
+#P	102 bd. Malesherbes, F-75017 Paris, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 871204 inria!renard
+#U	
+#
+synergie loupiac(DEAD)
+
+#N	syseca
+#S	SUN, Unix BSD4.2
+#O	SYSECA LOGICIEL
+#C	M. Legait
+#E	inria!renard
+#T	+33 1 49117385
+#P	315,bureaux de la colline, F-92213 Saint Cloud, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!devill 870916
+#U	
+#
+syseca	inria(DAILY)
+
+#N	tdi
+#S	CONVEX C1 XP2 - CONVEX UNIX, RELEASE V6.0
+#O	Thomson Digital Image
+#C	Tom Nadas
+#E	postmaster@tdi
+#T	+33 1 43875858
+#P	22, rue Hegesippe Moreau, 75018 PARIS
+#L	48 50 N / 02 20 E	city (Paris)
+#R	registration in progress
+#W	created: inria!devill 880229
+#
+tdi	axis(DEMAND)
+
+#N	tdx
+#S	zilog 110, UNIX Syst V 
+#O	TDX
+#C	JMichel Blanchet
+#E	tdx!postmaster, inria!renard
+#T	+33 1 43 42 59 25
+#P	80 rue du faubourg Saint Antoine, F-75011 Paris, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 871204 inria!renard
+#U	
+#
+tdx loupiac(DEAD)
+
+#N	telic7	
+#S	Intel 310, Xenix 3.4
+#O	La Telephonie Industrielle et Commerciale
+#	TELIC ALCATEL - Unite de recherche
+#C	Carlo Tumpich, Jean-Pierre Aubert
+#E	telic7!ct, telic7!jpa
+#T	+33 88 79 44 18 ext 7344 or ext 7025	
+#P	15,17 Rue du Marechal Lefebvre, F-67100 Strasbourg, France
+#L	7 47 00 E /48 33 00 N
+#R	using system V release 3 uucp.
+#W	created: inria!devill 860908, last_mods: 871208 inria!devill
+#U	
+#
+telic7  inria(DAILY)
+
+#N	texasfr
+#S	S 1500, Syst V
+#O	Texas Instruments France
+#C	Ly Nghia-Hung
+#E	texasfr!postmaster, inria!lechantre
+#T	+33 1 
+#P	HS-15 BP 5, F-06270 Villeneuve Loubet, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!lechantre 880217
+#
+texasfr loupiac(DEAD)
+
+#N	thasm
+#S	VAX , 4.2BSD
+#O	Thomson sintra, Division ASM
+#C	Melle. Levraux
+#E	thasm!postmaster, inria!renard
+#T	+33 1 93 20 01 40 [36 18]
+#P	chemin des travails BP53, F-06801 Cagnes CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880229
+#
+thasm loupiac (DEAD)
+
+#N	thcgr
+#S	M68K, Unix Sys V R.2
+#O	Thomson CGR.
+#C	Ladji Diakite, Hakam Shapour
+#E	thcgr!ld, thcgr!postmaster
+#T	+33 1 30 70 40 40 Ext 4882
+#P	283, rue de la Miniere, ZI Nord, 78530 Buc, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	created inria!devill 860903, last mod inria!devill 871204
+#U
+#
+thcgr	inria(DAILY)
+
+#N	thdi
+#S	Gould, UTX32
+#O	TDI, Thomson Digital Image
+#C	Alain Nicolas , Tom Nadas
+#E	thdi!tom, thdi!nick
+#T	+33 1 43 87 58 58  x:219 & x:220
+#P	20-22, rue Hegesippe Moreau, F-75018 Paris, France.
+#L	2 21 24 E / 48 52 01 N (city)
+#N	thdi
+#S	CONVEX, UNIX 4.3 BSD et Syst.V
+#O	Thomson Digital Image
+#C	M. Nicolas
+#E	thdi!postmaster, inria!renard
+#T	+33 1 43875858
+#P	20,22 rue Hegesitte Moreau, F-75018 Paris, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created 880106 by inria!renard
+#
+
+#N	times
+#S	NS32-332 UNIX Syst.V.3
+#O	times
+#C	Patrice Rioux, Pierre Portemer
+#E	times!rious, times!portemer
+#T	+33 1 43 36 77 50
+#P	57-59, Rue Lhomond, F-75005 Paris, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	enregistrement en cours, registration in progress
+#W	created: 871202 inria!devill. last-mods: 871214 inria!devill
+#
+times	inria(HOURLY)
+
+#N	timatl1
+#S	SM90, Unix V7
+#O	Centre National d'Etudes de Telecommunication, PAA/TIM/ATL
+#C	Christian Bac
+#E	timpit0!timatl1!chris
+#T	+33 1 45294965
+#P	38-40 Rue du General Leclerc, F-92131 Issy les Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	
+#
+timatl1	timpit0(DAILY), ogesml0(DEMAND)
+
+#N	timpit0
+#S	SM90, Unix V7
+#O	Centre National d'Etudes de Telecommunication, PAA/TIM/ATL
+#C	Christian Bac
+#E	timpit0!chris
+#T	+33 1 45294965
+#P	38-40 Rue du General Leclerc, F-92131 Issy les Moulineaux, France
+#L	2 17 E / 48 49 N (city)
+#R	
+#W	inria!devill 860903
+#U	ogesml0,ogetdt0,
+#
+timpit0	lvbull(DAILY), ogesml0(DAILY), ogetdt0(DAILY),
+	cnetlu(DAILY), timatl1(DAILY)
+
+#N	tls-cs
+#S	VAX 11/750 / UNIX 4.2 BSD
+#O	Cert-Deri Toulouse
+#C	Patrice Cros , Jacques Cazin
+#E	tls-cs!cros , tls-cs!cazin
+#T	+33 61557055
+#P	2 Avenue Edouard Belin,BP 4025 , F-31055 Toulouse Cedex, France
+#L	1 26 E / 43 36 N (city)
+#R	
+#W	tls-cs!cros 860513, inria!devill 860903
+#U
+#
+tls-cs	vmucnam(DAILY), inria(HOURLY), lln-cs(DAILY), prlb2(DAILY),
+	csinn(EVENING), cselt(DEMAND)
+
+#N	trtti
+#S	P9070, UNIX SV R3.3
+#O	TRT, Telecomunications informatiques
+#C	Sega Sako, Pierre Musy
+#E	trrti!sako, trtti!musy
+#T	+33 1 60 05 91 13 X:618
+#P	Bd de Courcerin, Croissy-Beaubourg, F-77324 Marne la Vallee CEDEX 2, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 880310 inria!devill
+#
+trtti	inria(WEEKLY)
+
+#N	trtsv
+#S	SUN, UNIX 4.2
+#O	TRT, Telecommunications Radioelectriques et Telephoniques
+#C	Nicholas Sanvoisin, Philippe Guillet
+#E	trtsv!ns, trtsv!pg
+#T	+33 1 46 30 23 23  x:687 & x:967
+#P	5 av. Reaumur, F-92350 Le Plessis Robinson, France.
+#L	2 16 E / 48 47 N
+#R	enregistrement en cours, registration in progress
+#W	created: 880106 inria!renard
+#
+trtsv  loupiac(DEAD)
+
+#N	ubrest
+#S	micromega, UNIX
+#O	Faculte des Sciences et Techniques, Departement Maths-Informatique
+#C	B. Pottier
+#E	ubrest!postmaster, inria!renard
+#T	+33 1 98 03 16 94  Ext: 774
+#P	6 av. Victor le Gorgeu, F-29283 Brest, France.
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: 871204 inria!renard
+#U	
+#
+ubrest loupiac(DEAD)
+
+#N	ucaen
+#S	SPS7, SMX 
+#O	Universite de Caen
+#C	Jacques Madeleine
+#E	
+#T	+33 1 31455500 [3663]
+#P	Lab. d'informatique , esplanade de la paix, F-14032 Caen CEDEX, France
+#L	
+#R	
+#W	
+#U	
+#
+ucaen	irisa(DAILY/4)
+
+#N	ucfma
+#S	SUN126, UNIX 4.2 et syst V
+#O	Universite Blaise Pascal, Mathematiques Appliquees
+#C	Loui Cataro
+#E	ucfma!postmaster, inria!renard
+#T	+33 1 73264110
+#P	BP45, F-73170 Aubiere, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created:inria!renard 871026
+#U	
+#
+ucfma loupiac(DEAD)
+
+#N	ucfsl
+#S	Sun 3/50 
+#O	Universite Clermont-Ferrand
+#C	Rachel Panckhurst , Lee Fedder
+#E	ucfsl!rachel, ucfsl!lee
+#T	+33 16 73915430
+#P	Labo linguistique 34 av. Carnot, F-63037 Clermont-Ferrand, France.
+#L	
+#R	temporaire, was unicflin
+#W	created: inria!ehrlich 870708, last mod: inria!devill 871202
+#U	
+ucfsl=unicflin
+ucfsl inria(WEEKLY)
+
+#N	upmcdim
+#S	SUN, UNIX 4.2
+#O	Universite Pierre et Marie Curie, Labo. DIM CNRS,
+#C	Jean Pierre Gautier
+#E	upmcdim!postmaster, inria!renard
+#T	+33 1 43 26 09 82
+#P	tour 22, 4 place Jussieu, F-75230 Paris CEDEX 05, France.
+#L	2 21 24 E / 48 52 01 N (city)
+#R	previous name "surya" collided with one already registered
+#W	created: 880106 inria!renard
+#
+upmcdim loupiac(DEAD)
+
+#N	unisys
+#S	U6505, Syst V
+#O	UNISYS
+#C	Didier Lecugy
+#E	unisys!postmaster, inria!renard
+#T	+33 1 30 31 92 42   [34 43]
+#P	palette orange, bd. de l'Oise, F-95015 Cergy Pontoise, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!renard 880505
+#
+unisys loupiac(DEAD)
+
+#N	univorl
+#S	SM90 Bull SMX version 5.1
+#O	Universite d'Orleans, Departement Mathematiques et Informatique
+#C	Luc Bouge , Bernard Lorho
+#E	inria!univorl!bouge, inria!ens!bouge , univorl!lorho
+#T	+33 38 41 71 71 [7626] 38417011
+#	Rue de Chartes, BP 6759, F-45067 Orleans CEDEX 02, France.
+#L	
+#R	Was diorl between 870126 and 870213. diorl is no longer recognised
+#W	univorl!bouge 870217
+#U	
+univorl	inria(DAILY/4)
+
+#N	uparis8
+#S	SM90/SPIX5.1
+#O	Universite Paris 8 (Vincennes a Saint Denis),
+#	Dept Informatique, groupe systeme et reseau
+#C	Jean-Christophe Petithory 
+#E	uparis8!jcp
+#T	
+#P	2 rue de la Liberte, F-93231 Saint-Denis CEDEX, France.
+#L	2 12 E / 48 56 N (city)
+#R
+#W	inria!devill 870106
+#
+uparis8 = vincennes
+
+#N	urouen
+#S	Sun 3/260
+#O	Universite de Rouen, Faculte des sciences, LIR
+#C	Jean-Pierre Pecuchet, Alain Cardon
+#E	urouen!pecuchet, urouen!cardon
+#T	+33 35 70 55 29
+#P	BP 118, F-76134 Mont Saint Aignan CEDEX, France.
+#L	
+#R	enregistrement en cours, provisional registry.
+#W	created: inria!devill 871204
+#
+urouen	inria(HOURLY)
+
+#N	urubu
+#S	MicroVAX II, Ultrix 32m v1.2
+#O	Dept. Recherches Linguistiques, Universite Paris 7
+#C	Alain de Cheveigne
+#E	urubu!alain
+#T	+33 (1) 43256764
+#P	LLF,4 place Jussieu , F-75252 Paris Cedex 05, France
+#L	2 20 E / 48 52  N (city)
+#R	
+#Wated: created: 870803 inria!devill, last_mods: 871216 inria!devill
+#U
+urubu ircam(DAILY/2)
+
+#N	usersim
+#S	IRIS
+#O	Groupe d'Utilisateurs Syst. Images 3D
+#C	Anne Brotot
+#E	usersim!postmaster, inria!lechantre
+#T	+33 1 43 45 45 43
+#P	33, rue du fbg Saint-Antoine, F-75011 Paris, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!lechantre 880217
+#
+usersim loupiac(DEAD)
+
+#N	utc
+#S	HP350
+#O	Universite technologique de Compiegne
+#C	Harry Claisse, Corine Boscolo
+#E	utc!hclaisse, utc!boscolo
+#T	+33 44 20 99 60 x:2121
+#P	BP 649, F-60206 Compiegne CEDEX, France
+#L	
+#R	enregistrement en cours, registration in progress
+#W	created: inria!devill 880526
+#
+utc	loupiac(DEAD)
+
+#N	vmscnam
+#S	VAX780/VMS3.5/EUNICE3.1
+#O	CNAM - Laboratoire d'Informatique
+#C	Jean-Christophe Hanout
+#E	vmscnam!hanout
+#T	+33 1 42712414 [438]
+#P	292 Rue Saint Martin, F-75141 Paris CEDEX 03, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	vmucnam!humberto 850827, inria!devill 860903
+#U	vmucnam
+#
+vmscnam	vmucnam(DAILY)
+
+cnam-decnet = { vmscnam, iier, iiel }!(DEMAND)
+
+#N	vmucnam
+#S	VAX11/750 / UNIX 4.2BSD
+#O	CNAM - Laboratoire d'Informatique
+#C	Daniel Lippmann, Philippe Razac
+#E	vmucnam!daniel vmucnam!philippe
+#T	+33 1 42712414 [435-585]
+#P	292 Rue Saint Martin, F-75141 Paris CEDEX 03, France
+#L	2 21 24 E / 48 52 01 N (city)
+#R	
+#W	created around 1982, last-mod: inria!devill 871113
+#
+vmucnam	inria(DEMAND)
+
+cnam-net = { vmucnam, lsicnam, sm0cnam }!(DEMAND)
+SHAR_EOF
+:	End of shell archive
+exit 0

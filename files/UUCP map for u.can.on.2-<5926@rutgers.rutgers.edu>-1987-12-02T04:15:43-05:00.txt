@@ -1,0 +1,105 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.can.on.2
+# This archive created: Wed Dec  2 04:15:41 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.can.on.2
+cat << \SHAR_EOF > u.can.on.2
+#	u.can.on.2 : last updated Mon Nov 30 18:27:10 EST 1987
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	To register, send new entry to cbosgd!uucpmap with a Cc to utai!path.
+
+#N	yetti
+#S	Sun 280s; SunOS 3.4
+#O	York University Department of Computer Science
+#C	Terry Lim, Ozan S. Yigit, Eriks Rugelis
+#E	yetti!terry, yetti!oz, yetti!eriks
+#T	+1 416 667 3976, +1 416 667 6308
+#P	4700 Keele Street, North York - ONT., CANADA  M3J 1P3
+#L	43 46 02 N / 79 30 00 W	
+#R
+#U	mnetor geac gen1 yugauss unicus
+#W	yetti!oz (Ozan S. Yigit); Sun Sep  6 16:47:14 EST 1987
+#
+yetti	utgpu(DIRECT), 		# mail connection
+	utzoo(DIRECT), 		# main mail connection
+	mnetor(DIRECT), 	# main news feed and mail connection
+	geac(HOURLY),		# downstream news feed
+	lsuc(DIRECT), 		# mail connection
+	yumath(DIRECT+LOW),
+	yugas(HOURLY),
+	dsmaseg(DAILY), 
+	cmq1(DIRECT), 		
+	gen1(HOURLY),		# downstream partial news feed 
+	dcsnett(DIRECT),
+	lethe(DAILY), 
+	msitxt(DIRECT),
+	sis(DIRECT), 		# Sheridan College downstream partial news feed
+	maccs(HOURLY+LOW),	# McMaster 
+	spectrix(DIRECT), 
+	unicus(DIRECT), 	# downstream partial news feed
+	yugauss(HOURLY), 	# downstream partial news feed
+	yup(HOURLY+LOW),
+	redvax(HOURLY+LOW)
+
+#N	ypa
+#S	Plexus P-60, System VR2
+#O	Classified Directory Publishers Inc.
+#C	David Arjoon
+#E	ypa!root
+#T	+1 416 477 4420
+#P
+#L
+#R
+#U	geac
+#W	geac!david (David Haynes); Fri, 03 Jul 87 07:52:10 edt
+#
+ypa	geac(EVENING)		# Geac Computers International Inc.
+
+#N	yugauss
+#S	Silicon Graphics Iris 1400; UNIX System V Release 1
+#O	Department of Mathematics, York University
+#C	Georges Monette
+#E	yumath!georges
+#T	+1 416 736 5250
+#P	4700 Keele Street, North York, Ontario, M3J 1P3
+#L	43 46 02 N / 79 30 00 W
+#U	yumath
+#W	yumath!georges (Georges Monette); Mon Sep 15 19:20:57 EDT 1986
+#
+yugauss	yetti(DIRECT), yugauss(DEDICATED)
+
+#N	yumath
+#S	Silicon Graphics Iris 1400; UNIX System V Release 1
+#O	Department of Mathematics, York University
+#C	Georges Monette
+#E	yumath!georges
+#T	+1 416 736 5250
+#P	4700 Keele Street, North York, Ontario, M3J 1P3
+#L	43 46 00 N / 79 30 00 W
+#W	yumath!georges (Georges Monette); Mon Sep 15 19:20:57 EDT 1986
+#
+yumath	yetti(DIRECT+LOW), yugauss(DEDICATED)
+
+#N	zorac
+#S	VAX 11/750; 4.2BSD UNIX
+#O	Defence and Civil Institute of Environmental Medicine
+#C	Lynda Kennedy
+#E	zorac!lynda
+#T	+1 416 635 2077
+#P	P.O. Box 2000, 1133 Sheppard Ave. W, Downsview, ON, Canada M3M 3B9
+#L	43 45 01 N / 79 28 08 W
+#R	also talks (poor connection) to dmc-crc.ARPA in Ottawa
+#U
+#W	dciem!tim (Tim Pointing); Mon Oct 27 14:42:35 EST 1986
+#
+#zorac	isis(LOCAL)		# isis is an alias for udenver (utai!path)
+zorac	dciem(LOCAL),	per(LOCAL),	sim(LOCAL),	daq(LOCAL)
+SHAR_EOF
+#	End of shell archive
+exit 0

@@ -1,0 +1,275 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.chl.1
+: This archive created: Thu May 19 04:13:19 1988
+echo shar: extracting u.chl.1
+cat << 'SHAR_EOF' > u.chl.1
+# 	This map is maintained by Marcelo San-Martin (msm@uchile.cl)
+# 	changes to: palias@uchile.cl
+# 	Mon Mar 21 12:41:59 EST 1988
+ 
+#N	.cl, uchdcc
+#F	uunet
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	University of Chile, CS Dept.
+#C	Marcelo San Martin
+#E	postmaster@uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#R	registered
+#W	msm@uchile.cl (Marcelo San-Martin); Fri Mar 18 15:45:07 EST 1988
+#U	uunet, juncal, toqui, inti, usdii, safp01, werken
+#
+uchdcc = uchdcc.cl
+uchdcc = uchdcc.uchile.cl
+uchdcc = uchile.cl
+uchdcc = mic.cl
+uchdcc = uchdcc.mic.cl
+#
+#    Domains service
+uchdcc   .cl, .uchile.cl, .mic.cl
+#
+#    Local Chilean Hosts
+uchdcc  toqui(LOCAL), inti(LOCAL), uchcecvm(DEDICATED+LOW+LOW), 
+        juncal(ARPA), safp01(ARPA), werken(ARPA), 
+        opta(DAILY), uta(WEEKLY), cautin(EVENING-LOW), 
+        machi(DAILY), niebla(DAILY), trauco(DAILY), ncr-ssd(DEAD)
+#
+#    International links
+uchdcc  inria(EVENING), pyramid(EVENING), uunet(EVENING)
+#
+#    Old names
+uchcecvm = uchcec4
+uchcecvm = uchcec3
+juncal   = pucux1
+
+
+#N	.inti.uchile.cl, inti
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	University of Chile, CS Dept.
+#C	Marcelo San Martin
+#E	msm@uchdcc.uchile.cl, postmaster@uchdcc.uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 15:56:07 EST 1988
+#U	uchdcc
+#
+inti   .inti.uchile.cl
+inti = inti.uchile.cl
+inti   uchdcc(LOCAL), niebla(DAILY)
+
+
+#N	.puc.cl, juncal
+#S	DEC VAX-11/750, ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C	Javier Pinto
+#E	jpinto@juncal.puc.cl, postmaster@juncal.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. de Computacion, Casilla 6177, Correo 82, Santiago, Chile
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:04:37 EST 1988
+#R	Gateway for Chilean DECNET
+#U	uchdcc, safp01
+#
+juncal = puc.cl
+juncal = juncal.puc.cl
+#
+juncal   .puc.cl
+juncal   uchdcc(DAILY), safp01(DEAD), tacora(LOCAL), 
+         trans(ARPA), noe(ARPA), llaima(LOCAL)
+
+
+#N	llaima
+#S	DEC VAX-11/750, ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C    
+#E	postmaster@llaima.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:04:37 EST 1988
+#R    
+#U	juncal
+#
+llaima = llaima.puc.cl
+llaima   juncal(HOURLY)
+
+
+#N	tacora
+#S	DEC VAX-11/750, ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C    
+#E	postmaster@tacora.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:04:37 EST 1988
+#R    
+#U	juncal
+#
+tacora = tacora.puc.cl
+tacora   juncal(HOURLY)
+
+
+#N	noe
+#S	DEC VAX-11/750, ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C    
+#E	postmaster@noe.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:04:37 EST 1988
+#R	Gateway for Chilean DECNET
+#U	juncal
+#
+noe = noe.puc.cl
+noe   juncal(HOURLY)
+
+
+#N	trans
+#S	DEC VAX-11/750, ULTRIX 32 V1.2
+#O	Pontificia Universidad Catolica de Chile
+#C    
+#E	postmaster@trans.puc.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:04:37 EST 1988
+#R    
+#U	juncal
+#
+trans = trans.puc.cl
+trans   juncal(HOURLY)
+
+
+#N	niebla.mic.cl, niebla
+#S	Amiga 1000, AmigaDos
+#O	University of Chile, CS Dept., System office
+#C	Carlos Fuentealba
+#E	carlos@niebla.mic.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:24:41 EST 1988
+#U	inti
+#
+niebla = niebla.mic.cl
+niebla   inti(DAILY)
+
+
+#N	opta.mic.cl, opta
+#S	IBM PC-XT, DOS 3.0
+#O	OPTA Ltda.
+#C	Fernando Libedinsky
+#E	flibedin@opta.mic.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:27:12 EST 1988
+#U	uchdcc
+#
+opta = opta.mic.cl
+opta   uchdcc(HOURLY)
+
+
+#N	.safp.cl, safp01
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	Superintendencia de Asociaciones de Fondos de Pensiones
+#C	Edgardo Krell
+#E	ekrell@safp01.safp.cl, postmaster@safp01.safp.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:29:19 EST 1988
+#U	uchdcc
+#
+safp01   .safp.cl
+safp01 = safp.cl
+safp01   uchdcc(DAILY), usdii(DEDICATED), safp02(LOCAL),
+         juncal(DEDICATED)
+
+
+#N	.toqui.uchile.cl, toqui
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	University of Chile, CS Dept.
+#C	Marcelo San Martin
+#E	msm@uchdcc.uchile.cl, postmaster@uchdcc.uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Thu Nov  5 10:47:47 EST 1987
+#U	uchdcc
+#
+toqui   .toqui.uchile.cl
+toqui = toqui.uchile.cl
+toqui   uchdcc(LOCAL), trauco(LOCAL)
+
+
+#N	trauco.mic.cl, trauco
+#S	Equity II, DOS 3.0
+#O	University of Chile, CS Dept., System office
+#C	Luis Fuentealba
+#E	lucho@trauco.mic.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:30:59 EST 1988
+#U	uchdcc
+#
+trauco = trauco.mic.cl
+trauco   toqui(DAILY)
+
+
+#N	.uchcecvm.uchile.cl, uchcecvm
+#S	IBM 3031; CMS/VM
+#O	Centro de Computacion de la Universidad de Chile (CEC)
+#C	Florencio Utreras
+#E	futreras@uchcecvm.uchile.cl, postmaster@uchcecvm.uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Blanco Encalada 2120, Santiago, Chile
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:33:43 EST 1988
+#U
+#
+uchcecvm   .uchcecvm.uchile.cl
+uchcecvm = uchcecvm.uchile.cl
+uchcecvm   uchile.cl(DEDICATED+LOW+LOW)
+
+
+#N	.usach.cl, usdii
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	Universidad de Santiago de Chile
+#C    
+#E	horacio@usdii.usach.cl, postmaster@usdii.usach.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P    
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Thu Nov  5 10:47:47 EST 1987
+#U	safp01
+#
+usdii   .usach.cl
+usdii = usach.cl
+usdii   usdiivx(LOCAL), safp01(DEDICATED)
+
+
+#N	.werken.uchile.cl, werken
+#S	NCR Tower 32; Release 1.02 (Unix System V Release 2)
+#O	University of Chile, CS Dept., System office
+#C	Marcelo San Martin
+#E	msm@werken.uchile.cl, postmaster@werken.uchile.cl
+#T	+56 2 92 736, +56 2 699 0705, +56 2 92 177
+#P	Depto. Cs. Computacion, Casilla 2777, Santiago, CHILE
+#L	33 27 S / 70 33 W city
+#W	msm@uchdcc.cl (Marcelo San-Martin); Fri Mar 18 16:37:32 EST 1988
+#U	uchdcc
+#
+werken   .werken.uchile.cl
+werken = werken.uchile.cl
+werken   uchdcc(LOCAL)
+SHAR_EOF
+:	End of shell archive
+exit 0

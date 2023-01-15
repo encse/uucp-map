@@ -1,0 +1,261 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ne.1
+: This archive created: Thu Apr 14 02:33:23 1988
+echo shar: extracting u.usa.ne.1
+cat << 'SHAR_EOF' > u.usa.ne.1
+# Doug McCallum <dougm@ico.ISC.COM>; Wed Apr  6 22:10:22 MDT 1988
+
+#N	btni
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Boys Town National Institute
+#C	Roger L. Ferrel
+#E	btni!postmaster
+#T	+1 402 449 6618
+#P	555 North 30th St., Omaha, NE 68131
+#L	41 15 N / 96 00 W city
+#R	also Creighton U. Dept. of Otolaryngology & Human Communications
+#U	hdr
+#W	ferrel@btni.UUCP (Roger Ferrel); Wed Jan 27 10:33:48 CST 1988
+btni	hdr(DIRECT),
+	mcmi(DIRECT),
+	nepa(DIRECT),
+	pbi(DIRECT),
+	ugn(DIRECT),
+	unocss(DIRECT),
+	uunet(DAILY/2)
+
+
+
+#N	cookie
+#S	Leading Edge Model D; Dos 3.1
+#O	Tiger Software, Inc.
+#C	Eric J. Johnson
+#E	cookie!eric
+#P	P.O Box 31221, Omaha NE  68132
+#W	cookie!eric (Eric J. Johnson); Thu Dec 17 00:41:42 CST 1987
+#
+cookie	hdr(DIRECT), pbi(DIRECT)
+
+
+
+#N	dsndata
+#S	HP 9000/350; HP-UX 5.5B
+#O	Design Data Corp.
+#C	Wayne Schlitt
+#E	wayne@dsndata.UUCP
+#T	(402) 476-8278
+#P	1033 "O" street, suite 324, Lincoln, NE 68508-3621
+#L	40 48 N / 96 42 W city
+#U	upba
+#W	dsndata!wayne (Wayne Schlitt); Sun Jan 31 09:19:29 CST 1988
+#
+dsndata	hpfcla(DEMAND),	upba(DIRECT)
+
+
+
+
+
+
+#N	hdr
+#S	AT&T 3B15; System V Release 2.1.1
+#O	Amperif Corporation
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8401 West Dodge Road, Suite 76. Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	This is the gateway to Amperif Corporation's Omaha Office
+#W	hdr!eric (Eric J. Johnson); Tue Feb 23 13:42:15 CST 1988
+#U	btni mcmi unocss
+#
+hdr	amperif(DEMAND),
+	btni(DEMAND),
+	codas(EVENING),
+	<cookie>(DAILY),
+	ihnp4(EVENING),
+	mcmi(DEMAND),
+	nepa(DEAD),
+	noah1(DEAD),
+	noah3(HOURLY),
+	noah4(DEDICATED),
+	pbi(EVENING),
+	ugn(DEDICATED),
+	unocss(DEMAND)
+
+
+#N	mcmi
+#S	AT&T 3B2/600; UNIX System V Release 3.1.1
+#O	Medical Computer Management Inc.
+#C	Dennis Page
+#E	mcmi!denny
+#T	+1 402 330 6660
+#P	10810 Farnam, Omaha, NE  68154
+#L	041 15 N / 096 31 W city
+#U	hdr omaha1
+#W	mcmi!denny (Dennis Page); Mon Feb 15 10:16:00 CST 1988
+#
+mcmi	ugn(DIRECT), nepa(DIRECT), hdr(DIRECT), unocss(DIRECT),
+	ssbell(DIRECT), pbi(DIRECT), btni(DIRECT),
+	omaha1(DEDICATED)
+
+
+
+#N	nepa
+#S	Convergent MiniFrame; CTIX 3.20
+#O	Nebraska Public Archive
+#C	Dennis Page
+#E	nepa!postmaster
+#T	+1 402 592 4275
+#P	9705 Jefferson Plaza #6, Omaha NE, 68127-3271
+#L	041 15 N / 096 31 W city
+#W	nepa!postmaster (NEPA Mail Admin); Sat Jan 16 14:15:00 CST 1988
+#
+nepa	ugn(DIRECT), mcmi(DIRECT), hdr(DIRECT), unocss(DIRECT),
+	ssbell(DIRECT), pbi(DIRECT), btni(DIRECT)
+
+
+
+#N	noah1, noah4
+#S	Onyx C8000; UNIX System III
+#O	Amperif Corporation
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8401 West Dodge Road, Suite 76. Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	General Purpose Processing
+#W	hdr!eric (Eric J. Johnson); Tue Feb 23 13:51:52 CST 1988
+#
+noah1	hdr(DEAD)
+noah4	hdr(DEDICATED)
+
+
+#N	noah3
+#S	IBM PC/AT; SCO Xenix 2.2.1
+#O	Amperif Corporation
+#C	Eric J. Johnson
+#E	hdr!eric
+#P	8401 West Dodge Road, Suite 76. Omaha, NE  68114  USA
+#L	096 31 39 W / 041 15 42 N 
+#R	General Purpose Processing
+#W	hdr!eric (Eric J. Johnson); Tue Feb 23 13:51:52 CST 1988
+#
+noah3	hdr(DEDICATED)
+
+
+
+#N	ssbell
+#S	DEC VAX-11/750; System V release 2 version 2
+#O	Sterling Software, FSG/IMD
+#C	Kent B. Landfield
+#E	ssbell!postmaster
+#T	+1 402 291 8300
+#P	1404 Ft Crook Road South, Bellevue, NE 68005
+#L	096 31 39 W / 041 15 42 N 
+#R	
+#W	ssbell!kent (Kent B. Landfield); Tue Mar 29 00:54:06 CST 1988
+#
+ssbell	mcmi(DIRECT), ugn(DIRECT), pbi(DIRECT), unocss(WEEKLY)
+
+
+#N	ugn
+#S	AT&T 3B5; UNIX System V Release 2.0
+#O	/usr/group/nebraska
+#C	Dennis Page (Secretary)
+#E	ugn!denny
+#P	P.O. Box 44112   Omaha, NE 68144
+#L	096 31 39 W / 041 15 42 N 
+#R	This is the mail routing system for /usr/group/nebraska
+#W	hdr!eric (Eric J. Johnson); Tue Apr  5 10:20:00 CDT 1988
+#
+ugn	btni(DIRECT),
+	hdr(DEDICATED),
+	mcmi(DIRECT),
+	nepa(DEAD),
+	ohgua(DIRECT),
+	omaha1(DIRECT),
+	pbi(DIRECT),
+	ssbell(DIRECT),
+	sunflats(DEAD),
+	unocss(DIRECT),
+	upba(WEEKLY),
+	wmsco(DEAD),
+	<zycor>(DAILY)
+
+# These sites will also call us
+ohgua	ugn(DIRECT)
+
+
+
+#N	unocs1
+#S	AT&T 3B2/400; System V Release 3.0
+#O	University of Nebraska at Omaha, Mathematics & Computer Science Dept.
+#C	Stanley Wileman
+#E	unocs1!postmaster
+#T	+1 402 554 2834
+#P	Room 226, Durham Science Center, Omaha, Nebraska 68182-0243
+#L	41 15 30 N / 96 30 0 W
+#W	unocss!stanw (Stan Wileman); Sun Feb 7 17:42:16 CST 1988
+#
+unocs1	unocss(DEDICATED)
+
+
+
+#N	unocss
+#S	Sequent B8000; Dynix 2.1
+#O	University of Nebraska at Omaha, Mathematics & Computer Science Dept.
+#C	Stanley Wileman
+#E	unocss!postmaster
+#T	+1 402 554 2834
+#P	Room 226, Durham Science Center, Omaha, Nebraska 68182-0243
+#L	41 15 30 N / 96 30 0 W
+#R	'unocss' replaces the defunct site 'unebocs'
+#U	ugn upba
+#W	unocss!stanw (Stan Wileman); Sun Feb 7 17:07:36 CST 1988
+#
+unocss	btni(DIRECT), hdr(EVENING/2), ihnp4(EVENING/2), mcmi(DIRECT),
+	nepa(DIRECT), pbi(DIRECT), ssbell(DIRECT), ugn(DIRECT),
+	unocs1(DEDICATED), upba(EVENING/2)
+
+
+
+#N	upba
+#S	Sequent Balance 8000; DYNIX (BSD 4.2)
+#O	United Phone Book Advertisers
+#C	Damon Scaggs
+#E	damon@upba.UUCP
+#T	(402) 476-2200
+#P	Damon Scaggs, , Lincoln, NE  68510
+#L	40 48 N / 96 42 W city
+#R	
+#W	Damon Scaggs 7/12/87
+#U	mcdchg dsndata eecae unocss qetzal
+#
+upba	dsndata(DIRECT), pbi(DEMAND), fergvax(DIRECT), ihnp4(DEMAND),
+	sequent(DEMAND), mcdchg(EVENING), eecae(DIRECT), unocss(DEMAND),
+	qetzal(DIRECT), ugn(DEMAND)
+#
+# We also poll several of these sites regularly and we aren't in their
+# map entries.  
+#
+ihnp4	upba(DAILY/4)
+sequent	upba(DAILY/4)
+
+
+
+#N	zycor
+#S	IBM PC/XT; DOS
+#O	ZYcor Inc.
+#C	Bill Mahoney
+#E	zycor!bill
+#P	2312 Country Club Avenue Omaha, NE 68104
+#L	096 31 W / 041 15 N city
+#W	cookie!eric (Eric J. Johnson); Tue Jan  5 08:35:51 CST 1988
+#
+zycor	ugn(DAILY)
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0

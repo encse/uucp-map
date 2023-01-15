@@ -1,0 +1,68 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.sd.1
+: This archive created: Fri Oct 23 03:12:54 1992
+echo shar: extracting u.usa.sd.1
+cat << 'SHAR_EOF' > u.usa.sd.1
+file {u.usa.sd.1}
+# u.usa.sd.1 updated by brodie@fps.mcw.edu Friday Oct 9 10:35:10.33 CDT 1992
+# This map is maintained by Kent C. Brodie (Systems Mgr, Medical College of WI)
+# Send any updates to uucpmap@rutgers.edu, (rutgers!uucpmap)
+# Before sending updates, please consult the README file for the proper format.
+# Send email to brodie@fps.mcw.edu for a copy if you need one.
+#
+# Reason for update: removed walldrug
+# Internal file name: u.usa-sd-1;30
+#
+ 
+#N	dsuvax
+#S	DEC MicroVAX II; Ultrix 4.2
+#O	Dakota State University
+#C	Guy Helmer
+#E	ghelmer@dsuvax.dsu.edu
+#T	+1 605 256 5675
+#P	820 N Washington, Madison, SD  57042
+#L	44 00 24 N / 97 06 48 W
+#R	DSU's primary Internet host
+#U	wupost smurfbbs
+#W	ghelmer@dsuvax.dsu.edu (Guy Helmer); Mon Mar  2 16:24:49 CST 1992
+#
+dsuvax	wupost(DIRECT), smurfbbs(DAILY)
+dsuvax	.dsu.edu
+dsuvax	= dsuvax.dsu.edu
+
+#N	loft386
+#S	80386 AT-clone; Bell Technologies System V/386 Release 3.2u
+#O	Lofty Pursuits
+#C	Doug Ingraham
+#E	dpi@loft386.UUCP
+#T	+1 605 343 8760
+#P	2274 Aster Court, Rapid City, SD  57702
+#L	44 03 N / 103 15 W
+#R	Public Access Unix for Rapid City, SD  USA
+#U	bibs, enger386, nhh2sd, leagle, ledgepc
+#W	loft386!dpi (Doug Ingraham); Mon Mar  4 20:15:47 MST 1991
+#
+loft386	uunet(DAILY), uudell(DAILY), ledgepc(WEEKLY), nhh2sd(DAILY),
+	enger386(DAILY), bibs(DAILY), leagle(DAILY)
+
+#N      smurfbbs
+#S      IBM PC Clone; MS-DOS 5.0-PCBoard + uuPCB
+#O      SELECTaWARE
+#C      Mike Waldner
+#E      smurfbbs!mike.waldner
+#T      +1 605 256 9600
+#P      418 N Union, Madison, SD  57042-2044
+#L      44 00 23 N / 97 06 49 W
+#R      SELECTaWARE Bulletin Board System
+#U      dsuvax
+#W      smurfbbs!mike.waldner (Mike Waldner); Mon Mar  2 16:22:47 CST 1992
+#
+smurfbbs dsuvax(DAILY)
+
+# u.usa.sd.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

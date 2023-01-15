@@ -1,0 +1,1201 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.jpn.2
+: This archive created: Tue Jun 14 03:40:29 1988
+echo shar: extracting u.jpn.2
+cat << 'SHAR_EOF' > u.jpn.2
+# uucpmap@kddlabs.jp
+# u.jpn.2   EDU, Only. These are CSNET reachable sites.
+# The gateway for these sites is u-tokyo for CSNET
+
+#N	aki.is.titech.jp
+#S	SUN-1.5, Sun Unix 3.0
+#O	Tokyo Institute of Technology, Dept. of Information Science, Yonezawa Lab.
+#C	Akinori Yonezawa
+#E	yonezawa@is.titech.junet
+#T	+81 3 7261111 ext 3209
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	titcca
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+aki = aki.is.titech.jp, aki.is.titech.jpn, aki.is.titech.junet
+
+#N	aoba.aoba.tohoku.junet
+#S	NEWS830, 4.2bsd
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@aoba.aoba.tohoku.junet
+#T	+81 22-222-1800 ext 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	38 15 N / 140 50 E
+#R	
+#U	nttlab, unsun
+#W	ryuichi@aoba.aoba.tohoku.junet 
+#
+aoba = aoba.aoba.tohoku.jp, aoba.aoba.tohoku.jpn, aoba.aoba.tohoku.junet
+#
+aoba	nttlab(POLLED)
+nttlab	.tohoku.jp
+.tohoku.jp = { .aoba, .riec }
+.aoba = {aoba, else, aobasun, red, blue, micrus}(LOCAL)
+
+#N	aobasun.aoba.tohoku.jp
+#S	AS3050M, UNIX Release 2.0
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@aobasun.aoba.tohoku.junet
+#T	+81 22-222-1800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	ryuichi@aobasun.aoba.tohoku.junet
+#
+aobasun = aobasun.aoba.tohoku.jp, aobasun.aoba.tohoku.jpn, aobasun.aoba.tohoku.junet
+#
+
+
+#N	beck.cc.titech.jp
+#S	SUN-2 4.2BSD
+#O	Tokyo Institute of Technology, Computer Center
+#C	Jun Murai
+#E	jun@cc.titech.junet
+#T	+81 3 7261111 ext3299
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+beck = beck.cc.titech.jp, beck.cc.titech.jpn, beck.cc.titech.junet
+#
+
+#N	blue.aoba.tohoku.jp
+#S	NEWS820, 4.2 BSD
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@blue.aoba.tohoku.junet
+#T	022-222-1800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	ryuichi@blue.aoba.tohoku.junet	
+#
+blue = blue.aoba.tohoku.jp, blue.aoba.tohoku.jpn, blue.aoba.tohoku.junet
+#
+
+#N	cgsuit.osaka-u.jp
+#S	ASR VSX-800; UNIX 4.2 BSD
+#O	Osaka Univ., Faculty of Engineering, Dept. of Electronic Engineering
+#C	Toshiyuki Kawai
+#E	kawai@cgsuit.osaka-u.junet
+#T	+81 6 8775111  ext. 5017
+#P
+#L	N34.49' E135.31'
+#R
+#U	ics3b2
+#W	icssm!yamaguti 860920
+cgsuit = cgsuit.osaka-u.jp, cgsuit.osaka-u.jpn, cgsuit.osaka-u.junet
+#
+
+#N	clapton.cc.titech.jp
+#S	SUN-2 4.2BSD
+#O	Tokyo Institute of Technology, Computer Center
+#C	Jun Murai
+#E	jun@cc.titech.junet
+#T	+81 3 7261111 ext3299
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+clapton = clapton.cc.titech.jp, clapton.cc.titech.jpn, clapton.cc.titech.junet
+#
+
+#N	csce.kyushu-u.jp
+#S	Eclipse MV/10000; MV/UX
+#O	Dept. of Compt. Sci. and Comm. Eng., Kyushu Univ.
+#C	Masaki Hirabaru
+#E	hirabaru@kyu-cs.kyushu-u.junet
+#T	+81 92 6411101 ext.5422
+#P	Hakozaki, Higashi-ku, Fukuoka, 812 Japan
+#L	33 37 N / 130 26 E
+#R
+#U	kyu-cs, cslab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+csce = csce.kyushu-u.jp, csce.kyushu-u.jpn, csce.kyushu-u.junet
+#
+
+#N	daikei.tohoku-u.jp
+#S	VAX11/750; ULTRIX
+#O	Computer Center of Tohoku University
+#C	
+#E	root@daikei.tohoku-u.junet
+#T
+#P
+#L
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+daikei = daikei.tohoku-u.jp, daikei.tohoku-u.jpn, daikei.tohoku-u.junet
+#
+ccut .tohoku-u.jp
+.tohoku-u.jp daikei(LOCAL)
+
+#N	dlabvax.sophia.jp
+#S	Vax 11/730, 4.2BSD.
+#O	Sophia University, Tokyo, Japan
+#C	Michirou Yabuki
+#E	yabuki@dlabvax.sophia.jp
+#T	+81 3 2383423 
+#P	Dept. of Electrical Electronic enginerring, Faculty of Science And Technology, Sophia University, 7-1 Kioi-cho, Chiyoda-ku, Tokyo 102 Japan.
+#L	
+#R
+#U	titcca
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+dlabvax = dlabvax.sophia.jp, dlabvax.sophia.jpn, dlabvax.sophia.junet
+#
+.sophia.jp = { dlabvax }(LOCAL)
+
+#N	doshita.kuis.kyoto-u.jp
+#S	SUN-2 UNIX4.2BSD
+#O	Doshita Lab., Dept. of Info. Sci., Kyoto University
+#C	Hayato ISHIBASHI
+#E	ishibashi@doshita.kuis.kyoto-u.junet or isibasi@doshita.kuis.kyoto-u.junet
+#T	+81 75 7512111 (ext. 5396)
+#P	Yoshida-Honmachi, Sakyo-ku Kyoto 606
+#L	
+#R
+#U	kuis
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+doshita = doshita.kuis.kyoto-u.jp, doshita.kuis.kyoto-u.jpn, doshita.kuis.kyoto-u.junet
+#
+
+#N	else.aoba.tohoku.jp
+#S	if-1000, System V
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@else.aoba.tohoku.junet
+#T	022-222-1800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	ryuichi@else.aoba.tohoku.junet
+#
+else = else.aoba.tohoku.jp, else.aoba.tohoku.jpn, else.aoba.tohoku.junet
+#
+
+#S	if-1000, System V
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Akira KON
+#E	root@else.tohoku.junet
+#T	+81 222 221800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+else = else.tohoku.jp, else.tohoku.jpn, else.tohoku.junet
+#
+
+#N	fukao.cs.titech.jp
+#S	SUN-2 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Fukao Lab.
+#C	Akira Kato
+#E	kato@cs.titech.junet
+#T	+81 3 7261111 ext 2193
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+fukao = fukao.cs.titech.jp, fukao.cs.titech.jpn, fukao.cs.titech.junet
+#
+
+#N	hagiwara.kuis.kyoto-u.jp
+#S	DEC VAX-11/751; 4.2BSD UNIX
+#O	Hagiwara Lab., Dept. of Info. Sci., Kyoto University
+#C	Tatsunori Kanai
+#E	kanai@hagiwara.kuis.kyoto-u.junet
+#T	+81 75 751 2111 x5393
+#P	Yoshida-Honmachi, Sakyo-ku, Kyoto 606
+#L
+#R
+#U	kuis yajima
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+hagiwara = hagiwara.kuis.kyoto-u.jp, hagiwara.kuis.kyoto-u.jpn, hagiwara.kuis.kyoto-u.junet
+
+#N	hiroko.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Tanaka Lab.
+#C	Naoyoshi Tamura
+#E	tam@cs.titech.junet
+#T	+81 3 7261111 ext 3046
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+hiroko = hiroko.cs.titech.jp, hiroko.cs.titech.jpn, hiroko.cs.titech.junet
+#
+
+#N	hubs.hokudai.jp
+#S	VAX 11/750; 4.2BSD
+#O	Dept. of Behavioral Sci., Faculty of Letters, Hokkaido University
+#C	Yuichiro ANZAI
+#E	anz@hubs.hokudai.junet
+#T	+81 11 7162111 ext.4157
+#P	N-10 W-7, Kita-ku, Sapporo 060, JAPAN
+#L
+#R
+#U	nttlab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+hubs = hubs.hokudai.jp, hubs.hokudai.jpn, hubs.hokudai.junet
+#
+.hokudai.jp = {hubs}(LOCAL)
+
+#N	ics3b2.osaka-u.jp
+#S	AT&T 3B2/300;SYSTEM V rel.2
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Shinji Shimojo
+#E	ics3b2!shimojo
+#T	+81 6 8441151  ext. 4828
+#P	1-1 Machikaneyama-Chou Toyonaka-City Osaka 560,	JAPAN
+#L	
+#R
+#U	icssm
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ics3b2 = ics3b2.osaka-u.jp, ics3b2.osaka-u.jpn, ics3b2.osaka-u.junet
+#
+
+#N	ics750.osaka-u.jp
+#S	Vax11/750, 4.2BSD
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Toshio Matsuura
+#E	ouicsu!matsuura
+#T	+81 6 8441151 ext 4822
+#P	Toyonaka, Osaka 560
+#L
+#R
+#U	ouicsu
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ics750 = ics750.osaka-u.jp, ics750.osaka-u.jpn, ics750.osaka-u.junet
+#
+
+#N	icssm.osaka-u.jp
+#S	OMRON SX-8700 SUPER MATE;SYSTEM V rel.1
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Suguru Yamaguchi
+#E	icssm!yamaguti
+#T	+81 6 8441151  ext. 4828
+#L
+#R
+#W	yamaguti@handai.junet; Tue Nov 11 1986
+#U	ouicsu,ics3b2,icsts1
+#
+icssm = icssm.osaka-u.jp,icssm.osaka-u.jpn,icssm.osaka-u.junet
+#
+
+#N	iscts1.osaka-u.jp
+#S	SHARP OA-90 DX;SYSTEM V rel.2
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences, Tokura lab.
+#C	Akinori Saitoh
+#E	icsts1!saitoh
+#T	+81 6 8441151  ext. 4812
+#L	34 40 53 N / 135 18 02 E
+#R
+#W	icsts1!saitoh (Akinori Saitoh); Tue Jan 20 00:39:37 JST 1987
+#U	icssm
+#
+iscts1 = iscts1.osaka-u.jp,iscts1.osaka-u.jpn,iscts1.osaka-u.junet
+#
+
+#N	iscb.osakac.junet
+#S	SUN3/52m, Sun Unix 3.0
+#O	Osaka Electro-Communication University
+#C	Tetsuo Asano
+#E	asano@iscb.osakac.junet
+#T	+81 720 241131 ext 369
+#P	18-8 Hatsu-cho, Neyagawa, Osaka 572, Japan
+#L
+#R
+#U	ouicsu
+#W	asano@iscb.osakac.junet 861111
+#
+iscb = iscb.osakac.junet, iscb.osakac.jpn, iscb.osakac.jp
+#
+.osakac.jp = { iscb }(LOCAL)
+
+
+#N	kitech.kit.jp
+#S	Data General MV/4000 (DG/UX 3.10)
+#O
+#C	Yutaka Kobayashi
+#E	koba@kitech.kit.junet
+#T	+81 75-791-3211 +468
+#P	Kaido-chou, Matsugasakigosho, Sakyo-ku, Kyoto 606, Japan
+#L	
+#R	
+#U	kuis
+#W	tarumi@kuis.kyoto-u.junet 87/07/21 
+#
+kitech = kitech.kit.junet, kitech.kit.jpn, kitech.kit.jp
+.kit.jp = {kitech}(LOCAL)
+
+#N	ksuics.kyoto-su.jp
+#S	SUN-3/52 (OS 3.2)
+#O	
+#E	yosikawa@ksuics.kyoto-su.junet
+#C	Masatoshi Yoshikawa
+#T	+81 75-701-2151 +2701
+#P	Kaido-chou, Matsugasakigosho, Sakyo-ku, Kyoto 606, Japan
+#L	?
+#R
+#U	kuis
+#W	tarumi@kuis.kyoto-u.junet 87/07/21
+#
+ksuics = ksuics.kyoto-su.junet, ksuics.kyoto-su.jpn, ksuics.kyoto-su.jp
+.kyoto-su.jp = {ksuics}(LOCAL)
+
+#N	koccvax.keio.jp
+#S	VAX11/750, 4.2BSD
+#O	Keio University, Faculty of Science and Technology, Computer Center
+#C	Yutaka Ohga
+#E	postmaster@koccvax.keio.junet or koccvax!ohga
+#T	+81 45 631141 ext2231
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#U	koeavax, titcca
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+koccvax = koccvax.keio.jp, koccvax.keio.jpn, koccvax.keio.junet
+#
+.keio.jp = { koccvax, koeavax, koetvax, koscvax, kosssun, kossvax}(LOCAL)
+
+#N	koeavax.keio.jp
+#S	VAX11/750, 4.2BSD
+#O	Keio University, Faculty of Science and Technology, Aiso Lab. and Tokoro Lab.
+#C	Hideki Sunahara
+#E	postmaster@koeavax.keio.junet or koeavax!suna
+#T	+81 45 631141 ext3323
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#U	kossvax, koccvax
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+koeavax = koeavax.keio.jp, koeavax.keio.jpn, koeavax.keio.junet
+#
+
+#N	koetvax.keio.jp
+#S	VAX11/750, 4.2BSD
+#O	Keio University, Faculty of Science and Technology, Aiso Lab. and Tokoro Lab.
+#C	Hideki Sunahara
+#E	postmaster@koetvax.keio.junet or koetvax!suna
+#T	+81 45 631141 ext3323
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+koetvax = koetvax.keio.jp, koetvax.keio.jpn, koetvax.keio.junet
+#
+
+#N	koscvax.keio.jp
+#S	VAX11/750, 4.2BSD
+#O	Keio University, Faculty of Science and Technology, Dept. of Math. Science
+#C	Osamu Nakamura
+#E	postmaster@koscvax.keio.junet or koscvax!osamu
+#T	+81 45 631141 ext3710
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#U	kossvax
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+koscvax = koscvax.keio.jp, koscvax.keio.jpn, koscvax.keio.junet
+#
+
+#N	kosssun.keio.jp
+#S	SUN-2, OS2.0
+#O	Keio University, Faculty of Science and Technology, Saito Lab.
+#C	Osamu Nakamura
+#E	postmaster@kosssun.keio.junet or kosssun!osamu
+#T	+81 45 631141 ext3710
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+kosssun = kosssun.keio.jp, kosssun.keio.jpn, kosssun.keio.junet
+#
+
+#N	kossvax.keio.jp
+#S	VAX11/750, 4.3BSD
+#O	Keio University, Faculty of Science and Technology, Saito Lab.
+#C	Osamu Nakamura
+#E	postmaster@kossvax.keio.junet or kossvax!osamu
+#T	+81 45 631141 ext3710
+#P	3-14-1, Hiyoshi, Kohoku-ku, Yokohama 223, JAPAN
+#L	35 42 N / 139 46 E city
+#U	koscvax, koeavax, patty
+#W	osamu@kossvax.keio.junet; Nov 4 13:25 1986
+kossvax = kossvax.keio.jp, kossvax.keio.jpn, kossvax.keio.junet
+#
+
+#N	koudai.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Yonezaki Lab.
+#C	Itaru Ichikawa
+#E	ichikawa@cs.titech.junet, koudai!ichikawa 
+#T	+81 3 7261111 ext 3043, 4128, 3044
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	takuya, naoki, kaori, takashi, hiroko, tomoyo, fukao, titcca, kddlab, masa
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+koudai = koudai.cs.titech.jp, koudai.cs.titech.jpn, koudai.cs.titech.junet
+#
+
+#N	koumis.konan-u.jp
+#S	VAX11/750, Ultrix
+#O	Kohnan University, Faculty of Science , Department of Information System and Management Science
+#C	Yuji Matoba
+#E	koumis!matoba
+#T	+81 78 4314341 ext 372
+#P	Higashinada, Kobe 658
+#L
+#R
+#U	ouicsu
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+koumis = koumis.konan-u.jp, koumis.konan-u.jpn, koumis.konan-u.junet
+#
+.konan-u.jp = { koumis }(LOCAL)
+
+#N	ku-if.kobe-u.jp
+#S	OKI if-1000, System V (Uniplus+)
+#O	Kobe University, Faculty of Engineering, Department of Systems Engineering
+#C	Hideo Matsuda
+#E	kusys4!matsuda
+#T	+81 078 881 1212 ext 5279
+#P	Rokkodai, Nada Kobe 657
+#L	135 E / 37 N
+#U
+#W	kusys4!matsuda 861022
+ku-if = ku-if.kobe-u.jp, ku-if.kobe-u.jpn, ku-if.kobe-u.junet
+#
+
+#N	kuis.kuis.kyoto-u.jp
+#S	SUN-2 4.2BSD
+#O	Ohno Lab., Dept. of Info. Sci., Kyoto University
+#C	Hiroyuki TARUMI
+#E	tarumi@kuis.kuis.kyoto-u.junet
+#T	+81 75 7512111 ext 5395
+#P	Yoshida-Hon-machi Sakyo-ku, Kyoto 606
+#L
+#R
+#U	nttlab kurims iegva1 hagiwara doshita kutsuda hewey
+#W	tarumi@kuis.kuis.kyoto-u.junet 861203
+kuis = kuis.kuis.kyoto-u.jp, kuis.kuis.kyoto-u.jpn, kuis.kuis.kyoto-u.junet
+#
+
+#N	kurims.kurims.kyoto-u.jp
+#S	SUN-2
+#O	Research Institute for Mathematical Sciences, Kyoto University
+#C	Masami Hagiya
+#E	kurims!hagiya or hagiya@kurims.kurims.kyoto-u.junet
+#T	+81 757 512111 ext 7209
+#P	Kitashirakawa Sakyo Kyoto 606
+#L	35 02 00 N / 135 45 00 E
+#R
+#U	kuis
+#W	kurims!hagiya 851120
+kurims = kurims.kurims.kyoto-u.jp, kurims.kurims.kyoto-u.jpn, kurims.kurims.kyoto-u.junet
+#
+.kurims = { kurims }(LOCAL)
+
+#N	jnglab
+#S	
+#O	
+#C	Hide Tokuda
+#E	
+#T	
+#P	
+#L	
+#U	titcca
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+jnglab	titcca(WEEKLY)
+
+#N	kusys4.kobe-u.jp
+#S	DCL Ustation E-15, System V (Uniplus+)
+#O	Kobe University, Faculty of Engineering, Department of Systems Engineering
+#C	Hideo Matsuda
+#E	kusys4!matsuda
+#T	+81 078 881 1212 ext 5279
+#P	Rokkodai, Nada Kobe 657
+#L	135 E / 37 N
+#U
+#W	kusys4!matsuda; Oct 28 16:49 1986
+kusys4 = kusys4.kobe-u.jp, kusys4.kobe-u.jpn, kusys4.kobe-u.junet
+#
+.kobe-u.jp = { ku-if, kusys4 }(LOCAL)
+
+#N	kutsuda.kuis.kyoto-u.jp
+#S	VAX-11/750 UNIX4.2BSD
+#O	Tsuda Lab., Dept. of Info. Sci., Kyoto University
+#C	Kazuo KUNIEDA
+#E	kuniedak@kutsuda.kuis.kyoto-u.junet
+#T	+81 75 7512111 (ext. 5397)
+#P	Yoshida-Honmachi, Sakyo-ku Kyoto 606
+#L	
+#R
+#U	kuis
+#W	kusuda@kutsuda.kuis.kyoto-u.junet; Feb. 4 22:49 1987
+kutsuda = kutsuda.kuis.kyoto-u.jp, kutsuda.kuis.kyoto-u.jpn, kutsuda.kuis.kyoto-u.junet
+#
+
+#N	kyu-cs.kyushu-u.jp
+#S	Ustation/E-10; Unix System-III
+#O	Dept. of Compt. Sci. and Comm. Eng., Kyushu Univ.
+#C	Masaki Hirabaru
+#E	hirabaru@kyu-cs.kyushu-u.junet, kyu-cs!hirabaru
+#T	+81 92 6411101 ext.5422
+#P	Hakozaki, Higashi-ku, Fukuoka, 812 Japan
+#L	33 37 N / 130 26 E
+#R	was named Qucsce
+#U	nttlab, csce, cslab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+kyu-cs = kyu-cs.kyushu-u.jp, kyu-cs.kyushu-u.jpn, kyu-cs.kyushu-u.junet
+#
+.kyushu-u.jp={csce, kyu-cs}(LOCAL)
+
+#N	masa.cs.titech.jp
+#S	U-Station, SYSTEM V
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Shimura Lab.
+#C	Masayuki Numao
+#E	numao@masa.cs.titech.junet or koudai!masa!numao 
+#T	+81 3 7261111 ext 3042
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+masa = masa.cs.titech.jp, masa.cs.titech.jpn, masa.cs.titech.junet
+#
+
+#N	micrus.aoba.tohoku.jp
+#S	NEWS830, 4.2 BSD
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@micrus.aoba.tohoku.junet
+#T	+81 22-222-1800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	ryuichi@micrus.aoba.tohoku.junet	
+#
+micrus = micrus.aoba.tohoku.jp, micrus.aoba.tohoku.jpn, micrus.aoba.tohoku.junet
+#
+
+#N	motoshi.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Yonezaki Lab.
+#C	Katsutoshi Toyama
+#E	toyama@cs.titech.junet , koudai!toyama
+#T	+81 3 7261111 ext 3043
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+motoshi = motoshi.cs.titech.jp, motoshi.cs.titech.jpn, motoshi.cs.titech.junet
+#
+
+#N	naoki.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Yonezaki Lab.
+#C	Yoichi Shinoda  and Akira Kato 
+#E	shinoda@cs.titech.junet , kato@cs.titech.junet
+#T	+81 3 7261111 ext 3043    
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+naoki = naoki.cs.titech.jp, naoki.cs.titech.jpn, naoki.cs.titech.junet
+#
+
+#N	nigsun.nig.jp
+#S	sun 3-260c; version 3.2
+#O	National Institute of Genetics
+#C	Sanzo Miyazawa
+#E	smiyazaw@nigsun.nig.junet
+#T	+81 559-75-0771 Ext. 647
+#P	1111 Yata, Mishima, Shizuoka 411
+#U	ccut.u-tokyo.junet
+#W
+nigsun = nigsun.nig.jp, nigsun.nig.jpn, nigsun.nig.junet
+#
+ccut	.nig.jp
+.nig.jp = {nigsun, niguts, nigvms, nigiris}(LOCAL)
+nigsun	ccut
+
+#N	niguts.nig.jp
+#S	facom m-380q/uts
+#O	National Institute of Genetics
+#C	Sanzo Miyazawa
+#E	smiyazaw@nigsun.nig.junet
+#T	0559-75-0771 Ext. 647
+#P	1111 Yata, Mishima, Shizuoka 411
+#U	nigsun.nig.junet
+#W
+niguts = niguts.nig.jp, niguts.nig.jpn, niguts.nig.junet
+#
+
+#N	nigvms.nig.jp
+#S	micro vax II/vms; anet+
+#O	National Institute of Genetics
+#C	Sanzo Miyazawa
+#E	smiyazaw@nigsun.nig.junet
+#T	0559-75-0771 Ext. 647
+#P	1111 Yata, Mishima, Shizuoka 411
+#U	nigsun.nig.junet
+#W
+nigvms = nigvms.nig.jp, nigvms.nig.jpn, nigvms.nig.junet
+#
+
+#N	nigiris.nig.jp
+#S	iris w-3020
+#O	National Institute of Genetics
+#C	Sanzo Miyazawa
+#E	smiyazaw@nigsun.nig.junet
+#T	0559-75-0771 Ext. 647
+#P	1111 Yata, Mishima, Shizuoka 411
+#U	nigsun.nig.junet
+#W
+nigiris = nigiris.nig.jp, nigiris.nig.jpn, nigiris.nig.junet
+#
+
+#N	ohno.kuis.kyoto-u.jp
+#S	ECLIPSE MV/10000 (DG/UX Rev.3.1)
+#O	Ohno Lab., Dept. of Info. Sci., Kyoto University
+#C	Tsuneo Ajisaka
+#E	postmaster@ohno.kuis.kyoto-u.junet
+#T	+81 75 7512111 ext 5395
+#P	Yoshida-Hon-machi Sakyo-ku, Kyoto 606
+#L
+#R
+#U	
+#W	tarumi@kuis.kuis.kyoto-u.junet 861203
+ohno = ohno.kuis.kyoto-u.jp, ohno.kuis.kyoto-u.jpn, ohno.kuis.kyoto-u.junet
+# Internal Network
+.kyoto-u.jp = {.kuis, .kurims}(LOCAL)
+.kuis = {doshita, hagiwara, kuis, kutsuda, ohno, yajima}(LOCAL)
+#
+
+#N oucom5.oucom.osaka-u.jp
+#S SUN3 4.2BSD
+#O Osaka Univ., Faculty of Eng., Dept. of Communication Eng., Tezuka Lab.
+#C Ken Inoue
+#E inoue@oucom5.oucom.osaka-u.junet
+#T +81 6 8775111 ext 4758
+#P Suita, Osaka 565
+#L
+#R
+#U oucom
+#W inoue@oucom5.oucom.osaka-u.junet
+#
+oucom5 = oucom5.oucom.osaka-u.jp, oucom5.oucom.osaka-u.jpn, oucom5.oucom.osaka-u.junet
+#
+.oucom = {oucom5}(LOCAL)
+
+#N	ouics3.osaka-u.jp
+#S	Sun3/75m  4.2BSD
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Toshio Matsuura
+#E	ouicsu!matsuura
+#T	+81 6 8441151 ext 4822
+#P	Toyonaka, Osaka 560
+#L
+#R
+#U	ouicsu
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ouics3 = ouics3.osaka-u.jp, ouics3.osaka-u.jpn, ouics3.osaka-u.junet
+#
+
+#N	ouicso.osaka-u.jp
+#S	if-1000 UNITOPIA10, SYSTEM V
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Katsuro Inoue
+#E	ouicso!inoue
+#T	+81 6 8441151 ext 4816
+#P	Toyonaka, Osaka 560
+#L
+#R
+#U	ouicsu
+#W	ouicsu!inoue 870127
+#
+ouicso = ouicso.osaka-u.jp, ouicso.osaka-u.jpn, ouicso.osaka-u.junet
+#
+
+#N	ouicss.osaka-u.jp
+#S	U-station E-15, SYSTEM V
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences
+#C	Toshio Matsuura
+#E	ouicsu!matsuura
+#T	+81 6 8441151 ext 4822
+#P	Toyonaka, Osaka 560
+#L
+#R
+#U	ouicsu
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ouicss = ouicss.osaka-u.jp, ouicss.osaka-u.jpn, ouicss.osaka-u.junet
+#
+
+#N	ouicsu.osaka-u.jp
+#S	SuperMate SX-8700, SYSTEM V Rel.1 
+#O	Osaka University, Faculty of Engineering Science, Department of Information and Computer Sciences 
+#C	Toshio Matsuura 
+#E	matsuura@ouicsu.osaka-u.junet 
+#T	+81 6 8441151 ext 4822 
+#P	Toyonaka, Osaka 560 
+#L 
+#R 
+#U	nttlab, iegva1, shpnar, koumis, iscb, abc, kusys4, icmhpa, ouicso, ics750, icssm, ouicss, ouics3 
+#W	matsuura@ouicsu.osaka-u.junet 870131 
+#
+ouicsu = ouicsu.osaka-u.jp, ouicsu.osaka-u.jpn, ouicsu.osaka-u.junet
+#
+.osaka-u.jp = { cgsuit, ics750, ics3b2, icssm, iscts1,
+	ouics3, ouicso, ouicss, ouicsu}(LOCAL)
+ouicsu	.oucom
+
+#N	red.aoba.tohoku.jp
+#S	NEWS830, 4.2 BSD
+#O	Ito Lab., Dept. of Information Engineering, Tohoku University
+#C	Ryuichi MATSUKURA
+#E	postmaster@red.aoba.tohoku.junet
+#T	022-222-1800 ex. 4271
+#P	Aramaki Aza Aoba, Sendai city 980 Japan
+#L	35 N / 140 E (not precise)
+#R	
+#U	
+#W	ryuichi@red.aoba.tohoku.junet	
+#
+red = 	red.aoba.tohoku.jp, red.aoba.tohoku.jpn, red.aoba.tohoku.junet
+#
+
+#N	seikei.jp
+#S	VAX-11/730, 4.2BSD
+#O	Iizuka-lab. Department of Information Sciences, Seikei University
+#C	Shinji Ota or Hajime Iizuka
+#E	ota@seikei.junet, jim@seikei.junet or seikei!{ota,jim}
+#T	+81 422 515181 ext.604, 597
+#P	3-3-1, Kichijojikita-Machi Musashino-Shi TOKYO 180, JAPAN
+#L	35 42 N / 139 34 E city
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+seikei = seikei.jp, seikei.jpn, seikei.junet
+#
+
+#N	suvax0.shizuoka.jp
+#S	4.3BSD on vax-11/780 (8MB memory + RA81 x 2)
+#O	Department of Computer Science, Faculty of Engineering, Shizuoka University
+#C	Atsuo Ohki
+#E	ohki@suvax0.shizuoka.junet
+#T	+81 534 711171 ex.508
+#P	3-5-1, Johoku, Hamamatsu, 432, Japan
+#L
+#R
+#U	suvax1
+#W	ohki@suvax0.shizuoka.junet; Feb  5 16:44 1987
+suvax0.shizuoka.jp = suvax0.shizuoka.jpn, suvax0.shizuoka.junet
+#
+suvax0.shizuoka.jp ccut.u-tokyo.jp(LOCAL)
+suvax1.shizuoka.jp ccut.u-tokyo.jp(LOCAL)
+ccut.u-tokyo.jp suvax0.shizuoka.jp(LOCAL)
+ccut.u-tokyo.jp suvax1.shizuoka.jp(LOCAL)
+
+#N	suvax1.shizuoka.jp
+#S	4.3BSD on vax-11/750 (1MB memory + RA80, RA60)
+#O	Department of Computer Science, Faculty of Engineering, Shizuoka University
+#C	Atsuo Ohki
+#E	ohki@suvax1.shizuoka.junet
+#T	+81 534 711171 ex.508
+#P	3-5-1, Johoku, Hamamatsu, 432, Japan
+#L
+#R
+#U	nttlab
+#W	ohki@suvax1.shizuoka.junet; Feb  5 16:40 1987
+suvax1.shizuoka.jp = suvax1.shizuoka.jpn, suvax1.shizuoka.junet
+#
+
+#N	takashi.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Tohma-Nanya Lab.
+#C	Akira Kato
+#E	kato@cs.titech.junet , koudai!kato 
+#T	+81 3 7261111 ext 2566 ext 3041
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+takashi = takashi.cs.titech.jp, takashi.cs.titech.jpn, takashi.cs.titech.junet
+#
+
+#N	takuya.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Katayama Lab.
+#C	Youichi Shinoda
+#E	shinoda@cs.titech.junet , koudai!shinoda
+#T	+81 3 7261111 ext 3045, ext 4033
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+takuya = takuya.cs.titech.jp, takuya.cs.titech.jpn, takuya.cs.titech.junet
+#
+
+#N	titcca.cc.titech.jp
+#S	VAX11/730, 4.2BSD
+#O	Tokyo Institute of Technology, Computer Center
+#C	Jun Murai
+#E	jun@cc.titech.junet , titcca!jun 
+#T	+81 3 7261111 ext3299 or 7287663
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN 
+#L	35 42 N / 139 46 E city
+#R
+#U	titisa, titcce, titnca, koudai, koccvax, dlabvax, ccut, kddlab, srava, ascgw, astecv, tsb0, icot, jnglab, kwmux, necspl, flab, nttlab, seikei, dclsic, casiov2
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titcca = titcca.cc.titech.jp, titcca.cc.titech.jpn, titcca.cc.titech.junet
+#
+#	In Tokyo Institute of Technology, most sites are connected
+#	by Ethernet or by point-to-point TCP/IP
+#
+.cc.titech.jp = {beck, clapton, titcca, titcce}(LOCAL)
+.cs.titech.jp = {fukao, hiroko, koudai, masa, motoshi, naoki,
+	takashi, takuya, tomoyo, yasuko}(LOCAL)
+.is.titech.jp = { aki, titisa, titisb}(LOCAL)
+.nc.titech.jp = {titnca, titnce}(LOCAL)
+
+#N	titcce.cc.titech.jp
+#S	
+#O	Tokyo Institute of Technology, Computer Center
+#C	Jun Murai
+#E	jun@cc.titech.junet , titcca!jun 
+#T	+81 3 7261111 ext3299
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN 
+#L	35 42 N / 139 46 E city
+#R
+#U	titcca, clapton, beck
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titcce = titcce.cc.titech.jp, titcce.cc.titech.jpn, titcce.cc.titech.junet
+#
+
+#N	titisa.is.titech.jp
+#S	780, 4.2
+#O	Tokyo Institute of Technology, Dept. of Information Science
+#C	Yasushi Kuno
+#E	kuno@is.titech.junet , titcca!titisa!kuno
+#T	+81 3 7261111 ext 3202
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	titcca, titisb, koudai
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titisa = titisa.is.titech.jp, titisa.is.titech.jpn, titisa.is.titech.junet
+#
+
+#N	titisb.is.titech.jp
+#S	750, 4.2
+#O	Tokyo Institute of Technology, Dept. of Information Science
+#C	Yasushi Kuno
+#E	kuno@is.titech.junet , titcca!titisa!kuno
+#T	+81 3 7261111 ext 3202
+#P	2-12-1, O-okayama, Meguro-ku, Tokyo 152, JAPAN
+#L	35 42 N / 139 46 E city
+#R
+#U	titisa
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titisb = titisb.is.titech.jp, titisb.is.titech.jpn, titisb.is.titech.junet
+#
+
+#N	titnca.nc.titech.jp
+#S	VAX8600, ultrix-32
+#O	Tokyo Institute of Technology, Computer Center
+#C	Kohji Yamazaki
+#E	kyamazak@nc.titech.junet , titcca!titnca!kyamazak
+#T	+81 45 9221111 ext2100
+#P	4259 Nagatsuda, Midori-ku, Yokohama-city, Kanagawa, 227 JAPAN
+#L
+#R
+#U	titcca
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titnca = titnca.nc.titech.jp, titnca.nc.titech.jpn, titnca.nc.titech.junet
+#
+
+#N	titnce.nc.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Computer Center
+#C	Kohji Yamazaki
+#E	kyamazak@nc.titech.junet , titcca!titnca!kyamazak
+#T	+81 45 9221111 ext2100
+#P	4259 Nagatsuda, Midori-ku, Yokohama-city, Kanagawa, 227 JAPAN
+#L
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+titnce = titnce.nc.titech.jp, titnce.nc.titech.jpn, titnce.nc.titech.junet
+#
+
+#N	tomoyo.cs.titech.jp
+#S	SUN-2, 4.2BSD
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Tanaka Lab.
+#C	Naoyoshi Tamura
+#E	tam@cs.titech.junet , koudai!tam
+#T	+81 3 7261111 ext 3046
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+tomoyo = tomoyo.cs.titech.jp, tomoyo.cs.titech.jpn, tomoyo.cs.titech.junet
+#
+
+#N	tsuda.tsuda.jp
+#S	VAX 11/780, 4.2BSD
+#O	Tsuda College
+#C	Takahide Ogawa
+#E	ogawa@tsuda.junet or tsuda!ogawa
+#T	+81 0423 412441
+#P	2-1-1, Tsuda-machi Kodaira-shi, Tokyo 187
+#L	unknown
+#R	unknown
+#U	nttlab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+tsuda = tsuda.tsuda.jp, tsuda.tsuda.jpn, tsuda.tsuda.junet
+#
+.tsuda.jp = { tsuda }(LOCAL)
+
+#N	tsukuba.jp
+#S	VAX11/750 4.2BSD
+#O	University of Tsukuba, Institute of Information Science and Electronics
+#C	Kazuhiko Kato, TEL 0298(53)5163, OS Lab.
+#E	kato@tsukuba.junet or tsuku!kato
+#T	+81 298 535163
+#P	Sakura-mura, Niihari-gun, Ibaraki-ken, Japan 305
+#L
+#R
+#U	nttlab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+tsuku = tsukuba.jp, tsukuba.jpn, tsukuba.junet
+#
+.tsukuba.jp	= {tsuku, utissq}(LOCAL)
+
+#N	tutics.tut.jp
+#S	AT&T 3B2/300
+#O	Toyohashi University of Technology, Dept. of Info. & Comp. Sci.
+#C	Prof. Masaharu Imai
+#E	tutics!imailab or imailab@tutics.tut.junet (imailab@tut.junet)
+#T	+81 532 470111 ext.509/599
+#P	Tempaku, Toyohashi, Japan 440
+#L	34 41 52.8 N / 137 24 26.2 E        
+#R	tut not understood by titcca
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+tutics = tutics.tut.jp, tutics.tut.jpn, tutics.tut.junet
+#
+.tut.jp = {tutics}(LOCAL)
+
+#N	uecra.uec.jp
+#S
+#O	University of Electro-Communications
+#C	Yoshikatsu TADA & Hiroyasu KAKUDA
+#E	yoshi@uec.junet & kakuda@uecda.uec.junet
+#T	+83 424 832161 ext.3123, 4113
+#P	5-1, Chofu-ga-oka 1-chome, Chofu-shi, Tokyo 182, Japan 
+#L	34 41 52.8 N / 137 24 26.2 E        
+#R	
+#U
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+# Other machines uecra,uecrb,uecrc,uecda,uecdc
+uecra = uecra.uec.jp, uecra.uec.jpn, uecra.uec.junet
+#
+.uec.jp = {uecra}(LOCAL)
+
+#N	ulis.ulis.jp
+#S	PDP-11/44, 2.9BSD.
+#O	Univ of Library & Information Science
+#C	Kigen Hasebe
+#E	ulis!kh
+#T	+81 298 520511 ext 307
+#P	1-2, Kasuga, Yatabe-machi, Ibaraki 305, Japan
+#L	
+#R
+#U	ccut
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ulis=ulis.ulis.jp, ulis.ulis.jpn, ulis.ulis.junet
+#
+.ulis.jp = {ulis, ulisun, ulivax, uliux}(LOCAL)
+
+#N	ulisun.ulis.jp
+#S	SUN-2, 4.2BSD
+#O	Univ of Library & Information Science
+#C	Yuzuru Hiraga
+#E	ulis!hiraga
+#T	+81 298 520511 ext 314
+#P	1-2, Kasuga, Yatabe-machi, Ibaraki 305, Japan
+#L	
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ulisun=ulisun.ulis.jp, ulisun.ulis.jpn, ulisun.ulis.junet
+#
+
+#N	uliux.ulis.jp
+#S	UX-300F, SYSTEM III
+#O	Univ of Library & Information Science
+#C	Shigeo Sugimoto
+#E	ulis!sugimoto
+#T	+81 298 520511 ext 316
+#P	1-2, Kasuga, Yatabe-machi, Ibaraki 305, Japan
+#L	
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+uliux=uliux.ulis.jp, uliux.ulis.jpn, uliux.ulis.junet
+#
+
+#N	ulivax.ulis.jp
+#S	VAX-11/750, 4.2BSD
+#O	Univ of Library & Information Science
+#C	Yuzuru Hiraga
+#E	ulis!hiraga
+#T	+81 298 520511 ext 314
+#P	1-2, Kasuga, Yatabe-machi, Ibaraki 305, Japan
+#L	
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+ulivax=ulivax.ulis.jp, ulivax.ulis.jpn, ulivax.ulis.junet
+#
+
+#N	unsun.riec.tohoku.jp
+#S	SUN-3/52M; Sun OS 3.0
+#O	Dept. of Information, Electronic Communication Labs., Univ. of Tohoku
+#C	Masahiko Sato
+#E	kam@unsun.riec.tohoku.junet
+#T	+81 222-22-1800 ex. 4271
+#P	2-1-1 Katahira, Sendai city 980 Japan
+#L	35 N / 140 E 
+#R
+#W	masahiko@unsun.riec.tohoku.junet; Mon Jul 20 12:39:55 JST 1987
+#U
+#
+unsun = unsun.riec.tohoku.jp, unsun.riec.tohoku.jpn, unsun.riec.tohoku.junet
+.riec = {unsun}(LOCAL)
+
+#N	utissq.u-tsukuba.jp
+#S	SEQUENT B8000, 4.2BSD
+#O	University of Tsukuba, Institute of Information Sciences and Electronics
+#C	Katsuo Ikeda
+#E	utissq!ikeda
+#T	+81 298 535187
+#P	Tsukuba Science City, Ibaraki, 305, Japan
+#L	36 05 N / 140 07 E
+#R
+#U	tsuku
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+utissq = utissq.u-tsukuba.junet,utissq.u-tsukuba.jp,utissq.u-tsukuba.jpn
+#
+
+#N	uyoko.uyoko.jp
+#S	NEC PC980, PC-UX
+#O	Faculty of Eng., Yokohama National Univ.
+#C	Prof. Rokuya Ishii
+#E	uyoko!ishii
+#T	+81 45 3351451 Ext. 2901 or 2906
+#P	156 Tokiwadai, Hodogaya-ku, Yokohama 240, Japan
+#L	
+#R
+#U	
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+#
+.uyoko.jp = {uyoko}(LOCAL)
+
+
+#N	wucc.waseda.junet
+#S	DEC VAX11-785; 4.2BSD
+#O	Waseda University
+#C	Masakazu SATO
+#E	sato@wucc.waseda.junet, wucc!sato
+#T	03-209-3211 EXT.3419
+#P	160 Shinjukuku Ookubo 3-4-1
+#L	?
+#R	
+#U	nttlab
+#W	sato; 1987. 4. 6.
+#
+wucc = wucc.waseda.junet,wucc.waseda.jp,wucc.waseda.jpn
+#
+.waseda.jp = {wucc}(LOCAL)
+
+
+#N	yajima.kuis.kyoto-u.jp
+#S	VAX-11/730 UNIX4.2BSD
+#O	Yajima Lab., Dept. of Info. Sci., Kyoto University
+#C	Mizuki TAKAHASHI
+#E	mizuki@yajima.kuis.kyoto-u.junet 
+#T	+81 75 7512111 (ext. 5392)
+#P	Yoshida-Honmachi, Sakyo-ku Kyoto 606
+#L	
+#R
+#U	hagiwara
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+yajima = yajima.kuis.kyoto-u.jp, yajima.kuis.kyoto-u.jpn, yajima.kuis.kyoto-u.junet
+#
+
+#N	yasuko.cs.titech.jp
+#S	SUN3/52M, UNIX 4.2bsd
+#O	Tokyo Institute of Technology, Dept. of Computer Science, Shimura Lab.
+#C	Masayuki Numao
+#E	numao@cs.titech.junet or koudai!yasuko!numao 
+#T	+81 3 7261111 ext 4155
+#P	12-1, Oookayama 2-chome, Meguro-ku, Tokyo 152, Japan
+#L	35 42 N / 139 46 E city
+#R
+#U	koudai
+#W	koudai!kato 860503
+yasuko = yasuko.cs.titech.jp, yasuko.cs.titech.jpn, yasuko.cs.titech.junet
+#
+
+#N	yufuji.yamanashi.jp
+#S	
+#O	Yamanashi Univ.
+#C	
+#E	
+#T	
+#P	
+#L	
+#R
+#U	nttlab
+#W	asami@kddlabs.junet; Oct 28 16:49 1986
+yufuji = yufuji.yamanashi.jp, yufuji.yamanashi.jpn, yufuji.yamanashi.junet
+#
+.yamanashi.jp = {yufuji}(LOCAL)
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,172 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.ny.1
+# This archive created: Sat Dec 12 04:03:04 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.ny.1
+cat << \SHAR_EOF > d.usa.ny.1
+#MAP FILE: d.usa.ny.1   Fri Dec 11 11:09:31 EST 1987   rob@philabs.philips.com
+#
+#
+
+
+#N	.brs.com, brspyr1
+#F	rutgers.edu
+#O	BRS Information Technologies
+#C	Tim Northrup
+#E	tim@brspyr1.brs.com
+#T	518-783-1161
+#P	1200 Troy-Schenectady Road, Latham, NY  12110
+#L	42 45 N / 73 45 W
+#R	registered
+#U	beowulf steinmetz
+#W	brspyr1!tim (Tim Northrup); Wed Dec  9 16:04:25 EST 1987
+#
+brspyr1	.brs.com
+brspyr1=brs.com
+#
+brspyr1	beowulf(HOURLY), steinmetz(DAILY/6), rutgers(HOURLY),
+	brsug(DEDICATED), brscci(DEDICATED), dartvax(DEMAND), pyrbos(WEEKLY)
+rutgers	brspyr1(HOURLY)
+
+
+#N	.columbia.edu, columbia
+#F	columbia.edu
+#O	Columbia University Department of Computer Science
+#C	Chris Maio
+#E	columbia!postmaster
+#T	(212) 280-5750 or (212) 280-2736
+#P	450 Computer Science, Columbia University, New York, NY 10027
+#L	40 43 N / 73 50 W city
+#R
+#U	rutgers cucca
+#W	columbia!chris (Chris Maio); Tue Jun 30 21:27:41 EDT 1987
+#
+columbia .columbia.edu
+columbia = columbia.edu
+columbia amdahl(POLLED), rutgers(DEDICATED),
+	cucard(DEMAND),	lamont(DEMAND), cucca(DEDICATED)
+
+
+#N	.cooper.edu, cooper
+#F	nyu.arpa
+#O	The Cooper Union for the Advancement of Science and Art
+#C	Christopher P. Lent, Craig Steinberger
+#E	chris@Cooper.Cooper.EDU, c.steinb@Cooper.Cooper.EDU
+#T	203-452-1522, 212-254-6300 ext. 238
+#P	Computer Center, 51 Astor Place; NY, NY 10003
+#L	40 43 50 N / 73 59 35 W 
+#R	applied
+#U	phri
+#W	chris@cooper.uucp (Christopher P. Lent) ; Sun Apr  5 19:50:36 EST 1987
+#
+cooper	.cooper.edu
+cooper=	cooper.cooper.edu
+cooper	phri(HOURLY), philon(DAILY)
+
+
+#N	.masa.com, hombre
+#F	rutgers.edu
+#O	Masa Systems, Inc.
+#C	Fairfax O'Riley,   Carlos Abreu
+#E	foriley@MASA.COM,  cabreu@MASA.COM
+#P	360 Court Street, Suite 38; Brooklyn, New York 11231
+#L	40 42 15 N, 74 01 11 W
+#U	dasys1 otiose
+#R	registered
+#W	foriley@MASA.COM (Fairfax O'Riley);  Fri Nov 13 12:43:51 EST 1987
+#
+hombre	.masa.com
+hombre=	masa.com, hombre.masa.com, tech.masa.com
+hombre	ally(LOCAL), cmcl2(DIRECT+HIGH), cucard(DIRECT+HIGH),
+	cuctr(DIRECT), dasys1(DIRECT), magpie(DIRECT+LOW),
+	marob(DIRECT+LOW), myna(DEDICATED), otiose(LOCAL),
+	phri(DIRECT+HIGH), rutgers(DEAD), theo(DEAD), unirot(DEMAND+LOW),
+	uudjs(WEEKLY+LOW+LOW)
+
+
+#N	.philips.com, philabs
+#F	uunet.uu.net
+#O	Philips Laboratories, North American Philips
+#C	William Robertson, John Murphy
+#E	rob@philabs.Philips.Com, jam@philabs.Philips.Com
+#T	(914)  945-6300, (914)  945-6216
+#P	345 Scarborough Road, Briarcliff Manor, New York  10510
+#L	41 09 N / 73 50 W city
+#R	applied
+#U	aecom arnor cmcl2 gcm gotham hhb lamont linus micomvax nbc1
+#U	nyit nynex1 phri polycatt prlb2 prls pwa-b sbcs trotter ttidca
+#W	Wed Nov  4 08:42:33 EST 1987 by rob@philabs.philips.com
+#
+#
+philabs	.philips.com
+philabs=	philabs.philips.com
+philabs	aecom(POLLED+HIGH), allegra(DEMAND), ames(DEMAND),
+	arnor(POLLED), astrovax(DEMAND), bc-ccm(DEMAND),
+	bellcore(DEMAND), bunker(DEMAND), cadovax(DEMAND),
+	cbosgd(DEMAND), ccnysci(DEMAND), cmcl2(DEMAND),
+	cornell(DEMAND), cubsvax(DEMAND), decvax(DEMAND),
+	delftcc(DEMAND), flkvax(DEMAND), floyd(DEMAND),
+	fmsrl7(DEMAND), gatech(DEMAND),gcm(POLLED),
+	gotham(POLLED+HIGH), hhb(POLLED+HIGH), ihnp4(DEMAND),
+	kontron(DEMAND), lamont(POLLED+HIGH), linus(DEMAND),
+	masscomp(DEMAND), mcnc(DEMAND),mergvax(DEMAND),
+	micomvax(DEMAND), mtuxj(DEMAND), nbc1(POLLED+HIGH),
+	nyit(DEMAND), nynex1(DIRECT), pads(DEMAND),
+	pencom(POLLED), phri(DEMAND), physics(DEMAND),
+	polycatt(POLLED), princeton(DEMAND), prlb2(WEEKLY),
+	prls(DEMAND), puivax(DEMAND), pwa-b(POLLED+HIGH),
+	research(DEMAND), rna(DEMAND), rutgers(DEMAND),
+	sbcs(POLLED+HIGH), sdcsvax(DEMAND), srcsip(DEMAND),
+	steinmetz(DEMAND), trotter(POLLED+HIGH), ttidca(POLLED+HIGH),
+	uiucdcs(DEMAND), ut-ngp(POLLED), utcsri(DEMAND),
+	uunet(HOURLY*4), vax135(DEMAND), yale(DEMAND)
+
+
+
+#N	.usma.edu, trotter
+#F	rutgers.edu
+#O	United States Military Academy, West Point, NY
+#C	Cpt Bob Hernandez
+#E	bob@trotter.USMA.EDU
+#T	+1 914 938 3820
+#P	ACD, Office of the Dean, USMA, West Point, NY  10996
+#L	41 23 N / 073 57 W
+#R	
+#U	philabs
+#W	bob@trotter.USMA.EDU (Bob Hernandez); Sat Sep 19 14:44:43 EDT 1987
+#
+trotter	.usma.edu
+trotter	=usma.edu
+trotter	=westpt
+trotter  philabs(DEMAND), phri(DEMAND+LOW), sunybcs(DEMAND+LOW),
+        rpics(DEMAND+LOW)
+
+
+#N	.yu.edu, aecom
+#F	uxc.cso.uiuc.edu
+#O	Albert Einstein College of Medicine
+#C	Robert N. Berlinger, Glen M. Marianko
+#E	naftoli@aecom.yu.edu, glen@aecom.yu.edu
+#T	212-430-3686
+#P	Scientific Computing Center, 1300 Morris Park Ave.; Bronx, NY 10461
+#L	40 49 N / 73 56 W city
+#R	applied
+#R	Gateway for Yeshiva University
+#U	aecom2 philabs
+#W	naftoli@aecom.yu.edu (Robert N. Berlinger); Wed Mar 11 12:44:27 EST 1987
+#
+aecom	.yu.edu
+aecom=	aecom.yu.edu
+aecom   cucard(DEMAND+LOW), rocky2(DIRECT+LOW), philabs(DEMAND),
+	aecom2(DEDICATED), uiucuxc(EVENING), nynex1(DEMAND)
+
+
+SHAR_EOF
+#	End of shell archive
+exit 0

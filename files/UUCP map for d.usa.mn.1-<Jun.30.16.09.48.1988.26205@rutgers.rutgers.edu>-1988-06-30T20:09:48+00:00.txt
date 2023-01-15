@@ -1,0 +1,300 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.mn.1
+: This archive created: Thu Jun 30 16:09:43 1988
+echo shar: extracting d.usa.mn.1
+cat << 'SHAR_EOF' > d.usa.mn.1
+# Map: d.usa.mn.1 Wed Jun 29 11:13:59 CDT 1988 brianr@rosevax.rosemount.com  
+#N	.3m.com, mmm
+#F	uxc.cso.uiuc.edu
+#O	3M Company
+#C	Bradley D. Rhoades
+#E	mmm!{postmaster,usenet}, mmm!brad
+#T	+1 612 733 1937
+#P	Bldg. 260-6A-08, 3M Center, St. Paul, MN 55144-1000, USA
+#L	44 57 24 09 N / 92 59 56 04 W city
+#R	Long and Lat accurate to at least a half a minute.
+#U      ntmtka diac dicome
+#W	brad@3m.com (Bradley D. Rhoades); Wed Jun  8 17:23:30 CDT 1988
+#
+mmm	.3m.com
+mmm	.serc.3m.com
+mmm=	.3m.com
+mmm=	.serc.3m.com
+mmm=	mmm.serc.3m.com
+#	UUCP Connections of domain 3M.Com
+mmm	bungia(DIRECT), cimcor(DIRECT), com50(DIRECT), corum(DIRECT),
+	dayton(DIRECT), diac(DIRECT), dicome(DIRECT), elric(DIRECT),
+	ems(DIRECT), halley(DIRECT), hawkmoon(DIRECT), herman(DIRECT),
+	ihnp4(EVENING), lily(DIRECT), meccts(DIRECT), nis(DIRECT),
+	ntmtka(DIRECT), pwcs(DIRECT), quest(DIRECT), questar(DIRECT),
+	shamash(DIRECT), sialis(DIRECT), srcsip(DIRECT), tundra(DIRECT), 
+	umn-cs(DIRECT), uiucuxc(EVENING), viper(DIRECT)
+
+rosevax	mmm(HOURLY)
+thunder	mmm(DAILY)
+dpmizar	mmm(POLLED)
+eta	mmm(POLLED)
+
+#N	.cdc.com, shamash
+#F	shamash.cdc.com, shamash-gw.cdc.com, expedius.cdc.com
+#S	Sun Microsystems 3/160; 4.2BSD (Sun 3.5)
+#O	Control Data Corporation
+#C	Jeff Wabik
+#E	shamash!jwabik
+#T	+1 612 853 6811
+#P	8100 34th Avenue South, Bloomington, MN  55420
+#L	44 52 20 N / 93 12 32 W city
+#R 	Registered:  .cdc.com. Class B: 129.205   shamash=129.205.0.10
+#W	shamash!jwabik (Jeff Wabik); Mon Jun 27 14:48:00 CDT 1988
+shamash	.cdc.com
+shamash=.cdc.com
+shamash=shamash.cdc.com
+shamash bungia(DIRECT),ems(DIRECT),eta(DIRECT),expedius(LOCAL),
+	halcdc(DIRECT),meccts(DIRECT),mmm(DIRECT),nis(DIRECT),
+	raspail(DIRECT),sialis(DIRECT),umn-cs(DIRECT)
+
+rosevax	shamash(HOURLY)
+
+#N	.d.umn.edu, umn-d-ub
+#F	ub.d.umn.edu
+#O	University of Minnesota at Duluth, Information Services
+#S	Encore Multimax, 4.2 BSD UNIX
+#C	Daniel J. Burrows
+#E	umn-d-ub!Postmaster
+#T	218-726-6122
+#P	MWAH 172, Computer Services, UMD, 10 University Drive,  55812
+#L	46 48 N / 092 06 W city
+#R	registered
+#R	ub.d.umn.edu is the mail server for UMD. gw.d.umn.edu is a backup.
+#W	umn-d-ub!rhealey (Rob Healey); Tue May 10 18:00:00 CDT 1988
+umn-d-ub .d.umn.edu
+umn-d-ub d.umn.edu
+umn-d-ub = d.umn.edu
+umn-d-ub = ub.d.umn.edu
+umn-d-ub = umndub
+umn-d-ub   umn-cs(HOURLY), rutgers(DAILY), encore(EVENING), umndcpe(LOCAL)
+
+#N	.eta.com, eta
+#F	uxc.cso.uiuc.edu
+#S	AT&T 3B1; UNIX 3.51
+#O	ETA Systems, Inc.
+#R	The New Force in Supercomputers
+#C	Charles E Nove, John S Salmi
+#E	eta!postmaster, eta!cnove, eta!jsalmi
+#R	postmaster@eta.com, cnove@eta.eta.com, jsalmi@eta.eta.com
+#T	+1 612 642 3533, +1 612 642 8359
+#P	ETC03J, 1450 Energy Park Dr, St Paul, MN  55108-5299
+#L	44 58 15 N / 093 09 30 W
+#U	pwcs
+#R	registered
+#W	eta!cnove (Charles E Nove); Thu Jan 14 16:53:39 GMT 1988
+#
+eta	.eta.com
+eta	eta.com
+eta=	eta.eta.com
+eta	meccts!(DIRECT),
+	pwcs!(EVENING+HIGH),
+	tundra!(DIRECT)
+
+#N	.src.honeywell.com, srcsip
+#F	src.honeywell.com
+#O	Honeywell Inc. Systems & Research Center
+#C	John Kimball, Larry Linde
+#E	postmaster@src.honeywell.com, usenet@src.honeywell.com
+#T	+1 612 782 7343, +1 612 782 7589
+#P	3660 Technology Drive MPLS, MN  55418,  USA
+#L	45 02 N / 93 16.7 W
+#R	registered on Arpanet: src.honeywell.com == [129.30.1.10]
+#U	ems, bthpyd
+#W	jkimball@src.honeywell.com (John Kimball); Fri May 20 08:39:45 CDT 1988
+#
+srcsip	.src.honeywell.com
+srcsip=	src.honeywell.com
+srcsip=	altura, hi-src, altura.honeywell.com
+srcsip	umn-cs(DIRECT),
+	mtxinu(DEMAND),
+	bungia(POLLED),
+	ems(DIRECT),
+	titn(WEEKLY),
+	ihnp4(DEMAND+LOW),
+	mmm(DEMAND),
+	bthpyd(DIRECT),
+	hyper(DEMAND),
+	tundra(DIRECT),
+	avsi(POLLED),
+	sctc10(POLLED)
+
+#N	.mn.org, bungia
+#F	a.cs.uiuc.edu
+#O	Unix Users of Minnesota
+#C	Shane P. McCarron, Steve J. McDowall
+#E	ahby@MN.ORG, sjm@MN.ORG
+#T	612-224-9239, 612-427-5165
+#P	117 Mackubin St. #6  St. Paul, MN  55102
+#L	45 03 N / 93 15 W
+#U	com50
+#R	registered
+#R	.aob.mn.org - jim@AOB.MN.ORG <Jim Anderson - +1 612 6362869>
+#R	.bungia.mn.org - ahby@Bungia.MN.ORG <Shane McCarron - +1 612 2249239>
+#R	.c2s.mn.org - ahby@C2S.MN.ORG <Shane McCarron - +1 612 4529522>
+#R	.cimcor.mn.org - mike@Cimcor.MN.ORG <Mike Grenier - +1 612 4847261>
+#R	.ciprico.mn.org - dad@Cipric.MN.ORG <Dan Dickey - +1 612 5592034>
+#R	.cmtrl.mn.org - isaac@Cmtrl.MN.ORG <Bruse DeVries - +1 612 6317654>
+#R	.cnt.mn.org - bret@cnt.MN.ORG <Bret Ketchum - +1 612 5358111>
+#R	.convergent.mn.org - ted@Convergent.MN.ORG <Ted Collins-+1 612 9213999>
+#R	.datapg.mn.org - sewilco@DataPg.MN.ORG <Scot Wilcoxon - +1 612 8252607>
+#R	.dhdsc.mn.org - bill@DHDSC.MN.ORG <Bill Argyros - +1 612 3756651>
+#R	.ems.mn.org - barker@EMS.MN.ORG <Bob Barker - +1 612 8298200>
+#R	.enc.mn.org - jerm@ENC.MN.ORG <Jeremy White - +1 612 545-6553>
+#R	.fargo.mn.org - fred@Fargo.MN.ORG <Fred Potthoff - +1 612 9419470>
+#R	.fizban.mn.org - sds@Fizban.MN.ORG <Steve Splinter>
+#R	.gorf.mn.org - rms@Gorf.MN.ORG <Roger Shimada>
+#R	.hasler.mn.org - john@Hasler.MN.ORG <John Hasler>
+#R	.hawkmoon.mn.org - det@Hawkmoon.MN.ORG <Derek Terveer>
+#R	.jhereg.mn.org - mark@Jhereg.MN.ORG <Mark Colburn>
+#R	.k.mn.org - alan@k.mn.org <Alan Klietz>
+#R	.kcove.mn.org - root@kcove.mn.org <Bill King Jr.>
+#R	.kksys.mn.org - gk@kksys.mn.org <Greg Kemnitz - +1 612 4751527>
+#R	.limbo.mn.org - scott@limbo.mn.org <Scott Anderson>
+#R	.lynx.mn.org - dave@Lynx.MN.ORG <Dave Messer>
+#R	.mca.mn.org - sjm@MCA.MN.ORG <Steven J. McDowall - +1 612 4275165>
+#R	.mecc.mn.org - jlt@MECC.MN.ORG <James L. Thonpson - +1 612 4813625>
+#R	.n0atp.mn.org - barry@n0atp.mn.org <Barry Berg - +1 612 4324520>
+#R	.nis.mn.org - rjg@nis.mn.org <Robert J. Granvin - +1 612 8949494>
+#R	.norstar.mn.org - rhealey@norstar.mn.org <Rob Healey - +1 612 7241572>
+#R	.questar.mn.org - scott@Questar.MN.ORG <Scott Anderson - +1 612 6880089>
+#R	.rtd.mn.org - rapoport@RTD.MN.ORG <Edward Rapoport - +1 612 338-2342>
+#R	.sialis.mn.org - rjg@Sialis.MN.ORG <Robert J. Granvin - +1 612 9223274>
+#R	.swatteam.mn.org - jim@mskito.SwatTeam.MN.ORG <Jim Anderson>
+#R	.wd0gol.mn.org - barker@wd0gol.MN.ORG <Bob Barker - +1 612 9342136>
+#R	.zeno.mn.org - gene@zeno.MN.ORG <Gene Olson>
+#W	ahby@MN.ORG (Shane P. McCarron); Sat Jun 18 10:56:57 CDT 1988
+#	Domain member declarations
+aob	.aob.mn.org
+bungia	.bungia.mn.org
+cimcor	.cimcor.mn.org
+cipric	.ciprico.mn.org
+cmtrl	.cmtrl.mn.org
+cnt	.cnt.mn.org
+com50	.c2s.mn.org
+ctmpls	.convergent.mn.org
+datapg	.datapg.mn.org
+dayton	.dhdsc.mn.org
+ems	.ems.mn.org
+enc1	.enc.mn.org
+camax01	.rtd.mn.org
+fargovax	.fargo.mn.org
+foundln	.hasler.mn.org
+gorf	.gorf.mn.org
+hawkmoon	.hawkmoon.mn.org
+jhereg	.jhereg.mn.org
+kcove	.kcove.mn.org
+kksys	.kksys.mn.org
+lestat	.limbo.mn.org
+mca	.mca.mn.org
+meccts	.mecc.mn.org
+mn-at1	.k.mn.org
+mskito	.swatteam.mn.org
+n0atp	.n0atp.mn.org
+nis	.nis.mn.org
+norstar	.norstar.mn.org
+questar	.questar.mn.org
+sialis	.sialis.mn.org
+viper	.lynx.mn.org
+wd0gol	.wd0gol.mn.org
+zeno	.zeno.mn.org
+bungia	.mn.org, mn.org
+bungia=	bungia.bungia.mn.org
+#	Connections of domain MN.ORG
+bungia	acustaf(DIRECT), amdahl(DEMAND), aob(DIRECT+FAST),
+	bthpyd(DIRECT), cctb(DIRECT), cimcor(DIRECT), 
+	cmtrl(DIRECT), cnt(DIRECT), com50(DIRECT+FAST), 
+	corum(DIRECT), ctmpls(DIRECT), ctted(DAILY), 
+	datapg(DIRECT), dayton(DIRECT), ems(DIRECT), 
+	enc1(DIRECT), hpda(DEMAND), inset(DAILY), 
+	jhereg(DEMAND), kcove(DIRECT), kksys(DIRECT), 
+	lily(DIRECT), meccts(DIRECT), mmm(DIRECT+FAST), 
+	mskito(DIRECT), nis(DIRECT+FAST), ntmtka(DIRECT),
+	orbit(DIRECT), pai(DIRECT), pwcs(DIRECT+FAST), 
+	quest(DIRECT), questar(DIRECT), shamash(DIRECT), 
+	sialis(DIRECT+FAST), srcsip(DIRECT), stag(DIRECT), 
+	uiucdcs(EVENING), umn-cs(DIRECT), viper(DIRECT), 
+	wd0gol(DIRECT), zeno(DIRECT)
+
+bulus3	bungia(HOURLY)
+eta	bungia(HOURLY)
+fizban	bungia(EVENING)
+foundln	bungia(EVENING)
+frog	bungia(DAILY/3)
+gorf	bungia(EVENING)
+hawkmoon	bungia(HOURLY)
+ices	bungia(DIRECT)
+lestat	bungia(POLLED)
+mca	bungia(HOURLY+FAST)
+midgard	bungia(HOURLY)
+n0atp	bungia(HOURLY)
+norstar	bungia(DAILY)
+rosevax	bungia(DAILY)
+
+#N	.rosemount.com, rosevax, rose3
+#F	uunet.uu.net
+#O	Rosemount Inc.
+#C	Carole Ashmore
+#E	postmaster@rosevax.rosemount.com
+#T	612-828-3254
+#P	12001 Technology Drive, Eden Prairie, MN 55344
+#L	44 52 N / 93 27 W
+#U	camax01 cimcor cipric elric ems mmm nis pwcs quest questar rose3
+#U	shamash uunet 
+#R	registered 
+#W	rosevax!dave (Dave Marquardt); Thu Mar 24 08:46:28 CST 1988
+#
+rosevax	.rosemount.com
+rosevax=rosemount.com
+rosevax=rosevax.rosemount.com
+rosevax aob(EVENING), bungia(DIRECT), camax01(DIRECT), cimcor(DIRECT), 
+	cimcrp(DEAD), cipric(DIRECT), elric(DIRECT), ems(EVENING), 
+	herman(DIRECT), kksys(DIRECT), lily(DIRECT), meccts(DIRECT), 
+	mmm(DIRECT), <mtxinu>(DEMAND), nis(DIRECT), orbit(DIRECT), 
+	pwcs(DIRECT), quest(DIRECT), questar(DIRECT), rose3(DEDICATED), 
+	<rutgers>(EVENING), shamash(DIRECT), sialis(DIRECT),
+	tundra(DIRECT), umn-cs(DIRECT), uunet(DEMAND)
+
+#C	Dan Messinger
+#P	Rosemount Inc., 12265 Nicollet Avenue, Burnsville, MN   55337
+#T	612-885-2025
+#E	dan@rose3.rosemount.com
+rose3	.rosemount.com
+rose3 = rose3.rosemount.com
+rose3	quest(DIRECT), rosevax(DEDICATED), rose1(LOCAL), rose2(LOCAL),
+	rose4(LOCAL), starfire(DIRECT), herman(DEMAND+HIGH), lily(DEMAND+HIGH)
+#N	.stpaul.gov, pwcs
+#F	uxc.cso.uiuc.edu
+#O	City of St. Paul Public Works Computer Services
+#C	Dave Glowacki
+#E	daveg@pwcs.StPaul.GOV
+#T	612-298-5569, 612-292-6009
+#P	702 City Hall Annex, 25 West 4th St., Saint Paul MN  55102-1660
+#L	44 46 41 N / 93 5 40 W
+#U	ems quest rosevax questar elric embos viper zycad eta minnow ncs-med stag
+#R	registered
+#W	daveg@pwcs.StPaul.GOV (Dave Glowacki); Wed Apr  6 10:30:41 CDT 1988
+#
+pwcs	.stpaul.gov
+pwcs	stpaul.gov
+pwcs=	pwcs.stpaul.gov
+pwcs	ems(DIRECT), quest(DIRECT), meccts(DIRECT), tundra(DIRECT),
+	herman(DIRECT), lily(DIRECT), cdsdev(DIRECT), questar(DIRECT),
+	elric(DIRECT), viper(DIRECT), zycad(DIRECT), nis(DIRECT), eta(DIRECT),
+	minnow(DIRECT), ncs-med(DIRECT), bungia(DIRECT), sialis(DIRECT),
+	stag(DIRECT), mnirm(DIRECT)
+hawkmoon	pwcs(POLLED)
+
+embos=	embos.stpaul.gov
+embos	pwcs(DIRECT)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,1424 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.ut.1
+#	u.usa.va.1
+#	u.usa.vt.1
+# This archive created: Tue Jul 28 23:18:53 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.ut.1
+cat << ¥SHAR_EOF > u.usa.ut.1
+# Doug McCallum <dougm@ico.ISC.COM>; Thu Jul 23 08:24:04 MDT 1987
+
+#N	byuadam
+#S	VAX 11/750; 4.2 BSD UNIX
+#O	Brigham Young University, CAEDM group
+#C	Greg Frank
+#E	byuadam!gaf
+#T	+1 801 378 7490
+#P	448 Clyde Bldg., BYU, Provo, UT 84602
+#L	40 15 0 N / 111 40 0 W
+#R	Brigham Young University, Largest Private University in the US.
+#W	caeco!murf (Steve Murphy); Wed Dec  3 10:50:00 MST 1986
+#
+byuadam	byucsa(DIRECT)
+# These sites poll us with varying reliability.
+byuadam	iconsys(DEMAND), caeco(EVENING), cvpath(EVENING), ths3b2(EVENING),
+	akgua(EVENING)
+# Byuadam is also on arpanet (for now), bitnet, and has a campus Y-net.
+
+
+
+#N	byucsa
+#S	VAX 11/750;  BSD 4.2
+#O	Brigham Young University, Computer Science Dept.
+#C	Evan Ivie
+#E	byucsa!evan
+#T	+1 801 378 7655
+#P	Provo, UT 84602
+#L	40 15 0 N / 111 40 0 W
+#R	Someone who really knows BYU's connections should correct this
+#W	caeco!murf (Steve Murphy); Fri Dec  5 10:01:44 1986
+#	I think the next line is right.
+#U	psuvm.bitnet
+byucsa	arizona(HOURLY), nrcvax(DAILY*2), byuadam(DIRECT)
+
+
+#N	byuopus
+#S	CONVEX C-1; 6.0 CONVEX UNIX (a 4.2BSD derivative)
+#O	Brigham Young University
+#C	Scott White
+#E	byuopus!postmaster
+#T	+1 801 378 3410
+#P	45 Crabtree Technology Building, Provo, Utah, 84602
+#L	111 38 43 W / 40 14 51 N
+#R	This is also BYUOPUS.BYU.EDU [128.187.5.2] on the internet
+#U	
+#W	byuopus!zitwit (Scott C. White); Wed Jul 15 12:17:39 MDT 1987
+#
+byuopus	convex(DAILY)
+#
+#	LANS addressed user@host
+#
+caedm-net = @{byuadam, byueve, byuspock, eeres, vlsi1, vlsi2, vlsi3}(LOCAL)
+coal-net  = @{byucoal, byuopus}(LOCAL)
+
+
+
+#N	caeco
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Caeco, Inc.
+#C	Steve Murphy
+#E	caeco!murf
+#T	+1 801 255 8880
+#P	7190 S Union Park Ave., Midvale, UT 84047
+#L	40 36 15 N / 111 53 05 W
+#R	CAECO is the home of a fantastic VLSI layout package and a neat Schematic Capture package.
+#U	nrc-ut
+#W	caeco!murf (Steve Murphy); Fri Jun  5 07:00:00 MST 1987
+#
+caeco	wicat(DEMAND), byuadam(DEMAND), nrc-ut(DIRECT), ut-cs(DIRECT)
+
+
+
+#N	century
+#S	HP300/MC68020; HP-UX (System V)
+#O	Century Software
+#C	Greg Haerr
+#E	century!greg
+#T	+1 801 943 8386
+#P	9558 S Pinedale, Sandy, UT 84092
+#L	40 34 40 N / 111 49 45 W
+#R	From a phone conversation with Greg Haerr
+#W	utah-cs!donn (Donn Seeley); Sat Nov  1 23:27:23 MST 1986
+#U
+#
+century	utah-cs(DEMAND)
+
+
+#N	esunix
+#S	VAX 11/750 ULTRIX 2.0
+#O	Evans & Sutherland Computer Corporation
+#C	Reed Haslam
+#E	esunix!rhaslam
+#T	+1 801 582 5847 x3573
+#P	580 Arapeen Drive, Salt Lake City, UT 84108
+#L	40 45 23 N / 111 49 41 W
+#R	Software Development and Communications Gateway Machine
+#W	esunix!rhaslam (Reed Haslam); Tue Jun  2 09:21:24 MDT 1987
+#U	uplherc
+#
+esunix	usna(DAILY/1), decwrl(DAILY/4), uplherc(HOURLY), unicads(DAILY/8),
+	harem(DAILY/8), escd(HOURLY), ucsfcgl(DAILY/1), tripos(DAILY/8)
+
+
+
+#N	iconsys
+#S	ICON MPS020-2; MPS/UX (our port of 4.x BSD)
+#O	ICON Systems and Software, Inc.
+#C	Ron Holt
+#E	iconsys!usenet, iconsys!ron
+#T	+1 801 225 6888
+#P	774 South 400 East, Orem, UT, 84058
+#L	40 17 0 N / 111 41 0 W city
+#R	ICON's gateway machine
+#U	nrc-ut
+#W	iconsys!ron (Ron Holt); Wed Dec  3 12:31:50 MST 1986
+#
+iconsys nrc-ut(DAILY)
+
+
+
+#N	jose
+#S	NCR Tower 32; Unix System V + BSD enhancements
+#O	Price Savers Wholesale Warehouse
+#C	Ken MacLeod
+#E	jose!postmaster
+#T	+1 801 266 7777 x224
+#P	986 Atherton Dr., Salt Lake City, UT 84123-3465
+#L	40 40 20 N / 111 55 6 W
+#W	utah-cs!donn (Donn Seeley); Mon Dec 15 19:24:25 MST 1986
+#R	From a phone conversation with Ken MacLeod
+#U	sp7040
+#
+jose	sp7040(DIRECT)
+
+
+
+#N	laird
+#S	Sperry IT; MS-DOS 3.1
+#O	Laird Telemedia
+#C	Jeff McArthur
+#E	laird!jsm
+#T	+1 801 972 5900
+#P	2424 S 2570 W, Salt Lake City, UT 84119
+#L	40 43 7 N / 111 57 6 W
+#W	utah-cs!donn (Donn Seeley); Tue Dec 16 16:35:00 MST 1986
+#R	from a phone conversation with Jeff McArthur
+#U	sp7040
+#
+laird	sp7040(DIRECT)
+
+
+
+#N	nrc-ut
+#S	Sun 3; 4.2BSD
+#O	Network Research Corp.
+#C	Andre' Hut
+#E	nrc-ut!andre
+#T	+1 (805) 266-9194
+#P	923 Executive Park Drive, Suite C, Salt Lake City, UT 84117
+#L	40.45 0 N / 111 53 0 W city
+#R
+#U	nrcvax wicat uplherc minnie iconsys
+#W	nrcvax!chris (Chris Grevstad); Wed Oct  8 13:36:45 PDT 1986
+#
+nrc-ut	nrcvax(LOCAL), wicat(DEMAND), iconsys(POLLED), minnie(LOCAL), 
+	uplherc(DEMAND)
+
+
+
+#N	oodis01
+#S	Pyramid 90x; Osx 2.5
+#O	Ogden Air Logistics Center
+#C	Grant Kerr
+#E	postmaster@oodis01.UUCP
+#T	+1 801 777 2882
+#P	Hill AFB, UT 84056
+#L	41 06' 74' N / 111 58 51 W
+#R	This is also oodis01.arpa [26.10.0.20] on the internet
+#U	uplherc
+#W	oodis01!kerr (Grant M. Kerr); Wed Dec  3 13:30:58 MST 1986
+#
+oodis01	uplherc(DIRECT), lognet2(DEMAND), lll-tis(DEMAND)
+
+
+
+#N	sp7040
+#S	Unisys 7000/40 4.2BSD ( aka CCI Power 6/32 )
+#O	Unisys
+#C	Fred Wilhelmsen
+#E	sp7040!fmw
+#T	+1 801 594 7115
+#P	322 North Sperry Way, Salt Lake City, UT 84116
+#L	40 46 29 N / 111 57 10 W
+#R	None
+#U	uplherc laird jose
+#W	sp7040!fmw (Fred Wilhelmsen); Wed Dec 10 13:51:28 MST 1986
+#
+sp7040	uplherc(DIRECT), laird(DIRECT), jose(DIRECT)
+
+
+
+#N	uplherc
+#S	Sun 2/130; Sun UNIX 4.2 Release 3.2
+#O	Utah Power & Light Company
+#C	J. R. Westmoreland
+#E	uplherc!jr
+#T	+1 801 535 4784
+#P	1407 W. North Temple Annex 6, Salt Lake City, UT 84116
+#L	40 46 19 N / 111 56 35 W
+#R	None
+#U	esunix sp7040 utah-gr nrc-ut wicat oodis01
+#W	uplherc!jr (J. R. Westmoreland); Tue Jun  2 07:50:00 MDT 1987
+#
+uplherc	esunix(DIRECT), sp7040(DAILY), utah-gr(DIRECT), nrc-ut(DEMAND),
+	wicat(DAILY/3), oodis01(DAILY)
+
+
+
+#N	utah-cs
+#S	VAX 8600, Unix 4.3 BSD
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-cs!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	General departmental research & gateway machine
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 00:11:32 MST 1986
+#U	ut-sally utah-gr
+#
+utah-cs	utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL), utah-sp(LOCAL),
+	utah-ug(LOCAL), utah-vlsi(LOCAL)
+# Arpanet links
+utah-cs	seismo(DEDICATED), ut-sally(DEDICATED)
+# Someday these may be restricted to evening.
+utah-cs	bellcore(DEMAND), cbosgd(DEMAND), ulysses(DEMAND)
+# At night and weekend only; some connections not so great.
+utah-cs	brunix(EVENING+LOW), decvax(EVENING), ihnp4(EVENING),
+	nbires(EVENING), research(EVENING*2), masscomp(EVENING+LOW)
+# We call these sites on demand but don't like to spend money on them.
+utah-cs	apollo(DEMAND*10), pwa-b(DEMAND*10), merci(DEMAND*10),
+	unipress(EVENING*10)
+# These sites poll us with varying reliability.
+utah-cs	century(WEEKLY), hplabs(DAILY*2)
+#
+#	ARPANET(utah-cs) lepreau@utah-cs.ARPA
+#
+Utah-Net = @{utah-cs,utah-gr,utah-orion,utah-sp,utah-ug,utah-muddy,utah-vlsi,
+	utah-20,utah-arches,utah-yampa,utah-bryce,utah-zion}(LOCAL)
+
+
+
+#N	utah-gr
+#S	VAX-11/785, Unix 4.3 BSD
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-gr!usenet
+#T	+1 801 581 3095
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	CAGD and graphics research
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 00:24:03 MST 1986
+#U	pwa-b stride uplherc utah-cs
+#
+utah-gr	utah-cs(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL), utah-sp(LOCAL),
+	utah-ug(LOCAL), utah-vlsi(LOCAL)
+utah-gr	pwa-b(DAILY), mts-cs(DAILY+LOW), stride(DAILY), uplherc(HOURLY),
+	admin(DAILY*10)
+
+
+
+#N	utah-muddy
+#S	VAX-11/750, Unix 4.3 BSD (or another one of our 31 flavors)
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-muddy!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Hackers' testbed
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:08:29 MST 1986
+#
+utah-muddy	utah-cs(LOCAL), utah-gr(LOCAL), utah-sp(LOCAL),
+	utah-orion(LOCAL), utah-ug(LOCAL), utah-vlsi(LOCAL)
+
+
+
+#N	utah-orion
+#S	VAX-11/750, Unix 4.3 BSD
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-orion!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Portable AI support systems research
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:13:48 MST 1986
+utah-orion	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL),
+	utah-sp(LOCAL), utah-ug(LOCAL), utah-vlsi(LOCAL)
+
+
+
+#N	utah-sp
+#S	VAX-11/750, Unix 4.3 BSD
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-sp!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Digital signal processing and robotics research
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:16:10 MST 1986
+#
+utah-sp	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL),
+	utah-ug(LOCAL), utah-vlsi(LOCAL)
+
+
+
+#N	utah-ug
+#S	VAX-11/780, Unix 4.3BSD
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-ug!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	General departmental instructional machine
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:19:35 MST 1986
+#
+utah-ug	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL),
+	utah-sp(LOCAL), utah-vlsi(LOCAL)
+
+
+
+#N	utah-vlsi
+#S	Gould 9080, UTX 2.0 (Unix 4.3 BSD variant)
+#O	University of Utah, College of Engineering
+#C	Donn Seeley
+#E	utah-vlsi!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	VLSI design, class work
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:21:41 MST 1986
+#
+utah-vlsi	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL),
+	utah-orion(LOCAL), utah-sp(LOCAL), utah-ug(LOCAL)
+
+
+
+#N	wicat
+#S	WICAT S160; System V UNIX
+#O	WICAT Systems, Inc.
+#C	Mike Hibler
+#E	wicat!usenet
+#T	+1 801 224 6400
+#P	1875 South State Street, Orem, UT 84058
+#L	40 15 40 N / 111 40 30 W
+#R
+#U	nrc-ut
+#W	wicat!mike (Mike Hibler); Wed Dec  3 09:52:42 MST 1986
+#
+wicat	uplherc(DAILY/4), nrc-ut(DAILY/4), caeco(DAILY/2)
+
+SHAR_EOF
+echo shar: extracting u.usa.va.1
+cat << ¥SHAR_EOF > u.usa.va.1
+#	start of u.usa.va.1: Wed Jul 22 09:53:35 EDT 1987
+#	maintained by horton@endor
+
+#N	alex
+#S	Sun 3/160M; Sun 3.0 Unix
+#O	Teledyne Geothech
+#C	David Comay
+#E	alex!bean
+#T	+1 703 276-7900
+#P	Montgomery Street, Alexandria, VA
+#L	38 48 N / 77 03 W
+#R	
+#W	rick@seismo.CSS.GOV (Rick Adams); Mon,  2 Mar 87 18:42:20 EST
+#U	
+#
+alex	beno(DEDICATED)
+
+#N	andi
+#S	Vax 11/750; 4.2BSD Unix
+#O	Analytic Disciplines Inc.
+#C	Andy Wolf
+#E	andi!postmaster
+#T	+1 703 893 6140
+#P	2070 Chain Bridge Rd  #400, Vienna, VA  22180
+#L	38 55 00 N / 77 14 30 W
+#W	andi!npg (Neil P. Groundwater); Mon Nov 25 12:09:25 EST 1985
+#U
+#
+#andi	sundc(DIRECT), cal-unix(DIRECT), nmrimed(DIRECT)
+#
+#cal-unix	andi(DAILY)
+#nmrimed	andi(DAILY)
+
+#N	aquin
+#S	AT-Clone; Xenix 5.0
+#O	Calculon Corporation
+#C	Andrew Sibre
+#E	andys@aquin.ori-cal.com
+#T	+1 703 841 0102
+#P	1401 Wilson Blvd.  Arlington, Va. 22209 
+#L	38 50 30 N / 77 03 30 W
+#R	
+#U	men2a
+#W	aquin!andys (Andrew F. Sibre); Tue Jun 30 16:07:07 EDT 1987
+#
+aquin	.aquin.ori-cal.com
+aquin=	aquin.ori-cal.com
+aquin	vsedev(DEMAND), askcs(DEMAND), jando(DEMAND), men1a(DEMAND),
+	men2a(DEMAND), softdev(DEMAND)
+
+
+#N      bms
+#S      Motorola 6350, CTIX System V release 2
+#O      Business Management Systems, Inc.
+#C      Stuart D. Gathman
+#E      bms-at!stuart
+#T      +1 703 591 0911
+#P      9526a Lee Highway, Fairfax, VA, USA
+#L      38 51 49 N / 77 17 21 W
+#R
+#U      bms-at
+#W      bms-at!stuart (Stuart D. Gathman) Wed Nov 26 20:03:17 EST 1986
+#
+bms	bms-at(DEDICATED)
+
+
+#N      bms-at
+#S      IBM PC/AT, SCO Xenix 2.1.3
+#O      Business Management Systems, Inc.
+#C      Stuart D. Gathman
+#E      bms-at!stuart
+#T      +1 703 591 0911
+#P      9526a Lee Highway, Fairfax, VA, USA
+#L      38 51 49 N / 77 17 21 W
+#R
+#W      bms-at!stuart (Stuart D. Gathman) Wed Nov 26 20:03:17 EST 1986
+#U      vrdxhq dgis bms
+#
+# connect to nrc-ut is via PC-PURSUIT
+bms-at  bms(DEDICATED), dgis(DIRECT), vrdxhq(DIRECT), nrc-ut(DAILY),
+        tisoft(DIRECT), icf(DIRECT), barnes(DIRECT), dimaio(DIRECT),
+        Stevens(DIRECT), sting(DIRECT), apwu(DIRECT), npc(DIRECT)
+
+
+#N	brooks
+#S	AT&T 3B2/300; UNIX System Vr3
+#O	Brooks Financial Systems, Inc.
+#C	Frank Byrum
+#E	brooks!frank
+#T	+1 804 539 7202
+#P	P.O. Box 947, Suffolk, Virginia  23434
+#L	36 45 30 N / 76 32 0 W
+#U	xanth
+#W	xanth!tadguy (Tad Guy); Fri Jun 19 17:49:34 EDT 1987
+#
+brooks	xanth(DAILY)
+
+
+#N	c3acs
+#S	Altos 586; Xenix 586, V3.0B
+#O	C3, Inc., Federal Marketing Division
+#C	Charles Green
+#E	c3pe!charles
+#T	+1 703 471 6000
+#P	1916 Isaac Newton Square West, Reston, VA  22090
+#L	38 57 N / 77 22 W
+#R
+#W	c3pe!spam (John L. Rehwinkel); Thu Apr 24 12:04:45 EST 1986
+#U	c3pe cwg
+#	local calls
+c3acs	c3pe(DIRECT), cwg(DAILY)
+
+#N	c3pe
+#S	Perkin-Elmer 3210; Xelos R01
+#O	C3, Inc., Federal Marketing Division
+#C	John Rehwinkel, Charles Green
+#E	c3pe!postmaster
+#T	+1 703 478 2700
+#P	460 Herndon Parkway, Herndon, VA  22070-5201
+#L	38 57 30 N / 77 22 35 W
+#R	New address and position good mid-April
+#W	c3pe!spam (John L. Rehwinkel); Wed Jan 28 15:35:06 EST 1987
+#U	decuac dolqci narjax c3engr
+#	local calls
+c3pe	decuac(DIRECT), dolqci(HOURLY), hqhomes(DEAD), c3engr(DIRECT+HIGH)
+#	long distance
+c3pe	narjax(DEMAND)
+
+#N	citcom
+#S	Sun 3/50, 3/180 net; Sun UNIX
+#O	Citcom Systems
+#C	Peter Klosky
+#E	citcom!peter
+#T	+1 703 689 2800
+#P	13505 Dulles Tech Dr, Herndon, VA 22071
+#L	38 52 N / 77 20 W
+#R	
+#U	baskin
+#W	citcom!peter (Peter Klosky);Mon May 4 11:29:19 EDT 1987
+#
+citcom	baskin(DAILY/4), sundc(DAILY/4)
+
+
+#N	cpesac
+#S
+#O	Chesapeake & Potomac Telephone Co. ESAC
+#C	Charles Ridgely
+#E	cpesac!chr
+#T	(804) 857-9375
+#P	Old Building, 3131 E Sewells Point Rd, Norfolk, VA 23513
+#L
+#R
+#W	Charles Ridgely, 5/6/85
+#U	cp1 bpa
+#
+#cpesac	cp1(DEMAND), bpa(DEMAND)
+
+#N	csmflx
+#S	Flexible Computer Corporation Flex/32; UNIX System V Rel. 2
+#O	Computational Structural Mechanics/NASA Langley Research Center
+#C	Tom Crockett, John Young, Sharon Paulson
+#E	csmflx!tom, lrcflx!young, lrcflx!paulson
+#T	+1 804 865 2506, +1 804 865 3939, +1 804 865 3939
+#P	Mail Stop 244, Hampton, VA 23665
+#L	37 05 N / 076 23 W
+#R	Parallel Processing for Structural Mechanics
+#U	
+#W	csmflx!tom (Thomas W. Crockett); Fri Oct 31 08:33:28 EST 1986
+#
+csmflx	lrcflx(DIRECT), csmunix(DIRECT), swbpc(WEEKLY*4)
+
+#N	csmunix
+#S	DEC Microvax II; Ultrix-32m v1.2
+#O	NASA Langely Research Center (Computational Structural Mechanics Group)
+#C	John Young
+#E	csmunix!young
+#T	+1 804 865 3939
+#P	M/S 244 Armistead Ave. Hampton, VA 23665
+#L	076 23 W / 37 05 N
+#R
+#W	csmunix!young (John E. Young); Wed Oct 28 13:17:27 EDT 1986
+#U
+#
+csmunix	decuac(HOURLY), burl(HOURLY), lrcflx(DIRECT), icase(DIRECT)
+
+
+#N	cwg
+#S	Altos 586, Xenix 586, V3.0B
+#O	C3, Inc., Corporate Headquarters
+#C	Charles Green
+#E	c3pe!charles
+#T	+1 703 471 6000
+#P	11425 Isaac Newton Square South, Reston, VA  22090
+#L	38 57 N / 77 22 W
+#R
+#W	c3pe!spam (John L. Rehwinkel); Thu Apr 24 12:07:38 EST 1986
+#U	c3pe c3acs
+#	local calls
+cwg	c3pe(DAILY), c3acs(DAILY)
+
+#N	dcn9
+#S
+#O
+#C
+#E	dcn9!postmaster
+#T
+#P	VA
+#L
+#R
+#W
+#U	umd5
+#
+dcn9	umd5(DEDICATED)
+
+#N	dgis
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Lawrence Livermore National Labs/Defense Technical Information Center
+#C	Curtis C. Generous
+#E	dgis!postmaster
+#T	+1 703 998 4753
+#P	1800 North Beauregard Street, Alexandria, VA  22311
+#L	38 50 00 N / 77 07 30 W
+#R	
+#W	dgis!generous (Curtis Generous); Thu Jun 18 14:07:06 EDT 1987
+#U	bms-at dgis-b eplrx7 viusys vrdxhq 
+#
+dgis	bms-at(EVENING), dgis-b(LOCAL), dgis-c(LOCAL), eplrx7(POLLED),
+	lll-tis(DEMAND), plseca(DEMAND), seismo(DIRECT), viusys(DIRECT),
+	vrdxhq(DIRECT), wrtfac(DEMAND)
+
+
+#N	dgis-b
+#S	Pyramid 98x; OSx 3.1
+#O	Lawrence Livermore National Labs/Defense Technical Information Center
+#C	Curtis C. Generous
+#E	dgis-b!postmaster
+#T	+1 703 998 4753
+#P	1800 North Beauregard Street, Alexandria, VA  22311
+#L	38 50 00 N / 77 07 30 W
+#R	
+#W	dgis-b!generous (Curtis Generous); Thu Jun 18 14:01:47 EDT 1987
+#U	dgis
+#
+dgis-b	dgis(LOCAL), dgis-c(LOCAL)
+
+
+#N	dgis-c
+#S	Gould 6050; UTX32
+#O	Lawrence Livermore National Labs/Defense Technical Information Center
+#C	Curtis C. Generous
+#E	dgis-c!postmaster
+#T	+1 703 998 4753
+#P	1800 North Beauregard Street, Alexandria, VA  22311
+#L	38 50 00 N / 77 07 30 W
+#R	
+#W	dgis-c!generous (Curtis Generous); Wed Mar 18 08:48:49 EST 1987
+#U
+#
+dgis-c	dgis(LOCAL), dgis-b(LOCAL)
+
+
+#N	dsi1, dsi1a, dsi2
+#S	M68000, SysIII
+#O	Dynamic Systems Incorporated
+#C	Jeff Armstrong
+#E	dsi1!jeff
+#T	+1 703 979 0202
+#P	625 Slaters Lane Alexandria, VA 22311
+#L	38 51 N / 77 03 W
+#R
+#W	dsi1!jeff (Jeff Armstrong); Fri, 20 Feb 87 10:55:27 EST
+#U	rlgvax
+# local calls
+dsi1	prometheus(DIRECT), rlgvax(DIRECT), dsi1a(DIRECT), dsi2(DIRECT),
+	nav1(DIRECT), nav2(DIRECT), nav3(DIRECT), nav4(DIRECT),
+	nav5(DIRECT), nav6(DIRECT)
+#
+dsi1a	dsi1(DIRECT)
+dsi2	dsi1(DIRECT)
+
+#N	edgir
+#S	Ridge 32C, ROS 3.2
+#O	Institute for Computer Applications in Science and Engineering, (ICASE)
+#C	Doug Peterson
+#E	icase!postmaster
+#T	+1 804 865 4090
+#P	Mail Stop 132C, NASA Langley Research Center, Hampton, VA 23665
+#L	37 00 N / 76 30 W
+#R	
+#W	Nancy Shoemaker 2/19/86
+#U
+#
+# sites at NASA Langley
+edgir	icase(HOURLY)
+#
+# we call even if there is no traffic
+icase	edgir(HOURLY)
+
+#N	gmu90x
+#S	Pyramid 90x; OSx 2.5 (System V & BSD 4.2)
+#O	George Mason University
+#C	Rick Kint
+#E	gmu90x!rick, gmu90x!root
+#T	+1 703 323 2486
+#P	Academic Computing, 4400 University Dr, Fairfax VA 22030
+#L	38 51 N / 77 17 W
+#R	faculty research machine
+#W	gmu90x!rick (Rick Kint); Tue Feb  4 16:37:47 EST 1986
+#U	dolqci
+#
+# all local calls
+gmu90x	seismo(DIRECT), dolqci(DIRECT), nrl-aic(DIRECT), pyrdc(DIRECT)
+
+#N	hadron
+#S	Integrated Solutions 14/10 (68010); 4.2 BSD UNIX
+#O	EIS Division, Hadron, Inc.
+#C	David K. Purks
+#E	hadron!usenet
+#T	+1 703 359 6168
+#P	9990 Lee Highway, Fairfax, Va. 22030
+#L	38 51 49 N / 77 17 21 W
+#R
+#U	seismo sundc netxcom rlgvax decuac smsdpg cos inco
+#W	hadron!dkp (David K. Purks); Tue May  5 13:38:32 EST 1987
+#
+hadron	seismo(DIRECT), rlgvax(DIRECT), sundc(DIRECT), decuac(DIRECT),
+	arinc1(DEAD), netex(POLLED+LOW), dtix(DIRECT), avatar(DEAD),
+	netxcom(DIRECT), smsdpg(DIRECT), inco(DIRECT)
+#
+#	We poll these sites even if we don't have any traffic for them
+#
+seismo	hadron(HOURLY*2)
+sundc	hadron(HOURLY*2)
+dtix	hadron(HOURLY*2)
+rlgvax	hadron(HOURLY*3)
+decuac	hadron(HOURLY*3)
+netxcom	hadron(HOURLY*3)
+smsdpg	hadron(HOURLY*3)
+kcwc	hadron(HOURLY*3)
+inco	hadron(HOURLY*3)
+#
+#	Incoming calls only
+#
+cos	hadron(HOURLY/2)
+ecogong	hadron(DEMAND)
+
+
+#N	beno, hugo, perry, maui
+#S	VAX 11/780, 4.3 BSD
+#O	Center for Seismic Studies
+#C	Rick Adams
+#E	seismo!postmaster
+#T	+1 703 276 7900
+#P	1300 N. 17th St., Suite 1450, Arlington, VA 22209-3871
+#L	38 53 40 N / 77 04 36 W
+#R	
+#W	rick@seismo.CSS.GOV (Rick Adams); Mon,  2 Mar 87 18:42:20 EST
+#U	seismo
+#
+CSS-NET = {seismo, beno, hugo, perry, maui}!(LOCAL)
+beno	alex(DEDICATED)
+
+#N	icase
+#S	SUN 3/180, Release 3.2
+#O	Institute for Computer Applications in Science and Engineering
+#C	Doug Peterson
+#E	postmaster@icase.arpa
+#T	+1 804 865 4090
+#P	Mail Stop 132C, NASA Langley Research Center, Hampton, VA 23665
+#L	37 00 N / 76 30 W
+#R	A.K.A icase.ARPA
+#W	Doug Peterson 4/1/87
+#U
+#
+#sites at NASA Langley
+icase	edgir(POLLED)
+
+
+#N	idmi-cc
+#S	Plexus P/35, System 3
+#O	Information Design and Management Inc.
+#C	Andrew R. Scholnick
+#E	idmi-cc!root
+#T	(703) 486-5500
+#P	1225 Jeff. Davis Hwy., 2 Crystal Gateway, Suite 413, Arlington, Va 22202
+#L	38 53 N / 77 03 W
+#R
+#W	Andrew R. Scholnick 12/27/84
+#U
+#
+#idmi-cc	rlgvax(DIRECT)
+
+#N	inco
+#S	Sun 2/170; SunOS3.2 (BSD 4.2-3)
+#O	McDonnell Douglas-INCO, Inc.
+#C	David Mack
+#E	inco!mack
+#T	+1 703 883 3911
+#P	8201 Greensboro Drive, McLean, VA 22101
+#L	
+#R	
+#U	
+#W	inco!mack; 4 May 1987
+#
+inco	hadron(DIRECT)
+
+
+#N	isavax
+#S	DEC uVAX-II; Ultrix-32
+#O	Integrated Systems Analysts, Inc.
+#C	Cliff Bedore
+#E	isavax!cliffb
+#T	+1 703 685 1800
+#P	Arlington, VA
+#L	38 51 48 N / 077 03 03 W
+#R
+#W	isavax!cliffb (Clifford J. Bedore); Tue Nov 4 06:55:00 EST 1986  
+#U
+#
+isavax	decuac(DIRECT), umd5(DIRECT)
+
+#N	kcwc
+#S	Zilog S8000 Mod 20; Zeus  1.7 (Unix V7)
+#O	KCW Consulting
+#C	Curt Welch
+#E	kcwc!curt
+#T	+1 703 938 4152
+#P	P.O. Box 7099, Reston, VA 22091
+#L	77 17 50 W / 38 52 20 N
+#R	Address of kcwc: 10220 Bushman Drive Apt. 8222, Oakton VA 22124
+#W	kcwc!curt (Curt Welch); Thu Jul  9 09:22:12 EDT 1987
+#
+kcwc	hadron(DIRECT), attmail(WEEKLY), dtix(DIRECT)
+
+
+#N	lrcflx
+#S	Flexible Computer Corporation Flex/32; UNIX System V Rel. 2
+#O	NASA Langley Research Center
+#C	Tom Crockett, John Young, Sharon Paulson
+#E	lrcflx!tom, lrcflx!young, lrcflx!paulson
+#T	+1 804 865 2506, +1 804 865 3939, +1 804 865 3939
+#P	Mail Stop 244, Hampton, VA 23665
+#L	37 05 N / 076 23 W 
+#R	Parallel Processing Research
+#U
+#W	lrcflx!tom (Thomas W. Crockett); Fri Oct 31 08:50:43 EST 1986
+#
+lrcflx	csmflx(DIRECT), csmunix(DIRECT), aero1(HOURLY), icase(HOURLY+LOW),
+	flxdal(POLLED)
+
+#N	m00se
+#S	ATT 6300+; UNIX System V 
+#O	Learning Tree Software, Inc.
+#C	Wendy Nather
+#E	m00se!root
+#T	+1 703 264 1050
+#P	P.O. Box 3567, Reston, VA  22090
+#L	77 20 W / 38 58 N city
+#R	we are still receiving mail only, no news.
+#U	
+#W	m00se!pooh (Wendy Nather); Tue Feb 17 16:54:15 EST 1987
+#
+m00se	unipress(DEMAND), gymble(DIRECT)
+
+
+#N	men2a
+#S	Altos 3068;   Unix Sys 5
+#O	Calculon Corp.
+#C	Andrew F. Sibre
+#E	men2a!andys
+#T	+1 703 841 0102
+#P	1401 Wilson Blvd. Arlington Va. 22209
+#L	38 50 29 N / 77 03 30 W
+#R	Primary news feed into Calculon
+#W	men2a!andys (Andrew Sibre); Sun Dec 14 11:26:13 EST 1986
+#U	men1a
+#
+men2a	men1a(LOCAL), men3a(DIRECT), men4a(DEMAND), cal-unix(DIRECT),
+	vsedev(DIRECT), aquin(DIRECT), softdev(DIRECT)
+
+#N	ms3
+#S	CCI Power 6; 32B Virtual UNIX version 1.1r1 
+#O	Information Systems & Networks Corp. - HIOS Project
+#C	Jim Chappell
+#E	ms3!usenet
+#T	+1 703 979 8900
+#P	1235 Jefferson Davis Highway, Suite 605A, Arlington, Va 22202
+#L	38 52 20 N / 77 03 00 W	
+#R
+#W	ms3!netman (Jim Chappell); Mon Mar 10 10:45:48 EST 1986
+#U	vrdxhq
+#
+ms3	vrdxhq(DIRECT)	
+
+#N	netex
+#S	IBM PC/AT; XENIX 5.0
+#O	NetExpress Communications, Inc
+#C	Rob Frye
+#E	netex!rfrye
+#T	+1 703 749 2234
+#P	1953 Gallows Rd, Vienna, VA. 22180
+#L	38 54 30 N / 77 13 30 W
+#W	netxcom!beattie (Brian Beattie); Tue Aug 26 09:10:00 EDT 1986
+#
+netex	hadron(HOURLY*2)
+
+#N	netxcom
+#S	Pyramid 90x;OSX 3.1
+#O	NetExpress Communications, Inc
+#C	Brian Beattie
+#E	netxcom!beattie
+#T	+1 703 749 2365
+#P	1953 Gallows Rd, Vienna, VA. 22180
+#L	38 54 30 N / 77 13 30 W
+#W	netxcom!beattie (Brian Beattie); Tue Aug 26 09:10:00 EDT 1986
+#
+netxcom	pyrdc(HOURLY), netex(HOURLY), sundc(HOURLY), hadron(HOURLY)
+
+#N	nirvana
+#S	DEC VAX-11/785; 4.2 BSD UNIX
+#O	Hampton University, Department of Mathmatics & Computer Science
+#C	Tushar Majithia (nirvana!tm), Tad Guy (xanth!tadguy)
+#E	nirvana!postmaster
+#T	+1 804 727 5345
+#P	Hampton, Virginia
+#L
+#U
+#W	xanth!tadguy (Tad Guy); Wed Mar 18 21:19:13 EST 1987
+#
+nirvana	xanth(POLLED)
+
+#N	potomac
+#S	Sun 3/180; Sun 4.2BSD Unix Release 3.x
+#O	Advanced Decision Systems (Washington Office)
+#C	John T. Nelson, Mark Grover
+#E	potomac!jtn, jtn@ads.arpa
+#T	+1 703 243 1611
+#P	1500 Wilson Boulevard #600, Arlington VA, 22209
+#L	38 53 40 N / 77 04 34 W
+#R
+#W	potomac!jtn (John T. Nelson); Thu Mar 26 15:38:58 EST 1987
+#
+potomac	sundc(HOURLY), dolqci(HOURLY)
+
+#N	prcrs
+#S	VAX 11/785, Ultrix-32 V1.2
+#O	Planning Research Corporation, Realty Systems
+#C	Nancy Shoemaker
+#E	prcrs!nes
+#T	+1 703 556 2678
+#P	1500 Planning Research Drive, Mail Stop 4E1, McLean, VA 22102
+#L	38 58 N / 77 16 W
+#R
+#W	prcrs!nes (Nancy Shoemaker); Tue Jun 17 15:30:05 EDT 1986
+#U
+#
+prcrs	decuac(DIRECT)
+
+#N	pyrdc
+#S	Pyramid 98x; OSx 3.1 (4.3/SystemV.2)
+#O	Pyramid Technology Corp., Washington D.C. office
+#C	Mike Whitman, Mark Hahn
+#E	pyrdc!mike, pyrdc!mark
+#T	+1 703 848 2050
+#P	8230 Old Courthouse Road, Suite 440, Vienna, VA 22180
+#L	38 55 N / 77 14 W 
+#R	general purpose machine
+#U	gmu98x
+#W	pyrdc!mike; Tue May 08 08:55:31 EST 1987
+#
+pyrdc	gmu90x
+
+
+#N	rlgvax
+#S	POWER 6/32; CCI System V Release 2
+#O	Computer Consoles, Inc., Office Systems Group
+#C	Dennis Bednar
+#E	rlgvax!postmaster
+#T	+1 703 648 3300 x3486
+#P	11490 Commerce Park Drive, Reston, VA 22091
+#L	38 56 40 N / 77 20 20 W
+#R
+#U	bdmrrr comsat dolqci dsi1 hadron seismo sundc vrdxhq
+#W	Dennis Bednar <rlgvax!dennis>; Fri May 22 18:34:31 EDT 1987
+#
+rlgvax	allegra(EVENING+LOW), bdmrrr(DIRECT+HIGH), cbosgd(EVENING+LOW),
+	ccice5(EVENING+LOW), cci632(WEEKLY+LOW), ccicpg(EVENING+LOW),
+	comsat(DIRECT+HIGH), cvl(DIRECT+LOW), dolqci(DIRECT+HIGH),
+	dsi1(DIRECT+HIGH), gatech(EVENING+LOW), hadron(DIRECT+HIGH),
+	ihnp4(EVENING+LOW), mcnc(EVENING+LOW), men1a(DIRECT),
+	mimsy(DIRECT+LOW), nbires(EVENING+LOW), netword(DIRECT+LOW),
+	research(EVENING), seismo(DIRECT+HIGH), sundc(DIRECT+HIGH),
+	vrdxhq(DIRECT), xrxcad(DEMAND)
+
+
+#N	seismo
+#S	Sun 3/160S; Sun 3.2 Unix
+#O	Center for Seismic Studies
+#C	Rick Adams
+#E	seismo!postmaster
+#T	+1 703 276 7900
+#P	1300 N. 17th St., Suite 1450, Arlington, VA 22209-3871
+#L	38 53 40.5 N / 77 04 34.5 W
+#R	Telex: 154250381 (seismo)
+#W	rick@seismo.CSS.GOV (Rick Adams); Wed, 8 Jul 87 11:33:06 EDT
+#U	amdahl columbia husc6 nbires rochester sundc ut-sally mimsy uwvax
+#U	mcvax munnari kaist vrdxhq mnetor
+#
+seismo = "seismo.CSS.GOV"
+seismo	.CSS.GOV
+#
+# siamese twin
+seismo	uunet(1)
+#
+# 10Mb Pronet
+CSS-RING = {seismo, hugo, beno}(LOCAL)
+#
+# local calls: DIRECT == 2400, DIRECT+LOW == 1200, DIRECT+LOW+LOW == 300
+#
+seismo	bdmrrr(DIRECT), beartrack(DIRECT), c1east(DIRECT+LOW),
+	decuac(DIRECT+LOW), dgis(DIRECT), dolqci(DIRECT+LOW), dsi1(DIRECT),
+	elsie(DIRECT), epiwrl(DIRECT), gmu90x(DIRECT+LOW), hadron(DIRECT+LOW),
+	jhu(POLLED), maximo(DIRECT), men1a(DIRECT),
+	nav1(DIRECT),netword(DIRECT+LOW), prometheus(DIRECT+LOW),
+	rlgvax(DIRECT), sequel(DIRECT), sundc(DIRECT), vrdxhq(DIRECT),
+	vsedev(DIRECT), wuhep(DIRECT+LOW)
+#
+#	These are dedicated 9600 baud leased lines
+#
+seismo	mcvax(DEMAND), horizon(DEDICATED), esosun(DEMAND)
+#
+#	X.25 gateway to the world....
+#
+seismo	enea(DEMAND+2), indovax(DEMAND+2), ircam(DEMAND+2), kaist(DEMAND+2),
+	kddlab(DEMAND+2), munnari(DAILY), prlb2(DEMAND+2), hkucs(DEMAND+2),
+	ubc-vision(DEMAND+LOW), unido(DEMAND+2), watmath(DEMAND+LOW),
+	mnetor(DEMAND+HIGH+HIGH), dalcs(DEMAND), utai(DEMAND), gould(DEMAND),
+	garfield(DEMAND+LOW+LOW), mimos(DEMAND), uchdcc(DAILY)
+#
+# long distance: DEMAND == 2400, DEMAND+LOW == 1200
+#
+seismo	allegra(DEMAND+LOW), amdahl(DEMAND+LOW), bellcore(DEMAND+LOW),
+	bpa(DEMAND), burdvax(DEMAND), cbm(POLLED), cbosgd(HOURLY),
+	decvax(DEMAND), floyd(DEMAND+LOW), hpscda(DEMAND), ihnp4(DAILY),
+	isis(DEMAND+LOW), ism780c(DEMAND+LOW), iuvax(DEMAND+LOW),
+	kitty(DEMAND+LOW), mirror(DEMAND+LOW), mit-erl(DEMAND+LOW),
+	nbires(DEMAND+LOW), noao(DEMAND), okstate(DEMAND+LOW), philabs(DEMAND),
+	plus5(DEMAND+LOW), presby(DEMAND+LOW), princeton(DEDICATED+LOW),
+	pyramid(DEMAND), research(DEMAND+LOW), scgvaxd(DEMAND+LOW),
+	soma(EVENING+LOW), stsci(POLLED), turtlevax(DEMAND+LOW),
+	ulysses(DEMAND), usna(DEMAND+LOW), vortex(DEMAND+LOW), vtisr1(POLLED),
+	wucs1(DEMAND)
+#
+# uucp/tcp/ip
+#
+seismo	ames(DEDICATED+5*LOW), brl-adm(DEDICATED), cit-vax(DEDICATED),
+	cmcl2(DEDICATED), columbia(DEDICATED), cvl(DEDICATED),
+	dspvax(DEDICATED), harvard(DEDICATED), hplabs(DEDICATED+LOW),
+	lbl-csam(DEDICATED), ll-xn(DEDICATED), lll-crg(DEDICATED+LOW),
+	mimsy(DEDICATED), mit-amt(DEDICATED), mit-eddie(DEDICATED),
+	mordor(DEDICATED), rpics(DEDICATED+LOW), rochester(DEDICATED),
+	rutgers(DEDICATED+HIGH), scubed(DEDICATED+LOW),
+	sdcsvax(DEDICATED+LOW+LOW), sun(DEDICATED+LOW), think(DEDICATED+LOW),
+	uiucdcs(DEDICATED+LOW), ut-sally(DEDICATED), utah-cs(DEDICATED),
+	umix(DEDICATED), uwvax(DEDICATED), yale(DEDICATED), hao(DEDICATED+1),
+	gatech(DEDICATED+1), mcnc(DEDICATED)
+
+
+#N	sequel
+#S	IBM PC/AT; XENIX-286 System V
+#O	Sequel Technology
+#C	Roger Gough
+#E	sequel!rdg
+#T	+1 703 481 0933
+#P	1608 Poplar Grove Drive, Reston, Virginia 22094
+#L	38 58 40 N / 77 21 40 W
+#R
+#U
+#W	sequel!rdg (Roger Gough); Tue Oct  7 07:10:26 EDT 1986
+#
+sequel	gatech(WEEKLY), seismo(DIRECT)
+
+#N	smsdpg
+#S	Sun 2/120; 4.2 BSD
+#O	SMS Data Products Group, Inc.
+#C	T. Scott Pyne
+#E	smsdpg!tsp, smsdpg!postmaster
+#T	+1 703 827 0640
+#P	1501 Farm Credit Drive, Suite 1700, McLean VA 22102 USA
+#L	38 55 55 N / 77 12 04 W
+#R	SMS is actually a hidden LAN of Suns and Intel 310s
+#U	hadron
+#W	smsdpg!tsp (T. Scott Pyne); Wed Sep  3 10:19:59 EDT 1986
+#
+smsdpg	hadron(DIRECT)
+
+#N	sticks
+#S	Zenith 241; SCO Xenix
+#O	Ed Stouffer's Home
+#C	Ed Stouffer <els>
+#E	sticks!postmaster
+#T	+1 804 421 9501
+#P	1521 Cheltingham Court; Chesapeake, VA  23322
+#W	virgil!ed (Ed Stouffer); Thu Jul 16 09:57:20 EDT 1987
+#
+sticks	virgil(POLLED)
+
+
+#N	stratcom
+#S	Sun 2/170; 4.2 BSD Unix
+#O	BDM Corporation, Strategic Computing
+#C	Digi Cole
+#E	stratcom!digi
+#T	+1 703 247 3300
+#P	1300 North 17th Street, Suite 950, Arlington, VA  22209
+#L	38 48 37 N / 77 04 34 W
+#R
+#W	stratcom!digi (Digi Cole); Tue Nov 19 10:58:38 EST 1985
+#U
+#
+#stratcom	bdmrrr(DIRECT)
+
+#N	sundc
+#S	Sun-3/180M-16; 4.2 BSD UNIX
+#O	Sun Microsystems, Inc.
+#C	Joel C. McClung
+#E	sundc!jmcclung, sundc!{usenet,news}
+#T	+1 703 883 0444
+#P	8219 Leesburg Pike, Suite 700, Vienna, VA  22180
+#L	38 53 N / 77 25 W
+#R
+#W	sundc!jmcclung (Joel C. McClung); Wed Apr  8 18:19:26 EDT 1987
+#U	hadron seismo netxcom gouldsd hqda-ai rlgvax jedi potomac
+#
+sundc	hadron(DIRECT+HIGH), seismo(DIRECT+HIGH), sun(DAILY+HIGH/4),
+	netxcom(DIRECT), texsun(EVENING), sunpeaks(EVENING), andi(DIRECT),
+	sunfla(EVENING), liberty(EVENING), gouldsd(DIRECT), sunne(EVENING),
+	suntri(EVENING), hqda-ai(DIRECT+HIGH), oktext(DEAD), nears(DEAD),
+	qacg(DIRECT), elvira(DEMAND), smsdpg(DIRECT), jedi(DIRECT),
+	gwseas(DIRECT), eli(DIRECT), rlgvax(DIRECT),
+	potomac(DIRECT+HIGH)
+#
+maximo	sundc(DIRECT)
+cos	sundc(HOURLY/2)
+citcom	sundc(HOURLY/2)
+saevax	sundc(DAILY)
+
+#N	talos
+#S	Masscomp MC5500; RTU 3.0A
+#O	Philip Morris Research Center
+#C	Nick Condyles
+#E	talos!condyles
+#T	+1 804 274 5689
+#P	P. O. Box 26583, Richmond, VA 23261
+#L	37 28 10 N / 77 25 55 W
+#R	
+#U	
+#W	talos!condyles (Nick Condyles); Fri Mar 6 15:47:00 EST 1987
+#
+talos	rti(DAILY/2)
+
+#N	toylnd
+#S	AT&T PC7300; SYS V version 3
+#O	Dave & Anne in Charlottesville, VA.
+#C	David C. Albrecht
+#E	toylnd!dca
+#T	+1 804 973 3041
+#P	2411 Peyton Dr. APT 207, Charlottesville, VA 22901
+#L	38 04 N / 78 27 W
+#W	toylnd!dca (David C. Albrecht); Mon Aug 11 05:12:58 EDT 1986
+#
+toylnd	edison(DIRECT)
+#
+edison	toylnd(WEEKLY)
+
+#N	tyxpdp
+#S	
+#O	TYX Corporation
+#C
+#E	tyxhp3!andrew
+#T	+1 703 471 0233
+#P	11250 Roger Bacon Dr., Suite 16, Reston, VA 22090
+#L	38 56 N / 77 20 W
+#R	
+#W	Rick Adams 10/10/85
+#U	mimsy vrdxhq
+#
+#tyxhp3	mimsy(POLLED), vrdxhq(POLLED)
+#
+#tyxhp3 = tyxpdp
+
+#N	uvaee
+#S	Vax 11/750; 4.2 BSD Unix
+#O	Electrical Engineering, University of Virginia
+#C	James A. Jokl
+#E	uvaee!postmaster
+#T	+1 804 924 6101
+#P	Dept of EE, Thornton Hall, UVa, Charlottesville, Va.  22901
+#L	38 01 70 N / 78 30 39 W
+#R	
+#W	uvaee!postmaster (James A. Jokl); 24 Nov 86
+#U	kesmai edison uvacs
+#
+# local calls
+uvaee	uvacs(DEDICATED), edison(DIRECT), kesmai(DIRECT)
+#
+uvacs	uvaee(DAILY/2)
+edison	uvaee(DAILY)
+kesmai	uvaee(DAILY)
+
+#N	vinya
+#S	Tektronix Stratos 6130; UTek 2.2
+#O	Escape Ventures, Inc.
+#C	Ken Burridge
+#E	vinya!kdb
+#T	+1 804 481 1026
+#P	PO Box 4330; Virginia Beach, VA  23454
+#L
+#R
+#U
+#W	john@xanth.cs.odu.edu (John Owens); Mon Apr 13 14:00:30 EDT 1987
+#
+vinya	xanth(WEEKLY)
+
+
+#N	virgil
+#S	Hewlett Packard 9050; HP-UX
+#O	EDO Corporation, Government Systems Division, Virginia Operations
+#C	Dan Smith <dan>
+#E	virgil!postmaster
+#T	+1 804 424 1004
+#P	814 Greenbrier Circle, Suite U; Chesapeake, VA  23320
+#L
+#R	Formerly known as "edo".
+#U	xanth
+#W	virgil!dan (Dan Smith); Fri Jul 17 13:02:52 EDT 1987
+#
+virgil	xanth(DIRECT), sticks(POLLED)
+
+
+#N	virginia
+#S	AT&T 3b5; SVR2 Unix
+#O	University of Virginia Academic Computing Center
+#C	Steve Losen
+#E	virginia!scl
+#T	+1 804 924 4548
+#P	Academic Computing Center, Gilmer Hall, UVa, Charlottesville, VA 22901
+#L	38 01 70 N / 78 30 39 W
+#R	
+#W	virginia!scl (Steve Losen); 23 Jan 86
+#U	uvacs nrao1
+#
+virginia	.virginia.EDU
+virginia	uvacs(DIRECT), kesmai(DIRECT), seismo(DEMAND), mcnc(DEMAND)
+virginia	nrao1(DIRECT), uvaee(DIRECT)
+#
+uvacs	virginia(DIRECT)
+kesmai	virginia(DIRECT)
+uvaee	virginia(DIRECT)
+nrao1	virginia(DIRECT)
+seismo	virginia(DEMAND)
+mcnc	virginia(DEMAND)
+
+#N	viusys
+#S	Unisys 5000/90; System V
+#O	Unisys D.A. MINIS Project Management Office
+#C	Rick Butland, Paul Albright, Khanh Nguyen
+#E	viusys!postmaster
+#T	+1 703 749 6762
+#P	8008 Westpark Drive, McLean, VA 22102
+#L	38 54 N / 77 11 W
+#R
+#W	viusys!rwb (Rick Butland); Thu Jun 18 14:19:37 EDT 1987
+#U	dgis
+#
+viusys	dgis(DIRECT)
+
+
+#N	vrdxhq
+#S	DEC VAX-11/751; 4.2 BSD UNIX
+#O	Verdix Corporation, Corporate Headquarters
+#C	Raleigh Romine
+#E	vrdxhq!postmaster
+#T	+1 703 378 7600
+#P	14130-A Sullyfield Circle, Chantilly, VA  22021
+#L	38 53 N / 77 26 W
+#R
+#W	vrdxhq!romine (Raleigh Romine); Sat Feb  1 15:55:46 EST 1986
+#U	dolqci rlgvax seismo ms3
+#
+vrdxhq	apollo(DEMAND), csysdc(DIRECT), decuac(DEMAND),
+	dolqci(DIRECT), gecsw(EVENING), hispace(POLLED), netword(DEMAND),
+	rlgvax(DIRECT), rti(POLLED), seismo(DIRECT),
+	siemens(DEMAND), trwrdc(DEAD), tyxpdp(DEAD), mimsy(DEMAND),
+	verdix(LOCAL), ms3(DIRECT)
+#
+VERDIX-LAN = @{vrdxhq, vrdxsp}(LOCAL)
+
+#N	vtisr1
+#S	3B2/300; System V UNIX Rel. 2.0 Version 1
+#O	Virginia Tech (Virginia Polytechnic Institute & State Univ.)
+#C	Edward A. Fox
+#E	vtisr1!fox, vtisr1!root
+#T	+1 703 961 5113, +1 703 961 6931
+#P 	562 McBryde Hall, Virginia Tech, Blacksburg, VA 24060
+#L	37 15 00 N / 80 25 00 W
+#R	Information Storage & Retrieval Project, Dept. of Computer Science
+#W	fox%vt@csnet-relay.arpa (Edward A. Fox); Sun, 26 Apr 87 10:16:27 EDT
+#U
+#
+# local calls
+vtisr1 vtisr2(DIRECT), vtopus(DIRECT)
+#
+# long distance
+vtisr1	edison(DAILY), gmu90x(DEMAND), rg20a(DEMAND), seismo(DAILY),
+	uvacs(DAILY)
+#
+seismo  vtisr1(DEMAND)
+
+#N	vtopus
+#S	VAX 11/785; 4.2BSD Ultrix
+#O	Virginia Tech (Virginia Polytechnic Institute & State Univ.)
+#C 	R. Daniel Johnson
+#E	vtopus!rdj
+#T 	+1 703 961 5901, +1 703 961 6931
+#P 	562 McBryde Hall, Virginia Tech, Blacksburg, VA 24060
+#L	37 15 00 N / 80 25 00 W
+#R	Department of Computer Science
+#W	fox%vt@csnet-relay.arpa (Edward A. Fox); Sun, 26 Apr 87 10:16:27 EDT
+#U
+#
+# 10Mb TCP/IP ethernet
+vtcs-ether = {vtopus, nova}(LOCAL)
+#
+# local calls
+vtopus vtisr1(DIRECT), vtisr2(DIRECT)
+
+
+#N	xrxcad
+#S	Cimlinc 68000; 4.2BSD
+#O	Xerox Training Center
+#C	Tom Love
+#E	xrxcad!toml
+#T	+1 703 777-8000 x5185
+#P	Leesburg, VA
+#L
+#R
+#W	xrxcad!root; Mon, 14 Apr 86 10:38:20 est
+#U
+#
+xrxcad	rlgvax(DIRECT)
+
+#N	yendor
+#S	Arete 900; SVR2.14
+#O	Applied Computing Technology, Inc.
+#C	Roger Fujii
+#E	yendor!fujiirm
+#T	+1 703 471 9433
+#P	11480 Sunset Hills Road, Reston VA 22090
+#L	38 57 12 N / 077 20 37 W
+#R
+#W	yendor!fujiirm (Roger Fujii); Mon Jun 29 11:32:39 EDT 1987
+#U	hqda-ai prometheus
+#
+yendor	hqda-ai(DIRECT+HIGH), prometheus(EVENING)
+
+
+#	end of u.usa.va.1: Wed Jul 22 09:53:42 EDT 1987
+SHAR_EOF
+echo shar: extracting u.usa.vt.1
+cat << ¥SHAR_EOF > u.usa.vt.1
+#	start of u.usa.vt.1: Mon Jul 20 09:11:11 EDT 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	banzai
+#S	Plexus P/35; Plexus Sys5 UNIX
+#O	The People's Computer Company
+#C	Jay Schuster
+#E	banzai!usenet
+#T	+1 802 864 0747
+#P	40 George Street, Burlington, VT  05401
+#L	44 28 52 N / 73 12 55 W
+#R	
+#W	banzai!jay (Jay Schuster); Sat Jul 11 21:39:30 EDT 1987
+#U	uvm-gen
+#
+banzai	uvm-gen(DIRECT)
+
+#N	uvm-cs
+#S	DEC Vax-11/750; 4.3BSD
+#O	University of Vermont
+#C	Gary A Barbour
+#E	uvm-cs!gb, uvm-cs!postmaster 
+#T	+1 802 656 4029
+#P	123 Votey Eng. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R
+#W	uvm-cs!gb ( Gary A Barbour) ; Tue May 19 22:10:07 EST 1987
+#U	uvm-gen
+#
+uvm-cs	.uvm.edu
+#
+uvm-cs	uvm-gen(LOCAL), antiem(LOCAL), drexel(DEAD)
+
+#N	uvm-gen
+#S	DEC Vax-11/780; 4.3BSD
+#O	University of Vermont
+#C	Gary A Barbour
+#E	uvm-cs!gb, uvm-gen!postmaster
+#T	+1 802 656 4029
+#P	123 Votey Eng. Bldg., Burlington, VT 05405
+#L	44 28 N / 73 14 W
+#R
+#W	uvm-cs!gb ( Gary A Barbour) ; Tue May 19 22:10:07 EST 1987
+#U	dartvax uvm-cs antiem vmix banzai phobos
+#
+uvm-gen	.uvm.edu
+uvm-gen	dartvax(EVENING), uvm-cs(LOCAL), antiem(LOCAL), vmix(DAILY/3),
+	banzai(DAILY/2), phobos(WEEKLY/3)
+#
+# the forced calls, other than LOCAL ones are:
+dartvax	uvm-gen(DAILY/3)
+phobos	uvm-gen(WEEKLY/3)
+
+#N	vmix
+#S	IBM RT-PC; AIX v1.10
+#O	Vermont Microsystems Inc.
+#C	Paul Angstman
+#E	vmix!pja
+#T	+1 802 655 2860
+#P	11 Tigan Street, Winooski, VT 05404
+#L	42 11 00 N / 77 23 00 W
+#R	
+#W	uvm-gen
+#U	vmix!pja (Paul Angstman); Fri July 3 10:33:00 EDT 1987
+#
+vmix	uvm-gen(DIRECT)
+
+#	end of u.usa.vt.1: Mon Jul 20 09:11:17 EDT 1987
+SHAR_EOF
+#	End of shell archive
+exit 0

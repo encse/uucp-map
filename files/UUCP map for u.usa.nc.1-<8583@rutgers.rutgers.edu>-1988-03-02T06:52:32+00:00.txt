@@ -1,0 +1,598 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nc.1
+: This archive created: Wed Mar  2 01:50:54 1988
+echo shar: extracting u.usa.nc.1
+cat << 'SHAR_EOF' > u.usa.nc.1
+# u.usa.nc.1 created by dpz@rutgers.edu on Tue Mar  1 15:01:50 EST 1988
+
+#N	amital
+#S	Altos 3068; Unix V.2
+#O	Amital Spinning Corp.
+#C	William G. Palmer
+#E	amital!root
+#T	+1 919 636 5300
+#P	Post Office Box 5407, New Bern, North Carolina 28561
+#L
+#R
+#U
+#W	flattop!rcm (Ron McDowell); Sun Feb  1 00:22:19 EST 1987
+#
+amital	flattop(DEMAND)
+
+#N	bacchus
+#S	AT&T 7300; System V
+#O	Durham Software Company
+#C	Darren G. Friedlein
+#E	bacchus!darren
+#T	+1 919 596 9492 (voice), +1 919 596 7746 (data)
+#P	Route 4, Box 416, Durham NC 27703
+#L	78 52 N / 35 56 W
+#R
+#U	ethos
+#W	bacchus!darren (Darren G. Friedlein); Wed Oct 14 13:13:50 EDT 1987
+#
+bacchus	ethos(DAILY), bakerst(DAILY), gladys(DAILY), mcnc(DEMAND)
+
+#N	bakerst
+#S	AT&T UNIX PC 3B1; System V
+#O	
+#C	Kathy Vincent
+#E	bakerst!kathy
+#T	+1 919 760 3522, +1 919 727 3687
+#P	2725 Cherokee Lane, Winston-Salem NC 27103
+#L	36 06 N / 80 15 W 
+#R	unix-pc groups exchanged with
+#	ethos, gladys, kitty, mtune, and cgh
+#U	mtune ethos gladys
+#W	bakerst!kathy (Kathy Vincent); Fri Feb 12 00:51:27 EST 1988
+#
+bakerst	gladys(DIRECT), ethos(EVENING), ihnp4(WEEKLY),
+	kitty(EVENING), mtune(EVENING), codas(WEEKLY),
+	ptsfa(WEEKLY+HIGH), pacbell(WEEKLY), wruxe(DAILY),
+	maxepr(WEEKLY), skeeve(WEEKLY), cgh(WEEKLY),
+	safari(WEEKLY), bacchus(EVENING), ihtlt(EVENING),
+	rbdc(DAILY)
+
+#N	bdrc
+#S	Sun 3/160; Sun UNIX 4.2 Release 3.0
+#O	Becton Dickinson Research Cntr
+#C	Joan Curry
+#E	bdrc!usenet
+#T	+1 919 549 8641
+#P	21 Davis Drive, Research Triangle Park, NC, 27709
+#L	35 53 30 N / 078 51 30 W
+#R	We do medical expert systems.
+#U	rti
+#W	bdrc!jwc (Joan Curry); Mon Jan  5 07:34:26 EST 1987
+#
+bdrc	mcnc(HOURLY), rti(EVENING)
+
+#N	ducall
+#S	Apollo DN 3000; DOMAIN/IX (Unix 4.2 & Sys5) and DOMAIN/AEGIS
+#O	Humanities Computing Facility
+#C	Donald C. Mullen, Jeffrey William Gillette, Chris Brooks
+#E	ducall!postmaster
+#T	+1 919 684 3637
+#P	104 Languages Building, Duke University, Durham NC 27706
+#L	35 59 N / 78 54 W city
+#R
+#U	duke ethos
+#W	ducall!don (Donald C. Mullen); Mon Jan  5 07:35:42 EST 1987
+#   
+ducall	duke(DAILY/2), ethos(HOURLY)
+
+#N	duke
+#S	DEC VAX-11/780 (4.2 BSD UNIX)
+#O	Duke University, Computer Science Department
+#C	Stephen A. Shumway
+#E	duke!sas
+#T	(919) 684-3048
+#P	Durham, NC 27706
+#L	35 59 N / 78 54 W city
+#R	pathalias data commented out until update is received
+#U	adiron decavx dukgeri mcnc phs unc
+#W	duke!sas (Steve A. Shumway); Mon Aug 12 10:35:46 EDT 1985 
+#
+#duke	dukecdu(DEDICATED), dukgeri(DEDICATED), duknbsr(DEDICATED),
+#	dukvlsi(LOCAL), ecsvax(DIRECT), mcnc(DEDICATED),
+#	phs(DEDICATED), unc(DEDICATED)
+
+#N	dukeac
+#S	AT&T 3B5; System V Release 2.0.1 3B5 Version 2
+#O	Center for Academic Computing, Duke University
+#C	Bennett Todd
+#E	dukeac!usenet
+#T	+1 919 684 3695
+#P	Durham, North Carolina 27706-7756
+#L	35 59 N / 78 54 W city
+#R
+#U	ecsvax
+#W	dukeac!bet (Bennett Todd); Mon Mar 30 08:02:58 EST 1987
+#
+dukeac	ecsvax(DAILY), ethos(DAILY+LOW)
+
+#N	dukecdu
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	Cardiac Diagnostic Unit, Duke University Medical Center
+#C	Edward V. Simpson, William M. Smith
+#E	dukecdu!postmaster, dukecdu!wms
+#T	+1 919 684 2753
+#P	Box 3140, Duke University Medical Center, Durham, NC, USA, 27710
+#L	078 56 W / 36 00 N
+#R	
+#U	
+#W	dukecdu!evs (Edward V. Simpson); Mon Jan  5 07:36:34 EST 1987
+#
+dukecdu	duke(DEDICATED), dukebar(HOURLY)
+
+#N	dukee
+#S	
+#O	Duke University, School of Engineering
+#C	Ben Rimer, Victor Sparrow
+#E	dukee!op
+#T	(919) 684-2123
+#P	Durham, NC 27706
+#L	
+#R	pathalias data commented out until update is received
+#U	mcnc
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#dukee	duke
+
+#N	dukempd
+#S	PDP-11/70, 2.10 bsd unix
+#O	Duke University
+#C	Cyrus Rahman
+#E	postmaster@dukempd.uucp
+#T	1-919-684-8226
+#P	Physics Dept., Duke University, Durham,N.C. 27706
+#L	36 00 14.28 N / 78 57 13.62 W
+#R	Connected to Duke's Physics department.
+#U	duke
+#W	cr@dukempd.uucp (Cyrus Rahman); Sun Dec  6 04:30:02 EST 1987
+#
+dukempd	duke(DEDICATED), dukeac(DAILY)
+
+#N	ece-csc
+#S	DEC VAX-11/785;	4.3 BSD UNIX
+#O	North Carolina State University
+#C	James L. Evans, Jr.
+#E	ece-csc!jle
+#T	+1 919 737 2336
+#P	ECE Department, P.O. Box 7911  Raleigh, NC 27695-7911
+#L
+#R
+#U	ncrcae msdc akgua sas lord
+#W	ece-csc!jle (Jamie Evans);Tue Nov 18 07:31:11 EST 1986
+#
+ece-csc	mcnc(DIRECT) 
+
+#N	ecsvax
+#S	
+#O	North Carolina Educational Computing Service
+#C	Byron Howes
+#E	ecsvax!bch
+#T	(919) 549-0671
+#P	P.O. Box 12035, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	mcnc
+#W	fluke!schuh (Mike Schuh); Thu Feb 27 18:48:45 PST 1986
+#
+ecsvax	mcnc(HOURLY), ulysses(DAILY/3), ecu(HOURLY), uncchem(DAILY/6),
+	bgsm(DAILY/4), godot(DAILY/4), duccpc(DAILY), punix(DAILY)
+
+#N	ecu
+#S	
+#O	East Carolnia University Computing & Information Systems
+#C	David L. Windsor
+#E	ecu!dlw
+#T	(919) 757-6401
+#P	Greenville, NC 27834
+#L	
+#R	pathalias data commented out until update is received
+#U	ecsvax
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#ecu	ecsvax, ecu2
+
+#N	ecu2
+#S	
+#O	East Carolnia University Computing & Information Systems
+#C	David L. Windsor
+#E	ecu!dlw
+#T	(919) 757-6401
+#P	Greenville, NC 27834
+#L	
+#R	pathalias data commented out until update is received
+#U	ecu
+#W	cbosgd!mark (Mark Horton); Wed May  5 00:00:00 EST 1985 
+#
+#ecu2	ecu
+
+#N	ferrari
+#S	CompuPro 68000; System V Unix
+#O	
+#C	Dwight R Frye
+#E	ferrari!root
+#T	+1 919 779 6645
+#P	1027 Highway 70 W, Garner, NC 27529
+#L
+#R	previously known as tsunami
+#W	dpz@rutgers.edu (David P. Zimmerman); Fri Feb  5 20:26:00 EST 1988
+#U	uunet
+#
+ferrari	uunet(DEMAND)
+
+#N	flan
+#S	Plexus P/35; Unix Sys V.2
+#O	FiberLAN, Inc.
+#C	Walter Dixon
+#E	flan!wgd
+#T	+1 919 481 5164
+#P	P.O.Box 12726, Research Triangle Pk., NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	rti
+#W	flan!wgd (Walter Dixon); Tue Jan 26 12:59:56 EST 1988
+#
+flan	rti(DIRECT), flan3(DEDICATED), bbt2(DEDICATED)
+
+#N	genetics
+#S	AT&T 3B2/400; SVR3 UNIX
+#O	Department of Genetics, North Carolina State Univeristy
+#C	Ted H. Emigh
+#E	ncsugn!emigh
+#T	+1 919 737 2292
+#P	Box 7614, Raleigh NC  27695-7614  USA
+#L	35 44 N / 078 43 W
+#R
+#U
+#W	ncsugn!emigh (Ted H. Emigh); Tue Feb 10 17:50:27 EST 1987
+#
+genetics	ncsugn(DEDICATED)
+
+#N	gladys
+#S	AT&T 7300 Unix Sys V
+#O	David Dalton, Literary Consultant
+#C	David Dalton
+#E	gladys!david
+#T	(919) 924-5678
+#P	P.O. Box 256, Bethania, NC 27010
+#L	Lat 36 deg 08 min, Long 80 deg 15 min
+#R
+#U	bakerst kitty ethos
+#W	gladys!david (David Dalton); Sun Oct 12 12:52:42 EDT 1986
+#
+gladys	bakerst(DIRECT), bgsm(DIRECT), ethos(EVENING), ihnp4(EVENING),
+	kitty(EVENING), mtune(EVENING), shell1(EVENING), skeeve(EVENING)  
+
+#N	godot
+#S	VAX 11/750; 4.2 BSD UNIX
+#O	Radiation Oncology, North Carolina Memorial Hospital/UNC
+#C	George W. Sherouse
+#E	godot!sherouse
+#T	+1 919 966 1101
+#P	Chapel Hill, NC   27514
+#L	35 55 N / 79 04 W city
+#R	The world's first UNIX-based radiotherapy computer...
+#U	ecsvax unc ethos
+#W	godot!sherouse (George W. Sherouse); Fri Jul 18 16:26:22 EDT 1986
+#
+godot	unc(DIRECT), mcnc(DIRECT)
+
+#N	ittral
+#S	
+#O	ITT Telecom, Business and Consumer Communications
+#C	Bernard Kenny, Robert Hornburg, Roger Denton
+#E	ittral!kenny, ittral!hornburg, ittral!denton
+#T	(919) 828-4441
+#P	2912 Wake Forest Rd., Raleigh, NC 27611
+#L	34 57 N / 78 39 W city
+#R	pathalias data commented out until update is received
+#U	ittvax
+#W	ittral!root (Name Unknown); Thu Jan  1 00:00:00 EST 1985 
+#
+#ittral	ecsvax(DIRECT), ittvax(DEMAND), laidbak(DEMAND),
+#	mcnc(DIRECT), ncsu(DIRECT)
+
+#N	ncsugn
+#S	AT&T 3B2/400; SVR3 UNIX
+#O	Department of Genetics, North Carolina State Univeristy
+#C	Ted H. Emigh
+#E	ncsugn!emigh
+#T	+1 919 737 2292
+#P	Box 7614, Raleigh NC  27695-7614  USA
+#L	35 44 N / 078 43 W
+#R
+#U
+#W	ncsugn!emigh (Ted H. Emigh); Tue Feb 10 17:50:27 EST 1987
+#
+ncsugn	ncsuvx(DIRECT), genetics(DEDICATED)
+
+#N	ncsuvx
+#S	DEC MicroVAX II; Ultrix 1.2A
+#O	North Carolina State University Computing Center
+#C	Dolores H. Leonard
+#E	ncsuvx!dhl
+#T	+1 919 737 2517
+#P	NCSU Computing Center, P.O. Box 7109, Raleigh, NC  27695-7109
+#L
+#R	We are in the process of becoming ncsu.edu on the internet.
+#R	Last update received Mon Apr  6 08:03:44 EDT 1987
+#U	ethos, mcnc, ece-csc
+#W	ncsuvx!abc (Alan Clegg); Mon Mar 30 10:19:28 EST 1987
+#
+#	NCSUVX is the mail server for the NCSU.EDU domain
+#	NCSU.EDU contains UUCP, TCP, and DECnet mail machines
+#	Ain't ULTRIX wonderful?
+#
+ncsuvx	.ncsu.edu
+#
+#	Major contacts outside .ncsu.edu
+#
+ncsuvx	ethos(DAILY), mcnc(DIRECT)
+
+#N	ncvet
+#S	VAX-11/730
+#O	North Carolina School of Veterinary Medicine
+#C	Armistead W. Sapp, III
+#E	ncvet!aws
+#T	+1 919 828 9645
+#P	Raleight, NC
+#L	
+#R	costs guessed by black!vince
+#U	
+#W	black!vince (Vince Westin); Thu Jun 11 16:43:30 EDT 1987
+#
+ncvet	rti(POLLED), ikonas(DEAD)
+
+#N	ntcsd1
+#S	Hewlett Packard 9000 model 840; HP-UX 1.04
+#O	Northern Telecom, Inc.
+#C	Jay Cole
+#E	!ntcsd1!jay
+#T	+1 919 481 8284
+#P	400 Perimeter Park, Morrisville, NC 27560
+#L	078 49 W / 35 48 N
+#R	maker of Digital Switching Systems
+#U	rti
+#W	ntcsd1!dean (Dean Lane); Tue Aug  4 18:23:45 EDT 1987
+#
+ntcsd1	rti(EVENING), cscosl(DIRECT)
+
+#N	phs
+#S	DEC PDP-11/44; 2.8 BSD UNIX
+#O	Dept. of Physiology, Duke University Medical Center
+#C	J. Francis Heidlage
+#E	phs!jfh
+#T	+1 919 684 3754
+#P	Box 3709 DUMC, Durham, NC 27710
+#L	35 59 N / 78 54 W city
+#R
+#U	duke
+#W	duke!dbl (David B. Leonard); Sun Jan  4 12:33:18 EST 1987
+#
+phs	duke(DEDICATED), mcnc(DIRECT)
+
+#N	psyche
+#S	Callan Unistar 300 running Unix System V
+#O	Psychometric Lab, University of North Carolina @ Chapel Hill 
+#C	Ken Pauwels
+#E	ecsvax!kgp
+#T	+1 919 962 5038
+#P	013-A Davie Hall, University of North Carolina, Chapel Hill, NC  27514
+#L	35 55 N / 79 04 W city
+#R	
+#U
+#W	unc!edds (Tom Edds); Wed Nov 26 22:26:00 EST 1986
+#
+psyche	unc(WEEKLY)
+
+#N	punix
+#S	PC7300
+#O	North Carolina Educational Computing Service
+#C	Byron C. Howes
+#E	punix!bch
+#T	(919) 549-0671 x237
+#P	P.O. Box 12035, Research Triangle Park, NC  27709-2035
+#L	
+#R	pathalias data commented out until update is received
+#U	ecsvax
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:06:18 GMT 1985
+#	
+#punix	ecsvax(DAILY)
+
+#N	rbdc
+#S	AT&T pc-7300 system 5
+#O	Red Barn Data Center
+#C	Andy Pitts
+#E	rbdc!andy
+#T	+1 919 765 1277
+#P	812 Knollwood Street, Winston-Salem, NC
+#L	80 16 00 W / 36 05 00 N
+#R	This is a hobby system of Andy Pitts WA4GIC
+#U	gladys
+#W	ucbvax!fair (Erik E. Fair); Thu Sep 17 02:48:20 EDT 1987
+#
+rbdc	gladys(LOCAL)
+
+#N	rti
+#S	Gould 9050, UTX 2.0 (4.3BSD)
+#O	Research Triangle Institute
+#C	Mike Shaddock, Tom Truscott
+#E	rti!shaddock (shaddock@rti.rti.org), rti!trt (trt@rti.rti.org)
+#T	+1 919 541 7414, +1 919 541 7005
+#P	Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	rti, mcnc, xyzzy, scirtp, tijc02, ethos, ge-rtp, sas, bdrc
+#W	rti!shaddock (Mike Shaddock); Wed Jun  3 08:34:22 EDT 1987
+#
+rti = ".rti.org"
+rti	duke(DEDICATED), mcnc(DEDICATED), unc(DEDICATED), ecsvax(DEDICATED),
+	unccvax(DEDICATED), ece-csc(DEDICATED), dukebar(DEMAND),
+	dukgeri(DEMAND), ethos(DEMAND), scirtp(DEMAND), sas(HOURLY),
+	bdrc(HOURLY), xyzzy(HOURLY), ge-rtp(HOURLY), flan(DAILY),
+	rtp47(DAILY), gould(DAILY), ndl(DAILY), tijc02(DAILY), suntri(DAILY),
+	talos(DAILY)
+
+#N	scirtp
+#S	SCI 1000
+#O	SCI System, Inc.
+#C	Maureen Chew, David Hinnant
+#E	scirtp!maureen, scirtp!dfh
+#T	(919)549-8334
+#P	P.O. Box 12557, Research Triangle Park, NC 27709
+#L	
+#R	This is the main network site for SCI Technology, Inc. in Research
+#	Triangle Park, NC.  We're the software development center for SCI
+#	Systems out of Huntsville Alabama.
+#R	pathalias data commented out until update is received
+#U	rti
+#W	fluke!schuh (Mike Schuh); Tue Oct  1 05:18:49 GMT 1985
+#	
+#scirtp	rti(DEMAND), ittral(DEMAND)
+
+#N	suntri
+#S	Sun-3/160C; Sun 3.2 UNIX
+#O	Sun Microsystems North Carolina Sales Office
+#C	Keith DeJager
+#E	suntri!admin
+#T	+1 919 481 3959
+#P	117 Edinburgh S. #102, Cary, NC  27511
+#L	35 44 19 N / 78 48 08 W
+#R
+#U	rti, trancept
+#W	suntri!vince (Vince Westin); Wed Nov  4 16:31:31 EST 1987
+#
+suntri		sunatl(DEMAND),		sunesc(DEMAND+HIGH),
+		sundc(DEMAND),		sunne(DEMAND+HIGH),
+		sunhunt(DEMAND),	sun(DEMAND+HIGH),
+		sunknox(DEMAND),	texsun(DEMAND),
+		sunvice(DEMAND),	cclws5(DIRECT+LOW),
+		chpre(DEMAND),		squire(DEMAND),
+		uncmath(DAILY),		rti(DIRECT+LOW),
+		bilbo(DIRECT+LOW),	trancept(DIRECT+LOW),
+		stik(DIRECT+LOW)
+SUNTRI-NET = { suntri, droid, empire, ewok, falcon,
+	speeder, tonton, x-wing }!(LOCAL)
+
+#N	trancept
+#S	Sun-3/180M; Sun 3.2 UNIX
+#O	Sun Microsystems, NCAA
+#C	Vince Westin
+#E	trancept!admin
+#T	+1 919 469 8300   +1 919 828 7406
+#P	PO Box 13447, Res. Tri. Park, NC  27709
+#L	35 51 23 N / 78 48 57 W
+#R	this machine was once ncaa and tranc2
+#U
+#W	trancept!vince (Vince Westin); Mon Dec 21 15:32:37 EST 1987
+#
+trancept =	ncaa
+trancept	suntri(DIRECT+LOW),	rti(DIRECT+LOW),
+		ncaa-hw(DIRECT+LOW)
+NCAA-NET = { trancept, tranc2, tranc12 }!(LOCAL)
+
+#N	unc
+#S	Vax 11/785 / 4.2 bsd UNIX
+#O	University of North Carolina, Dept. of Computer Science
+#C	John Menges
+#E	mcnc!unc!menges
+#T	(919)962-2059
+#P	Chapel Hill, NC 27514
+#L	35 54 43 N / 79 03 05 W
+#R	
+#U	mcnc
+#W	tgt@cbosgd.ATT.COM (Tim Thompson) ; Sun Feb  1 00:11:48 EST 1987
+#
+#	MCNC microwave network
+#
+MCNCNET = {mcnc, unc, duke, rti, ecsvax, unccvax}!(DEDICATED)
+unc	godot(DEMAND)
+
+#N	uncbme
+#S	DEC VAXstation II; Ultrix-32m 2.0-1
+#F	mcnc
+#O	Biomedical Engineering Curriculum, UNC-CH School of Medicine
+#C	Christopher C. Woodbury, Dr. Jack W. Buchanan Jr.
+#E	uncbme!uucpmap
+#T	+1 919 966 4578, +1 919 966 5201	
+#P	150 MacNider Hall, Chapel Hill, NC  27599-7575
+#L	35 54 20 N / 079 03 09 W
+#R	This is bme.unc.edu [128.109.155.1] on the Internet
+#U	
+#W	uncbme!woodbury (Chris Woodbury); Mon Dec 28 11:28:49 EST 1987
+#
+#	uncbme (odin internally) is the mail server for *.bme.unc.edu
+#	(all our other hosts run VMS) and it will eventually be the
+#	bme.unc.edu domain server, also.
+#
+uncbme	.bme.unc.edu
+uncbme	mcnc(LOCAL), ecsgate(LOCAL), unc(LOCAL)
+
+#N	unccvax
+#S	
+#O	University of North Carolina at Charlotte (UNCC)
+#C	Dwayne Mcneil
+#E	unccvax!dbm
+#T	(704) 597-2302
+#P	EAD Dept., UNCC Station, Charlotte, NC 28223
+#L	35 14 N / 80 50 W city
+#R	pathalias data commented out until update is received
+#U	mcnc wgi70
+#W	fluke!schuh (Mike Schuh); Wed Oct 16 23:59:29 PDT 1985
+#
+#unccvax	mcnc(DIRECT), wgi70(DIRECT)
+
+#N	uncmed
+#S	MicroVax II; Ultrix-32m
+#O	Office of Information Systems, UNC-CH School of Medicine
+#C	Anne C. Blanchard, Elizabeth A. Evans
+#E	uncmed!request
+#T	+1 919 966 1325
+#P	76 MacNider 202H, Chapel Hill, NC  27514
+#L	35 54 19 N / 079 03 10 W
+#R
+#U
+#W	uncmed!uevans (Elizabeth A. Evans); Thu Jul 23 15:29:58 EDT 1987
+#
+uncmed	.med.unc.edu
+uncmed	mcnc(DEDICATED)
+
+#N	wgi70
+#S	PDP 11/70/UNIX V7
+#O	Washburn Graphics, Inc.
+#C	Fred Toth
+#E	wgi70!fpt
+#T	704-372-5270
+#P	P.O. Box 31517, Charlotte, NC, 28231
+#L	35 14 N / 80 50 W city
+#R	pathalias data commented out until update is received
+#U	unccvax
+#W	fluke!schuh (Mike Schuh); Thu Oct 17 00:02:59 PDT 1985
+#	connection guessed by fluke!schuh
+#wgi70	unccvax(DIRECT)
+
+#N	xyzzy
+#S	Data General mv7800; DG/UX
+#O	Data General Corp.
+#C	Karl M. Owen, Wayne Throop
+#E	xyzzy!postmaster
+#T	+1 919 248 6083, +1 919 248 6128
+#P	62 T.W. Alexander Drive, Research Triangle Park, NC 27709
+#L	78 46 W / 35 56 N city
+#R	
+#U	rti
+#W	xyzzy!owen (Karl M. Owen); Mon Aug 17 11:42:14 EDT 1987
+#
+xyzzy	rti(DIRECT)
+#
+DG-LOCAL = {rtp34, rtp41, rtp46, xyzzy}!(LOCAL)
+SHAR_EOF
+:	End of shell archive
+exit 0

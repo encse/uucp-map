@@ -1,0 +1,111 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.isr.1
+: This archive created: Tue May  3 02:35:37 1988
+echo shar: extracting u.isr.1
+cat << 'SHAR_EOF' > u.isr.1
+# u.isr.1; changes to: uucpmap@mcvax.uucp
+
+
+#N	banana
+#S	vax11/750 4.2bsd Unix
+#O	The Fritz Haber Molecular Dynamics Research Center
+#C	Michael Berman
+#T	+972 2 585270
+#P	91904 Jerusalem, Israel.
+#E	banana!michael
+#L	35 14 E / 31 46 N city
+#R	also on bitnet (HUJIFH)
+#U
+#W	mcvax!piet 850610
+#
+
+#N	bengus
+#S	vax11/780 4.2bsd Unix
+#O	Ben-Gurion University, Dept. of Math & Comp. Science.
+#C	Arie Kaufman
+#T	
+#P	Beersheva, Israel.
+#E	bengus!postmaster
+#L	34 47 E / 31 14 N
+#R	also on csnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	huji
+#S	vax11/750 4.2bsd Unix
+#O	The Hebrew Univ. of Jerusalem, Dept. of Comp. Science.
+#C	Danny Braniss
+#T	+972 2 584385
+#P	91904 Jerusalem, Israel.
+#E	huji!danny
+#L	35 14 E / 31 46 N city
+#R	danny@huji.csnet, danny@HUJICS.bitnet
+#U
+#W	mcvax!piet 850610
+# The cost of huji-mcvax is given high to discourage its use
+# when another route exists.
+huji	banana(DIRECT), bengus(DAILY), humus(DIRECT), mcvax(WEEKLY),
+	taurus(DAILY), tech-sel(DAILY), wisdom(DAILY)
+
+#N	humus
+#S	vax11/780 4.2bsd Unix
+#O	The Hebrew Univ. of Jerusalem, Dept. of Comp. Science.
+#C	Danny Braniss
+#T	+972-2-584385
+#P	91904 Jerusalem, Israel.
+#E	humus!danny
+#L	35 14 E / 31 46 N city
+#R	also humus%israel@csnet-relay
+#U
+#W	mcvax!piet 850610
+# The cost of humus-decvax is given high to discourage its use
+# when another route exists.
+humus	banana(DAILY), bengus(DAILY), taurus(DAILY), tech-sel(DAILY),
+	wisdom(DAILY)
+
+#N	taurus
+#S	vax11/780 4.1bsd Unix
+#O	Tel-Aviv Univ., Dept. of Mathematial Sciences.
+#C
+#T	
+#P	Ramat-Aviv, Tel-Aviv, Israel.
+#E	taurus!nir
+#L	34 46 E / 32 04 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	tech-sel
+#S	
+#O	The Technion
+#C	Shlomo Goldberg
+#T	
+#P	Kiryat Hatechnion, Haifa, Israel.
+#E	technion!shlomo
+#L	35 00 E / 32 50 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+#N	wisdom
+#S	vax11/750 4.2bsd Unix
+#O	Weizmann Institute, Dept. of Mathematics.
+#C	Lenore Zuck
+#T	
+#P	Rehovot, Israel.
+#E	wisdom!lenore
+#L	34 49 E / 31 54 N
+#R	also on csnet and bitnet
+#U
+#W	mcvax!piet 850610
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0

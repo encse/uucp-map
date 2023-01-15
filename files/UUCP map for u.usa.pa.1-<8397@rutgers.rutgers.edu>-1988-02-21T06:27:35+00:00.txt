@@ -1,0 +1,1208 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.pa.1
+: This archive created: Sun Feb 21 01:27:18 1988
+echo shar: extracting u.usa.pa.1
+cat << 'SHAR_EOF' > u.usa.pa.1
+# u.usa.pa.1 created by dpz@rutgers.edu on Sat Feb 20 15:24:30 EST 1988
+
+#N	aeneid
+#S	SUN 3/75; 3.0 SunOS (BSD UNIX)
+#O	Sun Microsystems Inc, King of Prussia
+#C	Kris Younger
+#E	aeneid!postmaster
+#T	+1 215 337 0300
+#P	1000 First Ave, King of Prussia, PA 19406
+#L	W /  N Philadelphia
+#R
+#U
+#W	aeneid!ky (Kris Younger); Mon Jan  5 07:40:56 EST 1987
+#
+aeneid	liberty(LOCAL)
+
+#N	asi
+#S	AT&T 3B2/400; UNIX System V R 2.1
+#O	Assessment Systems, Inc.
+#C	Metro T. Sauper, Jr.
+#E	asi!metro
+#T	(215) 592-8900
+#P	210 South Fourth Street, Philadelphia, PA 19106
+#L
+#R
+#U	bpa
+#W	asi!metro (Metro Sauper); Fri Jul 25 13:21:00 EDT 1986
+#
+asi	bpa(DIRECT)
+
+#N	atw286
+#S	IBM PC/AT ;  Microport SYS V
+#O
+#C	Dr. A.Walters
+#E	atw286!walters
+#T	+1 215 247 7276
+#P	129 W Durham St., Philadelphia PA 19119.
+#L	39 57 N / 75 07 W 
+#R
+#U
+#W	atw286!walters (Dr A.Walters) ; Mon Oct 13 12:45:00 EDT 1986
+#
+atw286  temvax (DAILY)
+
+#N	bigburd
+#S	VAX 11/785; 4.3BSD
+#O	Unisys Corporation, Paoli Research Center
+#C	Mark L. Starner
+#E	burdvax!starner
+#T	+1 215 648 7382
+#P	P. O. Box 517, Paoli, PA 19301
+#L	40 02 N / 75 29 W city
+#R	Will be on the ARPA Internet 2/87
+#U	burdvax
+#W	burdvax!starner (Mark L. Starner); Sun Feb  1 00:26:20 EST 1987
+#
+bigburd	burdvax(DEMAND)
+
+#N	bigmax
+#S	VAX 8200; Ultrix 2.0
+#O	Fischer & Porter
+#C	John Halderson
+#E	fischp!root
+#T	+1 215 674 7149
+#P	125 E. County Line Rd., Warminster, PA 18974
+#L	40 00 N / 75 10 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue,  5 Jan 18:38:46 EST 1988
+#U
+#
+bigmax	uunet(DEMAND)
+
+#N	burdvax
+#S	VAX 11/780; 4.3BSD
+#O	Unisys Corporation, Paoli Research Center
+#C	Mark L. Starner
+#E	burdvax!starner
+#T	+1 215 648 7382
+#P	P. O. Box 517, Paoli, PA 19301
+#L	40 02 N / 75 29 W city
+#R	Will be on the ARPA Internet 2/87
+#U	sdcrdcf jtids bpa psuvax1 bigburd
+#W	burdvax!starner (Mark L. Starner); Sun Feb  1 00:19:38 EST 1987
+#
+burdvax	psuvax1(HOURLY), sdcrdcf(DEMAND),
+	bigburd(DEMAND), sdcjove(DEMAND), bpa(HOURLY),
+	excalibur(DAILY), sjuvax(HOURLY),
+burdvax	.prc.unisys.com
+
+#N	cadre
+#S	VAX 11/780; 4.3 BSD
+#O	University of Pittsburgh, Decision Systems Laboratory
+#C	Sean McLinden
+#E	cadre!sean
+#T	+1 412 648 9600
+#P	1360 Scaife Hall, Pittsburgh, PA 15261
+#L	40 26 N / 80 00 W city
+#R	
+#U	idis pitt prodigal
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 12:31:43 EDT 1986
+cadre	akgua(DEMAND), allegra(DEMAND), cmcl2(DEMAND), idis(DEMAND),
+	ihnp4(DEMAND), lrdcvax(DEMAND), mi-cec(DEMAND), nelslab(DEMAND),
+	pitt(DEMAND), psuvax1(DEMAND), prodigal(LOCAL), research(DEMAND),
+	sun(DEMAND), sunrise(DEMAND), umn-cs(DEMAND), vax135(DEMAND)
+
+#N	campo
+#S	Convergent Technology MiniFrame 68010; Unix sys V
+#O	Solutions in Software 
+#C	Frank Berry 
+#E	campo!frankb
+#T	+1 412 343 7605
+#P	2704 Glenmore Ave. 	Dormont, PA  15216
+#L
+#R
+#U	darth
+#W	campo!frankb (Frank Berry); Mon Oct 27 12:31:43 EDT 1986
+#       
+campo	darth(DEMAND)
+
+#N	catalyst
+#S	(?National 32-series); (?System V)
+#O	Catalyst Software Services, Inc.
+#C	Dale Van Aken
+#E	catalyst!van
+#T	+1 215-968-6400
+#P	Commons West Building, Newtown, PA  18940
+#L
+#R	I don't work for this company; just posted this for "completeness"
+#U
+#W	pgt1!brent (Brent Chivers) ; Wed Nov 12 09:22:40 EST 1986
+#
+catalyst orsvax1(POLLED), pgt1(POLLED)
+
+#N	cbit
+#S	Exxon 8421; Zeus 3.21
+#O	CBIT Corporation
+#C	Terry Ryan
+#E	cbit!terry
+#T	+1 215 251 0990 
+#P	287 Great Valley Parkway, Malvern, PA 19355
+#L	75 31 51 W / 40 03 57 N
+#R
+#U
+#W	cbmvax!grr (George Robbins); Thu May  1 20:20:99 EDT 1986
+#
+cbit	cbmvax(DIRECT), hutch(DIRECT)
+
+#N	cbm
+#S	Zilog System 8000 Model 21; Zeus System V, Release 2.1
+#O	Commodore Business Machines; Engineering Hardware Lab
+#C	George Robbins
+#E	cbm!usenet
+#T	+1 215 431 9255
+#P	1200 Wilson Drive, West Chester, PA  19380
+#L	39 59 30 N / 75 35 00 W
+#R	Most of the links previously supported by cbm have been moved to the
+#R	cbmvax system, and cbm may go offnet at some arbitrary date...
+#U
+#W	cbmvax!grr (George Robbins); Wed Jun  3 08:56:54 EDT 1987
+#
+cbm	cbmvax(DEDICATED)
+
+#N	cbmvax
+#S	DEC VAX 11/750; Ultrix 1.2
+#O	Commodore Business Machines; Engineering Support Group
+#C	George Robbins
+#E	cbmvax!usenet
+#T	+1 215 431 9100 X9836
+#P	1200 Wilson Drive, West Chester, PA  19380
+#L	39 59 30 N / 75 35 00 W
+#R
+#U	bpa rutgers hutch cbm vu-vlsi snark amiga
+#W	cbmvax!grr (George Robbins); Wed Jun  3 08:55:41 EDT 1987
+#
+cbmvax	cbm(DEDICATED), cbmbsw(DAILY), amiga(DEMAND), mwc(DAILY),
+	rutgers(DEMAND), ihnp4(DEMAND), vu-vlsi(DEMAND),
+	temvax(DEMAND), allegra(DEMAND), sinharat(DEMAND), hutch(DAILY/4),
+	bpa(DEMAND), liberty(DEMAND), swatsun(DEMAND), molly(DEMAND),
+	burdvax(DEMAND), gravina(DEMAND), cot3b1(DEAD), c900lee(WEEKLY),
+	cbit(DIRECT), snark(DIRECT), unirot(DEAD), devon(DAILY)
+#
+#	Maildrops we poll regularly
+#
+ihnp4	cbmvax(HOURLY*6)
+allegra	cbmvax(HOURLY*6)
+rutgers	cbmvax(HOURLY*6)
+amiga	cbmvax(HOURLY*12)
+
+#N	cdin-1
+#S	IBM-AT; SCO 2.2
+#O	CompuData North
+#C	Tom Renshaw
+#E	cdin-1!tom
+#T	+1 215 824 3000
+#P	10501 Drummond Rd.; Phila, PA   19154
+#R	our northern branch
+#U
+#W	ki4pv!tanner (Tanner Andrews) ; Tue Dec 08 14:56:46 EST 1987
+cdin-1	ki4pv(DAILY+LOW+LOW),
+	bpa(DIRECT),
+	dpdx01(DAILY+HIGH),
+	saiy01(DAILY), snwk01(DAILY), snyp01(DAILY),
+	srea01(DAILY+LOW), stre01(DAILY+LOW)
+
+#N	central
+#S	AT&T 3b2/300;  System V
+#O	University of Pittsburgh, Grad. School of Public and Int'l. Affairs
+#C	Theresa R. Woods
+#E	central!trw
+#T	+1 412 648 7656
+#P	3R01 Forbes Quad, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R	
+#U
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:49:08 EDT 1986
+#
+cisunx	pitt(DIRECT)
+
+#N	cgh
+#S	AT&T 3B1; System V Release 1
+#O	Chimitt Gilman Homchick, Inc.
+#C	Paul J. Homchick
+#E	cgh!usenet
+#T	+1 215 964 8050
+#P	One Radnor Station Suite 300, Radnor, PA 19087
+#L	075 24 W / 040 02 N
+#R
+#U	
+#W	cgh!paul (Paul Homchick); Mon July 6 08:00:00 EDT 1987
+#
+cgh	vu-vlsi(DIRECT), cbmvax(DEMAND)
+
+#N	cisunx
+#S	VAX-11/8650; Ultrix 1.2
+#O	University of Pittsburgh CIS Department
+#C	Carl Fongheiser, David Lithgow
+#E	cisunx!cmf, cisunx!dpl
+#T	+1 412 624 6355
+#P	600 Epsilon Drive, Pittsburgh, PA 15238
+#L	40 26 N / 80 00 W city
+#R
+#U	pitt
+#W	cisunx!cmf (Carl Fongheiser); Fri Jan  2 22:13:13 EST 1987
+#
+cisunx	pitt(HOURLY)
+
+#N	cmucspt
+#S	DEC VAX-11/750; CMU CS/RI 4.3/2/1 UCB UNIX
+#O	Carnegie Mellon University, Computer Science & Robotics facilities
+#C	Rudy Nedved
+#E	cmucspt!ern, cmucspt!postmaster
+#T	+1 412 268 7685, +1 412 268 2607
+#P	Schenley Park, Pittsburgh, PA 15213
+#L	080 00 W / 40 25 N Pittsburgh
+#R	cmucspt is an ARPA Internet host (PT.CS.CMU.EDU) that has various 
+#	services running on it including UUCP connections and a special
+#	system to get netnews. The UUCP connections are all incoming
+#	and receive minimal support so mail delivery is very risky. The
+#	netnews is received over the ARPA Internet from Rochester via NNTP.
+#	The link rate data should be loaded on the poor side because of
+#	the problems with PTs load and the lack of support. 
+#U
+#W	cmucspt!ern (Rudy Nedved); Fri Feb 20 18:10:30 EST 1987
+#
+cmucspt	allegra(DAILY), bellcore(DAILY), ihnp4(DAILY), lecmentor(DAILY),
+	research(DAILY), wrl-iusvax(WEEKLY)
+
+#N	cognac
+#S	SUN 3/160M; 4.2/3 BSD
+#O	Westinghouse Research and Development Center
+#C	Glenn S. Elias
+#E	cognac!elias
+#T	+1 412 256 2706
+#P	1310 Beulah Road, Pittsburgh, PA 15235
+#L	40 27 N / 79 51 W
+#R	Mail from internet via pt.cs.cmu.edu (eg. cognac!elias@pt.cs.cmu.edu)
+#U
+#W	cognac!elias (Glenn S. Elias); Fri Nov  6 13:17:00 EDT 1987
+#
+cognac	    sunpitt(POLLED/4), cmucspt(DIRECT)
+
+#N	darth
+#S	Convergent Technology MiniFrame 68010; Unix sys V
+#O	Darth Software
+#C	Ed DeHart
+#E	darth!dehart
+#T	+1 412 621 2210 day or +1 412 486 7054 evenings (best shot)
+#P	2714 Sapling Drive, Allison Park, PA  15101
+#L
+#R
+#U	pitt
+#W	darth!dehart (Ed DeHart); Mon Oct 27 12:31:43 EDT 1986
+#       
+darth	pitt(DAILY), investor(DAILY), beaver(DAILY)
+
+#N	devon
+#S	Tandy TRS-80 Model 16a; XENIX/68000 version 3.2.0
+#O	Devon Computer Services
+#C	Paul Sutcliffe Jr.
+#E	devon!paul
+#T	+1 717 295 5478
+#P	1018 N. Christian St., Suite 209, Lancaster, PA 17602
+#L	76 18 W / 40 03 N city
+#R	modem supports MNP level 3
+#U	vu-vlsi ncoast chessene
+#W	devon!paul (Paul Sutcliffe Jr.); Wed Feb  3 21:26:52 EST 1988
+#
+devon	<cbmvax>(EVENING+LOW), chessene(HOURLY), <dn6000>(DAILY),
+	drexel(EVENING), <lehi3b15>(WEEKLY), ncoast(EVENING+HIGH),
+	netsys(EVENING+HIGH), peng(POLLED), <sir-alan>(EVENING),
+	t9103(POLLED), <tlxprs>(EVENING+LOW), vu-vlsi(DEMAND)
+
+#N	discg1
+#S	Gould PowerNode 9050; UTX/32 2.0  (4.3 BSD)
+#O	Defense Industrial Supply Center
+#C	Ray Matrone
+#E	discg1!postmaster
+#T	+1 215 697 6769
+#P	DISC-ZWRS (Bldg. 3A), 700 Robbins Av, Philadelphia, PA 19111-5096
+#L	39 57 N / 75 07 W city
+#R	
+#U
+#W	discg1!rmatrone (Ray Matrone); Tue Feb 16 14:36:12 EST 1988
+#
+discg1	dsacg1(DAILY/14)
+
+#N	ditka
+#S	AT&T 3B1 aka UNIX PC; System V 3.51
+#O	Karl Swartz, dba KCC Systems (my own homebound hacking host)
+#C	Karl Swartz
+#E	ditka!kls
+#T	+1 412 937 4930
+#P	5541 Ellsworth Ave., Pittsburgh PA 15232
+#L      40 26 N / 80 00 W city
+#R
+#	Willing to accept new connections for mail and limited
+#	news feeds.  I can poll locally or via PC Pursuit; long
+#	distance on your tab.  (Pittsburgh is not yet reachable
+#	via PC Pursuit.)
+#
+#	Only carry unix-pc and a few of the mainstream groups;
+#	more to come soon.
+#
+#U	formtek icus
+#W	formtek!kls (Karl L. Swartz); Tue Feb 16 12:27:27 EST 1988
+#
+ditka
+	formtek(DIRECT), csanta(EVENING/2), icus(WEEKLY), ramnet(EVENING/2),
+	zinn(EVENING/2)
+
+#N	drexel
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Drexel University, Electrical & Computer Engineering Department
+#C	Jeff White, Nicholas Puschak
+#E	drexel!postmaster, drexel!jeff, drexel!nick
+#T	+1 215 895 1979
+#P	32nd & Chesnut Sts., Phila. Pa.  19104
+#L	39 57 N / 75 07 W city
+#R
+#U	liberty presby super sjuvax siemens vu-vlsi
+#W	drexel!jeff (Jeff White);  Thu Jul  9 12:17:49 EDT 1987
+#
+drexel	aspvax(WEEKLY/6), bpa(DAILY/6), hrvunix(DAILY), liberty(DAILY/3),
+	msudoc(WEEKLY/5), presby(DAILY/4), siemens(WEEKLY/5), sjuvax(DAILY/5),
+	super(HOURLY), vu-vlsi(DAILY/7), wehfoer(DAILY/2)
+
+#N	dri0
+#S	Dual 68010;  Uniplus+ Sys V
+#O	Decision Resources, Inc.
+#C	Bill Titus
+#E	dri0!titus
+#T	+1 412 562 9662
+#P	950 Century Building, Pittsburgh, PA 15222
+#L	40 26 N / 80 00 W city
+#R
+#U	pitt
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 12:31:43 EDT 1986
+#
+dri0	pitt(POLLED)
+
+#N	dsinc
+#S	Plexus P/60-68020;Unix V.2
+#O	Datacomp Systems, Inc.
+#C	Sydney S. Weinstein, CDP, CCP
+#E	dsinc!syd
+#T	+1 215 947 9900
+#P	3837 Byron Road, Huntingdon Valley, PA 19006-2320
+#L	40 08 30 N / 75 02 00 W
+#R
+#U	vu-vlsi
+#W	dsinc!syd (Sydney S. Weinstein, CDP, CCP); Fri Feb 19 11:32:17 EST 1988
+#
+dsinc	allegra(EVENING), bellcore(EVENING), dsip90(DEDICATED),
+	dsip55(DEDICATED), firstpa(DIRECT), hds(DIRECT),
+	wells(DIRECT), vu-vlsi(DIRECT+HIGH), bpa(DIRECT+HIGH),
+	vader(POLLED)
+
+#N	dsip55
+#S	Plexus P/55-68020;Unix V.3
+#O	Datacomp Systems, Inc.
+#C	Sydney S. Weinstein, CDP, CCP
+#E	dsinc!syd
+#T	+1 215 947 9900
+#P	3837 Byron Road, Huntingdon Valley, PA 19006-2320
+#L	40 08 30 N / 75 02 00 W
+#R
+#U
+#W	dsinc!syd (Sydney S. Weinstein, CDP, CCP); Tue Dec 22 15:45:58 EST 1987
+#
+dsip55	dsip90(DEDICATED), dsinc(DEDICATED)
+
+#N	dsip90
+#S	Plexus P/90-68020;Unix V.31
+#O	Datacomp Systems, Inc.
+#C	Sydney S. Weinstein, CDP, CCP
+#E	dsinc!syd
+#T	+1 215 947 9900
+#P	3837 Byron Road, Huntingdon Valley, PA 19006-2320
+#L	40 08 30 N / 75 02 00 W
+#W	dsinc!syd (Sydney S. Weinstein, CDP, CCP); Tue Dec 22 15:45:58 EST 1987
+#
+dsip90	dsinc(DEDICATED), dsip55(DEDICATED)
+
+#N	emery
+#S	Tandy 6000; Xenix 3.1.1
+#O	Ferrario Chevrolet-Chrysler, Inc.
+#C	Donald Ferrario
+#E	emery!don
+#T	+1 717 265 6111
+#P	PO Box 350, Towanda, PA  18848
+#L
+#R
+#U
+#W	emery!don (Don Ferrario); Tue Aug  5 17:48:00 EDT 1986
+emery	tundra(DAILY)
+
+#N	excalibur
+#S	DEC Vax 11/785; VMS 4.2
+#O	Villanova University (SWORD)
+#C	Larry Esmonde (SWORD Director)
+#E	excalibur!sword
+#T	+1 215 648 7489
+#P	SWORD, Villanova University, Comp Sci, Villanova PA 19085
+#L	
+#R	We are a eunice site and are very limited to what we can do.
+#U	vu-vlsi
+#W	excalibur!sword (William Loftus); Mon Feb 10 19:56:30 EST 1986
+#
+excalibur	vu-vlsi(DAILY/3)
+
+#N	formtek
+#S	SUN 3/180; SMI 3.4 (4.2 BSD UNIX)
+#O	Formative Technologies, Inc.
+#C	Karl Swartz
+#E	formtek!kls
+#T	+1 412 937 4930
+#P	Foster Plaza VII, 661 Andersen Dr., Pittsburgh PA 15220
+#L	40 26 N / 80 00 W city
+#R
+#	Soon to be formtek.com ...
+#
+#	Willing to accept new connections for mail; news is a
+#	problem until we get more modems.
+#
+#U	darth ditka
+#W	formtek!kls (Karl L. Swartz); Tue Feb 16 12:27:27 EST 1988
+#
+#formtek=
+#	formtek.com,
+#	pit.formtek.com
+#formtek
+#	.formtek.com(DEMAND),
+#	iti.formtek.com(DAILY/2),
+#	phl.formtek.com(DAILY/2),
+#	pit.formtek.com(LOCAL)
+formtek
+	darth(EVENING), decvax(HOURLY), ditka(DIRECT), ftvax(DEAD),
+	idis(DIRECT), sunpitt(DIRECT), zinn(EVENING)
+#
+# Until decvax and idis update their entries ...
+decvax	formtek(DAILY/3)
+idis	formtek(DIRECT)
+
+#N	ge-mc3i
+#S	Sun 3/160C; 3.0
+#O	General Electric MC3I
+#C	Art Borst
+#E	ge-mc3i!art
+#T	+1 215 354 1262
+#P	Bldg. 12, 935 First Ave., King of Prussia PA 19406
+#L	40 02 N / 75 21 W
+#R
+#U	vu-vlsi
+#W	ge-mc3i!art (Art Borst); Wed Jun  3 08:53:18 EDT 1987
+#
+ge-mc3i = "ge-mc3i.ge.com"		
+ge-mc3i	vu-vlsi(DAILY)
+
+#N	gld-pa
+#S	Gould PS6032F; UTX/32 2.0   BSD4.3
+#O	Gould Inc. Computer Systems Division
+#C	Don Scobell
+#E	gld-pa!postmaster
+#T	+1 215 657 7170
+#P	300 Welsh Rd., Bldg. 3, Suite 100, Horsham, PA 19044
+#L	40 10 N / 075 15 W
+#R	Mid-Eastern Regional Sales office for Gould CSD
+#U	
+#W	gld-pa!don (Don Scobell); Thu Sep 25 08:39:13 EDT 1986
+#
+gld-pa	gould(DEMAND), tundra(DEMAND), unicoll(DEMAND)
+
+#N	golux
+#S	Micronics 386 clone; Microport V/386
+#O	Thyrsus Enterprises
+#C	Eric S. Raymond
+#E	snark!eric
+#T	+1 215 296 5718
+#P	22 South Warren Avenue, Malvern PA 19355
+#L	75 30 54 W / 40 02 08 N
+#R	This machine will be a public access site, I'm reserving the name now
+#U
+#W	snark!eric (Eric S. Raymond); Thu Oct 1 17:39:30 EST 1987
+#
+golux	snark(DIRECT)
+
+#N	gondor
+#S	VAX 11/780, 4.3BSD
+#O	Pensylvania State University, Computer Science Dept.
+#C	Daniel R. Ehrlich
+#E	ehrlich@psuvax1.psu.edu, postmaster@psuvax1.psu.edu
+#T	+1 814 863 1142
+#P	333 Whitmore Lab, University Park, PA 16082
+#L	40 48 N / 77 52 W CITY
+#R	This is also gondor.psu.edu [128.118.6.3] on the internet.
+#R	This is also psuvaxg on bitnet.
+#U	psuvax1
+#W	ehrlich@psuvax1.psu.edu (Daniel R. Ehrlich);Tue Sep 22 14:28:56 EDT 1987
+#
+gondor	=psuvaxg.bitnet
+#
+gondor	psuvax1(LOCAL)
+
+#N	hds
+#S	National Semiconductor SYS32; System V.2
+#O	Human Designed Systems
+#C	John Martin, Bert Tyler
+#E	hds!john,hds!bert
+#T	+1 215 382 5000
+#P	3440 Market Street, Philadelphia, Pa 19104
+#L	75 05 W / 39 55 N city
+#R	pathalias data commented out until update is received
+#U
+#W	hds!john (John Martin); Thu Jan  2 11:27:42 EDT 1986
+#
+#hds	dsinc(EVENING)
+
+#N	hutch
+#S	AT&T 3B2/300 ; System V Rel 2 (HoneyDanber uucp)
+#O	Rabbit Software Corporation
+#C	Steve Barber
+#E	hutch!usenet , hutch!postmaster, hutch!barber
+#T	+1 215 647 0440
+#P	7 Great Valley Parkway East, Malvern, PA 19355
+#L	40 03 57 N / 75 31 51 W
+#R	This is the gateway for Rabbit's other machines
+#U	cbmvax cbm
+#W	hutch!barber (Steve Barber); Tue Nov  4 15:52:29 EDT 1986
+#
+#	We are willing to feed other local sites on request, but
+#	don't get all groups. Outgoing mail may show names of
+#	internal machines; but these should be ignored,
+#	and all incoming mail sent to hutch!user
+#
+hutch	burdvax(DIRECT), cbit(DIRECT), cbm(DIRECT), cbmvax(DIRECT),
+	cuuxb(DEMAND), excalibur(DIRECT), rabbit(DEDICATED),
+	snark(DIRECT), unipress(DEMAND), vlsvax1(DEAD), vu-vlsi(DIRECT)
+
+#N	hvrunix
+#S	AT&T 3B2/310; System V Release 3.0
+#O	Haverford College
+#C	Kian-Tat Lim
+#E	hvrunix!usenet
+#T	+1 215 896 1046, +1 215 645 9983
+#P	Haverford, PA  19041-1392  USA
+#L	075 19 W / 040 01 N
+#R	This site replaces hvrford as our link to the outside world.
+#U	vu-vlsi drexel swatsun
+#W	hvrunix!klim (Kian-Tat Lim); Sat Jan 31 17:50:54 EST 1987
+#
+hvrunix	drexel(DEMAND), vu-vlsi(DEMAND), swatsun(DEMAND)
+
+#N	idis
+#S	VAX-11/780;  4.2bsd
+#O	University of Pittsburgh
+#C	Chas DiFatta
+#E	idis!chas
+#T	+1 412 624 2135
+#P	833 LIS Bldg., Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R	
+#U	mcnc mi-cec pitt cadre
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 12:31:43 EDT 1986
+#
+idis	decvax(DAILY), mcnc(DAILY), cadre(DEMAND), dri0(DAILY),
+	mi-cec(DEMAND), pitt(DEMAND), cmucspt(DEMAND)
+
+#N	investor
+#S	Altos 68000; Sys III
+#O	Cookson, Peirce & Co., Inc.
+#C	Bob Peirce
+#E	{pitt!darth, pitt}!investor!rbp
+#T	(412) 471-5320
+#P	535 Smithfield St., Pittsburgh, PA 15222
+#L	40 26 N / 80 00 city
+#R	Investment Counselors
+#U	darth
+#W	investor!rbp (Bob Peirce) ; Thu Apr  2 08:34:35 EST 1987
+#
+investor	darth(DEMAND), pitt(DEMAND)
+
+#N	lafcol
+#S	ATT 3B15; System V
+#O	Lafayette College Academic Computer Center
+#C	Philip Kostenbader, Dale Oswald
+#E	lafcol!kostenba, lafcol!oscar
+#T	+1 215-250-5501
+#P	AHE, Easton, PA 18042
+#L	40 45 05 N / 75 12 35 W 
+#R
+#U
+#W	rutgers!pleasant (Mel Pleasant); Thu Feb  4 21:21:46 EST 1988
+#
+lafcol	lehi3b15(HOURLY*4), rutgers(HOURLY*2)
+#
+rutgers	lafcol(HOURLY*2)
+
+#N	lehi3b15
+#S	AT&T 3B15, System V.2
+#O	Lehigh University, Computer Science and Electrical Engr. Dept.
+#C	Stephen Corbesero
+#E	lehi3b15!postmaster
+#T	+1 215 758 5001
+#P	CSEE Dept., PL #19, Bethlehem, PA 18015
+#L	40 36 30 N / 75 22 30 W
+#R	
+#U
+#W	lehi3b15!flash (Stephen Corbesero) Tue Aug 25 00:26:29 EDT 1987
+lehi3b15	.lehi3b15.csee.lehigh.edu
+lehi3b15	=lehi3b15.csee.lehigh.edu
+lehi3b15	c11ux(DIRECT), mc70(DIRECT), 
+		scarecrow(DEDICATED), liberty(EVENING),
+		lafcol(DIRECT), ihnp4(WEEKLY)
+
+#N	liberty
+#S	SUN 3/180; 3.0 SunOS (BSD UNIX)
+#O	Sun Microsystems Inc, King of Prussia
+#C	Kris Younger
+#E	liberty!postmaster
+#T	+1 215 337 0300
+#P	1000 First Ave, King of Prussia, PA 19406
+#L	W /  N Philadelphia
+#R
+#U
+#W	liberty!kyounger (Kris Younger); Mon Jan  5 07:46:26 EST 1987
+#
+liberty	sun(DEMAND), rutgers(DEMAND), drexel(DIRECT), sunne(DEMAND),
+	texsun(DEMAND), aloft(DEMAND), vax135(DEMAND), swatsun(DIRECT),
+        lehigh(POLLED), aeneid(LOCAL)
+
+#N	libove
+#S	PCs Limited AT, Santa Cruz Operation Xenix 2.2.1
+#O
+#C	Jay Libove
+#E	libove!libove, libove!root, libove!news
+#T	+1 412 268 8673
+#P	1060 Morewood Avenue, Box 1333, Pittsburgh, PA 15213
+#L
+#R
+#U
+#W	libove!libove (Jay Libove); Sun Nov 22 23:34:27 EDT 1987
+#
+libove	darth(DAILY)
+
+#N	manta
+#S	AT&T 3B1; UNIX System V Version 3.51
+#O
+#C	Brant A. Cheikes
+#E	manta!brant
+#T	+1 215 662 5302
+#P	4048 Baltimore Ave #A3, Philadelphia, PA 19104
+#L	39 57 N / 75 12 W
+#R	news feed limited to unix-pc, comp.sys.att, and comp.emacs
+#U	cgh jerzy
+#W	manta!brant (Brant Cheikes) ; Sat Oct 24 12:17:06 EDT 1987
+#
+manta	<cgh>(DEMAND), drexel(DIRECT), jerzy(DIRECT)
+
+#N	mcs3b2
+#S	ATT 3B2/300, System V, v. 2.0
+#O	Drexel University, Department of Mathematics and Computer Science
+#C	Justin R. Smith
+#E	mcs3b2!root, mcs3b2!post
+#T	+1 215 895 2669
+#P	32nd and Chestnut Sts, Philadelphia, PA 19104
+#L	39 57 N/ 75 07 W City
+#R
+#U
+#W	mcs3b2!root (Justin Smith); Thu Aug 13 11:20:47 EDT 1987
+#
+mcs3b2	psuvax1(DAILY), drexel(HOURLY), ocs3b5(HOURLY), cis1(DEAD)
+
+#N	mi-cec
+#S	PDP-11/44;  V7/~2.7bsd
+#O	Mellon Institute, Computer Engineering Center
+#C	Tron McConnell
+#E	mi-cec!tm
+#T	+1 412 268 3380
+#P	4616 Henry St., Pittsburgh, PA 15213
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	mi-cec!tm (Tron McConnell); Tue Oct 28 12:31:43 EST 1986
+#
+mi-cec	idis(DAILY), pitt(DAILY), dri0(DAILY), cadre(DAILY),
+	masscomp(DAILY), cmucspt(DEMAND)
+
+#N	mpx1
+#S	Sperry PC/IT ; SCO Xenix/286 V2.1.3
+#O	MPX Data Systems, Inc.
+#C	Erik J. Murrey
+#E	mpx1!usenet
+#T	+1 215 964 0394
+#P	493 St. Davids Avenue, St. Davids, Pennsylvania  19087
+#L	40 02 N / 075 18 W
+#R	We only receive a limited news feed from vu-vlsi
+#U	vu-vlsi
+#W	mpx1!erik (Erik J. Murrey); Wed Jan 20 19:38:47 EST 1988
+#
+#
+mpx1	vu-vlsi(DIRECT+HIGH), lehi3b15(WEEKLY), bpa(DIRECT),
+		ihnp4(DIRECT+LOW), cbmvax(WEEKLY)
+#
+# We poll these sites on a regular basis
+ihnp4	mpx1(DAILY/3)
+vu-vlsi	mpx1(DAILY/7)
+
+#N	pata
+#S	DEC VAX 11/780; Unix Sys 5 Rel 2 Ver 2
+#O	Bell of Pennsylvania - Technical Assistance
+#C	Bob Esposito
+#E	espo@bpa.bell-atl.com
+#T	+1 215 466 6831
+#P	One Parkway-6th Floor, Philadelphia, PA 19102
+#L	39 57 N / 75 07 W city
+#R
+#U
+#W	bpa!espo (Bob Esposito); Mon Jan 18 22:00:00 EST 1988
+#
+pata	bpa(LOCAL+HIGH)
+
+#N	pcpond
+#S	Intel 386AT running SCO Xenix 386 VER 2.2 and UULINK under DOS 3.3
+#O	University of Delaware and Caine, Farber & Gordon Inc.
+#C	David J. Farber
+#E	pcpond!farber
+#T	+1 215 274 8292
+#P	RD 1, Box 279, Landenberg, PA 19350
+#L	39 47 N / 75 46 W city
+#R	UUCP connected host
+#U	
+#W	udel!cranor (Charles Cranor); Thu Jul  9 12:10:15 EDT 1987
+#
+pcpond	.pcpond.pc.udel.edu
+pcpond	udel(DIRECT), cfg(DAILY)
+
+#N	peng
+#S	Tandy 6000 XENIX 3.1.1
+#O	Plant Engineering, GE Erie, PA
+#C	Barry Capell, voice phone (814) 875-2444
+#E	peng!barry
+#T	(814) 875-6429 
+#P	GE Co., 2901 East Lake Road, Bldg. 20-2, Erie, PA 16531 
+#L	Lat. 42 deg. 06' N, Long. 80 deg. 06' W
+#R	peng is one of the connection points between USENET and
+#R	network of Tandy 68000 and 80286 XENIX machines called
+#R	"allnet", and provides a netnews link between ncoast
+#R	(Cleveland Public UNIX(TM)) and sir-alan.
+#U
+#W	M.L. Squires/B.H. Capell ;  Tue Mar 31 11:37:37 EST 1987
+#
+peng	sys1(DEMAND), tlxprs(DEMAND), ncoast(DAILY), sir-alan(DAILY)
+
+#N	phil
+#S	FORTUNE; Unix Version 7
+#O	Wharton Automation Associates
+#C	Jill Gruen
+#E	phil!jill
+#T	+1 215 386 7759
+#O	3434 Sansom Street, Philadelphia, PA  19104
+#L	39 57 N / 75 07 W city
+#R	Software developers specializing in Financial software development
+#R	and Legal & Financial Office Automation
+#U	
+#W	phil!jill (Jill Gruen); Fri Feb  5 19:09:53 EST 1988
+#
+#phil	nell(DEMAND), beth(DEMAND)
+
+#N	pitt
+#S	VAX-11/780;  4.3 BSD
+#O	University of Pittsburgh, Computer Science Dept.
+#C	Robert Hoffman
+#E	pitt!hoffman
+#T	+1 412 624 8404
+#P	306 Alumni Hall, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R	
+#U	cadre cisunx dri0 darth gecrd1 wvucsb
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:20:10 EDT 1986
+#
+#	POLLED means they call us.
+#
+pitt	all24(DEMAND), allegra(DEMAND), amanue(DEMAND), bellcore(DEMAND),
+	bgsuvax(DEMAND), caal(DIRECT), cadre(DIRECT), central(DIRECT),
+	cisunx(DIRECT), darth(DIRECT), dri0(DIRECT), gecrd1(DEMAND),
+	idis(DIRECT), investor(DIRECT), mi-cec(DIRECT), psuvax1(DIRECT),
+	santiago(DIRECT), sir-alan(DEMAND), tl-vaxa(DIRECT), uf-cgrl(DEMAND),
+	up-icma(DIRECT), upphys(DIRECT), winfree(DEMAND), wts68k(POLLED),
+	wvucsb(DEMAND)
+
+#N	presby
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Presbyterian-Univ. of Pennsylvania Med. Ctr., Dept. of Cardiology
+#C	Paul (Skip) Seelaus
+#E	presby!skip
+#T	+1 215 662 8464
+#P	51 N. 39th St., Philadelphia, PA 19104
+#L	39 57 N / 75 07 W city
+#R	Cardiology clinical research, medical image analysis
+#U
+#W	presby!skip (Skip Seelaus); Sun Jan  4 17:18:18 EST 1987
+#
+presby  nybcb(WEEKLY), cmcl2(WEEKLY),
+	drexel(DAILY/2), burdvax(POLLED), sjuvax(WEEKLY)
+
+#N	prodigal
+#S	Sun micro 68K;  Sun OS
+#O	University of Pittsburgh, Decision Systems Laboratory
+#C	Sean McLinden
+#E	prodigal!sean
+#T	+1 412 648 9600
+#P	1360 Scaife Hall, Pittsburgh, PA 15261
+#L	40 26 N / 80 00 W city
+#R
+#U	cadre
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 12:31:43 EDT 1986
+#
+prodigal	cadre(LOCAL)
+
+#N	psuncl
+#S	MASSCOMP MC-5520; RTU-3.2 (Sys V/BSD 4.2 dual universe)
+#O	Pennsylvania State University, Noise Control Lab
+#C	Bill Ward
+#E	psuncl!wcw
+#T	+1 814 865 7262
+#P	157 Hammond Bldg., University Park, PA 16082
+#L	40 48 N / 77 52 W CITY
+#R	
+#U	
+#W	psuncl!wcw (Bill Ward); Tue Feb 16 18:27:37 EST 1988
+#
+psuncl= ncl.psu.edu
+psuncl	psuvax1(DEMAND)
+
+#N	psutoy
+#S	ATT 3B2/300, ATT System V, 3.0
+#O	Pennsylvania State University, Computer Science Dept.
+#C	Jonathan T Eckhardt
+#E	psuvax1!jte
+#T	+1 814 865 9723, +1 814 237 1901
+#P	333 Whitmore Lab, University Park, PA 16082
+#L	40 48 N / 77 52 W CITY
+#R	Operating System Version varies as new releases come out.
+#R	All connections are at 9600bps to psuvax1 and gondor.
+#R	This machine only gets a very limited ammount of newsgroups.
+#U	psuvax1
+#W	psuvax1!jte (Jon T Eckhardt); Sat Aug 15 01:53:42 EDT 1987
+#
+psutoy	psuvax1(LOCAL), gondor(LOCAL)
+
+#N	psuvax1
+#S	VAX 11/780, 4.3BSD
+#O	Pennsylvania State University, Computer Science Dept.
+#C	Daniel R. Ehrlich
+#E	ehrlich@psuvax1.psu.edu, postmaster@psuvax1.psu.edu
+#T	+1 814 863 1142
+#P	333 Whitmore Lab, University Park, PA 16082
+#L	40 48 N / 77 52 W CITY
+#R	This is also psuvax1.psu.edu [128.118.6.2] on the internet.
+#R	This is also psuvax1 on bitnet.
+#U	blft1 burdvax eds1 gatech gondor husc6 rutgers shire vu-vlsi
+#W	ehrlich@psuvax1.psu.edu (Daniel Ehrlich); Mon Nov 16 13:18:35 EST 1987
+#
+psuvax1	.bitnet
+psuvax1	=psuvax1.bitnet
+psuvax1	.psu.edu
+psuvax1	=psu.edu
+psuvax1	=psuvax1.psu.edu
+#
+#	TCP/IP
+psuvax1	burdvax(DEDICATED), cadre(DEDICATED), cmcl2(DEDICATED),
+	gatech(DEDICATED), gondor(LOCAL), lll-winken(DEDICATED),
+	purdue(DEDICATED), rutgers(DEDICATED), shire(LOCAL)
+#
+#	Dialups
+psuvax1 aecom(EVENING), akgua(EVENING), allegra(EVENING), allien(EVENING),
+	blft1(EVENING), cbosgd(EVENING), eds1(DEMAND), eplrx7(EVENING),
+	idis(DEMAND), ihnp4(EVENING), mcf(EVENING), moby(EVENING),
+	pitt(DEMAND), princeton(EVENING), shell(EVENING), super(DEMAND)
+#
+#	Campus connections
+psuvax1	psuaips(DEMAND)
+
+#N	pxxops
+#S	IBM PC/AT; Microport sv2 
+#O	Pan Am Express
+#C	Tim Cwik
+#E	pxxops!tim
+#T	+1 215 969 0123
+#P	NE Philadelphia Airport, Grant Ave. & Ashton Rd, Philadelphia PA 19114
+#L	75 01 W / 40 05 N
+#R
+#U	rutgers drexel
+#W	pxxops!tim (Tim Cwik); Wed Dec  2 17:58:01 EST 1987
+#
+pxxops	rutgers(DAILY), drexel(DAILY)
+
+#N	rabbit
+#S	3B2/400 ; System V Rel 2.0.4 (HoneyDanber uucp)
+#O	Rabbit Software Corporation
+#C	Steve Barber
+#E	rabbit!usenet , rabbit!barber
+#T	+1 215 647 0440
+#P	7 Great Valley Parkway East, Malvern, PA 19355
+#L	40 03 57 N / 75 31 51 W
+#R	Rabbit Software's netnews machine
+#U	hutch
+#W	hutch!barber (Steve Barber); Sat Oct 11 16:33:47 EDT 1986
+#
+rabbit		hutch(DEDICATED)
+
+#N	santiago
+#S	AT&T 3b2/300;  System V
+#O	University of Pittsburgh, Hispanic Languages Department
+#C	Bruce Stiehm
+#E	santiago!bgs
+#T	+1 412 624 6726
+#P	1309 Cathedral of Learning, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:46:38 EDT 1986
+#
+santiago	pitt(DIRECT)
+
+#N	shire
+#S	VAX 11/750, 4.3BSD
+#O	Pensylvania State University, Computer Science Dept.
+#C	Daniel R. Ehrlich
+#E	ehrlich@psuvax1.psu.edu, postmaster@psuvax1.psu.edu
+#T	+1 814 863 1142
+#P	333 Whitmore Lab, University Park, PA 16082
+#L	40 48 N / 77 52 W CITY
+#R	This is also shire.psu.edu [128.118.6.4] on the internet.
+#R	This is also psuvaxs on bitnet.
+#U	psuvax1
+#W	ehrlich@psuvax1.psu.edu (Daniel R. Ehrlich);Tue Sep 22 14:28:56 EDT 1987
+#
+shire=	psuvaxs.bitnet
+#
+shire	psuvax1(LOCAL)
+
+#N	sinharat
+#S	Exxon 8421; Zeus 3.2
+#O	George's Pet Unix System
+#C	George Robbins
+#E	sinharat!usenet
+#T	+1 215 932 5118
+#P	Village & Elkdale Road, Lincon University, PA  19352
+#L
+#R	Dial 1 215 932 5568, login guest, to leave messages (rmail).
+#U
+#W	cbmvax!grr (George Robbins); Sat Jul 12 00:00:00 EST 1986
+#
+sinharat
+	cbm(DEMAND), cbmvax(DEMAND), tapa(WEEKLY), bartek1(DAILY),
+	unirot(DEMAND)
+#
+#	Systems polled regularly
+#
+unirot	sinharat(WEEKLY)
+
+#N	sir-alan
+#S	Tandy 6000 XENIX 3.1.1
+#O	Allegheny College
+#C	Michael L. Squires
+#E	sir-alan!mikes
+#T	(814) 724-3360
+#P	Department of Political Science, Meadville, PA 16335
+#L	Lat. 41 deg. 37' N, Long. 80 deg. 08' W
+#R	sir-alan is one of the connection points between a
+#R	network of Tandy 68000 and 80286 XENIX machines, and
+#R	is operated for the Departments of Economics, Sociology/
+#R	Anthropology, and Political Science. sir-alan provides
+#R	a netnews link between peng (GE Erie (PA) Professional 
+#R	Engineering) and ac6000 (Widell Industries (FL)).
+#U
+#W	Michael L. Squires ; Tue Mar 31 11:38:53 EST 1987
+#
+sir-alan ac6000(DAILY), peng(DAILY), pitt(DAILY)
+
+#N	sjuvax
+#S	DEC VAX-11/780;4.3 BSD.	
+#O	Saint Joseph's University, Academic Computing
+#C	Binayak Banerjee
+#E	sjuvax!bbanerje,bbanerje%sjuvax.sju.edu@sh.cs.net
+#T	+1 215 879 7322
+#P	5600 City Avenue, Philadelphia, PA 19131
+#L	39 57 N / 75 07 W city
+#R	Also reachable via csnet as sju.edu or sjuvax.sju.edu
+#W	rutgers!dpz (David P. Zimmerman); Tue Feb 16 23:39:50 EST 1988
+#U	bpa drexel
+#
+sjuvax	.sju.edu
+#
+sjuvax	bpa(DIRECT+HIGH), burdvax(DIRECT),
+	drexel(DIRECT+HIGH), astrovax(DAILY), allegra(DAILY), presby(DEAD),
+	okstate(DEAD), princeton(DAILY+HIGH), snark(DEAD)
+
+#N	snark
+#S	AT&T 3B1 aka UNIX PC; System V Release 1
+#O	Thyrsus Enterprises
+#C	Eric S. Raymond
+#E	snark!eric
+#T	+1 215 296 5718
+#P	22 South Warren Avenue, Malvern PA 19355
+#L	75 30 54 W / 40 02 08 N
+#R	Home site of Teenage Mutant Ninja Netnews
+#U
+#W	snark!eric (Eric S. Raymond); Mon Jan  5 07:22:32 EST 1987
+#
+snark	burdvax(DIRECT), cbmvax(DIRECT), cbm(DIRECT), vu-vlsi(DIRECT),
+	hutch(DIRECT)
+
+#N	spgh01
+#S	IBM-AT; SCO 2.2
+#O	Holy Sepulchre
+#E	ki4pv!postmaster
+#P	; Butler, PA.
+#R
+#U
+#W	ki4pv!tanner (Tanner Andrews) ; Thu Oct 29 20:43:16 EST 1987
+spgh01	cdin-1(DAILY)
+
+#N	swatsun
+#S	Sun 3/160; SunOS 3.4 (4.2BSD Unix)
+#O	Swarthmore College Computer Science Dept.
+#C	Garth Snyder, Eiji Hirai, Margaret Christensen
+#E	swatsun!postmaster
+#T	+1 215 328 8610, +1 215 328 8565
+#P	Swarthmore College, Swarthmore, PA 19081
+#L	39 54 18 N / 75 21 24 W
+#R	We are also swarthmore.edu on CSnet Phonenet, though we can't
+#R	guarantee that we will stay on CSnet in the future.  Please don't
+#R	attempt to use our site as a gateway.
+#U	vu-vlsi
+#W	swatsun!hirai (Eiji "A.G." Hirai); Fri Feb  6 17:00:00 EST 1988
+#
+swatsun	.swarthmore.edu
+swatsun	= swarthmore.edu
+swatsun	= swatsun.swarthmore.edu
+swatsun	hvrunix(DIRECT), bpa(DIRECT), liberty(DIRECT), vu-vlsi(DIRECT),
+	cbmvax(DEMAND)
+
+#N	t9103
+#S	Everex System 1800 PC/AT Compatible; Microport System V/AT 2.2L
+#O	Private residence
+#C	Brad Transue
+#E	t9103!transue
+#T	+1 215 767 8557
+#P	4648 Lehigh Drive, Walnutport, PA 18088
+#L	75 36 N / 40 45 W
+#R	Leaf node news hookup
+#U	devon r0762
+#W	t9103!transue (Brad Transue); Tue Sep 15 23:36:13 EDT 1987
+#
+t9103	devon(DIRECT), r0762(DIRECT)
+
+#N	temvax
+#S	VAX 11/750 ; Ultrix-32 V1.2
+#O	Institute for Survey Research, TEMPLE UNIVERSITY
+#C	Dr. A.Walters,N.Shashidhar
+#E	temvax!usenet,temvax!walters,temvax!shashi
+#T	+1 215 787 4439,7197
+#P	Room 502, Fifth floor, 1601 N.Broad St. , Philadelphia PA 19122.
+#L	39 57 N / 75 07 W 
+#R
+#U	bpa
+#W	temvax!shashi (N.Shashidhar) ; Sun Jan  4 12:38:10 EST 1987
+#
+temvax  hutch(DAILY), bpa(DIRECT), cbmvax(DEMAND), atw286(DAILY),
+	vu-vlsi(DEMAND)
+
+#N	tl-vaxa
+#S	VAX 780;  4.3bsd
+#O	Tartan Laboratories
+#C	Ed DeHart
+#E	tl-vaxa!dehart
+#T	+1 412 621 2210
+#P	477 Melwood Avenue, Pittsburgh, PA 15213
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:06:25 EST 1986
+#
+tl-vaxa	pitt(DIRECT), darth(DIRECT)
+
+#N	up-icma
+#S	PDP-11/34;  Ultrix-11 V2
+#O	University of Pittsburgh, Dept. of Math and Statistics
+#C	Charles A. Hall
+#E	up-icma!cahall
+#T	+1 412 624 8379
+#P	603 Thackeray Hall, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:33:16 EDT 1986
+#
+up-icma	pitt(LOCAL)
+
+#N	upphys
+#S	AT&T 3b2/300;  System V
+#O	University of Pittsburgh, Dept. of Physics and Astronomy
+#C	Robert Carlitz
+#E	upphys!bob
+#T	+1 412 624 9027
+#P	310 Allen Hall, Pittsburgh, PA 15260
+#L	40 26 N / 80 00 W city
+#R
+#U
+#W	pitt!hoffman (Bob Hoffman); Mon Oct 27 14:42:00 EDT 1986
+#
+upphys	pitt(DIRECT)
+
+#N	vader
+#S	Apollo DN-3000; BSD4.2
+#O	Boeing Helicopter Company / Boeing Computer Services
+#C	Vince Skahan
+#E	vader!bcs212
+#T	+1 215 591 4116
+#P	P.O. Box 33126 (MS P30-58), Phila., PA 19142
+#L	39 57 N / 75 07 W city
+#R
+#U
+#W	vader!bcs212 (Vince Skahan); Mon Feb 15 08:48:02 EST 1988
+#
+vader          bpa(DIRECT), bcsaic(DEMAND), snark(DIRECT)
+
+#N	vaxmmg
+#S	DEC VAX 11/780; Unix Sys 5 Rel 2 Ver 2
+#O	Bell of Pennsylvania - Minicomputer Maintenance
+#C	Bob Esposito
+#E	espo@bpa.bell-atl.com
+#T	+1 215 466 6831
+#P	One Parkway-6th Floor, Philadelphia, PA 19102
+#L	39 57 N / 75 07 W city
+#R
+#U	bpa
+#W	bpa!espo (Bob Esposito); Mon Jan 18 22:00:00 EST 1988
+#
+vaxmmg	bpa(DIRECT)
+
+#N	wa3wbu
+#S	PC/AT clone - Microport Sys V/AT, version 2.3U
+#O	John Gayman's personal system
+#C	John Gayman
+#E	wa3wbu!john
+#T	+1 717 957 3224
+#P	John Gayman, 1869 Valley Rd., Marysville, PA 17053
+#L	40 05 N / 077 00 W
+#R
+#U	uunet ka3adu wb3ffv
+#W	wa3wbu!john (John Gayman); Sat Feb 12 00:14:00 GMT 1988
+#
+wa3wbu	ka3adu(DIRECT), eds1(DIRECT), uunet(DAILY), wb6rqn(EVENING),
+	w3vh(EVENING), wb3ffv(DAILY), n3dmc(EVENING)
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,302 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	network
+#	DONE
+# This archive created: Wed Apr 29 03:18:53 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting network
+cat << \SHAR_EOF > network
+# This is the current list of machines that have agreed to make the UUCP
+# map available to the UUCP community (or some subset of).  The maps on
+# these machines are the same as posted here, although they are updated
+# more frequently than once per month.  If you missed a file or need
+# an update in the middle of the month, please use the machine on this
+# list which is closest to your area, and abide by the rules set up by
+# the administrator of that machine.  Also, please keep in mind that
+# the entire UUCP map is posted every month, so if you can wait
+# for the next posting, we encourage you to do so.  This is a service provided
+# on a volunteer basis by these machines, and if the privilege is abused,
+# it will likely disappear.
+#
+# The map posted monthly has been checked as a unit for errors; the daily
+# maps sometimes contain errors which are cleaned up in the monthly posting.
+# 
+# 	Mark Horton
+# 	The UUCP Project
+# 	cbosgd!mark
+# 
+# -------------------------
+# Site ihnp4 - AT&T Bell Laboratories
+# 	     Naperville, IL
+# 
+# 
+# To pick up the UUCP map from ihnp4, use the command:
+# 
+# 	uucp -m ihnp4!~/uumap/.info !~/uumap/
+# 
+# 		After you receive notification:
+# 
+# 	cat /usr/spool/uucppublic/uumap/.info
+# 
+# 		and follow the instructions.
+# 
+# If ihnp4 has a direct connection to your system, an alternative is:
+# 
+# 	uux ihnp4!uupub uumap
+# 
+# 		ihnp4 will send the uucpmap database to your
+# 		system!~/uumap/ and will mail you notification.
+# 
+# 	Gary Murakami
+# 	ihnp4!gjm
+# --------------------------
+# Site rutgers - Laboratory for Computer Science Research
+#                Hill Center - Busch Campus
+#                Rutgers University
+#                PO Box 879
+#                New Brunswick, NJ 08855
+#                (201) 932-2023
+# 
+# Rutgers has automated its map updating procedures.  As map updates reach
+# rutgers, we will process them and pass them on to anyone wishing to
+# receive them via uucp.  Under normal circumstances we can handle
+# traffic only within the state of New Jersey.  However, if you have a
+# special need, contact us.  We may be able to help.  We do not maintain
+# a public uucp login.  To receive map updates, you'll need to contact
+# us and establish a uucp login.  Once established, any part of the maps
+# may be retrieved.
+# 
+#      Mel Pleasant
+#      uucp: {ames, cbosagd, harvard, seismo, shasta}!rutgers!pleasant
+#      ARPA: PLEASANT@RUTGERS.EDU
+# 
+# ---------------------------
+# Site astrovax - Princeton University, Dept. of Astrophysics
+#                 Princeton, NJ 08544
+# 		(609) 452-3586
+# 
+# The uucpmap information will be available to our uucp neighbors as files in
+# the directory /usr/spool/uucppublic/uumap  == ~uucp/uumap == ~/uumap .
+# Please pick them up outside of working hours, preferably from 12 am. to
+# 8 am. Eastern time.
+# 
+# I suggest first pulling over the file astrovax!~/uumap/LISTING which
+# contains the list of uucp map files in the astrovax!~/uumap directory.  Then
+# pull over the files listed in that file.  That way if the connection is hung
+# up by line noise the transfer will not have to restart from the beginning.
+# 
+# 	Bill Sebok
+# 	(ihnp4, cbosgd, princeton, akgua)!astrovax!wls
+# ---------------------------
+# Site cadre - University of Pittsburgh
+# 	     Pittsburgh, PA 15261
+# 	     (412) 624-3490
+# 
+# Cadre will have map accessable to all our directly connected uucp
+# sites via uucp/uusend and mail service depending on neighboring site policies
+# on thru uucp traffic. The mailbox cadre!usenetmap will provide information
+# on map access once map is in place. We will not be servicing arpanet community.
+# A reasonable person policy is the only restrictions planned for map access.
+# 
+# 	Russell Yount
+# 	(pitt, vax135)!cadre!ry
+# ---------------------------
+# Site nbires - NBI, Inc.
+# 	      P.O. Box 9001
+# 	      Boulder, CO 80301
+# 	      (303) 444-5710
+# 
+# Directly connected sites will be able to get the map and I am
+# willing on a trial basis to allow other sites to call in to get
+# the map.  Since nbires is a busy machine during the day, I would
+# like to restrict access to the map to the period between 11PM and 6AM
+# Mountain Time.
+# 
+# The files are available in nbires!~uucp/uumap.  A current directory listing
+# is kept in nbires!~uucp/uumap/.info.  It is best if individual uucp's are
+# done for each file begin retrieved.
+# 
+# Connection information is:
+# 	phone:  303 443-1846
+# 	login:  uucpmap
+# 	password: UUCPmap
+# 
+# Contact person:
+# 	Kirk Webb
+# 	postmaster@nbires.UUCP, or kwebb@nbires.UUCP if you
+# 		prefer the personal touch.
+# 
+# -------------------------------
+# Site seismo - Center for Seismic Studies
+# 	      Arlington, VA 22209
+# 	      (703) 276-7900
+# 
+# On seismo, the uucp map will be available in the directory ~uucp/uumap.
+# Each state,etc. will have a file containing the data for uucpsites
+# in that state. The filename will be the same as that used for the Usenet
+# map (e.g. usa.va, usa.oh, eur.nl, can.on, etc).
+# 
+# A listing of the files in the directory can be obtained by running
+# 	uux seismo!listmap user@site.UUCP
+# where user@site.UUCP is a return address for mail.
+# 
+# Sites already having uucp connections with seismo may uucp the map at
+# any time, but should initiate the call if it is long distance.
+# 
+# ARPAnet sites will find the data in the same format in ~ftp/uumap on seismo.
+# It may be ftped with the standard anonymous login.
+# 
+# 	Rick Adams
+# 	seismo!rick
+# --------------------------------
+# Site zaiaz - Zaiaz Communications, Inc.
+#              Huntsville, AL.  32805
+#              (205) 881-2200
+# 
+# The computer phone number is (205) 881-2595.
+# A login for uucp use is "nuucp", password "hellozaiaz".
+# The files are in /usr/map/uucp
+# The preferred hours are 6pm to 8am 7 days a week.
+# 
+# 	Bill Welch
+# 	(akgua,jett)!zaiaz!bill    aka   (akgua,ihnp4)!jett!bill
+# ----------------------------------
+# Site harvard - Harvard University
+#                Cambridge, MA 03128
+# 	       (617) 495-3864
+# 
+# three sites:
+# 		filenames same as in Usenet map ( usa.ma etc )
+# 		please access between 1AM and 6AM E?T
+# 
+# 	ARPAnet access
+# 		site harvard:
+# 		data in ~ftp/uumap for standard anonymous login
+# 	BITNET access
+# 		site harvunxt:
+# 		execute the net command SENDUUM filename
+# 	UUCP access
+# 		site talcott:
+# 		data in ~uucp/uumap
+# 		uucp login uucp, no password
+# 		phone # (617) 495-8741
+# 
+# also on talcott:
+# 
+# 	~uucp/pathalias/data
+# 
+# is a file ( updated daily ) of the map information without the "#" lines
+# much shorter if someone wants to get that.
+# 
+# 	Scott Bradner
+# 	Harvard University
+# 	(617)495-3864
+# 	sob@harvard.{arpa,uucp,csnet}
+# 	sob@harvunxt.bitnet
+# ---------------------------
+# Site gatech - Georgia Tech
+# 
+# Gatech supports transfer of map portions (or the whole map) to current
+# uucp "neighbors."  Directions on how to obtain map copies may be
+# retrieved by issuing the command:
+# 	uux gatech!listmap directions mylogin@mysite.UUCP
+# (substituting your mail address for "mylogin@mysite.UUCP", of course).
+# The directions for access and transfer will be mailed back to you.
+# 
+# Gatech's uucp does not support uucp login except by "known" contacts.
+# If you do not currently have uucp access to gatech and would like to
+# establish such a link, send mail to "postmaster@gatech.UUCP" for details.
+# 
+# 	Gene Spafford
+# 	gatech!spaf
+# ----------------------------------
+# Site sys1	-  Tandy/Radio Shack
+# 		   400 Atrium - One Tandy Center
+# 		   Fort Worth, Tx. 76102
+# 		   (817)-390-3001
+# 
+# The uucpmap information is available to our uucp neighbors in
+# the ~maps directory on sys1.  The file names follow the normal
+# u.* and d.* standards. A current index of the maps is in the
+# file ~maps/current-index. The only restriction will be, if you
+# queue up any of the maps and your site is long distance from sys1
+# they will not be sent to you until you initiate the call.
+# 
+# A program is available for you to have the maps sent to your
+# site in compressed (16 bits) form. The program works as follows
+# 	uux sys1!mapsend {filename} {system name} {where you want it}
+# 
+# where 
+# 	uux sys1!mapsend u.usa.tx.1 foovax ~uucp/maps/compressed
+# 
+# will send the map u.usa.tx.1 into your ~uucp/maps/compressed
+# 
+# or
+# 	uux sys1!mapsend u.usa.tx.1 barvax stdin
+# 
+# will compress the requested map and send it via uux to the standard
+# input of a program called 'maprcv' which needs should be a program
+# that can read and uncompress the incomeing data.  argv[1] will
+# equal the requested map without the .Z extention..
+# 
+# Please note: we will only send maps to our uucp neighbors. 
+# 
+# 		Doug Davis
+# 
+# { ihnp4 || trsvax || soma || bigbang || motown || ico || uiucuxc }! sys1!doug
+# Doug.Davis@sys1.tandy.com or doug@sys1.tandy.com
+# 
+# ----------------------------------
+SHAR_EOF
+echo shar: extracting DONE
+cat << \SHAR_EOF > DONE
+This message is posted after the last part of the map.
+The eight bundles, and the individual files in those bundles,
+are listed below.
+
+0:
+	README
+	u.Path.1 u.Path.2
+1:
+	u.usa.nj.a.1
+	u.usa.nj.a.2
+2:
+	u.usa.il.a.1
+3:
+	u.jpn.1 u.kor.1 u.idn.1 u.sgp.1
+	u.usa.ar.a.1 u.usa.ca.a.1 u.usa.co.a.1 u.usa.fl.a.1 u.usa.ga.a.1 u.usa.in.a.1 u.usa.la.a.1 u.usa.ma.a.1 u.usa.md.a.1
+	u.usa.mo.a.1 u.usa.nc.a.1 u.usa.ne.a.1 u.usa.ny.a.1 u.usa.oh.a.1 u.usa.mi.a.1
+	u.usa.ok.a.1 u.usa.pa.a.1 u.usa.tn.a.1 u.usa.tx.a.1 u.usa.va.a.1 u.intl.a.1 u.usa.a.1 u.usa.a.2
+	u.aus.dom.1 u.aus.act.1 u.aus.nsw.1 u.aus.nt.1 u.aus.qld.1 u.aus.sa.1 u.aus.tas.1 u.aus.vic.1 u.aus.wa.1 u.nzl.1
+4:
+	u.can.ab.1 u.can.bc.1 u.can.nf.1 u.can.ns.1 u.can.on.1 u.can.pq.1 u.can.sk.1 u.mex.1
+	u.aut.1 u.bel.1 u.che.1 u.deu.1 u.dmk.1 u.fra.1 u.gbr.1
+	u.grc.1 u.ita.1 u.isr.1 u.irl.1 u.nor.1 u.nld.1 u.swe.1 u.fin.1 u.yug.1
+5:
+	u.usa.ak.1 u.usa.al.1 u.usa.ar.1 u.usa.az.1
+	u.usa.ca.2
+	u.usa.ca.4
+	u.usa.ca.6
+6:
+	u.usa.ca.1
+	u.usa.ca.3
+	u.usa.co.1
+	u.usa.ct.1 u.usa.dc.1 u.usa.de.1 u.usa.fl.1 u.usa.ga.1 u.usa.hi.1 u.usa.ia.1 u.usa.id.1 u.usa.il.1 u.usa.in.1 u.usa.ks.1 u.usa.ky.1 u.usa.la.1
+7:
+	u.usa.ma.1 u.usa.md.1
+	u.usa.me.1 u.usa.mi.1 u.usa.mn.1 u.usa.mo.1 u.usa.ms.1 u.usa.mt.1 u.usa.nc.1 u.usa.nd.1 u.usa.ne.1 u.usa.nh.1
+	u.usa.nj.1 u.usa.nj.b.1
+8:
+	u.usa.nm.1 u.usa.nv.1 u.usa.ny.1 u.usa.oh.1 u.usa.ok.1 u.usa.or.1
+	u.usa.pa.1 u.usa.ri.1 u.usa.sc.1 u.usa.sd.1 u.usa.tn.1 u.usa.tx.1
+	u.usa.ut.1 u.usa.va.1 u.usa.vt.1 u.usa.wa.1 u.usa.wi.1 u.usa.wv.1 u.usa.wy.1
+9:
+	network DONE
+SHAR_EOF
+#	End of shell archive
+exit 0

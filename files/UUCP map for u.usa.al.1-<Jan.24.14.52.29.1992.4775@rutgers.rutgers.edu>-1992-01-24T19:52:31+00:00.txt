@@ -1,0 +1,446 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.al.1
+: This archive created: Fri Jan 24 14:52:24 1992
+echo shar: extracting u.usa.al.1
+cat << 'SHAR_EOF' > u.usa.al.1
+# Map file u.usa.al.1 created by Jesse W. Asher on Fri Jan 24 09:01:28 CST 1992.
+# New maps or map updates can be sent to homecare!jessea or jessea@homecare.COM.
+# Please ensure that map entries follow the map creation procedures specified 
+# in the README file.  Mail me if you are unsure about these procedures.
+#
+
+#N	acatt
+#S	Intergraph 3005; Sys V v3.1
+#O	Alabama Industrial Development Training
+#C	Scot A. Wise
+#E	acatt!wise
+#T	+1 205 461 7550
+#P	2903 Wal-Triana Hwy Suite 1 Huntsville, AL 35824
+#L	34 43 N / 86 35 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Thu Jul  5 13:29:21 EDT 1990
+#U
+#
+acatt	uunet(DEMAND)
+
+#N	b11
+#S	InterServe 4200; CLIX 3.1
+#O	Intergraph Corp.
+#C	Bill Terry
+#E	uunet!ingr!terry
+#T	(205) 730-6174
+#P	1 Madison Industrial Park, Mail Stop cr1102, Huntsville, AL 35894
+#L	34 40 N / 86 45 W city
+#R	Intergraph Engineering System
+#U	ingr
+#W	ingr!debbie (Deborah Spencer); Wed Nov 27 10:37:59 CST 1991
+#
+b11	ingr(DIRECT)
+
+#N	bsc835
+#S	HP-9000/835; HPUX
+#O	Birmingham-Southern College
+#C	Jerrel Baxter
+#E	bsc835!jbaxter
+#T	+1 205 226 3022
+#P	900- Arkadelphia Road, Birmingham, Al. 35254
+#L	33 31 N / 036 52 W
+#R
+#W	bsc835!lewis (Lewis Patterson); Tues March 19 09:05:00 CST 1991
+#U	uunet
+#
+bsc835	uunet(DAILY)
+
+#N	bschp
+#S	HP 9000 Series 550; HP-UX 5.2
+#O	Birmingham-Southern College
+#C	Mark Bacchus
+#E	bschp!root
+#T	+1 205 226 3033
+#P	P.O. Box A-24, Birmingham, AL 35254
+#L	33 30 35 N / 86 49 17 W
+#R	Administered by Office of Academic Computing
+#W	bschp!bacchus (Mark Bacchus); Wed Aug  3 10:00:37 CDT 1988
+#U	scbhq bscvax
+#
+bschp	scbhq(DIRECT), bscvax(DEDICATED)
+
+#N	bscvax
+#S	VAX 11/750; Ultrix 2.0
+#O	Birmingham-Southern College
+#C	Mark Bacchus
+#E	bschp!root
+#T	+1 205 226 3033
+#P	P.O. Box A-24, Birmingham, AL 35254
+#L	33 30 35 N / 86 49 17 W
+#R	Administered by Office of Academic Computing
+#W	bschp!bacchus (Mark Bacchus); Wed Aug  3 10:00:37 CDT 1988
+#U	bschp
+#
+bscvax	bschp(DEDICATED)
+
+#N	bytesiz
+#S	Wyse 386
+#O	Byte Size Systems
+#C	Brandon Blankenship
+#E	bytesiz!root
+#T	+1 205 879 2983
+#P	1008 Oxmoor Road, Birmingham, AL  35209
+#L	33 20 N / 86 55 W city
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu May 25 16:40:12 EDT 1989
+#U
+#
+bytesiz 	uunet(DEMAND)
+
+#N	cdthq
+#S	Everex 1800b, Waffle 1.64
+#O	Garys' Home For Obselete Computers
+#C	Gary Heston
+#E	cdthq!root, cdthq!gary
+#T	1 205 882 4309  (daytime, at work)
+#P	Huntsville, Al
+#L	34 44 N / 86 35 W city
+#R	Small mail machine. Talk nice, and I might allow individual
+#R	email accounts.
+#U	sci34hub
+#W	cdthq!gary (Gary Heston); Tue Aug  6 15:37:38 CDT 1991
+#
+cdthq	sci34hub(DAILY/4)
+
+#N	emss
+#S	IBM RS/6000; AIX 3.15
+#O	Southern Company Services
+#C	Bob Madderra
+#E	emss!root
+#T	+1 205 870 6283
+#P	800 Shades Creek Parkway, Birmingham, AL 35209
+#L	33 28 N / 86 48 N city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Wed Dec  4 13:05:32 EST 1991
+#U
+#
+emss	uunet(DEMAND)
+
+#N	fairgate
+#S	Macintosh; Mac OS 7.0
+#O	Fairgate Technologies
+#C	Paul Robichaux
+#E	fairgate!postmaster
+#T	+1 205 772 7516
+#P	130 Spinnaker Ridge Drive, Suite C110, Huntsville AL 35824
+#L	34 44 N / 86 35 W city
+#R	Mail host for Fairgate employees.
+#U      sci34hub, acatt
+#W	fairgate!paul (Paul Robichaux); Tue Jan  7 10:42:23 CST 1992
+#
+fairgate	sci34hub(DAILY/2), xavax(DAILY/2), acatt(DAILY/2)
+
+#N	fhouse
+#S	386sx PC; MSDOS 3.3 & UUPC 1.11n
+#O	Full House Software [DOS/Windows/Unix/VMS/anti-viral Consulting]
+#C	Ed Felton
+#E	fhouse!postmaster, fhouse!ed
+#T	+1 205 725 4879 [evenings]
+#P	Owens Crossroads, AL
+#L	34 43 N / 86 35 W city
+#R	Running UUPC 1.11n, and SNEWS 1.13
+#U	sci34hub acatt
+#W	fhouse!postmaster (Ed Felton); Tue Nov 26 10:00:00 CST 1991
+#
+fhouse	acatt(DEMAND), sci34hub(DAILY)
+
+#N	hsf	
+#S	Next;mach 4.3BSD Compatible
+#O	Health Services Foundation
+#C	Robert Buster
+#E	hsf!root
+#T	+1 205 930 9051
+#P	920 South 19th St., Birningham, AL 35205
+#L	33 31 N / 86 48 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Jan  4 09:15:08 EST 1990
+#U
+#
+hsf	uunet(DEMAND)
+
+#N	hsvpmi
+#S	IMS-286 (Intelligent Microsystems); Microport System V.2
+#O	Phoenix microsystems, inc.
+#C	Tom Reynolds
+#E	hsvpmi!usenet
+#T	+1 205 721 1200 x303
+#P	991 Discovery Drive, Huntsville, AL 35806
+#L	34 42 45 N / 86 41 15 W
+#U	ingr
+#W	ingr!linwood (Linwood Varney); Wed Mar 23 12:58:24 CST 1988
+#
+hsvpmi	ingr(POLLED)
+
+#N	infonode
+#S	InterServe 3005; CLIX 3.1
+#O	Intergraph Corp.
+#C	Billy Lenoir
+#E	ingr!lenoirjw
+#T	+1 205 730 2676
+#P	1 Madison Industrial Park, Mail Stop HQ1004, Huntsville, AL 35894
+#L	34 42 N / 86 44 W city
+#R	Intergraph News Gateway
+#U	uunet ingr umagic
+#W	infonode!lenoirjw (Billy Lenoir); Thu Jan 24 11:06:30 CST 1991
+#
+infonode	ingr(DIRECT), umagic(DAILY)
+
+#N	ingr	.ingr.com
+#S	InterServe 4000; CLIX 3.1
+#O	Intergraph Corp.
+#C	Billy Lenoir
+#E	ingr!lenoirjw
+#T	+1 205 730 2676
+#P	1 Madison Industrial Park, Mail Stop HQ1004, Huntsville, AL 35894
+#L	34 42 N / 86 44 W city
+#R	Intergraph Mail Gateway
+#U	atl.ingr.com austsg.ingr.com b11.ingr.com b15.ingr.com b17a.ingr.com 
+#U      b17b.ingr.com b17d.ingr.com b21.ingr.com b3.ingr.com b8.ingr.com 
+#U      cal_pn.ingr.com camen.ingr.com chi_pn.ingr.com cis9.ingr.com 
+#U      clipper.ingr.com cyprus.ingr.com dal_pn.ingr.com ele_pn.ingr.com 
+#U      hou_pn.ingr.com infonode.ingr.com irv_pn.ingr.com mifar.ingr.com 
+#U      ne3005.ingr.com nijmeg.ingr.com remtech sci34hub seattle.ingr.com 
+#W	ingr!lenoirjw (Billy Lenoir); Thu Jan 24 11:06:11 CST 1991
+#
+ingr	b11(LOCAL), clipper(DIRECT), dorfjr(DEMAND), gradient(DEAD), 
+        infonode(DIRECT), jett(DAILY), madhat(DEAD), oakwood1(DEMAND), 
+        phoenix(DEAD), quintus(DEMAND), remtech(DEMAND), uunet(DEMAND), 
+        zaiaz(DEAD)
+
+#N	jett
+#S	DEC PDP 11/23;  Unix V7
+#O	Jett Unix System
+#C	Preston Jett
+#E	uunet!ingr!b11!preston
+#T	(205) 651-3077
+#P	1312 Brookmeade Street   Huntsville, AL.  35816
+#L	34 44 N / 86 38 W city
+#R	Community Unix system
+#U	ingr
+#W	ingr!debbie (Deborah Spencer); Wed Nov 27 10:37:59 CST 1991
+#
+jett	ingr(DAILY)
+
+#N	jpuckett
+#S	Sun SparcStation
+#O	Relational Database Engineers, Inc.
+#C	James C. Puckett
+#E	jpuckett!jcp
+#T	+1 205 969 2814
+#P	3500 Blue Lake Dr, Suite 198, Birmingham, AL 35243
+#L	33 27 N / 86 43 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Fri Apr 26 16:29:20 EDT 1991
+#U
+#
+jpuckett	uunet(DEMAND)
+
+#N	jupiter2
+#S	386 IBM AT clone; Unix System V
+#O	Individual	
+#C	Martin Wojtynaj
+#E	jupiter2!root
+#T	+1 205 995 7041 
+#P	2910 Inverness CLiffs, Birmingham, AL 35242
+#L	33 30 N / 86 55 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Aug 21 09:26:53 EDT 1991
+#U
+#
+jupiter2	uunet(DEMAND)
+
+#N	marcie
+#S	CONVEX C1; 4.2 BSD UNIX
+#O	SPARTA, Inc, Huntsville 
+#C	Jeff Robinson
+#E	marcie!sysjtr
+#T	+1 205 837 5200
+#P	4901 Corporate Drive, Hunstville, Al, 35801
+#L	34 44 18 86 35 19 City
+#R	
+#U	durin heisenberg
+#W	durin!frankh (Frank Halsema); Mon Feb 12 10:49:35 PST 1990
+#
+marcie		.sparta.com
+marcie		durin(DAILY), heisenberg(DEMAND)
+
+#N	masstech
+#S	DEC microVAX II; VMS
+#O	MassTech, Inc
+#C	Robin Graham
+#E	masstech!usenet
+#T	1 205 539 8360
+#P	3108 Hillsboro Rd Huntsville, Al 35805
+#L	34 44 N / 86 35 W city
+#R	Math and statistical software company
+#U	sci34hub
+#W	sci34hub!gary (Gary Heston); Mon Jul 09 15:08:00 CDT 1990
+#
+masstech	sci34hub(DAILY/6)
+#
+masstech	= masstech.com
+
+#N	micronet
+#S	IBM PC/AT; Waffle
+#O	MicroNet, LTD.
+#C	Ronald A. Rice
+#E	barak@micronet.uucp
+#T	+1 205 882 4800
+#P	8003 Benaroya Lane, Apt B-7, Huntsville, Al. 35802
+#L	34 44 N / 86 35 W
+#R
+#U
+#W	barak@micronet.uucp (Ronald A. Rice); Thu Jul 18 19:00:00 CDT
+#
+micronet	sci34hub(DAILY/4)
+
+#N	plateau
+#S	Macintosh/ uAcess
+#O	Magnolia Game Co., Inc.
+#C	Jim Albea
+#E	plateau!albeaj
+#T	+1 205 464 0906
+#P	P.O. Box 143, Madison, AL 35758
+#L	34 35 N / 86 44 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Aug 27 15:51:16 EDT 1991
+#U
+#
+plateau	uunet(DEMAND)
+
+#N	presto
+#S	Commodore-AMIGA; Amiga-DOS V1.3 & Amiga-UUCP V1.13
+#O	I'm just me.
+#C	Jeff W. Hyche
+#E	presto!merlin
+#T	+1 205 722 8119
+#P	555 Executive Dr. Apt #126, Huntsville, AL. 35816
+#L
+#R	This space is left blank on purpose.
+#U	sci34hub ingr infonode
+#W	presto!merlin  (Jeff W. Hyche); Tue May 14 21:47:05 CST 1998
+#
+presto	sci34hub(DIRECT)
+
+#N	remtech
+#S	Sun 3/180
+#O	REMTECH, Inc.
+#C	Jim Levie 
+#E	remtech!root
+#T	+1 205 536 8581
+#P	3304 Westmill Drive, Huntsville, AL 35805
+#L	34 43 N / 86 35 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed May  2 16:14:45 EDT 1990
+#U
+#
+remtech	uunet(DEMAND)
+
+#N	scbhq
+#S	ATT 3B2, 5.3.1 V2
+#O	South Central Bell
+#C	Jere Sandidge
+#E	gatech!sbmsg1!scbhq!jts
+#T	+1 205 321-6596
+#P	6th Floor, 600 N. 19th St, Birmingham, AL 35203
+#L	33 31 N / 086 49 W city
+#R	
+#U	sbmsg1 bschp
+#W	scbhq!jts (Jere Sandidge); Sun Jan 14 00:00:00 CST 1990
+#
+scbhq	sbmsg1(DEDICATED), bschp(DEMAND)
+
+#N	sci34hub
+#S	SCI 3000; 386/ix 1.0.6 
+#O	SCI Systems, Inc.
+#C	Gary Heston
+#E	sci34hub!usenet
+#T	1 205 882 4309
+#P	5000 Technology Drive, Huntsville, AL 35805
+#L	34 44 N / 86 35 W city
+#R	net gateway for SCI Systems
+#R	Have TrailBlazers, will feed locally.
+#U	uunet cdthq masstech cheroke ism
+#W	sci34hub!gary (Gary Heston); Tue Aug  6 15:37:38 CDT 1991
+#
+sci34hub	uunet(DAILY/4), ingr(DAILY/6), cheroke(DAILY/2),
+	cdthq(DAILY/4), marcie(DAILY/2), presto(DAILY/6)
+#
+sci34hub	.sci.com
+sci34hub	= sci34hub.sci.com
+
+#N	tcsgi01
+#S	Silicon Graphics 4D/25
+#O	Ternion Corporation
+#C	William Ellett
+#E	tcsgi01!root
+#T	+1 205 536 9933
+#P	3307 Bob Wallace Ave. Suite 1 Huntsville, AL 35805
+#L	34 43 N / 86 35 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Fri Aug 17 13:27:24 EDT 1990
+#U
+#
+tcsgi01	uunet(DEMAND)
+
+#N	tcsgio01
+#S
+#O	Ternion Corporation
+#C	William Ellett
+#E	tcsgio01!root
+#T	+1 205 536 9933
+#P	P.O. Box 1147, Huntsville, AL 35807
+#L
+#R
+#W	asp@uunet.UU.NET (Andrew Partan); Fri Oct 26 21:22:34 EDT 1990
+#U
+#
+tcsgio01	uunet(DEMAND)
+
+#N	umagic, f12.n373.z1.fidonet.org
+#F	infonode.ingr.com
+#S	386SX clone ; MS-DOS 3.30
+#O	Micro Magic BBS
+#C	Keith E. Ford
+#E	umagic!postmaster
+#T	+1 205 895 0751
+#P	203 Creek Trail, Madison, AL 35758
+#L	34 44 18 N / 86 35 19 W city
+#R	FidoNet 1:373/12 running Opus CBCS & UFGate
+#U	infonode
+#W	merlin@ns.fidonet.org (Burt Juda); Sun Oct 27 15:00:00 EST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+umagic	.n373.z1.fidonet.org
+umagic=	umagic.fidonet.org, f12.n373.z1.fidonet.org
+umagic	infonode(DAILY)
+
+#N	xavax	
+#S	Motorola 8800; System V Release 3.2
+#O	Xavax
+#C	John A. Tamplin
+#E	xavax!jat
+#T	+1 205 539 1672
+#P	2804 S. Memorial Parkway, Huntsville, AL 35801
+#L	34 43 N / 86 35 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Feb  7 14:52:56 EST 1990
+#U
+#
+xavax	uunet(DEMAND)
+
+# u.usa.al.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

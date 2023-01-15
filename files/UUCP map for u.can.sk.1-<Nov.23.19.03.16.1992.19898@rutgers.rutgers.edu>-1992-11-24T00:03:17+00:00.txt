@@ -1,0 +1,386 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.sk.1
+: This archive created: Mon Nov 23 19:03:07 1992
+echo shar: extracting u.can.sk.1
+cat << 'SHAR_EOF' > u.can.sk.1
+file {u.can.sk.1}
+#	u.can.sk.1 : last updated Sun Nov 22 17:42:01 1992
+#
+#	Corrections to the contents of this file should be sent to any one of:
+#		path@cs.toronto.edu, path@cs.utoronto.ca, utai!path
+#	Please edit the map entry suitably and remember to update the #W line.
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.ca) or want related information, please contact:
+#
+#		registry@cs.toronto.edu, registry@cs.utoronto.ca, utai!registry
+#	
+#	For information about registering under any of .edu, .com, .gov etc,
+#	please contact domain-request@uunet.uu.net or uunet!domain-request.
+#
+
+#N	access.usask.ca
+#S	DECsystem 3100; Ultrix 4.2
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Glenn Hollinger
+#E	access.usask.ca!postmaster
+#T	+1 306 966 4827
+#P	Physics 56, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U	alberta ccu.umanitoba.ca qcc-hal regina.cs.uregina.ca telepro weyr zaphod
+#W	access.usask.ca!glenn (Glenn Hollinger); Fri Feb  7 11:12:45 CST 1992
+#
+access.usask.ca  usask.ca
+access.usask.ca  alberta(DEMAND), pnwc(HOURLY*4), qcc-hal(HOURLY),
+		regina(DEMAND), shalzpot(DAILY), telepro(DAILY/5),
+		weyr(DAILY), zaphod(HOURLY)
+
+#N	arkcom
+#S	IBM-PC 33Mhz 386; DOS 4.01
+#O	Ark Communications
+#C	Andrew Kostiuk
+#E	arkcom!andrew
+#T	+1 306 477 2512
+#P	722 Wollaston Court, Saskatoon, Saskatchewan, Canada S7J-4E5
+#L	52 08 01 N / 106 38 21 W
+#R
+#U
+#W	arkcom!andrew (Andrew Kostiuk); Tue Apr 2 10:39:30 CST 1991
+#
+arkcom	qcc-hal(HOURLY)
+
+#N	catfish
+#S	PC 386/25; DOS 4.0.1
+#O	None
+#C	Randy Mortensen
+#E	randy@catfish
+#T	+1 306 242 1622
+#P	218 Gathercole Cres, Saskatoon, Sask. CANADA, S7K 7J2
+#L	52 08 01 N / 106 38 21 W
+#R
+#U
+#W	randy@catfish (Randy Mortensen); Fri Apr 26 14:46:00 CST 1991
+#
+catfish qcc-hal(HOURLY)
+
+#N	dvinci, dvinci.usask.ca
+#S	Sun 4/280; SunOS 4.1
+#O	University of Saskatchewan, College of Engineering
+#C	Glenn Hollinger, Derek Andrew
+#E	dvinci!postmaster
+#T	+1 306 966 4827
+#P	56 Physics, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	herald!glenn (Glenn Hollinger); Fri Sep 11 11:56:54 CST 1992
+#
+dvinci  = dvinci.usask.ca
+#
+USASK-ETHER = { access.usask.ca, dvinci.usask.ca, edison.usask.ca,
+	herald.usask.ca, sask.usask.ca, skatter.usask.ca, skerth.usask.ca,
+        skorpio.usask.ca, skvlsi.usask.ca, skul.usask.ca }(LOCAL)
+
+#N	edison.usask.ca
+#S	DEC VAX 3600; VMS 4.7A
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Glenn Hollinger, Derek Andrew
+#E	dvinci!postmaster
+#T	+1 306 966 4827
+#P	56 Physics, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Wed Jun 21 10:00:00 CST 1989
+#
+
+#N	herald, herald.usask.ca
+#S	DECsystem 5000/125; Ultrix 4.2
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Glenn Hollinger
+#E	herald!postmaster
+#T	+1 306 966 4827
+#P	Physics 56, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	herald!glenn (Glenn Hollinger); Fri Feb  7 11:17:12 CST 1992
+#
+herald  = herald.usask.ca
+
+#N	moxon67
+#S	PCC 386/33; DOS 4.0.1
+#O	NZW Operations
+#C	Mark Wileniec
+#E	mark@moxon67
+#T	+1 306 373 1896
+#P	67 Moxon Crescent, Saskatoon, Saskatchewan, CANADA S7H 3B8
+#L	52 08 01 N / 106 38 21 W
+#R
+#U
+#W	mark@moxon67 (Mark Wileniec); Tue Apr 2 10:39:30 CST 1991
+#
+moxon67 qcc-hal(HOURLY)
+
+#N	opseth
+#S	Intel 33M 386; DOS 4.0.1
+#O	None
+#C	Lyle Opseth
+#E	lyle@opseth
+#T	+1 306 653 4369
+#P	#122 - 5 Columbia Drive, Saskatoon SK, S7K 1E3
+#L	52 08 01 N / 106 38 21 W
+#R
+#U
+#W	lyle@opseth (Lyle Opseth); Tue Apr 2 10:39:30 CST 1991
+#
+opseth	qcc-hal(HOURLY)
+
+#N	pmbrc
+#S	Zilog System 8000 Model 11+; ZEUS 3.21 (System III)
+#O	Prairie Migratory Bird Research Centre (Canadian Wildlife Service)
+#C	Eric J. Woodsworth
+#E	pmbrc!zeus
+#T	+1 306 975 4023, +1 306 975 4087
+#P	115 Perimeter Rd., Saskatoon, SK S7N 0X4 Canada
+#L	52 08 16 N / 106 37 43 W
+#R	Polls pnwc on demand
+#U
+#W	pnwc!ejw (Eric Woodsworth); Wed Sep 26 13:33:43 CST 1990
+#
+pmbrc   pnwc(DIRECT)
+
+#N	pnwc
+#S	Olivetti M380C; SCO Xenix 2.3.3
+#O	Prairie & Northern Wildlife Centre (Canadian Wildlife Service)
+#C	Eric J. Woodsworth
+#E	pnwc!root
+#T	+1 306 975 4023, +1 306 975 4087
+#P	115 Perimeter Rd., Saskatoon, SK S7N 0X4 Canada
+#L	52 08 16 N / 106 37 43 W
+#R	Polled by zaphod@access.usask.ca 4 times daily.
+#U
+#W	pnwc!ejw (Eric Woodsworth); Mon Mar 30 13:08:52 CST 1992
+#
+
+pnwc	zaphod(HOURLY*6), pmbrc(DIRECT)
+
+#N	qcc-hal
+#S	Sun 386i; SunOS 4.0
+#O	QCC Communications Corporation
+#C	Andrew Kostiuk
+#E	qcc-hal!postmaster
+#T	+1 306 665 6488
+#P	#4 Airport Place, 2345 Avenue C North, Saskatoon, Saskatchewan, Canada S7L-5Z5
+#L	52 08 01 N / 106 38 21 W
+#R
+#U
+#W	herald!glenn (Glenn Hollinger); Tue Sep 15 10:47:36 CST 1992
+#
+#
+qcc-hal	= qcc-hal.sk.ca
+qcc-hal access.usask.ca(HOURLY), opseth(HOURLY), moxon67(HOURLY),
+	arkcom(HOURLY), catfish(HOURLY)
+
+
+#N	regina
+#S	Sparcstation ELC; SunOs 4.1.2
+#O	University of Regina, Computing Services Dept
+#C	Jason Walters
+#E	regina!walter
+#T	+1 306 585 4305
+#P	Library 139, University of Regina, Regina, SK S4S 0A2
+#L	50 24 N / 104 35 W city
+#R
+#U	unibase access.usask.ca
+#W	regina!walter (Jason Walters);Wed Apr 29 09:19:01 CST 1992
+#
+#
+regina	.uregina.ca(LOCAL)
+regina =  regina.cs.uregina.ca, regina.uregina.ca
+regina	access.usask.ca(DEDICATED), unibase(DEDICATED)
+
+#N	sask, sask.usask.ca
+#S	DEC VAX 6330+6320 cluster; VMS 5.1
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Glenn Hollinger, Derek Andrew
+#E	dvinci!postmaster
+#T	+1 306 966 4827
+#P	Physics 56, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Mon Feb 19 11:18:51 CST 1990
+#
+sask    .usask.ca
+sask    = sask.usask.ca, skyblu, skyblu.usask.ca,
+        skyfox, skyfox.usask.ca, skycat, skycat.usask.ca
+
+#N	shalzpot
+#S	DOS clone; Coherent 2.0.1
+#O	a U of S Stuent group
+#C	Geoff Shukin
+#E	geoff@shalzpot
+#T	+1 306 373 7757
+#P	351 Avondale Road, Saskatoon, Saskatchewan, CANADA S7H 5B4
+#L	52 08 01 N / 106 38 11 W city
+#R
+#U	access.usask.ca
+#W	herald!glenn (Glenn Hollinger); Mon Dec  2 09:19:01 CST 1991
+#
+shalzpot	access.usask.ca(DAILY)
+
+#N	skatter.usask.ca
+#S	DEC VAX 11/785; Ultrix 1.2 UNIX
+#O	University of Saskatchewan, Linear Accelerator Lab.
+#C	Doug Murray
+#E	skatter!doug
+#T	+1 306 966 8529
+#P	LINAC, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Mon Feb 13 16:00:00 CST 1989
+#
+skatter = skatter.usask.ca
+
+#N	skerth.usask.ca
+#S	DEC VAX 11/785; VMS 4.7A
+#O	University of Saskatchewan, Dept. of Computing Services
+#C	Glenn Hollinger, Derek Andrew
+#E	dvinci!postmaster
+#T	+1 306 966 4827
+#P	56 Physics, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Wed Jun 21 10:00:00 CST 1989
+#
+skerth  = skerth.usask.ca
+
+#N	skorpio, skorpio.usask.ca
+#S	MIPS M/120-5; RISC/OS
+#O	University of Saskatchewan, Dept. of Comp. Sci. Research Lab
+#C	Beth Protsko
+#E	skorpio!postmaster
+#T	+1 306 966 4909
+#P	1C101 Engineering, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Wed Jun 21 16:00:00 CST 1989
+#
+skorpio = skorpio.usask.ca
+
+#N	skul.usask.ca
+#S	Sun 3/60; SunOS 3.5
+#O	University of Saskatchewan, College of Engineering
+#C	Jonathan Moore
+#E	skul!moore
+#T	+1 306 966 5415
+#P	Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Mon Feb 13 16:00:00 CST 1989
+#
+skul    = skul.usask.ca
+
+#N	skvlsi.usask.ca
+#S	Sun4/110;
+#O	University of Saskatchewan, Comp. Science & Electrical Engineering
+#C	Glenn Hollinger, Derek Andrew
+#E	dvinci!postmaster
+#T	+1 306 966 4827
+#P	56 Physics, U of S, Saskatoon, Saskatchewan, Canada S7N 0W0
+#L	52 08 01 N / 106 38 11 W
+#R
+#U
+#W	dvinci!glenn (Glenn Hollinger); Mon Feb 13 16:00:00 CST 1989
+#
+skvlsi  = skvlsi.usask.ca
+
+#N	stetner
+#S	Amiga 1000;
+#O	None
+#C	Doug Stetner
+#E	stetner!doug
+#T	+1 306 924 0779
+#P	#18 - 88 Angus Road, Regina, SK S4R 3L3
+#L	50 24 N / 104 35 W city
+#R
+#U
+#W	mcl!stacy (Stacy L. Millions);Mon Aug 21 11:23:19 CST 1989
+#
+stetner	regina(DIRECT)
+
+#N	telepro
+#S	Commodore Amiga; AmigaDOS V1.3, Amiga UUCP V1.06D, DIALOG Pro. V0.95b
+#O	TelePro Technologies
+#C	Mike Oliphant
+#E	telepro!oliphant
+#T	+1 306 665 8796
+#P	330 Saskatchewan Cr. W., Saskatoon, SK, Canada, S7M 0A4
+#L	52 07 N / 106 38 W city
+#R	A test site for DIALOG Professional.
+#U	access.usask.ca tptbbs
+#W	herald!glenn (Glenn Hollinger); Mon Dec  2 09:19:01 CST 1991
+#
+telepro access.usask.ca(DAILY/5), tptbbs(EVENING)
+
+#N	tptbbs
+#S	Commodore Amiga; AmigaDOS V1.3, Amiga UUCP V1.06D, DIALOG Pro.V0.95b
+#O	TelePro Technologies
+#C	Tom Conroy
+#E	tptbbs!sysop
+#T	+1 306 249 2774
+#P	#20 - 1524 Rayner Ave, Saskatoon, SK, Canada, S7N 1Y1
+#L	52 07 N / 106 38 W city
+#R	A public access BBS - the development site for DIALOG Professional.
+#U	telepro
+#W	tptbbs!oliphant (Mike Oliphant); Sun Jul 22 20:57:15 CST 1990
+#
+tptbbs  telepro(EVENING)
+
+#N	unibase
+#S	I486/22; ESIX 5.4.0.3.a
+#O	Unibase Telecom Ltd.
+#C	Roe Peterson
+#E	unibase!roe, roe@unibase.SK.CA
+#T	+1 306 789 9007, +1 396 949 7924
+#P	3002 Harding Street, Regina, SK
+#L	50 27 N / 104 37 W city
+#R
+#U	regina sobeco
+#W	unibase!roe (Roe Peterson); Sat Jan 11 15:37:30 CST 1992
+#
+unibase		.unibase.sk.ca(LOCAL)
+unibase		= unibase.unibase.sk.ca
+unibase		mcreek(DEMAND), gdipa(DEMAND), bailey(DEMAND),
+		schad(DEMAND), hlthed(LOCAL), theodor(DEMAND),
+		sobeco(DAILY+FAST), edith(DEMAND+FAST), ndadm(DEMAND),
+		marival(DEMAND), stphil(DEMAND), gash(DEMAND),
+		ndlib(LOCAL)
+
+
+#N	zaphod
+#S	Sun-3/160; SunOS 3.5.2
+#O	Develcon Electronics Ltd.
+#C	Bob Harvey
+#E	zaphod!postmaster
+#T	+1 306 933 3300
+#P	856 51 Street East, Saskatoon SK S7K 5C7, Canada
+#L	52 10 N / 106 40 W city
+#R
+#U	access.usask.ca
+#W	zaphod!bobh (Bob Harvey); Wed Jul 29 14:48:40 CST 1992
+#
+zaphod	access.usask.ca(DIRECT), pnwc(DIRECT)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

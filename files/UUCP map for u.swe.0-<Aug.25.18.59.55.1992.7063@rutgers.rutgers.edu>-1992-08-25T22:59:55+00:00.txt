@@ -1,0 +1,46 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.swe.0
+: This archive created: Tue Aug 25 18:59:52 1992
+echo shar: extracting u.swe.0
+cat << 'SHAR_EOF' > u.swe.0
+# u.swe.0 0 of 0,1,2; changes to: uucpmap@sunic.sunet.se
+# Copyright 1989-1992 EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# Last changed: Sat Jan 11 15:02:12 MET 1992
+
+
+#N	seunet, sweden.eu.net, .eunet.se
+#O	EUnet Sweden
+#C	Bjorn Eriksen
+#E	ber@sweden.eu.net
+#T	+46 8 790 6513
+#P	Swipnet AB, Box 6048, S-164 06 Kista, Sweden
+#L	59 24 N 17 56 E
+#R	Swedish EUnet backbone machine
+#W	ber@sweden.eu.net 910717
+#
+seunet	eunet.se, .eunet.se
+
+seunet	sunic(ARPA)
+
+
+#N	sunic, .sunet.se
+#O	SUNET/KTH
+#C	Bjorn Eriksen
+#E	ber@sunet.se
+#T	+46 8 790 6513
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	ber@sweden.eu.net 890320
+#
+sunic	.se
+
+sunic	seunet(ARPA)
+
+# End of u.swe.0
+SHAR_EOF
+:	End of shell archive
+exit 0
+

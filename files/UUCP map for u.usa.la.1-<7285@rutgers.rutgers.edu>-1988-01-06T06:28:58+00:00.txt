@@ -1,0 +1,161 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.la.1
+# This archive created: Wed Jan  6 01:28:50 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.la.1
+cat << \SHAR_EOF > u.usa.la.1
+# Doug McCallum <dougm@ico.ISC.COM>; Tue Jan  5 20:46:49 MST 1988
+
+#N	conrad
+#S	Integrated Solutions IS68K; 4.2 BSD UNIX
+#O	Steven A. Conrad, MD, PhD (LSU Medical Center)
+#C	Steven A. Conrad
+#E	conrad!postmaster
+#T	+1 318 635 4916
+#P	5711 Lakefront Drive, Shreveport, LA 71119-3913
+#L	93 45 W / 32 30 N city
+#W	conrad!sac (Steven A. Conrad); Tue Jun  9 19:57:22 CDT 1987
+#
+conrad	lsumaxx(WEEKLY/2), petro(WEEKLY), bles(WEEKLY)
+
+
+
+#N	lsueye
+#S
+#O	LSU Eye Center
+#C	Daniel Singer
+#E	lsueye!des
+#T	+1 504 568 6700
+#P	2020 Gravier St, Ste. B, New Orleans, LA 70112
+#L	30 00 N / 90 03 W city
+#R
+#W	rick@seismo.CSS.GOV (Rick Adams); Mon,  4 Jan 20:22:56 EST 1988
+#U
+#
+lsueye	uunet(DEMAND)
+
+
+
+#N	lsumaxx
+#S	DEC PDP11/83; ULTRIX-11 3.0
+#O	Louisiana State Univ Medical Center Shreveport - Toxicology
+#C	Steven A. Conrad
+#E	lsumaxx!postmaster
+#T	+1 318 674 5927
+#P	P.O. Box 33932, Shreveport, LA 71130-3932
+#L	93 45 W / 32 30 N city
+#W	lsumaxx!sac (Steven A. Conrad); Tue Jun  9 19:57:22 CDT 1987
+#
+lsumaxx	petro(DEMAND), bles(DEMAND), conrad(POLLED)
+
+
+
+#N	tulane
+#S	Pyramid 90x; OSx 4.0
+#O	Tulane University
+#C	Marilyn R. Wulfekuhler (mrw)
+#E	tulane!postmaster
+#T	+1 504 865 5840
+#P	Department of Computer Science, New Orleans, LA 70118
+#L	090 00 00 W / 30 00 00 N
+#R	also known as TULANE.EDU on CSNET
+#U
+#W	tulane!mb (Mark Benard); Thu Oct 29 17:00:00 CDT 1987
+#
+tulane	pyramid(DAILY), lsueye(DAILY), ulysses(WEEKLY), ihnp4(WEEKLY)
+
+
+
+#N	usl
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	University of Southwestern Louisiana, Center for Advanced Computer Studies
+#C	Patrick Landry
+#E	usl!postmaster
+#T	+1 318 231 6284
+#P	P.O. Box 44330, Lafayette, LA 70504-4330
+#L	30 12 N / 92 02 W
+#R
+#U	akgua
+#W	usl!pml (Patrick Landry); Mon May  4 11:32:37 CDT 1987
+#
+usl	ut-sally(DAILY/2), akgua(DAILY)
+#
+USL-ETHER = {usl, usl-pa, usl-pb, usl-pc, usl-ma}(LOCAL)
+
+
+
+#N	usl-pa
+#S	Pyramid 90x; OSx 3.1
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl!usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 42770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!jpd (James Dugal); Wed 27 May 1987
+#
+usl-pa	.usl-pa.usl.edu
+usl-pa	usl-pb(POLLED), usl-pc(POLLED), usl-va(POLLED)
+
+
+
+#N	usl-pb
+#S	Pyramid 90x; OSx 3.1
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl!usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 42770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!jpd (James Dugal); Wed 27 May 1987
+#
+usl-pb	.usl-pb.usl.edu
+usl-pb	usl-pa(POLLED), usl-pc(POLLED), usl-va(POLLED)
+
+
+
+#N	usl-pc
+#S	Pyramid 90x; OSx 3.1
+#O	University of Southwestern Louisiana, Computing Center
+#C	James Dugal
+#E	usl!usl-pc!jpd
+#T	+1 318 231 6402
+#P	P.O. Box 42770, Lafayette, LA  70504-2770
+#L	30 12 N / 92 02 W
+#R
+#U	usl
+#W	usl!jpd (James Dugal); Wed 27 May 1987
+#
+usl-pc	.usl-pc.usl.edu
+usl-pc	usl-pa(POLLED), usl-pb(POLLED), usl-va(POLLED)
+
+
+
+#N	wpg
+#S	Plexus P-35; Sys 5.2
+#O	WP Group
+#C	Russell Lawrence
+#E	uunet!wpg!russ
+#T	+1 504 456 0001
+#P	P.O. Box 306, Metairie, LA 70004
+#L	29 59 48.7 N / 90 10 29.5 W
+#R	
+#W	russ@wpg (Russell Lawrence); Sat Sep 12 17:44:03 CDT 1987
+#U	uunet
+#
+wpg	uunet(DEMAND)
+
+
+SHAR_EOF
+#	End of shell archive
+exit 0

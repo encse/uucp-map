@@ -1,0 +1,61 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.ri.1
+: This archive created: Sun Jun  5 02:20:47 1988
+echo shar: extracting d.usa.ri.1
+cat << 'SHAR_EOF' > d.usa.ri.1
+#	start of d.usa.ri.1: Thu Feb 25 20:50:37 EST 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.ray.com, rayssd
+#F	a.cs.uiuc.edu
+#O	Raytheon Company
+#C	Gregory M. Paris, Ralph A. Shaw, David H. Brierley
+#E	postmaster@rayssd.ray.com
+#T	401-847-8000 exts 3839, 4180, 4073
+#P	Submarine Signal Division, 1847 West Main Road, Portsmouth, RI 02871-1087
+#L	41 34 03 N / 71 16 57 W
+#U	raybed2 mirror necntc brunix
+#R	registered
+#W	gmp@rayssd.ray.com; Fri Feb 19 14:47:19 EST 1988
+#
+rayssd	.ray.com
+rayssd=	ray.com, rayssd.ray.com
+#
+# other Raytheon divisions
+rayssd	raybed2(LOCAL+HIGH), ray2k(DIRECT)
+#
+# primary mail connections
+rayssd	cbosgd(2*HOURLY), decuac(DEMAND), gatech(EVENING), ihnp4(2*HOURLY),
+	mimsy(DEMAND), mirror(EVENING+2*HIGH), necntc(DEMAND+10*LOW),
+	sdamos(DAILY), sun(DEMAND+2*LOW), uiucdcs(DEMAND), ukma(HOURLY)
+#
+# secondary mail connections
+rayssd	<aati>(EVENING), <allegra>(EVENING), <brunix>(DEMAND),
+	<cci632>(EVENING), <linus>(2*HOURLY), <uriecl>(EVENING)
+#
+# employees' systems
+rayssd	galaxia(EVENING)
+
+
+#N	.usi.com, unisec
+#F	uxc.cso.uiuc.edu
+#O	UniSecure Systems, Inc
+#C	Darryl Wagoner
+#E	unisec!dpw, dpw@USI.COM
+#T	+1 401 849 0752
+#P	88 West Broadway, Newport, R.I. 02840
+#L	41 19 N / 71 17 W city
+#R
+#U	rayssd 
+#W	unisec!dpw (Darryl Wagoner); Fri Feb 20 03:49:25 EST 1987
+#
+unisec	.usi.com
+unisec= unisec.usi.com
+unisec	rayssd(DIRECT), kitty(EVENING), uiucuxc(EVENING), ethos(DAILY)
+
+#	end of d.usa.ri.1: Thu Feb 25 20:50:40 EST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

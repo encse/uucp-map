@@ -1,0 +1,80 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.mi.1
+: This archive created: Fri Aug  5 01:24:04 1988
+echo shar: extracting d.usa.mi.1
+cat << 'SHAR_EOF' > d.usa.mi.1
+# This map is maintained by Bob Leffler  (bob@rel.eds.com).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# Map updates may also be posted to the newsgroup mi.newsite.
+# Last updated: Wed Aug  3 21:16:04 EDT 1988
+
+#N      .eds.com rel edsews
+#F      uunet.uu.net
+#O      Electronic Data Systems
+#C      Bob Leffler
+#E      postmaster@eds.com
+#T      +1 313 456-5375
+#P      Box 7019, 5555 New King St., Troy, MI 48007-7019    
+#L      
+#U     
+#R      alternative contact; Ted Roberts roberts@edsews.eds.com
+#R	313 645-4896
+#W      bob@rel.eds.com; Wed Aug 03 21:18:00 EDT 1988    
+#
+rel=    .eds.com
+rel=    eds.com
+rel=    rel.eds.com
+rel	edsews(DEMAND),
+	edstb(POLLED),
+	edstip(EVENING),
+	fmsrl7(EVENING),
+	gaboon(DEMAND),
+	iwblsys(DEMAND),
+	mcf(EVENING),
+	teemc(EVENING),
+	ttardis(DEMAND),
+	rutgers(WEEKLY),
+	sharkey(DAILY),
+	umich(DAILY),
+	umix(DIRECT),
+	wybbs(POLLED)
+edstb=  edstb.eds.com
+edstb	edsews(EVENING),
+	nucleus(EVENING),
+	rel(EVENING),
+	dri2(POLLED),
+	sun32(DIRECT)
+edsdrd= edsdrd.eds.com
+edsdrd  edsews(DEMAND)
+edsews= edsews.eds.com
+edsews  apcidtw(EVENING),
+	corndn(DEMAND),
+	csfs12(DEMAND),
+	dwon(DEMAND),
+	edsdrd(POLLED),
+	edstb(DEMAND),
+	edstip(DEMAND),
+	mancer(DEMAND),
+	mcf(EVENING),
+	mstar(EVENING),
+	pte(POLLED),
+	rel(DEMAND),
+	rphroy(DEMAND),
+	satinfo(DEMAND),
+	sun(EVENING),
+	sun32(DEMAND),
+	uunet(EVENING)
+edsr=   edsr.eds.com
+edsr    texsun(HOURLY), valhalla(DAILY)
+satinfo=	.saturn.eds.com
+satinfo=        saturn.eds.com
+satinfo=        satinfo.eds.com
+satinfo=        satinfo.saturn.eds.com
+satinfo edsews(DIRECT), rhea(DIRECT), tethys(DIRECT), mcf(DIRECT)
+
+# End of Michigan Map File
+SHAR_EOF
+:	End of shell archive
+exit 0

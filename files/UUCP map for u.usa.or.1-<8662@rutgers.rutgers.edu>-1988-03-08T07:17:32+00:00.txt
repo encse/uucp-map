@@ -1,0 +1,1062 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.or.1
+: This archive created: Tue Mar  8 02:17:10 1988
+echo shar: extracting u.usa.or.1
+cat << 'SHAR_EOF' > u.usa.or.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@cbosgd.att.com (cbosgd!uucpmap).
+# Last updated: Wed Mar  2 14:56:49 PST 1988
+
+#N	aardvark
+#S	Cyb Workmate II; Sys V
+#O
+#C	Steve Willoughby
+#E	aardvark!steve
+#T	+1 503 249 0745
+#P	2365 NE 57th, Portland, OR 97213
+#L
+#R
+#W	aardvark!steve (Steve Willoughby); Thu Jan  7 20:55:21 PST 1988
+#
+aardvark	tessi(DIRECT), reed(DIRECT), volt(DIRECT)
+
+
+
+#N	agora
+#S	Intel System 286/380; Xenix R3.5
+#O	Advanced Solutions
+#C	Alan Batie
+#E	agora!batie
+#T	+1 503 640 4013
+#P	1221 N.E. 51st, #227, Hillsboro, OR 97124
+#L	45 32 10 N / 123 56 00 W 
+#R	Public Access "Unix": +1 503 640 4262, +1 503 640 4380
+#U	argent parsely
+#W	agora!batie (Alan Batie); Mon Nov  2 10:40:53 PST 1987
+#
+agora	argent(HOURLY), escargot(HOURLY), percival(HOURLY), qiclab(HOURLY),
+	hackervax(HOURLY), parsely(EVENING), hilhi1(WEEKLY), corsair(DEAD),
+	mw(HOURLY), racsys(EVENING), 3cpu(WEEKLY), casper(WEEKLY),
+	myown(WEEKLY), dropte(HOURLY)
+
+#N	alfirin
+#M	Intel System 286/310-17; XENIX 286 R3.5.0
+#O	Alfirin Technologies
+#C	Jim Trethewey
+#E	alfirin!flamer
+#T	+1 503 646 2285
+#P	2285 Southwest Balsam Avenue, Beaverton, OR 97005-1235
+#L	45 30 12 N / 122 48 50 W
+#R	Alfirin Technologies software development system.
+#R	Send mail to "alfirin!service" for product support.
+#R	Has OpenNET/onsi support, 2M RAM, 85M+15M disks, 18 ttys.
+#W	alfirin!flamer (Jim Trethewey); Wed Jan  6 11:55:45 PST 1988
+#
+alfirin	agora(DIRECT), argent(DIRECT), mithril(DIRECT), racsys(DIRECT)
+
+#N	apcipdx
+#S	APOLLO DN320; AEGIS SR9.5.1, BSD 4.2, SYS V
+#O	Apollo Computer Beaverton, Oregon Branch
+#C	Chris Rose
+#E	apcipdx!chris
+#T	+1 503 641 6948
+#P	8305 SW Creekside Place Suite D, Beaverton, OR 97005
+#L  
+#R  
+#U  
+#W	apcipdx!mikej (Mike Johnson); Wed July 8 10:42:04 PDT 1987
+apcipdx mntgfx(EVENING), apcisea(EVENING)
+
+#N	argent
+#M	Intel System 286/380; XENIX 286 R3.4
+#O	Intel Corporation, OMS BITBUS Engineering
+#C	Alan Batie
+#E	argent!batie
+#T	+1 503 696 5137
+#P	5200 NE Elam Young Parkway, HF3-70; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#R	OMS uucp hub, on OMS OpenNET with VT
+#U	ihf1 flight polyglot safari agora foobar
+#W	argent!batie (Alan Batie); Mon Nov  2 14:43:32 PST 1987
+#
+argent	aahz(DEDICATED), alfirin(POLLED), ape286(HOURLY), inthap(DAILY/3),
+	littlei(DAILY/3), ihf1(DEDICATED), phaedra(DEDICATED),
+	polyglot(HOURLY), prcnea(DAILY/2), ru-ru(DEDICATED), safari(DAILY/6),
+	foobar(LOCAL), mithril(DEDICATED), agora(HOURLY), flight (HOURLY)
+
+#N	atelabs
+#S      IBM PC/XT; PC/IX
+#O	AT&E Laboratories
+#C	Dave Shanks
+#E	atelabs!cds
+#T      +1 503 690 2000
+#P      1400 NW Compton Drive  Suite 300, Beaverton, Oregon  97006
+#L      45 31 90 N / 122 52 84 W 
+#W	atelabs!cds (Dave Shanks); Thu Jan 14 13:21:01 PST 1988
+#
+atelabs tessi(DIRECT), ogcvax(DIRECT), arnav(DAILY), nscpdc(DAILY)
+
+#N	bit
+#S      Sun 3/160; 4.2BSD UNIX (Sun Release 3.4)
+#O	Bipolar Integrated Technology, Inc.
+#C	Peter Adams, Jay Lessert
+#E	bit!peter, bit!jayl
+#T	+1 503 629 5490
+#P	1050 NW Compton Drive, Beaverton, OR 97006
+#L	45 29 N / 122 48 W city
+#R      uucp mail only, no news.
+#W	bit!jayl (Jay Lessert); Fri Oct 16 08:09:46 PDT 1987
+#
+bit	ogcvax(HOURLY), sun(DEMAND), mips(DEMAND)
+
+#N	bucket
+#S	Tektronix 6130; UTek 2.3 (4.2bsd derived)
+#O	Private System (Rick's Home-grown Unix)
+#C	Rick Bensene
+#E	bucket!rickb
+#T	+1 503 627 3559
+#P	1815 N.E. 148th Avenue; Portland, Oregon  97230
+#L	45 33 N / 122 35 W
+#R	Contact via above phone during hours of 10AM-5PM (Pacific) Weekdays.
+#R	Public Access 'bbs' login at +1 503 254 0458, 24 hours, 300/1200 baud.
+#U	percival escargot qiclab magic4 enky
+#W	bucket!rickb (Rick Bensene); Tue Dec  1 19:27:58 PST 1987
+#
+bucket	teksce(DIRECT), percival(HOURLY), safari(HOURLY*2), omen(HOURLY),
+	qiclab(POLLED), escargot(POLLED), corsair(POLLED), tessi(HOURLY),
+	kjvw(DAILY), enky(DAILY/5), magic4(POLLED), larkint(POLLED),
+	parsely(POLLED), budda(DEAD)
+
+#N	budda
+#S	Tektronix 6130; UTek 2.3 (4.2bsd)
+#O	UTUG, Inc. (UTek Users Group)
+#C	Glenn C. Le Vernois
+#E	budda!glennl, tektronix!vice!glennl
+#T	+1 503 627 4084
+#P	3375 S.W. 173rd; Aloha, OR  97006
+#L	45 33 N / 122 35 W
+#R	Contact via #T above ONLY between hours of 10AM-5PM (Pacific) Weekdays
+#U	bucket vice 
+#W	budda!glennl (Glenn C. Le Vernois); Fri Apr 10 16:39:38 EDT 1987
+#
+budda	bucket(POLLED), vice(POLLED)
+
+#N	busker
+#S	Wavemate Bullet-ATX; MS-DOS v3.2; uuslave
+#O	private
+#C	Harold C. Nevis
+#E	busker!nev
+#T	+1 503 775 9240
+#P	3445 SE Carlton; Portland, OR 97202
+#L	45 33 N / 122 36 W City
+#R	Also knwon as 'Busker's Opus' Fidonet 105/14
+#V	reed
+#W	busker!nev (Harold C. Nevis); Sat Oct 10 18:07:10 PDT 1987
+##
+busker	reed(DIRECT)
+
+#N	casper
+#S	No-Name XT Clone; PC-DOS v3.2; UUSLAVE
+#O	Private
+#C	Dale A. Weber
+#E	casper!root
+#T	+1 503 232 4519
+#P	3046 NE Holladay, Portland, OR 97232
+#L	45 33 N / 122 36 W City
+#R	Also knwon as 'Casper's Place', Fido-Net Node 1:105/55
+#U	percival
+#W	casper!root (Dale A. Weber); Sat Jan 30 10:21:05 PST 1988
+#
+casper	agora(DAILY/2), escargot(DIRECT), parsely(DAILY/2), 
+	percival(DIRECT+HIGH), qiclab(DIRECT+HIGH), tessi(DIRECT+HIGH)
+
+#N      castle, .n152.z1.ifna.org
+#S      IBM PC; PC-DOS 3.1
+#O      private - FidoNet
+#C      Lee V. Damon
+#E      castle!postmaster
+#T      +1 503 757 9029
+#P      1115 NW 20th, Corvallis, OR 97330
+#L      44 34 N / 123 16 W city
+#U      orstcs
+#R      FidoNode 1:152/201 running UFGATE. IFNA.ORG hostmaster home site.
+#W      orstcs!nomad (Lee V. Damon); Thu Feb 25 13:23:55 PST 1988
+#
+# this is a FidoNet <-> UUCP/Internet gateway site serving the Pacific
+# NorthWest.
+#
+castle  .n152.z1.ifna.org
+castle= castle.ifna.org, f200.n152.z1.ifna.org, f201.n152.z1.ifna.org
+castle  orstcs(DIRECT)
+
+#N	catlabs
+#S	Intel 80386 PC (iSBC386) ; Microport UNIX V/386 3.0 - U2.2 1
+#O	Qic Laboratories of Portland Oregon
+#C	Steven C. Neighorn
+#E	catlabs!neighorn
+#T	+1 503 645 7015
+#P	13222 S.E. Harold Street, Portland, OR 97236-4143
+#L	45 34 41 N / 122 31 26 W
+#R	Computer Adaptive Testing development machine
+#U	qiclab
+#W	catlabs!neighorn (Steven C. Neighorn); Wed Sep 30 12:32:30 PDT 1987
+#
+catlabs	qiclab(DIRECT)
+
+#N	cormom
+#S 	Momentum 32E; System III Uniplus+ - CR&D release 3.5
+#O 	
+#C 	Scott Boyd
+#E	cormom!scott
+#T	+1 503 753 6218
+#P	3348 SE Hathaway Drive, Corvallis, Oregon 97333
+#L	44 35 21 N / 123 14 35 W
+#R
+#U	orstcs cutsys
+#W	cormom!rootcsh (Scott Boyd); Sat Jan  9 14:41:24 PST 1988
+#
+cormom	orstcs(DAILY/2+LOW), cutsys(DIRECT+LOW), jasmic(DIRECT+LOW),
+	comdyfut(DAILY+EVENING+LOW)
+
+#N	cutsys
+#S	IBM PC/AT Clone; Microport SysV v2.3
+#O	Paul's Auto Imports
+#C	Bernie Hoffstadt
+#E	cutsys!usenet, cutsys!cutter
+#T	+1 503 753 1646
+#P	1437 N.W. 9th St. Corvallis, Oregon 97330
+#L	44 34 N / 123 16 W city
+#R	Unofficial Organization name: Garfield's Litterbox
+#U	orstcs
+#W	cutsys!cutter (Bernie Hoffstadt); Fri Jan  8 12:38:00 PST 1988
+#
+cutsys	orstcs(DIRECT), paisys(DIRECT), cormom(DIRECT), jasmic(DIRECT)
+
+#N	dinadan
+#S	Tek 6205; Utek 2.1
+#O	
+#C	Keith Packard
+#E	reed!keith, dinadan!keith
+#T	+1 503 771 1305
+#P	5440 SE 41, Portland, OR 97202
+#L	
+#R	
+#W	reed!keith (Keith Packard); Sun Jan 10 16:08:20 PST 1988
+#
+dinadan	reed(POLLED)
+
+#N	dpdx01
+#O	Archdiocese of Portland
+#C	Dick Rutledge, Ann Marie van Dyke
+#E	dpdx01!dick, dpdx01!ame
+#T	+1 503 234 5334
+#P	2838 E Burnside St; Portland, OR   97214
+#R	should be talking to spdx01, spdx02, spdx03, spdx04
+#U
+#W	ki4pv!tanner (Tanner Andrews); Tue Dec  8 14:56:16 EST 1987
+#
+dpdx01	ki4pv(DAILY), cdin-1(DAILY), ssfo01(DAILY)
+
+#N	dropte
+#M	Intel System 286/310AP; XENIX 286 R3.5
+#O	Intel Corporation, OMO Software Engineering
+#C	Tom Walsh
+#E	dropte!tw
+#T	+1 503 696 7105
+#P	5200 NE Elam Young Parkway, HF3-59; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#W	foobar!tw (Tom Walsh); Sat Oct 17 14:47:19 PDT 1987
+dropte	grafix(LOCAL), foobar(LOCAL), omen(DIRECT)
+
+#N	enky
+#S	DEC LSI-11/73; 2.9 BSD UNIX
+#O
+#C	Michael A. Enkelis
+#E	enky!michaele, vice!michaele
+#T	+1 503 775 4838
+#P	4650 S.E. 33 AVE., Portland OR 97202
+#L
+#U	oz bucket parsely
+#W	enky!michaele (Michael A. Enkelis); Mon Jul  6 13:25:42 PDT 1987
+#
+enky	vice(DAILY*4), bucket(DAILY*2), oz(DAILY), parsely(DAILY)
+
+#N	escargot
+#S	IBM PC AT, XENIX System V
+#O	Coredump Central
+#C	Marc Frajola
+#E	escargot!marc
+#T	(503) 643-5203
+#P	13515 S.W. Weir Rd., Beaverton, OR  97005
+#L	45 25 55 N / 122 48 58 W
+#R  
+#W	escargot!marc (Marc Frajola); Fri Apr 10 16:42:33 EDT 1987
+#U	bucket
+#
+escargot	bucket(HOURLY), hackervax(HOURLY*2), agora(HOURLY*2),
+		argent(HOURLY*2), qiclab(HOURLY*2), corsair(WEEKLY),
+		percival(WEEKLY)
+
+#N	foobar
+#M	Intel System 286/310AP; XENIX 286 R3.4
+#O	Intel Corporation, OMO Software Engineering
+#C	Tom Walsh
+#E	foobar!tw (tw@foobar.hf.intel.com)
+#T	+1 503 696 7105
+#P	5200 NE Elam Young Parkway, HF3-59; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#R	smail2.5/pathalias9.1/news2.11b
+#U	littlei argent lagnaf omosys
+#W	foobar!tw (Tom Walsh); Sat Oct 17 14:47:47 PDT 1987
+foobar	hambone(LOCAL), samant(LOCAL), jccsys(LOCAL),
+	omosrv4(LOCAL), intelis(DEDICATED+LOW), littlei(LOCAL+LOW),
+	argent(LOCAL), aahz(LOCAL), inteloa(DAILY),
+	dropte(LOCAL), grafix(DEDICATED), psu-cs(LOCAL+LOW), dinsdale(LOCAL),
+	omen(EVENING), omepd(HOURLY), ihf1(DIRECT), intelhf(DEMAND),
+	entropy(DIRECT), omosys(LOCAL), semike(LOCAL), murasaki(LOCAL)
+foobar= foobar.hf.intel.com
+dinsdal = dinsdale
+intelis = intelisc
+intelisc= intelisc.intel.com
+# this is a certified correction to the ihf1 map posting (per mark@omepd)
+ihf1	.hf.intel.com
+ihf1=	ihf1.hf.intel.com
+
+#N	grafix
+#M	Intel SYP310; XENIX 286 R3.4
+#O	Intel Corporation, Graphics Systems Operation
+#C	Pat Walsh
+#E	grafix!pmw
+#T	+1 503 696 7216
+#P	5200 NE Elam Young Parkway, HF3-59; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#W	dropte!tw (Tom Walsh); Sat Oct 17 14:47:04 PDT 1987
+grafix	dropte(LOCAL), foobar(LOCAL)
+
+#N	grpwre
+#S	Convergent Technologies Megaframe/System V
+#O	Groupware Systems
+#C	Carl McConnell
+#E	tektronix!reed!carlm
+#T	(503) 635-2615
+#P	695 Fifth St., Lake Oswego, OR 97034
+#L	
+#U	
+#R	
+#W	ksh per paper form 7/29/85; Sun Nov  3 00:00:00 PST 1985
+#
+grpwre	reed(DEMAND), psu-cs(DEMAND)
+
+#N	hp-pcd
+#S	DEC VAX 11/750; 4.3BSD Unix
+#O	Hewlett-Packard Co., Corvallis, Oregon Site
+#C	Lloyd Wright, Steve Froelich
+#E	hp-pcd!postmaster
+#T	+1 503 750 4023, +1 503 750 2710
+#P	1000 NE Circle Blvd., Corvallis, OR 97330 USA
+#L	44 34 N / 123 16 W city
+#R	
+#U	hplabs hpcvra hpspklb hpmcla hpcvca hpsgpa uoregon hplsly
+#U	hpcvlx ogcvax(or,pnw) tektronix(or,pnw) orstcs(or,pnw) 
+#W	hp-pcd!lloyd (Lloyd Wright); Sat Feb 20 22:41:59 PST 1988
+#
+# systems this on site
+hp-pcd	hpcvca(LOCAL), hpcvra(LOCAL), hpcvlx(LOCAL), hpcvic(LOCAL)
+#
+# local calls
+hp-pcd	orstcs(DIRECT)
+#
+# long distance
+hp-pcd	cmcl2(DEMAND), demon(DEMAND), hpfcdc(DEMAND), hpldola(DEMAND),
+	hp-sdd(DEMAND), hpanda(DEMAND), hpbsla(DEMAND), hpda(DEMAND),
+	hpfcla(DEMAND), hpisla(DEMAND), hplabs(DEMAND), hplsla(DEMAND),
+	hplsly(DEMAND), hplvla(DEMAND), hpmcla(DEMAND), hpnjla(DEMAND),
+	hpscda(DEMAND), hpsgpa(DEMAND), hpspklb(DEMAND), hpvcla(DEMAND),
+	hpvclx(DEMAND), hpwala(DEMAND), microsoft(DEMAND), ogcvax(DEMAND),
+	tektronix(DEMAND), uoregon(DEMAND)
+
+#N	hpmcla
+#S	Hewlett-Packard 9030X; HP-UX 05.11 B
+#O	Hewlett-Packard McMinnville Division
+#C	Jim Harritt
+#E	hpmcla!jimh
+#T	+1 503 472 5101 x261
+#P	1700 S. Baker St., McMinnville, OR 97128
+#L	45 12 N / 123 12 W city
+#R	
+#U	hp-pcd
+#W	root@hpmcla (Jim Harritt); Mon Jan 11 07:39:22 PST 1988
+#
+hpmcla	hp-pcd(DIRECT), hpcmmb(DAILY), hpmclo(LOCAL), hpbspa(DAILY), 
+	hpsadlc(DAILY), hpmcpa(LOCAL)
+
+#N	inteloa
+#S	
+#O	Intel Corporation Special Systems Operation
+#C	Kevin Kahn
+#E	icalqa!inteloa!kck
+#T	(503) 681-4289
+#P	JF1-2-108, OR
+#L	
+#R	
+#W	Date faked by davids@iscuva.iscs.com; Thu Jan  1 00:00:00 PST 1987
+#
+inteloa icalqa(DAILY), imaxvax(DAILY), intelob(DAILY), intelqa(DAILY),
+	ogcvax(DAILY), verdix(DAILY)
+
+#N	islabs
+#S	SUN-3/50M; 4.2BSD SUN Release 3.0
+#O	Integrated Solutions, Inc.
+#C	John Wipfli
+#E	islabs!john
+#T	+1 503 640 1478
+#P	1284 SE 34th Avenue, Hillsboro, OR 97123
+#L	45 31 N / 122 59 W city
+#R	
+#U	verdix
+#W	islabs!john (John Wipfli); Tue Jan 13 20:54:25 EST 1987
+#	
+islabs	sequent(DIRECT), verdix(DIRECT)
+
+#N	jasmic
+#S	National ICM 3216; Unix system V
+#O      Jasmic Systems
+#C	John Sechrest
+#E	orstcs!jasmic!sechrest
+#T	+1 503 929 6278
+#P	30606 Petersen RD, Corvallis Oregon 97333
+#L	44 34 N / 123 16 W city
+#R	Up and runing notes and uucp
+#U	orstcs
+#W	orstcs!sechrest (John Sechrest); Fri Apr 10 16:47:13 EDT 1987
+
+#N	kentrox
+#S	AT&T UNIX PC (Miniframe-); sys5r2(?)
+#O	Kentrox Industries
+#C	George Schroeder
+#E	kentrox!root
+#T	+1 503 643 1681 x306
+#P	P.O. Box 10704, Portland, Oregon  97210-0704
+#L	45 29 N / 122 48 W city
+#R
+#U
+#W	kentrox!george (George Schroeder); Fri Jan  8 16:00:34 EDT 1988
+#
+kentrox	ogcvax(EVENING)
+
+#N	kjvw
+#S	Wyse AT S.C.O Xenix version 2.1.4
+#O
+#C	Kevin VandeWettering
+#E	kjvw!kevin
+#T	+1 503 649 2107
+#P	20525 SW Blanton Aloha, Oregon 97007
+#L	45 29 N / 122 52 W
+#R
+#U	
+#W	kjvw!kevin (Kevin VandeWettering); Jul  13 11:42:11 PST 1987
+#
+kjvw    escargot(POLLED), bucket(HOURLY), percival(HOURLY)
+
+#N	lakeoz
+#S	Intel 310; Xenix 3.4
+#O	Adams Associates
+#C	Robert Adams
+#E	lakeoz!usenet
+#T	+1 503 636 3695
+#P	17582 Cardinal Dr; Lake Oswego, Oregon 97034
+#L	
+#R	
+#W	lakeoz!robert (Robert Adams); Tue Jan 13 20:55:21 EST 1987
+#U	percival
+#
+lakeoz	percival(EVENING), reed(EVENING)
+
+#N	larkint
+#S	NCC 80286; Microport V/286 SYS 5.2
+#O	Computer Communication Technologies, Aloha Oregon
+#C	Terry D. Larkin
+#E	larkint!larkint
+#T	+1 503 649 6929
+#P	1809 S.W. Blaine Drive, Aloha, OR 97006
+#L	45 30 N / 123 30 W city
+#R	central machine for Computer Communication Technologies
+#U	qiclab 
+#W	larkint!larkint (Terry D. Larkin); Friday Dec 18 21:17:21 PDT 1987
+#
+larkint	qiclab(HOURLY), ohsu(HOURLY), tessi(DAILY/8), bucket(DAILY/8),
+        ohsu2(HOURLY)
+
+#N	lauto
+#S	apollo DSP3000; DOMAINIX
+#O	Logic Automation Inc
+#C	Bob Flatt
+#E	lauto!postmaster
+#T	+1 503 690 6900 x7510
+#P	19500NW Gibbs Dr , Beverton OR 97005
+#L	45 30 00 N / 122 52 30 W
+#R	
+#U	
+#W	lauto!bobf (bob flatt) ; Tuesday, October 6, 1987   3:03:09 pm (PDT)
+#
+lauto  sequent(HOURLY), ogcvax(HOURLY), islabs(HOURLY)
+
+#N	littlei
+#S	Intel 386/310; Xenix 3.4
+#O	Intel Corp., ISO Systems Development, Hillsboro, OR
+#C	Robert Adams
+#E	littlei!postmaster
+#T	+1 503 681 2260
+#P	5200 NE Elam Young Parkway; Hillsboro, Oregon 97123
+#L	42 32 N / 122 59 W
+#R	Will eventually be domain gateway for many internal machines.
+#U	reed intelisc ogcvax
+#W	littlei!adams (Robert Adams); Sun May 31 22:39:57 EDT 1987
+#
+littlei	reed(HOURLY), intelis(HOURLY), ogcvax(EVENING), omepd(EVENING),
+	metheus(EVENING)
+
+#N	magic4
+#S	AT&T 3B2/400 ; Sys V 2.0.4
+#O	AT&T, Portland, Or.
+#C	Eric Kozowski 
+#E	magic4!eric
+#T	+1 503 295 4250
+#P	2020 S.W. Fourth, Suite 500, Portland, Or. 97201
+#L	45 29 N / 122 48 W city
+#R	Mail and  News 
+#U	bucket
+#W	magic4!eric (Eric Kozowski); Tue Jan 05 14:06:38 PST 1988
+#
+magic4	bucket(DEMAND), escargot(POLLED)
+
+#N	metheus
+#S	Vax 780/750/730, 5 Suns, 40 Metheus Lambdas, many pc's. Unix 4.1/2/3
+#O	Metheus
+#C	Rex Mc Dowell
+#E	metheus!rex
+#T	+1 800 547 5315
+#P	5510 N.E. Elam Young Parkway, Hillsboro, Or. 97124
+#R	gateway machine to Metheus Company LAN
+#W	metheus!rex (Rex McDowell); Mon Jan 11 10:41:20 PST 1988
+#
+metheus ogcvax(DEMAND)
+
+#N	murasaki
+#M	Intel SYP310; XENIX 286 R3.4
+#O	Intel Corporation, Hillsboro OR
+#C	Roberta Taussig, Tom Walsh
+#E	murasaki!rmt, foobar!tw
+#T	+1 503 696 5607
+#P	5200 NE Elam Young Parkway, HF3-59; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#R	was called groucho, aliasing to groucho.hf.intel.com
+#W	foobar!tw (Tom Walsh); Tue Oct 20 13:42:49 PDT 1987
+murasaki foobar(LOCAL), ihf1(DIRECT)
+murasaki= murasaki.hf.intel.com
+murasaki= groucho.hf.intel.com
+
+#N	nosun
+#S	Sun 3/180; SunOS 3.2
+#O	Sun Microsystems, Portland Oregon
+#C	Rick Verbeck
+#E	nosun!rick
+#T	+1 503 684 9001
+#P	9900 S.W. Greenburg Road Suite 240, Portland, Oregon 97223
+#L	45 29 N / 122 48 W city
+#R
+#U	tektronix
+#W	nosun!rick (Rick Verbeck); Mon Nov 23 15:25:50 PST 1987
+#
+nosun	oresoft(DIRECT), sharpwa(DEMAND), sun(DEMAND), sunup(DEMAND), 
+	tektronix(DIRECT), tessi(DIRECT)
+
+#N	nscpdc
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	National Semiconductor, Portland Development Center
+#C	Tony Lipinsky
+#E	nscpdc!tony
+#T	(503) 629-4428          (503) 629-9090
+#P	15201 NW Greenbrier Pkwy, Beaverton, Oregon, 97006
+#L	45 32 N / 122 50 W
+#R
+#U
+#W	nscpdc!tonyl(Tony Lipinsky); Mon Jan 19 00:00:00 PST 1988
+#
+nscpdc	nsc(DAILY*7), reed(DAILY*10), sequent(DAILY*7), atelabs(EVENING*14),
+	tsec(DEMAND), tektronix(DAILY), arnav(DAILY*12), metheus(DEMAND),
+	convgt(DEMAND), cdl(DEMAND), nasfc(EVENING*14), cvedc(EVENING*12)
+# Aliases for NSCPDC machines
+nsc-pdc = nscpdc
+
+#N	ogcvax
+#S	DEC VAX-11/780; 4.3+NFS BSD UNIX
+#O	Oregon Graduate Center, Dept. of Computer Science and Engineering
+#C	Bruce Jerrick
+#E	ogcvax!postmaster
+#T	+1 503 690 1157, +1 503 690 1151, +1 503 690 1121
+#P	19600 N.W. Von Neumann Dr., Beaverton, OR 97006-1999
+#L	45 29 N / 122 48 W city
+#R	
+#U	hp-pcd linfield littlei metheus sequent verdix
+#W	ogcvax!root (Bruce Jerrick); Tue Sep 29 21:20:21 PDT 1987
+#
+ogcvax	allegra(DAILY), atelabs(DAILY/4), bellcore(DAILY),
+	bit(DIRECT), cadic(WEEKLY), cvedc(DIRECT),
+	gssc(HOURLY), hp-pcd(DAILY/4), intelisc(DAILY/12),
+	inteloa(DIRECT), kentrox(DAILY), linfield(DAILY/2),
+	littlei(DAILY/2), lauto(DAILY), metheus(HOURLY/2),
+	nwis-or(WEEKLY), omepd(DIRECT), omssw1(HOURLY),
+	psueea(DIRECT), qtc(DIRECT), reed(DIRECT),
+	sequent(DIRECT), servio(DAILY/6), tekchips(DIRECT),
+	tektronix(DIRECT), uoregon(DAILY/6), verdix(DIRECT)
+
+#N	omen
+#S	SCO 386 Xenix
+#O	Omen Technology Inc
+#C	Chuck Forsberg
+#E	omen!caf
+#T	+1 503 621 3406
+#P	17505-V NW Sauvie IS RD Portland OR 97231
+#L	45 39 5 N / 122 49 50 W
+#U	reed
+#R omen Any ACU 2400 1-503-621-3746 se:--se: link ord: Giznoid in:--in: uucp
+#W	omen!caf (Chuck Forsberg); Mon Jan 11 09:13:45 PST 1988
+#
+omen	reed(LOCAL), percival(LOCAL), bucket(LOCAL)
+
+#N	omepd
+#S	DEC VAX-11/785; BSD4.3 UNIX
+#O	Intel Corporation
+#C	Mark Aitken, Jim Valerio
+#E	omepd!postmaster
+#T	+1 503 681 4768, +1 503 681 4387
+#P	2111 N.E. 25th Street, MS JF1-58, Hillsboro, OR 97123
+#L
+#R	Mail and news gateway for the company.
+#W	mark@omepd; Tue Jan 13 20:56:39 EST 1987
+#	
+omepd=	omepd.intel.com
+#
+#
+omepd 	inteloa(LOCAL), ogcvax(DEMAND), omssw1(DEDICATED), omssw2(DEDICATED),
+	psu-cs(DIRECT), uoregon(HOURLY), verdix(DIRECT)
+#
+#
+uoregon	omepd(DIRECT)
+#
+# Our domain
+#
+omepd	.intel.com(DEDICATED)
+
+#N      oregon
+#S      TEK 6212; UTek 2.2 4.2BSD UNIX
+#O      Harrison Industries
+#C      Pete Lancashire
+#E      oregon!petel
+#T      +1 503 627 2566
+#T      +1 503 647 5736
+#P      PO Box 387, Banks, OR, 97077-0387
+#L      45 37 N / 123 04 W
+#R      limited modem access, will consider mail
+#U      silicon, lupus, dinadan, corral, bucket
+#W      tekig5!petel (Pete Lancashire); Tue Jan 13 20:58:57 EST 1987
+#
+oregon	teksce(DIRECT), silicon(DIRECT), lupus(DIRECT), dinadan(DIRECT),
+	corral(DIRECT), bucket(DIRECT)
+
+#N	oregon2
+#S	DECsystem 1091; TOPS10 v7.02
+#O	University of Oregon
+#C	Dale Smith
+#E	oregon2!dsmith
+#T	(503) 686-4394
+#P	Computing Center, Eugene, OR 97403
+#L
+#U
+#R	TOPS10 -- no news, but mail
+#W	oregon2!dsmith (Dale Smith); Tue Jan 13 21:00:07 EST 1987
+#
+oregon2 uoregon(HOURLY/4), uoxray(HOURLY/2), uoneuro(HOURLY/2)
+
+#N	oresoft
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Oregon Software
+#C	Laura M. Freeman
+#E	oresoft!postmaster
+#T	+1 503 245 2202
+#P	6915 SW Macadam, Portland, OR 97219
+#L	45 28 30 N / 122 40 15 W
+#R	this entry will change dramatically in a month or so
+#U	 
+#W	oresoft!lauraf (Laura M. Freeman); Fri Oct 16 21:31:03 PDT 1987
+#
+oresoft		reed(DAILY), nosun(DEMAND), tektronix(DAILY)
+
+#N	paisys
+#S	Radio Shack Model 16B; Xenix 3.1
+#O	Paul's Auto Imports
+#C	Bernie Hoffstadt
+#E	paisys!usenet,paisys!cutter
+#T	+1 503 753 1646
+#P	1437 N.W. 9th St. Corvallis, Oregon 97330
+#L	44 34 N / 123 16 W city
+#R	
+#U	
+#W	paisys!cutter (Bernie Hoffstadt); Fri Jan  8 12:38:00 PST 1988
+#
+paisys	cutsys(DIRECT), cormom(DIRECT), jasmic(DIRECT)
+
+#N	parsely
+#S	Stride 440 MC68010; UniStride 2.1 UNIX (Sys V + 4.3BSD)
+#O	The Affiliates' Complex
+#C	Tod Oace,	Bruce Simons
+#E	parsely!tod,	parsely!bruce
+#T	+1 503 225 0501
+#P	2335 NW 29th Ave, Portland OR  97210
+#L	45 32 29 N / 122 42 30 W
+#R	Hobbyist environment / Software & Hardware development
+#U	bucket agora
+#W	parsely!tod; Mon Feb  1 19:31:28 PST 1988
+#
+parsely	agora(DIRECT),  argent(HOURLY), bucket(DIRECT),  casper(POLLED),
+	dhw68k(WEEKLY), enky(DIRECT),   itofski(POLLED), mltco(WEEKLY),
+	psueea(DIRECT), qiclab(DIRECT), stride1(WEEKLY)
+
+#N	percival
+#S	Tektronix 6210; UTek v2.1
+#O	Percy's UNIX, Portland, OR
+#C	Michael N. Galassi
+#E	percival!postmaster
+#T	+1 503 236 0305
+#P	POB 13697, Portland, OR 97230
+#L	45 31 N / 122 39 W
+#R	This is a privately owned and operated system for semi-public use
+#U	reed bucket omen qiclab lakeoz
+#W	percival!nerd (Michael N. Galassi); Fri Apr 10 16:49:29 EDT 1987
+#
+percival	reed(HOURLY), argent(DAILY/4), omen(DAILY/6), enky(DEMAND),
+	agora(HOURLY), qiclab(DAILY/12), bucket(HOURLY), grail(DEAD),
+	hackervax(HOURLY*2), lakeoz(HOURLY*4), corsair(DEMAND), dinadan(DEAD)
+
+#N	psu-cs
+#S	VAX 11/780; BSD 4.3 UNIX
+#O	Portland State University, Department of Computer Science
+#C	Mark C. Mason
+#E	psu-cs!mmason
+#T	+1 503 464 4059
+#P	P.O. Box 751, Portland, OR 97207
+#L	45 30 45 N / 122 41 01 W
+#R
+#U	reed psueea awaken omepd qiclab
+#W	psu-cs!mmason (Mark C. Mason); Mon Jan 11 09:41:53 PST 1988
+#
+psu-cs	psueea(DEDICATED), psuorpn(DIRECT), reed(DIRECT), oresoft(POLLED),
+	tektronix(DEMAND), qiclab(DIRECT), awaken(EVENING), omepd(POLLED),
+
+#N	psueea
+#S	VAX 11/750; BSD 4.3 UNIX
+#O	Portland State University, Department of Electrical Engineering
+#C	Janaka Jayawardena
+#E	psueea!janaka
+#T	+1 503 464 3806
+#P	P.O. Box 751, Portland, OR 97207
+#L	45 30 45 N / 122 41 01 W
+#R	Gateway to the EE and CS domains (CS still has their own uucp though)
+#U	psu-cs 
+#W	psueea!janaka (Janaka Jayawardena); Fri Oct  9 12:02:47 PDT 1987
+#
+psueea	psu-cs(DEDICATED), psuorpn(DEDICATED), ogcvax(DAILY/6),
+	tektronix(DAILY/6), uoregon(DEAD), parsely(DEAD), orstcs(DAILY/6)
+
+#N	psuorpn
+#S	Gould Powernode 9005; UTX/32 3.2
+#O	Portland State University, Computer Center
+#C	Mike Kephart
+#E	psuorpn!mike
+#T	+1 503 464 3280
+#P	P.O. Box 751, Portland, OR 97207
+#L	45 30 40 N / 122 41 06 W
+#R
+#U
+#W	psu-cs!mmason (Mark C. Mason); Mon Jan 11 09:41:03 PST 1988
+#
+psuorpn	psu-cs(DIRECT), psueea(DIRECT)
+
+#N	qiclab
+#S	Tektronix 6205; UTek W1.12.6 2.1 Tek6200
+#O	Qic Laboratories of Portland Oregon
+#C	Steven C. Neighorn
+#E	qiclab!neighorn
+#T	+1 503 645 7015
+#P	13222 S.E. Harold Street, Portland, OR 97236-4143
+#L	45 34 41 N / 122 31 26 W
+#R	Gateway machine for Qic Labs & Agency Automation
+#U	psu-cs percival catlabs ohsu larkint equipe bigtex
+#W	qiclab!neighorn (Steven C. Neighorn); Sunday Feb 21 14:20:15 PDT 1988
+#
+qiclab	percival(HOURLY), agora(HOURLY), omen(WEEKLY),
+	bucket(HOURLY), reed(HOURLY), psu-cs(HOURLY),
+	bakwatr(DAILY), corsair(WEEKLY), ohsu(HOURLY),
+	escargot(HOURLY), ogcvax(HOURLY), safari(EVENING),
+	hackervax(DAILY/8), catlabs(DEDICATED), enky(HOURLY),
+	larkint(HOURLY), celene(DAILY), upcreek(DAILY),
+	casper(DAILY), pschool(WEEKLY), rodan(WEEKLY),
+	pcmsam(DAILY), hughes(DAILY), techbks(DAILY),
+	tessi(HOURLY), bigtex(DEMAND), ohsu2(HOURLY),
+	equipe(DAILY), parsely(DAILY), mustang(DAILY),
+	ble(DAILY)
+
+#N	qtc
+#S	Sequent Balance 8000; Dynix 2.1
+#O	Quantitative Technology Corporation
+#C	Ed Lisle, Jim Prouty
+#E	qtc!usenet
+#T	+1 503 626 3081
+#P	Suite D, 8700 S.W. Creekside Place, Beaverton, Oregon   97005
+#L	45 29 N / 122 48 W  city
+#R	Software Consultants for Mathematical Super-Computing
+#U	verdix
+#W	qtc!jim (Jim Prouty); Fri Jan  8 16:12:36 PST 1988
+#
+qtc	sequent(DIRECT), pyramid(DEMAND+LOW), amdcad(DEMAND+LOW),
+	elxsi(DEMAND+LOW), ogcvax(WEEKLY)
+
+#N	reed
+#S	Vax 11/785 4.3bsd
+#O	Reed College
+#C	Gary Schlickeiser
+#E	tektronix!reed!schlick
+#T	(503) 771-1112 x570
+#P	Director, Academic Computing, Portland, OR
+#L	45 33 N / 122 36 W city
+#R	
+#W	reed!schlick; Fri Apr 10 16:52:21 EDT 1987
+#
+reed	cadic(DEMAND), omssw2(DEMAND), littlei(DEMAND), nscpdc(DEMAND),
+	psu-cs(DEMAND), ogcvax(DEMAND), omen(DAILY), oresoft(DAILY),
+	tektronix(DEMAND), lakeoz(DAILY), standard(DAILY), pdxvar(DAILY),
+	uoregon(WEEKLY), mdr(DAILY), dinadan(DAILY), arnav(DAILY),
+	darkzone(DAILY), percival(DEMAND), linfield(WEEKLY), august(DAILY),
+	iscuva(DAILY), tessi(DAILY), qiclab(DAILY), xelpmoc(DAILY),
+	cvedc(WEEKLY)
+
+#N	rodan
+#S
+#O	
+#C	Bob Lewis
+#E	tessi!bobl
+#T	+1 503 248 0553
+#P	3425 SW Barbur, #6, Portland, OR 97201
+#L
+#R
+#W	seismo!rick; Sun May 31 23:21:23 EDT 1987
+#U
+#
+rodan	uunet
+
+#N	safari
+#S	AT&T UNIX PC 7300; System V.2 release 3.0
+#O	Safari Time Labs
+#C	David A. Munroe
+#E	safari!dave
+#T	+1 503 245 0542
+#P	9040 SW 69th Avenue, Portland, Oregon 97223
+#L	45 34 N / 122 38 W city
+#R
+#U	argent trogon
+#W	safari!dave (dave munroe); Sun May 31 23:04:46 EDT 1987
+#
+safari	argent(DAILY/6), bucket(DAILY/8), mizer(DAILY/8), omen(DAILY/4),
+	qiclab(DAILY/8), trogon(DAILY/4)
+
+#N	sequent
+#S	Sequent Balance 8000; DYNIX (4.2bsd)
+#O	Sequent Computer System, Inc.
+#C	Douglas Monroe
+#E	sequent!monroe,sequent!usenet
+#T	+1 503 626 5700
+#P	15450 Koll Parkway, Beaverton, OR 97006-6063
+#L	45 29 N / 122 48 W city
+#R
+#W	sequent!monroe (Doug Monroe); Fri Jan 17 09:30:05 PST 1986
+#
+# local sites
+sequent ogcvax(DIRECT+HIGH), qtc(DIRECT), tektronix(DIRECT), verdix(DIRECT), 
+	nscpdc(DIRECT), islabs(DAILY), gssc(HOURLY), oresoft(DAILY),
+	upvax(WEEKLY)
+#
+# long distance sites
+sequent sjsqnt(DAILY/2), nhsqnt(DAILY/2), mycroft(DAILY), sybil(DAILY/2),
+	uiucuxa(DAILY*2), attunix(EVENING), decwrl(EVENING), laidback(DEMAND), 
+	maddog(EVENING), mtxinu(EVENING), nsc(DEMAND), pur-ee(EVENING), 
+	purdue(EVENING), riacs(EVENING), unisoft(EVENING), ut-sally(EVENING), 
+	vax135(EVENING)
+
+#N	servio
+#S	DEC VAX-11/750; VMS 4.3
+#O	Servio Logic Development Corporation
+#C	Rick Nelson, Monty Williams
+#E	servio!uucp
+#T	+1 503 644 4242
+#P	15025 S.W. Koll Parkway, 1A, Beaverton, OR 97006
+#L	122 48 W / 45 29 N city
+#R	
+#U
+#W	servio!williamsm (Monty Williams); Mon Sep  1 21:50:57 EDT 1986
+#
+servio	ogcvax(DAILY/4)
+
+#N	ssovax
+#S	
+#O	Intel Corporation Special Systems Operation
+#C	Steve Scalpone
+#E	intelqa!ssovax!rascal
+#T	(503) 642-6457
+#P	3585 SW 198th Ave., Aloha, OR 97007
+#L	45 29 N / 122 52 W city
+#R	
+#W	faked date by davids@iscuva.iscs.com; Thu Jan  1 00:00:00 PST 1987
+#
+ssovax	intelqa(DAILY)
+
+#N	tessi
+#S	Sun 3/160; SunOS 3.4
+#O	Test Systems Strategies, Inc.
+#C	Joe Pruett
+#E	tessi!joey
+#T	+1 503 643 9281
+#P	8205 SW Creekside Place, Beaverton, OR 97005
+#L	45 29 N / 122 48 W city
+#R
+#U	reed
+#W	tessi!joey (Joe Pruett); Mon Dec 21 15:32:29 PST 1987
+#
+tessi	aardvark(DIRECT), atelabs(DIRECT), bucket(DIRECT),
+	context(DIRECT), larkint(DIRECT), mntgfx(DIRECT),
+	nosun(DIRECT), omen(DAILY), percival(DIRECT), qiclab(DIRECT),
+	reed(DIRECT), rodan(DAILY), sequent(DIRECT), tektronix(DIRECT),
+	uoregon(DAILY)
+
+#N	thid
+#M	Intel System 286/310; XENIX 286 R3.5
+#O	Intel Corporation, OMSO Multibus II Engineering
+#C	Brian Bishop
+#E	thid!bishop
+#T	+1 503 696 7699, +1 503 696 7702
+#P	5200 NE Elam Young Parkway, HF3-73; Hillsboro, OR 97124
+#L	45 31 N / 122 59 W city
+#W	thid!bishop (Brian Bishop); Thu Jan 28 13:34:49 PST 1988
+#
+thid	aahz(DEDICATED), argent(DEDICATED), ru-ru(DEDICATED),
+	mithril(DEDICATED)
+thid=	thid.hf.intel.com
+
+#N	uo-vax1
+#S	11/750, 4.2BSD
+#O	University of Oregon
+#C	Mark Aitken
+#E	uoregon!mark
+#T	(503) 686-4469
+#P	Eugene, OR 97403
+#L	
+#U	
+#R	
+#W	ksh per paper form 7/29/85; Sun Nov  3 00:00:00 PST 1985
+#
+uo-vax1 uoregon(DEMAND), uo-vax3(DEMAND)
+
+#N	uo-vax3
+#S	11/750, 4.2BSD
+#O	University of Oregon
+#C	Mark Aitken
+#E	uoregon!mark
+#T	(503) 686-4469
+#P	Eugene, OR 97403
+#L	
+#U	
+#R	
+#W	ksh per paper form 7/29/85; Sun Nov  3 00:00:00 PST 1985
+#
+uo-vax3 uoregon(DEMAND), uo-vax1(DEMAND)
+
+#N	uoneuro
+#S	11/750, VMS v4.4
+#O	University of Oregon
+#C	David Brumbley
+#E	uoneuro!brumbley
+#T	(503) 686-4516
+#P	Institute of Neuroscience, Eugene, OR 97403
+#L
+#U
+#R	VMS -- no news, but mail
+#W	oregon2!dsmith (Dale Smith); Tue Jan 13 21:10:48 EST 1987
+#
+uoxray oregon2(HOURLY/2)
+
+#N	uoregon
+#S	11/750, 4.3BSD
+#O	University of Oregon
+#C	Mark Aitken
+#E	uoregon!mark
+#T	(503) 686-4469
+#P	Eugene, OR 97403
+#L
+#U	hp-pcd omepd
+#R
+#W	iscuva!davids via phone; Thu Dec 17 16:26:24 PST 1987
+#
+uoregon tektronix(HOURLY), hp-pcd(HOURLY), orstcs(HOURLY), ogcvax(HOURLY),
+	omepd(HOURLY), drizzle(LOCAL), fog(LOCAL), mist(LOCAL), reed(DAILY),
+	osu-cis(DAILY), chemstor(DEMAND)
+
+#N	uoxray
+#S	11/780, VMS v4.4
+#O	University of Oregon
+#C	Dale Tronrud
+#E	uoxray!dale
+#T	(503) 686-5176
+#P	Institute of Molecular Biology, Eugene, OR 97403
+#L
+#U
+#R	VMS -- no news, but mail
+#W	oregon2!dsmith (Dale Smith); Tue Jan 13 21:11:48 EST 1987
+#
+uoxray oregon2(HOURLY/2)
+
+#N	vantage
+#S	Hewlett-Packard HP9000/540; HP-UX 5.11
+#O	Vantage Consulting and Research Corporation
+#C	Ray Liere
+#E	vantage!UUCP
+#T	+1 503 657 7294
+#P	1017 Molalla Avenue, Suite 3, Oregon City, Oregon 97045, USA
+#L	122 35 30 W / 45 20 26 N
+#R
+#U
+#W	vantage!ray (Ray Liere); Sat Jul 25 09:28:25 PDT 1987
+#
+vantage	hpubvwa(EVENING)
+
+#N	verdix
+#S	Vax 11/750, 4.2BSD
+#O	Verdix Corp., Western Operations
+#C	Chris Paris
+#E	verdix!cap
+#T	(503) 690-1116
+#P	1600 NW Compton Dr., Suite 357, Aloha, OR 97006
+#L	45 31 52 N / 122 52 47 W city
+#W	Chris Paris 12/18/86; Sun Feb 15 15:52:17 EST 1987
+#
+verdix	vrdxhq(DEDICATED), ogcvax(DEMAND), sequent(DEMAND), ihnp4(DEMAND),
+	inteloa(DEMAND), harvax(DEMAND), sun(DEMAND), rtech(DEMAND),
+	tl-vaxa(DEMAND), hispace(POLLED), ccicpg(DEMAND), hackervax(POLLED),
+	islabs(DEMAND), omepd(DEMAND), qtc(DEMAND), tolerant(DEMAND),
+	zaiaz(DEMAND), mips(DEMAND), convex(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

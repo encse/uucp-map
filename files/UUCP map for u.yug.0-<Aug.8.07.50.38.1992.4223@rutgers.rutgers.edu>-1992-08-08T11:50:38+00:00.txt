@@ -1,0 +1,41 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.yug.0
+: This archive created: Sat Aug  8 07:50:36 1992
+echo shar: extracting u.yug.0
+cat << 'SHAR_EOF' > u.yug.0
+# u.yug.0 of 0,1; changes to: uucpmap@mcsun.uucp
+# Copyright 1989-1992 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# Last change: Fri Dec 21 18:14:29 MET 1990
+
+#N	ninurta, hp300, lrss01, robo, lkn
+#S	HP Systems 9000 Series 835SE, HP-UX 7.0
+#O	Faculty for Electrical and Computer Engineering
+#C	Leon Mlakar
+#T	+38 61 265161
+#E	leon@ninurta.fer.yu
+#P	Trzaska 25, YU-61000 Ljubljana, Yugoslavia
+#R	Yugoslavian EUnet backbone site
+#W	leon@ninurta.fer.yu 900503
+#
+ninurta	.yu
+ninurta = yugoslavia.eu.net
+ninurta	.fer.yu
+ninurta = ninurta.fer.yu
+# Backbone links
+ninurta	mcsun(ARPA-2)
+# National links
+ninurta	muv31a(DEMAND), hpuljuc(DAILY), zgbbs(DEMAND), ro1(DEMAND),
+	parex(DEMAND), itel(DEMAND), rculj(DEMAND), mikrohit(DEMAND),
+	kibk3(DEMAND), kekec(DEMAND), atr(DEMAND)
+# Very old links now marked as dead
+ninurta idc(DEAD)
+# Local links
+FERnet = {ninurta, hp300, lrss01, robo, lkn}!(LOCAL)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

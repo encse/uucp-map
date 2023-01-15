@@ -1,0 +1,256 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.nm.1
+# This archive created: Thu Dec  3 04:04:24 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.nm.1
+cat << \SHAR_EOF > u.usa.nm.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Sep 20 13:21:39 MDT 1987
+
+#N	acg
+#S	Celerity 1260; 4.2 BSD Unix
+#O	Advanced Computing Group, Los Alamos National Laboratory
+#C	James E. O'Dell
+#E	ihnp4!lanl!acg!jim, jeo@lanl.arpa
+#T	(505)-667-0003
+#P	MS-K722, Los Alamos Natl. Lab., Los Alamos, NM 87545
+#L	36/106
+#R	Keeper of the DOE MACSYMA sources., Current copy of GNU Emacs.
+#U	hc crunch
+#W	ihnp4!lanl!acg!jim [James E. O'Dell); Fri. March 14,1986
+#
+acg	lanl(HOURLY), hc(HOURLY), crunch(HOURLY)
+
+
+#N	aleph0
+#S	SUN 3/160C; 4.2 BSD UNIX
+#O	Department of Mathematics & Statistics, University of New Mexico
+#C	Michael Wester
+#E	aleph0!netmaster
+#T	+1 505 277 6292
+#P	Albuquerque, New Mexico   87131
+#L	35 04 55 N / 106 37 46 W [city]
+#R	
+#U	crunch
+#W	aleph0!wester (Michael Wester); Tue Aug  5 12:05:48 MDT 1986
+#
+aleph0	crunch(LOCAL), gemini(LOCAL), kyner(LOCAL)
+
+
+#N	crunch
+#S	Sun 2/150 ; 4.2 BSD UNIX
+#O	University of New Mexico, Math and Statistics Dept
+#C	Stanly Steinberg
+#E	crunch!netmaster
+#T	+1 505 243 6090
+#P	Albuquerque NM, 87131
+#L	35 04 55 N / 106 37 46 W [city]
+#R	
+#U	unmc aleph0 gemini kyner acg unmvax unmfys
+#W	crunch!josh; Sat Jun 28 20:40:13 MDT 1986
+#
+crunch	unmvax(HOURLY), unmc(HOURLY), aleph0(LOCAL), kyner(LOCAL),
+	gemini(LOCAL), acg(HOURLY), unmfys(HOURLY)
+
+
+
+#N      hc
+#S      DEC VAX 11/785; 4.3 BSD UNIX
+#O      Los Alamos National Laboratory -- MEE-10/Data Systems
+#C      Bob Tomlinson
+#E      tomlin@hc.ARPA
+#T      +1 505 667 8495
+#P      Los Alamos National Laboratory, MS K-488;  E-10, Los Alamos, NM  87545
+#L      35 53 N / 106 19 W city
+#R
+#W      tomlin@hc.arpa (Bob Tomlinson); Mon Aug  4 09:09:10 MDT 1986
+#U      lanl
+#
+hc	lanl(DIRECT), unm-la(DIRECT), unmvax(DEMAND), acg(DIRECT),
+	uxgcc(DEMAND), cacilj(DEMAND), ames(DEMAND), hi(DEMAND), jedi(DEMAND),
+	csed-1(DAILY/3)
+
+
+
+
+#N	hi
+#S	SUN 3/160C; SUN UNIX 3.3 (4.2BSD)
+#O	U. of New Mexico, Parallel Processing Research Group
+#C	Kurt Zeilenga
+#E	usenet@hi.UUCP
+#T	+1 505 277 1611
+#P	Albuquerque, New Mexico 87131
+#L	35 04 55 N / 106 37 46 W city
+#R	Mail If I don't know the address, maybe HC will...
+#W	zeilenga@hc.dspo.gov (Kurt Zeilenga); Sun May  3 10:58:29 MDT 1987
+#U	hc jedi
+#
+hi	hc(DEMAND), jedi(DEMAND)
+
+
+
+#N	intvax
+#S	DEC MicroVAXII; Ultrix 1.2
+#O	Sandia National Laboratories
+#C	William M. Davidson
+#E	intvax!davidson
+#T	+1 505 846 1868
+#P	Org. 1411, Albuquerque, NM  87185-5800
+#L	35 03 15.7246 N / 106 32 35.855 W
+#R
+#U	sandia
+#W	intvax!davidson (William M. Davidson); Mon Dec 15 17:08:30 MST 1986
+#
+intvax	sandia(HOURLY)
+
+
+
+#N	lanl
+#S	DEC VAX-8600; 4.3 BSD UNIX
+#O	Los Alamos National Laboratory 
+#C	James R. Clifford
+#E	jrc@LANL.{GOV,UUCP}
+#T	+1 505 667 2596
+#P	Mail Stop B294, Los Alamos, NM 87545 
+#L	106 19 W / 35 53 N
+#R	lanl is the DDN and uucp gateway to the Los Alamos Integrated
+#	Computer Network.  Mail is forwarded invisibly to other LANL hosts.
+#E	jhf@LANL, 1984-12-18
+#W	lanl!jrc (James R. Clifford); Tue Jun  2 20:52:37 MDT 1987
+#
+lanl	cmcl2(DIRECT), hc(DIRECT), ihnp4(DEMAND), unm-la(DIRECT)
+
+
+
+#N	nmtvax
+#S	Type/OS: Vax 11/750, Berkley 4.3BSD
+#O	New Mexico Tech
+#C	Robert Balser
+#E	robert@nmtvax.UUCP
+#T	(505) 835-5935
+#P	Computer Science Department, Socorro, NM 87801
+#L	34 04 N / 106 54 W city
+#R
+#W	nmtvax!david  05/01/87
+#U	unmvax
+#
+nmtvax	lanl(WEEKLY), unmc(WEEKLY), unmvax(DAILY/2), noao(WEEKLY)
+
+
+
+#N	sandia
+#S	DEC VAX-11/780; Ultrix 1.2
+#O	Sandia National Laboratories, Divsion 9224
+#C	Mike Arms
+#E	sandia!usenet
+#T	+1 505 844 3051
+#P	PO Box 5800, Albuquerque, NM 87175
+#L	35 04 55 N / 106 37 46 W city
+#R
+#U	unmvax
+#W	sandia!marms (Mike Arms); Fri May  1 11:17:11 MDT 1987
+#
+sandia	unmvax(HOURLY), intvax(HOURLY), sunpeaks(WEEKLY), rtech(WEEKLY)
+
+
+
+#N	sunspot
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	National Solar Observatory / Sacramento Peak
+#C	Leonard Sitongia
+#E	sunspot!root
+#T	+1 505 434 1390
+#P	Sunspot, New Mexico 88349 United States of America
+#L	105 49 12 W / 32 47 12 N
+#R	A Division of the National Optical Astronomy Observatories
+#U	noao
+#W	sunspot!mother (Leonard Sitongia); Mon Dec  1 09:13:54 MST 1986
+#
+sunspot	noao(HOURLY)
+
+
+
+#N	unm-la
+#S	Vax 11/750; 4.2BSD Unix
+#O	University of New Mexico at Los Alamos
+#C	Jay Plett
+#E	postmaster@unm-la.UUCP
+#T	(505)662-5919
+#P	UNM-LA, 4000 University Drive, Los Alamos, New Mexico 87544
+#L	106 19 14 W / 35 53 08 N
+#R	
+#W	unm-la!jay (Jay Plett); 28 June 1986
+#U	lanl unmvax
+#
+unm-la	lanl(DIRECT), unmvax(DEMAND), unmg(EVENING), hc(DEMAND)
+
+
+
+#N	unma
+#S	DEC VAX-11/785; 4.3 BSD UNIX
+#O	University of New Mexico, Computing Center
+#C	Van Rauch, Scott Morgan
+#E	unma!van, unma!smorgan
+#T	+1 505 277 8053
+#P	2701 Campus Boulevard NE, Albuquerque, NM 87131
+#L	35 05 15 N / 106 36 55 W
+#R
+#U
+#W	smorgan@unma (Scott Morgan); Sun Aug  3 19:36:42 MDT 1986
+#
+unma	unmc(DIRECT)
+
+
+#N	unmc
+#S	DEC VAX-11/780; Ultrix-32 v1.1
+#O	University of New Mexico, Computing Center
+#C	Van Rauch, Scott Morgan
+#E	unmc!van, unmc!smorgan
+#T	+1 505 277 8053
+#P	2701 Campus Boulevard NE, Albuquerque, NM 87131
+#L	35 05 15 N / 106 36 55 W
+#R
+#U
+#W	smorgan@unmc (Scott Morgan); Sun Aug  3 19:35:42 MDT 1986
+#
+unmc	unmvax(HOURLY), lanl(WEEKLY), nmtvax(WEEKLY), crunch(HOURLY),
+	unma(DIRECT), unmg(DIRECT), unmi(DIRECT)
+
+
+#N	unmg
+#S	DEC VAX-11/780; Ultrix-32 v1.1
+#O	University of New Mexico, Computing Center
+#C	Van Rauch, Scott Morgan
+#E	unmg!van, unmg!smorgan
+#T	+1 505 277 8053
+#P	2701 Campus Boulevard NE, Albuquerque, NM 87131
+#L	35 05 15 N / 106 36 55 W
+#R
+#U
+#W	smorgan@unmg (Scott Morgan); Sun Aug  3 19:36:24 MDT 1986
+#
+unmg	unmc(DIRECT), unm-la(DAILY)
+
+
+#N	unmi
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	University of New Mexico, Computing Center
+#C	Van Rauch, Scott Morgan
+#E	unmi!van, unmi!smorgan
+#T	+1 505 277 8053
+#P	2701 Campus Boulevard NE, Albuquerque, NM 87131
+#L	35 05 15 N / 106 36 55 W
+#R
+#U
+#W	smorgan@unmi (Scott Morgan); Sun Aug  3 19:36:57 MDT 1986
+#
+unmi	unmc(DIRECT)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

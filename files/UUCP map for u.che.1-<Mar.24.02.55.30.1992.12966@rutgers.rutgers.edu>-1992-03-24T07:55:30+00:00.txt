@@ -1,0 +1,832 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.che.1
+: This archive created: Tue Mar 24 02:55:28 1992
+echo shar: extracting u.che.1
+cat << 'SHAR_EOF' > u.che.1
+# last changed Fri Mar 20 11:30:31 MET 1992
+# changes to uucpmap@chsun.uucp
+#
+# Copyright 1989,1990,1991,1992 by EurOpen.
+# All rights reserved.
+# Permission is granted for non-commercial use.
+#
+# Swiss EUnet sites
+#
+#N      aare
+#S      SUN 4/75 - Sun OS
+#O      Ascom Tech AG
+#C      Georges Schild
+#E      gs@ascom.tech.ch
+#T      +41 65 24 30 29
+#P      Bielstrasse 122, Postfach 151, CH-4502 Solothurn
+#L      07 31 25 E / 47 12 50 N
+#U	chsun
+#W      chsun!poole ; Fri Jun 21 12:40:05 MET DST 1991
+#
+aare   chsun(DEMAND)
+aare	.tech.ascom.ch
+aare	= tech.ascom.ch
+aare	= ascom
+
+#N      adnov
+#S      Sparcstation 1, SunOS 4.0.3
+#O      AdNovum Informatik AG
+#C      Tomas Felner
+#E      adnov!tomas
+#T      01 272 61 11
+#P      Schindlerstr. 11, 8006 Zuerich (bis ca. 1.6.91)
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      chsun!poole ; Fri Aug 30 15:58:58 MET DST 1991
+#
+adnov	.adnov.ch
+adnov	= adnov.ch
+adnov   .adnovum.ch
+adnov   = adnovum.ch
+#
+adnov	chsun(DEMAND)
+
+#N amsoft
+amsoft	chsun(DEMAND)
+amsoft	= amsoft.net.ch
+amsoft  .amsoft.net.ch
+
+#N apus
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+apus	chsun(DEMAND)
+apus	= apus.ch
+apus	.apus.ch
+
+#N      as360
+#S	HP9000/???, HP-UX
+#O	Astrodienst Zurich AG
+#C	Alois Treindl
+#E	as360!alois
+#T	+41 1 3631253
+#P	Scheuchzerstrasse 19, CH-8006 Zurich, Switzerland
+#L	08 33 E / 47 22 N
+#U
+#W	chsun!poole ; Wed Oct 16 20:15:43 MET 1991
+as360	chsun(DEMAND)
+as360	= azur
+as360	= azur.ch
+as360	.azur.ch
+
+#N	birag
+#S	Compaq 486/33; SCO UNIX V.3 2.2
+#O	BIRAG Banken- und Industrierechenzentrum AG Guemligen
+#C	Erwin Richard
+#E	birag!postmaster
+#T	+41 31 33 22 11 
+#P      Mattenstrasse 6, CH-3073 Guemligen, Switzerland
+#L	46 56 04 N / 007 30 42 E
+#W	birag!richard (Erwin Richard); Mon Feb 7 09:00:00 MEZ 1992
+#
+birag	chsun(DEMAND)
+birag	= birag.ch
+birag	.birag.ch
+
+#N bootes
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+bootes	chsun(DEMAND)
+bootes	= ocag.ch
+bootes	.ocag.ch
+
+#N	salt
+#S      wyse 386
+#O      BRINE SA
+#C      Angelo Ruggiero
+#E      angelo@brine.uu.ch
+#T      +41 56 266900
+#P      Hardstrasse 41, 5430 Wettingen 
+#L	47 27 36 N / 8 20 04 E
+#R      
+#U
+#W 	chsun!poole ; Mon Aug 19 10:37:13 MET DST 1991
+#
+salt	chx400(DEMAND),chsun(DEMAND)
+salt	= brine.ch
+salt	.brine.ch
+salt	= brine
+
+#N      cernvax
+#S      VAX 8530, Ultrix 3.1
+#O      CERN European Laboratory for Particle Physics
+#C      Dietrich Wiegandt /DD
+#E      dietrich@cernvax
+#T      +41 22 7674940
+#P	CH-1211 Geneva 23, Switzerland
+#L      06 06 E / 46 14 N
+#R	
+#U      mcsun chx400
+#W      cernvax!dietrich 851120
+#
+#
+cernvax = cernvax.cern.ch
+cernvax .cern.ch
+#
+# Internal connections
+EAN = {cernvax, dxmint, priam, uxcoms, vxcrna, vxgift}!(LOCAL)
+EARN = {cernvax, cearn, cearnv2, cernadp, cernvm, cernemu1, crvxp173, cruxnhd, cruxnmc, cruxnmcd, cruxnmce, gen}!(LOCAL)
+CERN-ETHER = {cernvax, cernapo}!(LOCAL)
+
+#N	cgch
+#S	Sun 3/260; SunOS 4.0.3 (4.2 BSD UNIX)
+#O	CIBA-GEIGY AG, Basle, Switzerland
+#C	Heinz Naef, Kurt Brawand
+#E	cgch!usenet
+#T	+41 61 697 2675, +41 61 697 7293, Fax +41 61 697 3288
+#P	R-1045.3.37, P.O.Box, CH-4002 Basle
+#L	47 34 N / 07 37 E
+#R	local net sites not listed
+#W	chsun!poole ; Fri Jan 31 14:02:52 MET 1992
+#
+cgch = fiz.ciba-geigy.ch
+cgch = ciba-geigy.ch
+cgch .ciba-geigy.ch
+#
+cgch	chsun(DEMAND)
+
+#N      chvax
+#S      DEC Vax
+#O      UNIX Interessengemeinschaft Schweiz
+#C      Jean-Pierre Kousz
+#E      jpk@unigs.uucp
+#T      +41 1 830 75 70
+#P      Postfach 134, CH-8057 Zuerich
+#L      08 11 20 E / 47 07 10 E
+#U
+#W      chsun!poole ; Tue Jan  7 20:34:31 MET 1992
+#
+chvax   chsun(DEMAND), chx400(DEMAND), unizh(DEMAND), zhmicro(DEMAND), 
+	csux01(DEMAND), apus(DEMAND), dwest(DEMAND), msc(DEMAND), cbf(DEMAND),
+        zampa(DEMAND), kknet(DEMAND), credal(DEMAND)
+chvax = unigs
+
+
+#N      drsmbx                     
+#S      Mailbox (Unix System V/386)
+#O      SRG DRS-Mailbox CH-4024 Basel
+#C      H.-P.Kehrer                 
+#E      drs@drsmbx.uu.ch           
+#T      --41-61-343411            
+#P      Radio DRS, Presseinformation;DRS Mailbox;CH-4024 Basel
+#L      07 35 09 E  / 37 31 50 N
+#R      
+#U
+#W 	chsun!poole ; Mon Feb  3 22:37:02 MET 1992
+#
+drsmbx	chsun(DEMAND),chx400(DEMAND),pathos9(DEMAND)
+drsmbx  = drs
+drsmbx	= drs.ch
+drsmbx	.drs.ch
+
+#N getrz
+#W chsun!poole ; Fri Mar  6 19:11:22 MET 1992
+#R in the process of being connected
+getrz	chsun(DEMAND)
+getrz	= gez.ch
+getrz	.gez.ch
+
+#N golf
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+golf	chsun(DEMAND)
+golf	= nosco
+golf	= nosco.ch
+golf	.nosco.ch
+
+#N hamlet
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+hamlet	chsun(DEMAND)
+hamlet	= lsd.ch
+hamlet	.lsd.ch
+
+#N hpr
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+hpr	chsun(DEMAND)
+hpr	= hpr.pr.net.ch
+hpr	.hpr.pr.net.ch
+
+#N      hslrswi
+#S      DEC MicroVAX II ; UNIX 4.3BSD Tahoe
+#O      Ascom Hasler AG
+#C      Robert Owen 
+#E      hslrswi!postmaster
+#T      +41 31 633920
+#P      Belpstrasse 23, CH-3000 Berne 14, Switzerland
+#L      07 26 37 E / 46 56 44 N
+#R      
+#U      chsun, aut	
+#W      hslrswi!poole ; Thu Feb  6 12:27:30 MET 1992
+#
+hslrswi .ascom.ch
+hslrswi = ascom.ch
+hslrswi .postess.ch
+hslrswi = postess.ch
+hslrswi aut(HOURLY), chsun(HOURLY), chx400(HOURLY), idsia(HOURLY),
+	imuse(DAILY)
+
+#N ibasun1
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+ibasun1	chsun(DEMAND)
+ibasun1	= ibacom.ch
+ibasun1	.ibacom.ch
+
+#N ibbnxt1
+#S NeXTcube; MACH 2.1
+#O Ingenieurschule beider Basel
+#C Kurt Stettler
+#E ibbnxt1!postmaster
+#T +41 61 584 281
+#P Gruendenstrasse 40, Ch-4132 Muttenz, Switzerland
+#L 47 32 08 N/ 007 38 23 E
+#U
+#W ibbnxt1!se (Kurt Stettler); Fri Feb 14 10:35:53 GMT+0100
+#
+ibbnxt1	chsun(DEMAND)
+ibbnxt1	= ibb.ch
+ibbnxt1	.ibb.ch
+
+#N      idsia
+#S      SUN 3/280, SUNOS 3.5
+#O      Istituto Dalle Molle di Studi sull'Intelligenza Artificiale
+#C      Ken Ferschweiler
+#E      ken@idsia.uu.ch
+#T      +41 91 22 88 81
+#P      Corso Elvezia 36  CH-6900 Lugano
+#L      08 57 10 E / 46 00 18 N
+#U
+#W	chx400!poole ; Fri Nov 22 16:47:59 MET 1991
+#
+idsia	chx400(DEMAND),chsun(DEMAND)
+idsia	= idsia.ch
+idsia	.idsia.ch
+
+#N	impch,impch.imp.com
+#S	i386/33 SCO Unix V3.2v2
+#O	ImproWare Computersysteme
+#C	Patrick Guelat, Sacha Gloor
+#E	impteam@impch
+#T	+41-(0)61-9013377 Voice
+#T	+41-(0)61-9013352 Fax
+#P	Schneckelerstr. 4, 4414 Fuellinsdorf
+#W	etienne@impch ; Thu Oct 24 10:24:21 MEZ 1991
+#R	Domain 'imp.com' registred with SRI-NIC.
+#
+# Backbonelink (EUNET)
+impch   chsun(DEMAND), chx400(DAILY)
+# Links zu 'offiziellen' Rechnern in der Schweiz
+impch   acadch(DEMAND),  drsmbx(HOURLY)
+# Imp-Ether
+IMP-ETHER = { impch, accsys, curano }!(LOCAL)
+# Regionale Links
+IMPNET ={impch, subch}!(DEMAND)
+#
+impch	= imp.ch
+impch	.imp.ch
+impch	.skw.ch
+
+#N imtsrv
+#W chsun!poole ; Mon Feb 24 16:15:34 MET 1992
+#R in the process of being connected
+imtsrv	chsun(DEMAND)
+imtsrv	= leica.ch
+imtsrv	.leica.ch
+
+#N      incach 
+#S      System?
+#O      Inca Bank
+#C      Alexander Lamb
+#E      incach!postmaster
+#T      +41  22 786 84 95
+#P      3, Rue Pierre-Fatio, 1211 Geneve 3
+#L      .. .. .. E / .. .. .. N
+#U     
+#W      chsun!eschle Thu Jul  11 11:20:41 MET DST 1991
+#
+incach  chsun(DEMAND)
+incach	.inca.net.ch
+incach  = inca.net.ch
+
+#N      insider
+#S      IBM PC, UFGATE
+#O      Insider Communications
+#C      David Rosenthal
+#E      postmaster@insider.uucp
+#T      +41 61 22 41 01  (after Apr 22 91: +41 61 271 4101)
+#P      Postfach 231, 4003 Basel, Switzerland
+#L      07 34 50 E / 47 32 42 N
+#U
+#W	chsun!poole ; Sun May 19 15:58:42 MET DST 1991 
+#
+insider	impch(DEMAND)
+
+#N instru2
+#R being hooked up
+instru2	chsun(DEMAND)
+instru2	= ids.ch
+instru2	.ids.ch
+
+#N      itf1
+#S      System?
+#O      ITF Management SA
+#C      Michael Peppler
+#E      itf1!postmaster
+#T      +41 22 312 13 11
+#P      13, rue de la fontaine, 1240 Geneve
+#U
+#W      chsun!eschle, Thu Jul 11 15:51:21 MET DST 1991
+itf1	chsun(DEMAND)
+itf1	= itf.ch
+itf1	.itf.ch
+itf1    = itf
+
+#N lancy
+#R being connected
+lancy	chsun(DEMAND)
+lancy	= cesmips
+lancy 	= ces.ch
+lancy 	.ces.ch
+
+#N      magnolia
+#S      SPARCstation 1+, SunOS 4.1
+#O      EUnet Switzerland
+#C      Simon Poole
+#E      poole@magnolia.uucp
+#T      +41 56 26 87 43
+#P      Bahnhofstr. 51 B, CH-5430 Wettingen
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      magnolia!poole ; Sat Mar  9 14:47:33 MET 1991
+#
+magnolia   forty2(DEAD),chsun(DEMAND)
+magnolia = sp.chuug.ch
+
+#N	maspar
+#S	Sun 3/60; SunOS 4.0.3_EXPORT
+#O	MasPar Distributor AG
+#C	Bruno Pape
+#E	maspar!root
+#T	+41 1 750 3288
+#P	Kirchweg 129, CH-8102 Zurich-Oberengstringen, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#W	maspar!root (Bruno Pape); Wed May 22 09:18:26 MET DST 1991
+#
+maspar	chsun(DEMAND)
+maspar	= maspar.ch
+maspar	.maspar.ch
+maspar	= upt.ch
+maspar	.upt.ch
+
+#N      mdtch
+#S	Plexus Sys. 5.2
+#O      Modulator SA
+#C      P. Deruaz
+#E      mdtch!postmaster
+#T      +41 31 59 35 35
+#P      Koenizstrasse 194, CH-3097 Liebefeld-Bern, Switzerland
+#L      07 26 E / 46 56 N
+#U	
+#R	
+#W      chsun!poole ; Fri Jun 28 10:31:38 MET DST 1991
+#
+mdtch   hslrswi(DAILY), chsun(DEMAND)
+mdtch	= mdtch.ch
+mdtch	.mdtch.ch
+
+#N mecati
+#R being connected
+mecati	chsun(DEMAND)
+mecati	= mecasoft.ch
+mecati	.mecasoft.ch
+
+#N      mecazh
+#S      HP9000-310
+#O      Mecasoft SA
+#C      Paul Breslaw
+#E      mecazh!paul
+#T      +41 1 3622040
+#P      Guggachstr.10, CH-8057 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      cernvax!dietrich 881103
+#
+mecazh  chx400(DEMAND),mecati(DEMAND)
+mecazh = zurich01
+
+#N mental
+#S Commodore Amiga 3000; AmigaOS Release 2
+#O Private Amiga Site (ETC017)
+#C Olivier Schraner
+#E mental!postmaster
+#T +41 64 435160
+#P Roggenweg 6, CH-5036 Oberentfelden, Switzerland
+#L 47 21 N / 08 03 E
+#U cbmswi chsun
+#W mental!oli4 (Olivier Schraner); Thu Feb 13 20:41:04 CET 1992
+#
+mental   .amiga.net.ch
+mental = mental.amiga.net.ch
+mental   cbmswi(DAILY*3+FAST), chsun(DEMAND)
+ 
+
+#N      mickie
+#S      SysV/386
+#O      Individual
+#C      Votapek Eduard
+#E      ev@mickie.uucp
+#T      +41 1 7210189
+#P      Seestrasse 56, CH-8942 Oberrrieden
+#L      08 33 25 E / 47 06 54 N
+#R      
+#U
+#W 	chsun!poole ; Sun Aug 18 23:28:37 MET DST 1991
+#
+mickie	chsun(DEMAND)
+mickie	= mickie.pr.net.ch
+mickie  .mickie.pr.net.ch
+#N nexttb
+#R being connected
+nexttb	chsun(DEMAND)
+nexttb	= nexttb.pr.net.ch
+nexttb	.nexttb.pr.net.ch
+
+#N      norad
+#S      AT-386; SCO Xenix SysV 2.3
+#O      Open Systems AG
+#C      Florian Gutzwiller
+#E      norad!flog
+#T      +41 61 312 20 50
+#P      Angensteinerstrasse 30, CH-4052 Basel, Switzerland
+#U
+#W      chsun!poole; Wed Jun  5 11:02:41 MET DST 1991
+#
+norad   subch(DEMAND),axe(POLLED),wopr(POLLED),
+	chsun(DEMAND)
+norad	= open.ch
+norad	.open.ch
+
+#N	nxharu
+#S	NeXTstation; NeXT Mach 2.0
+#O	private
+#C	Hans Burkard
+#E	nxharu!postmaster
+#T	+1 56 743119
+#P	Fluehacherstrasse 4, CH-8116 Wuerenlos, Switzerland
+#L	47 22 46 N/8 33 04 E
+#R	
+#U	
+#W	nxharu!hans (Hans Burkard); Wed Jun 26 20:00:00 MET 1991
+#
+nxharu	chsun(DAILY)
+nxharu	= nxh.pr.net.ch
+nxharu	.nxh.pr.net.ch
+
+#N oldy
+#W chsun!poole ; Fri Mar  6 19:11:22 MET 1992
+#R in the process of being connected
+oldy	chsun(DEMAND)
+oldy	= industrade.ch
+oldy	.industrade.ch
+
+#N      olsen
+#S      Sun 3 Server, Model 180S-4, Sun Unix (4.2 BSD) Version 3.0
+#O      Olsen & Associates Research Institute For Applied Economics
+#C      William Kelley
+#E      olsen!lindy
+#T      +41 1 55 22 24
+#P      Seefeld Str 233, CH-8008 Zuerich, Switzerland
+#L      08 35 E / 47 23 N
+#U      none, currently
+#R      olsen is the entry node for a multi-machine domain; we use sendmail.
+#W      chx400!poole 910226
+#
+olsen	.olsen.ch
+olsen	= olsen.ch
+#
+olsen   chsun(DEMAND),chx400(DEMAND), unizh(HOURLY),wardvax(DEMAND),
+	billvax(DEMAND)
+
+#N	osnbe
+#S	Olivetti LSX 5020; UNIX System V.4
+#O	Olivetti Systems & Networks (Schweiz) AG - Branch Office Berne
+#C	Richard H. E. Eiger
+#E	osnbe!rheiger
+#T	+41 31 26 0426
+#P	Steigerhubelstrasse 3, CH-3008 Bern, Switzerland
+#L	46 56 58 N / 007 24 45 E
+#W	osnbe!rheiger (Richard H. E. Eiger); Thu Feb  6 07:40:35 CET 1992
+#
+#
+osnbe	chsun(DEMAND)
+osnbe = olivetti.ch
+osnbe	.olivetti.ch
+
+#N	owf
+#S	SUN 2/120; SUN UNIX 2.0
+#O	Oce Wissenschaftliches Forschungsinstitut AG
+#C	Beat Frey
+#E	owf!postmaster,owf!bf
+#T	+41 1 55 00 24
+#P      Asylstrasse 125, 8032 Zuerich, Switzerland
+#L	47 22 46 N / 8 33 04 E
+#
+owf	chsun(DEMAND),ethz(DAILY),chx400(DEMAND)
+owf	= owf.ch
+owf	.owf.ch
+
+#N	pan
+#S	IBM RT/PC (6150/125), AIX 2.2.1
+#O	Adasoft AG, Bahnhofstrasse 728, 4622 Egerkingen, Switzerland
+#C	James A. Watson
+#E	pan!jw
+#T	+41 62 61 41 21 / +41 31 54 35 70
+#P	Nesslerenweg 104, 3084 Wabern, Switzerland
+#W	chsun!poole ; Wed Sep  4 14:00:06 MET DST 1991
+#L	07 26 E / 46 56 N
+pan	adasoft(DEMAND), chsun(DEMAND), chx400(DEMAND)
+pan	.adasoft.ch
+pan	= adasoft.ch
+
+#N pbnext
+#R being connected
+pbnext	chsun(DEMAND)
+pbnext	= pbnext.pr.net.ch
+pbnext	.pbnext.pr.net.ch
+
+#N	pega
+#S	DEC MicroVAX II; VMS V5.3-1
+#O	PEGASUS BBS
+#C	Mike Schibli
+#E	pega!postmaster
+#T	+41 71 713817
+#P	Hauptstrasse 102a, CH-9434 Au, Switzerland
+#L	47 25 36 N / 9 38 24 E
+#R	Fax: +41 71 713837
+#R	Running DECUS uucp V1.2A
+#U	chsun
+#W	pega!sunshine; Sat Dec  8 15:42:50 MEZ 1991
+#
+pega	chsun(DEMAND)
+pega	= pegasus.ch
+pega	.pegasus.ch
+
+#N ringier
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+ringier	chsun(DEMAND)
+ringier	= ringier.ch
+ringier	.ringier.ch
+
+#N rocad
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+rocad	chsun(DEMAND)
+rocad	= rocad.ch
+rocad	.rocad.ch
+
+#N	zurich
+#S	SUN Sparcstation1; SunOS Release 4.1 UNIX
+#O	Spectrospin AG
+#C	Marco Demarmels
+#E	postmaster@spectrospin.ch
+#T	+1 825 94 75
+#P	Industriestr. 26, CH - 8117 Faellanden
+#L	47 00 00 N / 8 00 00 E
+#W	chsun!poole ; Thu Jul 25 14:38:43 MET DST 1991
+#U	chx400.uu.ch
+#
+zurich	chsun(DEMAND),chx400(DEMAND)
+zurich	.spectrospin.ch
+zurich	= spectrospin.ch
+zurich	= sag
+#N salustra
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+salustra	chsun(DEMAND)
+salustra	= salustra.pr.net.ch
+salustra	.salustra.pr.net.ch
+
+#N      simba
+#S      Stride 440 (UniStride 2.1)
+#O      Home
+#C      Stephen Winnall
+#E      simba!steve
+#T      +41 1/844 5515
+#P      Zuercherstrasse 16, 8107 Buchs ZH, Switzerland
+#L      08 26 25 E / 47 27 35 N
+#R
+#U
+#W
+#
+simba   chsun(DEMAND)
+#
+simba = winnall.ch
+simba .winnall.ch
+
+#N solotex
+#W chsun!poole ; Fri Feb 21 10:52:57 MET 1992
+#R in the process of being connected
+solotex	chsun(DEMAND)
+solotex	= solotex.ch
+solotex	.solotex.ch
+
+#N	sqlbe3
+#S	SUN SPARCstation 1+; SUNOS 4.1.1
+#O	SQL AG Technische Abteilung, CH-3176 Neuenegg
+#C	Bruno Solothurnmann
+#E	bs@sqlbe3.uucp
+#T	+41 31 7411618
+#P	Dorfstrasse 5, CH-3176 Neuenegg, Switzerland
+#L	46 53 42 N / 7 18 8 E 
+#R	
+#U	
+#W	sqlbe3!bs (Bruno Solothurnmann); Sat Jun 22 03:35:16 PDT 1985
+sqlbe3	chsun(DEMAND)
+sqlbe3  = sqlsyb
+sqlbe3	= sqlag.ch
+sqlbe3	.sqlag.ch
+
+
+#N      tenag
+#S      SUN 3/60, SUNOS 4.1
+#O      TEN Informatik AG
+#C      Thomas Bischoff
+#E      tenag!postmaster,uzlwg!tenag!postmaster
+#T      052 235323
+#P      Schaffhauserstr. 1, CH-8400 Winterthur, Switzerland
+#L      08 40 E / 47 30 N
+#R      
+#U
+#W 	chsun!poole ; Wed Jan 15 10:53:23 MET 1992
+#
+tenag	tenlu(DEMAND),chsun(DEMAND)
+tenag	= ten.ch
+tenag	.ten.ch
+
+#N	tvhelios
+#S	NeXTcube; 4.3 BSD UNIX combatible
+#O	Ticino Vita, Life Insurance Company
+#C	Raffaello Giulietti
+#E	tvhelios!lello, lello@tvhelios.uu.ch
+#T	+41 91 571209
+#P	via Camara 17, CH-6932 Breganzona, Switzerland
+#L	46 00 50 N / 008 56 20 E
+#R	telephone number is subject to change in a few months
+#U
+#W	lello@tvhelios.uu.ch (Raffaello Giulietti); Wed Feb 27 09:15:22  
+#
+tvhelios	chx400(DEMAND),chsun(DEMAND)
+tvhelios	= tilife.ch
+tvhelios	.tilife.ch
+tvhelios	= tiepolo
+#N      ubszh
+#S      Sun  4/75 / SunOS 4.1.1
+#O      Union Bank of Switzerland
+#C      Walter Gull
+#E      glw@ubszh.uu.ch
+#T      +4101 236 68 16
+#P      UBS ISHI/IHSP, P.O.Box, CH-8021 Zurich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R      chsun!poole ; Fri May 17 14:27:54 MET DST 1991
+#U
+#W      Walter Gull
+#
+ubszh   chx400(DAILY), unizh(DAILY)
+
+#N	upco
+#S	NeXTcube32/1000; 2.0 Mach
+#O	Unconventional Project Concepts Ltd. (Upco Ltd.)
+#C	Anda N.Kozam
+#E	ako@upco.ch
+#T	+41 1 984 3513
+#P	Moenchaltdorferstrasse 8, 8132 Egg, Switzerland
+#L	47 18 17 N / 8 41 22 E 
+#R	
+#U	
+#W	ako@ucpo.ch (Anda N. Kozma); Wed May 22 17:51:45 MET DST 1991
+#
+upco	chsun(DEMAND)
+upco	= axioms.ch
+upco	.axioms.ch
+upco	= upco.ch
+upco	.upco.ch
+
+#N      uwin
+#S      
+#O      private
+#C      Hanspeter Winiger
+#E      uwin!postmaster
+#T      +41 57 44 27 73 
+#P      Buchenweg 7, 5632 Buttwil
+#L      .. .. .. E / .. .. .. N
+#U     
+#W      chsun!eschle Thu Jul  11 11:20:41 MET DST 1991
+#
+uwin  chsun(DEMAND)
+uwin  = uwin.pr.net.ch
+uwin  .uwin.pr.net.ch
+
+#N	uzlwg
+#S	SUN 4/280, SunOS 4.1.1
+#O	Zellweger Uster AG
+#C	Stefan Frutiger
+#E	Postmaster@zellweger.ch
+#T	041 1-9433251
+#P	UMA529, Wilstrasse 11, 8610 Uster, switzerland
+#L	08 33 04 E / 47 22 40 N
+#W	chsun!poole ; Tue May  7 23:08:32 MET DST 1991
+#
+uzlwg	chx400(DEMAND)
+uzlwg = zellweger.ch
+uzlwg	.zellweger.ch
+
+#N van
+#W chsun!poole ; Fri Mar  6 19:11:22 MET 1992
+#R in the process of being connected
+van	chsun(DEMAND)
+van	= sae.ch
+van	.sae.ch
+
+#N      vichy
+#S      Ultrix-32 V3.1, MicroVAX II
+#O      Glance Ltd.
+#C      postmaster
+#E      vichy!postmaster
+#T      +41 1/853 39 49
+#P      Gewerbestrasse 4, CH-8162 Steinmaur, Switzerland
+#L      08 25 13 E / 47 30 06 N
+#R      
+#U
+#W 	magnolia!poole ; Fri Jan 31 14:02:52 MET 1992
+#
+vichy	chsun(DEMAND)
+vichy = glance
+vichy = elava
+vichy = glance.ch
+vichy   .glance.ch
+
+#N	wagch
+#S	NeXTCube; NeXT Mach 2.1
+#O	workstation ag
+#C	Hans Burkard
+#E	wagch!hbu
+#T	+1 8289555
+#P	Rohrstrasse 36/38, CH-8152 Glattbrugg, Switzerland
+#L	47 22 46 N / 8 33 04 E
+#R	
+#U	
+#W	wagch!hbu (Hans Burkard); Mon Nov 11 12:00:00 MET 1991
+#
+wagch	chsun(DEMAND)
+wagch	= wag.ch
+wagch	.wag.ch
+
+#N	wald
+#S	Hewlett-Packard 9000/370; HP-UX 7.03
+#O	STI Straessle Glattbrugg
+#C	Roman Gaechter
+#E	wald!rom
+#T	+41 1 8288257
+#P	CH-8152 Glattbrugg Kanalstrasse 33
+#L	
+#R	47 26 00 N / 08 33 10 O
+#U	
+#W	wald!rom (Roman Gaechter); Tue Nov 12 09:51:02 MEZ 1991
+#
+wald	chsun(DEMAND)
+wald	= sti.ch
+wald	.sti.ch
+
+#N	wstolz
+#
+wstolz	chsun(DEMAND)
+wstolz	= wstolz.ch
+wstolz	.wstolz.ch
+
+#N	zephir
+#S	Intel 386; UNIX System V/386 Release 3.2 Version 2.2
+#O	Jucker - Informatik
+#C	Beat Jucker
+#E	zephir!postmaster
+#T	+41 33 434 868
+#P	Anlikerweg 5, CH-3626 Huenibach, Switzerland
+#L	46 41 N / 007 30 E
+#R	
+#U	chsun
+#W	bj!zephir (Beat Jucker); Sun Aug 04 17:37:11 MET 1991
+#
+zephir chsun(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

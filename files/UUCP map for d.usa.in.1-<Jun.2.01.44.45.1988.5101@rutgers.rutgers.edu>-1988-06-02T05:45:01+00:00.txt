@@ -1,0 +1,111 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.in.1
+: This archive created: Thu Jun  2 01:44:00 1988
+echo shar: extracting d.usa.in.1
+cat << 'SHAR_EOF' > d.usa.in.1
+# d.usa.in.1 created by dpz@rutgers.edu on Fri May 27 15:20:48 EDT 1988
+
+#N	cs.indiana.edu, iuvax
+#S	DEC VAX-8800; Ultrix 2.0
+#F	indiana.edu
+#O	Indiana University Computer Science Dept.
+#C	Steve Mosier
+#E	iuvax!mosier, mosier@iuvax.cs.indiana.edu
+#T	+1 812 335 5561
+#P	Lindley Hall, Bloomington In 47405
+#L	39 12 38 N / 86 37 37 W
+#R	This is the main news and mail gateway for IU.
+#R	Currently running sendmail that uses MX records.
+#R	We exchange news via NNTP with ig, rutgers and silver.
+#U	bsu-cs ig.com inuxc isrnix iucs mcf ndmath pur-ee rutgers silver wa8ejh
+#W	Steve Mosier <iuvax!mosier>; Mon Mar 23 11:02:37 EST 1988
+#
+iuvax = indiana,indiana.edu,cs.indiana.edu,iuvax.cs.indiana.edu
+iuvax	.indiana.edu
+#
+iuvax	bellcore(DEMAND),bsu-cs(DIRECT),cadence(DIRECT),hpuinda(DEMAND),
+	indy500(DIRECT),indyva(DIRECT),ihnp4(DEMAND+LOW),inuxa(DIRECT),
+	inuxb(DIRECT),inuxc(DIRECT),inuxd(DIRECT),inuxe(DIRECT),
+	inuxg(DIRECT),inuxh(DIRECT),inuxj(DIRECT),inuxk(DIRECT),
+	inuxl(DIRECT),inuxm(DIRECT),inuxn(DIRECT),inuxo(DIRECT),
+	inuxp(DIRECT),isrnix(DIRECT),iucs(LOCAL),kangaro(DIRECT),
+	mcf(DAILY),ndmath(DIRECT),pyramid(DAILY/2),sabbagh(DIRECT),
+	wa8ejh(DIRECT)
+# TCP/IP uucp connections.
+iuvax	mit-hermes(DEDICATED),mit-prep(DEDICATED),pur-ee(DEDICATED),
+	purdue(DEDICATED),rutgers(DEDICATED),silver(DEDICATED),
+	uiucdcs(DEDICATED)
+
+#N	.nd.edu
+#O	University of Notre Dame
+#P	Notre Dame, IN 46556
+#T	+1 219 239 5580
+#L	41 42 15 N / 86 14 30 W  Notre Dame
+#R	This is the complete domain specification for Notre Dame University
+#R	This entry shamelessly copied from the Purdue entry.
+#W	ndcheg!evan (Evan G. Bauman); Tue Apr 25 23:00:00 1988
+#
+# UUCP gateways to the domain.
+#
+ndmath		.nd.edu(DEDICATED)
+ndsun		.nd.edu(DEDICATED)
+ndcheg		.nd.edu(DEDICATED)
+#--------------------------------
+# Better costs for subdomain gateways.
+#
+ndmath		.cc.nd.edu(LOCAL)
+ndmath		.math.nd.edu(LOCAL)
+ndsun		.ee.nd.edu(LOCAL)
+ndcheg		.cheg.nd.edu(LOCAL)
+
+#N	.purdue.edu
+#O	Purdue University
+#C	Dave Curry
+#E	pur-ee!davy, davy@intrepid.ecn.purdue.edu
+#T	+1 317 494 3648
+#P	West Lafayette, IN 47907
+#L	40 27 N / 86 55 W city
+#R	This is the complete domain specification for Purdue University
+#W	pur-ee!davy (Dave Curry); Tue Jan  5 14:15:00 1988
+#
+private		{ j, ee, arthur, newton }
+#--------------------------------
+# Subdomains of purdue.edu.
+#
+.purdue.edu	= { .cc, .cs, .ecn, .physics }
+#--------------------------------
+# Significant hosts in the subdomains.  Hosts listed here are externally
+# visible; others are reached via domain routing.
+#
+.cc		= { j }(LOCAL)
+.cs		= { arthur }(LOCAL)
+.ecn		= { ee }(LOCAL)
+.physics	= { newton }(LOCAL)
+#--------------------------------
+# UUCP gateways to the domain.
+#
+j		.purdue.edu(DEDICATED)
+arthur		.purdue.edu(DEDICATED)
+ee		.purdue.edu(DEDICATED)
+newton		.purdue.edu(DEDICATED)
+#--------------------------------
+# Better costs for subdomain gateways.
+#
+j		.cc.purdue.edu(LOCAL)
+arthur		.cs.purdue.edu(LOCAL)
+ee		.ecn.purdue.edu(LOCAL)
+newton		.physics.purdue.edu(LOCAL)
+#--------------------------------
+# UUCP names for the gateways.  The computer uses j.cc.purdue.edu
+# as their UUCP name.
+#
+purdue		= arthur
+pur-ee		= ee
+pur-phy		= newton
+j.cc.purdue.edu	= j
+private {}
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,92 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.ct.1
+: This archive created: Sun Jul 17 01:18:48 1988
+echo shar: extracting d.usa.ct.1
+cat << 'SHAR_EOF' > d.usa.ct.1
+#	start of d.usa.ct.1: Sat Jul 16 01:36:12 EDT 1988
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.microvation.com, bronson
+#F	rutgers.edu
+#O	Microvation Consultants
+#C	Tan Bronson
+#E	bronson@Microvation.COM
+#T	203-421-5061
+#P	20 Sperry Road, Madison Ct 06443
+#L	35 04 05 N / 106 37 46 W city
+#R	registered
+#U	mfci
+#W	tan@Microvation.COM (Tan Bronson); Mon Aug 31 12:45:44 EDT 1987
+#
+bronson		.microvation.com
+bronson=	bronson.microvation.com
+bronson		yale(DEMAND), mfci(POLLED), teddy(POLLED), condor(POLLED)
+
+
+#N	.multiflow.com, mfci
+#F	uunet.uu.net
+#O	Multiflow Computer Inc.
+#C	Tan Bronson, Ben Cutler
+#E	bronson@Multiflow.COM, cutler@Multiflow.COM
+#T	+1 203 488 6090
+#P	175 North Main St, Branford Ct. 06405
+#L	41 17 N / 72 48 W city
+#U	yale, bronson, dmk3b1, arrow, trace, multiflo
+#R	registered
+#W	bronson@Multiflow.COM (Tan Bronson); Fri Mar 18 11:13:35 EST 1988
+#
+mfci	.multiflow.com
+mfci=	multiflow.com, mfci.multiflow.com
+mfci	yale(DEMAND), bronson(DEMAND), dmk3b1(DEMAND), arrow(POLLED),
+	trace(DEMAND), multiflo(DEMAND), uunet(DEMAND), hsi(DEMAND),
+	mfci-la(DEMAND), mfci-dc(DEMAND), mfci-det(DEMAND)
+#
+#N	trace.multiflow.com
+#U	multiflo
+#R
+#W	bronson@Multiflow.COM (Tan Bronson); Fri Feb 12 16:48:32 EST 1988
+#
+trace=	trace.multiflow.com
+trace	mfci(DIRECT)
+#
+#N	multiflo.multiflow.com
+#U	trace
+#R
+#W	bronson@Multiflow.COM (Tan Bronson); Fri Mar 18 11:13:35 EST 1988
+#
+multiflo=	multiflo.multiflow.com
+multiflo	trace(DEMAND), mfci-la(DEMAND), mfci-dc(DEMAND),
+		mfci-det(DEMAND), mfci(DEMAND)
+#
+#N	mfci-la.multiflow.com
+#U	mfci-la
+#R
+#W	usui@Multiflow.COM (Bryan Usui); Fri Mar 18 11:13:35 EST 1988
+#
+mfci-la=	mfci-la.multiflow.com
+mfci-la		multiflo(DEMAND), mfci(POLLED)
+#
+#N	mfci-dc.multiflow.com
+#O	Multiflow Computer Inc. (D.C. Office)
+#R
+#W	hackerman@Multiflow.COM (Louis Hackerman); Fri Mar 18 11:13:35 EST 1988
+#
+mfci-dc=	mfci-dc.multiflow.com
+mfci-dc		multiflo(DEMAND), mfci(POLLED)
+#
+#N	mfci-det.multiflow.com 
+#F	
+#O	Multiflow Computer Inc.  (Detroit Office)
+#R
+#W	fischer@Multiflow.COM (Gerald Fischer); Fri Mar 18 11:13:35 EST 1988
+#
+mfci-det=	mfci-det.multiflow.com
+mfci-det	multiflo(DEMAND), mfci(POLLED)
+
+
+#	end of d.usa.ct.1: Sat Jul 16 01:36:15 EDT 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

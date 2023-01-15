@@ -1,0 +1,1136 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.oh.1
+#	d.usa.ok.1
+#	d.usa.or.1
+#	d.usa.pa.1
+#	d.usa.ri.1
+#	d.usa.sd.1
+#	d.usa.tn.1
+#	d.usa.tx.1
+#	d.usa.va.1
+#	d.usa.wa.1
+#	d.usa.wi.1
+# This archive created: Mon Jul 27 04:09:50 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.oh.1
+cat << \SHAR_EOF > d.usa.oh.1
+#MAP FILE: d.usa.oh.1	Wed Jul 22 10:35:33 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.att.com, cbosgd, clyde, ihnp4, ulysses, mtune, codas
+#F	seismo.css.gov
+#O	AT&T
+#C	Mark R. Horton, Dave Presotto
+#E	mark@cbosgd.att.com, presotto@research.att.com
+#T	614-864-4358, 201-582-5213
+#P	Rm 1E-271, 6200 E. Broad, Columbus, OH 43213
+#L	39 58 54 N / 82 50 15 W
+#R	registered
+#R	also on CSNET
+#U	cbosgd
+#W	6/3/87 MRH from cbosgd!mark
+#
+cbosgd	.att.com
+cbosgd	att.com
+cbosgd  .cbosgd.att.com, .mis.oh.att.com, .oh.att.com
+cbosgd=	cbosgd.att.com
+cbosgd	apr(HOURLY), amdahl(HOURLY), blair(DAILY),
+	crash(HOURLY), crdnl(HOURLY), cwruecmp(HOURLY), decuac(HOURLY),
+	decvax(HOURLY), decwrl(HOURLY), edstb(HOURLY), hplabs(HOURLY),
+	ico(HOURLY), jett(HOURLY), meccts(HOURLY),
+	mirror(HOURLY), ncr-sd(HOURLY), neoucom(HOURLY),
+	okstate(HOURLY), osu-eddie(HOURLY), osupyr(HOURLY),
+	oucs(HOURLY), philabs(HOURLY), psuvax1(HOURLY),
+	rutgers(HOURLY), sdcsvax(HOURLY), seismo(HOURLY),
+	stargate(HOURLY), starbase(HOURLY), sun(HOURLY),
+	talcott(HOURLY), tektronix(HOURLY), ucbvax(HOURLY),
+	ukma(DAILY), ulysses(HOURLY+HIGH), usenix(HOURLY),
+	utgpu(HOURLY), vortex(DAILY), wright(HOURLY),
+	xanth(HOURLY)
+#
+clyde	.att.com
+clyde	att.com
+clyde   .gang.att.com
+clyde=	clyde.att.com
+#
+# ihnp4 is a major hub machine, but the superman who used to administer it
+# has left, and it's creaking under the load now.  Since there is so much
+# traffic going through it, backlogs are often huge, and mail through it
+# is slow and unreliable.  We recommend you don't route through ihnp4.
+# The machines listed here are those whose main links are to ihnp4, or
+# who have netnews links to ihnp4.  If you believe more machines should
+# be added to this list, notify cbosgd!uucpmap.
+ihnp4	.att.com
+ihnp4	att.com
+ihnp4=	ihnp4.att.com
+ihnp4	alberta(DAILY), cbosgd(DEMAND), chinet(DAILY),
+	gargoyle(DAILY), oddjob(DAILY), ptsfa(DAILY),
+	utcsri(DAILY/4+HIGH), utgpu(DAILY/4), utzoo(DAILY/4)
+#
+# subdomains and their gateways.
+allegra .tempo.att.com
+ulysses .homer.att.com, .homer.nj.att.com, .nj.att.com
+#
+#C	Jonathan Clark
+#E	jhc@mtune.att.com
+#T	+1 201 957 2586
+#P	Rm 3G-314, 200 Laurel Avenue, Middletown, NJ 07748-4801
+#L	40 23 N / 74 04 W
+#U	akgua mtuxo ariel mtx5c
+mtune	.att.com, .nj.att.com, .dptg.nj.att.com, .dptg.att.com
+mtune=	mtune.att.com
+mtune	att.com
+# Backbones and other well-known sites
+mtune	akgua(DEDICATED+HIGH), attunix(DEDICATED), bellcore(DEMAND),
+	cbosgd(DEDICATED), codas(DEMAND+HIGH), 
+	clyde(DEDICATED), ihnp4(DEDICATED), princeton(DEMAND+HIGH),
+	research(DEDICATED), rutgers(DIRECT+HIGH), ulysses(DEDICATED)
+# AT&T South Jersey ISN sites
+mtune-isn = { mtuna, mtunb, mtunc, mtund, mtune, mtunf, mtung, mtunh, mtuni, mtunj,
+	olorin, ky2d, lzaz, lzct, lzma, lzmi, lznv, lzsc, lzwi, io, ariel,
+	titania, miranda, caelum, mtgzy, mtgzz, mtuxo, snail,
+	brandy, edith, exer, grendel, ho-cml, ho-jaa, ho2cad, ho3cad, ho5cad,
+	ho7cad, hoacs, hocad, hocat, honcs, hoqua, hotlb, hotld, hotlf,
+	hotlg, hotlv, hotlx, hou2c, hou2d, hou2e, hou2f, hou2g, hou2h, houxa,
+	houxf, houxm, houem, hound, homxa, homxb, homxc, majic, si1, slhp1,
+	wh2cad2, yoda } (LOCAL)
+# System 85 links
+mtune-85 = { lime, mtexc, mtfma, mtfmc, mtfmg, mtfmt, mtmer, mtlan, mtsba, mtsbb,
+	mtsbc, mttac, mtx5a, mtx5b, mtx5c, mtx5d, mtx5e, mtx5t, mtx5w, mtx5x,
+	mtx5y, mtx5z, odin, orion, solar } (LOCAL)
+#
+# internal AT&T subdomains
+#
+granjon .garage.att.com, .garage.nj.att.com
+granjon= granjon.garage.nj.att.com
+granjon= garage.nj.att.com
+granjon= granjon.att.com
+granjon= garage.att.com
+#C	Mikel Manitius
+#E	codas!mikel
+#T	+1 305 869 2462
+#P	151 Wymore Road, Altamonte Springs, FL 32714
+#L	081 22 20 W / 28 39 02 N
+#R	An official AT&T gateway
+#U	ablnc burl cpsc6a flmis06 flnexus ge-dab ki4pv mtune novavax
+#U	peora usfvax2
+#W	codas!mikel (Mikel Manitius); Tue Jun 30 13:24:45 EDT 1987
+#
+# Our LAN (StarLan, 3bnet & port selector)
+#
+flmis-lan = {
+			codas, pss, teds, sadoc, rambo, rocky,
+			flmis01, flmis02, flmis03, flmis06, flmis97,
+			flmis98, flmis99, flnexus, balder,
+			generic, toynix, mis73a, mis73d, mis73e,
+			bsdpkh, psctap, argus, flpda, mercury,
+			piglet
+		   }(LOCAL)
+#
+# Gateway Information
+#
+codas	.att.com
+codas	att.com
+codas	.codas.att.com, .mis.att.com, .fl.att.com
+codas=	codas.att.com
+codas	flmis-lan, ATT-COR
+#
+# Local call at 2400 baud.
+codas	peora(DIRECT+HIGH+HIGH)
+#
+# Local call at 1200 baud.
+codas	ablnc(DIRECT), tws3b5(DIRECT), ucf-cs(DIRECT), sunfla(DIRECT),
+	stsc1(DIRECT)
+#
+# LATA call at 2400 baud.
+codas	pompano(DIRECT+LOW), novavax(DIRECT+LOW),
+	ki4pv(DIRECT+LOW), ge-dab(DIRECT+LOW)
+#
+# LATA call at 1200 baud.
+codas	Jax3127(DIRECT+LOW+LOW), usfvax2(DIRECT+LOW+LOW)
+#
+# Long Distance Call at 2400 baud.
+codas	ariel(DEMAND+HIGH+HIGH), atlantis(DEMAND+HIGH+HIGH),
+	caelum(DEMAND+HIGH+HIGH), miranda(DEMAND+HIGH+HIGH),
+	mtgza(DEMAND+HIGH+HIGH), mtgzd(DEMAND+HIGH+HIGH),
+	mtgze(DEMAND+HIGH+HIGH), mtgzf(DEMAND+HIGH+HIGH),
+	mtgzg(DEMAND+HIGH+HIGH), mtgzh(DEMAND+HIGH+HIGH),
+	mtgzi(DEMAND+HIGH+HIGH), mtgzj(DEMAND+HIGH+HIGH),
+	mtgzk(DEMAND+HIGH+HIGH), mtgzl(DEMAND+HIGH+HIGH),
+	mtgzm(DEMAND+HIGH+HIGH), mtgzn(DEMAND+HIGH+HIGH),
+	mtgzo(DEMAND+HIGH+HIGH), mtgzp(DEMAND+HIGH+HIGH),
+	mtgzq(DEMAND+HIGH+HIGH), mtgzt(DEMAND+HIGH+HIGH),
+	mtgzy(DEMAND+HIGH+HIGH), mtgzz(DEMAND+HIGH+HIGH),
+	mtuna(DEMAND+HIGH+HIGH), mtunb(DEMAND+HIGH+HIGH),
+	mtune(DEMAND+HIGH+HIGH), mtunf(DEMAND+HIGH+HIGH),
+	mtung(DEMAND+HIGH+HIGH), mtunh(DEMAND+HIGH+HIGH),
+	mtuni(DEMAND+HIGH+HIGH),
+	oberon(DEMAND+HIGH+HIGH), olorin(DEMAND+HIGH+HIGH),
+	snail(DEMAND+HIGH+HIGH), titania(DEMAND+HIGH+HIGH)
+#
+# Long Distance Call at 1200 baud.
+codas	vishnu(DEMAND+HIGH), acad(DEMAND), ags1(DEMAND), aicchi(DEMAND),
+	ak-2ts(DEMAND), alamo(DEMAND), alberta(DEMAND), ama(DEMAND),
+	amdimage(DEMAND), aries5(DEMAND), arizona(DEMAND), astrovax(DEMAND),
+	ati501(DEMAND), auscso(DEMAND), azurdee(DEMAND), bang(DEMAND),
+	bark(DEMAND), bellcore(DEMAND), beta(DEMAND), bigbang(DEMAND),
+	birds(DEMAND), cataly(DEMAND), chase(DEMAND), claimnet(DEMAND),
+	cmcl2(DEMAND), cmucspt(DEMAND), cmueea(DEMAND), cmueef(DEMAND),
+	cnls(DEMAND), conrac(DEMAND), cornell(DEMAND), cosdoc(DEMAND),
+	cosm01(DEMAND), cosm02(DEMAND), cosm04(DEMAND), cpsc6a(DEMAND),
+	crash(DEMAND), crasho(DEMAND), crasok(DEMAND), crsp(DEMAND),
+	csufres(DEMAND), csun(DEMAND), ctd01(DEMAND), ctd02(DEMAND),
+	ctd05(DEMAND), ctd3ba(DEMAND), dalcso(DEMAND), ddsw1(DEMAND),
+	delftcc(DEMAND), delta(DEMAND), dory(DEMAND), dso(DEMAND),
+	dsoxa(DEMAND), earth(DEMAND), edgar(DEMAND), edgesa(DEMAND),
+	epsilon(DEMAND), ferry(DEMAND), galley(DEMAND), gamma(DEMAND),
+	grumpy(DEMAND), harvard(DEMAND), hdr(DEMAND), hltech(DEMAND),
+	holma(DEMAND), iconsys(DEMAND), ieeex1(DEMAND), ihpma(DEMAND),
+	indra(DEMAND+HIGH), infopro(DEMAND), interlan(DEMAND), isuee1(DEMAND),
+	itech1(DEMAND), iuvax(DEMAND), ixlpb(DEMAND), jett(DEMAND),
+	jpusa1(DEMAND), ketch(DEMAND), killer(DEMAND), koura(DEMAND+HIGH),
+	laidbak(DEMAND), lambda(DEMAND), lb3(DEMAND), lcc(DEMAND),
+	lcuxa(DEMAND), lcuxb(DEMAND), lcuxc(DEMAND), lis1(DEMAND),
+	lis2(DEMAND), lisa(DEMAND), lisb(DEMAND), lzpa(DEMAND),
+	lzut(DEMAND), mas1(DEMAND), masscomp(DEMAND), matha(DEMAND+HIGH),
+	maxepr(DEMAND), mb2c(DEMAND), mbux5(DEMAND), mc70(DEMAND),
+	mcnc(DEMAND), mgea3(DEMAND), mlady(DEMAND), mmm(DEMAND),
+	princeton(DEMAND), research(DEMAND)
+#
+# Other AT&T-IS (Services Division) sites.
+codas	oakic4(DEMAND), porker(DEMAND), earth(DEMAND), rpms3b2(DEMAND)
+#
+# Bad Connections - Not usable
+codas	wbux7(DEAD), wb2(DEAD), homxb(DEAD), ihnp4(DEAD), pttesac(DEAD),
+	yawn(DEAD), bellcore(DEAD), cmcl2(DEAD), houdi(DEAD), whuts(DEAD)
+
+#
+# The following list is the subset of AT&T Network Action Central that
+# have been tested and verified to be reachable from a NAC machine
+# other than ihnp4.  There are other AT&T machines that are not NAC
+# registered, and there are NAC registered machines that cannot be
+# reached using the distributed information.  Only machines that the
+# gateways know how to get to are listed here.
+ATT-DK = {
+	3k,	    achilles,	ak-2ts,	    akgua,	akgub,	    akguc,
+	akgug,	    alice,	allegra,    alux4,	alux5,	    aluxa,
+	aluxb,	    aluxe,	aluxp,	    aluxs,	aluxz,	    arachne,
+	araki,	    arend,	ark2,	    ark3b,	arrow,	    asmodeus,
+	asr1,	    asr2,	atlas,	    atomic,	balin,	    bark,
+	bashful,    bb013b,	bb033b,	    bb053b,	bearcat,    beehive,
+	bentley,    bifur,	bocar,	    bonnie,	bowell,	    brandy,
+	bukwheat,   bwkna,	c11ux,	    c53ux,	caiac,	    capek,
+	castor,	    cbatm1,	cbatm2,	    cbatm3,	cbatm4,	    cbatm5,
+	cbatm6,	    cbatm7,	cbbca,	    cbcams,     cbcp1,
+	cbcp2,	    cbdkc1,	cbdkc3,	    cbema,	cbhercules, cblpe,
+	cblpf,	    cbnds,	cbneb,	    cborvl,     cbosg,
+	cbosgd,	    cbrma,	cbrmb,	    cbrms1,	cbrust,	    cbsca,
+	cbscc,	    cbscf,	cbsch,	    cbsck,	cbscm,	    cbsds,
+	cbstr1,	    cbtaurus,	cbtern,	    cbuxa,	cbuxc,	    cbuxd,
+	cbzeus,	    charm,	circe,	    ciss,	clyde,	    conceps,
+	cope,	    cord,	corvair,    corvette,	croq,	    ctd3ba,
+	ctd3bd,	    daimler,	daneel,	    desoto,	dory,	    dutoit,
+	edsel,	    eeyore,	encke,	    erc780,	ercdora,    esmst1,
+	fenian,	    ferry,	ficit,	    floyd,	galan,	    garage,
+	garamond,   genesis,	giacobini,  gimli,	gmlr,	    gomez,
+	gordo,	    granjon,	grigg,	    groucho,	gummo,	    gunn,
+	harpo,	    hector,	hekla,	    ho2cad,	ho3cad,	    ho95b,
+	ho95c,	    ho95e,	hobcms,	    hocad,	homac,	    homxa,
+	homxb,	    homxc,	hopd4,	    hoqaa,	hoqam,	    hoqax,
+	hoqub,	    hostc1,	hotel,	    hotlb,	hotld,	    hotlf,
+	hotlg,	    hotlv,	hotlx,	    hou2c,	hou2d,	    hou2e,
+	hou2f,	    hou2g,	hou2h,	    houdi,	houem,	    hound,
+	hounx,	    houpo,	houtz,	    houxa,	houxf,	    houxh,
+	houxj,	    houxk,	houxl,	    houxm,	houxs,	    houxu,
+	houxv,	    hoxna,	hr1top,	    hr2top,	hr3ar,	    hracms,
+	hrals,	    hrb5a,	hrmsd,	    hru3b,	hru3c,	    hrumr,
+	hrwhi,	    hudson,	hulk,	    hunny,	hypo,	    icarus,
+	ih1aa,	    ih1ab,	ih1am,	    ih1ap,	ih1b15,	    ih1b5,
+	ih234,	    ih3b1,	ih4ep,	    ih554,	ihactr,	    ihaxa,
+	ihcae,	    ihcdc1,	ihchk,	    ihcup,	ihdes4,	    ihdev,
+	ihe5a,	    ihe5h,	ihe5i,	    ihe5j,	ihe5k,	    ihe5l,
+	ihe5o,	    ihe5u,	ihe5v,	    iheds,	ihelp,	    ihesa,
+	ihexp,	    ihhfs,	ihivs,	    ihjhh,	ihjreid,    ihlpa,
+	ihlpd,	    ihlpe,	ihlpf,	    ihlpg,	ihlpj,	    ihlpk,
+	ihlpl,	    ihlpm,	ihlpr,	    ihlps,	ihlts,	    ihmax,
+	ihmdo,	    ihmds,	ihmlab,	    ihn5s,	ihn5t,	    ihnet,
+	ihnp3,	    ihnp4,	ihopb,	    ihps1,	ihps2,	    ihreza,
+	ihrjn,	    ihs1k,	ihtenn,	    ihtexas,	ihtnt,	    ihu1e,
+	ihu1g,	    ihu1h,	ihu1j,	    ihu1m,	ihu1n,	    ihuge,
+	ihuxb,	    ihuxi,	ihuxj,	    ihuxm,	ihuxn,	    ihuxo,
+	ihuxp,	    ihuxv,	ihuxy,	    ihuxz,	ihwld,	    ihwpa,
+	ihwpb,	    ihwpc,	ihwpe,	    ihwpf,	ihwpt,	    ikeya,
+	inuxa,	    inuxb,	inuxc,	    inuxd,	inuxe,	    inuxf,
+	inuxg,	    inuxh,	inuxj,	    inuxm,	io,	    iota,
+	iwabe,	    iwabf,	iwexp,	    iwfao,	iwfap,	    iwfaq,
+	iwfox,	    iwlc2,	iwlc4,	    iwlc5,	iwlca,	    iwlcs,
+	iwsag,	    iwsak,	iwsam,	    iwsar,	iwsas,	    iwsay,
+	iwsl6,	    iwsl7,	iwsl8,	    iwsla,	iwslb,	    iwslc,
+	iwsld,	    iwsle,	iwslr,	    iwslu,	iwtat,	    iwtbn,
+	iwtbt,	    iwtio,	iwtjj,	    iwtmc1,	iwu1a,	    iwu1b,
+	iwu1c,	    iwvae,	iwvaf,	    iwvim,	ixadp1,	    ixadp2,
+	ixadp3,	    ixadp4,	ixadp5,	    ixadp6,	ixe5c,	    ixe5f,
+	ixe5g,	    ixe5m,	ixe5n,	    ixe5p,	ixe5q,	    ixeds,
+	ixhte,	    ixlpc,	ixlpn,	    ixlpq,	ixlpt,	    ixn5c,
+	ixn5p,	    ixn5q,	ixn5r,	    ixn5u,	ixn5v,	    ixpcg,
+	ixprg,	    jetta,	jones,	    jorel,	kaiser,	    kalypso,
+	kanga,	    ketch,	kwee,	    lccras,	lclmos,	    lcostc,
+	lcuxlc,	    lcuxld,	lcuxle,	    lcuxlf,	lcuxlg,	    lcuxlh,
+	lcuxli,	    lcuxlj,	lcuxlk,	    lcuxll,	lcuxlm,	    lcuxlq,
+	likewise,   ll1,	luong,	    max,	mhdes1,	    mhpat,
+	mhuhk,	    mhuxa,	mhuxc,	    mhuxd,	mhuxh,	    mhuxi,
+	mhuxm,	    mhuxo,	mhuxt,	    mhuxu,	mhwpa,	    mhwpc,
+	mhwpe,	    mhwpg,	mhwph,	    moidas,	moss,	    mrkos,
+	mtfmc,	    mtuxj,	mtuxo,	    nebula,	nestor,	    netman,
+	nomad,	    nwutb,	nwuxa,	    nwuxb,	nwuxc,	    nwuxd,
+	nwuxf,	    oc5esa,	occim2,	    occim3,	occim4,	    occrsh,
+	ocetca,	    ocrje,	ocsmb,	    odyssey,	okc5b,	    opus,
+	orly,	    packard,	pancho,	    panther,	pepsi,	    physics,
+	pierce,	    piggot,	pirate,	    polya,	pruxa,	    pruxb,
+	pruxc,	    pruxd,	pruxe,	    putas,	qaplus,	    quixote,
+	r70,	    rdtdas,	research,   sapir,	sarts,	    seki,
+	sescent,    shannon,	shewhart,   shlepper,	sid,	    siriusb,
+	skep2,	    slepian,	snb,	    sola,	sos,	    speedy,
+	spit,	    stcub,	stutz,	    swift,	syscad,	    sz3b5,
+	tug,	    tukey,	twitch,	    uhclem,	ulysses,    video,
+	wayback,    west,	weupa,	    wh-mouse,	whaler,	    wham,
+	wham2,	    wham3,	whamm,	    whamr,	whamx,	    whcad7,
+	whgsd,	    whuts,	whuxc,	    whuxf,	whuxg,	    whuxh,
+	whuxm,	    whwpb,	whwpd,	    wild,	woods,	    yawl,
+	zeppo
+	} (DEDICATED)
+
+ATT-COR = {
+	3BSSC,	    BIGOAC,	Moon,	    NCSC1,	ODA3B,	    Odhner,
+	TB,	    abfli,	abfll,	    abflx,	abfly,	    ablnc,
+	acpy01,	    ak-2ts,	akgua,	    akgub,	akguc,	    alfoc,
+	alice,	    allegra,	aloft,	    aloof,	alpcn,	    altuxb,
+	altuxc,	    alux4,	alux5,	    aluxa,	aluxb,	    aluxbdm,
+	aluxe,	    aluxp,	aluxs,	    aluxz,	arachne,    araki,
+	arch1,	    ariel,	aries5,	    ark2,	ark3b,	    arrow,
+	artvesdm,   asr1,	asr2,	    athq03,	athq07,	    athq08,
+	atlas,	    atln1,	atrm01,	    atssc,	attbp0,	    attibr,
+	attoak,	    attsa,	attunix,    avphd,	bacyn,	    bakerst,
+	bark,	    batavier,	bb013b,	    bb033b,	bb053b,	    bearcat,
+	belts,	    bentley,	bkuxa,	    bkuxb,	bkuxc,	    bkuxd,
+	bkuxe,	    bkuxf,	bkuxg,	    bkuxh,	bkuxi,	    bkuxj,
+	bkuxk,	    bkuxl,	bkuxm,	    bkuxn,	bkuxo,	    boar,
+	bocar,	    bonnie,	boojum,	    brandy,	brh,	    bromo,
+	bu-3b5,	    bu3b15,	bukwheat,   burl,	burt,	    c11ux,
+	c53ux,	    caelum,	caiac,	    castor,	cbatm1,	    cbatm4,
+	cbbca,	    cbcams,	cbcp1,	    cbcp2,	cbdkc1,	    cbema,
+	cbemb,	    cbhercules,	cblpe,	    cblpf,	cbnds,
+	cbneb,	    cbosg,	cbosgd,	    cbrma,	cbrmb,	    cbrmc,
+	cbrms1,	    cbrust,	cbsca,	    cbscc,	cbscf,	    cbsch,
+	cbsck,	    cbscm,	cbsds,	    cbsnsz,	cbtaurus,   cbtern,
+	cbuxa,	    cbuxc,	cbuxd,	    cbzeus,	ce013b,	    ce023b,
+	censs,	    cepnt,	charm,	    chim,	chts02,	    chts04,
+	chts05,	    chts06,	chts07,	    cisco,	clyde,	    codas,
+	colssc,	    conceps,	cord,	    cpsc50a,	cpsc6a,	    cquxc,
+	cquxh,	    csso1,	ctd3ba,	    cuae2,	cuuxb,	    daimler,
+	daneel,	    dc003b,	dc013b,	    dc043b,	dencsc,	    desoto,
+	dj3b1,	    dory,	drast1,	    druak,	drufl,	    druhi,
+	druid,	    druil,	druky,	    drume,	drumn,	    drums,
+	drune,	    druny,	druor,	    drupa,	druri,	    drusd,
+	drutx,	    druut,	drux1,	    drux2,	druxa,	    druxb,
+	druxg,	    druxh,	druxi,	    druxj,	druxk,	    druxl,
+	druxm,	    druxn,	druxq,	    druxt,	druxu,	    druxv,
+	druxw,	    dwarfb,	dwk01,	    dwmax,	dwx3bN,	    dwx3bS,
+	ea013b,	    ea023b,	ea025b,	    ea033b,	ea053b,	    ea055b,
+	ea063b,	    ea402b,	earth,	    edsel,	eeyore,	    efp2,
+	enigma,	    erc3ba,	erc3bb,	    erc780,	ercdora,    esmst1,
+	exer,	    fbg3b,	fenian,	    ficit,	floyd,	    flssa,
+	fmg4a,	    fopcwa,	frenzy,	    gaea,	gc3ba,	    gclpaa,
+	gcuxa,	    gcuxb,	gcuxc,	    gcuxd,	gcuxe,	    gcuxf,
+	gcuxg,	    gcuxh,	gcuxi,	    gcuxj,	gcuxl,	    generic,
+	genesis,    glrnet,	gmlr,	    gordo,	greenp,	    groucho,
+	gummo,	    hakatak,	hal9000,    harpo,	hbginst,    hekla,
+	hermes,	    hl3b5a,	hl3b5b,	    hlsed,	hltech,	    hlwpb,
+	hlwpc,	    hlwpd,	hlwpf,	    hlwpg,	hlwph,	    ho-alex,
+	ho-djh,	    ho-jaa,	ho-lar,	    ho2cad,	ho3cad,	    ho5cad,
+	ho95b,	    ho95c,	ho95e,	    hobcms,	hocad,	    hocpl,
+	hocsr,	    hocus,	hoeick,	    hogasp,	hoh-1,	    hoh-2,
+	hohum,	    holite,	homxa,	    homxb,	homxc,	    hoofty,
+	hoqaa,	    hoqam,	hoqax,	    hoqub,	hostc1,	    hotel,
+	hotlb,	    hotld,	hotlf,	    hotlg,	hotlv,	    hotlx,
+	hotps,	    hou2c,	hou2d,	    hou2e,	hou2f,	    hou2g,
+	hou2h,	    houdi,	houem,	    hound,	hounx,	    houpo,
+	houtz,	    houxa,	houxf,	    houxh,	houxj,	    houxk,
+	houxl,	    houxm,	houxs,	    houxu,	houxv,	    howpa,
+	howpb,	    howpd,	hoxna,	    hr1ar,	hr1top,	    hr2top,
+	hr3ar,	    hr4ar,	hracms,	    hrals,	hrb5a,	    hrcca,
+	hrmsd,	    hropus,	hru3b,	    hru3c,	htuxa,	    hudson,
+	hulk,	    hunny,	icarus,	    icsd,	iguana,	    ih1aa,
+	ih1ab,	    ih1am,	ih1ap,	    ih1b15,	ih1b5,	    ih3b2a,
+	ihchk,	    ihcup,	ihdev,	    ihe5a,	ihe5h,	    ihe5i,
+	ihe5j,	    ihe5k,	ihe5l,	    ihe5o,	ihe5u,	    ihe5v,
+	iheds,	    ihelp,	ihesa,	    ihexp,	ihhfs,	    ihivs,
+	ihlpa,	    ihlpe,	ihlpj,	    ihlpk,	ihlpl,	    ihmds,
+	ihnet,	    ihnp3,	ihnp4,	    ihop3,	ihopa,	    ihopb,
+	ihpeg,	    ihps1,	ihps2,	    ihtnt,	ihu1e,	    ihu1g,
+	ihu1h,	    ihu1j,	ihu1m,	    ihu1n,	ihuxb,	    ihuxi,
+	ihuxj,	    ihuxm,	ihuxn,	    ihuxo,	ihuxp,	    ihwld,
+	ihwpa,	    ihwpb,	ihwpc,	    ihwpe,	ihwpf,	    ihwpt,
+	inuxa,	    inuxb,	inuxc,	    inuxd,	inuxe,	    inuxf,
+	inuxg,	    inuxh,	inuxj,	    inuxm,	io,	    iwabe,
+	iwfap,	    iwfaq,	iwlca,	    iwlcs,	iwsag,	    iwsak,
+	iwsam,	    iwsan,	iwsas,	    iwsl6,	iwsl7,	    iwsl8,
+	iwslc,	    iwsld,	iwslu,	    iwtbt,	iwtio,	    iwu1a,
+	iwu1b,	    iwu1c,	iwvae,	    iwvim,	ixe5c,	    ixe5f,
+	ixe5g,	    ixe5n,	ixe5p,	    ixe5q,	ixeds,	    ixhte,
+	ixlpc,	    ixlpq,	ixlpt,	    ixn5c,	ixn5p,	    ixn5q,
+	ixn5v,	    jorel,	kaiser,	    kcda,	kcec,	    kcnd,
+	ketch,	    kphpux,	kpsl05,	    large,	lc15a,	    lc20a,
+	lc20b,	    lccras,	lclmos,	    lcostc,	lcuxlc,	    lcuxld,
+	lcuxle,	    lcuxlf,	lcuxlg,	    lcuxlh,	lcuxli,	    lcuxlj,
+	lcuxlk,	    lcuxlm,	lcuxlq,	    left,	likewise,   ll1,
+	llatdd,	    llpr1a,	lru3b,	    ls013b,	ltuxa,	    ltuxb,
+	ltuxc,	    luong,	lvuxg,	    lz3b5,	lzaz,	    lzfme,
+	lzhi,	    lzla,	lzma,	    lznv,	lzpa,	    lzpds,
+	lzsc,	    lztn,	lzut,	    lzwi,	m10ux,	    m21ux,
+	m3ux,	    majic,	max,	    mdunix,	mduxa,	    mduxb,
+	mduxc,	    mduxd,	mduxe,	    mduxf,	mgnetp,	    mgweed,
+	mgwess,	    mhltx,	mhspd,	    mhuhk,	mhuxa,	    mhuxc,
+	mhuxd,	    mhuxh,	mhuxi,	    mhuxm,	mhuxo,	    mhuxt,
+	mhuxu,	    mhuxv,	mhwpa,	    mhwpc,	mhwpe,	    mhwpg,
+	mhwph,	    miranda,	ml3b2a,	    moidas,	mork,	    moss,
+	mp3bs,	    mtdcc,	mtfmc,	    mtgzd,	mtgzf,	    mtgzg,
+	mtgzi,	    mtgzk,	mtgzm,	    mtgzn,	mtgzp,	    mtgzt,
+	mtgzy,	    mttac,	mtuna,	    mtunb,	mtund,	    mtune,
+	mtunf,	    mtung,	mtunh,	    mtuni,	mtunj,	    mtuxj,
+	mtuxn,	    mtuxo,	mtx5z,	    mv-bt,	mvd5a,	    mvd5b,
+	mvgpa,	    mvgpb,	mvgpc,	    mvgpd,	mvgpe,	    mvgpf,
+	mvgpg,	    mvgph,	mvuaa,	    mvubi,	mvuhi,	    mvuja,
+	mvumi,	    mvunu,	mvuro,	    mvuti,	mvuut,	    mvuxa,
+	mvuxf,	    mvuxh,	namu,	    naples,	narya,	    ncpe,
+	ncpf,	    ncpg,	ncpj,	    ncpk,	ncpx,	    ncsc2,
+	ncsc3,	    neade1,	nebula,	    nesac2,	netman,	    neuxa,
+	neuxb,	    neuxc,	neuxd,	    neuxf,	neuxh,	    neuxi,
+	newpc1,	    njpwr,	njuxa,	    nomad,	ntmgb1,	    nwpel,
+	nwpur,	    nwutb,	nwuxa,	    nwuxb,	nwuxc,	    nwuxd,
+	nwuxf,	    nwwpa,	nwwpb,	    nycmep,	nyfas1,	    oac,
+	oblivion,   oc5esa,     occim2,     occim3,	occim4,
+	occrsh,	    ocrje,	ocsmb,	    odutsa,	odyssey,    ohgua,
+	ohguc,	    olorin,	opus,	    orlsa,	orly,	    orux6,
+	otuxa,	    packard,	pancho,	    pc013b,	pc023b,	    pc033b,
+	pc043b,	    pc053b,	pc073b,	    pegasus,	pepsi,	    phoenix,
+	physics,    picuxa,	pierce,	    pissa,	pitstop,    pltnnsa,
+	pochs,	    popeye,	poseidon,   prop3b,	pruxa,	    pruxb,
+	pruxc,	    pruxd,	pruxe,	    punx,	putas,	    quixote,
+	ra7300,	    rddes1,	rdtdas,	    rduxp,	research,   rfsc4,
+	rg20a,	    rg2b,	rmuxa,	    rmuxb,	robert,	    rwmpc,
+	sarts,	    sasales,	scans,	    sdedal,	sdeden,	    sescent,
+	sfbai,	    sfbam,	sfbc,	    sfbug,	sfgum,	    sfjec,
+	sfmag,	    sfmin,	sfroc,	    sfrod,	sfsup,	    sftig,
+	sftor,	    sfwoo,	sfyog,	    shlepper,	sjae5,	    sjdemo1,
+	skep2,	    skesoa,	snookie,    so013b,	so1see,	    sobham,
+	sola,	    sp3ba,	spastic,    speedy,	spuxa,	    spuxc,
+	spuxe,	    spuxll,	stcub,	    stpb,	stutz,	    stuxa,
+	subcap,	    svmsg,	sw013b,	    swdc01,	swen01,	    swso01,
+	syscad,	    sz3b5,	tarpon,	    topgun,	troll,	    ttbcad,
+	ttmcsa,	    ttrdc,	ttrdti,	    twitch,	uhclem,	    ulysses,
+	unx23a2,    valha1,	vax135,	    vblsm1,	vertigo,    video,
+	vilya,	    wa015b,	warrior,    wbux2,	we22a,	    we22b,
+	we22d,	    we53,	weda10,	    westbud,	weupa,	    whaler,
+	wham,	    wham2,	wham3,	    whamx,	whcad2,	    whpo1,
+	whuts,	    whuxc,	whuxf,	    whuxg,	whuxh,	    whuxm,
+	whwpb,	    whwpd,	winken,	    wlgpf,	wlgpg,	    wnutsa,
+	wnuxa,	    wnuxb,	wombat,	    woods,	wr3b2,	    wrcola,
+	wruxc,	    wruxd,	wruxe,	    wruxf,	wruxg,	    wruxh,
+	wruxi,	    wruxj,	wruxk,	    yawl,	yoda,	    zeppo,
+	zorro
+	} (DIRECT+LOW)
+
+#N	.ohiou.edu, oucs
+#F	uxc.cso.uiuc.edu
+#O	Ohio University
+#C	Klaus E. Eldridge
+#E	postmaster@pdp.cs.OHIOU.EDU
+#T	614-593-1242
+#P	Computer Science Dept., 423 Morton Hall, Athens OH 45701-2979
+#L	082 05 49 W / 39 19 27 N
+#U	crta
+#R	registered
+#W	Klaus E. Eldridge  Mon Jan 26 11:45:03 EST 1987
+#
+oucs	.ohiou.edu
+oucs	ohiou.edu
+oucs	.cs.ohiou.edu
+oucs	cs.ohiou.edu
+oucs=	pdp.cs.ohiou.edu
+oucs	wright(DEMAND), cbosgd(DEMAND), cbdkc1(HOURLY),
+	cbrms1(DEMAND), cuuxb(DEMAND)
+#
+#O	Ohio University Accelerator Laboratory
+#C	Donald E. Carter, John E. O'Donnell
+#E	carter@oual.phy.ohiou.edu, odonnell@oual.phy.ohiou.edu
+#W	oual!carter (Don Carter); Thu Feb 12 11:15:00 EST 1987
+#
+oual	.phy.ohiou.edu
+oual	phy.ohiou.edu
+oual=	oual.phy.ohiou.edu
+oual	oucs(HOURLY), ouhtc(HOURLY)
+
+#N	.stargate.com, stargate, starbase
+#F	a.cs.uiuc.edu
+#O	Stargate Information Service
+#C	Mark R. Horton, Lauren Weinstein
+#E	mark@cbosgd.att.com, lauren@vortex.uucp
+#T	614-864-4358, 213-390-3920
+#P	2843 Valcour Ct., Reynoldsburg, OH 43068
+#L	39 55 28 N / 82 49 16 W
+#U	cbosgd
+#R	registered
+#W	3/1/87 MRH from cbosgd!mark
+#
+stargate	.stargate.com
+stargate	stargate.com
+stargate=	stargate.com
+stargate=	registry
+stargate        starbase(DEMAND), cbosgd(DIRECT)
+starbase	.stargate.com
+starbase	stargate.com
+starbase=	base.stargate.com
+starbase=	starbase.stargate.com
+starbase	stargate(WEEKLY), cbosgd(HOURLY)
+
+#N      .wright.edu, wright
+#F      Relay.CS.Net
+#O      Wright State University
+#C      John Sloan, Sheila Hollenbaugh
+#E      postmaster@Wright.Edu
+#T      +1 513 873 2491
+#P      Department of Computer Science, Dayton OH, 45435
+#L      39 47 N / 84 03 W
+#U      ncrpcd crdnl
+#R      registered on CSNET
+#W      jsloan@Wright.Edu (John Sloan); Mon Jan  5 10:38:11 EST 1987
+#
+wright	.wright.edu
+wright	wright.edu
+wright=	wright.edu
+wright  crdnl(DAILY), ncrpcd(DAILY), oucs(DEMAND), cbosgd(DEMAND)
+
+SHAR_EOF
+echo shar: extracting d.usa.ok.1
+cat << \SHAR_EOF > d.usa.ok.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Apr 19 13:37:27 MST 1987
+
+#N	.decision.com, svo
+#F	(seismo.css.gov)
+#O	Decision Studies Group
+#C	Kurt F. Sauer, Corey E. McCormick
+#E	ks@svo.Decision.COM, corey@svo.Decision.COM
+#T	+1 918 749 0893, +1 405 278 5257
+#P	ATTN: OP-IS, PO BOX 701401, TULSA OK 74170-1401
+#L	36 11 N / 097 07 W city
+#R	submitted with no forwarder
+#U	oktext
+#R	SEISMO.CSS.GOV will be forwarder only until other arrangements can
+#R	  be finalized.  That information isn't available yet.  Also, as uaual,
+#R	  connection information is changing to be more stable and well-
+#R	  connected.
+#W	ks@svo.Decision.COM (Kurt F. Sauer); Thu Nov 20 14:51:53 CST 1986
+#
+svo	.decision.com
+svo	decision.com
+svo=	svo.decision.com
+svo	ihnp4(DAILY/4), nears(DAILY/4), okstate(DIRECT)
+
+
+SHAR_EOF
+echo shar: extracting d.usa.or.1
+cat << \SHAR_EOF > d.usa.or.1
+
+#N	.mentor.com, mntgfx
+#F	uxc.cso.uiuc.edu
+#O	Mentor Graphics Corporation
+#C	Dave Clemans, Alan Rosenfeld
+#E	dclemans@mntgfx.uucp, alanr@mntgfx.uucp
+#T	503-626-7000
+#P	8500 SW Creekside Plac, Beaverton, OR 97005-7191
+#L
+#U
+#R	registered
+#W	rutgers!pleasant (Mel Pleasant); Sat May 23 08:46:28 EDT 1987 ksh
+#
+mntgfx	.mentor.com
+mntgfx=	mentor.com
+mntgfx	tessi(DIRECT), sequent(DIRECT), apcipdx(POLLED), gssc(DIRECT),
+	context(DEAD), sci(DEMAND*2), analog(DEMAND*2), decwrl(DEMAND*2),
+	uiucuxc(DEMAND), apollo(DIRECT)
+
+#N	.tek.com, tektronix
+#F	RELAY.cs.net
+#O	Tektronix, Inc.
+#C	Jan Acker, Richard Doty
+#E	janeta@tektronix.tek.com, rad@tektronix.tek.com
+#T	503-627-6832, 503-627-6517
+#P	P.o. box 500, m.s. 19-333, beaverton, or. 97077
+#L	
+#U
+#R	registered on CSNET
+#W	10/20/86 MRH from janeta@toucan.uss.tek.com
+#
+tektronix	.tek.com
+tektronix=	tektronix.tek.com
+tektronix       masscomp(EVENING/4), decvax(EVENING/4+LOW),
+        allegra(EVENING/4), uoregon(EVENING/4),
+        psu-cs(DEMAND), orstcs(EVENING/4), zehntel(EVENING/4),
+        ucbcad(EVENING/4), ucbvax(EVENING/4), purdue(EVENING/4),
+        hplabs(EVENING/4+HIGH), hp-pcd(EVENING/4), sequent(DEMAND),
+        uw-beaver(EVENING/4), reed(DEMAND), ogcvax(DEMAND),
+        ihnp4(EVENING/4+HIGH), cbosgd(EVENING/4), ames(DAILY),
+        watmath(EVENING/4), gatech(EVENING/4),
+        nsc-pdc(DEMAND), dadla(DEDICATED), tekig(DEDICATED)
+SHAR_EOF
+echo shar: extracting d.usa.pa.1
+cat << \SHAR_EOF > d.usa.pa.1
+#MAP FILE: d.usa.pa.1	Wed Jul 22 10:35:36 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.bell-atl.com, bpa
+#F	rutgers.edu
+#O	Bell Atlantic Company
+#C	Bob Esposito, Lee Daley
+#E	espo@bell-atl.com, lee@bell-atl.com
+#T	(215) 466-6831, (215) 466-6828
+#P	Bell of Pennsylvania, 6th Floor, One Parkway, Philadelphia, PA  19102
+#L	39 57 N / 75 07 W city
+#R	registered
+#U	temvax cbmvax mmg sjuvax asi
+#W	03/05/87 RJE from bpa!espo
+#
+bpa	.bell-atl.com
+bpa	bell-atl.com
+bpa=	bpa.bell-atl.com
+bpa	burdvax(DIRECT), cp1(DEMAND), ll1(DEMAND), sjuvax(DIRECT),
+	cbmvax(DIRECT), temvax(DIRECT), mmg(DIRECT), asi(DIRECT),
+	seismo(DEMAND), pyuxv(DEMAND), cbosgd(DEMAND), bellcore(DEMAND),
+	ihnp4(DEMAND), vu-vlsi(DEMAND), cdin-1(DIRECT), rutgers(DEMAND+HIGH)
+
+#N	.villanova.edu, vu-vlsi
+#F	(none)
+#S	Pyramid 90x; OSx 4.0
+#O	Villanova University, Dept. of Electrical Engineering
+#C	Rick Perry
+#E	vu-vlsi!uuadm
+#T	+1 215 645 4224
+#P	Villanova, PA  19085
+#L	40 02 N / 75 21 W
+#R	submitted with no forwarder
+#U	cbmvax cgh psuvax1 devon hvrunix swatsun drexel ge-mc3i
+#W	vu-vlsi!perry (Rick Perry); Mon Jul 13 08:36:43 EDT 1987
+#
+vu-vlsi	.villanova.edu
+vu-vlsi	villanova.edu
+vu-vlsi= vu-vlsi.villanova.edu
+vu-vlsi	bpa(DIRECT), cgh(DIRECT), cbmvax(DEMAND), devon(DEMAND), drexel(DIRECT),
+	excalibur(DEDICATED), ge-mc3i(DAILY), hutch(DAILY), hvrunix(DIRECT),
+	psuvax1(DEMAND), pyrnj(DEMAND), snark(DIRECT), swatsun(DIRECT),
+	temvax(DIRECT)
+
+SHAR_EOF
+echo shar: extracting d.usa.ri.1
+cat << \SHAR_EOF > d.usa.ri.1
+#	start of d.usa.ri.1: Thu May 21 19:47:39 EDT 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.ray.com, rayssd
+#F	a.cs.uiuc.edu
+#O	Raytheon Company
+#C	Gregory M. Paris, Ralph A. Shaw, David H. Brierley
+#E	postmaster@rayssd.RAY.COM
+#T	401-847-8000 exts 3839, 4180, 4073
+#P	Submarine Signal Division, 1847 West Main Road, Portsmouth, RI 02871-1087
+#L	41 34 03 N / 71 16 57 W
+#U	raybed2 mirror necntc brunix
+#R	registered
+#W	gmp@rayssd.RAY.COM; Wed May 20 09:13:27 EDT 1987
+#
+rayssd	.ray.com
+rayssd=	ray.com, rayssd.ray.com
+#
+# other Raytheon divisions
+rayssd	raybed2(EVENING), ray2k(DEMAND)
+raybed2	rayssd(DIRECT)
+#
+# best mail connections, graded/ordered by quality
+rayssd	mirror(HOURLY+4*HIGH), necntc(HOURLY+4*HIGH), cbosgd(HOURLY+HIGH),
+	uiucdcs(HOURLY), ihnp4(HOURLY+2*LOW), gatech(HOURLY+5*LOW)
+#
+# neighbors that mangle From: addresses, or low quality connections
+rayssd	allegra(EVENING), brunix(EVENING), cci632(EVENING),
+	linus(EVENING), umcp-cs(EVENING), unisec(POLLED), uriecl(EVENING)
+brunix	rayssd(POLLED)
+umcp-cs	rayssd(POLLED)
+
+#N	.usi.com, unisec
+#F	uxc.cso.uiuc.edu
+#O	UniSecure Systems, Inc
+#C	Darryl Wagoner
+#E	unisec!dpw, dpw@USI.COM
+#T	+1 401 849 0752
+#P	88 West Broadway, Newport, R.I. 02840
+#L	41 19 N / 71 17 W city
+#R
+#U	rayssd 
+#W	unisec!dpw (Darryl Wagoner); Fri Feb 20 03:49:25 EST 1987
+#
+unisec	.usi.com
+unisec= unisec.usi.com
+unisec	rayssd(DIRECT), kitty(EVENING), uiucuxc(EVENING), ethos(DAILY)
+
+#	end of d.usa.ri.1: Thu May 21 19:47:42 EDT 1987
+SHAR_EOF
+echo shar: extracting d.usa.sd.1
+cat << \SHAR_EOF > d.usa.sd.1
+#MAP FILE: d.usa.sd.1	Wed Jul 22 10:35:37 EDT 1987	tgt@stargate.COM
+#
+#
+SHAR_EOF
+echo shar: extracting d.usa.tn.1
+cat << \SHAR_EOF > d.usa.tn.1
+#MAP FILE: d.usa.tn.1	Wed Jul 22 10:35:38 EDT 1987	tgt@stargate.COM
+#
+#
+SHAR_EOF
+echo shar: extracting d.usa.tx.1
+cat << \SHAR_EOF > d.usa.tx.1
+# Doug McCallum <dougm@ico.ISC.COM>; Fri Jul 17 17:38:36 MDT 1987
+
+#N	nas
+#S	Tandy Model 6000, Xenix 3.0
+#O	Tandy Corporation, National Account Support
+#C	Dick Heerschap
+#E	root@nas.UUCP
+#T	+1 817 390 2787
+#P	400 Atrium, One Tandy Center, Ft. Worth Tx  76102
+#L	32 45 N/ 97 20 W city
+#R
+#U
+#W	dick@nas.uucp 07/17/85
+#
+nas	sys1(DAILY/3), rscus1(DAILY/3)
+
+
+
+#N	.ndmce.com, ndmce
+#F	(none)
+#S	Harris MCX-5/60; HSU 3.0B
+#O	Nathan D. Maier Consulting Engineers, Inc.
+#C	Susan Harden
+#E	susan@ndmce.com
+#T	+1 214 739 4741
+#P	8800 N. Central Expressway, Suite 300, Dallas, TX 75231 
+#L	96 48 42 W / 32 52 29 N
+#U	gcg jlsoft killer pollux
+#R	submitted with no gateway. news B2.11.
+#W	tp@ndmce.com (Terry Poot); Tue Apr  7 10:29:52 CST 1987
+#
+ndmce	.ndmce.com
+ndmce=	ndmce.com
+ndmce	convex(DIRECT+HIGH), gcg(HOURLY), infoswx(DIRECT+HIGH),
+	killer(DIRECT+HIGH), mcomp(DIRECT+HIGH), pollux(DIRECT+HIGH), 
+	jlsoft(DIRECT+HIGH), smu(DIRECT+HIGH), stdoil(HOURLY),
+	rrm(DIRECT+HIGH), vitsun(DIRECT+HIGH)
+
+
+
+#N	sys1
+#S	TRS-80 Model 6000 - Xenix 3.1 (sort of)
+#O	Advanced xenix & network support
+#C	Doug Davis
+#E	doug@sys1.TANDY.COM
+#T	817-390-3001
+#P	400 Atrium,Tandy Center, Fort Worth, Texas 76102
+#L	32 45 N / 97 20 W city
+#R	main gateway for TANDY.COM
+#W	doug@sys1.TANDY.COM Wed Jan 14 10:30:44 CST 1987
+#U	sneaky bigbang rsf merch sysger techsup rscus1
+#
+# 
+sys1 = tandy.com
+sys1 = sys1.tandy.com
+sys1	bang(DAILY), benson(DEMAND), bigbang(DEMAND), bilanc(DEMAND),
+	bruce(DEMAND), camco(DEMAND), cpe(DEMAND), ctp1(DEMAND),
+	dallas(DEMAND), exhibits(DEMAND), hal6000(DEMAND), homer(DEMAND),
+	houatso(DEMAND), hub(DEMAND), ico(DEMAND), ihnp4(DEMAND),
+	infomart(DEAD), killer(DEMAND), kzin(DEAD), merch(DEMAND),
+	motown(DEMAND), nas(LOCAL), netword(WEEKLY), nimue(DEMAND),
+	ninja(DEMAND), npqc(DEMAND), nwuxd(POLLED), omnibus(LOCAL),
+	ozdaltx(DEMAND), peng(DEMAND), rscus1(LOCAL), rsf(DEMAND),
+	sneaky(DEMAND), softeng(DEAD), soma(DEMAND), sysger(POLLED),
+	techsup(DEMAND), tekline(DEMAND), tlxprs(DEMAND), trsvax(DEMAND),
+	uiucuxc(DEMAND), unify1(DEMAND), ustable(DEMAND), vaxnix(POLLED),
+	visdemo(DEMAND), void(DEMAND), westway(DEMAND), xenixsp(DEAD)
+
+
+SHAR_EOF
+echo shar: extracting d.usa.va.1
+cat << \SHAR_EOF > d.usa.va.1
+#	start of d.usa.va.1: Wed Jul 22 09:53:44 EDT 1987
+#	maintained by horton@endor
+
+#N	.bdm.com, bdmrrr
+#F	seismo.css.gov
+#S	Sun 2/120; 4.2 bsd unix
+#O	BDM Corporation
+#C	Joel Shprentz, Al Gates
+#E	shprentz@bdmrrr.bdm.com, gates@bdmrrr.bdm.com
+#T	+1 703 848 7305, +1 703 848 7268
+#P	7915 Jones Branch Drive, McLean, VA  22102
+#L	38 55 42 N / 77 13 12 W
+#U	vrdxhq potomac
+#R	registered
+#W	bdmrrr!shprentz (Joel Shprentz); Tue Nov  4 15:40:12 EST 1986
+#
+bdmrrr	.bdm.com
+bdmrrr=	bdmrrr.bdm.com
+#
+# local calls
+bdmrrr  seismo(DIRECT), rlgvax(DEAD), psc(DIRECT),
+	stratcom(DIRECT), donut(DIRECT), vrdxhq(DIRECT)
+#
+# long distance calls on demand (polled at least four times per day)
+bdmrrr	afesc(DEMAND)
+afesc	bdmrrr(DAILY/4)
+
+#N	.cos.com, cos
+#F	seismo.css.gov
+#S	Sun 3/160; BSD 4.2, Sun 3.2
+#O	Corporation for Open Systems
+#C	Andrew Partan
+#E	cos!asp
+#T	+1 703 883 2796
+#P	1750 Old Meadow Road, Suite 400; McLean, VA 22102-4306
+#L
+#R	applied
+#U	hadron
+#W	cos!asp (Andrew S. Partan); Fri Mar 27 14:19:40 EST 1987
+#
+cos	.cos.com
+cos =	cos.com
+cos	hadron(DIRECT), sundc(DIRECT), hqda-ai(DIRECT)
+
+#N	.grebyn.com, grebyn
+#S	DEC MicroVAX II; Ultrix 2.0
+#F	seismo.css.gov
+#O	Grebyn Corporation
+#C	Karl A. Nyberg
+#E	karl@grebyn.com
+#T	+1 703 281 2194
+#P	P. O. Box 1144, Vienna, VA  22180
+#L	38 52 N / 77 20 W
+#U	vrdxhq, paisano, rriwro
+#R	registered
+#W	6/29/87, karl@grebyn.com
+#
+grebyn	.grebyn.com
+grebyn=	grebyn.com
+grebyn  decuac(DIRECT+LOW), vrdxhq(DIRECT+HIGH), isavax(DIRECT+LOW), 
+        netword(DIRECT+LOW), netxcom (DIRECT+LOW), umd5(DIRECT+HIGH), 
+	ctvax(EVENING+HIGH), paisano(DIRECT+LOW), men1a(DIRECT+HIGH), 
+	men2a(DIRECT+HIGH), rriwro(DIRECT)
+
+
+#N	.kesmai.com, kesmai
+#F	rutgers.edu
+#O	Kesmai Corporation
+#C	Kelton Flinn, John Taylor
+#E	kff@kesmai.uucp, jrt@kesmai.uucp
+#T	+1 804 973 1040
+#P	2780 Hydraulic Rd., suite 1, charlottesville, va. 22901
+#L	38 01 70 N / 78 30 39 W
+#U
+#R	registered with no gateway
+#W	kesmai!kff (Kelton Flinn); Wed May 27 15:06:33 EDT 1987
+#
+kesmai	.kesmai.com
+kesmai=	kesmai.com
+#
+# local calls
+kesmai  uvaee(DIRECT),	uvacs(DIRECT), edison(DIRECT), virginia(DIRECT)
+#
+# We poll these sites even if we don't have traffic for them
+uvaee	kesmai(DAILY)
+virginia	kesmai(DAILY)
+
+
+#N	.navsea.mil, celpa
+#F	seismo.css.gov
+#O	NAVAL SEA SYSTEMS COMMAND - US NAVY Dept.
+#C	Ron Flax (VSE), Greg Foltz (VSE), Robert Calogero (NAVSEA)
+#E	ron@vsedev.vse.com, greg@vsedev.vse.com, rc@celpa.navsea.mil
+#T	+1 703 769 2865, +1 703 769 2882, +1 202 692 8705
+#P	1235 S. Jefferson Davis Hwy., Suite 900, Arlington, VA. 22202 (navsea)
+#L
+#U
+#R	registered with no forwarder
+#R	run by VSE.com, navsea contact is administrative only.
+#W	10/20/86 MRH from vsedev!ron
+#
+celpa	.navsea.mil
+celpa=	celpa.navsea.mil
+celpa   vsedev(DIRECT)
+
+#N	.odu.edu, xanth
+#F	RELAY.CS.NET
+#O	Old Dominion University
+#C	Tad Guy <tadguy>,  Kyle Jones <kyle>, John Owens <john>
+#E	postmaster@odu.edu
+#T	+1 804 440 3915
+#P	Dept. of Computer Science; Norfolk, Virginia  23529-0162
+#L	36 53 7 N / 76 18 12 W
+#R	registered with CSNET
+#R	xanth.cs.odu.edu is the sole gateway and external mail forwarder.
+#R	xanth talks to Virginia Tech's machine popeye on demand, but since
+#R		AT&T has a machine by that name, it is not listed below.
+#U	mirror virgil brooks
+#W	tadguy@xanth.cs.odu.edu (Tad Guy); Wed Jul 15 18:42:18 EDT 1987
+#
+# Also known as:
+#
+xanth 	.odu.edu
+xanth	= xanth.cs.odu.edu
+xanth	= odu.csnet
+# Tidewater:
+xanth	brooks(POLLED), csab(DEMAND), nirvana(DEMAND), sunva(DIRECT),
+	vinya(POLLED), virgil(DIRECT)
+# Virginia:
+xanth	edison(DEMAND+LOW), virginia(DEMAND)
+# Calls through PC Pursuit: (the godsend to telecommunications)
+xanth	ames(EVENING), chinet(EVENING), decuac(EVENING), harvard(EVENING+LOW),
+	hoptoad(EVENING), isis(EVENING), linus(EVENING), mcnc(EVENING),
+	mirror(EVENING), mit-eddie(EVENING), sun(EVENING), umn-cs(EVENING)
+# Forced polls (EVENING > DAILY/3) :
+ames	xanth(EVENING)
+chinet	xanth(DAILY/2)
+csab	xanth(DAILY/2)
+decuac	xanth(DAILY/2)
+edison	xanth(EVENING)
+harvard	xanth(DAILY)
+hoptoad	xanth(EVENING)
+isis	xanth(DAILY/2)
+linus	xanth(DAILY/2)
+mcnc	xanth(EVENING)
+mirror	xanth(EVENING)
+mit-eddie xanth(DAILY/2)
+nirvana	xanth(DAILY/2)
+sun	xanth(DAILY/2)
+sunva	xanth(EVENING)
+umn-cs	xanth(DAILY/2)
+virgil	xanth(EVENING)
+virginia xanth(DAILY/2)
+
+
+#N	.ori-cal.com, men1a
+#F	none
+#O	Calculon Corporation
+#C	Andrew Sibre, Jasbir Singh
+#E	andys@men1a.ori-cal.com, jazz@men1a.ori.cal.com
+#T	+1 703 841 0102
+#P	Calculon Corporation, 1401 Wilson Blvd., Arlington VA, 22209
+#L	38 50 29 N / 77 03 30 W 
+#U	vsedev
+#R	applied
+#W	andys@men1a.ori-cal.com (Andrew Sibre); Tue Mar 10 18:52:00 EST 1987
+#
+men1a	.ori-cal.com
+men1a=	men1a.ori-cal.com
+men1a	seismo(DIRECT), vsedev(DIRECT), rlgvax(DIRECT), cal-uni(DIRECT),
+	men2a(DIRECT), men3a(DIRECT), men4a(EVENING), askcs(DIRECT), 
+	aquin(DIRECT)
+
+#N	.uu.net, uunet
+#S	Sequent Balance 21000; Dynix 2.1.1
+#O	UUNET
+#C	Rick Adams
+#E	uunet!postmaster
+#T	+1 703 276 7900
+#P	P.O. Box 2299, Berkeley, CA 94710
+#L	38 53 40.5 N / 77 04 34.5 W
+#R	Physically in Arlington, VA
+#W	rick@seismo.CSS.GOV (Rick Adams); Thu,  2 Jul 14:27;37 1987
+#U	seismo peregrine ccicpg iscuva tg ukma lll-winken virginia steinmetz
+#U	madhat pcrat swlabs arnold hnsurg3 wp3b01
+#
+uunet .uu.net
+uunet = uunet.uu.net
+#
+# siamese twin
+#
+uunet	seismo(1)
+#
+uunet	arnold(DEMAND), ateng(DEMAND), bgalli(DEMAND), btni(DEMAND),
+	ccicpg(DEMAND), crdnl(DEMAND), desint(DEMAND), ednor(DEMAND),
+	epicb(DEMAND), esquire(DEMAND), grand(DEMAND),
+	hnsurg3(DEMAND), hpda(DEMAND), ingr(DEMAND),
+	iscuva(DEMAND), lemur(DEMAND), lll-winken(DEMAND), longway(DEMAND),
+	madhat(DEMAND), metasoft(DEMAND), micropro(DEAD), mtxinu(DEMAND),
+	ora(DEMAND), oswald(DEMAND), pcrat(DEMAND), peregrine(DEMAND),
+	pgpbmt(DEMAND), pilchuck(DEMAND), pjbell(DEMAND), quick(DAILY),
+	rosevax(DEMAND), siia(DEMAND), steinmetz(DEMAND), swift286(DEMAND),
+	swlabs(DEMAND), tekbspa(DEMAND), tg(DEAD), uiucdcs(DEMAND),
+	ukma(DEMAND), unrvax(DEMAND), usenix(DEMAND), van-bc(DEMAND),
+	virginia(DEMAND), vixie(DEMAND), vuse(DEMAND), wp3b01(DEMAND),
+#
+#	International X.25
+#
+uunet	atina(DEMAND), garfield(DEMAND), munnari(DEMAND)
+
+
+#N	.virginia.edu, virginia
+#F	relay.cs.net
+#O	University of Virginia Academic Computing Center
+#C	Steve Losen
+#E	scl@virginia.EDU
+#T	+1 804 924 4548
+#P	Academic Computing Center, Gilmer Hall, UVa, Charlottesville, Va. 22901
+#L	38 01 70 N / 78 30 39 W
+#R	registered
+#W	scl@virginia.EDU (Steve Losen); 19 Mar 87
+#U	uvacs nrao1 kesmai uvaee 
+#
+virginia	.virginia.EDU
+virginia=	virginia.EDU
+virginia	kesmai(DIRECT), seismo(DEMAND), mcnc(DEMAND),
+		nrao1(DIRECT), uvaee(DIRECT), rmcash(DEMAND)
+# polls
+seismo	virginia(DAILY/4)
+
+
+#N	.vse.com, vsedev
+#F	seismo.css.gov
+#O	VSE Corporation
+#C	Ron Flax, Greg Foltz
+#E	ron@vsedev.vse.com, greg@vsedev.vse.com
+#T	+1 703 769 2865, +1 703 769 2882
+#P	1745 South Jefferson Davis Hwy., Suite 306, Arlington, VA  22202
+#L	38 55 N / 77 03 W
+#U	vrdxhq
+#R	registered
+#W	10/20/86 MRH from vsedev!ron
+#
+vsedev	.vse.com
+vsedev=	vsedev.vse.com
+vsedev  seismo(DIRECT), prometheus(DIRECT), vrdxhq(DIRECT),
+	dsi1(DIRECT), celpa(DIRECT), sea1(DIRECT), tlxprs(DEMAND)
+
+#	end of d.usa.va.1: Wed Jul 22 09:53:46 EDT 1987
+SHAR_EOF
+echo shar: extracting d.usa.wa.1
+cat << \SHAR_EOF > d.usa.wa.1
+#N	.data-io.com, pilchuck, dataio
+#F	uunet.UU.NET
+#O	Data I/O - FutureNet Corporation,  Redmond Division
+#C	Tim Rosmus, Rick Braman
+#E	tim@Data-IO.COM, braman@Data-IO.com
+#T	+1 206 881 6444
+#P	10525 Willows Rd N.E./P.O. box 97046; Redmond, WA 98073
+#L	47 40 N / 122 07 W city
+#R	registered
+#U	pilchuck dataio suvax1 amc apcisea
+#W	tim@pilchuck.Data-IO.COM ; Sun May 31 22:35:50 EDT 1987 ksh/mrh
+#
+pilchuck	.data-io.com
+pilchuck=	data-io.com  
+pilchuck	dataio(DIRECT), tikal(DIRECT), amc(DIRECT), apcisea(DIRECT),
+		toad(LOCAL), admin-pc(LOCAL), polcat(LOCAL), ibvu(DIRECT),
+		uunet(DEMAND)
+dataio		.data-io.com
+dataio=		dataio.data-io.com
+dataio		btlunix(EVENING), uw-entropy(DIRECT), fncvax(DEMAND),
+		pilchuck(DIRECT), mtxinu(DEMAND), sdcrdcf(EVENING),
+		teltone(DIRECT), tikal(DIRECT), suvax1(DIRECT)
+
+#N	.fluke.com, fluke
+#F	uxc.cso.uiuc.edu
+#O	John Fluke Manufacturing Company
+#C	Jeff Stearns, Paul Lutt
+#E	jeff@tc.fluke.COM, pwl@tc.fluke.COM
+#T	206-356-5064, 206-356-5059
+#P	Technical Computing, PO Box C9090, Everett, WA 98206
+#L	122 14 W / 47 59 N city
+#U	microsoft ssc-vax wavetek
+#R	registered
+#W	10/17/86 MRH from fluke!jeff
+fluke	.fluke.com
+fluke=	fluke.com
+fluke	allegra(EVENING), cbosgd(DEMAND*2), decwrl(DEMAND+LOW+LOW),
+	el-tco(DIRECT), emoryu1(DEMAND+LOW), fehq(DAILY), hplsla(DIRECT),
+	lbl-csam(DEMAND), microsoft(DAILY/2), mtxinu(DEMAND), ssc-vax(DIRECT),
+	sun(DEMAND+LOW+LOW), sunup(DIRECT), telematic(DEAD), tikal(DIRECT),
+	uiucuxc(DEMAND), usenix(DEMAND), uw-beaver(DIRECT), uw-vlsi(HOURLY),
+	wavetek(EVENING)
+
+#N	.iscs.com, iscuva
+#F	uxc.cso.uiuc.edu
+#O	ISC Systems Corporation
+#C	David Schmidt, Cathy Hooper
+#E	davids@ISCS.COM, cathyh@ISCS.COM
+#T	+1 509 927 5479, +1 509 927 5173
+#P	E. 22425 Appleway, Liberty Lake, WA 99019
+#L	47 40 20 N / 117 05 40 W
+#U	reed
+#R	applied
+#W	davids@ISCS.COM (David Schmidt); Fri Apr 10 16:46:34 EDT 1987 ksh
+#
+iscuva	.iscs.com
+iscuva=	iscuva.iscs.com
+iscuva	reed(EVENING), miniop(DIRECT), uiucuxc(DEMAND), wsucshp(EVENING)
+
+#N	.teltone.com, tikal
+#F	uxc.cso.uiuc.edu
+#O	Teltone Corporation, Kirland WA
+#C	Duane Hesser, Ed Morin
+#E	sysad@Teltone.com, dhh@teltone.com, edm@teltone.com
+#T	206-827-9626
+#P	10801-120th Avenue NE, Kirkland, WA 98033
+#L	122 8 W / 47 42 N city
+#U	uw-beaver hplsla wor-mein amc ole sigma transys slovax walldata phred
+#R	uucp name of forwarder is b.cs.uiuc.edu
+#W	03/09/87 from tikal!dhh; Fri Apr 10 16:56:20 EDT 1987 ksh
+#
+tikal	.teltone.com
+tikal=	teltone.com
+tikal	uw-beaver(DIRECT), fluke(DEMAND), dataio(DEMAND), microsoft(DIRECT),
+	ssc(DIRECT), hplsla(DEMAND), sunup(HOURLY*4), amc(DIRECT),
+	pyrtech(DAILY), camco(DIRECT), geops(DIRECT), uw-nsr(DIRECT),
+	ole(HOURLY), slovax(DAILY+HIGH), sigma(DIRECT), walldata(HOURLY),
+	motsea(HOURLY), phred(DAILY/2), ncrsea(DIRECT), pilchuck(HOURLY),
+	wor-mein(HOURLY), transys(DIRECT), bethco(DIRECT), genric(DEMAND),
+	moss-bay(WEEKLY), colossus(HOURLY), thebes(DAILY), uiucuxc(DEMAND)
+
+SHAR_EOF
+echo shar: extracting d.usa.wi.1
+cat << \SHAR_EOF > d.usa.wi.1
+#MAP FILE: d.usa.wi.1	Wed Jul 22 10:35:39 EDT 1987	tgt@stargate.COM
+#
+#
+#N	.mu.edu, marque
+#F	spool.wisc.edu
+#O	Math, Stat and Comp Science - Marquette University
+#C	Doug Harris, Fred Bolden, Brian Bebeau
+#E	doug@mu.edu, manager@mu.edu, tech@mu.edu
+#T	414-224-3889, 414-224-6734, 414-224-6817
+#P	Marquette University, Milwaukee, WI, 53233
+#L	43 4 58 N / 87 55 52 W (City)
+#R	registered
+#U	uwmcsd1
+#W	doug@mu.edu (Douglas Harris); Fri Jun  5 00:02:31 EDT 1987
+#
+marque  .mu.edu
+marque = mu.edu
+#
+marque	uwmcsd1(DIRECT), uwvax(DAILY), gmwi1(DIRECT), msoesun(DIRECT)
+
+SHAR_EOF
+#	End of shell archive
+exit d,

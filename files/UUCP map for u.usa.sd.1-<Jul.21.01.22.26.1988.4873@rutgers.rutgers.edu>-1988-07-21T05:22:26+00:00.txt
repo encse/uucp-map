@@ -1,0 +1,49 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.sd.1
+: This archive created: Thu Jul 21 01:22:23 1988
+echo shar: extracting u.usa.sd.1
+cat << 'SHAR_EOF' > u.usa.sd.1
+# u.usa.sd.1 created by dpz@rutgers.edu on Mon Jul 18 17:31:20 EDT 1988
+
+#N	loft386
+#S	80386 AT-clone; Bell Technologies System V/386 Release 3.0
+#O	Privately owned system
+#C	Doug Ingraham
+#E	dpi@loft386.UUCP
+#T	+1 605 343 8760
+#P	1320 Woodridge Dr, Rapid City, SD  57701
+#L	44 03 N / 103 14 W
+#R 
+#U
+#W	loft386!dpi (Doug Ingraham); Thu Jul  7 19:15:20 MDT 1988
+#
+loft386	warble(DAILY)
+
+#N	walldrug
+#O	Wall Drug Store
+#S	pdp 11/45, v6 modified
+#C	Ted Hustead jr.
+#E	walldrug!hustead
+#T	+1 605 279 2175
+#P	Wall Drug Store, Wall SD 57790
+#L	44 00 43 N / 102 19 59 W
+#U	namei glotz hoptoad kgbvax kremvax
+#R	Yep, a million people a year come to see our very own ice water
+#R	well, 6 foot jack rabbit, 5 cent coffee, church & 520 seat cafe!
+#W	walldrug!postmaster (Ted Hustead jr.); Sat Mar 19 19:02:51 MST 1988
+#
+#	upstream sites
+walldrug	glotz(HOURLY+LOW), namei(HOURLY+HIGH)
+#
+#	downstream sites
+walldrug	kgbvax(HOURLY*4), kremvax(HOURLY*4)
+#
+#	our alt.drugs feed
+walldrug	hoptoad(DAILY)
+
+# u.usa.sd.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0

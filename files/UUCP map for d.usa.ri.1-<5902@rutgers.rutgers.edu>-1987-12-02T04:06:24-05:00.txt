@@ -1,0 +1,64 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.ri.1
+# This archive created: Wed Dec  2 04:06:22 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.ri.1
+cat << \SHAR_EOF > d.usa.ri.1
+#	start of d.usa.ri.1: Thu May 21 19:47:39 EDT 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.ray.com, rayssd
+#F	a.cs.uiuc.edu
+#O	Raytheon Company
+#C	Gregory M. Paris, Ralph A. Shaw, David H. Brierley
+#E	postmaster@rayssd.RAY.COM
+#T	401-847-8000 exts 3839, 4180, 4073
+#P	Submarine Signal Division, 1847 West Main Road, Portsmouth, RI 02871-1087
+#L	41 34 03 N / 71 16 57 W
+#U	raybed2 mirror necntc brunix
+#R	registered
+#W	gmp@rayssd.RAY.COM; Wed May 20 09:13:27 EDT 1987
+#
+rayssd	.ray.com
+rayssd=	ray.com, rayssd.ray.com
+#
+# other Raytheon divisions
+rayssd	raybed2(EVENING), ray2k(DEMAND)
+raybed2	rayssd(DIRECT)
+#
+# best mail connections, graded/ordered by quality
+rayssd	mirror(HOURLY+4*HIGH), necntc(HOURLY+4*HIGH), cbosgd(HOURLY+HIGH),
+	uiucdcs(HOURLY), ihnp4(HOURLY+2*LOW), gatech(HOURLY+5*LOW)
+#
+# neighbors that mangle From: addresses, or low quality connections
+rayssd	allegra(EVENING), brunix(EVENING), cci632(EVENING),
+	linus(EVENING), umcp-cs(EVENING), unisec(POLLED), uriecl(EVENING)
+brunix	rayssd(POLLED)
+umcp-cs	rayssd(POLLED)
+
+#N	.usi.com, unisec
+#F	uxc.cso.uiuc.edu
+#O	UniSecure Systems, Inc
+#C	Darryl Wagoner
+#E	unisec!dpw, dpw@USI.COM
+#T	+1 401 849 0752
+#P	88 West Broadway, Newport, R.I. 02840
+#L	41 19 N / 71 17 W city
+#R
+#U	rayssd 
+#W	unisec!dpw (Darryl Wagoner); Fri Feb 20 03:49:25 EST 1987
+#
+unisec	.usi.com
+unisec= unisec.usi.com
+unisec	rayssd(DIRECT), kitty(EVENING), uiucuxc(EVENING), ethos(DAILY)
+
+#	end of d.usa.ri.1: Thu May 21 19:47:42 EDT 1987
+SHAR_EOF
+#	End of shell archive
+exit 0

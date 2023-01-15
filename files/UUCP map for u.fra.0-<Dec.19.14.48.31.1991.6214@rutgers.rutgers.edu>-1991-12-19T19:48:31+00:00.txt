@@ -1,0 +1,423 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.fra.0
+: This archive created: Thu Dec 19 14:48:28 1991
+echo shar: extracting u.fra.0
+cat << 'SHAR_EOF' > u.fra.0
+# u.fra.0 of 0, 1, 2; changes to: uucpmap@inria.uucp
+# Version # 344; last modified: 91/12/17
+#
+#	Copyright 1989,1990 by EUUG. All rights reserved.
+#	Permission is granted for non-commercial use.
+#
+#
+# Includes subdoms of .fr within FNET, and x400 sites accessible through 
+# pamir.inria.fr or kwai.inria.fr, though this lattest information is not
+# garanteed to be acurate or complete.
+#
+# ###########################################################################
+
+#N	corton
+#S	Sun 4/260 SunOS 4.1
+#O	Institut National de la Recherche en Informatique et Automatique, Rocquencourt
+#C	Mr. Yves Devillers, Mr. Francis Dupont
+#E	postmaster@inria.inria.fr, dupont@inria.inria.fr
+#T	+33 1 39 63 55 96
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	French backbone for Fnet - EUnet
+#W	
+#
+corton = corton.inria.fr
+corton	inria(LOCAL)
+
+#N	inria
+#S	VAX11/785 UNIX 4.3BSD
+#O	Institut National de Recherche en Informatique et Automatique, INRIA
+#C	Yves Devillers
+#E	Yves.Devillers@inria.fr, devill@inria.inria.fr
+#T	+33 1 39 63 55 96
+#P	Domaine de Voluceau, B.P. 105, F-78153 Le Chesnay CEDEX, France
+#L	2 07 E / 48 50 N (city)
+#R	Former French backbone, will be dismantled before 1992
+#W	inria!devill 860903
+#U	
+#
+inria	.fr
+inria	.inria.fr
+inria = inria.fr
+inria = inria.inria.fr
+inria =	pommard
+inria corton(LOCAL)
+
+# cern being located both in Switzerland and France, the name is booked-up
+# in .fr, junk site is well-known-entry-point
+# no-site	=	cernvax.cern.fr
+# fake domain atlantic.fr for Sophia-Princeton hosts
+inria	.atlantic.fr
+# other fake domains
+inria	.demo.fr
+inria	.expo.fr
+# A la demande de Denise Heagerty et Christian Huitema (8/8/88)
+inria	.cern.fr
+
+# BEGIN-DOMAIN-X400 This is begining of domains accessible via X400
+# BEWARE: "pamir" is an hint for x400 delivery by local accounting software
+# Aristote
+pamir	.aristote.fr
+pamir	.ccett.fr
+pamir	.cea.fr
+pamir	.cnes.fr
+pamir	.cnet.fr
+pamir	.dassault-elec.fr
+pamir	.e3x.fr
+pamir	.irpeacs.fr
+pamir	.sync.fr
+pamir	.urec.fr
+
+# REUNIR
+# Ainsi router ou ida-sendmail passera directement (faut qu'il soit connecte')
+# inria apparait le relai pour que l'etranger les passe a l'inria
+# une fois sur inria sendmail les passera normalement a sunir.reunir.fr
+#
+inria	.cecam.fr
+inria	.cemes.fr
+inria	.ceram.fr
+inria	.cerfacs.fr
+inria	.circe.fr
+inria	.cirad.fr
+inria	.citi2.fr
+inria	.citilille.fr
+inria	.cnusc.fr
+inria	.colos-paris.fr
+inria	.coria.fr
+inria	.ec-lyon.fr
+inria	.eerie.fr
+inria	.ens-cachan.fr
+inria	.ensm-nantes.fr
+inria	.glvt-cnrs.fr
+inria	.genethon.fr
+inria	.hbroussais.fr
+inria	.icsn.fr
+inria	.ill.fr
+inria	.imf-toulouse.fr
+# inria	.inra.fr	# NON, c'est un site Fnet (yd 900720)
+inria	.insa-rouen.fr
+inria	.iut-orsay.fr
+inria	.limsi.fr
+inria	.lmcp.fr
+inria	.matups.fr
+inria	.onecert.fr
+inria	.reunir.fr
+inria	.uhb.fr
+inria	.u-paris10.fr
+inria	.u-strasbg.fr
+inria	.unicaen.fr
+inria	.unice.fr
+inria	.unilim.fr
+inria	.univ-lyon1.fr
+inria	.univ-pau.fr
+inria	.univ-st-etienne.fr
+inria	.ups-tlse.fr
+
+# AUTRES MONDES
+inria	.in2p3.fr
+
+# BEGIN-DOMAIN-FNET This is begining of domains accessible via Fnet delivery
+
+# Plaques regionales (PACA, ...)
+inria	.cica.fr
+inria	.cnrs-mrs.fr
+inria	.imt-mrs.fr
+inria	.obs-nice.fr
+inria	.univ-mrs.fr
+
+# Les autres poles
+
+inria	.criss.fr
+inria	.enserg.fr
+inria	.ensieg.fr
+inria	.grenet.fr
+inria	.img.fr
+inria	.observ-gr.fr
+inria	.polycnrs-gre.fr
+
+inria	.loria.fr
+inria	.u-nancy.fr
+
+# FNET domains (eg: accessible via path inside Fnet)
+
+# French glue to X400 gateways
+inria	kwai(DEMAND), pamir(DEMAND)
+
+# Dirty French glue, should disapear!
+inria	timpit0(DEMAND)
+
+# Those routes will eventually be included in u.eur.0 and be no longer
+# under the responsability of Net backbone manager
+# European inter-backbone links
+
+# Outside Europe backbone links
+inria	uunet(ARPA-2)
+inria	ini(DEAD), tuniscni(DEAD)
+
+inria	aar(HOURLY), absstbg(HOURLY), acri(HOURLY), adesign(HOURLY),
+	adnt(HOURLY), afuu(HOURLY), alsysfr(HOURLY), analogi(HOURLY),
+	anl(HOURLY), antea(HOURLY), appleeu(HOURLY), apysoft(HOURLY),
+	archipl(HOURLY), axis(HOURLY),
+	bdblues(HOURLY), blais(HOURLY), bullfr(HOURLY),
+	calva(HOURLY), ccr-p6(HOURLY), ccvi(HOURLY), ccvr(HOURLY),
+	cedrat(HOURLY), cegelec(HOURLY), cena(HOURLY), cephb(HOURLY),
+	cerci2(HOURLY), cerfacs(HOURLY), cerics(HOURLY), cerisi(HOURLY),
+	cetem(HOURLY), cetia(HOURLY), cetiom(HOURLY), cgref(HOURLY),
+	chorus(HOURLY), cicb(HOURLY), cicg(HOURLY), cict(HOURLY),
+	cidsp(HOURLY), circe(HOURLY), ciril(HOURLY), cisi(HOURLY), cma(HOURLY),
+	cmep(HOURLY), cnam(HOURLY), cnbdi(HOURLY), cnca(HOURLY),
+	cnetlu(HOURLY), cnsmdly(HOURLY), cognit(HOURLY), comte(HOURLY),
+	corelis(HOURLY), corton(HOURLY), cosmic(HOURLY), crcge1(HOURLY),
+	crim(HOURLY), crin(HOURLY), criss(HOURLY), crtbt(HOURLY),
+	csinn(HOURLY), cstbsop(HOURLY), cstltia(HOURLY), cvxfr(HOURLY),
+	decprl(HOURLY), duran(HOURLY),
+	east(HOURLY), echbull(HOURLY), edfder1(HOURLY), effix(HOURLY),
+	ehei(HOURLY), elsa(HOURLY), emsesmc(HOURLY), enpc(HOURLY), ens(HOURLY),
+	ensamai(HOURLY), enseeih(HOURLY), enserg(HOURLY), ensica(HOURLY),
+	ensieg(HOURLY), ensl(HOURLY), ensmp(HOURLY), enssat(HOURLY),
+	enst(HOURLY), ensta(HOURLY), enstb(HOURLY), ensttsa(HOURLY),
+	es2fr(HOURLY), esegif(HOURLY), esemetz(HOURLY), esi(HOURLY),
+	esiee(HOURLY), esrf(HOURLY), etca(HOURLY), euro(HOURLY),
+	feiffel(HOURLY), free(HOURLY), frsac(HOURLY), ftc(HOURLY),
+	galaad(HOURLY), genset(HOURLY), geocub(HOURLY), geovar(HOURLY),
+	gipsi(HOURLY), glaciog(HOURLY), gouldfr(HOURLY), graph(HOURLY),
+	grenet(HOURLY), grif(HOURLY), grxtal(HOURLY), gsierli(HOURLY),
+	gsiserv(HOURLY), gsitecsi(HOURLY), gtl(HOURLY),
+	ibmfr(HOURLY), icdc(HOURLY), ideur(HOURLY), iefups(HOURLY),
+	ifp(HOURLY), ifremer(HOURLY), ign(HOURLY), ilog(HOURLY), imag(HOURLY),
+	img(HOURLY), in2(HOURLY), inagri(HOURLY), index(HOURLY),
+	infosis(HOURLY), inra(HOURLY), inrets(HOURLY), insage(HOURLY),
+	insgrp(HOURLY), int(HOURLY), ipspt(HOURLY), iram(HOURLY),
+	ircam(HOURLY), iremia(HOURLY), ireste(HOURLY), irisa(HOURLY),
+	irit(HOURLY), ismra(HOURLY), isoftfr(HOURLY), itbs(HOURLY),
+	itesec(HOURLY), itmi(HOURLY), iutlan(HOURLY), iutlr(HOURLY),
+	kwai(HOURLY),
+	laas(HOURLY), lag(HOURLY), laissus(HOURLY), lasso(HOURLY),
+	lchopin(HOURLY), leafihq(HOURLY), ledss(HOURLY), lep(HOURLY),
+	lifl(HOURLY), limsi(HOURLY), lish(HOURLY), litp(HOURLY), loria(HOURLY),
+	lri(HOURLY), lscp(HOURLY), lvbull(HOURLY),
+	marben(HOURLY), masbull(HOURLY), matrasp(HOURLY), matratr(HOURLY),
+	mc2(HOURLY), mdtvhq(HOURLY), meteo(HOURLY), metradt(HOURLY),
+	metrotia(HOURLY), mge(HOURLY), mimetix(HOURLY), mipsfr(HOURLY),
+	mirsa(HOURLY),
+	ncdfr(HOURLY), necfr(HOURLY), nsl(HOURLY),
+	o2tech(HOURLY), observg(HOURLY), onecert(HOURLY), onera(HOURLY),
+	orstom(HOURLY), osffr(HOURLY),
+	pamir(HOURLY), pmpf(HOURLY), poly(HOURLY), pommard(HOURLY),
+	prodix(HOURLY),
+	ratp(HOURLY), rce(HOURLY), renault(HOURLY),
+	sdv(HOURLY), semagr(HOURLY), semaitf(HOURLY), sept(HOURLY),
+	sfgl(HOURLY), simpoli(HOURLY), simpolis(HOURLY), simtoul(HOURLY),
+	simulog(HOURLY), sitefr(HOURLY), softway(HOURLY), softwfr(HOURLY),
+	sonyf(HOURLY), srtp(HOURLY), stasoft(HOURLY), steria(HOURLY),
+	sunfr(HOURLY), sunir(HOURLY), syd(HOURLY), synfras(HOURLY),
+	syseca(HOURLY), sysren(HOURLY),
+	tdisys(HOURLY), tecsi(HOURLY), telic7(HOURLY), telmat(HOURLY),
+	thcgr(HOURLY), thcsf(HOURLY), theseus(HOURLY), thetasc(HOURLY),
+	thlcr(HOURLY), timpit0(HOURLY), tirf(HOURLY), titnfr(HOURLY),
+	tls-cs(HOURLY), tni(HOURLY), tosca(HOURLY), total(HOURLY),
+	trtti(HOURLY), tsinnov(HOURLY), tuniscni(HOURLY),
+	ucaen(HOURLY), ucfma(HOURLY), ucfsl(HOURLY), ucoima(HOURLY),
+	uhafst(HOURLY), unantes(HOURLY), univorl(HOURLY), untchnc(HOURLY),
+	up5iut(HOURLY), up5math(HOURLY), uparis8(HOURLY), upn(HOURLY),
+	urubu(HOURLY), utc(HOURLY),
+	verilog(HOURLY), victorf(HOURLY),
+	wrsec(HOURLY)
+aar	.alcatel-alsthom.fr
+absstbg	.alcatel-bs-stbg.fr
+acri	.acri.fr
+adesign	.axis-design.fr
+adnt	.adnt.fr
+afuu	.afuu.fr
+anl	.anl.fr
+antea	.antea.fr
+apysoft	.apysoft.fr
+archipl	.archipel.fr
+axis	.axis.fr
+blais	.berger-levrault.fr
+bullfr	.bull.fr
+calva	.calvacom.fr
+ccr-p6	.jussieu.fr
+ccvi	.ccv.fr
+ccvr	.ccvr.fr
+cedrat	.cedrat-grenoble.fr
+cegelec	.cegelec-red.fr
+cena	.dgac.fr
+cephb	.cephb.fr
+cerci2	.sema-taa.fr
+cerics	.cerics.fr
+cerisi	.cerisi.fr
+cetia	.cetia.fr
+cetiom	.cetiom.fr
+cgref	.cemagref.fr
+chorus	.chorus.fr
+cicb	.cicb.fr
+cict	.cict.fr
+ciril	.ciril.fr
+cma	.cma.fr
+cnam	.cnam.fr
+cnbdi	.cnbdi.fr
+cnca	.cnca-cam.fr
+cnetlu	.cnetlu.lannion.cnet.fr
+cnsmdly	.cnsm-lyon.fr
+corelis	.corelis.fr
+crim	.crim.fr
+csinn	.capsogeti.fr
+cstbsop	.cstb.fr
+cstltia	.cap-sesa-telecom.fr
+decprl	.prl.dec.com
+edfder1	.edf.fr
+effix	.effix.fr
+ehei	.ehei.fr
+elsa	.elsa.fr
+emsesmc	.emse.fr
+enpc	.enpc.fr
+ensamai	.ensam-aix.fr
+enseeih	.enseeiht.fr
+ensica	.ensica.fr
+ensl	.ens-lyon.fr
+ensmp	.ensmp.fr
+enssat	.enssat.fr
+enst	.enst.fr
+ensta	.ensta.fr
+enstb	.enst-bretagne.fr
+ensttsa	.enst-tlse.fr
+esegif	.ese-gif.fr
+esemetz	.ese-metz.fr
+esi	.esi.fr
+esiee	.esiee.fr
+etca	.etca.fr
+euro	.eurocontrol.fr
+feiffel	.eiffel.fr
+ftc	.cognitech.fr
+ftc	.framentec.fr
+galaad	.cnet-pab.fr
+geocub	.greco-prog.fr
+gipsi	.gipsi.fr
+gouldfr	.encore.fr
+graph	.graphael.fr
+grif	.grif.fr
+gsiserv	.gsi.fr
+gtl	.georgiatech-metz.fr
+ibmfr	.ibm.fr
+icdc	.icdc.fr
+ideur	.ideur.fr
+iefups	.ief-paris-sud.fr
+ifp	.ifp.fr
+ifremer	.ifremer.fr
+ign	.ign.fr
+ilog	.ilog.fr
+imag	.imag.fr
+in2	.plaisir.sni.fr
+inagri	.ina.fr
+infosis	.infosys.fr
+inra	.inra.fr
+inrets	.inrets.fr
+insage	.insa-tlse.fr
+insgrp	.snc-caen.fr
+int	.int-evry.fr
+ipspt	.ips.fr
+ircam	.ircam.fr
+iremia	.iremia.fr
+ireste	.ireste.fr
+irisa	.irisa.fr
+irit	.irit.fr
+ismra	.ismra.fr
+isoftfr	.isoft.fr
+itbs	.itbs.fr
+itesec	.hsc-sec.fr
+itmi	.itmi.fr
+iutlan	.iut-lannion.fr
+iutlr	.iut-lr.fr
+laas	.laas.fr
+lag	.lag.grenet.fr
+lchopin	.lchopin-nancy.fr
+leafihq	.ileaf.fr
+lep	.lep-philips.fr
+lifl	.lifl.fr
+lish	.cnrs-lish.fr
+litp	.ibp.fr
+loria	.crin.fr
+lri	.lri.fr
+lscp	.lab-cog-psy.fr
+marben	.marben.fr
+matrasp	.matra-espace.fr
+mc2	.mc2.fr
+mdtvhq	.matra-dtv.fr
+meteo	.meteo.fr
+metradt	.metra.fr
+metrotia	.metrologie.fr
+mge	.mg-entreprises.fr
+mimetix	.mimetics.fr
+ncdfr	.ncd.fr
+nsl	.nsl.fr
+o2tech	.altair.fr
+o2tech	.o2tech.fr
+onera	.onera.fr
+orstom	.orstom.fr
+osffr	.osf.fr
+pamir	.aristote.fr
+pamir	.ccett.fr
+pamir	.cea.fr
+pamir	.cnes.fr
+pamir	.cnet.fr
+pamir	.dassault-elec.fr
+pamir	.e3x.fr
+pamir	.irpeacs.fr
+pamir	.sync.fr
+pamir	.urec.fr
+pmpf	.philips-mpf.fr
+poly	.polytechnique.fr
+prodix	.prodix.fr
+ratp	.ratp.fr
+rce	.rce.fr
+renault	.renault.fr
+sdv	.sdv-plurimedia.fr
+semagr	.sema-grenoble.fr
+semaitf	.sema-itf.fr
+sept	.sept.fr
+sfgl	.sfgl.fr
+simpoli	.simpolis.fr
+sitefr	.site-maisons-alfort.fr
+softwfr	.softway.fr
+sonyf	.sony.fr
+srtp	.srt-poste.fr
+stasoft	.stationsoft.fr
+steria	.steria.fr
+sunfr	.sun.fr
+syd	.synergie.fr
+synfras	.symphrasis.fr
+syseca	.syseca.fr
+telmat	.telmat.fr
+thcgr	.ge-cgr.fr
+thcsf	.thomson-doi.fr
+theseus	.theseus.fr
+thlcr	.thomson-lcr.fr
+tls-cs	.cert.fr
+total	.total.fr
+tsinnov	.telesys-innov.fr
+ucaen	.univ-caen.fr
+ucfma	.univ-bpclermont.fr
+ucoima	.math-appli-uco.fr
+unantes	.univ-nantes.fr
+univorl	.univ-orleans.fr
+up5iut	.iut-paris5.fr
+up5math	.math-paris5.fr
+uparis8	.univ-paris8.fr
+upn	.univ-paris13.fr
+utc	.univ-compiegne.fr
+verilog	.verilog.fr
+victorf	.victor.fr
+wrsec	.wrsec.fr
+SHAR_EOF
+:	End of shell archive
+exit 0
+

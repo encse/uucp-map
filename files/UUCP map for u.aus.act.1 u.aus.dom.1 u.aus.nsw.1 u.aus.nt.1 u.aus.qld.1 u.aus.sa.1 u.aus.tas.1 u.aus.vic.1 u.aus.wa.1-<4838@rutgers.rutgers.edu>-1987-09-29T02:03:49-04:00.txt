@@ -1,0 +1,2974 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.aus.act.1
+#	u.aus.dom.1
+#	u.aus.nsw.1
+#	u.aus.nt.1
+#	u.aus.qld.1
+#	u.aus.sa.1
+#	u.aus.tas.1
+#	u.aus.vic.1
+#	u.aus.wa.1
+# This archive created: Tue Sep 29 02:03:42 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.aus.act.1
+cat << \SHAR_EOF > u.aus.act.1
+# Australia - Australian Capital Territory
+
+#	u.aus.act.1  -  created 10 Sep 87 by acsmap@physiol.su.oz.au
+
+#N	anucsd.oz.au
+#S	Pyramid 90X; OSx 3.1
+#O	Australian National University, Dept. of Computer Science
+#C	Peter Wishart
+#E	postmaster@anucsd.oz.au
+#T	+61 62 49-3850
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#U	basser.oz.au jcphys44.anu.oz.au fac.anu.oz.au csadfa.oz.au
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	cancol.oz.au
+#S	SUN microsystems 2/170(ex 1/150); BSD4.2
+#O	School of Information Sciences and Engineering, Canberra College of Advanced Education
+#C	Jan Newmarch
+#E	jan@cancol.oz.au
+#T	+61 62 52 2422
+#P	P.O. Box 1, Belconnen, ACT 2616, Australia
+#L	35 12 S / 149 08 E
+#W	ross@cancol.oz.au; Fri Oct 17 12:38:29 1986
+
+#N	ccadfa.oz.au
+#S	Pyramid Workcenter; OSx 3.1	
+#O	Computer Centre, University College
+#C	Mr. Nghia Vu
+#E	postmaster@ccadfa.oz.au
+#T	+61 62 68 8136	
+#P	Australian Defence Force Academy, Canberra ACT 2600, Australia
+#L	35 17 39 S / 149 09 48 E
+#R	Mail and News server
+#U	munnari.oz.au csadfa.oz.au phadfa.adfa.oz.au eeadfa.cc.adfa.oz.au
+#W	nv@ccadfa.oz.au; 23 Sep 1986 1529 (Tuesday)
+
+#N	csadfa.oz.au
+#S	Pyramid 90X; OSx 2.5
+#O	Dept. Computer Science, University College, UNSW, ADFA
+#C	Geoff Collin
+#E	postmaster@csadfa.oz.au
+#T	+61 62 68-8155
+#P	Canberra, ACT 2600, Australia
+#L	35 17 38 S / 149 09 47 E
+#R	Staff research and teaching machine
+#U	anucsd.oz.au ccadfa.adfa.oz.au dmscanb.oz.au eeadfa.adfa.oz.au phadfa.adfa.oz.au cspyr1.cs.adfa.oz.au
+#W	gco@csadfa.oz.au; 9 Mar 1987 1432
+
+#N	csc0.anu.oz.au
+#S	VAX 11/780; VMS 4.4
+#O	Computer Services Centre, Australian National University
+#C	Rob Ewin
+#E	postmaster@csc0.anu.oz.au
+#T	+61 62 49-4468
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#R	foreign ACSnet node, mail only
+#U	fac3.anu.oz.au
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	cscunix.anu.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Computer Services Centre, Australian National University
+#C	Rob Ewin
+#E	postmaster@cscunix.anu.oz.au
+#T	+61 62 49-4468
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#R	No news service on this host
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	cspyr1.cs.adfa.oz.au
+#S	Pyramid 90X; OSx 3.1
+#O	Dept. Computer Science, University College, UNSW, ADFA
+#C	Geoff Collin
+#E	postmaster@csadfa.oz.au
+#T	+61 62 68-8155
+#P	Canberra, ACT 2600, Australia
+#L	35 17 38 S / 149 09 47 E
+#R	Teaching machine only
+#U	csadfa.oz.au
+#W	gco@csadfa.oz.au; 9 Mar 1987 1432
+
+#N	dmscanb.oz.au
+#S	DEC VAX11/750; Unix 4.2BSD
+#O	CSIRO Division of Mathematics & Statistics, Canberra
+#C	Bob Forrester
+#E	postmaster@dmscanb.dms.oz.au
+#T	+61 62 81 8550
+#P	GPO Box 1965, Canberra ACT 2601, Australia
+#L	35 19 S / 149 06 E
+#R	data analysis, math research, math word processing
+#U	natmlab.dms.oz.au dmsadel.dms.oz.au dmsmelb.dms.oz.au dmsbris.dms.oz.au csadfa.oz.au rangelnd.oz.au
+#W	bobf@dmscanb.dms.oz.au; Apr  8 10:43:12 1987
+
+#N	fac.anu.oz.au
+#S	2 x Vax 11-785; VMS 4.5
+#O	Australian National University, Faculties Computer Unit
+#C	Geoff Huston
+#E	postmaster@fac1.anu.oz.au
+#T	+61 62 49-2763
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#U	anucsd.oz.au csc0.anu.oz.au
+#R	VAXCluster, used to be fac0 and fac1, foreign ACSnet node, mail ONLY
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	fac3.anu.oz.au
+#S	uVAX II; VMS 4.5
+#O	Computer Services Centre, Australian National University
+#C	Geoff Huston
+#E	postmaster@fac3.anu.oz.au
+#T	+61 62 49-2763
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#R	VMS to UNIX mail gateway, foreign ACSnet node, mail only
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	facunix.anu.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Computer Services Centre, Australian National University
+#C	Rob Ewin
+#E	postmaster@facunix.anu.oz.au
+#T	+61 62 49-4468
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E
+#R	Main link between ANU and the outside world, via basser
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	jcphys44.anu.oz.au
+#S	DEC PDP 11/44; Unix
+#O	Australian National University; Dept. of Physiology, JCSMR
+#C	Eva Elekessy
+#E	eva@jcphys44.anu.oz.au
+#T	+61 62 49-2581
+#P	GPO Box 334, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#U	anucsd.oz.au
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	mso.anu.oz.au
+#S	Vax 11/785; VMS 4.5
+#O	Mount Stromlo & Sidings Springs Observatories, ANU
+#C	Blair Phillips
+#E	postmaster@mso.anu.oz.au
+#T	+61 62 88-1111
+#P	Private Bag, Woden P.O., ACT 2606, Australia
+#L	35 19 10 S / 149 00 25 E 
+#R	foreign ACSnet node, mail and news ONLY
+#U	fac.anu.oz.au
+#W	blair@sso.anu.oz.au; Apr 12 14:56:30 1987
+
+#N	phadfa.adfa.oz.au
+#S	Pyramid 90X, OSx 4.0
+#O	Physics Dept., University College, UNSW, ADFA
+#C	Brian Denehy
+#E	postmaster@phadfa.ph.adfa.oz.au 
+#T	+61 62 68-8790
+#P	Campbell, ACT 2600, Australia
+#L	35 17 40 S / 149 09 50 E
+#R	Staff research and teaching machine
+#U	csadfa.cs.adfa.oz.au,ccadfa.cc.adfa.oz.au
+#W	bvd@phadfa.adfa.oz.au; Fri Jul  3 10:42:55 EST 1987
+
+#N	phys0.anu.oz.au
+#S	Vax 11-780; VMS 4.5
+#O	Australian National University, Research School of Physical Sciences
+#C	Shiu Tin
+#E	postmaster@phys0.anu.oz.au
+#T	+61 62 49-2143
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#R	foreign ACSnet node, mail ONLY
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	phys4.anu.oz.au
+#S	Vax 11-750; VMS 4.5
+#O	Australian National University, Research School of Physical Sciences
+#C	Joe Elso
+#E	postmaster@phys4.anu.oz.au
+#T	+61 62 49-8619
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#R	foreign ACSnet node, mail ONLY
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	rsbs0.anu.oz.au
+#S	Vax 11-750; VMS 4.2
+#O	Australian National University, Research School of Biological Sciences
+#C	David Sandilands
+#E	postmaster@rsbs0.anu.oz.au
+#T	+61 62 49-4436
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#U	csc0.anu.oz.au
+#R	foreign ACSnet node, mail ONLY
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	rsc0.anu.oz.au
+#S	Vax 11-750; VMS 4.2
+#O	Australian National University, Research School of Chemistry
+#C	Malcolm Bruce
+#E	postmaster@rsc0.anu.oz.au
+#T	+61 62 49-4089
+#P	GPO Box 4, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 7 12 E city
+#R	foreign ACSnet node, mail ONLY
+#W	jeremy@cscunix.anu.oz.au; Wed Apr 22 08:49:06 1987
+
+#N	sso.anu.oz.au
+#S	Vax 11/780; VMS 4.5
+#O	Mount Stromlo & Sidings Springs Observatories, ANU
+#C	Blair Phillips
+#E	postmaster@sso.anu.oz.au
+#T	+61 62 88 1111
+#P	Private Bag, Woden P.O., ACT 2606, Australia
+#L	31 16 35 S / 149 04 00 E 
+#R	foreign ACSnet node, mail ONLY
+#W	blair@sso.anu.oz.au; Apr 12 14:56:30 1987
+
+SHAR_EOF
+echo shar: extracting u.aus.dom.1
+cat << \SHAR_EOF > u.aus.dom.1
+# Australia - notable hosts in the 'oz' domain
+
+# These are given so pathalias can produce routes using addresses
+# like "aaec!user" which tends to be what the news code likes
+# to produce.  Only a small subset of "oz" is listed here, being a
+# very subjectively chosen list of hosts that I think it likely
+# that people are likely to want to reach with uucp style addresses
+
+# the australian cadvax and the US one aren't the same thing
+# the domains are purely local (only here to make the addresses right)
+
+private {cadvax, .su, .trl, .dms, .dmt, .uq}
+
+.su = { archsci, physiol }
+.trl = { trlvlsi }
+.dms = { dmsadel, dmsmelb }
+.dmt = { aegir, mimir, heimdall }
+.uq = { psych }
+
+.oz = {
+	.dms, .dmt, .su, .trl, .uq, aaec, anucsd, basser, cadvax, cadvaxoz,
+	cidam, csadfa, effigy, elecvax, flinders, gucis, ipso, latcs1, metro,
+	moncsbruce, moncskermit, monu1, monu3, mqcomp, mulga, munnari, murdu,
+	natmlab, nswitgould, nucs, pta, qfdts, runx, siromath, sri, swanee,
+	tasis, tictoc, trlamct, trlsasb, uqcspe, wacseffigy, wacsvax,
+	wapsyvax
+      }
+
+.au = { .oz }
+
+#
+# bias links to prefer link to munnari if they are otherwise equal
+#
+munnari	.oz(DIRECT), .au(DIRECT)
+mulga	.oz(DIRECT+1), .au(DIRECT+1)
+SHAR_EOF
+echo shar: extracting u.aus.nsw.1
+cat << \SHAR_EOF > u.aus.nsw.1
+# Australia - New South Wales
+
+#	u.aus.nsw.1  -  created 01 Sep 87 by acsmap@physiol.su.oz.au
+
+#N	6d6.oz.au
+#S	Osiris 1; UNIX 5.2
+#O	Private
+#C	Tim Long
+#E	timl@6d6.oz.au
+#T	+61 2 46-4078
+#P	81 Bent St, Lindfield, NSW 2070, Australia
+#L	33 52 S / 151 13 E city
+#W	timl@6d6.oz.au; Thu Mar 19 19:14:25 1987
+
+#N	aaocbn.oz.au
+#S	Vax 11-780; VMS 4.2
+#O	Anglo Australian Observatory, Coonabarrabran, NSW 2357
+#E	system@aaocbn.oz.au
+#R	foreign ACSnet node, mail ONLY
+#W	pjw@anucsd.oz.au; Apr 12 21:09:51 1986
+
+#N	aaoepp.oz.au
+#S	Vax 11-780; VMS 4.2
+#O	Anglo Australian Observatory, Epping, NSW 2121
+#C	Helen Davies
+#E	system@aaoepp.oz.au
+#R	mail ONLY, connected by VMS Packet Switch Interface (PSI - X.25)
+#W	pjw@anucsd.oz.au; Apr 12 21:09:51 1986
+
+#N	agsm.unsw.oz.au
+#S	DEC VAX 11/780; Unix (BSD 4.1 + MUSH)
+#O	University of NSW, Australian Graduate School of Management
+#C	Gregory James
+#E	greg@agsm.unsw.oz.au
+#T	+61 2 662 0273
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	primary use: teaching & research
+#U	elec70b.unsw.oz.au
+#W	greg@agsm.unsw.oz.au; Fri Apr  4 19:59:28 1986
+
+#N	anprod.oz.au
+#S	DE Unity 68 (68010 cpu, Q-bus); Integrated Solutions 4.2 BSD Unix
+#O	CSIRO Division of Animal Production
+#C	Mr. R. Evans
+#E	rod@anprod.oz.au
+#T	+61 2 631-8022
+#P	P.O. Box 239 Blacktown, NSW 2148, Australia
+#L	33 49 S / 150 55 E
+#R	Sheep breeding database management and analysis; CSIROnet gateway
+#U	natmlab.oz.au
+#W	rod@anprod.oz.au; 10 Nov 1986 1001 (Monday)
+
+#N	applic0.ucc.su.oz.au
+#S	NEC APC IV; Microport System V
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	Internal to Uni Computing Service
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	applic1.ucc.su.oz.au
+#S	NEC APC IV; Microport System V
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	Internal to Uni Computing Service
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	archsci.su.oz.au
+#S	SUN 2/120; 4.2BSD Unix SUN release 3.0
+#O	Architectural Computing Unit, University of Sydney
+#C	Stephen Tolhurst
+#E	stephen@archsci.su.oz.au
+#T	+61 2 692-3549
+#P	Dept of Architectural Science GO4, NSW 2006, Australia
+#R	other cpus SUN 100U, SUN 2/50 SUN 2/160
+#L	33 52 S / 151 13 E City
+#U	metro.oz.au
+#W	stephen@archsci.su.oz.au; Tue Oct 7  11:37  AEST
+
+#N	astra.necisa.oz.au
+#S	NEC Astra XL/32; ASTR-IX System V.2.2
+#O	NEC Information Systems Australia Pty Ltd
+#C	Dave Horsfall
+#E	dave@astra.necisa.oz.au, postmaster@astra.necisa.oz.au
+#T	+61 2 438-3544
+#P	3rd Floor, 99 Nicholson St, ST. Leonards NSW 2065, Australia
+#R	UNIX support
+#L	33 52 S / 151 13 E city
+#U	gris.oz.au, ipso.oz.au
+#W	dave@astra.necisa.oz.au; 19 May 1987 1448
+
+#N	atom.oz.au
+#S	Pyramid 90x; OSx 4.0
+#O	Australian Nuclear Science and Technology Organisation
+#C	David Haynes
+#E	postmaster@atom.oz.au
+#T	+61 2 543 3094
+#P	Locked Mailbag No 1, Menai, NSW 2234, Australia
+#L	34 03 09 S / 150 59 08 E
+#R	Formerly aaec.oz.au
+#U	basser.oz.au
+#W	philip@atom.oz.au; Mon Jul 6 22:43:51 EST 1987
+
+#N	bain3.oz.au
+#S	Hewlett-Packard HP System 9000 Series 320; HP-UX Release 5.142
+#O	Fixed Interest Division, Bain & Co.
+#C	Chris Tham
+#E	christie@bain3.oz.au
+#T	+61 2 239-6055
+#P	13th floor, 6 - 10 O'Connell St, Sydney, NSW 2000, Australia
+#U	metro.oz.au
+#W	christie@bain3.oz.au; 12 Feb 1987 2319
+
+#N	basser.oz.au
+#S	DEC VAX-11/780; UNIX/AUSAM
+#O	Basser Department of Computer Science, University of Sydney
+#C	Piers Lauder
+#E	postmaster@basser.oz.au
+#T	+61 2 692-2824
+#P	Computer Science F09, University of Sydney, NSW 2006, Australia
+#L	33 53 25.0 S / 151 11 18.7 E
+#R	Research VAX; height above mean sea level 36 m
+#U	aaec.oz.au anucsd.oz.au elecvax.oz.au nucs.oz.au metro.oz.au moncskermit.oz.au
+#U	mqcomp.oz.au munnari.oz.au physiol.su.oz.au psych44.su.oz.au uqcspe.oz.au wacsvax.oz.au
+#W	john@basser.oz.au (John Mackin); Sat Dec 13 04:05:19 AESST 1986
+
+#N	basset.oz.au
+#S	DEC VAX-11/780; UNIX/TS 1.2 (32V)/AUSAM
+#O	Basser Department of Computer Science, University of Sydney
+#C	Piers Lauder
+#E	postmaster@basser.oz.au
+#T	+61 2 692-2824
+#P	Computer Science F09, University of Sydney, NSW 2006, Australia
+#L	33 53 25.1 S / 151 11 18.7 E
+#R	Teaching VAX; height above mean sea level 36 m
+#W	john@basser.oz.au (John Mackin); Mon Sep 29 02:53:06 AEST 1986
+
+#N	bhpcpd.oz.au
+#S	hewlett packard hp9040s; hp-ux 5.05
+#O	Research & Technology Centre, BHP Coated Products Division
+#C	David Stirling; Grahame Locklee
+#E	davids@bhpcpd.oz.au; gtllee@bhpcpd.oz.au
+#T	+61 42 756269
+#P	P.O. Box 77, Port Kembla, NSW 2505, Australia
+#L	34 29 S / 150 56 E
+#W	davids@bhpcpd.oz.au; 2 Mar 1987
+
+#N	bhpese.oz.au
+#S	Perkin Elmer 3220; Unix Version 7
+#O	Electrical Systems Engineering, BHP Newcastle
+#C	Tom Cordingley
+#E	tom@bhpese.oz.au
+#T	+61 49 69-0564
+#P	Electrical Department, PO Box 196B, Newcastle, NSW 2300, Australia
+#L	32 52 S / 151 49 E city
+#R	Design and installation of Process Control Systems
+#U	nucs.oz.au
+#W	tom@bhpese.oz.au; Mon May 26 11:35:24 1986
+
+#N	bio73.unsw.oz.au
+#S	PDP 11/73; unix
+#O	Faculty of Biological Sciences - Univ. of NSW
+#C	Karl Redell
+#E	root@bio73.unsw.oz.au
+#T	+61 2 697-2059
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#U	civil.unsw.oz.au
+#W	root@bio73.unsw.oz.au; Mon Oct 20 16:21:37 1986
+
+#N	biomed.unsw.oz.au
+#S	DEC 11/40; unix V7
+#O	Biomedical Engineering, University of NSW
+#C	John Woodard
+#E	johnw@biomed.unsw.oz.au
+#T	+61 2 697-5169
+#P	PO Box 1, Kensington, NSW 2033, Australia
+#L	33 52 S / 151 13 E city
+#W	johnw@civil.unsw.oz.au; Sat May 24 20:59:03 1986
+
+#N	bleak.ucc.su.oz.au
+#S	NEC APC III; NEC's Unix System III
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#U	metro.ucc.su.oz.au
+#R	Internal to Uni Computing Service
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	cad.unsw.oz.au
+#S	VAX11/780; UNIX (BSD4.3)
+#O	University of NSW, Joint Microelectronics Research Centre
+#C	Graham Hellestrand
+#E	hell@cad.unsw.oz.au
+#T	+61 2 697 4028
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	research
+#R	was cadvax.oz.au
+#U	elecvax.oz.au
+#W	hell@cad.unsw.oz.au; Fri May  1 10:06:11 1987
+
+#N	cardvas.physiol.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Department of Physiology, University of Sydney
+#C	Barry Gow
+#E	barryg@cardvas.physiol.su.oz.au
+#T	+61 2 692 2514
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.8 S / 151 11 13.2 E
+#R	real-time cardiovasclar data acquisition, processing & display
+#W	daved@physiol.su.oz.au; Tue Sep 16 10:21:59 AEST 1986
+
+#N	chemeng.su.oz.au
+#S	Microvax II; Ultrix V1.2
+#O	Dept of Chemical Engineering (J01), University of Sydney,
+#C	Warren Simon
+#E	warren@chemeng.su.oz.au
+#T	+61 2 692-3832
+#P	NSW 2006, Australia
+#L	33 52 S / 151 13 E City
+#W	warren@chemeng.su.oz.au; 21 Oct 1986 1223 (Tuesday)
+
+#N	cheops.oz.au
+#S	Pyramid 90x; UNIX (SystemV/BSD4.2)
+#O	University of NSW, School of Elec Eng & Computer Science, Dept of Computer Science
+#C	Mark Shultz
+#E	marks@cheops.oz.au
+#T	+61 2 697 4072
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	elecvax.oz.au
+#W	michaelr@elecvax.oz.au; Mar  5 17:21:16 1986
+
+#N	civil.unsw.oz.au
+#S	VAX11/750; UNIX (V7-AUSAM)
+#O	University of NSW, School of Civil Engineering
+#C	Robert Hegedus
+#E	robert@civil.unsw.oz.au
+#T	+61 2 697 5048
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	karri.unsw
+#W	robert@civil.unsw.oz.au; May  8 17:25:51 1986
+
+#N	comdyn.oz.au
+#S	Gould 6040; UTX/32
+#O	Commercial Dynamics Pty Ltd.
+#C	Roderick McAllery
+#E	postmaster@comdyn.oz.au
+#T	+61 2 648-5933
+#P	253 Rawson Street, Auburn, NSW 2144, Australia
+#L	33 52 S / 151 13 E city
+#U	gldsyd.oz.au
+#W	rim@gldsyd.oz.au; Fri Jul 24 21:22:00 1987
+
+#N	comlnk.oz.au
+#S	VAX 730; UNIX System V.2.2
+#O	Unix System Australia P/L, ComputerLink P/L
+#C	Roy Rankin
+#E	roy@comlnk.oz.au
+#T	+61 2 764-4566
+#P	21 Young St, Concord, NSW 2137, Australia
+#L	33 52 S / 151 13 E city
+#U	ipso
+#W	roy@comlnk.oz.au; Sep 17 22:42:29 1986
+
+#N	comms1.eecs.unsw.oz.au
+#S	DEC PDP 11/73 + FPA; UNIX (V7-AUSAM)
+#O	Communications Dept; School of Elec Eng & Comp Sci; Uni of NSW
+#C	Marek Szuszkiewicz
+#E	marek@comms1.eecs.unsw.oz.au
+#T	+61 2 697 4069, +61 2 697 5305
+#L	33 55 S / 151 15 E
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#W	marek@comms1.unsw.oz.au; Wed Sep 17 14:27:14 1986
+
+#N	csb44.unsw.oz.au
+#S	PDP 11/44; UNIX Sys V
+#O	Clinical Sciences Computing Center
+#C	Peter Goadsby
+#E	peterg@csb44.unsw.oz.au
+#T	+61 2 661-0111 x5033
+#P	Clinical Sciences Bldg., The Prince Henry Hospital, Little Bay, NSW 2036, Australia
+#L	33 52 S / 151 13 E city
+#R	data and text processing Faculty of Medicine (UNSW)
+#R	Network link to csu40, neuro73, svh286
+#R	links to UNSW CYBER and Prince of Wales Hospital 11/750 (VMS)
+#U	elecvax.oz.au csu40.csd.unsw.oz.au
+#W	root@csb44.unsw.oz.au; Mon Apr 13 17:40:05 1987
+
+#N	csu40.unsw.oz.au
+#S	PDP-11/40; UNIX (level 7)
+#O	University of N.S.W., Computing Services Department
+#C	S.F. Mok
+#T	+61 2 697-2927
+#P	P.O.Box 1, Kensington, NSW  2033, Australia
+#E	mok@csu60.unsw.oz.au
+#L	33 52 S / 151 13 E city
+#R	This is only a switching node in the Network with no users
+#W	mok@csu60.unsw.oz.au; Mar 21 16:48:30 1986
+
+#N	csu60.unsw.oz.au
+#S	PDP-11/60;  UNIX (level 7)
+#O	University of N.S.W., Computing Services Department
+#C	S.F. Mok
+#T	+61 2 697-2927
+#P	P.O.Box 1, Kensington, NSW 2033, Australia
+#E	mok@csu60.unsw.oz.au
+#L	33 52 S / 151 13 E city
+#U	elecvax csb44 food23
+#W	mok@csu60.unsw.oz.au; Mar 21 10:50:48 1986
+
+#N	de.nu.oz.au
+#S	DE 68k; 4.2 BSD
+#O	Faculty of Mathematics, University of Newcastle
+#C	Albert Nymeyer, Colin Hoskins
+#E	root@nucs.oz.au
+#T	+61 49 685 596
+#P	NSW 2308, Australia
+#L	32 52 S / 151 49 E city
+#R	general research
+#W	root@de.nu.oz.au; May 22 17:26:36 AEST 1986
+
+#N	dsl.eecs.unsw.oz.au
+#S	PDP11/34; UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science, Digital Systems Lab
+#C	Jeff Skebe
+#E	jeffs@dsl.eecs.unsw.oz.au
+#T	+61 2 697 4037
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	karri.unsw
+#W	michaelr@elecvax.oz.au; Mar  5 17:21:16 1986
+
+#N	dual.oz.au
+#S	Dual 83/80 68000; Unisoft V.1
+#O	Dual Systems Australia
+#C	Charles Butcher
+#E	chuckee@dual.oz.au
+#T	+61 2 635 6651
+#P	55 Phillip Street, Parramatta, NSW 2150, Australia
+#L	33 52 S / 151 13 E City
+#W	root@dual.oz.au; 1 Oct 1986 1332
+
+#N	ecstats.su.oz.au
+#S	PDP 11/34; Unix Level 7 AUSAM
+#O	Econometrics Department, University of Sydney
+#C	Neil Flood
+#E	neil@ecstats.su.oz.au
+#T	+61 2 692 3346
+#P	NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#U	metro.oz.au
+#W	neil@ecstats.su.oz.au; Mon Feb  2 11:58:38 1987
+
+#N	elec70a.unsw.oz.au
+#S	PDP11/70, UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science
+#C	Peter Ivanov
+#E	peteri@elecvax.oz.au
+#T	+61 2 697 4042
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	elecvax.oz.au
+#W	peteri@elecvax.oz.au; May 8 16:34:00 1986
+
+#N	elec70b.unsw.oz.au
+#S	PDP11/70; UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science
+#C	Peter Ivanov
+#E	peteri@elecvax.oz.au
+#T	+61 2 697 4042
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	elecvax.oz.au
+#W	peteri@elecvax.oz.au; May 8 16:34:00 1986
+
+#N	elecvax.oz.au
+#S	VAX11/780; UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science
+#C	Peter Ivanov
+#E	peteri@elecvax.oz.au
+#T	+61 2 697 4042
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	basser cheops cadvax elec70a.unsw elec70b.unsw karri.unsw agsm.unsw csu60.unsw 
+#W	peteri@elecvax.oz.au; May 8 16:34:00 1986
+
+#N	facet.ee.su.oz.au
+#S	DEC VAX 11/780; VMS 4.3
+#O	School of Electrical Engineering, University of Sydney, 
+#C	Dr David Skellern
+#E	daves@facet.ee.su.oz.au
+#T	+61 2 692-2239
+#P	JO3, NSW 2006, Australia
+#L	33 52 S / 151 13 E City
+#R	Faculty and Electrical Teaching
+#R	Foreign node accepting mail but not sendfile
+#W	davidc@facet.ee.su.oz.au; Jun  5 13:02:00 1986
+
+#N	facto.ips.oz.au
+#S	iAPX286; Microport System V/AT v2.2
+#O	Australian Govt Dept of Admin Services, IPS Radio and Space Services
+#C	Craig Bevins
+#E	Postmaster@ipso.oz.au
+#T	+61 2 269 8555
+#P	P.O. Box 702, Darlinghurst, NSW 2010, Australia
+#L	33 52 45 S / 151 12 30 E
+#R	network control and development
+#U	ipso.ips.oz.au
+#W	craigb@ipso.oz.au; Sat Aug 15 11:58:17 AEST 1987
+
+#N	fairlight.oz.au
+#S	is68k/4.2BSD DE Unity
+#O	Fairlight Instruments
+#C	Dave Lowe
+#E	dave@fairlight.oz.au
+#T	+61 2 331 6333
+#P	15 Boundary St., Rushcutters Bay, NSW 2011, Australia
+#L	33 52 S / 151 13 E City
+#R	Stock, Accounting, Research
+#U	metro.oz.au
+#W	daved@physiol.su.oz.au; Tue May 26 14:23:05 AEST 1987
+
+#N	fibro.ucc.su.oz.au
+#S	ALTOS 3068; Unix SYSTEM V.2 Rel 2
+#O	University Computing Service, University of Sydney
+#C	Burn Alting, David Phipps
+#E	burn@metro.ucc.su.oz.au, davidp@metro.ucc.su.oz.au, johnr@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	Internal to Uni Computing Service
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	gldsyd.oz.au
+#S	Gould 6040; UTX/32
+#O	Gould Electronics Inc.
+#C	Alan Turvey
+#E	postmaster@gldsyd.oz.au
+#T	+61 2 957-2522
+#P	16th Floor, 122 Arthur St., North Sydney, NSW 2060, Australia
+#L	33 52 S / 151 13 E city
+#R	Gould Support Center
+#U	ipso.oz.au
+#W	aturvey@gldsyd.oz.au; Fri May 15 10:06:59 1987
+
+#N	gris.oz.au
+#S	Sperry 5000/40; System V Release 2
+#O	Softway Pty Limited
+#C	Chris Maltby
+#E	chris@gris.oz.au
+#T	+61 2 698-2322
+#P	PO Box 305, Strawberry Hills, NSW 2012, Australia
+#L	33 52 S / 151 13 E city
+#R	UNIX porting, system development, consulting
+#U	6d6.oz.au astra.necisa.oz.au bain3.oz.au basser.oz.au datec.oz.au gbrmpa.oz.au
+#U	hypertec.oz.au olisyd.oz.au otc.oz.au sanyo.oz.au sigma21.oz.au turnkey.oz.au
+#W	chris@gris.oz.au; 6 Apr 1987 1713
+
+#N	hypertec.oz.au
+#S	PDP-11/73; System V.1.2
+#O	Hypertec Pty. Ltd.
+#C	Bill Petheram
+#E	billp@hypertec.oz.au
+#T	+61 2 819 7222
+#P	P.O. Box 385, Drummoyne, NSW 2047, Australia
+#L	33 52 S / 151 13 E City
+#R	Research, Software development
+#U	gris.oz.au
+#W	billp@hypertec.oz.au; Mon May 18 11:28:27 1987
+
+#N	icon.oz.au
+#S	Digital Electronics Unity 68010; 4.2BSD
+#O	Information Concepts Pty. Ltd.
+#C	Luke Kendall
+#E	lukek@icon.oz.au
+#T	+61 2 690-1533
+#P	53 Balfour St, Chippendale NSW 2008, Australia
+#R	Graphics Software
+#U	metro.oz.au
+#W	andrewn@icon.oz.au; Wed Mar 11 14:45:42 1987
+
+#N	intro.ucc.su.oz.au
+#S	Honeywell-Bull X30; Unix SYSTEM V.2 Rel 2
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	Internal to Uni Computing Service
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	ipso.oz.au
+#S	DEC Vax 11/750; Unix System V r2.2
+#O	Australian Govt Dept of Admin Services, IPS Radio and Space Services
+#C	Craig Bevins
+#E	Postmaster@ipso.oz.au
+#T	+61 2 269 8555
+#P	P.O. Box 702, Darlinghurst, NSW 2010, Australia
+#L	33 52 45 S / 151 12 30 E
+#R	research and development, administration
+#U	astra.necisa.oz.au basser.oz.au comlnk.oz.au elxsisyd.oz.au facto.ips.oz.au
+#U	gldsyd.oz.au ipsolar.ips.oz.au metro.oz.au mqcomp.oz.au natmlab.oz.au
+#U	nswitgould.oz.au runx.ips.oz.au
+#W	craigb@ipso.oz.au; Sat Aug 15 11:58:17 AEST 1987
+
+#N	ipsolar.ips.oz.au
+#S	iAPX286; Microport System V/AT v2.2
+#O	IPS Radio and Space Services, Culgoora Solar Observatory
+#C	Craig Bevins
+#E	Postmaster@ipso.oz.au
+#T	+61 2 269 8555
+#P	P.O. Box 702, Darlinghurst, NSW 2010, Australia
+#L	30 32 45 S / 149 32 30 E
+#R	data exchange and local administration
+#U	ipso.ips.oz.au
+#W	craigb@ipso.oz.au; Sat Aug 15 11:58:17 AEST 1987
+
+#N	isd.lhrl.oz.au
+#S	PDP 11/34; Unix V6
+#O	Australian Nuclear Science and Technology Organisation
+#C	John Rugg
+#E	tjr@atom.oz.au
+#T	+61 2 543 3363
+#P	Locked Mailbag No 1, Menai, NSW 2234, Australia
+#L	34 03 S / 150 59 E
+#R	Drives photo-typesetter, Formerly isd.aaec.oz.au
+#W	philip@atom.oz.au; Mon Jul 6 22:43:51 EST 1987
+
+#N	karri.unsw.oz.au
+#S	VAX11/750; UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science
+#C	Peteri Ivanov
+#E	peteri@elecvax.oz.au
+#T	+61 2 697 4042
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	elecvax.oz.au dsl.eecs.unsw syscon.eecs.unsw civil.unsw mathvax.unsw
+#W	peteri@elecvax.oz.au; May 8 16:34:00 1986
+
+#N	maphia.mq.oz.au
+#S	Labtam 32032; Unix V.2
+#O	School of Maths and Physics, Macquarie Univerity
+#C	David Powers
+#E	postmaster@maphia.mq.oz.au
+#T	+61 2 88 9214
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	AI/parallel processor research
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	maphu.mq.oz.au
+#S	Integrated Solutions DE Unity; System 3
+#O	School of Mathematics and Physics, Macquarie University
+#C	Michael Homsey
+#E	postmaster@maphu.mq.oz.au
+#T	+61 2 88 9102
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Research
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	mathvax.unsw.oz.au
+#S	VAX11/750; UNIX (V7-AUSAM)
+#O	University of NSW, School of Mathematics
+#C	Veronica Paul
+#E	veronica@mathvax.unsw.oz.au
+#T	+61 2 697 3009
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	karri.unsw.oz.au
+#W	veronica@mathvax.unsw.oz.au; Tue May 13 08:43:38 1986
+
+#N	metro.ucc.su.oz.au
+#S	DUAL CHAPARRAL IV; DUALIX 1.0 (SYSTEM V.2 Rel 2)
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#R	Internal to Computing Service, ACSnet backbone to aus
+#U	applic0.ucc.su.oz.au applic1.ucc.su.oz.au archsci.arch.su.oz.au bain3.bain.oz.au
+#U	basset.cs.su.oz.au bleak.ucc.su.oz.au datec ditsyda.oz.au dual ecstats.su.oz.au
+#U	elecvax.eecs.unsw.oz.au fairlight fibro.ucc.su.oz.au icon intro.ucc.su.oz.au
+#U	ipso.rss.ips.oz.au munnari.mu.oz.au music nswitgould.cs.nswit.oz.au osiris
+#U	otc.oz.au physiol.physiol.su.oz.au plexus.physiol.su.oz.au pta RBG
+#U	retro.ucc.su.oz.au summer.su.oz.au suphys.su.oz.au susrc.su.oz.au teat.tesseract.oz.au
+#U	tpl turnkey tytel ubo.honeywell.oz.au ucc.ucc.su.oz.au
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	mqccvaxa.mq.oz.au
+#S	Vax 11/780; VMS 3.7
+#O	Computing Centre, Macquarie University
+#C	Chris Bishop
+#E	7chris@mqccvaxa.mq.oz.au
+#T	+61 2 88 9153
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Research; foreign ACSnet node, mail ONLY
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	mqccvaxb.mq.oz.au
+#S	Vax 11/780; VMS 3.7
+#O	Computing Centre, Macquarie University
+#C	Chris Bishop
+#E	7chris@mqccvaxb.mq.oz.au
+#T	+61 2 88 9153
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Teaching; foreign ACSnet node, mail ONLY
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	mqccvaxc.mq.oz.au
+#S	Microvax II; VMS 4.2
+#O	Computing Centre, Macquarie University
+#C	Chris Bishop
+#E	7chris@mqccvaxc.mq.oz.au
+#T	+61 2 88 9153
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Teaching; foreign ACSnet node, mail ONLY
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	mqccvaxd.mq.oz.au
+#S	Microvax II; VMS 4.2
+#O	Computing Centre, Macquarie University
+#C	Chris Bishop
+#E	7chris@mqccvaxd.mq.oz.au
+#T	+61 2 88 9153
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Research; foreign ACSnet node, mail ONLY
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	mqcomp.oz.au
+#S	Gould PN6080; UTX/32 1.2 (BSD 4.2)
+#O	School of Maths and Physics, Macquarie University
+#C	Michael Homsey
+#E	postmaster@mqcomp.oz.au
+#T	+61 2 88 9102
+#P	North Ryde, NSW 2113, Australia
+#L	33 45 S / 151 0 E
+#R	Teaching
+#U	basser.oz.au
+#W	michael@mqcomp.oz.au; Tue Sep  9 09:04:43 1986
+
+#N	napier.unsw.oz.au
+#S	VAX11/750; UNIX (BERKELEY 4.2)
+#O	University of NSW, School of Mathematics
+#C	Veronica Paul
+#E	veronica@mathvax.unsw.oz.au
+#T	+61 2 697 3009
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	research/teaching
+#W	veronica@mathvax.unsw.oz.au; Tue May 13 08:43:38 1986
+
+#N	natmlab.dms.oz.au
+#S	DEC, Vax, 750; BSD 4.2
+#O	CSIRO National Measurement Laboratory, Sydney
+#C	Ron Baxter
+#E	postmaster@natmlab.dms.oz.au
+#T	+61 2 467 6059
+#P	PO Box 218, Lindfield NSW, 2070, Australia
+#L	33 47 S / 151 09 E
+#R	data analysis, math research, math word processing
+#U	anprod.oz.au basser.cs.su.oz.au dmsadel.dms.oz.au dmscanb.dms.oz.au dmsmelb.dms.oz.au dmsperth.dms.oz.au munnari.cs.mu.oz.au siromath.oz.au sri.oz.au ipso.51.ips.oz.au
+#W	ronb@natmlab.dms.oz.au; Thu Dec  4 14:33:34 EST 1986
+
+#N	neumann.une.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Dept. of Maths, Stats & Comp. Sci., Uni. of New England
+#C	Mike Porter
+#E	postmaster@neumann.une.oz.au
+#T	+61 67 73 2302
+#P	Armidale, NSW 2351, Australia
+#L	30 30 S / 151 35 E city
+#R	Comp. Sci. teaching
+#U	munnari
+#W	gordon@neumann.une.oz.au (Gordon Smith); Aug 21 12:30:12 EST 1986
+
+#N	neuro73.unsw.oz.au
+#S	PDP 11/73; UNIX Sys V
+#O	Dept Neurology, Image Analysis Facility
+#C	Peter Goadsby
+#E	peterg@neuro73.unsw.oz.au
+#T	+61 2 661-0111 x5033
+#P	Clinical Sciences Bldg., The Prince Henry Hospital, Little Bay, NSW 2036, Australia
+#L	33 52 S / 151 13 E city
+#R	data processing and image analysis, Faculty of Medicine (UNSW)
+#R	Network link to csb44.unsw.oz.au
+#W	root@csb44.unsw.oz.au; Mon Apr 13 17:40:05 1987
+
+#N	neurosci.physiol.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Neuroscience Unit, Dept. of Physiology, University of Sydney
+#C	Dr Alan Pettigrew
+#E	alanp@neurosci.physiol.su.oz.au
+#T	+61 2 692 3929
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.2 S / 151 11 16.8 E
+#R	electrophysiological data acquisition, analysis
+#W	daved@physiol.su.oz.au; Sat Jun 27 15:08:56 AEST 1987
+
+#N	nrc.su.oz.au
+#S	DEC PDP 11/73; Unix V7
+#O	Neurobiology Research Centre
+#C	John Holden
+#E	johnh@psych44.su.oz.au
+#T	+61 2 692-3024, +61 2 692-2905
+#P	Dept of Psychology, Griffith Taylor Bld, University of Sydney, NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#W	johnh@psych44.su.oz.au; Mar 25 08:38:49 AEST 1986
+
+#N	nswitcs2.oz.au
+#S	DE Unity 68000; System III
+#O	New South Wales Institute of Technology, School of Computing Science
+#C	Tony McGrath
+#E	tony@nswitgould.oz.au
+#T	+61 2 218 9178
+#P	P.O. Box 123, Broadway, Sydney, NSW 2007, Australia
+#L	33 52 S / 151 13 E city
+#R	Research, Key Centre for Computing
+#W	tony@nswitgould.oz.au; Wed May 14 09:09:33 1986
+
+#N	nswitgould.oz.au
+#S	Gould PN6008; UTX/32 (4.2BSD)
+#O	New South Wales Institute of Technology, School of Computing Science
+#C	Tony McGrath
+#E	tony@nswitgould.oz.au
+#T	+61 2 218 9178
+#P	P.O. Box 123, Broadway, Sydney, NSW 2007, Australia
+#L	33 52 S / 151 13 E city
+#R	Teaching, Key Centre for Computing
+#R	nswitgould.oz.au = orthanc.oz.au
+#U	ipso.oz.au
+#W	tony@nswitgould.oz.au; Wed May 14 09:09:33 1986
+
+#N	nucs.oz.au
+#S	Gould 9005; UTX/32
+#O	Faculty of Mathematics, University of Newcastle
+#C	Albert Nymeyer, Colin Hoskins
+#E	root@nucs.oz.au
+#T	+61 49 685 596
+#P	NSW 2308, Australia
+#L	32 52 S / 151 49 E city
+#R	computer science teaching and general research
+#U	basser, bhpese
+#W	root@nucs.oz.au; Apr 30 13:25:16 1986
+
+#N	numm.nu.oz.au
+#S	Perkin Elmer 3220; Edition VII
+#O	Department of Mathematics, University of Newcastle
+#C	Colin Hoskins
+#E	postmaster@numm.nu.oz.au
+#T	+61 49 68-5597
+#P	Dept of Mathematics, University of Newcastle, NSW 2308, Australia
+#L	32 52 S / 151 49 E city
+#R	mathematics teaching
+#U	nucs.oz.au
+#W	alan@numm.nu.oz.au; Mon Aug 31 20:16:28 1987
+
+#N	olisyd.oz.au
+#S	AT&T 3B2/310 - Unix V Rel 2.0.4
+#O	Olivetti Australia Ltd
+#C	Michael Selig
+#E	mike@olisyd.oz.au
+#T	+61 2 358-2655
+#P	140 William St, Sydney, NSW 2011, Australia
+#L	33 52 S / 151 13 E city
+#W	mike@olisup.olivetti.oz.au; 6 Apr 1987 1027
+
+#N	orwell.su.oz.au
+#S	DEC PDP-11/84; Seventh Edition UNIX/AUSAM
+#O	Basser Department of Computer Science, University of Sydney
+#C	Piers Lauder
+#E	postmaster@basser.oz.au
+#T	+61 2 692-2824
+#P	Computer Science F09, University of Sydney, NSW 2006, Australia
+#L	33 53 24.9 S / 151 11 18.6 E
+#R	height above mean sea level 36 m
+#W	john@basser.oz.au (John Mackin); Sat Dec 13 04:00:00 AESST 1986
+
+#N	osiris.oz.au
+#S	Osiris One (10MHz NS32032); SysV.2
+#O	Osiris Technology Pty Limited
+#C	Tim Wooller
+#E	timw@osiris.oz.au
+#T	+61 2 406-6299
+#P	Unit 4, 372 Eastern Valley Way, Chatswood, NSW 2067, Australia
+#L	33 52 S / 151 13 E city
+#R	Hardware and Software development and manufacture
+#U	metro.oz.au
+#W	timw@osiris.oz.au; Mon May  4 09:30:33 1987
+
+#N	otc.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Development Group, Overseas Telecommunications Commission
+#C	Andrew Gollan
+#E	adjg@otc.oz.au
+#T	+61 2 287 4148
+#P	G.P.O. Box 7000, Sydney, NSW 2001, Australia
+#L	33 52 S / 151 13 E city
+#U	munnari.oz.au
+#W	mikem@otc.oz.au; Thu Jun 25 09:21:16 1987
+
+#N	pe.nu.oz.au
+#S	PE 3220; Unix Level 7
+#O	Faculty of Mathematics, University of Newcastle
+#C	Albert Nymeyer, Colin Hoskins
+#E	root@nucs.oz.au
+#T	+61 49 685 596
+#P	NSW 2308, Australia
+#L	32 52 S / 151 49 E city
+#R	mathematics teaching and general research
+#W	root@pe.nu.oz.au; May 22 17:26:36 AEST 1986
+
+#N	phoenix.physiol.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Dept. of Physiology, University of Sydney
+#C	Dave Davey
+#E	daved@physiol.su.oz.au
+#T	+61 2 692-2695
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.8 S / 151 11 16.2 E
+#R	research on development and regeneration of nerve and muscle
+#R	digital morphometry
+#U	physiol.su.oz.au
+#W	daved@physiol.su.oz.au; Sat Jun 27 15:07:40 AEST 1987
+
+#N	physiol.su.oz.au
+#S	DEC Microvax II; unix 4.3bsd
+#O	Dept. of Physiology, University of Sydney
+#C	Dave Davey
+#E	daved@physiol.su.oz.au
+#T	+61 2 692-2695
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.8 S / 151 11 16.2 E
+#R	primary node for domain physiol.su.oz.au
+#R	image analysis
+#U	basser.oz.au metro.oz.au plexus.physiol.su.oz.au
+#W	daved@physiol.su.oz.au; Sat Jun 27 15:07:40 AEST 1987
+
+#N	plexus.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Dept. of Physiology, University of Sydney
+#C	Dave Davey
+#E	daved@physiol.su.oz.au
+#T	+61 2 692-2695
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.8 S / 151 11 16.2 E
+#R	network centre of domain physiol, software support for research cpu's
+#U	basser.oz.au physiol.su.oz.au
+#W	daved@physiol.su.oz.au; Sat Jun 27 15:07:40 AEST 1987
+
+#N	psych11.psych.su.oz.au
+#S	DEC Micro 11; Unix V7
+#O	Dept of Psychology, University of Sydney
+#C	John Holden
+#E	johnh@psych44.su.oz.au
+#T	02 692-3024, 02 692-2905
+#P	Griffith Taylor Bld, NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#W	johnh@psych44.su.oz.au; Mar 25 08:38:49 AEST 1986
+
+#N	psych44.su.oz.au
+#S	DEC PDP 11/44; Unix V7
+#O	Dept of Psychology, University of Sydney
+#C	John Holden
+#E	johnh@psych44.su.oz.au
+#T	+61 2 692-3024, +61 2 692-2905
+#P	Griffith Taylor Bld, NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#U	basser.oz.au physiol.su.oz.au
+#W	johnh@psych44.su.oz.au; Mar 25 08:38:49 AEST 1986
+
+#N	psych50.psych.su.oz.au
+#S	DEC PDP 11/50; Unix V7
+#O	Dept of Psychology, University of Sydney
+#C	John Holden
+#E	johnh@psych44.su.oz.au
+#T	+61 2 692-3024, +61 2 692-2905
+#P	Griffith Taylor Bld, NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#W	johnh@psych44.su.oz.au; Mar 25 08:38:49 AEST 1986
+
+#N	pta.oz.au
+#S	Pyramid 98XE; OSx
+#O	Pyramid Technology Australia
+#C	Alex Patison
+#E	alex@pta.oz.au
+#T	+61 2 438 1266
+#P	20 Waltham Street, Artarmon, NSW 2064, Australia
+#L	33 52 S / 151 13 E city
+#U	metro.su.oz.au otc.oz.au yarra.oz.au kefren.qhtours.oz.au
+#W	alex@pta.oz.au; Jan 28 11:41:47 1987
+
+#N	rangelnd.oz.au
+#S	Stride 460; UNIX System V/68
+#C	Greg Jones
+#E	greg@rangelnd.oz.au
+#T	+61 58 81-1133
+#O	CSIRO, Divn of Rangelands Research
+#P	Private Bag, Post Office, Deniliquin, NSW 2710, Australia
+#L	35 30 S / 144 57 E
+#R	Computer modelling of semi-arid woodlands
+#W	root@rangelnd.oz.au; Thu Apr 23 16:42:45 1987
+
+#N	retro.ucc.su.oz.au
+#S	DEC VAX 11-750; Unix SYSTEM V.2 Rel 2
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	SOON TO RUN VMS!!!!
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	rpepping.oz.au
+#S	Vax 11-750; VMS 4.2
+#O	CSIRO, Radio Physics, Epping, NSW 2121
+#C	Andrew Hunt
+#E	andrew@rpepping.oz.au
+#R	mail ONLY, connected by VMS Packet Switch Interface (PSI - X.25)
+#W	pjw@anucsd.oz.au; Apr 12 21:09:51 1986
+
+#N	runx.ips.oz.au
+#S	DEC PDP 11/73; SCO Xenix 2.4+
+#O	RUNX Unix Timeshare
+#C	Mark Webster
+#E	mark@runx.ips.oz.au
+#T	+61 2 487 1299
+#P	P.O. Box 222, Wahroonga, NSW 2076, Australia
+#L	33 42 10 S / 151 07 33 E
+#R	public access Unix timeshare
+#U	ipso.oz.au
+#W	craigb@ipso.oz.au; Sat Aug 15 11:58:17 AEST 1987
+
+#N	sanyo.oz.au
+#C	Peter Chamberlain
+#E	root@sanyo.oz.au
+#O	Sanyo Office Machines Pty Ltd
+#P	5-9 Harbourview Crescent, Milson's Point, NSW 2061, Australia
+#T	+61 2 929-4644.
+#L	33 52 S / 151 13 E city
+#W	stephenf@gris.oz.au; 11 Apr 1987 1608
+
+#N	siromath.oz.au
+#S	DEC, VAX, 11/750; 4.2BSD
+#O	Siromath Pty. Ltd.
+#C	Chris Rowles or Steve Tompsett
+#T	+61 2 29-5352
+#P	3rd Floor, 31 Market St., Sydney 2000, Australia
+#E	chrisr,stevet@siromath.dms.csiro.oz.au
+#L	33 52 S / 151 13 E city
+#U	natmlab rcm750 sri qdpi dmsadel
+#R	Mathematical & Statistical Consultants
+#W	stevet@siromath.oz.au; Wed Apr  9 18:02:55 1986
+
+#N	spit.physiol.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Epithelial Biophysics Lab, Dept. of Physiology, Uni. of Sydney
+#C	John Dodson
+#E	johnd@physiol.su.oz.au
+#T	+61 2 693 3477/8
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.2 S / 151 11 16.8 E
+#W	daved@physiol.su.oz.au; Wed Jul 15 10:07:54 AEST 1987
+
+#N	sueeise.su.oz.au
+#S	DEC PDP 11/23; Unix V7
+#O	Imaging Sciences and Engineering, School of Electrical Engineering
+#C	Dr David Skellern
+#E	daves@sueeise.su.oz.au
+#T	+61 2 692-2239
+#P	JO3, University of Sydney, NSW 2006, Australia
+#L	33 52 S / 151 13 E City
+#R	Primarily mail link to facet running VMS
+#W	davidc@facet.ee.su.oz.au; Jun  5 13:02:00 1986
+
+#N	summer.oz.au
+#S	VAX-11/780; VMS
+#O	Mathematics/Chemistry, University of Sydney
+#C	Jim Richardson
+#E	jimr@summer.oz.au
+#P	Department of Pure Mathematics, NSW 2006, Australia
+#L	33 52 S / 151 13 E city
+#W	richardson_j@summer.oz.au; Mar  4 12:25:05 1986
+
+#N	sunrise.cs.su.oz.au
+#S	SUN 2 workstation; 4.2BSD UNIX
+#O	Basser Department of Computer Science, University of Sydney
+#C	Piers Lauder
+#E	postmaster@basser.oz.au
+#T	+61 2 692-2824
+#P	Computer Science F09, University of Sydney, NSW 2006, Australia
+#L	33 53 24.9 S / 151 11 18.5 E
+#R	height above mean sea level 36 m
+#W	john@basser.oz.au (John Mackin); Mon Sep 29 02:53:06 AEST 1986
+
+#N	suphys.su.oz.au
+#S	Dual Chaparral IV
+#O	Physics Dept, University of Sydney
+#C	Dave Crawford (Burn Alting - support)
+#E	crawford@suphys.su.oz.au
+#T	+61 2 692 3475
+#P	NSW 2006, Australia
+#L	33 52 S / 151 13 E City
+#U	metro.oz.au
+#W	burn@metro.ucc.su.oz.au; Oct  3 09:51:00 1986
+
+#N	svh286.unsw.oz.au
+#S	286; UNIX Sys V
+#O	Anxiety Disorders Unit
+#C	Robin Harvey
+#E	robinh@svh286.unsw.oz.au
+#T	+61 2 332-1013
+#P	Anxiety Disorders Unit, St Vincents Hospital, Darlinghurst 2010, Australia
+#L	33 52 S / 151 13 E city
+#R	data and text processing, School of Psychiatry, Faculty of Medicine (UNSW)
+#R	Network link to csb44
+#W	root@csb44.unsw.oz.au; Mon Apr 13 17:40:05 1987
+
+#N	sys3.lhrl.oz.au
+#S	Plexus P25; Unix Sys 3
+#O	Australian Nuclear Science and Technology Organisation
+#C	John Rugg
+#E	tjr@atom.oz.au
+#T	+61 2 543 3363
+#P	Locked Mailbag No 1, Menai, NSW 2234, Australia
+#L	34 03 S / 150 59 E
+#R	Very small & local (bits of ACSnet striped out, e.g. whois)
+#R	Formerly sys3.aaec.oz.au
+#W	philip@atom.oz.au; Mon Jul 6 22:43:51 EST 1987
+
+#N	syscon.eecs.unsw.oz.au
+#S	PDP11/34; UNIX (V7-AUSAM)
+#O	University of NSW, School of Elec Eng & Computer Science, Dept of Systems & Control
+#C	Jeff Lee
+#E	jeffl@syscon.eecs.unsw.oz.au
+#T	+61 2 697 4070
+#P	P.O. Box 1, Kensington, NSW 2033, Australia
+#L	33 55 S / 151 15 E
+#R	teaching
+#U	karri.unsw
+#W	michaelr@elecvax.oz.au; Mar  5 17:21:16 1986
+
+#N	teti.oz.au
+#S	Pyramid 98Xe, OSx 4.0
+#O	Q.H.Tours (Jetabout) Pty Ltd.
+#C	Frank Crawford
+#E	frank@teti.oz.au
+#T	+61 2 957 0348
+#P	P.O. Box 630, North Sydney, NSW 2060, Australia
+#L	33 52 S / 151 13 E city
+#R	Software development machine
+#U	nswitgould.oz.au pta.oz.au
+#W	frank@teti.qhtours.oz.au; Fri Jun 26 19:43:03 1987
+
+#N	turnkey.oz.au
+#S	DE Unity m68010; 4.2bsd
+#O	Turnkey Systems Pty Limited
+#C	Geoff Nolan
+#E	geoff@turnkey.oz.au
+#T	+61 2 92-0691
+#P	1st Floor, 110 Alfred St, Milsons Point, NSW 2061, Australia
+#L	33 52 S / 151 13 E City
+#R	Business, Software Development, Electronic Publishing
+#U	gris.oz.au
+#W	chris@gris.oz.au; Fri May 30 11:14:41 1986
+
+#N	ubo.oz.au
+#S	Honeywell Superteam-1; Uniplus SystemV
+#O	Unix Business Operation, Honeywell Bull Australia
+#C	Greg Kable
+#E	root@ubo.honeywell.oz.au
+#T	+61 2 923-9549
+#P	PO Box 660, North Sydney, NSW 2060, Australia
+#L	33 52 S / 151 13 E City
+#U	metro.oz.au
+#W	root@ubo.honeywell.oz.au; Tue May 19 12:39:18 1987
+
+#N	ucc.ucc.su.oz.au
+#S	PDP 11/24; Level 7 AUSAM
+#O	University Computing Service, University of Sydney
+#C	Burn Alting
+#E	burn@metro.ucc.su.oz.au
+#T	+61 2 692 3491
+#P	NSW 2006, Australia
+#L	33 52 25.0 S / 151 11 18.7 E
+#U	metro.ucc.su.oz.au
+#R	Soon to go
+#W	burn@metro.ucc.su.oz.au; Fri Aug  7 13:10:01 EST 1987
+
+#N	uowcsa.oz.au
+#S	Pyramid 90xe; OSx3.1 (System V.2, 4.2BSD)
+#O	Department of Computing Science, University of Wollongong
+#C	Ross Nealon
+#E	ross@uowcsa.oz.au
+#T	+61 42 27 0802
+#P	PO Box 1144, Wollongong, NSW 2500, Australia
+#L	34 25 S / 150 54 E city
+#R	Teaching, Research (Graphics, Cambridge Ring)
+#W	ross@uowcsa.oz.au; 22 Sep 1986 1405
+
+#N	uowcsb.oz.au
+#S	Pyramid 90xe; OSx3.1 (System V.2, 4.2BSD)
+#O	Department of Computing Science, University of Wollongong
+#C	Ross Nealon
+#E	ross@uowcsa.oz.au
+#T	+61 42 27 0802
+#P	PO Box 1144, Wollongong, NSW 2500, Australia
+#L	34 25 S / 150 54 E city
+#R	Teaching, Research (Graphics, Cambridge Ring)
+#W	ross@uowcsa.oz.au; 22 Sep 1986 1405
+
+#N	uowcss.oz.au
+#S	Pyramid 90xe; OSx3.1 (System V.2, 4.2BSD)
+#O	Department of Computing Science, University of Wollongong
+#C	Ross Nealon
+#E	ross@uowcsa.oz.au
+#T	+61 42 27 0802
+#P	PO Box 1144, Wollongong, NSW 2500, Australia
+#L	34 25 S / 150 54 E city
+#R	4GL Evaluation, PC Communications node
+#W	ross@uowcsa.oz.au; 22 Sep 1986 1405
+
+#N	vision.physiol.su.oz.au
+#S	DEC PDP11/73; unix version 7
+#O	Vision Research Unit, Department of Physiology
+#C	Dr Brian Cleland
+#E	brianc@vision.physiol.su.oz.au
+#T	+61 2 692 3928
+#P	F-13, NSW 2006, Australia
+#L	33 53 19.2 S / 151 11 16.8 E
+#R	stimulus & experimental control, data acquisition, analysis of neural events
+#W	daved@physiol.su.oz.au; Tue Sep 16 10:21:59 AEST 1986
+
+SHAR_EOF
+echo shar: extracting u.aus.nt.1
+cat << \SHAR_EOF > u.aus.nt.1
+# Australia - Northern Territory
+
+#	u.aus.nt.1  -  created 10 Sep 87 by acsmap@physiol.su.oz.au
+
+SHAR_EOF
+echo shar: extracting u.aus.qld.1
+cat << \SHAR_EOF > u.aus.qld.1
+# Australia - Queensland
+
+#	u.aus.qld.1  -  created 31 Jul 87 by acsmap@physiol.su.oz.au
+
+#N	axiom.uq.oz.au
+#S	Pyramid 9810; 4.2BSD + System V
+#O	University of Queensland, Dept. of Mathematics
+#C	Martin Sharry
+#E	postmaster@axiom.uq.oz.au
+#T	+61 7 377 3287
+#P	St. Lucia, Qld 4067, Australia
+#L	27 30 2 S / 153 0 42 E
+#R	General Research and Mathematics Teaching
+#W	mjs@axiom.uq.oz.au; Thu, 30 Jul 87 15:07:48 EST
+
+#N	banana.uq.oz.au
+#S	MicroVax II; Ultrix 1.1
+#O	University of Queensland, Dept. of Computer Science
+#C	Peter McMahon
+#T	+61 7 377-2875
+#P	St. Lucia, Qld 4067, Australia
+#E	postmaster@uqcspe.oz.au
+#L	27 30 2.04 S / 153 0 41.75 E
+#W	pete@uqcspe.oz.au; 1 Jun 1987 1935
+
+#N	dmsbris.oz.au
+#S	DE Unity 68K; Integrated Solutions BSD 4.2
+#O	CSIRO, Division of Mathematics & Statistics, Brisbane
+#C	Ailsa Colborne
+#E	postmaster@dmsbris.oz.au
+#T	+61 7 377 0357
+#P	306 Carmody Road, St Lucia, Qld 4067, Australia
+#L	27 30 S / 153 01 E
+#R	data analysis, math research, math word processing
+#U	natmlab.dms.oz.au dmsmelb.dms.oz.au dmscanb.dms.oz.au
+#W	ailsa@dmsbris.dms.oz.au; Thu Dec  4 15:12:49 EST 1986
+
+#N	fgp.uq.oz.au
+#S	Altos 3068; SYS V.2.2
+#O	FGPCAL unit
+#C	Gerard Deschamps
+#E	ggad@fgp.uq.oz.au
+#T	+61 7 3772075
+#P	French Dept., University of Queensland, St Lucia, Qld 4067, Australia
+#L	27 25 S / 152 54 E city
+#R	Computer Aided Learning Research Unit (Humanities Group)
+#U	uqcspe
+#W	ggad@fgp.uq.oz.au; Tue Feb  3 11:39:24 1987
+
+#N	gbrmpa.oz.au
+#S	VAX 11/750; System V Release 2
+#O	Great Barrier Reef Marine Park Authority
+#C	Bill Wallace
+#E	bill@gbrmpa.oz.au
+#T	+61 77 81-8860
+#P	PO Box 1379, Townsville, Qld 4810, Australia
+#R	Administration, Reef Database
+#U	gris.oz.au
+#W	chris@gris.oz.au; Fri May 30 11:14:41 1986
+
+#N	gucis.oz.au
+#S	DEC VAX 11/750; Ultrix-32 V1.1
+#O	Computing and Information Studies
+#C	Stephen McKay
+#E	mckay@gucis.oz.au
+#T	+61 7 275 7778
+#P	School of Social and Industrial Administration, Griffith University, Nathan, Qld 4111, Australia
+#L	27 25 S / 152 54 E city
+#R	Teaching
+#U	uqcspe.oz.au
+#W	mckay@gucis.oz.au; Fri May  9 10:16:05 1986
+
+#N	psych.psy.uq.oz.au
+#S	PE3210; Sys V R1.04
+#O	Dept. of Psychology, Qld. Uni.
+#C	Darryl Godfrey or Robert Dal Santo
+#E	postmaster@psych.psy.uq.oz.au
+#T	+61 7 377-4063, +61 7 377-4285
+#P	St. Lucia, Qld 4067, Australia
+#L	27 25 S / 152 54 E city
+#R	Primary use as research machine, some teaching use (stats)
+#U	uqcspe.oz.au
+#W	root@psych.uq.oz.au;  4 May 1987 1418
+
+#N	qfdts.oz.au
+#S	DEC VAX 11/750; UNIX System V release 2 version 2
+#O	Qld Dept of Forestry, Division of Technical Services, Research Branch
+#C	Phil Chadwick
+#E	phil@qfdts.oz.au
+#T	+61 7 3776437
+#P	PO Box 631, Indooroopilly, Qld 4068, Australia
+#L	27 30 S / 153 0 E
+#U	uqcspe.oz.au
+#W	phil@qfdts.oz.au; 4 Feb 1987 1104 (Wednesday)
+
+#N	qfgrc.qfd.oz.au
+#S	Digital Electronics Pillar (m68k); Unisoft System III
+#O	Qld Dept of Forestry, Gympie Research Centre
+#C	Phil Chadwick
+#E	phil@qfdts.oz.au
+#T	+61 7 3776437
+#P	PO BOX 631, Indooroopilly, Qld 4068, Australia
+#L	27 30 S / 153 0 E
+#U	qfdts.oz.au
+#W	phil@qfdts.oz.au; 4 Feb 1987 1104 (Wednesday)
+
+#N	qfgwp.qfd.oz.au
+#S	Digital Electronics Flexi (m68k); Unisoft System III
+#O	Qld Dept of Forestry, Gympie Research Centre
+#C	Phil Chadwick
+#E	phil@qfdts.oz.au
+#T	+61 7 3776437
+#P	PO BOX 631, Indooroopilly, Qld 4068, Australia
+#R	Word processing
+#L	27 30 S / 153 0 E
+#W	phil@qfdts.oz.au; 4 Feb 1987 1104 (Wednesday)
+
+#N	qfrcs.qfd.oz.au
+#S	Comperex CX4000 (m68k); Unisoft System III
+#O	Qld Dept of Forestry, Division of Marketing, Resources Branch
+#C	Eric Keady
+#E	eric@qfrcs.qfd.oz.au
+#T	+61 7 2248329
+#P	GPO Box 944, Brisbane, Qld 4001, Australia
+#L	27 25 S / 152 54 E city
+#U	qfdts.oz.au
+#W	phil@qfdts.oz.au; 4 Feb 1987 1104 (Wednesday)
+
+#N	sheila.oz.au
+#S	DEC Microvax II; ULTRIX 1.2
+#O	Dept. of Computer Science, James Cook University
+#C	Neil Skinner
+#E	neil@sheila.oz.au
+#T	+61 77 81 4620 or +61 77 81 4622
+#P	Townsville, Qld. 4811, Australia
+#L	19 20 S / 146 35 E
+#R	Computer Science Research
+#U	uqcspe.oz.au
+#W	neil@sheila.oz.au; 2 Oct 1986 1714
+
+#N	sri.oz.au
+#S	VAX 11/750; 4.2BSD
+#O	Sugar Research Institute
+#C	Peter Everitt
+#T	+61 79 52 1511
+#P	Nebo Rd, Mackay, Qld 4740, Australia
+#E	pete@sri.oz.au
+#L	21 8 S / 149 11 E
+#U	natmlab
+#W	pete@sri.oz.au; 25 Sep 1986 1114
+
+#N	uqcspe.oz.au
+#S	Perkin-Elmer 3252; Munics 4.2BSD
+#O	University of Queensland, Dept. of Computer Science
+#C	Peter McMahon
+#T	+61 7 377-2875
+#P	St. Lucia, Qld 4067, Australia
+#E	postmaster@uqcspe.oz.au
+#L	27 30 2.04 S / 153 0 41.75 E
+#U	psych.uq.oz.au qfdts.oz.au basser.oz.au gucis.oz.au fgp.uq.oz.au elec.uq.oz.au
+#U	mm730.uq.oz.au mech.uq.oz.au sheila.oz.au
+#R	This is the main research system.  There are others.
+#W	pete@uqcspe.oz.au; 1 Jun 1987 1935
+
+SHAR_EOF
+echo shar: extracting u.aus.sa.1
+cat << \SHAR_EOF > u.aus.sa.1
+# Australia - South Australia
+
+#	u.aus.sa.1  -  created 29 Jun 87 by acsmap@physiol.su.oz.au
+
+#N	aegir.dmt.oz.au
+#S	DEC PDP 11/73; UNIX 2.9 BSD
+#O	CSIRO Division of Manufacturing Technology, Adelaide
+#C	Jaquie H. Jarvis
+#E	jhj@aegir.dmt.oz.au
+#T	+61 8 268-0179
+#P	Leeds Cresent, Woodville North, SA 5011, Australia
+#L	34 55 S / 138 35 E city
+#R	connected to mimir via csironet
+#U	mimir.dmt.oz.au
+#W	mjj@mimir.oz.au; Fri Jun  5 17:23:34 1987
+
+#N	aisys.flinders.oz.au
+#S	DEC 11/73; RSX11-M with an AIS (NS32000) Unix V.2 coprocessor
+#O	Flinders University, Discipline of Computer Science
+#C	Trevor Norman
+#T	+61 8 275 2822
+#P	Sturt road, Bedford Park, SA 5042, Australia
+#E	trevor@flinders.oz.au
+#L	35 01 8 S / 138 34 2 E
+#U	flinders
+#W	kevin@flinders.oz.au; Apr 17 11:56:33 1986
+
+#N	augean.oz.au
+#S	DEC VAX-11/780; 4.2 BSD Unix
+#O	Faculty of Engineering, University of Adelaide
+#C	Michael Liebelt
+#T	+61 8 228-5114
+#P	G.P.O. Box 498, Adelaide, SA 5001, Australia
+#E	mike@augean.oz.au
+#L	34 55 S / 138 35 E city
+#U	elecadel.ua smokey.ua flinders.oz.au dmsadel.dms.oz.au
+#W	mike@augean.oz.au; Mon Nov 17 16:38:46 1986
+
+#N	dmsadel.oz.au
+#S	DEC Microvax II; ULTRIX 1.2
+#O	CSIRO Division of Mathematics & Statistics, Adelaide
+#C	Robin Lamacraft
+#E	postmaster@dmsadel.dms.oz.au
+#T	+61 8 274 9353
+#P	Private Bag No 2, Glen Osmond, SA 5064, Australia
+#L	34 57 S / 138 38 E
+#R	data analysis, math research, math word processing
+#U	natmlab.dms.oz.au dmsmelb.dms.oz.au dmscanb.dms.oz.au aegir.dmt.oz.au augean.ua.oz.au cnhbart.dms.oz.au siromath.oz.au
+#W	robinl@dmsadel.dms.oz.au; Thu Dec  4 15:40:25 EST 1986
+
+#N	elecadel.ua.oz.au
+#S	DEC PDP-11/34A; AUSAM Level 7 Unix
+#O	Dept. of Electrical and Electronic Engineering, University of Adelaide
+#C	Michael Liebelt
+#T	+61 8 228-5114
+#P	G.P.O. Box 498, Adelaide, SA 5001, Australia
+#E	mike@elecadel.ua.oz.au
+#L	34 55 S / 138 35 E city
+#U	augean mechadel.ua uacomsci.ua
+#W	mike@augean.oz.au; Mon Nov 17 16:38:46 1986
+
+#N	flinders.oz.au
+#S	Pyramid 90x; OSx 2.5 (Pyramid's BSD4.2/SysV)
+#O	Flinders University, Discipline of Computer Science
+#C	Trevor Norman
+#T	+61 8 275 2822
+#P	Sturt road, Bedford Park, SA 5042, Australia
+#E	trevor@flinders.oz.au
+#L	35 01 8 S / 138 34 2 E
+#U	augean aissys.flinders
+#R	Main flinders gateway; Research and final year students
+#W	kevin@flinders.oz.au;  Wed Apr 16 13:07:27 1986
+
+#N	lennon.austek.oz.au
+#S	MicroVax2 ; Ultrix - DEC's perversion of 4.2bsd
+#O	Austek Microsystems
+#C	Richard Sharpe
+#E	rsharpe@lennon.austek.oz.au
+#T	+61 8 260 0158
+#P	Innovation House, Technology Park, The Levels, Adelaide, SA 5095, Australia
+#R	Main node of Austek Microsystems
+#L	34 48 54 S / 138 37 02 E
+#U	flinders.oz.au
+#W	wes@vslvax.oz.au;  Fri Oct 31 09:04:56 1986
+
+#N	mechadel.ua.oz.au
+#S	DEC PDP-11/34A; AUSAM Level 7 Unix
+#O	Dept. of Mechanical Engineering, University of Adelaide
+#C	Eric Browne
+#T	+61 8 228-5920
+#P	G.P.O. Box 498, Adelaide, SA 5001, Australia
+#E	eric@mechadel.ua.oz.au
+#L	34 55 S / 138 35 E city
+#U	elecadel.ua.oz.au
+#W	mike@augean.oz.au; Mon Nov 17 16:38:46 1986
+
+#N	office.vs.oz.au
+#S	Compaq 286 portable; Xenix V.2.2
+#O	Vision Systems Limited - attempted office system
+#C	Wesley Hosking
+#E	wes@vslvax.oz.au
+#T	+61 8 349 5988
+#P	Innovation House West, Technology Park, The Levels, Adelaide, SA 5095, Australia
+#L	34 48 54 S / 138 37 02 E
+#R	Attempt at Office Automation system for Vision systems - may not last
+#R	if the software doesn't come along
+#R	Mail in only - all users on vslvax.oz.au also
+#W	wes@vslvax.oz.au;  Fri Oct 31 09:04:56 1986
+
+#N	sade.austek.oz.au
+#S	MicroVax2 ; Ultrix - DEC's perversion of 4.2bsd
+#O	Austek Microsystems
+#C	Richard Sharpe
+#E	rsharpe@lennon.austek.oz.au
+#T	+61 8 260 0158
+#P	Innovation House, Technology Park, The Levels, Adelaide, SA 5095, Australia
+#L	34 48 54 S / 138 37 02 E
+#R	Main node of Austek Microsystems
+#U	flinders.oz.au
+#W	wes@vslvax.oz.au;  Fri Oct 31 09:04:56 1986
+
+#N	smokey.ua.oz.au
+#S	DEC VAX-11/750; Ultrix V1.2
+#O	Dept. of Computer Science, University of Adelaide
+#C	Jeff Blows
+#T	+61 8 228-5583
+#P	G.P.O. Box 498, Adelaide, SA 5001, Australia
+#E	jeff@smokey.ua.oz.au
+#L	34 55 S / 138 35 E city
+#U	augean.oz.au
+#W	mike@augean.oz.au; Mon Nov 17 16:38:46 1986
+
+#N	uacomsci.ua.oz.au
+#S	DEC VAX-11/750; VMS
+#O	Dept. of Computer Science, University of Adelaide
+#C	Kelvin Nicolle
+#T	+61 8 228-5583
+#P	G.P.O. Box 498, Adelaide, SA 5001, Australia
+#E	kelvin@uacomsci.ua.oz.au
+#L	34 55 S / 138 35 E city
+#U	elecadel.ua
+#W	mike@augean.oz.au; Mon Nov 17 16:38:46 1986
+
+#N	vision.vs.oz.au
+#S	Motorola MVME-121; Unix V.2.? (no csh)
+#O	Vision Systems Limited - R&D
+#C	Wesley Hosking
+#E	wes@vslvax.oz.au
+#T	+61 8 349 5988
+#P	Innovation House West, Technology Park, The Levels, Adelaide, SA 5095, Australia
+#L	34 48 54 S / 138 37 02 E
+#R	Development machine for 68020 and vision based software
+#R	Mail in only - all users on vslvax.oz.au also
+#W	wes@vslvax.oz.au;  Fri Oct 31 09:04:56 1986
+
+#N	vslvax.oz.au
+#S	Vax 11/750; Unix 4.2 bsd
+#O	Vision Systems Limited
+#C	Wesley Hosking
+#E	wes@vslvax.oz.au
+#T	+61 8 349 5988
+#P	Innovation House West, Technology Park, The Levels, Adelaide, SA 5095, Australia
+#R	Main node of vision systems
+#L	34 48 54 S / 138 37 02 E
+#W	wes@vslvax.oz.au;  Fri Oct 31 09:04:56 1986
+
+SHAR_EOF
+echo shar: extracting u.aus.tas.1
+cat << \SHAR_EOF > u.aus.tas.1
+# Australia - Tasmania
+
+#	u.aus.tas.1  -  created 01 Sep 87 by acsmap@physiol.su.oz.au
+
+#N	tasis.oz.au
+#S	DEC VAX 11/750; BSD4.2
+#O	Dept. of Information Science, University of Tasmania
+#C	Greg Watson
+#E	postmaster@tasis.oz.au
+#T	+61 02 20-2711
+#P	GPO Box 252C, Hobart, Tas. 7001, Australia
+#L	42 50 S / 147 20 E
+#R	Research machine with some teaching
+#U	natmlab.dms.oz.au
+#W	root@tasis.oz.au; Tue Sep  1 12:17:59 1987
+
+#N	tasmed44.utas.oz.au
+#S	DEC PDP 11/44; UNIX V7
+#O	Department of Medicine, University of Tasmania
+#C	Stephen Walker
+#E	root@tasmed44.utas.oz.au
+#T	+61 02 30-0841
+#P	Clinical School, 43 Collins St., Hobart Tas. 7000, Australia
+#L	42 52 48 S / 147 20 E
+#R	Medical research (esp. cardiovascular) and teaching
+#U	tasis.utas.oz.au
+#W	root@tasmed44.utas.oz.au; 14 Apr 1987 0853
+
+SHAR_EOF
+echo shar: extracting u.aus.vic.1
+cat << \SHAR_EOF > u.aus.vic.1
+# Australia - Victoria
+
+# uucp connection info added: Wed Sep 23 20:42:53 1987; by munnari!kre
+
+#	u.aus.vic.1  -  created 28 Aug 87 by acsmap@physiol.su.oz.au
+
+#N	accv.oz.au
+#S	Pyramid 90xe; OSx 3.1
+#O	Anti-Cancer Council of Victoria
+#C	Magdi Bar-zeev
+#E	postmaster@accv.oz.au
+#T	+61 3 662 3300
+#P	1 Rathdowne St, Sth Carlton, Vic. 3053, Australia
+#R	A non-profit organisation dedicated to the prevention/cure of Cancer
+#L	37 48 S / 144 58 E city
+#U	yarra.oz.au
+#W	david@accv.oz.au; Mar 10 9:00 1987
+
+#N	andy.trl.oz.au
+#S	Cromemco 300; Unix Sys V rel 0
+#O	Telecom Research Labs, Switching & Signalling Branch
+#C	Richard Liu
+#E	liu@andy.trl.oz.au
+#T	+61 3 541-6336
+#P	P.O. Box 249, Clayton, Vic. 3168, Australia
+#L	37 48 S / 144 58 E city
+#R	Primary use network news mail
+#U	trlvlsi.trl.oz.au
+#W	liu@andy.trl.oz.au; Mar 14 17:36:52 1986
+
+#N	aragorn.oz.au
+#S	Gould PowerNode 6031; UTX 32 1.2 (BSD 4.2)
+#O	School of Science, Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	School of Science research machine.
+#U	charlie.oz(feed) smaug.oz.au moncskermit.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	bilbo.cm.deakin.oz.au
+#S	NatSemi SYS32 (32016); GENIX Rev D. (4.1bsd)
+#O	Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Honours students research machine.
+#U	aragorn.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	bilby.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Student work
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	bunyip.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Administration/Student records
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	cascade.trl.oz.au
+#S	D.E. Unity (68010); Unix BSD4.2
+#O	Customer Access Section, Telecom Research Department
+#C	Alan Hopson
+#E	acsnet@cascade.trl.oz.au
+#T	+61 3 541-6749
+#P	P.O. Box 249, Clayton, Vic. 3168, Australia
+#L	37.9 S / 145.2 S
+#R	Communications Software Development
+#U	No news exchanged (or received) as yet
+#W	hopson@cascade.trl.oz.au; 27 Mar 1987 1439 (Friday)
+
+#N	charlie.oz.au
+#S	Gould PN6080; UTX/32
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Main Deakin node to rest of ACSnet
+#U	mulga.oz.au,aragorn.oz.au,delta.cc.deakin.oz.au,foxtrot.cc.deakin.oz.au,golf.cc.deakin.oz.au,india.cc.deakin.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	cidam.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V2
+#O	Mechanical & Production Eng., Royal Melbourne Institute of Techology
+#C	David Hook
+#E	postmaster@cidam.rmit.oz.au
+#T	+61 3 660 2161
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	staff research (CAD & graphics), student project work
+#U	goanna.oz.au dingo.rmit.oz.au wombat.rmit.oz.au platypus.rmit.oz.au
+#U	yabbie.oz.au fruitbat.rmit.oz.au
+#W	dgh@cidam.rmit.oz.au; Tue Sep  9 14:10:58 EST 1986
+
+#N	cimasun.rmit.oz.au
+#S	Sun-2/120 (MC68010); 4.2bsd (Sun OS 1.4)
+#O	Centre for Industrial Microelectronics Applications, Royal Melbourne Institute of Technology
+#C	Michael Osborne
+#E	postmaster@cimasun.co.rmit.oz.au
+#T	+61 3 660 5117
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	VLSI/Hybrid design
+#U	yabbie.rmit.oz.au goanna.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	cit5.oz.au
+#S	Pyramid 98xe; OSx
+#O	Computer Centre, Chisholm Institute of Technology
+#C	Chief Systems Programmer
+#E	postmaster@cit5.oz.au
+#T	+61 3 573 2248
+#P	P.O. Box 197, Caulfield East, Vic. 3145, Australia
+#L	37 52 36.8 S / 145 02 42.0 E
+#R	Teaching System V Unix
+#U	yabbie.rmit.oz.au
+#W	david@cit5.oz.au; 10 Mar 1987 2322
+
+#N	dasyure.rmit.oz.au
+#S	3B2/400; UNIX System V Release 2.0.4 3B2 Version 2
+#O	Computing Department, Royal Melbourne Institute of Techology
+#C	Erick Delios
+#E	ejd@goanna.oz.au
+#T	+61 3 660 2291
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 33 S / 144 57 30 E
+#W	ejd@goanna.oz.au; Wed Sep 17 15:38:04 1986
+
+#N	dbrmela.oz.au
+#S	Hewlett-Packard HP-9000 Model 540;  HP-UX 05.11
+#O	CSIRO, Division of Building Research
+#C	Bernard Wilson
+#E	postmaster@dbrmela.dbrhi.oz.au
+#T	+61 3 556 2211
+#P	PO Box 56, Highett, Vic. 3190, Australia
+#L	37 57 S / 145 03 E
+#R	Knowledge Based Systems and CAD - Research and Development
+#U	dbrmelb.oz.au
+#W	bernard@dbrmela.dbrhi.oz.au (Bernard Wilson); Fri Mar 20 15:00:00 EST 1987
+
+#N	dbrmelb.oz.au
+#S	Hewlett-Packard HP-9000 Model 540;  HP-UX 05.11
+#O	CSIRO, Division of Building Research
+#C	Bernard Wilson
+#E	postmaster@dbrmelb.dbrhi.oz.au
+#T	+61 3 556 2211
+#P	PO Box 56, Highett, Vic. 3190, Australia
+#L	37 57 S / 145 03 E
+#R	Knowledge Based Systems and CAD - Research and Development
+#U	dbrmela.oz.au dmsmelb.oz.au moncskermit.oz.au
+#W	bernard@dbrmelb.dbrhi.oz.au (Bernard Wilson); Fri Mar 20 15:00:00 EST 1987
+
+#N	delta.cc.deakin.oz.au
+#S	Convergent Technologies Miniframe; CTIX
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#U	charlie.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	devel.cats.oz.au
+#S	Torch XXX (68010); Sys V Rel 1 + BerkNet
+#O	Cats Company Pty. Ltd.
+#C	Graham Menhennitt
+#E	gfm@devel.cats.oz.au
+#T	+61 3 51-1565
+#P	466 Malvern Road, Prahran, Vic 3181, Australia
+#L	37 50 S / 145 00 E
+#R	Software development machine and network central node
+#U	ecs.oz.au
+#W	gfm@devel.cats.oz.au; 29 Jan 1987 0925
+
+#N	dingo.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V2
+#O	Mechanical & Production Eng., Royal Melbourne Institute of Techology
+#C	David Hook
+#E	postmaster@cidam.rmit.oz.au
+#T	+61 3 660 2161
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	staff research, student project work
+#U	cidam.rmit.oz.au
+#W	dgh@cidam.rmit.oz.au; Tue Sep  9 14:10:58 EST 1986
+
+#N	ditmela.oz.au
+#S	SUN 3/160; SUN OS 3.2 (=BSD 4.2+)
+#O	CSIRO Division of Information Technology, Computer Network Group
+#C	Ian Richards
+#E	richards@ditmela.oz.au
+#T	+61 3 347 8644
+#P	55 Barry St, Carlton, Vic 3053, Australia
+#L	37 48 S / 144 58 E city
+#U	mulga.oz.au latcs1.oz.au yarra.oz.au ditmelb.oz.au
+#W	smart@ditmelb.oz.au; Jan 31 13:12:31 1987
+
+#N	ditmelb.oz.au
+#S	microVAX II; VMS 4.5
+#O	CSIRO Division of Information Technology, Computer Network Group
+#C	Robert Smart
+#E	smart@ditmelb.oz.au
+#T	+61 3 347 8644
+#P	55 Barry St, Carlton, Vic 3053, Australia
+#L	37 48 S / 144 58 E city
+#U	ditmelb.oz.au
+#W	smart@ditmelb.oz.au; Jan 31 13:12:31 1987
+
+#N	dmsmelb.oz.au
+#S	DEC Microvax II; ULTRIX 1.2
+#O	CSIRO Division of Mathematics & Statistics, Melbourne
+#C	Sophia Liow
+#T	+61 3 542 2267
+#P	Private Mailbag 10, Clayton, Vic. 3168, Australia
+#E	postmaster@dmsmelb.dms.oz.au
+#L	37 55 S / 145 09 E
+#R	data analysis, math & stat research, math word processing
+#U	dmsadel.dms.oz.au dmscanb.dms.oz.au natmlab.dms.oz.au dbrmelb.dbrhi.oz.au
+#W	sophia@dmsmelb.oz.au; Thu Aug  6 22:43:24 1987
+
+#N	echidna.co.rmit.oz.au
+#S	Labtam (NS32032); System V.2
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	VLSI research
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	ecs.oz.au
+#S	Unison RD - V7/Sys V/4.2 mixture
+#O	Email Computer Systems (L&L Australia)
+#C	Steven Wyss
+#E	srw@ecs.oz.au
+#T	+61 3 728-1888
+#P	PO Box 154, Mooroolbark, Vic. 3138, Australia
+#L	37 48 S / 145 19 E
+#R	Engineering machine and network central node 
+#U	mulga.oz.au rra drcs
+#W	srw@ecs.oz.au; Thu Aug 21 15:26:50 1986
+
+#N	emu.rmit.oz.au
+#S	DEC VAX 11/750; Unix 4.2BSD
+#O	Computing Department, Royal Melbourne Institute of Techology
+#C	Erick Delios
+#E	ejd@goanna.oz.au
+#T	+61 3 660 2291
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 33 S / 144 57 30 E
+#R	teaching
+#W	ejd@goanna.oz.au; Wed Sep 17 15:38:04 1986
+
+#N	foxtrot.cc.deakin.oz.au
+#S	Convergent Technologies Miniframe; CTIX
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#U	charlie.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	fruitbat.rmit.oz.au
+#S	Unison D10 (MC68000); Sironix V3
+#O	Computer Centre, Royal Melbourne Institute of Technology
+#C	Peter Grant
+#E	postmaster@fruitbat.xx.rmit.oz.au
+#T	+61 3 660 2934
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	General development
+#U	yabbie.rmit.oz.au cidam.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	gecko.co.rmit.oz.au
+#S	Unison R/D (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Parallel Systems Research/Administration
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	gnat.co.rmit.oz.au
+#S	Natsemi Sys32 (NS32016); Genix 4.1bsd-10
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Student work
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	goanna.oz.au
+#S	DEC VAX 11/750; Unix 4.2BSD
+#O	Computing Department, Royal Melbourne Institute of Techology
+#C	Erick Delios
+#E	ejd@goanna.oz.au
+#T	+61 3 660 2291
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 33 S / 144 57 30 E
+#R	staff & master student research
+#U	moncskermit.oz.au yabbie.rmit.oz.au cidam.oz.au cimasun.co.rmit.oz.au
+#U	munnari.oz(aus,melb)
+#W	ejd@goanna.oz.au; Wed Sep 17 15:38:04 1986
+
+#N	golf.cc.deakin.oz.au
+#S	Convergent Technologies Miniframe; CTIX
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#U	charlie.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	gollum.cm.deakin.oz.au
+#S	Unison D21 (M68000); Sironix
+#O	Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Token Ring Network research
+#U	aragorn.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	greybox.oz.au
+#S	Convergent Technologies Miniframe (Gould PS2000); CTIX 3.2 (Sys V)
+#O	Dept. Computing and Information Science; Bendigo College of Advanced Education
+#C	Peter Goddard; Phil Scott
+#E	peter@greybox.oz.au; pscott@greybox.oz.au
+#T	+61 54 403222
+#P	PO Box 199, Bendigo, Vic. 3550, Australia
+#L	36 46 48 S / 144 18 0 E
+#R	Staff and final-year student machine
+#U	None, soon to be charlie.oz.au (Deakin Univ.)
+#W	pscott@greybox.oz.au; 27 Feb 1987 0613 (Friday)
+
+#N	horace.cm.deakin.oz.au
+#S	Gould PS2000 (CT miniframe); CTIX (V.2)
+#O	Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	VLSI research machine.
+#U	aragorn.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	hotel.cc.deakin.oz.au
+#S	Gould PN6040; UTX/32
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	hpausla.oz.au
+#S	Hewlett-Packard HP9000/540; HP-UX 5.01 (~Sys V.2)
+#O	Hewlett-Packard Australian Software Operation
+#C	Brian Coogan
+#E	postmaster@hpausla.oz.au, brian@hpausla.oz.au
+#T	+61 3 879 1999
+#P	PO Box 439, Ringwood, Vic. 3134, Australia
+#L	37 48 S / 144 58 E city
+#R	ASO Hub
+#U	mulga.oz.au
+#W	brian@hpausla.oz.au; Apr  4 12:29:44 1986
+
+#N	icarus.cm.deakin.oz.au
+#S	Pennywise system (68010); SysV.2
+#O	Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Robotics Lab. file server
+#U	aragorn.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	india.cc.deakin.oz.au
+#S	Convergent Technologies Miniframe; CTIX
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@india.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#U	charlie.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	jerboa.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Student work
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	juliet.cc.deakin.oz.au
+#S	Convergent Technologies Miniframe; CTIX
+#O	Computer Services, Deakin University
+#C	Craig Warren, Wayne Jennings, Craig Bishop
+#E	ccw@charlie.oz.au, wayne@charlie.oz.au, craig@charlie.oz.au
+#T	+61 52 47-1163
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Part of Deakin's Melba network
+#U	charlie.oz.au
+#W	ccw@charlie.oz.au; 1 Dec 86 13:36:02 AEST
+
+#N	kestrel.oz.au
+#S	G.R.C. Python 32B; SysV.2
+#O	Knowledge Engineering P/L
+#C	Bernard Marshall
+#E	bern@kestrel.oz.au
+#T	+61 3 347 2530
+#P	Unit 12, 22-26 Grattan Street, Carlton, Vic. 3053, Australia
+#L	37 48 S / 144 58 E city
+#W	bern@kestrel.oz.au; Mon Mar 23 12:03:05 1987
+
+#N	koala.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Maintenance testing/Operating systems development
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	koel.rmit.oz.au
+#S	Sun-3/260 (MC68020); 4.2bsd SunOS 3.3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Parallel Systems Architecture Research (RMIT/CSIRO project)
+#U	yabbie.rmit.oz.au goanna.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	labtam.oz.au
+#S	Labtam 3215/V32; Unix System V Release 2.0 Version 2
+#O	Labtam Limited, Information Systems Division, Research and Development Department
+#C	Michael Podhorodecki
+#E	michael@labtam.oz.au
+#T	+61 3 587-1444
+#P	P.O. Box 297, Mordialloc, Vic. 3195, Australia
+#L	37 48 S / 144 58 E city
+#U	moncskermit.oz.au mulga.oz.au
+#W	mjt@labtam.oz.au; 15 May 1987 1655
+
+#N	latcs1.oz.au
+#S	Pyramid 90mx; OSx3.1
+#O	Computer Science Department, La Trobe University
+#C	John Pritchard
+#E	john@latcs1.oz.au
+#T	+61 3 478 3122 ext 2857
+#P	Bundoora, Vic. 3083, Australia
+#L	37 43 S / 145 3 E
+#R	Research/Teaching Machine
+#U	ditmela.oz.au
+#W	john@latcs1.oz.au; Fri Aug 28 14:21:48 EST 1987
+
+#N	latcs2.lat.oz.au
+#S	Data General MV2000; DG/UX 3.10
+#O	Computer Science Department, La Trobe University
+#C	Chris Leach
+#E	chris@latcs1.oz.au
+#T	+61 3 478 3122 ext 2857
+#P	Bundoora, Vic. 3083, Australia
+#L	37 43 S / 145 3 E
+#R	Research/Teaching Machine
+#W	john@latcs1.oz.au; Fri Aug 28 14:21:48 EST 1987
+
+#N	latvax1.lat.oz.au
+#S	VAX-11/780; VMS 4.4
+#O	Computer Centre, La Trobe University
+#C	Phil County
+#E	ccpc@latvax3.lat.oz.au
+#T	+61 3 478 3155 ext 2764
+#P	Bundoora, Vic. 3083, Australia
+#L	37 43 S / 145 3 E
+#R	foreign ACSnet node, mail ONLY
+#W	ccpc@latvax3.lat.oz.au; Fri Aug 14 12:55:26 EST 1987
+
+#N	latvax2.lat.oz.au
+#S	VAX-11/780; VMS 4.4
+#O	Computer Centre, La Trobe University
+#P	Bundoora, Vic. 3083, Australia
+#C	Phil County
+#E	ccpc@latvax3.lat.oz.au
+#T	+61 3 478 3155 ext 2764
+#L	37 43 S / 145 3 E
+#R	foreign ACSnet node, mail ONLY
+#W	ccpc@latvax3.lat.oz.au; Fri Aug 14 12:55:26 EST 1987
+
+#N	latvax3.lat.oz.au
+#S	VAX-11/780; VMS 4.4
+#O	Computer Centre, La Trobe University
+#P	Bundoora, Vic. 3083, Australia
+#C	Phil County
+#E	ccpc@latvax3.lat.oz.au
+#T	+61 3 478 3155 ext 2764
+#L	37 43 S / 145 3 E
+#R	foreign ACSnet node, mail ONLY
+#W	ccpc@latvax3.lat.oz.au; Fri Aug 14 12:55:26 EST 1987
+
+#N	latvax4.lat.oz.au
+#S	MicroVAX-II; VMS 4.4
+#O	Computer Centre, La Trobe University
+#P	Bundoora, Vic. 3083, Australia
+#C	Phil County
+#E	ccpc@latvax3.lat.oz.au
+#T	+61 3 478 3155 ext 2764
+#L	37 43 S / 145 3 E
+#R	foreign ACSnet node, mail ONLY
+#W	ccpc@latvax3.lat.oz.au; Fri Aug 14 12:55:26 EST 1987
+
+#N	magpie.co.rmit.oz.au
+#S	Unison D10 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Operating systems research
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	mimir.oz.au
+#S	DEC VAX 11/780; UNIX 4.3 BSD
+#O	CSIRO Division of Manufacturing Technology, Melbourne
+#C	Murray. J. Jensen
+#E	mjj@mimir.dmt.oz.au
+#T	+61 3 487-9263
+#P	Cnr Albert & Raglan Sts (or Locked Bag No.9), Preston, Vic. 3072, Australia
+#L	37 48 S / 144 58 E city
+#R	connected to aegir via csironet, munnari via 1200 baud leased line (xt)
+#U	munnari.oz.au aegir.dmt.oz.au
+#W	mjj@mimir.oz.au; Fri Jun  5 17:23:34 1987
+
+#N	moncsbruce.oz.au
+#S	Pyramid 98x; Unix 4.2 BSD and System V
+#O	Monash Univ., Computer Science Dept.
+#C	Peter Nankivell
+#T	+61 3 565 3924
+#P	Clayton, Vic. 3168, Australia
+#E	pgn@moncsbruce.oz.au
+#L	37 48 S / 144 58 E city
+#U	moncskermit.oz.au
+#R	Departments primary Postgraduate and Staff computing resource
+#W	pgn@moncskermit.oz.au; Tue Apr  7 18:03:11 1987
+
+#N	moncskermit.oz.au
+#S	DEC Vax 11/750; Unix 4.2 BSD
+#O	Monash Univ., Computer Science Dept.
+#C	Peter Nankivell
+#T	+61 3 565 3924
+#P	Clayton, Vic. 3168, Australia
+#E	pgn@moncskermit.oz.au
+#L	37 48 S / 144 58 E city
+#U	munnari.oz.au
+#R	Used for research, VAX dependant S/W, Network gateway
+#W	pgn@moncskermit.oz.au; Tue Apr  7 18:03:11 1987
+
+#N	monu1.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Computer Centre, Monash University
+#C	John Carey, Katharine Ching
+#E	john@monu1.oz.au, kath@monu1.oz.au
+#T	+61 3 565 4754, +61 3 565 4777
+#L	37 48 S / 144 58 E city
+#P	Clayton, Vic. 3168, Australia
+#R	General Unix machine for University staff and students
+#U	moncsbruce.oz.au monu3.oz.au vx15
+#W	john@monu1.oz.au; Fri Aug 14 17:27:49 1987
+
+#N	monu3.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Computer Centre, Monash University
+#C	John Carey, Katharine Ching
+#E	john@monu1.oz.au, kath@monu1.oz.au
+#T	+61 3 565 4754, +61 3 565 4777
+#L	37 48 S / 144 58 E city
+#P	Clayton, Vic. 3168, Australia
+#R	Primarily used by Electrical Enginering Department
+#U	moncsbruce.oz.au monu1.oz.au
+#W	john@monu1.oz.au; Fri Aug 14 17:27:49 1987
+
+#N	mudlo.mu.oz.au
+#S	Elxsi; enix, beatnix, embos
+#O	Mathematical Sciences, University of Melbourne
+#C	Andrew Mack, John Shepherd
+#E	{ajm,jas}@mulga.oz.au
+#T	+61 3 344 5227, +61 3 344 6892
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	mugana.cs.mu.oz.au
+#S	Unison; Sironix
+#O	Computer Science, University of Melbourne
+#C	David Hornsby
+#E	djh@munnari.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	mulga.oz.au
+#S	PE3240; 4.2bsd
+#O	Computer Science, University of Melbourne
+#C	Robert Elz
+#E	postmaster@mulga.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#U	munnari, ecs, smaug, charlie, hpausla(aus,melb), pesnta(pe)
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+
+# the links are marked dead to prevent routing through Australia
+# these sites call us, their maps should indicate frequency.
+
+mulga	decvax(DEAD), vax135(DEAD)
+
+#N	mullian.oz.au
+#S	Gould PowerNode 6031; UTX 32 1.2 (BSD 4.2)
+#O	Dept. of Electrical & Electronic Eng., University of Melbourne
+#C	Keith Adams, Tuan Nguyen
+#E	kma@mullian.oz.au, tqn@mullian.oz.au
+#T	+61 3 344-7208, 344-7436, 344-7987
+#P	Parkville Vic. 3052, Australia
+#L	37 48 S / 144 58 E
+#R	Dept. research machine	
+#U	murdu.oz.au muwaves.oz.au
+#W	kma@mullian.oz.au; Wed Jun 11 12:01:52 1986
+
+#N	mulwala.cs.mu.oz.au
+#S	Unison; Sironix
+#O	Computer Science, University of Melbourne
+#C	David Hornsby
+#E	djh@munnari.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	mummjeeli.cs.mu.oz.au
+#S	Unison; Sironix
+#O	Computer Science, University of Melbourne
+#C	David Hornsby
+#E	djh@munnari.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	mundara.mu.oz.au
+#S	Plexus P60
+#O	SDG, Computer Science, University of Melbourne
+#C	Michael Flower
+#E	mcf@mundara.mu.oz.au
+#T	+61 3 344 7415
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#R	Australian Network Gateway
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	mundoe.mu.oz.au
+#S	Micro-Vax II; BSD 4.3
+#O	Department of Mathematics, Melbourne University
+#C	Giuseppe Fiusco
+#E	glf@mundoe.mu.oz.au
+#T	+61 3 344-7278
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 S / 144 58 E (city)
+#R	Research tool
+#U	mudlo.oz.au
+#W	glf@mundoe.mu.oz.au; Wed Apr 29 14:14:37 1987
+
+#N	munmurra.mu.oz.au
+#S	Elxsi; 4.2bsd
+#O	Mathematical Sciences, University of Melbourne
+#C	Andrew Mack, John Shepherd
+#E	{ajm,jas}@mulga.oz.au
+#T	+61 3 344 5227, +61 3 344 6892
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; 9 Mar 1987 0222
+
+#N	munnari.oz.au
+#S	Vax 11/780; 4.3bsd
+#O	Computer Science, University of Melbourne
+#C	Robert Elz
+#E	postmaster@munnari.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#R	Australian Network Gateway
+#U	mulga.oz.au, murdu.oz.au, uunet, natmlab.oz.au, neumann.oz.au,
+#U	moncskermit.oz.au, augean.oz.au, mimir.dmt.oz.au
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+
+# the links are marked dead to prevent routing through Australia
+# which doesn't work (attempts will be bounced).
+
+munnari		uunet(DEAD), ubc-vision(DEAD),
+		enea(DEAD), mcvax(DEAD), ukc(DEAD), mimos(DEAD),
+		nttlab(DEAD), tataelxsi(DEAD), indogtw(DEAD),
+		prlb2(DEAD), kaist(DEAD), hkucs(DEAD), mimos(DEAD),
+		cantuar(DEAD), mnetor(DEAD), pyramid(DEAD), etrivax(DEAD)
+
+# but we poll these sites, its OK for you to know that mail
+# from them to us will arrive...
+
+uunet		munnari(DAILY/5)
+tataelxsi	munnari(DAILY/2)
+ukc		munnari(DAILY/4)
+
+# the other links call us, their maps should say how often.
+
+#N	murdu.oz.au
+#S	VAX 11/750; 4.2BSD
+#O	University of Melbourne, Computing Services
+#C	Ross Millward
+#T	+61 3 344-7047
+#P	Parkville, Vic. 3052, Australia
+#E	rossm@murdu.oz.au
+#L	37 48 31 S / 144 57 42 E
+#U	munnari
+#W	rossm@murdu.oz.au; Mar 27 16:57:34 1986
+
+#N	muwaves.oz.au
+#S	LSI 11/73; Unix
+#O	Dept. of Electrical & Electronic Eng., University of Melbourne
+#C	Bevan Bates
+#E	bdb@muwaves.oz.au
+#T	+61 3 344-6710
+#P	Parkville Vic. 3052, Australia
+#L	37 48 S / 144 58 E
+#R	Microwave research machine
+#U	mullian.oz.au
+#W	bdb@muwaves.oz.au; Wed Jun 11 12:01:52 1986
+
+#N	muwaya.mu.oz.au
+#S	DEC microVax II; Ultrix V1.2 
+#O	University Computing Services, University of Melbourne
+#C	John Dillane
+#E	postmaster@muwaya.mu.oz.au
+#T	+61 3 344-7888
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#R	DECNET to UNIX gateway
+#W	johnd@murdu.oz.au; Mon May  4 12:05:21 1987
+
+#N	muwe.cs.mu.oz.au
+#S	Unison; Sironix
+#O	Computer Science, University of Melbourne
+#C	David Hornsby
+#E	djh@munnari.oz.au
+#T	+61 3 344 5225
+#P	Parkville, Vic. 3052, Australia
+#L	37 48 31 S / 144 57 42 E
+#W	kre@munnari.oz.au; Sep  5 19:48 1986
+
+#N	myotis.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Student work
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	platypus.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V2
+#O	Mechanical & Production Eng., Royal Melbourne Institute of Techology
+#C	David Hook
+#E	postmaster@cidam.rmit.oz.au
+#T	+61 3 660 2161
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	staff research, student project work
+#U	cidam.rmit.oz.au
+#W	dgh@cidam.rmit.oz.au; Tue Sep  9 14:10:58 EST 1986
+
+#N	pleiades.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	CSIRO, Division of Energy Technology
+#C	Lawson Hanson
+#E	root@pleiades.oz.au
+#T	+61 3 556 2211
+#P	PO Box 26, Highett, Vic. 3190, Australia
+#L	37 57 S / 145 03 E
+#R	General computing for the Division of Energy Technology
+#U	dmsmelb.oz.au yarra.oz.au
+#W	lh@pleiades.oz.au (Lawson Hanson); Fri Mar 20 15:00:00 EST 1987
+
+#N	ptolemy.cm.deakin.oz.au
+#S	Osiris One (32032); Osnix (V.2)
+#O	Division of Comp/Maths, Deakin University,
+#C	Robert Ruge
+#E	robert@aragorn.oz.au
+#T	+61 52 471-319
+#P	Waurn Ponds, Vic. 3217, Australia
+#L	38 12 S / 144 18 E
+#R	Caber project research machine.
+#U	aragorn.oz.au
+#W	robert@aragorn.oz.au; Dec 9 14:52:00 1986
+
+#N	quoll.co.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	Student work
+#U	yabbie.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	rra.rr.oz.au
+#S	Email Unison D10; Sironix
+#O	R. Rockmore & Associates Pty. Ltd.
+#C	Richard Rockmore
+#E	rr@rra.rr.oz.au
+#T	+61 3 489 4835
+#P	P.O. Box 378, South Yarra, Vic. 3141, Australia
+#L	37 48 S / 144 58 E city
+#R	Aus node of Aus - Singapore - Italy company network
+#R	hplabs!rockmore@kestrel.arpa (California) hplabs!oliveb!iconet!icotwo!taylor (Italy)
+#W	rr@rra.rr.oz.au; 10 Oct 1986 2128
+
+#N	smaug.oz.au
+#S	Gould 6040; UTX/32
+#O	Gould Electronics Inc.
+#C	Phillip Merrick
+#E	postmaster@smaug.oz.au
+#T	+61 3 529-8099
+#P	7th floor, 636 St. Kilda Rd., South Melbourne, Vic. 3004, Australia
+#L	Melbourne city
+#U	munnari.oz.au
+#W	aturvey@gldsyd.oz.au; Fri May 15 10:06:59 1987
+
+#N	sunburnt.rmit.oz.au
+#S	SUN 2/160; Sun Unix 4.2 release 2.2
+#O	Computing Department, Royal Melbourne Institute of Techology
+#C	Erick Delios
+#E	ejd@goanna.oz.au
+#T	+61 3 660 2291
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 33 S / 144 57 30 E
+#R	Graphics research
+#W	ejd@goanna.oz.au; Wed Sep 17 15:38:04 1986
+
+#N	sunk.oz.au
+#S	Sun 3/260; SunOS V3.4.
+#O	Sun Microsystem Australia, Melbourne
+#C	Rich Burridge
+#E	richb@sunk.oz.au
+#T	+61 3 811 9927
+#P	123 Camberwell Rd, Hawthorn, Vic. 3122, Australia
+#R	Customer support and R. & D.
+#L	37 48 S / 144 58 E city
+#U	trlamct.oz.au
+#W	richb@sunk.oz.au; 1 Jul 1987 0731
+
+#N	trlamct.oz.au
+#S	Sun Network; 4.2BSD Unix SUN Release 3.2
+#O	Telecom Research Labs, Applied Maths. & Computer Techniques Section
+#C	Rick Coxhill, Phil Nicholson
+#E	rick@trlamct.oz.au, phil@trlamct.oz.au
+#T	+61 3 541 6249, +61 3 541 6245
+#P	P.O. Box 249 Clayton, Vic. 3168, Australia
+#L	37 55 S / 145 08 E
+#R	Gateway to AI research machines
+#U	trldeity.oz.au trlluna.oz.au andy.trl.oz.au
+#W	phil@zen@trlamct.oz.au; 18 Feb 1987 1043
+
+#N	trldeity.oz.au
+#S	Integrated Solutions DE Unity 68; System III
+#O	Telecom Australia, Research Department
+#C	Ian Moran
+#E	postmaster@trldeity.oz.au
+#T	+61 3 541 6194
+#P	P.O. Box 249 Clayton, Vic. 3168, Australia
+#L	37 48 S / 144 58 E city
+#R	Code development of new telematic services; ACSnet trunk switch
+#W	moran@trldeity.oz.au; 26 Sep 1986 1749
+
+#N	trlluna.oz.au
+#S	micoVAX II, DEC
+#O	Telecom Australia (Research), Industrial Prop. & Information
+#C	P. Tyers
+#E	tyers@trlluna.oz.au
+#T	+61 3 541-6794
+#P	P.O. Box 249 Clayton, Vic. 3168, Australia
+#U	trlamct.oz.au trldeity.oz.au andy.trl.oz.au
+#L	37 48 S / 144 58 E city
+#W	tyers@trlluna.oz.au; 11 May 1987 1529
+
+#N	trlsasb.oz.au
+#O	Telecom Research Labs, Clayton, Vic. Switching & Signalling Branch
+#S	Vax 11/780; VMS 4.3
+#C	Richard Liu
+#E	liu@trlsasb.oz.au
+#T	+61 3 541-6336
+#P	P.O. Box 249 Clayton, Vic. 3168, Australia
+#L	37 48 S / 144 58 E city
+#R	Connected to munnari for mail only using SMTP
+#U	munnari.oz.au
+#W	liu@andy.trl.oz.au; Tue Apr 15 10:24:27 1986
+
+#N	vme.oz.au
+#S	Motorola 1121; V/68 r2v1.0
+#O	VME Systems Pty. Ltd.
+#C	Michael Hornsby
+#E	postmaster@vme.oz.au
+#T	+61 3 572 2888
+#P	Suite 2, 23 Koornang Rd, Carnegie, Vic. 3163, Australia
+#R	used to be tecshape.oz.au
+#U	moncskermit.oz.au
+#W	mike@vme.oz.au;  Fri Sept 19 09:15 1986
+
+#N	vpbm.oz.au
+#S	Silicon Graphics Iris 3030; Unix System V/4.2 BSD
+#O	The Video Paint Brush Co.
+#C	Jon McCormack
+#E	jonmc@vpbm.oz.au
+#T	+61 3 699-7499
+#P	180 Bank Street South Melbourne, Vic. 3205, Australia
+#R	Main use for computer generated animation
+#W	jonmc@vpbm.oz.au; 12 Mar 1987 1233
+
+#N	wehi.dn.mu.oz.au
+#S	DEC MicroVAX-II Cluster; VMS
+#O	The Walter and Eliza Hall Institute of Medical Research
+#C	Huw Davies
+#E	huw@wehi.dn.mu.oz.au
+#T	+61 3 345-2555
+#P	PO Royal Melbourne Hospital, Melbourne, Vic. 3050, Australia
+#L	37 48 S / 144 58 E city
+#W	huw@wehi.dn.mu.oz.au; Wed Aug  5 10:12:54 AEST 1987
+
+#N	wombat.rmit.oz.au
+#S	Unison D21 (MC68000); Sironix V2
+#O	Mechanical & Production Eng., Royal Melbourne Institute of Techology
+#C	David Hook
+#E	postmaster@cidam.rmit.oz.au
+#T	+61 3 660 2161
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	staff research, student project work
+#U	cidam.rmit.oz.au
+#W	dgh@cidam.rmit.oz.au; Tue Sep  9 14:10:58 EST 1986
+
+#N	yabbie.rmit.oz.au
+#S	Unison R/D (MC68000); Sironix V3
+#O	Communications & Electronic Eng, Royal Melbourne Institute of Technology
+#C	Ian Donaldson
+#E	postmaster@yabbie.rmit.oz.au
+#T	+61 3 660 2619
+#P	124 Latrobe St., Melbourne Vic. 3001, Australia
+#L	37 48 S / 144 58 E city
+#R	VLSI research
+#U	quoll.co.rmit.oz.au myotis.co.rmit.oz.au bilby.co.rmit.oz.au jerboa.co.rmit.oz.au
+#U	gecko.co.rmit.oz.au gnat.co.rmit.oz.au echidna.co.rmit.oz.au koel.co.rmit.oz.au
+#U	koala.co.rmit.oz.au magpie.co.rmit.oz.au
+#U	cidam.oz.au goanna.oz.au cimasun.rmit.oz.au fruitbat.rmit.oz.au
+#W	rcodi@yabbie.rmit.oz.au; Wed Aug  5 10:05:02 AEST 1987
+
+#N	yarra.oz.au
+#S	Pyramid 90x; OSx 3.1
+#O	Pyramid Technology Australia,
+#C	Peter Harding
+#E	postmaster@yarra.oz.au
+#T	+61 3 267 6222
+#P	14 Queens Rd, Melbourne, Vic. 3004, Australia
+#L	37 48 S / 144 58 E city
+#R	Customer Support
+#U	accv.oz.au vpbm.oz.au pta.oz.au ditmela.oz.au
+#W	bgg@yarra.oz.au; Wed Mar  4 EST 1987
+
+SHAR_EOF
+echo shar: extracting u.aus.wa.1
+cat << \SHAR_EOF > u.aus.wa.1
+# Australia - Western Australia
+
+#	u.aus.wa.1  -  created 21 Jul 87 by acsmap@physiol.su.oz.au
+
+#N	acp.oz.au
+#S	AT&T 3B2/400; UNIX System V Release 2.0.4
+#O	Australian Computer Products
+#C	Julian Elischer
+#E	julian@acp.oz.au
+#T	+61 9 322-6497
+#P	1133 Hay St., West Perth, WA 6005, Australia
+#L	31 57 S / 115 52 E city
+#R	Network largely used for news gathering
+#R	also connected by uucp to lighnin (fidonet bbs), turingc (fidonet bbs),
+#R		oliwa.oz.au, rkxenix, olivetti, M28
+#U	effigy.uwa.oz.au
+#W	julian@acp.oz.au; Tues July 14 1987  13:39:51 WST
+
+#N	cutmcvax.oz.au
+#S	DEC VAX11/785; Unix 4.2BSD
+#O	School of Maths & Computing, Curtin University of Technology
+#C	Y Leong
+#E	yhl@cutmcvax.oz.au
+#T	+61 9 350 7680
+#P	Kent St, Bentley, WA 6102, Australia
+#L	31 58 43 S / 115 48 55 E
+#R	teaching and research
+#U	wacsvax.oz.au
+#W	yhl@cutmcvax.oz.au; Mon Mar  9 15:01:37 1987
+
+#N	dmsperth.dms.oz.au
+#S	DE Unity 68K; Integrated Solutions BSD 4.2
+#O	CSIRO, Division of Mathematics & Statistics, Perth
+#C	Mark Palmer
+#E	postmaster@dmsperth.dms.oz.au
+#T	+61 9 387 0325
+#P	Rural Sciences Laboratory, Private Bag PO, Wembley, WA 6014, Australia
+#L	31 56 S / 115 48 E
+#R	data analysis, math research, math word processing
+#U	natmlab.dms.oz.au dgwrr siroprth siromath.oz.au
+#W	markp@dmsperth.dms.oz.au; Thu Dec  4 15:54:30 EST 1986
+
+#N	earwax.oz.au
+#S	MicroVax II; ULTRIX
+#O	Dept. of Physics, Univ. of Western Australia
+#C	Kevin McIsaac
+#E	playboy@earwax.oz.au
+#P	Crawley WA 6009, Australia
+#L	31 57 S / 115 52 E city
+#R	Theoretical physics reasearch using computer algebra
+#U	wacsvax.oz.au
+#W	root@earwax.oz.au; 5 Feb 1987 1925 (Thursday)
+
+#N	effigy.uwa.oz.au
+#S	DEC PDP 11/73; Unix Sys VR2
+#O	Department of Computer Science, University of Western Australia
+#C	Glenn Huxtable
+#E	glenn@wacsvax.oz.au
+#T	+61 9 380 2878
+#P	Nedlands, WA 6009, Australia
+#L	31 58 43.81 S / 115 48 55.11 E
+#R	ACSnet access for UWA community
+#U	wacsvax.oz.au acp.oz.au oliwa.oz.au
+#W	glenn@wacsvax.oz.au; Wed Mar 11 15:15:10 1987
+
+#N	swanee.oz.au
+#S	VAX 11/750; 4.2BSD UNIX
+#O	Dept. of El. & El. Eng., The University of W.A.
+#C	Nazim Khan
+#E	nazim@swanee.oz.au, postmaster@swanee.oz.au, root@swanee.oz.au
+#T	+61 9 380 2537, +61 9 380 3100, +61 9 380 3107
+#P	Crawley, WA 6009, Australia
+#R	connected via ethernet to wavlsi, address: phil@wavlsi@swanee.oz.au
+#U	wacsvax
+#L	31 57 S / 115 52 E
+#W	nazim@swanee.oz.au; Sat Aug  8 12:42:12 1986
+
+#N	wacsvax.oz.au
+#S	DEC VAX 11/750;	Unix 4.2Bsd
+#O	Department of Computer Science, University of Western Australia
+#C	Glenn Huxtable
+#E	glenn@wacsvax.oz.au
+#T	+61 9 380 2878
+#P	Nedlands, WA 6009, Australia
+#L	31 58 43.81 S / 115 48 55.11 E
+#R	Undergraduate teaching and research
+#U	basser.oz.au wapsyvax.oz.au swanee.oz.au earwax.oz.au cutmcvax.oz.au effigy.uwa.oz.au
+#W	glenn@wacsvax.oz.au; Wed Mar 11 15:15:10 1987
+
+#N	wapsyvax.oz.au
+#S	VAX 11/750; 4.2BSD UNIX
+#O	Dept. of Psychology, The University of W.A.
+#C	Carolyn Lin, Doug Robb
+#E	carolyn@wapsyvax.oz.au, doug@wapsyvax.oz.au, root@wapsyvax.oz.au
+#T	+61 9 380 3270, +61 9 380 3274
+#P	Crawley, WA 6009, Australia
+#R	Primary use: teaching & research
+#U	wacsvax
+#W	carolyn@wapsyvax.oz.au; Tue Apr  8 17:20:21 1986
+
+SHAR_EOF
+#	End of shell archive
+enuces 

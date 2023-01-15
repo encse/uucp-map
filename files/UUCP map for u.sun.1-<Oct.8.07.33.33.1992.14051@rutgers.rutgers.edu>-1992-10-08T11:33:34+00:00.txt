@@ -1,0 +1,1023 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.sun.1
+: This archive created: Thu Oct  8 07:33:31 1992
+echo shar: extracting u.sun.1
+cat << 'SHAR_EOF' > u.sun.1
+# u.sun.1 of 0,1,2,3,4,100; changes to: uucpmap@ussr.eu.net
+# Copyright 1990, 1991 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+#
+# Last change: Sun Aug 25 23:47:06 MSD 1991
+
+#N	ricc.alma-ata.su
+#S	IBM-PC/AT; Xenix
+#O	Regional ICC Kazmontazhspecstroj
+#C	Vladimir Sergeevich Inchin
+#E	por@ricc.alma-ata.su
+#T	+7 3272 425554
+#P	Alma-Ata, USSR
+#L
+#W	maria@kiae.su 910311, any@hq.demos.su 910705
+
+#N	altai.su
+#S	IBM-PC/AT; Xenix/386
+#O	Altaigrif Enterprise
+#C	Vladimir Fedorovich Bobin
+#E	postmaster@altai.su
+#T	+7 385 2 26 0635
+#P	54-104, prospect Lenina, SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	dvv@kiae.su 910130, any@hq.demos.su 910705
+
+#N	altpi.altai.su
+#S	IBM-PC/AT; SCO XENIX 2.3.2
+#O	Altai Polytechnical Institute
+#C	Vitaly Beregovoi
+#E	bvi@altpi.altai.su
+#T	+7 385 2 26 0502
+#P	46, prospect Lenina, SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910512, any@hq.demos.su 910705
+
+#N	asko.altai.su
+#S	IBM-PC/AT; MSDOS
+#O	Siberia-ASKO Co.
+#C	Michail Moshnin
+#E	mmv@asko.altai.su
+#T	+7 385 2 24 6562
+#P	25-425a prospect Lenina, SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910521, any@hq.demos.su 910705
+
+#N	gorzdr.altai.su
+#S	IBM-PC/AT; MSDOS
+#O	City Medical department
+#C	Tolmachev Victor
+#E	tvaf@gorzdr.altai.su
+#T	+7 385 2 24 6755
+#P	15, Gogolja str., SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910617, any@hq.demos.su 910705
+
+#N	grif.altai.su
+#S	IBM-PC/AT; MSDOS
+#O	Altaigrif Enterprise
+#C	Vladimir Bobin
+#E	grif@grif.altai.su
+#T	+7 385 2 25 1825
+#P	54-104, prospect Lenina, SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910512, any@hq.demos.su
+
+#N	luz.altai.su
+#S	IBM-PC/AT; MSDOS
+#O	Altai Scientific and Research Center for Health Care
+#C	Vladimir Tavrovsky
+#E	tvm@luz.altai.su
+#T	+7 385 2 22 7674
+#P	22 prospect Stroitelei, SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910617, any@hq.demos.su 910705
+
+#N	mezon.altai.su
+#S	IBM-PC/AT; MSDOS
+#O	Altai State University
+#C	Juri Vdovin
+#E	vup@mezon.altai.su
+#T	+7 385 2 22 8076
+#P	66, Dimitrova str., SU-656099 Barnaul, USSR
+#L	83 35 E / 53 32 N city
+#W	postmaster@altai.su 910712, fox@kiae.su 910712
+
+#N	riccmha.armenia.su
+#S	IBM-PC/AT; MSDOS
+#O	Regional Informat. Comp. Center Ministery of Health Armenia
+#C	Ashot Petrosovich Oganesyan
+#E	postmaster@riccmha.armenia.su
+#T	+7 8852 286656
+#P	5, P.Sevaka ul., SU-375044, Erevan, Armenia, USSR
+#L	
+#W	maria@kiae.su 910708, fox@kiae.su 910725
+
+#N	vict.astrakhan.su
+#S	IBM-PC/AT; MSDOS
+#O	Engineering-Manufacturing Enterprise for Informatics and Computers (Astrakhan)
+#C	Leonid Leonovoch Bodosyan, Ivan Ivanovich Fokin
+#E	postmaster@vict.astrakhan.su
+#T	+7 851 00 56458, +7 851 00 22786
+#P	6, proezd N.Ostrovskogo, SU-414000 Astrakhan, USSR
+#L
+#W	korotay@hq.demos.su 910610, any@hq.demos.su 910705
+
+#N	telecs.azerbaijan.su
+#S	IBM-PC/AT; MSDOS
+#O	Telecs Science-technical center
+#C	Emil Gasanovich Aliyev
+#E	postmaster@telecs.azerbaijan.su
+#T	+7 892 2 938540
+#P	12, Vurgun, SU-370000 Baku-center, USSR
+#L
+#W	dvv@hq.demos.su 910402, any@hq.demos.su
+
+#N	balex.buriatia.su
+#S	IBM-PC/AT; MS-DOS
+#O	Baikal Exchange
+#C	Vladimir Falileev
+#E	postmaster@balex.buriatia.su
+#T	+7 301 22 23452
+#P
+#L
+#W	asa@kiae.su 910404, any@hq.demos.su 910705
+
+#N	abbs.chel.su
+#S	IBM-PC/AT; MSDOS
+#O	Automated Exchange Broker Systems
+#C	Yuriiy Nikolayevich Potapjuk
+#E	postmaster@abbs.chel.su
+#T	+7 3512 37 3700
+#P	Chelyabinsk, USSR
+#L
+#W	avg@kiae.su 910312, any@hq.demos.su 910705
+
+#N	icbank.chel.su
+#S	IBM-PC/AT; MSDOS
+#O	Industrial Commercial Bank of Chelyabinsk Region
+#C	Vladimir Ivanovich Lumpov
+#E	postmaster@icbank.chel.su
+#T	+7 3512 33 4041
+#P	58, Lenina ul., SU-454004  Chelyabinsk, USSR
+#L
+#W	maria@kiae.su 910628, any@hq.demos.su
+
+#N	ricc.chel.su
+#S	IBM-PC/AT; MSDOS
+#O	Computing Center of Chelyabinsk Executive Commitee
+#C	Konstantin Lvovich Berdnikov
+#E	postmaster@ricc.chel.su
+#T	+7 3512 36 6723
+#P	79, Lenina prosp., SU-454080 Chelyabinsk, USSR
+#L
+#W	maria@kiae.su, 910705, fox@kiae.su 910725
+
+#N	uralaz.chel.su
+#S	IBM-PC/AT; MSDOS
+#O	Industrial Assosiation Ural Automobile Plant
+#C	Igor Petrovich Savonin
+#E	postmaster@uralaz.chel.su
+#T	+7 3513 54 0816
+#P	PO UralAZ, SU-456300 Miass Chelyabinskoi obl., USSR
+#L	
+#W	maria@kiae.su 910716, fox@kiae.su 910725
+
+#N	tplant.chuvashia.su
+#S	IBM-PC/AT; MSDOS
+#O	Enterprise Cheboksary Industrial Tractors Plant
+#C	Igor Valentinovich Murashkin
+#E	postmaster@tplant.chuvashia.su
+#T	+7 8350 23 7633
+#P	PO ChZPT, SU-428033 Cheboksary, USSR
+#L
+#W	maria@kiae.su 910628, fox@kiae.su 910726
+
+#N	adam.dagestan.su
+#S	IBM-PC/AT; MSDOS
+#O	Adam International Soviet-American Joint Venture
+#C	Murad Gadjiev Alim Muradkhanov
+#E	postmaster@adam.dagestan.su
+#T	+7 82700 78335, +7 82700 52515
+#P	15, 26 Bakinskikh Komissarov yl., SU-367002 Makhachkala, USSR
+#L
+#W	korotay@kremvax.hq.demos.su 910603, any@hq.demos.su 910705
+
+#N	iai.dubna.su
+#S	IBM-PC/AT; MSDOS
+#O	Small venture KOMPASS
+#C	Sergei Ivanovich Afanasiev
+#E	postmaster@iai.dubna.su
+#T	+7 221 49712, +7 221 49501
+#P	25, Pervomaiskaya, SU-141980 Dubna, Moscow obl., USSR
+#L
+#W	dvv@hq.demos.su 910208, any@hq.demos.su 910708
+
+#N	jinr.dubna.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint Institute for Nuclear Research
+#C	J. Mazepa
+#E	postmaster@jinr.dubna.su
+#T	+7 221 62720
+#P	Head Post Office, P.O.Box 79, SU-101000 Moscow, USSR
+#L
+#W	asa@kiae.su 910203, any@hq.demos.su 910708
+
+#N	jinrc.dubna.su
+#S	IBM-PC/AT; XENIX
+#O	Physics and Informatics Research Center, Joint Institute for Nuclear Research
+#C	Michail Popov
+#E	postmaster@jinrc.dubna.su
+#T	+7 095 221 62001
+#P	Head Post Office, P.O.Box 79, SU-101000 Moscow, USSR
+#L
+#W	dvv@hq.demos.su 910208, any@hq.demos.su 910708
+
+#N	scs.dubna.su
+#S	IBM-PC/XT PS-2 model 25
+#O	Satellite Communication Station - 2
+#C	Michail Popov
+#E	postmaster@scs.dubna.su
+#T	+7 095 230 20 08
+#P	SCS-2, SU-141980 Dubna, Moscowskaya obl., USSR
+#L
+#W	dvv@hq.demos.su 910208, any@hq.demos.su 910708
+
+#N	si.dubna.su
+#S	IBM-PC/XT PS-2 model 25
+#O	Sintes-Inforex
+#C	Alexander A. Funin
+#E	postmaster@si.dubna.su
+#T	+7 095 221 40747
+#P	14 Sovetskaya, Sintes Inforex SU-141980 Dubna, Moscowskaya obl., USSR
+#L
+#W	dvv@hq.demos.su 910208, any@hq.demos.su 910708
+
+#N	foratek.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Centre FORATEK
+#C	Grigorij Vladimirovich Butenko
+#E	postmaster@foratek.e-burg.su
+#T	+7 3432 44 1556
+#P	m/box 64, SU-620062 Sverdlovsk, USSR
+#L	60 E / 57 N city
+#W	maria@kiae.su 910724, fox@kiae.su 910725
+
+#N	frame.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Scientific Industrial Society FRAME
+#C	Aleksej Aleksandrovich Berezin
+#E	postmaster@frame.e-burg.su
+#T	+7 3435 22 1858
+#P	52, Pervomaiskaya, SU-622000 Nizhnij Tagil, USSR
+#L	
+#W	maria@kiae.su 910712, fox@kiae.su 910725
+
+#N	frvsys.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Ural Centre for New Information Technologies
+#C	Evgeni Viktorovich Linetski
+#E	postmaster@frvsys.e-burg.su
+#T	+7 3432 57 9256
+#P	8 Shartazhskaya ul., SU-620063 Sverdlovsk, USSR
+#L
+#W	dvv@demos.su 910212, any@hq.demos.su 910708
+
+#N	mplik.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Small Venture LIK (Sverdlovsk)
+#C	Anatolij Konstantinovich Lebedev
+#E	postmaster@mplik.e-burg.su
+#T	+7 343 2 586329
+#P	13, A.Valeka ul. SU-620219, Sverdlovsk, USSR
+#L
+#W	maria@kiae.su 910611, any@kiae.su 910708
+
+#N	quorus.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint Venture QUORUS
+#C	Sergej Vladlenovich Vakhonin
+#E	postmaster@quorus.e-burg.su
+#T	+7 3432 55 7346, +7 3432 56 9262
+#P	81 Lunacharskogo, SU-620075 Sverdlovsk, USSR
+#L
+#W	maria@kiae.su, 910627; any@hq.demos.su 910708
+
+#N	trek.e-burg.su
+#S	IBM-PC/AT; MSDOS
+#O	Scientific&Industrial Forward Technolgies Center TREK
+#C	Vladimir Sergeevich Zhukov
+#E	postmaster@trek.e-burg.su
+#T	+7 3432 57 1138
+#P	Ural Politechnikal Institute, Mira ul., SU-620002 Sverdlovsk, USSR
+#L
+#W	maria@kiae.su 910628, any@kiae.su 910708
+
+#N	ak.ioc.ew.su
+#S	PC Clone; MSDOS 4.01+UUPC
+#O	Computing Center of Institute of Cybernetics
+#C	Aleksander Reitsakas
+#E	sass@ak.ioc.ew.su
+#T	+7 0142 52 7318
+#P	21, Akadeemia tee, 200108 Tallinn, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910318, any@hq.demos.su 910708
+
+#N	b408.ioc.ew.su
+#S	PC Clone; MSDOS + uucp emulator that I'm currently testing
+#O	A.S. personal e-mail computer
+#C	Aleksander Smundak
+#E	sasha@b408.ioc.ew.su
+#T	+7 0142 52 7316
+#P	21, Akadeemia tee, 200108 Tallinn, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910308, any@hq.demos.su 910708
+
+#N	besta.ioc.ew.su
+#S	Besta-88; Unix V.3.2
+#O	"Besta" company in Moscow
+#C	Yuri Dmitriew
+#E	postmaster@besta.ioc.ew.su
+#T	+7 095 277 9445
+#P	
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910408; any@hq.demos.su 910708
+
+#N	deseg.ioc.ew.su
+#S	IBM-PC/AT; MSDOS
+#O	Institute of Cybernetics Distributed Embedded Software
+#C	Leo Motus
+#E	lmotus@deseg.ioc.ew.su
+#T	+7 0142 52 6404
+#P	21, Akadeemia tee, 200108 Tallinn, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910308, any@hq.demos.su 910708
+
+#N	ekb.ioc.ew.su
+#S	IBM-PC/AT; SCO UNIX V.3
+#O	Terminals Division at EKTA
+#C	Toomas Kadarpik
+#E	postmaster@ekb.ioc.ew.su
+#T	+7 0142 44 1144
+#P	10, Lenini pst, Tallinn 200001, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910312, any@hq.demos.su 910708
+
+#N	goodwin.ioc.ew.su
+#S	PC Clone; MSDOS 3.30+UfGate;
+#O	Estonian Institute
+#C	Peeter Marvet
+#E	postmaster@goodwin.ioc.ew.su
+#T	+7 0142 44 3555
+#P	3, Sakala, 200001 Tallinn, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#R	That's local Relcom->Fidonet gateway
+#W	sasha@ioc.ew.su 910506, any@hq.demos.su 910708
+
+#N	ioc.ew.su
+#S	Labtam V.32; Unix V.3.1
+#O	Institute of Cybernetics of the Estonian Academy of Sciences (Tallinn)
+#C	Mari Kypp
+#E	postmaster@ioc.ew.su
+#T	+7 0142 52 7314
+#P	21-438, Akadeemia tee, 200108 Tallinn, Estonia
+#L	24 45 E / 59 27 N city
+#W	fox@kiae.su 91.05.05, dvv@hq.demos.su 910825
+
+#N	rka.ioc.ew.su
+#S	Besta-88; Unix V.3.1
+#O	Riigikantselei Arenduskeskus (Tallinn, Estonia)
+#C	Avo Raup
+#E	postmaster@rka.ioc.ew.su
+#T	+7 0142 60 6304
+#P	1a, Lossi plats, Tallinn 200001, Estonia, USSR
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910325, any@hq.demos.su 910708
+
+#N	ti.ioc.ew.su
+#S	MikroMikko 3DT; MSDOS
+#O	Information Processing Chair, Tallinn Technical Univ.
+#C	Jaak Henno
+#E	jaak@ti.ioc.ew.su
+#T	+7 014 253 2935
+#P
+#L	24 45 E / 59 27 N city
+#W	sasha@ioc.ew.su 910312; any@hq.demos.su 910708
+
+#N	ebc.tartu.ew.su
+#S	
+#O	Estonian Biocentre
+#C	Enok Sein
+#E	enok@ebc.tartu.ew.su
+#T	+7 014 343 1980
+#P	T"ahetorn Toomel, SU-202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312, any@hq.demos.su 910708
+
+#N	iop.tartu.ew.su
+#S	
+#O	Physics Lab. at Tartu University
+#C	Boris Shulichenko
+#E	boris@meso.tartu.ew.su
+#T	+7 014 342 8940
+#P	142, Riia mnt., 202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312, any@hq.demos.su 910708
+
+#N	meso meso.tartu.ew.su
+#S	
+#O	MESO (Tartu, Estonia)
+#C	Boris Shulichenko
+#E	boris@meso.tartu.ew.su
+#T	+7 014 342 8940
+#P	142, Riia mnt., 202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312, fox@kiae.su 910608
+
+#N	pm.tartu.ew.su
+#S	
+#O	"Postimees" newspaper
+#C	Taavi Talvik
+#E	taavi@pm.tartu.ew.su
+#T	+7 014 343 5136
+#P	Box 63, 1 Gildi tee, 202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312; any@hq.demos.su
+
+#N	tartu.ew.su
+#S	
+#O	Psychometry Lab. at Tartu University
+#C	Tiit Mogom
+#E	fox@tartu.ew.su
+#T	+7 014 343 0817
+#P	78, Tiigi tee, 202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312, any@hq.demos.su 910708
+
+#N	tuc.tartu.ew.su
+#S	
+#O	Department of Organic Chemistry, Tartu University
+#C	Toomas Tamm
+#E	toomas@tuc.tartu.ew.su
+#T	+7 014 343 5136
+#P	2, Jakobi tee, 202400 Tartu, Estonia, USSR
+#L
+#W	sasha@ioc.ew.su 910312, any@hq.demos.su 910708
+
+#N	kheta.georgia.su
+#S	80286; MSDOS
+#O	KHETA
+#C	Zakaraia Pharna
+#E	postmaster@kheta.georgia.su
+#T	+7 883 2 984285
+#P	17, Machabeli st., SU-380007 Tbilisi, Republic of Georgia, USSR
+#L
+#W	dvv@hq.demos.su 910403; any@hq.demos.su
+
+
+#N	ihep.su
+#S	VAX-11; ULTRIX
+#O	Institute for High Energy Physics
+#C	Leonid Yegoshin
+#E	egoshin@ihep.su
+#T	+7 (Serpukhov) 42952
+#P	IHEP, Serpukhov SU-142284, Moscow district, USSR
+#L	37 10 E / 54 55 N
+#R	The main relay server of local nets on the territory of IHEP
+#W	egoshin@serp.ihep.su 910215, any@hq.demos.su 910708
+
+#N	m7.ihep.su m8.ihep.su m9.ihep.su m10.ihep.su
+#S	VAX-11; VMS
+#O	Institute for High Energy Physics
+#C	Vitaly Motyakov
+#E	system@m9.ihep.su
+#T	+7 (Serpukhov) 2892063
+#P	IHEP, Serpukhov SU-142284, Moscow district, USSR
+#L	37 10 E / 54 55 N
+#W	egoshin@serp.ihep.su 910215, any@hq.demos.su 910708
+
+#N	serp.ihep.su
+#S	IBM-PC/AT; XENIX
+#O	Institute for High Energy Physics
+#C	Leonid Yegoshin
+#E	egoshin@serp.ihep.su
+#T	+7 (Serpukhov) 42952
+#P	IHEP, Serpukhov SU-142284, Moscow district, USSR
+#L	37 10 E / 54 55 N
+#W	egoshin@serp.ihep.su 910215, any@hq.demos.su 910708
+
+#N	t5.oea.ihep.su t6.oea.ihep.su
+#S	VAX-11; VMS
+#O	Institute for High Energy Physics
+#C	Sergey Tomin
+#E	system@t6.oea.ihep.su
+#T	+7 (Serpukhov) 2892063
+#P	IHEP, Serpukhov SU-142284, Moscow district, USSR
+#L	37 10 E / 54 55 N
+#W	egoshin@serp.ihep.su 910215, any@hq.demos.su 910708
+
+#N	ipmce.su
+#S	AT-286/20; SCO XENIX 2.3.2/286
+#O	Lebedev Institute of Precise Mechanics & Computer Equipment
+#C	Sergey V. Kartashoff
+#E	postmaster@ipmce.su
+#T	+7 095 132 9475
+#P	51, Prospekt Lenina, SU-117914 Moscow, USSR
+#L	37 E / 56 N city
+#W	sergey@s514.ipmce.su 901126, any@hq.demos.su 910708
+
+
+#N	ipovti.irkutsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Irkutsk Industrial Unity Computer Science&Informatics
+#C	Irina Borisovna Druzhinina
+#E	postmaster@ipovti.irkutsk.su
+#T	+7 3952 43 5617
+#P	58, Naberzhnaya Irkuta ul., SU-664005 Irkutsk, USSR
+#L
+#W	maria@kiae.su 910703, any@hq.demos.su 910719
+
+#N	informatika.ivanovo.su
+#S	IBM-PC/AT;MSDOS
+#O	NPO Informatika (Ivanovo)
+#C	Nikolai Konstantinovich Kisely
+#E	postmaster@informatika.ivanovo.su
+#T	+7 095
+#P	Ivanovo
+#L
+#W	fox@kiae.su 91.05.05; any@hq.demos.su
+
+
+#N	petronet.karelia.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint-Stock Venture PETRONET
+#C	Konstantin Aleksandrovich Gvozdev
+#E	postmaster@petronet.karelia.su
+#T	+7 814 00 51189
+#P	m/box 651, SU-185026 Petrozavodsk, Karelia, USSR
+#L	
+#W	maria@kiae.su 910709, fox@kiae.su
+
+#N	isa.kazan.su
+#S	IBM-PC/AT; MSDOS
+#O	Information-Service Agency
+#C	Valeri Valentinovich Solyanik
+#E	postmaster@isa.kazan.su
+#T	+7 8432 76 2722
+#P	57a, Ershova ul., SU-4200 Kazan, USSR
+#L
+#W	avg@kiae.su 910123, fox@hq.demos.su 910729
+
+#N	kamaz.kazan.su
+#S	IBM-PC/AT; MSDOS
+#O	ASU-KAMAZ Firm
+#C	Elena Vladimirovna Permyakova
+#E	postmaster@kamaz.kazan.su
+#T	+7 8439 57 0312
+#P	29, Musy Dzhalilja ul., SU-423800 Naberezhnie Chelny, USSR
+#L
+#W	maria@kiae.su 910730, fox@kiae.su 910731
+
+#N	medinf.khabarovsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Small Venture "Medicine and Informatics"
+#C	Andrej Viktorovich Shulga
+#E	postmaster@medinf.khabarovsk.su
+#T	+7 4210 37 2523
+#P	9, Krasnodarskaya ul., SU-680067 Khabarovsk, USSR
+#L	
+#W	maria@kiae.su 910729, fox@kiae.su 910729
+
+#N	kiae.su .kiae.su
+#S	VAX-11; Ultrix-32 3.2
+#O	Kurchatov Institute of Atomic Energy, Computing Centre
+#C	Aleksey P. Rudnev
+#E	postmaster@kiae.su
+#T	+7 095 196 7212
+#P	1, Kurchatova pl., SU-123182 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#R	Moscow regional RELCOM node
+#W	alex@kiae.su 901115, avg@hq.demos.su 910715
+
+#N	oms.kiae.su
+#S	IBM-PC/AT; MSDOS
+#O	Department for International relation KIAE
+#C	Aleksandr Borisovich Petrov
+#E	postmaster@oms.kiae.su
+#T	+7 095 196 1510
+#P	1, Kurchatova pl., SU-123182 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910605, fox@kiae.su 910607
+
+#N	kbm.koenig.su
+#S	IBM-PC/AT; MSDOS
+#O	Design Office for microelectronics
+#C	Boris Vasilievich Zverev
+#E	postmaster@kbm.koenig.su
+#T	+7 095 921 4156
+#P	51, A.Nevskogo ul., SU-236041 Kaliningrad (obl.), USSR
+#L
+#W	korotay@hq.demos.su 910610, any@hq.demos.su 910719
+
+#N	kngwic.koenig.su
+#S	IBM-PC/AT; MSDOS
+#O	Space Inform. Center - Kaliningrad
+#C	Michael Rovner
+#E	mike@kngwic.koenig.su
+#T	+7 0112 43 6729
+#P	
+#L
+#W	alex@kiae.su 901210, any@hq.demos.su 910708
+
+#N	sevgaz.komi.su
+#S	IBM-PC/AT; MSDOS
+#O	Severgazprom Assosiation International Relation Department
+#C	Sergej Yulievich Baldichev
+#E	postmaster@sevgaz.komi.su
+#T	+7 82147 35666
+#P	39, Lenina ul., SU-169400 Ukhta Komi, ASSR, USSR
+#L	
+#W	maria@kiae.su 910723, fox@kiae.su 910725
+
+#N	icccom.krasnodar.su
+#S	IBM-PC/AT; Unix
+#O	Krasnodar Communication ICC
+#C	Aleksandr Mikhailovich Samarin
+#E	postmaster@icccom.krasnodar.su
+#T	+7 8612 505622
+#P	68,Shaumiana SU-350000 Krasnodar  USSR
+#L	
+#W	maria@kiae.su 910717, fox@kiae.su 910725
+
+#N	kcnit.krasnoyarsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Krasnoyarsk Politech.Institute. Centre for New Information Technologies
+#C	Nikolai Efimovich Chiornij
+#E	postmaster@kcnit.krasnoyarsk.su
+#T	+7 3912 256939, +7 3912 265062
+#P	26, Kirenskogo ul., SU-660074 Krasnoyarsk, USSR
+#L	
+#W	maria@kiae.su 910718, fox@kiae.su 910725
+
+#N	sibch.krasnoyarsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Joint Venture Sibchellenge
+#C	Bato Tsymzhitovich Gomboev
+#E	postmaster@sibch.krasnoyarsk.su
+#T	+7 391 2 279640
+#P	41, Parizhskoj Kommuny ul., SU-660049 Krasnoyarsk, USSR
+#L
+#W	lena@kiae.su 910624, any@hq.demos.su 910708
+
+#N	sibit.krasnoyarsk.su
+#S	IBM-PC/AT; MSDOS
+#O	Siberian Business Technology Enterprise
+#C	Igor Yurievich Timofeev
+#E	postmaster@sibit.krasnoyarsk.su
+#T	+7 3912 257298
+#P	26, Kirenskogo ul., SU-660074 Krasnoyarsk, USSR
+#L
+#W	maria@kiae.su 910626, any@hq.demos.su 910708
+
+#N	ekocentrs.lat.su
+#S	IBM-PC/AT; MSDOS
+#O	Ecological Centre of Latvian University
+#C	Ainis Boulevits
+#E	postmaster@ekocentrs.lat.su
+#T	+7 0132 22 5304, +7 0132 22 8286
+#P	19, Raina bulvaris, SU-226098 Riga, Latvija, USSR
+#L
+#W	dvv@kiae.su 910207, any@hq.demos.su 910708
+
+#N	filelb.lat.su
+#S	IBM-PC/AT; MSDOS
+#O	Small venture - bureau "File library" (Riga)
+#C	Dinne Uldis
+#E	postmaster@filelb.lat.su
+#T	+7 0132 21 0709
+#P	33 pom.509, bulv.Rainisa, SU-226050 Riga, USSR
+#L
+#W	maria@kiae.su 910617, any@hq.demos.su 910708
+
+#N	jet.lat.su
+#S	IBM-PC/AT/386 box; XENIX
+#O	Joint Venture JET
+#C	Sergei Dmitriyev
+#E	postmaster@jet.lat.su
+#T	+7 0132 27 1596
+#P	25, Bruninieku, SU-226001 Riga, Latvija, USSR
+#L
+#W	dvv@hq.demos.su 910214, any@hq.demos.su 910708
+
+#N	lumii.lat.su
+#S	IBM-PC/AT, MSDOS
+#O	The Research Institute of Mathematics and Computer Science, University of Latvia
+#C	Andrejs Spektors
+#E	postmaster@lumii.lat.su
+#T	+7 013 2 22 5621
+#P	29, Rainis bulvaris, SU-226250 Riga, Latvia
+#L
+#W	dvv@hq.demos.su 901210, any@hq.demos.su 910708
+
+#N	ratr.lat.su
+#S	IBM-PC/AT; MSDOS
+#O	Rossijskoe Akcionernoe Tovarischestvo (Riga)
+#C	I.A.Golshtein
+#E	postmaster@ratr.lat.su
+#T	+7 0132 40 6908 +7 0132 40 6998
+#P	26, Minkus, SU-226017 Riga, USSR
+#L
+#W	maria@kiae 910411; any@hq.demos.su 910708
+
+#N	aiva.lt.su
+#S	IBM-PC/AT; MSDOS
+#O	Aiva System
+#C	Robertas Shertvytis
+#E	postmaster@aiva.lt.su
+#T	+7 0122 22 9977, +7 0122 47 6241
+#P	29-12, Stanavichiaus, SU-232029 Vilnius, Lithuania, USSR
+#L
+#W	asa@kremvax.hq.demos.su 910524, fox@kiae.su 910606
+
+#N	ma-mii.lt.su
+#S	IBM-PC/AT; MSDOS
+#O	Institute for Mathematics & Informatics, Lithuanian Academy of Sciences
+#C	Algirdas Pakstas
+#E	postmaster@ma-mii.lt.su
+#T	+7 0122 35 9704
+#P	4 Akademijos, SU-232600 Vilnius, Lithuania, USSR
+#L
+#W	dvv@hq.demos.su 901127, dvv@hq.demos.su 901127
+
+#N	tts.magadan.su
+#S	IBM-PC/AT; MSDOS
+#O	Magadan Telegraph & Telephone Stat.(Magadan TTS)
+#C	Sergey Mihailovich Blinov
+#T	+7 413 002 8263
+#E	postmaster@tts.magadan.su
+#P	10 Proletarskaya, SU-685000, Magadan, USSR
+#L
+#W	lena@kiae 910520, fox@kiae.su 910606
+
+#N	avers.marine.su
+#S	IBM-PC/AT; DOS
+#O	Joint-Stock Venture AVERS
+#C	Gennadij Borisovich Volodarskij
+#E	postmaster@avers.marine.su
+#T	+7 4232 225804, +7 4232 465525
+#P	85-12 Leninskaya ul., SU-690078, Vladivostok, USSR
+#L
+#W	maria@kiae.su 910701, fox@kiae.su 910701
+
+#N	ratn.marine.su
+#S	PC MS-DOS
+#O	Rossijskoe Akcionernoe Tovarischestvo
+#C	Viktor Minakov
+#E	postmaster@ratn.marine.su
+#T	+7 42366 55751
+#P	11 Leninskaya, SU-692900 Nakhodka, USSR
+#L
+#W	maria@kiae; 910411, fox@kiae.su 910726
+
+#N	de.mian.su
+#S	IBM-PC/AT; MSDOS
+#O	Dept of Differential Equations, Steklov Mathematical Institute
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, any@hq.demos.su 910709
+
+#N	log.mian.su
+#S	IBM PC/XT, MSDOS
+#O	Dept of Logics, Steklov Mathematical Institute
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, any@hq.demos.su 910709
+
+#N	mph.mian.su
+#S	IBM PC/XT, MSDOS
+#O	Dept of Math Physics, Steklov Mathematical Institute, Moscow
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, any@hq.demos.su 910709
+
+#N	prob.mian.su
+#S	IBM PC/XT, MSDOS
+#O	Dept of Theory of Probabilities, Steklov Mathematical Institute
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, any@hq.demos.su 910709
+
+#N	qft.mian.su
+#S	IBM-PC/XT, MSDOS
+#O	Dept of Quantum Fields Theory, Steklov Mathematical Institute
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, any@hq.demos.su 910709
+
+#N	mph.mian.su
+#S	IBM-PC/XT, MSDOS
+#O	Dept of Math Physics, Steklov Mathematical Institute, Moscow
+#C	Nikolai N. Repin
+#E	repin@log.mian.su
+#T	+7 095 135 1569
+#P	42, Vavilova ul., GSP-1 SU-117966 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	repin@log.mian.su 901124, dvv@hq.demos.su 901127
+
+#N	vlad.aaug.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	President of Advanced Apple User Group (AAUG)
+#C	Vladimir Fedorov
+#E	postmaster@vlad.aaug.msk.su
+#T	+7 095 157 2664, +7 095 456 7779
+#P	P.O.B. 506, SU-125057 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	korotay@hq.demos.su 910617, any@hq.demos.su 910710
+
+#N	acsys.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Scientific & Research Center Automatic Computer Networks & Systems (ACSYS)
+#C	Yurij Vladimirovich Petrov
+#E	postmaster@acsys.msk.su
+#T	+7 095 516 0786
+#P	M/b-8, SU-129010 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	korotay@kremvax.hq.demos.su 910527, any@hq.demos.su 910710
+
+#N	adazi.msk.su
+#S	
+#O	Adazi Agro Enterprise
+#C	
+#E	postmaster@adazi.msk.su
+#T
+#P
+#L	37 35 E / 55 45 N city
+#W	dvv@kiae.uucp 901213, any@hq.demos.su 910709
+
+#N	aeko.msk.su
+#S	IBM-PC/AT; XENIX
+#O	United Research Institute for Agricultural economics
+#C	Vladimir A.Tikhomirov
+#E	tva@aeko.msk.su
+#T	+7 095 195 6003
+#L	37 35 E / 55 45 N city
+#P	35/3, Khoroshevskoe shos., SU-123007 Moscow, USSR
+#W	maria@kiae; 910429, any@hq.demos.su 910710
+
+#N	agro.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	AgroPromBank
+#C	Zemlenukhin Vladimir Sergeevich
+#E	postmaster@agro.msk.su
+#T	+7 095 921 8506
+#P
+#L	37 35 E / 55 45 N city
+#W	any@hq.demos.su 910710, any@hq.demos.su 910710
+
+#N	ap.msk.su
+#S	Olivetti; MSDOS
+#O	Associated Press (Moscow Bureau)
+#C	Sergey Kantere 
+#E	postmaster@ap.msk.su
+#T	+7 095 243 5692 
+#P	33, korp.5, 7/4, Kutuzovsky pr., SU-121248 Moscow, USSR
+#L	37 35  E / 55 45  N
+#W	korotay@hq.demos.su 910708, any@hq.demos.su 910719
+
+#N	asdi.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Association "Dirigible", Small Venture
+#C	Rustem Aliev
+#E	postmaster@asdi.msk.su
+#T	+7 095 200 6693
+#P	27, Petrovka, SU-103767 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	korotay@hq.demos.su 910606, any@hq.demos.su 910710
+
+#N	ashur.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Center for Cultur and Consumer Services ASHUR
+#C	Andrej Anatolievich Zelenkov
+#E	postmaster@ashur.msk.su
+#T	+7 095 196 8450
+#P	1-5, Marshala Novikova ul., SU-123098 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910723, fox@kiae.su 910725
+
+#N	asmp.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Association of Securities Market Participants
+#C	Anatoly I. Levenchuk
+#E	postmaster@asmp.msk.su
+#T	+7 095 378 0935
+#P	114 kv., 5 korp, 32 F.Poletaeva ul., SU-109378 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	alex@kiae.su 910213, fox@kiae.su 910726
+
+#N	talk.asmp.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Association of Securities Market Participants
+#C	Alexander Andreyev 
+#E	postmaster@talk.asmp.msk.su
+#T	+7 095 145 3517 
+#P	19/18, Bolshaya Filyovskaya st., SU-121309 Moscow, USSR
+#L	37 35  E / 55 45  N
+#W	avg@kremvax.hq.demos.su 910724
+
+#N	asts.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	American-Soviet Trade-Economical Council
+#C
+#E	postmaster@asts.msk.su
+#T	+7 095 253 xxxx
+#P	12, Krasnopresnenskaja nab., SU-123610 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	fox@kiae.su 910606, any@hq.demos.su 910710
+
+#N	astur.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Centre of Autosport & Tourism
+#C	Valerij P. Strashko
+#E	lokos@astur.msk.su
+#T	+7 095 535 1530
+#P
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910227, any@hq.demos.su 910709
+
+#N	ausch.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	All-Union Scientific Center for Hematology (AUSCH)
+#C	Sergey M. Kulikov
+#E	postmaster@ausch.msk.su
+#T	+7 095 213 2471, +7 095 212 1735
+#P	4, Novozykovsky pr., SU-125167 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	korotay@kremvax.hq.demos.su 910604, any@hq.demos.su 910710
+
+#N	aveks.obninsk.su
+#S	IBM-PC/AT; MSDOS
+#O	AVEKS Enterprise
+#C	Pavel Leonidovich Vologzhanin
+#E	postmaster@aveks.obninsk.su
+#T	+7 084 399 7822
+#P	m/box 3024, SU-249020 Obninsk Kaluzhskoi obl., USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910731, fox@kiae.su 910731
+
+#N	axon.msk.su
+#S	IBM-PS/AT; MSDOS
+#O	STATUS enterprise
+#C	Yurij Savochkin
+#E	postmaster@axon.msk.su
+#T	+7 095 216 7938, +7 095 216 7287
+#P	2/39, Gospitalnaya ploshad, SU-111020 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910621, any@hq,demos.su 910710
+
+#N	bmfisco.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Scient&Engin.Center Biomed.radioelectronics
+#C	Sergej A.Platonov
+#E	postmaster@bmfisco.msk.su
+#T	+7 095 924 2351
+#P	8, Starosadskiji per, SU-101000 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910419, any@hq.demos.su 910710
+
+#N	bns.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Baltic News Service (BNS)
+#C	Alan Martinson
+#E	postmaster@bns.msk.su
+#T	+7 095 202 4779
+#P	8, Kalashnyi per., SU-103009 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	avg@hq.demos.su 910530, any@hq.demos.su 910710
+
+#N	brokin.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Brok-invest-service Limited (Broker firm)
+#C	Vladimir Petrovich Bauer
+#E	postmaster@brokin.msk.su
+#T	+7 095 202 9112
+#P	60, dep.3, ap.8, Gerscena ul., SU-121069 Moscow, USSR
+#L	37 35 E / 55 45 N city
+#W	maria@kiae.su 910521, any@hq.demos.su 910710
+
+#N	vita.butec.msk.su
+#S	IBM-PC/AT; MSDOS
+#O	Vita Enterprise of Butec
+#C	Anatoliy Viktorovich Vasil'ev
+#E	postmaster@vita.butec.msk.su
+#T	+7 095 975 3392
+#P
+#L	37 35 E / 55 45 N city
+#W	avg@kiae.su 910128, any@hq.demos.su 910710
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

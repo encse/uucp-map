@@ -1,0 +1,3218 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.aut.1
+#	u.bel.1
+#	u.che.1
+#	u.deu.1
+#	u.dmk.1
+# This archive created: Mon Jul 27 04:10:57 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.aut.1
+cat << \SHAR_EOF > u.aut.1
+# u.aut.1; changes to: uucpmap@tuvie.uucp
+
+#
+#N	acmis
+#S	3B2-400B / UNIX V.2.0.4
+#O	CMIS GmbH, Coordinierte Management Informations Systeme
+#C	Johannes Rupp
+#E	acmis!joe
+#T	+43 222 630851-0
+#P	Concordiaplatz 2, A-1013 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	vmars!schwabl 860729 
+#
+acmis	olia1(WEEKLY), dietvie(DAILY), asupa(DAILY)
+
+#N	aeteva
+#S	SUN Workstation 130-2 / 4.2 BSD SUN Release 2.0
+#O	Inst.f.Allg.Elektrotechnik E 359/1A
+#C	Wolfgang Zagler
+#E	aeteva!zagler
+#T	+43 222 58801/3887
+#P	Gusshausstr.25-29, A-1040 Wien, Austria
+#L	48 21 N / 15 38 E
+#R	
+#U
+#W	tuvie!plank 860729
+#
+aeteva	tuvie(DEDICATED)
+
+#N	asupa, honey, vmars, vmars2
+#S	3B2-400 / System V Rel.2.4
+#O	Tech.Univ.Wien/Inst.f.Techn.Informatik/E182
+#C	Wolfgang Schwabl
+#E	schwabl@asupa.uucp
+#P	Gusshausstr.30/182,A-1040 Wien,Austria
+#T	+43 222 58801/4056
+#L	48 21 N / 16 38 E
+#R	Academic Support UNIX Program - Austria
+#U
+#W	vmars!schwabl 870612
+#
+
+asupa	tuvie(HOURLY), odatc0(DEAD), olia1(DAILY),
+	acmis(DAILY), keba(DAILY)
+
+MAnet =	{vmars, honey, asupa, vmars2}!(LOCAL)
+
+#N	baxen1
+#S	Intel System 310 / XENIX 3.4
+#O      Fa Bacher Electronics
+#C	Gerald Ehritz
+#E	baxen1!bauuga
+#T	+43 222 835646-27
+#P	Rotenmuehlgasse 26, A-1120 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 870709
+#
+baxen1	tuvie(DAILY)
+
+#N	dietvie
+#S	3B2-400/System V.2 
+#O      Fa Dietmueller GmbH.
+#C	Gerald Young
+#E	dietvie!gy
+#T	+43 222 65????
+#P	Paulanergasse, A-1040 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	vmars!schwabl 870612
+#
+dietvie tuvie(DAILY)
+
+#N	fest
+#S	HP9000-500 / HP-UX
+#O	Inst. f. Festigkeitslehre, TU Wien
+#C	Herbert Walter / Paul Torzicky
+#E	fest!hw
+#T	+43 222 58801/3087
+#P	TU Wien,Inst.f.Festigkeitslehre, Karlsplatz 13,1040 Wien,Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860801
+#
+fest	tuvie(DEAD)
+
+#N	fuckup
+#S	IBM-PC/AT3 / XENIX-5.2.2
+#O	Rupert Grafendorfer
+#C	Rupert Grafendorfer
+#E	fuckup!rup
+#T	+43 732 230911/94
+#P	Weilgunystrasse 2A, A-4040 Linz, Austria
+#L	48 27 N / 14 89 E
+#R
+#U
+#W	tuvie!plank 870424
+#
+fuckup	tuvie(DAILY), keba(LOCAL)
+
+#N	hpuviea
+#S	HP9000/HP-UX
+#O	Hewlett Packard GmbH Wien
+#C	Hans-Joachim Lamprecht
+#E	hpuviea!hans
+#T	+43 222 2500/403
+#P	Lieblgasse 1, A-1222 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	connected via hpbbn/Germany
+#U
+#W	vmars!schwabl 850521
+#
+hpuviea	hpbbse(DAILY/2)
+
+#N	iiasa, iiasa2
+#S	VAX 11-780 / BSD 4.2
+#O	International Institute for Applied Systems Analysis (IIASA)
+#C	Carolyn Fuhrmann 
+#E	iiasa!postman
+#T	+43 2236 715210-215
+#P	Schlossplatz 1, A-2361 Laxenburg, Austria
+#L	48 04 N / 16 21 E
+#R
+#U
+#W	tuvie!plank 861016
+#
+iiasa	 iiasa2(LOCAL), tuvie(DEMAND)
+
+iiasa = iiasava
+iiasa = iiasavax
+iiasa2 = iiasa2vax
+iiasa2 = iiasa2v
+
+#N	iinform
+#S	Altos 68000 / System III
+#O	Akademie der Wissenschaften, Institut f. Informationsverarbeitung
+#C	Gerhard Winkler
+#E	iinform!geha
+#T	+43 222 529681-317
+#P	Sonnenfelsgasse 19/2, A-1010 Wien
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+iinform	tuvie(DEDICATED)
+
+#N	imdgraz
+#S	Sperry PC-IT / Xenix
+#O	Forschg.Ges.Joanneum, Inst. f. Maschinelle Dokumentation
+#C	Monika Reiter
+#E	imdgraz!root
+#T	+43 316 74134
+#P	Steyrergasse 25a, A-8010 Graz
+#L
+#R
+#U
+#W	tuvie!plank 870105
+#
+imdgraz	tuvie(DAILY)
+
+#N	isetvie
+#S	3B2-400C / System V, Vers.2.0.4
+#O	Inst.f.Soziooekonomische Entwicklungsforschung und Technikbewertung
+#C	Rudolf Diewald
+#E	isetvie!dips
+#T	+43 222 5131145-13
+#P	Fleischmarkt 20, A-1010 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+isetvie	tuvie(DIRECT)
+
+#N	keba, elbau
+#S	HP-9000/550 / HP-UX
+#O	Fa. Elektronikbau Linz
+#C	Rupert Grafendorfer
+#E	keba!rup
+#T	+43 732 230911/94
+#P	Krippner & Kletzmaier, Gewerbehof Halle C, A-4040 Linz, Austria
+#L	48 27 N / 14 89 E
+#R
+#U
+#W	tuvie!plank 870413
+#
+keba	asupa(DAILY), tuvie(WEEKLY), fuckup(LOCAL)
+
+keba = elbau
+
+#N	nogsys
+#S	NCR-Tower 32 / UNIX V
+#O	Fa. NOG Computer Systeme GmbH
+#C	Ing. Wolfgang Skabrond
+#E	nogsys!root
+#T	+43 222 248414
+#P	Untere Donaustrasse 17, A-1020 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!kunft 870612
+#
+nogsys	tuvie(DAILY)
+
+#N	olia1
+#S	3B2-300 / System V.2
+#O	Austro-Olivetti GmbH
+#C	Friedrich Kofler
+#E	olia1!kofler
+#T	+43 222 734501-0
+#P	Rennweg 9, A-1030 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	3B hotline, mail requests to: olia1!asupa
+#U
+#W	vmars!schwabl 870612
+#
+olia1	acmis(WEEKLY), asupa(DAILY), olgb1(DAILY), odatc0(DAILY)
+
+#N	tugiig
+#S	Sperry PC-IT / Xenix
+#O	TU Graz, Institut f. Informationsverarbeitung
+#C	Peter Lipp
+#E	tugiig!root
+#T	+43 316 76588-13
+#P	Schiesstattg 4a, A-8010 Graz
+#L
+#R
+#U
+#W	tuvie!plank 870709
+#
+tugiig	tuvie(DAILY)
+
+#N	tuhold
+#S	VAX 11/750 / Ultrix-32
+#O	Inst.f.angew.Informatik,TU Wien
+#C	Harald Sattmann
+#E	tuhold!sattmann
+#T	+43 222 58801/6127
+#P	Paniglgasse 16, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!plank 860729
+#
+tuhold	tuvie(DEDICATED)
+
+#N	tunix
+#S	NSC ICM 3216 / UNIX V2.5
+#O	TU Wien, EDV-Zentrum, Hybridrechenanlage	
+#C	Friedrich Bloeser
+#E	tunix!fritz
+#T	+43 222 58801/3704
+#P	TU Wien, EDV-Zentrum/HRA, Gusshausstr.27-29, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	soon to be hooked up
+#U
+#W	tuvie!plank 870227
+#
+tunix	tuvie(DEAD)
+
+#N	tuvie, pro, egh780, egraph, tuvie1
+#S	micro vax II / ULTRIX-32m
+#O	TU Wien, EDV-Zentrum, Prozessrechenabteilung
+#C	Walter Kunft / Friedrich Plank
+#E	tuvie!kunft  / tuvie!plank
+#T	+43 222 58801/3608
+#P	TU Wien, EDV-Zentrum/PRA, Gusshausstr.27-29, A-1040 Wien, Austria
+#L	48 21 N / 16 38 E
+#R	EUnet backbone Austria
+#U
+#W	vmars!schwabl 860729
+#
+
+####### European Backbone Connections
+tuvie   cernvax(ARPA), diku(ARPA),  enea(ARPA), inria(ARPA),
+	mcvax(ARPA-1), penet(DEAD), prlb2(ARPA), unido(ARPA),
+
+####### Austrian Sites
+tuvie	aeteva(POLLED), fest(POLLED), iinform(DAILY/6), imdgraz(DAILY),
+	isetvie(POLLED), tuhold(POLLED), viekar(DAILY/2), asupa(HOURLY),
+	iiasa(DAILY/3), vipvax(DAILY), tunix(DEAD), keba(WEEKLY),
+	fuckup(DAILY), nogsys(DAILY), dietvie(DAILY) 
+
+####### Local stuff
+PRAnet = {tuvie1, tuvie, pro, egh780, egraph}!(LOCAL)
+
+
+#N	viekar
+#S	pdp11/34 / V7
+#O	Kardiologische Universitaetsklinik
+#C	Wilhelm Bonatz
+#E	viekar!wibo
+#T	+43 222 481148
+#P	AKH, Garnisongasse 13, A-1090 Wien, Austria
+#L	48 21 N / 16 38 E
+#R
+#U
+#W	tuvie!kunft 860806
+#
+viekar	tuvie(DAILY/2)
+
+#N	vipvax
+#S	MicroVAX II / Ultrix-32
+#O	Inst.f.prakt.Informatik	E180/2, TU Wien
+#C	M.Kolarik
+#E	vipvax!postmaster
+#T	+43 222 58801/4453
+#P	Argentinierstr.8, A-1040 Wien, Austria
+#L	48 21 N	/ 16 38 E
+#R	
+#U
+#W	tuvie!plank 861204
+#
+vipvax	tuvie(DAILY), viphp(LOCAL)
+SHAR_EOF
+echo shar: extracting u.bel.1
+cat << \SHAR_EOF > u.bel.1
+# u.bel.1; changes to: uucpmap@prlb2.uucp
+
+#N	fun-cs
+#S	DEC VAX 11/750;ULTRIX-32 V1.2
+#O	Facultes universitaires de Namur; Institut d'Informatique
+#C	Patrick Geurts, Bruno Delcourt
+#E	fun-cs!pge, fun-cs!postmaster
+#T	+32 81 229065
+#P	21, rue Grandgagnage, B-5000, Namur, Belgium
+#L
+#R
+#U
+#W	prlb2!ml Tue Oct 21 18:45:02 MET 1986
+#
+fun-cs	prlb2
+
+#N	imec
+#S	DEC VAX-11/750; ULTRIX-32  V1.1 
+#O	Interuniversity MicroElectronics Center (IMEC)
+#C	Jan Rabaey, Jan Sevens	
+#E	imec!rabaey, imec!sevens
+#T	+32 16 281202, +32 16 281206
+#P	Kapeldreef 75, B3030 Leuven, Belgium
+#L	004 25 E / 50 40 N
+#R	
+#U	
+#W	imec!rabaey 860806
+#
+imec	prlb2(DAILY/2)
+
+#N	kulcs
+#S	DEC VAX 11/750; 4.2 BSD UNIX
+#O	Katholieke Universiteit Leuven, Department of Computer Science
+#C	Jean Huens, Andre De Deurwaerder
+#E	kulcs!postmaster
+#T	+32 16 20 06 56 x3561, +32 16 20 06 56 x3563
+#P	Celestijnenlaan 200A, B-3030 Heverlee, Belgium
+#L	004 40 47 E / 50 51 53 N
+#R	
+#U	prlb2
+#W	prlb2!ml Tue Jan 20 18:59:27 MET 1987
+#
+kulcs	lln-cs(HOURLY), prlb2(HOURLY), sunbim(HOURLY), uiag(HOURLY),
+	vub(DAILY/3)
+
+#N	lln-cs
+#S	VAX-11/750, 4.2BSD
+#O	Universite Catholique de Louvain, Unite d'Informatique
+#C	Elie Milgrom, Hubert Broze
+#E	lln-cs!em, lln-cs!hb
+#T	+32 10 433151 / 433396 / 433150 (secr.)
+#P	2, Place Ste-Barbe, B-1348 Louvain-la-Neuve, Belgium
+#L
+#R
+#U	prlb2
+#W	prlb2!ml Mon Mar 16 13:26:51 MET 1987
+#
+lln-cs	fun-cs(HOURLY), hrc63(DAILY/3), inria(DAILY), 
+	prlb2(HOURLY), sdlvax(HOURLY), 
+	sunbim(HOURLY*2), tls-cs(HOURLY),
+	uclfynu(HOURLY), vub(DAILY/3)
+
+#N	sunbim
+#S	SUN 2/120, 4.2BSD
+#O	Belgian Institute of Management
+#C	Stephan Allemon
+#E	sunbim!sa
+#T	+32 2 759 59 25
+#P	Kwikstraat, 4		B-3078 Everberg, Belgium
+#L
+#R
+#U
+#W	sunbin!sa 851003
+#
+sunbim	prlb2(HOURLY), lln-cs(HOURLY), sunuk(DAILY)
+
+#N	taibru
+#S	NCR Tower 32; Unix V rel. 2 (NCR rel. 1.01)
+#O	CEC, Terminologie et Applications Informatiques (TAI)
+#C	Michael Baltsavias
+#E	taibru!michael
+#T	+32 2 2351111
+#P	200, Rue de la Loi, B-1049 Brussels, Belgium
+#L	4 22 E / 50 46 N
+#R
+#U
+#W	taibru!michael Tue May  5 10:04:05 MET 1987
+#
+taibru	ibiza(DAILY), palma(DEMAND), terbru(DEMAND), terlux(DEMAND),
+	qpbru(DEMAND), insem(DEMAND), eval(DEMAND), devel(DEMAND),
+	tai(DEMAND), prlb2(HOURLY)
+
+#N	uclfynu
+#S	VAX-11/750, Ultrix-32 V1.1
+#O	Universite Catholique de Louvain, Nuclear Physics Dept.
+#C	Jean-Marie Ferte, Francis Somers
+#E	uclfynu!jmf, uclfynu!some
+#T	+32 10 433206 / 433231 / 433273 (secr.)
+#P	Chemin du Cyclotron  2, B-1348 Louvain-la-Neuve, Belgium
+#L	
+#R
+#W	uclfynu!some 870108
+#
+uclfynu	lln-cs(HOURLY), prlb2(HOURLY), cernvax(HOURLY)
+
+#N	uiag, kiwi, uiapc1
+#S	Gould Powernode 6031-X, UTX/32 release 1.2 (with EUUG-UUCP)
+#O	Universitaire Instelling Antwerpen, Computer Science dept.
+#C	Paul De Bra
+#E	uiag!debra
+#T	+32 3 8282528 x 107
+#P	Universiteitsplein 1, B-2610 Wilrijk, Belgium
+#L
+#R
+#U
+#W	prlb2!ml Wed May 13 12:12:14 MET 1987
+#
+uiag	prlb2(HOURLY*2), lri(DAILY), 
+	uiaa(LOCAL), kiwi(LOCAL), uiapc1(LOCAL)
+
+#N	uiaa
+#S	Altos ACS 68000-14, Unix System III (with EUUG-UUCP)
+#O	Universitaire Instelling Antwerpen, Computer Science dept.
+#C	Paul De Bra
+#E	uiag!debra
+#T	+32 3 8282528 x 107
+#P	Universiteitsplein 1, B-2610 Wilrijk, Belgium
+#L
+#R
+#U
+#W	uiag!debra 860616
+#
+uiaa	uiag(LOCAL)
+
+#N	vub, minf1, klzs1, info1, info2, info3, imec1, elec1, etro1, prog1,  tinf1, tinf2, arti1, arti3, tena1, tena2, zone1, fgs1, bcms1
+#S	VAX-11/785, 4.3BSD
+#O	Vrije Universiteit Brussel, Medische Informatica
+#C	Erik Blockeel
+#E	vub!erik
+#T	+32 2 4781520 x1438
+#P	Laarbeeklaan 103, B-1090 Brussel, Belgium
+#L	
+#U	mcvax prlb2
+#R	gateway machine to VUB LAN
+#W	vub!erik Thu Oct 16 18:08:43 MET 1986
+#
+# National Links
+vub	prlb2(DAILY), kulcs(DAILY), sunbim(DAILY)
+#
+# International Links
+vub	mcvax(DAILY)
+#
+VUBNET= @{vub,  minf1, 
+	klzs1, info1, info2, info3, imec1,
+	elec1, etro1, 
+	prog1,  tinf1, tinf2, 
+	arti1, arti2, arti3, 
+	tena1, tena2, zone1,
+	fgs1, bcms1}(LOCAL)
+
+#N	arti2
+#S	SUN-2/170; 4.2 BSD UNIX Sun Release 2.0
+#O	University of Brussels (VUB) Artificial Intelligence Laboratory
+#C	Erik Wybouw
+#E	arti2!Postmaster
+#T	+32 2 641 2975
+#P	Pleinlaan 2, Building K, 1050 Brussels, Belgium
+#L	004 25 E / 50 40 N
+#U	
+#W	prlb2!ml Mon Mar 16 13:39:14 MET 1987
+#
+arti2	prlb2(DAILY)
+#
+arti2 = vubarti
+
+#N	prlb2, prlb
+#S	VAX-11/780, 4.2BSD
+#O	Philips Research Laboratory Brussels
+#C	Michel Lacroix, Jean-Jacques Quisquater
+#E	prlb2!ml, prlb2!jjq
+#T	+32 2 6734190
+#P	Av. Van Becelaere 2 box 8, B-1170 Brussels, Belgium
+#L	4 22 E / 50 46 N
+#R	
+#U	kulcs, lln-cs, mcvax, philabs, vub
+#W	prlb2!ml 860905
+#
+prlb2   arti2(DAILY/3), cernvax(ARPA), crcge1(DAILY*2), 
+	crin(DAILY*2), cselt(DAILY*2), 
+	csinn(DAILY*2),
+	diku(ARPA), enea(ARPA), euroies(DAILY),
+	fun-cs(HOURLY), hpubrua(DAILY), hrc63(DAILY*2), 
+	imag(DAILY*2), imec(DAILY), inria(ARPA), 
+	kulcs(HOURLY),
+	lln-cs(HOURLY), lri(DAILY*2),
+	mcvax(ARPA-1), munnari(DAILY), 
+	phifo(DEDICATED), philmds(DEDICATED), 
+	prlb(LOCAL), prle1(HOURLY), prlvax4(DEDICATED), 
+	rung1(DAILY), sunbim(HOURLY*2), 
+	taibru(DAILY), trtmv0(DEDICATED),
+	tls-cs(DAILY*2), tuvie(ARPA), 
+	uclfynu(HOURLY), uiag(HOURLY), ukc(ARPA), 
+	unido(ARPA), unipas(DAILY*2),
+	vub(DAILY/3), vubarti(DAILY/3)
+
+# end of u.bel.1
+SHAR_EOF
+echo shar: extracting u.che.1
+cat << \SHAR_EOF > u.che.1
+# u.che.1; changes to: uucpmap@cernvax.uucp
+#       Last change: 870403
+#
+#N      cernvax
+#S      VAX-11/780, 4.2BSD
+#O      CERN European Laboratory for Particle Physics
+#C	D. Wiegandt /DD
+#E      dietrich@cernvax
+#T	+41 22 834940
+#P	CH-1211 Geneva 23, Switzerland
+#L      06 06 E / 46 14 N
+#R	
+#U      mcvax unizh hslrswi cui
+#W      cernvax!dietrich 851120
+#
+# Backbone connections
+cernvax mcvax(ARPA-1), inria(ARPA), unido(ARPA), enea(ARPA), diku(ARPA),
+	prlb2(ARPA), ukc(ARPA), tuvie(ARPA)
+#
+# Swiss connections
+cernvax unizh(DEMAND), cui(DEMAND), ethz(DEMAND), hslrswi(DEMAND), mdtch(DEMAND),
+	pan(DEMAND), paninfo(DEMAND), cgcha(DEMAND)
+#
+# Other connections
+cernvax delphi(DEAD), sissa(DEAD), uclfynu(DEMAND)
+#
+# Internal connections
+EAN = {cernvax, mint, priam, uxcoms, vxdel1, vscom1, uxlbi0, vxaluw, vxcrna, vxcrnb, vxdefb, vxdev, vxgift, vxmerl, vxomeg}!(LOCAL)
+EARN = {cernvax, cearn, cernadp, cernvm, cernvme, crvxalfb, crvxdev, crvxp173, cruxnmc, cruxnmcd, cruxnmce, gen}!(LOCAL)
+ETHER = {cernvax, cernapo, lepxs}!(LOCAL)
+#
+
+#N	cgcha
+#S	Sun 3/180 4.2bsd
+#O	CIBA-GEIGY AG, Scientific Computing Department (WRZ)
+#C	Wolfgang Wetz
+#E	cgcha!postmaster
+#T	+41 61 37 54 25
+#P	R-1032.5.43, Postfach, CH-4002 Basel
+#L	47 34 N / 7 37 E
+#R	local net sites not listed
+#W	Heinz Naef, whna@cgcha, Wed 15-Oct-86 CET 11:00
+#
+cgcha   cernvax(DEMAND)
+
+#N      cui
+#S      VAX-11/780, 4.2BSD
+#O      Centre Universitaire d'Informatique
+#C      Nicolas Mayencourt
+#E      nicolas@cui
+#T      +41 22 876580
+#P      rue du Lac 12, CH-1207 Geneva, Switzerland
+#L      06 06 E / 46 14 N
+#R
+#U
+#W      cernvax!dietrich 860904
+#
+cui     cernvax(DEMAND)
+CUETHER = {cui, cuisun1, cuisun2, cuisun3, cuisun4, cuisun5, cuisun6,
+	 cuisun7, cuisun8, cuisun9, cuisun10, cuisuna}!(LOCAL)
+
+
+#N	eiger
+#S	VAX-11/785, AT&T unix V8 
+#O	Federal Institute of Technology Zurich (ETHZ), ZIR
+#C	Andreas T. Gautschi
+#E	eiger!gautschi
+#T	+41 1 3772934 or +41 1 3773272
+#P	Gloriastr. 35, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W	eiger!gautschi 851219
+#
+eiger	ethz
+
+#N      ethz
+#S      VAX 11/785 with ULTRIX V1.0
+#O      Federal Institute of Technology Zurich (ETHZ), Institut fuer Informatik
+#C      Peter Beadle
+#E      ethz!peter
+#T      +41 1 2565234
+#P      Clausiusstr. 59, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      cernvax!dietrich 851203
+#
+ethz    cernvax(DAILY/3), unizh(DAILY/3), eiger(DIRECT), jungfrau(DIRECT),
+	igpvax(DIRECT), ips68k(DIRECT), komsys(DIRECT), solaris(DIRECT),
+	owf(DAILY)
+#
+ethz = bernina
+
+
+#N      hslrswi
+#S      DEC VAX750 / UNIX 4.3BSD
+#O      Hasler AG
+#C      J. Robert Ward
+#E      hslrswi!robert
+#T      +41 31 632319
+#P      Belpstrasse 23, CH-3000 Berne 14, Switzerland
+#L      07 26 37 E / 46 56 44 N
+#R
+#U      pan, paninfo
+#W      cernvax!dietrich 850521
+#
+hslrswi aut(DEMAND), burke(DEMAND), cernvax(DEMAND), eua4(DEMAND),
+	pan(DEMAND), paninfo(DEMAND)
+
+#N      igpvax
+#S      uVaxII
+#O      Institut fuer Geodaesie und Photogrammetrie, ETH Zuerich
+#C      Benoit Studemann
+#E      ethz!igp, ethz!igpvax!benoit
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+igpvax  ethz(DIRECT)
+
+#N      ips68k
+#S      Kontron PSI 9068, Unix V7
+#O      Institut fuer Geodaesie, ETH Hoenggerberg, HIL, Zuerich
+#C      Joel Daehler
+#E
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ifi.ethz.chunet!lubich 870403
+#
+ips68k  ethz(DIRECT)
+
+#N      itrpe
+#S      Perkin Elmer 3230, Edition VII + PWB
+#O      Interkantonales Technikum Rapperswil ITR
+#C      Joseph Gaehwiler
+#E      itrpe!jgaehwil
+#T      +4155 219141
+#P      Oberseestrasse 10, CH-8640 Rapperswil, Switzerland
+#L      08 81 E / 47 23 N
+#U
+#W      itrpe!gaehwil 860609
+#
+itrpe   mebazf(DAILY/3)
+
+igpvax  ethz(DIRECT)
+#N	jungfrau
+#S	VAX-11/785, ULTRIX V1.1
+#O	Federal Institute of Technology Zurich (ETHZ), ZIR
+#C	Andreas T. Gautschi
+#E	eiger!gautschi
+#T	+41 1 3772934 or +41 1 3773272
+#P	Gloriastr. 35, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W	eiger!gautschi 851219
+#
+jungfrau        ethz(DIRECT), matterhorn(DIRECT), pilatus(DIRECT), rigi(DIRECT)
+
+
+#N      komsys
+#S
+#O      Institut fuer Informatik, ETH Zuerich
+#C      Prof. B. Plattner
+#E      ethz!plattner
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860528
+#
+komsys  ethz(DIRECT)
+
+#N      matterhorn
+#S      Bull SPS9
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Lucas Heusler
+#E      ethz!jungfrau!heusler
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+matterhorn      jungfrau(DIRECT)
+
+#N      mdtch
+#S	Plexus Sys. 5.2
+#O      Modulator SA
+#C      P. Deruaz
+#E      mdtch!deruaz
+#T      +41 31 592222
+#P      Koenizstrasse 194, CH-3097 Liebefeld-Bern, Switzerland
+#L      07 26 E / 46 56 N
+#U	
+#R	
+#W      cernvax!dietrich 860124
+#
+mdtch  unizh(DEMAND), hslrswi(DEMAND), cernvax(DAILY), mebazf, olcha,
+       sunuk(WEEKLY), plexuk(WEEKLY)
+
+#N	mebazf
+#S	DEC VAX750 / UNIX 4.2BSD
+#O	Mettler Instrumente AG, Central Research
+#C      Herbert Kay
+#E      mebazf!bert
+#T	+41 1 9412241
+#P	Im Langacher, CH-8304 Greifensee, Switzerland
+#L      08 11 20 E / 47 07 10 E
+#R
+#U
+#W      cernvax!dietrich 850224
+#
+mebazf  unizh, mdtch, itrpe, tkswiss
+
+#N      olsen
+#S      Sun 3 Server, Model 180S-4, Sun Unix (4.2 BSD) Version 3.0
+#O      Olsen & Associates Research Institute For Applied Economics
+#C      William Kelley
+#E      olsen!bllklly
+#T      +41 1 55 22 24
+#P      Seefeld Str 233, CH-8008 Zuerich, Switzerland
+#L      08 35 E / 47 23 N
+#U      none, currently
+#R      olsen is the entry node for a multi-machine domain; we use sendmail.
+#W      cernvax!dietrich 861027
+#       We call unizh every hour, we have no dial-up lines, dial-out only.
+olsen	unizh(HOURLY)
+
+#N	owf
+#S	SUN 2/120; SUN UNIX 2.0
+#O	Oce Wissenschaftliches Forschungsinstitut AG
+#C	Beat Frey
+#E	owf!postmaster,owf!bf
+#T	+41 1 55 00 24
+#P	Asylstrasse 125, 8032 Zurich, Switzerland
+#L	47 22 46 N / 8 33 04 E
+#
+owf	ethz(DAILY)
+
+#N      pan
+#S      Opus 32.32-4, Unix System V.2.2
+#O      Pansystem Informatics Ltd.
+#C      James A. Watson
+#E      paninfo!jw
+#T      +41 31 543570
+#P      Nesslerenweg 104, 3084 Wabern/BE, Switzerland
+#L      07 26 E / 46 56 N
+#R
+#U
+#W      cernvax!dietrich 860904
+#
+pan     paninfo(DEMAND), cernvax(DEMAND), hslrswi(DEMAND)
+
+#N      paninfo
+#S      Opus 32.32-2, Unix System V.2.2
+#O      Pansystem Informatics Ltd.
+#C      James A. Watson
+#E      paninfo!jw
+#T      +41 31 543570
+#P      Bahnhofstrasse 50, 8305 Dietlikon/ZH, Switzerland
+#L      I have to get this for Dietlikon
+#R
+#U
+#W      cernvax!dietrich 860904
+#
+paninfo pan(DEMAND), cernvax(DEMAND), cgcha(DEMAND), hslrswi(DEMAND),
+#
+PANLAN = {paninfo, pi0, pi1, pi4}!(LOCAL)
+
+#N      pilatus
+#S      uVaxII
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Prof. Wolfgang Fichtner
+#E      ethz!eiger!fw
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+pilatus jungfrau(DIRECT)
+
+#N      rigi
+#S      uVaxII
+#O      Institut fuer Integrierte Systeme, ETH Zuerich
+#C      Prof. Wolfgang Fichtner
+#E      ethz!eiger!fw
+#T
+#P      ETH-Zentrum, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!prl 860523
+#
+rigi    jungfrau(DIRECT)
+
+#N      solaris
+#S      SunIII
+#O      Institut fuer Informatik, ETH Zuerich
+#C      Mitch Wyle
+#E      wyle@ethz.uucp
+#T      +41 1 256 5237
+#P      ETH-Zentrum/SOT, CH-8092 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#U
+#W      ethz!solaris!wyle 870519
+#
+solaris ethz(DIRECT)
+
+#N	tkswiss
+#S	IBM PC/AT, VENIX 286 (System V.2)
+#O	TELEKURS AG, Abteilung EDED
+#C      Adrian Eberle
+#E      tkswiss!adi
+#T	+41 1 275 27 74 (Zentrale: 275 21 11)
+#P	TELEKURS AG, A.Eberle (EDED),Neue Hard 11, 8005 Zuerich
+#L      08 33 04 E / 47 22 40 N
+#R	SVR2 und 4.2BSD Sourcelizenz auf VAX750 (nicht am Usenet angeschlossen)
+#U
+#W      cernvax!dietrich 861006
+#
+tkswiss mebazf(DAILY)
+
+#N      unigs
+#S      DEC Professional 350/Pro-VENIX
+#O      UNIX Interessengemeinschaft Schweiz
+#C      Jean-Pierre Kousz
+#E      jpk@mebazf jpk@unigs
+#T      +41 1 9412241
+#P      Mettler Instrumente AG, CH-8606 Greifensee, Switzerland
+#L      08 11 20 E / 47 07 10 E
+#R
+#U
+#W      cernvax!dietrich 850123
+#
+unigs   unizh
+
+#N      unizh
+#S      Onyx C8000 with IS/1
+#O      University of Zuerich, Institut fuer Informatik
+#C      Bernhard Plattner
+#E      unizh!netadm
+#T      +41 1 2574311
+#P      Winterthurer Str.190, CH-8057 Zuerich, Switzerland
+#L      08 33 04 E / 47 22 40 N
+#R      unizh is entry node for the multi-machine domain unizh; we use sendmail.
+#U      cernvax
+#W      cernvax!dietrich 850123
+#
+unizh   cernvax(DAILY/6), ethz(DAILY/3), mebazf(DAILY/3), mdtch2(DAILY/3),
+	olsen(DAILY), zedv(DAILY/3), unigs(DEMAND)
+
+
+#N      zedv
+#S      Plexus
+#O      Zentralstelle fuer EDV, Zuerich
+#C
+#E
+#T
+#P
+#L      08 33 04 E / 47 22 40 N
+#R
+#U
+#W      cernvax!dietrich 850204
+#
+zedv    unizh
+
+SHAR_EOF
+echo shar: extracting u.deu.1
+cat << \SHAR_EOF > u.deu.1
+# u.deu.1; changes to postmaster@unido.uucp, last changed 870714 mp
+
+     
+#N	actisb
+#S	Integrated Solutions Optimum V (68020), 4.2BSD
+#O	ACTIS in Berlin GmbH
+#C	Michael Tepper / Bernd-Gunter Nitzler / Dieter Winte
+#E	actisb!mt      / actisb!bernd         / actisb!wino
+#T	+49 30 8826082
+#P	Kurfuerstendamm 65, D-1000 Berlin 15, W. Germany
+#W	mt@actisb.UUCP	861202
+#
+actisb  tub(DAILY), actisu(LOCAL)
+
+#N	altger
+#S	altos 3068 ( 68020 ), unix-V
+#O	altos computer systems gmbh
+#C	thomas lenzen, hans korneder
+#E	altger!blau,   altger!korn
+#T	+49 89 8548442
+#P	rudolf-diesel-str. 1, D-8032 graefelfing
+#R	connections to all other altos subsidaries.
+#W	ap@unido	870310
+#
+altger 	unido(DAILY/2)
+
+#N	amok
+#S	PCS-Cadmus 9230/MUNIX V.2
+#O	TU-Berlin, FB 20 (Informatik), FG Softwaretechnik
+#C	Axel Mahler / Andreas Lampen
+#E	amok!axel     amok!andy
+#T	+49 30 314-734{87,96}
+#P	TU-Berlin Sekr FR 5-6, Franklinstr. 28/29, 1000 Berlin 10
+#L	52.31N 13.24E
+#W	ap@unido 860430
+#
+amok	coma (HOURLY/3)
+
+#N	attmu
+#S	SYS V r 2.1
+#O	AT&T
+#C	Hr. Pham, Abt. UNIX
+#P	Freischuetzstr. 92, 8000 Muenchen
+#R	being connected
+#W	ap@unido.uucp	861125
+#
+attmu	unido(DEAD)
+
+#N	batfra
+#S
+#O	Battelle Institut e.V.
+#C	Siegmar Gwiessner
+#T	+49 69 7908 2365
+#E	sgw@batfra.uucp
+#P	Am Roemerhof 35, 6000 Frankfurt/Main 90
+#L
+#R	being connected
+#W	ap@unido.uucp	870102
+#
+batfra	unido(DEAD)
+
+#N	bbchd
+#S	MicroVax
+#O	BBC AG
+#C	Hr. Schaefer
+#T	+49 6221 701649
+#R	being connected
+#W	ap@unido.uucp	870605
+#
+bbchd	unido(DEAD)
+
+#N	bbgpsy
+#S	SUN
+#O	Universitaet Bamberg, Lehrstuhl f. Psychologie II
+#C	Armin Duske
+#E	duske@bbgpsy
+#T	+49 951 4026424
+#P	Heumarkt 2, 8600 Bamberg
+#L
+#R	being connected
+#W	ap@unido.uucp	870330
+#
+bbgpsy	unido(DEAD)
+
+#N	bredex
+#S
+#O	Bredex GmbH
+#C	Achim Brede
+#E	root@bredex.uucp
+#T	+49 531 75480
+#P	Kastanlenallee 3, D-3300 Braunschweig, W.Germany
+#L
+#W	ap@unido.uucp   870522
+#
+bredex	infbs(DAILY)
+
+#N	bcs
+#S
+#O	BCS GmbH
+#C	Gerhard Vinkesteyn, Georg Paetzhold
+#E	bcs!gertjan, bcs!georg
+#T	+49 2235 3004
+#P	Bliesheimerstr. 3, 5042 Erftstad-Liblar
+#L
+#W	ap@unido.uucp	861113
+#
+bcs	unido(DEAD)
+
+#N	blnosz
+#S	68000 / SYS V
+#O	Oberstufenzentrum Chemie, Physik und Biologie
+#C	Ralph Ballier
+#E	blnosz!ballier
+#T	+49 30 661 1011
+#P	Rudower Str. 184, 1000 Berlin 47
+#L	52.25N 13.29E
+#U
+#W	ap@unido.uucp	870428
+#
+blnosz	tub(WEEKLY), oszhdl(DAILY)
+
+
+#N	bmwmuc
+#S	NIXDORF 8835 (Pyramid) System V + BSD 4.2
+#O	BMW AG - FS126 (Dezentrale Systemtechnik)
+#C	Harald Raufer
+#E	bmwmuc!harald
+#T	+49 89 15793 734
+#P	Sapporobogen 6 - 8,  8000 Muenchen 40
+#L	11.34E 48.08N
+#R
+#W	bmwmuc!harald 860121
+#
+bmwmuc	 unido(DAILY)
+
+
+#N	bnu
+#S	VAX750/4.2BSD
+#O	Universitaet Bonn, Institut f. Informatik
+#C	Herr M. Lange
+#E	
+#T	+49 228 737878
+#P	Wegelerstr. 6
+#L	
+#W	ap@unido 870203
+#
+bnu	unido(DAILY/2)
+
+#N	b21
+#S
+#O	AEG AG, Forschungsinstitut Berlin
+#C	Dr. F. Lohnert
+#E	lohnert@b21.uucp
+#T	+49 30 4501 251
+#P	Hollaenderstr. 31-34, D-1000 Berlin 51
+#W	ap@unido.uucp	861119
+#
+b21	unido(HOURLY), tub(DAILY)
+
+#N	cadlab
+#S	Targon
+#O	Nixdorf AG / Uni Paderborn  -  CAD-LAB
+#C	Fr. Tschirner, Hr. Hogenschurz
+#T	+49 5251 284 {118, 119}
+#E	gudrun@cadlab.uucp, tweety@cadlab.uucp
+#P	Nixdorf Computer AG, Abt. EE-CAD, Bahnhofstr. 32, 4790 Paderborn
+#L
+#W	ap@unido.uucp	870203
+#
+cadlab	unido(DEMAND)
+
+#N    coma
+#S    MicroVAX II / 4.3BSD Unix
+#O    TU-Berlin, FB 20 (Informatik), FG Softwaretechnik
+#C    Axel Mahler / Andreas Lampen
+#E    coma!axel     coma!andy
+#T    +49 30 314-734{87,96}
+#P    TU-Berlin Sekr FR 5-6, Franklinstr. 28/29, 1000 Berlin 10
+#L    52.31N 13.24E
+#R
+#W    ap@unido.uucp	870602	
+#
+coma    tub(LOCAL), amok(HOURLY/3), tubopal(LOCAL)
+
+#N	cobull
+#S	SBULL SPS9 / SYS V
+#O	Bull Cologne
+#E	
+#C	Leo Schmidt
+#T	+49 2203 305 {363,689}
+#R	being connected
+#W	ap@unido   860710
+#
+cobull	unido(DEAD)
+
+#N	cosa
+#S
+#O	Concept ASA GmbH
+#C	Malcolm Agnew
+#T	+49 6959 70297
+#W	ap@unido.uucp	861106
+#
+cosa	unido(DAILY)
+
+#N	decum
+#S	VAX8200/ULTRIX-32
+#O	Digital Equipment GmbH Muenchen, CSC
+#C	Steve Gschwind 
+#E	decum!steve, steve@decum.DEC
+#T	+49 89 41801219
+#P	Hoerselbergstr. 3, 8000 Muenchen 80
+#L	48.08N 11.34E        
+#R	Gateway to DIGITAL Network (*.DEC)
+#U	ztivax
+#W	steve@decum 870429
+#
+decum   unido(DAILY/16), ztivax(DAILY/8)
+
+#N	dfrrebi
+#S	Victory / Uni++ Sys V
+#O	d & k - software
+#C	Friedrich Remmert
+#E	
+#T	+49 521 65521
+#P	August-Bebel Strasse 11, D-4800 Bielefeld 1, West Germany
+#L
+#R	being connected
+#W	ap@unido.uucp	861209
+#
+dfrrebi	unido(DEAD)
+
+#N	dosuni
+#S	Sun
+#O	Universitaet Osnabrueck, Informatik
+#C	b.a.w. Hr. Nienhueser, RZ
+#T	+49541 6082337
+#R	being connected
+#W	ap@unido.uucp	870605
+#
+dosuni	unido(DEAD)
+#N	duessw
+#S	PC AT, Sys Vr2
+#O	B. Wehmann
+#C	weh@duessw
+#P	Germaniastr.16, 4000 Duesseldorf 1
+#W	hmm@unido 861122
+#
+duessw = duessw1
+duessw	unido(WEEKLY)
+
+#N	ecrcvax
+#S	VAX785/4.2BSD
+#O	ECRC European Computer-Industry Research Centre Muenchen
+#C	Ralf Graf
+#E	ecrcvax!ralf
+#T	+49 89 92699119
+#P	Arabellastr. 17, D-8000 Muenchen 81, W. Germany
+#L	48.08N 11.34E
+#R	
+#U	unido
+#W	unido!ke 851015	 re ralf@ecrcvax
+#
+ecrcvax	 uka(DAILY/2), unido(HOURLY/2), crcge1(DAILY/2), lvbull(DAILY/4),
+	 inria(DAILY/4), gipsy(DAILY/4), ztivax(DAILY/2), lri(DAILY/2)
+
+#N    eddy
+#S    NCR PC-8 / SCO XENIX-286 System V Release 2
+#O    TU Berlin, FB 20 (Informatik), FG Kommunikations u. Betriebssysteme
+#C    Oliver Laumann
+#E    eddy!net
+#T    +49 30 314-4315
+#P    Mehringdamm 47, D-1000 Berlin 61
+#R
+#
+eddy    tub(DAILY)
+
+#N	estevax
+#S
+#O	Siemens AG, E STE 362
+#P	Guenter-Scharowski-Str. 2, 8520 Erlangen
+#C	Manfred Witte
+#E	man362@estevax
+#R	estevax is disconnected for some months
+#W	ap@unido 861028
+#
+estevax unido(DEAD), estevaxb(LOCAL)
+estevax = estevaxa
+
+
+#N      fauern
+#S      Perkin Elmer 3210 / XELOS R01
+#O      Friedrich Alexander Universitaet Erlangen
+#C      Claus Uwe Linster / Peter Schlenk / Hermann Jung / Juergen Kleinoeder
+#E      postmaster@fauern.uucp
+#T      +49 9131 857280 / 857269 / 857292 / 857908
+#P      IMMD4, Martensstr. 3, D-8520 Erlangen, W. Germany
+#L      49.36N 11.00E
+#R
+#U	unido
+#W      jklein@fauern.uucp 861119
+#
+fauern  hpbblb(HOURLY*3), unido(HOURLY/2), geocub(DEMAND), crcge1(DEMAND),
+        uka(DEMAND), sinix(DAILY)
+
+REVUE = {fauern, 
+	 faui00, faui01, faui02, faui03, faui04, faui05, faui06, 
+	 faui10, faui11,
+	 faui20, faui21, faui22,
+	 faui40, faui41, faui42, faui43, faui45,
+	 faui50, faui51, faui52, faui53,
+	 faui70, faui72, faui75, faui76, faui78,
+	 faur00}! (LOCAL)
+
+
+#N      faui70
+#S      CADMUS 9230 / MUNIX V.2/06a
+#O      Friedrich Alexander Universitaet Erlangen
+#C      Juergen Kleinoeder / Winfried Dulz
+#E      postmaster@fauern.uucp
+#T      +49 9131 857908 / 857929
+#P      IMMD7, Martensstr. 3, D-8520 Erlangen, W. Germany       
+#L      49.36N 11.00E
+#R      does all the jobs of fauern while the real fauern is down
+#U	fauern 
+#W      jklein@fauern.uucp 861119
+#
+faui70  fauern(LOCAL)
+
+#N	fganffm
+#S	VAX 11/750 /IS/3
+#O	FGAN, Forschungsinstitut f.Funk u.Mathematik (FFM)
+#C	Bodo Beckmann,	Christian Riechmann
+#E	fganffm!bec	fganffm!rie
+#T	+49 228 852516 / 852393 / 852533
+#P	Neuenahrer Str.20, D-5307 Wachtberg-Werthhoven, W. Germany
+#L	50.37N 07.08E
+#R
+#U	unido
+#W	fganffm!bec 851022
+#
+fganffm unido(DAILY/4)
+
+
+#N	fhbbln
+#O	Friedr. H. Bayer
+#T	+49 30 801 1088
+#W	rv@unido 870514
+#
+fhbbln	unido(DEAD)
+
+#N	fhdo
+#S
+#O	Fachhochschule Dortmund
+#C	K. Fuchte
+#E	fhdo!root
+#T	+49 231 1391146
+#P	Sonnenstr. 96-100, D-4600 Dortmund, W. Germany
+#L
+#R	being connected
+#W	unido!dfk 860617
+#
+fhdo	  unido(DEAD)
+
+#N       fkihh
+#S       SUN 2 / 120, SUN UNIX bsd 4.2
+#O       Forschungsstelle f. Informationswissenschaft u. KI, Univ. Hamburg
+#C       Marcus Moehrmann (techn.), Martin Schroeder (organ.)
+#E       fkihh!martin fkihh!marcus
+#T       +49 40 4123-2574, -2573, -3315
+#P       Mittelweg 179, 2000 Hamburg 13, West Germany
+#L       ?
+#W       fkihh!martin 870317
+#
+fkihh   unido(DAILY)
+
+#N	focus
+#S	Motorola 6300/CTIX 3.0
+#O	FOCUS Computer GmbH
+#C	Jens-Uwe Mager
+#E	focus!jum
+#T	+49 511 345461
+#P	Friesenstr. 14, D-3000 Hannover 1, W. Germany
+#L
+#R
+#W	focus!jum	860225
+#
+focus	unido(DAILY)
+
+#N	fubinf
+#S	SUN 3/180S
+#O	Freie Universitaet Berlin, FB Mathematik, Institut fuer Informatik
+#C	Rainer Isle
+#E	fubinf!isle 
+#T	+49 30 896 91 108
+#P	Nestorstrasse 8-9, D-1000 Berlin 31, FRG
+#L	??.??'N ?.??'E
+#R      
+#W	fubinf!isle 86-12-03
+#
+fubinf  unido(DAILY/2), fubmat(HOURLY)
+
+#N	fuhainf
+#S	VAX750/4.2BSD
+#O	FernUniversitaet Hagen, FB Math/Inf
+#C	Enno de Vries
+#E	fuhainf!edv
+#T	+49 2331 8042960
+#P	Postfach 940, D-5800 Hagen, W. Germany
+#L	52.12N 07.59E
+#R	sporadically  dhafeu61.bitnet
+#W	unido!dfk 851120
+#
+fuhainf unido(DAILY*2)
+
+#N	geirs
+#S	Celerity 1230 / 4.2BSD
+#O	GEI Rechnersysteme GmbH
+#C	Alfred Haupts
+#E	ah@geirs.uucp
+#T	+49 241 171081
+#P	Roermonder Str. 615, 5100 Aachen
+#L      50.49N 06.03E
+#W	ap@unido.uucp	870102
+#
+geirs	unido(DAILY*2)
+
+#N	gmdka
+#S	VAX 11/750, 4.2 BSD
+#O	GMD Forschungsstelle Karlsruhe
+#C	B. Giesinger
+#E	gies@gmdka.uucp
+#T	+49 721 662212
+#P	Haid und Neu Str. 7,	7500 Karlsruhe
+#W	ap@unido.uucp	861201
+#
+gmdka	unido(DAILY/4)
+
+#N	gmdtub
+#S      PCS
+#O      GMD - First
+#C      Winfried Seidel
+#E      win@gmdtub
+#T      +49 30 254 99157
+#P	ZAZ 11, Hardenbergpl. 2, D-1000 Berlin 12, W-Germany
+#L      52.31N 13.24E
+#W      win@gmdtub 870427
+#
+gmdtub	unido(WEEKLY), tub(DAILY)
+
+#N	gmdzi
+#S	VAX750/4.2BSD
+#O	Gesellschaft fuer Mathematik und Datenverarbeitung mbH Bonn
+#C	Volkmar Kobelt / Paul Mies
+#E	gmdzi!kobelt / gmdzi!mies
+#T	+49 2241 142485 / 142389
+#P	Postfach 1240, D-5205 Sankt Augustin 1, W. Germany
+#L	50.45N 7.12E
+#R	gateway UUCP to DFN (German National Research Network)
+#U	unido
+#W	rv@unido.uucp	870630
+#	all DFN hosts currently use domain .dbp.de
+gmdzi	.dbp.de
+
+gmdzi	unido(HOURLY), gmdxps(LOCAL), xps(LOCAL), engels(LOCAL)
+
+
+#N	hellki
+#S	Intel 286/310 / XENIX 3.0
+#O	Fa. Dr. Ing. Rudolf Hell GmbH - Kiel
+#C	Yngve Neumann, Frantisek Chladek
+#E	hellki!neumann hellki!chladek
+#T	+49 431 2111562
+#P	Grenzstrasse 1-5, D-2300 Kiel, West Germany
+#L	54.3N 10.1E
+#R	temporarily disconnected
+#U	unido
+#W	unido!ap 870108
+#
+hellki	unido(DEAD)
+
+#N	homeyer
+#S	Siemens PC-MX / SINIX
+#O	Torsten Homeyer
+#C	Torsten Homeyer
+#E	torsten@homeyer.uucp
+#T	+49 2101 271630
+#P	Salzstr. 21, 4040 Neuss
+#L
+#W	ap@unido.uucp	870503
+#
+homeyer	unido(DAILY)
+
+#N	hpbbn
+#S	
+#O	Hewlett Packard GmbH Boeblingen
+#C	Dan Matheson
+#E	hpbbn!danm
+#T	+49 7031 143334
+#P	Postfach 1430, D-7030 Boeblingen, W. Germany
+#L	48.41N 09.01E
+#R	
+#U	unido
+#W	ap@unido.uucp	861119
+#
+hpbbn	hpbbla(DEDICATED), hpbbse(DEDICATED), hpfcla(DEMAND),
+	unido(DAILY/2)
+
+#N	iabgszt
+#S
+#O	Industrieanlagen - Betriebsgesellschaft mbH
+#C	D. Schade
+#T	+49 89 6008 3091
+#P	Einsteinstr. 20,	8012 Ottobrunn
+#L	48.04N 11.38E
+#W	mp@unido.uucp	870518
+#
+iabgszt	unido(DAILY)
+
+#N	iaoobel
+#S	VAX750/BSD 4.2
+#O	Fraunhofer Institut fuer Arbeitswirtschaft und Organisation
+#C	Dieter Woerz
+#E	woerz@iaoobel
+#T	+49 711 6648 191
+#P	Holzgartenstr. 17, 	D 7000 Stuttgart 1
+#R	
+#W	ap@unido.uucp	861114
+#
+iaoobel = iaoobelix
+
+iaoobel	unido(DAILY)
+
+
+#N	icmun
+#S
+#O	IntelliCorp GmbH, European Headquarters
+#C	Thomas Schulz
+#E	thschulz@uka.uucp, postmaster@icmun.uucp, schulz@icmun.uucp
+#T	+49 89 414361
+#P	Rosenheimer Str. 143a, D-8000 Muenchen 80, West Germany
+#L
+#R	being connected
+#W	rv@unido.uucp	870517
+#
+icmun	unido(DEAD)
+
+#N	ict
+#S	Celerity
+#O	Fraunhofer Gesellschaft, Karlsruhe
+#R	being connected
+#W	ap@unido.uucp	870609
+#
+ict	unido(DEAD)
+
+#N	idabs
+#S	Zilog S8000 / ZEUS
+#O	TU Braunschweig, Institut fuer Datenverarbeitungsanlagen
+#C	Bernd Franke
+#E	idabs!bernd
+#T	+49 531 3913747/34
+#P	Postfach 3329, Hans-Sommer-Str.66, D-3300 Braunschweig, W. Germany
+#L	52.16'40"N	10.32'30"E
+#R
+#U	unido
+#W	idabs!bernd  860303
+idabs	unido(DAILY)
+
+
+#N	ifcom
+#S	CADMUS/MUNIX (System 5.2v)
+#O	InterFace Computer GmbH
+#C	Hubert Burghart / Kukral Martin
+#E	ifcom!burghart / ifcom!martin
+#T	+49 89 51086 - {32,33}
+#P	Garmischer Strasse 4, D-8000 Muenchen 2, West Germany
+#L	
+#W	unido!ap  860426
+#
+ifcom	unido(DAILY)
+
+#N	ifgmbh
+#S
+#O	InterFace Gesellschaft f. anwenderorientierte Kommunikationssysteme mbH
+#C	Hans-Peter Huber
+#E	hph@ifgmbh
+#T	+49 89 918055
+#P	Arabellastrasse 30/V, D-8000 Muenchen 81, West Germany
+#L
+#W	rv@unido.uucp	870508
+#R	being connected
+ifgmbh	unido(WEEKLY)	
+
+#N	ifihan
+#S	
+#O	Universitaet Hannover, Institut fuer Informatik
+#C	Gerhard Ohlendorf
+#E	bbbb8@dhvrrz01.bitnet
+#T	+49 511 762 3396
+#P	Welfengarten 1, 3000 Hannover
+#L
+#R	being connected
+#W	ap@unido.uucp	870121
+ifihan	unido(DEAD)
+
+#N	ifistg
+#S	VAX780/4.2BSD
+#O	Universitaet Stuttgart, Institut fuer Informatik
+#C	Franz Fabian
+#E	ifistg!postmaster
+#T	+49 711 1211385
+#P	Herdweg 51, D-7000 Stuttgart 1, W. Germany
+#L	48.46N 09.11E
+#R
+#U	unido
+#W	ifistg!ffj 860224
+#
+ifistg	unido(DAILY/4)
+
+#N	iitbdv
+#S	VAX VMS / EUNICE
+#O	Fraunhofer Gesellschaft f. Informatiions- u. Datenverarbeitung
+#C	Helmut Schweigert
+#T	+49 721 6091304
+#P	Sebasian Kneipp Str. 12-14, 7500 Karlsruhe 1
+#L	49.00N 08.25E.
+#W	ap@unido.uucp	870421
+#
+iitbdv	unido(DAILY)
+
+#N	imuse
+#S	Intel 310 XENIX Rel 3
+#O	Intel , Abt. Systems Engineering
+#C	Fritz Gerneth
+#E	imuse!fritz
+#T	+49 89 5389367
+#P	Seildlstr. 27, 8000 Muenchen
+#L	48.09N 11.34E
+#W	mp@unido.uucp      870611
+#
+imuse  unido(DAILY)
+
+#N      infbs
+#S	VAX 11/750  / Ultrix-32 V1.2
+#O      TU Braunschweig, Institute fuer Informatik
+#C      Achim Loerke, Bernhard Witte
+#E      infbs!loerke  infbs!witte
+#T      +49 531 3913284 / 3913697
+#P	Gauszstr. 11, D-3300 Braunschweig, W. Germany
+#L	52.17N 10.30E
+#U	unido ramz
+#W	infbs!loerke 870522
+#
+infbs   unido(DAILY/4), bredex(DAILY), ramz(DIRECT)
+     
+INFOnet = {infbs, infbsgr,infbssys,infbsa,infbsb,infbsc}!(LOCAL)
+
+#N	infhil
+#S	
+#O	Hochschule Hildesheim, Institut fuer Informatik
+#C	Thomas Kaule
+#T	+49 5121 883 424
+#P	Samelsonplatz 1, D-3200 Hildesheim, West Germany
+#L	52.09N 09.57E
+#W	ap@unido.uucp	870601
+#
+infhil unido(DAILY/2)
+
+#N      infko
+#S      PCS Cadmus 9230 / MUNIX V.2/6b-v
+#O      Uni Koblenz (EWH), Informatik
+#C      Uwe Arndt,              Detlev Droege 
+#E      infko!arndt             infko!droege
+#T      +49 261 12156
+#P      Rheinau 3-4, D-5400 Koblenz, West Germany
+#L      50.3418N 07.5938E
+#
+infko	unido(DAILY/6)
+
+#N	itwdo
+#S	PCS 68000
+#O	Fraunhofer Institut f. Transporttechnik und Warendistribution
+#C	Johannes Joemann
+#E	itwdo!joemann
+#T	+49 231 7549233
+#P	Emil Figge Str. 75, 4600 Dortmund 50
+#L	51.29N 7.25E
+#W	unido!ap 860617
+#
+itwdo	unido(WEEKLY)
+
+#N	kaebrem
+#S	IBM PC AT/XENIX
+#O	Krupp Atlas Elektronik
+#C	Dr. Axel Wiegmann
+#E	axel@kaebrem
+#T	+49 421 4573137
+#P	P.O. 448545, D2800 Bremen 44
+#L
+#R
+#W	ap@unido 860812
+#
+kaebrem	unido(DAILY)
+
+#N	kivax
+#S	
+#O	Mannesmann Kienzle GmbH
+#C	Thomas Haeck
+#E	hck@kivax.uucp
+#T	+49 7721 86537
+#P	Postfach 1640, 7730 Villingen - Schwenningen
+#L	48.58N 8.45E
+#R	
+#W	ap@unido.uucp	870616
+#
+kivax	unido(DAILY/2)
+
+#N	knirsh
+#S	PCS / SYS V
+#O	Fa Knirsch Software Entwicklung
+#C	Hr Knirsch
+#T
+#E
+#P	Freithof 26, 4040 Neuss
+#R	being connected
+#W	ap@unido.uucp	870417
+#
+knirsh	unido(DEAD)
+
+#N	konech
+#S	PSI68??/Xenix V7
+#O	KONTRON Elektronik GmbH Eching, Abt. EE
+#C	Horst Lauber
+#E	konech!hola
+#T	+49 89 31901405
+#P	Breslauer Str. 2, D-8057 Eching, W. Germany
+#L	
+#R
+#U	unido
+#W	unido!dfk 850215
+#
+konech	unido(DAILY/2)
+
+#N	linod
+#S	VAX780/4.2BSD
+#O	Linotype GmbH Eschborn
+#C	Alex Auinger / Wilfried Soeker / Wolfgang Brand
+#E	linod!auing / linod!ws / linod!brand
+#T	+49 6196 403275 / 403352 / 403274
+#P	Frankfurter Allee 55-75, D-6236 Eschborn, W. Germany
+#L	
+#R	
+#W	unido!dfk 850605
+#
+linod	unido(DAILY/2)
+
+#N	marius
+#S	Siemens PC-MX2
+#O	Ferd. Schulze & Co.
+#P	Pfingstweidstr. 10-12, D-6800 Mannheim 24, West Germany
+#W	ap@unido.uucp	870410
+#
+marius	unido(DAILY)
+
+#N	mbpdo
+#S	Kontron
+#O	Mathematischer Beratungs und Programmierdienst Dortmund
+#C	Volker Schubert
+#E	vhs@mbpdo
+#T	+49 231 4348125
+#P	Semerteichstr., D-4600 Dortmund, W. Germany
+#L	51.29N 07.25E
+#R
+#W	unido!dfk 851129
+#
+mbpdo	unido(WEEKLY/2)
+
+#N	mc-r
+#S	Sperry 5050/System V.2
+#O	MC-Ratio GmbH
+#C	Dieter Laengle
+#E	mc-r@mc-r.uucp
+#T	+48 89 5380503
+#P	Mozartstrasse 3, D-8000 Muenchen 2, W. Germany
+#R	this is also the office of the German UNIX User Group (GUUG)
+#W	rv@unido.uucp	870415
+#
+mc-r	tumuc(HOURLY)
+
+#N	megalon
+#O	Klaus Altenburg
+#C	Klaus Altenburg
+#E	root@megalon.uucp
+#T	+49 2151 404087
+#P	An den Siffen 12, 4100 Duisburg 46
+#W	ap@unido.uucp	870106
+#
+megalon	unido(DAILY)
+
+#N	mikros
+#S	Siemens PC-X, SINIX
+#O	Mikros Systemware / EDV-Beratung
+#C	Stefan Stapelberg
+#E	stefan@mikros.uucp
+#T	+49 9352 5948
+#P	Finkenstr. 15, Postfach 368, 8770 Lohr am Main
+#L	50.00N 09.35E
+#R
+#W	mth@unido.uucp   870224
+#
+mikros unido(DAILY)
+
+#N	mucmot
+#S	Motorola System 121 / UNIX SYSTEM V.2
+#O	Motorola GmbH Microsystems
+#C	Stefan Loesch
+#E	mucmot!stefan
+#T	+49 89 9248 359
+#P	Muenchnerstr. 18, 8043 Unterfoehring
+#L	11.34E 48.08N
+#R
+#W	mucmot!stefan 860901
+#
+mucmot  unido(DAILY)
+
+#N	mutec
+#S	Arete / Sys V
+#O	Markt und Technik
+#C	Sebastian 'Snoopy' Schmitz
+#E	snoopy@mutec.uucp
+#T	+49 89 4613121
+#P
+#L
+#R	being connected
+#W	ap@unido.uucp	870316
+#
+mutec	unido(DEAD)
+
+#N	netmbx
+#S	Altos 68000 Unix SysIII
+#O	netmbx Berlin
+#C	Ralf Moritz
+#E	netmbx!moritz
+#T	+49 30 87 81 24
+#P	Woerther Str. 36, 1000 Berlin 20, W. Germany
+#L	52.31N 13.24E
+#R
+#U
+#W	moritz@netmbx.uucp 870530
+#
+netmbx tub(DAILY)
+
+#N	nixpbe
+#S	Nixdorf Targon/35
+#O	Nixdorf Entwicklung Paderborn
+#C	Ulrich Hosbach
+#E	nixpbe!hosbach
+#T	+49 5251 146154
+#P	Pontanusstr. 55, D-4790 Paderborn, W-Germany
+#L	51.43N 08.45E
+#R	
+#W	unido!mp 870515
+#
+nixpbe	unido(DAILY)
+
+#N	nsgeffb
+#S
+#O	National Semiconductor GmbH
+#C	G. Schlitzer
+#T	08141/103-332 -336 -272
+#W	ap@unido.uucp	870605
+#
+nsgeffb	unido(WEEKLY)
+
+#N	oldc
+#S	3B2/300	  System V  R2
+#O	Deutsche Olivetti GmbH VD/OEM
+#C	Matthias Fouquet-Lapar
+#E	oldc!mfl
+#T	+49 6105 66921 069
+#P	Hessenring 6a, D-6082 Moerfelden, W. Germany
+#L	49.9N  8.4E
+#R	polling extremely infrequent
+#W	rv@unido.uucp	870514
+#
+oldc	unido(WEEKLY)
+
+#N	oszhdl
+#S	SMS 83-3, SYS V	
+#O	Oberstufenzentrum fuer Wirtschaft und Verwaltung
+#C	Hartmut Haertl
+#E	haertl@oszhdl.uucp
+#P	Wrangelstrasse 98, D-1000  Berlin 36
+#T	+49 30 2588 7943
+#W	ap@unido.uucp	870428
+#
+oszhdl	blnosz(DAILY)
+
+
+#N	pbinfo
+#S	VAX750/4.2BSD
+#O	Universitaet/GHS Paderborn, FB17/Informatik
+#C	Michael Schmidt / Rainer Funke
+#E	pbinfo!michael
+#T	+49 5251 603069 / 602657
+#P	Warburgerstr. 100, D-4790 Paderborn, W. Germany
+#L	51.43N 08.45E
+#R	
+#U	unido
+#W	unido!ap 860617
+#
+pbinfo	unido(DAILY)
+
+
+#N	pcsbst
+#S	CADMUS 9230-v, MUNIX V.2
+#O	Periphere Computer Systeme GmbH Muenchen
+#C	Martin Schoettler
+#T	+49 89 680278
+#P	Pfaelzer-Wald-Strasse 36, D-8000 Muenchen 90, W. Germany
+#L	48.08N 11.34E
+#R	
+#U	unido
+#W	ap@unido.uucp	870604
+#
+pcsbst	unido(DAILY/4), mcvax(DAILY), munix(DAILY), zti1(DAILY)
+
+
+#N	phibsi
+#S	
+#O	Philips Kommunikations Industrie AG
+#C	Frank Lange
+#E	ptt@phibsi.uucp
+#T	+49 271 / 3850 482
+#P	Eiserfelderstr. 316, D-5900 Siegen 31
+#R	being connected
+#W	ap@unido.uucp	861219
+#
+phibsi	unido(DAILY)
+
+#N	phifo
+#S	VAX750/ULTRIX-32, V1.2
+#O	Philips Forschungslaboratorium Hamburg
+#C	Volker Beyrau
+#E	phifo!beyrau
+#T	+49 40 5493 768
+#P	Vogt-Koelln-Strasse 30, D-2000 Hamburg 54, Fed.Rep.Germany
+#L	53.36'N 9.56'E
+#R	
+#W	phifo!beyrau 87-04-23
+#
+phifo	unido(DAILY/2), prlb2(DAILY/2), prlvax4(DAILY/2)
+
+#N	primewi
+#S
+#O	Prime computer GmbH
+#C	Ulrich Werner
+#E	uwr@primewi.uucp
+#T	+49 6121 361 220
+#P	gustav Stresemann Ring 12-16
+#R	being connected
+#W	ap@unido.uucp	860814
+#
+primewi	unido(DEAD)
+
+#N	qtecmuc
+#S	uVAX II
+#O	Quantec Tonstudiotechnik GmbH, Dep. Research and Development
+#C	Wolfgang Schwarz / Ralph Kessler
+#E	qtecmuc!wolf / qtecmuc!ralph
+#T	+49 89 333034 
+#P	Clemensstr. 3, Postfach 440253, 8000 Muenchen 40
+#L	48.08N 11.34E
+#U	ztivax
+#W	ap@unido.uucp	870417
+#
+qtecmuc	 unido(HOURLY), ztivax(DAILY)
+
+
+#N	quando
+#S	NIXDORF 8835 (Pyramid-Targon) System V + BSD 4.2
+#O	Quantum	 Gesellschaft fuer Software m.b.H.
+#C	Peter Siemon, Wolf-D. Biburger
+#E	quando!siemon quando!wdb
+#T	+49 231 75441-00
+#P	Emil-Figge-Str. 83 / D-4600 Dortmund - 50, W.Germany
+#L	51.29N 07.25E
+#R
+#U	unido
+#W	unido!ap 860617
+#
+quando	 unido(DAILY)
+
+#N	ramz
+#S	uVAX II/ Ultrix-32 V1.2
+#O	TU Braunschweig, Rechenanlage des Mechanikzentrums
+#C	Dr. Andresen
+#E	ramz!postmaster
+#T	+49 531 3912316
+#P	Spielmannstr. 11, D-3300 Braunschweig, W. Germany
+#L	52.17N 10.30E
+#U	infbs
+#W	infbs!loerke 870522
+#
+ramz   infbs(DIRECT)
+
+#N	rbiffm
+#S	VAX750/ VMS 4.2 -EUNICE 4.1
+#O	Johann Wolfgang Goethe Universitaet Frankfurt/Main, Informatik RBI
+#C	Ulrich Plass
+#E	rbiffm!plass
+#T	+49 69 7983954
+#P	Postfach 111 932, D-6000 Frankfurt 11, W. Germany
+#L	50.11N 8.65E
+#R	Polling at discretion of operator (during working hours only)
+#W	unido!ke 850208
+#
+rbiffm	unido(DAILY)
+
+
+#N	rmi
+#S	CADMUS 9230
+#O	RMI Nachrichtentechnik Aachen
+#C	Rupert Mohr / W. Siebeck
+#E	rmohr@rmi, wsiebeck@rmi
+#T	+49 241 21144
+#P	Postfach 1526, D-5100 Aachen
+#W	ap@unido 860610
+#
+rmi	unido(HOURLY)
+
+#N	rubmez
+#S	CADMUS
+#O	Universitaet Bochum, Mikroelektronikzentrum
+#C	H. Fabrizius
+#T	+49 234 700 {6544, 7570}
+#P	Postfach 102148, 4630 Bochum
+#W	ap@unido.uucp	870427
+#R	being connected
+#
+rubmez	unido(DEAD)
+
+
+#N	rwthinf
+#S	Celerity 1260D Unix 4.2bsd
+#O	RWTH Aachen, Lehrstuhl fuer Informatik I
+#C	Guido Bunsen, Rechnerbetriebsgruppe Informatik
+#E	guido@rwthinf.uucp
+#T	+49 241 / 80 4518
+#L	50.47N 06.17E	
+#P	Ahornstr. 55  5100 Aachen
+#W	ap@unido.uucp	861223
+#
+rwthinf	unido(DAILY/4)
+rwthinf rwthi1(DEAD), rwthi2(LOCAL), rwthi3(LOCAL), rwthi4(DEAD), rwthi5(DEAD),
+	rwthdfv(LOCAL)
+
+#N	rwthi1,rwthi2,rwthi3,rwthi4,rwthi5
+#S	SUN Network mit UNIX 4.2 bsd
+#O	RWTH Aachen, Lehrstuhl fuer Informatik III
+#C	Udo Schleef, Guido Bunsen
+#E	udo@rwthi3.uucp, guido@rwthinf.uucp
+#T	+49 241 / 80 7249 , +49 241 / 80 4518
+#L	50.47N 06.17E	
+#P	Ahornstr. 55  5100 Aachen
+#W	mp@unido.uucp	870609
+#
+rwthi3	rwthinf(LOCAL)
+
+#N	rwthdfv
+#S	Zilog 
+#O	RWTH Aachen, Lehrstuhl Datenfernverarbeitung
+#C	Bernd Kluth, Guido Bunsen
+#E	bernd@rwthdfv.uucp, guido@rwthinf.uucp
+#T	+49 241 / 80 7916 , +49 241 / 80 4518
+#L	50.47N 06.17E	
+#P	Kopernikusstr.   5100 Aachen
+#W	mp@unido.uucp	870611
+#
+rwthdfv	rwthinf(LOCAL)
+
+#N	sbsvax
+#S	VAX 11/780 (4.2BSD)
+#O	Universitaet des Saarlandes -Rechenzentrum-
+#C	Kurt Schreiner
+#E	sbsvax!kurt
+#T	+49 681 3022596
+#P	Im Stadtwald 15, D-6600 Saarbruecken 11, W. Germany
+#L	49.15:20N  7.2:30E
+#R
+#W	sbsvax!kurt 8/21/85
+#
+sbsvax	uklirb(HOURLY/2), uka(HOURLY/2), unido(HOURLY/2)
+
+
+#N	scsshh
+#S
+#O	SCS GmbH, GB Systemhaus Hamburg
+#C	Thomas Andreasson
+#E	and@scsshh
+#T	
+#P	Oehleckerring 40, 2000 Hamburg 62
+#L
+#W	ap@unido 860617
+#
+scsshh	unido(DAILY)
+
+#N	scsshm
+#S	VAX750/4.2BSD (Kernel : ULTRIX-32)
+#O	SCS TAS GmbH , GB Systemhaus Muenchen
+#C	Ida Loesch
+#E	scsshm!ilo
+#T	+49 89 412731
+#P	Hoerselbergstr. 3, 8000 Muenchen 80
+#L	11.34E 48.08N
+#R	
+#W	ap@unido.uucp	870202
+#
+scsshm	 unido(DAILY), scsshh(HOURLY*2)
+
+#N	selv1
+#O	SEL Pforzheim
+#C	Dieter Stach
+#R	being connected
+#W	rv@unido.uucp  870514
+#
+selv1	unido(DAILY/3)
+
+#N      siedap
+#S      VAX 11/750 (ULTRIX-32)
+#O      Siemens AG, K D AP 42
+#C      Hr. Reeves Tim / Donhauser Helmuth
+#E      siedap!tim / siedap!don
+#T      +49 89 92753135 / 92753136
+#P	Otto-Hahn-Ring 6, D-8000 Muenchen 83, W. Germany
+#L      48.13972 N  11.57444 E
+#R      -
+#W      siedap!tim 860715
+#
+siedap  ztivax(DEMAND)
+
+#N      sietec
+#S      VAX 11/780 (BSD 4.3)
+#O      SIETEC AG
+#C      Hr. Buettger Rainer
+#E      postmaster@sietec.uucp
+#T      +49 30 386-7814
+#P	Nonnendammallee 101, D-1000 Berlin 13
+#R      -
+#W      mp@unido 860630
+#
+sietec	unido(DAILY)
+
+#N	sinix
+#O	Siemens AG, D ST SP 4
+#W	ap@unido 860807
+#
+sinix	unido(DAILY), athen(LOCAL)
+
+
+#N	softlab
+#S	uVAX II/ULTRIX-32
+#O	Softlab GmbH Muenchen
+#C	Peter Meinen / Peter Philipp / Angelika Koegel
+#E	softlab!mei / softlab!phi / softlab!koe
+#T	+49 89 93001230 / 93001258 / 93001346
+#P	Zamdorfer Str. 120, D-8 Muenchen 80, W. Germany
+#L	48.08E 11.34N
+#W	hmm@unido.uucp	870707
+#
+softlab unido(DAILY), unixvax(LOCAL)
+
+
+#N	stollco
+#S	SUN 3/160; 4.2 BSD Rel 3.0
+#O	Stollmann GmbH, Computer- und Kommunikations-Technik
+#C	Bernd Rennhak
+#E	stollco!bernd
+#T	+49 40 38900329
+#P	Stollmann GmbH, Max-Brauer-Alle 81, D 2000 Hamburg 50
+#L	53 34 N / 09 57 E
+#U	unido
+#W	stollco!bernd (Bernd Rennhak); Thu Apr 23 12:50:08 MET 1987
+#
+stollco unido(WEEKLY)
+
+#N	stzdo
+#S	microVAX, Ultrix
+#O	Software Technologie Zentrum mbH
+#C	W.Deiters
+#E	deiters@stzdo.uucp
+#T	+49 231 527942
+#P	Westfalendamm 104, D-4600 Dortmund 1, West Germany
+#L
+#R	being connected
+#W	rv@unido	870517
+#
+stzdo	unido(DEAD)	
+
+#N	sunmuc
+#S	SUN
+#O	SUN Deutschland
+#C	Lutz-Peter (Lupe) Christoph
+#E	sunmuc!lupe
+#T	+49 89 926900 - 0
+#P	Arabellastr. 30, D-8000 Muenchen 81, W. Germany
+#L	48.08N 11.34E
+#R
+#W	dfk@unido 851202
+#
+sunmuc	unido(WEEKLY)
+
+
+#N	systec
+#S	IS68000/Unix3.0
+#O	SYSTEC Gesellschaft fuer Digital-Analog-Technik mbH
+#C	Alexander Lobodzinski
+#E	systec!lobo
+#T	+49 30 254803 30
+#P	Luetzowufer 1, D-1000 Berlin 30, W. Germany
+#L	52.31N 13.24E
+#R
+#W	dfk@unido 851130
+#
+systec	tub(DAILY)
+
+
+#N	tadam
+#S	VAX 11/750/4.2 BSD
+#O	TA TRIUMPH-ADLER, Research Dept.,
+#C	Gerhard Heyer
+#E	tadam!gerd
+#T	+49 911 322 6088
+#P	Nuernbergerstr. 159/161, 8510 FUERTH
+#L
+#R
+#W	ap@unido.uucp	870224
+#
+tadam	taeva(LOCAL)
+
+
+#N	taeva
+#S	VAX750/4.2BSD
+#O	Triumph-Adler, Innovative Systemarchitekturen, Abt. EVA
+#C	Hans v. Kleist-Retzow
+#E	taeva!hans
+#T	+49 911 322 6306
+#P	Nuernberger Strasse 159-161, 8510 Fuerth
+#L
+#R
+#U	
+#W	taeva!hans 860116
+#
+taeva	unido(DEMAND), tadam(LOCAL)
+
+
+
+#N	tbzhh
+#O	Technologieberatungszentrum Hamburg
+#C	Dieter Lange
+#E	root@tbzhh.uucp
+#T	+49 40 331186
+#P	Zippelhaus 5, D-2000 Hamburg 11, W.Germany
+#R	being connected
+#W	rv@unido.uucp 860827
+#
+tbzhh	unido(DEAD)
+
+
+#N	tdg
+#S	TOM 4200/Inix System V
+#O	Tandberg Data GmbH
+#C	Gerhard Buelow
+#E	gb@tdg postmaster@tdg
+#T	+49 231 5436 22[04]
+#P	Feldstr. 81, 4600 Dortmund 1, W. Germany
+#L	51.29N 07.25E
+#R
+#U
+#W	ap@unido 860401
+#
+tdg	unido(HOURLY)
+
+
+#N	tekcol
+#S	own hardware + ported BSD
+#O	Tektronix GmbH Koeln
+#C	Michael Sitzer
+#E
+#T	+49 221 7722 245
+#P	Abt. GWD, Sedanstr. 13-17, 5000 Koeln, W. Germany
+#L
+#R	being connected
+#U
+#W	ap@unido 860811
+#
+tekcol	unido(DEAD)
+
+
+#N	tntrm
+#S	Tower XP/UNIX V
+#O	Telenet GmbH
+#C	Michael Hillier
+#E	mh@tntrm.uucp
+#T	+49 6151 75038
+#P	Alsfelder Str.11, 6100 Darmstadt
+#W	ap@unido.uucp	861125
+#
+tntrm	unido(DAILY/2)
+
+#N	tub
+#S	Integrated Solutions Optimum V (68020), 4.2BSD
+#O	TU Berlin, Institut fuer Kommunikations- und Betriebssysteme
+#C	Carsten Bormann
+#E	tub!cabo
+#T	+49 30 31473462
+#P	Sekretariat FR 6-3, Franklinstr. 28/29, D-1000 Berlin 10, W. Germany
+#L	52.31N 13.24E
+#R	tub.UUCP == tub.BITNET == db0tui6.BITNET
+#U	unido coma systec blnosz b21
+#W	ap@unido.uucp	870304
+#
+tub	blnosz(WEEKLY), coma(HOURLY/3), systec(DAILY), b21(DAILY),
+	actisb(HOURLY*2), unido(DAILY)
+tub = tubkbsc
+
+#N	tubopal
+#S	SUN 3/280S Sun UNIX 4.2 Rel. 3.2EXPORT
+#O	TU-Berlin, FB 20 (Informatik), FG Softwaretechnik
+#C	Wilhelm Koehler  /  Andreas Fett
+#E	tubopal!willi       tubopal!fetti
+#T	+49 30 314-4785     +49 30 314-5213
+#P	TU-Berlin Sekr FR 5-6, Franklinstr. 28/29, 1000 Berlin 10
+#L	52.31N 13.24E
+#R
+#W	ap@unido.uucp	870602
+#
+tubopal	tub(LOCAL), coma(LOCAL)
+
+
+#N	tub-tfs
+#S	SUN 3/160 / SUN Unix Rel. 3.2
+#O	TU Berlin, FB 20 (Informatik), FG Formale Spezifikation
+#C	Paul Boehm
+#E	tub-tfs!paul
+#T	+49 30 314-4921
+#P	TU Berlin, Sekr. FR 6-1, Franklinstr. 28/29, D-1000 Berlin 10
+#R
+#
+tub-tfs	tub(DIRECT)
+
+#N	tub-flp
+#S	SUN 3/50 / SUN Unix Rel. 3.2
+#O	TU Berlin, FB 20 (Informatik), FG Funktionales u. Logisches Programmieren
+#C	Juergen Buntrock
+#E	tub-flp!jubu
+#T	+49 30 314-73558
+#P	TU Berlin, Sekr. FR 6-10, Franklinstr. 28/29, D-1000 Berlin 10
+#R
+#
+tub-flp	tub(DIRECT)
+
+#N	tubisi
+#C	Peter-CH. Gentz
+#E	gentz@tubisi.uucp
+#T	+49 30 314 4184
+#R	tubisi = nmr.stranski.tu-berlin.dfn
+#R	being connected
+#W	hmm@unido.uucp 861223
+#
+tubisi	unido(DEAD)
+
+#N	tubprz
+#S	HP 9500 / SYS V.1
+#O	Technische Universitaet Berlin, Prozessrechenzentrum
+#C	Hr. Zimmermann, Hr. Riedensberg
+#T	+49 30 314 {5786, 5787, 5191}
+#E	
+#P
+#R	being connected
+#W	ap@unido.uucp
+#
+tubprz	unido(DEAD)
+
+#N	tumki
+#S	NIXDORF TARGON 35 (Pyramid) System V + BSD 4.2
+#O	TU Muenchen, Arbeitsgruppe KI
+#C	Franz Kurfess
+#E	tumki!franz
+#P	Postf. 202420, D-8000 Muenchen 2
+#T	+49 89 21058163, +49 89 521099
+#L	48.08N 11.34E
+#W	ap@unido 860515
+#
+tumki	uka(DAILY), unido(HOURLY/2)
+
+#N	tumuc
+#S	VAX750/ULTRIX-32
+#O	TU Muenchen, Lehrstuhl fuer Rechnergestuetztes Entwerfen
+#C	Dr. Bernd Finkbein
+#E	tumuc!bef
+#T	+49 89 21052869
+#P	D-8000 Muenchen, W. Germany
+#L	48.14N   11.57E
+#U	ztivax
+#R
+#W	rv@unido@unido.uucp	870514
+#
+tumuc	mc-r(HOURLY), unido(DAILY), ztivax(HOURLY*3)
+
+
+#N	ubrinf
+#S	VAX750/4.2BSD
+#O	Universitaet Bremen, FB3 Mathematik/Informatik
+#C	Guenther Feldmann/Rainer Isle
+#E	ubrinf!fld ubrinf!rainer
+#T	+49 421 218 2447
+#P	Postfach 330440, D-2800 Bremen 33, FRG
+#L	53.06'N 8.51'E
+#R	
+#W	dfk@unido 850605     re. ubrinf!fld 85-06-05
+#
+ubrinf	unido(DAILY*2)
+
+
+#N	uka
+#S	VAX750/4.2BSD
+#O	Universitaet Karlsruhe, Informatik IRA
+#C	Michael Rotert
+#E	uka!rotert
+#T	+49 721 6084221
+#P	Circel 2, D-7500 Karlsruhe 1, W. Germany
+#L	49.03N 08.24E
+#R	On CSNet as Germany.CSNET
+#W	unido!ap 860225
+#
+uka	fauern(DEMAND), sbsvax(HOURLY/2),
+	tumki(DAILY), uklirb(HOURLY/2), unido(HOURLY/2)
+uka = germany
+
+
+#N	uklirb
+#S	VAX750/4.2BSD
+#O	Universitaet Kaiserslautern, Informatik Rechenzentrum ( IRB )
+#C	Rolf Massar
+#E	uklirb!massar
+#T	+49 631 205 2167
+#P	Postfach 3049, D-6750 Kaiserslautern, W. Germany
+#L	49.44N 07.74E
+#R	
+#U	unido
+#W	uklirb!massar 850830
+#
+uklirb	unido(HOURLY/2),uka(HOURLY/2),sbsvax(HOURLY/2),incas(LOCAL),ndbs(LOCAL)
+
+#N	uniaugs
+#S	
+#O	Universitaet Augsburg
+#C	Konrad Froitzheim
+#E	froitz@uniaugs.uucp
+#T	+49 821 5977 238
+#P	Hemminger Str. 6, 8900 Augsburg
+#R	being connected
+#W	ap@unido.uucp	860814
+#
+uniaugs	unido(DEAD)
+
+#N	unido, laura, exunido 
+#S	Siemens PC MX-2, SINIX
+#O	Universitaet Dortmund, Informatik / IRB
+#C	Hans Martin Mosner, Michael Pickers, Axel Pawlik, Andreas Toenne
+#E	postmaster@unido.uucp  postman@unido.bitnet
+#T	+49 231 7552444
+#P	Postfach 500500, D-4600 Dortmund 50, W. Germany
+#L	51.29N 07.25E
+#R	Backbone Germany, Help: unido!postmaster
+#R	via locally connected node exunido.uucp == unido.bitnet gateway for German uucp to EARN/BITNET etc.
+#U	ecrcvax, fauern, gmdzi, ifistg, infbs, konech, mcvax, pbinfo, pcsbst, phifo, quando, tub, uklirb, ztivax
+#W	rv@unido.uucp	870630
+#
+unido   = unido.de
+exunido = unido.bitnet
+
+#	Gateway to domains
+unido	.de
+unido	uni-dortmund.de
+#	currently all hosts of the German National Research Net (DFN)
+#	are found in domain .dbp.de 
+#	
+
+####### European Backbone Connections
+unido	cernvax(ARPA), diku(ARPA), enea(ARPA), inria(ARPA), mcvax(ARPA-1),
+	prlb2(ARPA), tut(ARPA), tuvie(ARPA), ukc(ARPA)
+
+####### Other international connections[
+unido	seismo(ARPA), ircam(DAILY), acmis(DEMAND)
+####### German Sites
+unido	altger(DAILY/2), attmu(DEAD),
+	b21(HOURLY), batfra(DEAD), bbchd (DEAD), bbgpsy(DEAD), bcs(DEAD), 
+	bmwmuc(DAILY), bnu(DAILY/2), 
+	cadlab(DEMAND), cobull(DEAD), combox(DEAD), cosa(DEAD),
+	decum(DAILY/8), dfrrebi(DEAD), dosuni(DEAD), duessw1(WEEKLY), 
+	ecrcvax(HOURLY/2), estevax(DEAD),
+	fauern(HOURLY), fganffm(DAILY/4),
+	fhbbln(DEAD), fhdo(DEAD), 
+	fkihh(DAILY), focus(DAILY),
+	fubinf(DAILY/2), fuhainf(DAILY*2), 
+	geirs(DAILY*2),
+	gmdka(DAILY), gmdtub(WEEKLY), gmdzi(HOURLY), 
+	hellki(DEAD), homeyer(DAILY), hpbbn(DAILY/2),
+	iabgszt(DEAD), iaoobel(DAILY), icmun(DEAD), ict(DEAD),
+	idabs(DAILY),
+	ifcom(DAILY), ifgmbh(WEEKLY), ifihan(DEAD), ifistg(DAILY/4), 
+	iitbdv(DAILY), imuse(DAILY), infbs(DAILY/4), infhil(DAILY/2),
+	infko(DAILY/6), itwdo(WEEKLY),
+	kaebrem(DAILY), kivax(DAILY/2), knirsh(DEAD), konech(DAILY/2),
+	linod(DAILY/2), mbpdo(WEEKLY/2), megalon(DAILY), mikros(DAILY),
+	mucmot(DEAD), mutec(DEAD),
+	nixpbe(DAILY), nsgeffb(WEEKLY), oldc(WEEKLY),
+	pbinfo(DAILY), pcsbst(DAILY/4), pe-g(DEAD),
+	phibsi(DAILY), phifo(DAILY/2), primewi(DEAD), 
+	qtecmuc(DAILY/5), quando(DAILY),
+	rbiffm(DAILY), rmi(HOURLY), rubmez(DEAD), rwthinf(DAILY/4),
+	sbsvax(HOURLY/2),
+	scsshh(DAILY), scsshm(DAILY),
+	selv1(DAILY/3), sinix(DAILY/2), softlab(DAILY),
+	stollco(WEEKLY), stzdo(DEAD), sunmuc(DAILY),
+	taeva(DEMAND), tbzhh(DEAD), tdg(HOURLY), 
+	tekcol(DEAD), tntrm(DAILY/2), tub(DAILY), tubisi(DEAD),
+	tubprz(DEAD), tumki(HOURLY/2), tumuc(DAILY),
+	ubrinf(DAILY*2), uka(HOURLY/2), uklirb(HOURLY/2), 
+	uniaugs(DEAD), unidui(WEEKLY),
+	uniknrz(DEAD), unipas(HOURLY), unimuc(DEMAND), uniulm(DEAD),
+	uniwue(DAILY/2),
+	ztivax(HOURLY)
+####### Local stuff 
+unido	unidocc(DEAD), unidocv(LOCAL), exunido(LOCAL), isar(LOCAL),
+	laura(LOCAL), luise(LOCAL), stltar(LOCAL), udosys(LOCAL)
+
+
+#N	unidocc
+#S	PCS680000/SV
+#O	Universitaet Dortmund, Hochschulrechenzentrum
+#C	Michael Heyer
+#E	unidocc!ccs005
+#T	+49 231 7552423
+#P	Postfach 500500, D-4600 Dortmund 50, W. Germany
+#L	51.29N 07.25E
+#R	likely to reappear with another name sometime later
+#W	rv@unido.uucp	870514
+#
+unidocc unido(DEAD)
+
+
+#N	unidoi5
+#S	CADMUS 9230/MUNIX V.2
+#O	Universitaet Dortmund, Lehrstuhl Informatik V
+#C	Georg Heeg, Ute Willingmann
+#E	postmaster@unidoi5.uucp
+#T	+49 231 755 3030
+#P	Postfach 50 05 00, D-4600 Dortmund 50, W. Germany
+#L	51.29N 07.25E
+#R
+#W	unidoi5!georg	850129
+#
+unidoi5 unido(LOCAL)
+
+
+#N	unidui
+#S	CADMUS 9230 (MUNIX V.2-04)
+#O	Universitaet Duisburg Rechenzentrum
+#C	Andre' Oldenburg, Hans-Dieter Weckmann
+#E	unidui!wo
+#T	+49 203 3792710	 +49 203 3792539
+#P	Lotharstrasse 65, D-4100 Duisburg, W. Germany
+#L	51.26N 06.45E
+#R
+#W	unido!dfk 102385
+#
+unidui unido(WEEKLY)
+
+
+#N	uniknrz
+#S
+#O	Uni Konstanz Rechenzentrum
+#C	Jochen Bruening
+#E
+#T	+49 7531 882410
+#P	Postfach 5560, D-7750 Konstanz, W. Germany
+#L	47.40N 09.10E
+#R	being connected
+#W	unido!dfk 850527
+#
+uniknrz unido(DEAD)
+
+#N	unipas
+#S	SUN
+#O	Universitaet Passau, Fakultaet fuer Mathematik und Informatik
+#C	Michael Breu
+#E	breu@unipas.uucp
+#T	+49 851 509 395
+#P	Postfach 2540, D-8390 Passau, W. Germany       
+#L	48.34N 13.27E       
+#W	hmm@unido 861218
+#
+unipas	unido(HOURLY)
+
+#N	unimuc
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	UniSoft GmbH
+#C	Randall Dow
+#E	unimuc!rand
+#T	+49 89 926908-19 / 926908-0
+#P	Arabellastrasse 30, D-8000 Muenchen 81
+#L	48.05N 15.40E
+#R
+#U	unido
+#W	unimuc!rand ; Thu Jan 15 13:27:00 MET 1987
+unimuc	unido(DEMAND)
+
+#N	uniulm
+#O	Universitaet Ulm, Sektion Informatik
+#C	Ernst Janich
+#E	netadm@uniulm.uucp
+#T	+49 731 {2520,2522}
+#P	Oberer Eselsberg, 7900 Ulm
+#L
+#R	being connected
+#W	ap@unido.uucp	870316
+#
+uniulm	unido(DEAD)
+
+#N	uniwue
+#S	VAX11/750    ULTRIX-32 V.1.0
+#C	Wolfgang Drefenstedt
+#E	uniwue!drefen
+#O	Universitaet Wuerzburg, Lehrstuhl fuer Informatik I
+#T	+49 931 888 5024
+#L      49.47N  9.56E
+#W	ap@unido.uucp	870422
+#
+uniwue	unido(DAILY/2)
+
+
+#N	zti1
+#S	CADMUS/MUNIX (v7/System 3)
+#O	Siemens AG Muenchen, ZTI SOF 41
+#C	Mrs. Ulrike Weng-Beckmann / Paul Wiedemann
+#E	zti1!we / zti1!pw
+#T	+49 89 63644622 / 6362147
+#P	Otto-Hahn-Ring 6, D-8 Muenchen 83, W. Germany
+#L	
+#R	
+#U
+#W	rv@unido.uucp 870526 
+#
+zti1	mcvax(WEEKLY), pcsbst(DAILY), ztivax(DEDICATED)
+
+
+#N	ztivax
+#S	VAX 11/780 (ULTRIX-32)
+#O	Siemens AG, ZTI PPM 22
+#C	Peter Spindler / Wilhelm Methfessel
+#E	ztivax!spindler / ztivax!meth
+#T	+49 89 63644615 / +49 89 6363894
+#P	Otto-Hahn-Ring 6, D-8000 Muenchen 83, W. Germany
+#L
+#R
+#W	ztivax!meth 870220 
+#U	unido, athen, decum, siedap, tumuc
+#
+ztivax	zti1(HOURLY), unido(HOURLY), decum(HOURLY*2), siedap(HOURLY*2), 
+	tumuc(HOURLY*2), athen(DEAD), ecrcvax(DAILY/3)
+
+ztinet = {ztivax, christine, dap312, dv384, ppm22, ztrzsys}!(LOCAL)
+
+SHAR_EOF
+echo shar: extracting u.dmk.1
+cat << \SHAR_EOF > u.dmk.1
+# u.dmk.1; changes to postmaster@diku.uucp
+
+#N      diku,thor,toke,nidhug,heimdal,freja,dkuug
+#S      VAX-11/7xx/4.2BSD, SUN/II, Cromemco/SysV, HyperCube/SysV
+#O      University of Copenhagen, Institute of Datalogy (DIKU)
+#C      S|ren Jensen (system)      Keld Simonsen (contacts)
+#E      sergej@diku                keld@diku
+#T      +45 1 396874               +45 1 120115
+#P      Universitetsparken 1, DK-2100 Copenhagen OE, Denmark
+#L	12 34 E / 55 48 N city
+#R	Danish Backbone
+#U      mcvax ncrsecp olamb daimi eridan alette oldk1 iddth
+#W      keld@diku 870616
+#
+#       Backbone links
+diku	mcvax(ARPA+HIGH), cernvax(ARPA), enea(ARPA), unido(DEAD),
+	tut(DEAD), inria(ARPA),
+	ukc(DEAD), tuvie(DAILY), ircam(DEAD), prlb2(DEAD)
+#	National links
+diku	aauobs(DAILY/2), alette(HOURLY*2), aud(HOURLY), acs(WEEKLY),
+	altsca(DAILY/2), bignum(WEEKLY), bk(HOURLY),
+        cricph(HOURLY), cuobs(DAILY/2),
+        daimi(HOURLY), danmos(DEAD), danru(DEAD), dator(WEEKLY),
+	dcuno(DEAD), dkdec(DEAD),
+	dde(HOURLY), ddc(HOURLY), dfh(HOURLY),
+        eridan(HOURLY), eurotra(DAILY/2), gnsun(HOURLY),
+	flstopk(DAILY/2),
+        hns(DAILY/2), ibt(HOURLY), iccc(DEAD), iesd(HOURLY),
+        iddth(HOURLY*3), kjunix(WEEKLY), kontiki(HOURLY), kmda001(DEAD),
+	kpd(HOURLY), lego(WEEKLY), lisda(WEEKLY), mark1(WEEKLY),
+        ncrsecp(DEAD), nordita(HOURLY),
+        olamb(HOURLY), oldk1(DAILY), rcbaldk(DEAD),
+        sysware(HOURLY), terma2(DEAD)
+
+diku="diku.dikunet", freja
+
+dikunet-relay = diku
+
+dikunet = { diku, thor, nidhug, heimdal, dkuug }!(LOCAL)
+dikunet-relay	diku
+heimdal=dkuug
+
+toke	diku(DEAD)
+
+#N      aauobs
+#S
+#O      Aarhus University, Institute of Astronomics
+#C      S|ren Frandsen
+#E      srf@aauobs
+#T      +45 6 128899
+#P      Langelandsgade, DK-8000 Aarhus C, Denmark
+#L      10 30 E / 55 85 N city
+#R
+#U
+#W      keld@diku 850322
+#
+
+#N      aud
+#S      ULTRIX
+#O      Aalborg University Datacenter
+#C      Jens Lybye
+#E      dajl@aud
+#T      +45 8 138788
+#P      Strandvejen 19, DK-9000 Aalborg, Denmark
+#L	10 20 E / 56 50 N
+#R
+#U
+#W      krus@diku 860104
+#
+
+#N      acs
+#S      AT&T 3B2 300B/ Unix V Rel. 2
+#O      Advanced Computer Software
+#C      Tonny Andersen
+#E      tonny@acs
+#T      +45 2 176346
+#P      Rytterbakken 28 A, 3650 \lstykke
+#L	12 10 E / 55 48 N
+#R
+#U
+#W      keld@diku 870702
+#
+
+#N      alette
+#S      uVAX-II/ULTRIX 32m 1.1
+#O      KTAS/Udvikling,datakommunikation
+#C      Jens Trier Rasmussen
+#E      trier@alette
+#T      +45 1 996744
+#P      N|rregade 21, 1199 K
+#L	12 34 E / 55 48 N city
+#R	
+#U
+#W      krus@diku Aug 13 11:38:56 1986
+#
+
+#N      altsca
+#S      Altos 2086/Xenix 3.3A
+#O      Altos Computer Systems a/s
+#C      Peter Frenning
+#E      peter@altsca
+#T      +45 1 204922
+#P      Marina Park, Sundkrogsgade 6A, 2100 K|behhavn \.
+#L	12 34 E / 55 48 N city
+#R	To be on USENET soon.
+#U
+#W      krus@diku Jun 26 10:09:53 1986
+#
+
+#N      bignum
+#S      Supermax III
+#O      Fondsb|rsvekselerer Rued S|rensen
+#C      Jens Sejer Johansen
+#E      (sejer@bignum)
+#T      +45 1 152515
+#P      Sankt Annae Plads 10, DK-1250 Kbh. K.
+#L	12 34 E / 55 50 N
+#R
+#U
+#W      krus@diku Sep 23 11:14:04 1986
+#
+bignum	diku(DAILY)
+
+#N      bk
+#S      System V
+#O      Bruel & Kjaer
+#C      Andreas Magnussen
+#E      andreas@bk
+#T      +45 2 800500 ext. 595
+#P      Naerum Hovedgade 18, DK-2850 Naerum
+#L	12 34 E / 55 50 N city
+#R
+#U
+#W      krus@diku Jun 16 09:06:28 1986
+#
+
+#N      cricph
+#S      DEC VAX-11/750/Ultrix 1.0
+#O      Computer Resources International A/S
+#C      Holger Hvelplund
+#E      hhv@cricph
+#T      +45 1 131166
+#P      Vesterbrogade 1 A, DK-1620 K|benhavn V
+#L	12 33 E / 55 45 N
+#R
+#U
+#W      keld@diku 850510
+#
+
+#N      cuobs
+#S      Zilog S8000/32/S3 ZEUS 2.21
+#O      University of Copenhagen, Observatory of Astronomics
+#C      Aake Nordlund
+#E      aake@cuobs
+#T      +45 1 141790
+#P      Oester Voldgade 3, DK-1350 Copenhagen K, Denmark
+#L	12 34 E / 55 45 N
+#R
+#W      keld@diku 850114
+#
+
+#N      daimi
+#S      SUN 2/170/4.2BSD
+#O      Dept. of Computer Science, Univ. of Aarhus, Denmark
+#C      Peder Chr. N|rgaard
+#E      postmaster@daimi
+#T      +45 6 128355
+#P      Ny Munkegade 116, DK-8000 Aarhus C, Denmark
+#L	10 30 E / 55 85 N city
+#R
+#U      diku
+#W	krus@diku Oct 7 11:16:49 1986
+#
+
+#N      danmos
+#S      MikroVax I/Ultrix-32m
+#O      Danmos Microsystems Aps
+#C      Leif Jensen
+#E      (leif@danmos)
+#T      +45-2-571188
+#P      Cirkelhuset, Christianshusvej 14, DK-2970 H|rsholm
+#L	12 29 E / 55 68 N
+#R
+#U
+#W      keld@diku 850416
+#
+
+#N      danru
+#S      HP 9000-500/HPUX V.5.05
+#O      Danish Space Research Institute
+#C      M|hl Madsen
+#E      ll@danru
+#T      +45-2-882277
+#P      Lundtoftevej 7, DK-2800 Lyngby
+#L	12 29 E / 55 68 N
+#R
+#U
+#W      krus@diku.dikunet Mar 12 15:48:22 1987
+#
+
+#N      dator
+#S      IBM AT/ Sco Xenix
+#O      DATOR a/s
+#C      Rene Nejsum
+#E      renet@dator
+#T      +45-8-574400
+#P      Storekrogsgade 37
+#L	10 09 E / 56 43 N
+#R
+#U
+#W      krus@diku.dikunet Mar 12 15:51:17 1987
+#
+
+#N      ddc
+#S      Sun 3/160; 4.2BSD UNIX
+#O      Dansk Datamatik Center
+#C      Claus Bendix Nielsen
+#E      postmaster@ddc
+#T      +45 2 87 26 22
+#P      Lundtoftevej 1C, DK-2800 Lyngby, Danmark
+#L	12 29 E / 55 68N
+#R
+#U
+#W      krus@diku Oct 17 09:40:20 1986
+#
+
+#N      dde
+#S      Supermax, sys V & sys III
+#O      Dansk Data Elektronik A/S
+#C      Ken Nielsen
+#E      (ken@dde)
+#T      +45-2-845011
+#P      Herlev Hovedgade 199, 2730 Herlev
+#L	12 25 E / 55 45 N
+#R
+#U
+#W      krus@diku Thu May 15 09:38:03 MET 1986
+#
+
+#N      dcuno
+#S      ??
+#O      I/S Datacentralen
+#C      Peter En| Cordsen
+#E      (root@dcuno)
+#T      +45 1 468122
+#P      Retortvej 6-8, DK-2500 Valby
+#L	12 34 E / 55 48 N city
+#R
+#U
+#W      krus@diku 851016
+#
+
+#N      dfh
+#S      dde supermax, Sys V
+#O      Danmarks Forvaltningsh|jskole
+#C      Birgit Vestergaard
+#E      bobby@dfh
+#T      +45-1-861870
+#P      Lindevangs Alle 6-12, DK-2000 Frederiksberg
+#L	12 30 E / 55 54 N
+#R
+#U
+#W      krus@diku Aug 27 10:53:58 1986
+#
+
+#N      dkdec
+#S      VAX-11/730/Ultrix-32
+#O      Digital Equipment Corp. Danmark A/S
+#C      Karsten Elgaard
+#E      (uucp@dkdec)
+#T      +45-2-889666
+#P      Sandtoften 9,DK-2820 Gentofte
+#L	12 30 E / 55 54 N
+#R
+#U
+#W      keld@diku 850410
+#
+
+#N      eridan
+#S      SUN 1.2
+#O      Ericsson Information Systems A/S
+#C      Jan Hauge
+#E	hauge@eridan
+#T      +45-2-843366
+#P      Generatorvej 8 D, DK-2730 Herlev
+#L	12 10 E / 55 53 N city
+#R
+#U
+#W      krus@diku Jun 16 09:08:50 1986
+#
+
+#N      elctr
+#S      Ultrix-11 V3.0 PDP11/44
+#O      Elektronikcentralen, afd. for datateknik.
+#C      Jens Heile Heilesen
+#E	jhh@elctr
+#T      +45-2-867722
+#P      Venlighedsvej 4, DK-2970 H|rsholm
+#L	12 10 E / 55 53 N city
+#R
+#U
+#W      krus@diku.dikunet Feb 12 12:55:33 1987
+#
+
+#N      eurotra
+#S      VAX 11/750- ULTRIX V.11
+#O      Eurotra DK
+#C      Anders Nygaard
+#E	anders@eurotra
+#T      +45-1-542211 ext. 2650
+#P      Njalsgade 80, DK-2300 Kbh. S.
+#L	12 10 E / 55 53 N
+#R
+#U
+#W      krus@diku Aug 19 15:50:32 1986
+#
+
+#N      flstopk
+#S	SUN 3/160, 4.2 BSD
+#O      F. L. Smidth
+#C      Mogens Levin
+#E      mle@flstopk
+#T      +45 1 30 11 66
+#P      Vigerslev Alle 77, DK-2500 Valby
+#L	12 10 E / 55 53 N
+#W      krus@diku Dec 4 10:52:06 1986
+#
+
+#N      gnsun
+#S      SUN 1.2
+#O      GN Netcom
+#C      Henrik Tuxen
+#E	htx@gnsun
+#T      +45 2 274746, ext. 234
+#P      
+#L	12 10 E / 55 53 N
+#R
+#U
+#W      krus@diku Jul 17 13:40:17 1986
+#
+
+#N      hns
+#S      ??
+#O      Henrik Nielsen Software ApS
+#C      Flemming K. Jensen
+#E      fk@hns
+#T      +45-6-411211
+#P      Kirkegade 13, DK-8900 Randers
+#L	10 02 E / 56 29 N
+#R
+#U
+#W      krus@diku 851016
+#
+
+#N      ibt,ibtz
+#S      Zilog S8000/32, UNIX V.2
+#O      University of Copenhagen, Center for Applied Datalogy
+#C      Keld J. Simonsen
+#E      keld@ibt
+#T      +45 1 120115
+#P      Studiestraede 6 o.g., DK-1455 Copenhagen K, Denmark
+#L	12 34 E / 55 45 N
+#R
+#U
+#W      keld@diku 850114
+#
+ibt     kgb-cad(LOCAL)
+
+#N      iccc
+#S      Zilog S8000/ S3 - Zeus 3.21
+#O      ICCC
+#C      Lars Nybo
+#E      (nybo@iccc)
+#T      +45 2 658094
+#P      J. Andersensvej 8, DK-2760 Maal|v
+#L	12 34 E / 55 48 N city
+#R
+#U
+#W      keld@diku 850312
+#
+
+
+#N      iddth
+#S      Digital uVax II/ ULTRIX 32/v1.1
+#O      Instituttet for datateknik, DTH
+#C      Erik N|rby
+#E      en@iddth
+#T      +45 2 881566 ext. 2864
+#P      DTH Bygning 343 & 344, DK-2800 Lyngby
+#L	12 31 E / 55 47 N
+#R
+#U	diku
+#W      krus@diku Jan 7 15:03:27 1987
+#
+
+
+#N      iesd
+#S      sun/4.2BSD
+#O      Institute for Electronic Systems, Aalborg University Center
+#C      Wladyslaw Pietraszek
+#E      wap@iesd
+#T      +45 8 138788 x 283
+#P      Strandvejen 19, DK-9000 Aalborg
+#L	10 20 E / 56 50 N
+#R
+#U
+#W      keld@diku 850523
+#
+
+#N      kontiki
+#S      Zilog S8000/31+/S3
+#O      Metric A/S
+#C      Kim Biel-Nielsen
+#E      kbn@kontiki
+#T      +45 2 893500
+#P      Skodsborgvej 305, DK-2850 Naerum, Denmark
+#L	12 30 E / 55 65 N
+#R
+#U
+#W      keld@diku 850114
+#
+
+#N      kmda001
+#S      Olivetti 3B2/400
+#O      Kommunedata a/s
+#C      Torben Budtz
+#E      tb@kmda001
+#T      +45 8 13 55 11 / ext. 2121
+#P      Hadsundvej 184, 9100 Aalborg
+#L	09 57 E / 57 02 N
+#R	To be on USENET
+#U
+#W      krus@diku Oct 29 11:25:44 1986
+#
+
+#N      kjunix
+#S      Sperry 5000/40, SysVr2
+#O      Knudsen & Johnsen
+#C      Michael Nielsen
+#E      mn@kjunix
+#T      +45 2 874443
+#P      Caroline Amalievej 139, DK-2800 Lyngby.
+#L	12 29 E / 55 68 N
+#R
+#U
+#W      krus@diku Nov 10 09:55:03 1986
+#
+
+#N      kpd
+#S      Zilog 8000/12, Zeus 3.21
+#O      Kuwait Petroleum Denmark
+#C      Poul-Henning Kamp
+#E      phk@kpd
+#T      +45 1 32 20 85
+#P      Kv{sthusgade 3, DK-1003 K|benhavn K.
+#L	12 35 E / 55 35 N
+#R
+#U
+#W      krus@diku.dikunet Feb 18 10:05:16 1987
+#
+
+#N      lego
+#S      NCR Tower XP/ Unix V 3.02
+#O      Lego Systems a/s
+#C      Erik Krogh
+#E      efk@lego
+#T      +45 5 331188
+#P      Aastvej, DK-7190 Billund, Denmark
+#L	12 30 E / 55 65N
+#R
+#U
+#W      krus@diku Aug 18 14:31:54 1986
+# 
+
+#N      lisda
+#S      dde - rack/ UNIX V
+#O      Generaldirektoratet for P&T, 3. styringsafdeling - LISDA
+#C      Jan Vibholm
+#E      jvp@lisda
+#T      +45 1 422277 / 300 (trykknapvalg)
+#P      \stbanegade 83, 4, postboks 2575, DK-2100 K|benhavn \
+#L      12.35 E / 55.32 N
+#R
+#U
+#W      keld@diku 870629
+# 
+
+#N	mark1
+#S	Microforce motorola 68000
+#O	Markussen International a/s
+#C	Kim R. Pedersen
+#E	kimrp@mark1
+#T	+45 1 357066
+#P	N|rrebrogade 66-68b
+#L	12 35 E / 55 47 N
+#R
+#U
+#W	krus@diku Jul 28 9:18 1986
+#
+
+#N	nbivax
+#S	VAX 8600 (VMS)
+#O	Niels Bohr Institute
+#C	Bj|rn Nilsson
+#E	nilsson@nbivax
+#T	+45 1 421616
+#P	Blegdamsvej 17, DK-2100 Copenhagen \
+#L	12 35 E / 55 47 N
+#R
+#U
+#W	krus@diku May 28 11:08:02 1986
+#
+
+#N	ncrsecp
+#S      Tower OS (V7 based)/NCR Tower 1632
+#O      NCR Systems Engineering, Copenhagen
+#C      ??
+#E      
+#T      +45 1 330022
+#P      Svanevej 14, 2400 Kbh. NV.
+#L	12 35 E / 55 48 N
+#R
+#U      diku
+#W      keld@diku 850114
+#
+
+#N      nordita,norditb
+#S	SUN Microsystems 1/100U
+#O      NORDITA (Nordic Institute of Theoretical Physics)
+#C      Ole Holm Nielsen
+#E      postmaster@nordita
+#T      +45 1 421616
+#P      Blegdamsvej 17, DK-2100 Copenhagen \
+#L	12 35 E / 55 47 N
+#R
+#U
+#W      krus@diku May 28 11:01:39 1986
+#
+nordita norditb(LOCAL), nbivax(LOCAL)
+
+#N      oldk1
+#S      3b2/400, sys V.2
+#O      Olivetti, Denmark
+#C      Peter Jeppesen
+#E      pwj@oldk1
+#T      +45 1 201000, ext. 307
+#P      Lersoe Park Alle 107, DK-2100 KBH. OE
+#L	12 24 E / 55 63 N
+#R
+#U      
+#W      krus@diku Thu May 15 09:50:27 MET 1986
+#
+
+#N	olamb
+#S	AT&T 3B2/400; System V
+#O	AmbraSoft A/S (Sales & Marketing dept.)
+#C	Kim Chr. Madsen
+#E	postmaster@olamb
+#T	+45 2 424 111
+#P	Rojelskjaer 15, DK-2840 Holte
+#L	12 20 E / 55 55 N city
+#R
+#U	diku
+#W	olamb!kimcm (Kim Chr. Madsen); Fri Sep 19 10:48:09 DST 1986
+olamb	ambra(DIRECT), oldk1(DEMAND), diku(HOURLY), olgb1(DAILY)
+
+#N	ambra (former: olambu)
+#S	AT&T 3B2/400; System V.2.0.4
+#O	AmbraSoft A/S (Development Dept.)
+#C	Kim Chr. Madsen
+#E	postmaster@olamb.UUCP, kimcm@olamb.UUCP
+#T	+45 2 424 111
+#P	Rojelskaer  15, DK-2840 Holte, Denmark
+#L	12 20 E / 55 55 N city
+#R
+#U
+#W	olamb!kimcm (Kim Chr. Madsen); Wed Apr 29 15:18:36 DNT 1987
+ambra	olamb(DIRECT)
+
+#N      rcbaldk
+#S	RC39 Xenix 3
+#O      Regnecentralen, BasisSoftware-Udvikling
+#C      Brian Eberhardt
+#E      brian@rcbaldk
+#T      +45 2 658000 ext.205
+#P      Lautrupbjerg 1, DK-2750 Ballerup, Denmark
+#L      12 14 E / 55 50 N
+#R
+#U
+#W      krus@diku Nov 11 11:22:25 1986
+#
+
+#N      sysware
+#S
+#O      Sysware Aps
+#C      Niels Baggesen
+#E      nb@sysware
+#T      +45 6 102055
+#P      Tordenskjoldsgade 23 A, DK-8000 ]rhus C
+#L	10 30 E / 55 85 N
+#R
+#U
+#W      keld@diku 850524
+#
+
+#N      terma2
+#S      VAX 11/750 4.2BSD
+#O      TERMA Elektronik, Software Division
+#C      Jeppesen
+#E      dkuug@terma2
+#T      +45 6 222000
+#P      Hovmarken 4, DK-8520 Lystrup
+#L	10 20 E / 56 50 N city
+#R
+#U
+#W      krus@diku Oct 7 11:14:08 1986
+#
+SHAR_EOF
+#	End of shell archive
+e8micDe

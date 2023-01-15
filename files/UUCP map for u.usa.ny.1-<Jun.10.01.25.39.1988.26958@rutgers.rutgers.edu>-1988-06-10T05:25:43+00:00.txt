@@ -1,0 +1,888 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ny.1
+: This archive created: Fri Jun 10 01:25:25 1988
+echo shar: extracting u.usa.ny.1
+cat << 'SHAR_EOF' > u.usa.ny.1
+#MAP FILE: u.usa.ny.1   Tue May 31 08:52:32 EDT 1988   rob@philabs.philips.com
+#
+#
+
+#N	acheron
+#S	IBM RT/PC; 4.3 BSD UNIX
+#O	Ciliophora Associates
+#C	Edward P. Clarke
+#E	acheron!postmaster
+#T	+1 914 945 2630
+#P	Garlen Road, Katonah NY 10536
+#L	41 15 N/ 73 42 W city
+#R	Big time now! A branch instead of a leaf node!!
+#U	phri trotter bywater
+#W	acheron!clarke (Ed Clarke); Mon Apr 25 00:38:07 EDT 1988
+#
+# hindin is mail only, no news feed (ATT UnixPC)
+# bywater is a leaf node, no passthru
+# trotter will be upgrading soon to 2400 from 1200
+# styx and P3 are lan connected machines
+# larouch is a remote RT/PC
+#
+acheron <bywater>(DIRECT), phri(DAILY), trotter(DAILY+LOW),
+	styx(LOCAL), p3(LOCAL), <hindin>(DAILY),
+	<larouch>(DEMAND)
+
+#N	acsm
+#S	Megadata 8300/7 UNIX System V
+#O	Aikido Computer Systems, Ltd.
+#C	Victor I. Poon,	       Jon B. Biavati
+#E	acsm!victor,	       acsm!jon
+#T	+1 (516) 385-9116 (VOICE-WORK)
+#P	150 Broad Hollow Rd., Melville, NY 11747
+#L	40 48' N / 70 25' W
+#U	dasys1 noether
+#R	Custom design equipment for toll collection facilities
+#W	acsm!victor (Victor I. Poon) ; Mon May 16 18:37:59 EDT 1988
+#
+acsm	dasys1(DEMAND),	    icus(DEMAND),     mozart(EVENING),
+	noether(DEMAND)
+
+#N	actnyc
+#S	Pyramid 9820; OSx 4.0
+#O	InterACT Corporation
+#C	Michael F. Biniasz
+#E	actnyc!mfb
+#T	+1 212 696 3638
+#P	16 East 32nd Street, New York, New York 10016
+#L	40 44 55 N / 73 58 20 W
+#R	InterACT was formerly known as Advanced Computer Techniques (ACT)
+#U	uunet 
+#W	actnyc!mfb (Michael F. Biniasz); Mon Sep 22 17:35:00 EDT 1987
+#
+actnyc		uunet(DEMAND)
+
+#N	adiron
+#S	DEC VAX-11/780; 4.3BSD UNIX
+#O	PAR Technology Corp.
+#C	Tish Todd, John Lietz
+#E	adiron!tish, adiron!jl, adiron!postmaster 
+#T	+1 315 738 0600
+#P	220 Seneca Turnpike, New Hartford, NY 13413
+#L	43 04 N / 75 18 W city
+#R	
+#U
+#W	adiron!tish (Tish Todd);  Mon Apr 25 20:40:53 EST 1988
+#
+adiron	wucs2(DAILY+EVENING), duke(WEEKLY+EVENING)
+
+#N	albanycs
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	SUNY at Albany, Computer Science Dept.
+#C	Peter Bloniarz
+#E	albanycs!pb
+#T	+1 518 442 4277
+#P	SUNY at Albany, Computer Science Dept., Albany, NY 12222
+#L	73 48 47 W / 42 45 44 N
+#R	This is also albany.edu on the CSNET
+#U	steinmetz sbcs unioncs leah
+#W	albanycs!qll (Quei-Len Lee); Tue Apr 07 08:57:00 EST 1987
+#
+albanycs	unioncs(DAILY/3), sbcs(DAILY/2),
+	albpdp(DEDICATED), leah(LOCAL), steinmetz(DAILY),
+	cssun(LOCAL), geogsun(LOCAL)
+
+#N	alps
+#S	AT&T PC6300 PLUS, System V, Rel. 2.5 / MSDOS 3.1
+#O	American LP Systems, Inc.
+#C	Leonard B. Tropiano
+#E	quincy!alps!lenny
+#T	+1 (516) 582-5525
+#P	1777-18 Veterans Memorial Hwy, Islandia, NY 11722
+#L	40 degrees, 49' N / 73 degrees, 11' W
+#R	AT&T VAR - Development System for "The Centurion Fuel-Oil/LP Gas System"
+#U
+#W	quincy!alps!lenny (Leonard B. Tropiano) ; Sun Aug  9 14:33:49 EDT 1987 
+#
+# System moved out of the building, no link is available at this time.
+#
+alps	quincy(DEAD)
+
+#N	amvax
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Cornell University, Center For Applied Math
+#C	Douglas Flanagan
+#E	amvax!flanagan
+#T	+1 607 255 5354
+#P	229 Newman Lab, Cornell University, Ithaca, NY 14853
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPA net: amvax.tn.cornell.edu
+#U
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:51:06 EST 1988
+#
+amvax	cornell(LOCAL)
+
+#N	asrcmv
+#S	DEC Microvax II; Ultrix
+#O	Atmospheric Sciences Research Center (ASRC)
+#C	Robert D. Seals
+#E	asrcmv!usenet
+#T	+1 518 442 3828
+#P	100 Fuller Road, Albany, NY, 12205
+#L	42 42 N / 073 50 W
+#R
+#U	leah
+#W	philabs!rob ; Mon May 23 10:14:39 EDT 1988
+#
+asrcmv	leah(LOCAL), pnl-geo(DAILY)
+
+#N	batcomputer
+#S	GOULD 9050; UTX/32 UNIX
+#O	Cornell University, Cornell Theory Center
+#C	Scott Brim
+#E	batcomputer!uucp, batcomputer!swb
+#T	+1 607 255 8686
+#P	274 Olin Hall, Ithaca, NY 14853
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPA net: tcgould.tn.cornell.edu
+#U	cornell
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:51:06 EST 1988
+#
+batcomputer = batcomp
+batcomputer	cornell(LOCAL), gould(DAILY), pyramid(DAILY),
+		oswego(DAILY), rpicml(DAILY)
+
+#N	bc-ccm
+#S	Sun 42.BSD Unix.
+#O	Brooklyn College of CUNY, Music Dept.
+#C	Curtis Bahn
+#E	bc-ccm!postmaster
+#T	+1 718 780 5905
+#P	Bedford Ave. & Ave. H, Brooklyn, NY 11210.
+#L	40 43 N / 74 01 W city
+#R
+#U
+#W	bc-cis!raanan (Raanan Herrmann); Sun Mar 20 15:21:55 EST 1987
+#
+#	removed cubsvax, rob@philabs.philips.com ; Thu Apr 28 14:52:17 EDT 1988
+#
+bc-ccm	bc-cis(DIRECT), winnie(DAILY), mit-ems(DAILY), pyrnj(DAILY),
+	philabs(DIRECT), ur-esm(DIRECT) 
+
+#N	bc-cis
+#S	VAX 780/11 42.BSD Unix.
+#O	Brooklyn College of CUNY.
+#C	Raanan Herrmann
+#E	bc-cis!postmaster
+#T	+1 718 780 5905
+#P	Bedford Ave. & Ave. H, Brooklyn, NY 11210.
+#L	40 43 N / 74 01 W city
+#R
+#U	phri
+#W	bc-cis!raanan (Raanan Herrmann);Jun 24 15:21:55 EST 1987
+#
+bc-cis	delftcc(DIRECT), phri(DIRECT), bc-ccm(DIRECT), french(DAILY),
+	gor(DAILY), ccnysci(DAILY), pencom(DAILY), dasys1(DAILY),
+	chasefrs(DAILY), pluto(DAILY)
+
+#N	beowulf
+#S	Tandy/Radio Shack Model II/6000;TRS-Xenix 3.2
+#O	Function Consulting
+#C	Robert M. Bownes III
+#E	beowulf!bownesrm
+#T	+1 518 482 8798
+#P	3A Pinehurst Avenue, Albany Ny. 12203
+#L	73 48 17 W / 42 45 14 N
+#R	Anonymous uucp login is available 518-482-9228
+#R	I'm also willing to take on more uucp feeds (but you gotta pick up
+#R	the postage)
+#W	beowulf!bownesrm (R.M. Bownes); 05/11/88
+#U	brspyr1,steinmetz,leah
+#
+beowulf albanycs(HOURLY), leah(HOURLY), steinmetz(HOURLY), sunbow(DEAD),
+	hal6000(DAILY), brspyr1(HOURLY), aulefort(HOURLY), sixhub(HOURLY)
+
+#N	bogie
+#S	AT&T 3B1/UNIX PC, System V, Rel. 3.51a
+#O	American LP Systems, Inc.
+#C	Leonard B. Tropiano,   Dennis W. Koncelik
+#E	quincy!bogie!lenny,    quincy!bogie!dennis
+#T	+1 (516) 582-5525
+#P	1777-18 Veterans Memorial Hwy, Islandia, NY 11722
+#L	40 degrees, 49' N / 73 degrees, 11' W
+#R	AT&T VAR - Development System for "The Centurion Fuel-Oil/LP Gas System"
+#U
+#W	quincy!bogie!lenny (Leonard B. Tropiano) ; Thu Apr 21 16:24:50 EDT 1988
+#
+bogie	quincy(DEDICATED),  sweetp(DEDICATED),	icus(DEMAND)
+
+#N     boris
+#S     DEC PDP-11/73; 2.9 BSD UNIX (CSS/Harvard update)
+#O     Instructional Computing Center, SUNY College at Oswego, Oswego NY
+#C     Ed Beadel
+#E     oswego!usenet
+#T     +1 315 341 3055
+#P     12 Snygg Hall, SUNY College at Oswego, Oswego, NY 13126
+#L	76 31 W / 43 27 N city
+#R     An Internet nonconnected site, LAN ethernet, oswego is the gateway
+#U
+#W     oswego!beadel (Ed Beadel); Mon Jan 11 19:45:48 EST 1988
+#
+boris = boris.oswego.edu
+boris	oswego(LOCAL)
+
+#N	brazil
+#S	AT&T 3b2/300; Sys V.3
+#O	Rensselaer Polytechnic Institute  ACM
+#C	Dana Jacobsen
+#E	brazil!ghost
+#T	+1 518 271 0750
+#P	2214 12th Street, Troy, NY 12180
+#L	73 46 30 W / 42 49 37 N
+#R	
+#U	itsgw
+#W	brazil!ghost (Dana Jacobsen); Wed Jun 29 20:28:00 EDT 1987
+#
+brazil	itsgw(HOURLY)
+
+#N	brsug
+#S	Sperry 5000/60; System V.2
+#O	BRS North American User's Group
+#C	Stephen Campbell
+#E	dartvax!steve
+#T	+1 603 646 2643
+#P	HB 6028, Hanover, NH 03755
+#L	73 45 W / 42 45 N
+#W	dartvax!steve (Stephen Campbell); Thu Apr 14 10:00:00 EDT 1988
+#R	The Group is open to users of Bibliographic Research Services'
+#R	text retrieval database software.  Contact BRS for details.
+#R	The machine is on permanent loan to BRSUG and is in Lathem, NY.
+#
+#	UUCP connectivity for brsug
+#
+brsug	brspyr1(HOURLY*2), brscci(HOURLY*2), dartvax(DAILY)
+
+#N	bsadrc
+#S	UNIX PC
+#O	
+#C	Darrel Carver
+#E	bsadrc!drc
+#T	+1 914 761 7941
+#P	299 South Lexington, White Plains, NY 10606
+#L	41 02 N / 73 46 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Tue May	 3 13:17:12 EDT 1988
+#U
+#
+bsadrc	uunet(DEMAND)
+
+#N	bywater
+#S	RT-PC;4.3BSD
+#O	IBM TJ Watson Research Center
+#C	Marc Donner
+#E	bywater!root
+#T	+1 914 945 2032
+#P	Rt. 134, P.O. Box 218, Yorktown Heights, NY 10598
+#L	41 02 N / 73 46 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Wed Apr 27 16:30:04 EDT 1988
+#U
+#
+bywater uunet(DEMAND)
+
+#N	cald80
+#S	CODATA 3300; Version 7 UNISYS
+#O	Calspan Advanced Technology Center, Department 80
+#C	Robert M. Meyer, Tom J. Jasinski
+#E	cald80!bob, cald80!tjj
+#T	+1 716 632 7500
+#P	4455 Genesee Street, Buffalo, NY 14225
+#L	78 47 W / 43 00 N (CITY)
+#R
+#U	sunybcs
+#W	cald80!bob ; Wed Jun  3 09:22:11 EDT 1987
+#
+cald80	sunybcs(DEMAND), calc3i(DEMAND), vlf780(POLLED), tirf(POLLED)
+cald80	sigmast(POLLED)
+
+#N	calico
+#S	MULTIBUS development system; UNIX System V Release 2.2
+#O	Recognition Research Corp.
+#C	Larry Lippman
+#E	calico!larry
+#T	+1 716 688 1231, +1 716 741 3900
+#P	5655 Newhouse Road, East Amherst, NY 14051
+#L	78 40 W / 43 00 N
+#R	Development of industrial process control applications
+#U	kitty
+#W	calico!larry (Larry Lippman); Sat Nov 14 11:00:18 EST 1987
+#
+calico	kitty(DEDICATED)
+
+
+#N	canisius
+#S	DEC VAX 11/750; 4.3 BSD UNIX
+#O	Canisius College Computer Science Department
+#C	Mike Szymendera
+#E	canisius!mikey, canisius!usenet, canisius!postmaster
+#T	+1 716 883 7000 x697; +1 716 883 7000 X413
+#P	2001 Main Street, Buffalo, New York   14208
+#L	78 51 10 W / 42 55 32 N
+#R	We are also 'canisius@CSNET-relay'
+#U	sunybcs,daemen,cccvms,notnats,west,itech1,itech2,ames,sigmast
+#W	canisius!mikey (Mike Szymendera); Sat Aug 22 15:03:31 EDT 1987
+#
+canisius	sunybcs(HOURLY*3), daemen(HOURLY*3), cccvms(DEDICATED),
+		ames(DAILY/2), itech1(POLLED), notnats(DEDICATED),
+		sigmast(DAILY), itech2(POLLED)
+# Site Listing 
+# sunybcs - SUNY/Buffalo Computer Science, Amherst, NY 
+# daemen  - Daemen College, Buffalo, NY
+# cccvms  - Canisius College Computer Center, Buffalo, NY
+# ames	  - NASA Ames Research Center, Moffet Field, CA
+# itech1  - Ingram Software, Buffalo, NY
+# itech2  - Ingram Software, Buffalo, NY
+# notnats - Canisius College Chemistry Dept., Buffalo, NY
+# sigmast - Sigma Systems, Inc., Buffalo, NY
+#
+#	not listed due to possible name conflict.
+#			rob@philabs   Mon Nov 23 1987
+#
+# west	  - Frontier Science Research, Inc., Amherst, NY
+
+#N	cci44
+#S	DEC PDP-11/44;	2.9bsd
+#O	Computer Consoles, Inc., Communications Systems Development
+#C	Dan Hazekamp, Susan Micciche 
+#E	rochester!cci632!djh, rochester!cci632!susan
+#T	+1 716 482 5000
+#P	97 Humbolt St., Rochester, NY 14609
+#L	43 10 N / 77 36 W city
+#R
+#W	cci632!djh (Dan Hazekamp); Wed Sep 30 11:14:35 EDT 1987
+#
+cci44	cci632(DEDICATED)
+
+#N	cci632, ccird1
+#S	CCI POWER 632;	4.2bsd
+#O	Computer Consoles, Inc., Communications Systems Development
+#C	Dan Hazekamp, Susan Micciche 
+#E	rochester!cci632!djh, rochester!cci632!susan
+#T	+1 716 482 5000
+#P	97 Humbolt St., Rochester, NY 14609
+#L	43 10 N / 77 36 W city
+#R	cci632 is the gateway to the outside world; 4.3BSD UUCP
+#U	ccicpg ritcv sjfc walden bcbs chiron
+#W	cci632!djh (Dan Hazekamp); Wed Sep 30 11:14:35 EDT 1987
+#
+cci632	cci44(DEDICATED), ccicpg(DEDICATED), rlgvax(DEDICATED),
+	tropix(DIRECT), ritcv(DIRECT), rochester(DIRECT), sjfc(DIRECT),
+	bcbs(DIRECT), rayssd(DEMAND+10), walden(POLLED), chiron(POLLED)
+#
+CCINET = {cci632, ccird1, ccird2, ccird3, ccird4, op632}(LOCAL)
+
+#N	ccird2, ccird4
+#S	DEC VAX 11/780;	 4.3bsd
+#O	Computer Consoles, Inc., Communications Systems Development
+#C	Dan Hazekamp, Susan Micciche 
+#E	rochester!cci632!djh, rochester!cci632!susan
+#T	+1 716 482 5000
+#P	97 Humbolt St., Rochester, NY 14609
+#L	43 10 N / 77 36 W city
+#R
+#W	cci632!djh (Dan Hazekamp); Wed Sep 30 11:14:35 EDT 1987
+#
+ccird2	CCINET
+ccird4	CCINET
+
+#N	ccird3, op632
+#S	CCI POWER 632;	SYS V
+#O	Computer Consoles, Inc., Communications Systems Development
+#C	Dan Hazekamp, Susan Micciche 
+#E	rochester!cci632!djh, rochester!cci632!susan
+#T	+1 716 482 5000
+#P	97 Humbolt St., Rochester, NY 14609
+#L	43 10 N / 77 36 W city
+#R
+#W	cci632!djh (Dan Hazekamp); Wed Sep 30 11:14:35 EDT 1987
+#
+ccird3	CCINET
+op632	CCINET
+
+#N	ccnysci
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	City College of New York
+#C	Dan Schlitt
+#E	ccnysci!postmaster
+#T	212 690 6866, 212 690 6868
+#P	Convent Avenue and 138th Street; New York, NY 10031
+#L	latitude / longitude
+#R	City College of New York Science Computing Facility
+#U	cucard
+#W	ccnysci!dan (Dan Schlitt); Fri Aug 21 14:57:00 EDT 1987
+#
+ccnysci cucard(DIRECT), likewise(DEMAND+HIGH), physics(DEMAND),
+	charm(DEMAND), bc-cis(DIRECT), happy(DEMAND),philabs(DEMAND),
+	ccnylax(DEDICATED),phri(DIRECT)
+
+#N	challenger
+#S	DEC PDP-11/70 ; 2.9.1 BSD UNIX (seismo)
+#O	Computer Science House @ Rochester Institute of Technology
+#C	Bob Armstrong
+#E	ritcsh!news
+#T	+1 716 475 3305
+#P	25 Andrews Memorial Drive, CPU 861, RIT, Rochester, NY, 14623
+#L	43 10 N / 77 36 W city
+#R	Student Organization in the Residence Halls -- Research
+#R	Currently porting 4.3 BSD UNIX to a Fairchild Clipper-based system.
+#U	
+#W	ritcsh!boba (Bob Armstrong) ; Wed Jun  3 12:37:20 EDT 1987
+#
+challenger	ritcsh(HOURLY)
+
+#N	chiron
+#S	AT&T 3B1 67/2; UNIX System V  PC Enhanced Version 3.51
+#O	None
+#C	Jon L. Griffeth
+#E	chiron!jon
+#T	+1 716 425 4372
+#P	16 Teakwood Lane, Fairport, NY 14450
+#L	43 04 40 N / 077 25 21 W
+#R	None
+#W	chiron!jon (Jon L. Griffeth); Tue Sep 15 18:24:00 EDT 1987
+#U	cci632
+chiron	cci632(DAILY)
+
+#N	cjmmjr
+#S	Atari 520ST; GEMDOS
+#O	EAH Associates
+#C	Charles McGuinness
+#E	cjmmjr!postmaster
+#T	+1 212 505 9352
+#P	250 Mercer, NY NY 10012
+#L	40 45 N / 73 59 W
+#R
+#U
+#W	cjmmjr!postmaster (Charles McGuinness) ; Thu Sep  3 21:49:00 EDT 1987
+#
+cjmmjr	phri(DIRECT)
+
+#N	clara
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Matrix Instruments Inc.
+#C	Michael J. Aramini
+#E	clara!aramini
+#T	+1 914 365 1990
+#P	1 Ramland Road, Orangeburg, NY 10962
+#L	41 2 N / 73 59 W
+#R
+#U
+#W	clara!aramini (Michael J. Aramini); Mon Jul 13 11:24:43 EDT 1987
+#
+clara	anna(LOCAL), betty(LOCAL), diana(LOCAL), eve(LOCAL), rutgers(DAILY)
+
+#N     cloy
+#S     DEC PDP-11/73; 2.9 BSD UNIX (CSS/Harvard update)
+#O     Instructional Computing Center, SUNY College at Oswego, Oswego NY
+#C     Ed Beadel
+#E     oswego!usenet
+#T     +1 315 341 3055
+#P     12 Snygg Hall, SUNY College at Oswego, Oswego, NY 13126
+#L     76 31 W / 43 27 N city
+#R     An Internet nonconnected site, LAN ethernet, oswego is the gateway
+#U
+#W     oswego!beadel (Ed Beadel); Mon Jan 11 19:45:48 EST 1988
+#
+cloy = cloy.oswego.edu
+cloy	oswego(LOCAL)
+
+#N	cmcl2
+#S	VAX 11/785, 4.2 BSD UNIX
+#O	New York University
+#C	Gary J. Rosenblum
+#E	cmcl2!rosenblg
+#T	(212) 460-7287
+#P	251 Mercer Street, New York, NY	 10012
+#L	40 45 06 N / 73 59 39 W
+#R	This is also NYU.ARPA [26.0.0.58] on the ARPA Internet.
+#U	acf2 acf3 acf4 acf5 acf8 csd1 csd2 harvard lanl nybcb nyu-tut 
+#U	philabs phri rna
+#W	stargate!tgt (Tim Thompson); Fri Jun  5 12:08:13 EDT 1987
+#
+cmcl2	acf2(LOCAL), acf3(LOCAL), acf4(LOCAL), acf5(LOCAL), acf8(LOCAL),
+	alaya(WEEKLY), allegra(DEMAND), arizona(DEMAND), astrovax(DEMAND),
+	bay(DIRECT), bnl(DEMAND), cornell(EVENING), cadre(DEMAND),
+	cbosgd(DEMAND), clyde(DEMAND), crtvax(DEMAND),
+	csd1(LOCAL), csd2(LOCAL), cucard(DIRECT), delftcc(DIRECT),
+	floyd(DEMAND), gekbsvax(DEMAND),
+	harpo(DEMAND), harvard(DEDICATED), hipl(DIRECT), hp-pcd(DEMAND),
+	ihnp4(DEMAND), kidder(DIRECT), lanl(DEMAND), lanl-pd(DEMAND),
+	lbl-csam(DEDICATED), lbl-g(DEDICATED), lbl-h(DEDICATED),
+	lbl-ws(DEDICATED), lh02(DEMAND), lhavax(DIRECT), ll-xn(DEDICATED),
+	mcb(WEEKLY), medved(WEEKLY), mfci(DEMAND), nybcb(DIRECT),
+	nyu-tut(LOCAL), peri(EVENING), philabs(EVENING), phri(DIRECT),
+	presby(DEMAND), princeton(DEMAND), psuvax1(DEMAND), pyramid(DEMAND),
+	pyrnj(DEMAND), research(DEMAND), rlgvax(DEMAND), rna(DIRECT),
+	rochester(DEDICATED), rocky2(DIRECT), ron1(DIRECT), rutgers(DEDICATED),
+	sbcs(WEEKLY), sri-iu(DEDICATED), sunrise(DEMAND),
+	uiucdcs(DEDICATED), ultra1(WEEKLY), xp(DIRECT)
+
+#N	cornell
+#S	MicroVax II; Mt. Xinu Unix 4.3
+#O	Cornell University, Computer Science Dept.
+#C	Dean Kraftt
+#E	cornell!adm, cornell!dean
+#T	+1 607 255 9214, +1 607 255 9184
+#P	4119 Upson Hall, Ithaca, NY 14853-7501
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPANET:	 wrath.cs.cornell.edu
+#U	svax,gvax,hp1,calvin,batcomputer,rochester,uw-beaver
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:58:58 EST 1988
+#
+cornell=bullwinkle
+cornell gvax(LOCAL), svax(LOCAL), amvax(LOCAL), mscbtc(LOCAL),
+	batcomputer(LOCAL), lnsvax(LOCAL), tesla(LOCAL), rochester(DIRECT),
+	uw-beaver(DIRECT), oravax(POLLED)
+
+#N	cpmain
+#S	Altos 2086; Xenix 3.4b
+#O	Career Placement Services Inc.
+#C	Michael R. Johnston
+#E	cpmain!mrj
+#T	+1 516 683 6000
+#P	1600 Stewart Avenue, Westbury, N.Y. 11590
+#L	
+#R	Employment service.
+#U	dasys1
+#W	cpmain!mrj ; Mon May  2 13:32:45 EDT 1988
+#
+cpmain dasys1(DIRECT)
+
+#N	crdos1
+#S	IBM AT; Xenix/286 v2.1.3
+#O	GE Corporate R&D Center
+#C	Bill Davidsen
+#E	crdos1!davidsen
+#T	+1 518 387 6489
+#P	Box 8, KW C206; Schenectady NY 12345
+#L	42 49 37 N / 73 52 30 W
+#R	
+#U	steinmetz
+#W	crdos1!davidsen; May 24, 1988
+#
+crdos1	steinmetz(LOCAL), bsu-cs(DEMAND+HIGH), spdcc(DEMAND),
+	sixhub(DIRECT), chinet(DEMAND+HIGH), alphacm(DEMAND+HIGH),
+	ncoast(DEMAND), rpp386(DEMAND+HIGH), skeeve(DEMAND+HIGH),
+	magpie(POLLED+HIGH), omen(DEMAND), snark(DAILY), skeeve(DAILY)
+
+#N	crplabs
+#S	IBM AT; SCO XENIX 2.2
+#O	CIBA-GEIGY Corp. Dept. of Coatings, Radiation Curing & Photo Imaging 
+#C	Gary Mitchell Blumenstein
+#E	crplabs!garyb
+#T	+1 914 478 3131
+#P	444 Saw Mill River Rd.; Ardsley, NY 10502
+#L	40 59 N / 73 50 W
+#R	Technical Service and Developmental Laboratories
+#U
+#W	crplabs!garyb (Gary M. Blumenstein); Thu Apr 7 20:21:56 EDT 1988
+#
+crplabs gallium(DEMAND), crpmks(LOCAL), gaboon(DEMAND), wizkid(DAILY)
+
+#N	crpmks
+#S	Compaq DP386/20; SCO XENIX-386 2.2.2
+#O	CIBA-GEIGY Corp. Dept. of Coatings, Radiation Curing & Photo Imaging 
+#C	Gary Mitchell Blumenstein
+#E	crpmks!sysadm
+#T	+1 914 478 3131
+#P	444 Saw Mill River Rd.; Ardsley, NY 10502
+#L	40 59 N / 73 50 W
+#R	Marketing / Sales & Management (Relocating to Hawthorne N.Y. soon)
+#U
+#W	crpmks!sysadm (Gary M. Blumenstein); Thu Apr 7 20:21:56 EDT 1988
+#
+crpmks	gallium(DAILY), crpmks(LOCAL), gaboon(DAILY)
+
+#N	cucard
+#S	Vax 750, 4.3BSD
+#O	Columbia University, College of P & S
+#C	Reidar Bornholdt
+#E	cucard!reidar
+#T	(212) 305-3411
+#P	630 W. 168 St., New York City, NY
+#L	
+#U	rocky2 proexam ccnysci dasys1
+#R	Dept. of Medicine, div. of Cardiology.
+#W	rob@philabs.philips.com ; Wed Jan 6 10:28:46 EST 1988
+#
+#	removed cubsvax, rob@philabs.philips.com ; Thu Apr 28 14:52:17 EDT 1988
+#
+cucard	cmcl2(DIRECT), columbia(DIRECT), cuhhca(DIRECT),
+	cuchmc(DIRECT), aecom(DIRECT), hombre(POLLED),
+	ccnysci(DIRECT), rocky2(DIRECT), dasys1(DIRECT),
+	cuphar(POLLED), luna(DAILY), proexam(POLLED), phri(DIRECT)
+
+#N	cuphar
+#S	MuVax II, Ultrix 1.1
+#O	Columbia University, College of P & S
+#C	Reidar Bornholdt
+#E	cucard!reidar
+#T	(212) 305-3411
+#P	630 W. 168 St., New York City, NY
+#L	
+#U	
+#R	Dept. of Pharmacology.
+#W	rob@philabs.philips.com ; Wed Jan 6 10:28:46 EST 1988
+#
+cuphar	cucard(DIRECT)
+
+#N	cygnus
+#S	SUN 3/260; Sun UNIX 4.2 Release 3.5
+#O	Eastman Kodak Company - Information Services - Tech Support
+#C	Charles R. Dennett
+#E	cygnus!postmaster
+#T	+1 716 726 4480
+#P	Building 2-Floor 1, Dept 407, Elmgrove Plant, Rochester, NY 14653-5219
+#L	43 09 07 N / 77 44 04 W
+#R	Map updated with connectivity info and minor #O & #P changes.
+#R	E-mail only.  No Usenet at this time.
+#W	cygnus!dennett (Charles R. Dennett); Wed May 2 11:45:00 EDT 1988
+#
+cygnus	kodak(DIRECT),	hawkeye(DIRECT+HIGH)
+
+#N	dasys1
+#S	Stride Micro 460; UniStride 1.0.1 (Sys.V)
+#O	The Big Electric Cat
+#C	Robert Sweeney
+#E	dasys1!rsweeney
+#T	+1 716 838 3696
+#P	72 East End Avenue #2N, New York, NY 10028
+#L	73 59 35 W / 40 43 53 N
+#R	'dasys1' is a public-access Unix system located in New York City.
+#R	New users are welcome - dialin at (212) 879-9031.
+#R	We are willing to provide mail and news links to anyone who will
+#R	poll us - send email if interested.
+#U	bc-cis cooper cucard hoptoad orville pluto
+#R	We participate in the 'altnet'.
+#W	dasys1!rsweeney (Robert Sweeney); Thu Oct 1, 1987
+#
+dasys1	cooper(POLLED), cucard(DIRECT), bc-cis(DIRECT), hoptoad(EVENING),
+	phri(DEMAND), orville(POLLED), pluto(POLLED), icus(POLLED),
+	raspi(POLLED), magpie(POLLED)
+
+#N	dcrng1
+#S	Gould Powernode 9050; UTX 2.0 (4.3 BSD)
+#O	Defense Contract Administration Services Region New York
+#C	Calvin Bass
+#E	dcrng1!postmaster
+#T	+1 212 807 3396
+#P	DCASR NY-Z, 201 Varick St, New York, NY 10014-4811
+#L	40 48 N / 73 59 W city
+#R	Component organization of the U. S. Defense Logistics Agency
+#U	dsacg1
+#W	dsacg1!jroth (Jeff Roth); Thu Apr 28 14:18:48 EDT 1988
+#
+dcrng1	dsacg1(HOURLY)
+
+#N	ddsia
+#S	Motorola 6350; Unix System 5.2
+#O	Distributed Data Systems, Inc.
+#C	John Clare
+#E	ddsia!john
+#T	+1 212 874 6530
+#P	126 West 75th Street, New York, New York 10023
+#L	40 48 N / 073 59 W
+#R	
+#U
+#W	ddsia!john (John Clare); Mon Aug 31 15:12:00 EDT 1987
+#
+ddsia	uunet(DAILY)
+
+#N	devvax
+#S	VAX 11/750; 4.3 BSD UNIX
+#O	Cornell University, Cornell Theory Center
+#C	Scott Brim
+#E	devvax!uucp, devvax!swb
+#T	+1 607 255 8686
+#P	265 Olin Hall, Ithaca, NY 14853
+#L	042 27 N / 076 30 W city
+#R	This machine is on the ARPA net: devvax.tn.cornell.edu
+#R	No News, just mail.
+#U
+#W	cornell!parmelee (Larry Parmelee); Thu Jan 21 06:58:58 EST 1988
+#
+devvax	cornell(LOCAL)
+
+#N	dolphy
+#S	3b2/400
+#O	Saiph Corporation.
+#C	Laurant Imbaud
+#E	allegra!phri!dolphy!usenet
+#T	(212) 925-6755
+#P	393 West Broadway, NY NY 10012
+#L	40 43 N / 74 01 W city
+#R	We are consultants & a software house
+#U
+#W	Jeffrey Greenberg; 3/25/87
+#
+dolphy	phri(DEMAND), timpc1(DEAD)
+
+#N	dvm
+#S	VAX 11/780 ; Ultrix 32 Version 1.2
+#O	Philon, Inc.
+#C	Frank Wortner
+#E	dvm!postmaster
+#T	1 212 807 0303
+#P	641 Avenune of the Americas, New York, NY  10011
+#L	40 44 30 / 73 59 56
+#R	All mail and news travels through machine "philon".
+#R	Most users are on dvm
+#U	None (any volunteers?)
+#W	Frank Wortner ; Wed Jun	 3 12:38:56 EDT 1987
+#
+dvm	philon(DEDICATED)
+
+#N	edslpt
+#S	Fortune 32:16; For:Pro
+#O	ESD - GM Lockport
+#C	Larry Harris
+#E	edslpt!root
+#T	+1 716 439 3430
+#P	200 Upper Mtn. Rd. Bldg. 800-A Lockport, NY 14094
+#L	
+#R	mdt!pwd takes care of the map for this site
+#W	mdt!pwd (Philip W. Dalrymple) ; Tue Apr	 5 18:38:26 EST 1988 
+#
+edslpt	mdt(DEMAND)
+
+#N	eknest
+#S	Sun3-260, SunOS 3.2
+#O	Eastman Kodak Company
+#C	Lorin Gallistel, Jim Moore, Bill Hitt
+#E	eknest!usenet
+#T	+1 716 464 5713, +1 716 726 0322, +1 716 7265492
+#P	Rochester, NY 14650  USA
+#L	43 09 07 N / 77 44 04 W
+#R	System Architecture Group
+#U	
+#W	ektools!jim (Jim Moore); Wed Dec  2 09:51:54 EST 1987
+#
+eknest
+	ektools(DIRECT)
+
+#N	ektools
+#S	VAX 11/750, DecNet-ULTRIX Rel 2.0 
+#O	Eastman Kodak Company
+#C	Ken Lester
+#E	ektools!usenet
+#T	+1 716 726 9958
+#P	Rochester, NY 14650  USA
+#L	43 09 07 N / 77 44 04 W
+#R	Plan to be a gateway to DecNet (.dnet domain) within Kodak
+#U	bis kadsma eknest
+#W	ektools!jim (Jim Moore); Wed Dec  2 10:09:36 EST 1987
+#	Other systems not on lan but local vered0, maude, Elendil and .dnets
+ektools
+	elmgate(DIRECT), kodak(DIRECT), eknest(DIRECT), bis(DIRECT),
+	kadsma(DIRECT), boole(DIRECT), image(DEMAND),
+
+#N	elmgate
+#S	SUN 2/120; 4.2 BSD UNIX
+#O	Eastman Kodak Company
+#C	William DeMatties
+#E	kodak!elmgate!usenet
+#T	(716) 726-9971
+#P	901 Elmgrove Rd , Rochester, NY, 14650
+#L	43 10 N / 77 36 W city
+#R
+#U
+#W	elmgate!wpd; 10/30/87
+#
+#	this causes a name confict with a site in the uk.
+#					-rob@philabs	Mon Nov 23 1987
+#	acorn(DIRECT)
+#
+elmgate kodak(DEDICATED), ritcv(DIRECT+LOW), sunrock(DIRECT),
+	ektools(DIRECT), tombob(DIRECT), dbase1(DIRECT)
+
+#N	entire
+#S	Intel 80386 System; Interactive Systems, 386/ix (Unix System V.3)
+#O	Entire Inc., Engineering Center, East Building.
+#C	John A. Gallant
+#E	entire!postmaster
+#T	+1 716 381 7870
+#P	435 W. Commercial Street, East Rochester, New York, 14445
+#L	43 07 04 N / 77 29 59 W 
+#R	Running: news version 2.11  Smail 2.3
+#U	rocksanne ibid xrx3b kodak
+#W	entire!jag (John A. Gallant); Tue May 10 16:08:42 EDT 1988
+#
+entire	ibid(DIRECT), iwa(DEMAND), kodak(DIRECT), rama(DIRECT),
+	rocksanne(DIRECT), xrx3b(DEMAND)
+
+#N	esquire
+#S	Pyramid 98x; OSx 4.1
+#O	Davis Polk & Wardwell
+#C	David J. Sullivan
+#E	{uunet|cmcl2}!esquire!sullivan
+#T	(212) 266-0730
+#P	One Chase Manhattan Plaza, New York, New York, 10005
+#L	40 43 N / 74 01 W city
+#R	
+#U	cmcl2, rna, pyrnj
+#W	esquire!sullivan (David J. Sullivan); Fri Apr 15 13:14:23 EDT 1988
+#
+esquire brl-smoke(DEAD), cmcl2(DEMAND), emanuel(WEEKLY+LOW), grand(EVENING),
+	jcc-one(WEEKLY+LOW+LOW), metron(WEEKLY+LOW+LOW), nynex1(DEAD),
+	phw5(DEAD), pyrnj(EVENING), rna(EVENING), rocky2(EVENING),
+	uunet(EVENING)
+
+#N	faraday
+#S	Ridge 32/330; System V release 2 UNIX
+#O	Institute for Theoretical Physics, SUNY at Stony Brook, NY
+#C	Jack Smith
+#E	faraday!postmaster
+#T	+1 516 632 7973
+#P	ITP, SUNY at Stony Brook, NY, 11790, USA
+#L	40 56 N / 73 09 W city
+#R	mail and news gateway for ITP computers
+#U	mozart
+#W	faraday!rosalia (Mark Galassi); Mon Jan	 4 16:28:10 EST 1988
+#
+faraday sbcs(LOCAL), noether(LOCAL), marconi(LOCAL), mozart(DIRECT),
+	icus(DEMAND)
+
+#N     fearless
+#S     DEC PDP-11/70; 2.10 BSD UNIX
+#O     Instructional Computing Center, SUNY College at Oswego, Oswego NY
+#C     Ed Beadel
+#E     oswego!usenet
+#T     +1 315 341 3055
+#P     12 Snygg Hall, SUNY College at Oswego, Oswego, NY 13126
+#L     76 31 W / 43 27 N city
+#R     An Internet nonconnected site, LAN ethernet, oswego is the gateway
+#U
+#W     oswego!beadel (Ed Beadel); Mon Jan 11 19:45:48 EST 1988
+#
+fearless = fearless.oswego.edu
+fearless oswego(LOCAL)
+
+#N	french
+#S	Olivetti M24; Venix System V 2.0
+#O	None
+#C	Jean-Louis B. Ecochard
+#E	french!jl
+#T	+1 718 797 4855
+#P	497 Pacific Street Apartment number 2C, Brooklyn, NY 11217
+#L	040 49 N / 073 10 W
+#R	This is also The French Connection as a bulletin board
+#U	bc-cis
+#W	french!jl (Jean-Louis B. Ecochard); Wed Jul 8 10:00:00 EDT 1987
+#
+#	Also accessing cheap on the Omninet network
+#
+french	phri(DAILY/2),	bc-cis(DAILY/2)
+#
+#
+#MAP FILE END: u.usa.ny.1   Tue May 31 08:52:52 EDT 1988   rob@philabs.philips.com
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,1916 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.swe.1
+: This archive created: Mon Mar 28 02:25:31 1988
+echo shar: extracting u.swe.1
+cat << 'SHAR_EOF' > u.swe.1
+# u.swe.1; changes to: uucpmap@enea.uucp
+# Last changed: Mon Mar  7 19:39:32 MET 1988
+
+#N	aahus
+#S	ABCenix/Dnix 5.1
+#O	Aahus Studiodata AB
+#C	Kjell Persson
+#E	aahus!kjell
+#T	+46 44 241045
+#P	Box 140, S-296 00 Aahus
+#L	55 57 N 14 17 E
+#W	enea!ber 860502
+#
+
+#N	abzeta
+#S	Altos 1086 / Xenix 3.2f
+#O	ABZETA DATA HB
+#C	Per Zetterquist
+#E	abzeta!pelle
+#T	+46 0758 16332
+#P	Virvelvagen 3, S-17538 Jarfalla, Sweden
+#L	59 45 N 18 09 E
+#W	abzeta!pelle 870130
+#
+
+#N	adams
+#S	SUN 2/50; Sun UNIX 4.2
+#O	Linkoping University
+#C	Bjorn Lindskog
+#E	rainier!postmaster
+#T	+46 13 282282
+#P	S-581 83 Linkoping, Sweden
+#L	58 24 N 15 35 E city
+#W	rainier!bjorn (Bjorn Lindskog); Tue Feb  4 16:45:35 MET 1986
+#
+
+#N	alp
+#S	DS90, System V
+#O	ALP mediakonsulter AB
+#C	Johan Wibergh, Johan Ajander
+#E	alp!jw
+#T	+46 13 114390
+#P	Box 1148, S- 581 11 Linkoeping
+#L	58 34 N 15 36 E city
+#W	enea!ber 861121
+#
+
+#N	amab
+#S	Cubix UnixV
+#O	Anders Myren AB
+#C	Anders Myren
+#E	amab!anders
+#T	+46 8 437460
+#P	PO Box 715, S-131 22 NACKA, Sweden
+#L	59 35 N 18 06 E
+#W	babs!pom 880219
+#
+amab	babs
+
+#N	appli
+#S	CROMEMCO/SysV
+#O	APPLITRON, Gothenburg Sweden
+#C	Ingvar Hallqvist
+#E	appli!ingvar
+#T	+ 46 31191485
+#P	N:a Gubberogatan 30, 416 63  Gothenburg, Sweden
+#L	57 39 N 12 17 E City
+#W	appli!ingvar 861125
+#
+appli	chalmers
+
+#N	aseanc
+#S	IN4200/Inix (System V)
+#O	ASEA Transmission
+#C	Hans Helander
+#E	aseanc!HHelande
+#T	+46 21 103426
+#P	Dept. NCCAB, S-721 83 Vasteras, Sweden
+#L	59 37 N 16 33 E
+#W	aseanc!HHelande 860214
+#
+
+#N	astol
+#S	HP 9000, HP-UX
+#O	Lund Observatory, Sweden
+#C	Peter Linde
+#E	astol!peter
+#T	+46 46 140780
+#P	Box 43, 221 00 Lund, Sweden
+#L	55.6983N 13.1866E
+#W	enea!ber 850319
+#
+
+#N	axeln
+#S	Gould Powernod 6040E
+#O	Datorstyrd mekanik KTH
+#C	Jon Ingasson
+#E	jonsi@damek.kth.se
+#T	+46 8 790 79 26
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	tds!gert 871207
+#
+axeln	tds
+
+#N	babs
+#S	NCR Tower 32, System V
+#O	Beslutsmodeller AB
+#C	Per-Olof Myren
+#E	babs!pom
+#T	+46 8 7162645
+#P	PO Box 681, S-131 22 Nacka, Sweden
+#L	59 35 N 18 06 E
+#W	babs!pom 880216
+#
+babs	enea, amab
+
+#N	bogart
+#S	Vax 11/750, 4.3BSD
+#O	Royal Institute of Technology
+#C	Matti Rendahl
+#E	tds!bion.kth.se!matti
+#T	+46 8 790 72 24
+#P	NADA, KTH, S-100 44  Stockholm, SWEDEN
+#L	59 18 N  17 58 E
+#R	Computer Vision and Graphics Lab
+#W	bion.kth.se!matti 870701
+#
+bogart	tds(DIRECT), duvan(DIRECT)
+
+#N	carola
+#S	GOULD Concept 32/67; GOULD UTX/32
+#O	Linkoping University
+#C	Bertil Reinhammar
+#E	carola!postmaster
+#T	+46 13 281628
+#P	S-581 83 Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	rainier!bjorn (Bjorn Lindskog); Tue Feb  4 16:45:35 MET 1986
+#
+
+#N	cccsth
+#S	NOKIA 1200/X SCO Xenix 2.2
+#O	3C data AB
+#C	Jan Holmberg
+#E	cccsth!jan
+#T	+46 8 404770
+#P	Box 20191, S-104 60 Stockholm, Sweden
+#L	59 20 N 18 03 E
+#W	cccsth!jan 871018
+#
+
+#N	chalmers, cthcs, knatte, dupond
+#S	VAX 11/780, 4.3BSD
+#O	Chalmers University of Technology, Dept. of Computer Science
+#C	Ulf Bilting
+#E	chalmers!bilting
+#T	+46 31 810100 ext 2195
+#P	S-412 96 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#U	enea, myab, volvo
+#W	enea!ber 850117
+#
+chalmers = chalmer
+chalmers = cthcs
+chalmers	appli, avab, carrago, datasw1, dupond, enea(HOURLY),
+		etgab, gustaf, ergodata(DEAD), ffvg, hktech,
+		knatte, holtec, myab, mytech, scamic(DEAD), simulina, sisug,
+		swesoft, cthamc, cthce, cthelm, cthmga, cthnt, cthorg
+
+#N	cthamc
+#S	PDP11/24 / RSX-11M 4.0
+#O	Dept. of Analytical and Marine Chemistry
+#C	Mats Josefson
+#E	cthamc!mats
+#T	46 31 810100
+#P	Chalmers University of Technology, S-412 96 Gothenburg
+#L	57 39 N 12 17 E
+#W	cthamc!mats 861002
+#
+cthamc	chalmers
+
+#N	cthce
+#S	VAX750/4.2BSD
+#O	Chalmers University of Technology, Department of Computer Engineering
+#C	Ulf Tropp
+#E	cthce!tropp
+#T	+46 31 810100
+#P	S-412 96 Goeteborg
+#L	57.69N 11.95E
+#U	chalmers
+#W	cthce!tropp 870116
+#
+cthce = cthct
+cthce	chalmers
+
+#N	cthelm
+#S	MC5500/UNIX V/4.2BSD
+#O	Department of Electical Measurements, Chalmers University of Technology
+#C	Bo Olsson
+#E	cthelm!bo
+#T	+46 31810100
+#P	S-412 96 Gothenburg
+#L	57 39 N 12 17 E
+#W	
+#
+cthelm	chalmers
+
+
+#N	cthmga
+#S	VAX11/785 VAX/VMS
+#O	Chalmers University of Technology. School of Mechanical Engineering
+#C	Anders Johansson
+#E	anders@cthmga.UUCP
+#T	+46 31 810100 / 1972
+#P	S-412 96 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	anders@cthmga.UUCP 861120
+#
+cthmga	chalmers
+
+#N	cthnt
+#S	HP9050/HP-UX
+#O	Chalmers University of Technology, Division of Network Theory
+#C	Bjoern Ingemannsen
+#E	chalmers!cthnt!bjoern
+#T	+46 31 810100
+#P	S-412 96 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#U	chalmers
+#W	cthnt!bjoern 861222
+#
+cthnt	chalmers
+
+#N	cthorg
+#S	VAX 11/730 VMS 4.2
+#O	Dept. of Organic Chemistry
+#C	Thomas Olsson
+#E	cthorg!olsson
+#T	+46 31 810100
+#P	Chalmers University of Technology, S-412 96 Gothenburg
+#L	57 39 N 12 17 E
+#U	chalmers
+#W	cthorg!olsson 860925
+#
+cthorg	chalmers
+
+#N	cvab
+#S	Mixture/ System V.2 (UniPlus+)
+#O	ContextVision AB (CVAB)
+#C	Sven Eriksson
+#E	cvab!sven
+#T	+48 13 214030
+#P	Teknikringen 1, S-583 30 Linkoeping, Sweden
+#L	58.42N 15.62E
+#W	cvab!sven 871110
+#
+cvab	enea, liutde
+
+#N	daab, alma, britta, carl
+#S	CROMEMCO 300, SYSTEM V.2
+#O	Datorisering AB
+#C	Lars Hammarstrand
+#E	daab!lasse
+#T	+45 8 7533090
+#P	Box 510, S-18215 Danderyd , Sweden
+#L	59 18 N  17 58 E
+#U	enea
+#W	daab!lasse 850601
+#
+daab	enea, alma(DIRECT), britta(DIRECT), carl(DIRECT)
+
+#N	dafa
+#S	DS-90/ABCenix 5.12
+#O	DAFA DATA AB
+#C	Berndt Malm
+#E	dafa!bernt
+#T	+46 8 738 51 42
+#P	Box 341 01, S-100 26 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	dafa!bernt 870403
+#
+
+#N	datasw1, datasw
+#S	DS90-10/5.2
+#O	DataSweden Gothenbourg AB
+#C	Kjell Kristiansson
+#E	datasw1!kjell
+#T	+46 31 805300
+#P	Gullbergs Strandgata 7, S-411 04 Gothenbourg, Sweden
+#L	57.43N 11.58E
+#W	datasw1!kjell 871009
+#
+datasw1 = datasw
+
+
+#N	diab
+#S	DS90-00/dnix 5.12
+#O	DataIndustrier DIAB AB
+#C	Ulf Sandberg, Magnus Hedner
+#E	diab!usa, diab!magnus
+#T	+46 8 768 06 60
+#P	Box 2029, S-183 02  Taeby, Sweden
+#L	59 45 N 18 09 E
+#W	diab!mh 860611
+#
+
+#N	digsim
+#S	DS90 / DNIX 5.12
+#O	Digsim Systems
+#C	Per Sjoeholm
+#E	digsim!per
+#T	+46 13 212020
+#P	Box 10 004, S-580 10 Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	digsim!per 860808
+#
+
+#N	draken
+#S	Pyramid 98x 4.2/SysV
+#O	NADA-KTH
+#C	Anders Hillbo
+#E	ahi@tds
+#T	+46 8 787 7146
+#P	S-100 44 STOCKHOLM
+#L	59 35 N 18 06 E
+#R	Education at School of Computer Science and Engineering
+#U	tds
+#W	draken!ahi 861013
+#
+draken = nada
+draken	tds(DIRECT)
+
+#N	dsthn
+#S	Sperry 5000/20 / System V 2.0
+#O	Datema System i Trollhaettan
+#C	Peter Faessberg
+#E	dsthn!pf
+#T	+46 520 12710
+#P	Box 912, S-461 29  Trollhaettan, Sweden
+#L	58 30 N 12 30 E
+#W	dsthn!pf 860124
+#
+dsthn = ddbthn
+dsthn	adbv
+
+
+#N	dstyr
+#S	DS90-11/D-NIX 5.12
+#O	DataStyrning AB
+#C	Per Holmbaeck
+#E	dstyr!per
+#T	+46 13 111640
+#P	Gottorpgatan 13, Box 1191, 581 11  Linkoeping, Sweden
+#L	58 34 N 15 36 E city
+#W	dstyr!per  861104
+#
+
+#N	duvan
+#S	VAX 11/750, 4.3BSD
+#O	Royal Institute of Technology, Dept. of Computer Systems
+#C	Bernhard Stockman
+#E	tds!bernhard
+#T	+46 8 7879025
+#P	S-100 44 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850828
+#
+duvan   tds(DIRECT), ftf(DAILY), fysik4(DAILY), bogart(DIRECT)
+
+
+#N	enea, dido, sugate
+#S	VAX 11/780, 4.3BSD
+#O	ENEA DATA Svenska AB
+#C	Bjoern Eriksen
+#E	enea!ber
+#T	+46 8 7567220
+#P	Box 232, S-183 23 Taeby, Sweden
+#L	59 45 N 18 09 E
+#U	aahus, chalmers, daab, diab, environ, erix, f109a, goulds, infocon,
+#U	infovax, kps, ksvet, kuling, kullmar, lammpyr, liuida, log-hb,
+#U	loke, luth, mapper, mcvax, motstk, ncrsth, peab, pvab, sal,
+#U	sems, sielem, suadb, tds, tut, tvt-k, unione, urd, yeti, zyx
+#R
+#W	enea!ber 871218
+#
+enea	.se
+enea	aahus, abzeta, alp, axonab(DEAD), aseanc, astol, babs, cccsth,
+	chalmers(DEMAND), cvab, daab, dafa(DEAD), dsthn, diab, digsim,
+	domain, dstyr, dynas, environ, erix(DEMAND), f103a, f109a, f109e,
+	ffvev, fk20, fkkron, fmvmela, fmvtc, franix, funcsms, goulds,
+	his(DEAD), hovas(DEAD), hpustoa, hugin, iclswe, indator(DEAD),
+	infocon, infolog, infovax, itmswed(DEAD),
+	karolin, kdc, knut, ksvet, kuling,
+	kullmar, kps, lammpyr, liuida(DEMAND), liutde, lkbmvax, log-hb(DEMAND),
+	log-sv, loke, lsa, luth, mapper, marilyn, mefos, mignon, motstk, ncrsth,
+	nislkpg, omicron(DEAD), peab, prosys, pvab, qzuno, rainier, rashm,
+	ruben(DAILY), sal, sas-vb(DEAD), sbasc, sems, sics, sielem, sleipner,
+	sssodie, stbull, sthwat, suadb, suling, sunswe, sus, syproa, syvab,
+	tekswed, teletest, teliut(WEEKLY), tet, tds, tvt-f, tvt-k,
+	tvtks(DEAD), ubab(DEAD), unilog, unione, uniware,
+	upnod(DEAD), urd, volvo, yeti, zyx
+
+# UUCP-SUNET gateway
+enea	sugate(DIRECT), lavinia(DIRECT)
+
+# X.25 backbone connections
+enea	mcvax(ARPA-1), cernvax(ARPA), diku(ARPA), hafro(ARPA), inria(ARPA),
+	prlb2(ARPA), tut(ARPA), tuvie(ARPA), ukc(ARPA), unido(ARPA)
+enea	uunet(ARPA)
+
+# Long distance calls
+enea	uel(DAILY), penet(DAILY), naggum(DAILY)
+
+#N	environ
+#S	SUN 2/130
+#O	Statens Naturvaardsverk
+#C	Bjoern Rostroem
+#E	environ!bir
+#T	+46 8 7991000, 7991291
+#P	Fack 1302, S-171 25  Solna
+#L	59 22 N 18 52 E
+#W	environ!bir 861001
+#
+
+#N	ergodata
+#S	Micropdp/Ultrix-11
+#O	ErgoData AB
+#C	Olle Olsson
+#E	ergodata!olle
+#T	+46 31 17 61 50
+#P	Foereningsgatan 4A, S-411 27 Goeteborg, Sweden
+#L	57 39 N 12 17 E
+#W	enea!ber 880105
+#
+
+#N	erialfa
+#S	SUN 2/170, SUN 1.2 Unix 4.2
+#O	Ericsson Information Systems AB
+#C	Kjell Eriksson
+#E	erialfa!kjelle
+#T	+46 8 7520000 ext 37844
+#P	S-163 98 Stockholm, Sweden
+#L	59 19 N  17 57 E
+#W	erialfa!kjelle 850422
+#
+erialfa	erix(DAILY), erisun(DAILY)
+
+
+#N	erieiv
+#S	Sun-2/120, SUN Unix 2.0
+#O	Ericsson Information Systems Sverige AB
+#C	Gunnar Staahl
+#E	erieiv!gunnar
+#T	+46 8 7642394
+#P	S-161 83  Bromma, Sweden
+#L	59 19 N  17 57 E
+#W	erieiv!gunnar 861028
+#
+erieiv	erisun(DEMAND)
+
+#N	erilin
+#S	Sun-2/120; Sun Unix 2.0
+#O	Ericsson Information Systems AB, Business Systems
+#C	Ralf Nilsson, Christer Alfredsson
+#E	erilin!postmaster
+#T	+46 13  11 7000
+#P	S-581 01 Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	erilin!ralni 860107
+#
+erilin	erix(DEMAND)
+
+
+#N	erisun
+#S	Sun-2/170, Sun Unix 2.0
+#O	Ericsson Information Systems AB, Advanced Workstations Division
+#C	Hans Albertsson
+#E	erisun!hans
+#T	+46 8 7640603
+#P	S-172 93  Sundbyberg, Sweden
+#L	59 19 N  17 57 E
+#W	erisun!hans 871218
+#
+erisun	erix(DEMAND), erieiv(DEMAND), erilin(DEMAND), eridan(WEEKLY),
+	erialfa(DAILY), erieio(WEEKLY), davasun(WEEKLY)
+
+#N	erix
+#S	VAX 11/750, 4.3BSD
+#O	Telefon AB L M Ericsson
+#C	Per Hedeland
+#E	erix!per
+#T	+46 8 7199437
+#P	S-126 25 Stockholm, Sweden
+#L	59 19 N  17 57 E
+#U	enea,erisun,erialfa,erilin
+#W	erix!per 851009
+#
+erix	enea(HOURLY), erisun(DAILY), erialfa(DAILY), erilin(DAILY),
+	erix-b(DAILY), log-hb(DAILY), eua4(DAILY)
+
+#N	erix-b
+#S	Apollo DN300, AUX SR7
+#O	Telefon AB L M Ericsson
+#C	Lage Falkman
+#E	erix-b!lage
+#T	+46 154 102340
+#P	Ostanvindg 7, S-652 21 Karlstad, Sweden
+#L	59 25 N 13 30 E
+#W	erix!per 850228
+#
+erix-b	erix(DAILY)
+
+#N	esdkla, esdgbg
+#S	Sperry 5000/40, SYS V.2
+#O	Ekonomistyrning Data AB (ESD)
+#C	Jan Saell
+#E	esdkla!jan
+#T	46 19 75445
+#P	Folkungagatan 11, S-692 00 Kumla, Sweden
+#L	59.2N 15.2E
+#W	esdkla!jan 840203
+#
+esdkla	mapper, esdgbg
+
+#N	etgab 
+#S	DS90-20 dnix 5.2 
+#O	Thorden Data AB
+#C	Edward Thorden 
+#E	etgab!eddie 
+#T	+46 31 200620 
+#P	Goetabergsgatan 18, S-411 34 Goeteborg Sweden 
+#L	57 39 N 12 17 E city
+#W	etgab!eddie 880204 
+#
+etgab	chalmers
+
+#N      eua4
+#S      VAX 11/750, 4.3BSD
+#O      ELLEMTEL Utvecklings AB
+#C      Robert Lidman
+#E      eua4!robert
+#T      +46 8 7499770
+#P      S-125 25 STOCKHOLM, Sweden
+#L      59 18 N  17 58 E
+#W      eua4!robert 860103
+#
+eua4    erix(DAILY)
+
+#N	f103a
+#S	NCR Tower 32, System V
+#O	Foersvarets Rationaliseringsinstitut (FRI)
+#C	Jim Svensson
+#E	f103a!jimpa
+#T	+46 8 7887500
+#P	Box 80008, S-104 50  STOCKHOLM, Sweden
+#L	59 20 N 18 03 E
+#W	f103a!jimpa 861015
+#
+
+#N	f109a
+#S	NCR Tower 32/NCR-UNIX
+#O	Defence Computer Center/Stoedcentrum
+#C	Gunnar Lithen
+#E	f109a!scguli
+#T	+46 8 7888792
+#P	Box 80005, S-104 50 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#U
+#W	f109a!scguli 861009
+#
+
+#N	f109e
+#S	NCR Tower 32, System V
+#O	FDC/KAR:su
+#C	Arvid Carlander
+#E	f109e!arvid
+#T	+46 54 103416
+#P	Karolinen, S-651 80 Karlstad
+#L	59 25 N 13 30 E
+#W	enea!ber 860909
+#
+
+#N	fagus
+#S	Altos 986/Xenix 3.0b
+#O	Vaextekologiska avd., Lunds universitet
+#C	Tommy Olsson
+#E	fagus!tommy
+#T	+46 46 109302
+#P	OE. Vallgatan 14, S-223 61 LUND, Sweden
+#L	55.8N 13.5E
+#W	fagus!tommy 870831
+#
+fagus	urd
+
+#N	ffvev
+#S	Tower XP/System V
+#O	FFV Elektronik AB
+#C	Bengt Nilsson
+#E	ffvev!beni
+#T	+46 470 42000
+#P	Box 1232,S-35112,Vaxjo, Sweden
+#L	56 52 N 14 48 E
+#W	ffvev!mats 850820
+#
+
+#N	ffvg
+#S	Mikrovax II, VAX/VMS
+#O	FFV Elektronik AB
+#C	Robert Tell
+#E	ffvg!robert
+#T	+46 31 499412
+#P	Box 610, 42126 Va Froelunda, Sweden
+#L	57.39N 11.65E
+#W	ffvg!robert 870911
+#
+ffvg	chalmers
+
+#N	fkkron
+#S	SUN/4.2 BSD
+#O	Kronobergs allm. Foersaekringskassa
+#C	Reijo Anttonen
+#E	fkkron!reijo
+#T	+46 470 23100
+#P	Nygatan 10, S-351 84 Vaexjoe, Sweden
+#L	56 52 N 14 48 E
+#W	enea!ber 870801
+#
+
+#N	fmvmela
+#S	MicroVAX II/Ultrix
+#O	Foersvarets Materielverk, ElektroLA
+#C	Karl-Olov Serrander
+#E	fmvmela!kos
+#T	+46 8 782 54 68
+#P	115 88 STOCKHOLM
+#L	59 18 N  17 58 E
+#W	fmvmela!kos 860423
+#
+
+#N	fmvtc
+#S	NCR tower/system V
+#O	FMV ElectroL TC
+#C	Torgny Bylund
+#E	fmvtc!komuucp
+#T	+46 8 782 67 49
+#P	Fack,  115 88 Stockholm
+#L	59 20 N 18 08 E
+#W	fmvtc!yngve 860805
+#
+
+#N	folke
+#S	Gould PN9080/UTX-32
+#O	National Defense Research Institute (FOA), Sweden
+#C	Kjell Sandberg
+#E	folke!kjesan
+#T	+46 13 118000
+#P	FOA 372, P.O. Box 1165, S-581 11 LINKOPING, SWEDEN
+#L	58.24N 15.35E
+#W	alfben@folke.se 871021
+#
+folke	liuida
+
+#N	ftf
+#S	Plessey 11/23, XENIX-11, V7
+#O	Royal Institute of Technology, Dept. of Solid State Physics
+#C	Kurt Svensson
+#E	ftf!kurt
+#T	+46 8 7877302
+#P	Teknikringen 14, S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	mcvax!piet 841215
+#
+ftf	tds(DAILY)
+
+#N	funcsms
+#S	SMS1000/Venix
+#O	Functional Systems AB
+#C	Christer Berg
+#E	funcsms!christer
+#T	+46 8 7549400
+#P	Backvagen 18A, S-119 54 Sollentuna, Sweden
+#L	59 35 N 18 06 E
+#W	funcsms!christer 860428
+#
+
+#N	fysik4
+#S	Perken-Elmer 3210, V7
+#O	Royal Institute of Technology, Dept. of Physics IV
+#C	Anders Liljeborg
+#E	fysik4!anders
+#T	+46 8 7877219
+#P	Teknikringen 14, S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#U	tds
+#W	mcvax!piet 841215
+#
+fysik4	tds(DAILY)
+
+#N	gamajon, isil
+#S	DS90-00/DNIX sysV
+#O	Detron HB
+#C	Per-Eric Olsson
+#E	gamajon!pererico
+#T	+46 18 110780
+#P	Petterslundsgatan 11A, S-753 28 UPPSALA, SWEDEN
+#L	59.8N 18E
+#W	gamajon!pererico 880130
+#
+gamajon	kuling, isil(DIRECT)
+
+#N	goulds
+#S	PN6005/4.2BSD(UTX/32)
+#O	Gould Electronics AB, Computer Systems Division
+#C	Stefan Neufeld
+#E	goulds!stefan
+#T	+46 8 7647100
+#P	Albygatan 109B, S-171 54 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	goulds!stefan 870821
+#
+
+#N	his
+#S	HP9000/550 / HP-UX 5.2
+#O	University of Skoevde
+#C	Jonas Mellin
+#E	his!jonas
+#T	+46 500 71368
+#P	University of Skoevde, Box 264, S-541 26 Skoevde, Sweden
+#L	56N 12.5E
+#W	his!jonas 870521
+#
+
+#N	holtec
+#S	SUN 100, SUN-2 CPU/UNIX (SUN 1.1)
+#O	Holtec AB
+#C	Per Westerlund
+#E	perw@holtec.UUCP
+#T	+46 31 150540
+#P	Faergaregatan 4, S-411 02 Gothenburg, SWEDEN
+#L	57 39 N 12 17 E
+#W	perw@holtec.UUCP 850511
+#
+
+#N	hpustoa
+#S	HP 9000/500, HP-UX 4.0
+#O	Hewlett-Packard Svenska AB
+#C	Peter Olofson
+#E	hpustoa!peter
+#T	+46 8 7502196
+#P	Box 19, S-163 93 Spaanga, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850215
+#
+hpustoa	hpustob(DAILY)
+
+#N	hugin
+#S	Microvax II / Ultrix 1.1
+#O	Hugin Sweda International AB
+#C	Arne Forsbo
+#E	hugin!arne
+#T	+46 8 7891900
+#P	Box 81520, 104 82 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	hugin!arne 860811
+#
+
+#N	indator
+#S	IN4200/Uniplus System V.0
+#O	Indator AB
+#C	Lars Hanell
+#E	indator!lars
+#T	+46 760 700 70
+#P	Stockholmsvaegen 37a, S-194 54 Upplands Vaesby, Sweden
+#L	59 45 N 18 09 E
+#W	enea!ber 870130
+#
+
+#N	infocon
+#S	Sun3-160/Sun Unix 3.3(4.2BSD)
+#O	Infocon Data AB
+#C	Rickard Linck
+#E	infocon!rl
+#T	+46 8 920520
+#P	Box 19, S-191 21 Sollentuna, Sweden
+#L	59 45 N 18 09 E
+#U	enea
+#W	infocon!rl 871022
+#
+
+#N	infolog
+#S	DOMAIN DN300, DOMAIN/IX SR9
+#O	SU-TVT Infologics AB
+#C	Rabbe Fogelholm
+#E	rabbe@infolog
+#T	+46 8 920690
+#P	Box 91, S-191 22 SOLLENTUNA, Sweden
+#L	59 45 N 18 09 E
+#W	rabbe@infolog 860320
+#
+
+#N	infovax
+#S	Microvax-II/Ultrix-32 1.1
+#O	Infovox AB
+#C	Bjoern Larsson
+#E	infovax!bl 
+#T      +46 8 7538090
+#P	Box 2503, S-171 02  SOLNA, Sweden
+#L	59 18 N  17 58 E
+#W      enea!ber 870908
+#
+
+#N	imhp
+#S	hp9000/500; sysV.2 (HPUX)
+#O	Institute of microwave technology
+#C	Per Gibson, Dag Helmfrid
+#E	imhp!per    imhp!dag
+#T	+46 8 238320
+#P	Box 70033, S-10044 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	imhp!per 860128
+#
+
+#N	irfu
+#S	HP9000/540, System V
+#O	Swedish Institute of Space Physics, Uppsala Division
+#C	Bo Thide'
+#E	irfu!bt
+#T	+46 18 30 00 20
+#P	Lurbo, S-755 90 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	irfu!bt 870918
+#
+irfu	kuling
+
+#N	karolin
+#S	SUN-2 120/FS 4.2BSD
+#O	Karolinska Hospital, Medical Phys & Eng Dep
+#C	Torsten Rehn
+#E	karolin!torsten
+#T	+46 8 7362205
+#P	Karolinska Hospital, MTA-Data, Box 60500, S-10401 SWEDEN
+#L	59 18 N  17 58 E
+#W	karolin!torsten 851210
+#
+
+#N	kdc
+#S	DS-90 21/5.2
+#O	Kalmar DataCenter AB
+#C	Hans Gustavsson, Anders Olen
+#E	kdc!hg
+#T	+46 480 172 10
+#P	Storgatan 16 S-392 32  KALMAR SWEDEN
+#L	52.22N 4.54E
+#W	kdc!hg 871202
+#
+
+#N	knut
+#S	Zilog 8000/22 & Zeus system III
+#O	Laensstyrelsen
+#C	Peter Raaberg
+#E	knut!peter
+#T	+46 480 82118
+#P	391 86 Kalmar
+#L	56 41 N 16 20 E
+#W	knut!peter 861130
+#
+
+#N	komunity
+#S	DS90/DNIX
+#O	KOMunity Software AB
+#C	Tommy Ericsson
+#E	tommy@komunity.se
+#T	+46 8 342040
+#P	Sveavagen 114, S-113 50 STOCKHOLM, Sweden
+#L      59.21N 18.04E
+#W	matts@komunity.se 870926
+#
+komunity	tds
+
+#N	ksvet
+#S	ABC 9000 ABCenix/Dnix 5.12
+#O	Kontorsspecial AB
+#C	Christer Lofberg
+#E	ksvet!christer
+#T	+46 383 14020
+#P      box 34, S-574 01 Vetlanda Sweden 
+#L	57 40 N 15 20 E
+#W	ksvet!christer 860730
+#
+
+#N	kuling
+#S	VAX750/4.3BSD
+#O	Dept. of Computer Systems, Upsala University
+#C	Anders Andersson
+#E	kuling!andersa
+#T	+46 18 18 31 70
+#P	Box 520, S-751 20 UPPSALA, Sweden
+#L	59 50 N 17 38 E
+#U	enea
+#W	kuling!andersa 860803
+#
+kuling	enea, irfu, pharmdia, gamajon
+
+#N	kullmar
+#S	DS90 10 75 S dnix 5.2
+#O      Firma Bo Kullmar Datakonsult
+#C	Bo Kullmar
+#E	kullmar!bk
+#T	+46 8 751 15 18
+#P	Helsing|rsgatan 38, S-163 42 Spanga, Sweden
+#L	59 18 N  17 58 E
+#W	kullmar!bk 871104
+#
+kullmar	enea, tdxsoft
+
+#N	kps
+#S	Pyramid 9810 / 4.2BSD + SysV.2
+#O	Kuwait Petroleum Sweden
+#C	Pekka Nousiainen
+#E	kps!peno
+#T	+46 8 7990100
+#P	Box 1296, S-171 25 Solna, Sweden
+#L	59 19 N  17 57 E
+#U	enea
+#W	kps!peno 871108
+#
+kps	enea(DEMAND), kpd(DAILY/6)
+
+#N	lammpyr
+#S	PYRAMID98xe/4.2/5.0
+#O	Carl Lamm System (CLS)
+#C	Hansi Tesarz
+#E	lammpyr!hansi
+#T	+46 8 7647600
+#P	P.O Box 4007 S-17104 SOLNA, SWEDEN
+#L	59 19 N  17 57 E
+#U	enea
+#W	lammpyr!hansi 860425
+#
+lammpyr	enea
+
+#N	lkbmvax
+#S	DEC microVAX II/Ultrix-32m
+#O	LKB Produkter AB
+#C	Janne Calmerad
+#E	lkbmvax!janne
+#T	+46 8 7998427
+#P	Box 305, S-161 26, Bromma, Sweden
+#L	59 19 N  17 57 E
+#U
+#W	lkbmvax!law 871022
+#
+
+#N	liuida
+#S	Sun-3/180; SunOS 3.2 (4.2BSD based)
+#O	Dept of Computer and Information Science, Univ of Linkoping
+#C	Ola Stromfors
+#E	liuida!postmaster
+#T	+46 13 282390
+#P	University of Linkoping, 581 83 Linkoping, SWEDEN
+#L	58 34 N 15 36 E city
+#R	Actually only the name of a mail service, currently implemented
+#R	on majestix.ida.liu.se.  Gateway to local & regional networks.
+#U	enea obelix
+#W	liuida!lel 870225
+#
+liuida	enea(HOURLY), erilin(HOURLY), erix(HOURLY),
+	liutde(DAILY), prosys(HOURLY), rainier(HOURLY), folke
+
+#N	liutde
+#S	Cromemco system 300 / UNIX System V.2 (UniPlus+)
+#O	University of Linkoeping, Applied Electronics
+#C	Markus Kaipainen
+#E	liutde!markus
+#T	+46 13 282209
+#P	Tekniska Hoegskolan, S-581 83  Linkoeping, Sweden
+#L	58 34 N 15 36 E city
+#U	liuida
+#W	liutde!sven-e 870529
+#
+
+#N	log-hb, tan
+#S	VAX750/4.3BSD
+#O	TeleLOGIC AB
+#C	Anna Ungsgaard
+#E	log-hb!annau
+#T	+46 752 63771
+#P	P.O. Box 1001, S-149 01 Nynaeshamn, Sweden
+#L	58 52 N 17 55 E
+#U	enea, luth
+#W	log-hb!annau 871019
+#
+log-hb	enea(DAILY), erix(DAILY), teli-n(DAILY), tvt-f(DAILY), loglule(HOURLY),
+	teliut(DAILY), tan(DIRECT)
+
+#N	logm, bogey
+#S	SUN 3/160/Sun UNIX 4.2 Release 3.2
+#O	TeleLogic AB
+#C	Per-Olov Nilsson
+#E	pon@logm.se
+#T	+46 40 252890
+#P	Baltzarsgatan 20, 211 36 Malmo, Sweden
+#L	55 69 N 13 18 E city
+#W	pon@logm.se 880108
+#
+logm =	bogey
+#logm	urd
+
+#N	log-sv
+#S	CLERC/SYSV.2 
+#O	TeleLOGIC Sundsvall AB 
+#C	Mats Hammarstedt
+#E	log-sv!mats
+#T	+46 60 16 10 15
+#P	Box 883, 851 24 SUNDSVALL, SWEDEN
+#L	N 62,23 E 17,18 
+#W	log-sv!mats 870918 
+#
+
+#N	loglule
+#S	Sun-2/Sun Unix 2.0
+#O	TeleLOGIC AB/Lulea
+#C	Lennart Karlsson
+#E	loglule!lka
+#T	+46 920 98080
+#P	Laboratoriegrand 11, S-951 64 Lulea, Sweden
+#L	65.4N 22.1E
+#U	luth, log-hb
+#W	loglule!lka 870301
+#
+loglule	log-hb(HOURLY), luth(DAILY)
+
+#N	loke
+#S	MicroVAX II/Ultrix-32m
+#O	Digital Equipment AB
+#C	Jan Linnell
+#E	loke!jan
+#T	+46 8 7337863
+#P	Allen 6, S-172 89 SUNDBYBERG
+#L	59 19 N  17 57 E
+#W	loke!jan 860331
+#
+
+#N	lsa
+#S	Plessey 11/23, XENIX-11 3.0
+#O	Logica Svenska AB
+#C	Hans Johansson
+#E	lsa!hans
+#T	+46 8 349110
+#P	Norra Stationsgatan 79-81, S-113 33 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850117
+#
+
+#N	luth, luth1, luth2
+#S	VAX 11/750, 4.3BSD
+#O	Luleaa Institute of Technology, Dept. of Computer Technology
+#C	Arne Lundberg
+#E	luth!al
+#T	+46 920 91253
+#P	S-95 187 Luleaa, Sweden
+#L	65 34 N 22 10 E
+#U	enea
+#W	enea!ber 80503
+#
+luth	luth1(DIRECT), luthcad(DIRECT), luthcad1(DIRECT), umecs, loglule, bus
+
+#N	luthcad
+#S	Sun / 4.2BSD
+#O	Lulea University of Technology, div. of Computer Aided Analysis and Design.
+#C	Sven-Ove Westberg
+#E	luthcad!sow
+#T	+46 920 91677
+#P	S-951 87 Lulea, Sweden
+#L	65 34 N 22 10 E
+#W	luthcad!sow 860506
+#
+luthcad	luth
+
+#N	luthknatte, bus
+#S	SUN2/4.2BSD
+#O	Arctic Software AB
+#C	Raymond Johansson
+#E	luth!raymond
+#T	+46 92097900
+#P	Laboratoriegraend 11, S-951 64 Luleaa, Sweden
+#L	65.58N 22.31E
+#W	luth!raymond 870415
+#
+luthknatte	luth, bus
+
+#N	mapper
+#S	SPERRY 511/000/60/UNIX 5.2
+#O	SPERRY Sweden
+#C	Olle Lindau
+#E	mapper!olle
+#T	46 8 551500
+#P	Vallgatan 7, S-171 91 Solna, Sweden
+#L	59 19 N  17 57 E
+#W	mapper!ksand 860911
+#
+mapper	enea, unilkp, esdkla
+
+#N	mea
+#S	NCR Tower 32/800 / Unix System V
+#O	F|rsvarets Materielverk FMV:Anl{ggE
+#C	Ulf K|lzow
+#E	enea!fmvmela!mea!ukw
+#T	+46 8 7825406
+#P	S-115 88  STOCKHOLM, Sweden
+#L	59 18 N  17 58 E
+#W	fmvmela!kos 870908
+#
+mea	fmvmela
+
+#N	metmel
+#S	NCR Tower 32/800 / Unix System V
+#O	F|rsvarets Materielverk FMV:ElektroL
+#C	Bengt Jacobsson
+#E	metmel!jac
+#T	+46 8 7825467
+#P	S-115 88  STOCKHOLM, Sweden
+#L	59 18 N  17 58 E
+#W	fmvmela!kos 870908
+#
+metmel	fmvmela
+
+#N	mickel
+#S	Prime 750, PRIMOS 19.3
+#O	Royal Institute of Technology, Dept. of Applied Electronics
+#C	Jaan Haabma
+#E	mickel!jaan
+#T	+46 8 787 7000
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	mickel!jaan 850305
+#
+mickel	tdeap(HOURLY)
+
+#N	motstk
+#S	motorola system 1131/V.2
+#O	Motorola AB SPS
+#C	Lars Owe Laestadius
+#E	enea!motstk!owe
+#T	+46 8 830200
+#P	Dalvaegen 2, S-171 36 Solna, Sweden
+#L	59 18 N  17 58 E
+#U	enea
+#W	motstk!owe 870520
+#
+
+#N	myab
+#S	MY 32 (NS32000), System V
+#O	MYAB AB
+#C	Jan Herder
+#E	myab!herder
+#T	+46 31 187512
+#P	Dr. Forselius Gata 21, S-413 26 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#U	chalmers
+#W	enea!ber 850217
+#
+myab	chalmers(DAILY)
+
+
+#N	mytech
+#S	Wicat S200, V7
+#O	Mytech Data AB
+#C	Bo Gaerdmark
+#E	mytech!bg
+#T	+46 31 420780
+#P	Box 7230, S-402 35 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	enea!ber 850217
+#
+mytech	chalmers(DAILY)
+
+#N	naggum
+#S	ALTOS486/XENIX3.0
+#O	Naggum Software
+#C	Erik Naggum
+#E	naggum!enag
+#T	+47 2 384800
+#P	POB 1560 VIKA, N-0118 OSLO 1, NORWAY
+#L	59.55N 10.27E
+#W	naggum!enag 870813
+#
+
+#N	ncrsth
+#S	Tower XP/System V
+#O	NCR Svenska AB
+#C	Henry Kjaellstroem
+#E	ncrsth!henry
+#T	+46 8 7347662
+#P	Box 4204, S-171 04 SOLNA
+#L	59 45 N 18 09 E
+#W	ncrsth!henry	851015
+#
+ncrsth	enea, sthwat
+
+#N      nislkpg
+#S      NOKIA 1200 / XENIX System V
+#O      Nokia Information Systems AB
+#C      Ulf Soedergren
+#E      nislkpg!ulf
+#T      +46 13 212980
+#P      Teknikringen 1, 583 31 LINKOEPING, Sweden
+#L      58.41N 15.56E
+#W      nislkpg!ulf 870818
+#
+
+#N      nmpcad
+#S      MicroVax-II / Ultrix-32m (ver.1.2)
+#O      National Microelectronics Program VLSI-CAD Development (NMP-CAD)
+#C      Hans Berggren
+#E      nmpcad!hans
+#T      +46 8 7507960
+#P      Box 1193, S-16313 Spanga, Sweden
+#L	59 18 N  17 58 E
+#U      sics
+#W      nmpcad!hans 860812
+#
+nmpcad	sics(DEMAND)
+
+#N	obelix
+#S	DEC PDP-11/70; 2.9 BSD Unix
+#O	Dept of Computer and Information Science, Univ of Linkoping
+#C	Lennart Lovstrand
+#E	liuida!postmaster, liuida!lel
+#T	+46 (0)13 282390
+#P	University of Linkoping, 581 83 Linkoping, SWEDEN
+#L	58 34 N 15 36 E city
+#U	liuida
+#W	liuida!lel (Lennart Lovstrand); Thu Mar 13 00:02:46 MET 1986
+#
+obelix	liuida(DIRECT)
+
+
+#N	omicron
+#S	SPERRY IT/SCO XENIX V
+#O	Omicron Ceti AB
+#C	Kenneth Joensson
+#E	omicron!ken
+#T	+46 8 7646550
+#P	Vegagatan 19, S-172 34 Sundbyberg, Sweden
+#L	59 18 N  17 58 E
+#W	omicron!magnus 870226
+#
+
+#N	palladio
+#S	SUN2/170
+#O	KTH-Arkitektur, Proj.met
+#C	Carl-Henrik Engblom
+#E	palladio!hubert
+#T	+46 8 787 85 08
+#P	S-100 44 Stockholm
+#L	59 35 N 18 06 E
+#W	enea!ber 870217
+#
+palladio	tds
+
+#N	pandor
+#S	VAX 11/780, Eunice
+#O	Lund Institute of Technology, Dept. of Computer Technology
+#C	Per-Olov Nilsson
+#E	pandor!perolov
+#T	+46 46 109636
+#P	Box 725, S-220 07 Lund, Sweden
+#L	55 69 N 13 18 E city
+#U	urd
+#W	enea!ber 850117
+#
+pandor	urd, regler(DAILY)
+
+#N	peab
+#S	VAX 11/750, Ultrix-32
+#O	Philips Elektronikindustrier AB
+#C	Lennart Gustafson
+#E	peab!legu
+#T	+46 8 7609104
+#P	S-175 88 Jaerfaella, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850117
+#
+
+#N	pharmdia
+#S	SCO XENIX V/IBM AT
+#O	Pharmacia Diagnostics AB
+#C	Staffan Tamm
+#E	pharmdia!tamm
+#T	+46 18 163707
+#P	F33-1, S-751 82  UPPSALA, Sweden
+#L
+#W	enea!ber 870527
+#
+pharmdia	kuling
+
+#N	hurratio, urd
+#S	VAX 11/750, Ultrix-32
+#O	Lund Institute of Technology, Dept. of Applied Electronics
+#C	Sven Mattisson
+#E	hurratio!sven
+#T	+46 46 109104
+#P	Box 118, S-221 00 Lund, Sweden
+#L	55 69 N 13 18 E city
+#U	enea, pandor
+#W	enea!ber 850117
+#
+hurratio = piraten, agaton
+urd	enea(HOURLY), pandor(DAILY/7), regler(DAILY), fagus, hurratio,
+	logm(DEAD)
+
+#N	prosys
+#S	SUN 120/4.2BSD
+#O	Programsystem AB
+#C	Ulf Gundersen
+#E	prosys!ulf
+#T	+46 13 111790
+#P	Teknikbyn hus h, Fridtunagatan 6, S-582 46 Linkoeping, Sweden
+#L	58 34 N 15 36 E city
+#W	prosys!ulf 851015
+#
+prosys	enea, erilin, liuida
+
+#N	pvab, coke, fanta
+#S	SUN-2/130 & SunOS 2.0
+#O	Statskonsult Programvaruhuset AB
+#C	Robert Claeson
+#E	pvab!robert
+#T	+46 8 7300300
+#P	Box 4040, S-171 04 Solna, Sweden
+#L	59 18 N  17 58 E
+#U	enea
+#W	pvab!robert 870805
+#
+pvab	coke(DIRECT),fanta(DIRECT)
+
+#N	rashm
+#S	PDP 11/60 Venix/11
+#O	The Central Board of National Antiquities
+#C	Harald Nystedt
+#E	rashm!haraldo
+#T	046 8 783 90 00
+#P	Box 5405, S-114 84  Stockholm, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 861018
+#
+
+#N	rainier
+#S	SUN 2/120; Sun UNIX 4.2
+#O	Linkoping University
+#C	Bjorn Lindskog
+#E	rainier!postmaster
+#T	+46 13 282282
+#P	S-581 83 Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	rainier!bjorn (Bjorn Lindskog); Tue Feb  4 16:45:35 MET 1986
+#
+rainier	enea(DEMAND), liuida(DEMAND)
+
+#	Dept. LAN
+RAINIER-ETHER = {rainier, adams, carola}!(LOCAL)
+
+#N	ruben
+#S	Stride 460/Unistride 2.1
+#O	Rubenson & Co
+#C	Oerjan Lindh
+#E	ruben!postmaster
+#T	+46 8 744 55 20
+#P	Aarstaaengsv. 19, S-117 43 Stockholm, Sweden
+#L	59 35 N 18 06 E city
+#W	enea!ber 870810
+#
+ruben	enea, sems
+
+#N	sal, objecta
+#S	DIAB DS90 (Zilog Z8001 based)/Xenix ver 2
+#O	Objecta Elektronik & Data AB
+#C	Johan Finnved
+#E	sal!jf
+#T	+46 8 7567485
+#P	Bergtorpsvaegen 43b, S-183 63 Taeby, Sweden
+#L	59 45 N 18 09 E
+#U	enea
+#W	sal!jf 850218
+#
+sal = objecta
+
+#N	sbasc
+#S	Zilog 8000
+#O	Statskontoret
+#C	Thomas Hoeglund
+#E
+#T	+46 8 7384000
+#P	Box 34107, S-100 26 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	enea!ber 870524
+#
+
+#N	scamic
+#S	SORD M680UX/UNIX V.1
+#O	Scandinavian Micro Computer AB (SMC)
+#C	Mikael Gullberg
+#E	enea!chalmers!scamic!mg
+#T	+46 31 804100
+#P	Marieholmsgatan 3, S-415 02 Gothenburg, Sweden
+#L	57.44N 11.58E
+#U	chalmers
+#W	scamic!mg 860414
+#
+scamic	chalmers
+
+#N	sems
+#S	Stride 460 / UNIX System V
+#O	SEMS AB
+#C	Joachim Bj|rklund
+#E	sems!jocke
+#T	+46 8 920 940
+#P	Box 2120, 191 02  SOLLENTUNA, SWEDEN
+#L	59 18 N  17 58 E
+#U	enea
+#W	sems!clindh 860122
+#
+sems	enea, symbas
+
+#N      sics
+#S      VAX750/4.3BSD
+#O      Swedish Institute of Computer Science
+#C      Hans Eriksson
+#E      sics!hans
+#T      +46 8 752 15 00
+#P      SICS, Box 1263, 164 28 KISTA, Sweden
+#L	59 18 N  17 58 E
+#U	enea
+#W      sics!hans 860213
+#
+sics = sicsten
+sics	enea, nmpcad, uplog
+
+#N	sielem, sietwo, siedix
+#S	VAX 11/750, Ultrix
+#O	Siemens-Elema AB
+#C	Anders Eriksson
+#E	sielem!anders
+#T	+46 8 7307426
+#P	S-171 95 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850117
+#
+sielem	enea, sietwo(DIRECT), siedix(DIRECT)
+
+#N	simulina
+#S	Sun 3/60  BSD 4.2
+#O	Simulina
+#C	Haakan Kaellberg
+#E	hk@simulina.se
+#T	+46 31186124
+#P	Egnahemsv 22 C, S-413 21 GOETEBORG, Sweden
+#L	57.42N 11.58E
+#W	hk@simulina 880108
+#
+simulina	chalmers
+
+#N	sisug
+#S	Sun-2/SunOS 3.0 (BSD)
+#O	Swedish Institute of Systems Development (SISU)
+#C	H}kan Torbj{r
+#E	sisug!torbjar
+#T	+46 31 830250
+#P	N Kroksl{ttsgatan 2, S-412 64 G|teborg, Sweden
+#L	57 39 N 12 17 E
+#W	sisug!torbjar 871217
+#
+sisug	sisus, chalmers
+
+#N	sisus
+#S	SUN 3.0/4.2BSD
+#O	SISU (The Swedish Institute for Systems Development)
+#C	Anders Bjornerstedt
+#E	sisus!anders
+#T	+46 8 7521600
+#P	Box 515,  S-164 28 Kista, Sweden
+#L	59 18 N  17 58 E
+#W	sisus!anders 871127
+#
+sisus	suadb(DAILY), color(DIRECT), plain(DIRECT), sisug
+
+#N	sleipner
+#S	Alliant 4.2BSD
+#O	Stockholm Observatory
+#C	Nils Carlborg
+#E	sleipner!carlborg
+#T	46 8 7170380
+#P	S-133 00 Saltsjoebaden, Sweden
+#L	59.16N 18.13E
+#W	sleipner!carlborg 870120
+#
+
+#N	speech
+#S	6 Apollo DN3000 / 4.2BSD
+#O	Department of Speech Communication and Music Acoustics, KTH
+#C	Kjell Elenius
+#E	speech!kjell
+#T	46 8 787 7000
+#P	Box 70014, S-100 44  Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	speech!kjell 861021
+#
+speech	tds
+
+#N	sssodie
+#S	System V
+#O	Swedsoft Systems AB
+#C	Adam Paulson
+#E	sssodie!adam
+#T	+46 8 734 96 80
+#P	Nybodagatan 4, S-171 42 Solna, Sweden
+#W	sssodie!adam 880220
+#
+
+#N	stbull
+#S      Bull Questar 710/SPIX System V.2.2.
+#O	Honeywell Bull AB, Stockholm
+#C	Per Haeggquist
+#E	stbull!per
+#T      +46 8 7284341
+#P      Sveavagen 163,  S-104 35 Stockholm, Sweden
+#L	59 10 N  17 55 E
+#W	stbull!per 861105
+#
+
+#N	sthwat
+#S	NCR Tower 32/600, SV.2
+#O	Stockholms VA-verk
+#C	Mats Holmberg
+#E	sthwat!mats
+#T	+46 8 7280373
+#P	BOX 6407, S-113 82 Stockholm, Sweden
+#L	59 10 N  17 55 E
+#W	sthwat!mats 870908
+#
+sthwat	enea, ncrsth
+
+#N	suadb
+#S	VAX 11/780, 4.1BSD
+#O	University of Stockholm, Dep. of Computer and Systems Sciences
+#C	Bertil Hansson
+#E	suadb!bha 
+#T	+46 8 163561
+#P	S-106 91 Stockholm, Sweden
+#L	59 18 N  17 58 E
+#U	enea
+#W	enea!ber 850117
+#
+suadb	enea, sisus(DAILY)
+
+#N	sunswe
+#S	SUN 3/180S / SUN OS 3.4EXPORT
+#O	Sun Microsystems AB
+#C	Hans J. Albertsson
+#E	halbertsson@sunswe.se
+#T	+46 8 764 7810
+#P	Hemvaernsgatan 9, S-171 54 Solna, Sweden
+#L	59 18 N  17 58 E
+#R	Wholly owned subsidiary of SUN Microsystems Inc.
+#W	halbertsson@sunswe 880111
+#
+
+#N      suling
+#S      Apollo DN3000/4.2BSD
+#O      Fonetik-lab, SU
+#C      Rolf Lindgren
+#E      suling!rolf
+#T      +46 8 16 23 37
+#P      Fonetik, University of Stockholm, S-106 91 Stockholm, Sweden
+#L      59.22N 18.1E
+#W      suling!rolf 870720
+#
+
+#N	sus
+#S	PDP 11/70, V7
+#O	Statskonsult AU AB
+#C	Kamran Rassouli
+#E	sus!su-kr
+#T	+46 8 7300300
+#P	Box 4040, S-171 04 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850117
+#
+
+#N	symbas
+#S	Stride 460, Unistride 2.0
+#O	Symbiotic Computer Systems A/S
+#C	Tor-Arne Gisvold
+#E	symbas!postmaster
+#T	+47 7 53 20 27
+#P	Nedre Bakklandet 75, p/o/ box 354, N7001 Trondheim Norway
+#L	63.5N 11E
+#W	symbas!tag 861230
+#
+symbas	sems
+
+#N	syproa
+#S	Gould PN6000/UTX1.2
+#O	SYPRO AB i Arboga
+#C	Nils Sievert
+#E	syproa!nisse
+#T	+46 589 12820
+#P	Box 8, S-73200 Arboga, Sweden
+#L	59 22 N 15 54 E
+#W	syproa!nisse 860625
+#
+
+#N	syvab
+#S	MY32/Unix V.2
+#O	Sydvastra Stockholmsregionens va-verks aktiebolag (SYVAB)
+#C	Peter Vopatek
+#E	syvab!peter
+#T	+46 0753 27240
+#P	Himmerfjardsverket, S-140 32 Grodinge, Sweden
+#L	59.4N 17.43E
+#W	syvab!peter 880121
+#
+
+#N	tdeap
+#S	Apollo DN420, AUX 7.1
+#O	Royal Institute of Technology, Dept. of Applied Electronics
+#C	Jaan Haabma
+#E	tdeap!jaan
+#T	+46 8 7877000
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	enea!ber 850117
+#
+tdeap	mickel(HOURLY), tds(HOURLY), imhp(HOURLY), imhv(HOURLY)
+
+#N	tdxsoft
+#S	Tranfor MB386/20 XENIX V.2.2.1
+#O	T-D-X SoftWare AB
+#C	Allan Larsson
+#E	tdxsoft!allan
+#T	+46 8 970180
+#P	Box 227, S-191 23  SOLLENTUNA, SWEDEN
+#L	59 18 N  17 58 E
+#
+tdxsoft	kullmar
+
+#N	tekswed
+#S	PDP 11/23, TNIX V2.1
+#O	Tektronix AB
+#C	Anders Bjenne
+#E	tekswed!anders
+#T	+46 8 830080
+#P	Anderstorpv. 12, Box 4205, S-171 04 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850117
+#
+
+#N	teletest
+#S	SUN-3/280 SUNOS 3.2
+#O	Teletest, Sektionen for test och validering (Pvd),Televerket
+#C	Bo Sjoeblom
+#E	teletest!bosses
+#T	+46 8 713 1263
+#P	D092:01, Faernebogatan 81-87, S-123 86 Farsta, Sweden
+#L	59 19 N  17 57 E
+#W	teletest!bosses 880126
+#
+
+#N	teli-n
+#S	PDP 11/70, IS PWB/v6
+#O	Teli Ab, avd. I/U
+#C	Hans Albertsson
+#E	teli-n!hans
+#T	+46 752 63276
+#P	Box 1001, S-149 01 Nynaeshamn, Sweden
+#L	58 52 N 17 55 E
+#W	enea!ber 850117
+#
+teli-n	log-hb(DAILY), tvt-f(DAILY), teli-a(DAILY)
+
+#N	teli-v
+#S	PDP11/70 & PWB/v6
+#O      Education Center Busniness systems
+#C      Erik Norling
+#E	teli-v!norling
+#T      46 52172806
+#P      Teli Abonnentvaxelskolan, Box 86, S-46201 Vanersborg
+#L      58 22 N 12 18 E
+#W	teli-v!norling 861215
+#
+teli-v	tvt-f
+
+#N	teliut
+#S	Tower XP/ UNIX V.2
+#O	Teli AB
+#C	Ake Hjalmarsson
+#E	teliut!hjalmar
+#T	+46 752 639 21
+#P	Avd. UTE3, Box 1001, 149 01 Nynaeshamn, Sweden
+#L	58.55N 18.0E
+#W	teliut!hjalmar 870929
+#
+teliut	tvt-k
+
+#N	tds, kth
+#S	VAX 11/750, 4.2BSD
+#O	Royal Institute of Technology, Dept. of Computer Systems
+#C	Bernhard Stockman
+#E	tds!bernhard
+#T	+46 8 7906000
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#U	enea
+#W	enea!ber 850828
+#
+tds =	ttds, kth
+tds	duvan(DIRECT), enea(DAILY), ftf(DAILY), fysik4(DAILY), draken(DIRECT),
+	tdeap(HOURLY), ttdsa(HOURLY), bogart(DIRECT), palladio(DAILY), kicki,
+	xerxes
+
+#N	tet
+#S	HP9050/HP-UX
+#O	Institute for theoretic electroniks (TET)
+#C	Jonas Bjoerkberg
+#E	tet!jonas
+#T	+46 08 7878465
+#P	Teoretisk elektroteknik, S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	tet!jonas 861006
+#
+
+#N	tvt-f
+#S	PDP 11/70, IS PWB/v6
+#O	Swed. Telecommunications Authority, dept. FLS, @ Farsta
+#C	Sven Olof Joensson
+#E	tvt-f!svenj
+#T	
+#P	
+#L	59 19 N  17 57 E
+#W	enea!ber 850117
+#
+tvt-f	teli-n, teli-v, enea
+
+#N	tvt-k
+#S	Tower 32/System V
+#O	Swedish Telecommunications Administration Training Centre
+#C	Mats Mellstrand
+#E	tvt-k!mats
+#T	46 480 80382
+#P	Groendalsvaegen 19, Box 814, S-391 28 Kalmar
+#L	56 41 N 16 20 E
+#U	teliut
+#W	tvt-k!mats 860903
+#
+
+#N	tvtks
+#S	DS90-211/DNIX 5.2
+#O	Televerket Tod
+#C	Rolf Aastroem
+#E	tvtks!rolf
+#T	+46 54 19 20 09
+#P	Box 336, S-651 08 Karlstad, Sweden
+#L	59 25 N 13 30 E
+#W	enea!ber 880105
+#
+
+#N	ubab
+#S	PDP 11/23, XENIX V2.2
+#O	Utbildningsbyraan AB
+#C	Stig Jernberg
+#E	ubab!sj
+#T	+46 8 714 09 40
+#P	Box 4209, S-102 63 Stockholm, Sweden
+#L	
+#W	enea!ber 870123
+#
+
+#N	umecs
+#S	VAX750/4.3BSD
+#O	Dep. of Information Proc.,Umea University
+#C	Roland Hedberg
+#E	umecs!roland
+#T	+46 90 166134
+#P	S-90187 Umea, Sweden
+#L	63.47.39N 20.17.02E
+#U	luth
+#W	umecs!roland 870702
+#
+umecs	luth
+
+#N	unilkp
+#S	Unisys 5000/50
+#O	Unisys AB
+#C	Hans-Goeran Puke
+#E	unilkp!hgp
+#T	+46 13 115500
+#P	Unisys AB, Box 280, 581 02 Link|ping
+#L	58 34 N 15 36 E city
+#W	enea!ber 870523
+#
+unilkp	mapper
+
+#N	unilog
+#S	IBM AT (clone) running VENIX
+#O	Unilog Systems AB
+#C	Erik Sievert
+#E	unilog!unilog or unilog!erik
+#T	+46 18 157120
+#P	Eriksbergsvaegen 9, S-752 39 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	unilog!erik 8609914
+#
+
+#N	unione
+#S	Unisys 5000/90 Unix sys V.2         
+#O	Televerket Prh
+#C	Jan Fernkvist
+#E	unione!prhfer
+#T	46 8 7134499
+#P	Faernebogatan 81-87 S-123 86 Farsta, Sweden
+#L	59 19 N  17 57 E
+#W	unione!prhfer 87-10-16
+#
+
+#N	uniware
+#S	Zilog 8000 mod 130, Unix Sys V.2
+#O	Uniware System AB
+#C	Jan Johansson
+#E	uniware!jan
+#T	+46 8 7647655
+#P	Uniware System AB, Box 4098, 171 04 Solna, Sweden
+#L	59 19 N  17 57 E
+#W	uniware!jan 880224
+#
+
+#N	uplog
+#S	Pyramid 90x/4.2BSD
+#O	TeleLOGIC Uppsala AB
+#C	Johan Hammar
+#E	uplog!johan
+#T	+46 18 155910
+#P	Dag Hammarskjoldsv. 31, 752 37 Uppsala, SWEDEN
+#L	59.42N 17.42E
+#U	log-hb
+#W	uplog!johan 870623
+#
+uplog	sics
+
+#N	upnod
+#S	VAX 11/750, 4.2BSD
+#O	Upnod AB
+#C	Sune Henriksson
+#E	upnod!sune
+#T	+46 18 156730
+#P	Box 23051, S-750 23 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	enea!ber 850903
+#
+
+#N	valhall
+#S	Sun 3/160 BSD 4.2
+#O	Lund Institute of Technology, Department of Computer Science
+#C	Dan Oscarsson
+#E	valhall!Dan
+#T	+46 46 108043
+#P	Box 118, S-221 00 Lund, Sweden
+#L	55,7112613N 13,2129236E
+#W	valhall!Dan  19870113
+#
+valhall	urd
+
+#N	volvo
+#S	HP9000/550-HPUXv5.05
+#O	VOLVO DATA AB
+#C	Sven Holmquist
+#E	volvo!sven
+#T	+46 31 669176
+#P      Volvo Data AB, dep 2920, DVF2, S-405 08 GOTEBORG, SWEDEN
+#L	57 39 N 12 17 E
+#W	volvo!sven 29 may 1986
+#
+
+#N	yeti
+#S	IBM AT/XENIX V
+#O	Yeti Communication AB
+#C	Mikael Gombrii
+#E	yeti!mikael
+#T	46 8 540170
+#P	Sysslomansgatan 22, S-112 41 Stockholm, Sweden
+#L	59 33 N 18 09 E
+#W	yeti!mikael 870202
+#
+
+#N	zyx
+#S	HP 9000/200 HP-UX
+#O	Zyx Research AB
+#C	Dainis Millers
+#E	zyx!dm
+#T	+46 8 653205
+#P	Styrmansgatan 6, S-11454 Stockholm, Sweden
+#L	59 33 N 18 09 E
+#W	zyx!dm 86-01-30
+#
+SHAR_EOF
+:	End of shell archive
+exit 0

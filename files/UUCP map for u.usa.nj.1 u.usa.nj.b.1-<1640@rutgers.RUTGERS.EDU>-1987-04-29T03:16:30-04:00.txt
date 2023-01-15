@@ -1,0 +1,3013 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.nj.1
+#	u.usa.nj.b.1
+# This archive created: Wed Apr 29 03:16:17 1987
+# By:	The UUCP Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.nj.1
+cat << \SHAR_EOF > u.usa.nj.1
+#	start of u.usa.nj.1: Tue Apr  7 13:36:51 EDT 1987
+#	maintained by rick@seismo.CSS.GOV
+
+#N	abasin
+#S	AT&T UNIX PC Model 7300; UNIX V.2
+#O	Winston/Smith Associates
+#C	Daniel J. Rosenbaum
+#E	abasin!djr
+#T	+1 201 271 4800
+#P	792 Watchung Road, Bound Brook, NJ  08805
+#L	40 33 N / 74 32 W city
+#R	Home of the WIRETAP monthly analysis letter
+#U	
+#W	rutgers!pleasant (Mel Pleasant); Thu Oct 30 15:11:23 EST 1986
+#
+abasin	rutgers(DIRECT)
+
+#N	adrvax
+#S	Vax 11/750, 4.2BSD
+#O	Applied Data Research, Inc.
+#C	Angel Casado
+#E	adrvax!angel
+#T	+1 201 874 9000 
+#P	Route 206 & Orchard Rd, CN-8 Princeton, NJ 08540
+#L	40 21 N / 74 40 W
+#R
+#W	Angel Casado, 05/05/85
+#U	siemens
+# 
+#adrvax	princeton(DIRECT), astrovax(DIRECT), fisher(DIRECT), ctlauto(DIRECT),
+#	siemens(DEMAND), ihnp4(DEMAND), encore(DEMAND), neoucom(DEMAND)
+
+#N	andromeda
+#S	Pyramid 90x; OSx 2.5
+#O	Rutgers Univ. Center for Computer & Information Services 
+#C	Dave Bloom
+#E	andromeda!usenet
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N / 74 10 26 W
+#R
+#U	rutgers ruhub
+#W	rutgers!pleasant (Mel Pleasant); Sat Oct 11 19:53:10 EDT 1986
+#
+andromeda	caip(LOCAL), rutgers(LOCAL-1), topaz(LOCAL), ruhub(HOURLY)
+
+#N	anwar
+#S
+#O	HHB-Softron
+#C	Bob Erickson, Peter Tom
+#E	anwar!bob, anwar!pet
+#T	(201) 848-8000
+#P	1000 Wyckoff Ave., Mahwah, NJ 07430
+#L	41 06 N / 74 09 W
+#R
+#W	Bob Erickson, 10/31/84
+#U	hhb
+#
+#anwar	hhb(DEMAND)
+
+#N	aramis
+#S	Sun 3/280S; 4.2 BSD Unix
+#O	Rutgers - The State University of New Jersey
+#C	Don Watrous, Mel Pleasant
+#E	rutgers!watrous, rutgers!pleasant
+#T	+1 201 932 2287
+#P	H355 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also ARAMIS.RUTGERS.EDU [128.6.5.58] on the Internet
+#U	aramis paul rutgers topaz
+#W	rutgers!pleasant (Mel Pleasant); Mon Feb 16 17:11:10 EST 1987
+#
+aramis = "aramis.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+aramis	RU-NET
+aramis	rutgers(LOCAL)
+
+#N	argus
+#S	ATT 3b5;UNIX System V Release 2.0
+#O	New Jersey Inst of Tech., Computerized Conf and Comm Ctr.
+#C	Bob Michie
+#E	argus!postmaster
+#T	+1 201 596 2936
+#P	367 King Blvd Room G02W, Newark NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	Gateway for NJIT unix systems
+#U	njitsc1
+#W	argus!bob (Bob Michie); Tue Mar 10 13:13:24 EST 1987
+#
+argus	njitsc1(DIRECT), njtcsd(DIRECT), bellcore(DIRECT),
+	andromeda(DIRECT), yogi(DIRECT) 
+
+#N	astrovax
+#S	DEC Vax 8200; Ultrix V1.2
+#O	Princeton University, Dept. of Astrophysical Sciences
+#C	William L. Sebok
+#E	astrovax!postmaster
+#T	+1 609 452 3586
+#P	Princeton Univ. Observatory, 129 Peyton Hall, Princeton, NJ 08544
+#L	40 21 N / 74 39 W
+#U	macbeth princeton pupthy
+#W	astrovax!wls (William L. Sebok); Thu Sep 25 13:28:10 EDT 1986
+#
+# Department machines on Local Ethernet
+astrovax	mira(LOCAL), sludge(LOCAL)
+#
+# Other campus machines reachable by Campus net
+astrovax	acm-cel(LOCAL), acm-vax(LOCAL), cougar(LOCAL), ivy(LOCAL),
+	macbeth(LOCAL), princeton(LOCAL), pupcyc(LOCAL), pupgg(LOCAL),
+	puppsr(LOCAL), pupthy(LOCAL)
+#
+# non-campus machines reachable through the campus net
+astrovax	caip(DEDICATED), topaz(DEDICATED), jvncc(DEDICATED)
+#
+# Local phone calls
+astrovax	fisher(DIRECT), ias(DIRECT), siemens(DIRECT)
+#
+# Long Distance.  Forwarded mail to these sites is held and released once
+#   per day at 2 am.
+astrovax	akgua(DAILY), allegra(DAILY), arizona(DAILY), biomed(DAILY),
+	bonnie(DAILY), burl(DAILY), cbosgd(DAILY), cfa(DAILY), charm(DAILY),
+	cithep(DAILY), clyde(DAILY), cmcl2(DAILY), dartvax(DAILY),
+	decvax(DAILY), escher(DAILY), garfield(DAILY), gatech(DAILY),
+	gould9(DAILY), hoh-2(DAILY), ihnp4(DAILY), inuxa(DAILY), inuxc(DAILY),
+	inuxd(DAILY), inuxe(DAILY), inuxg(DAILY), inuxh(DAILY), inuxi(DAILY),
+	inuxj(DAILY), inuxk(DAILY), inuxl(DAILY), inuxm(DAILY), inuxn(DAILY),
+	inuxo(DAILY), masscomp(DAILY), neoucom(DAILY), no-sense(DAILY),
+	noao(DAILY), nrao1(DAILY), oddjob(DAILY), petsd(DAILY),
+	phastvax(DAILY), philabs(DAILY), physics(DAILY), rocky2(DAILY),
+	sjuvax(DAILY), stsci(DAILY), sun(DAILY), think(DAILY), tl-vaxa(DAILY),
+	usenix(DAILY), utastro(DAILY), vax135(DAILY), wuphys(DAILY)
+
+#N	bootstrap
+#S	DEC MicroVaxII; ULTRIX-32M v1.1
+#O	Princeton University
+#C	Colin Goodall
+#E	bootstrap!postmaster, bootstrap!colin
+#T	+1 609 452 5783
+#P	E-Quad E220, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#R	
+#W	colin; Mar 4 1986
+#
+bootstrap	jackknife(DEDICATED), princeton(DIRECT), macbeth(DAILY),
+	fisher(DAILY), soil(DAILY), merci(DAILY)
+
+#N	boskone
+#S	ATT 3b2/300;ATT SVR2.0.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	andromeda!latzko
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	just another unix box
+#U	andromeda 
+#W	andromeda!latzko (Alex Latzko); 18 nov 1986
+#
+boskone	andromeda(DEDICATED)
+
+#N	bty
+#S	Altos 486-25; XENIX 3.0b
+#O
+#C	Brian Yost
+#E	bty!news
+#T	+1 201 586 9377
+#P	52 Oslo Drive, Rockaway, NJ 07866-4240
+#L	74 30 04 W / 40 57 09 N
+#R	News goes from whuxcc-->bty-->{kosman,tmmnet,mba} and from mba-->aig2
+#W	bty!yost (Brian Yost); Sun Dec  7 23:36:08  1986
+#U	mba aig2 kosman tmmnet
+#
+bty	whuxcc(HOURLY+HIGH), motown(DIRECT), attmail(POLLED), mba(DAILY/2),
+	aig2(DAILY/2), tmmnet(DAILY/2), kosman(DAILY)
+
+#N	burnside
+#S	Sun 3/50; Sun 3.0
+#O	Rutgers - The State University of New Jersey
+#C	Charles Sims, Dave Steiner
+#E	topaz!burnside!sims, topaz!newton!sims
+#T	+1 201 531 8340
+#P	Provosts Office 18 Bishop Pl., Rutgers Univ.,New Brunswick, NJ
+#L	40 34 N / 74 45 W city
+#R	Other contacts: topaz!fermat!falk,topaz!steiner
+#U
+#W	topaz!rapatel 6/28/86
+#
+# Sites that we poll
+#
+burnside topaz(HOURLY)
+topaz	burnside(HOURLY)
+
+#N	caip
+#S	Pyramid 90x; OSx 3.1
+#O	Rutgers - The State University of New Jersey
+#C	Melvin J. Pleasant Jr. (Mel)
+#E	caip!uucp
+#T	+1 201 932 3439
+#P	H028 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W
+#R	This is also CAIP.RUTGERS.EDU [128.6.4.16] on the internet
+#U	elbereth rutgers topaz
+#W	rutgers!pleasant (Mel Pleasant); Mon Nov 10 15:50:13 EST 1986
+#
+caip = "caip.RUTGERS.EDU"
+#
+# RU-NET is defined in the TOPAZ map entry
+caip	RU-NET
+caip	andromeda(LOCAL), elbereth(LOCAL), euler(LOCAL), fermat(LOCAL),
+	fugue(LOCAL), gauss(LOCAL), newton(LOCAL), rutgers(LOCAL),
+	toccata(LOCAL), topaz(LOCAL)
+
+#N	catnip
+#S	IBM AT; SCO Xenix System V
+#O	BB Consulting
+#C	Bennett Broder
+#E	{ihnp4,decvax,houxm,topaz}!hjuxa!catnip!usenet
+#T	+1 201 957 0451
+#P	Holmdel, NJ  07733
+#L	40 22 N / 75 08 W
+#R
+#W	catnip!ben (Bennett Broder); Sat Mar  8 11:12:04 EST 1986
+#U	hjuxa moncol
+#
+catnip	hjuxa(DEMAND), moncol(DAILY)
+
+#N	cctfe
+#S	CCUR 3230; XELOS
+#O	Concurrent Computer Corporation, General
+#C	Joseph M. Orost
+#E	petsd!joe
+#T	+1 201 758 7284
+#P	MS313, Concurrent Comp. Co., 106 Apple St., Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R	No dial-out; polled every 15 min.
+#W	petsd!joe (Joe Orost); Sun Oct 26 18:51:23 EST 1986
+#U
+#
+cctfe	petsd(HOURLY/4)
+
+#N	cmi
+#S	AT&T 7300;	2.0 UNIX
+#O	C.M.I. Systems
+#C	J. Ronald Allen
+#E	cmi!ron
+#T	+1 201 462 9696
+#P	297 Rt. 9 North  Englishtown , N.J. 07726
+#L
+#R	We are a retail computer store (Apple,AT&T)
+#U	manx
+#W	cmi!ron (J.R. Allen); Wed Sep 23 04:30:15 EDT 1985
+#
+#cmi	manx(DAILY)
+
+#N	ctlauto
+#S
+#O	Control Automation
+#C
+#E	ctlauto!root
+#T
+#P
+#L
+#R
+#W
+#U
+#
+ctlauto	eosp1(DAILY)
+
+#N	dirt 
+#S	DEC MicroVAX II, Ultrix 1.1 
+#O	Princeton University Civil Engineering 
+#C	Rod Rowland, Robert Chesler 
+#E	soil!rod, soil!rob
+#T	+1 609 452 4612
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	74 40 W / 40 21 N city
+#R	Centrifuge Laboratory
+#U
+#W	soil!rob (Robert Chesler); Tue May 29 21:41:45 EST 1986
+#
+dirt	soil(LOCAL), marie(LOCAL), merci(LOCAL)
+
+#N	down
+#S	DEC VAX 11/750; Eighth Edition
+#O	Princeton University, Department of Computer Science
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	princeton!pep (Pat Parseghian); Thu Oct 30 16:05:53 EST 1986
+#
+down	asburypark(DEMAND)
+
+#N	dragon
+#S	AT&T UNIX PC
+#O	InfoPro Systems
+#C	David Fiedler
+#E	dragon!dave
+#T	+1 201 989 0570
+#P	3108 Route 10, Denville, NJ 07834
+#L	40 53 N / 74 29 W
+#R
+#W	dragon!david (Dave Fiedler); Tue, 19 Nov 85 14:25:34 EST
+#U	infopro
+#
+#dragon	hunter(EVENING), infopro(DIRECT), pcles(EVENING), tmmnet(DIRECT)
+
+#N	elbereth
+#S	Pyramid 98xe; OSx 3.1
+#O	Rutgers - The State University of New Jersey
+#C	Saul Jaffe
+#E	elbereth!jaffe
+#T	+1 201 932 4207
+#P	H028 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also ELBERETH.RUTGERS.EDU [128.6.4.61] on the internet
+#U	andromeda caip topaz
+#W	caip!pleasant (Mel Pleasant); Mon Sep  1 00:19:42 EDT 1986
+#
+elbereth = "elbereth.RUTGERS.EDU"
+elbereth = "elbereth.ARPA"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+elbereth RU-NET
+elbereth andromeda(LOCAL), caip(LOCAL), euler(LOCAL), fermat(LOCAL),
+	 gauss(LOCAL), newton(LOCAL), rutgers(LOCAL), topaz(LOCAL)
+
+#N	erika
+#S	SUN 3/160, 4.2BSD
+#O	Unipress Software
+#C	Mike Gallaher
+#E	unipress!mg
+#T	+1 201 985 3773
+#P	2025 Lincoln Hwy.  Edison, NJ 08817
+#L	40 34 N / 74 45 W
+#R	internal unipress use only
+#W	unipress!mg (Mike Gallaher); Sun Nov 16 14:25:45 EST 1986
+#U
+#
+# Local calls
+#
+erika		unipress(DIRECT)
+#
+# We call these systems even if we have no traffic.
+#
+unipress	erika(HOURLY)
+
+#N	euler
+#S	celerity
+#O	Rutgers - The State University of New Jersey - Math Department
+#C	Rakesh Patel
+#E	topaz!rapatel
+#T	+1 201 932 3129, +1 201 494 7209
+#P	H017 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also EULER.RUTGERS.EDU [128.6.4.51] on the internet
+#U
+#W	caip!pleasant (Mel Pleasant); Mon Sep  1 00:21:48 EDT 1986
+#
+euler = "euler.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+euler	RU-NET
+euler	caip(LOCAL), elbereth(LOCAL), newton(LOCAL), topaz(LOCAL)
+
+#N	fennel, nutmeg, paprika, saffron
+#S	AT&T; System V Release 3.0 
+#O	Rutgers - The State University of New Jersey
+#C	Beth Binde, George Laskaris 
+#E	rutgers!binde, rutgers!laskaris 
+#T	+1 201 932 5019
+#P	Hill Center 053, Rutgers Univ., PO Box 879, Piscataway, NJ 08855-0879
+#L	40 34 N / 74 45 W city
+#R
+#U	rutgers
+#W	rutgers!binde (Beth Binde); Tue Mar 10 10:07 EST 1987
+#
+RU-SPICES = {fennel, paprika, nutmeg, saffron}(LOCAL) 
+
+#N	fermat
+#S	SUN 3/180S
+#O	Rutgers - The State University of New Jersey - Math Department
+#C	Rakesh Patel
+#E	topaz!rapatel
+#T	+1 201 932 3129, +1 201 494 7209
+#P	H017 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also FERMAT.RUTGERS.EDU [128.6.4.54] on the internet
+#U
+#W	caip!pleasant (Mel Pleasant); Mon Jan 26 16:31:23 EST 1987
+#
+fermat = "fermat.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+fermat	RU-NET
+fermat	caip(LOCAL), elbereth(LOCAL), topaz(LOCAL)
+
+#N	fisher
+#S	DEC VAX-11/750; 4.1 BSD UNIX
+#O	Princeton University, Dept. of Mathematics
+#C	Nathaniel J. Thurston
+#E	fisher!postmaster
+#T	(609) 683-0543
+#P	106 Fitzrandolph Road, Princeton, NJ 08540
+#L	40 21 N / 74 40 W
+#R
+#U	astrovax eosp1 macbeth
+#W	fisher!njt (Nathaniel J. Thurston); Fri Nov 22 21:27:08 EST 1985
+#
+#fisher	astrovax(DIRECT), puvax1(DIRECT), princeton(DIRECT), geometry(DIRECT),
+##	ias(DIRECT), allegra(DAILY), macbeth(DIRECT), eosp1(WEEKLY)
+
+#N	fugue
+#S	SUN 3/160
+#O	Rutgers - The State University of New Jersey
+#C	Melvin J. Pleasant Jr. (Mel)
+#E	caip!uucp
+#T	+1 201 932 2023
+#P	H019 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also FUGUE.RUTGERS.EDU [128.6.5.53] on the internet
+#U
+#W	rutgers!pleasant (Mel Pleasant); Wed Feb 18 16:32:43 EST 1987
+#
+fugue = "fugue.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+fugue	RU-NET
+fugue	caip(LOCAL), toccata(LOCAL), topaz(LOCAL)
+
+#N	galaxy
+#S	ATT 3b2/300;ATT SVR2.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	ruhub!postmaster
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	
+#U	andromeda
+#W	topaz!latzko (Alex Latzko); Mon Nov 25 15:39:29 EST 1985
+#
+#galaxy	andromeda(DAILY/4)
+
+#N	gauss
+#S	SUN 3/180S
+#O	Rutgers - The State University of New Jersey - Math Department
+#C	Rakesh Patel
+#E	topaz!rapatel
+#T	+1 201 932 3129, +1 201 494 7209
+#P	H017 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also GAUSS.RUTGERS.EDU [128.6.4.53] on the internet
+#U	rutgers
+#W	rutgers!pleasant (Mel Pleasant); Mon Jan 26 16:27:33 EST 1987
+#
+gauss = "gauss.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+gauss	RU-NET
+gauss	caip(LOCAL), elbereth(LOCAL), newton(LOCAL), topaz(LOCAL)
+
+#N	gypsy
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Siemens Corporate Research and Technology Laboratories
+#C	Mike Brichta
+#E	siemens!brichta
+#T	+1 609 734 3356
+#P	Corporate Research & Support, Inc.
+#P	105 College Road East, Princeton, NJ 08540
+#L	40 21 N / 74 40 W
+#R
+#W	Steve Rosen (rosen!gypsy), Mon Oct 20 10:41:39 1986
+#U	siemens
+#
+gypsy	siemens(LOCAL)
+
+#N	hhb
+#S	Vax 11/785; Ultrix
+#O	HHB Systems
+#C	Peter Shaw
+#E	hhb!pshaw
+#T	+1 201 848 8000
+#P	1000 Wyckoff Ave., Mahwah, NJ 07430
+#L	41 06 N / 74 09 W
+#R
+#W	hhb!pshaw (Peter Shaw); Mon Mar 30 09:53:16 EST 1987
+#U	philabs kosman
+#
+hhb	philabs(DAILY/3), princeton(DEMAND), kosman(POLLED), harris(POLLED),
+	leadsv(DEMAND), pyrnj(DEMAND)
+
+#N	hjuxa
+#S	DEC VAX-8650, System V Release II Version II
+#O	Digital Equipment Corporation, Holmdel NJ 07733.
+#C	Bill Loeffler
+#E	hjuxa!wcl
+#T	+1 201 946 1966
+#P	960 Holmdel Road, Holmdel, NJ 07733-2104
+#L	40 20 N / 74 10 W
+#R	
+#W	Bill Loeffler 3/30/87
+#U	catnip houxm petsd
+#
+hjuxa	bellcore(DEMAND), bonnie(DEMAND), catnip(POLLED), clyde(DEMAND),
+	decvax(DEMAND), decuac(EVENING), ganash(POLLED), hjuxc(DIRECT),
+	hjuxd(DIRECT), hjuxs(DIRECT), hjuxw(DIRECT), ho95b(DIRECT),
+	ho95c(DIRECT), hound(DIRECT), houxa(DIRECT), houxf(DIRECT),
+	houxm(DIRECT), hou2a(DIRECT), hou2b(DIRECT), hou2d(DIRECT),
+	ihnp4(EVENING), ihuxy(POLLED), majic(DIRECT), nssc05(EVENING),
+	pesws(EVENING), petsd(POLLED)
+
+#N	hpnjla
+#S	HP 9000/540; HP-UX
+#O	Hewlett Packard Company, New Jersey Division
+#C	Patrick Lam
+#E	hpnjla!plam
+#T	+1 210 627 6400 x234
+#P	150 Green Pond Road, Rockaway NJ 07866
+#L	
+#R	
+#U	
+#W	hpnjla!plam (Patrick Lam ); Thu Mar 12 15:25:05 EST 1987
+#
+#	DIALUP site(1200 baud)
+#
+hpnjla	rutgers(HOURLY)
+#
+#  Sites we poll
+#
+rutgers	hpnjla(HOURLY)
+
+#N	hydra, kraken, medusa
+#S	ATT 3b2/400;ATT SVR2.0.4 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	andromeda!latzko
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	just another unix box
+#U	andromeda 
+#W	andromeda!latzko (Alex Latzko); 18 nov 1986
+#
+hydra 	andromeda(DEDICATED)
+kraken	andromeda(DEDICATED)
+medusa	andromeda(DEDICATED)
+
+#N	idacrd
+#S	DEC VAX-11/730;	Ultrix-32 V1.1.
+#O	Institute for Defense Analyses, Communications Research Division.
+#C	Jerry Hopkins
+#E	princeton!idacrd!jerry
+#T	+1 609 924 4600
+#P	Thanet Road, Princeton, New Jersey 08540
+#L	40 20 N / 74 40 W (city)
+#R
+#W	jerry@idacrd.UUCP (Gerald J. Hopkins); Tue Oct 28 22:15:00 1986
+#U	princeton
+#
+idacrd	princeton
+
+#N	infonet4
+#S	AT&T6300 Plus; Simul-Task OS Merge
+#O	Computer Science Corporation
+#C	Paul Orvos
+#E	infonet4!paul
+#T	+1 201 981 9119 x37
+#P	371 Hoes Lane, Piscataway, NJ 08854
+#W	infonet4!paul (Paul Orvos); Fri Dec 9:20;16 EST 1986
+#
+infonet4	rutgers(HOURLY*2)
+#
+# We actually poll rutgers regularly
+#
+rutgers		infonet4(HOURLY*2)
+
+#N	ivy
+#S	Vax 11/750; 4.2BSD
+#O	Princeton University, Department of Electrical Engineering
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	Honeyman Mon Mar 17 10:51:51 EST 1986
+
+#N	jackknife
+#S	DEC MicroVaxII; ULTRIX-32M v1.1
+#O	Princeton University
+#C	Colin Goodall
+#E	jackknife!postmaster,jackknife!colin
+#T	+1 609 452 5783
+#P	E-Quad E220, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#R
+#W	colin; Mar 4 1986
+#
+jackknife	bootstrap(DEDICATED), princeton(DIRECT), macbeth(DAILY),
+	fisher(DAILY), soil(DAILY), merci(DAILY)
+
+#N	klinzhai
+#S	Sun 3/180; 4.2 BSD Unix
+#O	Rutgers - The State University of New Jersey
+#C	Charles McGrew, David P. Zimmerman, Mel Pleasant
+#E	rutgers!mcgrew, rutgers!dpz, rutgers!pleasant
+#T	+1 201 932 3896
+#P	H355 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also KLINZHAI.RUTGERS.EDU [128.6.5.54] on the Internet
+#U
+#W	rutgers!dpz (David P. Zimmerman); Mon Jan 26 05:39:22 EST 1987
+#
+klinzhai = "klinzhai.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+klinzhai	RU-NET
+klinzhai	rutgers(LOCAL), topaz(LOCAL)
+
+#N	kosman
+#S	AT&T UNIX PC 7300; Sys V version 3.5
+#O	Anarm Software Systems, Hillsdale, NJ
+#C	Kevin O'Gorman
+#E	kosman!postmaster
+#T	+1 201 666 1734
+#P	17 Wierimus Lane, Hillsdale, NJ 07642
+#L	41 00 30 N / 74 02 30 W
+#R	KO's (Chaos) Manor
+#U	hhb
+#W	kosman!kevin (Kevin O'Gorman); Tue Aug 19, 7:44 am
+#
+kosman	hhb(EVENING), kfr013(POLLED)
+
+#N	lecmentor
+#S	apollo DN320; Aegis 8.1 & Aux
+#O	Lockheed Electronic Company, Inc.
+#C	Christopher J. Tengi, David K. Carpe
+#E	lecmentor!tengi, lecmentor!carpe
+#T	+1 201 757 1600 x3103, +1 201 757 1600 x3123
+#P	1501 US Highway 22, Plainfield, NJ 07061-1501
+#L	40 39 N / 74 25 W city
+#R	This is a Mentor Graphics ring network
+#W	rutgers!pleasant (Mel Pleasant); Tue Oct 14 04:32:54 EDT 1986
+#
+lecmentor	lecvae(DEAD),lecswd(DEAD),lechsg(DEAD)
+#
+cmucspt	lecmentor(DAILY/3+HIGH)
+leadsv	lecmentor(DAILY/3+LOW)
+
+#N	lundmark
+#S	ATT 3b2/400;ATT SVR2.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	topaz!latzko
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	gateway for campus micro network
+#U	andromeda 
+#W	topaz!latzko (Alex Latzko); Mon Apr  7 14:35:21 EST 1986
+#
+lundmark	andromeda(DEDICATED)
+
+#N	macbeth
+#S	Vax 11/750; 4.3BSD
+#O	Princeton University, Civil Engineering Dept.
+#C	Michael Schneider
+#E	macbeth!michael
+#T
+#P	Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#R
+#U	astrovax fisher txlprs
+#W	macbeth!craig (Craig Kolb); Sat Sep 20 17:38:51 EDT 1986
+#
+# Civil Engineering Subnet
+macbeth	bootstrap(LOCAL), dirt(LOCAL), jackknife(LOCAL), merci(LOCAL),
+	soil(LOCAL)
+#
+# Other University Sites of interest
+macbeth	acm-cel(LOCAL), applmath(DIRECT), astrovax(LOCAL), fisher(DIRECT),
+	princeton(LOCAL), puvax1(LOCAL), puvax2(LOCAL)
+#
+# Off-campus sites
+macbeth	tlxprs(DAILY)
+
+#N	mama
+#S	IBM PC/AT Xenix
+#O	The Soup Kitchen
+#C	Liz Sommers
+#E	mama!liz
+#T	+1 201 968 5865 
+#L	40 34 N / 74 45 W
+#R	Very small system
+#W	mama!liz (Liz Sommers); Tue, Oct 29 02:45:00 1986 EST
+#U
+#
+mama	unirot(LOCAL), tokyo(DIRECT), unipress(DIRECT)
+
+#N	manx
+#S	Dec pdp-11/73; Ultrix-11
+#O	Manx Software Systems, Inc.
+#C	Thomas Fenwick
+#E	manx!tf
+#T	+1 201 530 7997
+#P	208 Maple Avenue, Red Bank, NJ 07701
+#L
+#R
+#W	Thomas Fenwick  9/25/85
+#U
+#
+#manx	petsd(DIRECT), hunny(DEMAND), juliet(DIRECT), uxgcc(DEMAND+HIGH),
+#	orsvax1(DEMAND+LOW), morhph(DEMAND+HIGH), cmi(DAILY)
+#forced poll
+#uxgcc	manx(DAILY/3)
+#juliet	manx(DAILY/3)
+
+#N	marie
+#S	DEC MicroVAX II, Ultrix 1.1
+#O	Princeton University Civil Engineering
+#C	Rod Rowland, Robert Chesler
+#E	soil!rod, soil!rob
+#T	+1 609 452 4612
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	74 40 W / 40 21 N city
+#R	Graphics Workstation (Alpha 1)
+#U
+#W	soil!rob (Robert Chesler); Tue May 29 21:41:45 EST 1986
+#
+marie	soil(LOCAL), dirt(LOCAL), merci(LOCAL)
+
+#N	merci
+#S	DEC MicroVAX II, Ultrix 1.1
+#O	Princeton University Civil Engineering
+#C	Rod Rowland, Robert Chesler
+#E	soil!rod, soil!rob
+#T	+1 609 452 4612
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	74 40 W / 40 21 N city
+#R	Systems Engineering
+#U
+#W	soil!rob (Robert Chesler); Tue May 29 21:41:45 EST 1986
+#
+merci	soil(LOCAL), marie(LOCAL), dirt(LOCAL), macbeth(DEDICATED),
+	utah-cs(EVENING), jackknife(DAILY), princeton(HOURLY)
+
+#N	mind
+#S	Pyramid 90x; OSx
+#O	Princeton University, Cognitive Science 
+#C	Barry Lustig
+#E	mind!barry
+#T	+1 609 987 2824
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#R	The map entry for princeton specifies our connection information.
+#U	princeton tiger
+#W	mind!barry (Barry Lustig); Mon Nov 24 12:14:05 EST 1986
+
+#N	mira
+#S	Sun 3/160C; Sun UNIX 4.2 Release 3.0 PILOT
+#O	Princeton University, Dept. of Astrophysical Sciences
+#C	William L. Sebok
+#E	astrovax!postmaster
+#T	+1 609 452 3586
+#P	Princeton Univ. Observatory, 129 Peyton Hall, Princeton, NJ 08544
+#L	40 21 N / 74 39 W
+#W	astrovax!wls (William L. Sebok); Mon Feb  3 17:20:56 EST 1986
+#
+mira	astrovax(LOCAL), pupthy(LOCAL), sludge(LOCAL)
+
+#N	monatt
+#S	AT&T 3B5, SVr2
+#O	Monmouth College Computer Center
+#C	John Ruschmeyer
+#E	moncol!john
+#T	+1 201 571 3557
+#P	W. Long Branch, NJ 07764
+#L	40 17 N / 73 59 W
+#R	primarily used by Software Engineering dept.
+#W	John Ruschmeyer, 11/17/86
+#U
+monatt	monuxa(HOURLY)
+
+#N	moncol
+#S	Perkin-Elmer 3220, V7
+#O	Monmouth College Computer Center
+#C	John Ruschmeyer
+#E	moncol!john
+#T	+1 201 571 3557
+#P	W. Long Branch, NJ 07764
+#L	40 17 N / 73 59 W
+#R	no dialout capability
+#W	John Ruschmeyer, 11/17/86
+#U	petsd
+#
+moncol	petsd(POLLED), pesnta(DEAD), princeton(WEEKLY), monuxa(DEMAND),
+	monuxb(DEMAND), catnip(DAILY)
+
+#N	monuxa
+#S	Perkin-Elmer 3250xp, XELOS (SVr2)
+#O	Monmouth College Computer Center
+#C	John Ruschmeyer
+#E	moncol!john
+#T	+1 201 571 3557
+#P	W. Long Branch, NJ 07764
+#L	40 17 N / 73 59 W
+#R
+#W	John Ruschmeyer, 11/17/86
+#U
+monuxa	moncol(DEMAND), monuxb(DEMAND), monatt(DEMAND)
+
+#N	monuxb
+#S	Perkin-Elmer 3220, v7
+#O	Monmouth College Computer Center
+#C	John Ruschmeyer
+#E	moncol!john
+#T	+1 201 571 3557
+#P	W. Long Branch, NJ 07764
+#L	40 17 N / 73 59 W
+#R
+#W	John Ruschmeyer, 11/17/86
+#U
+monuxb	moncol(HOURLY), monuxa(DEMAND)
+
+#N	moscow
+#S	Integrated Solutions, 4.2BSD
+#O	Unipress Software
+#C	Mike Gallaher
+#E	unipress!mg
+#T	+1 201 985 3773
+#P	2025 Lincoln Hwy.  Edison, NJ 08817
+#L	40 34 N / 74 45 W
+#R	internal unipress use only
+#W	unipress!mg (Mike Gallaher); Sun Nov 16 14:26:18 EST 1986
+#U
+#
+# Local calls
+#
+moscow		unipress(DIRECT), isieng(POLLED)
+#
+# We call these systems even if we have no traffic.
+#
+unipress	moscow(HOURLY)
+
+#N	motown
+#S	DEC VAX-11/785; UNIX System V 2.0v2
+#O	Allied-Signal Inc., Corporate Tax Department
+#C	John M. Ritter
+#E	motown!postmaster
+#T	+1 201 455 6930
+#P	PO Box 1057R, Morristown, NJ  07960
+#L	40 48 N / 74 27 W
+#R
+#U	bellcore mergvax rsf sandoz vilya
+#W	motown!jmr (John M. Ritter); Tue Oct 28 09:51:32 EST 1986
+#
+motown	bellcore(DIRECT), bunker(DEMAND), bty(DIRECT), cuuxb(DEMAND),
+	harpo(DIRECT), ihnp4(DEMAND), mergvax(DEMAND), ninja(DEMAND),
+	njpwr(DIRECT), phw5(DIRECT), princeton(DEMAND), rsf(DEMAND),
+	sandoz(DIRECT), sys1(DEMAND), vilya(DIRECT), xenixsp(DEMAND)
+
+#N	newton
+#S	Celerity 1200
+#O	Rutgers - The State University of New Jersey - Math Department
+#C	Rakesh Patel
+#E	topaz!rapatel
+#T	+1 201 932 3129, +1 201 494 7209
+#P	H017 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also NEWTON.RUTGERS.EDU [128.6.4.52] on the internet
+#U	
+#W	rutgers!pleasant (Mel Pleasant); Tue Oct 14 04:19:45 EDT 1986
+#
+newton = "newton.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+newton	RU-NET
+newton	caip(LOCAL), elbereth(LOCAL), euler(LOCAL), gauss(LOCAL),
+	rutgers(LOCAL), topaz(LOCAL)
+
+#N	njitsc1
+#S	Sun 3/160; BSD 4.2
+#O	New Jersey Inst of Tech., Computing Services Department
+#C	Bill Cheswick
+#E	njitsc1!bc
+#T	+1 201 596 2904
+#P	323 Martin Luther King Blvd, Newark NJ 07102
+#L	40 44 32 N / 74 10 26 W
+#U
+#W	njitsc1!bc (Bill Cheswick); Wed Feb 11 12:27:08 EST 1987
+#
+njitsc1	njtcsd(LOCAL)
+
+#N	njtcsd
+#S	Convergent Technologies MiniFrame; CTIX 3.30
+#O	New Jersey Inst of Tech., Computing Services Department
+#C	Bill Cheswick
+#E	njtcsd!bc
+#T	+1 201 596 2904
+#P	323 Martin Luther King Blvd, Newark NJ 07102
+#L	40 44 32 N / 74 10 26
+#U
+#W	njtcsd!bc (Bill Cheswick); Wed Feb 11 12:21:12 EST 1987
+#
+njtcsd	njitsc1(LOCAL), argus(DIRECT), bellcore(DIRECT),
+	ctnjso(DIRECT), hcr(WEEKLY)
+
+#N	orsvax1
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	ORS Automation, Inc.
+#C	Lorin Miller
+#E	orsvax1!system
+#T	+1 609 924 1667
+#P	440 Wall Street, Princeton, NJ  08540
+#L	074 39 30 W / 40 24 N
+#R	I don't work for this company; just posted this for "completeness"
+#W	princeton!pgt1!brent (Brent Chivers) ; Sun Oct 26 21:00:00 EST 1986
+#
+orsvax1	applmath(DIRECT), catalyst(DAILY), manx(DAILY), pgt1(DIRECT),
+	princeton(DIRECT), pyrnj(DAILY), winnie(DIRECT)
+
+#N	panic
+#S	Pyramid 90x; OSx 2.5
+#O	Princeton University, Department of Computer Science
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	princeton!pep (Pat Parseghian); Mon Oct 27 18:41:28 EST 1986
+#
+
+#N	paul
+#S	Sun 3/180; 4.2 BSD Unix
+#O	Rutgers - The State University of New Jersey
+#C	Charles McGrew, David P. Zimmerman, Mel Pleasant
+#E	rutgers!mcgrew, rutgers!dpz, rutgers!pleasant
+#T	+1 201 932 3896
+#P	H355 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also PAUL.RUTGERS.EDU [128.6.5.60] on the Internet
+#U
+#W	rutgers!pleasant (Mel Pleasant); Mon Feb 16 17:01:04 EST 1987
+#
+paul = "paul.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+paul	RU-NET
+paul	rutgers(LOCAL), topaz(LOCAL)
+
+#N	pcrat
+#S	IBM PC/AT; Venix System V Release 2.2
+#O	PC Research, Inc.
+#C	Rick Richardson
+#E	pcrat!rick
+#T	+1 201 922 1134
+#P	93 Garrison Drive, Neptune, NJ 07753
+#L	40 15 N / 74 10 W
+#R
+#U
+#W	pcrat!rick (Rick Richardson); Mon Mar 23 15:42:00 EST 1987
+#
+pcrat	castor(LOCAL), polux(LOCAL), attmail(HOURLY)
+
+#N	pecnos
+#S	CCUR 3250; XELOS
+#O	Concurrent Computer Corporation, OS Development
+#C	Joseph M. Orost
+#E	petsd!joe
+#T	+1 201 758 7284
+#P	MS313, Concurrent Comp. Co., 106 Apple St., Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R
+#W	petsd!joe (Joe Orost); Sun Oct 26 18:52:51 EST 1986
+#U
+#
+pecnos	petsd(LOCAL)
+
+#N	pedsgd
+#S	PE 3230, XELOS
+#O	Perkin-Elmer
+#C	Seth Rosenthal
+#E	pedsgd!seth
+#T	(201) 758-7339
+#P	106 Apple Street, MS 305, Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R
+#W	pedsgd!bobh (Bob Halloran); Mon, 12 Aug 85 14:21:48 EDT
+#U	petsd
+#
+# local network (Micom)
+#pedsgd	petsd(LOCAL), petse(LOCAL), petf1(LOCAL), pedsgh(LOCAL),
+#	pedsgi(LOCAL), pedsgj(LOCAL)
+#
+## local calls
+#pedsgd	pesvc(DIRECT), pesws(DIRECT), pedsga(DIRECT), pedsgl(DIRECT),
+#	morphc(DIRECT), petpv(DIRECT)
+#
+## long distance calls
+#pedsgd	peora(DEMAND), attunix(DEMAND), sfmin(POLLED)
+#
+## We poll these sites even if we don't have traffic for them
+#petsd	pedsgd(DAILY*7)
+#petse	pedsgd(DAILY*4)
+#petf1	pedsgd(DAILY*5)
+#pesws	pedsgd(DAILY*3)
+#pedsga	pedsgd(HOURLY)
+#pedsgl	pedsgd(HOURLY)
+
+#N	pedsgo
+#S	Perkin-Elmer 3210; Unix Sys V OS (XELOS R01.1)
+#O	CONCURRENT Computer Corp., Department of Data Communications
+#C	Craig W. DeNoce
+#E	pedsgo!craig
+#T	+1 201 758 7320
+#P	106 Apple St. Tinton Falls, New Jersey, USA
+#L	40 20 N / 74 05 W 
+#U	pedsgd petsd
+#W	pedsgo!craig; Wed Feb  12 13:34:55 EST 1986
+#
+pedsgo	pedsgl, pedsgd, pedsgl, yawn, petsd
+
+#N	petf1
+#S	CCUR 3230; XELOS
+#O	Concurrent Computer Corporation, Marketing
+#C	Joseph M. Orost
+#E	petsd!joe
+#T	+1 201 758 7284
+#P	MS313, Concurrent Comp. Co., 106 Apple St., Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R
+#W	petsd!joe (Joe Orost); Sun Oct 26 18:54:30 EST 1986
+#U
+#
+petf1	petsd(LOCAL)
+
+#N	petfe
+#S	CONCURRENT 3230; XELOS
+#O	CONCURRENT, a Perkin-Elmer Company, General
+#C	Joseph M. Orost
+#E	petsd!joe
+#T	+1 201 758 7284
+#P	MS313, CONCURRENT, 106 Apple St., Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R	No dial-out; polled every 15 min.
+#W	petsd!joe (Joe Orost); Fri, 11 Nov 85
+#U
+#
+#petfe	petsd(HOURLY/4)
+
+#N	petsd
+#S	CCUR 3230; Edition VII
+#O	Concurrent Computer Corporation, Software Development
+#C	Joseph M. Orost
+#E	petsd!joe
+#T	+1 201 758 7284
+#P	MS313, Concurrent Comp. Co., 106 Apple St., Tinton Falls, NJ 07724
+#L	40 19 49 N / 74 04 37 W
+#R	Our news comes from hjuxa
+#W	petsd!joe (Joe Orost); Wed Nov 19 13:37:42 EST 1986
+#U	hjuxa peora moncol pedsgd petf1 pecnos
+#
+petsd	vax135(DIRECT), moncol(DIRECT), hjuxa(DIRECT), cctfe(LOCAL),
+	pesnta(HOURLY+LOW+LOW), peora(DEMAND+LOW), pedsgd(LOCAL),
+	pedsga(LOCAL), pedsgo(LOCAL+LOW), princeton(DEMAND),
+	pur-ee(EVENING+LOW+LOW), encore(EVENING), manx(DIRECT),
+	pesdgc(DEMAND+LOW), purdue(EVENING+LOW+LOW), okstate(EVENING+LOW+LOW),
+	rutgers(DEMAND+HIGH), astrovax(DEMAND), uvacs(EVENING), pecnos(LOCAL),
+	petf1(LOCAL), pesvc(DIRECT), pesws(DIRECT), hunny(DEMAND),
+	cuaepd(EVENING+LOW+LOW)
+#
+#forced poll
+#
+moncol	petsd(HOURLY)
+uvacs	petsd(EVENING)
+rutgers	petsd(EVENING)
+
+#N	pgt1
+#S	Symmetric 375; Genex 4.2
+#O	Princeton Gamma-Tech, Inc.
+#C	Brent Chivers
+#E	pgt1!system
+#T	+1 609 924 7301
+#P	1200 State Road, Princeton, NJ  08540
+#L	40 24 15 N / 074 39 32 W
+#R	No news neighbor, but we would like one as soon as we get more disk!
+#W	princeton!pgt1!brent (Brent Chivers) ; Mon Oct 27 11:00:00 EST 1986
+#
+pgt1	catalyst(DAILY*3), orsvax1(DAILY/6), princeton(DAILY/4), pyrnj(DAILY*2)
+
+#N	phw5
+#S	AT&T PC6300; XENIX V
+#O	Pipeline Associates, Inc.
+#C	Patrick Wood
+#E	phw5!phw
+#T	+1 201 334 0772
+#P	49 Manito Ave., Lake Hiawatha, NJ 07034
+#L	40 53 N / 74 25 W
+#R	PostScript Language Journal, devps, security software, and training
+#W	phw5!phw (Patrick Wood); Mon Mar 30 22:30:24 EST 1987
+#
+phw5	floyd(DIRECT), pipelin(DEMAND), motown(HOURLY),
+	ora(EVENING), infopro(POLLED), esquire(POLLED), bogart(WEEKLY),
+	textware(WEEKLY), masscomp(WEEKLY)
+
+#N	plxnyc
+#S	Plexus P/60; Plexus UNIX Sys5r2
+#O	PLEXUS Computers, Inc.
+#C	Ed Chaban
+#E	plxnyc!madmin
+#T	+1 201 843 7766
+#P	Park 80 Plaza East; 3rd floor; Saddle Brook, NJ 07662
+#L	
+#R	
+#U
+#W	plx!joey (Joseph Yetter); Mon Nov 18 17:10:00 PST 1985
+#
+#plxnyc	plx(DEMAND), plxbos(DEMAND)
+
+#N	princeton
+#S	DEC VAX 8600; 4.3 BSD
+#O	Princeton University, Department of Computer Science
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	princeton!pep (Pat Parseghian); Thu Oct 30 16:04:01 EST 1986
+#U	allegra astrovax idacrd mind pucc rutgers siemens
+#
+#R	UUCP information for princeton (modems cycle 2400/1200):
+#R	princeton Any ACU 2400 trenton4522906 in:--in: uucp word uuprince
+#R	princeton Any ACU 2400 trenton4528678 in:--in: uucp word uuprince
+#R	princeton Any ACU 2400 trenton6831286 in:--in: uucp word uuprince
+#
+### Princeton University Hosts ###
+### Computer Science ###
+# VAXen, 3B20s, and Pyramids
+princeton	down(LOCAL),flakey(LOCAL),panic(LOCAL),quirky(LOCAL),
+		thrash(LOCAL),up(LOCAL),yoyo(LOCAL)
+princeton	pujs(DEDICATED),tilt(DEDICATED)
+pujs		princeton(DAILY)
+# jack of hearts (3B20) isn't all there yet
+princeton	pujh(DEAD)
+# fuzzballs
+princeton	pu7s(POLLED)		# Acton 3B2
+#
+### Electrical Engineering via ethernet ###
+princeton	tiger(LOCAL),ivy(LOCAL),issmoon(LOCAL),issun(LOCAL)
+#
+### Cognitive Science ###
+princeton	mind(LOCAL)
+#
+### Astrophysics ###
+princeton	astrovax(LOCAL)
+### Physics ###
+princeton	pupthy(DIRECT)
+#
+### Mathematics ###
+princeton	fisher(DIRECT),geometry(DIRECT)
+#
+### Music ###
+princeton	millie(DIRECT),winnie(DIRECT)
+#
+### Civil Engineering ###
+princeton	macbeth(LOCAL),merci(DIRECT),soil(DIRECT)
+#
+### Applied Mathematics ###
+princeton	applmath(DIRECT+LOW)	# we get through very rarely
+#
+###  Computing Center ###
+princeton	puvax1(DEDICATED),puvax2(DEDICATED)
+puvax1		princeton(HOURLY)
+puvax2		princeton(HOURLY)
+#
+### Somewhere on campus
+princeton	bootstrap(DIRECT),jackknife(POLLED)
+bootstrap	princeton(DAILY)
+#
+### Important Gateways ###
+# official gateway to AT&T
+princeton	attunix(DEMAND+HIGH)
+#
+# Our favorite backbone
+princeton	ulysses(DEMAND+HIGH)
+#
+# Gateway to Bell Communications Research
+princeton	bellcore(DEMAND+HIGH)
+#
+# Gateway to the universe
+princeton	seismo(DEMAND+LOW)
+#
+# AT&T, Bell* neighbors
+princeton	alice(DEMAND),
+		allegra(DEMAND),
+		bentley(DEMAND),
+		bonnie(DEMAND),
+		cbosgd(WEEKLY),		# very far away
+		circe(DEMAND),
+		clyde(DEMAND),
+		cord(DEMAND),
+		desoto(DEMAND),
+		edsel(DEMAND),
+		erc3ba(POLLED),
+		floyd(DEMAND),
+		gummo(DEMAND),
+		harpo(DEMAND),
+		hdb2(DEMAND),		# Nowitz
+		hudson(DEMAND),
+		ihnp4(WEEKLY),		# very far away
+		lzma(DEAD),
+		mentor(DEMAND),
+		mhuxi(DEMAND+HIGH),	# ole reliable
+		mhuxr(DEMAND),
+		moss(DEAD),
+		nomad(DEMAND),
+		packard(DEMAND),
+		penelope(DEMAND),
+		pierce(DEMAND),
+		pruxa(DIRECT),		# Hopewell ERC
+		research(DEMAND),	# Him
+		sfwin(DEAD),
+		sfwoo(DEMAND),
+		ulysses(DEMAND),
+		vax135(DEMAND),
+		yquem(DEMAND),
+		zeppo(DEMAND)
+#
+# Other sites
+#
+# Through JVNC gateway
+princeton	caip(LOCAL+LOW),	# gateway is flakey
+		topaz(LOCAL+LOW)
+caip		princeton(DAILY)
+topaz		princeton(DAILY)
+# Local calls
+princeton	cpbss(DIRECT),
+		ctlauto(DEAD),		# nobody home -- went four paws?
+		idacrd(POLLED),
+		lognet1(DIRECT),	# (800) number
+		lognet2(DIRECT),	# (800) number
+		orsvax1(DIRECT),
+		pgt1(DIRECT),
+		rcadsrc(DEAD),		# they haven't polled us in months
+		rcalabs(POLLED),
+		siemens(DIRECT)
+# Intrastate, but interlata
+princeton	hhb(DEMAND),
+		moncol(DEMAND),
+		motown(DEMAND),
+		petsd(DEMAND),
+		pyrnj(DEMAND),
+		topaz(DEMAND)
+# Interstate and beyond
+princeton	adrvax(DEAD),		# adrvax moved to dallas (?)
+		akgua(DEMAND+LOW),	# far away
+		arizona(DEAD),		# we don't call them any more
+		brunix(DEMAND+2*LOW),	# far away
+		cmcl2(DEMAND+LOW),
+		cornell(DEAD),		# broken phone
+		dartvax(DEMAND+LOW),
+		dwon(POLLED),		# honey's new home
+		encore(DEAD),		# flakey
+		ncrday(DEAD),		# went away?
+		neoucom(DEMAND+2*LOW),	# far away
+		oasis(POLLED),
+		okstate(EVENING),
+		philabs(DEMAND+LOW),
+		psuvax1(DEMAND+LOW),
+		sjuvax(DEMAND+LOW),
+		smi(DEMAND),
+		spock(POLLED)
+brunix		princeton(DAILY)
+lognet2		princeton(DAILY)
+umich		princeton(DAILY)
+
+#N	prism
+#S	AT&T 3B2/300; System V Release 2 Version 2
+#O	Prism Computer Products, Inc.
+#C	Pat M. Iurilli
+#E	prism!pat
+#T	+1 201 985 3340
+#P	P. O. Box 1494, Highland Park, NJ  08904
+#L	40 34 N / 74 30 W
+#R
+#W	prism!pat (Pat M. Iurilli); Tue, Dec  2 11:28:51 EST 1986
+#U
+#
+prism	rruxqq(DIRECT), u1100a(DIRECT), rutgers(DIRECT)
+
+#N	pupthy
+#S	Ridge 32; ROS 3.3
+#O	Princeton University, Physics Department, Theory Group
+#C	William R. Somsky
+#E	pupthy!wrs
+#T	+1 609 452 4417
+#P	P.O. Box 708, Princeton NJ 08544
+#L	40 20 41 N  / 74 39 07 W
+#R	Internet [128.112.24.3]
+#U	astrovax
+#W	pupthy!wrs (William R. Somsky) ; Sat Oct 25 23:07:49 EDT 1986
+#
+pupthy	astrovax(LOCAL), princeton(LOCAL)
+
+#N	pyrnj
+#S	Pyramid 98xe; OSx 3.?
+#O	Pyramid Technology Corporation
+#C	Romain Kang, Dave Weiss
+#E	pyrnj!postmaster
+#T	+1 201 750 2626
+#P	10 Woodbridge Center Dr, Woodbridge, NJ  07095
+#L	44 33 N / 74 17 W city
+#R	willing to feed more news
+#U	esquire(L3) mirror(mod.sources,L3) orsvax1(L3) pyrdc(mod)
+#U	rutgers pyramid(mod.sources)
+#W	pyrnj!romain (Romain Kang); Mon Oct 27 11:56:32 EST 1986
+#
+#  we really do call these guys on demand
+pyrnj	andromeda(DEMAND), barak(DEMAND), bellcore(DEMAND),
+	caip(DEMAND), topaz(DEMAND), rutgers(DIRECT)
+#  PTC internal
+pyrnj	pyramid(HOURLY+HIGH+HIGH), pyrbos(HOURLY+HIGH),
+	pyrchi(HOURLY+HIGH), pyrdc(HOURLY+HIGH), pyrltd(EVENING),
+	pyrnova(HOURLY+HIGH), pyrtech(HOURLY+HIGH)
+#
+pyrnj	mirror(HOURLY+HIGH)	#  Rich $alz, mod.sources
+#
+pyrnj   allegra(HOURLY+HIGH), amun-re(HOURLY), bc-ccm(HOURLY),
+	cmcl2(HOURLY+HIGH+HIGH), cobra(HOURLY+HIGH), cucc(HOURLY),
+	datacube(HOURLY+LOW), delftcc(HOURLY+LOW), esquire(POLLED),
+	genat(HOURLY+LOW), gsg(DAILY/2), hhb(HOURLY),
+	interet(HOURLY+HIGH), leopard(HOURLY+HIGH), mfci(HOURLY+LOW),
+	midsex(HOURLY), princeton(HOURLY+HIGH), pgt1(HOURLY),
+	rtech(EVENING), rwj(HOURLY+LOW), samwise(HOURLY), sbcs(HOURLY),
+	syntrex(HOURLY+HIGH), telesci(HOURLY+HIGH), tg(HOURLY+LOW),
+	ur-tut(HOURLY+LOW), udccpyr1(HOURLY), vmark(HOURLY+LOW),
+	vu-vlsi(HOURLY+HIGH), winnie(HOURLY+HIGH), yogi(HOURLY+HIGH),
+	orsvax1(HOURLY+LOW)	#  O.R.S. may go belly up any time
+#
+pyrnj	gmu90x(DEAD), pyrcorp(DEAD), ritisis(DEAD), unify(DEAD),
+	vcuac(DEAD)
+
+#N	flakey, quirky, tilt, up, yoyo
+#S	DEC VAX 11/750; 4.3 BSD
+#O	Princeton University, Department of Computer Science
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	princeton!pep (Pat Parseghian); Mon Oct 27 18:36:56 EST 1986
+#
+
+#N	remus
+#S	SUN 2
+#O	Rutgers - The State University of New Jersey
+#C	Charles McGrew, Mel Pleasant
+#E	topaz!mcgrew, caip!uucp
+#T	+1 201 932 3896
+#P	H355 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also REMUS.RUTGERS.EDU [128.6.5.3] on the internet
+#U
+#W	rutgers!pleasant (Mel Pleasant); Tue Oct 14 04:20:29 EDT 1986
+#
+remus = "remus.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+remus	RU-NET
+remus	rutgers(LOCAL), topaz(LOCAL)
+
+#N	repo
+#S	SUN 3/160, 4.2BSD
+#O	Unipress Software
+#C	Mike Gallaher
+#E	unipress!mg
+#T	(201) 985-3773
+#P	2025 Lincoln Hwy.  Edison, NJ 08817
+#L	40 34 N / 74 45 W
+#R	internal unipress use only
+#W	unipress!mg (Mike Gallaher); Sun Nov 16 14:26:31 EST 1986
+#U
+#
+# Local calls
+#
+repo		unipress(DIRECT)
+#
+# We call these systems even if we have no traffic.
+#
+unipress	repo(HOURLY)
+
+#N	ru-blue
+#S	DECSYSTEM-20; TOPS-20 5.4
+#O	Rutgers - The State University of New Jersey
+#C	Saul Jaffe, Mel Pleasant
+#E	ru-blue!jaffe, caip!uucp
+#T	+1 201 932 4207
+#P	H019 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also BLUE.RUTGERS.EDU [128.6.4.4] on the internet
+#R	This system does not speak UUCP but TOPAZ fakes it for us
+#U
+#W	rutgers!pleasant (Mel Pleasant); Wed Feb 18 16:33:19 EST 1987
+#
+ru-blue = "blue.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+ru-blue	RU-NET
+
+#N	ru-red
+#S	DECSYSTEM-20; TOPS-20 5.4
+#O	Rutgers - The State University of New Jersey
+#C	Don Watrous, Mel Pleasant
+#E	ru-red!watrous, caip!uucp
+#T	+1 201 932 2549
+#P	H028 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also RED.RUTGERS.EDU [128.6.4.2] on the internet
+#R	This system does not speak uucp but TOPAZ fakes it for us
+#U
+#W	rutgers!pleasant (Mel Pleasant); Wed Feb 18 17:20:25 EST 1987
+#
+ru-red = "red.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+ru-red	RU-NET
+
+#N	ruccas
+#S	ATT 3B5; System V Rel 2
+#O	Rutgers University, Camden Campus
+#C	David Gwalthney
+#E	ruccas!gwalthney
+#T	+1 609 757 6065
+#P	311 N 5th Street, Camden, NJ 08102
+#L	39 34 24 N / 75 04 12 W city
+#R
+#U
+#W	andromeda!dave (Dave Bloom); Thu Dec 11 11:05:08 EDT 1986
+ruccas	andromeda(DEMAND), antares(DEMAND)
+
+#N	ruhub
+#S	ATT 3b2/300;ATT SVR2.0.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Theresa Berger
+#E	andromeda!berger
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	just another unix box
+#U	andromeda 
+#W	andromeda!latzko (Alex Latzko); 18 nov 1986
+#
+ruhub	andromeda(DEDICATED)
+
+#N	rumath
+#S	ATT 3b2/300;ATT SVR2.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	ruhub!postmaster
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	
+#U	andromeda
+#W	topaz!latzko (Alex Latzko); Mon Nov 25 15:40:50 EST 1985
+#
+#rumath andromeda(DAILY/4)
+
+#N	ruplnt
+#S	ATT 3b2/300;ATT SVR2.2 UNIX 
+#O	Rutgers Univ., Center for Computer and Information Services
+#C	Alex Latzko
+#E	ruhub!postmaster
+#T	+1 201 648 5083
+#P	92 New Street Room 319, Newark, NJ 07102
+#L	40 44 32 N /74 10 26 W
+#R	
+#U	andromeda
+#W	topaz!latzko (Alex Latzko); Mon Nov 25 15:36:33 EST 1985
+#
+#ruplnt	andromeda(DAILY/4)
+
+#N	rutgers
+#S	SUN 3/180
+#O	Rutgers - The State University of New Jersey
+#C	Mel Pleasant, Charles McGrew
+#E	rutgers!pleasant, topaz!mcgrew
+#T	+1 201 932 2023
+#P	H019 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also RUTGERS.EDU [128.6.4.7] on the internet
+#R	This is the main mail and news feed into Rutgers University
+#R
+#U	ames andromeda aramis atux01 brl-adm caip cbmvax clyde columbia dayton
+#U	elbereth gauss hpnjla husc6 jvnca im4u ll-xn lll-lcc mit-eddie okstate
+#U	pisc2b princeton pyrnj seismo sri-spam sri-unix topaz ucla-cs unirot
+#U	uwvax
+#W	rutgers!pleasant (Mel Pleasant); Mon Mar 30 18:23:57 EST 1987
+#
+# RU-NET is defined in the "topaz" map entry
+#
+rutgers = "rutgers.rutgers.edu", "rutgers.edu"
+rutgers	.rutgers.edu
+rutgers	RU-NET
+rutgers	andromeda(LOCAL+HIGH), aramis(LOCAL+HIGH), caip(LOCAL+HIGH),
+	elbereth(LOCAL+HIGH), euler(LOCAL+HIGH), fermat(LOCAL+HIGH),
+	fugue(LOCAL+HIGH), gauss(LOCAL+HIGH), klinzhai(LOCAL+HIGH),
+	newton(LOCAL+HIGH), nick(DIRECT), nutmeg(LOCAL+HIGH), paul(LOCAL+HIGH),
+	remus(LOCAL+HIGH), ru-psy(POLLED), ruulab(DIRECT), toccata(LOCAL+HIGH),
+	topaz(LOCAL+HIGH)
+#
+#  TCP/IP connections
+#
+rutgers	ames(DEDICATED), astrovax (DEDICATED+HIGH), brl-adm(DEDICATED),
+	cit-vax(DEDICATED), citi(DEDICATED+HIGH), cmcl2(DEDICATED+HIGH),
+	columbia(DEDICATED+HIGH), dspvax(DEDICATED+HIGH), gumby(DEDICATED),
+	harvard(DEDICATED+HIGH), hplabs(DEDICATED), husc6(DEDICATED+HIGH+1),
+	jvnca(DEDICATED+HIGH), im4u(DEDICATED), ll-xn(DEDICATED),
+	lll-crg(DEDICATED+LOW), lll-lcc(DEDICATED), mimsy(DEDICATED),
+	mordor(DEDICATED), mit-amt(DEDICATED+HIGH), mit-eddie(DEDICATED+HIGH),
+	princeton(DEDICATED+HIGH), pur-ee(DEDICATED), riacs(DEDICATED),
+	rochester(DEDICATED+HIGH), rpics(DEDICATED), sdcsvax(DEAD),
+	seismo(DEDICATED), sri-iu(DEDICATED), sri-spam(DEDICATED),
+	sri-unix(DEDICATED), think(DEDICATED), ucla-cs(DEDICATED),
+	umix(DEDICATED+HIGH), ut-sally(DEDICATED), uw-beaver(DEDICATED),
+	uwvax(DEDICATED), Shasta(DEDICATED)
+#
+#  AT&T
+#
+rutgers	allegra(POLLED), atux01(POLLED), bonnie(DEMAND+HIGH), cbosgd(POLLED),
+	clyde(DEMAND+HIGH), erc780(POLLED), floyd(DEMAND+HIGH), ihnp4(POLLED),
+	lcuxlm(POLLED), moss(DIRECT+HIGH), mtgzd(POLLED), mtgzf(POLLED),
+	mtgzg(POLLED), mtgzi(POLLED), mtgzj(POLLED), mtgzk(POLLED),
+	mtgzl(POLLED), mtgzm(POLLED), mtgzn(POLLED), mtgzo(POLLED),
+	mtgzp(POLLED), mtgzq(POLLED), mtgzt(POLLED), mtgzy(POLLED),
+	mtgzz(POLLED), mtune(DIRECT+HIGH), mtx5w(POLLED), mtx5y(POLLED),
+	mtx5z(POLLED), pegasus(POLLED), phoenix(POLLED), pisc2b(POLLED),
+	poseidon(POLLED)
+#
+#  BELLCORE
+#
+rutgers	bellcore(POLLED), lcuxa(POLLED), lcuxb(POLLED), lcuxc(POLLED),
+	mruxa(POLLED), mruxc(POLLED), mruxd(POLLED), mruxe(POLLED),
+	nvuxa(POLLED), nvuxb(POLLED), nvuxc(POLLED), nvuxd(POLLED),
+	nvuxe(POLLED), nvuxf(POLLED), nvuxg(POLLED), nvuxh(POLLED),
+	nvuxj(POLLED), nvuxr(POLLED), pyuxa(POLLED), pyuxaa(POLLED),
+	pyuxb(POLLED), pyuxc(POLLED), pyuxd(POLLED), pyuxee(POLLED),
+	pyuxgg(POLLED), pyuxh(POLLED), pyuxii(POLLED), pyuxn(POLLED),
+	pyuxo(POLLED), pyuxp(POLLED), pyuxrr(POLLED), pyuxs(POLLED),
+	pyuxt(POLLED), pyuxv(POLLED), pyuxvv(POLLED), pyuxww(POLLED),
+	pyuxx(POLLED), pyuxy(POLLED), pyuxz(POLLED), rruxa(POLLED),
+	rruxb(POLLED), rruxc(POLLED), rruxd(POLLED), rruxf(POLLED),
+	rruxff(POLLED), rruxg(POLLED), rruxhh(POLLED), rruxjj(POLLED),
+	rruxo(POLLED), rruxp(POLLED), rruxqq(DEMAND), rruxr(POLLED),
+	rruxu(POLLED), rruxw(POLLED), rruxyy(POLLED),
+#
+#  Dialups - (2400 baud: +HIGH)
+#
+rutgers	basin(DIRECT), cbmvax(POLLED), clara(POLLED), dayton(POLLED+HIGH),
+	hpnjla(POLLED), infonet4(POLLED), liberty(POLLED), meccts(POLLED+HIGH),
+	octal8(POLLED), okstate(POLLED), petsd(POLLED), prism(POLLED),
+	pyramid(POLLED), pyrnj(EVENING+HIGH), sddua(POLLED), spam(POLLED),
+	timeplex(POLLED), unipress(DIRECT), unirot(DIRECT), yawn(POLLED)
+#
+#  Polled sites
+#
+pur-ee	rutgers(HOURLY)
+
+#N	ruulab	
+#S	ATT 3B2; System V R 2
+#O	CCIS Microlab, Rutgers University
+#C	Charles McGrew
+#E	ruulab!mcgrew
+#T	+1 201 932 3896
+#P	Hill Center, Busch Campus, Piscataway, NJ 08854
+#L	40 34 N / 74 45 W
+#R
+#W	ruulab!mcgrew (Charles McGrew); Wednesday Nov 27 23:50:00 EST 1985
+#U	topaz
+#
+ruulab	rutgers(DIRECT)
+
+#N	samurai
+#S	AT&T 7300; SYS V R2 
+#O	United Samurai Priests
+#C	Michael W. Richmond
+#E	samurai!richmon
+#T	+1 609 734 0315
+#P	625 Pyne Hall, Princeton, NJ 08544
+#L	40 21 N / 74 39 30 W
+#R
+#W	astrovax!richmon (Michael Richmond); Thu, 19 Nov 85 21:45:42 est
+#
+#samurai	astrovax(DIRECT)
+
+#N	sandoz
+#S	ATT 3B1; System 5  V 3.0
+#O	Sandoz Pharmaceuticals Corp.
+#C	Victor Sedlacko
+#E	sandoz!sedlac
+#T	+1 201 386 8432
+#P	Route 10, East Hanover, NJ 07936
+#L	40 47 30 N / 74 22 30 W
+#R
+#W	sandoz!sedlac (Victor Sedlacko); Fri Oct 31 16:00:00 EST 1986
+#U	motown
+#
+sandoz	motown(DEMAND), mtune(DAILY), plxnyc(DAILY)
+
+#N	sddua
+#S	Plexus P/35; OS 5.2 (NOS)
+#O	Libra Health Technology
+#C	John R. Campbell
+#E	sddua!soup
+#T	+1 201 274 2578
+#P	400 U.S. Route #1, Suite 7, Monmouth Junction, NJ 08852
+#L	40 27 N / 74 49 W
+#R	LANs (U/B Net/One)
+#U	rutgers
+#W	sddua!soup (John R Campbell); 11/06/1986
+#
+sddua	rutgers(DAILY)
+#
+rutgers	sddua(DAILY)
+
+#N	siemens
+#S	DEC VAX 11/780; 4.2BSD UNIX
+#O	Siemens Corporate Research and Technology Laboratories
+#C	Mike Brichta
+#E	siemens!brichta
+#T	+1 609 734 3356
+#P	Corporate Research & Support, Inc.
+#P	105 College Road East, Princeton, NJ 08540
+#L	40 21 N / 74 40 W
+#R
+#W	Steve Rosen (rosen!gypsy), Mon Oct 20 10:41:39 1986
+#U	princeton gypsy
+#
+siemens	gypsy(LOCAL), princeton(DIRECT), ihnp4(DEMAND),
+	columbia(HOURLY), drexel(HOURLY), cwruecmp(HOURLY),
+	allegra(HOURLY), vrdxhq(HOURLY)
+
+#N	sludge
+#S	Ridge 32; ROS 3.3
+#O	Princeton University, Dept. of Astrophysical Sciences
+#C	William L. Sebok
+#E	astrovax!postmaster
+#T	+1 609 452 3586
+#P	Princeton Univ. Observatory, 129 Peyton Hall, Princeton, NJ 08544
+#L	40 21 N / 74 39 W
+#W	astrovax!wls (William L. Sebok); Mon Feb  3 17:20:56 EST 1986
+#
+sludge	astrovax(LOCAL), mira(LOCAL), pupthy(LOCAL)
+
+#N	soil
+#S	DEC MicroVAX II, Ultrix 1.1
+#O	Princeton University Civil Engineering
+#C	Rod Rowland, Robert Chesler
+#E	soil!rod, soil!rob
+#T	+1 609 452 4612
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	74 40 W / 40 21 N city
+#R	Structural Engineering Microvax II
+#U
+#W	soil!rob (Robert Chesler); Tue May 29 21:41:45 EST 1986
+#
+soil	princeton(DIRECT), merci(LOCAL), dirt(LOCAL), marie(LOCAL),
+	macbeth(DEMAND), jackknife(DEAD), bootstrap(DEMAND), winnie(DEMAND)
+
+#N	spam
+#S	Cadmus 9000; Unix System 5 Release 3.8
+#O	Unipress Software
+#C	Rehmi Post
+#E	spam!rehmi
+#T	+1 201 985 8000
+#P	2025 Lincoln Highway, Edison, NJ 08817
+#L
+#R
+#U	
+#W	rutgers!pleasant (Mel Pleasant); Tue Jan  6 02:06:42 EST 1987
+#
+spam	unipress(DAILY/24), unirot(DAILY/3), rutgers(HOURLY*2)
+#
+# Polled Sites
+#
+rutgers	spam(HOURLY*2)
+
+#N	sunrise
+#S	Sun 2/170, 4.2BSD
+#O	Sun Microsystems, NY District Office
+#C	Jim Constantine
+#E	sunrise!jgc
+#T	(201) 944-9755
+#P	2 Executive Drive, Ft. Lee, NJ 07024
+#L	40 51 N / 73 58 W
+#R
+#W
+#U	philabs
+#
+sunrise	cmcl2(DAILY), philabs(DAILY), sun(DEMAND), vax135(DAILY),
+	wu1(DAILY), floyd(DAILY), allegra(DAILY), ihnp4(DAILY), unipress(DAILY)
+
+#N	telesci
+#S	Sun 3/180; Sun OS Rel 3.0 (UNIX)
+#O	Telescience, Inc.
+#C	Gary A. Algier, Jim Main
+#E	telesci!gaa, telesci!main, telesci!usenet
+#T	+1 609 866 1000
+#P	124 Gaither Drive, Mt. Laurel, NJ 08054
+#L	39 56 07 N / 74 57 17 W
+#R
+#U	tlxprs
+#W	telesci!gaa (Gary A. Algier); Mon Mar  9 10:19:10 EST 1987
+#
+telesci	tlxprs(DAILY), moscom(DAILY), princeton(DAILY)
+
+#N	thrash
+#S	DEC VAX 11/785; Ultrix 1.2
+#O	Princeton University, Department of Computer Science
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	princeton!pep (Pat Parseghian); Mon Oct 27 18:42:15 EST 1986
+#
+
+#N	tiger
+#S	Vax 11/750; 4.2BSD
+#O	Princeton University, Department of Electrical Engineering
+#C	Pat Parseghian
+#E	princeton!pep
+#T	+1 609 452 6261
+#P	Engineering Quadrangle, Princeton, NJ 08544
+#L	40 21 N / 74 40 W
+#W	Honeyman Mon Mar 17 10:51:51 EST 1986
+
+#N	timeplex
+#S	DEC VAX-11/780; ULTRIX-32
+#O	Timeplex, Inc.
+#C	Mike Rubin
+#E	timeplex!postmaster
+#T	+1 201 930 9888 x5588
+#P	530 Chestnut Ridge Road, Woodcliff Lake, NJ 07675
+#L	41 01 20 N / 74 04 15 W
+#U	
+#W	timeplex!mrubin (Mike Rubin); Tue Nov 04 11:40:47 EDT 1986
+#
+timeplex	rutgers(DEMAND), wu1(DAILY)
+
+#N	tlxprs, tlxprs2, tlxprs3, tlxprs5
+#S	M68020, SVR2, Sperry 5000/50
+#O	Telexpress, Inc.
+#C	Brian R. Eckert
+#E	tlxprs!brian
+#T	+1 609 877 4900
+#P	Rt. 130 & Beverly-Rancocas Rd., PO Box 217, Willingboro NJ 08046
+#L	40 03 N / 74 53 W
+#R
+#U	macbeth
+#W	tlxprs!brian (Brian R. Eckert); Fri Apr  3 13:19:00 EST 1987
+#
+# local calls
+#
+TLX-NET = {tlxprs, tlxprs2, tlxprs3, tlxprs5}!(DIRECT)
+#
+# long distance calls
+#
+tlxprs	macbeth(DEMAND), vsedev(EVENING), peng(POLLED), devon(POLLED),
+	sys1(POLLED), rambo(WEEKLY), rcw(POLLED), rsf(POLLED),
+	vyhub(DEAD), telesci(POLLED)
+
+#N	tmmnet	
+#S	CADMUS 9730; UNIX V implemented as CADMUS Rel. 3.9	
+#O	Tom Marshall d/b/a tmmnet ltd.	
+#C	Thomas M. Marshall, Esq.(Tom)	
+#E	tmmnet!tom	
+#T	+1 201 993 5779	
+#P	Powder Mill Village, 89 Patriots Road, Morris Plains, NJ 07950 	
+#L	40 51 00 N / 74 32 24 W
+#R	On-Line Legal-Patent Services; Software Protection, Exploitation
+#U	ittatc bty 
+#W	tmmnet!tom (Tom Marshall); Tue Dec 02 16:13:45 EST 1986
+#
+tmmnet	ittatc(POLLED/6), bty(DIRECT/6)
+
+#N	toccata
+#S	SUN 3/160
+#O	Rutgers - The State University of New Jersey
+#C	Melvin J. Pleasant Jr. (Mel)
+#E	caip!uucp
+#T	+1 201 932 2023
+#P	H019 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also TOCCATA.RUTGERS.EDU [128.6.3.26] on the internet
+#U
+#W	rutgers!pleasant (Mel Pleasant); Wed Feb 18 16:32:07 EST 1987
+#
+toccata = "toccata.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+toccata	RU-NET
+toccata	caip(LOCAL), fugue(LOCAL), topaz(LOCAL)
+
+#N	toccata
+#S	SUN 3/160
+#O	Rutgers - The State University of New Jersey
+#C	Melvin J. Pleasant Jr. (Mel)
+#E	caip!uucp
+#T	+1 201 932 3439
+#P	H028 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also TOCCATA.RUTGERS.EDU [128.6.3.26] on the internet
+#U
+#W	rutgers!pleasant (Mel Pleasant); Tue Oct 14 04:21:43 EDT 1986
+#
+toccata = "toccata.RUTGERS.EDU"
+#
+# RU-NET is defined in the "topaz" map entry
+#
+toccata	RU-NET
+toccata	caip(LOCAL), fugue(LOCAL), topaz(LOCAL)
+
+#N	topaz
+#S	Pyramid 90x; OSx 3.2
+#O	Rutgers - The State University of New Jersey
+#C	Mel Pleasant, Dave Steiner
+#E	rutgers!pleasant, topaz!uucp
+#T	+1 201 932 2023
+#P	H019 - Hill Center, Rutgers Univ., PO Box 879, Piscataway, NJ
+#L	40 34 N / 74 45 W city
+#R	This is also TOPAZ.RUTGERS.EDU [128.6.4.194] on the internet
+#U	aramis caip elbereth paul rutgers
+#W	rutgers!pleasant (Mel Pleasant); Fri Apr  3 20:56:39 EST 1987
+#
+topaz = "topaz.RUTGERS.EDU"
+#
+RU-NET = {ru-red, ru-blue}(LOCAL)
+topaz	RU-NET
+topaz	andromeda(LOCAL), caip(LOCAL), elbereth(LOCAL), euler(LOCAL),
+	fermat(LOCAL), fugue(LOCAL), gauss(LOCAL), klinzhai(LOCAL),
+	newton(LOCAL), paul(LOCAL), remus(LOCAL), rutgers(LOCAL),
+	toccata(LOCAL)
+
+#N	unipress
+#S	SUN 2/120, 4.2BSD
+#O	Unipress Software
+#C	Mike Gallaher
+#E	unipress!mg
+#T	(201) 985-3773
+#P	2025 Lincoln Hwy.  Edison, NJ 08817
+#L	40 34 N / 74 45 W
+#R	we're willing to talk to more systems
+#W	unipress!mg (Mike Gallaher); Sun Nov 16 14:26:48 EST 1986
+#U
+#
+# Local calls
+#
+unipress	rutgers(DIRECT), mama(DIRECT), unirot(DIRECT),
+		moscow(DIRECT), repo(DIRECT), erika(DIRECT), spam(DIRECT)
+#
+# in-state toll call
+#
+unipress	sunrise(DAILY/2)
+#
+# We call these systems even if we have no traffic.
+#
+sunrise		unipress(DAILY/2)
+unirot		unipress(DAILY)
+rutgers		unipress(DAILY/3)
+moscow		unipress(HOURLY)
+repo		unipress(HOURLY)
+spam		unipress(HOURLY)
+
+#N	unirot
+#S	Heurikon MiniBox System V UniPlus+
+#O	The Soup Kitchen
+#C	liz sommers
+#E	unirot!liz
+#T	201 968 5865
+#P	2025 Lincoln Hwy.  Edison, NJ 08817
+#L	40 34 N / 74 45 W
+#R	Public Access Unix
+#W	unirot!liz (liz sommers) Thu Oct 24 03:58:14 EDT 1986
+#U	rutgers
+#
+# Local calls
+#
+unirot	rutgers(DIRECT), unipress(DIRECT), soup(DIRECT), mama(DIRECT)
+#
+#
+# We call these systems even if we have no traffic.
+#
+rutgers		unirot(HOURLY)
+unipress	unirot(DAILY)
+
+#N	wcom
+#S	IBM PC/AT; XENIX-286 V.2
+#O	Warner Computer Systems, Inc.
+#C	Jim Scardelis
+#E	wcom!frodo
+#T	+1 201 843 0022
+#P	Park 80 West, Plaza One, Saddle Brook, NJ 07662-5808
+#L	41 05 N / 74 09 W
+#R
+#W	Jim Scardelis; Thu Mar 13 22:19:46 EST 1986
+#U	hjuxa
+#
+wcom	hjuxa(DEMAND+HIGH),ihnp4(DEMAND),medstar(DEAD),
+	gateway(DEAD),timpc1(DEAD),kosman(POLLED)
+
+#N	winnie
+#S	DEC MicroVAX II, Ultrix 1.1
+#O	Princeton University Music, Godfrey Winham Laboratory
+#C	Paul Lansky, Romain Kang
+#E	winnie!paul, pyrnj!romain
+#T	+1 609 452 4241
+#P	Woolworth Center for Musical Studies, Princeton, NJ  08544
+#L	40 21 N / 74 40 W city
+#R	file-server on music department network.
+#U
+#W	paul (Paul Lansky); Sun Oct 26 11:33:42 EST 1986
+#
+winnie	bc-ccm(DEMAND), princeton(DIRECT), pyrnj(EVENING), soil(DEMAND),
+	astrovax(DEMAND), puvax2(DEMAND)
+
+#N	wu1
+#S	Dual 83/20; Unisoft Uni-Plus V7 1.65
+#O	Western Union Telegraph
+#C	Frank V. Tucci, Tony Pellechia
+#E
+#T	+1 201 529 6000
+#P	90 McKee Drive, Mahwah, NJ 07430
+#L	41 05 N / 74 09 W
+#R	There is no current wu1 system administration.
+#W	wu1!rf (Randolph Fritz); Mon Jul  7 10:59:24 EDT 1986
+#U
+#
+# These sites are called on demand via Western Union 'Phone.
+# Since there's no system administration at wu1 anymore, all sites
+# are listed as dead; wu1 is unreliable.
+#
+wu1	dual(DEAD), infopro(DEAD), philabs(DEAD), sunrise(DEAD)
+
+#N	yawn
+#S	UNIX SVR2
+#O	Private UNIX
+#C	Ladislav Bashtarz
+#E	yawn!postmaster
+#T
+#P	NJ
+#L	74 29 W / 40 27 N
+#R	All contact by UNIX mail only
+#U	
+#W	yawn!postmaster; Mon Nov 17 12:32:33 EDT 1986
+#
+yawn	codas(POLLED)
+
+#	end of u.usa.nj.1: Tue Apr  7 13:38:23 EDT 1987
+SHAR_EOF
+echo shar: extracting u.usa.nj.b.1
+cat << \SHAR_EOF > u.usa.nj.b.1
+#N	bambi
+#S	
+#O	Bell Communications Research, Morristown (MRE)
+#C	Jan Gryck
+#E	thumper!jan
+#T	(201)829-4569
+#P	2A-281;435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	841220 ihnp4!action
+
+#N	bellcore
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Brian Redman (MRE 2E-388), Steve Sutor (MRE 2E-388)
+#E	yquem!ber, bellcore!sms
+#T	(201)829-2884, (201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	coutet
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Steve Sutor (MRE 2E-388)
+#E	bellcore!sms
+#T	(201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	delta
+#S	
+#O	Bell Communications Research, Livingston (LCC) 22510
+#C	John Berry
+#E	zeta!jeb
+#T	(201)740-4414
+#P	Dept. 22510;290 West Mount Pleasent Ave;Livingston, NJ 07039 
+#L	40 48 N / 74 19 W
+#R	
+#W	841211 ihnp4!action
+
+#N	epsilon
+#S	
+#O	Bell Communications Research, Livingston (LCC) 22510
+#C	John Berry
+#E	zeta!jeb
+#T	(201)740-4414
+#P	Dept. 22510;290 West Mount Pleasent Ave;Livingston, NJ 07039 
+#L	40 48 N / 74 19 W
+#R	
+#W	841211 ihnp4!action
+
+#N	exodus
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Steve Sutor (MRE 2E-388)
+#E	bellcore!sms
+#T	(201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	gamma
+#S	
+#O	Bell Communications Research, Livingston (LCC) 22510
+#C	John Berry
+#E	zeta!jeb
+#T	(201)740-4414
+#P	Dept. 22510;290 West Mount Pleasent Ave;Livingston, NJ 07039 
+#L	40 48 N / 74 19 W
+#R	
+#W	841211 ihnp4!action
+
+#N	indra
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Bill Pretyka (PY 1M-190)
+#E	koura!bill
+#T	(201)981-7782
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	840820 ihnp4!action
+
+#N	joevax
+#S	
+#O	Bell Communications Research, Morristown (MRE)
+#C	Sharon Tensen
+#E	joevax!sharon
+#T	(201)829-4583
+#P	2A-281;435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	841220 ihnp4!action
+
+#N	koura
+#S
+#O	Bell Communications Research, Piscataway (PY)
+#C	Bill Pretyka (PY 1M-190)
+#E	koura!bill
+#T	+1 201 699 3935
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R
+#W	840820 ihnp4!action
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Steve Sutor (MRE 2E-388)
+#E	bellcore!sms
+#T	(201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	lambda
+#S	
+#O	Bell Communications Research, Livingston (LCC) 22510
+#C	John Berry
+#E	zeta!jeb
+#T	(201)740-4414
+#P	Dept. 22510;290 West Mount Pleasent Ave;Livingston, NJ 07039 
+#L	40 48 N / 74 19 W
+#R	
+#W	841211 ihnp4!action
+
+#N	lcuxa
+#S	DEC vax-780; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:55:32 EDT 1986
+lcuxa	BELLCORE-MICOM
+
+#N	lcuxb
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:55:38 EDT 1986
+lcuxb	BELLCORE-MICOM
+
+#N	lcuxc
+#S	DEC vax-785; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:55:48 EDT 1986
+lcuxc	BELLCORE-MICOM
+
+#N	leopard
+#S	
+#O	Bell Communications Research, Navesink Research Center (NVC)
+#C	Laurie Topor
+#E	leopard!lat
+#T	(201)758-2184
+#P	NVC 1G-220;331 Newman Springs Rd.;Redbank, NJ 07701
+#L	40 21 N / 74 03 W
+#R	
+#W	850306 ihnp4!action
+
+#N	lion
+#S	
+#O	Bell Communications Research, Navesink Research Center (NVC)
+#C	Laurie Topor
+#E	leopard!lat
+#T	(201)758-2184
+#P	NVC 1G-220;331 Newman Springs Rd.;Redbank, NJ 07701
+#L	40 21 N / 74 03 W
+#R	
+#W	850306 ihnp4!action
+
+#N	lis1
+#S	AT&T 3B20S; UNIX SYSTEM V release 2
+#O	Bell Communications Research Technical Education Center
+#C	Rick Thomas
+#E	lis1!postmaster
+#T	+1 312 960 6165
+#P	6200 Route 53, Lisle, Il. 60532
+#L	88 03 57 W / 41 46 40 N
+#R
+#U
+#W	lis1!rmt (R.M. Thomas); Wed Jan  8 17:03:23 CST 1986
+
+#N	matha
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Ken Kijowski
+#E	matha!kjk
+#T	(201)981-6088
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841211 ihnp4!action
+
+#N	mouton
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Steve Sutor (MRE 2E-388)
+#E	bellcore!sms
+#T	(201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	mruxa
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:55:55 EDT 1986
+mruxa	BELLCORE-MICOM
+
+#N	mruxc
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:02 EDT 1986
+mruxc	BELLCORE-MICOM
+
+#N	mruxd
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:07 EDT 1986
+mruxd	BELLCORE-MICOM
+
+#N	mruxe
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:07 EDT 1986
+mruxe	BELLCORE-MICOM
+
+#N	nv750
+#S	
+#O	AT&T Bell Laboratories, Holmdel (HO) 23240
+#C	Robin Ying (HO 3M-329)
+#E	nv750!ying
+#T	(201)949-1534 8+233-1534
+#P	Crawfords Corner Road;Holmdel, NJ 07733
+#L	40 21 N / 74 11 W
+#R	
+#W	840813 ihnp4!action
+
+#N	nvc
+#S	
+#O	Bell Communications Research, Navesink Research Center (NVC) 22214
+#C	Sindi Wisse
+#E	sabre!siw
+#T	(201)758-2130
+#P	NVC 1A-210;331 Newman Springs Rd.;Redbank, NJ 07701
+#L	40 21 N / 74 03 W
+#R	
+#W	850114 ihnp4!action
+
+#N	nvuxa
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:13 EDT 1986
+nvuxa	BELLCORE-MICOM
+
+#N	nvuxb
+#S	DEC vax785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:25 EDT 1986
+nvuxb	BELLCORE-MICOM
+
+#N	nvuxd
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:40 EDT 1986
+nvuxd	BELLCORE-MICOM
+
+#N	nvuxe
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:47 EDT 1986
+nvuxe	BELLCORE-MICOM
+
+#N	nvuxf
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:56:55 EDT 1986
+nvuxf	BELLCORE-MICOM
+
+#N	nvuxg
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:05 EDT 1986
+nvuxg	BELLCORE-MICOM
+
+#N	nvuxh
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:09 EDT 1986
+nvuxh	BELLCORE-MICOM
+
+#N	nvuxj
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:17 EDT 1986
+nvuxj	BELLCORE-MICOM
+
+#N	nvuxr
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:21 EDT 1986
+nvuxr	BELLCORE-MICOM
+
+#N	nyquist
+#S	
+#O	AT&T Bell Laboratories, Holmdel (HO) 21342
+#C	Chris Hill (HO 2E-431)
+#E	nyquist!chris
+#T	(201)949-3733 8+233-3733
+#P	Crawfords Corner Road;Holmdel, NJ 07733
+#L	40 21 N / 74 11 W
+#R	
+#W	850304 ihnp4!action
+
+#N	pandora
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Mikel Manitius (PY 11N-191)
+#E	matha!mikel
+#T	(201)981-6085
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	840710 ihnp4!action
+
+#N	pyuxa
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:27 EDT 1986
+pyuxa	BELLCORE-MICOM
+
+#N	pyuxaa
+#S	DEC vax-780; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:33 EDT 1986
+pyuxaa	BELLCORE-MICOM
+
+#N	pyuxb
+#S	CCI power6; 
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Thu Aug 07 11:24:10 EDT 1986
+pyuxb	BELLCORE-MICOM
+
+#N	pyuxc
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:39 EDT 1986
+pyuxc	BELLCORE-MICOM
+
+#N	pyuxd
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:45 EDT 1986
+pyuxd	BELLCORE-MICOM
+
+#N	pyuxe
+#S	DEC vax-8650; 5.2 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Mon Nov 17 10:05:50 EDT 1986
+pyuxe	BELLCORE-MICOM
+
+#N	pyuxee
+#S	DEC vax-780; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:50 EDT 1986
+pyuxee	BELLCORE-MICOM
+
+#N	pyuxgg
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:57:58 EDT 1986
+pyuxgg	BELLCORE-MICOM
+
+#N	pyuxh
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:01 EDT 1986
+pyuxh	BELLCORE-MICOM
+
+#N	pyuxii
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:07 EDT 1986
+pyuxii	BELLCORE-MICOM
+
+#N	pyuxn
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:13 EDT 1986
+pyuxn	BELLCORE-MICOM
+
+#N	pyuxo
+#S	DEC vax-785; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:17 EDT 1986
+pyuxo	BELLCORE-MICOM
+
+#N	pyuxp
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:24 EDT 1986
+pyuxp	BELLCORE-MICOM
+pyuxp	rutgers(DIRECT)
+
+#N	pyuxq
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:27 EDT 1986
+pyuxq	BELLCORE-MICOM
+
+#N	pyuxrr
+#S	DEC vax-780; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:40 EDT 1986
+pyuxrr	BELLCORE-MICOM
+
+#N	pyuxs
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:47 EDT 1986
+pyuxs	BELLCORE-MICOM
+
+#N	pyuxss
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:52 EDT 1986
+pyuxss	BELLCORE-MICOM
+
+#N	pyuxv
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:58:56 EDT 1986
+pyuxv	BELLCORE-MICOM
+
+#N	pyuxvv
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:02 EDT 1986
+pyuxvv	BELLCORE-MICOM
+
+#N	pyuxww
+#S	ATT 3B-20S; SV_R2 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:06 EDT 1986
+pyuxww	BELLCORE-MICOM
+
+#N	pyuxx
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:12 EDT 1986
+pyuxx	BELLCORE-MICOM
+
+#N	pyuxy
+#S	ATT 3B-20S; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:17 EDT 1986
+pyuxy	BELLCORE-MICOM
+
+#N	pyuxz
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:29 EDT 1986
+pyuxz	BELLCORE-MICOM
+
+#N	pyuxzz
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri Jul 11 14:24:10 EDT 1986
+pyuxzz	BELLCORE-MICOM
+
+#N	rruxa
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Thu Aug 07 11:24:10 EDT 1986
+#
+rruxa	BELLCORE-MICOM
+BELLCORE-MICOM = {lcuxa, lcuxb, lcuxc, delta, epsilon, gamma, 
+	lambda, zeta,  bambi, joevax, magic, mruxa, 
+	mruxc, mruxd, mruxe, science, thumper, bellcore, whuxca, 
+	whuxcb, whuxcc, whuxcd, whuxce, whuxck, wecos, cosdoc, 
+	epslab, lssgr, nvqam, nvqas, nvuxa, 
+	nvuxb, nvuxc, nvuxd, nvuxe, nvuxf, nvuxg, nvuxh, 
+	nvuxj, nvuxr, python, sabre, spokan, synthia, fallon, 
+	nyquist, wbux2, wbux7, nv750, nvuxc, abacus, 
+	basil, pawes, pyuxa, pyuxb, pyuxc, pyuxe, pyuxd, pyuxh, pyuxn, 
+	pyuxo, pyuxp, pyuxq, pyuxs,  pyuxv, pyuxx, 
+	pyuxy, pyuxz, pyuxzz, pyuxaa, pyuxee, pyuxgg, pyuxii, 
+	rruxqq, pyuxrr, pyuxss, pyuxvv, pyuxww, gandal, rruxa, 
+	rruxb, rruxc, rruxd, rruxe, rruxf, rruxg, rruxo, rruxp, 
+	rruxr, rruxu, rruxw, rruxff, rruxhh, rruxjj, rruxyy, 
+	yogi, wolfgang, lion, leopard, u1100a, u1100h, u1100j, 
+	u1100p, u1100s, u1100t, u1100y, koura, indra, matha, 
+	vishnu, pandora, virgo, herc, star}!(DEDICATED)
+
+#N	rruxb
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 12:59:59 EDT 1986
+rruxb	BELLCORE-MICOM
+
+#N	rruxc
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:01:06 EDT 1986
+rruxc	BELLCORE-MICOM
+
+#N	rruxd
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:01:37 EDT 1986
+rruxd	BELLCORE-MICOM
+
+#N	rruxe
+#S	DEC vax-8650; Ultrix
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Mon Nov 17 10:05:37 EDT 1986
+rruxe	BELLCORE-MICOM
+
+#N	rruxf
+#S	DEC vax-780; 5.0.5 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:02:10 EDT 1986
+rruxf	BELLCORE-MICOM
+
+#N	rruxff
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:02:21 EDT 1986
+rruxff	BELLCORE-MICOM
+
+#N	rruxg
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:03:05 EDT 1986
+rruxg	BELLCORE-MICOM
+
+#N	rruxhh
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:03:19 EDT 1986
+rruxhh	BELLCORE-MICOM
+
+#N	rruxjj
+#S	DEC vax-780; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:03:39 EDT 1986
+rruxjj	BELLCORE-MICOM
+
+#N	rruxo
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:04:25 EDT 1986
+rruxo	BELLCORE-MICOM
+
+#N	rruxp
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:05:07 EDT 1986
+rruxp	BELLCORE-MICOM
+
+#N	rruxqq
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:05:26 EDT 1986
+rruxqq = pyuxqq
+rruxqq	BELLCORE-MICOM
+rruxqq	prism(DIRECT), xavier(WEEKLY), tulane(WEEKLY), rutgers(DIRECT),
+	swamp(DEMAND), slug(DEMAND), ihnp4(DEMAND)
+
+#N	rruxr
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:05:45 EDT 1986
+rruxr	BELLCORE-MICOM
+
+#N	rruxu
+#S	DEC vax-785; SysVr2.0 UNIX
+#O	Bell Communications Research, Piscataway (PYA)
+#C	Jim Hand (PYA 2E-223)
+#E	pyuxp!hand
+#T	+1 201 981 7125
+#P	3 Corporate Place, Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#W	pyuxp!hand (Jim Hand); Fri May  2 13:06:00 EDT 1986
+rruxu	BELLCORE-MICOM
+
+#N	sabre
+#S	
+#O	Bell Communications Research, Navesink Research Center (NVC) 22214
+#C	Mary Moylan
+#E	sabre!msme
+#T	(201)758-2147
+#P	NVC 1A-226;331 Newman Springs Rd.;Redbank, NJ 07701
+#L	40 21 N / 74 03 W
+#R	
+#W	pyuxp!hand (Jim Hand); Mon Nov 17 10:05:40 EST 1986
+
+#N	thumper
+#S	
+#O	Bell Communications Research, Morristown (MRE)
+#C	Jan Gryck
+#E	thumper!jan
+#T	(201)829-4569
+#P	2A-281;435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	841220 ihnp4!action
+
+#N	u1100a
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Scott Orshan (PY 2C-309)
+#E	u1100a!sdo
+#T	(201)981-3064
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	840719 ihnp4!action
+
+#N	u1100h
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Scott Orshan (PY 2C-309)
+#E	u1100a!sdo
+#T	(201)981-3064
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	840719 ihnp4!action
+
+#N	u1100j
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Scott Orshan (PY 2C-309)
+#E	u1100a!sdo
+#T	(201)981-3064
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	840719 ihnp4!action
+
+#N	u1100p
+#S	
+#O	Bell Communications Research, Piscataway (PY) 25230
+#C	Debra Ann Balog (PY 2C-307)
+#E	u1100p!ddb
+#T	(201)981-6376
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	850222 ihnp4!action
+
+#N	u1100s
+#S	
+#O	Bell Communications Research, Piscataway (PY) 25220
+#C	John R Bryan
+#E	u1100s!jrb
+#T	(201)981-7266
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841128 ihnp4!action
+
+#N	u1100t
+#S	
+#O	Bell Communications Research, Piscataway (PY) 25230
+#C	Dee Balog (PY 2C-307)
+#E	u1100y!ddb
+#T	(201)981-6376
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841015 ihnp4!action
+
+#N	u1100y
+#S	
+#O	Bell Communications Research, Piscataway (PY) 25230
+#C	Dee Balog (PY 2C-307)
+#E	u1100y!ddb
+#T	(201)981-6376
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841015 ihnp4!action
+
+#N	virgo
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Michal Pilla
+#E	virgo!mp
+#T	(201)981-
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841211 ihnp4!action
+
+#N	vishnu
+#S	
+#O	Bell Communications Research, Piscataway (PY)
+#C	Ken Kijowski
+#E	matha!kjk
+#T	(201)981-6088
+#P	6 Corporate Place;Piscataway, NJ 08854
+#L	40 34 N / 74 27 W
+#R	
+#W	841211 ihnp4!action
+
+#N	wbux7
+#O	Bell Communications Research, Navesink (NVC)
+#C	Joann Jankowski (NVC 2Z-245)
+#E	wbux2!jmj
+#T	+1 201 758 5517
+#P	331 Newman Springs Rd, Red Bank, NJ 07701
+#W	pyuxp!hand (Jim Hand): Fri Jun 20 10:14:35 EDT 1986
+wbux7	BELLCORE-MICOM
+
+#N	yogi
+#S	Pyramid 98x; OSx 2.5
+#O	Bell Communications Research
+#C	Al Schwarz
+#E	yogi!root
+#T	+1 201 699 8624
+#P	RRC 4A-1148, 444 Hoes Lane, Piscataway, NJ, 08854
+#L	72 28 36 W / 40 32 31 N
+#R	We are a friendly system.
+#U
+#W	yogi!drew (Drew Turock); Wed Nov  6 11:02:54 EST 1985
+#
+yogi	pn6(DAILY), indra(HOURLY), koura(HOURLY), rutgers(HOURLY)
+
+#N	yquem
+#S	
+#O	Bell Communications Research, Morristown (MRE) 21232
+#C	Brian Redman (MRE 2E-388), Steve Sutor (MRE 2E-388)
+#E	yquem!ber, bellcore!sms
+#T	(201)829-2884, (201)829-4302
+#P	435 South St.;Morristown, NJ 07960 
+#L	40 48 N / 74 29 W
+#R	
+#W	850122 ihnp4!action
+
+#N	zeta
+#S	
+#O	Bell Communications Research, Livingston (LCC) 22510
+#C	John Berry
+#E	zeta!jeb
+#T	(201)740-4414
+#P	Dept. 22510;290 West Mount Pleasent Ave;Livingston, NJ 07039 
+#L	40 48 N / 74 19 W
+#R	
+#W	841211 ihnp4!action
+SHAR_EOF
+#	End of shell archive
+exit 0

@@ -1,0 +1,938 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.eur.fra.1
+: This archive created: Fri Oct  2 02:56:52 1992
+echo shar: extracting u.eur.fra.1
+cat << 'SHAR_EOF' > u.eur.fra.1
+# u.eur.fra.1 - uucpmap@frmug.fr.mugnet.org - Fri Jun  5 18:58:06 MET DST 1992
+# 
+# To enter this map a site must be connected to USENET and located in France.
+# There is no other requirement. 
+# Send requests and updates to uucpmap@frmug.fr.mugnet.org
+#
+file {u.eur.fra.1}
+
+#N	afp
+#S	Sun 3/50 ; SunOs 4.0.3
+#O	Agence France Presse
+#C	Stephane Portha
+#E	afp!stef
+#T	+33 1 40 41 46 03
+#P	13 place de la bourse 75002 Paris, France
+#L	48 52 N / 2 21 E city
+#U	tfd gna looping
+#W	Loic Dachary ; Thu Feb 13 19:02:32 1992
+#
+afp	gna(HOURLY*5), tfd(HOURLY*2), looping(DAILY)
+
+#N	aid
+#S	Motorola 8840; Unix System V/88 R32V3
+#O	Aid Computers Group
+#C	Jean-Georges Schwartz
+#E	aid!schwartz
+#T	+33 1 43 06 79 32
+#P	59 rue Cambronne, 75015 Paris, France
+#L	48 50 37 N / 2 17 53 E
+#U
+#W	aid!root (Administrator); Tue Jun 3 22:44:00 MET 1992
+#
+aid	smop(DEMAND+LOW), sygma(DAILY+LOW)
+
+#N	akira
+#S	Macintosh SE/30; MacOS F1-7.0.1, uAccess 1.5v3
+#O	Himself
+#C	Jean-Philippe G. NICAISE
+#E	akira!nicky
+#T	+33 1 43 57 49 00
+#P	38, rue Amelot - 75011 Paris - France
+#L	48 52 N / 2 21 E city
+#W	akira!nicky (J.P Nicaise); Sun 19 Jan 1992 01:00:00 MET 
+#
+akira	gna(DAILY)
+
+#N	amigdr
+#S	AMIGA 500; Amiga-DOS V1.3 & 2.0 - Amiga-UUCP V1.15
+#O	Private User
+#C	Frank GEIDER
+#E	amigdr!postmaster
+#T	+33 1 39 02 02 80
+#P	27 avenue Guichard, 78000 VERSAILLES, FRANCE
+#L	48 47 10 N / 02 07 40 E
+#R	Anonymous UUCP site
+#U	gna
+#W	amigdr!geider (Frank Geider); Fri 24 Avr  22:30:00 MET 1992
+#
+amigdr	gna(DAILY*3), linn(DAILY*3)
+
+#N	amipb
+#S	COMMODORE-Amiga 2000 68030 ; 5 Megs RAM 105+40 Megs HD
+#O	Soul's Synthesis Association
+#C	BERARD Philippe
+#E	amipb!postmaster
+#T	+33 1 39 55 04 83
+#P	25 Bis route de Mantes ; 78150 LE CHESNAY ; France
+#L	48 50 N / 2 07 E city
+#U	gna
+#W	P. BERARD ; Fri Jul 25 22:31:52 PDT 1991
+#
+amipb	gna(DAILY*3)
+
+#N	barjov
+#S	Sun SparcStation ; SunOS 4.1
+#O	ALS Design
+#C	Patrick Albert
+#E	postmaster@barjov.gna.org
+#T	+33 1 46 04 30 47
+#P	38 rue Fessart, 92100 Boulogne, France
+#L	48 50 N / 2 20 E city
+#R	
+#U	gna frmug
+#W	barjov!als (System Manager); Wed Mar 25 09:47:05 MET 1992
+#
+barjov	gna(DAILY),
+	frmug(DAILY)
+
+#N	cpio1
+#S	compaq 386/25 ; Unix SV R3.2
+#O	cpio S.A.R.L.
+#C	Bernard Fouche
+#E	cpio1!bernard
+#T	+33 1 48 04 56 30
+#P	13/15 Rue de la verrerie, 75004 Paris, France
+#L	48 52 N / 2 21 E city
+#W	cpio1!bernard (Bernard Fouche); 30 July 1991
+#
+cpio1	frmug(DAILY)
+
+#N	dbmac
+#S	mac LC; System 7
+#O	B. THAUVIN.
+#C	Blaise Thauvin.
+#E	dbmac!postmaster
+#T	+33 1 42 83 41 59
+#P	10 rue du Four. 94100 Saint-Maur, France
+#L	48 47 N / 2 30 E city
+#U	gna
+#W	blaise@dbmac (Blaise Thauvin); Mon Nov 25 15:40:32 MET 1991
+#
+dbmac	gna(DAILY)
+
+#N	diablo
+#S	NeXT Cube 68040; NeXTStep 2.1
+#O	L. Demay
+#C	Laurent Demay
+#E	diablo!ld
+#T	(33  1) 45 74 43 07
+#P	78 Avenue des Ternes, 75017 Paris, France.
+#L	48 52 N / 2 21 E city
+#R	I am a Next registered developper
+#U	gna
+#W	diablo!ld (Laurent Demay); Sat May 16 11:14:45 MET DST 1992
+#
+diablo	gna(DAILY/3)
+
+#N	efrei1
+#S	SparcStation1+; SunOs 4.1.1
+#O	E.F.R.E.I. (Ecole Francaise d'Electronique et d'Informatique)
+#C	Tristan Debeaupuis
+#E	beaupuis@jup.gna.org
+#T	+33 1 46 77 64 67 - +33 1 45 15 10 05 (RNIS)
+#P	33, rue Victor Hugo - 94800 Villejuif - FRANCE
+#L	48 50 N / 2 20 E city
+#R	The link between jup and efrei1 is a floppy.
+#R	This is a temporary description. It will change soon.
+#U	jup
+#W	created: beaupuis@jup.gna.org 920511; last-mod: jup!beaupuis 920511
+#
+efrei1	.efrei.gna.org
+efrei1	=efrei1.gna.org
+efrei1	jup(DAILY/3)
+
+#N	emeyer
+#S	Fujikama 486/33; Interactive UNIX V.3 3.2.0
+#O	Eric P. Meyer
+#C	Eric P. Meyer
+#E	emeyer!postmaster
+#T	+33 1 40671884 or +33 98412020
+#P	32, Rue Pergolese 75116 Paris FRANCE
+#L	48 52 N / 2 21 E city
+#R	address is gna.org!emeyer!user
+#U	gna kerbor
+#W	Eric P. Meyer; Fri May  8 17:38:00 GMT 1992
+#
+emeyer	= emeyer.gna.org
+emeyer	gna(DAILY), kerbor(DAILY)
+
+#N	eronald
+#S	NeXT 68040; NeXT 2.1
+#O	E. Ronald.
+#C	Edmund Ronald.
+#E	eronald!eronald
+#T	+33 1 42 23 86 12
+#P	24 Rue des Rosiers. 75004 Paris, France.
+#L	48 52 N / 2 21 E city
+#U	gna
+#W	eronald!eronald (Edmund Ronald); Fri Sep 27 23:30:39 MET DST 1991
+#
+eronald	gna(DEAD)
+
+#N	falbala
+#S	Sun 3/80; SunOS 4.1.1
+#O	Private SUN3 R&D Computer System
+#C	Jean-Claude MICHOT
+#E	falbala!postmaster
+#T	+33 1 47 88 22 63
+#P	21 Rue Victor Hugo, 92400 COURBEVOIE France
+#L	48 53 N / 2 15 E city
+#R
+#U
+#W	falbala!root (System Administrator) ; Mon Apr 06 17:30:04 GMT 1992
+#
+falbala	jcmqnx(LOCAL),
+		flashtel(LOCAL),
+		teaser(DEMAND),
+		lcivax(DEMAND)
+
+#N	fc1rph
+#S	Intel 386; OS/2 2.0
+#O	Private user
+#C	Joel Armengaud
+#E	joe@fc1rph.gna.org
+#T	+33 1 46 30 06 50
+#P	Joel Armengaud, 5 rue Vernadat, 92350 Le Plessis-Robinson France
+#L	48 47 N / 2 16 E city
+#R
+#U	gna
+#W	joe@fc1rph.gna.org (Joel Armengaud); Wed Mar 25 22:40:00 GMT 1992
+#
+fc1rph	gna(DAILY)
+
+#N	fdn
+#S	NeXT 68040; NeXTStep 2.1
+#O	French Data Network
+#C	Hubert Delahaye
+#E	fdn!postmaster
+#T	+33 1 43 02 77 17
+#P	42 avenue de la Gare de Gargan, 93190 Livry-Gargan, France
+#L	48 52 N / 2 21 E city
+#R	This is the fou2Net gang backbone
+#U	gna
+#W	fdn!hubert (Hubert Delahaye); Tue Mar 31 10:45:04 GMT 1992
+#
+fdn	gna(DAILY*3)
+
+#N	flashtel
+#S	486 PC clone; ESIX 4.3 D
+#O	Private Unix R&D Computer System
+#C	Jean-Claude MICHOT
+#E	flashtel!postmaster
+#T	+33 1 47 88 22 63
+#P	21 Rue Victor Hugo, 92400 COURBEVOIE France
+#L	48 53 N / 2 15 E city
+#R	UUCP HDB
+#U
+#W	flashtel!root (System Administrator) ; Mon Apr 06 17:30:04 GMT 1992
+#
+flashtel	jcmqnx(LOCAL),
+		falbala(LOCAL),
+		frmug(DEMAND),
+		teaser(DEMAND),
+		lcivax(DEMAND)
+
+#N	freds
+#S	AT-Clone, 386-25Mhz ; running COHERENT 3.1.0
+#O	Fred's Home in Paris (FRANCE) 
+#C	Frederic Pacquier 
+#E	frmug!pacman
+#T	+33 1 40 33 12 15
+#P	7 rue des Partants 75020 PARIS FRANCE
+#L	48 52 N / 2 21 E city
+#U	gna frmug tfpbbs
+#W	freds!fred (Frederic Pacquier); Thu Sep 19 00:00:00 GMT 1991
+#
+freds	gna(DAILY*2), frmug(WEEKLY/2)
+
+#N	freenix
+#S	NCR 925; Interactive sys V unix
+#O	E.FEILLANT
+#C	ERIC FEILLANT
+#E	freenix!netlink
+#T	+33 40 14 06 64
+#P	6 AVENUE DU PETIT PARC, NANTES, FRANCE
+#L	
+#R	FREE UNIX SYSTEM (+33 40 93 31 97) LOGIN:NEW  PASSWORD:NEW
+#W	Eric Feillant; Wed Nov 06 21:00:00 PDT 1991
+#
+freenix	gna(DAILY*3)  
+
+#N	frmug
+#S	Sun 3/80; SunOS 4.1.1
+#O	Minix User Group France
+#C	Vincent Archer
+#E	frmug!postmaster
+#T	+33 1 39 56 02 49
+#P	5 rue Oberkampf , 78350 Jouy en Josas , France
+#L	48 46 13 N / 2 10 03 E
+#R	This is the MUGNET-FR backbone.
+#U	cst02 gna itesec teaser ukmug
+#W	frmug!tms (Vincent Archer) ; Sat May 16 22:31:58 MET DST 1992
+#
+frmug	.fr.mugnet.org
+frmug	=fr.mugnet.org
+frmug	barjov(DAILY), cpio1(DAILY), cst02(DEAD), epita(DEAD),
+	flashtel(DEAD), frdell(WEEKLY), freds(WEEKLY), freenix(WEEKLY),
+	glop(DEAD), gna(DAILY), <itesec>(DAILY), jup(DAILY),
+	lcb(WEEKLY), lill(DAILY), nixjps(WEEKLY), <nmrdc1>(WEEKLY),
+	nsw(DEAD), psmac1(DAILY*2), residents(DAILY), smop(WEEKLY),
+	suptel(WEEKLY), taize(DAILY*3), teaser(DAILY), tnis(DAILY),
+	trantor(DAILY), ukmug(DAILY*3)
+
+#N	frwolf
+#S	IBM PS/2 ; IBM-DOS 4.01 / UUPC + Home made Software
+#O	The Annex of the Home of LdP
+#C	Christophe Wolfhugel
+#E	postmaster@frwolf.gna.org, christophe.wolfhugel@univ-lyon1.fr
+#T	+33 1 46 42 20 46
+#P	9 rue de Vanves, 92130 Issy-Les-Moulineaux, France
+#L	48 49 24 N / 2 16 18 E
+#R	Willing to feed the resif.* hierarchy over the Internet
+#R	Domain name is frwolf.gna.org
+#U	gna
+#W	frwolf!wolf (Christophe Wolfhugel) ; Tue Mar 10 1992 09:00:00 GMT
+#
+frwolf	gna(DAILY)
+
+#N	glop
+#S	Atari ST ; Minix 1.5
+#O	Mathias Herberts
+#C	Mathias Herberts
+#E	madmat@frmug.fr.mugnet.org
+#T	+33 1 49 65 03 99
+#P	20, rue Corneille , 92120 Montrouge FRANCE
+#L	48 48 54 N / 02 19 12 E
+#W	glop!root; Mon Mar  9 21:57:14 +0100 1992
+#	Thu Dec 19 1991 23:55:00 MET ( GMT+0100 )
+#
+glop	=glop.fr.mugnet.org
+glop	frmug(DEAD)
+
+#N	gna
+#S	Microlec 2000 ; Unisoft 1.3
+#O	Association GNA
+#C	Hugues Lafarge
+#E	gna!hugues
+#T	+33 1 40 35 20 20
+#P	119 rue de Flandre, 75019 Paris France
+#L	48 52 N / 2 21 E city
+#R	250 Mb archive site
+#U	afp frmug linn flatlin
+#W	Hugues Lafarge ; Tue May  5 17:51:07 MET 1992
+#
+gna	di400(DAILY*3),
+	afp(HOURLY),
+	akira(DAILY*3),
+	amigdr(DAILY*3),
+	amipb(DAILY*3),
+	astaroth(DEAD),
+	barjov(DAILY*3),
+	<calva>(DAILY*3),
+	cats(DAILY*3),
+	caesium(DAILY*3),
+	comsat(DAILY*3),
+	dalim(DEAD),
+	dedalus(DEAD),
+	dbmac(DAILY),
+	diablo(DAILY),
+	dorilys(DAILY*3),
+	eizo(DAILY*3),
+	emeyer(DAILY),
+	epita(DAILY*3),
+	eronald(DEAD),
+	etrou(DEAD),
+	expdat(DAILY*3),
+	fc1rph(DAILY),
+	flatlin(WEEKLY),
+	freds(DAILY*3),
+	freenix(DAILY*3),
+	frmug(DAILY),
+	frwolf(DAILY),
+	futurix(DAILY),
+	gertrude(DEAD),
+	herbie(DAILY*3),
+	<ilog>(DEAD),
+	<itesec>(DEAD),
+	jcc(DEAD),
+	jmdcom(DAILY*3),
+	jmssun(DAILY*3),
+	jup(DAILY),
+	laude(DAILY*3),
+	lcq(DAILY*3),
+	lectra(POLLED),
+	linn(DAILY),
+	looping(DEAD),
+	mdm(DEAD),
+	mge(DAILY*3),
+	morsys(DEAD),
+	mrkdo(DAILY),
+	nixjps(DAILY),
+	o2001(DEAD),
+	omj(DAILY),
+	piezo(DEAD),
+	rebis(DAILY*3),
+	remcomp(DEAD),
+	siliciu(DAILY*3),
+	smop(DAILY*3),
+	sophia(DAILY*5),
+	stell(DAILY),
+	swindj(DEAD),
+	taize(DAILY),
+	toplog(DAILY),
+	tongasoa(DAILY*3),
+	tsugaru(DAILY/4),
+	ultima(DEAD),
+	uvsd(DAILY*3),
+	uxwave(DEAD),
+	xdesign(DEAD),
+	zensunni(DAILY)
+gna	cmjt(DEAD),
+	aristote(POLLED)
+
+
+
+#N	herbie
+#S	PC 386; SCO 2.3.1
+#O	W. Foote
+#C	William Foote
+#E	herbie!bill
+#T	+33 1 46 21 68 36
+#P	85/87 ave P. Grenier. 92100 Boulogne, France
+#L	
+#U	gna
+#W	herbie!bill (William Foote); Thu Oct 10 20:13:01 MET 1991
+#
+herbie	gna(DAILY)
+
+#N	jcmqnx
+#S	386 PC clone; QNX 2.15
+#O	Private QNX R&D Computer System
+#C	Jean-Claude MICHOT
+#E	jcmqnx!postmaster
+#T	+33 1 47 88 22 63
+#P	21 Rue Victor Hugo, 92400 COURBEVOIE France
+#L	48 53 N / 2 15 E city
+#R	UUCP VN2 clone.
+#U	
+#W	jcmqnx!root (System Administrator) ; Mon Apr 06 17:30:04 GMT 1992
+#
+jcmqnx	flashtel(LOCAL),
+		falbala(LOCAL),
+		teaser(DEMAND),
+		frmug(DEMAND),
+		lcivax(DEMAND)
+
+#N	jmdcom
+#S	Amiga 2000 G-Force 40; System 2.04
+#O	J.M.D. Communication
+#C	Jean-Michel Delor
+#E	jmdcom!jmdelor
+#T	+33 87.56.14.83
+#P	13 rue de Champagne, F-57157 Marly, FRANCE
+#L	49 07 30 N / 06 11 20 E
+#R	Public System for International Exchange
+#U	gna
+#W	jmdcom!jmdelor (Jean-Michel Delor); Tue Mar 24 11:24:50 MET 1992
+#
+jmdcom	gna(POLLED)
+
+#N	jup
+#S	PC 386/33; SCO Xenix 2.3.1
+#O	Tristan Debeaupuis
+#C	Tristan Debeaupuis
+#E	beaupuis@jup.gna.org
+#T	+33 1 42 45 11 92
+#P	1 rue Albert Camus - 75010 Paris - France
+#L	48 53 00 N / 2 22 00 E
+#R	Location will probably change in August
+#U	efrei1 efrei114 frmug gna linn
+#W	created: beaupuis@jup.gna.org 900909; last-mod: jup!beaupuis 920229
+#
+jup	.jup.gna.org
+jup	.jup.fr.mugnet.org
+jup =	jup.fr.mugnet.org
+jup =	jup.gna.org
+jup =	jup.linn.fidonet.org
+jup	alesia(WEEKLY),
+	efrei1(DAILY/3),
+	efrei114(WEEKLY),
+	<itesec>(DEAD),
+	frmug(DAILY),
+	gna(DAILY),
+	rnisoft(WEEKLY),
+	teaser(DAILY/2),
+	tsugaru(WEEKLY),
+	linn(DEAD)
+
+#N	laude
+#S	Commodore-AMIGA; Amiga-DOS V2.04 Amiga-UUCP V1.13
+#O	f.laude
+#C	Frederic Laude
+#E	laude!laude
+#T	+33 1 45 48 55 19
+#P	39 rue de grenelle 75007 PARIS France
+#L	48 52 N / 2 21 E city
+#U	gna
+#W	laude!laude (Frederic Laude) ; Sat Nov 30 12:59  MET 1991
+#
+laude	gna(DAILY*2)
+
+#N	lcb
+#S	AT 386/40 mhz & uPDP11/83; Unix System V
+#O	Private - Studies - Mail
+#C	Pierre Seguret
+#E	lcb!rt;lcb!bugbyter;bugbyter@frmug.fr.mugnet.org
+#T	+33 1 48 73 70 66 
+#P	France, 3 rue de la reunion 94120 Fontenay sous bois 
+#L	48 51 N / 2 29 E city
+#R	???
+#U	frmug gna
+#W	lcb!rt (Pierre Seguret) ; Sat April 25 1992 23:42
+#
+lcb	frmug(DAILY*3)
+
+#N	lcivax
+#S	386 PC clone; ESIX 4.3 D
+#O	LCI, Conseil Etudes, Developpements Informatiques et Telematiques
+#C	Thierry Louvel
+#E	lcivax!tlouvel
+#T	+33 1 41 16 08 50
+#P	32 Rue de Belfort, 92400 COURBEVOIE France
+#L	
+#W	lcivax!tlouvel (Thierry Louvel); Mon Apr 06 17:30:04 GMT 1992
+#
+lcivax  frmug(WEEKLY),
+	teaser(DAILY),
+	flashtel(DEMAND),
+	falbala(DEMAND),
+	jcmqnx(DEMAND)
+
+#N	lcq
+#S	386/20 ; MS-DOS 5.0 + Waffle BBS 1.64
+#O	lcq
+#C	Chiun Qiang LEE
+#E	lcq!postmaster
+#T	+33 1 46 58 11 19
+#P	11 rue Truillot, 94200 Ivry sur Seine, France
+#L	48 41 59 N / 2 17 57 E city
+#U	gna
+#W	lee@lcq.gna.org; Wed 21 Mai 1992 12:00 +0100
+#
+lcq	gna(DAILY*3)                    
+
+#N	lectra
+#S	Microlec 2030 ; Lectra 1.1
+#O	Lectra Syste`mes
+#C	Pierre Ficheux
+#E	lectra!pierre
+#T	+33 56 68 80 00
+#P	Z.I. de Marticot - 33 610 Cestas, France
+#L	44 50 N / 0 34 W city
+#R	Apparel system designer.
+#U	gna
+#W	lectra!pierre (Pierre Ficheux) ; Tue Mar 24 16:12:44 1992 
+#
+lectra	gna(LOCAL)
+
+#N	lill
+#S	IBM PS/2-70 ; Ms-Dos 5
+#O	Li'LL BBS - Paris France
+#C	Attila Altan
+#E	lill!postmaster
+#T	+33 1 44.75.32.62
+#P	24 rue de Fecamp - 75012 Paris France
+#L	2 21 24 E / 48 52 01 N
+#U	gna
+#R	PCBoard BBS, ILink, Fido, gateway from/to FrLink
+#W	lill!attila.altan (Attila Altan); Sat Jan 4 19:09:08 UTC 1992
+#
+lill	frmug(DAILY)
+
+#N	linn
+#S	Atari ST; TOS
+#O	Fido BBS
+#C	Franck Arnaud
+#E	linn!postmaster
+#T	+33 1 40 84 96 21
+#P	101 avenue du General Leclerc - F75014 Paris - France
+#L	48 52 01 N / 2 21 24 E
+#R	
+#R	FidoNet node 2:320/100, gateway from/to Fidonet
+#R	Approved by ddodell@stjhmc.fidonet.org
+#R	Administrator, fidonet.org domain
+#R	
+#U	gna jup
+#W	linn!franck (Franck Arnaud); Sat Sep 7 20:13:16 UTC 1991
+#
+linn	= linn.fidonet.org
+linn	= f100.n320.z2.fidonet.org
+linn	.n320.z2.fidonet.org
+linn	gna(DAILY), jup(DAILY), <itesec>(DAILY)
+
+#N	nixjps
+#S	Apricot XenI386dx 486dx33; Minix 1.5
+#O	none
+#C	Gueniat Jean Pierre, Gueniat Jean Pierre
+#E	nixjps!postmaster, jps@frmug.fr.mugnet.org
+#T	+33 1 47 46 62 69, +33 1 48 83 14 04
+#P	50 Av Jean Jaures Montrouge 92542 (France)
+#L	48 50 N / 2 09 E city
+#W	nixjps!jps (Jean Pierre Gueniat); Thu Oct  3 23:34:02 1991
+#
+nixjps	gna(DAILY), frmug(DAILY)
+
+#N	nsw
+#S	Headland Technology 286/16; MS-DOS v 5.0
+#O	The PC Clone on my desk :-)
+#C	Benjamin Ryzman
+#E	zarkdav@frmug.fr.mugnet.org
+#T	+33 1 46 24 35 30
+#P	36 avenue Charles de Gaulle, 92200 Neuilly sur Seine, France
+#L	48 46 N / 2 13 E city
+#U	frmug
+#W	tms@frmug.fr.mugnet.org ; Wed 28 Aug 1991 18:38:37 MET DST
+#
+nsw	frmug(DAILY*3)
+
+#N	o2001
+#S	DecStation 5000/200 ; Ultrix 4.0
+#O	2001
+#C	Loic Dachary, Jean Daniel Fekete
+#E	o2001!loic, o2001!jdf
+#T	+33 1 46 57 14 31, +33 1 46 57 14 31
+#P	43 place Jules Ferry - 92 120 Montrouge, France
+#L	48 50 N / 2 09 E city
+#R	Building Cartoon Software
+#U	gna
+#W	Loic Dachary ; Thu Jul 25 11:23:36 MET 1991
+#
+o2001	gna(DEAD)
+
+#N	omj
+#S	Acer 286/16 ; MS-DOS 5.0 + Novell NetWare 3.11 + Waffle BBS 1.64
+#O	Office Municipal de la Jeunesse d'Ivry
+#C	Kimon Berlin
+#E	omj!postmaster
+#T	+33 1 46 72 24 85
+#P	17 rue Raspail, 94200 Ivry-sur-Seine, France
+#L	48 42 N / 2 18 E city
+#R	Association 1901 - 30 MIPS a` votre service...
+#U	gna
+#W	kimon@gna.axis-design.fr; Thu 26 Mar 1992 16:14 +0100
+#
+omj	gna (DAILY)
+
+#N	piezo
+#S	PC 386; SCO 3.2.2
+#O	Ph. Mackowiak.
+#C	Philippe Mackowiak.
+#E	piezo!phil
+#T	+33 1 30 43 01 06
+#P	20 rue J. Vourch. 78960 Voisins, France
+#L	48 50 N / 2 18 E city
+#U	gna
+#W	piezo!phil (Philippe Mackowiak); Mon May 20 01:41:46 MET 1991
+#
+piezo	gna(DEAD)
+
+#N	psmac1
+#S	Macintosh IIfx ; A/UX 2.0.1
+#O	Alain Raynaud
+#C	Alain Raynaud
+#E	psmac1!postmaster
+#T	+33 1 69 31 04 24
+#P	89, Bd de Palaiseau, 91120 Palaiseau, France
+#L	48 43 N / 2 15 E city
+#R	Public Access Unix for Macintosh users
+#U	frmug itesec
+#W	psmac1!alain (Alain Raynaud); Wed Nov 13 09:28:21 PST 1991
+#
+psmac1	frmug(DAILY), <itesec>(DEAD)
+
+#N	rebis
+#S	PC 386; UNIX SV5R3.2
+#O	Private user
+#C	Bertrand VELLE
+#E	rebis!postmaster
+#T	+33 1 64 91 19 49
+#P	rue Moliere 91470 LIMOURS, FRANCE
+#L
+#R
+#U	gna
+#W	rebis!root (Bertrand Velle); Mon Mar 23 23:19:42 GMT 1992
+#
+rebis	gna(DAILY*3)
+
+#N	remcomp
+#S	PC 386 20 Mhz DTK; SCO UNIX 386 v3.2.0
+#O	Privately Owned Public UNIX Access
+#C	Francois Vigneron
+#E	vigneron@smop.fr.mugnet.org
+#T	+33 1 42 46 53 97
+#P	101 Rue du Faubourg Saint Denis, F-75010 Paris, France
+#L	48 52 N / 2 21 E city
+#R	Anonymous UUCP site
+#U	smop
+#W	vigneron@smop.fr.mugnet.org (Francois Vigneron); May 19 21:04:13 1991
+#
+remcomp	smop(DAILY)
+
+#N	residents
+#S	PC 386; DOS 4.1
+#O	Private user
+#C	Emmanuel Bataille
+#E	residents!bem
+#T	+33 1 49 60 02 49
+#P	49, av. D. Casanova, 94200 Ivry-sur-Seine, France
+#L	48 19 N / 2 24 E city
+#R	private UUCP site running with Waffle 165b7
+#U	frmug
+#W	residents!bem (Emmanuel Bataille); Tues, 19 May 92 19:00:00 GMT
+#
+residents	frmug(DAILY)
+
+#N	siliciu
+#S	Compatible 386/25 ; Unix SCO System V/386 r3.2.2
+#O	Private user
+#C	Yannick CADIN
+#E	siliciu!yannick
+#T	+33 1 34 50 89 39
+#P	3 rue Jacques Daguerre, 95370 Montigny les Cormeilles, France
+#L	49 00 N / 2 12 E city
+#R	
+#U	gna
+#W	siliciu!yannick (Yannick CADIN); Tue Mar  3 00:00:00 GMT 1992
+#	
+siliciu	gna(DAILY)
+
+#N	smop
+#S	Altos 386/2000; ACS Unix System V 5.3.dT3
+#O	Smop Public Access Unix
+#C	Georges Tomazi
+#E	postmaster@smop.fr.mugnet.org
+#T	+33 1 45 06 70 52
+#P	83 rue Jean Jacques Rousseau, 92150 Suresnes, France
+#L	48 52 14 N / 2 13 29 E
+#U	frmug
+#W	postmaster@smop.fr.mugnet.org (Admin); Tue Jun 3 22:34:55 MET 1992
+#
+smop	.fr.mugnet.org
+smop	= smop.fr.mugnet.org
+smop	frmug(DAILY+FAST), gna(DAILY+FAST), remcomp(DAILY+FAST),
+	sygma(DAILY+FAST), aid(DEMAND+LOW), cer(DEAD), phototheque(DEAD),
+	lacourte(DEAD), odbffm(DEAD)
+
+#N	sophia
+#S	Intel 486/33 : SCO Open DeskTop 3.2.2
+#O	GNA Project South France (Metrologie)
+#C	LEVIER Laurent
+#E	sophia!root
+#T	+33 93 95 81 46	data; +33 93 65 49 99 voice
+#P	1, Traverse des Brucs - 06560 Valbonne, France
+#L	
+#R	GNA project provides All People an access to News & Internet
+#U
+#W	sophia!root (Laurent LEVIER); Fri Feb 21 16:22:57 FRA 1992
+#
+sophia	gna(DAILY)
+
+#N	stdin
+#S	D&D 386; WAFFLE
+#O	Lvds Bedroom Mail Utilities
+#C	CAS Laurent
+#E	stdin!postmaster
+#T	+33 72 37 26 17
+#P	45 Avenue Ferdinand Buisson 69500 BRON
+#L	45 45 N / 4 56 E city
+#U	frmug
+#W	stdin!lvds (Laurent Cas); Wed June 3 23:45:06 MET DST 1992
+#
+stdin	frmug(DAILY*3)
+
+#N	stell
+#S	Sony News 1250; NewsOS 4.1
+#O	Private
+#C	Vincent Pomey
+#E	stell!vincent
+#T	+33 61 99 65 89
+#P	67 rue Riquet - 31000 Toulouse
+#L	1 27 E / 43 36 N (city)
+#R
+#U	gna
+#W	Vincent Pomey ; Tue Apr 14 17:19:22 GMT 1992
+#
+stell	stell.gna.org
+stell	gna(DAILY)
+
+#N	swindj
+#S	Commodore Amiga 2000b ;  Amiga OS 2.0 (KS 37.74)
+#O	The Software Winery ;    Commodore Developper ECF030
+#C	Alain DIDIERJEAN
+#E	swindj!didierj
+#T	+33 1 45 85 84 84
+#P	69 rue Dunois 75646 Paris cedex 13 France
+#L	48 52 N / 2 21 E city
+#U	cbmfra gna
+#W	swindj!didierj (Alain DIDIERJEAN) ; Tue May 14 15:10:27 MET 1991
+#
+swindj	<cbmfra>(EVENING/2), gna(DEAD)
+
+#N	sygma
+#S	Motorola 8840; Unix System V/88 R32V3
+#O	Sygma Press Agency
+#C	Valerie Theveniaud
+#E	sygma!thevenia
+#T	+33 1 47 27 70 30
+#P	74 bis rue Lauriston, 75116 Paris, France
+#L	48 51 42 N / 2 16 34 E
+#U
+#W	sygma!root (Administrator); Tue May 19 00:17:15 MET 1992
+#
+sygma	smop(DAILY+FAST), odbffm(DAILY+FAST), aid(DAILY+LOW)
+
+#N	taize
+#S	IBM PC/AT; DOS 5.0
+#O	Taize-Community
+#C	Brother Roy
+#E	taize!postmaster
+#T	+33 85 50 30 30
+#P	Taize-Community, 71250 Taize, France
+#L	46 30 10 N / 4 39 30 E
+#R	private UUCP site running with Waffle 1.65
+#U	gna
+#W	taize!roy (Brother Roy); Wed Jun 3 18:01:00 GMT 1992
+#
+taize	taize.gna.org
+taize	gna(DAILY)
+
+#N	teaser
+#S	486 PC Distributed Network; POSIX QNX 4.0
+#O	France-Teaser S.A.R.L.
+#C	Jean-Claude MICHOT
+#E	teaser!postmaster, teaser!jcmichot,
+#T	+33 1 46 26 15 10
+#P	22 Grande Rue, 92310 SEVRES France
+#L	48 53 N / 2 15 E city
+#R	UUCP VN2 clone. Archive 2,5 Go disk storage
+#U
+#W	teaser!root (System Administrator) ; Mon Apr 06 17:30:04 GMT 1992
+#
+teaser	<uunet>(DAILY),
+		frmug(DAILY),
+		<hbb>(WEEKLY),
+		jcmqnx(DEMAND),
+		falbala(DEMAND),
+		flashtel(DEMAND),
+		jup(DAILY*2),
+		lcivax(DAILY),
+		ztel4(DEAD)
+
+#N	tnis
+#S	Toshiba 5200/100 - 386DX 20Mhz - 100 mega; Waffle 1.64/DOS.5
+#O	T.N.I.S. Consultants
+#C	Bernard Guillaumot
+#E	tnis!bg - or - bernard.guillaumot@channel1.com
+#T	+33 1 46 08 25 27
+#P	35 rue des Longs Pres, 92100 Boulogne, France
+#L	48 50 N / 2 20 E city
+#R	Telecom networks consultants - private UUCP with waffle 1.64
+#U	frmug gna channel1
+#W	tnis!bg (bernard GUILLAUMOT); Mon Febr. 17 14:00:00 MET 1992
+#
+tnis	frmug(WEEKLY/2), gna(DEAD), channel1(DEAD)
+
+#N	tongasoa
+#S	NeXT Station; Mach UNIX
+#O	NeXT User/Developer.
+#C	Philippe JOUVE
+#E	tongasoa!phil
+#T	+0 000 00 00 00 00
+#P	Paris, FRANCE
+#L	48 52 N / 2 21 E
+#R	also tongasoa!eric
+#U	gna
+#W	tongasoa!phil (Philippe Jouve); Mon May 4 02:15:00 MET 1992
+#
+tongasoa	gna(DAILY)
+
+#N	trantor
+#S	Macintosh Powerbook 140; System 7.0.1+
+#O	Minix User Group France
+#C	Michel Pollet
+#E	trantor!michel
+#T	+33 20 06 66 59
+#P	265 rue du Ballon, 59800, Lille, France
+#L	50 39 N / 3 05 E city
+#R	Private uucp with uupc 3.0, Eudora, MacMinix
+#U	frmug cst02
+#W	trantor!postmaster (Postmaster); Mon Apr  5 16:02:14 GMT+0200 1992
+#
+trantor	frmug(DAILY), cst02(DAILY)
+
+#N	tsugaru
+#S	NeXT Cube 68040; NeXT 2.1
+#O	North area NeXT user Group (NaNG) 
+#C	Christophe Janot 
+#E	tsugaru!kris
+#T	+33 1 33 80 00 23
+#P	Chemin des Armalots 27930 GRAVIGNY FRANCE
+#L	
+#U	gna
+#W	tsugaru!kris (Christophe Janot); Thu Oct 15 05:45:00 GMT 1991
+#
+tsugaru	gna(DAILY/4)
+
+#N	xdesign
+#S	Everex 386 33Mz ; Esix V.4.3A
+#O	X Design
+#C	Loic Dachary, Thierry Delamare
+#E	xdesign!loic, xdesign!thy
+#T	+33 1 40 35 20 20, +33 1 40 35 20 20
+#P	119 rue de Flandre, 75019 Paris France
+#L	48 52 N / 2 21 E city
+#R	Porting Unix, Writing Drivers, Networks
+#U	gna
+#W	Loic Dachary ; Thu Jul 25 11:23:36 MET 1991
+#
+xdesign	gna(LOCAL)
+
+#N	zargon
+#S	Commodore A2000 68020-8Mhz 5Mb-RAM 80Mb-HD; OS:2.0 KS:37.175 UUCP:1.13D
+#O	The Time Travelers
+#C	Arnaud Gibert
+#E	zargon!postmaster
+#T	+33 94 96 05 56
+#P	Philinoe   La Nartelle   83120 Ste Maxime s/mer   France
+#L	43 25 N / 6 40 E city
+#R	
+#U	gna
+#W	zargon!arnaud (Arnaud Gibert); MON May 18 13:30:00 MET 1992
+#
+zargon	gna(DAILY)
+
+#N	zensunni
+#S	Amiga 3000ux ; Unix System V.4
+#O	Mr. Stephane Nouhaud
+#C	Mr. Stephane Nouhaud
+#E	steve@zensunni.uucp
+#T	+33 1 40 41 03 66
+#P	18 rue Pierre Lescot, 75001 Paris, France
+#L	48 52 N / 2 21 E city
+#R	enregistrement en cours, registration in progress
+#W	steve@zensunni.uucp ; Sat May 11 15:13:18 MET 1991
+#
+zensunni	gna(DAILY)
+# u.eur.fra.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,66 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.ri.1
+# This archive created: Sun Dec 13 12:50:29 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.ri.1
+cat << \SHAR_EOF > d.usa.ri.1
+#	start of d.usa.ri.1: Sat Dec 12 21:46:33 EST 1987
+#	maintained by nemap@necntc.NEC.COM
+
+#N	.ray.com, rayssd
+#F	a.cs.uiuc.edu
+#O	Raytheon Company
+#C	Gregory M. Paris, Ralph A. Shaw, David H. Brierley
+#E	postmaster@rayssd.ray.com
+#T	401-847-8000 exts 3839, 4180, 4073
+#P	Submarine Signal Division, 1847 West Main Road, Portsmouth, RI 02871-1087
+#L	41 34 03 N / 71 16 57 W
+#U	raybed2 mirror necntc brunix
+#R	registered
+#W	gmp@rayssd.ray.com; Tue Nov 17 11:03:44 EST 1987
+#
+rayssd	.ray.com
+rayssd=	ray.com, rayssd.ray.com
+#
+# other Raytheon divisions
+rayssd	raybed2(LOCAL), ray2k(DIRECT)
+#
+# best mail connections
+rayssd	uiucdcs(DEMAND), mimsy(DEMAND), ukma(DEMAND+LOW), sdamos(DEMAND+LOW)
+rayssd	cbosgd(2*HOURLY), ihnp4(2*HOURLY), mirror(2*HOURLY)
+rayssd	gatech(3*HOURLY), necntc(3*HOURLY)
+#
+# neighbors that mangle From: lines, or low quality connections
+rayssd	<brunix>(HOURLY), <uriecl>(HOURLY)
+rayssd	<aati>(EVENING), <allegra>(EVENING),
+	<cci632>(EVENING), <linus>(EVENING), cheetah(EVENING)
+#
+# (former) employees' systems
+rayssd	galaxia(EVENING), <tadco>(POLLED)
+
+#N	.usi.com, unisec
+#F	uxc.cso.uiuc.edu
+#O	UniSecure Systems, Inc
+#C	Darryl Wagoner
+#E	unisec!dpw, dpw@USI.COM
+#T	+1 401 849 0752
+#P	88 West Broadway, Newport, R.I. 02840
+#L	41 19 N / 71 17 W city
+#R
+#U	rayssd 
+#W	unisec!dpw (Darryl Wagoner); Fri Feb 20 03:49:25 EST 1987
+#
+unisec	.usi.com
+unisec= unisec.usi.com
+unisec	rayssd(DIRECT), kitty(EVENING), uiucuxc(EVENING), ethos(DAILY)
+
+#	end of d.usa.ri.1: Sat Dec 12 21:46:38 EST 1987
+SHAR_EOF
+#	End of shell archive
+exit 0

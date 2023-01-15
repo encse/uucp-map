@@ -1,0 +1,191 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nd.1
+: This archive created: Wed Apr  8 07:03:50 1992
+echo shar: extracting u.usa.nd.1
+cat << 'SHAR_EOF' > u.usa.nd.1
+file {u.usa.nd.1}
+# u.usa.nd.1 updated by brodie@fps.mcw.edu Wednesday Feb 19 12:50:38.82 CDT 1992
+# This map is maintained by Kent C. Brodie (Systems Mgr, Medical College of WI)
+# Send any updates to uucpmap@rutgers.edu, (rutgers!uucpmap)
+# Before sending updates, please consult the README file for the proper format.
+# Send email to brodie@fps.mcw.edu for a copy if you need one.
+#
+# Reason for update: included new "file" directive per rutgers
+#
+ 
+#N	bolshoi
+#S	NeXT workstation; NeXT OS v2.1 (UNIX)
+#O	Todd Enders; Personal E-mail machine
+#C	Todd Enders
+#E	bolshoi!root
+#T	+1 701 838 5648 (eve. & wknd), +1 701 857 3018 (days)
+#P	2805 5th St. SW #4, Minot, ND 58702
+#L	48 12 20 N / 101 17 59 W
+#R
+#W	bolshoi!enders (Todd Enders) 02/12/92
+#
+
+bolshoi	plains(DEMAND)
+
+#N	design
+#S	HP 9000/319; HPUX 6.5
+#O	North Dakota State University, Department of Electrical and Electronics Engineering
+#C	Jeff Johnston
+#E	design!johnston
+#T	+1 701 237 7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#W	design!johnston (J. Johnston); Sat Sep 16 10:25:00 CDT 1991
+#
+#
+# Dialup
+design	plains(DIRECT)
+
+#N	gps
+#S	SCO Unix 3.2.2
+#O	Great Plains Software
+#C	Steve Anonsen
+#E	gps!root
+#T	+1 701 281 3326
+#P	1701 SW 38th Street, Fargo, ND 58103
+#L	46 52 N / 96 47 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Jun 19 08:38:16 EDT 1991
+#U
+#
+gps	uunet(DEMAND)
+
+#N	leagle
+#S	80386 AT-clone; SCO Xenix System V/386 Release 2.3.3
+#O	The Eaton Law Firm
+#C	Nevin Van de Streek
+#E	nevin@eaton.com
+#T	+1 701 852 4839
+#P	Suite 506, 123 First Street SW, Minot, North Dakota
+#L	48 14 04 N / 101 17 44 W
+#R	Trying to bring Xenix/Unix to the legal profession
+#U
+#W	leagle!nevin (Nevin Van de Streek); Mon Apr  1 13:48:49 CST 1991
+#
+leagle = eaton.com
+leagle	loft386(DAILY)
+
+#N	leids 	
+#S	NCR 32/600
+#O	Barrister Int. Inc. 
+#C	Theodore Rosebaum
+#E	leids!theodore 
+#T	+1 701 232 0052
+#P	902 30th Street N., Fargo, ND 58102
+#L	46 52 N / 96 47 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Jun  8 16:25:09 EDT 1990
+#U
+#
+leids	uunet(DEMAND)
+
+#N	milo
+#S	Zenith 80386; Interactive 386/ix 2.0.2
+#O	North Dakota State University ACM Student Chapter
+#C	Dean Roehrich, Glen Overby, Scott Wilken
+#E	milo!root, plains!roehrich
+#T	+1 701 237 8415
+#P	NDSU-ACM SIGBBS, 300 Minard Hall, Fargo, ND  58105
+#L	46 52 N / 96 48 W city
+#R	This machine is a public-access Bulletin Board
+#U	plains
+#W	milo!rtfm (Glen Overby); Fri Feb 9 19:56:55 CST 1990
+#
+milo	ndsu.nodak.edu
+milo	= milo.ndsu.nodak.edu
+milo	plains(DEMAND)
+
+#N	ndsuhp
+#S	Hewlett-Packard 9030X; HP-UX 05.21 C
+#O	North Dakota State University, Computer Systems Institute
+#C	Jeff Johnston
+#E	ndsuhp!root
+#T	+1 701 237 7019
+#P	Fargo, ND  58105
+#L	46 53 40 N / 96 48 04 W
+#R	
+#U	
+#W	ndsuhp!tareski (Val Tareski); Sun Feb 18 19:35:01 CST 1990
+#
+ndsuhp	hp-lsd(DAILY), plains(DIRECT), kartoon(LOCAL) 
+
+#N	ndsuhpd
+#S	HP 9000/319; HPUX 6.5
+#O	North Dakota State University, Department of Electrical and Electronics Engineering
+#C	Jeff Johnston
+#E	ndsuhpd!johnston
+#T	+1 701 237 7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#W	ndsuhpd!johnston (J. Johnston); Sat Sep 16 10:25:00 CDT 1991
+#
+#
+# Dialup
+ndsuhpd	plains(DIRECT)
+
+#N	piprpit
+#S	Apple IIe; Z80; CP/AM 5.1
+#O	K. M. Skar Residence
+#C	Keith M. Skar
+#E	piprpit!roddy
+#T	+1 701 838 7702
+#P	#2 University Ave. W Apt. 6  Minot, ND 58701
+#L	48 15 17 N / 101 17 36 W
+#R	A private system
+#R 	Using David Goodenough's UUCP 2.1B for CP/M
+#U 	plains
+#W	piprpit!roddy (Keith M. Skar); Tue Feb 4 15:13:18 CST
+#
+piprpit	plains(DEMAND)
+
+#N	plains
+#S	Solbourne 5/820; Solbourne OS/MP 4.0C
+#O	North Dakota Higher Education Computing Network, NDSU Computer Center
+#C	Blayne Puklich
+#E	plains!postmaster
+#T	+1 701 237 7584
+#P	PO Box 5164 University Station, Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	This is also plains.NoDak.edu [134.129.111.64] on the Internet
+#U	ndsuvm1 jcvax ogicse milton
+#W	fps!brodie (Kent C. Brodie); Tue Feb 11 13:35:59 CDT 1992
+#
+plains	= ndsuvax
+plains	= plains.nodak.edu
+plains	.nodak.edu
+#
+#	TCP/IP
+plains	kartoon(DIRECT), ndmoon(DIRECT), ndvenus(DIRECT), ndmars(DIRECT),
+	ndsuvm1(DIRECT), ndsueee(DIRECT), ogicse(DIRECT), umn-cs(DIRECT),
+	uunet(DIRECT), design(DIRECT)
+#
+# Dialup
+plains	jcvax(DAILY), ndsuhp(DIRECT), ndsuext(DIRECT), fargo(DAILY),
+	gplains(DAILY), milo(DAILY), cobber(DAILY), wind(DAILY),
+	scsndsu(DEMAND), piprpit(DEMAND), bolshoi(DEMAND)
+
+#N	scsndsu
+#S	AT&T 6386E; System 5 Release 3.2
+#O	USDA Soil Conservation Service office at North Dakota State University
+#C	Craig Reister
+#E	...plains!scsndsu!root
+#T	+1 701 237 7562
+#P	Walster Hall, Room 205, NDSU, Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	This machine is used to digitize soil survey maps for the USDA SCS.
+#W	...plains!scsndsu!craig (Craig Reister); Mon Dec  9 20:11:00 CST 1991
+#
+scsndsu	plains(DEMAND)
+
+# u.usa.nd.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

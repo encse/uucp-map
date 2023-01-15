@@ -1,0 +1,75 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.Country
+: This archive created: Mon Feb 29 02:41:42 1988
+echo shar: extracting d.Country
+cat << 'SHAR_EOF' > d.Country
+#N	.fi, tut
+#F	seismo.css.gov
+#O	Tampere University of Technology, Computer Science Laboratory
+#C	Hannu-Matti Jarvinen
+#E	tut!hmj
+#T	+358 31 162702
+#P	P.O.Box 527, SF-33101 Tampere, Finland
+#L	23 50 E / 61 26 N
+#R	
+#U	intrin, oulu, tucos, valmet, santra, ujocs, utacs
+#W	tut!hmj 860710
+#
+tut	.fi
+tut =	tut.fi
+tut	enea(HOURLY), mcvax(HOURLY), unido(HOURLY),
+
+#N      .nl, mcvax
+#F      seismo.css.gov
+#O      Centrum voor Wiskunde en Informatica (CWI)
+#C      Piet Beertema
+#E      mcvax!piet
+#T      +31 20 5920333
+#P      Kruislaan 413, NL-1098 SJ Amsterdam, Netherlands
+#L      52.22N 4.54E
+#R      inquiry
+#
+mcvax	.nl
+mcvax =	mcvax.nl
+
+#N      .nz, vuwcomp
+#F      uunet.uu.net
+#O      New Zealand
+#C      Duncan McEwan
+#E      duncan@comp.vuw.ac.nz, ...!uunet!vuwcomp!duncan
+#T      +64 4 721 000
+#P      Computer Science Department, Victoria University of Wellington,
+#P      Private Bag, Wellington, New Zealand.
+#L      41 17 25 S / 174 46 7 E
+#U      munnari frc nezsupp csvaxa cantuar
+#R      inquiry
+#W      Duncan McEwan (vuwcomp!duncan); Tue Jan 19 22:32:36 NZDT 1988
+#
+vuwcomp = comp.vuw.ac.nz
+vuwcomp .nz
+vuwcomp calgary(DAILY), uunet(DAILY/4), frc(HOURLY), nezsupp(HOURLY*4),
+	csvaxa(EVENING), cantuar(HOURLY)
+
+#N	.se, enea
+#F	seismo.css.gov
+#O	Sweden
+#C	Bjorn Eriksen, Sten Folkerman
+#E	ber@enea.uucp, sten@enea.uucp
+#T	+46 8 756 72 20
+#P	ENEA DATA Svenska AB, Box 232, S-183 23 TABY, Sweden
+#L	59 45 N / 18 09 E
+#U	agaton, chalmers, daab, erix, infovax, kuling, liuida
+#U      log-hb, luth, mcvax, sal, sems, sielem, suadb, ttds, tut
+#R	registered
+#W	10/17/86 MRH from enea!ber
+#
+enea	.se
+enea =	enea.se
+enea	mcvax
+
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,113 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.or.1
+: This archive created: Mon Mar 28 01:50:57 1988
+echo shar: extracting d.usa.or.1
+cat << 'SHAR_EOF' > d.usa.or.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@rutgers.edu (rutgers!uucpmap).
+# Last updated: Sat Mar 21 00:41:18 PST 1987
+
+#N	.mentor.com, mntgfx
+#F	uxc.cso.uiuc.edu
+#O	Mentor Graphics Corporation
+#C	Dave Clemans, Alan Rosenfeld
+#E	dclemans@mntgfx.uucp, alanr@mntgfx.uucp
+#T	503-626-7000
+#P	8500 SW Creekside Plac, Beaverton, OR 97005-7191
+#L
+#U
+#R	registered
+#W	rutgers!pleasant (Mel Pleasant); Sat May 23 08:46:28 EDT 1987
+#
+mntgfx	.mentor.com
+mntgfx=	mentor.com
+mntgfx	tessi(DIRECT), sequent(DIRECT), apcipdx(POLLED), gssc(DIRECT),
+	context(DEAD), sci(DEMAND*2), analog(DEMAND*2), decwrl(DEMAND*2),
+	uiucuxc(DEMAND), apollo(DIRECT)
+
+#N	orstcs, cs.orst.edu, .cs.orst.edu, .orst.edu
+#S	VAX 11/750; BSD 4.3
+#O	Oregon State University, Computer Science Dept.
+#C	John Sechrest, Marion Hakanson
+#E	orstcs!postmaster
+#T	+1 503 754 3273
+#P	CS Dept., Oregon State Univ., Corvallis, OR 97331
+#L	44 34 N / 123 16 W city
+#U	rutgers.rutgers.edu(world), hp-pcd(or,pnw)
+#R	
+#W	orstcs!hakanson (Marion Hakanson); Thu Mar  3 12:31:10 PST 1988
+#
+orstcs	.orst.edu
+orstcs	.cs.orst.edu(LOCAL)
+orstcs=orstcs.cs.orst.edu
+orstcs=cs.orst.edu
+#
+# Some of these numbers are lies, but they reflect our preferences.
+orstcs	hp-pcd(DIRECT), tektronix(HOURLY), uoregon(HOURLY),
+	sequent(DAILY/8), psueea(DAILY/8)
+#
+# We gateway for these folks (most are "leaves"), local calls.
+orstcs	sssipg(DIRECT), cormom(DIRECT), jasmic(DIRECT),
+	cutsys(DIRECT), statware(DIRECT), castle.ifna.org(DIRECT)
+#
+# These are here for backwards compatability with the "old" map.
+# They will eventually be able to be removed after we start to
+# rewrite their outgoing path names.
+orstcs	oreeo.ece.orst.edu(DIRECT), demon.ece.orst.edu(DIRECT),
+	physics.orst.edu(DIRECT), math.orst.edu(DIRECT)
+demon   = demon.ece.orst.edu
+oreeo   = oreeo.ece.orst.edu
+oreeo	miilk(LOCAL), pdq(DIRECT)
+miilk	= miilk.ece.orst.edu
+pdq	= pdq.ece.orst.edu
+orstmth = math.orst.edu
+orstph  = physics.orst.edu
+#
+#	We never call these, but they sometimes call us.
+orstcs	tekchips(POLLED), salem1(POLLED), asgard(POLLED)
+
+#N	.tek.com, tektronix
+#S	DEC 11/780, 4.3 BSD UNIX 
+#F	RELAY.cs.net
+#O	Tektronix, Inc.
+#C	Michael Edelman, Wayne Clark
+#E	postmaster@tektronix.tek.com, sys_admin@tektronix.tek.com
+#T	+1 503 627 6707, +1 503 627 5364
+#P	P.O. Box 500, mail-st 50-454, Beaverton, OR  97077
+#L	45 29 N / 122 49 W city
+#U	uunet decvax hp-pcd uw-beaver sequent upvax reed 
+#R	registered on CSNET
+#W	waynec@tektronix.TEK.COM (Wayne Clark); Thu Mar 10 16:44:02 PST 1988
+#
+tektronix	.tek.com
+tektronix=	tektronix.tek.com
+tektronix       cae780(DIRECT),
+		cbosgd(DAILY),
+		decvax(DAILY),
+		gatech(DAILY),
+		gvgpsa(HOURLY),
+        	hplabs(DAILY),
+		hp-pcd(DAILY),
+        	ihnp4(DAILY),
+		masscomp(DAILY*2),
+        	nscpdc(DEMAND),
+		ogcvax(DEMAND),
+		orstcs(DAILY),
+        	psu-cs(DEMAND),
+		purdue(WEEKLY/2),
+		reed(DEMAND),
+		sequent(DEMAND),
+		tessi(DEMAND),
+		ucbvax(DAILY),
+		uoregon(DAILY/2),
+		upvax(DEMAND),
+        	uw-beaver(DAILY/2),
+		uunet(DAILY/4)
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0

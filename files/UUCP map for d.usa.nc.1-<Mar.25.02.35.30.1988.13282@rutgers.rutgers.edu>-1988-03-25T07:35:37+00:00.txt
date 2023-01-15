@@ -1,0 +1,64 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.nc.1
+: This archive created: Fri Mar 25 02:34:47 1988
+echo shar: extracting d.usa.nc.1
+cat << 'SHAR_EOF' > d.usa.nc.1
+#MAP FILE: d.usa.nc.1	Sat Jan  2 14:26:16 EST 1988	tgt@stargate.COM
+#
+#
+#N	.mcnc.org, mcnc
+#F	mcnc.org
+#O	Microelectronics Center of North Carolina
+#C	Tim Seaver
+#E	mcnc!tas, mcnc!postmaster
+#T	+1 919 248 1973
+#P	P.O. Box 12889, Research Triangle Park, NC 27709
+#L	35 56 N / 78 46 W city
+#R	
+#U	decvax rutgers gatech duke unc rti unccvax ece-csc ecsvax ncsuvx
+#U	xanth
+#W	mcnc!tas (Tim Seaver); Wed Sep 30 12:01:08 EDT 1987
+#
+#	Internet domain
+#
+mcnc	.mcnc.org
+mcnc = mcnc.org
+mcnc = mcnc.mcnc.org
+#	
+#	MCNC microwave network
+#
+mcnc	unc(DEDICATED), duke(DEDICATED), rtivax(DEDICATED), rti(DEDICATED),
+	ece-csc(DEDICATED), ncsuvx(DEDICATED), bach(DEDICATED),
+	godot(DEDICATED), ecsvax(DEDICATED), unccvax(DEDICATED),
+	uncmed(DEDICATED)
+#
+#	Reliable Internet connections
+#
+mcnc	gatech(ARPA), rutgers(ARPA)
+#
+#	Less reliable Internet connections
+#
+mcnc	decvax(DEMAND/2)
+#
+#	Local dialup connections
+#
+mcnc	phs(DIRECT), dukee(DIRECT), illia(DIRECT), bdrc(DIRECT),
+	bacchus(DIRECT), ge-rtp(DIRECT), briarpatch(DIRECT), ncsugn(DIRECT),
+	r0784(DIRECT), katylied(DIRECT)
+#
+#	Long-distance dialup connections
+#
+mcnc	allegra(EVENING), aloof(DAILY), bocgas(EVENING),
+	bonnie(EVENING), burl(EVENING), cbosgd(EVENING),
+	clyde(EVENING), codas(EVENING), convex(EVENING), ethos(EVENING),
+	floyd(EVENING), hplabs(EVENING), idis(DAILY), ihnp4(DAILY),
+	msdc(DAILY/3), moss(EVENING), philabs(EVENING), olympus(DAILY),
+	rlgvax(DAILY), ulysses(EVENING), vax135(DAILY), virginia(EVENING),
+	xanth(EVENING)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

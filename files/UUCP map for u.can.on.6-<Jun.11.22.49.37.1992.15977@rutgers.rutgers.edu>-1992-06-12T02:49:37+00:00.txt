@@ -1,0 +1,446 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.on.6
+: This archive created: Thu Jun 11 22:49:35 1992
+echo shar: extracting u.can.on.6
+cat << 'SHAR_EOF' > u.can.on.6
+file {u.can.on.6}
+#	u.can.on.6 : last updated Tue Jun  9 22:08:15 1992
+#
+#	Corrections to the contents of this file should be sent to any one of:
+#		path@cs.toronto.edu, path@cs.utoronto.ca, utai!path
+#	Please edit the map entry suitably and remember to update the #W line.
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.ca) or want related information, please contact:
+#
+#		registry@cs.toronto.edu, registry@cs.utoronto.ca, utai!registry
+#	
+#	For information about registering under any of .edu, .com, .gov etc,
+#	please contact domain-request@uunet.uu.net or uunet!domain-request.
+#
+
+#N	wildcan
+#S	Sun 3/280; SunOS 4.1.1
+#O	Computervision GIS
+#C	Brian L. Plante
+#E	wildcan!blplante
+#T	+1 416 508 8020 x866
+#P	45 Vogell Rd, Richmond Hill, Ontario, L4B 3P6
+#L	43 51 54 N / 79 22 43 W
+#U	utzoo sq dciem tmbskh uunet.ca
+#W	wildcan!blplante (Brian L. Plante); Wed Mar  4 18:46:09 EST 1992
+#
+wildcan	= cvgis.prime.com
+wildcan sq(DIRECT),
+	utzoo(DAILY),
+	dciem(DAILY),
+	tmbskh(POLLED),
+	uunet.ca(DIRECT),
+	cvgis.prime.com(LOCAL)
+
+#N	wizofhoz
+#S	Amiga 500; Amiga DOS
+#O	not a organization
+#C	Ghazi Hage
+#E	wizofhoz!ghazi
+#T	+1 519 254 3946
+#P	397 Chatham St. E., Windsor, Ontario, Canada N9A 2W7
+#L	42 26 20N / 83 4 24 W city
+#R	Personal news/mail/hacking/fun machine
+#U	jabba
+#W	pjohnson@jabba.UUCP (Palmer Johnson); Fri Nov 30 13:15:33 EST 1991
+#
+wizofhoz	jabba(DEMAND)	# 2400 baud connection; mail some news
+
+#N	wmsical
+#S	IBM RT; AIX 2.2
+#O	Waterloo Maple Software
+#C	Stefan M. Vorkoetter
+#E	watmath!wmsical!smvorker
+#T	+1 519 747 2373
+#P	160 Columbia St. W., Waterloo, Ontario, Canada, N2L 3L3
+#L	43 28 N / 080 23 W city
+#W	watmath!gamiddleton (Guy Middleton); Thu Feb 28 14:08:15 EST 1991
+#
+#
+wmsical	watmath(DAILY/4)
+
+#N	wnet
+#S	Intel i386; Unix System V release 3.2
+#O	Waterloo Networks
+#C	Jerry Sturge
+#E	wnet!postmaster
+#T	+1 519 886 3368
+#P	197A Cedarvale Cres. Waterloo, Ontario N2L 4T3
+#L	43 22 00 N / 80 19 00 W city
+#R	UNIX Network Development
+#U	provar
+#W	wnet!jerrys (Jerry Sturge); Fri Aug 2 00:00:01 EST 1991
+#
+wnet    provar(LOCAL)                    # IP Connection
+
+
+
+
+#N	xbrix
+#S	DEC MicroVAX 3100; VMS V5.5
+#O	Crowntek Business Centers Inc.
+#C	Tarif Halabi, Tom Yu
+#E	xbrix!postmaster, xbrix!tyu
+#T	+1 416 507 5070, +1 416 507 5077
+#P	5990 Avebury Rd, Mississauga, Ont, L5R 3R2 Canada
+#L	43 43 N / 79 31 W city
+#R	Running DECUS uucp V1.3
+#W	xbrix!thalabi (Tarif Halabi); Mon May 4 12:41:52 EST 1992
+#
+#	and ANU News 6.0
+#
+xbrix yunexus(DIRECT), utcsri(DIRECT), bkj386(DIRECT)
+
+
+
+#N	xenitec, xenitec.on.ca, .xenitec.on.ca
+#S	IBM PC/AT 80486 compatible; SCO Unix System V release 3.2v4.0/ODT 2.0
+#O	XeniTec Consulting Services
+#C	Ed Hew
+#E	xenitec!postmaster
+#T	+1 519 570 9848
+#P	199 Silver Aspen Cr., Kitchener, Ontario, Canada N2N 1H5
+#L	43 27 N / 80 29 W city
+#R	SCO Authorized UNIX/Xenix and OpenDeskTop training; applications, 		installations, support, consulting, and general UNIX handholding.
+#U	zswamp sco electro mks iguana lemsys tdkcs bata
+#U	pcssc mongrel walter golem mitra uunet.ca amdsi dogmead
+#W	xenitec!edhew (Ed Hew); Tue Jun 09 18:30:05 EDT 1992
+#
+
+xenitec	.xenitec.on.ca
+xenitec = xenitec.on.ca
+xenitec = xenitec.xenitec.on.ca
+
+xenitec	amdsi(DAILY/4),		# downstream mail, some news
+	bata(DAILY/4),		# downstream mail, some news
+	dogmead(HOURLY+FAST),	# downstream mail, some news
+	electro(HOURLY+FAST),	# Telebit downstream mail, news
+	escsys(DAILY/4),	# downstream mail
+	emgee(DAILY/4),		# downstream mail
+	golem(DAILY/4),		# downstream mail, news
+	iguana(DIRECT+FAST),	# Telebit downstream mail, news
+	lemsys(DAILY/2),	# downstream mail, news
+	lsuc(DIRECT),		# SMTP mail link
+	ltg(DAILY/4+FAST),	# downstream mail
+	mitra(DIRECT+FAST),	# downstream mail, some news
+	mcclon(DAILY),		# downstream mail
+	mks(DAILY/2+FAST),	# downstream mail, some news
+	mongrel(DAILY/4),	# downstream mail, some news
+	pcssc(DAILY),		# downstream mail, some news
+	rmotion(DAILY/4),	# downstream mail
+	<sco>(DAILY),		# Telebit mail/news
+	tdkcs(DIRECT+FAST),	# Telebit downstream mail/news feed
+	tirith(DAILY/4),	# downstream mail, some news
+	<utai>(WEEKLY*2+FAST),	# Toronto backup link
+	<uunet.ca>(DEDICATED),	# upstream mail/news IP link
+	walter(DAILY+FAST),	# Telebit downstream mail/news feed
+	xensoft(DEDICATED),	# downstream mail/news link (SLIP)
+	zswamp(DAILY)		# downstream mail/news
+
+xenitec	.electro.com(HOURLY+FAST), electro.com(HOURLY+FAST),
+	.lsuc.on.ca(DEDICATED), lsuc.on.ca(DEDICATED),
+	.mitra.com(DIRECT+FAST), mitra.com(DIRECT+FAST),
+	.mks.com(DAILY/2+FAST), mks.com(DAILY/2+FAST),
+	<sco.com>(DAILY),
+	.tdkcs.waterloo.on.ca(DIRECT+FAST), tdkcs.waterloo.on.ca(DIRECT+FAST),
+	<.uunet.ca>(DEDICATED), <uunet.ca>(DEDICATED)
+
+#N	xgml
+#S	Sun 4/360; BSD UNIX
+#O	Exoterica Corporation
+#C	Norbert Winklareth
+#E	nw@xgml.com
+#T	+1 613 722 1700
+#P	383 Parkdale Ave, Suite 406, Ottawa Ontario, Canada, K1Y 4R4
+#L	45 25 N / 75 42 W city
+#R	SGML Consultants and Product Developers
+#U	dataco
+#W	xgml!nw (Norbert Winklareth); Thu Apr  3 16:28:50 EDT 1992
+#
+#
+#
+xgml = xgml.com
+#
+xgml	uunet.ca(DEMAND),<dataco>(DEMAND)
+
+#N	xrtll
+#S	IBM-AT compatible; SCO Xenix Ver 2.3.2
+#O	WCOM, Toronto, Ont.
+#C	Richard Snider
+#E	xrtll!rsnider
+#T	+1 416 237 0796
+#P	P.O. Box 336, Thornhill, Ontario, CANADA L3T 2A4
+#L	43 47 N / 79 59 W city
+#U	itcyyz
+#W	xrtll!rsnider (Richard Snider); Wed Sep 18 11:54:21 EST 1991
+#
+xrtll	yunexus(DIRECT),	# Mail only
+	bokonon(DIRECT),	# Mail only
+	geac(POLLED),		# Mail only
+	itcyyz(DIRECT),		# Full News in, some mail
+	united(DIRECT),		# Mail only
+	zooid(POLLED),		# Mail, some news downstream
+	torag(POLLED)		# Mail, some news bidirectional
+
+
+#N	yetti
+#S	Sun 280s; SunOS 3.5
+#O	York University Department of Computer Science
+#C	Ulya Yigit, Chris Phillips
+#E	yetti!ulya, yetti!chris
+#T	+1 416 736 5053 x77881, +1 416 736 5257 x77885
+#P	4700 Keele Street, North York - ONT., CANADA M3J 1P3
+#L	43 46 02 N / 79 30 00 W
+#R	Dept of Computer Science, Research Timesharing
+#U	yunexus
+#W	yetti!ulya (Ulya Yigit); Mon May 27 13:39:32 EDT 1991
+#
+yetti	.yorku.ca
+yetti = yetti.yorku.ca
+yetti	yunexus(LOCAL) 		# mail and news connection
+
+#N	yrloc, yrloc.ipsa.reuter.com
+#S	Intel S302 (80386/25); Unix System V.3.2 (386/IX 2.0.2)
+#O	Reuter:file Ltd., Toronto
+#C	Leigh Clayton
+#E	tmsoft!loc, yrloc!loc
+#T	+1 416 364 5361 x202
+#P	2 First Canadian Place, Suite 1900, Toronto, Ontario, Canada M5X 1E3
+#L	43 39 20 N / 79 23 15 W
+#R	Usenet Portal for research and Development
+#U	itcyyz
+#U	tmsoft
+#W	loc@tmsoft.UUCP (Leigh Clayton); Wed Jul 11 23:51:42 UTC 1990
+#       full bidirectional feeds
+#       partial feeds
+#
+#       APL Language Development, Databases, Timesharing, Packet Networking
+#
+# in the following: WP - we poll, TP - they poll, BP - bidirectional poll
+#                       LOW=1200bps, HIGH=19200bps Telebit
+yrloc   tmsoft(HOURLY*2+HIGH),  # WP - mail, partial news
+        itcyyz(HOURLY+HIGH)     # WP - mail, full news
+
+#N	yunccn
+#S	Packard Bell 80286; SCO XENIX Version 2.2
+#O	York University Faculty of Environmental Studies
+#C	Mary Bernard
+#E	yunccn!postmaster
+#T	+1 416 736 5287
+#P	4700 Keele Street, North York, Ontario, Canada, M3J 1P3
+#L	43 47 N / 79 30 W city
+#R	yunccn is the gateway to the Native Computer Communications Network.
+#U	web lethe ists
+#W	shields@web.apc.org (Paul Shields); Thu Apr 16 19:31:59 EDT 1992
+#
+yunccn = yunccn.yorku.ca
+yunccn	web(DAILY), lethe(WEEKLY), ists(WEEKLY), berner(DEAD), 
+	ontmoh(DEAD), minck(DEAD)
+
+
+#N	yunexus
+#S	Sun 4/75m; SunOS 4.1.1
+#O	York University Department of Computing and Communication Services
+#C	David Collier-Brown, Tony Brack
+#E	yunexus!davecb, yunexus!brack
+#T	+1 416 736 5257 x22075, +1 416 736 5257 x22687
+#P	4700 Keele Street, North York - ONT., CANADA M3J 1P3
+#L	43 39 N / 79 23 W city
+#R
+#W	yunexus!davecb (David Collier-Brown);Tue Mar 31 08:54:05 EST 1992
+#
+#       Node yunexus is now an entirely different machine
+#	with mostly ip connections via ONet, and uucp is
+#	only supported as a fallback.  Please send mail
+#	to nexus.yorku.ca instead.
+#	The name yunexus will be kept around for a long time
+#	but mostly for backward compatability: all our links
+#	will be marked dead so that they are known, but not
+#	used unless no other route exists (dead actually means
+#	``almost dead'' to pathalias: it's just a name for a
+#	very low priority)
+#
+yunexus .yorku.ca
+yunexus = nexus.yorku.ca
+yunexus gedanken(DEAD),ists(DEAD),jtsv16(DEAD),lethe(DEAD),lsuc(DEAD),
+        motto(DEAD),msitxt(DEAD),murder(DEAD),ontmoh(DEAD),redvax(DEAD),
+	telly(DEAD),tmsoft(DEAD),torsqnt(DEAD),utai(DEAD),utcsri(DEAD),
+	utzoo(DEAD),xbrix(DEAD),xenitec(DEAD),xrtll(DEAD)
+
+#N	yzrnur
+#S	Unix;
+#O	Yzrnur Consulting
+#C	Rene Lampe
+#E	yzrnur!rene, yzrnur!root, yzrnur!postmaster
+#T	+1 416 737 7717
+#P	20 Baif Blvd, Apt 1009, Richmond Hill, Ontario, Canada, L4C-8T1
+#L	43 42 N / 79 46 W city
+#R	*** Everything Counts in Large Amounts ***
+#U	rubble
+#W	yzrnur!rene (Rene lampe); Mon Feb 10 09:48:24 EST 1992
+#
+#     All Dial In/Out Connections Are Via Telebit's
+#
+#     TP - They Poll
+#     WP - We Poll
+#     BP - Bidirectional Poll
+#     M  - Mail
+#     N  - News
+#     MN - Mail/News
+#
+yzrnur
+      ardva(DAILY),          # (TP) (M)  - Ardva (Private Site)
+      grimm(WEEKLY),         # (TP) (M)  - Grimm (Private Site)
+      mnetor(DIRECT+LOW),    # (BP) (M)  - Motorola Computer Group
+      nomad(DIRECT),         # (TP) (M)  - Nomad the Roaming UUCP Node
+      rubble(DIRECT+HIGH),   # (BP) (MN) - Rubble (Private Site)
+      sq(DIRECT+HIGH),       # (BP) (M)  - SoftQuad 
+      torsqnt(DIRECT),       # (BP) (M)  - Sequent Computer Systems
+      tmsoft(DIRECT)         # (BP) (M)  - Tm Software Associates
+#
+
+#N	zelda
+#S	286 AT Clone; MS-DOS 4.1
+#O	Professional Home D'sign
+#C	Kevin Pickard, Douglas Pickard
+#E	perle!kevin, zelda!doug
+#T	+1 416 299 4999
+#P	Hamilton, Ontario, Canada
+#L	44 03 N / 78 13 W city
+#R	Drafting and Design
+#U
+#W	perle!kevin (Kevin Pickard); Sun Jun 23 18:34:35 EDT 1991
+#
+# in the following: WP - we poll, TP - they poll, BP - bidirectional poll
+#		LOW=1200bps, FAST=19200bps Telebit, neither=2400bps
+#
+# local calls
+#
+zelda	maccs(DIRECT+LOW)	# McMaster University - WP: mail
+
+#N	zentron
+#S	Intel 403E 80486/33; SCO Open Desktop Release 1.1
+#O	Zentronics
+#C	Steve Haller
+#E	zentron!postmaster
+#T	+1 416 564 9600
+#P	1355 Meyerside Drive, Mississauga Ontario, L5T 1C9
+#L	43 44 N / 79 43 W city
+#R	Authorized SCO Advanced Product Centre and Authorized SCO training
+#U	utai
+#W	zentron!steveh (Steve Haller); Tue Aug 06 10:31:18 EDT 1991
+#
+zentron	utai(HOURLY),		# Mail link (University of Toronto)
+		scocan(HOURLY),		# Mail link (SCO Canada)
+
+#N	zerosan
+#S	IBM AT 386 compatible; MS-DOS
+#O	personal computer
+#C	Chin Huang
+#E	zerosan!postmaster
+#T	+1 416 453 3427
+#P	56 Torrance Woods, Brampton, Ontario, Canada, L6Y 2V1
+#L	43 43 N / 79 20 W city
+#U	canrem
+#W	canrem!chin.huang (Chin Huang); Mon Jan 20 14:07:31 EST 1992
+#
+zerosan		canrem(DAILY)
+
+#N	ziebmef
+#F	snow.white.toronto.edu
+#S	AT&T 3B1; System V Unix
+#O	Ziebmef Public Access Unix
+#C	Chris Siebenmann
+#E	ziebmef!postmaster, ziebmef!sysop, ziebmef!cks
+#T	+1 416 654 5653
+#P	65 Rosemount Ave E, Toronto, Ontario, M6H 2M4
+#L	43 40 37 N / 79 31 50 W
+#R	personal unix machine/public access Unix/hacking toy
+#U	ncrcan becker telly moore berner contact
+#W	ziebmef!cks (Chris Siebenmann); Tue Aug  8 20:50:02 EDT 1989
+#		The Ziebmef itself can be reached at 654-8854 or 654-6192.
+ziebmef = ziebmef.mef.org
+ziebmef
+	# News connnections:
+		ncrcan(DIRECT+LOW),	# downrated due to news flown
+					# just about everything. our
+					# primary feed
+		becker(DIRECT),		# we swap usrgroup, alt, unix-pc,
+					# and pubnet
+		telly(DIRECT),		# we swap pubnet and some comp and
+					# rec groups
+		moore(DIRECT),		# amiga binaries groups
+		berner(DIRECT),		# talk.bizarre
+		<contact>(DIRECT),
+	# Mail connections:
+		chp(DIRECT+LOW),	tmsoft(DIRECT),
+		lethe(DIRECT),		kneller(DAILY),
+		chance(DAILY),		lsuc(DIRECT+LOW),
+		<graham>(DAILY),	<firefall>(WEEKLY*2),
+	# Registering:
+		bkj386(DAILY*2),	hybrid(DIRECT)
+
+#N	zohar, zohar.gts.org
+#S	Intel 80486; Waffle/DOS V1.64
+#O	GeoWare Software Design
+#C	George Borges
+#E	zohar!gborges
+#T	+1 416 695 1607
+#P	3-72 Rabbit Lane, Etobicoke, Ontario, Canada M9B 5S7
+#L	43 40 00 N / 79 34 00 W
+#R	Consulting Services - Clipper, xBase, C++, OS/2
+#W	zohar!gborges (George Borges); Sat Mar 14 10:00:00 EST 1992
+#
+zohar = zohar.gts.org
+zohar   becker(DEMAND), canrem(DEMAND)
+
+#N	zooid
+#S	386 AT; Xenix 2.3.2
+#O	ZOOiD BBS
+#C	David Mason
+#E	zooid!vid
+#T	+1 416 322 3606
+#P	Toronto, Ontario, Canada
+#L	43 43 30 N / 79 25 00 W
+#R	The ZOO of iDs
+#U	torag r-node beltrix
+#W	zooid!smarry (Marc Moorcroft); Tue Mar  3 05:46:24 EST 1992
+#
+zooid = zooid.guild.org
+zooid	torag(DIRECT),
+	roboco(DAILY),		# calls us
+	xrtll(EVENING),
+	bville(POLLED),		# calls us
+	messalina(DIRECT),
+	r-node(DIRECT),
+	contact(LOCAL),  # to suck up contact's mail until it lives again
+	beltrix(DIRECT)
+
+
+#N	zswamp
+#S	386SX-16; MS-DOS 3.31, Waffle 1.64
+#O	Izot's Swamp
+#C	Geoffrey Welsh
+#E	zswamp!root
+#T	+1 519 742 1228
+#P	412-305 Margaret Avenue, Kitchener Ontario, N2H 6S4 Canada
+#L	43 27 N / 80 30 W city
+#U	xenitec
+#W	zswamp!root (Geoffrey Welsh); Sun Mar 08 11:23:15 EST 1992
+#
+zswamp	xenitec(DIRECT),	# upstream mail & news
+	m2xenix(DAILY),		# upstream mail
+	spinq(WEEKLY)		# downstream mail & some news
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

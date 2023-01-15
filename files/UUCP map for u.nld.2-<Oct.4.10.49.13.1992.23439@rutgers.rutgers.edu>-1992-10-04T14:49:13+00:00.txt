@@ -1,0 +1,822 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.nld.2
+: This archive created: Sun Oct  4 10:49:10 1992
+echo shar: extracting u.nld.2
+cat << 'SHAR_EOF' > u.nld.2
+file {u.nld.2} # of 0,1,2,3,4,100; changes to: uucpmap@nluug.nl
+# Copyright 1989-1992 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# #W lines show 2 dates: date of introduction and date of last change.
+# Last change:  Fri Sep 25 15:57:37 MET DST 1992
+
+#N	fmneth, .frame.nl, frame.nl
+#S
+#O	Frame Technology Europe
+#C	Bill Perrin
+#E	gwp@frame.nl
+#T	+31 20 6037339
+#P	Snipweg 3, NL-1118 AA Schiphol-Zuid, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 910906, piet@nluug.nl 920228
+#
+
+#N	fousupp
+#S
+#O	Foundation Software
+#C	W.J. Rademaker
+#E	paul@fousupp.uucp
+#T	+31 20 6975451
+#P	Keienbergweg 7, NL-1101 EZ Amsterdam Z-O, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 911017, martijn@nluug.nl 911017
+#
+
+#N	fss, .fss.fokker.nl, fss.fokker.nl
+#S
+#O	Fokker Space + Systems
+#C	Wim Elhorst
+#E	wim@fss.fokker.nl
+#T	+31 20 6056214
+#P	Postbus 12222, NL-1100 AE Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 920421, piet@nluug.nl 920527
+#
+
+#N	geveke, .geveke.nl, geveke.nl 
+#S
+#O	Geveke Electronics B.V.
+#C	Erik Jan Kruit
+#E	root@geveke.nl
+#T	+31 20 5861478
+#P	Afd. 619, P.O. Box 652, NL-1000 AR Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 880808, martijn@nluug.nl 910725
+#
+
+#N	glieur, .gli.nl, gli.nl
+#S	
+#O	GLI Europe B.V.
+#C	Hans Zuidam
+#E	postmaster@gli.nl
+#T	+31 40 520010
+#P	Strijpsestraat 127, NL-5616 HK Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R	
+#U
+#W	martijn@nluug.nl 900917, martijn@nluug.nl 900921
+#
+
+#N	.encore.nl, encore.nl, gouldnl.encore.nl, gouldnl
+#S	
+#O	Encore Computer Nederland B.V.
+#C	Wytze van der Raay
+#E	wytze@encore.nl
+#T	+31 3465 66214
+#P	P.O. Box 1666, NL-3600 BR Maarssenbroek, Netherlands
+#L	5 08 E / 52 08 N
+#R	
+#U
+#W	piet@cwi.nl 851025, piet@nluug.nl 911009
+#
+
+#N	gringo
+#S	
+#O	Deerns Raadgevende Ingenieurs B.V.
+#C	Ir. P. Stoelinga
+#E	james@gringo.uucp
+#T	+31 70 3993150
+#P	P.O. Box 1211, NL-2280 CE Rijswijk, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 910807, martijn@nluug.nl 910807
+#
+
+#N	gwpost, .dgw.rws.nl, dgw.rws.nl
+#S
+#O	Rijkswaterstaat, dienst getijdewateren.
+#C	A. van Gennip
+#E	root@dgw.rws.nl
+#T	+31 70 3645089
+#P	P.O. Box 20907, NL-2500 EX Den Haag, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 911210, martijn@nluug.nl 920122
+#
+
+#N	hacktic, .hacktic.nl, hacktic.nl
+#S	
+#O	Stichting Hack-Tic
+#C	R. Gonggrijp
+#E	rop@hacktic.nl
+#T	+31 20 6903445
+#P	Postbus 22953, NL-1100 DL Amsterdam, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nlug.nl 920512, martijn@nluug.nl 920512
+#
+
+#N	halka, .hsa.nl, hsa.nl
+#S	
+#O	Hogeschool Alkmaar, Sector Techniek
+#C	O. Witvliet
+#E	onno@titan.hts.hsa.nl
+#T	+31 72 183456
+#P	Bergerweg 200, NL-1817 MN Alkmaar, Netherlands
+#L	4 44 E / 52 37 N
+#R	
+#U
+#W	piet@cwi.nl 870317, martijn@nluug.nl 910410
+#
+
+#N	harrnl, .harris.nl, harris.nl
+#S	
+#O	Harris Adacom B.V.
+#C	Sjaak Vellekoop
+#E	postmaster@harris.nl
+#T	+31 3480 76611
+#P	Houttuinlaan 16, NL-3447 GM Woerden, Netherlands
+#L	5 53 E / 52 03 N
+#R	
+#U
+#W	piet@cwi.nl 870317, martijn@nluug.nl 910614
+#
+
+#N	hascvx
+#S	
+#O	HAS Nederland B.V.
+#C	Peter Klix
+#E	klix@hascvx.uucp
+#T	+31 20 5866600
+#P	P.O. Box 8362, NL-1005 AJ Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 870818, piet@cwi.nl 870818
+#
+
+#N	hbg-dca, .hbg.nl, hbg.nl
+#S	
+#O	HBG
+#C	R.J. van Rheenen
+#E	rob@hbg-dca.uucp
+#T	+31 70 3152311
+#P	P.O. Box 81, NL-2280 AB Rijswijk, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 910807, piet@nluug.nl 920127
+#
+
+#N	hcscg, .nedgraphics.nl, nedgraphics.nl
+#S	
+#O	NedGraphics B.V.
+#C	W.P.G. Bruijnse
+#E	bruijnse@nedgraphics.nl
+#T	+31 30 410330
+#P	Reactorweg 166, NL-3542 AD Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R	
+#U
+#W	martijn@nluug.nl 900419, piet@nluug.nl 920925
+#
+
+#N	hcsrnd, .hcsia.nl, hcsia.nl
+#S	
+#O	HCS Industrial Automation B.V.
+#C	Herman Slagman
+#E	hermans@hcsia.nl
+#T	+31 55 498600
+#P	P.O. Box 20020, NL-7302 HA Apeldoorn, Netherlands
+#L	5 58 E / 52 13 N
+#R	
+#U
+#W	piet@cwi.nl 870223, piet@cwi.nl 910819
+#
+
+#N	hcsvt, .hcsvt.nl, hcsvt.nl
+#S	
+#O	Vimec AVT bv
+#C	Bas Laarhovem
+#E	bas@hcsvt.uucp
+#T	+31 40 550607
+#P	Meerenakkerweg 1, NL-5652 AR Eindhoven, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 900319, martijn@nluug.nl 921002
+#
+
+#N	hein
+#S
+#O	Hogeschool Eindhoven
+#C	F.H.G.M. de Brouwer
+#E	root@hein.uucp
+#T	+31 40 605378
+#P	Rachelsmolen 1, NL-5612 MA Eindhoven, Netherlands
+#L	5 28 E / 51 26 N city
+#R
+#U
+#W	martijn@nluug.nl 910514, martijn@nluug.nl 910514
+#
+
+#N	hgatenl, .hobby.nl, hobby.nl
+#S
+#O	HCC-UNIX gg
+#C	Henk Dijkstra
+#E	henk@hobby.nl
+#T	+31 3402 32100
+#P	Vosseweide 92-94, NL-3437 TE Nieuwegein, Netherlands
+#L	5 08 E / 52 04 N
+#R
+#U
+#W	martijn@nluug.nl 900521, piet@nluug.nl 900522
+#
+
+#N	hhinsi, .hhs.nl, hhs.nl
+#S	
+#O	Haagse Hogeschool
+#C	R. Kraaijenbrink
+#E	root@hhs.nl
+#T	+31 70 3618595
+#P	Couperusplein 2-19, NL-2514 HP 's-Gravenhage, Netherlands
+#L	5 10 E / 52 14 N city
+#R	
+#U
+#W	piet@cwi.nl 881212, martijn@nluug.nl 910125
+#
+
+#N	hiogron
+#S	
+#O	Rijkshogeschool Groningen
+#C	H. Hindriks
+#E	his@hiogron.uucp
+#T	+31 50 731600
+#P	P. Driessenstraat 3, NL-9701 DA Groningen, Netherlands
+#L	6 33 E / 53 13 N city
+#R	
+#U
+#W	martijn@nluug.nl 900709, martijn@nluug.nl 900709
+#
+
+#N	hku, .hku.nl, hku.nl
+#S
+#O	Hogeschool voor de Kunsten Utrecht, Centrum voor Muziek en Informatica
+#C	J.P. de Jong
+#E	root@hku.uucp
+#T	+31 30 332366 ext. 49
+#P	Maliebaan 81-87, NL-3581 CG Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R
+#U
+#W	piet@cwi.nl 870108, piet@nluug.nl 910704
+#
+
+#N	hlniob
+#S
+#O	Hubrecht Laboratorium NIOB
+#C	H.L. Krielen
+#E	root@hlniob.uucp
+#T	+31 30 510211
+#P	Upsalalaan 8, NL-3584 CT Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R
+#U
+#W	martijn@nluug.nl 901105, martijn@nluug.nl 901105
+#
+
+#N	honhio, .hen.nl, hen.nl
+#S	
+#O	HIO de Maere
+#C	G. van Essen
+#E	essen@hen.nl
+#T	+31 53 871111
+#P	P.O. Box 1075, NL-7500 BB Enschede, Netherlands
+#L	6 53 E / 52 12 N
+#R	
+#U
+#W	piet@cwi.nl 841215, piet@nluug.nl 900621
+#
+
+#N	hp61, .vbg.bwd.rws.nl, vbg.bwd.rws.nl
+#S	
+#O	RWS Bouwdienst
+#C	A.C. Snoeren
+#E	manager@vbg.bwd.rws.nl
+#T	+31 70 3737275
+#P	Kon. Julianalaan 372, NL-2270 AG Voorburg, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920130, martijn@nluug.nl 920130
+#
+
+#N	hpuamsa, apcihld
+#S	
+#O	Hewlett Packard B.V.
+#C	Hans Linschooten
+#E	root@hpuamsa.uucp
+#T	+31 20 5476546
+#P	Startbaan 16, NL-1187 XR Amstelveen, Netherlands
+#L	4 51 E / 52 18 N
+#R	
+#U
+#W	piet@cwi.nl 850501, martijn@nluug.nl 901029
+#
+
+#N	hsacsd, .signaal.nl, signaal.nl
+#S
+#O	Hollandse Signaal Apparaten BV
+#C	C.D. v.d. Doel
+#E	vddoel@signaal.nl
+#T	+31 55 433336
+#P	P.O. Box 245, NL-7300 AE Apeldoorn, Netherlands
+#L	5 58 E / 52 13 N
+#R
+#U
+#W	martijn@nluug.nl 901219, piet@nluug.nl 911111
+#
+
+#N	hsahgl, .hgl.signaal.nl, hgl.signaal.nl
+#S
+#O	Hollandse Signaal Apparaten BV
+#C	A. Schalk
+#E	schalk@hgl.signaal.nl
+#T	+31 74 482184
+#P	Zuidelijke Havenweg 40, NL-7554 RR Hengelo, Netherlands
+#L	
+#R
+#U
+#W	martijn@nluug.nl 920512, martijn@nluug.nl 920512
+#
+
+#N	htsa, .aha.nl, htsa.aha.nl
+#S
+#O	AHA - TMF
+#C	F. Rietveld
+#E	ferry@maestro.htsa.aha.nl
+#T	+31 20 6446586
+#P	Europaboulevard 23, NL-1079 PC Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@cwi.nl 850220, piet@cwi.nl 890427
+#
+
+#N	hueiefg
+#S	
+#O	Hogeschool Utrecht
+#C	E.F. Gerlofsma
+#E	postmaster@hueiefg.uucp
+#T	+31 30 896354
+#P	Jutfaseweg 205, NL-3522 HR Utrecht, Netherlands
+#L	5 08 E / 52 05 N city
+#R
+#U
+#W	martijn@nluug.nl 910823, martijn@nluug.nl 910823
+#
+
+#N	ibmacis
+#S	
+#O	IBM Nederland N.V.
+#C	L. Schepers
+#E	lykle@ibmacis.uucp
+#T	+31 20 5653028
+#P	Paalbergweg 9-11, NL-1105 AG Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R
+#U
+#W	piet@cwi.nl 881109, piet@cwi.nl 881109
+#
+
+#N	icenl, .ice.nl, ice.nl
+#S	
+#O	ICE Independent Communication Experts B.V.
+#C	Jaap Bril
+#E	postmaster@ice.nl
+#T	+31 80 540140
+#P	Korenpad 1, NL-6534 AS Nijmegen, Netherlands
+#L	5 52 E / 51 55 N city
+#R
+#U
+#W	martijn@nluug.nl 900419, piet@nluug.nl 900504
+#
+
+#N	icgned, .icgned.nl, icgned.nl
+#S	
+#O	Interpersonal Computing Group B.V.
+#C	Claudius
+#E	claudius@icgned.nl
+#T	+31 3406 21225
+#P	Rijnzathe 7, NL-3454 PV De Meern, Netherlands
+#L	5 08 E / 52 05 N
+#R
+#U
+#W	piet@nluug.nl 910917, martijn@nluug.nl 911115
+#
+
+#N	icim12, .icim.nl, icim.nl
+#S	
+#O	Icim B.V.
+#C	Tjerk Zwanenburg
+#E	root@icim.nl
+#T	+31 70 3196426
+#P	Nijverheidsstraat 1, NL-2288 BB Rijswijk, Netherlands
+#L	4 20 E / 52 04 N
+#R	
+#U
+#W	piet@cwi.nl 890220, martijn@nluug.nl 9100819
+#
+
+#N	iclnl, .icl.nl, icl.nl
+#S	
+#O	ICL Nederland B.V.
+#C	G. van den Elshout
+#E	root@icl.nl
+#T	+31 20 5494911
+#P	Het Kwadrant 1, NL-3606 AZ Maarssen, Netherlands
+#L	5 08 E / 52 08 N
+#R
+#U
+#W	piet@cwi.nl 860902, piet@nluug.nl 910610
+#
+
+#N	ictser, .ict.nl, ict.nl
+#S	
+#O	ICT Automatisering Deventer B.V.
+#C	Tony Johnson
+#E	tonyj@ict.nl
+#T	+31 5700 33888
+#P	Keulenstraat 7, NL-7418 ET Deventer, Netherlands
+#L	
+#R
+#U
+#W	martijn@nluug.nl 910815, piet@nluug.nl 910816
+#
+
+#N	ideta-x
+#S
+#O	IDETA B.V.
+#C	Hildo den Breejen
+#E	root@ideta-x.uucp
+#T	+31 20 5905911
+#P	Frankemaheerd 6, NL-1102 AN Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	martijn@nluug.nl 891017, martijn@nluug.nl 891017
+#
+
+#N	idgnl, .idg.nl, idg.nl
+#S
+#O	IDG Communications Nederland BV
+#C	Paul Molenaar
+#E	paulm@idg.nl
+#T	+31 23 363494
+#P	Schipholweg 1, NL-2034 LS Haarlem, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920907, piet@nluug.nl 920918
+#
+
+#N	iekey
+#S
+#O	Integrated Engineering B.V.
+#C	R. Siegel
+#E	postmaster@iekey.uucp
+#T	+31 20 6940265
+#P	Ellermanstraat 15, NL-1099 BN Amsterdam, Netherlands
+#L	4 54 E / 52 22 N city
+#R	
+#U
+#W	piet@nluug.nl 910626, piet@nluug.nl 910626
+#
+
+#N	iheedua
+#S
+#O	International Institute for Hydraulic and Environmental Engineering (IHE)
+#C	W.H. Glas
+#E	root@iheedua.uucp
+#T	+31 15 785765
+#P	P.O. Box 3015, NL-2601 DA Delft, Netherlands
+#L	4 21 E / 52 00 N
+#R	
+#U
+#W	piet@cwi.nl 890207, piet@cwi.nl 890207
+#
+
+#N	impact, .impact.nl, impact.nl
+#S
+#O	Impact Automatisering BV
+#C	Martin Grasdijk
+#E	root@impact.uucp
+#T	+31 30 548548
+#P	P.O. Box 8214, NL-3503 RE Utrecht, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920907, piet@nluug.nl 920922
+#
+
+#N	inducom, .inducom.nl, inducom.nl
+#S
+#O	Inducom Systems B.V.
+#C	R.P. van Hout
+#E	hot@inducom.nl
+#T	+31 4120 41922
+#P	P.O. Box 627, NL-5340 AP Oss, Netherlands
+#L	4 31 E / 51 46 N
+#R	
+#U
+#W	martijn@nluug.nl 891204, piet@nluug.nl 911114
+#
+
+#N	ingreur
+#S
+#O	Intergraph European Headquarters
+#C	Andres Oostendorp, Steven Kerstel
+#E	root@ingreur.uucp
+#T	+31 2503 66333
+#P	Wijkermeerstraat 35, NL-2130 AH Hoofddorp, Netherlands
+#L	4 39 E / 52 17 N
+#R	
+#U
+#W	martijn@nluug.nl 891019, martijn@nluug.nl 910118
+#
+
+#N	integow
+#S
+#O	Integrity BV
+#C	Th. Hardendood
+#E	theo@integow.uucp
+#T	+31 3480 30131
+#P	Pelmolenlaan 2, NL-3447 GW Woerden, Netherlands
+#L	5 54 E / 52 05 N
+#R	
+#U
+#W	martijn@nluug.nl 900906, martijn@nluug.nl 900906
+#
+
+#N	ipstech
+#S
+#O	Info Product Services
+#C	Martin Vernooij
+#E	root@ipstech.uucp
+#T	+31 1726 19346
+#P	Postbus 53, NL-2410 AB Bodegraven, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 911022, martijn@nluug.nl 920803
+#
+
+#N	irdeto, .irdeto.nl, irdeto.nl
+#S
+#O	Irdeto Consultants B.V.
+#C	Wim Mooij
+#E	marcel@irdeto.nl
+#T	+31 2503 23456
+#P	Postbus 3047, NL-2130 KA Hoofddorp, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920108, piet@nluug.nl 920424
+#
+
+#N	iscnl, .isc.nl, isc.nl
+#S
+#O	Individual Softcare
+#C	H.J. Meinders
+#E	root@isc.nl
+#T	+31 3240 46326
+#P	Schoutstraat 23, NL-1315 EV Almere Stad, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 900208, martijn@nluug.nl 910128
+#
+
+#N	ita, .ita.nl, ita.nl
+#S
+#O	Information Technology Architecture B.V.
+#C	A.W. van der Vloedt
+#E	vdvloedt@ita.nl
+#T	+31 53 309682
+#P	Institutenweg 1, NL-7521 PH Enschede, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 910826, piet@nluug.nl 911112
+#
+
+#N	ittpub, .ittpub.nl, ittpub.nl
+#S
+#O	ITT Publitec R+D B.V.
+#C	David Morgan
+#E	david@ittpub.nl
+#T	+31 20 5676737
+#P	Hoekenrode 1, NL-1102 BR Amsterdam ZO, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920717, piet@nluug.nl 920811
+#
+
+#N	ixonet, .ixonet.nl, ixonet.nl
+#S
+#O	Ixonet Automatisering B.V.
+#C	P. Kleynjan
+#E	pk@ixonet.nl
+#T	+31 2159 38400
+#P	Postbus 240, NL-1400 AE Bussum, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920130, piet@nluug.nl 920401
+#
+
+#N	jesman
+#S
+#O	
+#C	Stanislaw Jesmanowicz
+#E	stan@jesman.uucp
+#T	+31 20 6126193
+#P	Jacob van Lennepkade 63, NL-1054 ZH Amsterdam, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920224, martijn@nluug.nl 920224
+#
+
+#N	jura, .trendbox.nl, trendbox.nl
+#S
+#O	TrendBox BV
+#C	Wino de Vries
+#E	wino@trendbox.nl
+#T	+31 20 6344341
+#P	Buikslotermeerplein 198B, NL-1025 GA Amsterdam, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920512, piet@nluug.nl 920914
+#
+
+#N	kaag, .island.nl, island.nl
+#S
+#O	Island Graphics Europe bv
+#C	Han Prinsen
+#E	han@island.nl
+#T	+31 20 679 7751
+#P	Willemsparkweg 52-I, NL-1071 HJ Amsterdam, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 901119, martijn@nluug.nl 920507
+#
+
+#N	kema, .kema.nl, kema.nl
+#S
+#O	KEMA N.V.
+#C	M.H.J. Janssen
+#E	rien@kema.nl
+#T	+31 85 563700
+#P	P.O. Box 9035, NL-6800 ET Arnhem, Netherlands
+#L	5 55 E / 51 59 N
+#R
+#U
+#W	martijn@nluug.nl 900705, piet@nluug.nl 910927
+#
+
+#N	khserv, .khzeist.nl, khzeist.nl
+#S
+#O	KH Services
+#C	A. Sasbrink
+#E	asasbrin@khzeist.nl
+#T	+31 3404 27222
+#P	Huis ter Heideweg 24, NL-3705 LZ Zeist, Netherlands
+#L	5 15 E / 52 05 N
+#R
+#U
+#W	martijn@nluug.nl 901119, piet@nluug.nl 920121
+#
+
+#N	kickoff, .vmx.nl, vmx.nl
+#S
+#O	VMX Professional Services / Educational Services
+#C	J.J.E. van der Meer
+#E	josm@kickoff.uucp
+#T	+31 33 560254
+#P	Computerweg 1, NL-3821 AA Amersfoort, Netherlands
+#L	
+#R
+#U
+#W	martijn@nluug.nl 920108, piet@nluug.nl 920127
+#
+
+#N	koha, .koha.nl, koha.nl
+#S
+#O	Koning & Hartman B.V., Afdeling Computertechniek
+#C	Hans van der Sluis
+#E	root@koha.uucp
+#T	+31 15 609612
+#P	Energieweg 1, NL-2627 AP Delft, Netherlands
+#L	4 21 E / 52 00 N
+#R	
+#U
+#W	piet@cwi.nl 850902, piet@cwi.nl 920325
+#
+
+#N	koncon
+#S
+#O	Koninklijk Conservatorium
+#C	J. Scherpenisse
+#E	scherp@koncon.uucp
+#T	+31 70 814251
+#P	Juliana van Stolberglaan 1, NL-2592 CA 's-Gravenhage, Netherlands
+#L	5 10 E / 52 14 N city
+#R	
+#U
+#W	piet@cwi.nl 870924, piet@cwi.nl 870924
+#
+
+#N	kpn, .q8.nl, q8.nl
+#S
+#O	Kuwait Petroleum Europoort
+#C	John Nellen
+#E	jmn@q8.nl
+#T	+31 1819 51248
+#P	P.O. Box 7180, NL-3000 HD Rotterdam, Netherlands
+#L	4 16 E / 51 56 N city
+#U
+#W	piet@cwi.nl 860124, martijn@nluug.nl 911024
+#
+
+#N	ktibv, .ktibv, ktibv
+#S
+#O	Kinetics Technology International B.V.
+#C	Marinko Laban
+#E	ml@ktibv.nl
+#T	+31 79 531513
+#P	P.O. Box 86, NL-2700 AB Zoetermeer, Netherlands
+#L	4 30 E / 52 03 N
+#R	
+#U
+#W	piet@cwi.nl 880823, piet@nluug.nl 920824
+#
+
+#N	leafesc
+#S
+#O	Interleaf Benelux - Nederland
+#C	Dhr. Mok
+#E	root@leafesc.uucp
+#T	+31 76 205085
+#P	Bijster 20A, NL-4817 HX Breda, Netherlands
+#L	
+#R
+#U
+#W	martijn@nluug.nl 891208, martijn@nluug.nl 920320
+#
+
+#N	logosnl, .logos.nl, logos.nl
+#S	
+#O	Logos Industriele Automatisering
+#C	Henk Schaap
+#E	ron@logos.nl
+#T	+31 70 3497697
+#P	P.O. Box 16350, NL-2500 BJ Den Haag, Netherlands
+#L	
+#R	
+#U
+#W	martijn@nluug.nl 920317, piet@nluug.nl 920331
+#
+
+#N	ltb, .bso.nl, bso.nl, bsolt
+#S	
+#O	BSO/Language Technology
+#C	Gerben Wierda
+#E	postmaster@bso.nl
+#T	+31 2154 84411
+#P	P.O. Box 543, NL-3740 AM Baarn, Netherlands
+#L	5 16 E / 52 13 N
+#R	
+#U
+#W	piet@cwi.nl 860513, martijn@nluug.nl 910722
+#
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

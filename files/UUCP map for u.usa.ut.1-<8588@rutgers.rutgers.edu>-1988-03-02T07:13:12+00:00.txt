@@ -1,0 +1,490 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ut.1
+: This archive created: Wed Mar  2 02:11:53 1988
+echo shar: extracting u.usa.ut.1
+cat << 'SHAR_EOF' > u.usa.ut.1
+# Doug McCallum <dougm@ico.ISC.COM>; Mon Feb 29 21:13:53 MST 1988
+
+#N	byuadam
+#S	VAX 11/750; 4.2 BSD UNIX
+#O	Brigham Young University, CAEDM group
+#C	Greg Frank
+#E	byuadam!gaf
+#T	+1 801 378 7490
+#P	448 Clyde Bldg., BYU, Provo, UT 84602
+#L	40 15 0 N / 111 40 0 W
+#R	Brigham Young University, Largest Private University in the US.
+#W	caeco!murf (Steve Murphy); Wed Dec  3 10:50:00 MST 1986
+#
+byuadam	byucsa(DIRECT)
+# These sites poll us with varying reliability.
+byuadam	iconsys(DEMAND), caeco(EVENING), cvpath(EVENING), ths3b2(EVENING),
+	akgua(EVENING)
+# Byuadam is also on arpanet (for now), bitnet, and has a campus Y-net.
+
+
+
+#N	byucsa
+#S	VAX 11/750;  BSD 4.2
+#O	Brigham Young University, Computer Science Dept.
+#C	Evan Ivie
+#E	byucsa!evan
+#T	+1 801 378 7655
+#P	Provo, UT 84602
+#L	40 15 0 N / 111 40 0 W
+#R	Someone who really knows BYU's connections should correct this
+#W	caeco!murf (Steve Murphy); Fri Dec  5 10:01:44 1986
+#	I think the next line is right.
+#U	psuvm.bitnet
+byucsa	arizona(HOURLY), nrcvax(DAILY*2), byuadam(DIRECT)
+
+
+#N	byuopus
+#S	CONVEX C-1; 6.0 CONVEX UNIX (a 4.2BSD derivative)
+#O	Brigham Young University
+#C	Scott White
+#E	byuopus!postmaster
+#T	+1 801 378 3410
+#P	45 Crabtree Technology Building, Provo, Utah, 84602
+#L	111 38 43 W / 40 14 51 N
+#R	This is also BYUOPUS.BYU.EDU [128.187.5.2] on the internet
+#U	
+#W	byuopus!zitwit (Scott C. White); Sat Aug  1 18:43:19 MDT 1987
+#
+byuopus	convex(DAILY)
+#
+#	LANS addressed user@host
+#
+caedm-net = {byuopus, byuadam, byueve, byuspock, eeres, vlsi1, vlsi2, vlsi3}(LOCAL)
+coal-net  = {byuopus, byucoal, byumilo, byubill, byuport}(LOCAL)
+
+
+
+
+#N	caeco
+#S	SUN 3/160; 4.2 BSD UNIX
+#O	Caeco, Inc.
+#C	Steve Murphy
+#E	caeco!murf
+#T	+1 801 255 8880
+#P	7190 S Union Park Ave., Midvale, UT 84047
+#L	40 36 15 N / 111 53 05 W
+#R	CAECO is the home of a fantastic VLSI layout package and a neat Schematic Capture package.
+#U	nrc-ut
+#W	caeco!murf (Steve Murphy); Fri Jun  5 07:00:00 MST 1987
+#
+caeco	wicat(DEMAND), byuadam(DEMAND), nrc-ut(DIRECT), utah-cs(DIRECT)
+
+
+
+#N	century
+#S	IBMAT/80386; SCO Xenix (System V)
+#O	Century Software
+#C	Greg Haerr
+#E	greg@century.UUCP
+#T	+1 801 943 8386
+#P	9558 S Pinedale, Sandy, UT 84092
+#L	40 34 40 N / 111 49 45 W
+#R	From a phone conversation with Greg Haerr
+#W	utah-cs!donn (Donn Seeley); Sat Nov  1 23:27:23 MST 1986
+#U
+#
+century	utah-cs(DEMAND)
+
+
+#N	esunix
+#S	VAX 11/750 ULTRIX 2.0
+#O	Evans & Sutherland Computer Corporation
+#C	Reed Haslam
+#E	esunix!rhaslam
+#T	+1 801 582 5847 x3573
+#P	580 Arapeen Drive, Salt Lake City, UT 84108
+#L	40 45 23 N / 111 49 41 W
+#R	Software Development and Communications Gateway Machine
+#W	esunix!rhaslam (Reed Haslam); Tue Jun  2 09:21:24 MDT 1987
+#U	uplherc
+#
+esunix	usna(DAILY/1), decwrl(DAILY/4), uplherc(HOURLY), unicads(DAILY/8),
+	harem(DAILY/8), escd(HOURLY), ucsfcgl(DAILY/1), tripos(DAILY/8)
+
+
+
+#N	iconsys
+#S	ICON 3000; ICON/UXB (our port of 4.[23]BSD)
+#O	ICON International, Inc.
+#C	Ron Holt
+#E	iconsys!usenet, iconsys!ron
+#T	+1 801 225 6888
+#P	774 South 400 East, Orem, UT, 84058
+#L	40 17 0 N / 111 41 0 W city
+#R	ICON's main gateway machine
+#U	nrc-ut uunet
+#W	iconsys!ron (Ron Holt); Mon Nov  9 14:43:42 MST 1987
+#
+iconsys nrc-ut(DAILY),ihnp4(DAILY),uunet(DAILY),kolob(DEDICATED)
+
+
+#N	jose
+#S	NCR Tower 32; Unix System V + BSD enhancements
+#O	Price Savers Wholesale Warehouse
+#C	Ken MacLeod
+#E	jose!postmaster
+#T	+1 801 266 7777 x224
+#P	986 Atherton Dr., Salt Lake City, UT 84123-3465
+#L	40 40 20 N / 111 55 6 W
+#W	utah-cs!donn (Donn Seeley); Mon Dec 15 19:24:25 MST 1986
+#R	From a phone conversation with Ken MacLeod
+#U	sp7040
+#
+jose	sp7040(DIRECT)
+
+
+
+#N	kolob
+#S	ICON 3000; ICON/UXB (our port of 4.[23]BSD)
+#O	ICON International, Inc.
+#C	Randy Rorden
+#E	kolob!usenet, kolob!rorden
+#T	+1 801 225 6888
+#P	774 South 400 East, Orem, UT, 84058
+#L	40 17 0 N / 111 41 0 W city
+#R	ICON's engineering gateway machine
+#U	iconsys
+#W	iconsys!ron (Ron Holt); Mon Nov  9 14:43:42 MST 1987
+#
+kolob iconsys(DEDICATED)
+
+
+#N	laird
+#S	Sperry IT; MS-DOS 3.1
+#O	Laird Telemedia
+#C	Jeff McArthur
+#E	laird!jsm
+#T	+1 801 972 5900
+#P	2424 S 2570 W, Salt Lake City, UT 84119
+#L	40 43 7 N / 111 57 6 W
+#W	utah-cs!donn (Donn Seeley); Tue Dec 16 16:35:00 MST 1986
+#R	from a phone conversation with Jeff McArthur
+#U	sp7040
+#
+laird	sp7040(DIRECT)
+
+
+
+#N      nrc-ut
+#S      Sun 3; 4.2BSD
+#O      Network Research Corp.
+#C      Andre' Hut
+#E      nrc-ut!andre
+#T      +1 801 266 9194
+#P      923 Executive Park Drive, Suite C, Salt Lake City, UT 84117
+#L      40 45 0 N / 111 53 0 W city
+#R
+#U      caeco iconsys minnie nrcvax uplherc wicat
+#W      nrc-ut!andre (Andre' Hut); Fri May 22 17:36:34 MDT 1987
+#
+nrc-ut  caeco(DIRECT), iconsys(DIRECT), minnie(DEDICATED),
+	nrcvax(DEDICATED), uplherc(DIRECT), wicat(DIRECT),
+	wxc-aly(DIRECT)
+
+
+
+#N	obie
+#S	Sperry PC/IT ('286); MicroPort Unix System V/AT
+#O	Well of Souls
+#C	Wes Peters
+#E	obie!news
+#T	+1 801 544 3885
+#P	724 North Eastside Drive, Layton Utah 84040
+#L	41 00 N / 111 53 W
+#R	Wes Peters' system; used by UinTech for SysV s/w development
+#U	sp7040 terminus
+#W	obie!wes (Wes Peters); Mon Feb  1 22:14:38 MST 1988
+#
+# "upstream" calls:
+#
+obie	sp7040(EVENING)
+#
+# "downstream" calls:
+#
+obie	terminus(HOURLY*2)
+
+
+
+#N	olyis
+#S	Integrated Solutions Optimum; 4.2 BSD UNIX
+#O	Olympus Software, Inc.
+#C	Jan L. Peterson
+#E	olyis!usenet
+#T	+1 801 572 1610
+#P	1333 East 9400 South, Suite 100, Sandy, UT, USA 84047
+#L	40 34 51 N / 111 51 04 W
+#U	caeco
+#W	olyis!jlp (Jan L. Peterson); Sat Oct 17 21:12:08 MDT 1987
+#
+olyis	caeco(DAILY)
+
+
+#N      oodis01
+#S      Pyramid 90x; Osx 4.0b
+#O      Ogden Air Logistics Center
+#C      Grant Kerr
+#E      oodis01!usenet
+#T      +1 801 777 2882
+#P      Hill AFB, UT 84056
+#L      41 06 74 N / 111 58 51 W
+#R      This is also oodis01.arpa [26.10.0.20] on the internet
+#U      uplherc
+#W      oodis01!kerr (Grant M. Kerr); Tue Aug  4 10:17:04 MDT 1987
+#
+
+oodis01 uplherc(DIRECT), lognet2(DEDICATED), lll-tis(DEDICATED)
+
+
+
+#N	sp7040
+#S	Unisys 7000/40 System V r 2.21
+#O	Unisys
+#C	Darian Lyons
+#E	sp7040!darian
+#T	+1 801 594 6086
+#P	322 North Sperry Way, Salt Lake City, UT 84116
+#L	40 46 29 N / 111 57 10 W
+#R	None
+#U	uplherc laird jose sysC
+#W	sp7040!darian (Darian Lyons); Wed Sep 30 16:38:55 MDT 1987
+#
+sp7040	uplherc(DIRECT), laird(DIRECT), jose(DIRECT)
+
+
+
+#N	sunra
+#S	Sun-3/50; SunOS 3.2?
+#O	Jed Krohnfeldt's personal machine
+#C	Jed Krohnfeldt
+#E	sunra!jed
+#T	+1 801 486 1232
+#P	1816 S 700 E, Salt Lake City, UT 84105
+#L	40 46 6 N / 111 50 34 W
+#R
+#W	utah-cs!donn (Donn Seeley); Tue Aug  4 18:59:20 MDT 1987
+sunra	utah-orion(DIRECT)
+
+
+#N	uplherc
+#S	Sun 2/130; Sun UNIX 4.2 Release 3.2
+#O	Utah Power & Light Company
+#C	J. R. Westmoreland
+#E	uplherc!jr
+#T	+1 801 535 4784
+#P	1407 W. North Temple Annex 6, Salt Lake City, UT 84116
+#L	40 46 19 N / 111 56 35 W
+#R	None
+#U	esunix sp7040 utah-gr nrc-ut wicat oodis01
+#W	uplherc!jr (J. R. Westmoreland); Tue Jun  2 07:50:00 MDT 1987
+#
+uplherc	esunix(DIRECT), sp7040(DAILY), utah-gr(DIRECT), nrc-ut(DEMAND),
+	wicat(DAILY/3), oodis01(DAILY)
+
+
+
+#N	utah-cs
+#S	VAX 8600, Unix 4.3 BSD + NFS
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-cs!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	General departmental research & gateway machine
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:28:20 MDT 1987
+#U	ut-sally utah-gr
+#
+utah-cs	utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL), utah-sp(LOCAL),
+	utah-ug(LOCAL), wasatch(LOCAL)
+# local calls
+utah-cs	esunix(DIRECT)
+# Arpanet links
+utah-cs	ut-sally(DEDICATED), boulder(DEDICATED+LOW+LOW)
+# Someday these may be restricted to evening.
+utah-cs	bellcore(DEMAND), cbosgd(DEMAND), ulysses(DEMAND)
+# At night and weekend only; some connections not so great.
+utah-cs	decvax(EVENING), ihnp4(EVENING), nbires(EVENING),
+	research(EVENING*2), masscomp(EVENING+LOW)
+# We call these sites on demand but don't like to spend money on them.
+utah-cs	apollo(DEMAND*10), pwa-b(DEMAND*10), merci(DEMAND*10),
+	unipress(EVENING*10)
+# These sites poll us with varying reliability.
+utah-cs	brunix(DEAD), century(WEEKLY), hplabs(DEAD), caeco(WEEKLY)
+#
+#	ARPANET(utah-cs) lepreau@utah-cs.ARPA
+#
+Utah-Net = {utah-cs,utah-gr,utah-orion,utah-sp,utah-ug,utah-muddy,wasatch,
+	utah-arches,utah-yampa,utah-bryce,utah-zion}(LOCAL)
+
+
+
+#N	utah-ee
+#S	HP9000/550, HP-UX 5.11 (System V)
+#O	University of Utah, Electrical Engineering Dept.
+#C	Walt Howard
+#E	utah-ee!howard
+#T	+1 801 581 5827
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 33 W
+#R	Electrical engineering research machine
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 16:49:05 MDT 1987
+#
+utah-ee	wasatch(DEDICATED)
+
+
+#N	utah-gr
+#S	VAX-11/785, Unix 4.3 BSD + NFS
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-gr!usenet
+#T	+1 801 581 3095
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	CAGD and graphics research
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:32:15 MDT 1987
+#U	pwa-b stride uplherc utah-cs utah-mines
+#
+utah-gr	utah-cs(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL), utah-sp(LOCAL),
+	utah-ug(LOCAL), wasatch(LOCAL), utah-mines(LOCAL)
+utah-gr	pwa-b(DAILY), mts-cs(DAILY+LOW), stride(DAILY), uplherc(HOURLY),
+	admin(DAILY*10)
+#admin = thor.cv.com
+
+
+#N	utah-mines
+#S	uVAX-II, Ultrix 1.2 (4.2 BSD)
+#O	University of Utah, College of Mines
+#C	Darrel G. Cameron
+#E	utah-mines!mi-dgc
+#T	+1 801 581 3485
+#P	Salt Lake City, UT 84112
+#L	40 45 57 N / 111 50 41 W
+#R	College of Mines research
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 16:49:05 MDT 1987
+#U	utah-gr
+#
+utah-mines	utah-gr(LOCAL)
+
+
+#N	utah-muddy
+#S	VAX-11/750, Unix 4.3 BSD + NFS (or another one of our 31 flavors)
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-muddy!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Hackers' testbed
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:32:29 MDT 1987
+#
+utah-muddy	utah-cs(LOCAL), utah-gr(LOCAL), utah-sp(LOCAL),
+	utah-orion(LOCAL), utah-ug(LOCAL), wasatch(LOCAL)
+
+
+#N	utah-orion
+#S	VAX-11/750, Unix 4.3 BSD + NFS
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-orion!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Portable AI support systems research
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:33:19 MDT 1987
+utah-orion	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL),
+	utah-sp(LOCAL), utah-ug(LOCAL), wasatch(LOCAL)
+utah-orion	sunra(HOURLY)
+
+
+#N	utah-sp
+#S	VAX-11/750, Unix 4.3 BSD + NFS
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-sp!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	Digital signal processing and robotics research
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:33:43 MDT 1987
+#
+utah-sp	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL),
+	utah-ug(LOCAL), wasatch(LOCAL)
+
+
+
+#N	utah-ug
+#S	VAX-11/780, Unix 4.3 BSD + NFS
+#O	University of Utah, Computer Science Dept.
+#C	Donn Seeley
+#E	utah-ug!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	General departmental instructional machine
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 17:34:04 MDT 1987
+#
+utah-ug	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL), utah-orion(LOCAL),
+	utah-sp(LOCAL), wasatch(LOCAL)
+
+
+
+#N	utah-vlsi
+#S	Gould 9080, UTX 2.0 (Unix 4.3 BSD variant)
+#O	University of Utah, College of Engineering
+#C	Donn Seeley
+#E	utah-vlsi!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	VLSI design, class work
+#W	utah-cs!donn (Donn Seeley); Sun Nov  2 01:21:41 MST 1986
+#
+utah-vlsi	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL),
+	utah-orion(LOCAL), utah-sp(LOCAL), utah-ug(LOCAL)
+
+
+
+#N	wasatch
+#S	Gould 9080, UTX 2.0u03 (Unix 4.3 BSD variant)
+#O	University of Utah, College of Engineering
+#C	Donn Seeley
+#E	wasatch!usenet
+#T	+1 801 581 5668
+#P	Salt Lake City, UT 84112
+#L	40 46 6 N / 111 50 34 W
+#R	VLSI design, class work
+#W	utah-cs!donn (Donn Seeley); Thu Oct  8 16:49:05 MDT 1987
+#
+wasatch	utah-cs(LOCAL), utah-gr(LOCAL), utah-muddy(LOCAL),
+	utah-orion(LOCAL), utah-sp(LOCAL), utah-ug(LOCAL)
+wasatch	utah-ee(DEDICATED)
+
+
+
+#N	wicat
+#S	WICAT S160; System V UNIX
+#O	WICAT Systems, Inc.
+#C	Mike Weeks
+#E	wicat!usenet
+#T	+1 801 224 6405
+#P	1875 South State Street, Orem, UT 84058
+#L	40 15 40 N / 111 40 30 W
+#R
+#U	nrc-ut
+#W	wicat!michael (Mike Weeks); Tue Sept 1 09:09:16 MST 1987
+#
+wicat	uplherc(DAILY/4), nrc-ut(DAILY/4), caeco(DAILY/2)
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0

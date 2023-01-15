@@ -1,0 +1,189 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.sc.1
+: This archive created: Mon Mar 28 03:14:02 1988
+echo shar: extracting u.usa.sc.1
+cat << 'SHAR_EOF' > u.usa.sc.1
+# u.usa.sc.1 created by dpz@rutgers.edu on Tue Mar 22 20:49:06 EST 1988
+
+#N	ajg
+#S	Tandy 6000; Xenix 03.01.01
+#O	Ammons & Johnson Grain Co., Inc.
+#C	Sam Johnson, Lisa Tedder
+#E	ajg!lisa
+#T	+1 803 332 0183
+#P	Rt 1  Box 90, Darlington South Carolina 29532
+#L	79 59 W / 34 22 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  2 16:00:00 EDT 1986
+#
+ajg	midlyd(DIRECT)
+
+#N	cs44
+#S	
+#O	University of South Carolina, Dept. of Computer Science
+#C	Ken Sallenger, Ted Nolan
+#E	usceast!prog
+#T	(803) 777-4611, (803) 777-2840 (messages)
+#P	Columbia, SC 29208
+#L	34 00 N / 81 03 W city
+#R	
+#W	jett!bill 8/4/84
+#U	usceast
+#
+cs44	usceast
+
+#N	fbm
+#S	Tandy 6000; Xenix 03.01.01
+#O	South Carolina Farm Bureau Marketing Association
+#C	Butch DeCosta, Sherry Lemon
+#E	fbm!sherry
+#T	+1 803 747 0441
+#P	Post Office Box 5788, North Charleston, South Carolina 29406
+#L	79 27 W / 32 26 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  3 09:45:00 EDT 1986
+#
+fbm	midlyd(DEMAND)
+
+#N	hubcap
+#S	DEC VAX-11/780; ULTRIX-32 1.2
+#O	Clemson University Computer Center
+#C	Mike Marshall
+#E	hubcap!postmaster
+#T	+1 803 656 3155
+#P	50 New Cherry Street, Clemson University, Clemson, SC 29634
+#L	34 41 N / 82 49 W
+#R	Our link with gatech is over SURAnet via a 56Kbd line
+#U	gatech ncrcae
+#W	hubcap!hubcap (Mike Marshall); Mon Jul 20 13:36:08 EDT 1987
+#
+hubcap	gatech(DEDICATED), midlyd(DEMAND), ncrcae(POLLED), dolqci(DEMAND)
+
+#N	midlyd
+#S	Tandy 6000; Xenix 03.01.02
+#O	Lydia Soybeans, Inc. 
+#C	Robert G. Pitts
+#E	midlyd!bob
+#T	+1 803 332 1513
+#P	Post Office Drawer A, Lydia, South Carolina 29079-0158
+#L	34 21 N / 80 05 W 
+#R	
+#U	
+#W	midlyd!bob (Robert G. Pitts);Mon Apr 13 18:57:32 EDT 1987
+#
+midlyd  petro(DEMAND), flattop(DEMAND), handicraft(DAILY), fbm(DEMAND),
+	ajg(DEMAND), radshack(DEMAND)
+
+#N	ncrcae
+#S	NCR Tower32; Rel 1.03 (SysVr2)
+#O	NCR Corp.
+#C	Michael C. Wescott
+#E	ncrcae!wescott
+#T	+1 803 796 9250
+#P	3325 Platt Springs Rd., West Columbia, SC 29169
+#L	33 57 26 N / 81 07 20 W
+#R
+# News exchanged with
+#U	ece-csc hubcap
+# Sites with NCR.COM
+#U	ncr-sd.sandiego ncrlnk.dayton
+# Local sites fed
+#U	usceast 
+# Sites within Columbia.NCR.COM
+#U	gollum hwlab lucky ofc prdmgt sauron yankee
+#W	ncrcae!wescott (Mike Wescott); Mon Feb 29 16:48:39 EST 1988
+#
+# We are the gateway for the Columbia subdomain of NCR.COM
+# Mail to NCR Columbia personnel can be addressed
+#       firstname.lastname@Columbia.NCR.COM
+#
+ncrcae	=ncrcae.columbia.ncr.com
+ncrcae	.columbia.ncr.com, .ncr.com, columbia.ncr.com
+#
+# local sites outside of NCR
+ncrcae	usceast(DIRECT)
+#
+# long distance calls, ece-csc was called ncsu
+ncrcae	ece-csc(DEMAND), hubcap(DEMAND)
+ncrcae	gould(DEMAND)
+ncrcae	excelan(DAILY)
+#
+# Non-local NCR sites - some are private lines others are long distance
+# calls
+ncrcae	ncr-sd(DEDICATED)	# SanDiego.NCR.COM gateway
+ncrcae	ncrlnk(DEDICATED)	# Dayton.NCR.COM gateway
+ncrcae	ncrsea(DEMAND)		# Sales office in Seattle
+ncrcae	ncrsec(DEAD)		# SE-Columbia, (next door, they poll us, when they feel like it)
+ncrcae	ncrwic(DEDICATED)	# Wichita.NCR.COM gateway
+ncrcae	ncroem(DEMAND)		# OEM Division in Dayton
+ncrcae	ncrcam(DEDICATED)	# ncrcam.Cambridge.NCR.COM
+ncrcae	ncrcce(DEDICATED)	# ncrcce.StPaul.NCR.COM  (COMTEN)
+ncrcae	ncrats(DEMAND)		# NCR-Atlanta - Atlanta Tower Support
+ncrcae	ncrorl(DEMAND)		# NCR-Orlando
+
+#N	plcdoc
+#S	Micro VAX II; Ultrix 2.2
+#O	Westvaco - Draft Division
+#C	Emerson Beach
+#E	plcdoc!emerson
+#T	+1 803 745 3205
+#P	Virginia Avenue, N. Charleston, SC  29406
+#L	32 54 00 N / 79 57 52 W
+#R	mdt!pwd takes care of the map for this site address question to me
+#W	mdt!pwd (Philip W. Dalrymple) ; Tue Mar  8 18:06:15 EST 1988 
+#
+plcdoc	mdt(DEMAND)
+
+#N	quant
+#S	
+#O	Quant Systems
+#C	James Hawkes
+#E	quant!root
+#T	
+#P	25 Bainbridge Dr., Charleston, SC 29407
+#L	32 48 N / 79 58 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu,  7 Jan 88  19:06:47 EST
+#U
+#
+quant	uunet(DEMAND)
+
+#N	radshack
+#S	Tandy 6000; Xenix 03.01.01
+#O	Darlington Music Co. Inc.
+#C	William B. Parlin
+#E	radshack!britt
+#T	+1 803 393 1001
+#P	130 North Main Street, Darlington, South Carolina 29532-3104
+#L	79 51 W / 34 22 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Jul  3 09:00:00 EDT 1986
+#
+radshack	midlyd(DIRECT), nofoe(DEMAND), flattop(DEMAND)
+
+#N	usceast
+#S	DEC VAX-11/780; 4.2 BSD UNIX
+#O	Department of Computer Science, University of South Carolina
+#C	Ken Sallenger
+#E	usceast!ken
+#T	+1 803 777 4611, +1 803 777 2840
+#P	216 LeConte College, USC, Columbia SC 29208
+#L	81 01 28 W / 34 59 54 N
+#R	When SC played So. Cal. the scoreboard said USC East/USC West
+#U	ncrcae
+#W	usceast!ken (Ken Sallenger); Fri Jan 23 08:12:30 EST 1987	
+#
+#	Pathalias info for usceast
+#	    allegra currently DEAD because of problems polling them
+#
+usceast	usccmi(DIRECT), ncrcae(DIRECT), akgua(DAILY), gmu90x(WEEKLY),
+	allegra(DEAD)
+SHAR_EOF
+:	End of shell archive
+exit 0

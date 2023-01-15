@@ -1,0 +1,144 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.il.1
+: This archive created: Thu Apr 14 02:01:59 1988
+echo shar: extracting d.usa.il.1
+cat << 'SHAR_EOF' > d.usa.il.1
+# d.usa.il.1 created by dpz@rutgers.edu on Tue Apr 12 11:19:30 EDT 1988
+
+#N	.icom.com, icom
+#F	a.cs.uiuc.edu
+#O	Icom Systems, Inc.
+#C	Andrew H. Marrinson
+#E	Icom.Com!andy
+#T	+1 312 506 1444
+#P	3415 N. Kennicott Rd., Arlington Heights, IL 60004
+#L	88 00 W / 42 10 N
+#R	WARNING - our sendmail.cf bites the big one
+#U	datamen ihnp4 zappo tellab5
+#W	Icom.Com!andy; Tue Mar 17 12:09:05 CST 1987
+icom	.icom.com
+icom	icom.com
+icom=	icom.com
+icom	ihnp4(DAILY+LOW), tellab5(DEMAND), datamen(DIRECT), tapa(DIRECT),
+	uiucdcs(EVENING), zappo(DAILY)
+
+#N	.kai.com, kailand
+#F	uxc.cso.uiuc.edu
+#O	Kuck and Associates, Inc.
+#C	Patrick Wolfe
+#E	postmaster@KAI.COM, kailand!postmaster
+#T	217-356-2288
+#P	1808 Woodfield Drive, Savoy, IL 61874
+#L	40 07 N / 88 12 W city
+#R	applied
+#U	uiucuxc
+#W	pat@KAI.COM (Patrick Wolfe); Tue Apr 14 11:13:47 CST 1987
+#
+kailand	.kai.com
+kailand=	kai.com
+kailand		uiucuxc(DAILY)
+
+#N	.nwu.edu, nucsrl
+#F	hub.eecs.nwu.edu
+#O	Northwestern University
+#C	Jacob Gore, Ernie Woodward
+#E	gore@eecs.nwu.edu, ernie@accuvax.nwu.edu
+#T	312-491-5248, 312-491-4078
+#P	Northwestern Univ. CSEL, 2145 Sheridan Rd, Rm. B621, Evanston, IL 60208
+#L	42 03 33 N / 87 40 32 W
+#R
+#U	oddjob
+#W	gore@eecs.nwu.edu (Jacob Gore); Wed Mar 23 16:25:29 CST 1988
+#
+nucsrl	.nwu.edu, .eecs.nwu.edu
+nucsrl	nwu.edu, eecs.nwu.edu
+nucsrl=	eecs.nwu.edu
+#
+numusic	.music.nwu.edu
+numusic	music.nwu.edu
+numusic=music.nwu.edu
+#
+nuearth	.earth.nwu.edu
+nuearth	earth.nwu.edu
+nuearth=earth.nwu.edu
+#
+molly	.math.nwu.edu
+molly	math.nwu.edu
+molly=	math.nwu.edu
+#
+# *nucsrl*
+# Toll phone-call in Chicago area:
+nucsrl	ihnp4((DIRECT+DEMAND)/2), chinet((DIRECT+DEMAND)/2),
+	laidbak((DIRECT+DEMAND)/2), iitmax((DIRECT+DEMAND)/2)
+#
+# High-speed connections:
+nucsrl	gargoyle(DEDICATED), oddjob(DEDICATED)
+#
+# On-campus calls:
+nucsrl	numusic(DIRECT-30), molly(DIRECT-30), nuearth(DIRECT-30),
+	nuisp(DIRECT-30)
+#
+# Other:
+nucsrl	apcichi(POLLED)
+#
+#
+# *numusic*
+numusic ihnp4(DIRECT), nucsrl(DIRECT),  nuearth(DIRECT), molly(DIRECT),
+	nurr(DIRECT), nuisp(DIRECT), goldsho(DIRECT), laidbak(DIRECT),
+	fineart(DIRECT), pyrchi(DIRECT), sunbird(DIRECT)
+#
+#
+# *molly*
+molly	ihnp4(DIRECT), numusic(DIRECT), gargoyle(DIRECT), nuearth(DIRECT),
+	nucsrl(DIRECT), nuisp(DIRECT), kenlaw(DIRECT), jay(DIRECT),
+	iitcs(WEEKLY), cbm(POLLED), cbmvax(POLLED)
+#
+#
+# *nuearth*
+nuearth	numusic(DIRECT), ihnp4(DIRECT), molly(DIRECT), nucsrl(DIRECT),
+	nuisp(DIRECT), uicdogs(DIRECT), umix(HOURLY)
+
+#N	.cso.uiuc.edu, .uiuc.edu, uiucuxc
+#S	VAX-11/780; 4.3 BSD UNIX
+#F	uxc.cso.uiuc.edu
+#O	University of Illinois at Urbana-Champaign, Computing Services Office
+#C	Paul Pomes
+#E	postmaster@uxc.cso.uiuc.edu, paul@uxc.cso.uiuc.edu
+#T	+1 217 333 6262
+#P	Univ of Illinois, CSO, 1304 W Springfield Ave, Urbana, IL  61801
+#L	40 07 N /88 12 W city
+#R	Also uxc.cso.uiuc.edu on the Internet, Bitnet, CSnet.
+#U	Notesfile site (soon to have news feed from uunet)
+#W	paul@uxc.cso.uiuc.edu (Paul Pomes); Wed Mar 30 13:33:05 CST 1988
+#
+# All UIUC domains except .cs.uiuc.edu are served by uiucuxc 
+# The .cs.uiuc.edu domain should go to uiucdcs
+#
+uiucdcs	.cs.uiuc.edu(LOCAL)
+uiucdcs=a.cs.uiuc.edu
+uiucuxc	.uiuc.edu(DEDICATED)
+uiucuxc=uxc.cso.uiuc.edu
+#
+# Internal uiucuxc connections to machines without domains
+uiucuxc	uimusic(DIRECT), uiuceml(HOURLY), uiucmsl(HOURLY),
+	gslisa(DIRECT), aosun(DIRECT), uiucdcs(LOCAL)
+#
+# External uiucuxc connections
+uiucuxc	ctt(DIRECT), fthood(DAILY/2), pyrchi(EVENING/2),
+	uicbert(DIRECT), addamax(DEMAND),
+	kailand(HOURLY*2), pyrtech(DAILY), wiuhow(DAILY),
+	urbsdc(DIRECT), wucs1(EVENING/2), ihnp4(HOURLY*2),
+	sys1(EVENING/2), eta(EVENING/2), unisec(EVENING/2),
+	unrvax(EVENING/2), stride(EVENING/2), apcichi(EVENING/2),
+	fluke(EVENING/2), peregrine(EVENING/2), pwcs(EVENING/2),
+	crash(EVENING/2), oucs(EVENING/2), peora(EVENING/2),
+	iscuva(EVENING/2), unicus(EVENING/2), egg-id(EVENING/2),
+	mntgfx(EVENING/2), quad1(EVENING/2), convex(EVENING/2),
+	aecom(EVENING/2), tikal(EVENING/2), scgvaxd(EVENING/2),
+	hyper(EVENING/2), uunet(HOURLY*2), sw1e(EVENING/2)
+SHAR_EOF
+:	End of shell archive
+exit 0

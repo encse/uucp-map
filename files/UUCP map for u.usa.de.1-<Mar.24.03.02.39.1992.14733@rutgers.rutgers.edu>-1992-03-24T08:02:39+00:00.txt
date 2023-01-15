@@ -1,0 +1,140 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.de.1
+: This archive created: Tue Mar 24 03:02:36 1992
+echo shar: extracting u.usa.de.1
+cat << 'SHAR_EOF' > u.usa.de.1
+file{u.usa.de.1}
+# u.usa.de.1 from uucp-map@acsu.buffalo.edu
+#  send maps to usa-[dc|de|md|nj|ny|va|wv]@rutgers.edu
+# 03:02 gmt 15-Mar-1992
+#N	brubeck
+#S	DEC MicroVAX 3100; VMS V5.3-2
+#O	Taratec Development Corp
+#C	Joe Myshko
+#E	brubeck!postmaster
+#T	+1 215 368 4040
+#P	220 Continental Drive, Newark, DE 19713
+#L	39 50 10 N / 75 45 30 W
+#R	Running DECUS uucp V1.2A and ANU News 5.9C
+#U	cbmvax
+#W	brubeck!myshkoja (Joe Myshko); Thu March 7 14:00:00 EST 1991
+#
+brubeck	uunet(DEMAND),cbmvax(DEMAND)
+
+#N	datico1
+#S	Compaq 386; SCO UNIX 3.2.2
+#O	DATICO, Inc.
+#C	Michael Cataldo
+#E	datico1!cataldmj
+#T	+1 302 654 3418
+#P	824 Market Street, Suite 860, Wilmington, DE 19801
+#L	39 44 N / 75 32 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Fri Mar  6 13:09:35 EST 1992
+#U
+#
+datico1	uunet(DEMAND)
+
+#N	.delmarva.com, delmarva
+#F	uunet.uu.net
+#S	Compaq SystemPro dual-486/33; SCO Open Desktop
+#O	Delmarva Power & Light Co., Information Systems Group
+#C	John K. Scoggin
+#E	delmarva!scoggin
+#T	+1 302 451-5200
+#P	500 N. Wakefield Drive, Newark, DE 19714-6066
+#L	39 41 N / 75 45 W city
+#R	delmarva is host on delmarva.COM private internet
+#U
+#W	delmarva!scoggin (John K. Scoggin); Wed Jan  9 00:00:00 EST 1991
+#	Mail gateway using MMDF to delmarva.COM domain.	 Private internet
+#	covering major offices on Delmarva Peninsula (138.39)
+#
+delmarva	.delmarva.com(LOCAL)
+delmarva =	delmarva.com
+#
+delmarva	uunet(DEMAND)
+
+#N	dvss
+#S	Intel 386/25(MSDOS) - Waffle/UUCP
+#O	Delaware Valley Solution Systems, Inc. (DVSS)
+#C	Jerome Troy
+#E	dvss!jtroy
+#T	+1 302 737 9153
+#P	P.O. Box 6157, Wilmington, DE 19804
+#L	39 42 N / 75 42 W
+#R	This system is owned and operated by DVSS, Inc.
+#U	udel
+#W	dvss!jtroy (Jerome Troy); Thu Mar 9 17:44:41 EDT 1991
+#
+dvss	udel(DAILY/2), mvac23(WEEKLY)
+
+#N	eplrx7
+#S	Sun 4/260 ; SunOS Release 4.1.1
+#O	E.I. DuPont Co.
+#C	Keith McNeill
+#E	mcneill@eplrx7.es.duPont.com
+#T	+1 302 695 9353
+#P	Experimental Station, P.O. Box 80357, Wilmington,  DE 19880-0357
+#L	39 45 N / 75 33 W
+#R	
+#W	mcneill@eplrx7.es.duPont.com(Keith McNeill);Wed 12 Feb 1992 21:12:53 GMT
+#U	uunet
+#
+
+eplrx7	udel (DEMAND+FAST)
+
+#N   mvac23
+#S   IBM-PC/XT compatible; DOS 3.30; UULINK 1.3
+#O   private system
+#C   Thomas Lapp
+#E   mvac23!root
+#T   +1 302 292 9798
+#P   20-B5 Capano Dr., Newark, DE 19702, USA
+#L   39 42 N / 75 41 W
+#U
+#W   mvac23!thomas (Thomas Lapp); Sat Feb 8 21:36:41 EDT 1991
+#
+
+mvac23    udel(DAILY), dvss(POLLED)
+
+#N	swil01
+#S	
+#O	Holy Cross Church
+#C	Helen Vinicijuerra
+#E	swil01!helen
+#T	+1 302 734 2632
+#P	; Dover, DE.
+#L	
+#U	
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+swil01	cdin-1(DAILY)
+
+#N	udel
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Delaware
+#C	staff
+#E	staff@udel.edu
+#T	+1 302 451 8005
+#P	University of Delaware, 113 Evans Hall, Newark, DE 19716
+#L	39 42 N / 75 45 W
+#R	udel is host louie.udel.edu on suranet - [128.175.1.3]
+#U	burdvax eplrx7 gatech princeton rochester udccpyr1 udccvax1 dvss
+#W	dvss!jtroy (Jerome Troy); Thu Mar 9 17:44:41 EDT 1991
+#
+#	We are the gateway for the udel.edu domain.  We can also access
+#	hosts on the internet.
+#
+udel	.udel.edu
+udel =	louie.udel.edu
+udel	cbmvax(POLLED), eplrx7(POLLED), hpavla(POLLED),
+	pasqnt(POLLED), njsqnt(POLLED), udccpyr1(LOCAL),
+	udccvax1(LOCAL), dvss(POLLED), mvac23(POLLED)
+
+#END u.usa.de.1
+SHAR_EOF
+:	End of shell archive
+exit 0
+

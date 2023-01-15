@@ -1,0 +1,918 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.dmk.1
+: This archive created: Thu May 26 02:08:14 1988
+echo shar: extracting u.dmk.1
+cat << 'SHAR_EOF' > u.dmk.1
+# u.dmk.1; changes to postmaster@diku.uucp
+
+#N      diku,thor,toke,nidhug,freja,dkuug,heimdal
+#S      VAX-11/7xx/4.3BSD, SUN/II, Cromemco/SysV, HyperCube/SysV
+#O      University of Copenhagen, Institute of Datalogy (DIKU)
+#C      S|ren Jensen
+#E      sergej@diku
+#T      +45 1 396874
+#P      Universitetsparken 1, DK-2100 Copenhagen OE, Denmark
+#L	12 34 E / 55 48 N city
+#R	Former Danish Backbone, migration to dkuug started.
+#U      mcvax ncrsecp ambush daimi eridan alette iddth kpd dde iesd compel
+#W      keld@diku 871021
+#
+#       Backbone links
+diku	mcvax(ARPA+HIGH), cernvax(ARPA), enea(ARPA), unido(DEAD),
+	tut(DEAD), inria(DEAD),
+	ukc(DEAD), tuvie(DEAD), ircam(DEAD), prlb2(DEAD)
+#	National links
+diku	aauobs(DEAD+LOW), aaukibi(DEAD+LOW),
+	acs(DEAD+LOW), alette(HOURLY*2), altsca(DEAD+LOW),
+	ambush(DAILY), aud(DEAD+LOW), bignum(DEAD+LOW), bk(DEAD+LOW),
+	bulldk(DEAD+LOW),
+	compel(DEAD+LOW), cricph(DEAD+LOW), cri-std(DEAD+LOW), cuobs(DEAD+LOW),
+        daimi(DEAD+LOW), danmos(DEAD+LOW), danru(DEAD+LOW), dator(DEAD+LOW),
+	dcuno(DEAD+LOW), 
+	dde(DEAD+LOW), ddc(DEAD+LOW), dia-b(DEAD+LOW), elctr(DEAD+LOW),
+        eridan(DEAD+LOW), eurotra(DEAD+LOW), gnsun(DEAD+LOW),
+	flstopk(DEAD+LOW),
+        hns(DEAD+LOW), ibt(DEAD+LOW), iccc(DEAD+LOW), 
+	idbs(DEAD+LOW), iesd(DEAD+LOW), ifad(DEAD+LOW),
+        iddth(DEAD+LOW), imada(DEAD+LOW), itc(DEAD+LOW),
+	jdcdk(DEAD+LOW), judex(DEAD+LOW),
+	knuboy(DEAD+LOW), kontiki(DEAD+LOW), kmda001(DEAD+LOW),
+	kpd(DEAD+LOW), lego(DEAD+LOW), lisda(DEAD+LOW), mainz(DEAD+LOW),
+	mark1(DEAD+LOW), ncrdk(DEAD+LOW), ncrsecp(DEAD+LOW), nordita(DAILY),
+        oldk1(DEAD+LOW), 
+        sysware(DEAD+LOW)
+
+diku="diku.denet", freja
+diku=diku.dk
+diku	.dk
+
+denet-relay = diku
+
+denet = { diku, nidhug, dkuug }!(LOCAL)
+denet-relay	diku
+thor = thor.dk
+toke = toke.dk
+nidhug = nidhug.dk
+freja = freja.dk
+
+toke	diku(DEAD)
+thor	diku(DEAD)
+
+#N      dkuug,heimdal
+#S      SUN 2/120, SUN OS 3.2
+#O      DKUUG - Dansk UNIX-system Bruger Gruppe
+#C      S|ren Jensen
+#E      sergej@diku
+#T      +45 1 396874
+#P      Universitetsparken 1, DK-2100 Copenhagen OE, Denmark
+#L	12 34 E / 55 48 N city
+#R	Danish Backbone
+#U      ncrsecp ambush daimi eridan kpd iesd compel
+#W      krus@diku.denet Apr  5 01:52:27 1988
+#
+# Backbone links not yet fully established
+#
+dkuug	mcvax(ARPA+HIGH), ndosl(ARPA)
+# National links
+dkuug	aaukibi(DIRECT), aauobs(DIRECT),
+	abbidk(DEAD), acs(HOURLY), alette(HOURLY),
+	altsca(DAILY), ambush(HOURLY), aud(HOURLY), bignum(HOURLY), bk(DAILY),
+	bulldk(HOURLY), compel(DAILY), cricph(DAILY), cri-std(HOURLY), 
+	cuobs(HOURLY), daimi(DIRECT), danmos(WEEKLY), danru(DEAD),
+	dator(HOURLY), dcuno(DEAD), dde(HOURLY), ddc(HOURLY), dia-b(DEAD),
+	diku(LOCAL), elctr(DEAD), eridan(HOURLY), flstopk(HOURLY),
+	gnsun(HOURLY), hkhdata(DEAD), ibt(HOURLY), iccc(DEAD), iddth(HOURLY),
+	idbs(HOURLY), iesd(DIRECT), ifad(HOURLY), imada(WEEKLY), itc(HOURLY),
+	jdcdk(DEAD), judex(DEAD), kmda001(HOURLY), knuboy(HOURLY),
+	kontiki(HOURLY), kpd(HOURLY), lego(DEAD), mainz(DEAD),
+	ncrsecp(HOURLY), ncrdk(HOURLY),	nordita(HOURLY), 
+	oedan(DEAD), oldk1(WEEKLY), pe(DEAD),
+	rcbal(DEAD), sysware(HOURLY)
+
+dkuug = heimdal,dkuug.dk,heimdal.dk
+
+#N      aauobs
+#S
+#O      Aarhus University, Institute of Astronomics
+#C      S|ren Frandsen
+#E      srf@aauobs
+#T      +45 6 128899
+#P      Langelandsgade, DK-8000 Aarhus C, Denmark
+#L      10 30 E / 55 85 N city
+#R
+#U
+#W      keld@diku 850322
+#
+aauobs = aauobs.dk
+
+#N      aaukibi
+#S	Silicon Graphics IRIS 3020, SV.2
+#O      Kemisk Institut ved Aarhus Universitet, Afd for biostrukturkemi
+#C      Morten Kjeldgaard
+#E      mok@aaukibi.dk
+#T      +45 6 124633 / 267
+#P      Langelandsgade 140, DK-8000 ]rhus C
+#L      10 30 E / 55 85 N city
+#R	Modem: Touchbase systems Worldport 1200.
+#U
+#W      keld@diku 871203
+#
+aaukibi = aaukibi.dk
+
+#N      abbidk
+#S      Mikrovax II, Ultrix 1.2
+#O      ABB Industri A/S, EPV-C
+#C      Jesper Dybdal
+#E      postmaster@abbi.dk
+#T      +45 1 157007
+#P      Ved Vesterport 6, DK-1612 K|benhavn V
+#L	10 20 E / 56 50 N
+#R
+#U
+#W      Keld@diku.dk 880519
+#
+abbidk = abbi.dk,abbidk.dk
+
+#N      aud
+#S      ULTRIX
+#O      Aalborg University Datacenter
+#C      Jens Sandberg Andersen
+#E      dajsa@aud
+#T      +45 8 138788
+#P      Strandvejen 19, DK-9000 Aalborg, Denmark
+#L	10 20 E / 56 50 N
+#R
+#U
+#W      krus@diku 860104
+#
+aud = aud.dk
+
+#N      acs
+#S      AT&T 3B2 300B/ Unix V Rel. 2
+#O      Advanced Computer Software
+#C      Tonny Andersen
+#E      tonny@acs
+#T      +45 2 176346
+#P      Rytterbakken 28 A, 3650 \lstykke
+#L	12 10 E / 55 48 N
+#R
+#U
+#W      keld@diku 870702
+#
+acs = acs.dk
+
+#N      alette
+#S      uVAX-II/ULTRIX 32m 1.1
+#O      Copenhagen Telephone Co., Dept. of Research & Development.
+#C      Kwame Danquah
+#E      kod@alette
+#T      +45 1 996744
+#P      N|rregade 21, 1199 K
+#L	12 34 E / 55 48 N city
+#R	
+#U
+#W      krus@diku Aug 13 11:38:56 1986
+#
+alette = alette.dk
+
+#N      altsca
+#S      Altos 2086/Xenix 3.3A
+#O      Altos Computer Systems a/s
+#C      Peter Frenning
+#E      peter@altsca
+#T      +45 1 204922
+#P      Marina Park, Sundkrogsgade 6A, 2100 K|behhavn \.
+#L	12 34 E / 55 48 N city
+#U
+#W      krus@diku Jun 26 10:09:53 1986
+#
+altsca = altsca.dk
+
+#N      bignum
+#S      Supermax III
+#O      Fondsb|rsvekselerer Rued S|rensen
+#C      Jens Sejer Johansen
+#E      (sejer@bignum)
+#T      +45 1 152515
+#P      Sankt Annae Plads 10, DK-1250 Kbh. K.
+#L	12 34 E / 55 50 N
+#R	871130: fors|ger torsdag
+#U
+#W      krus@diku Sep 23 11:14:04 1986
+#
+bignum	diku(DAILY)
+bignum = bignum.dk
+
+#N      bk
+#S      System V
+#O      Bruel & Kjaer
+#C      Rene' Juel Hansen, rekv nr 025802 NMJ
+#E      rjh02@bk.dk
+#T      +45 2 800500 ext. 595
+#P      Naerum Hovedgade 18, DK-2850 Naerum
+#L	12 34 E / 55 50 N city
+#R
+#U
+#W      krus@diku Jun 16 09:06:28 1986
+#
+bk = bk.dk
+
+#N      bulldk
+#S      Bull Q700, SPIX 30.2
+#O      Bull A/S
+#C      Per Holck
+#E      per@bull.dk
+#T      +45 2 71 72 73
+#P      Dalbergstr|get 5, DK-2630 Taastrup
+#L	12 25 E / 55 45 N
+#R      modem: Nokia DS 3680
+#U
+#W      keld@diku.dk 871129
+#
+bulldk = bulldk.dk,bull.dk
+
+#N      cricph
+#S      DEC VAX-11/750/Ultrix 1.0
+#O      Computer Resources International A/S
+#C      Mikkel Moulvad
+#E      mm@cricph
+#T      +45 2 82 21 00
+#P      
+#L	12 33 E / 55 45 N
+#R
+#U
+#W      keld@diku 850510
+#
+cricph = cricph.dk
+
+#N      cri-std
+#S      Bull SPS7, UNIX Sys V.2.2
+#O      Computer Resources International A/S, STD
+#C      Bent Sejer Jensen
+#E      bsj@cri-std.dk
+#T      +45 1 131166
+#P      Vesterbrogade 1 A, DK-1620 K|benhavn V
+#L	12 33 E / 55 45 N
+#R
+#U
+#W      keld@diku 871129
+#
+cri-std = cri-std.dk,cri.dk
+
+#N	compel
+#S	HP 9000/550 HP-UX 5.2
+#O	Compel A/S
+#C	Helge Rasmussen
+#E	her@compel.dk
+#T	+45 1 37 11 00
+#P	Ryesgade 30 C, DK-2200 K|benhavn N
+#L	12 35 E / 55 45 N
+#R
+#U
+#W	keld@diku.dk 871002
+#
+compel = compel.dk
+
+#N      cuobs
+#S      Zilog S8000/32/S3 ZEUS 2.21
+#O      University of Copenhagen, Observatory of Astronomics
+#C      Aake Nordlund
+#E      aake@cuobs
+#T      +45 1 141790
+#P      Oester Voldgade 3, DK-1350 Copenhagen K, Denmark
+#L	12 34 E / 55 45 N
+#R
+#W      keld@diku 850114
+#
+cuobs = cuobs.dk
+
+#N      daimi
+#S      SUN 2/170 Sun OS release 3.2
+#O      Computer Science Department, Aarhus University, Denmark
+#C      Peder Chr. N|rgaard
+#E      postmaster@daimi
+#T      +45 6 127188
+#P      Ny Munkegade 116, DK-8000 Aarhus C, Denmark
+#L	10 30 E / 55 85 N city
+#R
+#U      diku
+#W	krus@diku Oct 7 11:16:49 1986
+#
+daimi = daimi.dk
+
+#N      danmos
+#S      MikroVax I/Ultrix-32m
+#O      Danmos Microsystems Aps
+#C      Leif Jensen
+#E      (leif@danmos)
+#T      +45-2-571188
+#P      Cirkelhuset, Christianshusvej 14, DK-2970 H|rsholm
+#L	12 29 E / 55 68 N
+#R
+#U
+#W      keld@diku 850416
+#
+danmos = danmos.dk
+
+#N      danru
+#S      HP 9000-500/HPUX V.5.05
+#O      Danish Space Research Institute
+#C      M|hl Madsen
+#E      ll@danru
+#T      +45-2-882277
+#P      Lundtoftevej 7, DK-2800 Lyngby
+#L	12 29 E / 55 68 N
+#R
+#U
+#W      krus@diku.dikunet Mar 12 15:48:22 1987
+#
+danru = danru.dk
+
+#N      dator
+#S      IBM AT/ Sco Xenix
+#O      DATOR a/s
+#C      Rene Nejsum
+#E      renet@dator
+#T      +45-8-574400
+#P      Jernbanegade 4, DK-9560 Hadsund
+#L	10 09 E / 56 43 N
+#R
+#U
+#W      krus@diku.dikunet Mar 12 15:51:17 1987
+#
+dator = dator.dk
+
+#N      ddc
+#S      Sun 3/160; 4.2BSD UNIX
+#O      Dansk Datamatik Center
+#C      Claus Bendix Nielsen
+#E      postmaster@ddc
+#T      +45 2 87 26 22
+#P      Lundtoftevej 1C, DK-2800 Lyngby, Danmark
+#L	12 29 E / 55 68N
+#R
+#U
+#W      krus@diku Oct 17 09:40:20 1986
+#
+ddc = ddc.dk
+
+#N      dde
+#S      Supermax, sys V & sys III
+#O      Dansk Data Elektronik A/S
+#C      Ken Nielsen, Claus T|ndering, Peter Heick
+#E      (ken@dde)
+#T      +45-2-845011
+#P      Herlev Hovedgade 199, 2730 Herlev
+#L	12 25 E / 55 45 N
+#R
+#U
+#W      krus@diku Thu May 15 09:38:03 MET 1986
+#
+dde = dde.dk
+
+#N      dcuno
+#S      ??
+#O      I/S Datacentralen
+#C      Peter En| Cordsen
+#E      (root@dcuno)
+#T      +45 1 468122
+#P      Retortvej 6-8, DK-2500 Valby
+#L	12 34 E / 55 48 N city
+#R
+#U
+#W      krus@diku 851016
+#
+dcuno = dcuno.dk
+
+#N      dia-b
+#S      Supermax/ Unix V
+#O      Danmarks Ingeni|rakademi, Bygningsafdelingen - Sektionen for Matematik og Datalogi
+#C      Ingeni|rdocent Olaf Kayser
+#E      diab_ok@dia-b.dk
+#T      +45 2 885211 lok 5707
+#P      DIA Bygning 373, DK-2800 Lyngby
+#L	12 31 E / 55 47 N
+#R	modem: GVC sm1200, kontakt Per Arup.  diab_pa@dia-b
+#W      keld@diku.dk 871103
+#
+dia-b = diabsm1.dk,dia-b.dk
+
+#N      eridan
+#S      Sun-3/160/SunOS-3.4
+#O      Ericsson Information Systems A/S
+#C      Jan Hauge		Michael Kandel
+#E	hauge@eridan		michael@eridan
+#T      +45-2-843366
+#P      Generatorvej 8 D, DK-2730 Herlev
+#L	12 10 E / 55 53 N city
+#R
+#U
+#W      krus@diku Jun 16 09:08:50 1986
+eridan = eridan.dk
+
+#N      elctr
+#S      Ultrix-11 V3.0 PDP11/44
+#O      Elektronikcentralen, afd. for datateknik.
+#C      Jens Heile Heilesen
+#E	jhh@elctr
+#T      +45-2-867722
+#P      Venlighedsvej 4, DK-2970 H|rsholm
+#L	12 10 E / 55 53 N city
+#R
+#U
+#W      krus@diku.dikunet Feb 12 12:55:33 1987
+#
+elctr = elctr.dk
+
+#N      eurotra
+#S      VAX 11/750- ULTRIX V.11
+#O      Eurotra DK
+#C      Anders Nygaard
+#E	anders@eurotra
+#T      +45-1-542211 ext. 2650
+#P      Njalsgade 80, DK-2300 Kbh. S.
+#L	12 10 E / 55 53 N
+#R
+#U
+#W      krus@diku Aug 19 15:50:32 1986
+#
+eurotra = eurotra.dk
+
+#N      flstopk
+#S	SUN 3/160, 4.2 BSD
+#O      F. L. Smidth
+#C      Mogens Levin
+#E      mle@flstopk
+#T      +45 1 30 11 66
+#P      Vigerslev Alle 77, DK-2500 Valby
+#L	12 10 E / 55 53 N
+#W      krus@diku Dec 4 10:52:06 1986
+#
+flstopk = flstopk.dk
+
+#N      gnsun
+#S      SUN 1.2
+#O      GN Data
+#C      Henrik Tuxen
+#E	htx@gnsun
+#T      +45 2 977777
+#P      Energivej 30, DK-2750 Ballerup
+#L	12 10 E / 55 53 N
+#R
+#U
+#W      krus@diku Jul 17 13:40:17 1986
+#
+gnsun = gnsun.dk
+
+#N	hkhdata
+#S	NCR PC916/XENIX, SUN
+#O	HKH Data
+#C	Tonny Bredsg}rd
+#E	teebone@hkhdata.dk
+#T	+45 7 26 96 96 / +45 7 26 87 98
+#P	Knuthenborgvej 19, DK-7400 Herning
+#L	09 00 E / 56 40 N
+#R
+#U
+#W	keld@diku.dk 880330
+#
+hkhdata = hkhdata.dk
+
+#N      hns
+#S      ??
+#O      Henrik Nielsen Software ApS
+#C      Flemming K. Jensen
+#E      oqs@hns
+#T      +45-6-411211
+#P      Kirkegade 13, DK-8900 Randers
+#L	10 02 E / 56 29 N
+#R
+#U
+#W      krus@diku 851016
+#
+hns = hns.dk
+
+#N      ibt
+#S      Zilog S8000/32, UNIX V.2
+#O      University of Copenhagen, Center for Applied Datalogy
+#C      Keld J. Simonsen
+#E      keld@ibt
+#T      +45 1 120115
+#P      Studiestraede 6 o.g., DK-1455 Copenhagen K, Denmark
+#L	12 34 E / 55 45 N
+#R
+#U
+#W      keld@diku 850114
+#
+ibt = ibt.dk,cad,cad.dk
+ibt     kgb-cad(LOCAL)
+
+#N      iccc
+#S      Zilog S8000/ S3 - Zeus 3.21
+#O      ICCC
+#C      Lars Nybo
+#E      (nybo@iccc)
+#T      +45 2 658094
+#P      J. Andersensvej 8, DK-2760 Maal|v
+#L	12 34 E / 55 48 N city
+#R
+#U
+#W      keld@diku 850312
+#
+iccc = iccc.dk
+
+#N      idbs
+#S      Sperry 5000/50, UNIX 5.2
+#O      IDBS af 1980 Aps
+#C      Ole Skanning
+#E      olska@idbs.dk
+#T      +45 1 126066
+#P      Bredgade 58, DK-1260 K|benhavn K
+#L	12 34 E / 55 45 N
+#R	Modem: racal-milco MPS 1222
+#U	diku
+#W      keld@diku.dk 871129
+#
+idbs = idbs.dk
+
+#N      iddth
+#S      Digital uVax II/ ULTRIX 32/v1.1
+#O      Instituttet for datateknik, DTH
+#C      Klaus Elmquist Nielsen
+#E      klaus@iddth
+#T      +45 2 881566 ext. 2867
+#P      DTH Bygning 343 & 344, DK-2800 Lyngby
+#L	12 31 E / 55 47 N
+#R
+#U	diku
+#W      krus@diku Jan 7 15:03:27 1987
+#
+iddth = iddth.dk,id.dk,id.dth.dk,dth.dk
+
+#N      iesd
+#S      sun/4.2BSD
+#O      Institute for Electronic Systems, Aalborg University Center
+#C      Wladyslaw Pietraszek
+#E      wap@iesd
+#T      +45 8 138788 x 283
+#P      Strandvejen 19, DK-9000 Aalborg
+#L	10 20 E / 56 50 N
+#R
+#U
+#W      keld@diku 850523
+#
+iesd = iesd.dk,iesd.auc.dk
+
+#N	ifad
+#S	SUN 3/50 , SUN OS 3.2
+#O	Instituttet For Anvendt Datateknik
+#C	Anders S|nderg}rd
+#E	anders@ifad.dk
+#T	+45 9 934303
+#P	Niels Bohrs Alle 25, Blok 1, DK-5230 Odense M
+#L	10 40 E / 55 10 N
+#R
+#U
+#W	keld@diku.dk 870907
+#
+ifad = ifad.dk
+
+#N      itc
+#S      SUN 3/SUNOS 3.2
+#O      IT-centret
+#C      Isak Korn
+#E      isak@itc.dk
+#T      +45 1 930899
+#P      Ny Adelgade 5 A, DK-1104 K|benhavn K
+#L	12 34 E / 55 45 N
+#R
+#W      keld@diku.dk 871103
+#
+itc = itc.dk
+
+#N      jdcdk
+#S      NCR Tower 32/600, System V.2
+#O      JDC Data a/s, SUD/LE
+#C      Bo Kj{r Jensen/Phil Parker
+#E      sudnn@jdcdk.dk
+#T      +45 5 81 64 00
+#P      H{ldagervej 165, DK-7100 Vejle
+#L	09 32 E / 56 27 N
+#R	Modem: Worldport 1200/300
+#W      keld@diku.dk 880303
+#
+jdcdk = jdcdk.dk,jdc.dk
+
+#N      judex
+#S      SUN 3/160,SUNOS 3.2
+#O      Judex Datasystemer ApS
+#C      Anders Reick S|rensen
+#E      judex@judex.dk
+#T      +45 8 18 69 00
+#P      Lyngvej 8, DK-9000 Aalborg
+#L	10 20 E / 56 50 N
+#R
+#W      keld@diku.dk 880104
+#
+judex = judex.dk
+
+#N      kontiki
+#S      Zilog S8000/31+/S3
+#O      Metric A/S
+#C      Kim Biel-Nielsen
+#E      kbn@kontiki
+#T      +45 2 893500
+#P      Bygstubben 12, DK-2950 Vedb{k
+#L	12 30 E / 55 67 N
+#R
+#U
+#W      keld@diku 850114
+#
+kontiki = kontiki.dk
+
+#N      kmda001
+#S      Olivetti 3B2/400
+#O      Kommunedata a/s
+#C      Torben Budtz
+#E      tb@kmda001
+#T      +45 8 13 55 11 / ext. 2121
+#P      Hadsundvej 184, 9100 Aalborg
+#L	09 57 E / 57 02 N
+#R	To be on USENET
+#U
+#W      krus@diku Oct 29 11:25:44 1986
+#
+kmda001 = kmda001.dk
+
+#N      knuboy
+#S      Sperry 5000/50, SysVr2
+#O      Knudsen & Boysen A/S
+#C      Michael Ugilt
+#E      mu@knuboy
+#T      +45 2 957730
+#P      Dorthesvej 2, DK-3520 Farum
+#L	
+#R
+#U
+#W      keld@diku 871112
+#
+knuboy = knuboy.dk,kjunix
+
+#N      kpd
+#S      Zilog 8000/12, Zeus 3.21
+#O      Q8 (Danmark) A/S
+#C      Poul-Henning Kamp
+#E      phk@q8.dk
+#T      +45 2 85 93 33 x523
+#P      Hummeltoftevej 49, DK-2830 Virum
+#L	12 30 E / 55 47 N
+#R
+#U
+#W      8801261311 phk.q8.dk Poul-Henning Kamp
+#
+kpd = kpd.dk,q8.dk
+
+#N      lego
+#S      NCR Tower XP/ Unix V 3.02
+#O      Lego Systems a/s
+#C      Erik Krogh
+#E      efk@lego
+#T      +45 5 331188
+#P      Aastvej, DK-7190 Billund, Denmark
+#L	12 30 E / 55 65N
+#R
+#U
+#W      krus@diku Aug 18 14:31:54 1986
+# 
+lego = lego.dk
+
+#N      lisda
+#S      dde - rack/ UNIX V
+#O      Generaldirektoratet for P&T, 3. styringsafdeling - LISDA
+#C      Jan Vibholm
+#E      jvp@lisda
+#T      +45 1 422277 / 300 (trykknapvalg)
+#P      \stbanegade 83, 4, postboks 2575, DK-2100 K|benhavn \
+#L      12.35 E / 55.32 N
+#R
+#U
+#W      keld@diku 870629
+# 
+lisda = lisda.dk
+
+#N	mainz
+#S	NCR Tower 400 / UNIX V rel 1.03
+#O	erik mainz a/s
+#C	Ivan Madsen
+#E	ivan@mainz.dk
+#T	+45 1 347788
+#P	Theklavej 46, DK-2400 K|benhavn NV
+#L	12.33 E / 55.33 N
+#R
+#U
+#W	keld@diku.dk 870907
+#
+mainz = mainz.dk
+
+
+#N	mark1
+#S	Microforce motorola 68000
+#O	Markussen International a/s
+#C	Kim R. Pedersen
+#E	kimrp@mark1
+#T	+45 1 357066
+#P	N|rrebrogade 66-68b, DK-2200 K|benhavn N
+#L	12 35 E / 55 47 N
+#R
+#U
+#W	krus@diku Jul 28 9:18 1986
+#
+mark1 = mark1.dk
+
+#N	nbivax
+#S	VAX 8600 (VMS)
+#O	Niels Bohr Institute
+#C	Bj|rn Nilsson
+#E	nilsson@nbivax
+#T	+45 1 421616
+#P	Blegdamsvej 17, DK-2100 Copenhagen \
+#L	12 35 E / 55 47 N
+#R
+#U
+#W	krus@diku May 28 11:08:02 1986
+#
+nbivax = nbivax.dk
+
+#N	ncrdk
+#S	Tower XP / UNIX V
+#O	NCR Danmark A/S
+#C	Gert Illemann
+#E	gerti@ncrdk.dk
+#T	+45 1 29 10 35
+#P	Teglv{rksgade 31, DK-2100 K|benhavn \
+#L	12 35 E / 55 48 N
+#R	Modem: Racal-Milco VI2422S
+#U
+#W	keld@diku.dk 871002
+#
+ncrdk = ncrdk.dk
+
+#N	ncrsecp
+#S	NCR Tower 32; AT&T System V
+#O	NCR Corporation, Systems Engineering - Copenhagen
+#C	Flemming Sejergaard Olsen
+#E	ncrsecp!postmaster
+#T	+45 1 330022
+#P	Svanevej 14, DK-2400 Copenhagen NV, Denmark
+#L	12 32 E / 55 42 N
+#R
+#U	diku
+#W	ncrsecp!jd (Jesper Dybdal); Mon Oct 19 13:21:58 MET 1987
+#
+ncrsecp	=	ncr.dk,ncrsecp.dk
+ncrsecp		.ncr.dk
+
+#N      nordita,norditb
+#S	SUN Microsystems 1/100U
+#O      NORDITA (Nordic Institute of Theoretical Physics)
+#C      Ole Holm Nielsen
+#E      postmaster@nordita
+#T      +45 1 421616
+#P      Blegdamsvej 17, DK-2100 Copenhagen \
+#L	12 35 E / 55 47 N
+#R
+#U
+#W      krus@diku May 28 11:01:39 1986
+#
+nordita = nordita.dk
+norditb = norditb.dk
+nordita norditb(LOCAL), nbivax(LOCAL)
+
+#N      oedan
+#S      HP 9000/840, HPUX
+#O      \degaard & Danneskiold-Sams|e
+#C      Peter Dahl Vestergaard
+#E      peterdv@oedan.dk
+#T      +45 1 266011
+#P      Kroghsgade 1, DK-2100 K|benhavn \
+#L	12 24 E / 55 63 N
+#R	modem: VI2422S
+#U      
+#W      keld@dkuug.dk 880509
+#
+oedan = oedan.dk
+
+#N      oldk1
+#S      3b2/400, sys V.2
+#O      Olivetti Denmark
+#C      Peter Jeppesen
+#E      pwj@oldk1
+#T      +45 1 201000, ext. 307
+#P      Lersoe Park Alle 107, DK-2100 KBH. OE
+#L	12 24 E / 55 63 N
+#R
+#U      
+#W      krus@diku Thu May 15 09:50:27 MET 1986
+#
+oldk1 = oldk1.dk
+
+#N	pe
+#S	SUN 3, SUN OS 3.4
+#O	Purup Electronics A-S, Udviklingsafdelingen
+#C	Flemming Korslund, Rekv nr 30 147
+#E	fk@pe.dk
+#T	+45 6 222522
+#P	S|nderskovvej 5, DK-8520 Lystrup
+#L	10 30 E / 55 85 N
+#R	
+#U	
+#W	keld@dkuug.dk 880509
+pe = pe.dk
+
+#N	ambush
+#S	AT&T 3B2/400; System V
+#O	AmbraSoft A/S (Sales & Marketing dept.)
+#C	Kim Chr. Madsen
+#E	postmaster@ambush
+#T	+45 2 424 111
+#P	Rojelskjaer 15, DK-2840 Holte
+#L	12 20 E / 55 55 N city
+#R
+#U	diku
+#W	ambush!kimcm (Kim Chr. Madsen); Fri Sep 19 10:48:09 DST 1986
+ambush = ambush.dk
+ambush	ambra(DIRECT), diku(HOURLY), olgb1(DAILY),ambone(DAILY)
+
+#N	ambone
+#S	AT&T 3B2/400; System V.2.0.4
+#O	AmbraSoft A/S (Development Dept.)
+#C	Kim Chr. Madsen
+#E	postmaster@ambush.UUCP, kimcm@ambush.UUCP
+#T	+45 2 424 111
+#P	Rojelskaer  15, DK-2840 Holte, Denmark
+#L	12 20 E / 55 55 N city
+#R	
+#U
+#W	keld@diku.dk 880520
+ambush = ambush.dk
+
+#N	ambra
+#S	AT&T 3B2/400; System V.2.0.4
+#O	AmbraSoft A/S (Development Dept.)
+#C	Kim Chr. Madsen
+#E	postmaster@ambush.UUCP, kimcm@ambush.UUCP
+#T	+45 2 424 111
+#P	Rojelskaer  15, DK-2840 Holte, Denmark
+#L	12 20 E / 55 55 N city
+#R	Former known as olambu
+#U
+#W	ambush!kimcm (Kim Chr. Madsen); Wed Apr 29 15:18:36 DNT 1987
+ambra = ambra.dk
+ambra	ambush(DIRECT)
+
+#N      rcbal
+#S	RC39 Xenix 3
+#O      Regnecentralen, BasisSoftware-Udvikling
+#C      Lars Henriksen
+#E      lhe@rcbal
+#T      +45 2 658000
+#P      Lautrupbjerg 1, DK-2750 Ballerup, Denmark
+#L      12 14 E / 55 50 N
+#R	GVS
+#U
+#W      krus@diku Nov 11 11:22:25 1986, 880509
+#
+rcbal = rcbal.dk
+
+#N      sysware
+#S
+#O      Sysware Aps
+#C      Niels Baggesen
+#E      nb@sysware
+#T      +45 6 102055
+#P      Tordenskjoldsgade 23 A, DK-8000 ]rhus C
+#L	10 30 E / 55 85 N
+#R
+#U
+#W      keld@diku 850524
+#
+sysware = sysware.dk
+
+#N      imada
+#S	UNIX, SUN 3/160
+#O      Odense Universitet, Inst. for Mat. og Dat.
+#C      Longina Przybyszewska
+#E      postmaster@imada
+#T      +45 9 158600 / 2382
+#P      DK-5230 Odense M
+#L	10 40 E / 55 10 N
+#R	modem: VI2422S
+#U
+#W      keld@diku 880115
+#
+imada = imada.dk,wotan,imada.ou.dk
+SHAR_EOF
+:	End of shell archive
+exit 0

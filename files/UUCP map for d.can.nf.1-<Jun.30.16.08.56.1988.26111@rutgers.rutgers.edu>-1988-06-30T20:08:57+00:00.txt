@@ -1,0 +1,57 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.can.nf.1
+: This archive created: Thu Jun 30 16:08:53 1988
+echo shar: extracting d.can.nf.1
+cat << 'SHAR_EOF' > d.can.nf.1
+#	d.can.nf.1 : last updated Fri Jun 17 00:10:44 1988
+#
+#	If you wish to register your site as a subdomain under the Canadian
+#	top-level domain (.Ca) or want related information, please contact:
+#
+#	registry@ai.toronto.edu, registry@ai.utoronto.ca, registry@utai.uucp
+#	
+#	For information about registering under any of .Edu, .Com, .Gov etc,
+#	please contact registry@stargate.com or registry@stargate.uucp direct.
+#
+#	Corrections to the contents of this file should be sent to:
+#		path@ai.toronto.edu, path@ai.utoronto.ca, path@utai.uucp
+#
+
+#N	.mun.edu, garfield
+#S	VAX 11/780; 4.3BSD
+#O	Memorial University of Newfoundland, Dept. of Computer Science
+#C	Nolan White
+#E	nolan@garfield.mun.edu
+#T	+1 709 737 8711
+#P	Elizabeth Ave.., St. John's, NF, Canada A1C 5S7
+#L	47 34 N / 52 43 W city
+#R	Uucp connection for all MUN sites. We are an offical gateway
+#       to CDNnet, which contains domains .cdn
+#W	Jeff Sparkes (garfield.mun.edu!jeff1); Tue May 24 10:29:37 NDT 1988
+#U	dalcs
+#
+garfield	.mun.edu, .cdn 
+garfield.mun.edu = garfield, garfield.mun.cdn, garfield.mun.ca
+garfield.mun.edu 	dalcs(EVENING), tunscs(POLLED), 
+			ai.toronto.edu(DEMAND), uunet.uu.net(DEMAND), 
+			math.waterloo.edu(DEMAND), munucs.mun.ca(LOCAL)
+#
+# University machines reachable over Ethernet.
+# 
+MUN-US =      { garfield.mun.edu, arlene.mun.edu, pooky.mun.edu, 
+		odie.mun.edu, lyman.mun.edu, jon.mun.edu, nermal.mun.edu, 
+		nadine.mun.edu, liz.mun.edu, docboy.mun.edu, 
+		stretch.mun.edu }(LOCAL)
+
+# Computing services (leif) is on bitnet, and wants to be the .ca gateway,
+# but we can't communicate with them properly yet.  We can, however talk to 
+# munucs, so we'll let them worry about it.  Someday we'll get get together.
+# Computer science sites will also masquerade as .mun.ca sites
+
+.mun.ca		munucs.mun.ca
+
+SHAR_EOF
+:	End of shell archive
+exit 0

@@ -1,0 +1,385 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.sc.1
+: This archive created: Tue Dec 17 20:49:04 1991
+echo shar: extracting u.usa.sc.1
+cat << 'SHAR_EOF' > u.usa.sc.1
+# Map file u.usa.sc.1 created by Jesse W. Asher on Tue Dec 17 15:27:02 CST 1991.
+# New maps or map updates can be sent to homecare!jessea or jessea@homecare.COM.
+# Please ensure that map entries follow the map creation procedures specified 
+# in the README file.  Mail me if you are unsure about these procedures.
+#
+
+#N	almira
+#S	NCR Tower 32/600; NCR System V Rel 2.00.00
+#O	Personal machine
+#C	Brian R. Haug
+#E	almira!news
+#T	+1 803 796 6405
+#P	P.O. Box 212052, Columbia, SC, 29221-2052
+#L	33 57 26 N / 81 07 20 W
+#R	
+#U	cs-col
+#W	almira!haug (Brian R. Haug); Wed Apr 25 21:43:23 EST 1990
+#
+almira	cs-col(DIRECT), udcps3(EVENING)
+
+#N	bcbssc
+#S	Wells American PC ; SCO XENIX ; v 2.2
+#O	Blue Cross Blue Shield of South Carolina
+#C	Michael Godawski ( peon )
+#E	bcbssc!gracie!godawski@usceast.cs.scarolina.edu (our internet conn)
+#E	{uunet!ncrlnk!ncrcae!}usceast!bcbssc!gracie!godawski (UUCP)
+#T	+1 (803) 788-3860
+#P	I20 @ Alpine Rd., Columbia SC 29218
+#L	unknown
+#R	World Usenet connection for BCBS of SC, serviced by her sister
+#R	company Companion Technologies
+#U	usceast
+#W	Michael Godawski; Mon Dec  3 08:40:59 EST 1990
+#
+bcbssc	usceast(POLLED/DEMAND)
+
+#N	bjuacad
+#F	uunet.uu.net
+#S	AT&T 3B2/600; AT&T System V Rel. 3.1.1
+#O	Bob Jones University
+#C	Phillip Pascoe
+#E	bjuacad!ppascoe
+#T	+1 803 242 5100 x3883
+#P	1700 Wade Hampton Blvd., Greenville, SC 29614
+#L	34 51 N / 82 23 W city
+#R
+#U
+#W	bjuacad!ppascoe (Phillip Pascoe); Mon Mar 11 08:15:01 EDT 1991
+#
+bjuacad	bjudev(DIRECT)	
+
+#N	bjudev
+#F	uunet.uu.net
+#S	AT&T 6386E/33; AT&T System V Rel. 3.2.2
+#O	Bob Jones University
+#C	Phillip Pascoe
+#E	bjudev!ppascoe
+#T	+1 803 242 5100 x3883
+#P	1700 Wade Hampton Blvd., Greenville, SC 29614
+#L	34 51 N / 82 23 W city
+#R
+#U	bjuacad
+#W	bjudev!ppascoe (Phillip Pascoe); Mon Mar 11 08:15:01 EDT 1991
+#
+bjudev	uunet(DAILY), bjuacad(DIRECT) 
+
+#N	broadway
+#S	NCR Tower 32/800; Rel 1.01.03 (System V.2 UNIX)
+#O	Dept. of Elect. and Comp. Engineering, University of South Carolina
+#C	Jayant Kulkarni
+#E	broadway!root
+#T	+ 1 803 777 7447
+#P	University of South Carolina, Swearingen Center, Columbia, SC 29208
+#L	34 00 N / 81 03 W city
+#R	News is Great on a Tower 800!
+#W	broadway!root (Stuart Anderson); Thur. Dec. 22 1:00:00 EST 1988
+#U	secola
+#
+broadway	ncrcae(POLLED), secola(DAILY)
+
+#N	centgraf
+#S	Panasonic Business Partner (8086); MS-DOS - Waffle
+#O	DLC Consulting, Hampton SC
+#C	Damian Centgraf
+#E	wshb!centgraf!damian  or 70571.313@compuserve.com
+#T	+1 803 943 4851
+#P	P.O. Box 611, Hampton, SC 29924-0611
+#L	32 41 02 N /  81 07 51 W
+#R	This is a personal account and not business related.
+#U	wshb
+#W	centgraf!damian (Damian L. Centgraf); Tue Jun 18 13:05:00 EDT 1991
+#
+centgraf	wshb(POLLED)
+
+#N	cs-col
+#S	NCR TOWER 32/600 2.00.00
+#O	NCR E&M-Columbia Customer Services
+#C	Sam Vause
+#E	cs-col!vause
+#T	+1 803 791 6953
+#P	NCR, CS Dept., 3325 Platt Springs Road, W. Columbia, SC  29169
+#U	ncrcae
+#W	cs-col!vause (Sam P. Vause); Thu Jul 28 08:49:05 EDT 1988
+#
+cs-col	ncrcae(DEMAND)
+
+#N	fbm
+#S	Tandy 6000; Xenix 03.02.00
+#O	South Carolina Farm Bureau Marketing Association
+#C	Butch DeCosta, Sherry Lemon
+#E	fbm!sherry
+#T	+1 803 747 0441
+#P	Post Office Box 5788, North Charleston, South Carolina 29406
+#L	79 27 W / 32 26 N
+#R
+#U
+#W	midlyd!bob (Bob Pitts); Wed Sep 18 09:45:00 EDT 1989
+#
+fbm	midlyd(DEMAND)
+
+#N	hubcap
+#S	DEC VAX-8810; ULTRIX 3.1
+#O	Clemson University Computer Center
+#C	Mike Marshall
+#E	hubcap!postmaster
+#T	+1 803 656 3155
+#P	50 New Cherry Street, Clemson University, Clemson, SC 29634
+#L	34 41 N / 82 49 W
+#U	gatech ncrcae stanford
+#W	hubcap!hubcap (Mike Marshall); Wed Sep 12 08:22:33 EDT 1990
+#
+hubcap	ncrcae(POLLED)
+
+#N	kisbbs, f11.n3624.z1.fidonet.org
+#S	AST 286; MS-DOS 3.3
+#O	Keep It Simple BBS - FidoNet 1:3624/11
+#C	Ed Ridpath
+#E	kisbbs!postmaster
+#T	+1 803 648 2680
+#P	1081 Shiloh Estates, Aiken, SC 29801
+#L	33 38 58 N / 81 41 05 W
+#U	lakes
+#R	FidoNet  1:3624/11 running UFGATE.
+#W	merlin@ns.fidonet.org (Burt Juda); Sun Oct 27 15:00:00 EST 1991
+#
+#	Approved by ddodell@stjhmc.fidonet.org
+#	Administrator, fidonet.org
+#
+kisbbs=	kisbbs.fidonet.org, f11.n3624.z1.fidonet.org
+kisbbs	lakes(DAILY)
+
+#N	lakes
+#S	AT 386 clone; Waffle UUCP 1.64
+#O	Twin_Lakes Engineering
+#C	Michael Hendrick
+#E	lakes!postmaster
+#T	+1 803 663 9786
+#P	P.O. Box 460, Vaucluse SC 29850
+#L	33 38 44 N / 81 52 02 W
+#R	150 feet from runway centerline
+#U	dogwood, kisbbs
+#W	lakes!owen (Michael Hendrick); Mon Jun 03 21:55:00 EDT 1991
+#
+lakes	dogwood(DEMAND), kisbbs(DIRECT)
+
+#N	mazurka
+#S	Amiga 2500/30; 1.3.2 AmigaOS
+#O	Me Own Personal System
+#C	Kenneth Yarnall
+#E	mazurka!postmaster, yarnall@usceast.cs.scarolina.EDU
+#T	+1 803 771 6349
+#P	332 S. Harden St., Columbia, SC 29205
+#L	33 59 16 N / 81 00 30 W
+#R	Home Amiga running AmigaUUCP
+#U
+#W	mazurka!kenny (Kenneth Yarnall); Thu Apr 11 14:20:12 EDT 1991
+#
+mazurka	opusc(DIRECT)
+
+#N	midlyd
+#S	Compuadd 386; Xenix 2.3.2
+#O	Lydia Soybeans, Inc. 
+#C	Robert G. Pitts
+#E	midlyd!bob
+#T	+1 803 332 1511
+#P	Post Office Drawer A, Lydia, South Carolina 29079-0158
+#L	34 21 N / 80 05 W 
+#R	
+#U	
+#W	midlyd!bob (Robert G. Pitts);Sun Sep 16 19:22:35 EDT 1990
+#
+midlyd	petro(DAILY), flattop(POLLED), handicraft(DEAD),
+	fbm(DEMAND), uudell(DEMAND), heart(DEMAND)
+
+#N	mikebat
+#S	AT&T PC7300 ; UNIX System V 3.51a
+#O	Private system
+#C	Michael Batchelor
+#E	mikebat!usenet
+#T	+1 803 524 5012
+#P	416 Ribaut Road, Beaufort, SC 29902
+#L	080 18 25 W / 32 25 55 N
+#R	
+#W	mikebat!michaelb (Michael Batchelor) ; Thu Dec 14 22:38:50 EST 1989
+#U	wshb
+#
+mikebat	wshb(DAILY)
+
+#N	ncrcae
+#S	NCR Tower32; Rel 1.03 (SysVr2)
+#O	NCR Corp., E&M-Columbia
+#C	Ginger Kern
+#E	ncrcae!postmaster
+#T	+1 803 796 9250
+#P	3325 Platt Springs Rd., West Columbia, SC 29169
+#L	33 57 26 N / 81 07 20 W
+#R
+# News exchanged with
+#U	hubcap
+# Sites with NCR.COM
+#U	ncr-sd.sandiego ncrlnk.dayton ncrpcd
+# Local sites fed
+#U	opusc usceast 
+# Sites within Columbia.NCR.COM
+#U	gollum hwlab lucky mmd1 ofc prdmgt sauron secola yankee secola
+#W	ncrcae!kern (Ginger Kern); Thu May 18 13:14:59 EDT 1989
+#
+# We are the gateway for the Columbia subdomain of NCR.COM
+# Mail to NCR Columbia personnel can be addressed
+#       firstname.lastname@Columbia.NCR.COM
+#
+ncrcae = ncrcae.columbia.ncr.com
+ncrcae	.columbia.ncr.com, .ncr.com, columbia.ncr.com
+#
+# local sites outside of NCR
+ncrcae	usceast(DIRECT)
+ncrcae	opusc(DIRECT)
+#
+# long distance calls
+ncrcae	hubcap(DAILY)
+#
+# Non-local NCR sites - some are private lines others are long distance
+# calls
+ncrcae	ncr-sd(DEDICATED)	# SanDiego.NCR.COM gateway
+ncrcae	ncrlnk(DEDICATED)	# Dayton.NCR.COM gateway
+ncrcae	ncrsea(DEMAND)		# Sales office in Seattle
+ncrcae	ncrsec(DEAD)		# SE-Columbia, (next door, they poll us)
+ncrcae	secola(DEMAND)		# SE-Columbia
+ncrcae	ncrwic(DAILY)	# Wichita.NCR.COM gateway
+ncrcae	ncroem(DEMAND)		# OEM Division in Dayton
+ncrcae	ncrcam(DEDICATED)	# ncrcam.Cambridge.NCR.COM
+ncrcae	ncrcce(DAILY)	# ncrcce.StPaul.NCR.COM  (COMTEN)
+ncrcae	ncrclm(DEDICATED)	# ncrclm.Clemson.NCR.COM  (PCD-Clemson)
+ncrcae	ncrats(DEMAND)		# NCR-Atlanta - Atlanta Tower Support
+# external sites that poll us
+ncrcae	fig1(POLLED)		# Unisys in Salt Lake City
+ncrcae	sp7040(POLLED)		# Unisys in Salt Lake City
+
+#N	ncrclm
+#S	NCR Tower XP; AT&T System V
+#O	NCR Corporation
+#C	Jim Lamb
+#E	Jim.Lamb@Clemson.NCR.COM
+#T	+1 803 843 1561
+#P	1150 Anderson Dr., Liberty, SC 29657
+#L	DD MM SS N / DD MM SS W
+#R	Gateway for the Clemson.NCR.COM domain
+#U	ncrcae
+#W	Jim.Lamb@ncrclm.Clemson.NCR.COM; Tue May  3 13:23:53 EST 1988
+#
+ncrclm	= ncrclm.clemson.ncr.com
+ncrclm	.clemson.ncr.com, .ncr.com, clemson.ncr.com
+#
+# Non-local NCR sites with which we communicate over private lines.
+#
+ncrclm	ncrcae(DEDICATED)	#Columbia, S.C., NCR Domain gateway
+
+#N	opusc
+#S	DEC VAX-11/750; 4.3 BSD UNIX Mt. Xinu
+#O	Computer Services Division, University of South Carolina
+#C	Ken Sallenger
+#E	opusc!usenet, ken@bigbird.csd.scarolina.edu
+#T	+1 803 777 6551
+#P	1244 Blossom ST Room #201 / USC / Columbia, SC 29208
+#L	34 59 35 N / 81 01 45 W
+#R	News feed and UUCP gateway to scarolina.edu
+#U	usceast ncrcae
+#W	opusc!ken (Ken Sallenger); Wed Apr 10 12:40:35 EDT 1991
+#
+opusc	= opusc.csd.scarolina.edu
+opusc	usceast(LOCAL)		# Dept of Computer Science, USC
+opusc	ncrcae(DIRECT)		# NCR Columbia, SC
+opusc	mazurka(DIRECT)
+
+#N	quant
+#S	
+#O	Quant Systems
+#C	James Hawkes
+#E	quant!root
+#T	
+#P	25 Bainbridge Dr., Charleston, SC 29407
+#L	32 48 N / 79 58 W city
+#R
+#W	rick@uunet.UU.NET (Rick Adams); Thu,  7 Jan 1988  19:06:47 EST
+#U
+#
+quant	uunet(DEMAND)
+
+#N	sddint
+#S	Mac Plus; uAccess 1.5
+#O	Software Design and Development, Inc.
+#C	Clayton Chevrior
+#E	ssdint!clayton
+#T	+1 803 329 1889
+#P	972 W. Main St., Rock Hill, SC 29730
+#L	34 55 N / 81 01 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Sep 10 11:19:48 EDT 1991
+#U
+#
+sddint	uunet(DEMAND)
+
+#N	usceast
+#S	DEC DECStation2100; ULTRIX 4.0
+#O	Department of Computer Science, University of South Carolina
+#C	Steve Wright
+#E	usceast!wright
+#T	+1 803 777 4611, +1 803 777 2840
+#P	216 LeConte College, USC, Columbia SC 29208
+#L	81 01 28 W / 33 59 54 N
+#R	When SC played So. Cal. the scoreboard said USC East/USC West
+#R	This is also usceast.cs.scarolina.edu [129.252.11.9] on the internet
+#U	ncrcae, opusc, dogwood, bcbssc, calvin, hobbes
+#W	usceast!wright (Steve Wright); Thu Jun  6 15:17:15 EST 1991
+#
+usceast	ncrcae(DAILY), opusc(HOURLY), dogwood(DAILY), bcbssc(HOURLY)
+
+#N	wofford
+#S	DEC MicroVAX 3800; VMS V5.4
+#O	Wofford College
+#C	Dr. Dan W. Olds
+#E	wofford!postmaster
+#F	uunet.uu.net
+#T	+1 803 597 4272
+#P	429 North Church St., Spartanburg, SC  29303-3663
+#L	34 57 32 N / 81 56 07 W
+#R	Running DECUS uucp V1.3 (and  ANU News V6.0)
+#U	uunet
+#W	oldsdw@wofford.edu (Dan W. Olds); 19-Oct-1991
+#	machine room is 816 feet above sea level (for 3-D pathalias routing :-)
+#
+wofford .wofford.edu
+wofford = wofford.edu
+wofford	uunet(EVENING)
+
+#N	wshb
+#S	AST Premimum 386; XENIX 
+#O	WSHB - Christian Science Monitor Syndicate
+#C	Michael R. Batchelor
+#E	wshb!postmaster
+#T	+1 803 625 4880
+#P	Rt.2 Box 107A, Pineland, SC USA
+#L	32 41 02 N /  81 07 51 W
+#R	This machine is also wshb.csms.com. 
+#U	wcsn khbi bos mikebat uunet
+#W	wshb!michaelb (Michael R. Batchelor); Thu Aug  2 11:36:50 EDT 1990
+#
+wshb	csms.com
+wshb	= wshb.csms.com
+wshb	wcsn(DAILY/4), khbi(DAILY/2),
+	bos(DAILY/4), mikebat(POLLED),
+	uunet(POLLED)
+
+# u.usa.sc.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,844 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.tn.1
+: This archive created: Fri Feb  7 23:08:17 1992
+echo shar: extracting u.usa.tn.1
+cat << 'SHAR_EOF' > u.usa.tn.1
+# Map file u.usa.tn.1 created by Jesse W. Asher on Fri Feb  7 15:56:04 CST 1992.
+# New maps or map updates can be sent to homecare!jessea or jessea@homecare.COM.
+# Please ensure that map entries follow the map creation procedures specified 
+# in the README file.  Mail me if you are unsure about these procedures.
+#
+
+#N	adsi
+#S	NCR Tower 32/700 ; Unix SysV
+#O	Application Data Systems, Inc.
+#C	Larry Slavick
+#E	adsi!larrys
+#T	(601) 393-2046
+#P	1930 First Commercial Dr., Memphis, TN  38671 
+#L	090 0 W / 035 10 N
+#R	Public safety software developers.
+#U	dynasys homecare 
+#W	Larry Slavick ; Fri Feb 15 22:50:06 CST 1991
+#
+adsi = adsi.homecare.com
+adsi	dynasys(DIRECT+HIGH), homecare(DIRECT+HIGH), alemap(DIRECT+HIGH)
+
+#N	alemap
+#S	NCR PC286 ; MS-DOS 5.0, Waffle 1.64
+#O	Private
+#C	Larry Slavick
+#E	alemap!larrys
+#T	(901) 853-3405
+#P	1266 Verlington, Collierville, TN  38017
+#L	090 0 W / 035 10 N
+#R	none
+#U	homecare
+#W	Larry Slavick ;  Sun Jun 23 23:30:00 CDT 1991
+#
+alemap	homecare(DIRECT+HIGH), adsi(DIRECT+HIGH), n4bkn(DIRECT+HIGH)
+
+#N	ameoba
+#S	Commodore Amiga 500; AmigaDOS 1.3
+#O	My Amiga 500 And I
+#C	Cary A. Farrier
+#E	ameoba!farrier
+#T	+1 901 357 9725
+#P	P.O. Box 121, Watsonville, CA 95077
+#L	090 0 W / 35 10 N
+#R	This is a private UUCP site used for research and entertainment.
+#U	homecare
+#W	ameoba!farrier (Cary Farrier) ; Fri Sep 27 16:15:00 CST 1991
+#
+ameoba	homecare(DIRECT+HIGH+HOURLY)
+
+#N	amigapit
+#S	Amiga 2000HD; AmigaDos 2.0
+#O	Amiga Pitts BBS (901) 854-6841 (9600)
+#C	Scott Pitts
+#E	postmaster@amigapit.UUCP
+#T	+1 901 854 6841
+#P	address here
+#L	Latitude/longitude
+#R	Memphis Local BBS and User Group for Amiga Systems
+#U	homecare
+#W	spitts@amigapit.UUCP(Scott Pitts) ; SUN SEPT 29 23:22:12 CDT 1991
+#
+amigapit	homecare(DIRECT+HIGH)
+
+#N	api386
+#S	Intel 386 clone; SCO Xenix System V
+#O	Associated Packaging, Inc.
+#C	Robert Steinbeck
+#E	api385!ras
+#T	+1 615 859 3737
+#P	215 Connell St., Goodlettsville, TN  37072
+#L	36 22 N / 86 40 W
+#R	Wholesale distributor of packaging material & machinery
+#U
+#W	api386!ras (Robert Steinbeck); Mon Mar 18 16:55:30 CST 1991
+#
+api386	uunet(DAILY)
+
+#N	arnet
+#O	Arnet Corporation
+#S	Arnet Multiuser 386; SCO Unix 3.2v2 (SVR3.2)
+#C	Robert Lipe
+#E	arnet!robertl
+#T	615 834 8000
+#P	618 Grassmere Park Drive, Ste 6, Nashville, TN 37211
+#L 	36 30 N / 86 30 W
+#W	arnet!robertl (Robert Lipe); Wed Jan 02 14:36:39 CST 1991
+#
+# Pending internet registration. 01/02/90 RJL
+#
+# arnet	.arnet.com(LOCAL)
+# arnet	.arnet.arnet.com(LOCAL)
+# arnet = arnet.arnet.com
+arnet	sco(DAILY), ism(DAILY)
+
+#N	autoz
+#S	IBM Model 80 PS/2; XENIX 2.3.2
+#O	AutoZone, Inc.
+#C	Mike Schonbaum
+#E	autoz!mike
+#T	+1 901 775 7662
+#P	1700 Dunn Ave, Memphis, TN  38106
+#L	071 13 W / 42 20 N
+#R	Auto Parts Retailers
+#U	dynasys
+#W	autoz!mike (Mike Schonbaum); Sat Mar 23 18:33:29 CST 1991
+#
+autoz	dynasys(DIRECT+FAST), homecare(DIRECT+FAST)
+
+#N	banana, banana.fedex.com
+#F	rutgers.edu
+#S	Digital Equip. Corp. DECsystem 5400/Ultrix 4.1
+#O	Federal Express Corp.
+#C	Bill Daniels
+#E	bill@banana
+#T	+1 901 797 6328
+#P	Box 727-2891, Memphis, TN 38194-2891
+#L	35 03 N / 089 58 W
+#R	NONE
+#U	rutgers mips dynasys homecare 
+#W	bill@banana (Bill Daniels); Mon Apr 15 08:19:00 CDT 1991
+#
+banana	.fedex.com
+banana = banana.fedex.com
+banana = fedeva
+banana	mips(HOURLY+FAST), rutgers(HOURLY+FAST), homecare(DIRECT+FAST),
+	dynasys(POLLED)
+
+#N	barmfg
+#S	Tandy 4000; SCO Xenix SV2.3
+#O	Barfield Manufacturing Company
+#C	Charles O. Smith
+#E	barmfg!cos
+#T	+1 615 893 4977
+#P	2811 North Barfield Road, Murfreesboro, TN  37129
+#L	35 51 N / 86 23 W
+#R	Manufacture electrical equipment for utilities
+#U	
+#W	barmfg!root (Mark J. Bailey); Wed Apr 11 23:05:00 CDT 1990
+#
+barmfg	deincr(DIRECT),mjbtn(DIRECT),raider(DIRECT)
+
+#N	basement
+#S	Tandy Color Computer 3; OS-9 Level Two 2.00.01
+#O	TRIXsoft
+#C	John Farrar
+#E	basement!trix
+#T	+1 615 399 1801
+#P	2622 Timberland Drive, Nashville, TN  37217
+#L	36 07 36 N / 86 40 47 W
+#R	UUCP on a CoCo3 by Rick Adams
+#U	raider
+#W	basement!trix (John Farrar); Thu Oct 18 14:28:17 CDT 1990
+#
+basement	raider(DAILY/4)
+
+#N	bpsm
+#S	NeXTstation Color; OS 2.1
+#O	Bryan, Pendleton, Swats, & McAllister
+#C	William Swats
+#E	bpsm!wswats
+#T	+1 615 665 1640
+#P	Suite 275, One Burton Hills Blvd, Nashville, TN 37215
+#L	36 09 N / 86 47 W city
+#R
+#W	lori@uunet.UU.NET (Lori Lewis); Tue Dec 17 10:07:24 EST 1991
+#U	William Swats ; Fri Jan 24 08:00:30 CST 1992
+#
+bpsm	uunet(DEMAND)
+
+#N	cbubuc
+#S	AT+T 3B2/400 ; AT+T Unix SysV
+#O	Christian Brothers University
+#C	Dr. Arthur Yanushka
+#E	cbubuc!ya
+#T	(901)722-0454
+#P	Mathematics Dept., 650 E. Parkway South, Memphis, TN  38104 
+#L	090 0 W / 35 10 N
+#R	remarks
+#U	dynasys
+#W	Arthur Yanushka ; Sun Apr 22 15:51:43 CST 1990
+#
+cbubuc	dynasys(DIRECT+HIGH)
+
+#N	chaseus
+#S	homebrew 80386 machine; SCO UNIX SYSTEM V Release 3.2.2
+#O	Chase Research Incorporated
+#C	Terry L Neu
+#E	terry@chaseus.raidernet.com
+#T	+1 615 872 0770
+#P	545 Marriott Drive, Suite 100, Nashville, TN 37210
+#L	36 08 N / 86 40 W
+#R	Chase Research is a builder of TCP/IP based terminal servers
+#U	none
+#W	chaseus!terry (Terry L Neu); Thu Jan 16 12:56:15 CST 1992
+#
+chaseus = chaseus.raidernet.com
+chaseus	raider(DEMAND), spud(DAILY)
+
+#N	cocteau
+#S	NCR Tower 32/650
+#O	Hospital Corporation of America
+#C	Gene Porter	
+#E	cocteau!root
+#T	+1 615 320 6796
+#P	2555 Park Plaza, Nashville, TN 37202
+#L	36 09 N / 86 47 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Fri Apr 27 10:13:43 EDT 1990
+#U
+#
+cocteau	uunet(DEMAND)
+
+#N	crux
+#S	Modcomp REAL/STAR 1000 ; Real/Ix (realtime unix)	
+#O	Midnix - Mid-South Unix Users
+#C	William E. Piper
+#E	crux!billp
+#T	901-757-8402
+#P	7475 Kingsland Dr., Memphis, TN 38134	
+#L	090 0 W / 35 10 N  
+#R	Memphis' only Unix user group.  Have Telebit - will travel.	
+#U	homecare	
+#W	William E. Piper ; Mon Jul  1 15:02:30 CDT 1991
+#
+crux = crux.homecare.com
+crux	homecare(DIRECT+FAST), palestr(DIRECT)
+
+#N	deincr
+#S	NCR PC-916; SCO Xenix SV2.1 
+#O	Delker Electronics, Inc.
+#C	Noel Jones
+#E	deincr!ndj
+#T	+1 615 459 2636
+#P	408-C Nissan Blvd., Smyrna, TN  37167 (US Mail)
+#L	35 53 N / 86 24 W
+#R	NCR, Tandy, ITT, Kaypro computer sales and support
+#R	Licensed Real World Accounting Dealer/Modifications
+#R	Authorized SCO Reseller
+#U
+#W	mjbtn!root (Mark J. Bailey); Wed Apr 11 23:08:00 CDT 1990
+#
+deincr	mjbtn(DIRECT),ndj1(DAILY),galmar(EVENING),dana1(EVENING),
+	dei1(DEDICATED),ndj2(DEDICATED)
+
+#N	dss6000
+#S	IBM RISC System/6000; AIX
+#O	Delta Software Systems
+#C	Joey Carruthers
+#E	dss6000!jcarr
+#T	+1 901 755 4063
+#P	98 Timber Creek Drive, Suite 2  Cordova, TN  38018
+#L	090 0 W / 35 10 N  
+#R		
+#U	homecare	
+#W	dss6000!jcarr (Joey Carruthers); Sat Aug 17 16:17:55 CDT 1991
+#
+dss6000	homecare(DIRECT)
+
+#N	dynasys
+#S	Everex 386/16; AT+T Unix SysV/386 
+#O	Dynasys
+#C	Jesse W. Asher
+#E	dynasys!postmaster 
+#T	(901)382-1609
+#P	6196-1 Macon Rd., Suite 200, Memphis, TN  38134
+#L	090 0 W / 35 10 N  
+#R	
+#U	cbubuc,homecare,delmet,rutgers
+#W	Jesse W. Asher ; Sun Mar 17 19:34:54 CST 1991
+#
+dynasys = dynasys.homecare.com
+dynasys	cbubuc(DIRECT+HIGH), homecare(DIRECT+FAST)
+
+#N	ethos
+#S	AT&T 6386E, System V, R3.1
+#O	Humanities Forum Network
+#C	Gary J. Smith
+#E	ethos!gary
+#T	+1 615 929 6464 (voice), +1 615 477 4394 (data)
+#P	P.O. Box 8005, Gray, TN 37615
+#L	36 29 N / 82 30 W 
+#R	unix-pc groups exchanged with att, bacchus, balrog, 
+#R	chinet, dukeac, dukempd, mcdchg, ncsuvx, pcid.
+#U	
+#W	ethos!gary (Gary J. Smith); Thu Mar  9 11:25:01 EST 1989
+#	
+ethos	att(WEEKLY), bacchus(DAILY), balrog(WEEKLY), 
+	chinet(DAILY), dukcds(WEEKLY), gizzmo(WEEKLY),
+	gladys(WEEKLY), kitty(WEEKLY), mcnc(DIRECT), mcdchg(DAILY), 
+	mjbtn(WEEKLY), ncsuvx(DAILY), pcid(DAILY), rti(DAILY)
+
+#N	fantasyg
+#S	Amiga 2000; AmigaDos version1.3
+#O	Fanatasy Graphics BBS (901) 353 5278
+#C	Mike Dahms
+#E	postmaster@fantasyg.UUCP
+#T	+1 901 353 5278
+#P	826 CarolAnn Cove Memphis Tn. 38127
+#L	Latitude/longitude
+#R	Memphis Local BBS & User Group for Amiga Systems
+#U	homecare	
+#W	mickeyd@fantasyg.UUCP(Mike Dahms) ; TUE Aug 13 20:30:12 CDT 1991
+#
+fantasyg	homecare(DIRECT+HIGH)
+
+#N	fincomp
+#S	JC Info 80386/20 MB; SCO Unix V/386 (3.2)
+#O	Financial Computer Corporation
+#C	Neal McClain
+#E	fincomp!neal
+#T	+1 615 896 5805 (VOICE)
+#P	1990 Old Fort Parkway, Murfreesboro, TN  37130 (US Mail)
+#L	35 51 N / 86 23 W
+#R	Banking and other financial software for MSDOS and UNIX
+#U	mjbtn raider
+#W	mjbtn!root (Mark J. Bailey); Fri Jan 26 12:23:00 CST 1990
+#
+fincomp	mjbtn(DIRECT), raider(DIRECT)
+
+#N	fortsys, fortsys.jobsoft.com
+#S	Fortress 80286/12 Tower; MSDOS 4.01; UUPC 1.07h/MUSH-PC 6.56/WAFFLE 1.6
+#O	Fortress Systems
+#C	Vernon A. Fort
+#E	fortsys!vaf
+#T	+1 615 370 8916 (VOICE)
+#P	1906 Hillmeade Drive, Nashville, TN 37221 (US Mail)
+#L	36 8 N / 86 48 W city
+#R	Research and hobby system
+#U	
+#W	mjbtn!root (Mark J. Bailey); Wed Apr 25 06:21:00 CDT 1990
+#
+fortsys = fortsys.jobsoft.com
+#
+fortsys	mjbtn(POLLED*2),raider(POLLED),radar(POLLED*2)
+
+#N	gsy1
+#S	Tandy 3000 HL (286); SCO Xenix 2.2.3
+#O	Yates Pest Control, Inc. and Delker Electronics, Inc.
+#C	Scott Yates
+#E	gsy1!gsy
+#T	+1 615 274 2156 (VOICE/DATA)
+#P	Rt.1 Box 299, Newtown Rd.,Rockvale TN  37153 (US Mail)
+#L	35.69 N / 86.57 W
+#R	Pest Control and Computer Sales (Somehow they go together)
+#U	mjbtn
+#W	gsy1!root (Scott Yates); Sun Jan 23 07:59:00 CST 1989
+#
+gsy1	mjbtn(DIRECT),deincr(DIRECT),raider(DIRECT),house1(DIRECT)
+
+#N	homecare	
+#S	Sun Sparcstation 1+ SunOs 4.1
+#O	Health Sphere of America Inc.
+#C	Jesse W. Asher
+#E	homecare!jessea
+#T	901-386-5061	
+#P	5125 Elmore Dr., Suite 1, Memphis, TN 38134	
+#L	090 0 W / 35 10 N  
+#R	Home health care at its best.
+#U	banana
+#W	Jesse W. Asher ; Sun Apr 17 19:46:56 CST 1991
+#
+homecare	.homecare.com
+homecare = homecare.com
+homecare = hbmc
+homecare	adsi(DIRECT+HIGH), alemap(DIRECT+HIGH), autoz(DIRECT+FAST),
+	banana(DIRECT+FAST), chromc(DEMAND+FAST), dynasys(DIRECT+FAST),
+	n4bkn(DIRECT+HIGH), rscsys(DIRECT+HIGH), rab(DIRECT+HIGH),
+	wangintl(DIRECT+HIGH), <rutgers>(DEMAND), rfm(DIRECT), 
+	crux(DIRECT+HIGH), dss6000(DIRECT), fantasyg(DIRECT), 
+	oldno6(DIRECT), ameoba(DIRECT)
+
+#N	hypo, hypo.jobsoft.com
+#S	Tandy 1000; MSDOS 3.3; Waffle 1.64 (soon Chrome!)
+#O	Hypo them Ratings!
+#C	Tom Godbold
+#E	hypo!tom
+#T	+1 615 895 8539
+#P	1606 North Tennessee Blvd., Apt. K-168, Murfreesboro, TN  37130
+#L	35 51 N / 86 23 W
+#R	Private System
+#U
+#W	root@mjbtn.jobsoft.com (Mark J. Bailey); Mon Nov 04 20:29:00 CST 1991
+#
+hypo = hypo.jobsoft.com
+hypo	mjbtn(EVENING)
+
+#N	kk4fs
+#S	286 AT; MSDOS 3.30; WAFFLE 1.63
+#O	KK4FS - Free Speech Forum BBS
+#C	Paul Schmidt
+#E	kk4fs!root
+#T	+1 615 283 0084 (voice), +1 615 283 0864 (data)
+#P	706 Judith Dr., Johnson City, TN, 37604
+#L	36 16 N / 82 19 W
+#R	Public access BBS; +1 615 283 0864
+#U	tijc02
+#W	kk4fs!root (Paul Schmidt); Tue Nov 13 13:30:00 EST 1990
+#
+kk4fs	tijc02(DAILY/2),sixhub(DAILY*2),sactoh0(DAILY*3),wybbs(WEEKLY),
+	medsys(DAILY*2)
+
+#N	knuth, knuth.mtsu.edu
+#F	uunet.uu.net
+#S	DecStation 3100 (MIPS); Ultrix 3.0 (BSD 4.3)
+#O	Middle TN State Univ, Dept of Computer Science
+#C	Dr. Alfred Cripps
+#E	knuth!root
+#T	+1 615 898 2378 (VOICE)
+#P	Dept of CS, MTSU, Murfreesboro, TN 37132 (US MAIL)
+#L	35 51 N / 86 23 W
+#R	Dept of CS, DecStation 3100 / VaxStation 3100 WS LAN
+#U	uunet mjbtn
+#W	mjbtn!root (Mark J. Bailey); Wed Apr 11 23:14:00 CST 1990
+#
+#	domain aliasing
+knuth = mtsu
+knuth = mtsu.edu
+knuth = cs.mtsu.edu
+#
+#	local domain gateways
+knuth 	.mtsu.edu
+#
+knuth	mjbtn(POLLED),raider(DIRECT),uunet(POLLED)
+
+#N	kortcs
+#S	386 Xenix
+#O	KORT Computer Systems
+#C	Timothy Sailer
+#E	kortcs!root
+#T	+1 615 579 1706
+#P	P.O.Box 574, Seymour, TN 37865
+#L	35 52 N / 83 46 W city
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Thu Aug 22 16:26:02 EDT 1991
+#U
+#
+kortcs	uunet(DEMAND)
+
+#N	medsys
+#S	ZEOS 80386; Xenix 2.3.3
+#O	Med-Systems
+#C	LaVerne E. Olney
+#E	medsys!root
+#T	+1 615 246 7169
+#P	1932 Brookside Road, Kingsport, TN  37660
+#L	36 33 N / 82 34 W city
+#R
+#U	nstar
+#W	root@medsys.rn.com (LaVerne E. Olney) ; Mon Jun  3 11:42:59 CDT 1991
+#
+medsys	.rn.com
+medsys	= medsys.rn.com
+medsys	nstar(DAILY)
+
+#N	mjbtn, mjbtn.jobsoft.com, .jobsoft.com
+#F	uunet.uu.net
+#S	CompuAdd 80386/25; SCO Unix 3.2 / Open DeskTop
+#O	JobSoft Design & Development Co. (Consulting)
+#C	Mark J. Bailey
+#E	mjbtn!root
+#T	+1 615 893 0098 (VOICE)
+#P	511 Memorial Blvd., Murfreesboro, TN  37129 (US Mail)
+#L	35 51 N / 86 23 W
+#R	Unix/Xenix system consulting, software design/development 
+#U	knuth raider gsy1 radar tiamat fincomp fortsys
+#W	mjbtn!root (Mark J. Bailey); Wed Apr 25 06:17:00 CDT 1990
+#
+#	domain gateway information
+mjbtn	.jobsoft.com
+#
+#	alias for old domain
+mjbtn = mjbtn.mfee.tn.us
+#
+#	other domain related aliases
+mjbtn = mjbtn.jobsoft.com
+mjbtn = jobsoft.com
+#
+mjbtn	knuth(POLLED), raider(DIRECT*2), dei1(DIRECT), rcgc(EVENING),
+	deincr(DIRECT), pdrva(EVENING), vbsinc(EVENING),
+	bayside(EVENING*2), usource(EVENING*2), mjbtn68(DIRECT), 
+	tiamat(DEMAND+FAST), barmfg(DIRECT), house1(DIRECT), gsy1(DIRECT),
+	radar(EVENING+FAST), bcmtn(POLLED), fortsys(WEEKLY*2), wdntn(WEEKLY*2)
+
+#N	n4bkn	
+#S	Intel 286; SCO Xenix 2.1.1
+#O	amateur radio station N4BKN	
+#C	John A. Cummings	
+#E	n4bkn!johnc	
+#T	(901)743-7243
+#P	1502 Railton Road, Memphis, TN 38111-3802
+#L	35 05' 50" N latitude / 89 57' 05" W longitude
+#R	(901)743-4588 voice
+#U	dynasys, alemap
+#W	John A. Cummings ; Sat Mar 23 18:37:20 CST 1991
+#
+n4bkn	dynasys(DIRECT+HIGH), alemap(DIRECT+HIGH), homecare(DIRECT+HIGH)
+
+#N	oldno6
+#S	AT&T 7300;UNIX System V, version 3.51
+#O	The BIGGS Corporation
+#C	Edward D. Biggs 
+#E	oldno6!root 
+#T	(901) 526-5005
+#P	652 North Third Street, Memphis, TN 38107 
+#L	090 0 W / 35 10 N 
+#R	none 
+#U	dynasys 
+#W	Edward D. Biggs ; Mon Aug 19 07:59:57 CDT 1991
+#
+oldno6	homecare(DAILY)
+
+#N	ophis
+#S	Intel 386; AT&T SYSV 3.2
+#O	Open Computing Services
+#C	Bruce H. McCrea
+#E	ophis!bhm
+#T	+1 615 366 0050
+#P	2 International Palza Drive, Suite 705, Nashville, TN 37217
+#L	36 09 N / 86 47 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Thu Jun 20 09:13:22 EDT 1991
+#U
+#
+ophis	uunet(DEMAND)
+
+#N	paitn
+#S	386 Unix V 3.2
+#O	Price & Associates International
+#C	Tim Sailer
+#E	paitn!tim
+#T	+1 615 546 7887
+#P	503 Amarillo Drive, Seymour, TN 37865
+#L	35 52 N / 83 46 W city
+#R	
+#W	jane@uunet.UU.NET (Jane Roop); Thu Apr 26 16:10:24 EDT 1990
+#U
+#
+paitn	uunet(DEMAND)
+
+#N	palestr
+#S	386-20 AT clone; Coherent 3.20
+#O	Joseph Rukendorfer
+#C	Joseph Rukendorfer
+#E	palestr!josephr
+#T	+1 901 685 0145
+#P	4911 Devonshire Memphis, TN 38117
+#L	090 0 W / 35 10 N
+#R	
+#U	crux
+#W	Joseph Rukendorfer ; Mon Dec 23 07:41:38 CST 1991
+#
+palestr = palestr.crux.homecare.com
+palestr	crux(DIRECT)
+
+#N	pds
+#S      Apollo DN 4000
+#O	PDS Corporation
+#C	Rick de Bruyn
+#E	pds!root
+#T	+1 615 584 8642
+#P	1487 Amherst Road, Knoxville, TN 37909
+#L	35 57 N / 83 55 W city  
+#R
+#W	jane@uunet.UU.NET (Jane Roop); Wed Sep 25 12:34:27 EDT 1991
+#U
+#
+pds	uunet(DEMAND)
+
+#N	phobos
+#S	Intel 80286 ; Waffle UUCP v1.64
+#O	Phobos BBS -- Hendersonville, TN 37077
+#C	Kit Irelan
+#E	phobos!kit
+#T	(615)824-2598 (VOICE)
+#P	BOX 53,  301 Indian Lake Rd.,  Hendersonville,  TN 37077
+#L	36 17 17 lat N / 86 35 46 long W
+#R	Running as a private integrated mail system
+#U	brainiac
+#W	kit@phobos (Kit Irelan) ; Thu June 6 16:00:00 CDT 1991
+#       
+phobos	brainiac(DIRECT)
+
+#N	quaker
+#S	HP-9000/345; HP-UX release 7.03
+#O	Quaker Oats Co.
+#C	Raymond C. Leung
+#E	quaker!sysadm
+#T	+1 901 426 6260
+#P	96 Quaker Oats Dr., Jackson, TN 38301
+#L	35 36 N / 88 55 W city
+#R	A quality frozen food plant of Quaker Oats Co.
+#U	homecare
+#W	quaker!raymond (Raymond C. Leung) ; Mon Oct 28 10:42:37 CST 1991
+#
+quaker	homecare(POLLED)
+
+#N	rab
+#S	Sequent S27; Dynix 3.0.12
+#O	Regional Adjustment Bureau, Inc.
+#C	David F. Walker
+#E	rab!dwalker
+#T	1+901-382-0250
+#P	3009 Davies Plantation Rd.; Memphis, TN  38133
+#L	090 0 W / 35 10 N
+#R	remarks
+#U	homecare
+#W	David F. Walker ; Tue Jul  2 07:53:54 CDT 1991
+#
+rab = rab.homecare.com
+rab	homecare(DAILY), sequent(DAILY)
+
+#N	radar
+#F	
+#S	Macintosh IIcx; A/UX 1.1
+#O	Nashville Macintosh User's Group
+#C	Donn S. Fishbein, MD, PhD
+#E	radar!root
+#T	+1 615 385 4755 (VOICE)
+#P	3473 Golf Club Lane, Nashville, TN 37215 (US Mail)
+#L	36 8 N / 86 48 W city
+#R	Nashville Macintosh User's Group
+#U	mjbtn fortsys wdntn
+#W	radar!root (Donn S. Fishbein); Tue Oct  3 10:05:42 CDT 1989
+#
+#
+radar	mjbtn(EVENING), fortsys(EVENING), wdntn(EVENING)
+
+#N      raider, raider.raidernet.com, .raidernet.com
+#F      uunet.uu.net
+#S      Tandy 4000; SCO Unix SysV Rel 3.2.0
+#O      RaiderNet Public Access           
+#C      Bob Reineri  
+#E      raider!root 
+#T      +1 615 849 4390 (VOICE)
+#P      P.O. Box 2371, Murfreesboro, TN  37133-2371
+#L      35 51 N / 86 23 W city
+#R      Two line multiuser USENET public access site (BBS available)
+#R      Data numbers: +1 615 896 8716 and +1 615 896 7905 
+#R      WAFFLE BBS system, Shell Accounts, News Feeds, UUCP links    
+#R      Send mail to raider!root for more information. Nominal fees.
+#U      mjbtn fincomp omhftre wire elgamy chaseus
+#W      raider!root (Bob Reineri); Thu Aug 30 22:30:00 CDT 1990
+#
+#  Connectivity Information....
+#
+raider	.raidernet.com
+raider = raider.raidernet.com
+raider = raidernet.com
+raider = raider.mfee.tn.us
+raider  mjbtn(DIRECT), <knuth>(POLLED), fincomp(DIRECT), wire(EVENING),
+	elgamy(EVENING), chaseus(DAILY), omhftre(EVENING), wcs(EVENING),
+	fortsys(DAILY), tlhsys(DAILY), ids(DAILY)
+
+#N	rfm
+#S	Compaq 286 ; Compaq DOS 3.31, Waffle 1.64
+#O	Private
+#C	Jim Key
+#E	rfm!jimk
+#T	(901) 754-4997
+#P	2783 Honey Tree, Germantown,TN 38138
+#L	090 0 W / 035 10 N
+#R	none
+#U	homecare
+#W	Jim Key ; Mon Jun 24 06:15
+#
+rfm	homecare(DIRECT+HIGH)
+
+#N	rscsys
+#S	Intel 80386/20 ; SCO Xenix 2.3.2
+#O	Private
+#C	Robert Celmer
+#E	rscsys!bob
+#T	(901)794-8574
+#P	3618 Fallriver #3, Memphis, TN 38115
+#L	090 0 W / 35 10 N  
+#R	none
+#U	dynasys
+#W	rscsys!bob (Robert Celmer) ; Sat Mar 23 18:38:11 CST 1991
+#
+rscsys	dynasys(DIRECT+HIGH), homecare(DIRECT+HIGH)
+
+#N	spectro
+#S	Sun SparcStation; SunOS 4.0.3
+#O	Iris Computing Labs
+#C	Jerry Smith
+#E	spectro!jsmith
+#T	+1 615 886 3429
+#P	2439 Wood Sorrell Lane, Signal Mountain, TN 37377
+#L	35 07 N / 85 22 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Apr 17 18:45:16 EDT 1991
+#U
+#
+spectro	uunet(DEMAND)
+
+#N	stys02
+#S	Altos ; Altos Xenix 3.2
+#O	First Baptist Church
+#C	Maynard Tribble
+#E	stys02!maynard
+#T	+1 615 546 9661
+#P	510 W Main Ave; Knoxville, TN   37902
+#L
+#U
+#W	ki4pv!tanner (Dr. Tanner Andrews) ; Thu Nov 09 11:22:33 EST 1989
+stys02	ki4pv(WEEKLY/2), cdin-1(DAILY+LOW)
+
+#N	theporch
+#S	Mac IIfx ; A/UX 2.0
+#O	Urology Associates, Inc.
+#C	Phillip P. Porch, M.D.
+#E	theporch!root
+#T	+1 615 297-4256
+#P	4328 Estes Road, Nashville, TN 37215
+#L	36 8 N / 86 48 W city
+#R	USENET access for the Macinterested in Nashville
+#U	raider, radar
+#W	Phillip P. Porch ; Sat Feb  2 08:50:02 CST 1991
+#
+theporch = theporch.raidernet.com
+theporch	raider(DIRECT), radar(DIRECT)
+
+#N	tiamat
+#F	uunet.uu.net
+#S	Micronics 486/33 & misc. other parts; SCO Unix 386 3.2v2.0
+#O	Ahlstrom Filtration, Inc.
+#C	James B. O'Connor
+#E	tiamat!jim
+#T	+1 615 821 4022 x651
+#P	105 West 45th Street, Chattanooga, TN 37409
+#L	35 00 N / 085 05 W city
+#R	World's leading manufacturer of industrial filter paper
+#R	for air, oil, and gas filters.
+#W	tiamat!jim (James B. O'Connor); Fri Nov 22 16:14:53 EST 1991
+#U	uunet mjbtn quintro chromc starfire
+#
+tiamat = tiamat.fsc.com
+tiamat = fsc.com
+tiamat   .fsc.com
+
+tiamat	uunet(HOURLY+FAST)
+tiamat	mjbtn(EVENING+FAST)
+tiamat  quintro(POLLED)
+tiamat	chromc(POLLED)
+tiamat	starfire(WEEKLY)
+
+#N	tijc02
+#S	Sun 4/490; SunOS 4.1
+#O      Siemens Industrial Automation, Inc.
+#C	Calvin Hayden
+#E	tijc02!root; tijc02!cgh018
+#T	+1 615 461 2254
+#P	P. O. Drawer 1255  M/S 3538, Johnson City, TN 37605
+#L	36 16 N / 82 19 W
+#R
+#U	
+#W	tijc02!root (Calvin Hayden); Wed Sep 25 09:56:32 EST 1991
+#
+tijc02	uunet(HOURLY), rti(DAILY*2) 
+
+#N	trans00
+#S	SCO Xenix
+#O	McKee Baking Company
+#C	Todd Carlton
+#E	trans00!root
+#T	+1 615 238 7111
+#P	P.O. Box 750, Collegedale, TN  37315
+#L	35 03 N / 85 03 W [city]
+#R
+#W	jeannie@uunet.UU.NET (Jeannie Hill); Thu Nov 16 08:05:16 EST 1989
+#U
+#
+trans00	uunet(DEMAND)
+
+#N	voyager
+#S	Generic 386/20; ESIX Sys V.3.2
+#O	Retrosoft
+#C	Bill Spees
+#E	voyager!postmaster
+#T	+1 615 623 5117
+#P	415-D Elk St, STE 299, Geeneville TN, 37743
+#L	35 58 N / 83 11 W city
+#R
+#U	
+#W	jjmhome!jjm (Jim Murray); Wed Feb  6 13:06:59 EST 1991
+#
+voyager	jjmhome(DAILY)
+
+#N	vuse
+#S	Sun 3/180
+#O	Vanderbilt University
+#C	Andy Richter
+#E	vuse!war
+#T	+1 615 343 4518
+#P	Box 1679, Station B, Nashville, TN 37235
+#L	36 10 N / 86  50 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Feb  6 19:46:50 EST 1991
+#U
+#
+vuse	uunet(DEMAND)
+
+#N	wilson, wilson.jobsoft.com
+#S	OmniTel 80386-33 Clone; Esix 4.03A (SYSVR4); CNEWS & NN
+#O	Dave's Ham Shack (WB4LHO)
+#C	David R. Wilson
+#E	wilson!david
+#T	+1 615 459 0678 || +1 615 355 6609 (DATA)
+#P	425 Robertson Drive, Smyrna, Tennessee 37167
+#L	36 01 29 N / 86 29 13 W
+#R	Private System for HAM/Amateur Radio - Major experimenter with 
+#R	unix, packet, and amateur radio.  Inquiries always welcome!
+#U	raider mjbtn
+#W	root@mjbtn.jobsoft.com (Mark J. Bailey); Mon Nov 04 22:31:00 CST 1991
+#
+wilson = wilson.jobsoft.com
+wilson	mjbtn(DIRECT), raider(DIRECT)
+
+#N	zvax
+#S	Vax 11/750 4.2
+#O	ZFX Inc.
+#C	Dave Sieg
+#E	zvax!dave
+#T	+1 615 288 7369
+#P	4509 Matilda Pl, Kingsport, TN  37664
+#L	36 32 N / 82 33 W city
+#R
+#W	lorelei@uunet.UU.NET (Lorelei Horner); Wed Nov 28 17:30:06 EST 1990
+#U
+#
+zvax	uunet(DEMAND)
+
+# u.usa.tn.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0
+

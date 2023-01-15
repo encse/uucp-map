@@ -1,0 +1,153 @@
+
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.wa.1
+: This archive created: Tue Mar  8 01:49:16 1988
+echo shar: extracting d.usa.wa.1
+cat << 'SHAR_EOF' > d.usa.wa.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@cbosgd.att.com (cbosgd!uucpmap).
+# Last updated: Wed Mar  2 14:49:53 PST 1988
+
+#N	.fluke.com, fluke
+#F	uxc.cso.uiuc.edu
+#O	John Fluke Manufacturing Company
+#C	Jeff Stearns, Paul Lutt
+#E	postmaster@tc.fluke.COM
+#T	+1 206 356 5064, +1 206 356 5059
+#P	Technical Computing, PO Box C9090, Everett, WA 98206
+#L	47 59 N / 122 14 W city
+#U	oophost ssc-vax wavetek
+#R	registered
+#W	jeff@tc.fluke.COM (Jeff Stearns); Fri Feb 19  9:00:00 PST 1988
+
+fluke	.fluke.com(LOCAL)
+fluke=	fluke.com
+fluke	decwrl(DAILY),
+	el-tco(DIRECT),
+	emoryu1(DAILY),
+	fehq(EVENING),
+	hplsla(DIRECT),
+	lbl-csam(DAILY),
+	microsoft(DIRECT+LOW),
+	mtxinu(DEMAND+LOW+LOW),
+	ncm(DIRECT),
+	oophost(DEMAND),
+	sbmsg1(DAILY),
+	<sbmsg3>(DAILY),
+	ssc-vax(DIRECT),
+	sun(DEMAND+LOW),
+	sunup(DIRECT),
+	thebes(DIRECT),
+	tikal(DIRECT),
+	uiucuxc(DEMAND),
+	uw-beaver(DIRECT),
+	uw-vlsi(DIRECT),
+	van-bc(DEMAND),
+	wavetek(EVENING)
+
+#N	.iscs.com, iscuva
+#F	uxc.cso.uiuc.edu
+#O	ISC Systems Corporation
+#C	David Schmidt, Cathy Hooper
+#E	davids@ISCS.COM, cathyh@ISCS.COM
+#T	+1 509 927 5479, +1 509 927 5173
+#P	E. 22425 Appleway, Liberty Lake, WA 99019
+#L	47 40 20 N / 117 05 40 W
+#U	uunet reed wsuecme
+#R	applied
+#W	davids@ISCS.COM (David Schmidt); Mon Nov  9 08:07:26 PST 1987
+#
+iscuva	.iscs.com
+iscuva=	iscuva.iscs.com
+iscuva	uiucuxc(HOURLY), uunet(HOURLY), wsuecme(EVENING), reed(EVENING)
+
+#N	.data-io.com, pilchuck, dataio
+#F	uunet.uu.net
+#O	Data I/O Corporation,  Redmond Main Division
+#C	Tim Rosmus, Rick Braman
+#E	tim@Data-IO.COM, braman@Data-IO.com
+#T	+1 206 881 6444
+#P	10525 Willows Rd N.E./P.O. box 97046; Redmond, WA 98073
+#L	47 40 N / 122 07 W city
+#R	registered
+#U	pilchuck dataio suvax1 amc ssc ptisea
+#W	tim@pilchuck.Data-IO.COM ; Mon Dec 14 11:35:04 PST 1987
+#
+pilchuck	.data-io.com
+pilchuck=	data-io.com, pilchuck.data-io.com
+pilchuck	dataio(DIRECT), tikal(DIRECT), amc(DIRECT), apcisea(DIRECT),
+		toad(LOCAL), admin-pc(LOCAL), polcat(LOCAL), ibvu(DIRECT),
+		uunet(DEMAND), ranier(LOCAL), endot(DEMAND), gilbert(DAILY),
+		justin(LOCAL), fish(LOCAL), thirdi(DEMAND), thebes(DIRECT),
+		ptisea(DIRECT), colossus(DIRECT), algedi(POLLED), ssc(DIRECT),
+		yatsen(LOCAL), fnx(POLLED), brahms(POLLED), thrint(POLLED)
+dataio		.data-io.com
+dataio=		dataio.data-io.com
+dataio		uw-entropy(DIRECT), fncvax(DEMAND), pilchuck(DIRECT),
+		mtxinu(EVENING), sdcrdcf(EVENING), tikal(DIRECT),
+		suvax1(DIRECT), rust(HOURLY), analog(EVENING), 
+		thirdi(EVENING), fnrsun(LOCAL)
+
+#N      .quick.com, quick
+#F	uunet.uu.net
+#S      SUN 3/50;  SUNOS 3.3
+#O      Quicksilver Engineering, Seattle Washington
+#C      Spencer Garrett
+#E      srg@quick.com
+#T      +1 206 624 9098
+#P      1000 Union #213, Seattle, WA 98101
+#L      47 36 00 N / 122 18 40 W
+#U      uunet grace
+#W      srg@quick.com (Spencer Garrett); Sun Sep  6 19:56:12 PDT 1987
+#
+quick	.quick.com
+quick=	quick.com
+quick   uunet(DAILY), grace(DAILY), uw-entropy(DAILY)
+
+#N	.thalatta.com, thebes
+#F	entropy.ms.washington.edu
+#O	Thalatta Corporation
+#C	John P. Bossert
+#E	postmaster@Thalatta.COM
+#T	+1 206 643 7187
+#P	13616 NE 7th Street, Suite E6; Bellevue, WA 98005
+#L	47 34 N / 122 7 W
+#U	uw-entropy
+#R
+#W	bossert@Thalatta.COM (John Bossert); Sun Jan 24 12:00:17 PST 1988
+#
+thebes	.thalatta.com
+thebes=	thalatta.com
+thebes	camco(DIRECT), colossus(DIRECT), fluke(DIRECT), ncm(DIRECT),
+	ncrsea(DIRECT), pilchuck(DIRECT), sigma(DIRECT), sunup(DIRECT),
+	suvax1(DIRECT+LOW), tikal(DIRECT), uswnsi(DIRECT+LOW),
+	uw-entropy(DIRECT)
+
+#N	.teltone.com, tikal
+#F	uxc.cso.uiuc.edu
+#O	Teltone Corporation, Kirland WA
+#C	Duane Hesser, Ed Morin
+#E	sysad@Teltone.com, dhh@teltone.com, edm@teltone.com
+#T	206-827-9626
+#P	10801-120th Avenue NE, Kirkland, WA 98033
+#L	122 8 W / 47 42 N city
+#U	uw-beaver hplsla wor-mein amc ole sigma transys slovax walldata phred
+#R	uucp name of forwarder is b.cs.uiuc.edu
+#W	03/09/87 from tikal!dhh; Fri Apr 10 16:56:20 EDT 1987
+#
+tikal	.teltone.com
+tikal=	teltone.com
+tikal	uw-beaver(DIRECT), fluke(DEMAND), dataio(DEMAND), microsoft(DIRECT),
+	ssc(DIRECT), hplsla(DEMAND), sunup(HOURLY*4), amc(DIRECT),
+	pyrtech(DAILY), camco(DIRECT), geops(DIRECT), uw-nsr(DIRECT),
+	ole(HOURLY), slovax(DAILY+HIGH), sigma(DIRECT), walldata(HOURLY),
+	motsea(HOURLY), phred(DAILY/2), ncrsea(DIRECT), pilchuck(HOURLY),
+	wor-mein(HOURLY), transys(DIRECT), bethco(DIRECT), genric(DEMAND),
+	moss-bay(WEEKLY), colossus(HOURLY), thebes(DAILY), uiucuxc(DEMAND)
+
+SHAR_EOF
+:	End of shell archive
+exit 0

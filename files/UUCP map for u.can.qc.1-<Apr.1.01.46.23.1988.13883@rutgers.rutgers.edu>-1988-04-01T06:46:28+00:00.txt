@@ -1,0 +1,354 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.can.qc.1
+: This archive created: Fri Apr  1 01:45:42 1988
+echo shar: extracting u.can.qc.1
+cat << 'SHAR_EOF' > u.can.qc.1
+#	u.can.qc.1 : last updated Thu Mar 31 01:49:52 1988
+#	Changes/updates/corrections to utai!path (path@ai.toronto.{edu,cdn}).
+#	If you wish a permanent record of your registration or update, please
+#	send it to cbosgd!uucpmap *only*.  Elsewise please send the update to
+#	the utai!path address *only*.  The only difference is that sending an
+#	update/registration through the cbosgd!uucpmap address will guarantee
+#	the existence of a centrally kept copy.  If you wish to register your
+#	site as a subdomain under the Canadian top-level domain (.Ca), please
+#	contact utai!registry (registry@ai.toronto.{edu,cdn}) for information.
+
+#N      bedrock
+#S      Sun 3/160; Sun3.4 OS
+#O      Bell + Howell, IPSD
+#C      Ron Hall
+#E      bedrock!Postmaster, bedrock!root, bedrock!r2h2
+#T      +1 514 395 2284, ext 46
+#P      740 Notre Dame W., Suite 1500 Montreal, Quebec, Canada H3C 3X6
+#L
+#R      This talk to the rest of the Sun Networks here : 40 machines+workstation
+#U      musocs sunmtr(sunlegendre)
+#W      bedrock!r2h2 (Ron Hall); Mon Sep 21 09:26:24 EDT 1987
+#
+bedrock	sunmtr(DAILY), musocs(DAILY)
+
+#N	cae
+#S	Dy4 DSM6816; UniSoft UniPlus+ System III
+#O	CAE Electronics Ltd
+#C	Gilles Hurteau
+#E	cae!Postmaster
+#T	+1 514 341 6780 x 2934
+#P	8585 Cote-de-Liesse, St-Laurent, QC, Canada  H4T 1G6
+#L	73 43 W / 45 28 N
+#R	Flight & power plant simulators, control systems, aerospace electronics
+#U
+#W	zap!fortin (Denis Fortin); Thu Feb  4 14:15:56 EST 1988
+#
+cae     odyssee(DAILY), musocs(DEAD), iros1(DAILY), zap(DAILY)
+
+#N	clouso
+#S	MicroVAX-II; Ultrix 1.2 (4.2BSD)
+#O	Centre de Recherche Informatique de Montreal
+#C	Daniel Gorham
+#E	clouso!Postmaster
+#T	+1 514 848 4784
+#P	1550 boul. de Maisonneuve o., Montreal (Qc)
+#L	73 W / 45 N
+#R
+#U	iros1
+#W	iros1!burj (Justin Bur); Thu Jun 25 05:23:59 EDT 1987
+#
+clouso	iros1(LOCAL)
+
+#N	cmeteoc
+#S	SUN 3/280; 4.2 BSD UNIX
+#O	Canadian Meteorological Centre
+#C	Alain St-Denis
+#E	cmeteoc!Postmaster
+#T	+1 514 683 4470
+#P	2121, north service road, Transcanada hwy, Dorval, QC H9P 1J3
+#L	45 30 N / 73 45 W city
+#R
+#U
+#W	cmeteoc!afstasd (Alain St-Denis); Fri Mar 4 16:50:33 GMT 1988
+#
+cmeteoc	iros1(DAILY/4),	sunlegende(DAILY/4)
+
+#N      cnrail
+#S      CYB MultiBox; System V 2.0
+#O      Canadian National Railways (C.N.), Montreal, Quebec.
+#C      Osman Arslaner.
+#E      cnrail!osman
+#T      +1 514 399 5723
+#P      Signals & Communications, Box 8100, Montreal, Quebec H3B 2M9.
+#L      45 31 N / 73 34 W city
+#R
+#U      cambs micomvax
+#W      cnrail!osman (Osman Arslaner); Wed Mar  4 11:12:08 EST 1987 
+#
+cnrail  cambs(DEMAND), micomvax(DAILY)
+
+#N	elevia
+#S	TeleVideo Cat286;  SCO Xenix 2.1.3
+#O	Private site
+#C	William "Alain" Simon
+#E	elevia!postmaster
+#T	+1 514 486 5980
+#P	4848 Madison avenue, Montreal H3X 3T1, Canada
+#L	45 27 N / 73 40 W
+#R	elevia 
+#U
+#W	elevia!alain (William "Alain" Simon); Mon Oct 5 10:14:34 EDT 1987
+#
+elevia	iros1(HOURLY),
+	odyssee(HOURLY),
+	zap(HOURLY),
+	mmimon(HOURLY),
+	qnorth(HOURLY)
+
+#N	iros1
+#S	Sun-2/170; SunOS 3.4 (4.2BSD)
+#O	Dept. IRO, Universite de Montreal
+#C	Pierre Laplante, Helene Hebert
+#E	iros1!Postmaster
+#T	+1 514 343 6830
+#P	PO Box 6128, Station A, Montreal, Quebec  H3C 3J7
+#L	73 37 W / 45 30 N
+#R	IRO means Informatique et Recherche operationnelle
+#U	zap mcgill-vision clouso
+#W	iros1!justin (Justin Bur); Sat Feb  6 01:32:33 EST 1988
+#
+iros1	.umontreal.ca
+iros1=	iro.umontreal.ca
+#
+iros1	mcgill-vision(LOCAL), musocs(DEAD), clouso(LOCAL),
+	alisrd(POLLED), cae(POLLED), odyssee(DIRECT),
+	cmeteoc(POLLED), micomvax(POLLED), zap(DIRECT),
+	elevia(DIRECT)
+
+#N	mcgill-vision
+#S	DEC VAX-11/750; mtXinu 4.3+NFS
+#O	McGill University, Computer Vision and Robotics Lab (Dept. of E. E.)
+#C	Cem Eskenazi, Mike Parker
+#E	mcgill-vision!system, mcgill-vision!usenet, mcgill-vision!postmaster
+#T	+1 514 398 7155
+#P	McConnell Engineering Building, 3480 University, Montreal, PQ, Canada
+#U	iros1 bloom-beacon
+#W	mcgill-vision!mouse (Mike Parker); Sat Mar 26 03:01:00 1988
+#R	This machine is larry.mcrcim.mcgill.edu (42.2.4.3) on the Internet
+#
+# We gateway to *.mcgill.edu
+#
+mcgill-vision	.mcgill.edu
+#
+# For those who truncate to seven characters (ick)
+#
+mcgill-vision = mcgill-
+#
+# Connectivity info.
+#
+#	DIRECT -> local (free) phone call, 1200 bps
+#	LOCAL -> uucp-over-tcp LAN connection
+#
+mcgill-vision   musocs(LOCAL),		# McGill Computer Science
+		iros1(DIRECT),		# Universite de Montreal
+		mosart(DIRECT),		# Silicart Inc.
+		onfcanim(DIRECT),	# Office National du Film
+		zap(DIRECT),		# Denis Fortin's private machine
+		odyssee(DIRECT)		# Odyssee Recherches Appliquees
+
+#N	micomvax
+#S	VAX-11/780; UNIX  4.1bsd
+#O	Philips Electronics Ltd.
+#C	Mark Seguin
+#E	micomvax!cco, micomvax!root
+#T	+1 514 744 8200 (ext.2435)
+#P	600 Dr. Frederick Philips Blvd, St. Laurent - PQ, Canada
+#L	45 31 N / 73 34 W
+#R	
+#U	avec cnrail duparc hal1000 iros1 lgsvax matrox mnetor mosart mult
+#U	musocs onfcanim othervax philabs pelmtl vedge zap
+#W	micomvax!cco (Mark Seguin); Thu Feb 25 10:10:00 EST 1988
+#
+micomvax = micomva		# some reverse links show this name
+micomvax	avec(DEAD),		cnrail(HOURLY),
+		duparc(HOURLY),		hal1000(DEAD),
+		iros1(HOURLY),		lgsvax(DEAD),
+		matrox(HOURLY),		mnetor(DEMAND),
+		mosart(HOURLY),		mult(HOURLY),
+		musocs(HOURLY),		onfcanim(HOURLY),
+		othervax(DEDICATED),	philabs(DEMAND),
+		pelmtl(DEDICATED),	vedge(HOURLY),
+		zap(HOURLY)
+
+#N	mosart
+#S	VAX 11/750; Ultrix-32 V1.0
+#O	Silicart Inc.
+#C	Marc P. Rinfret
+#E	mosart!postmaster
+#T	+1 514 455 5681
+#P	1000 Boul. Roche, Vaudreuil, QC J7V 6B3
+#L	45 25 55 N/ 74 02 20 W
+#U	micomvax
+#W	mosart!marc (Marc P. Rinfret); Thu Feb 18 15:07:33 EST 1988
+#
+mosart	mcgill-vision(HOURLY/2), think(DAILY), zap(DIRECT), micomvax(HOURLY/2)
+
+#N	mult
+#S	NCR 600;  System V  (1.03.02)
+#O	Sobeco Group inc. (Montreal)
+#C	Jean-Marc Pigeon
+#E	mult!jmp
+#T	+1 514 878 9090
+#P	505 Dorchester blvd. West, Montreal QC, Canada
+#L	45 29 N / 73 30 W
+#R
+#U	micomva sunkisd avec
+#W	mult!jmp (Jean-Marc Pigeon) ; Mon  Feb 15 16:00:00 EST 1988
+#
+mult	micomva (DAILY), sunkisd (DAILY), avec (DAILY)
+
+#N	musocs
+#S	DEC MicroVAX-II; UNIX 4.3 BSD
+#O	McGill University, School of Computer Science
+#C	Peter Deutsch, Luc Boulianne
+#E	musocs!peterd, musocs!postmaster, musocs!usenet
+#T	+1 514 398 7083, +1 514 398 7087
+#P	Burnside Hall, 805 Sherbrooke St. W., Montreal, PQ, Canada
+#L	45 31 N / 73 34 W city
+#U
+#W	mcgill-vision!mouse (Mike Parker); Sun Jan 10 05:48:31 1988
+#
+musocs	utai(DAILY/4),			# University of Toronto AI
+	utcsri(DEAD),			# University of Toronto CSRI
+	microsoft(DEAD),		# Microsoft Inc.
+	deervax(DAILY/6),		# Concordia University (EE)
+	micomvax(HOURLY),		# Philips Montreal
+	watmath(DAILY/3),		# University of Waterloo
+	labo(DEAD),			# University of Laval
+	onfcanim(DAILY/8),		# National Film Board
+	mit-eddie(WEEKLY),		# MIT - unreliable
+	mcgill-vision(LOCAL),		# EE/MCRCIM McGill
+	cae(DEAD),			# cae
+	zap(DEAD),			# Denis Fortin
+	odyssee(DEAD),			# Odyssee Research
+	bedrock(DAILY/8)		# Bell & Howell
+
+#N	nlcmvax
+#S	DEC MicroVax II, Ultrix 2.0
+#O	National Library of Canada
+#C
+#E	
+#T	+1 819 997 7992
+#P
+#L
+#R
+#U
+#W	geac!david (David Haynes); Fri, 03 Jul 87 07:53:50 edt
+#
+nlcmvax	geac(POLLED)		# Geac Computers International Inc.
+
+#N	odyssee
+#S	SUN 3/160; 4.2 BSD UNIX (SUN Release 3.2)
+#O	Odyssee Recherches Appliquees inc.
+#C	Francois Pinard
+#E	odyssee!postmaster, odyssee!usenet
+#T	+1 514 279 0716
+#P	605 Rue De L'Epee, Montreal (Que), Canada H2V 3T7
+#L	45 31 17 N / 73 36 30 W
+#R	Applied research in AI, comp. linguistics, natural language synthesis
+#U
+#W	odyssee!pinard (Francois Pinard); Tue Dec 15 01:28:35 EST 1987
+#
+odyssee	alisrd(DAILY/4),		# ALIS inc, Ville St-Laurent
+	cae(EVENING),			# CAE Electronics ltd, Ville St-Laurent
+	elevia(DIRECT),			# Diane Nault inc, Montreal
+	iros1(DIRECT),			# Universite de Montreal, Montreal
+	kicah(EVENING),			# Rejean Payette, L'Epiphanie
+	mcgill-vision(DIRECT),		# Universite McGill, Montreal
+	musocs(DIRECT),			# Universite McGill, Montreal
+	oravax(WEEKLY/3),		# Odyssey Research Associates, Ithaca
+	sunlegende(DIRECT),		# Sun Microsystems, Montreal
+	zap(DIRECT)			# Denis Fortin, Kirkland
+
+#N	onfcanim
+#S	DEC VAX 11/780; 4.3BSD
+#O	National Film Board of Canada/Office national du film du Canada
+#C	David Martindale
+#E	onfcanim!postmaster
+#T	+1 514 283 9828
+#P	Box 6100, Station A, P-36, Montreal, Quebec, Canada  H3C 3H5
+#L	45 31 05 N / 073 39 30 W
+#R	Computer Animation Centre
+#U	micomvax
+#W	onfcanim!dave (Dave Martindale); Sun Nov 15 17:11:44 EST 1987
+#
+onfcanim	musocs(DIRECT), mcgill-vision(DIRECT), micomvax(HOURLY),
+		watmath(DAILY/3), watcgl(DAILY),
+		wavefront(DAILY*3), nrcctis(DAILY*3),
+		alias(WEEKLY), dciem(WEEKLY)
+
+#N	othervax
+#S	VAX-11/780; UNIX  4.1bsd
+#O	Philips Information Systems Ltd.
+#C	Mark Seguin
+#E	micomvax!othervax!cco
+#T	+1 514 744 8200 (ext.2435)
+#P	600 Dr. Frederick Philips Blvd, St. Laurent - QC, Canada
+#L	45 31 N / 73 34 W
+#R	
+#U	micomvax
+#W	othervax!cco (Mark Seguin); Wed Sep 25 20:30:00 EST 1985
+#
+othervax	micomvax(DEDICATED)
+
+#N	sunkisd
+#S	SUN 3/280; SUN OS 3.4
+#O	Concordia University
+#C	Frank Maselli
+#E	sunkisd!postmaster
+#T	+1 514 848 3031
+#P	1455 De Maisonneuve Blvd West, Montreal Que., H3G 1M8
+#L	45 31 N / 73 34 W city
+#R
+#U	mult
+#W	sunkisd!frank (Frank Maselli); Sun Feb 14 12:00:00 EST 1988
+#
+sunkisd	mult(DAILY)
+
+#N	vedge
+#S	sun 3/260; Sun unix 3.4
+#O	Visual Edge Software
+#C	David Lai
+#E	postmaster@vedge.uucp
+#T	+1 514 332 6430
+#P	3870 Cote Vertu, St. Laurent, PQ, Canada H4R 1V4
+#L	73 42 50 W / 45 29 23 N
+#R	Software Development, Computer Graphics, User Interfaces, Scientific
+#	Applications
+#W	vedge!lai (David Lai); Tue 15 Mar 18:45:09 EDT 1988
+#U	micomvax
+#
+vedge	micomvax(EVENING), musocs(HOURLY), onfcanim(HOURLY)
+
+#N	zap
+#S	TEC MASTER Advanced System+; Microport System V/AT 2.2
+#O	ZAP (Denis Fortin)
+#C	Denis Fortin
+#E	zap!Postmaster
+#T	+1 514 695 4045
+#P	57 Denault, Kirkland, QC, Canada  H9J 3J2
+#L	73 52 W / 45 27 N
+#R	Private site
+#U	odyssee iros1
+#W	cae!fortin; Tue Jan 19 19:30:11 EST 1988
+#
+zap	odyssee(DIRECT),		# Odyssee Recherches Appliquees Inc.
+	iros1(DIRECT),			# U. de M., Departement I.R.O.
+	musocs(DIRECT+HIGH),		# U. McGill, C.S. Department
+	elevia(DAILY/2),		# Diane Nault Inc.
+	cae(DAILY/2),			# CAE Electronique Ltee
+	micomvax(HOURLY),		# Philips-Micom
+	mosart(DIRECT)			# Silicart Inc
+
+SHAR_EOF
+:	End of shell archive
+exit 0

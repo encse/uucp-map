@@ -1,0 +1,206 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.isl.1
+: This archive created: Tue Feb  9 00:25:22 1988
+echo shar: extracting u.isl.1
+cat << 'SHAR_EOF' > u.isl.1
+# u.isl.1; changes to: uucpmap@hafro.uucp	Tue Nov  4 11:25:12 MET 1986
+
+#N	alvis
+#S	IBM 6150 / AIX 2.1.1
+#O	Alvis hf.
+#C	Heimir Thor Sverrisson
+#E	alvis!heimir
+#T	+354 1 622951
+#P	P.O.Box 1607, 121 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	hafro
+#W	alvis!heimir 871127
+#
+
+alvis  hafro(DAILY)
+
+alvis=alvis.is
+#N	geysir
+#S	HP 9000/840 HP-UX
+#O	National Energy Authority of Iceland
+#C	Einar Kjartansson
+#E	hafro!geysir!eik
+#T	+354 1 83600
+#P	Grensasvegi 9, 108 Reykjavik, Iceland
+#L	21 52 27W 64 07 57N
+#R	
+#U	
+#W	hafro!geysir!eik 870928
+#
+
+geysir .os.is
+
+geysir=geysir.is
+
+
+#N	hafro
+#S	HP9000/550, HP-UX
+#O	Marine Research Institute, Reykjavik
+#C	Gunnar Stefansson
+#E	hafro!gunnar
+#T	+354 1 20240
+#P	Skulagata 4, Reykjavik, Iceland
+#L	21 57 E / 64 08 N
+#R	Icelandic Backbone
+#U	mcvax
+#W	hafro!gunnar 870801
+#
+hafro	enea(ARPA), mcvax(ARPA-1), katla(DEAD), keilir(DEAD), krafla(HOURLY), marel(DAILY), rala(DAILY), geysir(DEMAND), simi(DAILY),  arbaer(DAILY)
+
+hafro .is
+hafro=hafro.is
+arbaer = arbaer.hafro.is
+hugh=hugh.is
+
+#N	keilir
+#S	HP9000/320 HP-UX
+#O	Utgardar, University of Iceland
+#C	Malcolm Cohen
+#E	keilir!malcolm
+#T	+354 1 622918
+#P	Ithrottahus Hagaskola, Fornhagi, 107 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	askja
+#W	hafro!gunnar
+#
+
+keilir = keilir.is
+
+kerfi = kerfi.is
+#N      lexis
+#S	IBM-RT AIX
+#O      University of Iceland, Institute of Lexicography
+#C      Jorgen Pind
+#E	lexis!jorgen
+#T      +354 1 694435
+#P      Arnagardi vid Sudurgotu, 101 Reykjavik, Iceland
+#L	21 57 35W 64 08 35N
+#W	lexis!jorgen 871121
+#
+lexis	krafla(DEMAND)
+
+lexis = lexis.is
+#N	marel
+#S	HP 9000/320, HP-UX 5.22 B
+#O	Marel hf.
+#C	Tomas Rikardsson
+#E	marel!tomas
+#T	+354 1 686858
+#P	Hovdabakki 9,  112 Reykjavik, Iceland
+#L	21 48 34W 64 07 32N
+#R	
+#U	
+#W	hafro!gunnar 871016
+#
+
+marel = marel.is
+
+nanna = nanna.is
+#N	norvol
+#S	HP 9000 350/Sys V, rel. 5.
+#O	Nordic Volcanologigal Institude
+#C	Hordur Halldorsson
+#E	norvol!hordur
+#T	+354 1 694300
+#P	University of Iceland, 107 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	
+#W	hafro!gunnar 871016
+#
+
+
+
+norvol=norvol.is
+#N	rala
+#S	HP900 550/HP-UX S500 5.2
+#O	Agricutural research institute
+#C	Johann Haukur Sigurdsson
+#E	rala!haukur
+#T	+354 1 82230
+#P	Keldnahoti,112 Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	
+#W	
+#
+
+rala=rala.is
+#N	raunvis
+#S	VAXstation II/GPX ULTRIX
+#O	Science Institute, University of Iceland
+#C	Marteinn Sverrisson
+#E	raunvis!matti
+#T	+354 1 21340
+#P	Dunhaga 3, Reykjavik, Iceland
+#L	21 57 35E 64 08 35N
+#R	
+#U	askja
+#W	hafro!gunnar
+#
+
+raunvis=raunvis.is
+krafla .rhi.is, .rhi
+
+#N	askja
+#S	Altos 3068/Sys V, rel. 2.
+#O	University of Iceland, Computing Center (RHI)
+#C	Marius Olafsson
+#E	askja!marius
+#T	+354 1 694747
+#P	Hjardarhaga 2, 107 Reykjavik, Iceland
+#L	21 57 35W 64 08 35N
+#U	krafla
+#W	rhi!marius 870928
+#
+askja	krafla(DEDICATED), katla(DEDICATED)
+askja = askja.rhi.is
+# askja = askja.rhi
+
+#N	krafla
+#S	HP-9000/840 HP-UX 
+#O	University of Iceland, Computing Center (RHI)
+#C	Marius Olafsson
+#E	krafla!marius
+#T	+354 1 694747
+#P	Hjardarhaga 2, 107 Reykjavik, Iceland
+#L	21 57 35W 64 08 35N
+#U	hafro,raunvis,keilir,askja
+#W	rhi!marius 870928
+#
+krafla	askja(DEDICATED), katla(DEDICATED), geysir(DEMAND), 
+	norvol(HOURLY), raunvis(HOURLY), kerfi(DAILY), hugh(DAILY), 
+	keilir(DAILY), hafro(DEMAND), nanna(HOURLY), lexis(HOURLY)
+krafla = krafla.rhi.is
+# krafla = krafla.rhi
+krafla = rhi
+
+#N	katla
+#S	VAX-11/750 VMS (Eunice)
+#O	University of Iceland, Computing Center (RHI)
+#C	Marius Olafsson
+#E	katla!marius
+#T	+354 1 694747
+#P	Hjardarhaga 2, 107 Reykjavik, Iceland
+#L	21 57 35W 64 08 35N
+#W	rhi!marius 870928
+#
+katla	askja(DEDICATED), krafla(DEDICATED)
+katla = katla.rhi.is
+# katla = katla.rhi
+
+
+simi = simi.is
+SHAR_EOF
+:	End of shell archive
+exit 0

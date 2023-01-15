@@ -1,0 +1,1279 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.co.1
+: This archive created: Tue Jun 14 02:03:20 1988
+echo shar: extracting u.usa.co.1
+cat << 'SHAR_EOF' > u.usa.co.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sun Jun 12 19:58:21 MDT 1988
+
+#N  akelei
+#S  SUN 3/160; 4.2BSD UNIX
+#O  Columbine Data Systems, Inc.
+#C  Dwight Melcher
+#E  akelei!postmaster
+#T  +1 303 938 8313
+#P  Suite 380, Boulder CO, 80301
+#L  105 14 22 W / 40 02 10 N 
+#U  boulder
+#W  akelei!dwight (Dwight Melcher) ; Mon Mar 30 09:47:39 MST 1987
+#
+akelei	boulder(DEMAND), nbires(DEMAND), sunpeaks(DEMAND)
+
+
+
+#N	ascvax
+#S	DEC VAX-11/750; 4.2 BSD UNIX
+#O	Ampex Switcher Company, Ampex Corporation
+#C	Pat Keziah
+#E	ascvax!usenet
+#T	+1 303 423 1300
+#P	10604 West 48th Avenue, Wheatridge, CO 80033
+#L	105 05 W / 39 47 N
+#U	gangue
+#W	ascvax!pjk (Pat Keziah); Thu Aug 14 11:10:21 MDT 1986
+#
+ascvax	udenva(DAILY/2), gangue(DAILY)
+
+
+#N	asgard
+#S	HP9000 Series 300 Model 10; HPUX 5.1
+#O	University of Colorado at Boulder
+#C	David A. Barrett
+#E	asgard!barrett
+#T	+1 303 440-0516
+#P	1030 Adams Circle #121, Boulder, CO. 80303-1842
+#L	40 00 22 N / 105 15 14 W
+#R	2400 bps modem; site uses notes
+#W	asgard!barrett (Dave Barrett); Wed Feb 10 12:09:16 MST 1988
+#
+asgard	<boulder>(DAILY), <orstcs>(WEEKLY)
+
+
+
+#N	ativax
+#S	AEON:332/AT GENIX System V.3
+#O	AEON Technologies
+#C	John Behrs
+#E	ativax!postmaster
+#T	+1 303 499 7304
+#P	2888 Bluff Street #227, Boulder, CO 80301
+#L	105 17 W / 39 58 N
+#U	fesk
+#W	ativax!john (John Behrs); Sat Dec 26 11:34:15 MST 1987
+#
+ativax	fesk(DIRECT)
+
+
+
+#N	bigsky
+#S	Tandy 6000 - Xenix 3.1.2
+#O
+#C
+#E	scicom!cyrill
+#T
+#P	Aurora, CO.
+#L	39 44 N / 104 57 W city
+#U	scicom
+#R	
+#W	03/28/88 scicom!cyrill
+#
+bigsky	scicom(DAILY)
+
+
+
+
+
+
+#N      bilanc
+#S      Tandy 4000HD - SCO XENIX System V/286 2.2.2
+#O      Computer Guidance & Support
+#C      Richard A. Bilancia
+#E      bilanc!rab
+#T      (303) 973-4035 voice
+#T      (303) 979-2248 data
+#P      P. O. Box 620127, Littleton, CO 80162
+#L      39 35 N / 105 20 W
+#R      Richard A. Bilancia 5/1/88
+#W      bilanc!rab (Richard A. Bilancia); Sun May  1 16:16:46 MDT 1988
+bilanc  udenva(DEMAND+HIGH), rabatt(DIRECT), isis(DEMAND+LOW), galon(DAILY),
+	fha(DEMAND), manakai(DAILY), scicom(DEMAND),
+	ethos(DEMAND+LOW), sys1(DEMAND), bdaemon(DEMAND),
+	omni(DEMAND), byerly(DEMAND), cpark(DEMAND), css(DEMAND),
+	ethos(WEEKLY), kbeat(WEEKLY)
+
+
+
+#N	boulder
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Colorado, Computer Science Dept.
+#C	Bob Coggeshall, Jeff Forys
+#E	postmaster@boulder.UUCP
+#T	+1 303 492 6096
+#P	University of Colorado, Campus Box 430, Boulder, CO 80309-0430
+#L	40 00 30 N / 105 17 00 W city
+#R	News and mail gateway for UC/Boulder.
+#W	forys@boulder.UUCP (Jeff Forys); Mon Jan 25 14:46:42 MST 1988
+#U	nbires fesk stan akelei sunybcs cu-den cires unicads peaks
+#
+#	Most users under our domain can be reached by mailing to
+#	"..boulder!user", and, provided you have a specific host,
+#	you can reach anyone here using "..boulder!host!user" or
+#	on the internet as "user@host.Colorado.EDU".
+#
+boulder	.colorado.edu
+boulder = boulder.colorado.edu
+#
+# These are maintained by our computing center...
+cu-boulder = {boulder, colo, cubldr, eprince, pprince, spot, tramp}!(LOCAL)
+#
+# UUCP over TCP/IP (connection attempted whenever traffic is queued).
+boulder	cires(DEDICATED), cu-den(DEDICATED), ncar(DEMAND),
+	sunybcs(DEDICATED), ucbcad(DEDICATED+LOW), utah-cs(DEDICATED+LOW)
+#
+# Local calls (we call whenever traffic is queued).
+boulder	akelei(DIRECT), ascvax(DIRECT), graftek(DIRECT), isis(DIRECT),
+	mbesac(DIRECT), nbires(DIRECT), ntia(DIRECT), oakley(DIRECT),
+	pyritan(DIRECT), scicom(DIRECT), seismobros(DIRECT), seri(DIRECT),
+	stcvax(DIRECT), sunpeaks(DIRECT), udenva(DIRECT)
+#
+# Long distance calls.
+boulder	bellcore(WEEKLY), blia(WEEKLY), pyramid(DAILY), usenix(DAILY)
+#
+# These sites call us, we never call them (using actual pathalias data).
+boulder	adiron(WEEKLY/3), asgard(DAILY), cadnetix(DAILY), codas(DAILY/3),
+	cognito(DAILY), densqnt(DAILY), fesk(DAILY/2), gerbil(DAILY),
+	ico(HOURLY), icus(DAILY/6), mar(DAILY/2), peaks(DAILY), plato(HOURLY),
+	pyritan(HOURLY), qetzal(DAILY/2), snowwhite(DAILY/4), stan(DAILY/5),
+	tcr(DAILY), unicads(DAILY/2), vianet(DAILY)
+
+
+
+#N      .del.scg.hac.com, celden
+#S      Zenith Z248, Xenix
+#O      Colorado Engineering Labs
+#C      Randy Reames
+#E      postmaster@del.scg.hac.com
+#T      +1 303 793 5285
+#P      8000 E. Maplewood Ave., Englewood, Co.  80111
+#L      105 03 W / 39 37 N city
+#R	scgvaxd is the UUCP gateway for this machine
+#W      rich@scgvaxd.hac.com (Richard Loo); Fri Apr  1 11:12:42 PST 1988
+#U
+#
+celden	scgvaxd(HOURLY*2) 
+
+
+
+#N	chariot
+#S	Convergent Technologies Miniframe Plus; CTIX Sys V Ver 3.2
+#O	Chariot Communications and Old Colorado City Electronic Cottage
+#C	Dave Hughes
+#E	chariot!dave
+#T	+1 303 632 4848 voice
+#T      +1 303 632 3391 data
+#P	2502 W Colorado Avenue, #203, Colorado Springs, Colorado, USA 80904
+#L	38 55 N / 104 50 W city
+#R	Dual public-free/private-subscription, naplps-ascii conferencing
+#U	winfree hp-lsd  ihnp4!itivax!chariot
+#W	chariot!dave (Dave Hughes); Sun Sep 6 12:00:00 MST 1987
+#
+chariot	winfree(DAILY), itivax(DAILY)
+
+
+
+#N	cires 
+#S	Pyramid 90x; OSx 4.0
+#O	Cooperative Institute for Research in Environmental Sciences 
+#C	David Hoge 
+#E	postmaster@cires.UUCP
+#T	+1 303 492 5529 
+#P	CIRES, University of Colorado Box 449, Boulder, CO 80309 
+#L	40 01 N / 105 16 W
+#R	
+#W	David Hoge; Thu Sep 24 14:47:59 MDT 1987
+#U	boulder
+#
+cires	.cires.colorado.edu
+cires	csu-cs(DAILY), ncar(DEMAND), nbires(DIRECT), boulder(LOCAL),
+	udenva(DIRECT), stcvax(DIRECT)
+
+
+#N	cognito
+#S	Intel 286/310; Xenix 286 3.0
+#O	A personal machine, with no organization whatsoever
+#C	Karl Hanzel
+#E	karl@cognito.UUCP
+#T	+1 303 443 6602
+#P	1006 Wagon Wheel Gap, Boulder, Colorado, 80302
+#L	40 3 45 N / 105 18 30 W 
+#R	dedicated to the pursuit of enlightenment
+#W	karl@cognito.UUCP; Tue Jan  5 20:15:15 MST 1988
+#U	boulder
+#
+cognito	boulder(DEMAND)
+
+
+
+#N	colocap
+#S	ATT 3B2/400;UNIX System V 2.0.4
+#O	Colorado Wing, Civil Air Patrol
+#C	Lynn O. Newman
+#E	colocap!root
+#T	+1 303 937 0795
+#P	P.O. Drawer C, Lowry AFB, Colorado  80230-0102
+#L	104 59 00 W / 39 47 30 N
+#R	
+#U	
+#W	reo!rick (Richard E. Oakes); Mon Oct 12 18:40:50 MDT 1987
+#
+colocap	reo (HOURLY)
+
+
+#N	csm9a
+#S	Gould PN9050, UTX-32
+#O	Colorado School of Mines, Computer Center
+#C	Bob Ware
+#E	udenva!csm9a!bware
+#T	(303) 273-3987
+#P	Golden, CO 80401
+#L	105 13 W / 46 N
+#U	
+#R	
+#W	csm9a!bware 9/1/87
+#
+csm9a	udenva(HOURLY*6), isis(HOURLY)
+
+
+
+#N	csugnat
+#S	VAX
+#O	Natural Resources Ecology Lab
+#C	Mike Vevea
+#E	mike@csugnat.UUCP
+#T	(303) 491-1967
+#P	102 NREL/Colorado State University, Ft. Collins, CO 80523
+#L	40 35 N / 105 05 W city
+#R	
+#W	dougm@ico.isc.com; Fri Dec 11 23:15:10 MST 1987
+#U	handel.colostate.edu
+#
+csugnat	handel(DEMAND)
+
+
+
+#N	cu-den
+#S	DEC VAX-11/750; 4.3 BSD UNIX
+#O	University of Colorado at Denver
+#C	Robert M. Sklar or Frank Holtry
+#E	netnews@cu-den.UUCP, postmaster@cu-den.UUCP
+#T	+ 1 303 556 2312
+#P	Denver, Colorado
+#L      39 37 N / 105 01 W city
+#R	Feeds mail to all campus machines not known to the outside.
+#U	boulder medevac nike udenva
+#W	cu-den!netnews (Robert Sklar); Fri Oct 23  17:21:54 MST 1987
+#
+cu-den = "cu-den.colorado.edu"
+cu-den = "cu-den.csnet"
+#
+cu-den	boulder(DEDICATED), medevac(DEAD), nike(DEDICATED), 
+        udenva(DEDICATED)
+
+
+#N	densqnt
+#S	Sequent Balance 8000
+#O	Sequent Computer Systems, Inc.
+#C	Harry Doby
+#E	densqnt!harry
+#T	+1 303 758 4931
+#P	4100 E. Mississippi Ave., Suite 1800, Denver, CO 80222
+#L      39 37 N / 105 01 W city
+#R	
+#U	
+#W	harry@densqnt.UUCP (Harry Doby); Sat, 2 Jan 88 10:04:17 mst
+#
+densqnt	sequent(DAILY/6), sunpeaks(DAILY/1)
+
+
+
+
+#N	dinl
+#S	MicroVAX II; ULTRIX-32 V2.0
+#O	Martin Marietta Information and Communication Systems, Denver Colorado
+#C	John P. Carris
+#E	dinl!carris
+#T	+1 303 977 0556
+#P	P.O. Box 1260, Mail Stop XL8058, Denver, CO 80201-1260
+#L	39 34 25 N / 104 59 20 W
+#R	dinl - Distributed Information Network Laboratory
+#U	ncar
+#W	dinl!carris (John P. Carris); Thu Jan 14 14:38:19 MST 1988
+dinl	ncar(DIRECT)
+
+
+
+#N	dse
+#S	DEC MICROVAX II; ULTRIX VERSION 2.0 
+#O	Ampex Audio Video Systems Division, Design Support Engineering
+#C	Michael Willett
+#E	news@dse.UUCP
+#T	1 303 570 3561
+#P	600 Wooten Road, M.S. 900-07, Colorado Springs, CO, USA, 80915-3597
+#L	38 50 N / 104 50 W City
+#R	Gateway for Ampex Colorado Springs machines
+#W	dse!wizard (Michael Willett); Fri Oct 16 08:31:57 MDT 1987
+#U	hp-lsd
+#
+dse	hp-lsd(DAILY), hpldola(DAILY),avsd(DEMAND),
+	ascvax(DEMAND),	tesla(DEMAND)
+
+
+#N	embudo
+#S
+#O	Alpha Communications Development Corp (AComm)
+#C	Mark Felton
+#E	embudo!markf
+#T
+#P	1019 Perth St.,  Aurora, CO. 80011
+#L	39 44 45 N / 104 44 W city
+#U	scicom
+#R	
+#W	03/28/88 scicom!cyrill
+#
+embudo	scicom(DIRECT)
+
+
+
+#N	fesk
+#S	NS ICM-3216; SysVr2 UNIX
+#O	Solar Energy Research Institute
+#C	Sverre Froyen
+#E	fesk!postmaster
+#T	+1 303 231 1782
+#P	1617 Cole Boulevard MS 16/3, Golden, CO 80401
+#L	39 46 40 N / 105 09 05 W
+#U	ativax, boulder, hoover, seri
+#W	fesk!sverre (Sverre Froyen); Sat Dec  5 11:34:15 MST 1987
+#
+fesk	ativax(POLLED), bernard(DEDICATED), boulder(DIRECT+HIGH),
+	hoover(DIRECT), seri(DEDICATED)
+
+
+#N	fha
+#S	Convergent Technologies MiniFrame; PC386 
+#O	Foothills Associates
+#C	Richard H. Goldberg
+#E	fha!dickg
+#T	(303) 697-1597
+#P	6610 S. Crestbrook Dr., Morrison, CO 80465
+#L	39 40 N / 105 20 W
+#R	Richard A. Bilancia 7/6/86
+#W	bilanc!rab (Richard A. Bilancia); Sun Jul  6 16:31:47 MDT 1986
+fha	bilanc(DAILY)
+
+
+
+#N	frisbee
+#S	SUN 3/160; 4.2 BSD UNIX, Sun Release 3.2
+#O	Maximum Storage, Inc.
+#C	Matt Taylor
+#E	frisbee!matt
+#T	+1 303 531 6888
+#P	5025 Centennial Blvd., Colorado Springs, CO 80919
+#L	38 50 N / 104 49 W city
+#R	5.25" optical disk drive manufacturer
+#U	hp-lsd
+#W	frisbee!matt (Matt Taylor); Tue Apr  12 11:05:01 MDT 1988
+#
+frisbee	mtxinu(DEMAND), hp-lsd(DEMAND), simtek(DEMAND)
+
+
+#N	gaia
+#S	Wisetek AT; Microport SVR2 unix
+#O	Gaia Corporation
+#C	Jonathan Corbet
+#E	gaia!jon
+#T	+1 303 499 2032
+#P	3232 Redstone Lane, Boulder, CO  80303
+#L	40 01 N / 105 17 W city
+#R
+#W	gaia!jon (Jonathan Corbet) Sat Apr 23 13:23:16 MST 1988
+#U	ncar delanore
+#
+gaia	delanore(DIRECT), nbires(DIRECT), ncar(DIRECT)
+
+
+#N      gangue
+#O      MINEsoft, Ltd.
+#C      Person: Michael N. Norred
+#T      (303) 934-8974
+#P      2345 S. Federal Blvd, Suite 190; Denver, CO 80219
+#E      mike@gangue.UUCP
+#L      39 46 N / 105 13 W city
+#C      engineering software
+#W      gangue!mike (Mike Norred); Sun Jan  4 16:54:12 EST 1987
+#U      nbires
+#S      Type/OS: SUN 2/120 UNIX 4.2BSD
+#
+#
+gangue  ascvax(POLLED), cisden(DEMAND), nbires(DEMAND), sunpeaks(DEMAND), 
+        unicads(POLLED)
+
+
+
+#N      gerbil
+#S      AT&T 7300, SYSVR2/3.5 2MB, 67MB disk
+#O      Private
+#C      Mark J. Childs
+#E      scgvaxd!gerbil!mjc
+#T      +1 303 777 1489
+#P      227 Sherman Street, Denver CO 80203
+#L      105 01 W / 39 43 N city
+#R      selected news groups exchanged with scgvaxd
+#R      latitude/longitude above is from site udenva map entry
+#U      scgvaxd
+#W      scgvaxd!mkp (Michael K. Peterson); Thu Aug 20 16:06:24 PDT 1987
+#
+gerbil  scgvaxd(DAILY)
+
+
+
+#N	.colostate.edu,handel
+#S	VAX-11/750, 4.3BSD
+#O	Colorado State Univ., Comp Sci Dept
+#C	Randolph Bentson
+#E	bentson@handel.UUCP
+#T	303/491-7016
+#P	CSU, Computer Science Dept, Ft. Collins, CO 80523
+#L	40 35 N / 105 05 W city
+#R	UUCP/TCP link to ncar prompts this entry.
+#R	Several campus sites are on local area network,
+#R	others are polled at least once an hour.
+#R	Domain is colostate.edu.
+#R      "Postmaster" will attempt to forward mail.
+#W	RABentson 14Apr88
+#U	hpfcdc hpfcla csugnat
+#
+handel="handel.colostate.edu"
+handel="colostate.csnet"
+handel	".colostate.edu"(LOCAL)
+handel	hpfcdc(HOURLY), hpfcla(HOURLY), nbires(DAILY), isucs1(DAILY),
+	lll-crg(DAILY), csugnat(HOURLY), ncar(LOCAL)
+
+
+
+#N	hipshk, .n128.z1.ifna.org
+#S	10Mhz AT Clone; PC-Dos 3.2, Doubledos 4.0, Opus 1.03a, ufgate
+#O	The HIP Shack BBS
+#C	Bdale Garbee
+#E	hipshk!bdale_garbee
+#T	+1 719 590 2868
+#P	4390 Darr Circle, Colorado Springs, CO, 80908, USA
+#L	38 54 N / 104 45 W 
+#R	node 1:128/19 on Fidonet.
+#U	winfree
+#W	winfree!bdale (Bdale Garbee); Mon Mar 28 08:18:01 MST 1988
+#
+#	sys also known as hipshk.n3eua.ampr [44.32.0.2] on packet radio,
+#
+hipshk	.n128.z1.ifna.org
+hipshk=	hipshk.ifna.org, f19.n128.z1.ifna.org
+hipshk	winfree(DIRECT)
+
+
+#N	hp-lsd
+#S	Hewlett-Packard 9000/350; HP-UX 6.01 B
+#O	Hewlett-Packard Company, Logic Systems Division
+#C	Bruce Mayes, David Geiser
+#E	hp-lsd!postmaster, hp-lsd!usenet
+#T	+1 303 590 5801
+#P	P.O. Box 617, Colorado Springs, Colorado 80901 USA
+#L	38 55 N / 104 50 W city
+#R	On HP Internet; most HP machines are directly connected via SMTP.
+#U	dse frisbee gtuplab hpldola lono nmsu-ee winfree
+#W	hp-lsd!adm (Administrator); Thu Mar 31 11:28:27 MST 1988
+#
+hp-lsd	cadreri(DEMAND-10), cbosgd(DEMAND), cit-hal(DEMAND+HIGH), 
+	csuchico(DEMAND), dse(DIRECT+HIGH), frisbee(DIRECT+HIGH), 
+	gtuplab(DEMAND), handel(DEMAND), hp-pcd(DEMAND-10), 
+	hp-sdd(DEMAND-10), hpbbn(DEMAND-10), hpcea(DEMAND-10), 
+	hpclla(DEMAND), hpcsma(DIRECT-10), hpfcdc(DEMAND-10), 
+	hpfcla(DEMAND-10), hpisla(DEMAND-10), hplabs(DEMAND-10), 
+	hpldola(LOCAL), hpscda(DEMAND-10), inmet(DEMAND+HIGH), 
+	isucs1(DEMAND+HIGH), lono(EVENING-50), ncar(DEMAND+HIGH), 
+	ndsuhp(DEMAND+HIGH), ndsuvax(DEMAND+HIGH), nmsu-ee(DEMAND), 
+	polyslo(DEMAND), ucbould(DEMAND), uccs-ee(DIRECT+HIGH), 
+	uf-ee9k(DEMAND), utecla(DEMAND+HIGH), verdix(DEMAND), 
+	winfree(DIRECT+HIGH)
+
+
+#N	hpfcdc
+#S	HP 9000 Series 200  HP-UX
+#O	Hewlett Packard Fort Collins Systems Division
+#C	Donn Terry
+#E	donn@hpfcdc.UUCP
+#T	(303) 226-3800 x2367
+#P	3404 E. Harmony Road, Fort Collins, CO 80525
+#L	40 31 31 N / 105 00 43 W
+#R	This machine was previously known as hp-dcd
+#W	Tw Cook <hpisla!tw> ; Sat Aug  9 14:58:39 MDT 1986
+#U	hpisla hpfcla hpbbn
+# 	A secondary hub; hpfcla is the primary hub for this site. 
+#	Most hpfc* and hp-dcd? machines can be reached through
+#	this machine or hpfcla.
+#
+hpfcdc=hp-dcd
+#
+hpfcdc	handel(DAILY), hp-lsd(DAILY), hp-pcd(DAILY), hpisla(DAILY),
+	hpda(DAILY), hpfcla(DAILY), hplabs(DAILY), hpavla(DAILY)
+
+
+#N	hpfcde
+#S	
+#O	Hewlett Packard
+#C	Joe Cowan, Jack McClurg
+#E	hpfcla!jvm
+#T	(303) 226-3800
+#P	3404 E. Harmony Rd., Ft. Collins, CO 80525
+#L	40 35 N / 105 05 W city
+#R	from news map
+#W	mccallum@nbires.UUCP	12/12/84
+#U	hpfcla
+hpfcde	hpfcdc(DEMAND), hpfclj(DEMAND), hpfcla(DEMAND)
+
+
+
+#N	hpfcla
+#S	Hewlett-Packard 9000/350; HP-UX 6.01
+#O	Hewlett-Packard, Fort Collins Systems Division (FSD)
+#C	Jim Norman
+#E	hpfcla!jimn
+#T	+1 303 229 3098
+#P	3404 East Harmony Road, Fort Collins, Colorado  80525
+#L	40 31 31 N / 105 00 43 W
+#R	HP Fort Collins Site Hub Machine.
+#U	
+#U	
+#W	hpfcla!jimn (Jim Norman); Mon Dec 28 17:01:11 MST 1987
+#
+hpfcla	handel(DIRECT), dsndata(HOURLY-10), edison(DEMAND-10), 
+	hp-internet(DEDICATED), hp-lsd(DEMAND-50), hp-pcd(DEMAND-50), 
+	hp-sdd(DEMAND-10+HIGH), hpanla(DEMAND-50), hpausla(HOURLY-50), 
+	hpavla(DEMAND-10+HIGH), hpbbn(DEMAND-50), hpbbse(DEMAND-50), 
+	hpbou(LOCAL), hpbsla(DEMAND-10), hpclla(DEMAND-10), 
+	hpcmmb(DEMAND-10+HIGH), hpcnoa(DEAD), hpcnoe(LOCAL), 
+	hpcnof(DEAD), hpcsla(DEMAND-10+HIGH), hpda(DEMAND-10+HIGH), 
+	hpdml43(DEMAND-10), hpfcdj(LOCAL), hpfcdt(LOCAL), 
+	hpfcfb(LOCAL), hpfcfc(LOCAL), hpfclh(LOCAL), 
+	hpfclm(LOCAL), hpfclo(LOCAL), hpfclq(LOCAL), 
+	hpfclr(LOCAL), hpfcly(LOCAL), hpfcma(LOCAL), 
+	hpfcmm(LOCAL), hpfcmp(LOCAL), hpfcms(LOCAL), 
+	hpfcmt(LOCAL), hpfcmw(LOCAL), hpfcpa(LOCAL), 
+	hpfcpc(LOCAL), hpfcpd(LOCAL), hpfcpe(LOCAL), 
+	hpfcpf(LOCAL), hpfcpg(LOCAL), hpfcph(LOCAL), 
+	hpfcpi(LOCAL), hpfcpk(LOCAL), hpfcpl(DIRECT), 
+	hpfcpm(LOCAL), hpfcpo(DIRECT), hpfcpp(LOCAL), 
+	hpfcpr(LOCAL), hpfcps(LOCAL), hpfcpt(LOCAL), 
+	hpfcrc(LOCAL), hpfcrg(LOCAL), xhpfcrh, 
+	hpfcrj(LOCAL), hpfcrs(LOCAL), hpfcse(DIRECT), 
+	hpfidla(LOCAL), hpfidpa(DIRECT), hpgrla(DEMAND-10+HIGH), 
+	hpl-opus(DEDICATED+10), hplabs(DEDICATED+10), hpldola(DEMAND-50), 
+	hpldsla(DEMAND-50), hplsdpa(DEMAND-10), hpnjla(DEMAND-10), 
+	hppad(DEMAND-10+HIGH), hpqtdla(DEMAND-50), hprndlb(DEMAND-10+HIGH), 
+	hprtd(DEMAND-10+HIGH), hpsadla(DEMAND-10), hpscda(DEMAND-10+HIGH), 
+	hpsgpa(DEMAND-50), hpscolb(DEMAND-10), hpspdla(DEDICATED+10), 
+	hpsrla(DEDICATED+10), hpstoa(LOCAL), hpstob(LOCAL), 
+	hpstop(LOCAL), hpujsda(DEMAND-50), hpvcla(DEMAND-10), 
+	hpycla(DEMAND-50), hpyidla(DEMAND-50), iem(DEMAND-10), 
+	ihnp4(DEMAND-10), oakhill(HOURLY), pdspp(DAILY), 
+	research(DEMAND-10)
+
+
+
+#N	hpfclj
+#S	
+#O	Hewlett-Packard
+#C	Alan Silverstein
+#E	root@hpfcla.UUCP
+#T	(303) 226-3800 x3053
+#P	3404 East Harmony Road, Fort Collins, CO 80525
+#L	40 35 N / 105 05 W city
+#R	
+#W	Paul Bame (hp-lsd!paul) - 14-July-84
+#
+hpfclj	hpfcdc(DAILY), hpfcde(DAILY), hpcnoa(DAILY), hpfcla(DAILY)
+
+
+
+#N      hpfclp
+#S      HP 9000 Series 320; HP-UX Version 6.0
+#O      Hewlett-Packard Company
+#C      John Diamant
+#E      hpfclp!postmaster
+#T      +1 303 229 3528
+#P      3404 East Harmony Rd., Ft. Collins, CO 80525
+#L      40 31 31 N / 105 00 43 W
+#R     
+#W      hpfclp!diamant (John Diamant); Mon Feb 29 16:20:09 MST 1988
+#U      hpfcdc
+#
+hpfclp  hplabs(LOCAL+HIGH), hpfcla(LOCAL), hpda(LOCAL+HIGH), hpccc(LOCAL+HIGH),
+	hpfcdc(LOCAL)
+
+
+
+#N	hpfclq
+#S	HP 9000/540; HP-UX 5.2; 2 CPU, 8 Mb, 2 IOP
+#O	Hewlett-Packard Fort Collins Systems Division
+#C	Scott Omdahl
+#E	sjo@hpfcla.UUCP
+#T	(303) 226-3800 x3089
+#P	3404 East Harmony Road, Fort Collins, CO 80525
+#L	40 32 N / 105 01 W
+#R	
+#U	hpfcla
+#W	hpfcla!sjo (Scott Omdahl) Wed, Aug 26, 1987  2:40:10 PM
+#
+hpfclq	hpfcla(DEMAND)
+
+
+
+#N	hpfcps
+#S	HP 9000 Series 500 Model 40; HP-UX 5.11
+#O	Hewlett-Packard Co.
+#C	Gary Stringham
+#E	hpfcps!root
+#T	+1 303 229 2500
+#P	3404 East Harmony Road, Fort Collins, Colorado  80525-9599
+#L	40 31 31 N / 105 00 43 W
+#R	
+#U	
+#W	hpfcps!garys (Gary Stringham); Tue Jan  5 20:27:16 MST 1988
+#
+hpfcps	hpfcla(LOCAL)
+
+
+
+#N	hpisla
+#S	Hewlett-Packard 9000/320; HP-UX 6.01 B
+#O	Hewlett-Packard Instrument Systems Lab
+#C	Roy Williams
+#E	hpisla!williams (williams@hpisla.HP.COM)
+#T	+1 303 667 5000 x3225
+#P	P.O. Box 301, Loveland, CO 80539
+#L	40 22 90 N / 105 06 30 W
+#R	
+#U	hplabs hpfcdc hplvla hpcea
+#W	williams@hpisla (Roy Williams); Fri Apr  1 02:15:13 MST 1988
+#
+hpisla	atlas, hp-lsd(DEMAND), hpcnof(DEMAND), 
+	hplabs(DIRECT), hplsla(DEMAND), hpltca(DEMAND), 
+	hpsadla, hpscda(DEMAND)
+
+
+#N	hpldola
+#S	Hewlett-Packard 9000/350; HP-UX 6.01 B
+#O	Hewlett-Packard Logic Design Operation
+#C	Parag Patel
+#E	hpldola!postmaster
+#T	+1 303 590 5769
+#P	P.O. Box 617, Colorado Springs CO 80901-0617, USA
+#L	38 55 N / 104 50 W city
+#R	In same building as hp-lsd
+#U	hpfcdc hp-lsd hpctdlb
+#W	parag@hpldola (Parag Patel); Sat May 28 01:50:02 MDT 1988
+#
+hpldola	analog(DEMAND-10), cadreri(DEMAND-10), dse(DIRECT+HIGH), 
+	hp-lsd(LOCAL), hpbbn(DEMAND-50), hpcpdca(DEMAND), 
+	hpctdlb(LOCAL+DIRECT), 	# indirect connection
+	hpfcla(DEMAND-50), hplsla(DEAD), hpuflcb(DEAD), 
+	hpumtla(DEAD), hpyidla(DEMAND-50), i2comm(POLLED), 
+	utecla(DEMAND-10)
+
+
+#N	hpltca, hpltcb
+#S	HP 9000 Model 540; HP-UX 5.11
+#O	Hewlett-Packard, Loveland Technology Center
+#C	Bruce Spence
+#E	bsp@hpltca.UUCP
+#T	+1 303 667 5000 x2445
+#P	P.O. Box 301, Loveland, CO 80539
+#L	105 05 W / 40 24 N city
+#R
+#U	hpltca
+#W	hpltca!bsp (Bruce Spence); Tue Oct  6 12:14:38 MDT 1987
+#
+hpltca	hpisla(DEMAND), hpqtdla(DEMAND), hpltcb(LOCAL),
+	hpcid(DEMAND), hpltbf(LOCAL)
+#
+hpltcb	hpltca(LOCAL)
+
+
+#N	hplvla
+#S	HP9000 series320; HP-UX
+#O	Hewlett-Packard Loveland Instrument Division
+#C	Dan Audette
+#E	hplvla!sysadmin
+#T	+1 303 667 5000  x3689
+#P	P. O. Box 301, Loveland, CO 80537
+#L	40 22 90 N / 105 06 30 W
+#R	
+#W	Dan Audette <hplvla!sysadmin> ; Thu Jul  2 15:32:11 MDT 1987
+#
+hplvla=hplva
+hplvla	hpfcdc(DEMAND), hp-lsd(DEMAND), hp-pcd(DEMAND), hpfcla(DEMAND),
+	hpisla(DEDICATED),  hplsla(DEMAND), hpltcb(DEMAND), hpwala(DEMAND)
+
+
+
+#N	isis
+#S	Pyramid 90x; OSx 4.0
+#O	University of Denver Department of Math and Computer Science
+#C	Andrew Burt
+#E	postmaster@isis.UUCP
+#T	+1 303 871-3344
+#P	John Greene Hall, Denver, CO 80208
+#L	39 43 N / 105 01 W city
+#W	isis!aburt (Andrew Burt); Mon Mar 28 07:02:43 MDT 1988
+#U	nbires onecom scicom udenva csm9a ico
+#
+isis	bilanc (DIRECT), boulder(HOURLY), csm9a(DIRECT),
+	ncar(DIRECT), ico(DAILY), nbires(DIRECT),
+	netech(DIRECT), onecom(HOURLY), pyramid(DAILY), scicom(DIRECT),
+	udenva(DEDICATED), duorion(DEDICATED), duvms(DEDICATED),
+	dunike(DEDICATED), qetzal(DAILY)
+
+
+#N	koala
+#S	
+#O	Sigma Design, Inc.
+#C	Troy Torgerson
+#E	ttorgers@koala.UUCP
+#T	+1 303 790 9080
+#P	61 Inverness Dr. East, Englewood, CO 80112
+#L	39 39 N / 104 59 W city
+#R	
+#W	ttorgers@koala.UUCP; Tue Nov 17 16:40:46 MST 1987
+#U	udenva
+#
+koala	udenva(DAILY/4), nbires(DAILY/4)
+
+
+#N      mecca   
+#S      Pacific Micro PM68D; Unix SYSV version 5.2
+#O      Middel Earth Computer Communications Anomaly    
+#C      Thom Skrtich or Jareth Hein     
+#E      mecca!netnews  mecca!postmaster
+#T      + 1 303 287 4462
+#P      Dupont, Colorado
+#L      39 37 N / 105 01 W city
+#R      Mecca is a public access multi-line Unix system         
+#U      koala medevac clem 
+#W      mecca!toor (Thom Skrtich); Fri Feb 5  20:21:54 MST 1988
+#
+mecca   medevac(DEAD), clem(EVENING), koala(DEMAND) 
+
+
+#N	medevac
+#S	Apple Lisa; SCO XENIX 3.0
+#O	Medevac Inc.
+#C	Robert M. Sklar
+#E	robert@medevac.UUCP, postmaster@medevac.UUCP
+#T	
+#P	P.O. Box 984, Wheatridge, CO 80034
+#L	105 05 W / 39 47 N city
+#R	Also getaway for Lakewood Department of Public Safety (LDPS)
+#R     	Phone # +1 303 987 7387 Larry Scheideman  medevac!scheid
+#U
+#W	medevac!robert (Robert Sklar); Thu Dec 18 02:09:26 MST 1986
+#
+medevac	scicom(DIRECT), reo(DAILY)
+
+
+
+#N      milehi, .n104.z1.ifna.org
+#S      IBM PC; MS-Dos 3.2,  uuslave  
+#O      Private 
+#C      Oscar Barlow
+#E      oscar@milehi.UUCP
+#T      +1 303 973 9338  
+#P      4838 S Owens Way, Littleton, CO 80127  
+#L      39 43 N / 105 01 W city 
+#R      Also known 'Mile Hi Tech', FidoNet 104/56 
+#U      scicom
+#W      milehi!oscar (Oscar Barlow); Wed Jul 31 16:12:15 MDT 1987 
+#       updated for ifna.org by castle!fidohost; Fri Mar  4 17:14:41 PST 1988
+#  
+milehi  .n104.z1.ifna.org
+milehi= milehi.ifna.org, f56.n104.z1.ifna.org
+milehi  scicom(DEMAND)
+
+
+
+#N	mmccsde
+#S	Celerity 1230; 4.2 BSD
+#O	Martin Marietta, Denver Aerospace
+#C	Jerry Jelinek
+#E	mmccsde!jelinek
+#T	+1 303 971 6827
+#P	PO Box 179 M.S. L0425 Denver Co. 80201
+#L	39 37 N / 105 01 W city
+#R
+#U	gangue
+#W	mmccsde!jelinek (Jerry Jelinek); Mon Apr 27 08:09:27 PDT 1987
+#
+mmccsde	gangue(DIRECT)
+
+
+
+#N	nger
+#S	Intergrated Solutions Inc. 14/10; Unix 4.2 BSD
+#O	Integrated Solutions Inc.
+#C	Kevin P. Brooks
+#E	usenet@nger.UUCP
+#T	+1-303-444-5710
+#P	2945 Wilderness Place, Boulder CO 80301, USA
+#L	Latitude 39 30 N / Longitude 104 30 W 
+#W	nger!kevin; Sat May 21 11:16:47 MDT 1988
+#
+nger	nbires(DIRECT)
+
+
+
+#N	ntia
+#S	Pyramid 90x; OSx
+#O	NTIA-ITS, US Dept. of Commerce
+#C	D.J. Atkinson
+#E	ntia!dj
+#T	+1 303 497 5281
+#P	US Dept of Commerce, NTIA-ITS.N3, 325 Broadway, Boulder, CO 80303
+#L	105 17 W / 39 59 N
+#R	none
+#U	ncar boulder nbires
+#W	ntia!dj (D.J. Atkinson); Tue May 5 11:33:00 MDT 1987
+#
+ntia	ncar(DAILY), boulder(DAILY), nbires(DAILY)
+
+
+
+#N	onecom
+#S	Sun Workstation Network; 4.2 BSD UNIX
+#O	TelWatch Inc.
+#C	Steven D. Fobes
+#E	onecom!Postmaster
+#T	+1 303 440 4756
+#P	2905 Wilderness Place, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#R	
+#W	onecom!steve (Steven D. Fobes); Thu May  5 09:20:27 MDT 1988
+#U	isis graftek wldrdg
+#
+onecom	nbires(DIRECT), stcvax(DIRECT), isis(DIRECT), udenva(DIRECT),
+	wldrdg(DIRECT), graftek(DIRECT), tyvax(DIRECT), ihnp4(DAILY+LOW),
+	twedc(DAILY), drae4(DIRECT), cadovax(DEAD), cado1(DEAD), pnn(DEAD)
+
+
+#N	pawsd
+#S	Tandy 6000; Xenix 03.02.00
+#O	Pagosa Area Water and Sanitation District
+#C	Ron McDowell
+#E	flattop!postmaster
+#T	+1 512 655 3716
+#P	Post Office Box 4610, 100 Lyn Ave., Pagosa Springs, Colorado, 81157
+#L	107 05 W / 37 15 N
+#R
+#U
+#W	flattop!rcm (Ron McDowell); Tue Jun  2 20:46:58 MDT 1987
+#
+pawsd  flattop(WEEKLY/2)
+
+
+
+#N	polygon
+#S	DEC MicroVax II; 4.3 BSD Unix
+#O	Polygon Network, Incorporated
+#C	Mark Ehr
+#E	polygon!mehr
+#T	+1 303 468 1245
+#P	PO Box 1885, Dillon, CO  80435-1885
+#L	39 38 00 N / 106 2 30 W
+#R	<None>
+#U	<None>
+#W	polygon!mehr (Mark Ehr); Wed Mar 9 11:14:03 MST 1988
+#
+polygon		uunet(DEMAND), isis(DAILY/4)
+
+
+
+#N	qetzal
+#S	IMS 286; Microport SYS V/AT 2.3L
+#O	Mentor Software, Inc.
+#C	Robert C. White, Jr.
+#E	qetzal!postmaster
+#T	+1 303 759 3666
+#P	11534 Steele Street, Thornton, Colorado 80233
+#L	39 54 58 N / 104 57 15 W
+#R	News 2.11.14;alt.* available, pubnet available. Inquire within.
+#U	upba swlabs telesci
+#W	qetzal!rcw (Robert C. White, Jr); Fri Dec 11 11:00:14 MDT 1987
+#
+qetzal  scicom(DIRECT), reo(DIRECT), mentor(DIRECT), 
+	isis(DIRECT), upba(DEMAND), ddsw1(EVENING),
+	swlabs(EVENING), gryphon(EVENING/5), boulder(DIRECT),
+	telesci(EVENING), bldr(DIRECT), uport(DEMAND),
+	hoptoad(EVENING)
+
+
+#N      rabatt
+#S      AT&T UNIX/PC (7300) - UNIX SYSTEM V, version 3.5.1.4
+#O      Computer Guidance & Support
+#C      Richard A. Bilancia
+#E      bilanc!rab
+#T      (303) 973-4035 voice
+#P      P. O. Box 620127, Littleton, CO 80162
+#L      39 35 N / 105 20 W
+#R      Richard A. Bilancia 5/1/88
+#W      bilanc!rab (Richard A. Bilancia); Sun May  1 16:16:46 MDT 1988
+#U      udenva rabtrs ethos
+rabatt	bilanc(DIRECT)
+
+
+
+#N	raven
+#S	NEC APC-IV; Microport Sys V R 2.2 UNIX
+#O	Eclectics of Boulder
+#C	Dick Dunn
+#E	raven!rcd
+#T	+1 303 494 0965
+#P	856 Sycamore Ave., Boulder, CO  80303
+#L	40 00 08 N / 105 13 33 W
+#R	true location 40 00 08 N / 105 13 33.5 W / 5225 ft altitude
+#U
+#W	raven!rcd (Dick Dunn); Fri Mar 18 00:07:38 MST 1988
+#
+raven	ico(DAILY/2), stcvax(DAILY/2)
+
+
+#N	rdss
+#S	VAX 11/780	VMS v4.6
+#O	Atmospheric Technology Division/NCAR
+#C	Jonathan Corbet
+#E	rdss!postmaster    postmaster@rdss.ucar.edu
+#T	(303) 497-8793
+#P	P.O. Box 3000, Boulder, CO 80307
+#L	40 01 N / 105 17 W city
+#R	Connection to ncar over local ethernet.
+#W	rdss!corbet 12/8/87
+#U
+rdss	ncar(DEMAND)
+
+
+
+#N	reo
+#S	Tandy 16B; XENIX 3.01.02
+#O	Colorado Wing, Civil Air Patrol
+#C	Richard E. Oakes
+#E	reo!postmaster
+#T	+1 303 361 6214
+#P	602 Dawson St., Aurora, Colorado  80011-6907
+#L	104 48 56 W / 39 42 34 N
+#R	Gateway to colocap, the actual Colorado Wing, CAP computer
+#U	
+#W	reo!rick (Richard E. Oakes); Mon Oct 5 08:40:50 MDT 1987
+#
+reo	scicom (DIRECT), medevac (DAILY/12), qetzal (DAILY/4),
+	colocap (HOURLY)
+
+
+#N	seagate
+#S	MIPS-M800:SYS V UMIPS
+#O	Seagate Technologies
+#C	Dave Warner
+#E	seagate!postmaster
+#T	+1 303 444 9300 x624
+#P	4775-B Walnut Street, Boulder, CO 80301
+#L	40 01 N / 105 17 W city
+#R
+#U	
+#W	seagate!warn (Dave Warner); Fri May 13 00:05:15 MDT 1988
+#
+seagate	boulder(DIRECT)
+
+
+#N	seri
+#S	Sun 3/160; Sun 3.2 UNIX
+#O	Solar Energy Research Institute
+#C	Arch Mott
+#E	seri!postmaster
+#T	+1 303 231 7687
+#P	1617 Cole Boulevard MS 17/1, Golden, CO 80401
+#L	39 46 40 N / 105 09 05 W
+#W	seri!arch (Arch Mott); Tue Apr,21 14:30:00 MST 1987
+#
+seri	bernard(DEDICATED), fesk(DEDICATED), sunpeaks(HOURLY+2*LOW)
+
+
+
+#N	simtek
+#S	SUN 3/280; 4.2 BSD UNIX
+#O	Simtek Corporation
+#C	Kerry Maletsky
+#E	simtek!kerry
+#T	+1 303 590 6523
+#P	1465 Kelly Johnson Blvd, Colorado Springs, CO 80132
+#L	38 50 N / 104 49 W city
+#R	non-volatile IC memory manufacturer
+#U	frisbee
+#W	simtek!kerry ; Tue Feb  9 15:10:16 MST 1988
+#
+simtek	frisbee(DIRECT)
+
+
+
+#N	stc-auts
+#S	Dec Vax-11/750; ULTRIX-32 V2.2
+#O	Storage Technology Corp.
+#C	Dan Shern
+#E	stc-auts!des
+#T	+1 303 673 6611
+#P	MS9145, 2270 S. 88th St., Louisville CO. 80028
+#W	stc-auts!des (Dan Shern); 5/27/88
+#
+stc-auts stcvax(DAILY/2)
+
+
+#N	stcvax
+#S	Vax-11/750; 4.3BSD
+#O	Storage Technology Corp.
+#C	Roger L. Rose
+#E	stcvax!uucpadmin
+#T	+1 303 673 6873
+#P	Mail Drop - 1169, 2270 S. 88th St., Louisville, CO 80028
+#L	39 59 N / 105 09 W city
+#W	stcvax!bar (Barb Moorhead); Tue May 17 14:15:39 MDT 1988
+#U	nbires
+#
+stcvax	nbires(DEMAND), ncar(DEMAND), cires(DEMAND), 
+	boulder(DEMAND), handel(EVENING), ihnp4(EVENING), decvax(DAILY),
+	stc-auts(DIRECT), graftek(DIRECT), onecom(DEMAND), vianet(DIRECT)
+
+
+
+#N	sunpeaks
+#S	Sun-3/180; SUNOS 3.5
+#O	Sun Microsystems, Inc.
+#C	Bill Meine
+#E	sunpeaks!postmaster
+#T	+1 303 850 0101
+#P	5251 DTC Parkway, Suite 625, Englewood, CO, 80111
+#L	104 53 53 W / 39 37 13 N
+#R	Rocky Mountain Regional Office
+#U
+#W	sunpeaks!bill (Bill Meine); Tue Apr  5 17:55:55 MDT 1988
+#
+sunpeaks	boulder(DIRECT), cadnetix(DAILY), densqnt(DIRECT),
+	gangue(DIRECT), graftek(DIRECT), ncar(DIRECT),
+	maverick(DIRECT), oakley(DIRECT), uswat(DIRECT),
+	precvis(DAILY), seri(DIRECT), sun(DEMAND),
+	sunflats(DEMAND), sunnmex(DEMAND), sunvalley(DEMAND),
+	tesla(DIRECT), texsun(DEMAND), unicads(DAILY)
+#
+# Local ethernet
+#
+#SUNPEAKS-ETHER = @{denali, logan, st_elias, forraker, hunter,
+#	orizaba, cotopaxi, olympus, rockymtn, pike, a_basin,
+#	werner, shasta, blanc, nuptse, nandadevi, kilimanjaro,
+#	neva, hood}(LOCAL)
+
+
+#N	tsc
+#S	VAX 11/730; ULTRIX 2.0-1
+#O	Digital Equipment Corp. (CSC)
+#C	Peter Schmitt
+#E	allegra!decwrl!tsc.dec.com!pete
+#T	(303)548-4749
+#P	305 S.Rockrimmon Blvd.,Colorado Springs, CO 80919
+#L	
+#R
+#W
+#U	tsc!pete (Peter Schmitt); Fri Sep 18 08:04 MDT 1987
+#
+tsc = tsc.dec.com
+tsc	muscat.dec.com
+tsc	decwrl
+
+
+#N	tst
+#S	DEC MICROVAX II; ULTRIX VER. 1.2 
+#O	Ampex Audio Video Systems Division, Design Test Engineering
+#C	Michael Willett
+#E	tst!news   
+#T	1 303 570 3561
+#P	600 Wooten Road, M.S. 900-07, Colorado Springs, CO, USA, 80915-3597
+#L	38 50 N / 104 50 W City
+#R	We receive news via Ampex's dse ethernet
+#W	dse!wizard (Michael Willett); Mon Mar 23 11:47:42 MST 1987
+#
+tst	dse
+
+
+
+#N	.du.edu, dunike, udenva
+#F	du.edu
+#O	University of Denver
+#C	William R. Edgington
+#E	dunike!uucp,dunike!usenet
+#T	+1 303 871 2081, +1 303 871 3171
+#P	2020 South Race BA 469, Denver CO 80208
+#L	105 01 W / 39 43 N city
+#R	Also on Internet (domain/nameserver) and BITNET (site DUCAIR)
+#R	First phone # is WRE's office; second is Dept.'s Office
+#U	cu-den.colorado.edu bilanc galon isis koala onecom
+#W	udenva!wedgingt (William R. Edgington); Wed May  4 19:00:53 MDT 1988
+#	
+dunike = du.edu, cair.du.edu
+dunike = nike.cair.du.edu, nike.du.edu
+udenva = udenva.cair.du.edu, udenva.du.edu, dueos, eos.cair.du.edu
+DU-NET = { dunike, udenva, ccndu, duathena, duorion, dutyche }!(LOCAL)
+dunike  ".du.edu"(LOCAL), ".cair.du.edu"(LOCAL),
+	boulder(DIRECT+2*FAST), cires(DIRECT+2*FAST), csm9a(DIRECT+2*FAST),
+	ncar(DIRECT+2*FAST)
+udenva	isis(DEDICATED), duloki(DIRECT), ascvax(DIRECT), bilanc(DIRECT+HIGH),
+	galon(DIRECT+HIGH), koala(DIRECT+HIGH), nbires(DIRECT), onecom(DIRECT)
+
+
+#N	unidot
+#S	PDP11-70, Unix V7
+#O	Unidot
+#C	Robert M. McClure
+#E	unidot!rmm
+#T	+1 303 526 9263
+#P	602 Park Point Drive; Golden, CO 80401
+#L	105 15 W / 43 30 N
+#W	shc@cfg.com (Steve Caine); Thu Jan  7 10:41:40 PST 1988
+#
+unidot  sco(WEEKLY), practic(WEEKLY), cfg(WEEKLY), nbires(WEEKLY), nud(WEEKLY),
+	umunhum(WEEKLY), plato(WEEKLY), blit(WEEKLY), polstra(WEEKLY)
+
+
+
+
+
+#N	unisyn
+#S	Sun 3/280; 4.2 BSD UNIX
+#O	Unisyn, Inc.
+#C	Eric Arnold, John Matheny
+#E	unisyn!postmaster
+#T	+1 303 443 7878
+#P	3300 Mitchell Lane, Boulder, CO 80301
+#L	40 02 N / 105 15 W
+#R	
+#U	uunet
+#W	unsiyn!matheny (John Matheny); Thu Mar 31 11:03:20 MST 1988
+#
+unisyn	.unisyn.com
+unisyn	unisyn.com
+unisyn	uunet(DEMAND)
+
+
+#N	uswat
+#S	Sun 3/280; SunOS 3.5
+#O	U S WEST Advanced Technologies
+#C	David Menges
+#E	postmaster@uswat.UUCP
+#T	+1 303 930 5347
+#P	U S WEST Advanced Technologies, 6200 S Quebec, Englewood CO  80111
+#L	39 34 N / 104 53 W
+#R	exterior net gateway to U S WEST Advanced Technologies
+#U	boulder
+#W	Al Gettier, uswat!afg; Tue May 12 18:13:51 MDT 1988
+#
+
+uswat	boulder(DIRECT), sunpeaks(DIRECT), mbux5(DIRECT),
+	bellcore(DEMAND), amdahl(DEMAND), pn1(DEMAND)
+
+#
+#
+#	most employees at US WEST are addressable as 
+#	..!uswat!FirstInitialLastName.
+#
+#
+
+
+
+#N	utmc
+#S	Convex C1; 6.0 Convex UNIX
+#O	United Techologies Microelectronics Center
+#C	Anne C. Okulski, Vinton Goff
+#E	utmc!postmaster
+#T	+1 303 594 8363, +1 303 594 8054
+#P	1575 Garden of the Gods Road, Colorado Springs, CO  80907
+#L	104 04 W / 38 05 N city
+#R	Currently we do not talk to anyone; convex polls us twice daily
+#U
+#W	utmc!okulski (Anne C. Okulski); Wed Aug 26 09:08:51 MDT 1987
+#
+utmc	convex(POLLED)
+
+
+
+#N	ve1arc, .n128.z1.ifna.org
+#S	PC Clone; PC-Dos, Opus 1.03a, ufgate
+#O	The Epoch 2000.0 BBS
+#C	Phil Somers
+#E	ve1arc!phil_somers
+#T	+1 719 590 7136
+#P	1075 Allegheny Drive, Colorado Springs, CO, 80919, USA
+#L	38 50 N / 104 49 W city
+#R	Fidonet node 1:128/21, receives sci.astro from winfree
+#U	winfree
+#W	winfree!bdale (Bdale Garbee); Mon Mar 28 08:18:01 MST 1988
+#
+ve1arc	.n128.z1.ifna.org
+ve1arc=	ve1arc.ifna.org, f21.n128.z1.ifna.org
+ve1arc	winfree(DIRECT)
+
+
+#N	vianet
+#S	68020; SYSV.2 UNIX
+#O	Western Digital Corporation / Boulder Technology Center
+#C	Mitch Baker
+#E	vianet!mbb
+#T	+1 303 440 0700
+#P	2900 Center Green Court South, Boulder, CO  80301
+#L	105 17 W / 40 01 N city
+#R	Local area networking for DOS and UNIX.
+#U
+#W	vianet!mbb (Mitch Baker); Tue Mar  1 10:31:23 MST 1988
+#
+vianet	boulder(DAILY*3), cisden(WEEKLY), entire(WEEKLY), fortune(WEEKLY),
+	ncar(DEMAND), hpfcrp(WEEKLY), ico(DIRECT), itech1(WEEKLY),
+	nbires(DIRECT), necis(WEEKLY), retix(WEEKLY), stcvax(DIRECT),
+	trsvax(WEEKLY)
+
+
+
+#N	winfree
+#S	Symmetric 375; 4.2/3 BSD UNIX (Symmetrix)
+#O	Bdale's Personal "Berkeley Box"
+#C	Bdale Garbee
+#E	winfree!bdale
+#T	+1 719 590 2868
+#P	4390 Darr Circle, Colorado Springs, CO, 80908, USA
+#L	38 54 N / 104 45 W 
+#R	Privately owned system, hub for Southern Colorado Packet IP Network
+#U	hp-lsd hipshk ve1arc
+#W	winfree!bdale (Bdale Garbee); Mon Mar 28 08:18:01 MST 1988
+#
+#	sys also known as winfree.n3eua.ampr [44.32.0.1] on packet radio
+#
+winfree	bellcore(WEEKLY), chariot(DIRECT), crash(EVENING), 
+	hipshk(DIRECT), hpcsla(DIRECT+HIGH), hp-lsd(DIRECT), kd4nc(DEAD), 
+	n8emr(DEAD), pitt(EVENING), scbhq(EVENING), thumper(EVENING), 
+	usafa(WEEKLY), ve1arc(DIRECT), vixie(EVENING), wb6rqn(DEAD)
+
+
+SHAR_EOF
+:	End of shell archive
+exit 0

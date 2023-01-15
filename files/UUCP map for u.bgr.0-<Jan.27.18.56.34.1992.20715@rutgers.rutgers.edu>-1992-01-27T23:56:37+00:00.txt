@@ -1,0 +1,49 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.bgr.0
+: This archive created: Mon Jan 27 18:56:30 1992
+echo shar: extracting u.bgr.0
+cat << 'SHAR_EOF' > u.bgr.0
+# u.bgr.0 of 0,1; changes to: uucpmap@danbo.uucp
+# Copyright 1989-1992 by EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# #W lines show 2 dates: date of introduction and date of last change.
+# Last change:  Fri Jan 10 00:42:57 EET 1992
+
+#N	danbo, danbo.bg, .digsys.bg, bulgaria.eu.net
+#S	386/33; System V/386 rel 3.0
+#O	Digital Systems Co.
+#C	Daniel I. Kalchev
+#E	postmaster@danbo.bg
+#T	+359 52 234540
+#P	Struga 25 ap. 174, Varna - 9000, Bulgaria
+#L	43 12 N / 27 57 E city
+#U	mcsun ariadne
+#R	Bulgarian EUnet backbone site
+#W	ddodell@stjhmc.uucp 901210, daniel@danbo.bg 920110
+#
+danbo	= danbo.bg
+danbo	.digsys.bg
+
+# Local machines
+danbo	dsvme(LOCAL)
+
+# National links
+danbo	acmbul(DEMAND),
+	aubg(DEMAND),
+	lanix(DEMAND),
+	marsel(DEMAND),
+	paros(DEMAND),
+	pegas(DEMAND),
+	uccsu(DEMAND),
+	virbus(DEMAND)
+
+# New sites to be connected
+danbo	cecovar(DEMAND)
+
+# end of u.bgr.0
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,67 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.ks.1
+: This archive created: Wed Jul  6 01:47:00 1988
+echo shar: extracting u.usa.ks.1
+cat << 'SHAR_EOF' > u.usa.ks.1
+# Doug McCallum <dougm@ico.ISC.COM>; Sat Jul  2 20:14:22 MDT 1988
+
+#N	ksuvax1
+#S	DEC VAX-11/780; Mt. Xinu 4.3BSD w/NFS
+#O	Kansas State University Dept. of Computing & Information Sciences
+#C	Harvard Townsend
+#E	ksuvax1!postmaster
+#T	+1 913 532 6350
+#P	234 Nichols Hall, Manhattan, KS  66506
+#L	39 11 N / 96 35 W
+#R	Is also KSUVAX1.CIS.KSU.EDU on MidNet (NSFNet) and KSUVAX1 on BITNET
+#U	
+#W	ksuvax1!harv (Harvard Townsend); Thu May 19 11:25:41 CDT 1988
+#
+# ksuvax1	deimos(LOCAL), phobos(LOCAL)
+ksuvax1	ncrwic(DAILY)
+
+
+#N	ncrwic, Wichita.NCR.COM
+#S	NCR TOWER 32/600; System V, OS 1.03
+#O	NCR Corporation, Wichita, Kansas
+#C	John Matrow
+#E	John.Matrow@Wichita.NCR.COM
+#T	+1 316 636 8851
+#P	3718 North Rock Road, Wichita, KS 67226
+#L	37 45 00 N / 97 14 30 W
+#R	NCR E&M Wichita and NCR CETC
+#U      wbcs ksuvax1 Intrepid
+#W	ncrwic!jmatrow (John Matrow); Fri May 05 08:52:00 CDT 1988
+#
+# We are the gateway for the Wichita.NCR.COM domain. We also act as a 
+# virtual machine for all of the users in the domain. If you know the full
+# name of someone at a NCR Wichita site, mail sent to:
+#        FirstName.LastName@Wichita.NCR.COM
+# will get to them, no matter which machine and username they actually use.
+#
+ncrwic    = ncrwic.wichita.ncr.com
+ncrwic    wichita.ncr.com
+ncrwic    .wichita.ncr.com
+#
+# Non-local NCR sites. These go over NCR private lines, so they are quite
+# cheap. We try to contact on a demand basis, but the lines are busy enough
+# during the day that we can't count on getting through.
+#
+ncrwic	ncr-sd(DEDICATED)		#SanDiego.NCR.COM gateway
+ncrwic  ncrlnk(DEDICATED)		#Dayton.NCR.COM gateway & NCR.COM CSNet
+ncrwic  ncrcae(DEDICATED)		#Columbia.NCR.COM gateway
+ncrwic  ncrcam(DEDICATED)		#Cambridge.NCR.COM gateway
+ncrwic	ncrcce(DEDICATED)		#StPaul.NCR.COM gateway
+#
+# Non-NCR sites.
+#
+ncrwic	wbcs(DEMAND)			#Wichita Boeing Computer Services
+ncrwic	ksuvax1(DEMAND)			#Kansas State University CIS
+# ncrwic	Intrepid(DEMAND)		#University of Kansas ECE
+
+# EOF for map file: u.usa.ks.1
+SHAR_EOF
+:	End of shell archive
+exit 0

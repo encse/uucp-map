@@ -1,0 +1,94 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.nd.1
+: This archive created: Thu Jul 21 01:21:05 1988
+echo shar: extracting u.usa.nd.1
+cat << 'SHAR_EOF' > u.usa.nd.1
+# u.usa.nd.1 created by dpz@rutgers.edu on Mon Jul 18 17:31:14 EDT 1988
+
+#N      barris
+#S      NCR Tower 32-600; Unix V.2
+#O      Barrister Associates, Inc.
+#C      Tim Tegtmeier
+#E      !barris!tim
+#T      +1 701 282 4876
+#P      219 West Main, West Fargo, ND 58078
+#L      46 50 N / 97 00 W
+#R      Custom software and networking
+#U      ndsuvax
+#W      barris!tim (Tim Tegtmeier); Thu Feb 4 17:00:00 CST 1988
+#
+barris  ndsuvax(DIRECT), fargo(DEDICATED)
+
+#N	cas785
+#S	DEC VAX 11/785; VMS 4.6
+#O	University of North Dakota
+#C	Douglas K. Rand
+#E	undpdp!postmaster
+#T	+1 701 777 2552
+#P	Computer Services, Center for Aerospace Sciences Grand Forks, ND  58202
+#L	47 56 57 N / 97 10 34 W
+#R
+#U
+#W	undpdp!dougkr (Douglas K. Rand); Sat Oct 24 20:57:47 CDT 1987
+#
+cas785	undpdp(LOCAL)
+
+#N	ndsuhp
+#S	HP 9000 (HP-UX)
+#O	North Dakota State University, Electronics and Electrical Engineering
+#C	Joe VanLoy
+#E	ndsuhp!vanloy
+#T	701 237 7019
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R
+#U
+#W	ndsuvax!ncbergst (T. Bergstrand); Mon Sep 14 00:00:00 EDT 1987
+#
+ndsuhp  ndsuvax(DIRECT)
+
+#N	ndsuvax
+#S	VAX 11-780; 4.3bsd
+#O	North Dakota State University, Department of Mathematical Sciences
+#C	Troy Bergstrand
+#E	ndsuvax!ncbergst
+#T	+1 701 237 7786
+#P	Fargo, ND, 58105
+#L	46 52 N / 96 48 W city
+#R	This is also plains.NoDak.edu [128.33.18.50] on the Internet
+#U	ndsuvm1 barris undpdp
+#W	ndsuvax!ncbergst (T. Bergstrand); Thu Jun  2 13:10:40 CDT 1988
+#
+ndsuvax	.nodak.edu
+ndsuvax	=nodak.edu
+ndsuvax	=ndsuvax.nodak.edu
+#
+#	 TCP/IP
+ndsuvax kartoon(DIRECT), ndmoon(DIRECT), ndvenus(DIRECT),
+	ndmars(DIRECT), ndsuvm1(DIRECT), ndsueee(DIRECT)
+#
+# Dialup
+ndsuvax uunet(EVENING), umn-cs(DAILY*2), barris(DEMAND), hp-lsd(DAILY),
+	ndsuhp(DIRECT), undpdp(DIRECT), nomad2(DEMAND), ndsupdp(DAILY),
+	ndsuext(DIRECT)
+
+#N	undpdp
+#S	DEC PDP 11/44; 2.9 BSD UNIX
+#O	University of North Dakota
+#C	Douglas K. Rand
+#E	undpdp!postmaster
+#T	+1 701 777 2552
+#P	Computer Services, Center for Aerospace Sciences Grand Forks, ND  58202
+#L	47 56 57 N / 97 10 34 W
+#R
+#U	ndsuvax
+#W	undpdp!dougkr (Douglas K. Rand); Sat Oct 24 20:57:47 CDT 1987
+#
+undpdp	ndsuvax(DIRECT), cas785(LOCAL)
+
+# u.usa.nd.1 EOF
+SHAR_EOF
+:	End of shell archive
+exit 0

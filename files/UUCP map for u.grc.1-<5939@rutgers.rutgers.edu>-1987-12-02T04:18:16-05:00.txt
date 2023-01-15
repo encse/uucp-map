@@ -1,0 +1,115 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.grc.1
+# This archive created: Wed Dec  2 04:18:14 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.grc.1
+cat << ¬•SHAR_EOF > u.grc.1
+# u.grc.1; changes to: uucpmap@mcvax.uucp
+# Last change:  Fri Sep  4 13:50:36 MET DST 1987
+
+
+#N	ariadne
+#S	
+#O	Cretan Research Center
+#C	Kostas Vassilakis
+#E	ariadne!kostas
+#T	+30 81 221171
+#P	P.O. Box 527, Iraklion, Crete, Greece
+#L	25 09 E / 35 20 N
+#R	
+#U
+#W	mcvax!piet 841215,870609
+#
+ariadne	ermhs(HOURLY*4), theseas(DAILY)
+
+#N	aris
+#S	
+#O	National Technical University of Athens
+#C	Soukissian Levon
+#E	aris!levon
+#T	+30 1 7757401
+#P	Heroon Polytechneiou, Zografou, GR-15773 Athens, Greece
+#L	23 43 E / 37 58 N city
+#R	
+#U
+#W	mcvax!piet 870609,870907
+#
+
+#N	ermhs, hra, dias, ccc-gr
+#S	
+#O	Computer Technology Institute of Patras
+#C	Thanasis Hadzilacos
+#E	hra!thh
+#T	+30 61 993176
+#P	P.O. Box 1122, 261 10 Patras, Greece
+#L	21 44 E / 38 15 N
+#R
+#U
+#W	mcvax!piet 870218,870806
+#
+ermhs	ccc-gr(DEAD), dias(DIRECT), hra(DIRECT), kronos(DAILY),
+	uopced(DAILY)
+	
+#N	kronos
+#S	
+#O	Institute of Chemical Engineering and High Temperature Chemical Processes
+#C	Stavros Pavlou
+#E	kronos!bio
+#T	+30 61 993253
+#P	P.O. Box 1239, GR-26110 Patras, Greece
+#L	21 44 E / 38 15 N
+#R
+#U
+#W	mcvax!piet 870218
+#
+
+#N	nefeli
+#S	
+#O	National Technical University of Athens
+#C	Yannis Maistros
+#E	nefeli!maistros
+#T	+30 1 7757401
+#P	Vassilisssis Sofias street 71, Athens, Greece
+#L	23 43 E / 37 58 N city
+#R
+#U
+#W	mcvax!piet 870907
+#
+
+#N	theseas, prometheas
+#S	
+#O	National Technical University of Athens
+#C	Achilles Voliotis
+#E	theseas!postmaster
+#T	+30 1 7757401
+#P	Heroon Polytechneiou, Zografou, GR-15773 Athens, Greece
+#L	23 43 E / 37 58 N city
+#R	
+#U
+#W	mcvax!piet 870609,870625
+#
+theseas	aris(HOURLY*3), nefeli(HOURLY*4), prometheas(DEDICATED+HIGH)
+
+#N	uopced, greece
+#S	
+#O	Computer Technology Institute of Patras
+#C	George Voulgaris
+#E	ermhs!vulgaris
+#T	+30 61 992096
+#P	P.O. Box 1122, 261 10 Patras, Greece
+#L	21 44 E / 38 15 N
+#R
+#U
+#W	mcvax!piet 870218,870806
+#
+uopced	greece(DAILY)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

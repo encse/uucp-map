@@ -1,0 +1,48 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.id.1
+# This archive created: Wed Jan  6 01:27:51 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.id.1
+cat << \SHAR_EOF > u.usa.id.1
+# This map is maintained by David Schmidt (davids@iscuva.ISCS.COM).
+# Mail updates to uucpmap@cbosgd.att.com (cbosgd!uucpmap).
+# Last updated: Tue Jan  5 16:28:41 PST 1988
+
+#N	tetons
+#S	Sun 3/140; SunOS 4.2, release 3.4
+#O	Future Computing Technology Department, Amdahl Corporation
+#C	Bob Snead
+#E	tetons!usenet
+#T	+1 208 356 8915
+#P	143 N. Second E., Rexburg, ID, 83440
+#L	43 50 N / 111 46 W
+#R	looking for a few good connections!
+#W	tetons!rrs (Bob Snead); Thu Dec 17 09:02:06 MST 1987
+#U	amdahl
+#
+tetons	amdahl(DEMAND+LOW)
+
+#N	ui3
+#S	hp9000 series 500; HPUX Version 5.15
+#O	Microelectronics Research Center, Univ. of Idaho, Moscow, ID 83843
+#C	John C. Shovic, Bill Smith
+#E	ui3!shovic
+#T	+1 208 885 6554
+#P	MRC College of Engineering, Univ. of Idaho, Moscow, ID 83843
+#L	46 44 N / 116 57 4 W 
+#R
+#U	egg-id iscuva wsuecme 
+#W	ui3!shovic (John C. Shovic); Tue Jan 5 15:18:39 PST 1988
+#
+ui3	egg-id(HOURLY*2), wsuecme(DEMAND), iscuva(EVENING),
+	hpubvwa(EVENING)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

@@ -1,0 +1,44 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.mi.1
+# This archive created: Wed Dec  2 04:03:39 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.mi.1
+cat << \SHAR_EOF > d.usa.mi.1
+#MAP FILE d.usa.mi.1 bob@rel.eds.com	Wed Nov 25 20:15:00 EST 1987
+#N	.eds.com
+#F	sun.com
+#O	Electronic Data Systems
+#C	Bob Leffler
+#E	postmaster@eds.com
+#T	+1 313 456-5375
+#P	Box 7019, 5555 New King St., Troy, MI 48007-7019    
+#L	
+#U	edsdrd fmsrl7 rel edsews nucleus 
+#R	
+#W	bob@rel.eds.com; Wed Nov 25 20:10:00 EST 1987    
+#
+rel=    .eds.com
+rel=    eds.com
+rel=    rel.eds.com
+rel     edsdrd(DIRECT), edsews(EVENING), edstb(POLLED), fmsrl7(DIRECT),
+	rutgers(EVENING), mcf(EVENING)
+edstb=  edstb.eds.com
+edstb   edsdrd(DIRECT), fmsrl7(EVENING), cbosgd(WEEKLY),
+    	rel(EVENING), nucleus(DIRECT), edsews(DIRECT)
+edsdrd= edsdrd.eds.com
+edsdrd  mibte(EVENING), edstb(EVENING), rel(EVENING)
+eds1=   eds1.eds.com
+eds1	conexch(EVENING), edstb(DEAD), nucleus(EVENING)
+edsews= edsews.eds.com
+edsews  rel(DIRECT), edstb(DIRECT), msudoc(DEAD), sun32(EVENING),
+	dwon(EVENING)
+ahxenix= rel
+SHAR_EOF
+#	End of shell archive
+exit 0

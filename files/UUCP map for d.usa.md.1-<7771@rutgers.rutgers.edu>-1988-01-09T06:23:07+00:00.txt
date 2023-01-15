@@ -1,0 +1,81 @@
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	d.usa.md.1
+# This archive created: Sat Jan  9 01:22:44 1988
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting d.usa.md.1
+cat << \SHAR_EOF > d.usa.md.1
+#	start of d.usa.md.1: Tue Jan  5 15:30:53 PST 1988
+#	maintained by horton@reed
+
+#N	.dec.com, decuac
+#F	decwrl.dec.com, decuac.dec.com
+#S	DEC Vax-11/750; Ultrix-32 V2.0
+#O	Digital	Equipment Corp., Software Services
+#C	Fred Avolio
+#E	decuac!postmaster
+#T	+1 301 459 7900
+#P	8301 Professional Pl., MS DC0/216, Landover, MD 20785
+#L	38 50 N / 76 45 W
+#R	UUCP mail gateway to DEC: user@hostname.DEC.COM, hostname.DEC.COM!user
+#W	decuac!avolio (Frederick M. Avolio); Tue Dec 22 11:13:44 EST 1987
+#U	dolqci netsys macom1 gouldsd elijah umd5(via nntp)
+#
+decuac	.dec.com
+decuac = decuac.dec.com
+#	local calls
+decuac	aplcen(DIRECT), dolqci(DIRECT), plxdc(DIRECT), cvl(DIRECT),
+	umd5(DIRECT), prcrs(DIRECT), dtix(DIRECT), cos(DIRECT),
+	grebyn(DIRECT), isavax(DIRECT), baskin(EVENING), leong(DIRECT),
+	c3pe(DIRECT), beartrack(POLLED), macom1(DIRECT), gouldsd(DIRECT),
+	hadron(DIRECT), super(DIRECT), arinc(DIRECT), netsys(DIRECT)
+#	long distance
+decuac	decvax(DEMAND), hjuxa(DEMAND), cbosgd(DEMAND), csmunix(DEMAND),
+	edison(DEMAND), vrdxhq(DEMAND), elijah(EVENING), research(DEMAND),
+	xanth(DEMAND), uccba(DEMAND), felix(DEMAND), cbatt(DEMAND),
+	necntc(POLLED), rayssd(DEMAND)
+decwrl	.dec.com
+
+
+#N	.super.org, super
+#F	relay.cs.net
+#O	The Supercomputing Research Center
+#C	Peter W. brewer, James Hogue
+#E	lerici@SUPER.org, hogue@super.org
+#T	+1 301 731 3802
+#P	4380 Forbes Boulevard, Lanham, MD 20706
+#L	38 57 06 N / 76 49 57 W
+#U	decuac gymble umd5 csnet-relay
+#R	registered
+#R	primarily on CSNET
+#W	11/20/87 from super!lerici
+#
+#	SUPER local ethernet machines, not all are accessible from outside
+#
+#SUPERNET = {lois, luthor, metropolis, brainiac, kent, krypton, bonnie, clyde, 
+#	lana, jorel, darkseid}!(LOCAL)
+#
+super	.super.org
+super=	super.org
+super	decuac(DIRECT), gymble(DIRECT), umd5(DIRECT), c1east(DIRECT), 
+	psuvax1(DIRECT), mmlai(HOURLY), psuvax1(HOURLY), ccvaxa(DAILY/3), 
+	mfci(DAILY/6), mtxinu(DAILY),
+	".umd.edu"(DIRECT), ".bitnet"(DEAD), ".psu.edu"(DIRECT)
+# Bitnet is now dead to allow me to do some testing!!! 
+# These guys poll us only! IDACRD is our
+# sister organization so we will probably improve our connections 
+# with them if possible. 
+# CSnet works sometimes if they don't dump core in my queue.
+# However they are supposed to be our main relay for now.
+idacrd	super(DAILY)
+".csnet" super(DIRECT)
+
+#	end of d.usa.md.1: Tue Jan  5 15:30:55 PST 1988
+SHAR_EOF
+#	End of shell archive
+exit 0

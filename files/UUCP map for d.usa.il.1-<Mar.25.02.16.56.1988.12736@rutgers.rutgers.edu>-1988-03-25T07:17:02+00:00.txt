@@ -1,0 +1,89 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	d.usa.il.1
+: This archive created: Fri Mar 25 02:16:17 1988
+echo shar: extracting d.usa.il.1
+cat << 'SHAR_EOF' > d.usa.il.1
+# d.usa.il.1 created by dpz@rutgers.edu on Wed Feb  3 13:31:24 EST 1988
+
+#N	.icom.com, icom
+#F	a.cs.uiuc.edu
+#O	Icom Systems, Inc.
+#C	Andrew H. Marrinson
+#E	Icom.Com!andy
+#T	+1 312 506 1444
+#P	3415 N. Kennicott Rd., Arlington Heights, IL 60004
+#L	88 00 W / 42 10 N
+#R	WARNING - our sendmail.cf bites the big one
+#U	datamen ihnp4 zappo tellab5
+#W	Icom.Com!andy; Tue Mar 17 12:09:05 CST 1987
+icom	.icom.com
+icom	icom.com
+icom=	icom.com
+icom	ihnp4(DAILY+LOW), tellab5(DEMAND), datamen(DIRECT), tapa(DIRECT),
+	uiucdcs(EVENING), zappo(DAILY)
+
+#N	.kai.com, kailand
+#F	uxc.cso.uiuc.edu
+#O	Kuck and Associates, Inc.
+#C	Patrick Wolfe
+#E	postmaster@KAI.COM, kailand!postmaster
+#T	217-356-2288
+#P	1808 Woodfield Drive, Savoy, IL 61874
+#L	40 07 N / 88 12 W city
+#R	applied
+#U	uiucuxc
+#W	pat@KAI.COM (Patrick Wolfe); Tue Apr 14 11:13:47 CST 1987
+#
+kailand	.kai.com
+kailand=	kai.com
+kailand		uiucuxc(DAILY)
+
+#N	.nwu.edu, nucsrl
+#F	EECS.NWU.EDU
+#O	Northwestern University
+#C	Jacob Gore, Ernie Woodward
+#E	gore@EECS.NWU.Edu, ernie@ACCuVAX.NWU.Edu
+#T	312-491-5248, 312-491-4078
+#P	Northwestern Univ. CSEL, 2145 Sheridan Rd, Evanston, IL 60208
+#L	42 03 33 N / 87 40 32 W
+#R
+#U	oddjob
+#W	gore@EECS.NWU.Edu (Jacob Gore); Wed Feb  3 01:01:27 EST 1988
+#
+nucsrl	.nwu.edu, .eecs.nwu.edu
+nucsrl	nwu.edu, eecs.nwu.edu
+nucsrl=	eecs.nwu.edu
+#
+numusic	.music.nwu.edu
+numusic	music.nwu.edu
+numusic=music.nwu.edu
+#
+nuearth	.earth.nwu.edu
+nuearth	earth.nwu.edu
+nuearth=earth.nwu.edu
+#
+molly	.math.nwu.edu
+molly	math.nwu.edu
+molly=	math.nwu.edu
+#
+#
+nucsrl	ihnp4(DIRECT), numusic(DIRECT-30), molly(DIRECT-30),
+	nuearth(DIRECT-30), chinet(EVENING), gargoyle(DEDICATED),
+	oddjob(DEDICATED), apcichi(POLLED), nuisp(DIRECT-30)
+#
+numusic ihnp4(DIRECT), nucsrl(DIRECT),  nuearth(DIRECT), molly(DIRECT),
+	nurr(DIRECT), nuisp(DIRECT), goldsho(DIRECT), laidbak(DIRECT),
+	fineart(DIRECT), pyrchi(DIRECT), sunbird(DIRECT)
+#
+molly	ihnp4(DIRECT), numusic(DIRECT), gargoyle(DIRECT), nuearth(DIRECT),
+	nucsrl(DIRECT), nuisp(DIRECT), kenlaw(DIRECT), jay(DIRECT),
+	iitcs(WEEKLY), cbm(POLLED), cbmvax(POLLED)
+#
+nuearth	numusic(DIRECT), ihnp4(DIRECT), molly(DIRECT), nucsrl(DIRECT),
+	nuisp(DIRECT), uicdogs(DIRECT), umix(HOURLY)
+SHAR_EOF
+:	End of shell archive
+exit 0

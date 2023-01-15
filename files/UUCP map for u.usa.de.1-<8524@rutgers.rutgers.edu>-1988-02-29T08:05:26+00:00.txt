@@ -1,0 +1,100 @@
+
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.usa.de.1
+: This archive created: Mon Feb 29 03:05:06 1988
+echo shar: extracting u.usa.de.1
+cat << 'SHAR_EOF' > u.usa.de.1
+#	start of u.usa.de.1: Mon Feb 22 10:28:51 PST 1988
+#	maintained by horton@reed
+
+#N	eplrx7
+#S	DEC Vaxstation II,  MORE/bsd 4.3
+#O	E.I. DuPont Co.
+#C	Lawrence A. Dziegielewski
+#E	eplrx7!lad
+#T	+1 302 695 1311
+#P	Expiremental Station, E357/318, Wilmington,  DE 19898
+#L	39 49 N / 75 30 W
+#R	
+#W	lad@eplrx7.UUCP(Lawrence A. Dziegielewski);Tue,  16 Feb 10:43:03 1988
+#U	uunet mouse
+#
+eplrx7	uunet(DEMAND), mouse (DEMAND)
+
+
+#N      mouse
+#S      ATT 3B1, System V 3.51
+#O      The MouseTrap 7300
+#C      Lawrence A. Dziegielewski
+#E      mouse!lad
+#T      +1 302 731 1583
+#P      60 N. College Ave. - Suite B,  Newark,  DE 19711
+#L      39 48 N / 75 30 W
+#R
+#W      lad@mouse.UUCP(Lawrence A. Dziegielewski);Tue,  16 Feb 10:43:03 1988
+#U      eplrx7
+#
+mouse   eplrx7(DEMAND)
+
+
+#N	udccpyr1
+#S	Pyramid 98xe; OSx 3.1
+#O	University of Delaware
+#C	Ron Reisor/Steve Singles
+#E	udccpyr1!postmaster
+#T	+1 302 451 6030
+#P	University of Delaware, Computing Center, Newark, DE 19716
+#L	39 42 N / 75 45 W
+#R	also know as pyr1.acs.udel.edu - [192.5.57.10].  
+#U	udccvax1 udel
+#W	udel!cranor (Charles Cranor); Thu Nov 26 19:15:47 EST 1987
+#
+#
+udccpyr1 =	pyr1.acs.udel.edu
+udccpyr1	udccvax1(LOCAL), udel(LOCAL)
+
+
+#N	udccvax1
+#S	DEC VAX-8650; 4.3 BSD UNIX
+#O	University of Delaware
+#C	Ron Reisor/Steve Singles
+#E	udccvax1!postmaster
+#T	+1 302 451 6030
+#P	University of Delaware, Computing Center, Newark, DE 19716
+#L	39 42 N / 75 45 W
+#R	also know as vax1.acs.udel.edu - [192.5.57.1].  
+#U	udccpyr1 udel
+#W	udel!cranor (Charles Cranor); Thu Nov 26 19:15:47 EST 1987
+#
+#
+udccvax1 =	vax1.acs.udel.edu
+udccvax1	udccpyr1(LOCAL), udel(LOCAL)
+
+
+#N	udel
+#S	DEC VAX-11/780; 4.3 BSD UNIX
+#O	University of Delaware
+#C	Postmaster
+#E	udel!postmaster
+#T	+1 302 451 8005
+#P	University of Delaware, 113 Evans Hall, Newark, DE 19716
+#L	39 42 N / 75 45 W
+#R	udel is host louie.udel.edu on arpanet - [10.0.0.96], [192.5.39.3]
+#U	burdvax gatech princeton rochester udccpyr1 udccvax1
+#W	udel!cranor (Charles Cranor); Thu Nov 26 19:12:04 EST 1987
+#
+#	below are our UUCP connections, plus our network connection
+#	to the computing center (udcc).   We can also reach hosts on
+#	the internet.
+#
+udel	.udel.edu
+udel =	louie.udel.edu
+udel	cfg(DEMAND), pcpond(DIRECT), udccpyr1(LOCAL), udccvax1(LOCAL)
+
+
+#	end of u.usa.de.1: Mon Feb 22 10:28:55 PST 1988
+SHAR_EOF
+:	End of shell archive
+exit 0

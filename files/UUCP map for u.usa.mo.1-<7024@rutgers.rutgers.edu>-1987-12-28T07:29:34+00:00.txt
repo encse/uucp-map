@@ -1,0 +1,468 @@
+
+#	This is a shell archive.
+#	Remove everything above and including the cut line.
+#	Then run the rest of the file through sh.
+#----cut here-----cut here-----cut here-----cut here----#
+#!/bin/sh
+# shar:    Shell Archiver
+#	Run the following text with /bin/sh to create:
+#	u.usa.mo.1
+# This archive created: Mon Dec 28 02:29:30 1987
+# By:	The UUCP Mapping Project (Dave Wecker Midnight Hacks)
+echo shar: extracting u.usa.mo.1
+cat << ¬•SHAR_EOF > u.usa.mo.1
+#	Start of u.usa.mo.1: Thu Dec 24 22:19:54 CST 1987
+#	maintained by hokey@plus5.COM
+
+#N	abstl
+#O	Anheuser-Busch, Inc.
+#C	David Grossman
+#T	+1 314 577 3125
+#P	One Busch Place, Bldg. 202-7, St. Louis, MO 63118
+#E	abstl!dpg
+#L	38 38 N / 90 11 W city
+#R	
+#W	plus5!hokey; Wed Jul 22 10:11:55 CDT 1987
+#U	wuphys
+#S	3B2-600; SV R3.1
+#
+abstl	plus5(HOURLY),
+	ids63p(HOURLY),
+	wucs2(HOURLY),
+	wuphys(EVENING),
+	we53(HOURLY),
+	solvnt(HOURLY),
+	glmpc(DAILY)
+#
+abstl	busch(DIRECT)
+busch	abstl(DIRECT)
+
+#N	afinitc
+#S	Plexus P/60; Plexus' System III port
+#O	Affinitec, Corporation
+#C	Gerald L. Collins
+#T	+1 314 569 3450
+#E	afinitc!jlc
+#P	2252 Welsch Industrial Court, St. Louis MO 64146
+#L	38 48 N / 90 24 W
+#R
+#W	afinitc!jlc; Fri Jun 26 15:48:37 CDT 1987
+#U	wucs1
+#
+afinitc	wucs1(EVENING),plus5(EVENING)
+
+#N	beyei
+#O	Bethesda Eye Inst.
+#C	Jay Fleischman
+#T	+1 314 772 1486
+#P	3655 Vista, St. Louis, MO 63110
+#E	beyei!jaf
+#L	38 38 N / 90 11 W city
+#R	
+#U
+#W	plus5!hokey; Fri Jun 26 10:33:13 CDT 1987
+#S	
+#
+beyei	slu70(DIRECT)
+
+#N	galileo
+#S	Intel 310-17
+#O	none - privately owned
+#C	Michael Fehnel
+#E	galileo!mike
+#T	+1 314 839 2092
+#P	2445 Mockingbird Ln., Florissant, Mo. 63031
+#L	38 8 N / 90 3 W
+#R	System running XENIX 3.0, work # +1 314 895 6453 
+#U
+#W	plus5!hokey; Tue Nov 18 11:39:50 CST 1986
+galileo	wucs(DIRECT)
+
+#N	ghrtoy
+#S	symmetric 375; 4.2 BSD UNIX
+#C	George H. Robbert
+#E	ghrtoy!postmaster
+#T	+1 314 862 7234
+#P	15 S. Seminary Ter, Clayton Mo 63105
+#L	37 52 29 N / 122 13 44 W
+#U
+#W	plus5!hokey; Fri May 29 16:29:35 CDT 1987
+#
+ghrtoy	wucs2(DIRECT),
+	wuccrc(DAILY)
+
+#N	glmpc
+#O	none - privately owned
+#C	Gary Mann
+#T	+1 314 391 0537
+#P	P. O. Box 166, Ballwin, MO 63022
+#E	glmpc!glm
+#L	
+#R	System running UNIX (PC Release) 3.5 (close to SVR2)
+#W	plus5!hokey; Sat Jun 6 11:14:16 CDT 1987
+#U	
+#S	UNIX PC (7300)
+#
+glmpc	abstl(DIRECT),plus5(DIRECT),we53(DIRECT)
+
+#N	hilco
+#S	HP 9000 Series 300 Model 20; HP-UX 05.17
+#O	Hilco Electric Co.
+#C	John Rustemeyer
+#E	hilco!johnr
+#T	+1 314 961 8156
+#P	3015 South Brentwood Blvd, St. Louis, MO 63144
+#L	38 37 N / 90 21 W
+#R
+#W	hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U	hpuslma
+#
+hilco	hpuslma(DIRECT)
+
+#N	hpu-wdn
+#S	HP 9000 Series 300 Model 20; HP-UX 05.17
+#O	Hewlett Packard, St. Louis
+#C	Bill Nestor
+#E	hpu-wdn!wdn
+#T	+1 314 821 4744
+#P	142 Woodridge St. Louis, MO 63122
+#L	38 37 N / 90 23 W
+#R
+#W	hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U	hpuslma
+#
+hpu-wdn	hpuslma(DIRECT)
+
+#N	hpuslma
+#S	HP 9000 Series 840 ; HP-UX hpuslma A.B1.14 B 9000/840
+#O	Hewlett Packard, St. Louis
+#C	Bill Nestor
+#E	hpuslma!wdn
+#T	+1 314 344 5194
+#P	13001 Hollenberg,St. Louis, MO 63044
+#L	38 46 N / 90 27 W
+#R
+#W	plus5!hokey; Mon Jun 29 14:28:43 CDT 1987
+#U	wuphys hpu-wdn hilco mcair1 mdacrf
+#
+# old name: hp2610
+hpuslma-net = {hpuslma, hpuslmb, hpuslmc, hpuslmd, hpuslme}!(LOCAL)
+hpuslma wuphys(DIRECT),
+	hpfcse(EVENING),
+	hpu-wdn(DIRECT),
+	hilco(DIRECT),
+	mcair1(DIRECT),
+	mdacrf(DIRECT),
+	plus5(DIRECT)
+
+#N	m-cmc
+#S	Vax 750; 4.2BSD
+#O	Central Methodist College
+#C	Will Trillich
+#E	m-cmc!will
+#T	+1 816 248 3391 x211
+#P	Fayette, MO, 65248-1198
+#L
+#R
+#U
+#W	plus5!hokey; Wed Nov 19 14:08:20 CST 1986
+m-cmc	plus5(WEEKLY),
+	cars(WEEKLY)
+
+#N	mcair1
+#S	HP 9000 Series 500 Model 40; HP-UX 05.11
+#O	McDonnell Douglas Aircraft Corp.
+#C	Mike Warakomski
+#E	mcair1!root
+#T	+1 314 233 8902
+#P	P.O. Box 516, Bld 32, 6951 Hanly Rd, St. Louis, MO 63042
+#L	38 45 N / 90 21 W
+#R
+#W	hpuslma!wdn (William D. Nestor); Fri Oct 31 01:00:03 CST 1986
+#U	hpuslma
+#
+mcair1	hpuslma(DIRECT)
+
+#N	mdacrf
+#S	HP 9000 Series 500 Model 20; HP-UX 05.11
+#O	McDonnell Douglas Astronautics Corp.
+#C	Bill Coalson
+#E	mdacrf!coalson
+#T	+1 314 233 5876
+#P	P.O. Box 516, Bld 106, Lev 3, St. Louis, MO 63166-0516
+#L	38 45 14 N / 90 20 45 W
+#R
+#W	mdacrf!coalson (Bill Coalson); Thu Feb 26 22:04:42 CST 1987
+#U	hpuslma
+#
+mdacrf	hpuslma(DIRECT)
+
+#N	slu70
+#O	St. Louis University, Earth and Atmospheric Science
+#C	Eric Haug
+#T	+1 314 658 3136
+#P	POB 8099, St. Louis, MO 63156
+#E	slu70!ejh
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U	wucs
+#W	plus5!hokey; Sat Feb 21 18:44:51 CST 1987
+#S	
+#
+slu70	wuphys(DIRECT),
+	sluatmos(DIRECT),
+	slustl(DIRECT),
+	beyei(DIRECT),
+	plus5(DIRECT),
+	mac(DEMAND)
+
+#N	sluatmos
+#O	St. Louis University, Earth and Atmospheric Science
+#C	James T. Moore
+#T	+1 314 658 3126
+#P	POB 8099, St. Louis, MO 63156
+#E	sluatmos!moore
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U
+#W	plus5!hokey; Sat Feb 21 18:43:56 CST 1987
+#S	
+#
+sluatmos	slu70(DIRECT)
+
+#N	slustl
+#O	St. Louis University, Earth and Atmospheric Science
+#C	Eric Haug
+#T	+1 314 658 3136
+#P	POB 8099, St. Louis, MO 63156
+#E	slu70!ejh
+#L	38 37 03 N / 90 14 04 W
+#R	
+#U	
+#W	plus5!hokey; Sat Feb 21 18:43:22 CST 1987
+#S	
+#
+slustl sluatmos(DIRECT),
+	slu70(DIRECT)
+
+#N	solvnt
+#O	Solvent Systems, Inc.
+#C	Dennis Moore
+#T	+1 314 822 9958
+#P	13118 Maple Drive, St. Louis, MO 63127
+#E	solvnt!dennis
+#L	
+#R	
+#W	plus5!hokey; Wed Jun 3 17:49:58 CDT 1987
+#U	
+#S	3B2/300; SVR2.0.1
+#
+solvnt	abstl(DIRECT)
+
+#N	sw1a
+#O	Southwestern Bell
+#C	Lee Balduini
+#T	+1 314 235 2067
+#P	One Bell Center Room 14-K-4, St. Louis, Missouri 63101-3099
+#E	sw1a!lee
+#L	38 37 41 N / 90 11 40 W
+#R	
+#U
+#W	sw1a!lee (Lee Balduini); Mon Jun 29 08:32:24 CDT 1987
+#S	VAX 11/750; UNIX System V.2
+#
+sw1a	wucs(HOURLY),
+	plus5(WEEKLY)
+
+#N	sw1a7
+#S	NCR Tower XP; UNIX Release 3.01.00 (Sys V, R2)
+#O	Southwestern Bell Telephone Co.
+#C	Lee Morehead, Ray Bretthauer (alt.)
+#E	sw1a7!lhm, sw1a7!rcb
+#T	+1 314 235 1804, +1 314 235 1826
+#P	One Bell Center, Rm 13-T-01, St. Louis, MO 63101-3099
+#L	38 37 41 N / 90 11 40 W
+#R	Unregistered domain .sw1a7.SWBT.COM
+#W	plus5!hokey; Fri Nov 20 11:10:34 CST 1987
+#
+sw1a7	sw1c(LOCAL), sw1d(LOCAL), sw1e(LOCAL), rruxa(DIRECT),
+	rruxqq(DIRECT), swso03(DIRECT), ncrats(DIRECT), textware(DIRECT),
+	chinet(HOURLY*2), m-net(HOURLY*2), plus5(DIRECT)
+
+#N	tripos
+#S	Silicon Graphics IRIS 3030; Unix System V version 3.4
+#O	Tripos Associates
+#C	Gregory B. Smith
+#E	tripos!snort
+#T	+1 314 647 1099
+#P	6548 Clayton Road, St. Louis, MO 63117
+#L	38 38 N / 90 17 W city
+#R
+#U
+#W	plus5!hokey; Wed Nov 19 12:58:58 CST 1986
+tripos	wucs(HOURLY)
+
+#N	umree
+#O	University of Missouri - Rolla, Electrical Engineering Dept.
+#C	R. Wayne Little
+#T	+1 314 341-4546
+#P	University of Missouri Rolla, E.E. Dept, Rolla MO 65401
+#E	umree!rwl
+#L	37 57 24 N / 91 46 6 W
+#R	
+#U	occrsh
+#W	plus5!hokey; Fri Jul 3 14:12:51 CDT 1987
+#S	Vax 11/780 4.3BSD
+#
+umree	wucs(EVENING),occrsh(DAILY)
+#N	wucs
+#O	Washington University, Dept. of Computer Science
+#C	Billy Ross
+#T	+1 314 889 5894
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!br
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	wuphys abstl afinitc
+#W	plus5!hokey; Tue Sep 1 11:57:25 CDT 1987
+#S	Vax 11/750; 4.2BSD
+#
+WUENG = {wucs,wuccrc,cec1,cec2,wucs1,wucs2,wuibc2,wucape,wucfua,ccrc1,
+	dadent}!(LOCAL)
+wucs	WUENG,
+	abstl(DEAD),
+	afinitc(EVENING),
+	allegra(EVENING+100),
+	bellcore(EVENING),
+	cbosgd(EVENING),
+	gatech(DEAD),
+	ihnp4(DEAD),
+	mrl1(DIRECT),
+	mrl2(DIRECT),
+	mrl73(DIRECT),
+	oasis(HOURLY*2),
+	plus5(DEMAND),
+	purdue(DEAD),
+	pyramid(EVENING+50),
+	slu70(DIRECT),
+	sw1a(DIRECT),
+	uiucdcs(DEMAND+125),
+	uiucuxc(EVENING),
+	umree(DAILY),
+	we53(DEAD),
+	wuecs1(LOCAL),
+	wuibc(DIRECT)
+
+#N	wucs1
+#O	Washington University, Dept. of Computer Science
+#C	Billy Ross
+#T	+1 314 889 5894
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!br
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	cuae2 wucs2 plus5
+#W	plus5!hokey; Fri Nov 20 11:10:21 CST 1987
+#S	Microvax II; 4.3 BSD
+#
+WURES={wucs1,wuphys}!(DEDICATED)
+wucs1	.washu.edu
+wucs1=washu.edu
+wucs1	WUENG,
+	WURES,
+	allegra(DEMAND+80),
+	cbosgd(DEMAND+100),
+	cuae2(DEMAND+25),
+	ihnp4(DEMAND+20),
+	plus5(DIRECT),
+	td2cad(EVENING),
+	uiucuxc(DEMAND*2),
+	uw-june(DEMAND+80),
+	wuibc(DIRECT)
+
+#N	wucs2
+#O	Washington University, Dept. of Computer Science
+#C	Billy Ross
+#T	+1 314 889 5894
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wucs!br
+#L	38 38 57 N / 90 18 18 W
+#R	
+#U	wucs cec2 wucs1 sw1e slustl
+#W	plus5!hokey; Fri Jun 5 18:41:29 CDT 1987
+#S	Microvax II; 4.3 BSD
+#
+wucs2	WUENG,
+	abstl(DEMAND),
+	adiron(DAILY/2),
+	ghrtoy(DIRECT),
+	plus5(DIRECT+HIGH),
+	slu70(DIRECT),
+	slustl(EVENING),
+	sw1e(DIRECT),
+	tripos(DEMAND),
+	wuecs1(LOCAL),
+	wuees1(LOCAL),
+	wuibc(DIRECT+HIGH)
+
+#N	wuibc
+#O	Washington University, Institute for Biomedical Computing
+#C	Ed Macke
+#T	+1 314 362 3120
+#P	Campus Box 1045, St. Louis, MO 63130
+#E	wuibc!ed
+#L	38 38 N / 90 17 W
+#R	the original WU VAX
+#U	wucs
+#W	plus5!hokey; Fri Jun 26 14:14:10 CDT 1987
+#S	VAX 11/750; 4.2 BSD
+#
+WUIBCN = {wuibc,wusbl,wuimm,wubcl,wucon,wuipaq,wumcp1,wumcp2,wumcp3}!(LOCAL)
+wuibc	WUIBCN,
+	ihnp4(EVENING),
+	plus5(DIRECT),
+	unc(DEMAND),
+	wucs(DIRECT),
+	wuoto(LOCAL),
+	wupath(LOCAL),
+	wuuslab(LOCAL)
+
+#N	wuphys
+#O	Washington University, Department of Physics 
+#C	Marty Olevitch, Mark Metzger
+#T	+1 314 889 6285
+#P	Campus Box 1105, St. Louis, MO 63130 
+#E	wuphys!marty, wuphys!mark
+#L	38 38 57 N / 90 18 18 W
+#R	
+#W	plus5!hokey; Wed Jul 8 10:33:54 CDT 1987
+#U	wucs hpuslma
+#S	
+#
+WUPHYSN = {wuphys,arthur,cosray,dirac,pierre,abacus,onemohr}!(LOCAL)
+wuphys	WURES,
+	WUPHYSN,
+	abstl(DEMAND),
+	hpuslma(DIRECT),
+	ihnp4(EVENING),
+	slu70(DIRECT),
+	sw1e(DIRECT),
+	plus5(DIRECT)
+
+#N	yoyodyne
+#O
+#C	Eric Kiebler
+#T	+1 314 725 9492
+#P	765 Westwood, Clayton, MO 63105
+#E	plus5!eric, yoyodyne!eric
+#L
+#R	
+#W	hokey@plus5.uucp; 04Jul86
+#U
+#S	
+#
+yoyodyne	plus5(DIRECT)
+
+SHAR_EOF
+#	End of shell archive
+exit 0

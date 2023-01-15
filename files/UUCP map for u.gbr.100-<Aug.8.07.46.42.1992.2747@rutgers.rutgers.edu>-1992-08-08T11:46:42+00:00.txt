@@ -1,0 +1,69 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.gbr.100
+: This archive created: Sat Aug  8 07:46:39 1992
+echo shar: extracting u.gbr.100
+cat << 'SHAR_EOF' > u.gbr.100
+# Copyright 1992 by UKnet. All rights reserved.
+# Permission to redistribute and use for routing purposes granted.
+#
+# u.gbr.100
+# UUCP map for the United Kingdom - non EUnet nodes
+# Changes to postmaster@uknet.ac.uk
+# Last changed: Fri Apr 24 09:44:14 BST 1992
+
+#N	pipex
+#O	Pipex (A division of Unipalm Ltd)
+#S	Sun 4; SunOS 4.1.2
+#C	Keith Mitchell
+#E	pipe@unipalm.co.uk
+#T	+44 223 424 616
+#P	216 Cambridge Science Park, Milton Road, Cambridge, UK
+#L	00 01 00 E / 52 13 00 N
+#W	postmaster@uknet.ac.uk 920514, postmaster@uknet.ac.uk 920515
+#
+pipex=	pipex.net
+pipex	demon(DEMAND), ibmpcug(DEMAND), unipalm(LOCAL), uunet(DEMAND),
+	xtech(LOCAL)
+
+#N	ukncsun1
+#O	Ram Mobile Data, Inc.
+#S	Sun 4/490; SunOS 4.1.1 UNIX
+#C	Jonathan Trudel, Tony Clark
+#E	bugs!postmaster, ukncsun1!postmaster
+#T	+1 908 602 5500, +011 44 81 990 9090
+#P	Heathrow Boulevard, 280 Bath Road, West Drayton, Middlesex UK
+#L	00 27 38 W / 51 29 02 N
+#W	postmaster@uknet.ac.uk 920424, postmaster@uknet.ac.uk 920424
+#
+ukncsun1	bugs(DAILY/4)
+ukncsun1	.rmd.com
+
+#N	jedinet
+#S	486/33; Interactive UNIX 386 v3
+#O	private system
+#C	Steve Kennedy
+#E	jedinet!postmaster
+#T	+44 71 483 1169
+#P	Flat 2, 43 Howitt Road, Belsize Pk, London, NW3 4LU
+#L	51 32 56 N / 00 10 05 W
+#W	jedinet!steve (Steve Kennedy) ; Mon Jun 22 18:10:00 GMT 1992
+#
+jedinet	cellnet(HOURLY)
+
+#N	msi
+#S	Sun Sparc 2; SunOS v4.1.2
+#O	Mobile Systems International
+#C	Mario Palencia
+#E	msi!postmaster
+#T	+44 71 971 8195
+#P	5th Floor, 1 Harbour Exchange Square, Docklands, London, E14 9GE
+#L	51 29 99 N / 00 09 24 W
+#W	cellnet!stevek (Steve Kennedy) ; Weds Jul 01 20:30:00 1992 GMT
+#
+msi	jedinet(DAILY)
+SHAR_EOF
+:	End of shell archive
+exit 0
+

@@ -1,0 +1,777 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.aus.3
+: This archive created: Tue Nov 24 02:54:03 1992
+echo shar: extracting u.aus.3
+cat << 'SHAR_EOF' > u.aus.3
+file {u.aus.3} # Mon Nov 23 17:05:20 +1100 1992
+
+# updates to <Christopher.Vance@adfa.oz.au>, <cjsv@adfa.oz.au> or <ccadfa!cjsv>
+
+# u.aus.1 explains entry order
+#
+# Australia - Domains not restricted to a single state or territory
+#
+# u.aus.1
+#	top level connectivity
+# u.aus.2
+#	Commonwealth Scientific and Industrial Research Organization domains
+# u.aus.3
+#	domains which span more than one state or territory (except CSIRO)
+#	domains and hosts whose location is unknown to the map maintainer
+
+#N	aarnet.edu.au, .aarnet.edu.au, jatz.aarnet.edu.au
+#F	jatz.aarnet.edu.au
+#S	SUN 4/75; SunOS 4.1
+#O	Australian Academic and Research Network
+#C	Peter Elford
+#E	P.Elford@aarnet.edu.au
+#T	+61 6 249 3542
+#P	GPO Box 1142, Canberra ACT 2601, Australia
+#L	35 20 S / 149 00 E city
+#W	P.Elford@aarnet.edu.au (Peter Elford); Thu Jun  5 15:06:31 +1000 1992
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Jul 17 16:55:27 +1000 1992
+
+#N	clix.aarnet.edu.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Oct 12 10:18:00 +1000 1992
+
+#N	plaza.aarnet.edu.au
+#R	ftp to archie.au [139.130.4.6]
+#R	fetchfile/netfetch to archie.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 22:58:24 +1000 1992
+
+#N	aarnet.oz.au, plaza.aarnet.oz.au
+#R	no DNS; ACSNET only -> wraith.cs.uow.oz.au
+#R	use aarnet.edu.au, archie.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep  3 13:36:06 +1000 1992
+
+#N	acus.oz.au, .acus.oz.au
+#F	usage.csd.unsw.oz.au
+#O	Australian Centre for Unisys Software
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep 17 11:41:59 +1000 1992
+
+#N	syacus.acus.oz.au
+#F	usage.csd.unsw.oz.au
+#S	Unisys 5000/95; System 5.23
+#O	Australian Centre for Unisys Software
+#C	Michael Rourke
+#E	michaelr@syacus.acus.oz.au
+#T	+61 2 887 6968
+#P	115 Wicks Rd, North Ryde, NSW, 2113, Australia
+#L	33 47 31 S / 151 07 50 E
+#R	use: software development
+#W	michaelr@syacus.acus.oz.au (Michael Rourke); Thu Dec  1 19:04:13 +1100 1988
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Sep 28 17:05:31 +1000 1992
+
+#N	aodc.gov.au, aodc20.aodc.gov.au, .aodc.gov.au
+#F	aodc20.aodc.gov.au
+#O	Australian Oceanographic Data Centre
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep  3 17:05:43 +1000 1992
+
+#N	apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#O	Australian Public Access Network Association
+#R	replacing uu.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep  3 17:08:20 +1000 1992
+
+#N	cswamp, cswamp.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#C	Arthur Marsh
+#E	Arthur.Marsh@cswamp.apana.org.au
+#R	Hawthorndene, SA
+#W	Arthur.Marsh@cswamp.apana.org.au (); Mon Sep 21 03:17:35 -0700 1992
+
+#N	eyrie.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#C	David Burren
+#E	davidb@img.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Nov 23 12:40:16 +1100 1992
+
+#N	gpark, gpark.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#C	Ian Rowlands
+#E	ianr@gpark.apana.org.au
+#W	msp@kralizec.zeta.org.au (Mark Purcell); Sun Nov 22 10:14:22 +0000 1992
+
+#N	pos, pos.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#S	IBM AT 25MHz; MSDOS 5.0
+#O	Private
+#C	Mark Purcell
+#E	Mark.Purcell@pos.apana.org.au
+#T	+61 2 283 5598
+#P	62/25 Market Street, Sydney NSW 2000, Australia
+#L	33 52 S / 151 13 E
+#R	PubNet Node
+#U	eyrie.apana.org.au tmx runx kralizec werple sydney.dialix.oz.au posgate
+#W	msp@pos.apana.org.au (Mark Purcell); Sun Nov 22 09:55:00 +1100 1992
+#
+pos	= pos.apana.org.au, pos.pub.uu.oz.au, pos.dialix.oz.au
+pos	eyrie.apana.org.au(DEAD), tmx.mhs.oz.au(DAILY),
+	kralizec.zeta.org.au(DEAD), runxtsa.runx.oz.au(DEAD),
+	werple.apana.org.au(DEMAND), posgate.apana.org.au(HOURLY),
+	sydney.dialix.oz.au(DAILY)
+
+#N	posgate, posgate.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#S	Success 80286 16Mhz; DRDOS 5.0
+#O	Private
+#C	Mark Purcell
+#E	msp@posgate.apana.org.au
+#T	+61 2 283 5598
+#P	62/25 Market Street, Sydney NSW 2000, Australia
+#L	33 52 S / 151 13 E
+#R	PubNet Node
+#U	pos.apana.org.au scorch fonsc
+#W	msp@pos.apana.org.au (Mark Purcell); Sun Nov 22 09:55:00 +1100 1992
+#
+posgate	= posgate.apana.org.au
+posgate	fonsc(WEEKLY), pos(HOURLY), scorch(DAILY)
+
+#N	scorch, scorch.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#C	Michael Brown
+#E	harris@scorch.apana.org.au
+#W	msp@pos.apana.org.au (Mark Purcell); Sun Nov 22 09:55:00 +1100 1992
+scorch	= scorch.apana.org.au
+
+#N	werple, werple.apana.org.au
+#F	muwayb.ucs.unimelb.edu.au
+#C	Andrew Herbert
+#E	andrew@werple.apana.org.au
+#W	msp@pos.apana.org.au (Mark Purcell); Sun Nov 22 09:55:00 +1100 1992
+werple	= werple.apana.org.au
+
+#N	archie.au
+#R	DNS alias for plaza.aarnet.edu.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 23:27:10 +1000 1992
+
+#N	archie.oz.au
+#F	archie.au	
+#R	ACSnet alias for plaza.aarnet.oz.au
+#R	DNS alias for aarnet.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 23:27:10 +1000 1992
+
+#N	.auug.org.au
+#O	Australian Open Systems Users Group
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Nov 23 16:53:06 +1100 1992
+
+#N	canb.auug.org.au
+#F	sserve.cc.adfa.oz.au
+#O	Australian Open Systems Users Group, Canberra
+#C	Stephen Hodgman
+#E	smh@canb.auug.org.au
+#T	+61 6 285 3460
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Sep 28 17:19:34 +1000 1992
+
+#N	bhp.com.au, .bhp.com.au
+#F	merlin.resmel.bhp.com.au
+#O	BHP
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 23:27:04 +1000 1992
+
+#N	merlin.resmel.bhp.com.au, merlin.bhpmrl.oz.au
+#F	[merlin.]bhpmrl.oz.au -> merlin.resmel.bhp.com.au
+#S	Apollo DN3500, Domain/OS 10.1
+#O	BHP Melbourne Research Laboratories
+#C	Ian Hoyle
+#E	ianh@merlin.bhpmrl.oz.au
+#T	+61 3 560 7066
+#P	245 Wellington Rd, Mulgrave Vic 3170, Australia
+#L	37 48 S / 144 58 E
+#R	Apollo is email gateway between ACSnet and these labs
+#U	bruce.cs.monash.oz.au
+#W	ianh@merlin.bhpmrl.oz.au (Ian Hoyle); Mon Oct 30 10:54:01 +1100 1989
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Aug 19 10:29:55 +1000 1992
+
+#N	bull.oz.au, .bull.oz.au
+#F	taureau.melb.bull.oz.au
+#O	Bull HN Information Systems
+#E	postmaster@sun0.melb.bull.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Aug 28 16:01:01 +1000 1992
+
+#N	brahman.syd.bull.oz.au
+#O	Bull HN Information Systems Aust. P/L
+#C	Geoff Steer
+#E	postmaster@brahman.syd.bull.oz.au
+#T	+61 2 923 9834
+#P	124 Walker Street, North Sydney NSW 2060, Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Jun 22 13:56:05 +1000 1992
+
+#N	cra.com.au, .cra.com.au
+#O	Comalco Research Centre
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 15:49:20 +1000 1992
+
+#N	csa.oz.au, .csa.oz.au
+#F	lv.levels.unisa.edu.au
+#O	Computer Sciences of Australia
+#R	see also csasyd.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:22:24 +1000 1992
+
+#N	csaadel.adl.csa.oz.au
+#C	Postmaster
+#R	from ACSnet routing tables
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Jun 22 13:56:05 +1000 1992
+
+#N	csasyd.oz.au, .csasyd.oz.au
+#F	metro.ucc.su.oz.au
+#O	Computer Sciences of Australia
+#C	Postmaster
+#R	see also csa.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:22:41 +1000 1992
+
+#N	cx.oz.au, .cx.oz.au
+#F	metro.ucc.su.oz.au
+#O	Comperex
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep 17 11:41:27 +1000 1992
+
+#N	comperex.cx.oz.au
+#F	metro.ucc.su.oz.au
+#S	Integrated Solutions Inc QBUS 68010; BSD 4.3
+#O	Comperex Pty. Ltd.
+#C	Burn Alting
+#E	burn@comperex.cx.oz.au
+#T	+61 2 868 4377
+#P	PO Box 425, Epping, NSW 2121, Australia
+#L	33 52 S / 151 13 E city
+#R	Administration
+#R	Suite 201, 16 Cambridge St., Epping; Fax +61 2 868 4225
+#U	metro.ucc.su.oz.au
+#W	burn@comperex.cx.oz.au (Burn Alting); Thu Aug 24 19:42:40 +1000 1989
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Aug 28 17:22:25 +1000 1992
+
+#N	cxbne.cx.oz.au
+#F	bunyip.cc.uq.oz.au
+#S	Integrated Solutions Inc QBUS 68010; BSD 4.3
+#O	Comperex Pty. Ltd.
+#C	Phil Chadwick
+#E	phil@cxbne.cx.oz.au
+#T	+61 7 252 3788
+#P	2/66 McLachlan Street, Fortitude Valley, 4006, Australia
+#R	Administration
+#R	Fax +61 7 257 1480
+#W	burn@comperex.cx.oz.au (Burn Alting); Thu Aug 24 19:42:40 EST 1989
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Sep 28 17:05:17 +1000 1992
+
+#N	cxcbr.cx.oz.au
+#F	metro.ucc.su.oz.au
+#O	Comperex
+#C	Postmaster
+#T	+61 6 241 8504
+#P	4/24-26 Winchcombe Court, Mitchell ACT 2911
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Aug 28 17:22:24 +1000 1992
+
+#N	cxmel.cx.oz.au
+#F	metro.ucc.su.oz.au
+#O	Comperex
+#C	Postmaster
+#P	101/582 St Kilda Rd, Melbourne Vic 3004, Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Aug 28 17:08:15 +1000 1992
+
+#N	cxper.cx.oz.au
+#F	metro.ucc.su.oz.au
+#O	Comperex
+#C	Postmaster
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Aug 28 17:09:36 +1000 1992
+
+#N	dgaust, dgaust.dg.oz.au, dgaust.oz.dg.com
+#F	dgaust.dg.oz.au -> munnari.oz.au
+#S	AV4600; DG/UX 5.4.1
+#O	Data General Australia
+#C	Chris Kirkby
+#E	kirkby@dgaust.oz.dg.com
+#T	+61 3 698 6988
+#P	100 Dorcas Street, South Melbourne Vic 3205, Australia
+#R	This is dgaust.oz.dg.com [128.222.81.9] and dgaust.dg.oz.au [ACSnet]
+#U	melbpath
+#W	kirkby@dgaust.oz.dg.com (Chris Kirkby); Fri Sep 11 15:53:57 +1000 1992
+#
+dgaust	= dgaust.oz.dg.com, dgaust.dg.oz.au
+dgaust	melbpath(HOURLY)
+
+#N	dg.oz.au, .dg.oz.au
+#F	munnari.oz.au
+#O	Data General Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Aug 26 16:47:02 +1000 1992
+
+#N	dialix.oz.au, .dialix.oz.au
+#F	uniwa.uwa.oz.au
+#O	DIALix Services
+#C	Jeff Johnson
+#E	jeff@dialix.oz.au
+#T	+61 9 244 2433
+#P	PO Box 371, South Perth WA 6151, Australia
+#R	modem +61 9 244 3233
+#W	jeff@dialix.oz.au (Jeff Johnson); Wed Sep  2 21:22:21 +0800 1992
+
+#N	sydney.dialix.oz.au
+#F	uniwa.uwa.oz.au
+#O	DIALix Services
+#C	Jeff Johnson
+#E	jeff@dialix.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Nov 23 10:34:58 +1100 1992
+
+#N	dl.oz.au
+#R	no DNS; ACSNet only - metro.ucc.su.oz.au
+#O	Discreet Logic
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Jun  4 12:26:00 +1000 1992
+
+#N	dues.oz.au, .dues.oz.au
+#F	munnari.oz.au
+#O	Duesburys Information Technology
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:32:09 +1000 1992
+
+#N	esa.oz.au, .esa.oz.au
+#F	yarra.pyramid.com.au
+#O	Expert Solutions Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:32:33 +1000 1992
+
+#N	attila.esa.oz.au
+#S	Apollo 4000; Domain OS SR10
+#O	Expert Solutions Australia
+#C	Shaun William Arundell
+#E	postmaster@attila.oz.au
+#T	+61 2 959 4444
+#P	15th Floor, 124 Walker St, North Sydney, NSW 2060, Australia
+#L	33 52 S / 151 13 E city
+#R	ipso.oz.au
+#W	shaun@attila.esa.oz.au (Shaun William Arundell); Wed Nov 30 17:51:09 +1100 1988
+
+#N	bacchus.esa.oz.au
+#F	yarra.pyramid.com.au
+#O	Expert Solutions Australia
+#C	Mark Atterbury
+#T	+61 3 819 4554
+#R	from ACSnet routing tables
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:32:55 +1000 1992
+
+#N	eyrie.oz.au
+#R	OBSOLETE, use eyrie.pub.uu.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:32 +1000 1992
+
+#N	fonsc
+#W	msp@pos.apana.org.au (Mark Purcell); Sun Nov 22 09:55:00 +1100 1992
+
+#N	.gw.au
+#O	Australian Academic and Research Network
+#C	Peter Elford
+#E	P.Elford@aarnet.edu.au
+#T	+61 6 249 3542
+#P	GPO Box 1142, Canberra ACT 2601, AUSTRALIA
+#R	AARNet infrastructure
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 22:53:23 +1000 1992
+
+#N	iconix.oz.au, .iconix.oz.au
+#F	munnari.oz.au
+#O	Iconix
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:39:25 +1000 1992
+
+#N	img.com.au, .img.com.au
+#F	yarra.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Oct 22 14:47:03 +1000 1992
+
+#N	marvin.jpl.oz.au
+#F	munnari.oz.au
+#O	Boral Elevators
+#R	from AARNET resource guide
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:43:37 +1000 1992
+
+#N	mitsui.oz.au, .mitsui.oz.au
+#F	munnari.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:48:41 +1000 1992
+
+#N	mlacus.oz.au
+#S	Unisys 5000/95; System 5.23
+#O	Australian Centre for Unisys Software
+#C	Amanda Moore
+#E	amanda@mlacus.oz.au
+#T	+61 3 823 1033
+#P	14/390 St Kilda Rd, Melbourne, Vic. 3004, Australia
+#L	37 54 34 S / 144 57 51 E
+#R	use: software development
+#W	amanda@mlacus.oz.au (Amanda Moore); Tue Mar  7 16:47:22 +1100 1989
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Sep 28 17:05:29 +1000 1992
+
+#N	mmdn.oz.au, .mmdn.oz.au
+#F	munnari.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:48:55 +1000 1992
+
+#N	mtia.oz.au, .mtia.oz.au
+#F	munnari.oz.au
+#O	Metal Trades Industry Association
+#R	from AARNET resource guide
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:49:09 +1000 1992
+
+#N	mtiame.mtia.oz.au, mtiame.oz.au
+#S	NCR Tower 32; SVR2
+#O	Metal Trades Industry Association, Vic Branch
+#C	Stephen Boucher
+#E	root@mtiame.oz.au
+#T	+61 3 699 1022
+#P	165 Eastern Road, South Melbourne, Vic. 3205, Australia
+#L	37 48 S / 144 58 E city
+#R	In House Development system
+#U	munnari.oz.au.au marvin.jpl.oz.au necaust.oz.au feral.oz.au
+#W	root@mtiame.oz.au (Stephen Boucher); Wed Jun 21 13:04:00 +1000 1989
+#W	cjsv@adfa.oz.au (Christopher Vance); Sun Aug  9 21:16:13 +1000 1992
+
+#N	mtiame.oz.au
+#R	OBSOLETE, use mtiame.mtia.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:33 +1000 1992
+
+#N	necisa.oz.au, .necisa.oz.au
+#F	metro.ucc.su.oz.au
+#O	NEC Information Systems Australia Pty. Ltd.
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:49:58 +1000 1992
+
+#N	necisa.necisa.oz.au
+#S	NEC XL/300; ASTR-IX 3.3
+#O	NEC Information Systems Australia Pty. Ltd.
+#C	Boyd Roberts
+#E	boyd@necisa.ho.necisa.oz.au
+#T	+61 2 550 8582
+#P	165-175 Mitchell Rd, Alexandria, NSW 2015, Australia
+#L	33 52 S / 151 13 E city
+#R	NEC/ISA Head Office Technical Support
+#U	softway.sw.oz.au lynpac.oz.au
+#W	boyd@necisa.ho.necisa.oz.au (Boyd Roberts); Wed Jun 21 17:57:08 +1000 1989
+
+#N	pdact.pd.necisa.oz.au
+#O	NEC Information Systems Australia Pty Ltd
+#C	Stephen Rothwell
+#E	sfr@pdact.pd.necisa.oz.au
+#T	+61 6 256 8747
+#P	PO Box 244, Belconnen ACT 2616, Australia
+#L	35 13 S / 149 07 E
+#R	from MHSnet routing tables
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Jun 22 13:56:05 +1000 1992
+
+#N	otc.au, .otc.au
+#F	clix.aarnet.edu.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 15:46:38 +1000 1992
+
+#N	otc.oz.au, .otc.oz.au
+#F	munnari.oz.au
+#R	see also otc.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Tue Sep 15 16:01:08 +1000 1992
+
+#N	otca.oz.au, .otca.oz.au
+#F	metro.ucc.su.oz.au
+#S	Pyramid 9810; OSx 4.0
+#O	Development Unit, OTC Ltd.
+#C	Michael Homsey
+#E	msh@otc.oz.au
+#T	+61 2 287 4148
+#P	G.P.O. Box 7000, Sydney, NSW 2001, Australia
+#L	33 52 S / 151 13 E city
+#R	see also telecom.com.au in u.aus.dom.1
+#U	munnari.oz.au metro.ucc.su.oz.au attila.esa.oz.au
+#W	msh@otc.otca.oz.au (Michael Homsey); Wed Jan  3 13:06:12 +1100 1990
+#W	cjsv@adfa.oz.au (Christopher Vance); Sun Aug  9 21:13:49 +1000 1992
+
+#N	sigma.oz.au, polly.oz.au
+#S	Sequent S27; Dynix 3.0.12
+#O	Sigma Data
+#C	Lee Stirzaker
+#E	postmaster@polly.oz.au
+#T	+61 6 257 2722
+#P	P.O. Box 1922, Canberra, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#R	links to sigma21, anucsd, arp
+#W	lee@polly.sigma.oz.au (Lee Stirzaker); Sat Nov 18 17:35:28 +1000 1989
+#W	cjsv@adfa.oz.au (Christopher Vance); Sun Aug  9 21:17:04 +1000 1992
+
+#N	prolix.oz.au
+#R	OBSOLETE, use prolix.pub.uu.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:39 +1000 1992
+
+#N	pta.oz.au
+#R	OBSOLETE, use pta.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:35 +1000 1992
+
+#N	ptabris.oz.au
+#R	OBSOLETE, use ptabris.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:34 +1000 1992
+
+#N	ptacanb.oz.au
+#R	OBSOLETE, use ptacanb.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:37 +1000 1992
+
+#N	ptcbu.oz.au
+#R	OBSOLETE, use ptcburp.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:37 +1000 1992
+
+#N	ptcburp.oz.au
+#R	OBSOLETE, use ptcburp.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:40 +1000 1992
+
+#N	pyramid.com.au, .pyramid.com.au
+#O	Pyramid Technology Australia
+#R	from AARNET resource guide, MHSnet routing
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep 17 11:39:17 +1000 1992
+
+#N	pta, pta.pyramid.com.au, pta.oz.au
+#S	Pyramid 9000 Series; OSx 
+#O	Pyramid Technology Australia
+#C	Philip Parker
+#E	philip@pta.oz.au
+#T	+61 2 438 1266
+#P	20 Waltham Street, Artarmon, NSW 2064, Australia
+#L	33 52 S / 151 13 E city
+#U	atom.oz.au bain3.oz.au concave.oz.au lscadmin.oz.au metro.oz.au
+#U	otc.oz.au ptabris.oz.au ptacanb.oz.au teti.oz.au yarra.oz.au
+#W	philip@pta.oz.au (Philip Parker); Wed Mar  1 03:52:56 +1100 1989
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Oct 12 10:17:40 +1000 1992
+pta	= pta.pyramid.com.au
+
+#N	ptacanb.oz.au
+#S	Pyramid 9825; OSx
+#O	Pyramid Technology Australia
+#C	Sue Lewry
+#E	postmaster@ptacanb.oz.au
+#T	+61 6 247 8188
+#P	PO Box 719, Canberra City, 2601, Australia
+#L	35 17 S / 149 06 E city
+#R	only partial news feed from pta.oz.au
+#U	pta.oz.au
+#W	sue@ptacanb.oz.au (Sue Lewry); Mon Jan  9 13:28:27 +1100 1989
+
+#N	ptcburp.pyramid.com.au, .ptcbu.oz.au, ptcbu.oz.au
+#S	Pyramid MIServer-S 04/02, DC/OSx 1.0
+#O	Pyramid Technology Corporation
+#C	Rick Stevenson
+#E	rick@ptcburp.ptcbu.oz.au
+#T	+61 75 95 0249
+#P	Research Park, Bond University, Gold Coast Qld 4229, Australia
+#R	information from MHSnet routing tables
+#R	see also pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:55:42 +1000 1992
+
+#N	pyramidoz.oz.au, .pyramidoz.oz.au
+#F	pyrmania.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 12:55:11 +1000 1992
+
+#N	pyrmania.pyramid.com.au, pyrmania.oz.au
+#O	PTC Perth
+#R	from AARNET resource guide, ACSnet routing
+#R	see also pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Jun 26 12:33:05 +1000 1992
+
+#N	yarra, yarra.pyramid.com.au, yarra.oz.au
+#S	Pyramid 9820; OSx 5.0b
+#O	Pyramid Technology Corporation Pty Ltd
+#C	Ben Golding
+#E	postmaster@yarra.oz.au
+#T	+61 3 820 0711
+#P	11th Floor, 14 Queens Rd, Melbourne, Vic. 3004, Australia
+#L	37 48 S / 144 58 E city
+#R	Customer Support
+#R	see also pyramid.com.au
+#U	accv.oz.au bacchus.esa.oz.au bohra.cpg.oz.au cit5.cit.oz.au
+#U	ditmela.oz.au eastek.oz.au lewis.oz.au melba.bby.oz.au mpamsco.oz.au
+#U	pta.oz.au technix.oz.au
+#W	bgg@yarra.oz.au (Ben Golding); Mon Dec 18 04:19:30 +1100 1989
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Oct 12 10:17:31 +1000 1992
+yarra	= yarra.pyramid.com.au
+
+#N	pyrmania.oz.au
+#R	OBSOLETE, use pyrmania.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:41 +1000 1992
+
+#N	sigma.oz.au
+#O	Sigma Data Corporation
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Jul 13 17:19:13 +1000 1992
+
+#N	sigma21.oz.au
+#S	Sequent S81; DYNIX 3.0
+#O	Sigma Data Corporation
+#C	Peter Farrell
+#E	postmaster@sigma21.oz.au
+#T	+61 2 957 3777
+#P	157 Walker St, North Sydney, NSW 2060, Australia
+#L	33 52 S / 151 13 E city
+#W	peter@sigma21.oz.au (Peter Farrell); Wed Mar 22 17:39:42 +1000 1989
+
+#N	sun.oz.au
+#O	Sun Microsystem Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Jul 13 17:25:29 +1000 1992
+
+#N	sunact.oz.au
+#S	Sun-3/260, SunOS 3.5
+#O	Sun Microsystems Australia, Federal Branch
+#C	Colin Keith
+#E	colin@sunact.oz.au
+#T	+61 6 257 1422
+#P	Level 3, Sun Centre, 95 Northbourne Ave, Turner, ACT 2601, Australia
+#L	35 14 24 S / 149 07 12 E city
+#R	Mail server for Federal Branch Office of Sun Microsystems Australia
+#U	anucsd.anu.oz.au
+#W	root@sunact.oz.au (Colin Keith); Wed May  3 11:16:26 +1000 1989
+
+#N	sunaus.sun.oz.au
+#S	Sun 3/160; SunOS V4.0.3
+#O	Sun Microsystem Australia, Sydney
+#C	Jeff Blows
+#E	jblows@sunaus.sun.oz.au
+#T	+61 2 436 4699
+#P	Unit 2, 49/53 Hotham Parade, Artarmon, NSW 2064, Australia
+#R	Dedicated communications machine
+#L	37 48 S / 144 58 E city
+#U	gris.oz.au metro.oz.au liaison.oz.au
+#W	jeffb@sunaus.sun.oz.au (Jeff Blows); Mon Sep 11 17:26:49 +1000 1989
+
+#N	sunvic.oz.au
+#S	Sun 3/260; SunOS4.0.3
+#O	Sun Microsystems, Southern Region sales office, Melbourne
+#C	Paul Rosham
+#E	paulr@sunvic.oz.au
+#T	+61 3 571 0911
+#P	11-15 Waverley Road, East Malvern, Vic. 3145, Australia
+#R	Communications, OA, pre-sales & post-sales support
+#R	was sunk.oz.au
+#L	37 48 S / 144 58 E city
+#U	trlamct.oz.au
+#W	paulr@sunvic.oz.au (Paul Rosham); Tue Jul  4 14:50:44 +1000 1989
+
+#N	syacus.oz.au
+#F	usage.csd.unsw.oz.au
+#R	OBSOLETE, use syacus.acus.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 17:21:13 +1000 1992
+
+#N	telecom.com.au
+#O	Australian and Overseas Telecommunications Commission
+#R	domains aotc.oz.au, inpu.oz.au, nmpd.oz.au, nmsd.oz.au, ta.oz.au,
+#R	telecom_cnm.oz.au, telecomwa.oz.au, tne.oz.au, otca.oz.au, trl.oz.au,
+#R	telecom.oz.au are also used by AOTC
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 15:45:34 +1000 1992
+
+#N	psnb.telecom.com.au
+#F	shark.mel.dit.csiro.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 14:14:23 +1000 1992
+
+#N	tais.telecom.com.au
+#F	hermes.ucs.adelaide.edu.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 14:14:16 +1000 1992
+
+#N	telecom.oz.au
+#R	OBSOLETE, use telecom.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:36 +1000 1992
+
+#N	canocc.telecom.oz.au
+#O	Telecom OpSys Can Unit
+#C	Postmaster
+#R	from MHSnet routing tables
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Jun 25 13:46:03 +1000 1992
+
+#N	nmsd.telecom.oz.au, .nmsd.telecom.oz.au
+#F	trlluna.trl.oz.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 13:36:45 +1000 1992
+
+#N	nnmdmelb.telecom.oz.au, .nnmdmelb.telecom.oz.au
+#F	trlluna.trl.oz.au
+#O	Telecom Australia, National Network Management Design Melbourne
+#C	Neil Buckingham
+#E	neil@nnmdmelb.telecom.oz.au
+#T	+61 3 657 3247
+#P	7th Floor 35 Collins Street, Melbourne Vic 3000, Australia
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 13:36:47 +1000 1992
+
+#N	telememo.au, .telememo.au
+#F	clix.aarnet.edu.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 15:45:28 +1000 1992
+
+#N	tirs.oz.au
+#O	International Railroad Systems
+#R	from AARNET resource guide
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jun 24 15:21:16 +1000 1992
+
+#N	tusc.oz.au
+#F	munnari.oz.au
+#O	Tusc Computer Systems P/L
+#R	from AARNET resource guide
+#W	cjsv@adfa.oz.au (Christopher Vance); Wed Jul 15 13:38:36 +1000 1992
+
+#N	uu.oz.au, .uu.oz.au
+#F	yarra.pyramid.com.au
+#O	APANA
+#R	DEFUNCT, use apana.org.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Fri Oct 30 11:46:07 +1100 1992
+
+#N	brimbank, brimbank.pub.uu.oz.au
+#S	IBM AT Clone; MS-DOS 5.0
+#O	APANA
+#C	Nick Langmaid
+#E	nick@brimbank.pub.uu.oz.au
+#T	+61 3 336 3228
+#P	52 Horseshoe Bend Road, Keilor Vic 3036, Australia
+#L	37 35 S / 144 48 E
+#U	werple.pub.uu.oz.au
+#W	brimbank!nick (Nick Langmaid); Sat Aug  1 14:30:00 +1000 1992
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep 17 12:01:53 +1000 1992
+brimbank = brimbank.pub.uu.oz.au
+
+#N	cloud, cloud.pub.uu.oz.au
+#S	IBM AT Clone; MS-DOS 5.0
+#O	Cloud Nine BBS / APANA
+#C	Hamish Moffatt
+#E	hamish@cloud.pub.uu.oz.au
+#T	+61 3 803 1326
+#P	10 Ryrie Place, Vermont South VIC 3133, Australia
+#L	37 52 S / 144 55 E
+#R	Gateway to fidonet: user%f<node>.n<net>.z<zone>@cloud.pub.uu.oz.au
+#U	eyrie.img.com.au
+#W	cloud!hamish (Hamish Moffatt); Thu Jul 30 17:50:32 +1000 1992
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Sep 17 12:02:10 +1000 1992
+cloud	= cloud.pub.uu.oz.au
+
+#N	eyrie.pub.uu.oz.au, eyrie.oz.au, eyrie.img.com.au
+#F	yarra.pyramid.com.au
+#C	David Burren
+#E	davidb@img.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Mon Nov 23 14:37:07 +1100 1992
+
+#N	mana, mana.pub.uu.oz.au
+#S	Amiga 2000/20 ; Amigados 1.3 + uucp1.15
+#O	Private machine
+#C	Jeff Coleman
+#E	manu!billy
+#T	+61 6 254 0846
+#L	35 17 S / 149 09 E city
+#U	sserve.cc.adfa.oz.au
+#W	mana!billy (Jeff Coleman); Tue Jul 28 20:53:05 +1000 1992
+#
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Oct 22 14:57:22 +1000 1992
+mana	= mana.pub.uu.oz.au
+
+#N	prolix, prolix.pub.uu.oz.au
+#O	Prolix
+#C	Andrew Clayton
+#E	prolix!dac
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Oct 22 14:57:14 +1000 1992
+#
+prolix	= prolix.pub.uu.oz.au
+
+#N	vortex.pub.uu.oz.au
+#W	msp@kralizec.zeta.org.au (Mark Purcell); Tue Aug 18 23:27:31 +1000 1992
+
+#N	vibro.oz.au
+#O	Vibro Acoustic Sciences
+#R	from AARNET resource guide
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Jun  4 12:38:00 +1000 1992
+
+#N	yarra.oz.au
+#R	OBSOLETE, use yarra.pyramid.com.au
+#W	cjsv@adfa.oz.au (Christopher Vance); Thu Aug 27 16:45:41 +1000 1992
+
+# u.aus.3 - end
+SHAR_EOF
+:	End of shell archive
+exit 0
+

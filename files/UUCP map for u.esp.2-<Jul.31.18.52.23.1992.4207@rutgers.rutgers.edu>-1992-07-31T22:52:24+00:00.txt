@@ -1,0 +1,736 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.esp.2
+: This archive created: Fri Jul 31 18:52:17 1992
+echo shar: extracting u.esp.2
+cat << 'SHAR_EOF' > u.esp.2
+file {u.esp.2} # of 0,1,2,3; changes to: uucpmap@Spain.EU.net
+# Copyright EurOpen 1989-1992. All rights reserved.
+# Permission is granted for non-commercial use.
+
+# Last change: msm@uu.es Tue Jul 28 18:24:11 MET DST 1992
+# Last change: jorge@uu.es Wed Jul  8 14:12:21 MET DST 1992
+# Last change: msm@uu.es Mon Jul  7 13:56:21 MET DST 1992
+# Last change: jorge@uu.es Fri Jul  3 13:35:20 MET DST 1992
+
+# Spanish EUnet nodes (Spain is in South West Europe)
+
+#N	ntiber
+#S
+#O	Ibermatica S.A.
+#C	Juan Valentin
+#E	postmaster@iber.es
+#T	+34 1 577 42 39
+#P	Principe de Vergara 39, E-28001 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 900628 900925
+#
+ntiber=	iber.es
+
+#N	unix000, icm003
+#S
+#O	Informatica Comunidad de Madrid S.A.
+#C	Maria Jose Torres
+#E	postmaster@icm.es
+#T	+34 1 337 92 00
+#P	Avd. Madronos 29, E-28043, Madrid, Spain
+#L	3 42 W / 40 25 N
+#R
+#U
+#W	diego@dit.upm.es 901108, 910509
+#
+unix000=	icm.es
+unix000	icm003
+
+#N	cpunxt
+#S
+#O	IECISA
+#C	Luis Padilla
+#E	postmaster@iecisa.es
+#T	+34 1 320 80 00
+#P
+#L	3 42 W / 40 25 N
+#R
+#U
+#W	diego@dit.upm.es 911108 920117
+#
+cpunxt=	iecisa.es
+
+#N	extrema
+#S
+#O	Instituto Geografico Nacional
+#C	Orestes Garcia Rodriguez
+#E	postmaster@ign.es
+#T	+34 1 535 04 65, 535 05 25
+#P	General Iba'nez Ibero 3, E-28003 Madrid, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jorge@uu.es  920708
+#
+extrema=	ign.es
+
+#N	vinci
+#S
+#O	Inisel , S.A.
+#C	Francisco Perez
+#E	postmaster@inisel.es
+#T	+34 1 675 63 00
+#P	Apdo. 294, E-28850 Torrejon de Ardoz, Madrid, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	dsoriano@dit.upm.es  911103
+#
+vinci=	inisel.es
+
+#N	intelsa
+#S
+#O	Industrias de Telecomunicacion S.A.
+#C	Francisco Monfort Martin
+#E	postmaster@intelsa.es
+#T	+34 1 589 56 32 
+#P	Telemaco 5, E-28027 Madrid, Spain
+#L	3 42 W / 43 20 N City
+#R
+#U
+#W	diego@dit.upm.es 900509, 910426
+#
+intelsa=	intelsa.es
+
+#N	ipeo
+#S
+#O	Instituto Paises de Europa Oriental
+#C	Bernardo  Alonso
+#E	postmaster@ipeo.es
+#T	+34 1 394 25 21
+#P	Univ. Complutense, Campus de Somosaguas, E-28023 Madrid, Spain
+#L	3 42 W / 43 20 N City
+#R
+#U
+#W	jmanas@dit.upm.es 911230
+#
+ipeo=	ipeo.es
+
+#N	isdefe, buda
+#S
+#O	I.S.D.E.F.E.
+#C	Jose Acuna
+#E	postmaster@isdefe.es
+#T	+34 1 411 50 11 
+#P	Edison, 4 E-28006 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	acalleja@dit.upm.es 900604 diego@dit.upm.es 911011
+#
+isdefe=	isdefe.es
+buda=	santiago.isdfefe.es
+
+#N	io
+#S
+#O	Intelligent Software Solutions, S.A.
+#C	Marc A. Perez
+#E	postmaster@iss.es
+#T	+34 3 410 04 05
+#P	Avda. Josep Tarradelles 15, E-08029 Barcelona, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jmanas@dit.upm.es 891204
+#
+io=	iss.es
+
+#N	kender1
+#S
+#O	Kender S.L.
+#C	Oskar Azanza
+#E	postmaster@kender.es
+#T	+34 4 476 24 83
+#P	Ramon y Cajal 2 bis, 3o Dpto. 9, E-48010 Bilbao, Vizcaya, Spain
+#L	2 52 W / 43 22 N city
+#R
+#U
+#W	diego@dit.upm.es 920127
+#
+kender1= kender.es
+
+#N	liem
+#S	
+#O	INAEM (CDMC)
+#C	Adolfo Nu'nez Perez
+#E	postmaster@licdmc.es
+#T	+34 1 468 30 02 ext. 264
+#P	Santa Isabel 52, 5a. planta, E-28012 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jorge@dit.upm.es 920217
+#
+liem=	licdmc.es
+
+#N	ls
+#S	
+#O	LS Servicios Informaticos, S.A.
+#C	Juan Carlos Loren Rodriguez
+#E	postmaster@lssa.es
+#T	+34 1 686 45 90, 687 92 02
+#P	Avda. Alemania 12, Leganes, E-28916 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jorge@uu.es 920706     
+#
+ls=	lssa.es
+
+#N	map1
+#S
+#O	Ministerio de Administracion Publica.
+#C	Luis Najera.
+#E	postmaster@map.es
+#T	+34 1 586 20 48
+#P	Maria de Molina 50, E-28006 Madrid
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 911118
+#
+map1=	map.es
+
+#N	mapfre
+#S
+#O	MAPFRE Servicios de Informatica S.A.
+#C	Jose Ignacio Romani
+#E	postmaster@mapfre.es
+#T	+34 1 626 20 00
+#P	Crta. de Pozuelo Majadahonda s/n, Km 8.6, E-28220 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	msm@dit.upm.es 920225
+#
+mapfre=	mapfre.es
+
+#N	faculty	
+#S
+#O	Madrid Business School, S.A.
+#C	Thomas O'Daniel
+#E	postmaster@mbs.es
+#T	+34 1 345 78 88
+#P	Avda. Pio XII, 26-28, E-28016 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R	
+#U
+#W	jorge@dit.upm.es 911212
+#
+faculty=	mbs.es
+
+#N	nsi
+#S
+#O	NEXUS, Servicios de Informacion
+#C	Joaquin Ballester
+#E	postmaster@nsi.es
+#T	+34 3 210 33 55
+#P	Travesera de Dalt 104-106, E-08024 Barcelona, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jmanas@dit.upm.es 890228, 900228, 910724
+#
+nsi=	nsi.es
+
+#N	nte
+#S
+#O	NTE SA
+#C	Maria Balaguer
+#E	postmaster@nte.es
+#T	+34 3 841 42 50
+#P	Can Male, Llissa D'Amunt, E-08186 Barcelona, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jmanas@dit.upm.es 890908
+#
+nte=	nte.es
+
+#N 	oli
+#S	
+#O	Eurotra
+#C	Antoni Tuells
+#E	postmaster@gilcub.es
+#T	+34 1 203 35 97
+#P	Avd. Valldridera 25-27, E-280xx Madrid, Spain
+#L 	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 920226
+#
+oli=	gilcub.es
+
+#N 	
+#S	
+#O	PARSYS S.A.
+#C	Judit Gimenez Lucas
+#E	postmaster@parsys.es
+#T	+34 3 401 71 78
+#P	c/ Isaac Newton s/n, Parque Tecnologico, E-28760 Madrid, Spain
+#L 	3 42 W / 40 25 N city
+#U 
+#W	msm@uu.es 920603
+#
+arvei 	.parsys.es
+
+#N 	hola
+#S	
+#O	Sociedad Estatal 5o Centenario
+#C	Jesus Gonzalez Barahona
+#E	postmaster@p500ad.es
+#T	+34 1 320 19 94
+#P	c/ Aravaca22 bis , E-28040 Madrid, Spain
+#L 	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 910311, 910419
+#
+hola=	p500ad.es
+
+#N	felipe, mijas, monzon, ronda
+#S
+#O	Inst. Bachillerato Principe Felipe
+#C	Benita Compostela
+#E	postmaster@principe.es
+#T	+34 1 314 67 58
+#P	Monforte de lemos s/n, E-28029 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 891116, 901210
+#
+felipe=	principe.es
+
+#N	proa
+#S
+#O	Compugraf, S.A.
+#C	Alberto Poblacion
+#E	postmaster@proa.es
+#T	+34 1 254 14 07
+#P	Guzman el Bueno 133, E-28003 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R	domain addressing at goya
+#U
+#W	jmanas@dit.upm.es 891003
+#
+proa=	proa.es
+
+#N	px86
+#S
+#O	Proyecto X86
+#C	Miguel A. Gallardo
+#E	postmaster@px86.es
+#T	+34 1 474 38 09
+#P	Fernando Poo 16, E-28045 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R	domain addressing at goya
+#U
+#W	jmanas@dit.upm.es 900122
+#
+px86=	px86.es
+
+#N	lolailo
+#S	Workstation HP 720 / HP-UX
+#O	RETEVISION
+#C	Jesus Maria Cerezo
+#E	postmaster@retevision.es
+#T	+34 1 555 21 22
+#P	Paseo de la Castellana 83-85, 2a planta, E-28046 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	msm@dit.upm.es 920213
+#
+lolailo=	retevision.es
+
+#N	riis1
+#S
+#O	Riis
+#C	Jens W. Riis
+#E	postmaster@riis.es
+#T	+34 1 320 59 11
+#P	Josefa Valcarcel 12, E-28027 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R	
+#U
+#W	diego@dit.upm.es 920127
+#
+riis1=	riis.es
+
+#N	rbtk
+#S
+#O	Robotiker
+#C	Fernando Gomez
+#E	postmaster@robotiker.es
+#T	+34 4 674 39 00
+#P	Belako Elkartegia, E-48100 Mungia, Bizkaia, Spain
+#L	2 52 W / 43 22 N city
+#R	
+#U
+#W	jmanas@dit.upm.es 881025, 900228
+#
+rbtk=	robotiker.es
+
+#N	rosa
+#S
+#O	ESTICAR S.A.
+#C	Marcos Rico Gutierrez
+#E	postmaster@rosa.es
+#T	+34 1 544 06 72
+#P	Orense 62, E-28020 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R	
+#U
+#W	diego@dit.upm.es 920108
+#
+rosa=	rosa.es
+
+#N	seatct
+#S
+#O	SEAT S.A., Centro Tecnico, Dpto. Calculo Tecnico
+#C	Felipe A. Lozano Nieto
+#E	postmaster@seat.es
+#T	+34 3 773 17 12, 773 13 48
+#P	Ctra. N-II, Km.585, Apdo. 91, E-08760 Martorell(Barcelona),Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jorge@uu.es 920703        
+#
+seatct=	seat.es
+
+#N	sei00
+#S
+#O	Servicios en Informatica y Comunicaciones
+#C	Damian Jan
+#E	postmaster@sei.es
+#T	+34 52 22 31 24
+#P	Maestranza 8, bloque 3, E-29016 Malaga, Spain
+#L	4 25 W / 37 28 N city
+#R
+#U
+#W	acalleja@dit.upm.es 901031
+#
+sei00=	sei.es
+
+#N	sema-sae
+#S
+#O	Semagroup S.A.E.
+#C	Alonso Alvarez
+#E	postmaster@sema.es
+#T	+34 1 571 24 44 ext. 503
+#P	Rosario Pino 14-16, 5 izq, E-28020 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 891108
+#
+sema-sae=	sema.es
+
+#N	seiv10
+#S
+#O	Alcatel Standard Electrica, S.A.
+#C	Florentino Castilla
+#E	postmaster@sesa.es
+#T	+34 1 467 30 00
+#P	Ramirez de Prado 5, E-28045 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 880818, 900612, 920504
+#
+seiv10=	sesa.es
+
+#N	sicyd
+#S	
+#O	SYCYD S.L.
+#C	Antonio Castillo
+#E	postmaster@sicyd.es
+#T	+34 3 426 06 86
+#P	Gran Via de las Corts Catalanes 286 bajos C, E-08004 Barcelona, Spain
+#L	2 9 E / 41 23 N city
+#R
+#W	diego@dit.upm.es 900427 900509
+#
+sicyd=	sicyd.es
+
+#N	spdtel
+#S
+#O	Sociedad de Planificacion Turistica de Malaga
+#C	Juan A. Morales
+#E	postmaster@spdm.es
+#T	+34 52 23 74 47
+#P	Avda. de los Guindos 48, Edificio Centro Civico, E-29004 Malaga, Spain
+#L	4 00 W / 36 48 N city
+#R
+#U
+#W	jorge@dit.upm.es 920226
+spdtel=	spdtel.es
+
+#N	spritel
+#S
+#O	Programa Spritel
+#C	Roberto Beitia
+#E	postmaster@spritel.es
+#T	+34 4 423 63 19
+#P	Gran Via 2, E-48001 Bilbao, Spain
+#L	2 52 W / 43 22 N city
+#R
+#U
+#W	jmanas@dit.upm.es 890605, 901210, 920601
+#
+
+#N	swbase
+#S
+#O	Software de Base S.A.
+#C	Jorge Reglero
+#E	postmaster@softbase.es
+#T	+34 1 388 45 15, 388 47 46, 388 48 42
+#P	Antonio Cavero 39, E-28043 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 911015
+#
+swbase=	softbase.es
+
+#N	iacis
+#S	
+#O	Tecno T & G
+#C	Fernando Marti Marti
+#E	postmaster@tecnotg.es
+#T	+34 1 570 51 09
+#P	Huesca 21, E-28020 Madrid, Spain
+#L	3 42 W / 40 25 N 
+#R	
+#U
+#W	diego@dit.upm.es 910117
+#
+iacis=	tecnotg.es
+
+#N	tg
+#S
+#O 	Technology Group
+#C 	Fernando Garcia
+#E	postmaster@tg.es
+#T 	+34 1 345 96 86
+#P 	Felix Boix 7, Planta 2, E-28036 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 901217
+#
+tg=	tg.es
+
+#N	teice
+#S
+#O	Teice Control, S.A.
+#C	Raul Vadillo
+#E	postmaster@teice.es
+#T	+34 1 554 46 05, 554 46 06, 554 46 07
+#P	Castillejos 34, E-28039 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 880818, diego@dit.upm.es 900228
+#
+teice=	teice.es
+
+#N	teletek
+#S
+#O	Teletek
+#C	Ana Arroyo
+#E	postmaster@teletek.es
+#T	+34 4 674 39 00
+#P	Belako Elkartegia, E-48100 Mungia, Bizkaia, Spain
+#L	2 52 W / 43 22 N city
+#R	
+#U
+#W	jmanas@dit.upm.es 890803
+#
+teletek=	teletek.es
+
+#N 	pedr
+#S	
+#O	Pedro Vaquer
+#C	Pedro Vaquer
+#E	postmaster@ths.es
+#T	+34 1 373 76 83
+#P	c/ Gabriela Mistral 14, 9C, E-280xx, Madrid, Spain
+#L 	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 920408
+#
+pedr=	ths.es
+
+#N 	sia1
+#S	
+#O	Sistemas Informaticos Abiertos (SIA).
+#C	Jose Luis Reyes
+#E	postmaster@sia.es
+#T	+34 1 683 47 81
+#P	c/ Sn. Vicente, 30, 28902 Getafe Madrid.
+#L 	3 42 W / 40 25 N city
+#R
+#U
+#W	msm@dit.upm.es 920707
+#
+sia1 	.sia.es
+sia1= 	sia.es
+
+#N	tid
+#S
+#O	Telefonica I+D, S.A.
+#C	Isabel Tovar
+#E	postmaster@tid.es
+#T	+34 1 337 44 55
+#P	Emilio Vargas 6, E-28043 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 881014, 900910, dsoriano@dit.upm.es 900429
+#
+tid=	tid.es
+
+#N	tissat
+#S
+#O	Tissat S.L.
+#C	Carlos Cebrian
+#E	postmaster@tissat.es
+#T	+34 6 394 20 00
+#P	Correos 1, Piso 3, E-460xx Valencia, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	diego@dit.upm.es 920128
+#
+tissat=	tissat.es
+
+#N	telsis
+#S
+#O	Telefonica Sistemas, S.A.
+#C	Eloy Fustero
+#E	postmaster@ts.es
+#T	+34 1 337 55 23
+#P	Sor Angela de la Cruz 3, E-28020 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	jmanas@dit.upm.es 890328, 900228, acalleja 910523
+#
+telsis=	ts.es
+
+#N	ttools
+#S
+#O	TransTOOLS S.A.
+#C	Javier Ollero
+#E	postmaster@ttools.es
+#T	+34 1 577 55 89
+#P	c/ O'Donnell 3, E-28015 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	dsoriano@dit.upm.es 9103006, acalleja@dit.upm.es 910529
+#
+ttools=	ttools.es
+
+#N	uef, uef2
+#S
+#O	Union Electrica Fenosa
+#C	Javier Berbiera
+#E	postmaster@uef.es
+#T	+34 1 571 37 00 ext. 2539
+#P	Capitan Haya 53, E-28020 Madrid, Spain
+#L	3 42 W / 40 25 W
+#R	
+#U	
+#W	diego@dit.upm.es 901001, 910610
+#
+uef=	uef.es
+uef2=	ats.uef.es
+
+#N	uida
+#S
+#O	Unisport, Junta de Andalucia
+#C	Victoriano Giralt Garcia
+#E	postmaster@uida.es
+#T	+34 52 28 22 66
+#P	Avda Sta Rosa de Lima s/n Edificio Unisport, E-29007 Malaga, Spain
+#L	4 00 W / 36 48 N city
+#R	
+#U	
+#W	jorge@dit.upm.es 920401
+#
+uida=	uida.es
+
+#N	torre3
+#S
+#O	Unitronics S.A.
+#C	Fernando Reymundo
+#E	postmaster@unitronics.es
+#T	+34 1 542 52 04
+#P	Plaza de Espana 18, planta 14, E-28008 Madrid, Spain
+#L	3 42 W / 40 25 N city
+#R
+#U
+#W	acalleja@dit.upm.es 901031, 910708
+#
+torre3=	unitronics.es
+
+#N	sil
+#S
+#O	Univ. de Vigo
+#C	Martin Llamas
+#E	postmaster@dtc.uvigo.es
+#T	+34 86 37 58 12
+#P	apdo. 62, E-36280 Vigo, Pontevedra, Spain
+#L	8 41 W / 42 1 N city
+#R
+#U
+#W	jmanas@dit.upm.es 890127, 890327, 920205, 920219
+#
+sil=	dtc.uvigo.es
+
+#N 	vidi
+#S	
+#O	Vidicom
+#C	Juan Ramon Miraz
+#E	postmaster@vidi.es
+#T	+34 1 357 11 53
+#P	Astrolabio 4, E-28023 Madrid, Spain 
+#L 	3 42 W / 40 25 N city
+#R
+#U
+#W	jorge@dit.upm.es 920218
+#
+vidi=	vidi.es
+
+#N	wial
+#S
+#O	Alberda
+#C	Willem Alberda
+#E	postmaster@wial.es
+#T	+34 3 232 24 74	
+#P	c/ Ali-Bey 112,2o 1a, E-08013 Barcelona, Spain
+#L	2 9 E / 41 23 N city
+#R
+#U
+#W	jorge@dit.upm.es 920407
+#
+wial=	wial.es
+
+SHAR_EOF
+:	End of shell archive
+exit 0
+

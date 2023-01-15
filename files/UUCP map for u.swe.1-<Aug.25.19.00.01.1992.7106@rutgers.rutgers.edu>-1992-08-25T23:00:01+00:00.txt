@@ -1,0 +1,1589 @@
+:	This is a shell archive.
+:	Remove everything above this line and
+:	run the following text with /bin/sh to create:
+:	u.swe.1
+: This archive created: Tue Aug 25 18:59:59 1992
+echo shar: extracting u.swe.1
+cat << 'SHAR_EOF' > u.swe.1
+# u.swe.1; changes to: uucpmap@sunic.sunet.se
+# Copyright 1989-1992 EurOpen. All rights reserved.
+# Permission is granted for non-commercial use.
+# Last changed: Mon Jun 15 15:24:54 MET DST 1992
+
+#N	aahus, .aahus.se
+#O	Aahus Studiodata AB
+#C	Kjell Persson
+#E	kjell@aahus.se
+#T	+46 44 241045
+#P	Box 140, S-296 00 Aahus, Sweden
+#L	55 57 N 14 17 E
+#W	enea!ber 860502
+#
+
+#N	abalon, .abalon.se
+#O	Abalon AB
+#C	Hansi Tesarz
+#E	hansi@abalon.se
+#T	+46 8 802320
+#P	Ekbacksvaegen 20, Box 111 29, S-161 11 Bromma, Sweden 
+#L	59 19 N  17 57 E
+#W	abalon!hansi 890425
+#
+
+#N	abanet, .abaris.se
+#O	Abaris AB
+#C	Johan Tarmet
+#E	johan@abaris.se.
+#T	+46 8 6515300
+#P	Norr Malrastrand 24, 5 tr, S-112 20 Stockholm, Sweden
+#W	johan@abaris.se  920320
+#
+
+#N	olympos, .ato.abb.se
+#O	ABB Atom
+#C	Mikael Sandberg
+#E	atomisa@ato.abb.se
+#T	+46 21 107908
+#P	S-721 63 Vasteras, Sweden
+#L	59 37 N 16 33 E
+#W	atomisa@ato.abb.se 910206
+#
+
+#N	abbaut, .aut.abb.se
+#O	ABB Automation AB
+#C	Kenneth Holmstrom
+#E	hkh@aut.abb.se
+#T	+46 21 342862
+#P	Avd kPU, S-721 67 Vasteras, Sweden
+#L	59 37 N 16 33 E
+#W	ber@sunet.se 910506
+#
+
+#N	abbdat, .dat.abb.se
+#O	ABB Data AB, avdelning K
+#C	Nils-Olof Ekholm
+#E	noe@dat.abb.se
+#T	+46 21 323358
+#P	S-721 80  Vasteras, Sweden
+#L	59 37 N 16 33 E
+#W	abbdat!noe 19880909
+#
+
+#N	abblund, .crclund.abb.se
+#O	ABB, avd KLL
+#C	Per Sevrell
+#E	per@crclund.abb.se
+#T	+46 46 168537
+#P	Forskarbyn IDEON, S-223 70  Lund, Sweden
+#L	55 69 N 13 18 E city
+#W	enea!ber 880324
+#
+
+#N	abbnet, .net.abb.se
+#O	ABB Network Control AB
+#C	Sven Holmstroem
+#E	SHolmstrom@net.abb.se
+#T	+46 21 324168
+#P	Dept. DB, S-721 69 Vasteras, Sweden
+#L	59.37N 16.33E
+#W	abbnet!SHolmstrom 900716
+#
+
+#N	sehaf, .sehaf.abb.se
+#O	ABB Hafo AB
+#C	Christer Hostklint
+#E	sysch@sehaf.abb.se
+#T	+46 758 24843
+#P	Box 520, S-175 26 Jarfalla, Sweden
+#W	ber@sunet.se 920514
+#
+
+#N	abzeta, .abzeta.se
+#O	Abzeta Data HB
+#C	Per Zetterquist
+#E	pelle@abzeta.se
+#T	+46 758 20125
+#P	Toppvagen 43B, S-175 40  Jarfalla, Sweden
+#L	59 45 N 18 09 E
+#W	abzeta!pelle 870130
+#
+
+#N	.adedata.se
+#O	ADE Data AB
+#C	Per VIrback
+#E	
+#T	+46 18 184400
+#P	Box 230055, S-750 23 Uppsala, Sweden
+#
+
+#N	amdab, .amdab.se
+#O	Anders Myrberg Data Ab
+#C	Anders Myrberg
+#E	postmaster@amdab.se
+#T	+46 8 778 5779
+#P	Rikstensvagen 31, S-146 38 Tullinge, Sweden
+#W	ber@sunet.se 920810
+#
+
+#N	amuz, .amu.se
+#O	AMU Jamtland
+#C	Lars Magnusson
+#E	lars@z.amu.se
+#T	+46 63 14 57 42
+#P	Box 603, S-832 01 Froson
+#W	lars@z.amu.see 901019
+#
+
+#N	anyware, .everyware.se
+#O	Everyware Mikrodata AB
+#C	Hans Naesten
+#E	postmaster@everyware.se
+#T	+46 8 669 39 29
+#P	Paalsundsgatan 3 B, S-117 31 Stockholm, Sweden
+#
+
+#N	ap-data, .ap-data.se
+#O	Alfaskop Partner Data AB
+#C	Peter Baeza
+#E	postmaster@ap-data.se
+#T	+46 31 492759
+#P	August Barks gata 6A, S-421 32 Vastra Frolunda, Sweden
+#W	ber@sunet.se 920615
+#
+
+#N	april, .april.se
+#O	April system design
+#C	Bjorn Karlsson
+#E	postmaster@april.se
+#T	+46 8 764 70 40
+#P	Box 3050, S-172 03 Sundbyberg, Sweden
+#W	ber@sunet.se 920130
+#
+
+#N	arcona, .arcona.se
+#O	Arcona Fastighetsutveckling AB
+#C	Erik Gyllenstjerna
+#E	
+#T	+46 8 729 69 00
+#P	Box 23012, S-104 35 Stockholm, Sweden
+#L	59 20 N 18 03 E
+#
+
+#N	.astra.se
+#O	AB Astra
+#C	Stefan Holm
+#E	stholm@astra.se
+#T	+46 755 26000
+#P	S-151 85 Sodertalje, Sweden
+#W	stholm@astra.se 911209
+#
+
+#N	attnord, att.se
+#O	ATT Nordics AB
+#C	Kevin Ward
+#E	attnord!kevin or attmail!kevinward
+#T	+46 08 700 52 49
+#P	Klarabergsviadukten 70C 8tr, Box 70363, S-107 24 Stockholm, Sweden
+#W	attnord!kevin 900927
+#
+
+#N	augs, .augs.se
+#O	Amiga User Group - Sweden
+#C	Per Salmi
+#E	Per_Salmi@augs.se
+#T	+46 13 172267
+#P	Box 11055, S-580 11 Linkoping, Sweden
+#W	ber@sunet.se 911022
+#
+
+#N	admin, .avesta.se
+#O	Avesta AB, Cold Rolled Products Division
+#C	Ronny Karlsson
+#E	ronny@admin.avesta.se
+#T	+46 16 34 92 61
+#P	S-644 80 Torshaella, Sweden
+#W	ronny@admin.avesta.se 911001
+#
+
+#N	.axiell.se
+#O	Axiell Bibliotekssystem AB
+#C	Mats Gronlund
+#E	mats@axiell.se
+#T	+46 31 83 00 25
+#P	Box 2070, S-431 02 Molndal, Sweden
+#W	mats@axiell.se 920323
+#
+
+#N	besk, .beskriv.se
+#O	Beskrivningstjanst AB
+#C	Hans Carlsson
+#E	root@beskriv.se
+#T	+46 8 929636
+#P	Koltrastv 18, S-191 55 Sollentuna, Sweden
+#W	ber@sunet.se
+#
+
+#N	blox, .blox.se
+#O	Blox Data AB
+#C	Bjorn Ekwall
+#E	bj0rn@blox.se
+#T	+46 8 7403895
+#P	Myrstuguvagen 83, S-143 00 Vaarby, Sweden
+#W	bj0rn@blox.se 910321
+#
+
+#N	bndata, .bndata.se, .kpool.se
+#O	BN-Data Konsult
+#C	Bengt Nelson
+#E	nelson@bndata.se
+#T	+46 31 486005
+#P	Korgbollsvagen 10 B, S-424 33 Angered, Sweden
+#L	11 58 30 E  57 41 30 N
+#W	ber@sunet.se 911104
+#
+
+#N	.boverket.se
+#O	Boverket
+#C	Per-Ivar Persson
+#E	postmaster@boverket.se
+#T	+46 455 53247 
+#P	Box 534, S-371 23 Karlskrona, Sweden
+#W	ber@sunet.se 920130
+#
+
+#N	.dec.se
+#O	Digital Equipment AB
+#C	Gullik Webjorn
+#E	webjorn@ip4u.dec.se
+#T	+46 8 733 80 00
+#P	Allen 6, S-172 89 Stockholm, Sweden
+#
+
+#N	defacto, .defacto.se
+#O	CynCrona DeFacto AB
+#C	Kjell Jonsson
+#E	kjell@defacto.se,
+#T	+46 8 7035034
+#P	Norgegatan 2, S-164 32 Kista, Sweden
+#L	59 45 N 18 09 E
+#W	jerry@defacto.se 901107, 920225
+#
+
+#N	.dexpert.se
+#O	Dexpert Data AB
+#C	Christoffer Arnold
+#E	chris@dexpert.se
+#T	+46 8 6279080
+#P	Box 20175, S-161 02 Bromma, Sweden
+#W	ber@sunet.se 920525
+#
+
+#N	vivaldi, .digitailor.se
+#O	Digitilor AB
+#C	Joakim Larsson
+#E	jocke@digitailor.se
+#T	+46 8 7445300
+#P	Arstaangsvagen 17, S-117 43 Stockholm, Sweden
+#L	59 20 N 18 12 E
+#W	jocke@digitailor.se 910130
+#
+
+#N	discovery, .dn.se
+#O	AB Dagens Nyheter
+#C	Johan Palmkvist
+#E	johan@dn.se
+#T	+46 8 738 1545
+#P	System Department, S-105 15 Stockholm, Sweden
+#W	johan@dn.se 911202
+#
+
+#N	distinct, .distinct.se
+#O	Distinct Systems AB
+#C	Lars Pensjo
+#E	lars@distinct.se
+#T	+46 31 410805
+#P	Box 7063, S-402 32 Gothenburg, Sweden
+#L	57 39 N 12 17 E City
+#W	ber@sunet.se 910415
+#
+
+#N	dumpy, .agema.se
+#O	Agema Infrared Systems AB
+#C	Johan Murray
+#E	murray@agema.se
+#T	+46 8 753 34 00
+#P	Box 3, S-182 11 Danderyd, Sweden
+#W	ber@sunet.se 880926
+#
+
+#N	.alfanet.se
+#O	Alfanet Communications AB
+#C	Paul Galli
+#E	paul@alfanet.se
+#T	+46 8 330630
+#P	Box 23115, S-104 35  Stockholm, Sweden
+#L	59 20 N 18 03 E
+#W	paul@alfanet.se
+#
+
+#N	alfons, .casco.se
+#O	Casco Nobel AB
+#C	Lars Rambaeck
+#E	postmaster@casco.se
+#T	+46 8 743 40 00
+#P	Box 11550, S-100 61 Stockholm
+#L	59 35 N 18 06 E
+#W	ber@sunet.se 910218
+#
+
+#N	alp, .alp.se
+#O	ALP Data i Linkoping AB
+#C	Thomas Petterson
+#E	thomas@alp.se
+#T	+46 13 137600
+#P	Linnegatan 14, S-582 25  Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	enea!ber 861121, 920406
+#
+
+#N	analytik, .analytikerna.se
+#O	Analytikerna
+#C	Bengt Kleberg
+#E	bk@analytikerna.se
+#T	+46 8 107555
+#P	Drottninggatan 33, 1tr, S-111 51 Stockholm, Sweden
+#L	59 20 N / 18 3 E
+#W	bk@analytikerna.se 900115
+#
+
+#N	appli, .appli.se
+#O	Applitron AB
+#C	Ingvar Hallqvist
+#E	ingvar@appli.se
+#T	+46 31 191485
+#P	N:a Gubberogatan 30, S-416 63  Gothenburg, Sweden
+#L	57 39 N 12 17 E City
+#W	appli!ingvar 861125
+#
+
+#N	.arctic.se
+#O	Arctic Software AB
+#C	Raymond Johansson
+#E	rj@arctic.se
+#T	+46 920 97900
+#P	Laboratoriegrand 11, S-951 64 Lulea, Sweden
+#W	rj@arctic.se 871126
+#
+
+#N	asta, .assistor.se
+#O	Assistor AB
+#C	Bo Ahlstroem
+#E	bosse@assistor.se
+#T	+46 8 7829490
+#P	Valhallav. 104, S-114 41 Stockholm, Sweden
+#L	59 31 N / 18 10 E
+#W	assistor!bosse 900220, 910424
+#
+
+#N	axisab, .axis.se
+#O	Axis communications AB 
+#C	Martin Gren
+#E	martin@axis.se
+#T	+46 46 182256
+#P	Ole Roemers vaeg 12, S-223 70 Lund, Sweden
+#W	axisab!perd 900116
+#
+
+#N	.nobeltech.se
+#O	Nobeltech AB
+#C	Per Andersson
+#E	ppan@nobeltech.se
+#T	+46 758 84238, +46 758 84246
+#P	S-175 88 Jarfalla, Sweden
+#L	59 22 N / 17 93 E
+#W	miri@beab.se 880808, 9202611
+#
+
+#N	afrodite, .symsoft.se
+#O	SymSoft AB
+#C	Attila Nemeth
+#E	attila@symsoft.se
+#T	+46 8 7519063
+#P	Helsingorgatan 5, S-164 42 Kista, Sweden
+#L	59 18 N  17 58 E
+#W	attila@symsoft.se 901005
+#
+
+#N	bild, .bild.se
+#O	Bildbehandling AB
+#C	Bjorn Lindskog
+#E	bjorn@bild.se
+#T	+46 13 140000
+#P	Box 6117, S-580 06 Linkoping, Sweden
+#L	58 34 N 15 36 E city
+#W	bild!bjorn, 880503
+#
+
+#N	bol, .bpc.se
+#O	Boliden Process Control AB
+#C	Per-Eke Johansson
+#E	pj@bol.uucp
+#T	+46 910 61200
+#P	Box 23, S-93600 Boliden, Sweden
+#W	pj@bol.uucp 910415
+#
+
+#N	brix, .brix.se
+#O	Brix Datakonsulter AB
+#C	Lena Wikstroem
+#E	postmaster@brix.se
+#T	+46 8 10 33 50
+#P	Brunsgatan 21A, S-111 38 Stockholm, Sweden
+#L	59 20 N / 18 3 E
+#W	ber@sunic.sunet.se 890821
+#
+
+#N	cadsys1, .cadsystem.se
+#O	cadsystem AB
+#C	Leif Maartensson
+#E	lema@cadsystem.se
+#T	+46 8 626 88 60
+#P	Box 7103, S-191 07 Sollentuna, Sweden
+#W	ber@sunet.se 920313
+#
+
+#N	caktus, .sbl.se
+#O	The National Bacteriological Laboratory
+#C	Jukka Kontio
+#E	jek@caktus.sbl.se
+#T	+46 8 7351000
+#P	S-105 21 Stockholm, Sweden
+#L	59 20 N 18 45 E
+#W	jek@caktus.sbl.se 910204
+#
+
+#N	cave
+#O	The Misty Cave BBS
+#C	Jan Qvarnstrom
+#E	god@cave.uucp
+#T	+46 753 31045
+#P	Tunavagen 36 III, S-147 42 Tumba, Sweden
+#W	god@cave.uucp 920309
+#
+
+#N	kaa, .ec.se
+#O	Elektronikcentrum i Svangsta AB
+#C	Par Kansala
+#E	pelle@ec.se
+#T	+46 454 22500
+#P	Box 14, S-376 00 Svangsta, Sweden
+#L	55 69 N 13 18 E
+#W	pelle@ec.se 901015
+#
+
+#N	carlstedt, .carlstedt.se
+#O	Carlstedt Elektronik AB
+#C	Gunnar Carlstedt
+#E	ce@carlstedt.se
+#T	+46 31 212510
+#P	Traeringen 46, S-416 79 Gothenburg, Sweden
+#
+
+#N	carm, .carmenta.se
+#O	Carmenta AB
+#C	Nils Olzon
+#E	no@carmenta.se
+#T	+46 31 428240
+#P	Box 31121, S-400 32 Gothenburg, Sweden
+#W	no@carmenta.se 910902
+#
+
+#N	capcad, .capcad.se
+#O	CAPCAD AB
+#C	Sten Kvamme
+#E	skvamme@capcad.se
+#T	+46 31 114084
+#P	Risasgatan 8, S-413 07 Gothenburg, Sweden
+#W	skvamme@capcad.se 911215
+#
+
+#N	.cats.se
+#O	Cats AB
+#C	Hjalmar Brismar
+#E	hjalmar@cats.se
+#T	+46 8 336664
+#P	Ynglingagatan 17, S-113 47 Stockholm, Sweden
+#L	18.3 E 59.2 N
+#
+
+#N	.ccs.se
+#O	CCS Sweden AB
+#C	Odd Gripenstam
+#E	postmaster@ccsab.ccs.se
+#T	+46 8 205330
+#P	Vasterlanggatan 75, S-111 29 Stockholm, Sweden
+#W	odd@ccsab.ccs.se 920111
+#
+
+#N	ceruss, .ceruss.se
+#O	CERUSSS AB
+#C	Goran Pettersson
+#E	gp@ceruss.se
+#T	+46 8 7547035
+#P	Ingenjorscentrum, S-191 78 Sollentuna, Sweden
+#W	gp@ceruss.se 920207
+#
+
+#N	.chalmers.se
+#O	Chalmers University of Technology
+#C	Gunnar Lindberg
+#E	lindberg@chalmers.se
+#T	+46 31 810100 ext 2195
+#P	S-412 96 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	enea!ber 850117
+#
+
+#N	.common.se
+#O	Databasen Common
+#C	Ulf Hedlund
+#E	tcp@common.se
+#T	+46 8 7743465
+#P	Nybyggarvagen 13, S-141 37 Huddinge, Sweden
+#L	59 13N / 18 00 E
+#W	tcp@common.se 911210
+#
+
+#N	compuram, .bbt.se
+#O	Bhaktivedanta Book Trust (BBT)
+#C	Per Lindqvist
+#E	pgd@bbt.se
+#T	+46 753 29418
+#P	Korsnas gard, S-147 92 Grodinge, Sweden
+#L	59 03 N  17 37 E
+#W	compuram!pgd 891116
+#
+
+#N	comsys, .compound.se
+#O	Compound Systems AB
+#C	Bjoern Smith
+#E	smith@compound.se
+#T	+46 8 7923689
+#P	Enhagsvaegen 18, S-18339 Taeby, Sweden
+#L	59 45 N 18 09 E
+#W	smith@compound.se
+#
+
+#N	creo, .creo.se
+#O	Creo Data
+#C	Sven-Erik Pettersson
+#E	svenerik@creo.se
+#T	
+#P	Enhagsvagen 18, S-183 39 Taby, Sweden
+#W	ber@sunet.se 920510
+#
+
+#N	cvserv, .ivf.se
+#O	IVF
+#C	Anders Brorson
+#E	ab@ivf.se
+#T	+46 31 838600
+#P	Moelndalsv 85, S-412 85 Gothenburg, Sweden
+#W	ber@sunet.se 920710
+#
+
+#N	d-office, .d-office.se
+#O	D-Office
+#C	Johan Kaenngard
+#E	postmaster@d-office.se
+#T	+46 8 656 9500
+#P	Essingetorget 42, S-112 66 Stockholm, Sweden
+#W	ber@sunet.se 920612
+#
+
+#N	dada, .random.se
+#O	Random Design
+#C	Ian Feldman
+#E	ianf@random.se
+#T	+46 8 515561
+#P	Gambrinusgatan 4, S-112 31 Stockholm, Sweden
+#W	ianf@random.se 900714
+#
+
+#N	dalsys, .dalsys.se
+#O	Dalsys AB
+#C	Karl Skogsberg
+#E	ks@dalsys.se
+#T	+46 243 83050
+#P	Box 182, S-781 22 Borlange, Sweden
+#W	ks@dalsys.se 910906
+#
+
+#N	daltek, .daltek.se
+#O	Daltek
+#C	Sven-Hakan Nilsson
+#E	shn@daltek.se
+#T	+46 243 735 34
+#P	Box 761, S-781 27 Borlange, Sweden
+#W	ber@sunet.se 920507
+#
+
+#N	dare, .dare.se
+#O	Dare Data
+#C	Erling Anderberg
+#E	erling@dare.se
+#T	+46 764 26030
+#P	Svartgransv. 21, S-184 92 Akersberga, Sweden
+#W	ber@sunet.se
+#
+
+#N	data-x, .data-x.se
+#O	Data-X
+#C	Lennart Malmberg
+#E	lennart@data-x.se
+#T	+4 410 266 76, +46 70 014 067	
+#P	Hemmesdynge no: 10, S-230 20 Klagstorp, Sweden
+#
+
+#N	dgswe, .dg.se
+#O	Data General Sweden
+#C	Robert Claeson
+#E	postmaster@dg.se
+#T	+46 8 925500
+#P	Box 28, S-164 93 Kista, Sweden
+#L	59 18 N  17 58 E
+#W	dgswe!ah 900318, 910822
+#
+
+#N	diab, .diab.se
+#O	Diab Data AB
+#C	Goran Nordenborg
+#E	gn@diab.se
+#T	+46 8 768 06 60
+#P	Box 2029, S-183 02  Taeby, Sweden
+#L	59 45 N 18 09 E
+#W	diab!mh 860611
+#
+
+#N	diabgb
+#O	Diab Data AB
+#C	Kjell Kristiansson
+#E	kjell@diabgb.uucp
+#T	+46 31 805 300
+#P	Gullbergs strandgata 7, S-411 04  Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	diabgb!kjell 881026
+#
+
+#N	dimen, .dimension.se
+#O	Dimension AB
+#C	Christopher Arnold
+#E	chris@dimension.se
+#T	+46 8 980030
+#P	Box 20200, S-161 02 Bromma, Sweden
+#W	chris@dimension.se 900910
+#
+
+#N	dynas, .dynas.se
+#O	DynaSoft, Dynamic Software AB
+#C	Peter Roestin
+#E	russin@dynas.se
+#T	+46 8 726 85 60
+#P	Liljeholmsv. 10, S-117 43  Stockholm, Sweden
+#L	59 20 N 18 12 E
+#W	dynas!russin 891025
+#
+
+#N	edata, .edata.se
+#O	Edata AB
+#C	Rolf Arbenius
+#E	rar@edata.se
+#T	+46 8 623 6638
+#P	Djupdalsvagen 7, Box 336, S-191 30 Sollentuna, Sweden
+#W	root@edata.se 910923
+#
+
+#N	edvina, .edvina.se
+#O	Programvarubolaget EDVINA AB
+#C	Olle E Johansson
+#E	olle@edvina.se
+#T	+46 8 626 2050
+#P	Box 6036, S-191 06 Sollentuna, Sweden
+#L	59 22 N 18 52 E
+#W	olle@edvina.se 910119
+#
+
+#N	enea, .enea.se
+#O	Enea Data AB
+#C	Goran Uddeborg
+#E	uddeborg@enea.se
+#T	+46 8 792 25 00
+#P	Box 232, S-183 23 Taeby, Sweden
+#L	59 45 N 18 09 E
+#W	enea!ber 871218
+#
+
+#N	enorm, .eb.se
+#O	EB Signal AB
+#C	Jan-Owe Remmert
+#E	jor@eb.se
+#T	+46 8 726 2093
+#P	Box 42505, S-126 12 Stockholm, Sweden
+#L	59 00 N / 17 00 E
+#W	Rikard@EB.se 900205, 910418
+#
+
+#N	environ, .environ.se
+#O	Statens Naturvaardsverk
+#C	Bjoern Rostroem
+#E	bir@environ.se
+#T	+46 8 7991000, +46 8 7991291
+#P	Fack 1302, S-171 25  Solna, Sweden
+#L	59 22 N 18 52 E
+#W	environ!bir 861001
+#
+
+#N	ergodata, .ergodata.se
+#O	ErgoData AB
+#C	Olle Olsson
+#E	ergo@ergodata.se
+#T	+46 31 17 61 50
+#P	Foereningsgatan 4A, S-411 27 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	enea!ber 880105
+#
+
+#N	ericom, .ericsson.se
+#O	Telefonaktiebolaget LM Ericsson
+#C	Bo-Erik Sandholm
+#E	lsa@ericsson.se
+#T	+46 8 719 1658
+#P	TN/ETX/TG/HL, S-126 25 Stockholm, Sweden
+#L	59 18 11 N / 18 00 29 E
+#W	howard@ericsson.se 891102, 910404
+#
+
+#N	erisoft, .erisoft.se
+#O	Erisoft AB
+#C	Arne Lundberg
+#E	al225@lulea.erisoft.se
+#T	+46 920 42985
+#P	Erisoft AB, Box 10033, S-951 10, Lulea, Sweden
+#L	65 35 N 22 10 E
+#W	bj@dc.luth.se 910111
+#
+
+#N	.europen.se
+#O	EurOpen-S
+#C	Hans Johansson
+#E	secretary@europen.se
+#T	+46 8 750 26 03
+#P	c/o NCR, Box 1206, S-164 28  Kista, Sweden
+#L	59 24 50 N / 17 56 00 E
+#W	ber@sunet.se 910717
+#
+
+#N	.exmandato.se
+#O	eXmandato AB
+#C	Mats Mellstrand
+#C	mats@exman.exmandato.se
+#T	+46 480 122 60
+#P	Box 251, S-391 23 Kalmar, Sweden
+#L	52 22 N 14 54 E
+#W	ber@sunet.se 910823
+#
+
+#N	exodata, .exodata.se
+#O	Exodata AB
+#C	Lars Erikson
+#E	postmaster@exodata.se
+#T	+46 8 795 98 30
+#P	Kronofogdev. 52, Box 8312, S-163 08 Spanga, Sweden
+#W	ber@sunet.se 900121
+#
+
+#N	f109a,  .mil.se
+#O	Defense Data Systems Agency
+#C	Anders Tjaeder
+#E	anders@f109a.mil.se
+#T	+46 8 7888736
+#P	Box 80005, S-104 50 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	f109a!scguli 861009
+#
+
+#N	.facit.se
+#O	Facit AB
+#C	Benny Fransson
+#E	postmaster@facit.se
+#T	+46 120 81000
+#P	S-597 80 Atvidaberg
+#W	ber@sunet.se 920818
+#
+
+#N	ikaros, .fagersta.se
+#O	Fagersta kommun
+#C	Peo Guss
+#E	peo@fagersta.se
+#T	+46 223 44000
+#P	Norbergsvagen 19, S-737 80 Fagersta, Sweden
+#W	ber@sunet.se 920411
+#
+
+#N	falun70
+#O	Datagruppen
+#C	Per Lindberg
+#E	falun70!root
+#T	+46 23 19150
+#P	Parkgatan 1B, S-791 71 Falun, Sweden
+#L	55 69 N 13 30 E
+#W	ber@sunic.sunet.se 890803
+#
+
+#N	ferner, .ferner.se
+#O	Ferner Elektronik AB
+#C	Lennart Gilander
+#E	lennart@ferner.se
+#T	+46 758 18990
+#P	Jarfallavagen 186, S-175 60 Jarfalla, Sweden
+#W	ber@sunet.se 920516
+#
+
+#N	ffvts, .ts.ffv.se
+#O	FFV Test Systems AB
+#C	Krister Joas
+#E	krijo@ts.ffv.se
+#T	+46 8 775 54 35
+#P	Box 47125, S-100 74 Stockholm, Sweden
+#W	krijo@ts.ffv.se 911024
+#
+
+#N	fkkron
+#O	Kronobergs allm. Foersaekringskassa
+#C	Reijo Anttonen
+#E	fkkron!reijo
+#T	+46 470 23100
+#P	Nygatan 10, S-351 84 Vaxjo, Sweden
+#L	56 52 N 14 48 E
+#W	enea!ber 870801
+#
+
+#N	.flink.se
+#O	Flink Administration
+#C	Lars Goran Winroth
+#E	lasse@flink.se
+#T	+46 8 659 02 95
+#P	Slakthusplan 9, S-121 62 Johanneshov, Sweden
+#W	ber@sunet.se 920305
+#
+
+#N	flygts, .flygt.se
+#O	Flygt AB
+#C	Gunnar Djarv
+#E	gdj@flygt.se
+#T	+46 8 733 67 37
+#P	Box 1309, S-171 25 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	gdj@flygt.se 901101
+#
+
+#N	fmv, .fmv.se
+#O	Defence Materiel Administration
+#C	Jan Bjurstrom, Yngve Spang
+#E	bjm@fmv.se, yngve@fmv.se
+#T	+46 8 7828453
+#P	S-115 88 Stockholm, Sweden
+#L	59 20 N 18 08 E
+#W	yngve@fmv.se 890315
+#
+
+#N	folke, .foa.se
+#O	National Defense Research Establishment (FOA)
+#C	Mats Ekman
+#E	mek@foa.se
+#T	+46 13 118000
+#P	FOA, Box 1165, S-581 11 Linkoping, Sweden
+#L	58 24 N 15 35 E
+#W	alfben@folke.uucp 871021, 910830
+#
+
+#N	forger, .excosoft.se
+#O	Excosoft AB
+#C	Peter Pierrou
+#E	pierrou@excosoft.se
+#T	+46 8 703 26 40
+#P	Box 1270, S-164 28 Kista, Sweden
+#W	ber@sunet.se 910821
+#
+
+#N	fractal, .fractal.se
+#O	Fractal AB
+#C	Stefan Berg
+#E	postmaster@fractal.se
+#T	+46 8 23 30 70
+#P	Johannesgrand 1, S-111 30 Stockholm, Sweden
+#L	59 20 N 18 3 E
+#W	ber@sunet.se 910110
+#
+
+#N	fredbom, .fredbom.se
+#O	Fredbom AB
+#C	Peter Bjorkbom
+#E	postmaster@fredbom.se
+#T	+46 243 86215
+#P	Borgenasv 39, S-784 33 Borlange, Sweden
+#W	ber@sunet.se 920710
+#
+
+#N	front, .front.se
+#O	Front Capital Systems
+#C	Per Lindberg
+#E	per@front.se
+#T	+46 8 6611510
+#P	Box 5727, S-114 87 Stockholm, Sweden
+#L	59 10 N 18 4 E
+#W      zap@front.se 880906, ber@sunet.se 900723
+#
+
+#N	frontec, .frontec.se
+#O	Frontec Gothenburg
+#C	Jan-Olof Carlson
+#E	joc@frontec.se
+#T	+31 31 840120
+#P	Torpavallsgatan 9, S-416 73 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	frontec!joc 880926, 920119
+#
+
+#N	funsys, .funsys.se
+#O	Enator Functional Systems AB
+#C	Jan Gifvars
+#E	jang@funsys.se
+#T	+46 8 750 72 00
+#P	Box 1213, S-164 28 Kista, Sweden
+#L	59 18 N  17 58 E
+#W	tomas@funsys.se 891031, 911021
+#
+
+#N	fyr, .sjov.se
+#O	Sjofartsverket
+#C	Bjorn Geite
+#E	bjorn@sjov.se
+#T	+46 11 191344
+#P	S-601 78 Norrkoping, Sweden
+#W	ber@sunet.se 920510
+#
+
+#N	gamajon, .detron.se
+#O	Detron HB
+#C	David Axmark
+#E	davida@isil.uucp
+#T	+46 18 110780
+#P	Petterslundsgatan 11A, S-753 28 Uppsala, Sweden
+#L	55 69 N 13 30 E
+#W	gamajon!pererico 880130
+#
+
+#N	gense, .gensym.se
+#O	Gensym
+#C	Peter Pavek
+#E	postmaster@gensym.se
+#T	+46 18 504055
+#P	Glunten, S-751 38 Uppsala, Sweden
+#W	ber@sunet.se 920810
+#
+
+#N	gfl, .gfl.se
+#O	Grafiska Forskningslaboratoriet
+#C	Hakan Roenngren
+#E	hakanr@gfl.se
+#T	+46 8 7909988
+#P	Box 5637, S-114 86 Stockholm, Sweden
+#W	hakanr@gfl.se 920225
+#
+
+#N	utb.gov.se
+#O	Utbildningsdepartementet
+#C	Bjorn Brandt
+#E	brandt@utb.gov.se
+#T	+46 8 763 18 64
+#P	S-103 33 Stockholm, Sweden
+#
+
+#N	goulds, .encore.se
+#O	Lauderdale Computer AB
+#C	Joakim Behr
+#E	goulds!kim
+#T	+46 8 7647100
+#P	Albygatan 102, S-171 54 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	goulds!stefan 870821
+#
+
+#N	gptks, .posten.se
+#O	Goeteborg Postterminal
+#C	Anders Gottschalk
+#E	aago@posten.se
+#T	+46 31 623828
+#P	Kruthusgatan 17, S-405 10  Gothenburg, Sweden
+#L	59 20 N 18 03 E
+#W	ber@sunic.sunet.se 890808
+#
+
+#N	gryaab, .gryaab.se
+#O	GRYAAB
+#C	Doug Lumley
+#E	doug@gryaab.se
+#T	+46 31 544820
+#P	Karl IX:s vag, S-417 22 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	doug@gryaab.se 901029
+#
+
+#N	.gvab.se
+#O	Graningeverken AB
+#C	Leif Engman
+#E	
+#T	+46 612 20500
+#P	Box 100, S-873 80 Bollsta Bruk, sweden
+#W	ber@sunet.se 920427
+#
+
+#N	.gve.se
+#O	Gotaverken Energy AB
+#C	Olof Hultin
+#E	
+#T	+46 31 501030
+#P	Box 8734, S-402 75 Gothenburg, Sweden
+#W	ber@sunet.se 920521
+#
+
+#N	.gu.se
+#O	University of Gothenburg, Computer Service Center
+#C	Jan-Gunnar Tingsell
+#E	jgt@hum.gu.se
+#T	+46 31 634553
+#P	S-412 98 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#
+
+#N	hardix, .hardi.se
+#O	Hardi Electronics AB
+#C	Bo Nilsson
+#E	bo@hardi.se
+#T	+46 46 117790
+#P	Box 966, S-220 09 Lund, Sweden
+#W	ber@sunet.se 910401
+#
+
+#N	heffa, .softlab.se
+#O	SoftLab AB
+#C	Tony Olsson
+#E	tony@softlab.se
+#T	+46 13 102465
+#P	Borgmaestaregatan 6, S-582 23 Linkoping, Seden
+#W	tony@softlab.se 890114
+#
+
+#N	borre, .hetm.se
+#O	Hard & Mjuk AB
+#C	Ingemar Berg
+#E	berg@hetm.se
+#T	+46 8 734 0016
+#P	Hannebergsgatan 23, S-171 47 Solna, Sweden
+#
+
+#N	.exagon.se
+#O	Technical College of Orebro
+#C	Daniel Deimert
+#E	daniel@exagon.se
+#T	+46 19 52037
+#P	Fridstavagen 4, S-715 94 Odensbacken, Sweden 
+#L	59 16 N 15 12 E
+#W	daniel@exagon.se 900614, 910912
+#
+
+#N	.hfb.se
+#O	University College Falund/Borlange
+#C	Bjorn Forselius
+#E	postmaster@hfb.se
+#T	+46 23 819 01
+#P	Box 2004, S-791 02 Falun, Sweden
+#W	ber@sunet.se 910411
+#
+
+#N	.hgs.se
+#O	University College Gaevle/Sandviken
+#C	Anders Jackson
+#E	postmaster@hgs.se
+#T	+46 26 64 86 48
+#P	Box 504, S-811 25 Sandviken, Sweden
+#W	ber@sunet.se 900503
+#
+
+#N	.hhs.se
+#O	Handelshogskolan
+#C	Kjell Franzen
+#E	dbakf@hhs.se
+#T	+46 8 736 9414
+#P	Box 6501, S-113 83 Stockholm, Sweden
+#
+
+#N	.hkr.se
+#O	University College Kristianstad
+#C	Ake Bladh	
+#E	Ake.Bladh@data.hkr.se
+#T	+46 55 183085
+#P	Box 59, S-29121 Kristianstad, Sweden
+#L	14 15 E / 56 00 N
+#W	Jan.Engvald@ldc.lu.se 920313
+#
+
+#N	hobbit, .os.se
+#O	Objective Systems SF AB
+#C	Magnus Hyllander
+#E	magnush@os.se
+#T	+46 8 703 45 89
+#P	Box 1128, S-164 22 Kista, Sweden
+#L	59 18 N  17 58 E
+#
+
+#N	.hoe.se
+#O	University College Orebro
+#C	Tomas Liljeberg
+#E	postmaster@hoe.se
+#T	+46 19 31 11 67
+#P	Box 923, S-701 30 Orebro, Sweden
+#L	59 16 N 15 12 E
+#W	ber@sunet.se 901029
+#
+
+#N	.hos.se
+#O	University College Ostersund
+#C	Bengt Nykvist
+#E	bennyk@adm.hos.se
+#T	+46 63 15 53 19
+#P	Box 373, S-831 25 Ostersund, Sweden
+#W	ber@sunet.se 910411
+#
+
+#N	.hsfr.se
+#O	Humanistisk-Samhaellsvetenskapliga forskningsradet
+#C	Torsten Augrell
+#E	torsten@hsfr.se
+#T	+46 8 610 06 77
+#P	Box 6712, S-113 85 Stockholm, Sweden
+#W	ber@sunet.se 920518
+#
+
+#N	.htu.se
+#O	University College Trollhattan/Uddevalla
+#C	Mats Lejon
+#E	lejon@htu.se
+#T	+46 520 10119
+#P	Box 277, S-461 26 Trollhattan, Sweden
+#W	ber@sunet.se 920525
+#
+
+#N	.hv.se
+#O	University College Vaxjo
+#C	Soren Hollander
+#E	Soren.Hollander@utb.hv.se
+#T	+46 470 68547
+#P	Box 5053, S-350 05 Vaxjo, Sweden
+#L	14 50 E / 56 51 N
+#W	Jan.Engvald@ldc.lu.se 900905
+#
+
+#N	.hh.se
+#O	University College Halmstad
+#C	Per-Ola Mansson
+#E	Per-Ola.Mansson@ite.hh.se
+#T	+46 35 153222
+#P	Box 823, S-301 18 Halmstad, Sweden
+#L	12 53 E / 56 40 N
+#W	Jan.Engvald@ldc.lu.se 900905
+#
+
+#N	.hik.se
+#O	University College Kalmar
+#C	Kent Pettersson
+#E	kent@samson.sunet.se
+#T	+46 480 97500
+#P	Box 905; S-391 29 Kalmar, Sweden
+#L	52 22 N 14 54 E
+#
+
+#N	his, .his.se
+#O	University College Skoevde
+#C	Jonas Mellin
+#E	his!jonas
+#T	+46 500 77 646
+#P	Box 408, S-541 28 Skoevde, Sweden
+#L	56 12 N 12 30 E
+#W	his!jonas 870521
+#
+
+#N	.hj.se
+#O	University College Jonkoping
+#C	Camilla Aabom
+#E	postmaster@hj.se
+#T	+46 36 15 77 83
+#P	Box 1026, S-551 11 Jonkoping, Sweden
+#W	ber@sunet.se 900126
+#
+
+#N	.hks.se
+#O	University College Karlstad
+#C	John Nilsson, Rolf Johansson
+#E	john@hks.se
+#T	+46 54 83 80 54
+#P	Box 9501, S-650 09 Karlstad, Sweden
+#W	ber@sunic.sunet.se 900816
+#
+
+#N	.holtec.se
+#O	Holistic Technology AB
+#C	Per Westerlund, Sven Westin
+#E	perw@holtec.se, westin@holtec.se
+#T	+46 31 420370
+#P	Grona Gatan 59, S-414 54 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	perw@holtec.se 880516
+#
+
+#N	hpustoa, .hp.se
+#O	Hewlett-Packard Svenska AB
+#C	Peter Olofson
+#E	hpustoa!peter
+#T	+46 8 7502196
+#P	Box 19, S-163 93 Spaanga, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 850215
+#
+
+#N	.hypercad.se
+#O	Hypercad AB
+#C	Ake Stenhoff
+#E	postmaster@hypercad.se
+#T	+46 31 75 07 65
+#P	Amerikaskjulet, S-414 63 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#
+
+#N	iclswe, iclswe.icl.se
+#O	ICL Data AB
+#C	Lars Tunkrans
+#E	lars@iclswe.icl.se
+#T	+46 760 96550, +46 760 96368
+#P	S-194 85 Upplands Vaesby, Sweden
+#L	59 30 N 17 56 E
+#W	iclswe!sba 880324
+#
+
+#N	idasys, .idasys.se
+#O	IDA Systems AB
+#C	Hans Jansson
+#E	hazze@idasys.se
+#T	+46 13 146780
+#P	Box 576, S-581 07 Linkoping, Sweden
+#W	marc@idasys.se 890901
+#
+
+#N	.infolog.se
+#O	Infologics AB
+#C	Per Andersson
+#E	pera@infolog.se
+#T	+46 8 922031
+#P	Box 91, S-191 22 Sollentuna, Sweden
+#L	59 45 N 18 09 E
+#W	rabbe@infolog 860320, 910123
+#
+
+#N	infovax, .infovox.se
+#O	Infovox AB
+#C	Goran Bostrom
+#E	goran@infovox.se
+#T	+46 8 7538090
+#P	Box 2503, S-171 02 Solna, Sweden
+#L	59 18 N  17 58 E
+#W	enea!ber 870908
+#
+
+#N	inno, .innovision.se
+#O	Innovision AB UBV
+#C	Patrik
+#E	root@innovision.se
+#T	+46 31 353497
+#P	Vaedursgatan 6, S-412 50 Gothenburg, Sweden
+#W	ber@sunet.se 920510
+#
+
+#N	.im.se
+#O	Industri Matematik System AB
+#C	Peter Toernqvist
+#E	peter@im.se
+#T	+46 31 176050
+#P	Vaestra Hamngatan 8, S-411 17 Gothenburg, Sweden
+#L	57 39 N 12 17 E
+#W	peter@im.se 880528
+#
+
+#N	inmic, .inmic.se
+#O	Institutet for Mikroelektronik
+#C	Hans Berggren
+#E	hans@inmic.se
+#T	+46 8 752 10 00
+#P	Isafjordsgatan 22, Box 1084, S-164 21 Kista, Sweden
+#L	59 18 N  17 58 E
+#
+
+#N	ios, .ios.se
+#O	IOS Svenska AB
+#C	Paer Haeggquist
+#E	par@ios.se
+#T	+46 8 272448
+#P	Box 47064, S-100 74 Stockholm 43F, Sweden
+#L	59 19 N  17 57 E
+#W	ios!par 900802
+#
+
+#N	.irf.se
+#O	Institutet for Rymdfysik
+#C	Lars Fernstrom
+#E	lasse@irf.se
+#T	+46 980 79000
+#P	Box 812,  S-981 28 Kiruna, Sweden
+#L	20.4 E / 67.8 N
+#
+#N	irfu, .irfu.se
+#O	Swedish Institute of Space Physics, Uppsala Division
+#C	Jan Djaerv
+#E	jhd@irfu.se
+#T	+46 18 403005
+#P	Lurbo, S-755 90 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	irfu!bt 870918
+#
+
+#N	.iss.se
+#O	Integrated Systems Scandinavia AB (ISS AB)
+#C	Jesper Gummeson
+#E	gummeson@iss.se
+#T	+46 8 275980
+#P	Solnav 51, Box 1560, S-171 29 Solna, Sweden
+#W	ber@sunet.se 920722
+#
+
+#N	itiv, .itiv.se
+#O	ITiV AB
+#C	Lars Stavholm
+#E	stava@itiv.se
+#T	+46 302 203 80
+#P	Box 66, S-420 17 Olofstorp, Sweden
+#W	stava@itiv.se 910923
+#
+
+#N	.itm.se
+#O	Institutet for Tillampad Matematik
+#C	Uno Naevert, Thomas Ericsson
+#E	thomas@itm.se
+#P	Chalmers Teknikpark, S-412 88 Gothenburg, Sweden
+#E	thomas@itm.se 911213
+#
+
+#N	.ivs.se
+#O	Institutet for Verkstadsteknisk forskning
+#C	Jan Sjoegren
+#E	
+#T	+46 31 83 86 00
+#P	Moelndalsv 85, S-412 85 Gothenburg, Sweden
+#W	ber@sunet.se 920520
+#
+
+#N	jada, .jada.se
+#O	Lars Svensson JADA AB
+#C	Peter Sjogren
+#E	peter@jada.se
+#T	+46 8 6618680
+#P	Brahegatan 56, S-114 37 Stockholm, Sweden
+#W	peter@jada.se 920114
+#
+
+#N	jmcdata, .jmc.se
+#O	JMC Data Support
+#C	Hans Andersson
+#E	
+#T	+46 8 82 82 70
+#P	Dalv. 14, S-171 36 Solna, Sweden
+#W	ber@sunet.se 920225
+#
+
+#N	jocke, .impab.se
+#O	IM Program AB
+#C	Goran Lowkrantz
+#E	glz@impab.se
+#T	+46 8 650 75 25
+#P	Flemminggatan 56, S-112 45 Stockholm, Sweden
+#W	ber@sunet.se 910225
+#
+
+#N	.jwdata.se
+#O	Johan Widen Data AB
+#C	Johan Widen
+#E	jw@jwdata.se
+#T	+46 760 20120
+#P	Hugingatan 20, S-195 52 Marsta, Sweden
+#W	jw@jwdata.se 910717
+#
+
+#N	mosh, .komunity.se
+#O	KOMunity Software AB
+#C	Tommy Ericsson
+#E	tommy@komunity.se
+#T	+46 8 342040
+#P	Sveavagen 114, S-113 50 Stockholm, Sweden
+#L	59 21 N 18 04 E
+#W	matts@komunity.se 870926
+#
+
+#N	k-data, .k-data.se
+#O	K-Data AB
+#C	Torbjorn Nordin
+#E	ton@k-data.se
+#T	+46 18 156740
+#P	Box 349, S-751 06 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	ber@sunet.se 900904
+#
+
+#N	kappala, .kappala.se
+#O	Kaeppalaforbundet
+#C	Torsten Palmgren
+#E	tp@kappala.se
+#T	+46 8 7660210
+#P	Box 815, S-181 08 Lidingo, Sweden
+#L	59 35 N 18 06 E
+#W	kappala!tp 901016
+#
+
+#N	.hk-r.se
+#O	University College Karlskrona-Ronneby
+#C	Bengt-Arne Skoog
+#E	Bengt-Arne.Skoog@hk-r.se
+#T	+46 457 71858
+#P	Soft Center, S-372 38 Ronneby, Sweden
+#L	15 30 E / 56 00 N
+#W	Jan.Engvald@ldc.lu.se
+#
+
+#N	.libris.kb.se, .kb.se
+#O	Kungliga Biblioteket
+#C	Arne Nilsson
+#E	
+#T	+46 8 783 39 10
+#P	LIBRIS-avdelningen, Box 5039, S-102 41 Stockholm, Sweden
+#W	ber@sunet.se 920313
+#
+
+#N	.kberg.se
+#O	Karlberg & Karlberg AB
+#C	Svante Gellerstam, Klas Holmgren
+#E	postmaster@kberg.se
+#T	+46 46 474 50
+#P	Flediekyrkvag, S-237 00 Bjaerred, Sweden
+#L	55 69 N 13 18 E city
+#
+
+#N	.kda.se
+#O	Kraftdata AB
+#C	Lars Hallquist
+#E	postmaster@kda.se
+#T	+46 8 700 2500
+#P	Box 3155, S-103 63 Stockholm, Sweden
+#W	ber@sunet.se 911030
+#
+
+#N	khuset, .khuset.se
+#O	Konsulthuset AB
+#C	Torbjorn Andreasson
+#E	postmaster@khuset.se
+#T	+46 31 170280
+#P	Kaserntorget 6, S-411 18 Gothenburg, Sweden
+#L	57 39 N 12 17 E City
+#
+
+#N	km1, .km.se
+#O	Kjessler & Mannerstrale
+#C	Dag Schoeier
+#E	dags@km.se
+#T	+46 31 465250
+#P	Tycho Brahes g 3, S-415 17 Gothenburg, Sweden
+#L	57 39 N 12 17 E City
+#W	dags@km.se 910408
+#
+
+#N	kore, .lk.se
+#O	Logik konsult NP AB
+#C	Tony Rogvall
+#E	tony@lk.se
+#T	+46 8 999622
+#P	VI Novemberv. 210, S-125 34 Aelvsjo, Sweden
+#L	59 18 11 N / 18 00 29 E
+#W	ber@sunet.se 900929
+#
+
+#N	kpa, .kpa.se
+#O	KPA
+#C	Magnus Risberg
+#E	mari@kpa.se
+#T	+46 8 665 0584
+#P	Box 5523, S-114 85 Stockholm, Sweden
+#L	59 31 N 18 10 E
+#
+
+#N	kps, .kps.se, .q8.se
+#O	Kuwait Petroleum Sweden
+#C	Leif Ljung
+#E	llj@kps.se
+#T	+46 8 7990100
+#P	Box 1296, S-171 25 Solna, Sweden
+#L	59 19 N  17 57 E
+#W	kps!peno 871108, 910929
+#
+
+#N	.kth.se
+#O	Royal Institute of Technology, KTH
+#C	Matti Rendahl
+#E	matti@kth.se
+#T	+46 8 790 7224
+#P	S-100 44 Stockholm, Sweden
+#L	59 35 N 18 06 E
+#W	enea!ber 850828
+#
+
+#N	kuling, .uu.se
+#O	University of Uppsala, Dept. of Computer Systems
+#C	Anders Andersson
+#E	kuling!andersa
+#T	+46 18 18 31 70
+#P	Box 520, S-751 20 Uppsala, Sweden
+#L	59 50 N 17 38 E
+#W	kuling!andersa 860803
+#
+
+#N	kullmar, .kullmar.se
+#O	Firma Bo Kullmar Datakonsult
+#C	Bo Kullmar
+#E	kullmar!bk
+#T	+46 8 751 15 18
+#P	Helsingoersgatan 38, S-164 42 Kista, Sweden
+#L	59 18 N  17 58 E
+#W	kullmar!bk 871104
+#
+
+# End of u.swe.1
+SHAR_EOF
+:	End of shell archive
+exit 0
+
