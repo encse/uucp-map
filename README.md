@@ -1,8 +1,180 @@
-This archive contains UCCP map updates from the `comp.mail.maps` usegroup sent 
-between 1987-04-30 and 1992-12-27. 
+This archive contains UCCP map updates from the `comp.mail.maps` newsgroup sent between 1987-04-30 and 1992-12-27. 
 
-Data was obtained from https://www.usenetarchives.com 
+All data was obtained from https://www.usenetarchives.com 
 
+Let's start with the original [README](https://www.usenetarchives.com/view.php?id=comp.mail.maps&mid=PDE2MTJAcnV0Z2Vycy5SVVRHRVJTLkVEVT4) which describes the goal of the maps files, organization and format. Markdown styling added by me.
+
+---
+
+The UUCP map is posted to newsgroup `comp.mail.maps`.
+
+From `rn`, the map can be easily unpacked with a command such as
+`43-46w | (cd ~uucp/uumap ; sh)`
+or you can use John Quarterman's script to automatically unpack the files.
+All files intended as `pathalias` input being with "d." and "u.", thus
+`pathalias Path.* uumap/[du].*`
+is a useful command to run. (You supply Path.* with local additions.)
+
+The map is also available on a demand basis at a number of hosts who
+have volunteered to make their copy available to the general public ;
+details of this access are posted separately in file "network".
+
+The files are organized by country, using the ISO 3166 3 letter country
+code for each country. Each file has a name like u.iso.r1.r2.s, where
+"iso" is the country code, r1, r2, etc are regions and subregions
+(e.g. states in the USA, provinces in Canada, etc.) and s is a sequence
+number (usually 1, but sometimes 2, 3, and up may be provided to keep
+individual files down to a reasonable size, thus, u.usa.ca is separated
+into two regions: [135] for southern, [246] for northern.) In a few
+cases where very large companies post their maps, separate files are used.
+*.a.* are AT&T, *.b.* are Bellcore.
+
+The map contains two types of files: u.* and d.* files. The d.* files
+are for domains registered in the UUCP Zone. The u.* files are for
+UUCP hosts that do not have officially registered domains, but rather
+belong to the unofficial ".UUCP domain". Membership in the UUCP Zone
+allows organizations and individuals to register official, unique,
+domain names, recognized by all major academic computing networks
+worldwide. For more information about joining the UUCP Zone, send
+electronic mail to the UUCP Project at one of the addresses
+`uucp-q****y@s*******e.com
+{uiucdcs,cbosgd,cbatt}!stargate!uucp-query
+cbosgd!stargate!uucp-q****y@s*****.***s.gov`
+or, if you cannot send electronic mail, telephone
++1 213 868 1134
+We strongly encourage you to send email if at all possible, since it
+cuts down on telephone tag and is much more efficient our volunteer
+workforce.
+
+This map can be used to generate mail routes with pathalias. Pathalias
+was posted to Usenet in January 1986 and will be posted again as needed
+The map is also useful to determine the person to contact when a problem
+arises, and to find someone for a new site to connect to.
+
+Please check the entry for your host (and any neighbors for whom you know
+the information and have the time) for correctness and completeness.
+Please send corrections and additional information to `u******p@c*****d.UUCP`
+or `cbosgd!uucpmap` or `cbosgd!u******p@B*******y.EDU`.
+
+This map is maintained by a group of volunteers, making up part of the UUCP
+Project. These people devote many hours of their own time to helping out
+the UUCP community by keeping this map up to date. The volunteers include:
+```
+Rick Adams - ****@s*****o.UUCP
+USA: Conneticut, Delaware, Maine, Massachusetts, Maryland,
+New Hampshire, New Jersey, Rhode Island, Vermont, Virginia,
+Washington D.C., West Virginia
+
+
+Gordon Moffett ***@a*****l.UUCP
+USA: Michigan, New York, North Dakota, South Dakota, Wisconsin
+
+
+Rayan Zachariassen r****n@****.UUCP
+CANADA: All provinces
+
+
+Bill Blue - b****e@c****h.UUCP
+USA: Arizona, California (Southern half)
+
+
+Greg Fowler - f*****r@h*****s.UUCP
+USA: California (Northern half)
+
+
+Karen Summers-Horton - ***@c*****d.UUCP
+USA: Alaska, Idaho, Montana, Nevada, Oregon, Washington, Wyoming
+
+
+Doug McCallum - d****m@***.UUCP
+USA: Arkansas, Colorado, Iowa, Kansas, Louisiana, Mississippi,
+Nebraska, New Mexico, Oklahoma, Texas, Utah
+
+Piet Beertema - Europe (****@m****x.UUCP)
+Europe: all countries (unless otherwise noted)
+
+
+Gene Spafford - ****@g*****h.UUCP
+USA: Florida, Georgia
+
+
+Bill Welch - zaiaz32!u******p@z****z.UUCP
+USA: Alabama, South Carolina
+
+
+Tim Thompson - ***@c*****d.UUCP
+USA: Illinois, Indiana, North Carolina, Ohio,
+Pennsylvania, Tennessee
+
+Hokey - h****y@p****5.UUCP
+USA: Missouri
+
+David Herron - d****d@****.UUCP
+USA: Kentucky
+
+
+Steve Miller - s****e@u**-**s.UUCP
+USA: Minnesota
+
+
+Gary Murakami, Kathy Andrews, Larry Auton - ihnp4!attmap
+ATT: all logical regions
+
+
+Bob Cunningham - ***@i******t.UUCP
+USA: Hawaii
+
+
+Haesoon Cho - h****o@k****t.UUCP
+Korea: all regions
+
+
+Tohru Asami - Japan
+Japan: all regions
+
+
+Robert Elz (***@m******i.UUCP), Dave Davey (d****d@p******.**u.oz)
+Australia: all regions
+
+
+Jim Hand - ****@p****p.UUCP
+Bell Communicates Research (Bellcore): all sections
+
+
+Mel Pleasant - p*******t@r******s.UUCP
+Singapore: all regions
+Indonesia: all regions
+New Zealand: all regions
+````
+
+Please note that the purpose of this map is to make routers within
+UUCP work. The eventual direction is to make the map smaller (through
+the use of domains), not larger. As such, sites with lots of local
+machines connected together are encouraged to create a few gateway
+machines and to make arrangements that these gateways can forward
+mail to your local users. We would prefer not to have information
+listing the machines on your local area networks, and certainly not
+your personal computers and workstations. If you need such information
+for local mail delivery, create a supplement in pathalias form which
+you do not publish, but which you combine with the published data
+when you run pathalias. We also do not want information about machines
+which are not on UUCP, that is, which are not reachable with the !
+notation from the main UUCP cluster.
+
+If you don't have pathalias, it has been posted to mod.sources most
+recently in January 1986. If you
+don't have access to a mod.sources archive, contact the mod.sources
+moderator (currently Rich $alz, cbosgd!mirror!sources-request.)
+
+The remainder of this file describes the format of the UUCP map data.
+It was written July 9, 1985 by Erik E. Fair , and
+last updated July 12, 1985 by Mark Horton .
+
+The entire map is intended to be processed by pathalias, a program that
+generates UUCP routes from this data. All lines beginning in `#` are
+comment lines to pathalias, however the UUCP Project has defined a set
+of these comment lines to have specific format so that a complete
+database could be built.
 
 Each host has an entry in the following format. The entry should begin
 with the `#N` line, end with a blank line after the pathalias data, and
