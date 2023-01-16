@@ -2,7 +2,7 @@ This archive contains UCCP map updates from the `comp.mail.maps` newsgroup sent 
 
 All data was obtained from https://www.usenetarchives.com 
 
-Let's start with the original [README](https://www.usenetarchives.com/view.php?id=comp.mail.maps&mid=PDE2MTJAcnV0Z2Vycy5SVVRHRVJTLkVEVT4) which describes the goal of the maps files, organization and format. Markdown styling added by me.
+The original [README](https://www.usenetarchives.com/view.php?id=comp.mail.maps&mid=PDE2MTJAcnV0Z2Vycy5SVVRHRVJTLkVEVT4) describes the goal of the maps files, organization and format. Markdown styling added by me.
 
 ---
 
